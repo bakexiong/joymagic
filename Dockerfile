@@ -2,7 +2,7 @@ FROM node:22-alpine AS base
 
 # Install dependencies only when needed
 FROM base AS deps
-RUN apk add --no-cache libc6-compat && yarn global add pnpm
+RUN apk add --no-cache libc6-compat && npm install -g pnpm@10.14.0
 
 WORKDIR /app
 
@@ -18,6 +18,12 @@ WORKDIR /app
 
 # Install dependencies based on the preferred package manager
 COPY . .
+
+# 将公开站点配置传入构建，私密凭据仅由 Railway 在运行时注入。
+ARG NEXT_PUBLIC_APP_URL=https://barkobear.com
+ARG NEXT_PUBLIC_CREEM_REVIEW_MODE=true
+ENV NEXT_TELEMETRY_DISABLED=1
+ENV NODE_OPTIONS=--max-old-space-size=4096
 RUN pnpm build
 
 # Production image, copy all the files and run next
