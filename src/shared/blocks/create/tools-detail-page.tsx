@@ -186,6 +186,7 @@ type ReplicaHeroContent = {
 };
 
 type GenericMangoLandingContent = {
+  inputMode?: "text";
   sectionTitle: string;
   sectionIntro: string;
   features: Array<{ title: string; description: string }>;
@@ -202,11 +203,21 @@ function buildGenericHeroIntro({
   sceneTitle,
   category,
   tDetail,
+  toolAlias,
+  locale,
 }: {
   sceneTitle: string;
   category: string;
   tDetail: Translator;
+  toolAlias: string;
+  locale: string;
 }) {
+  if (toolAlias === "text-to-image") {
+    return locale.startsWith("zh")
+      ? "用文字描述主体、场景和风格，选择可用模型生成图片，无需上传源图片。"
+      : "Describe your subject, scene, and style in words, then generate an image with an available model. No source image is required.";
+  }
+
   if (/image to image/i.test(sceneTitle)) {
     return tDetail("genericHero.imageToImageIntro");
   }
@@ -3515,11 +3526,99 @@ function buildGenericMangoLandingContent({
   sceneTitle,
   category,
   workspaceDescription,
+  scenarioType,
+  locale,
 }: {
   sceneTitle: string;
   category: string;
   workspaceDescription: string;
+  scenarioType?: string;
+  locale: string;
 }): GenericMangoLandingContent {
+  // 按工作流类型区分文生图，避免套用需要源图的编辑说明。
+  if (scenarioType === "text-to-image") {
+    const zh = locale.startsWith("zh");
+    return {
+      inputMode: "text",
+      sectionTitle: zh ? "用文字创建 AI 图片" : "Create AI images from text",
+      sectionIntro: zh
+        ? "描述想要的主体、场景和风格，选择可用模型并生成图片。文生图无需上传源图片。"
+        : "Describe your subject, scene, and style, choose an available model, and generate an image from your prompt. No source image is required.",
+      features: [
+        {
+          title: zh ? "从文字创意开始" : "Start with a written idea",
+          description: zh
+            ? "在提示词中描述主体、构图、光线和细节。"
+            : "Describe the subject, composition, lighting, and details in your prompt.",
+        },
+        {
+          title: zh
+            ? "选择模型与输出设置"
+            : "Choose a model and output settings",
+          description: zh
+            ? "选择可用模型，以及该模型支持的画幅和输出选项。"
+            : "Select an available model and use the aspect ratio and output options supported by that model.",
+        },
+        {
+          title: zh ? "生成、检查并调整" : "Generate, review, and refine",
+          description: zh
+            ? "检查生成结果，调整提示词以探索其他效果。测试访问视可用额度和容量而定。"
+            : "Review the output and refine your prompt to explore alternatives. Beta access depends on available allowances and capacity.",
+        },
+      ],
+      stepsTitle: zh ? "如何使用文生图" : "How to use Text to Image",
+      steps: [
+        {
+          title: zh ? "1. 输入文字提示词" : "1. Write your prompt",
+          description: zh
+            ? "用文字描述想要创建的画面，无需上传图片。"
+            : "Write a description of the image you want to create. You do not need to upload an image.",
+        },
+        {
+          title: zh ? "2. 选择生成设置" : "2. Choose generation settings",
+          description: zh
+            ? "选择可用模型和支持的输出选项。"
+            : "Choose an available model and its supported output options.",
+        },
+        {
+          title: zh ? "3. 生成并检查结果" : "3. Generate and review",
+          description: zh
+            ? "提交生成请求，检查可用结果，必要时修改提示词后重试。"
+            : "Submit the request, review available results, and revise your prompt if you want another direction.",
+        },
+      ],
+      faqTitle: zh ? "文生图常见问题" : "Text to Image FAQs",
+      faqs: [
+        {
+          question: zh
+            ? "需要上传源图片吗？"
+            : "Do I need to upload a source image?",
+          answer: zh
+            ? "不需要。文生图以文字提示词为输入；编辑已有图片请使用图生图工作流。"
+            : "No. Text to Image starts from a written prompt. To edit an existing image, choose the Image to Image workflow instead.",
+        },
+        {
+          question: zh
+            ? "怎样描述更清楚？"
+            : "How can I write a clearer prompt?",
+          answer: zh
+            ? "说明主体、场景、构图和风格，并在每次调整时保持一个明确方向。"
+            : "Specify the subject, scene, composition, and style, then make focused changes when refining your prompt.",
+        },
+        {
+          question: zh ? "可以尝试不同风格吗？" : "Can I try different styles?",
+          answer: zh
+            ? "可以。修改提示词或切换可用模型即可探索不同效果，具体以模型支持的功能和测试额度为准。"
+            : "Yes. Revise your prompt or select another available model. Features and access depend on the model and beta allowances.",
+        },
+      ],
+      ctaTitle: zh ? "开始用文字创建图片" : "Start creating images from text",
+      ctaDescription: zh
+        ? "输入提示词并选择可用模型，探索你的下一张图片。"
+        : "Enter a prompt and choose an available model to explore your next image.",
+      ctaButton: zh ? "试用文生图" : "Try Text to Image",
+    };
+  }
   const mediaLabel = category === "Video" ? "video" : "image";
   const mediaLabelPlural = category === "Video" ? "videos" : "images";
   const capitalizedMediaLabel =
@@ -3711,6 +3810,7 @@ function MangoMarketingSection({
   templateItems: WorkbenchTemplateItem[];
   onCtaClick: () => void;
 }) {
+  const isTextToImageGuide = content.inputMode === "text";
   const isImageToImageGuide = /image to image/i.test(content.stepsTitle);
   const isImageUpscalerGuide = /image upscaler/i.test(content.sectionTitle);
   const isImageEraserGuide = /image eraser/i.test(content.sectionTitle);
@@ -3877,7 +3977,18 @@ function MangoMarketingSection({
                 className="overflow-hidden rounded-[28px] border border-[#E5E7EB] bg-[#FFFDF6]"
               >
                 <div className="overflow-hidden border-b border-[#F3E9BE] bg-[linear-gradient(180deg,#FFF6CF_0%,#FFFDF4_100%)]">
-                  {index === 0 ? (
+                  {isTextToImageGuide && index < 2 ? (
+                    <div className="flex aspect-[4/5] flex-col justify-center p-7">
+                      <p className="text-xs font-semibold uppercase tracking-wide text-[#7A5600]">
+                        {index === 0 ? "Prompt" : "Settings"}
+                      </p>
+                      <p className="mt-4 text-sm leading-7 text-[#23282F]">
+                        {index === 0
+                          ? showcaseTemplateItem?.prompt || step.description
+                          : step.description}
+                      </p>
+                    </div>
+                  ) : index === 0 ? (
                     <div className="relative aspect-[4/5] w-full p-4">
                       <div className="overflow-hidden rounded-[22px] border border-white/80 bg-white shadow-[0_12px_30px_rgba(35,40,47,0.08)]">
                         {showcasePoseRefImageUrl ? (
@@ -7088,6 +7199,8 @@ export function ToolsDetailPage({
       sceneTitle: effectiveSceneLabel,
       category,
       tDetail,
+      toolAlias,
+      locale,
     }),
   };
   const genericLandingContent = useMemo(
@@ -7096,8 +7209,10 @@ export function ToolsDetailPage({
         sceneTitle: effectiveSceneLabel,
         category,
         workspaceDescription,
+        scenarioType: toolAlias,
+        locale,
       }),
-    [category, effectiveSceneLabel, workspaceDescription],
+    [category, effectiveSceneLabel, workspaceDescription, toolAlias, locale],
   );
   const genericGenerator = (
     <ToolGenericStudio
