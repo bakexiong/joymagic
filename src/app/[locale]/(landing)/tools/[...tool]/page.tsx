@@ -537,8 +537,14 @@ export default async function ToolsDetailRoutePage({
     normalizedToolPath === "video-effects" ||
     isLegacyKissStyleRoute
   ) {
+    // 审核模式下选择可用特效，避免总入口跳转到已屏蔽页面。
+    const defaultEffectSlug = isCreemReviewMode()
+      ? getVideoEffectItemsSync()[0]?.slug
+      : AI_KISSING_HUB_SLUG;
+    if (!defaultEffectSlug) notFound();
+
     redirect({
-      href: `/tools/video-effect/${AI_KISSING_HUB_SLUG}`,
+      href: `/tools/video-effect/${defaultEffectSlug}`,
       locale,
     });
   }
