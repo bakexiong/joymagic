@@ -56,7 +56,7 @@ export async function generateMetadata({
 
   const title = t("title", {
     defaultValue:
-      "Longcat Avatar - AI Talking Avatar Video Generator with Lip-Sync | joymagic",
+      "Longcat Avatar - AI Talking Avatar Video Generator with Lip-Sync | Barko Bear",
   });
   const description = t("description", {
     defaultValue:
@@ -77,7 +77,7 @@ export async function generateMetadata({
       title,
       description,
       url: canonicalUrl,
-      siteName: "joymagic",
+      siteName: "Barko Bear",
       locale: locale,
       type: "website",
     },

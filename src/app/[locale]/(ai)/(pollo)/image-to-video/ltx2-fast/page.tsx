@@ -60,7 +60,7 @@ export async function generateMetadata({
 
   const title = t("title", {
     defaultValue:
-      "LTX-2 Image to Video | Free AI Image to Video Generator | 4K Image to Video Online | joymagic",
+      "LTX-2 Image to Video | Free AI Image to Video Generator | 4K Image to Video Online | Barko Bear",
   });
   const description = t("description", {
     defaultValue:
@@ -82,7 +82,7 @@ export async function generateMetadata({
       title,
       description,
       url: canonicalUrl,
-      siteName: "joymagic",
+      siteName: "Barko Bear",
       locale: locale,
       type: "website",
     },

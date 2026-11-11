@@ -47,7 +47,7 @@ export async function generateMetadata({
   return {
     title: t("title", {
       defaultValue:
-        "Z Image Turbo Image-to-Image - AI Image Editor | joymagic",
+        "Z Image Turbo Image-to-Image - AI Image Editor | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -55,7 +55,7 @@ export async function generateMetadata({
     }),
     keywords: t("keywords", {
       defaultValue:
-        "z-image-turbo image-to-image, joymagic turbo, image editing, ai image editor, image transformation",
+        "z-image-turbo image-to-image, Barko Bear turbo, image editing, ai image editor, image transformation",
     }),
     alternates: {
       canonical: canonicalUrl,
@@ -225,7 +225,7 @@ export default async function ZImageTurboImageToImagePage({
 
   const softwareSchema = generateSoftwareApplicationSchema({
     name: tPage("schema.softwareName", {
-      defaultValue: "joymagic AI Z Image Turbo Image to Image",
+      defaultValue: "Barko Bear AI Z Image Turbo Image to Image",
     }),
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/image-to-image/z-image-turbo",

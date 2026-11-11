@@ -1,3 +1,4 @@
+import { normalizeSiteText } from "@/shared/lib/site-identity";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
@@ -42,7 +43,7 @@ const TOOL_CATEGORY_COPY: Record<
     label: "AI Image Generator",
     title: "AI Image Generator Online Free",
     description:
-      "Use joymagic as an AI image generator to create product photos, ad creatives, portraits, posters, and social visuals from text prompts.",
+      "Use Barko Bear as an AI image generator to create product photos, ad creatives, portraits, posters, and social visuals from text prompts.",
     keywords:
       "AI image generator, text to image AI, product photo generator, AI portrait generator",
   },
@@ -58,7 +59,7 @@ const TOOL_CATEGORY_COPY: Record<
     label: "AI Video Generator",
     title: "AI Video Generator Online Free",
     description:
-      "Use joymagic as an AI video generator to create short videos from prompts for ads, social posts, cinematic scenes, product storytelling, and creative tests.",
+      "Use Barko Bear as an AI video generator to create short videos from prompts for ads, social posts, cinematic scenes, product storytelling, and creative tests.",
     keywords:
       "AI video generator, text to video AI, AI video maker, video generator online",
   },
@@ -136,32 +137,31 @@ const SPECIFIC_TOOL_SEO_COPY: Record<
   }
 > = {
   [`video-effect/${AI_BIKINI_SLUG}`]: {
-    title: "AI Bikini Video Generator Online | joymagic",
+    title: "AI Bikini Video Generator Online | Barko Bear",
     description:
       "Upload one portrait and create a 5-second AI bikini outfit-change video with Wan 2.7 for beach concepts, summer looks, and fashion clips.",
-    keywords:
-      "AI bikini generator, AI bikini video generator, bikini video AI",
+    keywords: "AI bikini generator, AI bikini video generator, bikini video AI",
   },
   [`video-effect/${AI_FLYING_SLUG}`]: {
-    title: "AI Flying Video Generator Online | joymagic",
+    title: "AI Flying Video Generator Online | Barko Bear",
     description:
       "Turn a full-body photo into an AI flying video with floating, gliding, and soaring motion for social clips and creative scenes.",
     keywords: "AI flying video generator, flying video AI, photo animation",
   },
   [`video-effect/${AI_JIGGLE_SLUG}`]: {
-    title: "AI Jiggle Video Generator Online | joymagic",
+    title: "AI Jiggle Video Generator Online | Barko Bear",
     description:
       "Create a short AI jiggle video from one photo with playful motion, rhythmic movement, and a share-ready video effect.",
     keywords: "AI jiggle video generator, AI video effect, photo animation",
   },
   [`video-effect/${AI_TWERK_SLUG}`]: {
-    title: "AI Twerk Video Generator Online | joymagic",
+    title: "AI Twerk Video Generator Online | Barko Bear",
     description:
       "Turn a still photo into an AI twerk video with dance motion, short-form rhythm, and an easy browser-based workflow.",
     keywords: "AI twerk video generator, AI dance video, photo animation",
   },
   [`video-effect/${AI_KISSING_HUB_SLUG}`]: {
-    title: "AI Kissing Video Generator Online | joymagic",
+    title: "AI Kissing Video Generator Online | Barko Bear",
     description:
       "Create AI kissing videos from photos with romantic couple scenes, natural motion, and share-ready short video results.",
     keywords: "AI kissing video generator, AI kiss video, couple video AI",
@@ -234,7 +234,9 @@ function buildSpecificVideoEffectSeo(slug: string): ToolSeoCopy | null {
   const normalizedPath = `video-effect/${slug}`;
   const fixedCopy = SPECIFIC_TOOL_SEO_COPY[normalizedPath];
   if (fixedCopy) {
-    const item = getVideoEffectItemsSync().find((effect) => effect.slug === slug);
+    const item = getVideoEffectItemsSync().find(
+      (effect) => effect.slug === slug,
+    );
     return {
       ...fixedCopy,
       imageUrl: item?.coverUrl || item?.sourceImageUrl,
@@ -313,6 +315,8 @@ function buildToolMetadata({
   keywords?: string;
   imageUrl?: string;
 }): Metadata {
+  title = normalizeSiteText(title);
+  description = normalizeSiteText(description);
   const canonicalUrl = getCanonicalToolUrl(locale, normalizedToolPath);
   const resolvedImageUrl = imageUrl
     ? imageUrl.startsWith("http")
@@ -332,7 +336,7 @@ function buildToolMetadata({
       url: canonicalUrl,
       title,
       description,
-      siteName: envConfigs.app_name || "joymagic",
+      siteName: envConfigs.app_name || "Barko Bear",
       images: resolvedImageUrl ? [resolvedImageUrl] : undefined,
     },
     twitter: {
@@ -349,10 +353,10 @@ function buildFallbackToolMetadata(locale: string, normalizedToolPath: string) {
   return buildToolMetadata({
     locale,
     normalizedToolPath,
-    title: seoCopy?.title || "AI Creative Tool Online | joymagic",
+    title: seoCopy?.title || "AI Creative Tool Online | Barko Bear",
     description:
       seoCopy?.description ||
-      "Create images, videos, edits, and visual effects online with joymagic's browser-based AI creative tools.",
+      "Create images, videos, edits, and visual effects online with Barko Bear's browser-based AI creative tools.",
     keywords: seoCopy?.keywords,
     imageUrl: seoCopy?.imageUrl,
   });
@@ -409,8 +413,8 @@ export async function generateMetadata({
       locale,
       normalizedToolPath,
       title: isChinese
-        ? "免费 AI 接吻视频生成器 | joymagic"
-        : "Free AI Kissing Video Generator Online | joymagic",
+        ? "免费 AI 接吻视频生成器 | Barko Bear"
+        : "Free AI Kissing Video Generator Online | Barko Bear",
       description: isChinese
         ? "把静态照片变成更自然的浪漫亲吻场景、法式热吻动画和情侣接吻短视频。用 AI Kissing 快速生成更真实、更适合分享的亲吻视频。"
         : "Transform your static photos into lifelike romantic kiss scenes, French kissing animations, and AI-generated couple kiss videos with AI Kissing.",
@@ -425,8 +429,8 @@ export async function generateMetadata({
       locale,
       normalizedToolPath,
       title: isChinese
-        ? "免费 AI Bikini 视频生成器 | joymagic"
-        : "AI Bikini Video Generator Online | joymagic",
+        ? "免费 AI Bikini 视频生成器 | Barko Bear"
+        : "AI Bikini Video Generator Online | Barko Bear",
       description: isChinese
         ? "上传一张人物照片，使用 Wan 2.7 在 5 秒内生成 720p 的 AI Bikini 换装视频效果。适合做海滩风、夏日感和时尚短视频内容。"
         : seoCopy?.description ||
@@ -442,8 +446,8 @@ export async function generateMetadata({
       locale,
       normalizedToolPath,
       title: isChinese
-        ? "免费 AI Twerk 视频生成器 | joymagic"
-        : "Free AI Twerk Video Generator | joymagic",
+        ? "免费 AI Twerk 视频生成器 | Barko Bear"
+        : "Free AI Twerk Video Generator | Barko Bear",
       description: isChinese
         ? "把静态照片变成节奏感更强的 AI 扭胯短视频。上传单人全身照，快速生成更自然、更适合分享的舞蹈效果。"
         : "Turn still photos into energetic AI twerk videos with natural hip motion, dance rhythm, and short-form shareable results.",
@@ -458,8 +462,8 @@ export async function generateMetadata({
       locale,
       normalizedToolPath,
       title: isChinese
-        ? "免费 AI 飞行视频生成器 | joymagic"
-        : "AI Flying Video Generator: Make Anyone Fly in Videos | joymagic",
+        ? "免费 AI 飞行视频生成器 | Barko Bear"
+        : "AI Flying Video Generator: Make Anyone Fly in Videos | Barko Bear",
       description: isChinese
         ? "把照片变成轻盈自然的 AI 飞行视频。上传单人全身照，快速生成漂浮、滑翔、腾空等飞行动画效果。"
         : "Turn still photos into lively flying scenes with floating, gliding, and soaring motion. Create smooth AI flying videos online from a single full-body image.",
@@ -474,8 +478,8 @@ export async function generateMetadata({
       locale,
       normalizedToolPath,
       title: isChinese
-        ? "免费 AI 抖动视频生成器 | joymagic"
-        : "Free AI Jiggle Video Generator Online | joymagic",
+        ? "免费 AI 抖动视频生成器 | Barko Bear"
+        : "Free AI Jiggle Video Generator Online | Barko Bear",
       description: isChinese
         ? "上传单人照片，快速生成更自然、更有弹性节奏感的 AI 抖动短视频。适合做趣味内容、角色演绎和更吸睛的动态展示。"
         : "Turn a single photo into a lively AI jiggle video with playful upper-body motion, bounce, and a short-form result ready to share.",
@@ -490,8 +494,8 @@ export async function generateMetadata({
       locale,
       normalizedToolPath,
       title: isChinese
-        ? "免费 AI 拥抱视频生成器 | joymagic"
-        : "Free AI Hug Video Generator Online | joymagic",
+        ? "免费 AI 拥抱视频生成器 | Barko Bear"
+        : "Free AI Hug Video Generator Online | Barko Bear",
       description: isChinese
         ? "上传包含两个人物的照片，把静态画面变成自然靠近、轻柔拥抱的 AI 拥抱视频。适合情侣、亲友、纪念照和情感向短视频内容。"
         : "Turn a still photo of two people into a warm AI hug video with natural movement, closeness, and a shareable emotional result.",
@@ -569,8 +573,8 @@ export default async function ToolsDetailRoutePage({
     toolPath === "video-effect" || toolPath.startsWith("video-effect/");
   const schemaCopy = getToolSchemaCopy(normalizedToolPath);
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: schemaCopy.name,
-    description: schemaCopy.description,
+    name: normalizeSiteText(schemaCopy.name),
+    description: normalizeSiteText(schemaCopy.description),
     url: `/tools/${normalizedToolPath}`,
     locale,
     category: "MultimediaApplication",

@@ -201,7 +201,7 @@ const commonLabels: Record<string, CommonLabels> = {
 
 const textToImageCopy: Record<string, Wan27TextToImagePageCopy> = {
   en: {
-    metaTitle: "Wan 2.7 Text to Image - Thinking Mode and 4096 Size | joymagic",
+    metaTitle: "Wan 2.7 Text to Image - Thinking Mode and 4096 Size | Barko Bear",
     metaDescription:
       "Generate high-quality images with Wan 2.7 text to image. Set custom width and height, enable Thinking Mode, and use seed control for reproducible results.",
     metaKeywords:
@@ -247,12 +247,12 @@ const textToImageCopy: Record<string, Wan27TextToImagePageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "How to generate images with Wan 2.7",
     howToDescription: "Generate high-quality images from text using Wan 2.7.",
-    softwareName: "joymagic Wan 2.7 Text to Image",
+    softwareName: "Barko Bear Wan 2.7 Text to Image",
     featureList: ["AI text-to-image generation", "Thinking Mode enhancement", "Custom sizes up to 4096"],
   },
   "en-IN": {} as Wan27TextToImagePageCopy,
   zh: {
-    metaTitle: "Wan 2.7 文本生成图片 - Thinking Mode 与 4096 尺寸 | joymagic",
+    metaTitle: "Wan 2.7 文本生成图片 - Thinking Mode 与 4096 尺寸 | Barko Bear",
     metaDescription:
       "使用 Wan 2.7 文生图模型生成高质量图片，支持自定义宽高、Thinking Mode 和 seed 控制，适合高分辨率创作。",
     metaKeywords:
@@ -298,11 +298,11 @@ const textToImageCopy: Record<string, Wan27TextToImagePageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "如何使用 Wan 2.7 生成图片",
     howToDescription: "使用 Wan 2.7 根据文本生成高质量图片。",
-    softwareName: "joymagic Wan 2.7 文本生成图片",
+    softwareName: "Barko Bear Wan 2.7 文本生成图片",
     featureList: ["AI 文本生成图片", "Thinking Mode 增强", "最高 4096 自定义尺寸"],
   },
   "zh-Hant-TW": {
-    metaTitle: "Wan 2.7 文字生成圖片 - Thinking Mode 與 4096 尺寸 | joymagic",
+    metaTitle: "Wan 2.7 文字生成圖片 - Thinking Mode 與 4096 尺寸 | Barko Bear",
     metaDescription:
       "使用 Wan 2.7 文生圖模型生成高品質圖片，支援自訂寬高、Thinking Mode 與 seed 控制，適合高解析度創作。",
     metaKeywords:
@@ -347,12 +347,12 @@ const textToImageCopy: Record<string, Wan27TextToImagePageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "如何使用 Wan 2.7 生成圖片",
     howToDescription: "使用 Wan 2.7 根據文字生成高品質圖片。",
-    softwareName: "joymagic Wan 2.7 文字生成圖片",
+    softwareName: "Barko Bear Wan 2.7 文字生成圖片",
     featureList: ["AI 文字生成圖片", "Thinking Mode 增強", "最高 4096 自訂尺寸"],
   },
   "zh-hk": {} as Wan27TextToImagePageCopy,
   "de-DE": {
-    metaTitle: "Wan 2.7 Text-zu-Bild - Thinking Mode und 4096 Größe | joymagic",
+    metaTitle: "Wan 2.7 Text-zu-Bild - Thinking Mode und 4096 Größe | Barko Bear",
     metaDescription:
       "Erstellen Sie hochwertige Bilder mit Wan 2.7 Text-zu-Bild. Nutzen Sie benutzerdefinierte Breite und Höhe, Thinking Mode und Seed-Kontrolle.",
     metaKeywords:
@@ -398,11 +398,11 @@ const textToImageCopy: Record<string, Wan27TextToImagePageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "So erzeugen Sie Bilder mit Wan 2.7",
     howToDescription: "Erzeugen Sie mit Wan 2.7 hochwertige Bilder aus Text.",
-    softwareName: "joymagic Wan 2.7 Text zu Bild",
+    softwareName: "Barko Bear Wan 2.7 Text zu Bild",
     featureList: ["KI Text-zu-Bild", "Thinking Mode", "Benutzerdefinierte Größen bis 4096"],
   },
   "ko-KR": {
-    metaTitle: "Wan 2.7 텍스트 이미지 생성 - Thinking Mode와 4096 크기 | joymagic",
+    metaTitle: "Wan 2.7 텍스트 이미지 생성 - Thinking Mode와 4096 크기 | Barko Bear",
     metaDescription:
       "Wan 2.7 텍스트 이미지 생성으로 고품질 이미지를 만드세요. 사용자 지정 너비와 높이, Thinking Mode, seed 제어를 지원합니다.",
     metaKeywords:
@@ -447,11 +447,11 @@ const textToImageCopy: Record<string, Wan27TextToImagePageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "Wan 2.7으로 이미지 생성하는 방법",
     howToDescription: "Wan 2.7으로 텍스트에서 고품질 이미지를 생성합니다.",
-    softwareName: "joymagic Wan 2.7 텍스트 이미지 생성",
+    softwareName: "Barko Bear Wan 2.7 텍스트 이미지 생성",
     featureList: ["AI 텍스트 이미지 생성", "Thinking Mode", "최대 4096 사용자 지정 크기"],
   },
   "ja-JP": {
-    metaTitle: "Wan 2.7 テキストから画像 - Thinking Mode と 4096 サイズ | joymagic",
+    metaTitle: "Wan 2.7 テキストから画像 - Thinking Mode と 4096 サイズ | Barko Bear",
     metaDescription:
       "Wan 2.7 のテキストから画像で高品質な画像を生成。幅と高さの指定、Thinking Mode、seed 制御に対応しています。",
     metaKeywords:
@@ -496,11 +496,11 @@ const textToImageCopy: Record<string, Wan27TextToImagePageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "Wan 2.7 で画像を生成する方法",
     howToDescription: "Wan 2.7 を使ってテキストから高品質な画像を生成します。",
-    softwareName: "joymagic Wan 2.7 テキストから画像",
+    softwareName: "Barko Bear Wan 2.7 テキストから画像",
     featureList: ["AI テキストから画像", "Thinking Mode", "最大 4096 のカスタムサイズ"],
   },
   "es-ES": {
-    metaTitle: "Wan 2.7 Texto a Imagen - Thinking Mode y tamaño 4096 | joymagic",
+    metaTitle: "Wan 2.7 Texto a Imagen - Thinking Mode y tamaño 4096 | Barko Bear",
     metaDescription:
       "Genera imágenes de alta calidad con Wan 2.7 texto a imagen. Usa ancho y alto personalizados, Thinking Mode y control de seed.",
     metaKeywords:
@@ -546,11 +546,11 @@ const textToImageCopy: Record<string, Wan27TextToImagePageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "Cómo generar imágenes con Wan 2.7",
     howToDescription: "Genera imágenes de alta calidad a partir de texto con Wan 2.7.",
-    softwareName: "joymagic Wan 2.7 Texto a Imagen",
+    softwareName: "Barko Bear Wan 2.7 Texto a Imagen",
     featureList: ["IA de texto a imagen", "Thinking Mode", "Tamaños personalizados hasta 4096"],
   },
   "it-IT": {
-    metaTitle: "Wan 2.7 Testo in Immagine - Thinking Mode e dimensione 4096 | joymagic",
+    metaTitle: "Wan 2.7 Testo in Immagine - Thinking Mode e dimensione 4096 | Barko Bear",
     metaDescription:
       "Genera immagini di alta qualità con Wan 2.7 testo in immagine. Supporta larghezza e altezza personalizzate, Thinking Mode e controllo seed.",
     metaKeywords:
@@ -596,11 +596,11 @@ const textToImageCopy: Record<string, Wan27TextToImagePageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "Come generare immagini con Wan 2.7",
     howToDescription: "Genera immagini di alta qualità da testo con Wan 2.7.",
-    softwareName: "joymagic Wan 2.7 Testo in Immagine",
+    softwareName: "Barko Bear Wan 2.7 Testo in Immagine",
     featureList: ["AI testo in immagine", "Thinking Mode", "Dimensioni personalizzate fino a 4096"],
   },
   "pt-BR": {
-    metaTitle: "Wan 2.7 Texto para Imagem - Thinking Mode e tamanho 4096 | joymagic",
+    metaTitle: "Wan 2.7 Texto para Imagem - Thinking Mode e tamanho 4096 | Barko Bear",
     metaDescription:
       "Gere imagens de alta qualidade com Wan 2.7 texto para imagem. Use largura e altura personalizadas, Thinking Mode e controle de seed.",
     metaKeywords:
@@ -646,11 +646,11 @@ const textToImageCopy: Record<string, Wan27TextToImagePageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "Como gerar imagens com Wan 2.7",
     howToDescription: "Gere imagens de alta qualidade a partir de texto com Wan 2.7.",
-    softwareName: "joymagic Wan 2.7 Texto para Imagem",
+    softwareName: "Barko Bear Wan 2.7 Texto para Imagem",
     featureList: ["IA texto para imagem", "Thinking Mode", "Tamanhos personalizados até 4096"],
   },
   "ru-RU": {
-    metaTitle: "Wan 2.7 Текст в изображение - Thinking Mode и размер 4096 | joymagic",
+    metaTitle: "Wan 2.7 Текст в изображение - Thinking Mode и размер 4096 | Barko Bear",
     metaDescription:
       "Создавайте качественные изображения с Wan 2.7 текст в изображение. Поддерживаются настраиваемые ширина и высота, Thinking Mode и seed.",
     metaKeywords:
@@ -696,11 +696,11 @@ const textToImageCopy: Record<string, Wan27TextToImagePageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "Как генерировать изображения с Wan 2.7",
     howToDescription: "Создавайте качественные изображения из текста с помощью Wan 2.7.",
-    softwareName: "joymagic Wan 2.7 Текст в изображение",
+    softwareName: "Barko Bear Wan 2.7 Текст в изображение",
     featureList: ["ИИ текст в изображение", "Thinking Mode", "Пользовательские размеры до 4096"],
   },
   "tr-TR": {
-    metaTitle: "Wan 2.7 Metinden Görsele - Thinking Mode ve 4096 boyut | joymagic",
+    metaTitle: "Wan 2.7 Metinden Görsele - Thinking Mode ve 4096 boyut | Barko Bear",
     metaDescription:
       "Wan 2.7 metinden görsele ile yüksek kaliteli görseller oluşturun. Özel genişlik ve yükseklik, Thinking Mode ve seed kontrolü desteklenir.",
     metaKeywords:
@@ -746,11 +746,11 @@ const textToImageCopy: Record<string, Wan27TextToImagePageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "Wan 2.7 ile görsel nasıl üretilir",
     howToDescription: "Wan 2.7 ile metinden yüksek kaliteli görseller üretin.",
-    softwareName: "joymagic Wan 2.7 Metinden Görsele",
+    softwareName: "Barko Bear Wan 2.7 Metinden Görsele",
     featureList: ["Yapay zeka metinden görsele", "Thinking Mode", "4096'ya kadar özel boyutlar"],
   },
   "ps-AF": {
-    metaTitle: "Wan 2.7 له متن څخه انځور - Thinking Mode او 4096 اندازه | joymagic",
+    metaTitle: "Wan 2.7 له متن څخه انځور - Thinking Mode او 4096 اندازه | Barko Bear",
     metaDescription:
       "د Wan 2.7 له متن څخه انځور ماډل په مرسته لوړ کیفیت انځورونه جوړ کړئ. د عرض، لوړوالي، Thinking Mode او seed کنټرول ملاتړ کوي.",
     metaKeywords:
@@ -796,7 +796,7 @@ const textToImageCopy: Record<string, Wan27TextToImagePageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "په Wan 2.7 سره انځور څنګه جوړ کړو",
     howToDescription: "په Wan 2.7 سره له متن څخه لوړ کیفیت انځورونه جوړ کړئ.",
-    softwareName: "joymagic Wan 2.7 له متن څخه انځور",
+    softwareName: "Barko Bear Wan 2.7 له متن څخه انځور",
     featureList: ["AI له متن څخه انځور", "Thinking Mode", "تر 4096 پورې دودیزه اندازه"],
   },
 };
@@ -972,7 +972,7 @@ export function getWan27ImageToImagePageCopy(locale: string): Wan27ImageToImageP
 
   const localized: Record<string, Wan27ImageToImagePageCopy> = {
     en: {
-      metaTitle: "Wan 2.7 Image to Image - Custom Size and Seed Control | joymagic",
+      metaTitle: "Wan 2.7 Image to Image - Custom Size and Seed Control | Barko Bear",
       metaDescription:
         "Edit and transform images with Wan 2.7 image to image. Upload reference images, control size up to 4096, and refine results with seed.",
       metaKeywords:
@@ -1017,12 +1017,12 @@ export function getWan27ImageToImagePageCopy(locale: string): Wan27ImageToImageP
       breadcrumbModel: "Wan 2.7",
       howToName: "How to edit images with Wan 2.7",
       howToDescription: "Edit images with Wan 2.7 using reference images and prompts.",
-      softwareName: "joymagic Wan 2.7 Image to Image",
+      softwareName: "Barko Bear Wan 2.7 Image to Image",
       featureList: ["AI image-to-image editing", "Custom size control", "Multi-image input and seed control"],
     },
     "en-IN": {} as Wan27ImageToImagePageCopy,
     zh: {
-      metaTitle: "Wan 2.7 图生图 - 自定义 Size 与 Seed 控制 | joymagic",
+      metaTitle: "Wan 2.7 图生图 - 自定义 Size 与 Seed 控制 | Barko Bear",
       metaDescription:
         "使用 Wan 2.7 图生图编辑和转换图片，支持多图输入、自定义 size、宽高控制和 seed 复现。",
       metaKeywords:
@@ -1067,14 +1067,14 @@ export function getWan27ImageToImagePageCopy(locale: string): Wan27ImageToImageP
       breadcrumbModel: "Wan 2.7",
       howToName: "如何使用 Wan 2.7 编辑图片",
       howToDescription: "使用 Wan 2.7 结合参考图和提示词编辑图片。",
-      softwareName: "joymagic Wan 2.7 图生图",
+      softwareName: "Barko Bear Wan 2.7 图生图",
       featureList: ["AI 图生图编辑", "自定义 size", "多图输入与 seed 控制"],
     },
   };
 
   localized["en-IN"] = localized.en;
   localized["zh-Hant-TW"] = {
-    metaTitle: "Wan 2.7 圖生圖 - 自訂 Size 與 Seed 控制 | joymagic",
+    metaTitle: "Wan 2.7 圖生圖 - 自訂 Size 與 Seed 控制 | Barko Bear",
     metaDescription:
       "使用 Wan 2.7 圖生圖編輯與轉換圖片，支援多圖輸入、自訂 size、寬高控制與 seed 重現。",
     metaKeywords: "Wan 2.7, 圖生圖, AI 圖片編輯, size, 寬高, seed, 阿里雲",
@@ -1117,12 +1117,12 @@ export function getWan27ImageToImagePageCopy(locale: string): Wan27ImageToImageP
     breadcrumbModel: "Wan 2.7",
     howToName: "如何使用 Wan 2.7 編輯圖片",
     howToDescription: "使用 Wan 2.7 結合參考圖與提示詞編輯圖片。",
-    softwareName: "joymagic Wan 2.7 圖生圖",
+    softwareName: "Barko Bear Wan 2.7 圖生圖",
     featureList: ["AI 圖生圖編輯", "自訂 size", "多圖輸入與 seed 控制"],
   };
   localized["zh-hk"] = localized["zh-Hant-TW"];
   localized["de-DE"] = {
-    metaTitle: "Wan 2.7 Bild-zu-Bild - Benutzerdefinierte Größe und Seed | joymagic",
+    metaTitle: "Wan 2.7 Bild-zu-Bild - Benutzerdefinierte Größe und Seed | Barko Bear",
     metaDescription: "Bearbeiten und transformieren Sie Bilder mit Wan 2.7 Bild-zu-Bild. Laden Sie Referenzbilder hoch, steuern Sie die Größe bis 4096 und verfeinern Sie Ergebnisse mit Seed.",
     metaKeywords: "Wan 2.7, Bild zu Bild, KI Bildbearbeitung, benutzerdefinierte Größe, Breite, Höhe, Seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 Bild-zu-Bild",
@@ -1163,11 +1163,11 @@ export function getWan27ImageToImagePageCopy(locale: string): Wan27ImageToImageP
     breadcrumbModel: "Wan 2.7",
     howToName: "So bearbeiten Sie Bilder mit Wan 2.7",
     howToDescription: "Bearbeiten Sie Bilder mit Wan 2.7 anhand von Referenzbildern und Prompts.",
-    softwareName: "joymagic Wan 2.7 Bild zu Bild",
+    softwareName: "Barko Bear Wan 2.7 Bild zu Bild",
     featureList: ["KI Bild-zu-Bild-Bearbeitung", "Benutzerdefinierte Größenkontrolle", "Mehrfachbild-Eingabe und Seed-Kontrolle"],
   };
   localized["ko-KR"] = {
-    metaTitle: "Wan 2.7 이미지 편집 - 사용자 지정 크기와 seed 제어 | joymagic",
+    metaTitle: "Wan 2.7 이미지 편집 - 사용자 지정 크기와 seed 제어 | Barko Bear",
     metaDescription: "Wan 2.7 이미지 편집으로 이미지를 변환하세요. 참조 이미지를 업로드하고 최대 4096 크기를 제어하며 seed로 결과를 다듬을 수 있습니다.",
     metaKeywords: "Wan 2.7, 이미지 편집, AI 이미지 편집, 사용자 지정 크기, 너비, 높이, seed, 알리바바 클라우드",
     heroTitle: "Wan 2.7 이미지 편집",
@@ -1208,11 +1208,11 @@ export function getWan27ImageToImagePageCopy(locale: string): Wan27ImageToImageP
     breadcrumbModel: "Wan 2.7",
     howToName: "Wan 2.7으로 이미지 편집하는 방법",
     howToDescription: "참조 이미지와 프롬프트를 사용해 Wan 2.7으로 이미지를 편집합니다.",
-    softwareName: "joymagic Wan 2.7 이미지 편집",
+    softwareName: "Barko Bear Wan 2.7 이미지 편집",
     featureList: ["AI 이미지 편집", "사용자 지정 크기 제어", "멀티 이미지 입력과 seed 제어"],
   };
   localized["ja-JP"] = {
-    metaTitle: "Wan 2.7 画像から画像 - カスタム size と seed 制御 | joymagic",
+    metaTitle: "Wan 2.7 画像から画像 - カスタム size と seed 制御 | Barko Bear",
     metaDescription: "Wan 2.7 画像から画像で画像を編集・変換。参照画像をアップロードし、最大 4096 の size と seed で結果を調整できます。",
     metaKeywords: "Wan 2.7, 画像から画像, AI画像編集, カスタムサイズ, 幅, 高さ, seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 画像から画像",
@@ -1253,11 +1253,11 @@ export function getWan27ImageToImagePageCopy(locale: string): Wan27ImageToImageP
     breadcrumbModel: "Wan 2.7",
     howToName: "Wan 2.7 で画像を編集する方法",
     howToDescription: "参照画像とプロンプトを使って Wan 2.7 で画像を編集します。",
-    softwareName: "joymagic Wan 2.7 画像から画像",
+    softwareName: "Barko Bear Wan 2.7 画像から画像",
     featureList: ["AI 画像編集", "カスタム size 制御", "複数画像入力と seed 制御"],
   };
   localized["es-ES"] = {
-    metaTitle: "Wan 2.7 Imagen a Imagen - Tamaño personalizado y seed | joymagic",
+    metaTitle: "Wan 2.7 Imagen a Imagen - Tamaño personalizado y seed | Barko Bear",
     metaDescription: "Edita y transforma imágenes con Wan 2.7 imagen a imagen. Sube referencias, controla el tamaño hasta 4096 y ajusta el resultado con seed.",
     metaKeywords: "Wan 2.7, imagen a imagen, edición de imágenes IA, tamaño personalizado, ancho, alto, seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 Imagen a Imagen",
@@ -1298,11 +1298,11 @@ export function getWan27ImageToImagePageCopy(locale: string): Wan27ImageToImageP
     breadcrumbModel: "Wan 2.7",
     howToName: "Cómo editar imágenes con Wan 2.7",
     howToDescription: "Edita imágenes con Wan 2.7 usando referencias y prompts.",
-    softwareName: "joymagic Wan 2.7 Imagen a Imagen",
+    softwareName: "Barko Bear Wan 2.7 Imagen a Imagen",
     featureList: ["Edición IA imagen a imagen", "Control de tamaño personalizado", "Entrada múltiple de imágenes y control de seed"],
   };
   localized["it-IT"] = {
-    metaTitle: "Wan 2.7 Immagine a Immagine - Dimensione personalizzata e seed | joymagic",
+    metaTitle: "Wan 2.7 Immagine a Immagine - Dimensione personalizzata e seed | Barko Bear",
     metaDescription: "Modifica e trasforma immagini con Wan 2.7 immagine a immagine. Carica riferimenti, controlla la dimensione fino a 4096 e rifinisci il risultato con seed.",
     metaKeywords: "Wan 2.7, immagine a immagine, editing immagini AI, dimensione personalizzata, larghezza, altezza, seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 Immagine a Immagine",
@@ -1343,11 +1343,11 @@ export function getWan27ImageToImagePageCopy(locale: string): Wan27ImageToImageP
     breadcrumbModel: "Wan 2.7",
     howToName: "Come modificare immagini con Wan 2.7",
     howToDescription: "Modifica immagini con Wan 2.7 usando riferimenti e prompt.",
-    softwareName: "joymagic Wan 2.7 Immagine a Immagine",
+    softwareName: "Barko Bear Wan 2.7 Immagine a Immagine",
     featureList: ["Editing AI immagine a immagine", "Controllo dimensione personalizzata", "Input multi-immagine e controllo seed"],
   };
   localized["pt-BR"] = {
-    metaTitle: "Wan 2.7 Imagem para Imagem - Tamanho personalizado e seed | joymagic",
+    metaTitle: "Wan 2.7 Imagem para Imagem - Tamanho personalizado e seed | Barko Bear",
     metaDescription: "Edite e transforme imagens com Wan 2.7 imagem para imagem. Envie referências, controle o tamanho até 4096 e refine o resultado com seed.",
     metaKeywords: "Wan 2.7, imagem para imagem, edição de imagem IA, tamanho personalizado, largura, altura, seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 Imagem para Imagem",
@@ -1388,11 +1388,11 @@ export function getWan27ImageToImagePageCopy(locale: string): Wan27ImageToImageP
     breadcrumbModel: "Wan 2.7",
     howToName: "Como editar imagens com Wan 2.7",
     howToDescription: "Edite imagens com Wan 2.7 usando referências e prompts.",
-    softwareName: "joymagic Wan 2.7 Imagem para Imagem",
+    softwareName: "Barko Bear Wan 2.7 Imagem para Imagem",
     featureList: ["Edição IA imagem para imagem", "Controle de tamanho personalizado", "Entrada multi-imagem e controle de seed"],
   };
   localized["ru-RU"] = {
-    metaTitle: "Wan 2.7 Изображение в изображение - Пользовательский размер и seed | joymagic",
+    metaTitle: "Wan 2.7 Изображение в изображение - Пользовательский размер и seed | Barko Bear",
     metaDescription: "Редактируйте и трансформируйте изображения с Wan 2.7 image-to-image. Загружайте референсы, управляйте размером до 4096 и уточняйте результат через seed.",
     metaKeywords: "Wan 2.7, изображение в изображение, ИИ редактирование изображений, пользовательский размер, ширина, высота, seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 Изображение в изображение",
@@ -1433,11 +1433,11 @@ export function getWan27ImageToImagePageCopy(locale: string): Wan27ImageToImageP
     breadcrumbModel: "Wan 2.7",
     howToName: "Как редактировать изображения с Wan 2.7",
     howToDescription: "Редактируйте изображения с Wan 2.7, используя референсы и промпты.",
-    softwareName: "joymagic Wan 2.7 Изображение в изображение",
+    softwareName: "Barko Bear Wan 2.7 Изображение в изображение",
     featureList: ["ИИ редактирование image-to-image", "Пользовательский размер", "Мульти-вход изображений и контроль seed"],
   };
   localized["tr-TR"] = {
-    metaTitle: "Wan 2.7 Görselden Görsele - Özel boyut ve seed kontrolü | joymagic",
+    metaTitle: "Wan 2.7 Görselden Görsele - Özel boyut ve seed kontrolü | Barko Bear",
     metaDescription: "Wan 2.7 görselden görsele ile görselleri düzenleyin ve dönüştürün. Referans görseller yükleyin, boyutu 4096'ya kadar kontrol edin ve sonucu seed ile iyileştirin.",
     metaKeywords: "Wan 2.7, görselden görsele, yapay zeka görsel düzenleme, özel boyut, genişlik, yükseklik, seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 Görselden Görsele",
@@ -1478,11 +1478,11 @@ export function getWan27ImageToImagePageCopy(locale: string): Wan27ImageToImageP
     breadcrumbModel: "Wan 2.7",
     howToName: "Wan 2.7 ile görseller nasıl düzenlenir",
     howToDescription: "Referans görseller ve prompt'lar ile Wan 2.7 kullanarak görselleri düzenleyin.",
-    softwareName: "joymagic Wan 2.7 Görselden Görsele",
+    softwareName: "Barko Bear Wan 2.7 Görselden Görsele",
     featureList: ["Yapay zeka image-to-image düzenleme", "Özel boyut kontrolü", "Çoklu görsel girişi ve seed kontrolü"],
   };
   localized["ps-AF"] = {
-    metaTitle: "Wan 2.7 له انځور څخه انځور - دودیزه اندازه او seed کنټرول | joymagic",
+    metaTitle: "Wan 2.7 له انځور څخه انځور - دودیزه اندازه او seed کنټرول | Barko Bear",
     metaDescription: "انځورونه د Wan 2.7 image-to-image په وسیله سم او بدل کړئ. مرستندویه انځورونه پورته کړئ، تر 4096 پورې اندازه کنټرول کړئ او پایلې د seed په وسیله نورې هم سمې کړئ.",
     metaKeywords: "Wan 2.7, له انځور څخه انځور, AI انځور سمون, دودیزه اندازه, عرض, لوړوالی, seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 له انځور څخه انځور",
@@ -1523,7 +1523,7 @@ export function getWan27ImageToImagePageCopy(locale: string): Wan27ImageToImageP
     breadcrumbModel: "Wan 2.7",
     howToName: "په Wan 2.7 سره انځورونه څنګه سم کړو",
     howToDescription: "په Wan 2.7 سره د مرستندویه انځورونو او prompt په کارولو انځورونه سم کړئ.",
-    softwareName: "joymagic Wan 2.7 له انځور څخه انځور",
+    softwareName: "Barko Bear Wan 2.7 له انځور څخه انځور",
     featureList: ["AI image-to-image سمون", "دودیزه اندازه", "څو انځوریز ننوت او seed کنټرول"],
   };
 
@@ -1566,7 +1566,7 @@ type Wan27TextToVideoPageCopy = {
 
 const textToVideoCopy: Record<string, Wan27TextToVideoPageCopy> = {
   en: {
-    metaTitle: "Wan 2.7 Text to Video - 1080p, 15s, Aspect Ratio Control | joymagic",
+    metaTitle: "Wan 2.7 Text to Video - 1080p, 15s, Aspect Ratio Control | Barko Bear",
     metaDescription:
       "Generate videos from text with Wan 2.7. Control resolution, aspect ratio, duration, prompt expansion, optional audio, and seed in one creator workflow.",
     metaKeywords:
@@ -1612,12 +1612,12 @@ const textToVideoCopy: Record<string, Wan27TextToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "How to generate videos with Wan 2.7",
     howToDescription: "Generate AI videos from text prompts using Wan 2.7.",
-    softwareName: "joymagic Wan 2.7 Text to Video",
+    softwareName: "Barko Bear Wan 2.7 Text to Video",
     featureList: ["AI text-to-video generation", "1080p and aspect ratio control", "Optional audio and prompt expansion"],
   },
   "en-IN": {} as Wan27TextToVideoPageCopy,
   zh: {
-    metaTitle: "Wan 2.7 文本生成视频 - 1080p、15 秒与宽高比控制 | joymagic",
+    metaTitle: "Wan 2.7 文本生成视频 - 1080p、15 秒与宽高比控制 | Barko Bear",
     metaDescription:
       "使用 Wan 2.7 从文本生成视频，支持分辨率、宽高比、时长、提示词扩写、可选音频和 seed 控制。",
     metaKeywords:
@@ -1663,11 +1663,11 @@ const textToVideoCopy: Record<string, Wan27TextToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "如何使用 Wan 2.7 生成视频",
     howToDescription: "使用 Wan 2.7 根据文本提示词生成 AI 视频。",
-    softwareName: "joymagic Wan 2.7 文本生成视频",
+    softwareName: "Barko Bear Wan 2.7 文本生成视频",
     featureList: ["AI 文本生成视频", "1080p 与宽高比控制", "可选音频与提示词扩写"],
   },
   "zh-Hant-TW": {
-    metaTitle: "Wan 2.7 文字生成影片 - 1080p、15 秒與畫面比例控制 | joymagic",
+    metaTitle: "Wan 2.7 文字生成影片 - 1080p、15 秒與畫面比例控制 | Barko Bear",
     metaDescription:
       "使用 Wan 2.7 從文字生成影片，支援解析度、畫面比例、時長、提示詞擴寫、可選音訊與 seed 控制。",
     metaKeywords:
@@ -1712,12 +1712,12 @@ const textToVideoCopy: Record<string, Wan27TextToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "如何使用 Wan 2.7 生成影片",
     howToDescription: "使用 Wan 2.7 根據文字提示詞生成 AI 影片。",
-    softwareName: "joymagic Wan 2.7 文字生成影片",
+    softwareName: "Barko Bear Wan 2.7 文字生成影片",
     featureList: ["AI 文字生成影片", "1080p 與畫面比例控制", "可選音訊與提示詞擴寫"],
   },
   "zh-hk": {} as Wan27TextToVideoPageCopy,
   "de-DE": {
-    metaTitle: "Wan 2.7 Text-zu-Video - 1080p, 15 Sekunden und Seitenverhältnis | joymagic",
+    metaTitle: "Wan 2.7 Text-zu-Video - 1080p, 15 Sekunden und Seitenverhältnis | Barko Bear",
     metaDescription: "Erstellen Sie Videos aus Text mit Wan 2.7. Unterstützt Auflösung, Seitenverhältnis, Dauer, Prompt-Erweiterung, optionales Audio und Seed-Kontrolle.",
     metaKeywords: "Wan 2.7, Text zu Video, KI Videogenerator, 1080p, Seitenverhältnis, Prompt-Erweiterung, Seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 Text-zu-Video",
@@ -1758,11 +1758,11 @@ const textToVideoCopy: Record<string, Wan27TextToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "So erzeugen Sie Videos mit Wan 2.7",
     howToDescription: "Erstellen Sie KI-Videos aus Text-Prompts mit Wan 2.7.",
-    softwareName: "joymagic Wan 2.7 Text zu Video",
+    softwareName: "Barko Bear Wan 2.7 Text zu Video",
     featureList: ["KI Text-zu-Video", "1080p und Seitenverhältnis", "Optionales Audio und Prompt-Erweiterung"],
   },
   "ko-KR": {
-    metaTitle: "Wan 2.7 텍스트 비디오 생성 - 1080p, 15초, 화면비 제어 | joymagic",
+    metaTitle: "Wan 2.7 텍스트 비디오 생성 - 1080p, 15초, 화면비 제어 | Barko Bear",
     metaDescription: "Wan 2.7로 텍스트에서 영상을 생성하세요. 해상도, 화면비, 길이, 프롬프트 확장, 선택형 오디오, seed 제어를 지원합니다.",
     metaKeywords: "Wan 2.7, 텍스트 비디오 생성, AI 비디오 생성기, 1080p, 화면비, 프롬프트 확장, seed, 알리바바 클라우드",
     heroTitle: "Wan 2.7 텍스트 비디오 생성",
@@ -1803,11 +1803,11 @@ const textToVideoCopy: Record<string, Wan27TextToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "Wan 2.7으로 영상 생성하는 방법",
     howToDescription: "Wan 2.7으로 텍스트 프롬프트에서 AI 영상을 생성합니다.",
-    softwareName: "joymagic Wan 2.7 텍스트 비디오 생성",
+    softwareName: "Barko Bear Wan 2.7 텍스트 비디오 생성",
     featureList: ["AI 텍스트 비디오 생성", "1080p 및 화면비 제어", "선택형 오디오와 프롬프트 확장"],
   },
   "ja-JP": {
-    metaTitle: "Wan 2.7 テキストから動画 - 1080p、15秒、アスペクト比制御 | joymagic",
+    metaTitle: "Wan 2.7 テキストから動画 - 1080p、15秒、アスペクト比制御 | Barko Bear",
     metaDescription: "Wan 2.7 でテキストから動画を生成。解像度、アスペクト比、長さ、プロンプト拡張、任意の音声、seed 制御に対応しています。",
     metaKeywords: "Wan 2.7, テキストから動画, AI動画生成, 1080p, アスペクト比, プロンプト拡張, seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 テキストから動画",
@@ -1848,11 +1848,11 @@ const textToVideoCopy: Record<string, Wan27TextToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "Wan 2.7 で動画を生成する方法",
     howToDescription: "Wan 2.7 を使ってテキスト prompt から AI 動画を生成します。",
-    softwareName: "joymagic Wan 2.7 テキストから動画",
+    softwareName: "Barko Bear Wan 2.7 テキストから動画",
     featureList: ["AI テキストから動画", "1080p とアスペクト比制御", "任意音声とプロンプト拡張"],
   },
   "es-ES": {
-    metaTitle: "Wan 2.7 Texto a Video - 1080p, 15 segundos y relación de aspecto | joymagic",
+    metaTitle: "Wan 2.7 Texto a Video - 1080p, 15 segundos y relación de aspecto | Barko Bear",
     metaDescription: "Genera videos desde texto con Wan 2.7. Controla resolución, relación de aspecto, duración, expansión de prompt, audio opcional y seed.",
     metaKeywords: "Wan 2.7, texto a video, generador de video IA, 1080p, relación de aspecto, expansión de prompt, seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 Texto a Video",
@@ -1893,11 +1893,11 @@ const textToVideoCopy: Record<string, Wan27TextToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "Cómo generar videos con Wan 2.7",
     howToDescription: "Genera videos de IA desde prompts de texto con Wan 2.7.",
-    softwareName: "joymagic Wan 2.7 Texto a Video",
+    softwareName: "Barko Bear Wan 2.7 Texto a Video",
     featureList: ["IA de texto a video", "1080p y relación de aspecto", "Audio opcional y expansión de prompt"],
   },
   "it-IT": {
-    metaTitle: "Wan 2.7 Testo in Video - 1080p, 15 secondi e rapporto d'aspetto | joymagic",
+    metaTitle: "Wan 2.7 Testo in Video - 1080p, 15 secondi e rapporto d'aspetto | Barko Bear",
     metaDescription: "Genera video da testo con Wan 2.7. Controlla risoluzione, rapporto d'aspetto, durata, espansione del prompt, audio opzionale e seed.",
     metaKeywords: "Wan 2.7, testo in video, generatore video AI, 1080p, rapporto d'aspetto, espansione prompt, seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 Testo in Video",
@@ -1938,11 +1938,11 @@ const textToVideoCopy: Record<string, Wan27TextToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "Come generare video con Wan 2.7",
     howToDescription: "Genera video AI da prompt di testo con Wan 2.7.",
-    softwareName: "joymagic Wan 2.7 Testo in Video",
+    softwareName: "Barko Bear Wan 2.7 Testo in Video",
     featureList: ["AI testo in video", "1080p e rapporto d'aspetto", "Audio opzionale ed espansione prompt"],
   },
   "pt-BR": {
-    metaTitle: "Wan 2.7 Texto para Vídeo - 1080p, 15 segundos e proporção | joymagic",
+    metaTitle: "Wan 2.7 Texto para Vídeo - 1080p, 15 segundos e proporção | Barko Bear",
     metaDescription: "Gere vídeos a partir de texto com Wan 2.7. Controle resolução, proporção, duração, expansão de prompt, áudio opcional e seed.",
     metaKeywords: "Wan 2.7, texto para vídeo, gerador de vídeo IA, 1080p, proporção, expansão de prompt, seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 Texto para Vídeo",
@@ -1983,11 +1983,11 @@ const textToVideoCopy: Record<string, Wan27TextToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "Como gerar vídeos com Wan 2.7",
     howToDescription: "Gere vídeos de IA a partir de prompts de texto com Wan 2.7.",
-    softwareName: "joymagic Wan 2.7 Texto para Vídeo",
+    softwareName: "Barko Bear Wan 2.7 Texto para Vídeo",
     featureList: ["IA texto para vídeo", "1080p e controle de proporção", "Áudio opcional e expansão de prompt"],
   },
   "ru-RU": {
-    metaTitle: "Wan 2.7 Текст в видео - 1080p, 15 секунд и соотношение сторон | joymagic",
+    metaTitle: "Wan 2.7 Текст в видео - 1080p, 15 секунд и соотношение сторон | Barko Bear",
     metaDescription: "Создавайте видео из текста с Wan 2.7. Поддерживаются разрешение, соотношение сторон, длительность, расширение промпта, опциональный звук и seed.",
     metaKeywords: "Wan 2.7, текст в видео, ИИ генератор видео, 1080p, соотношение сторон, расширение промпта, seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 Текст в видео",
@@ -2028,11 +2028,11 @@ const textToVideoCopy: Record<string, Wan27TextToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "Как генерировать видео с Wan 2.7",
     howToDescription: "Создавайте AI-видео из текстовых prompt с помощью Wan 2.7.",
-    softwareName: "joymagic Wan 2.7 Текст в видео",
+    softwareName: "Barko Bear Wan 2.7 Текст в видео",
     featureList: ["ИИ текст в видео", "1080p и соотношение сторон", "Опциональный звук и расширение prompt"],
   },
   "tr-TR": {
-    metaTitle: "Wan 2.7 Metinden Videoya - 1080p, 15 saniye ve en-boy oranı | joymagic",
+    metaTitle: "Wan 2.7 Metinden Videoya - 1080p, 15 saniye ve en-boy oranı | Barko Bear",
     metaDescription: "Wan 2.7 ile metinden video oluşturun. Çözünürlük, en-boy oranı, süre, prompt genişletme, isteğe bağlı ses ve seed kontrolü desteklenir.",
     metaKeywords: "Wan 2.7, metinden videoya, yapay zeka video oluşturucu, 1080p, en-boy oranı, prompt genişletme, seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 Metinden Videoya",
@@ -2073,11 +2073,11 @@ const textToVideoCopy: Record<string, Wan27TextToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "Wan 2.7 ile video nasıl üretilir",
     howToDescription: "Wan 2.7 ile metin promptlarından yapay zeka videoları üretin.",
-    softwareName: "joymagic Wan 2.7 Metinden Videoya",
+    softwareName: "Barko Bear Wan 2.7 Metinden Videoya",
     featureList: ["Yapay zeka metinden videoya", "1080p ve en-boy oranı", "İsteğe bağlı ses ve prompt genişletme"],
   },
   "ps-AF": {
-    metaTitle: "Wan 2.7 له متن څخه ویډیو - 1080p، 15 ثانیې او اړخ تناسب | joymagic",
+    metaTitle: "Wan 2.7 له متن څخه ویډیو - 1080p، 15 ثانیې او اړخ تناسب | Barko Bear",
     metaDescription: "د Wan 2.7 په مرسته له متن څخه ویډیو جوړه کړئ. ریزولوشن، اړخ تناسب، موده، prompt پراخول، اختیاري غږ او seed کنټرول ملاتړ کوي.",
     metaKeywords: "Wan 2.7, له متن څخه ویډیو, AI ویډیو جوړوونکی, 1080p, اړخ تناسب, prompt پراخول, seed, Alibaba Cloud",
     heroTitle: "Wan 2.7 له متن څخه ویډیو",
@@ -2118,7 +2118,7 @@ const textToVideoCopy: Record<string, Wan27TextToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "په Wan 2.7 سره ویډیو څنګه جوړه کړو",
     howToDescription: "په Wan 2.7 سره د متن prompt څخه AI ویډیو جوړه کړئ.",
-    softwareName: "joymagic Wan 2.7 له متن څخه ویډیو",
+    softwareName: "Barko Bear Wan 2.7 له متن څخه ویډیو",
     featureList: ["AI له متن څخه ویډیو", "1080p او اړخ تناسب", "اختیاري غږ او prompt پراخول"],
   },
 };
@@ -2235,7 +2235,7 @@ type Wan27ImageToVideoPageCopy = {
 
 const imageToVideoCopy: Record<string, Wan27ImageToVideoPageCopy> = {
   en: {
-    metaTitle: "Wan 2.7 Image to Video - Start Frame, End Frame, Audio | joymagic",
+    metaTitle: "Wan 2.7 Image to Video - Start Frame, End Frame, Audio | Barko Bear",
     metaDescription:
       "Animate images with Wan 2.7 image to video. Upload a start image, optional end frame and audio, then control resolution, duration, prompt expansion, and seed.",
     metaKeywords:
@@ -2281,12 +2281,12 @@ const imageToVideoCopy: Record<string, Wan27ImageToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "How to create videos from images with Wan 2.7",
     howToDescription: "Generate AI videos from uploaded images using Wan 2.7.",
-    softwareName: "joymagic Wan 2.7 Image to Video",
+    softwareName: "Barko Bear Wan 2.7 Image to Video",
     featureList: ["AI image-to-video generation", "Optional last-frame guidance", "Optional audio and seed control"],
   },
   "en-IN": {} as Wan27ImageToVideoPageCopy,
   zh: {
-    metaTitle: "Wan 2.7 图片生成视频 - 首帧、尾帧与音频控制 | joymagic",
+    metaTitle: "Wan 2.7 图片生成视频 - 首帧、尾帧与音频控制 | Barko Bear",
     metaDescription:
       "使用 Wan 2.7 图生视频。上传首帧图，可选尾帧图和音频，并控制分辨率、时长、提示词扩写和 seed。",
     metaKeywords:
@@ -2332,13 +2332,13 @@ const imageToVideoCopy: Record<string, Wan27ImageToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "如何使用 Wan 2.7 生成图生视频",
     howToDescription: "使用 Wan 2.7 根据上传图片生成 AI 视频。",
-    softwareName: "joymagic Wan 2.7 图片生成视频",
+    softwareName: "Barko Bear Wan 2.7 图片生成视频",
     featureList: ["AI 图片生成视频", "可选尾帧引导", "可选音频与 seed 控制"],
   },
   "zh-Hant-TW": {} as Wan27ImageToVideoPageCopy,
   "zh-hk": {} as Wan27ImageToVideoPageCopy,
   "de-DE": {
-    metaTitle: "Wan 2.7 Bild zu Video - Startbild, Endbild und Audio | joymagic",
+    metaTitle: "Wan 2.7 Bild zu Video - Startbild, Endbild und Audio | Barko Bear",
     metaDescription:
       "Animieren Sie Bilder mit Wan 2.7 Bild-zu-Video. Laden Sie ein Startbild, optional ein Endbild und Audio hoch und steuern Sie Auflösung, Dauer, Prompt-Erweiterung und Seed.",
     metaKeywords:
@@ -2384,7 +2384,7 @@ const imageToVideoCopy: Record<string, Wan27ImageToVideoPageCopy> = {
     breadcrumbModel: "Wan 2.7",
     howToName: "So erstellen Sie Videos aus Bildern mit Wan 2.7",
     howToDescription: "Erzeugen Sie KI-Videos aus hochgeladenen Bildern mit Wan 2.7.",
-    softwareName: "joymagic Wan 2.7 Bild zu Video",
+    softwareName: "Barko Bear Wan 2.7 Bild zu Video",
     featureList: ["KI Bild-zu-Video", "Optionale Endbild-Vorgabe", "Optionales Audio und Seed-Kontrolle"],
   },
 };
@@ -2392,7 +2392,7 @@ const imageToVideoCopy: Record<string, Wan27ImageToVideoPageCopy> = {
 imageToVideoCopy["en-IN"] = imageToVideoCopy.en;
 imageToVideoCopy["zh-Hant-TW"] = {
   ...imageToVideoCopy.zh,
-  metaTitle: "Wan 2.7 圖片生成影片 - 首幀、尾幀與音訊控制 | joymagic",
+  metaTitle: "Wan 2.7 圖片生成影片 - 首幀、尾幀與音訊控制 | Barko Bear",
   metaDescription: "使用 Wan 2.7 圖生影片。上傳首幀圖、可選尾幀圖與音訊，並控制解析度、時長、提示詞擴寫與 seed。",
   metaKeywords: "Wan 2.7, 圖片生成影片, AI 影片生成, 尾幀圖, 首幀圖, 可選音訊, seed, 阿里雲",
   heroTitle: "Wan 2.7 圖片生成影片",
@@ -2432,13 +2432,13 @@ imageToVideoCopy["zh-Hant-TW"] = {
   ctaButton: "立即體驗 Wan 2.7",
   howToName: "如何使用 Wan 2.7 生成圖生影片",
   howToDescription: "使用 Wan 2.7 根據上傳圖片生成 AI 影片。",
-  softwareName: "joymagic Wan 2.7 圖片生成影片",
+  softwareName: "Barko Bear Wan 2.7 圖片生成影片",
   featureList: ["AI 圖片生成影片", "可選尾幀引導", "可選音訊與 seed 控制"],
 };
 imageToVideoCopy["zh-hk"] = imageToVideoCopy["zh-Hant-TW"];
 imageToVideoCopy["ko-KR"] = {
   ...imageToVideoCopy.en,
-  metaTitle: "Wan 2.7 이미지 투 비디오 - 시작 프레임, 마지막 프레임, 오디오 | joymagic",
+  metaTitle: "Wan 2.7 이미지 투 비디오 - 시작 프레임, 마지막 프레임, 오디오 | Barko Bear",
   metaDescription: "Wan 2.7로 이미지를 영상으로 애니메이션하세요. 시작 이미지와 선택형 마지막 프레임, 오디오를 업로드하고 해상도, 길이, 프롬프트 확장, seed를 제어할 수 있습니다.",
   metaKeywords: "Wan 2.7, 이미지 투 비디오, AI 비디오 생성기, 마지막 프레임, 시작 프레임, 오디오, seed, 알리바바 클라우드",
   heroTitle: "Wan 2.7 이미지 투 비디오",
@@ -2479,12 +2479,12 @@ imageToVideoCopy["ko-KR"] = {
   breadcrumbModel: "Wan 2.7",
   howToName: "Wan 2.7로 이미지에서 영상을 만드는 방법",
   howToDescription: "Wan 2.7으로 업로드한 이미지에서 AI 영상을 생성합니다.",
-  softwareName: "joymagic Wan 2.7 이미지 투 비디오",
+  softwareName: "Barko Bear Wan 2.7 이미지 투 비디오",
   featureList: ["AI 이미지 투 비디오 생성", "선택형 마지막 프레임 가이드", "선택형 오디오 및 seed 제어"],
 };
 imageToVideoCopy["ja-JP"] = {
   ...imageToVideoCopy.en,
-  metaTitle: "Wan 2.7 画像から動画 - 開始フレーム、終了フレーム、音声 | joymagic",
+  metaTitle: "Wan 2.7 画像から動画 - 開始フレーム、終了フレーム、音声 | Barko Bear",
   metaDescription: "Wan 2.7 で画像を動画化。開始画像、任意の終了画像と音声をアップロードし、解像度、長さ、プロンプト拡張、seed を制御できます。",
   metaKeywords: "Wan 2.7, 画像から動画, AI動画生成, 終了フレーム, 開始フレーム, 音声, seed, Alibaba Cloud",
   heroTitle: "Wan 2.7 画像から動画",
@@ -2525,12 +2525,12 @@ imageToVideoCopy["ja-JP"] = {
   breadcrumbModel: "Wan 2.7",
   howToName: "Wan 2.7 で画像から動画を作る方法",
   howToDescription: "Wan 2.7 を使ってアップロード画像から AI 動画を生成します。",
-  softwareName: "joymagic Wan 2.7 画像から動画",
+  softwareName: "Barko Bear Wan 2.7 画像から動画",
   featureList: ["AI 画像から動画生成", "任意の終了フレーム指定", "任意の音声と seed 制御"],
 };
 imageToVideoCopy["es-ES"] = {
   ...imageToVideoCopy.en,
-  metaTitle: "Wan 2.7 Imagen a Video - Fotograma inicial, final y audio | joymagic",
+  metaTitle: "Wan 2.7 Imagen a Video - Fotograma inicial, final y audio | Barko Bear",
   metaDescription: "Anima imágenes con Wan 2.7 imagen a video. Sube una imagen inicial, un fotograma final opcional y audio, y controla resolución, duración, expansión de prompt y seed.",
   metaKeywords: "Wan 2.7, imagen a video, generador de video IA, fotograma final, fotograma inicial, audio, seed, Alibaba Cloud",
   heroTitle: "Wan 2.7 Imagen a Video",
@@ -2571,12 +2571,12 @@ imageToVideoCopy["es-ES"] = {
   breadcrumbModel: "Wan 2.7",
   howToName: "Cómo crear videos desde imágenes con Wan 2.7",
   howToDescription: "Genera videos de IA a partir de imágenes subidas con Wan 2.7.",
-  softwareName: "joymagic Wan 2.7 Imagen a Video",
+  softwareName: "Barko Bear Wan 2.7 Imagen a Video",
   featureList: ["Generación AI de imagen a video", "Guía opcional con fotograma final", "Audio opcional y control de seed"],
 };
 imageToVideoCopy["it-IT"] = {
   ...imageToVideoCopy.en,
-  metaTitle: "Wan 2.7 Immagine in Video - Fotogramma iniziale, finale e audio | joymagic",
+  metaTitle: "Wan 2.7 Immagine in Video - Fotogramma iniziale, finale e audio | Barko Bear",
   metaDescription: "Anima immagini con Wan 2.7 immagine in video. Carica un'immagine iniziale, un fotogramma finale opzionale e audio, poi controlla risoluzione, durata, espansione prompt e seed.",
   metaKeywords: "Wan 2.7, immagine in video, generatore video AI, fotogramma finale, fotogramma iniziale, audio, seed, Alibaba Cloud",
   heroTitle: "Wan 2.7 Immagine in Video",
@@ -2617,12 +2617,12 @@ imageToVideoCopy["it-IT"] = {
   breadcrumbModel: "Wan 2.7",
   howToName: "Come creare video da immagini con Wan 2.7",
   howToDescription: "Genera video AI da immagini caricate usando Wan 2.7.",
-  softwareName: "joymagic Wan 2.7 Immagine in Video",
+  softwareName: "Barko Bear Wan 2.7 Immagine in Video",
   featureList: ["Generazione AI da immagine a video", "Guida opzionale con fotogramma finale", "Audio opzionale e controllo seed"],
 };
 imageToVideoCopy["pt-BR"] = {
   ...imageToVideoCopy.en,
-  metaTitle: "Wan 2.7 Imagem para Vídeo - Quadro inicial, final e áudio | joymagic",
+  metaTitle: "Wan 2.7 Imagem para Vídeo - Quadro inicial, final e áudio | Barko Bear",
   metaDescription: "Anime imagens com Wan 2.7 imagem para vídeo. Envie uma imagem inicial, um quadro final opcional e áudio, e controle resolução, duração, expansão de prompt e seed.",
   metaKeywords: "Wan 2.7, imagem para vídeo, gerador de vídeo com IA, quadro final, quadro inicial, áudio, seed, Alibaba Cloud",
   heroTitle: "Wan 2.7 Imagem para Vídeo",
@@ -2663,12 +2663,12 @@ imageToVideoCopy["pt-BR"] = {
   breadcrumbModel: "Wan 2.7",
   howToName: "Como criar vídeos a partir de imagens com Wan 2.7",
   howToDescription: "Gere vídeos de IA a partir de imagens enviadas com Wan 2.7.",
-  softwareName: "joymagic Wan 2.7 Imagem para Vídeo",
+  softwareName: "Barko Bear Wan 2.7 Imagem para Vídeo",
   featureList: ["Geração AI de imagem para vídeo", "Guia opcional com quadro final", "Áudio opcional e controle de seed"],
 };
 imageToVideoCopy["ru-RU"] = {
   ...imageToVideoCopy.en,
-  metaTitle: "Wan 2.7 Изображение в видео - стартовый кадр, финальный кадр и звук | joymagic",
+  metaTitle: "Wan 2.7 Изображение в видео - стартовый кадр, финальный кадр и звук | Barko Bear",
   metaDescription: "Анимируйте изображения с Wan 2.7 изображение в видео. Загрузите стартовое изображение, опциональный финальный кадр и звук, затем управляйте разрешением, длительностью, расширением промпта и seed.",
   metaKeywords: "Wan 2.7, изображение в видео, AI генератор видео, финальный кадр, стартовый кадр, аудио, seed, Alibaba Cloud",
   heroTitle: "Wan 2.7 Изображение в видео",
@@ -2709,12 +2709,12 @@ imageToVideoCopy["ru-RU"] = {
   breadcrumbModel: "Wan 2.7",
   howToName: "Как создавать видео из изображений с Wan 2.7",
   howToDescription: "Создавайте AI-видео из загруженных изображений с помощью Wan 2.7.",
-  softwareName: "joymagic Wan 2.7 Изображение в видео",
+  softwareName: "Barko Bear Wan 2.7 Изображение в видео",
   featureList: ["AI генерация видео из изображения", "Опциональное управление финальным кадром", "Опциональное аудио и контроль seed"],
 };
 imageToVideoCopy["tr-TR"] = {
   ...imageToVideoCopy.en,
-  metaTitle: "Wan 2.7 Görselden Videoya - Başlangıç karesi, son kare ve ses | joymagic",
+  metaTitle: "Wan 2.7 Görselden Videoya - Başlangıç karesi, son kare ve ses | Barko Bear",
   metaDescription: "Wan 2.7 görselden videoya ile görselleri canlandırın. Başlangıç görseli, isteğe bağlı son kare ve sesi yükleyin; çözünürlük, süre, prompt genişletme ve seed'i kontrol edin.",
   metaKeywords: "Wan 2.7, görselden videoya, AI video oluşturucu, son kare, başlangıç karesi, ses, seed, Alibaba Cloud",
   heroTitle: "Wan 2.7 Görselden Videoya",
@@ -2755,12 +2755,12 @@ imageToVideoCopy["tr-TR"] = {
   breadcrumbModel: "Wan 2.7",
   howToName: "Wan 2.7 ile görsellerden video nasıl yapılır",
   howToDescription: "Wan 2.7 kullanarak yüklenen görsellerden yapay zeka videoları üretin.",
-  softwareName: "joymagic Wan 2.7 Görselden Videoya",
+  softwareName: "Barko Bear Wan 2.7 Görselden Videoya",
   featureList: ["AI görselden videoya üretim", "İsteğe bağlı son kare yönlendirmesi", "İsteğe bağlı ses ve seed kontrolü"],
 };
 imageToVideoCopy["ps-AF"] = {
   ...imageToVideoCopy.en,
-  metaTitle: "Wan 2.7 له انځور څخه ویډیو - پیل فریم، وروستی فریم او غږ | joymagic",
+  metaTitle: "Wan 2.7 له انځور څخه ویډیو - پیل فریم، وروستی فریم او غږ | Barko Bear",
   metaDescription: "انځورونه د Wan 2.7 له انځور څخه ویډیو په مرسته متحرک کړئ. پیل انځور، اختیاري وروستی فریم او غږ پورته کړئ، بیا ریزولوشن، موده، prompt پراخول او seed کنټرول کړئ.",
   metaKeywords: "Wan 2.7, له انځور څخه ویډیو, AI ویډیو جوړوونکی, وروستی فریم, پیل فریم, غږ, seed, Alibaba Cloud",
   heroTitle: "Wan 2.7 له انځور څخه ویډیو",
@@ -2801,7 +2801,7 @@ imageToVideoCopy["ps-AF"] = {
   breadcrumbModel: "Wan 2.7",
   howToName: "په Wan 2.7 سره له انځورونو ویډیو څنګه جوړه کړو",
   howToDescription: "په Wan 2.7 سره له پورته شوو انځورونو AI ویډیو جوړه کړئ.",
-  softwareName: "joymagic Wan 2.7 له انځور څخه ویډیو",
+  softwareName: "Barko Bear Wan 2.7 له انځور څخه ویډیو",
   featureList: ["AI له انځور څخه ویډیو تولید", "اختیاري وروستی فریم لارښوونه", "اختیاري غږ او seed کنټرول"],
 };
 

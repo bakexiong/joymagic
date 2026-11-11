@@ -26,9 +26,9 @@ const BASE_URL = envConfigs.app_url;
 const CANONICAL_PATH = "/image-to-video/pixverse-5-6";
 
 export const generateMetadata = getMetadata({
-  title: "PixVerse v5.6 image-to-video | joymagic",
+  title: "PixVerse v5.6 image-to-video | Barko Bear",
   description:
-    "Use PixVerse v5.6 image-to-video on joymagic. Upload a reference image plus a prompt to turn it into a short video with flexible resolutions, durations and optional audio.",
+    "Use PixVerse v5.6 image-to-video on Barko Bear. Upload a reference image plus a prompt to turn it into a short video with flexible resolutions, durations and optional audio.",
   keywords: "image-to-video,pixverse-v5.6,pixverse v5.6,image to video AI",
   canonicalUrl: CANONICAL_PATH,
 });
@@ -116,7 +116,7 @@ export default async function ImageToVideoPixverse56Page({
     title: heroMessages.title || "PixVerse v5.6 Image-to-Video Generator",
     description:
       heroMessages.description ||
-      "Use PixVerse v5.6 image-to-video on joymagic to convert your reference images and prompts into high-quality short-form videos. Control resolution, duration and optional audio while keeping costs predictable via the same param-combination pricing used for text-to-video.",
+      "Use PixVerse v5.6 image-to-video on Barko Bear to convert your reference images and prompts into high-quality short-form videos. Control resolution, duration and optional audio while keeping costs predictable via the same param-combination pricing used for text-to-video.",
     buttons: [
       {
         title: heroMessages.button1 || "Generate video",
@@ -140,7 +140,7 @@ export default async function ImageToVideoPixverse56Page({
     id: "pixverse-image-features",
     title:
       featuresMessages.title ||
-      "Why use PixVerse v5.6 Image-to-Video on joymagic?",
+      "Why use PixVerse v5.6 Image-to-Video on Barko Bear?",
     description: "",
     items: [
       {
@@ -293,7 +293,7 @@ export default async function ImageToVideoPixverse56Page({
               <ScrollAnimation>
                 <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
                   {pixverse56ImagePage.intro ||
-                    "PixVerse v5.6 image-to-video on joymagic extends the same param-combination credit system used for text-to-video to image-driven workflows, so you can experiment with different resolution, duration and audio settings without losing track of video generation costs."}
+                    "PixVerse v5.6 image-to-video on Barko Bear extends the same param-combination credit system used for text-to-video to image-driven workflows, so you can experiment with different resolution, duration and audio settings without losing track of video generation costs."}
                 </p>
               </ScrollAnimation>
             </div>

@@ -120,7 +120,7 @@ export default async function RootLayout({
       }}
     >
       <head>
-        <link rel="icon" href={siteIconUrl} type="image/png" />
+        <link rel="icon" href={siteIconUrl} type="image/svg+xml" />
         <link rel="apple-touch-icon" href={siteIconUrl} />
         {/* iOS Safari 需要 viewport-fit=cover 才能正确计算 env(safe-area-inset-*) */}
         <meta
@@ -145,13 +145,6 @@ export default async function RootLayout({
           href="https://cdn.10b.ai/z-image-bg.webp"
           as="image"
           fetchPriority="high"
-        />
-
-        {/* Pageview analytics - deferred for performance */}
-        <Script
-          src="https://app.pageview.app/js/script.js"
-          data-domain="10b.ai"
-          strategy="lazyOnload"
         />
 
         {/* inject locales */}

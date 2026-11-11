@@ -27,9 +27,9 @@ export function generateStaticParams() {
 export const revalidate = 3600; // ISR: revalidate every hour
 
 export const generateMetadata = getMetadata({
-  title: "AI Image, Video & Photo Editor Tools | joymagic",
+  title: "Barko Bear LLC | AI Image & Video Software — Public Beta",
   description:
-    "Create images and videos with joymagic: AI image generator, AI video generator, image editor, image to video AI, background remover, and image upscaler.",
+    "Barko Bear LLC develops browser-based AI image and video creation software. Public beta: explore supported tools and planned pricing. Paid access has not launched.",
   keywords:
     "AI image generator, AI video generator, AI image editor, image to video AI, AI background remover, AI image upscaler, text to image AI, AI portrait generator, AI photo editor",
   canonicalUrl: "/",
@@ -52,7 +52,7 @@ export default async function LandingPage({
   const layoutParam = Array.isArray(resolvedSearchParams.layout)
     ? resolvedSearchParams.layout[0]
     : resolvedSearchParams.layout;
-  const isLegacyHomePage = layoutParam === "legacy";
+  const isLegacyHomePage = false;
 
   let latestPosts: BlogPost[] = [];
 
@@ -88,7 +88,7 @@ export default async function LandingPage({
   const scenarioItemListSchema = generateItemListSchema({
     name: "AI creative tools by keyword and scene",
     description:
-      "Curated joymagic workflows for AI image generation, AI video generation, image editing, image-to-video, background removal, upscaling, and commercial creative scenes.",
+      "Curated Barko Bear workflows for AI image generation, AI video generation, image editing, image-to-video, background removal, upscaling, and commercial creative scenes.",
     url: "/",
     locale,
     items: homepageScenarioPaths.map((scenario) => ({

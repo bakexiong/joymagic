@@ -1,4 +1,7 @@
 export const CREEM_REVIEW_BLOCKED_PATHS = [
+  "/affiliate",
+  "/ai-girl",
+  "/ai-character",
   "/video-face-swap",
   "/ai-clothes-remover",
   "/tool/video-effect/ai-bikini",
@@ -36,9 +39,9 @@ export const CREEM_REVIEW_BLOCKED_VIDEO_EFFECT_SLUGS = [
 
 export function isBlockedVideoEffectSlugInCreemReviewMode(slug: string) {
   const normalized = slug.trim().toLowerCase();
-  return (CREEM_REVIEW_BLOCKED_VIDEO_EFFECT_SLUGS as readonly string[]).includes(
-    normalized,
-  );
+  return (
+    CREEM_REVIEW_BLOCKED_VIDEO_EFFECT_SLUGS as readonly string[]
+  ).includes(normalized);
 }
 
 export function isBlockedModelSlugInCreemReviewMode(slug: string) {

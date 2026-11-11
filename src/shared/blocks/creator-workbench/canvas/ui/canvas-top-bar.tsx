@@ -64,7 +64,7 @@ export function CanvasTopBar({
         >
           <Image
             src={getSiteLogoUrl(216, 72)}
-            alt="joymagic"
+            alt="Barko Bear"
             width={108}
             height={36}
             className="h-10 w-auto object-contain"

@@ -12,14 +12,14 @@ import { ProductTabs } from "@/shared/blocks/common/product-tabs";
 
 // 首页不渲染 Workbench，改为懒加载减少首屏 JS 体积
 const DesktopImageAiWorkbench = lazy(() =>
-  import("@/shared/blocks/common/desktop-image-ai-workbench").then(
-    (m) => ({ default: m.DesktopImageAiWorkbench }),
-  ),
+  import("@/shared/blocks/common/desktop-image-ai-workbench").then((m) => ({
+    default: m.DesktopImageAiWorkbench,
+  })),
 );
 const MobileImageAiWorkbench = lazy(() =>
-  import("@/shared/blocks/common/mobile-image-ai-workbench").then(
-    (m) => ({ default: m.MobileImageAiWorkbench }),
-  ),
+  import("@/shared/blocks/common/mobile-image-ai-workbench").then((m) => ({
+    default: m.MobileImageAiWorkbench,
+  })),
 );
 import { Button } from "@/shared/components/ui/button";
 import { Highlighter } from "@/shared/components/ui/highlighter";
@@ -300,7 +300,7 @@ export function Hero({
             <div className="mx-auto max-w-4xl rounded-2xl border border-white/6 bg-gradient-to-b from-white/6 via-transparent to-[#17171b] px-6 py-4 shadow-[0_20px_80px_-40px_rgba(0,0,0,0.5)] backdrop-blur">
               <p className="text-muted-foreground text-center text-sm leading-relaxed">
                 <span className="font-semibold text-foreground">
-                  joymagic
+                  Barko Bear
                 </span>{" "}
                 is an independent AI service and is not affiliated with any
                 model provider. We deploy and optimize Apache-2.0 licensed
@@ -311,7 +311,7 @@ export function Hero({
               <div className="mx-auto max-w-4xl rounded-2xl border border-white/6 bg-gradient-to-b from-white/6 via-transparent to-[#17171b] px-6 py-4 shadow-[0_20px_80px_-40px_rgba(0,0,0,0.5)] backdrop-blur mt-4">
                 <p className="text-muted-foreground text-center text-sm leading-relaxed">
                   <span className="font-semibold text-foreground">
-                    joymagic
+                    Barko Bear
                   </span>{" "}
                   is an independent AI service and is not affiliated with any
                   model provider. We deploy and optimize Apache-2.0 licensed
@@ -322,9 +322,7 @@ export function Hero({
           </section>
 
           {templateWall}
-          {showLatestBlogPosts ? (
-            <LatestBlogPosts posts={latestPosts} />
-          ) : null}
+          {showLatestBlogPosts ? <LatestBlogPosts posts={latestPosts} /> : null}
         </div>
       ) : null}
       <section
@@ -538,28 +536,30 @@ export function Hero({
           <section className="relative w-full bg-[#050505] px-3 pb-8 pt-8 sm:px-6 md:px-10 md:pt-4">
             <div className="mx-auto max-w-4xl rounded-2xl border border-white/6 bg-gradient-to-b from-white/6 via-transparent to-[#17171b] px-6 py-4 shadow-[0_20px_80px_-40px_rgba(0,0,0,0.5)] backdrop-blur">
               <p className="text-muted-foreground text-center text-sm leading-relaxed">
-                <span className="font-semibold text-foreground">joymagic</span>{" "}
+                <span className="font-semibold text-foreground">
+                  Barko Bear
+                </span>{" "}
                 is an independent AI service and is not affiliated with any
-                model provider. We deploy and optimize Apache-2.0 licensed models
-                on our own infrastructure.
+                model provider. We deploy and optimize Apache-2.0 licensed
+                models on our own infrastructure.
               </p>
             </div>
             <noscript>
               <div className="mx-auto max-w-4xl rounded-2xl border border-white/6 bg-gradient-to-b from-white/6 via-transparent to-[#17171b] px-6 py-4 shadow-[0_20px_80px_-40px_rgba(0,0,0,0.5)] backdrop-blur mt-4">
                 <p className="text-muted-foreground text-center text-sm leading-relaxed">
-                  <span className="font-semibold text-foreground">joymagic</span>{" "}
+                  <span className="font-semibold text-foreground">
+                    Barko Bear
+                  </span>{" "}
                   is an independent AI service and is not affiliated with any
-                  model provider. We deploy and optimize Apache-2.0 licensed models
-                  on our own infrastructure.
+                  model provider. We deploy and optimize Apache-2.0 licensed
+                  models on our own infrastructure.
                 </p>
               </div>
             </noscript>
           </section>
         )}
 
-        {showLatestBlogPosts ? (
-          <LatestBlogPosts posts={latestPosts} />
-        ) : null}
+        {showLatestBlogPosts ? <LatestBlogPosts posts={latestPosts} /> : null}
       </div>
 
       {/* {hero.image && (

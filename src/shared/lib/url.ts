@@ -1,11 +1,11 @@
-const BRAND_DOMAIN = '10b.ai';
+const BRAND_DOMAIN = "barkobear.com";
 
 function normalizeHref(href?: string) {
   if (!href) return null;
-  if (href.startsWith('//')) {
+  if (href.startsWith("//")) {
     return `https:${href}`;
   }
-  if (href.startsWith('http://') || href.startsWith('https://')) {
+  if (href.startsWith("http://") || href.startsWith("https://")) {
     return href;
   }
   return null;
@@ -24,25 +24,31 @@ export function getHostname(href?: string): string | null {
 
 /**
  * Returns true if the href is an absolute URL that does not belong to the
- * 10b.ai domain (or its subdomains).
+ * barkobear.com domain (or its subdomains).
  */
 export function isNonBrandExternal(href?: string) {
   const hostname = getHostname(href);
   if (!hostname) return false;
 
-  return !hostname.endsWith(BRAND_DOMAIN);
+  return hostname !== BRAND_DOMAIN && !hostname.endsWith(`.${BRAND_DOMAIN}`);
 }
 
 export function mergeRelValues(
   existingRel?: string,
-  additions?: string | string[]
+  additions?: string | string[],
 ) {
   const relParts = new Set(
-    (existingRel || '')
+    (existingRel || "")
       .split(/\s+/)
-      .concat(additions ? (Array.isArray(additions) ? additions : additions.split(/\s+/)) : [])
-      .filter(Boolean)
+      .concat(
+        additions
+          ? Array.isArray(additions)
+            ? additions
+            : additions.split(/\s+/)
+          : [],
+      )
+      .filter(Boolean),
   );
 
-  return relParts.size ? Array.from(relParts).join(' ') : undefined;
+  return relParts.size ? Array.from(relParts).join(" ") : undefined;
 }

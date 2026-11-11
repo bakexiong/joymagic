@@ -43,7 +43,7 @@ export async function generateMetadata({
             : `${envConfigs.app_url}/text-to-image/flux-2-klein`;
 
     return {
-        title: t('title', { defaultValue: 'flux-2-klein text-to-image (4B) - AI Image Generator | joymagic' }),
+        title: t('title', { defaultValue: "flux-2-klein text-to-image (4B) - AI Image Generator | Barko Bear" }),
         description: t('description', { defaultValue: 'Generate high-quality images with flux-2-klein text-to-image. Create consistent results with seed control and export up to 1536×1536.' }),
         keywords: t('keywords', { defaultValue: 'flux-2-klein text-to-image, flux-2-klein, flux-2-klein-4b, text-to-image, ai image generator, prompt to image' }),
         alternates: {
@@ -163,7 +163,7 @@ export default async function Flux2KleinTextToImagePage({
 
     // Generate JSON-LD schemas
     const softwareSchema = generateSoftwareApplicationSchema({
-        name: tPage('schema.softwareName', { defaultValue: 'joymagic AI Flux 2 Klein Text to Image' }),
+        name: tPage('schema.softwareName', { defaultValue: "Barko Bear AI Flux 2 Klein Text to Image" }),
         description: heroDescription.replace(/<[^>]*>/g, '').substring(0, 200),
         url: '/text-to-image/flux-2-klein',
         locale,

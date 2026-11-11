@@ -274,7 +274,7 @@ export default async function ImageToImagePage({
   };
 
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: 'joymagic Image to Image AI',
+    name: "Barko Bear Image to Image AI",
     description: tPage('hero.description'),
     url: '/image-to-image',
     locale,

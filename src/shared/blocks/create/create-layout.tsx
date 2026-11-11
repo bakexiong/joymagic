@@ -880,7 +880,7 @@ export function CreateLayout({
               )}
             >
               <p className="text-xs font-semibold tracking-tight text-white">
-                joymagic
+                Barko Bear
               </p>
               <p className="text-[9px] text-white/32">
                 {tc("sidebar.subtitle")}

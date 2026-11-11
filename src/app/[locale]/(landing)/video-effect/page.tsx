@@ -12,7 +12,7 @@ export function generateStaticParams() {
 export const revalidate = 3600;
 
 export const generateMetadata = getMetadata({
-  title: "Video Effects | joymagic",
+  title: "Video Effects | Barko Bear",
   description:
     "Browse trending video effects in a masonry gallery and jump into video creation with one click.",
   canonicalUrl: "/video-effect",

@@ -53,7 +53,7 @@ export default async function AiMusicGeneratorPage({
 
   // Generate JSON-LD schemas
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: 'joymagic AI Music Generator',
+    name: "Barko Bear AI Music Generator",
     description: tt.raw('page.description') as string,
     url: '/ai-music-generator',
     locale,

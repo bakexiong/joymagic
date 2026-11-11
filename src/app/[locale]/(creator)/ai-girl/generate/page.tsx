@@ -12,7 +12,7 @@ export function generateStaticParams() {
 export const revalidate = 3600;
 
 export const generateMetadata = getMetadata({
-  title: "AI Girl Generate | joymagic",
+  title: "AI Girl Generate | Barko Bear",
   description:
     "Generate an AI girl portrait from Character DNA and extra description with a dedicated secure route.",
   canonicalUrl: "/ai-girl/generate",

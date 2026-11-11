@@ -267,7 +267,7 @@ export default async function ImageBackgroundRemoverPage({
 
   // Generate JSON-LD schemas
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: "joymagic AI Background Remover",
+    name: "Barko Bear AI Background Remover",
     description: tPage("hero.description"),
     url: "/image-background-remover",
     locale,

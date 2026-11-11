@@ -55,7 +55,7 @@ export async function generateMetadata({
   return {
     title: t("title", {
       defaultValue:
-        "GPT-Image-1 Text to Image - AI Image Generator | joymagic",
+        "GPT-Image-1 Text to Image - AI Image Generator | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -238,7 +238,7 @@ export default async function GptImage1TextToImagePage({
 
   // Generate JSON-LD schemas
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: "joymagic AI GPT-Image-1 Text to Image",
+    name: "Barko Bear AI GPT-Image-1 Text to Image",
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/text-to-image/gpt-image-1",
     locale,

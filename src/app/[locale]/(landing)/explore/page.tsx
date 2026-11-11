@@ -17,9 +17,9 @@ export function generateStaticParams() {
 export const revalidate = 3600;
 
 export const generateMetadata = getMetadata({
-  title: "Explore AI Image and Video Examples, Prompts, and Styles | joymagic",
+  title: "Explore AI Image and Video Examples, Prompts, and Styles | Barko Bear",
   description:
-    "Browse joymagic AI image and video examples by scene, style, model, and prompt. Recreate product photos, portraits, ads, and short-form visuals faster.",
+    "Browse Barko Bear AI image and video examples by scene, style, model, and prompt. Recreate product photos, portraits, ads, and short-form visuals faster.",
   keywords:
     "AI image examples, AI video examples, AI prompts gallery, AI style gallery, product photo prompts, AI creative inspiration",
   canonicalUrl: "/explore",

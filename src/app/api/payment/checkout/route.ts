@@ -1,3 +1,4 @@
+import { PAYMENTS_AVAILABLE } from "@/config/site";
 import { getTranslations } from "next-intl/server";
 
 import {
@@ -26,6 +27,16 @@ import { getPaymentService } from "@/shared/services/payment";
 import { PricingCurrency } from "@/shared/types/blocks/pricing";
 
 export async function POST(req: Request) {
+  if (!PAYMENTS_AVAILABLE) {
+    return Response.json(
+      {
+        code: -1,
+        message:
+          "Public beta: payments are not available. No order was created.",
+      },
+      { status: 503 },
+    );
+  }
   try {
     const {
       product_id,

@@ -50,7 +50,7 @@ export async function generateMetadata({
 
   const title = t("title", {
     defaultValue:
-      "Kling 2.6 Pro Motion Control | Image to Video with Motion Control | AI Video Generator | joymagic",
+      "Kling 2.6 Pro Motion Control | Image to Video with Motion Control | AI Video Generator | Barko Bear",
   });
   const description = t("description", {
     defaultValue:
@@ -72,7 +72,7 @@ export async function generateMetadata({
       title,
       description,
       url: canonicalUrl,
-      siteName: "joymagic",
+      siteName: "Barko Bear",
       locale: locale,
       type: "website",
     },

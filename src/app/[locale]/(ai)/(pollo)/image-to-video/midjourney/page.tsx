@@ -49,7 +49,7 @@ export async function generateMetadata({
       : `${BASE_URL}${CANONICAL_PATH}`;
 
   const title = t("title", {
-    defaultValue: "Midjourney Image to Video - AI Video Generator | joymagic",
+    defaultValue: "Midjourney Image to Video - AI Video Generator | Barko Bear",
   });
   const description = t("description", {
     defaultValue:
@@ -70,7 +70,7 @@ export async function generateMetadata({
       title,
       description,
       url: canonicalUrl,
-      siteName: "joymagic",
+      siteName: "Barko Bear",
       locale: locale,
       type: "website",
     },

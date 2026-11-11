@@ -60,7 +60,7 @@ function getProOverrides(locale: string) {
     }
   > = {
     en: {
-      metaTitle: "Wan 2.7 Image Edit Pro - Up to 9 Images and Custom Size | joymagic",
+      metaTitle: "Wan 2.7 Image Edit Pro - Up to 9 Images and Custom Size | Barko Bear",
       metaDescription:
         "Edit and transform images with Wan 2.7 Image Edit Pro. Upload up to 9 images, control size up to 4096, and refine results with seed.",
       heroTitle: "Wan 2.7 Image Edit Pro",
@@ -85,7 +85,7 @@ function getProOverrides(locale: string) {
     },
     "en-IN": {} as any,
     zh: {
-      metaTitle: "Wan 2.7 Image Edit Pro 图生图 - 最多 9 图与自定义 Size | joymagic",
+      metaTitle: "Wan 2.7 Image Edit Pro 图生图 - 最多 9 图与自定义 Size | Barko Bear",
       metaDescription:
         "使用 Wan 2.7 Image Edit Pro 编辑和转换图片，支持最多 9 张参考图、自定义 size、宽高控制和 seed 复现。",
       heroTitle: "Wan 2.7 Image Edit Pro 图生图",
@@ -109,7 +109,7 @@ function getProOverrides(locale: string) {
       ],
     },
     "zh-Hant-TW": {
-      metaTitle: "Wan 2.7 Image Edit Pro 圖生圖 - 最多 9 圖與自訂 Size | joymagic",
+      metaTitle: "Wan 2.7 Image Edit Pro 圖生圖 - 最多 9 圖與自訂 Size | Barko Bear",
       metaDescription:
         "使用 Wan 2.7 Image Edit Pro 編輯與轉換圖片，支援最多 9 張參考圖、自訂 size、寬高控制與 seed 重現。",
       heroTitle: "Wan 2.7 Image Edit Pro 圖生圖",
@@ -134,7 +134,7 @@ function getProOverrides(locale: string) {
     },
     "zh-hk": {} as any,
     "de-DE": {
-      metaTitle: "Wan 2.7 Image Edit Pro - Bis zu 9 Bilder und benutzerdefinierte Größe | joymagic",
+      metaTitle: "Wan 2.7 Image Edit Pro - Bis zu 9 Bilder und benutzerdefinierte Größe | Barko Bear",
       metaDescription:
         "Bearbeiten und transformieren Sie Bilder mit Wan 2.7 Image Edit Pro. Laden Sie bis zu 9 Bilder hoch, steuern Sie die Größe bis 4096 und verfeinern Sie Ergebnisse mit Seed.",
       heroTitle: "Wan 2.7 Image Edit Pro",
@@ -158,7 +158,7 @@ function getProOverrides(locale: string) {
       ],
     },
     "ko-KR": {
-      metaTitle: "Wan 2.7 Image Edit Pro - 최대 9장과 사용자 지정 크기 | joymagic",
+      metaTitle: "Wan 2.7 Image Edit Pro - 최대 9장과 사용자 지정 크기 | Barko Bear",
       metaDescription:
         "Wan 2.7 Image Edit Pro로 이미지를 편집하고 변환하세요. 최대 9장의 참조 이미지를 업로드하고 4096 크기와 seed로 결과를 제어할 수 있습니다.",
       heroTitle: "Wan 2.7 Image Edit Pro",
@@ -182,7 +182,7 @@ function getProOverrides(locale: string) {
       ],
     },
     "ja-JP": {
-      metaTitle: "Wan 2.7 Image Edit Pro - 最大 9 枚とカスタム size | joymagic",
+      metaTitle: "Wan 2.7 Image Edit Pro - 最大 9 枚とカスタム size | Barko Bear",
       metaDescription:
         "Wan 2.7 Image Edit Pro で画像を編集・変換。最大 9 枚の参照画像、4096 までの size、seed 制御に対応しています。",
       heroTitle: "Wan 2.7 Image Edit Pro",
@@ -206,7 +206,7 @@ function getProOverrides(locale: string) {
       ],
     },
     "es-ES": {
-      metaTitle: "Wan 2.7 Image Edit Pro - Hasta 9 imágenes y tamaño personalizado | joymagic",
+      metaTitle: "Wan 2.7 Image Edit Pro - Hasta 9 imágenes y tamaño personalizado | Barko Bear",
       metaDescription:
         "Edita y transforma imágenes con Wan 2.7 Image Edit Pro. Sube hasta 9 imágenes, controla el tamaño hasta 4096 y ajusta el resultado con seed.",
       heroTitle: "Wan 2.7 Image Edit Pro",
@@ -230,7 +230,7 @@ function getProOverrides(locale: string) {
       ],
     },
     "it-IT": {
-      metaTitle: "Wan 2.7 Image Edit Pro - Fino a 9 immagini e dimensione personalizzata | joymagic",
+      metaTitle: "Wan 2.7 Image Edit Pro - Fino a 9 immagini e dimensione personalizzata | Barko Bear",
       metaDescription:
         "Modifica e trasforma immagini con Wan 2.7 Image Edit Pro. Carica fino a 9 immagini, controlla la dimensione fino a 4096 e rifinisci il risultato con seed.",
       heroTitle: "Wan 2.7 Image Edit Pro",
@@ -254,7 +254,7 @@ function getProOverrides(locale: string) {
       ],
     },
     "pt-BR": {
-      metaTitle: "Wan 2.7 Image Edit Pro - Até 9 imagens e tamanho personalizado | joymagic",
+      metaTitle: "Wan 2.7 Image Edit Pro - Até 9 imagens e tamanho personalizado | Barko Bear",
       metaDescription:
         "Edite e transforme imagens com Wan 2.7 Image Edit Pro. Envie até 9 imagens, controle o tamanho até 4096 e refine o resultado com seed.",
       heroTitle: "Wan 2.7 Image Edit Pro",
@@ -278,7 +278,7 @@ function getProOverrides(locale: string) {
       ],
     },
     "ru-RU": {
-      metaTitle: "Wan 2.7 Image Edit Pro - До 9 изображений и пользовательский размер | joymagic",
+      metaTitle: "Wan 2.7 Image Edit Pro - До 9 изображений и пользовательский размер | Barko Bear",
       metaDescription:
         "Редактируйте и трансформируйте изображения с Wan 2.7 Image Edit Pro. Загружайте до 9 изображений, управляйте размером до 4096 и уточняйте результат через seed.",
       heroTitle: "Wan 2.7 Image Edit Pro",
@@ -302,7 +302,7 @@ function getProOverrides(locale: string) {
       ],
     },
     "tr-TR": {
-      metaTitle: "Wan 2.7 Image Edit Pro - 9 görsele kadar ve özel boyut | joymagic",
+      metaTitle: "Wan 2.7 Image Edit Pro - 9 görsele kadar ve özel boyut | Barko Bear",
       metaDescription:
         "Wan 2.7 Image Edit Pro ile görselleri düzenleyin ve dönüştürün. 9 adede kadar görsel yükleyin, boyutu 4096'ya kadar kontrol edin ve sonucu seed ile iyileştirin.",
       heroTitle: "Wan 2.7 Image Edit Pro",
@@ -326,7 +326,7 @@ function getProOverrides(locale: string) {
       ],
     },
     "ps-AF": {
-      metaTitle: "Wan 2.7 Image Edit Pro - تر 9 انځورونو او دودیزې اندازې پورې | joymagic",
+      metaTitle: "Wan 2.7 Image Edit Pro - تر 9 انځورونو او دودیزې اندازې پورې | Barko Bear",
       metaDescription:
         "انځورونه د Wan 2.7 Image Edit Pro په مرسته سم او بدل کړئ. تر 9 پورې انځورونه پورته کړئ، اندازه تر 4096 پورې کنټرول کړئ او پایلې د seed په وسیله اصلاح کړئ.",
       heroTitle: "Wan 2.7 Image Edit Pro",

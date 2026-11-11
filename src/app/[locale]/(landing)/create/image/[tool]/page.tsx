@@ -14,9 +14,9 @@ export function generateStaticParams() {
 export const revalidate = 3600;
 
 export const generateMetadata = getMetadata({
-  title: "AI Image Creator Tool | joymagic",
+  title: "AI Image Creator Tool | Barko Bear",
   description:
-    "Open a specific joymagic image creation tool inside the authenticated creator workspace.",
+    "Open a specific Barko Bear image creation tool inside the authenticated creator workspace.",
   canonicalUrl: "/create/image",
   noIndex: true,
 });

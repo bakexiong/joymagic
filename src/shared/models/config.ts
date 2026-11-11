@@ -1,26 +1,34 @@
-import { revalidateTag, unstable_cache } from 'next/cache.js';
+import { revalidateTag, unstable_cache } from "next/cache.js";
 
-import { db } from '@/core/db';
-import { envConfigs } from '@/config';
-import { config } from '@/config/db/schema';
-import { publicSettingNames } from '@/shared/services/settings';
+import { db } from "@/core/db";
+import { envConfigs } from "@/config";
+import { config } from "@/config/db/schema";
+import { publicSettingNames } from "@/shared/services/settings";
 
 export type Config = typeof config.$inferSelect;
 export type NewConfig = typeof config.$inferInsert;
-export type UpdateConfig = Partial<Omit<NewConfig, 'name'>>;
+export type UpdateConfig = Partial<Omit<NewConfig, "name">>;
 
 export type Configs = Record<string, string>;
 
 // 独立站点的登录与支持邮箱配置覆盖共用数据库，避免修改原站配置。
 function getSiteEnvironmentOverrides(): Configs {
   const overrides: Configs = {
-    support_email: process.env.SUPPORT_EMAIL?.trim() || 'support@barkobear.com',
+    support_email: process.env.SUPPORT_EMAIL?.trim() || "support@barkobear.com",
+    app_name: "Barko Bear",
+    app_url: "https://barkobear.com",
+    select_payment_enabled: "false",
+    default_payment_provider: "",
+    stripe_enabled: "false",
+    creem_enabled: "false",
+    dodo_enabled: "false",
+    paypal_enabled: "false",
   };
   const names = [
-    'google_auth_enabled',
-    'google_one_tap_enabled',
-    'google_client_id',
-    'google_client_secret',
+    "google_auth_enabled",
+    "google_one_tap_enabled",
+    "google_client_id",
+    "google_client_secret",
   ] as const;
 
   for (const name of names) {
@@ -31,7 +39,7 @@ function getSiteEnvironmentOverrides(): Configs {
   return overrides;
 }
 
-export const CACHE_TAG_CONFIGS = 'configs';
+export const CACHE_TAG_CONFIGS = "configs";
 const CONFIGS_MEMORY_CACHE_TTL_MS = 60 * 1000;
 
 type ConfigsMemoryCache = {
@@ -42,13 +50,17 @@ type ConfigsMemoryCache = {
 let configsMemoryCache: ConfigsMemoryCache = null;
 
 function isUnstableCacheUnavailable(error: unknown) {
-  return error instanceof Error &&
-    error.message.includes('incrementalCache missing in unstable_cache');
+  return (
+    error instanceof Error &&
+    error.message.includes("incrementalCache missing in unstable_cache")
+  );
 }
 
 function isNextIncrementalCacheRuntimeAvailable() {
-  return typeof process.env.NEXT_RUNTIME === 'string' &&
-    process.env.NEXT_RUNTIME.length > 0;
+  return (
+    typeof process.env.NEXT_RUNTIME === "string" &&
+    process.env.NEXT_RUNTIME.length > 0
+  );
 }
 
 function invalidateConfigsMemoryCache() {
@@ -103,16 +115,16 @@ export const getConfigs = unstable_cache(
       return configs;
     }
     for (const config of result) {
-      configs[config.name] = config.value ?? '';
+      configs[config.name] = config.value ?? "";
     }
 
     return configs;
   },
-  ['configs'],
+  ["configs"],
   {
     revalidate: 3600,
     tags: [CACHE_TAG_CONFIGS],
-  }
+  },
 );
 
 /**
@@ -131,11 +143,11 @@ export async function getConfigsDirectly(): Promise<Configs> {
     const result = await db().select().from(config);
     if (result) {
       for (const cfg of result) {
-        configs[cfg.name] = cfg.value ?? '';
+        configs[cfg.name] = cfg.value ?? "";
       }
     }
   } catch (error: any) {
-    console.error('[getConfigsDirectly] 从数据库查询配置失败:', error);
+    console.error("[getConfigsDirectly] 从数据库查询配置失败:", error);
     throw error;
   }
 
@@ -215,7 +227,7 @@ export async function getAllConfigsDirectly(): Promise<Configs> {
     try {
       dbConfigs = await getConfigsDirectly();
     } catch (e: any) {
-      console.error('[getAllConfigsDirectly] 从数据库查询配置失败:', e);
+      console.error("[getAllConfigsDirectly] 从数据库查询配置失败:", e);
       // 继续使用环境变量配置
       dbConfigs = {};
     }
@@ -234,7 +246,7 @@ export async function getPublicConfigs(): Promise<Configs> {
   let dbConfigs: Configs = {};
 
   // only get configs from db in server side
-  if (typeof window === 'undefined' && envConfigs.database_url) {
+  if (typeof window === "undefined" && envConfigs.database_url) {
     try {
       dbConfigs = await getCachedConfigsForCurrentRuntime();
     } catch (e) {
@@ -242,11 +254,11 @@ export async function getPublicConfigs(): Promise<Configs> {
         try {
           dbConfigs = await getConfigsWithMemoryCache();
         } catch (directError) {
-          console.log('get configs from db failed:', directError);
+          console.log("get configs from db failed:", directError);
           dbConfigs = {};
         }
       } else {
-        console.log('get configs from db failed:', e);
+        console.log("get configs from db failed:", e);
         dbConfigs = {};
       }
     }

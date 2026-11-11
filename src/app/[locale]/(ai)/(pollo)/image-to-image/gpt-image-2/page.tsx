@@ -45,7 +45,7 @@ export async function generateMetadata({
   return {
     title: t("title", {
       defaultValue:
-        "GPT-Image 2 Image to Image - Edit Posters, UI, and Photoreal Images | joymagic",
+        "GPT-Image 2 Image to Image - Edit Posters, UI, and Photoreal Images | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -58,21 +58,21 @@ export async function generateMetadata({
     openGraph: {
       title: t("title", {
         defaultValue:
-          "GPT-Image 2 Image to Image - Edit Posters, UI, and Photoreal Images | joymagic",
+          "GPT-Image 2 Image to Image - Edit Posters, UI, and Photoreal Images | Barko Bear",
       }),
       description: t("description", {
         defaultValue:
           "Edit up to 4 uploaded images with GPT-Image 2 for Chinese poster cleanup, document-style layouts, photoreal retouching, and interface mockup transformations.",
       }),
       url: canonicalUrl,
-      siteName: "joymagic",
+      siteName: "Barko Bear",
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
       title: t("title", {
         defaultValue:
-          "GPT-Image 2 Image to Image - Edit Posters, UI, and Photoreal Images | joymagic",
+          "GPT-Image 2 Image to Image - Edit Posters, UI, and Photoreal Images | Barko Bear",
       }),
       description: t("description", {
         defaultValue:
@@ -234,7 +234,7 @@ export default async function GptImage2ImageToImagePage({
         data={[
           generateSoftwareApplicationSchema({
             name: tPage("schema.softwareName", {
-              defaultValue: "joymagic GPT-Image 2 Image to Image",
+              defaultValue: "Barko Bear GPT-Image 2 Image to Image",
             }),
             description: tPage("schema.softwareDescription", {
               defaultValue:

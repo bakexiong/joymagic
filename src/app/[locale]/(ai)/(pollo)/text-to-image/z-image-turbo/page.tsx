@@ -75,7 +75,7 @@ export default async function LandingPage({
   };
 
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: "joymagic AI Z Image Turbo",
+    name: "Barko Bear AI Z Image Turbo",
     description: String(heroData?.description || "").replace(/<[^>]*>/g, ""),
     url: "/text-to-image/z-image-turbo",
     locale,

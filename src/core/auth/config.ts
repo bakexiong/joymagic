@@ -118,7 +118,7 @@ export async function getAuthOptions(configs: Record<string, string>) {
           return;
         }
 
-        const appName = configs.app_name || envConfigs.app_name || "joymagic";
+        const appName = configs.app_name || envConfigs.app_name || "Barko Bear";
 
         console.log("[Auth] sendResetPassword sending email to", user.email);
         const result = await emailService.sendResetPasswordEmail({
@@ -167,7 +167,7 @@ export async function getAuthOptions(configs: Record<string, string>) {
           }
         }
 
-        const appName = configs.app_name || envConfigs.app_name || "joymagic";
+        const appName = configs.app_name || envConfigs.app_name || "Barko Bear";
 
         console.log(
           "[Auth] sendVerificationEmail sending email to",

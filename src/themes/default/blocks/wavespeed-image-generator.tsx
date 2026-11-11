@@ -1022,7 +1022,7 @@ export function WavespeedImageGenerator({
 
             <div className="flex justify-center">
               <p className="inline-flex items-center px-3 py-1 text-xs font-semibold text-white/58">
-                Powered by open-source diffusion models optimized by joymagic
+                Powered by open-source diffusion models optimized by Barko Bear
               </p>
             </div>
             {/* Video Generation Status and Output */}

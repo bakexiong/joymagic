@@ -1,5 +1,8 @@
 "use client";
 
+import { PAYMENTS_AVAILABLE } from "@/config/site";
+import { notifyBetaPurchase } from "@/shared/blocks/payment/beta-purchase-notice";
+
 import {
   trackGoogleAdsConversion,
   trackGoogleTagEvent,
@@ -51,6 +54,14 @@ export async function requestCheckoutSession(
   params: CheckoutRequestPayload,
   tracking: BeginCheckoutTrackingInput,
 ) {
+  if (!PAYMENTS_AVAILABLE) {
+    notifyBetaPurchase();
+    throw new CheckoutRequestError(
+      "Purchases are not available during public beta",
+      503,
+    );
+  }
+
   const response = await fetch("/api/payment/checkout", {
     method: "POST",
     headers: {

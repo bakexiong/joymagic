@@ -56,7 +56,7 @@ export async function generateMetadata({
   return {
     title: t("title", {
       defaultValue:
-        "Nano Banana Image-to-Image AI Editor - Transform Images | joymagic",
+        "Nano Banana Image-to-Image AI Editor - Transform Images | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -249,7 +249,7 @@ export default async function NanoBananaImageToImagePage({
 
   const softwareSchema = generateSoftwareApplicationSchema({
     name: tPage("schema.softwareName", {
-      defaultValue: "Nano Banana Image-to-Image AI Editor - joymagic",
+      defaultValue: "Nano Banana Image-to-Image AI Editor - Barko Bear",
     }),
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/image-to-image/nano-banana",

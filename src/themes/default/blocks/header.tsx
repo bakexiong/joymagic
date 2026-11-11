@@ -86,7 +86,7 @@ export function Header({
   const isHardcodedBlogHref = (href: string) =>
     href === "/blog" || href.startsWith("/blog/");
 
-  const hiddenNavUrls = new Set<string>(["/ai-girl"]);
+  const hiddenNavUrls = new Set<string>(["/ai-girl", "/affiliate"]);
   if (isCreemReviewMode()) {
     hiddenNavUrls.add("/video-face-swap");
     hiddenNavUrls.add("/ai-clothes-remover");
@@ -236,6 +236,18 @@ export function Header({
     !workspaceMode &&
     (pathname === "/" ||
       pathname === "/pricing" ||
+      [
+        "/about",
+        "/contact",
+        "/business-model",
+        "/terms-of-service",
+        "/privacy-policy",
+        "/refund-policy",
+        "/acceptable-use-policy",
+        "/content-moderation-policy",
+        "/ai-wrapper-disclaimer",
+        "/open-source-attribution",
+      ].includes(pathname) ||
       pathname === "/settings" ||
       pathname.startsWith("/settings/") ||
       pathname === "/activity" ||
@@ -1433,11 +1445,7 @@ export function Header({
             >
               {header.brand.logo ? (
                 <LazyImage
-                  src={
-                    header.brand.logo.src === "/logo.png"
-                      ? getSiteLogoUrl(216, 72)
-                      : header.brand.logo.src
-                  }
+                  src={getSiteLogoUrl(216, 72)}
                   alt={header.brand.logo.alt || header.brand.title || ""}
                   className="h-7 w-auto shrink-0 sm:h-8"
                   effect="none"
@@ -1542,8 +1550,8 @@ export function Header({
       <div className="flex min-w-0 items-center gap-5">
         <Link href="/" className="flex items-center gap-3 text-black">
           <img
-            src="https://ocdn.10b.ai/icon/joymagic-wordmark.png"
-            alt="joymagic"
+            src="/brand/barko-bear-wordmark.svg"
+            alt="Barko Bear"
             className="h-9 w-auto"
           />
         </Link>
@@ -1817,8 +1825,8 @@ export function Header({
       <div className="flex min-w-0 items-center gap-3">
         <Link href="/" className="flex items-center gap-3 text-black">
           <img
-            src="https://ocdn.10b.ai/icon/joymagic-wordmark.png"
-            alt="joymagic"
+            src="/brand/barko-bear-wordmark.svg"
+            alt="Barko Bear"
             className="h-7 w-auto"
           />
         </Link>

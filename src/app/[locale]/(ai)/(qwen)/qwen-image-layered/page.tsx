@@ -69,7 +69,7 @@ export async function generateMetadata({
       title: t("title"),
       description: t("description"),
       url: canonicalUrl,
-      siteName: "joymagic",
+      siteName: "Barko Bear",
     },
   };
 }
@@ -266,7 +266,7 @@ export default async function QwenImageLayeredPage({
 
   // Generate JSON-LD schemas
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: "joymagic AI Image Layered Decomposition",
+    name: "Barko Bear AI Image Layered Decomposition",
     description: tPage("hero.description"),
     url: "/qwen-image-layered",
     locale,

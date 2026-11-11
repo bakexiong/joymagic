@@ -7,6 +7,7 @@ import {
 } from "@/config/locale";
 
 import { routing } from "./config";
+import { normalizeSiteMessages } from "@/shared/lib/site-identity";
 
 type PlainObject = Record<string, any>;
 
@@ -118,7 +119,7 @@ export async function loadMessages(
       baseMessages = {};
     }
 
-    if (locale === defaultLocale) return baseMessages;
+    if (locale === defaultLocale) return normalizeSiteMessages(baseMessages);
 
     // Try to load locale-specific messages and deep-merge onto the base
     try {
@@ -126,9 +127,11 @@ export async function loadMessages(
         `@/config/locale/messages/${locale}/${path}.json`
       );
       const localMessages = local.default ?? {};
-      return mergeMessagesByPath(baseMessages, localMessages, path);
+      return normalizeSiteMessages(
+        mergeMessagesByPath(baseMessages, localMessages, path),
+      );
     } catch {
-      return baseMessages;
+      return normalizeSiteMessages(baseMessages);
     }
   } catch (e) {
     return {};

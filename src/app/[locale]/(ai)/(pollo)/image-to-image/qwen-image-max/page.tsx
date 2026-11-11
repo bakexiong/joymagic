@@ -56,7 +56,7 @@ export async function generateMetadata({
   return {
     title: t("title", {
       defaultValue:
-        "Qwen Image Max Image-to-Image AI Editor - Edit & Transform Images | joymagic",
+        "Qwen Image Max Image-to-Image AI Editor - Edit & Transform Images | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -243,7 +243,7 @@ export default async function QwenImageMaxImageToImagePage({
 
   const softwareSchema = generateSoftwareApplicationSchema({
     name: tPage("schema.softwareName", {
-      defaultValue: "Qwen Image Max Image-to-Image AI Editor - joymagic",
+      defaultValue: "Qwen Image Max Image-to-Image AI Editor - Barko Bear",
     }),
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/image-to-image/qwen-image-max",

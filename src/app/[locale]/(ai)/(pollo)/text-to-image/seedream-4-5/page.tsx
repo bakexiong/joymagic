@@ -57,7 +57,7 @@ export async function generateMetadata({
   return {
     title: t("title", {
       defaultValue:
-        "Seedream 4.5 Text to Image - AI Image Generator | joymagic",
+        "Seedream 4.5 Text to Image - AI Image Generator | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -250,7 +250,7 @@ export default async function SeedreamV45TextToImagePage({
   // Generate JSON-LD schemas
   const softwareSchema = generateSoftwareApplicationSchema({
     name: tPage("schema.softwareName", {
-      defaultValue: "joymagic AI Seedream 4.5 Text to Image",
+      defaultValue: "Barko Bear AI Seedream 4.5 Text to Image",
     }),
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/text-to-image/seedream-4-5",

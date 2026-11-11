@@ -56,7 +56,7 @@ export async function generateMetadata({
 
   return {
     title: t("title", {
-      defaultValue: "Midjourney Style AI Text to Image Generator | joymagic",
+      defaultValue: "Midjourney Style AI Text to Image Generator | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -303,7 +303,7 @@ export default async function MidjourneyTextToImagePage({
 
   // Generate JSON-LD schemas
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: "joymagic AI Midjourney Style Text to Image",
+    name: "Barko Bear AI Midjourney Style Text to Image",
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/text-to-image/midjourney",
     locale,

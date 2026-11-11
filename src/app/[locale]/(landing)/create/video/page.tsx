@@ -18,9 +18,9 @@ export const revalidate = 3600;
 
 export const generateMetadata = getMetadata({
   title:
-    "AI Video Creator Workspace for Text to Video and Image to Video | joymagic",
+    "AI Video Creator Workspace for Text to Video and Image to Video | Barko Bear",
   description:
-    "Create AI videos from prompts or images, explore cinematic models, generate motion effects, and build short-form video scenes in joymagic.",
+    "Create AI videos from prompts or images, explore cinematic models, generate motion effects, and build short-form video scenes in Barko Bear.",
   keywords:
     "AI video creator, text to video generator, image to video AI, AI video effects, cinematic AI video generator",
   canonicalUrl: "/create/video",
@@ -40,7 +40,7 @@ export default async function CreateVideoPage({
   const t = await getTranslations("landing");
   const header = t.raw("header") as HeaderType;
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: "joymagic AI Video Creator Workspace",
+    name: "Barko Bear AI Video Creator Workspace",
     description:
       "Scene-based AI video creator for text-to-video, image-to-video, cinematic motion, and short-form video effects.",
     url: "/create/video",

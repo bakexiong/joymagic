@@ -16,9 +16,9 @@ export function generateStaticParams() {
 export const revalidate = 3600;
 
 export const generateMetadata = getMetadata({
-  title: "AI Chatbot Online for Creative Planning and Content Ideas | joymagic",
+  title: "AI Chatbot Online for Creative Planning and Content Ideas | Barko Bear",
   description:
-    "Use joymagic AI Chatbot to brainstorm prompts, plan creative assets, draft content ideas, and support image, video, and audio workflows.",
+    "Use Barko Bear AI Chatbot to brainstorm prompts, plan creative assets, draft content ideas, and support image, video, and audio workflows.",
   keywords:
     "AI chatbot, creative AI assistant, prompt assistant, content idea generator, AI planning chatbot",
   canonicalUrl: "/ai-chatbot",
@@ -36,7 +36,7 @@ export default async function AiChatbotPage({
   const tt = await getTranslations("demo.ai-chatbot");
 
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: "joymagic AI Chatbot",
+    name: "Barko Bear AI Chatbot",
     description: tt.raw("description") as string,
     url: "/ai-chatbot",
     locale,

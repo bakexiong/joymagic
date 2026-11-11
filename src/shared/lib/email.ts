@@ -261,13 +261,13 @@ export class EmailService {
       return { success: false, error: 'email and url are required' };
     }
     const finalAppName =
-      appName || configs.app_name || configs.register_platform || 'joymagic';
+      appName || configs.app_name || configs.register_platform || "Barko Bear";
 
     const colors = this.getEmailThemeColors();
     const avatarUrl =
       configs.email_avatar_url || configs.next_public_email_avatar_url;
     const webUrl =
-      configs.next_public_web_url || configs.app_url || 'https://10b.ai';
+      configs.next_public_web_url || configs.app_url || "https://barkobear.com";
 
     const html = `
       <div style="${this.getEmailContainerStyle()}">
@@ -349,13 +349,13 @@ export class EmailService {
       return { success: false, error: 'email and url are required' };
     }
     const finalAppName =
-      appName || configs.app_name || configs.register_platform || 'joymagic';
+      appName || configs.app_name || configs.register_platform || "Barko Bear";
 
     const colors = this.getEmailThemeColors();
     const avatarUrl =
       configs.email_avatar_url || configs.next_public_email_avatar_url;
     const webUrl =
-      configs.next_public_web_url || configs.app_url || 'https://10b.ai';
+      configs.next_public_web_url || configs.app_url || "https://barkobear.com";
 
     const html = `
       <div style="${this.getEmailContainerStyle()}">
@@ -433,9 +433,9 @@ export class EmailService {
     productName?: string,
     supportEmail?: string
   ) {
-    const defaultProductName = configs.register_platform || configs.app_name || "joymagic";
+    const defaultProductName = configs.register_platform || configs.app_name || "Barko Bear";
     const defaultSupportEmail = configs.support_email || "noreply@10b.ai";
-    const webUrl = configs.next_public_web_url || configs.app_url || "https://10b.ai";
+    const webUrl = configs.next_public_web_url || configs.app_url || "https://barkobear.com";
     const colors = this.getEmailThemeColors();
 
     const subject = `Welcome to ${productName || defaultProductName}!`;
@@ -472,7 +472,7 @@ export class EmailService {
    * 发送通知邮件
    */
   async sendNotificationEmail(email: string, title: string, message: string, configs: Configs) {
-    const webUrl = configs.next_public_web_url || configs.app_url || "https://10b.ai";
+    const webUrl = configs.next_public_web_url || configs.app_url || "https://barkobear.com";
     const subject = title;
     const avatarUrl = configs.email_avatar_url || configs.next_public_email_avatar_url;
     const html = `
@@ -509,9 +509,9 @@ export class EmailService {
     supportEmail?: string,
     renewDate?: string
   ) {
-    const registerPlatform = configs.register_platform || "joymagic";
+    const registerPlatform = configs.register_platform || "Barko Bear";
     const defaultSupportEmail = configs.support_email || "noreply@10b.ai";
-    const webUrl = configs.next_public_web_url || configs.app_url || "https://10b.ai";
+    const webUrl = configs.next_public_web_url || configs.app_url || "https://barkobear.com";
 
     const colors = this.getEmailThemeColors();
     const subject = `Thank You for Your Subscription!`;
@@ -588,8 +588,8 @@ export class EmailService {
   ) {
     const defaultProductName = configs.register_platform || configs.app_name || "Our Platform";
     const defaultSupportEmail = configs.support_email || "support@yourdomain.com";
-    const webUrl = configs.next_public_web_url || configs.app_url || "https://10b.ai";
-    const registerPlatform = configs.register_platform || "joymagic";
+    const webUrl = configs.next_public_web_url || configs.app_url || "https://barkobear.com";
+    const registerPlatform = configs.register_platform || "Barko Bear";
 
     const colors = this.getEmailThemeColors();
     const subject = `Your Subscription Has Been Renewed Successfully!`;
@@ -660,9 +660,9 @@ export class EmailService {
   ) {
 
     try {
-      const registerPlatform = configs.register_platform || configs.app_name || "joymagic";
+      const registerPlatform = configs.register_platform || configs.app_name || "Barko Bear";
       const defaultSupportEmail = configs.support_email || "noreply@10b.ai";
-      const webUrl = configs.next_public_web_url || configs.app_url || "https://10b.ai";
+      const webUrl = configs.next_public_web_url || configs.app_url || "https://barkobear.com";
       const colors = this.getEmailThemeColors();
 
       const subject = `Your Payment Receipt`;

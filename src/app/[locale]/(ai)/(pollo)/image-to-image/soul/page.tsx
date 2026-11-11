@@ -53,7 +53,7 @@ export async function generateMetadata({
 
   return {
     title: t("title", {
-      defaultValue: "Soul Image-to-Image - AI Image Editor | joymagic",
+      defaultValue: "Soul Image-to-Image - AI Image Editor | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -229,7 +229,7 @@ export default async function SoulImageToImagePage({
 
   const softwareSchema = generateSoftwareApplicationSchema({
     name: tPage("schema.softwareName", {
-      defaultValue: "joymagic AI Soul Image to Image",
+      defaultValue: "Barko Bear AI Soul Image to Image",
     }),
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/image-to-image/soul",

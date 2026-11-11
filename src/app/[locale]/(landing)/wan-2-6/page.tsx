@@ -95,7 +95,7 @@ export default async function Wan26Page({
         <div className="mx-auto max-w-6xl px-6">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-muted-foreground text-sm">
-              {t('hero.kicker', { brand: envConfigs.app_name || 'joymagic' })}
+              {t('hero.kicker', { brand: envConfigs.app_name || "Barko Bear" })}
             </p>
             <h1 className="mt-4 text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
               {t('hero.h1')}
@@ -180,7 +180,7 @@ export default async function Wan26Page({
                 {t('sections.creations.links.t2i')}
               </Link>{' '}
               {t('sections.creations.links.suffix', {
-                brand: envConfigs.app_name || 'joymagic',
+                brand: envConfigs.app_name || "Barko Bear",
               })}
             </p>
           </div>
@@ -430,7 +430,7 @@ Content-Type: application/json
           <div className="mx-auto max-w-3xl rounded-2xl border bg-muted/30 p-6">
             <h2 className="text-lg font-semibold">{t('disclaimer.h2')}</h2>
             <p className="text-muted-foreground mt-2 leading-relaxed">
-              {t('disclaimer.p', { brand: envConfigs.app_name || 'joymagic' })}
+              {t('disclaimer.p', { brand: envConfigs.app_name || "Barko Bear" })}
             </p>
           </div>
         </div>

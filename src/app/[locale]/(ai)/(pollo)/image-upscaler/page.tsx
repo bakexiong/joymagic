@@ -252,7 +252,7 @@ export default async function ImageUpscalerPage({
 
   // Generate JSON-LD schemas
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: "joymagic AI Image Upscaler",
+    name: "Barko Bear AI Image Upscaler",
     description: tPage("hero.description"),
     url: "/image-upscaler",
     locale,

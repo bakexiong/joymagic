@@ -1,5 +1,8 @@
 "use client";
 
+import { PAYMENTS_AVAILABLE } from "@/config/site";
+import { notifyBetaPurchase } from "@/shared/blocks/payment/beta-purchase-notice";
+
 import { ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { toast } from "sonner";
@@ -98,7 +101,7 @@ export function PricingPrompt({
   );
 
   useEffect(() => {
-    if (isPricingModalDisabled || !autoPrompt) {
+    if (!PAYMENTS_AVAILABLE || isPricingModalDisabled || !autoPrompt) {
       return;
     }
 
@@ -165,7 +168,12 @@ export function PricingPrompt({
   ]);
 
   useEffect(() => {
-    if (isPricingModalDisabled || !autoPrompt || typeof window === "undefined") {
+    if (
+      !PAYMENTS_AVAILABLE ||
+      isPricingModalDisabled ||
+      !autoPrompt ||
+      typeof window === "undefined"
+    ) {
       return;
     }
 
@@ -298,6 +306,10 @@ export function PricingPrompt({
   };
 
   const handleSelectPlan = async (plan: PricingPlan) => {
+    if (!PAYMENTS_AVAILABLE) {
+      notifyBetaPurchase();
+      return;
+    }
     const runHandler = onSelectPlan || defaultSelectPlan;
     try {
       await runHandler(plan);

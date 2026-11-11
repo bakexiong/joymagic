@@ -1,5 +1,8 @@
 "use client";
 
+import { PAYMENTS_AVAILABLE } from "@/config/site";
+import { notifyBetaPurchase } from "@/shared/blocks/payment/beta-purchase-notice";
+
 import {
   type CSSProperties,
   type ReactNode,
@@ -12,7 +15,14 @@ import { useLocale, useTranslations } from "next-intl";
 
 import * as DialogPrimitive from "@radix-ui/react-dialog";
 import confetti from "canvas-confetti";
-import { Check, CheckCircle2, ChevronDown, Shield, TicketPercent, X } from "lucide-react";
+import {
+  Check,
+  CheckCircle2,
+  ChevronDown,
+  Shield,
+  TicketPercent,
+  X,
+} from "lucide-react";
 
 import { useIsMobile } from "@/shared/hooks/use-mobile";
 import { cn } from "@/shared/lib/utils";
@@ -284,7 +294,7 @@ export function CreditPricingModal({
   open,
   onOpenChange,
   plans: plansProp,
-  onSelectPlan,
+  onSelectPlan: onSelectPlanProp,
   loadingPlanId,
   bypassFrequencyControl = false,
   discountCodeValue = "",
@@ -313,6 +323,19 @@ export function CreditPricingModal({
   discountLoading?: boolean;
   discountCopy?: DiscountPanelCopy;
 }) {
+  const onSelectPlan = (plan: PricingPlan) => {
+    if (!PAYMENTS_AVAILABLE) {
+      notifyBetaPurchase();
+      return;
+    }
+    onSelectPlanProp?.(plan);
+  };
+  useEffect(() => {
+    if (open && !PAYMENTS_AVAILABLE) {
+      onOpenChange(false);
+      notifyBetaPurchase();
+    }
+  }, [open, onOpenChange]);
   const t = useTranslations("pricing");
   const locale = useLocale();
   const hasTriggeredConfetti = useRef(false);
@@ -526,6 +549,8 @@ export function CreditPricingModal({
     markPricingModalShown();
   }, [open, onOpenChange, bypassFrequencyControl]);
 
+  if (!PAYMENTS_AVAILABLE) return null;
+
   if (!isMobile) {
     return (
       <DesktopCreditPricingModal
@@ -735,7 +760,9 @@ export function CreditPricingModal({
                         <input
                           value={discountCodeValue}
                           onChange={(event) =>
-                            onDiscountCodeChange?.(event.target.value.toUpperCase())
+                            onDiscountCodeChange?.(
+                              event.target.value.toUpperCase(),
+                            )
                           }
                           placeholder={discountCopy.placeholder}
                           className="h-10 min-w-0 flex-1 rounded-xl border border-[var(--card-border)] bg-black/20 px-3 text-sm font-semibold uppercase tracking-[0.08em] text-[var(--text-main)] outline-none placeholder:text-[var(--text-muted)] focus:border-[var(--accent-gold)]"

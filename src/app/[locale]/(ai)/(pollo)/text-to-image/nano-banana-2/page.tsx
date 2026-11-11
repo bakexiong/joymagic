@@ -57,7 +57,7 @@ export async function generateMetadata({
   return {
     title: t("title", {
       defaultValue:
-        "Nano Banana 2 Text to Image — Free AI Image Generator Online | joymagic",
+        "Nano Banana 2 Text to Image — Free AI Image Generator Online | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -314,7 +314,7 @@ export default async function NanoBanana2TextToImagePage({
   };
   // Generate JSON-LD schemas
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: "Nano Banana 2 Text to Image Generator — joymagic",
+    name: "Nano Banana 2 Text to Image Generator — Barko Bear",
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/text-to-image/nano-banana-2",
     locale,

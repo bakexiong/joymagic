@@ -47,7 +47,7 @@ export async function generateMetadata({
   return {
     title: t("title", {
       defaultValue:
-        "Seedream 5.0 Lite Image-to-Image - AI Image Editor | joymagic",
+        "Seedream 5.0 Lite Image-to-Image - AI Image Editor | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -226,7 +226,7 @@ export default async function Seedream50LiteImageToImagePage({
 
   const softwareSchema = generateSoftwareApplicationSchema({
     name: tPage("schema.softwareName", {
-      defaultValue: "joymagic AI Seedream 5.0 Lite Image to Image",
+      defaultValue: "Barko Bear AI Seedream 5.0 Lite Image to Image",
     }),
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/image-to-image/seedream-5-0-lite",

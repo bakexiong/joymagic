@@ -27,9 +27,9 @@ const BASE_URL = envConfigs.app_url;
 const CANONICAL_PATH = "/text-to-video/pixverse-v5-6";
 
 export const generateMetadata = getMetadata({
-  title: "PixVerse v5.6 text-to-video | joymagic",
+  title: "PixVerse v5.6 text-to-video | Barko Bear",
   description:
-    "Use PixVerse v5.6 text-to-video on joymagic. Turn your prompts into high‑quality videos with flexible resolutions, durations and optional audio.",
+    "Use PixVerse v5.6 text-to-video on Barko Bear. Turn your prompts into high‑quality videos with flexible resolutions, durations and optional audio.",
   keywords: "text-to-video,pixverse-v5.6,pixverse v5.6,text to video AI",
   canonicalUrl: CANONICAL_PATH,
 });

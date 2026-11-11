@@ -1,3 +1,7 @@
+import {
+  isCreemReviewMode,
+  isBlockedByCreemReviewMode,
+} from "@/shared/lib/creem-review";
 import { readdir } from "node:fs/promises";
 import path from "node:path";
 
@@ -86,6 +90,13 @@ function toAbsoluteUrl(route: string) {
 
 function isExcludedRoute(route: string) {
   const normalizedRoute = normalizeRoute(route);
+  const withoutLocale =
+    normalizedRoute.replace(
+      new RegExp(`^/(${locales.join("|")})(?=/|$)`),
+      "",
+    ) || "/";
+  if (isCreemReviewMode() && isBlockedByCreemReviewMode(withoutLocale))
+    return true;
 
   if (
     normalizedRoute.endsWith("/privacy-policy") ||
@@ -171,6 +182,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const locale of locales) {
     const modelLandingSlugs = await getModelLandingSlugs(locale);
     const dynamicToolRoutes = [
+      "/about",
+      "/contact",
+      "/business-model",
       ...TOOL_CATEGORY_ROUTES,
       ...getImageEffectItemsSync().map(
         (item) => `/tools/image-effect/${item.slug}`,

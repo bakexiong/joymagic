@@ -56,7 +56,7 @@ export default async function LandingPage({
 }) {
   const disclaimerText =
     page.footer?.disclaimer ||
-    'joymagic is an independent AI image-generation service and is not affiliated with, endorsed by, or connected to Alibaba Group or any of its AI models. All references to "joymagic" relate solely to our own product and technology.';
+    'Barko Bear LLC operates an independent AI creation application that integrates third-party models. Model names and rights remain with their respective providers; their inclusion does not imply endorsement';
 
   // 获取 header 导航菜单项
   const tHeader = await getTranslations("landing.header");

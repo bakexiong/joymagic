@@ -56,7 +56,7 @@ export async function generateMetadata({
   return {
     title: t("title", {
       defaultValue:
-        "Flux 2 Klein Image-to-Image - AI Image Editor | joymagic",
+        "Flux 2 Klein Image-to-Image - AI Image Editor | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -241,7 +241,7 @@ export default async function Flux2KleinImageToImagePage({
   // Generate JSON-LD schemas
   const softwareSchema = generateSoftwareApplicationSchema({
     name: tPage("schema.softwareName", {
-      defaultValue: "joymagic AI Flux 2 Klein Image to Image",
+      defaultValue: "Barko Bear AI Flux 2 Klein Image to Image",
     }),
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/image-to-image/flux-2-klein",

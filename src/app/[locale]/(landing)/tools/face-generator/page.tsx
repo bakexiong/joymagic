@@ -12,9 +12,9 @@ export const revalidate = 3600;
 
 export const generateMetadata = getMetadata({
   title:
-    "AI Face Generator Online for Portraits, Avatars, and Characters | joymagic",
+    "AI Face Generator Online for Portraits, Avatars, and Characters | Barko Bear",
   description:
-    "Generate AI faces, portraits, avatars, and character references online with joymagic using a fast browser-based face generator.",
+    "Generate AI faces, portraits, avatars, and character references online with Barko Bear using a fast browser-based face generator.",
   keywords:
     "AI face generator, AI portrait generator, avatar generator, character face generator, realistic AI faces",
   canonicalUrl: "/tools/face-generator",

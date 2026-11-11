@@ -17,9 +17,9 @@ export const revalidate = 3600;
 
 export const generateMetadata = getMetadata({
   title:
-    "AI Audio Generator Online for Voice, Sound, and Creative Audio | joymagic",
+    "AI Audio Generator Online for Voice, Sound, and Creative Audio | Barko Bear",
   description:
-    "Create AI audio online with joymagic for creative sound, voice, and multimedia projects using a fast browser-based generator.",
+    "Create AI audio online with Barko Bear for creative sound, voice, and multimedia projects using a fast browser-based generator.",
   keywords:
     "AI audio generator, text to audio AI, AI sound generator, online audio generator, creative AI audio",
   canonicalUrl: "/ai-audio-generator",
@@ -37,7 +37,7 @@ export default async function AiAudioGeneratorPage({
   const tt = await getTranslations("demo.ai-audio-generator");
 
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: "joymagic AI Audio Generator",
+    name: "Barko Bear AI Audio Generator",
     description: tt.raw("description") as string,
     url: "/ai-audio-generator",
     locale,

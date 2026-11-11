@@ -32,9 +32,9 @@ export const revalidate = 3600;
 
 export const generateMetadata = getMetadata({
   title:
-    "AI Video Face Swap Online for Clips, Memes, and Social Content | joymagic",
+    "AI Video Face Swap Online for Clips, Memes, and Social Content | Barko Bear",
   description:
-    "Swap faces in videos online with joymagic. Create AI face swap clips, meme videos, cosplay scenes, and social-ready edits from simple uploads.",
+    "Swap faces in videos online with Barko Bear. Create AI face swap clips, meme videos, cosplay scenes, and social-ready edits from simple uploads.",
   keywords:
     "AI video face swap, face swap video generator, online face swap, AI meme video maker, video face editor",
   canonicalUrl: "/video-face-swap",
@@ -62,7 +62,7 @@ export default async function VideoFaceSwapPage({
   const heroData = t.raw("faceSwap") as HeroType;
 
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: "joymagic Video Face Swap",
+    name: "Barko Bear Video Face Swap",
     description:
       (heroData.description as string) || "AI-powered video face swap tool",
     url: "/video-face-swap",

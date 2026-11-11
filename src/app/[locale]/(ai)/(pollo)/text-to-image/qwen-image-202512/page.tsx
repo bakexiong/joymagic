@@ -67,7 +67,7 @@ export async function generateMetadata({
   return {
     title: t("title", {
       defaultValue:
-        "Qwen Image 2512: Alibaba's Text-to-Image Model Built for Readable Text | joymagic",
+        "Qwen Image 2512: Alibaba's Text-to-Image Model Built for Readable Text | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -268,7 +268,7 @@ export default async function Qwen202512TextToImagePage({
   // Generate JSON-LD schemas
   const softwareSchema = generateSoftwareApplicationSchema({
     name: tPage("schema.softwareName", {
-      defaultValue: "joymagic AI Qwen Image 2512 Text to Image",
+      defaultValue: "Barko Bear AI Qwen Image 2512 Text to Image",
     }),
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/text-to-image/qwen-image-202512",

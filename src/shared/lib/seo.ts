@@ -1,6 +1,7 @@
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { normalizeSiteText } from "@/shared/lib/site-identity";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
-import { envConfigs } from '@/config';
+import { envConfigs } from "@/config";
 
 // get metadata for page component
 export function getMetadata(
@@ -13,7 +14,7 @@ export function getMetadata(
     imageUrl?: string;
     appName?: string;
     noIndex?: boolean;
-  } = {}
+  } = {},
 ) {
   return async function generateMetadata({
     params,
@@ -26,15 +27,17 @@ export function getMetadata(
 
     // passed metadata
     const passedMetadata = {
-      title: options.title,
-      description: options.description,
+      title: options.title ? normalizeSiteText(options.title) : undefined,
+      description: options.description
+        ? normalizeSiteText(options.description)
+        : undefined,
       keywords: options.keywords,
     };
 
     // default metadata
     const defaultMetadata = await getTranslatedMetadata(
       defaultMetadataKey,
-      resolvedLocale
+      resolvedLocale,
     );
 
     // translated metadata
@@ -42,14 +45,14 @@ export function getMetadata(
     if (options.metadataKey) {
       translatedMetadata = await getTranslatedMetadata(
         options.metadataKey,
-        resolvedLocale
+        resolvedLocale,
       );
     }
 
     // canonical url
     const canonicalUrl = await getCanonicalUrl(
-      options.canonicalUrl || '',
-      resolvedLocale
+      options.canonicalUrl || "",
+      resolvedLocale,
     );
 
     const title =
@@ -60,8 +63,8 @@ export function getMetadata(
       defaultMetadata.description;
 
     // image url
-    let imageUrl = options.imageUrl || '/logo.png';
-    if (imageUrl.startsWith('http')) {
+    let imageUrl = options.imageUrl || "/brand/barko-bear-icon.svg";
+    if (imageUrl.startsWith("http")) {
       imageUrl = imageUrl;
     } else {
       imageUrl = `${envConfigs.app_url}${imageUrl}`;
@@ -70,7 +73,7 @@ export function getMetadata(
     // app name
     let appName = options.appName;
     if (!appName) {
-      appName = envConfigs.app_name || '';
+      appName = envConfigs.app_name || "";
     }
 
     return {
@@ -91,7 +94,7 @@ export function getMetadata(
       },
 
       openGraph: {
-        type: 'website',
+        type: "website",
         locale: resolvedLocale,
         url: canonicalUrl,
         title,
@@ -101,7 +104,7 @@ export function getMetadata(
       },
 
       twitter: {
-        card: 'summary_large_image',
+        card: "summary_large_image",
         title,
         description,
         images: [imageUrl.toString()],
@@ -116,48 +119,50 @@ export function getMetadata(
   };
 }
 
-const defaultMetadataKey = 'common.metadata';
+const defaultMetadataKey = "common.metadata";
 
 async function getTranslatedMetadata(metadataKey: string, locale: string) {
   setRequestLocale(locale);
   const t = await getTranslations(metadataKey);
 
   return {
-    title: t.has('title') ? t('title') : '',
-    description: t.has('description') ? t('description') : '',
-    keywords: t.has('keywords') ? t('keywords') : '',
+    title: t.has("title") ? t("title") : "",
+    description: t.has("description") ? t("description") : "",
+    keywords: t.has("keywords") ? t("keywords") : "",
   };
 }
 
 async function getCanonicalUrl(canonicalUrl: string, locale: string) {
   if (!canonicalUrl) {
-    canonicalUrl = '/';
+    canonicalUrl = "/";
   }
 
-  if (canonicalUrl.startsWith('http')) {
+  if (canonicalUrl.startsWith("http")) {
     // full url
     canonicalUrl = canonicalUrl;
   } else {
     // relative path
-    if (!canonicalUrl.startsWith('/')) {
+    if (!canonicalUrl.startsWith("/")) {
       canonicalUrl = `/${canonicalUrl}`;
     }
-    canonicalUrl = canonicalUrl.replace(/^\/+/, '/');
+    canonicalUrl = canonicalUrl.replace(/^\/+/, "/");
 
     // Fixed base URL
     const baseUrl = envConfigs.app_url;
 
     // Handle locale prefix (as-needed: default locale doesn't need prefix)
-    const { defaultLocale } = await import('@/config/locale');
+    const { defaultLocale } = await import("@/config/locale");
     const resolvedLocale = locale || defaultLocale;
     const localePrefix =
-      resolvedLocale && resolvedLocale !== defaultLocale ? `/${resolvedLocale}` : '';
+      resolvedLocale && resolvedLocale !== defaultLocale
+        ? `/${resolvedLocale}`
+        : "";
 
     canonicalUrl = `${baseUrl}${localePrefix}${canonicalUrl}`;
 
     // Remove trailing slash except for root URL
-    if (canonicalUrl !== baseUrl + '/' && canonicalUrl.endsWith('/')) {
-      canonicalUrl = canonicalUrl.replace(/\/$/, '');
+    if (canonicalUrl !== baseUrl + "/" && canonicalUrl.endsWith("/")) {
+      canonicalUrl = canonicalUrl.replace(/\/$/, "");
     }
   }
 

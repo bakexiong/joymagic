@@ -57,7 +57,7 @@ export async function generateMetadata({
   return {
     title: t("title", {
       defaultValue:
-        "Nano Banana Pro - AI Text to Image with Clear Typography | joymagic",
+        "Nano Banana Pro - AI Text to Image with Clear Typography | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -303,7 +303,7 @@ export default async function NanoBananaProTextToImagePage({
 
   // Generate JSON-LD schemas
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: "joymagic AI Nano Banana Pro Text to Image",
+    name: "Barko Bear AI Nano Banana Pro Text to Image",
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/text-to-image/nano-banana-pro",
     locale,

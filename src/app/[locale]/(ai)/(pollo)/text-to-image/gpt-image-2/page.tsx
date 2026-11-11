@@ -44,7 +44,7 @@ export async function generateMetadata({
 
   return {
     title: t("title", {
-      defaultValue: "GPT-Image 2 Text to Image - AI Image Generator | joymagic",
+      defaultValue: "GPT-Image 2 Text to Image - AI Image Generator | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -57,21 +57,21 @@ export async function generateMetadata({
     openGraph: {
       title: t("title", {
         defaultValue:
-          "GPT-Image 2 Text to Image - AI Image Generator | joymagic",
+          "GPT-Image 2 Text to Image - AI Image Generator | Barko Bear",
       }),
       description: t("description", {
         defaultValue:
           "Generate images with GPT-Image 2 using prompt-first creation and rich aspect ratio controls, from square to ultrawide and tall mobile formats.",
       }),
       url: canonicalUrl,
-      siteName: "joymagic",
+      siteName: "Barko Bear",
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
       title: t("title", {
         defaultValue:
-          "GPT-Image 2 Text to Image - AI Image Generator | joymagic",
+          "GPT-Image 2 Text to Image - AI Image Generator | Barko Bear",
       }),
       description: t("description", {
         defaultValue:
@@ -231,7 +231,7 @@ export default async function GptImage2TextToImagePage({
         data={[
           generateSoftwareApplicationSchema({
             name: tPage("schema.softwareName", {
-              defaultValue: "joymagic AI GPT-Image 2 Text to Image",
+              defaultValue: "Barko Bear AI GPT-Image 2 Text to Image",
             }),
             description: tPage("schema.softwareDescription", {
               defaultValue:

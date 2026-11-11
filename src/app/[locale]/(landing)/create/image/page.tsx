@@ -20,9 +20,9 @@ const DEFAULT_IMAGE_TOOL = "z-image-turbo";
 
 export const generateMetadata = getMetadata({
   title:
-    "AI Image Creator Workspace for Product Photos, Ads, Portraits | joymagic",
+    "AI Image Creator Workspace for Product Photos, Ads, Portraits | Barko Bear",
   description:
-    "Open the joymagic AI image creator to generate product photos, ad creatives, portraits, image edits, and reusable visual concepts from one scene-based workspace.",
+    "Open the Barko Bear AI image creator to generate product photos, ad creatives, portraits, image edits, and reusable visual concepts from one scene-based workspace.",
   keywords:
     "AI image creator, AI product photo generator, AI ad creative generator, AI portrait generator, AI image editor",
   canonicalUrl: "/create/image",
@@ -42,7 +42,7 @@ export default async function CreateImagePage({
   const t = await getTranslations("landing");
   const header = t.raw("header") as HeaderType;
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: "joymagic AI Image Creator Workspace",
+    name: "Barko Bear AI Image Creator Workspace",
     description:
       "Scene-based AI image creator for product photos, ad creatives, portraits, image edits, and reusable visual concepts.",
     url: "/create/image",

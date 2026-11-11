@@ -309,7 +309,7 @@ export const homepageScenarioPaths: ScenarioPath[] = [
   {
     title: "AI ad creative generator",
     description:
-      "Generate campaign visuals, ad concepts, posters, and social variants for higher-intent creative work.",
+      "Generate campaign visuals, ad concepts, posters, and social variants for your creative projects.",
     href: "/tools/text-to-video",
     intent: "ai ad creative generator",
   },

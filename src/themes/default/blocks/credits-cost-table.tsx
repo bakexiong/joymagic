@@ -178,16 +178,16 @@ function getCategory(mediaType: CreditCostConfig['mediaType']): CreditsCostItem[
 }
 
 const VENDOR_LOGO_BY_MODEL: Record<string, { logo: string; name: string }> = {
-  // joymagic / internal
-  'z-image-turbo-text-to-image': { logo: '/logo.png', name: 'joymagic' },
-  'image-to-image': { logo: '/logo.png', name: 'joymagic' },
-  'image-background-remover': { logo: '/logo.png', name: 'joymagic' },
-  'image-eraser': { logo: '/logo.png', name: 'joymagic' },
-  'image-upscaler': { logo: '/logo.png', name: 'joymagic' },
-  'z-image-turbo-image-to-image': { logo: '/logo.png', name: 'joymagic' },
-  'video-face-swap': { logo: '/logo.png', name: 'joymagic' },
-  'longcat-avatar': { logo: '/logo.png', name: 'joymagic' },
-  'generate-video': { logo: '/logo.png', name: 'joymagic' },
+  // Barko Bear / internal
+  'z-image-turbo-text-to-image': { logo: '/logo.png', name: 'Barko Bear' },
+  'image-to-image': { logo: '/logo.png', name: 'Barko Bear' },
+  'image-background-remover': { logo: '/logo.png', name: 'Barko Bear' },
+  'image-eraser': { logo: '/logo.png', name: 'Barko Bear' },
+  'image-upscaler': { logo: '/logo.png', name: 'Barko Bear' },
+  'z-image-turbo-image-to-image': { logo: '/logo.png', name: 'Barko Bear' },
+  'video-face-swap': { logo: '/logo.png', name: 'Barko Bear' },
+  'longcat-avatar': { logo: '/logo.png', name: 'Barko Bear' },
+  'generate-video': { logo: '/logo.png', name: 'Barko Bear' },
   'soul-image-to-image': { logo: 'https://ocdn.10b.ai/icon/higgsfield-seeklogo.svg', name: 'Higgsfield' },
 
   // Google
@@ -249,7 +249,7 @@ const VENDOR_LOGO_BY_MODEL: Record<string, { logo: string; name: string }> = {
 };
 
 function getVendorInfo(model: string): { logo: string; name: string } {
-  return VENDOR_LOGO_BY_MODEL[model] ?? { logo: '/logo.png', name: 'joymagic' };
+  return VENDOR_LOGO_BY_MODEL[model] ?? { logo: '/logo.png', name: 'Barko Bear' };
 }
 
 const creditsCostData: CreditsCostItem[] = Object.entries(CREDIT_COSTS_CONFIG)

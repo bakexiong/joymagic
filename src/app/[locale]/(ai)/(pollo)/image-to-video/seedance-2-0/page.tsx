@@ -49,7 +49,7 @@ export async function generateMetadata({
   return {
     title: t("title", {
       defaultValue:
-        "Seedance 2.0 Image to Video - Animate Photos with Lip-Sync | joymagic",
+        "Seedance 2.0 Image to Video - Animate Photos with Lip-Sync | Barko Bear",
     }),
     description: t("description", {
       defaultValue:

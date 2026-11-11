@@ -1,5 +1,8 @@
 "use client";
 
+import { PAYMENTS_AVAILABLE } from "@/config/site";
+import { notifyBetaPurchase } from "@/shared/blocks/payment/beta-purchase-notice";
+
 import { type ReactNode, useEffect, useMemo, useState } from "react";
 import { Check, ChevronDown, Loader2, TicketPercent, Zap } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
@@ -418,6 +421,10 @@ export function Pricing({
   };
 
   const handlePayment = async (item: PricingItem) => {
+    if (!PAYMENTS_AVAILABLE) {
+      notifyBetaPurchase();
+      return;
+    }
     const callbackUrl =
       typeof window !== "undefined"
         ? window.location.pathname + window.location.search

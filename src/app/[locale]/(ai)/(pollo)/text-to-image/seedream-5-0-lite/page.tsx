@@ -54,11 +54,11 @@ export async function generateMetadata({
 
   return {
     title: t("title", {
-      defaultValue: "Seedream-5.0-lite - Seedream 5 AI Image | joymagic",
+      defaultValue: "Seedream-5.0-lite - Seedream 5 AI Image | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
-        "Use the Seedream-5.0-lite model by ByteDance to generate photorealistic scenes, illustrations, and artwork from text. Create AI images with bilingual prompts in English and Chinese on joymagic.",
+        "Use the Seedream-5.0-lite model by ByteDance to generate photorealistic scenes, illustrations, and artwork from text. Create AI images with bilingual prompts in English and Chinese on Barko Bear.",
     }),
     keywords: t("keywords", {
       defaultValue:
@@ -244,7 +244,7 @@ export default async function Seedream50LiteTextToImagePage({
 
   const softwareSchema = generateSoftwareApplicationSchema({
     name: tPage("schema.softwareName", {
-      defaultValue: "joymagic AI Seedream-5.0-lite Generator",
+      defaultValue: "Barko Bear AI Seedream-5.0-lite Generator",
     }),
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/text-to-image/seedream-5-0-lite",

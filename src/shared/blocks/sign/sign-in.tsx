@@ -122,10 +122,10 @@ export function SignIn({
         <div className="flex items-center justify-between px-6 py-5">
           <BrandLogo
             brand={{
-              title: configs.app_name || "joymagic",
+              title: configs.app_name || "Barko Bear",
               logo: {
                 src: "/logo.png",
-                alt: configs.app_name || "joymagic",
+                alt: configs.app_name || "Barko Bear",
               },
               url: "/",
               target: "_self",
@@ -142,7 +142,8 @@ export function SignIn({
               Creative AI Suite
             </p>
             <h1 className="max-w-[12ch] text-[2rem] font-bold leading-[1.05]">
-              {configs.app_name || "joymagic"} makes visual creation feel fast.
+              {configs.app_name || "Barko Bear"} makes visual creation feel
+              fast.
             </h1>
             <p className="mt-3 text-sm leading-6 text-white/72">
               Use one account to keep your projects, credits, and workflows in

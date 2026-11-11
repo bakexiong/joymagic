@@ -1,9 +1,9 @@
-import { CalendarIcon, TimerIcon } from 'lucide-react';
+import { CalendarIcon, TimerIcon } from "lucide-react";
 
-import { MarkdownPreview } from '@/shared/blocks/common';
-import { type Post as PostType } from '@/shared/types/blocks/blog';
+import { MarkdownPreview } from "@/shared/blocks/common";
+import { type Post as PostType } from "@/shared/types/blocks/blog";
 
-import '@/config/style/docs.css';
+import "@/config/style/docs.css";
 
 export async function PageDetail({
   locale,
@@ -12,16 +12,6 @@ export async function PageDetail({
   locale?: string;
   post: PostType;
 }) {
-  const isTargetLegalPage =
-    post.slug === 'privacy-policy' || post.slug === 'terms-of-service';
-  const normalizedLocale = (locale || '').toLowerCase();
-  const isChineseLocale = normalizedLocale.startsWith('zh');
-  const companyName = isChineseLocale
-    ? '星耀互聯科技有限公司'
-    : 'STARLIGHT INTERNET TECHNOLOGY CO., LIMITED';
-  const companyAddress =
-    'RM03, 24/F, HO KING COMM CTR, 2-16 FAYUEN ST, MONG KOK, HONG KONG';
-
   return (
     <section id={post.id}>
       <div className="py-24 md:py-32">
@@ -45,12 +35,6 @@ export async function PageDetail({
               {post.body ? (
                 <div className="docs text-foreground text-md my-8 space-y-4 font-normal *:leading-relaxed">
                   {post.body}
-                  {isTargetLegalPage ? (
-                    <div className="not-prose mt-10 border-t pt-6 text-sm leading-7">
-                      <p className="m-0">{companyName}</p>
-                      <p className="m-0">{companyAddress}</p>
-                    </div>
-                  ) : null}
                 </div>
               ) : (
                 <>

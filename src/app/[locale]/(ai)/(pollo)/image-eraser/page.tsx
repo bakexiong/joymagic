@@ -255,7 +255,7 @@ export default async function ImageEraserPage({
 
   // Generate JSON-LD schemas
   const softwareSchema = generateSoftwareApplicationSchema({
-    name: "joymagic AI Image Eraser",
+    name: "Barko Bear AI Image Eraser",
     description: tPage("hero.description"),
     url: "/image-eraser",
     locale,

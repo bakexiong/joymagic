@@ -118,24 +118,24 @@ function getFooterCopy(locale: string) {
   };
 }
 
-function normalizeFooterBrand(footer: FooterType) {
+function normalizeFooterBrand(footer: FooterType, locale: string) {
   if (!footer.brand) {
     return undefined;
   }
 
   return {
     ...footer.brand,
-    title: "joymagic",
+    title: "Barko Bear",
     logo: footer.brand.logo
       ? {
           ...footer.brand.logo,
-          src: "/brand/joymagic-wordmark-dark.png",
-          alt: "joymagic",
+          src: "/brand/barko-bear-wordmark.svg",
+          alt: "Barko Bear",
         }
       : footer.brand.logo,
-    description: footer.brand.description
-      ?.replace(/10b\.ai\.ai/gi, "joymagic")
-      .replace(/10b\.ai/gi, "joymagic"),
+    description: locale.startsWith("zh")
+      ? "Barko Bear LLC 开发和运营的在线 AI 图片与视频创作软件。公开测试，支付尚未开放。"
+      : "Online AI image and video creation software developed and operated by Barko Bear LLC. Public beta; paid access has not launched.",
   };
 }
 
@@ -236,15 +236,19 @@ function buildResourceLinks(footer: FooterType) {
 export async function Footer({ footer }: { footer: FooterType }) {
   const locale = await getLocale();
   const footerCopy = getFooterCopy(locale);
-  const footerBrand = normalizeFooterBrand(footer);
+  const footerBrand = normalizeFooterBrand(footer, locale);
   const footerAgreementItems = mergeAgreementItems(
     locale,
     normalizeAgreementItems(footer),
   );
   const footerCopyrightBrand = footer.brand
-    ? { ...footer.brand, title: "joymagic" }
+    ? { ...footer.brand, title: "Barko Bear" }
     : undefined;
-  const resourceLinks = buildResourceLinks(footer);
+  const resourceLinks: FooterQuickLink[] = [
+    { title: "About Barko Bear LLC", url: "/about" },
+    { title: "Product & Business Model", url: "/business-model" },
+    { title: "Contact", url: "/contact" },
+  ];
   const tLanding = await getTranslations({ locale, namespace: "landing" });
   const headerNav = (tLanding.raw("header.nav.items") as NavItem[]) || [];
   const tSidebar = await getTranslations({
@@ -374,7 +378,13 @@ export async function Footer({ footer }: { footer: FooterType }) {
             <div className="space-y-6">
               <div className="space-y-4">
                 {footerBrand ? (
-                  <BrandLogo brand={footerBrand} showTitle={false} />
+                  <Link href="/" aria-label="Barko Bear">
+                    <img
+                      src="/brand/barko-bear-wordmark-light.svg"
+                      alt="Barko Bear"
+                      className="h-12 w-auto"
+                    />
+                  </Link>
                 ) : null}
 
                 {footerBrand?.description ? (
@@ -447,14 +457,10 @@ export async function Footer({ footer }: { footer: FooterType }) {
               ) : null}
 
               <div className="space-y-2 border-t border-white/8 pt-5">
-                {footer.copyright ? (
-                  <p
-                    className="text-sm text-balance break-words text-[#b9b9c0]"
-                    dangerouslySetInnerHTML={{ __html: footer.copyright }}
-                  />
-                ) : footerCopyrightBrand ? (
-                  <Copyright brand={footerCopyrightBrand} />
-                ) : null}
+                <p className="text-sm text-[#b9b9c0]">
+                  © {new Date().getFullYear()} Barko Bear LLC. All rights
+                  reserved.
+                </p>
               </div>
             </div>
           </div>

@@ -56,7 +56,7 @@ export async function generateMetadata({
   return {
     title: t("title", {
       defaultValue:
-        "Nano Banana Pro Edit Ultra Image-to-Image AI Editor | nano-banana-pro-edit | joymagic",
+        "Nano Banana Pro Edit Ultra Image-to-Image AI Editor | nano-banana-pro-edit | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -261,7 +261,7 @@ export default async function NanoBananaProEditUltraImageToImagePage({
   const softwareSchema = generateSoftwareApplicationSchema({
     name: tPage("schema.softwareName", {
       defaultValue:
-        "Nano Banana Pro Edit Ultra Image-to-Image AI Editor - joymagic",
+        "Nano Banana Pro Edit Ultra Image-to-Image AI Editor - Barko Bear",
     }),
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/image-to-image/nano-banana-pro-edit-ultra",

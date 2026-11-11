@@ -452,7 +452,7 @@ export default async function TextToVideoWan26Page({
               </h2>
               <p className="text-muted-foreground mt-2 leading-relaxed">
                 {tWan26("disclaimer.p", {
-                  brand: envConfigs.app_name || "joymagic",
+                  brand: envConfigs.app_name || "Barko Bear",
                 })}
               </p>
             </div>

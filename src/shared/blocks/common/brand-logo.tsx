@@ -1,8 +1,8 @@
-import { Link } from '@/core/i18n/navigation';
-import { getSiteLogoUrl } from '@/shared/lib/site-logo';
-import { Brand as BrandType } from '@/shared/types/blocks/common';
+import { Link } from "@/core/i18n/navigation";
+import { getSiteLogoUrl } from "@/shared/lib/site-logo";
+import { Brand as BrandType } from "@/shared/types/blocks/common";
 
-import { LazyImage } from './lazy-image';
+import { LazyImage } from "./lazy-image";
 
 export function BrandLogo({
   brand,
@@ -11,21 +11,18 @@ export function BrandLogo({
   brand: BrandType;
   showTitle?: boolean;
 }) {
-  const logoSrc =
-    brand.logo?.src === '/logo.png'
-      ? getSiteLogoUrl(240, 80)
-      : brand.logo?.src;
+  const logoSrc = getSiteLogoUrl(240, 80);
 
   return (
     <Link
-      href={brand.url || ''}
-      target={brand.target || '_self'}
+      href={brand.url || ""}
+      target={brand.target || "_self"}
       className={`flex items-center space-x-2 ${brand.className}`}
     >
       {brand.logo && logoSrc && (
         <LazyImage
           src={logoSrc}
-          alt={brand.logo.alt || ''}
+          alt={brand.logo.alt || ""}
           className="h-12 w-auto"
           effect="none"
           priority

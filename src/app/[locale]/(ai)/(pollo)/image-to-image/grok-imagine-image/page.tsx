@@ -47,7 +47,7 @@ export async function generateMetadata({
   return {
     title: t("title", {
       defaultValue:
-        "Grok Imagine Image-to-Image - AI Image Editor | joymagic",
+        "Grok Imagine Image-to-Image - AI Image Editor | Barko Bear",
     }),
     description: t("description", {
       defaultValue:
@@ -225,7 +225,7 @@ export default async function GrokImagineImageToImagePage({
 
   const softwareSchema = generateSoftwareApplicationSchema({
     name: tPage("schema.softwareName", {
-      defaultValue: "joymagic AI Grok Imagine Image to Image",
+      defaultValue: "Barko Bear AI Grok Imagine Image to Image",
     }),
     description: heroDescription.replace(/<[^>]*>/g, "").substring(0, 200),
     url: "/image-to-image/grok-imagine-image",

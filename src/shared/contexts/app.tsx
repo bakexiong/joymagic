@@ -17,6 +17,7 @@ import {
   trackGoogleAdsConversion,
   trackGoogleTagEvent,
 } from "@/shared/lib/google-tag";
+import { BetaPurchaseNotice } from "@/shared/blocks/payment/beta-purchase-notice";
 import { requestCheckoutSession } from "@/shared/lib/payment-checkout";
 
 export interface ContextValue {
@@ -392,6 +393,7 @@ export const AppContextProvider = ({
     >
       {children}
       <SignModal callbackUrl="/" />
+      <BetaPurchaseNotice />
     </AppContext.Provider>
   );
 };

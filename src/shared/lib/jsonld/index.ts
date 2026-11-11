@@ -28,8 +28,8 @@ export * from "./types";
 
 // Constants
 const BASE_URL = envConfigs.app_url;
-const APP_NAME = envConfigs.app_name || "joymagic";
-const LOGO_URL = getSiteLogoUrl(512, 512);
+const APP_NAME = envConfigs.app_name || "Barko Bear";
+const LOGO_URL = new URL(getSiteLogoUrl(512, 512), BASE_URL).toString();
 
 /**
  * Get publisher reference for articles
@@ -69,14 +69,16 @@ export function generateOrganizationSchema(options?: {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: APP_NAME,
+    name: "Barko Bear LLC",
     url: BASE_URL,
     logo: LOGO_URL,
-    description: "AI-powered image and video generation platform",
+    description:
+      "Barko Bear LLC develops online AI image and video creation software, currently in public beta with paid access not yet launched.",
     sameAs: options?.sameAs || [],
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer service",
+      email: "support@barkobear.com",
       availableLanguage: [
         "English",
         "Chinese",
@@ -149,7 +151,7 @@ export function generateArticleSchema(options: {
     image: imageUrl,
     author: {
       "@type": "Person",
-      name: options.author || "joymagic Team",
+      name: options.author || "Barko Bear LLC",
       url: BASE_URL,
     },
     publisher: getPublisher(),

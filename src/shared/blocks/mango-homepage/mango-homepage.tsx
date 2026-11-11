@@ -3,9 +3,10 @@
 
 import { useEffect, useRef, useState } from "react";
 
+import { CompanyOverview } from "@/shared/blocks/company/company-overview";
 import { envConfigs } from "@/config";
 import { Link } from "@/core/i18n/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { ArrowRight, ChevronRight, Sparkles } from "lucide-react";
 
 import {
@@ -125,7 +126,8 @@ export function MangoHomepage() {
   );
   const activeTabConfig =
     homepageTabs.find((tab) => tab.id === activeTab) || homepageTabs[0];
-  const brandName = envConfigs.app_name || "joymagic";
+  const brandName = envConfigs.app_name || "Barko Bear";
+  const locale = useLocale();
 
   return (
     <div className="mango-homepage bg-[#fff8df] text-[#171717] [font-family:'Avenir_Next','Segoe_UI',sans-serif]">
@@ -139,7 +141,7 @@ export function MangoHomepage() {
           </div>
 
           <h1 className="mx-auto mt-6 max-w-[980px] text-balance text-[2.35rem] font-semibold leading-[0.94] tracking-[-0.06em] sm:text-[4.2rem] lg:text-[5.15rem]">
-            AI image generator, video generator, and image editor
+            AI image and video creation by Barko Bear
           </h1>
 
           <p className="mx-auto mt-5 max-w-[1100px] px-2 text-sm leading-7 text-black/72 sm:text-[1.5rem] sm:leading-[2.8rem]">
@@ -182,21 +184,22 @@ export function MangoHomepage() {
           </div>
         </div>
       </section>
+      <CompanyOverview locale={locale} />
 
       <section className="bg-[#fff8df] px-4 py-12 sm:px-6 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-[1320px]">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-[820px]">
               <p className="text-sm font-semibold uppercase tracking-[0.28em] text-[#7d68ff]">
-                Search by keyword
+                Creation workflows
               </p>
               <h2 className="mt-3 text-balance text-2xl font-semibold tracking-[-0.05em] sm:text-[2.7rem]">
-                Find the right AI tool by high-intent search
+                Choose a workflow for your next project
               </h2>
             </div>
             <p className="max-w-[420px] text-sm leading-7 text-black/62 sm:text-base">
-              These paths map the strongest US search terms to the fastest
-              generator, editor, remover, upscaler, or video workflow.
+              Explore image generation, editing, background removal, upscaling,
+              and video tools in one place.
             </p>
           </div>
 

@@ -310,7 +310,7 @@ function inferProviderName(modelName: string, modelUrl: string, locale: string) 
   const providers =
     flavor === "zh"
       ? {
-          internal: "joymagic",
+          internal: "Barko Bear",
           google: "Google",
           alibaba: "阿里",
           bytedance: "字节跳动",
@@ -326,7 +326,7 @@ function inferProviderName(modelName: string, modelUrl: string, locale: string) 
         }
       : flavor === "zh-hant"
         ? {
-            internal: "joymagic",
+            internal: "Barko Bear",
             google: "Google",
             alibaba: "阿里",
             bytedance: "字節跳動",
@@ -341,7 +341,7 @@ function inferProviderName(modelName: string, modelUrl: string, locale: string) 
             kuaishou: "快手",
           }
         : {
-            internal: "joymagic",
+            internal: "Barko Bear",
             google: "Google",
             alibaba: "Alibaba",
             bytedance: "ByteDance",
@@ -1033,7 +1033,7 @@ function buildGenericSeoTitle(
   const separator = getLocaleFlavor(locale) === "en" ? " + " : " + ";
   const suffix = getLocaleFlavor(locale) === "en" ? "Model Page" : "模型页";
   const pageLabel = `${modelName} ${suffix}`;
-  return `${pageLabel} | ${modeLabels.join(separator)} | joymagic`;
+  return `${pageLabel} | ${modeLabels.join(separator)} | Barko Bear`;
 }
 
 function buildGenericSeoDescription(
