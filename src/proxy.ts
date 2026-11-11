@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { getSessionCookie } from "better-auth/cookies";
 import createIntlMiddleware from "next-intl/middleware";
 
+import { isUnavailableBetaAccountPath } from "@/config/site";
+
 import { routing } from "@/core/i18n/config";
 import {
   isBlockedByCreemReviewMode,
@@ -99,6 +101,14 @@ export async function proxy(request: NextRequest) {
     ? `/${parts.slice(1).join("/")}`
     : pathname;
 
+  if (isUnavailableBetaAccountPath(pathWithoutLocale)) {
+    const prefix =
+      isLocalePrefixed && firstSegment !== routing.defaultLocale
+        ? `/${firstSegment}`
+        : "";
+    return NextResponse.redirect(new URL(`${prefix}/pricing`, request.url));
+  }
+
   if (isCreemReviewMode() && isBlockedByCreemReviewMode(pathWithoutLocale)) {
     return new NextResponse("Not Found", { status: 404 });
   }
@@ -129,17 +139,13 @@ export async function proxy(request: NextRequest) {
 
   const applyNsfwAccessCookie = (response: NextResponse) => {
     if (nsfwAccessCookieValue) {
-      response.cookies.set(
-        nsfwAccessCookieConfig.name,
-        nsfwAccessCookieValue,
-        {
-          path: "/",
-          sameSite: "lax",
-          httpOnly: true,
-          secure: process.env.NODE_ENV === "production",
-          maxAge: nsfwAccessCookieConfig.maxAge,
-        },
-      );
+      response.cookies.set(nsfwAccessCookieConfig.name, nsfwAccessCookieValue, {
+        path: "/",
+        sameSite: "lax",
+        httpOnly: true,
+        secure: process.env.NODE_ENV === "production",
+        maxAge: nsfwAccessCookieConfig.maxAge,
+      });
       response.headers.set("x-nsfw-access-granted", "1");
     }
 

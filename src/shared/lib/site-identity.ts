@@ -1,4 +1,9 @@
-import { SITE_NAME, SITE_URL, SUPPORT_EMAIL } from "@/config/site";
+import {
+  SITE_NAME,
+  SITE_URL,
+  SUPPORT_EMAIL,
+  isUnavailableBetaAccountPath,
+} from "@/config/site";
 
 /** 仅规范展示文案，保留真实素材来源和第三方模型服务的地址。 */
 export function normalizeSiteText(value: string): string {
@@ -20,7 +25,18 @@ export function normalizeSiteText(value: string): string {
 
 export function normalizeSiteMessages(value: any): any {
   if (typeof value === "string") return normalizeSiteText(value);
-  if (Array.isArray(value)) return value.map(normalizeSiteMessages);
+  if (Array.isArray(value))
+    return value
+      .filter(
+        (item) =>
+          !(
+            item &&
+            typeof item === "object" &&
+            typeof item.url === "string" &&
+            isUnavailableBetaAccountPath(item.url)
+          ),
+      )
+      .map(normalizeSiteMessages);
   if (value && typeof value === "object") {
     return Object.fromEntries(
       Object.entries(value).map(([key, item]) => [

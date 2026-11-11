@@ -1,8 +1,18 @@
+import { PAYMENTS_AVAILABLE } from "@/config/site";
 import { getUserInfo } from "@/shared/models/user";
 import { respData, respErr } from "@/shared/lib/resp";
 import { confirmCheckoutOrder } from "@/shared/services/payment";
 
 export async function POST(req: Request) {
+  if (!PAYMENTS_AVAILABLE) {
+    return Response.json(
+      {
+        code: -1,
+        message: "Public beta: payment confirmation is unavailable.",
+      },
+      { status: 503 },
+    );
+  }
   try {
     const { order_no: orderNo } = await req.json();
     if (!orderNo) {
