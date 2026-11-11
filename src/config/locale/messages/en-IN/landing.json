@@ -784,7 +784,7 @@
       },
       {
         "question": "Can I delete my generated images or account data?",
-        "answer": "Yes. If you save any images or account data voluntarily, you may delete them at any time. You may also request full data deletion by contacting support@joymagic.fun."
+        "answer": "Yes. If you save any images or account data voluntarily, you may delete them at any time. You may also request full data deletion by contacting support@barkobear.com."
       },
       {
         "question": "What happens if my prompt gets blocked by moderation?",
@@ -800,7 +800,7 @@
       },
       {
         "question": "Is customer support available?",
-        "answer": "Yes. Our support team can be reached at support@joymagic.fun, and we typically respond within 24–48 business hours."
+        "answer": "Yes. Our support team can be reached at support@barkobear.com, and we typically respond within 24–48 business hours."
       }
     ]
   },
@@ -856,8 +856,8 @@
     "agreement": {
       "items": [
         {
-          "title": "support@joymagic.fun",
-          "url": "mailto:support@joymagic.fun"
+          "title": "support@barkobear.com",
+          "url": "mailto:support@barkobear.com"
         },
         {
           "title": "Privacy Policy",

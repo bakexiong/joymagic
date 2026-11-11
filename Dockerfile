@@ -8,7 +8,7 @@ WORKDIR /app
 
 # Install dependencies based on the preferred package manager
 COPY package.json pnpm-lock.yaml* source.config.ts next.config.mjs ./
-COPY src/shared/lib/remark/remark-literal-mdx-expressions.ts ./src/shared/lib/remark/
+COPY src/shared/lib/remark/ ./src/shared/lib/remark/
 RUN pnpm i --frozen-lockfile
 
 # Rebuild the source code only when needed

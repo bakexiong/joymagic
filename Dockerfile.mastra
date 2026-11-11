@@ -6,7 +6,7 @@ RUN apk add --no-cache libc6-compat && npm install -g pnpm
 WORKDIR /app
 
 COPY package.json pnpm-lock.yaml source.config.ts next.config.mjs ./
-COPY src/shared/lib/remark/remark-literal-mdx-expressions.ts ./src/shared/lib/remark/
+COPY src/shared/lib/remark/ ./src/shared/lib/remark/
 RUN pnpm install --frozen-lockfile
 
 FROM deps AS builder

@@ -783,7 +783,7 @@
       },
       {
         "question": "Posso eliminare le immagini generate o i dati del mio account?",
-        "answer": "Sì. Se salvi volontariamente immagini o dati dell’account, puoi eliminarli in qualsiasi momento. Puoi anche richiedere la cancellazione completa dei dati contattando support@joymagic.fun."
+        "answer": "Sì. Se salvi volontariamente immagini o dati dell’account, puoi eliminarli in qualsiasi momento. Puoi anche richiedere la cancellazione completa dei dati contattando support@barkobear.com."
       },
       {
         "question": "Cosa succede se il mio prompt viene bloccato dalla moderazione?",
@@ -799,7 +799,7 @@
       },
       {
         "question": "È disponibile l’assistenza clienti?",
-        "answer": "Sì. Il nostro team di supporto è raggiungibile all’indirizzo support@joymagic.fun e di solito rispondiamo entro 24–48 ore lavorative."
+        "answer": "Sì. Il nostro team di supporto è raggiungibile all’indirizzo support@barkobear.com e di solito rispondiamo entro 24–48 ore lavorative."
       }
     ]
   },
@@ -855,8 +855,8 @@
     "agreement": {
       "items": [
         {
-          "title": "support@joymagic.fun",
-          "url": "mailto:support@joymagic.fun"
+          "title": "support@barkobear.com",
+          "url": "mailto:support@barkobear.com"
         },
         {
           "title": "Informativa sulla privacy",

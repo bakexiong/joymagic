@@ -775,7 +775,7 @@
       },
       {
         "question": "我可以刪除我生成的圖片或帳戶資料嗎？",
-        "answer": "可以。若你自願儲存任何圖片或帳戶資料，可隨時刪除；你亦可電郵至 support@joymagic.fun 申請完整資料刪除。"
+        "answer": "可以。若你自願儲存任何圖片或帳戶資料，可隨時刪除；你亦可電郵至 support@barkobear.com 申請完整資料刪除。"
       },
       {
         "question": "若提示詞被審核封鎖，代表甚麼？",
@@ -791,7 +791,7 @@
       },
       {
         "question": "有提供客服支援嗎？",
-        "answer": "有。我們的支援團隊可透過 support@joymagic.fun 聯絡，通常會在 24–48 個工作小時內回覆。"
+        "answer": "有。我們的支援團隊可透過 support@barkobear.com 聯絡，通常會在 24–48 個工作小時內回覆。"
       }
     ]
   },
@@ -847,8 +847,8 @@
     "agreement": {
       "items": [
         {
-          "title": "support@joymagic.fun",
-          "url": "mailto:support@joymagic.fun"
+          "title": "support@barkobear.com",
+          "url": "mailto:support@barkobear.com"
         },
         {
           "title": "私隱政策",

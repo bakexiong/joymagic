@@ -143,19 +143,19 @@ function normalizeAgreementItems(footer: FooterType) {
   return footer.agreement?.items?.map((item) => ({
     ...item,
     title:
-      item.title === "support@joymagic.fun"
-        ? "support@joymagic.fun"
+      item.title === "support@barkobear.com"
+        ? "support@barkobear.com"
         : item.title,
     url:
-      item.url === "mailto:support@joymagic.fun"
-        ? "mailto:support@joymagic.fun"
+      item.url === "mailto:support@barkobear.com"
+        ? "mailto:support@barkobear.com"
         : item.url,
   }));
 }
 
 function getDefaultSupportEmail() {
   return (
-    process.env.NEXT_PUBLIC_SUPPORT_EMAIL?.trim() || "support@joymagic.fun"
+    process.env.NEXT_PUBLIC_SUPPORT_EMAIL?.trim() || "support@barkobear.com"
   );
 }
 

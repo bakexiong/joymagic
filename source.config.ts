@@ -3,6 +3,7 @@ import { remarkImage } from 'fumadocs-core/mdx-plugins';
 import { z } from 'zod';
 
 import { remarkLiteralMdxExpressions } from './src/shared/lib/remark/remark-literal-mdx-expressions';
+import { remarkSupportEmail } from './src/shared/lib/remark/remark-support-email';
 
 // 博客文章的自定义frontmatter schema，包含image等字段
 const postsFrontmatterSchema = z.object({
@@ -39,6 +40,7 @@ export default defineConfig({
   mdxOptions: {
     remarkPlugins: [
       remarkLiteralMdxExpressions,
+      remarkSupportEmail,
       [
         remarkImage,
         {

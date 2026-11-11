@@ -11,9 +11,11 @@ export type UpdateConfig = Partial<Omit<NewConfig, 'name'>>;
 
 export type Configs = Record<string, string>;
 
-// 独立站点的 Google 登录配置优先使用后端环境变量，避免修改共用数据库中的原站凭据。
-function getGoogleAuthEnvironmentOverrides(): Configs {
-  const overrides: Configs = {};
+// 独立站点的登录与支持邮箱配置覆盖共用数据库，避免修改原站配置。
+function getSiteEnvironmentOverrides(): Configs {
+  const overrides: Configs = {
+    support_email: process.env.SUPPORT_EMAIL?.trim() || 'support@barkobear.com',
+  };
   const names = [
     'google_auth_enabled',
     'google_one_tap_enabled',
@@ -195,7 +197,7 @@ export async function getAllConfigs(): Promise<Configs> {
   const configs = {
     ...envConfigs,
     ...dbConfigs,
-    ...getGoogleAuthEnvironmentOverrides(),
+    ...getSiteEnvironmentOverrides(),
   };
 
   return configs;
@@ -222,7 +224,7 @@ export async function getAllConfigsDirectly(): Promise<Configs> {
   const configs = {
     ...envConfigs,
     ...dbConfigs,
-    ...getGoogleAuthEnvironmentOverrides(),
+    ...getSiteEnvironmentOverrides(),
   };
 
   return configs;
@@ -253,7 +255,7 @@ export async function getPublicConfigs(): Promise<Configs> {
   const publicConfigs: Record<string, string> = {};
 
   // 只向前端提供公开配置，客户端密钥不会包含在返回值中。
-  const publicConfigSource = { ...dbConfigs, ...getGoogleAuthEnvironmentOverrides() };
+  const publicConfigSource = { ...dbConfigs, ...getSiteEnvironmentOverrides() };
   for (const key in publicConfigSource) {
     if (publicSettingNames.includes(key)) {
       publicConfigs[key] = String(publicConfigSource[key]);
