@@ -17,11 +17,9 @@ export const homepageTabs: MangoHomepageTab[] = [
       {
         copyKey: "imageToVideo",
         href: "/tools/image-to-video",
-        mediaType: "video",
+        mediaType: "image",
         imageSrc:
-          "https://ocdn.10b.ai/zencreator/generated-seedance20-i2v/001-livecast-before-bed.mp4?x-oss-process=video/snapshot,t_1000,f_jpg,w_960,h_0,m_fast,q_80",
-        videoSrc:
-          "https://ocdn.10b.ai/zencreator/generated-seedance20-i2v/001-livecast-before-bed.mp4",
+          "/generated/image-eraser/image-eraser-after-young-woman-cafe-v1.png",
       },
       {
         copyKey: "videoEffects",
@@ -70,42 +68,38 @@ export const homepageTabs: MangoHomepageTab[] = [
         href: "/tools/text-to-image",
         mediaType: "image",
         imageSrc:
-          "https://ocdn.10b.ai/zencreator/generator-by-prompt/scarlet-swimsuit-editorial-71dc1b4d5575afcf5c8523f620fc5d77.png",
+          "/generated/background-remover/bg-remover-before-cosmetics.svg",
       },
       {
         copyKey: "imageToImage",
         href: "/tools/image-to-image",
         mediaType: "image",
-        imageSrc:
-          "https://ocdn.10b.ai/zencreator/generator-by-prompt/resort-glow-pose-907e0b926259a044ca10ef5c629905e3.png",
+        imageSrc: "/generated/background-remover/bg-remover-before-sneaker.svg",
       },
       {
         copyKey: "imageUpscaler",
         href: "/tools/image-upscaler",
         mediaType: "image",
-        imageSrc:
-          "https://ocdn.10b.ai/zencreator/generator-by-prompt/leather-sofa-glam-10f8a39341a97ebbb40d208a27ea0cca.png",
+        imageSrc: "/generated/homepage-variations/variations-input.png",
       },
       {
         copyKey: "backgroundRemover",
         href: "/tools/image-background-remover",
         mediaType: "image",
-        imageSrc:
-          "https://ocdn.10b.ai/zencreator/generator-by-prompt/city-after-dark-muse-8fce91b7f60b7cb71f3adad800550480.png",
+        imageSrc: "/generated/background-remover/bg-remover-after-cat.svg",
       },
       {
         copyKey: "imageEraser",
         href: "/tools/image-eraser",
         mediaType: "image",
         imageSrc:
-          "https://ocdn.10b.ai/zencreator/generator-by-prompt/sunlit-shore-gaze-88bf9c6af0d3f982477796c8b548f835.png",
+          "/generated/image-eraser/image-eraser-before-young-woman-cafe-v1.png",
       },
       {
         copyKey: "imageEffects",
         href: "/tools/image-effect",
         mediaType: "image",
-        imageSrc:
-          "https://ocdn.10b.ai/zencreator/generator-by-prompt/red-accent-muse-c325802bd2ee059c39cf459dcf5eac69.png",
+        imageSrc: "/generated/background-remover/bg-remover-before-cat.svg",
       },
     ],
   },

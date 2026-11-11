@@ -137,7 +137,8 @@ export function MangoHomepage() {
         <div className="relative mx-auto max-w-[1320px] px-4 pb-12 pt-10 text-center sm:px-6 lg:px-8 lg:pb-24 lg:pt-20">
           <div className="mx-auto inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/55 px-4 py-2 text-sm font-semibold text-black/72 backdrop-blur">
             <Sparkles className="h-4 w-4" />
-            {t("eyebrow")}
+            Barko Bear LLC ·{" "}
+            {locale.startsWith("zh") ? "公开测试" : "Public beta"}
           </div>
 
           <h1 className="mx-auto mt-6 max-w-[980px] text-balance text-[2.35rem] font-semibold leading-[0.94] tracking-[-0.06em] sm:text-[4.2rem] lg:text-[5.15rem]">
@@ -172,6 +173,12 @@ export function MangoHomepage() {
 
           <p className="mt-5 px-2 text-sm leading-6 text-black/60 sm:text-base">
             {activeTabConfig ? t(activeTabConfig.descriptionKey) : ""}
+          </p>
+
+          <p className="mt-5 text-xs text-black/60">
+            {locale.startsWith("zh")
+              ? "以下为工具用途示意。测试访问视可用额度及容量而定，支付尚未开放。"
+              : "Illustrative workflow previews. Beta access depends on available allowances and capacity. Payments have not launched."}
           </p>
 
           <div className="-mx-4 mt-8 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-2 md:mx-0 md:grid md:grid-cols-2 md:gap-5 md:overflow-visible md:px-0 md:pb-0 xl:grid-cols-3">
