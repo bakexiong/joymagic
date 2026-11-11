@@ -11,6 +11,24 @@ export type UpdateConfig = Partial<Omit<NewConfig, 'name'>>;
 
 export type Configs = Record<string, string>;
 
+// 独立站点的 Google 登录配置优先使用后端环境变量，避免修改共用数据库中的原站凭据。
+function getGoogleAuthEnvironmentOverrides(): Configs {
+  const overrides: Configs = {};
+  const names = [
+    'google_auth_enabled',
+    'google_one_tap_enabled',
+    'google_client_id',
+    'google_client_secret',
+  ] as const;
+
+  for (const name of names) {
+    const value = process.env[name.toUpperCase()];
+    if (value !== undefined) overrides[name] = value;
+  }
+
+  return overrides;
+}
+
 export const CACHE_TAG_CONFIGS = 'configs';
 const CONFIGS_MEMORY_CACHE_TTL_MS = 60 * 1000;
 
@@ -177,6 +195,7 @@ export async function getAllConfigs(): Promise<Configs> {
   const configs = {
     ...envConfigs,
     ...dbConfigs,
+    ...getGoogleAuthEnvironmentOverrides(),
   };
 
   return configs;
@@ -203,6 +222,7 @@ export async function getAllConfigsDirectly(): Promise<Configs> {
   const configs = {
     ...envConfigs,
     ...dbConfigs,
+    ...getGoogleAuthEnvironmentOverrides(),
   };
 
   return configs;
@@ -232,10 +252,11 @@ export async function getPublicConfigs(): Promise<Configs> {
 
   const publicConfigs: Record<string, string> = {};
 
-  // get public configs from db
-  for (const key in dbConfigs) {
+  // 只向前端提供公开配置，客户端密钥不会包含在返回值中。
+  const publicConfigSource = { ...dbConfigs, ...getGoogleAuthEnvironmentOverrides() };
+  for (const key in publicConfigSource) {
     if (publicSettingNames.includes(key)) {
-      publicConfigs[key] = String(dbConfigs[key]);
+      publicConfigs[key] = String(publicConfigSource[key]);
     }
   }
 
