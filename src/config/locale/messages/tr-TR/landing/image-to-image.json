@@ -1,0 +1,169 @@
+{
+  "imageToImage": {
+    "id": "image-to-image",
+    "title": "joymagic tarafından Görüntüden Görüntüye AI Üretici",
+    "description": "Herhangi bir görüntüyü saniyeler içinde marka görsellerine dönüştürün. Tasarım becerisi gerekmez.",
+    "steps": {
+      "sourceImage": {
+        "title": "Kaynak görüntü yükle",
+        "cta": "Sürükle/Tıkla ile yükle",
+        "hint": "Formatlar: JPG/PNG/WEBP",
+        "dragDrop": "Sürükle ve bırak veya tıkla ile yükle",
+        "dropHere": "Görüntüyü buraya bırak"
+      },
+      "prompt": {
+        "title": "Dönüşüm istemi girin",
+        "placeholder": "Görüntüyü nasıl dönüştürmek istediğinizi açıklayın, örn. 'resim gibi görünmesini sağla', 'arka planı plaja değiştir', 'gün batımı gökyüzü ekle'",
+        "hint": "Yapmak istediğiniz değişiklikler konusunda spesifik olun"
+      },
+      "generate": {
+        "title": "Dönüştürülmüş görüntü oluştur",
+        "cta": "Oluştur",
+        "generating": "Oluşturuluyor..."
+      }
+    },
+    "preview": {
+      "title": "Önizleme",
+      "original": "Orijinal",
+      "generated": "Oluşturuldu",
+      "placeholder": "Bir görüntü yükleyin ve bir istem girin, dönüşümü burada görün."
+    },
+    "templates": {
+      "title": "Prompt Şablonları",
+      "all": "Tümü",
+      "noItems": "Bu kategoride şablon bulunmuyor"
+    },
+    "common": {
+      "selected": "Seçildi: {name}",
+      "notSelected": "Seçilmedi"
+    },
+    "errors": {
+      "invalidFileType": "Geçersiz dosya türü. Lütfen bir görüntü dosyası (JPG, PNG, WEBP) yükleyin.",
+      "uploadFailed": "Yükleme başarısız: {error}",
+      "uploadFailedGeneric": "Yükleme başarısız",
+      "sourceImageRequired": "Lütfen önce bir kaynak görüntü yükleyin",
+      "promptRequired": "Lütfen bir dönüşüm istemi girin",
+      "generationFailed": "Görüntü oluşturma başarısız",
+      "taskFailed": "Görev işleme başarısız",
+      "taskTimeout": "Görev işleme zaman aşımı, lütfen daha sonra tekrar deneyin",
+      "taskIdNotFound": "Görev ID'si alınamadı, lütfen API yanıt formatını kontrol edin",
+      "processingFailed": "İşleme başarısız, lütfen tekrar deneyin",
+      "statusQueryFailed": "Görev durumu sorgulama başarısız"
+    }
+  },
+  "imageToImagePage": {
+    "metadata": {
+      "title": "Görüntüden Görüntüye AI Üretici | Saniyeler İçinde Marka Görselleri – joymagic",
+      "description": "joymagic Görüntüden Görüntüye AI üreteci ile herhangi bir görseli marka varlığınıza dönüştürün. Bir görsel yükleyin, farklı stillerde ve sahnelerde sonsuz varyasyon elde edin. HD çıktı, hızlı üretim, ücretsiz dene, ticari kullanım uygun."
+    },
+    "hero": {
+      "title": "Görüntüden Görüntüye AI Üretici – joymagic",
+      "description": "Herhangi bir görseli birkaç saniyede marka görsele dönüştür. Tasarım uzmanlığı gerekmez.",
+      "button1": "Görselden Üret",
+      "button2": "Ücretsiz Başla · Kredi Kartı Gereksiz"
+    },
+    "heroDescription": "Bir görsel yükleyin, sonsuz varyasyon alın – yeni stil, yeni sahne, yeni atmosfer; ana temayı korurken.",
+    "builtFor": {
+      "title": "Modern yaratıcılar için tasarlandı:",
+      "hdOutputs": "HD çıktı",
+      "fastGeneration": "Hızlı üretim",
+      "commercialReady": "Ticari kullanım uygun"
+    },
+    "interfaceFeatures": {
+      "title": "Tek, sade bir arayüzde şunlara sahip olursunuz:",
+      "uploadArea": "Referans yükleme için sürükle-bırak alanı",
+      "promptBox": "Değişikliklerinizi açıklama kutusu",
+      "styleDropdown": "Stil açılır menüsü (gerçekçi, anime, illüstrasyon, 3D, piksel, retro ve daha fazlası)",
+      "strengthSlider": "Değişim kuvveti kaydırıcısı: ufak rötuşlardan tam başkalaşıma",
+      "generateButton": "Tek tıkla üretim: bir görselden birden fazla varyasyon elde et"
+    },
+    "whatYouCanDo": {
+      "title": "joymagic Görüntüden Görüntüye ile neler yapabilirsiniz",
+      "description": "Yeni bir tasarıma sıfırdan başlamak yerine, bir görselle yola çıkın – gerisini joymagic’a bırakın.",
+      "styleTransformations": {
+        "title": "Stil & atmosfer dönüşümü",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Fotoğrafı illüstrasyon, anime, resim, 3D render, piksel sanatı gibi farklı varyantlara dönüştürün</li><li>Işığı, renkleri ve atmosferi değiştirin, ana yerleşimi koruyun</li><li>Aynı görsel düşüncenin farklı sanat yönlerini hızla deneyin</li></ul><p class='text-sm text-muted-foreground italic'>Bildiğiniz bir öğe için farklı görsellik keşfetmek istediğinizde idealdir.</p>"
+      },
+      "characterConsistency": {
+        "title": "Karakter & kimlik tutarlılığı",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Aynı yüz ya da karakteri birden fazla görselde tekrarlayın</li><li>Poz, sahne veya stili değiştirirken saç, kıyafet ve temel özellikleri koruyun</li><li>VTuber, hikaye anlatıcı, çizgi roman sanatçıları ve maskotlar için idealdir</li></ul><p class='text-sm text-muted-foreground italic'>Her şeyi el ile tekrar çizmek zorunda kalmadan tutarlı bir kimlik oluşturun.</p>"
+      },
+      "productBrand": {
+        "title": "Ürün & marka görselliği",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Tek bir temel görselden çoklu ürün fotoğrafları üretin</li><li>Aynı ürünü anında farklı ortam, sezon ve kampanya içinde gösterin</li><li>Logo, renk ve ana şekilleri markanıza uygun tutun</li></ul><p class='text-sm text-muted-foreground italic'>Bir çekim, bir yıl boyu kampanya materyali çıkarır.</p>"
+      },
+      "socialContent": {
+        "title": "Sosyal medya & içerik materyali",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Bir referans görseli tam YouTube/TikTok/Bilibili küçük resmi, kanal banner’ı, sosyal medya paylaşımı ve blog başlığına dönüştürün</li><li>Her platformun format ve atmosferine hızlıca uyarlayın</li></ul><p class='text-sm text-muted-foreground italic'>Stok aramakla vakit kaybetmeyin, doğrudan içerik üretin.</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "joymagic Görüntüden Görüntüye’nin ana özellikleri",
+      "description": "Hız ve kaliteye odaklı, görsel dönüştürmek için ihtiyacınız olan her şey.",
+      "uploadPromptTransform": {
+        "title": "Yükle, tanımla, dönüştür",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>JPG, PNG, WEBP gibi formatlar desteklenir</li><li>Stil, ortam ve atmosferi ayrıntılıca kontrol edebileceğiniz metin kutusu</li><li>Sosyal medya, küçük görsel, kapak gibi kullanımlar için orantı ve çözünürlük ön ayarları</li></ul><p class='text-sm text-muted-foreground italic'>İsterseniz sadece yükleyip üretebilir, isterseniz metinle sanatsal kontrol sağlayabilirsiniz.</p>"
+      },
+      "flexibleControl": {
+        "title": "Esnek değişim kontrolü",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Değişim gücü kaydırıcısı ile isteğe uygun varyasyonlar</li><li>Yerleşim, karakter ya da stil önceliği</li></ul><p class='text-sm text-muted-foreground italic'>Sonuçlar öngörülebilir ve tekrar edilebilir, rastlantıya bırakılmaz.</p>"
+      },
+      "highQuality": {
+        "title": "Yüksek kalite çıktı",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Keskin ve net detaylı HD çıktı</li><li>Metin, logo ve ürün kenarlarını net tutan akıllı üretim</li><li>Web siteleri, sunumlar, baskı için yüksek çözünürlüklü çıktı olanakları</li></ul><p class='text-sm text-muted-foreground italic'>İlk taslaktan son materyale kadar kalite her zaman önceliğimiz.</p>"
+      },
+      "nonDesigners": {
+        "title": "Tasarımcı olmayanlar için de kolay",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Hazır stil ön ayarları: gerçekçi, anime, illüstrasyon, 3D, retro, piksel vb.</li><li>Tek tıkla yeniden üretim, farklı görünüm denemeleri</li><li>Yalın ve odaklı arayüz: yükle → stil seç → kuvvet ayarla → dışa aktar</li></ul><p class='text-sm text-muted-foreground italic'>Dosya yükleyebilen herkes, joymagic ile marka görseli oluşturabilir.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "joymagic Görüntüden Görüntüye Nasıl Çalışır?",
+      "description": "Sadece dört adımda: yükle, tanımla, seç, indir.",
+      "step1": {
+        "title": "Adım 1 – Görselinizi yükleyin",
+        "description": "<p class='mb-3'>Herhangi net bir başlangıç görseli olur: ürün, karakter, logo, UI ya da illüstrasyon. Sürükleyip bırakın veya seçin. joymagic referansınızı koruyarak manipüle eder.</p>"
+      },
+      "step2": {
+        "title": "Adım 2 – Değişikliği tanımlayın",
+        "description": "<p class='mb-3'>AI’ı yönlendirmek için kısaca yazın.</p><p class='mb-2'>Örnekler:</p><ul class='list-disc list-inside space-y-1 mb-3 ml-4'><li>‘Gece, sıcak anime atmosferi’ne dönüştür</li><li>‘Üst düzey stüdyo çekimi gibi yap’</li><li>‘Eskizi temiz flate çevir’</li><li>‘Karakteri günbatımlı siberpunk şehirde göster’</li></ul><p class='text-sm text-muted-foreground italic'>Kısa ve basit açıklama yeterli. Veya sadece stil ön ayarı seçin.</p>"
+      },
+      "step3": {
+        "title": "Adım 3 – Stil ve kuvvet seçin",
+        "description": "<p class='mb-3'>Kaç değişiklik istiyorsanız ona göre ayarlayın.</p><ul class='list-disc list-inside space-y-1 mb-3'><li>Stil ön ayarını seçin (gerçekçi, anime, 3D, illüstrasyon vb.)</li><li>Kuvvet ayarlayın: küçük düzeltmelerden büyük değişimlere</li><li>(İsteğe bağlı) öncelik atayın: kompozisyon, karakter ya da stil</li></ul><p class='text-sm text-muted-foreground italic'>Yaratıcı kontrol sizde; gerisini joymagic halleder.</p>"
+      },
+      "step4": {
+        "title": "Adım 4 – Üret ve indir",
+        "description": "<p class='mb-3'>AI’a üretimi bırakın, beğendiğinizi seçin.</p><ul class='list-disc list-inside space-y-1 mb-3'><li>Tek girişten pek çok varyasyon üretilir</li><li>Farklı sonuçları yan yana önizleyin</li><li>Favorinizi işaretleyin ve HD indirin</li><li>Sosyal medya, ürün sayfası vs. anında kullanıma hazır</li></ul><p class='text-sm text-muted-foreground italic'>Bir görselden bütün bir koleksiyon doğar.</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "joymagic neden farklı?",
+      "description": "Görüntüden Görüntüye için sıfırdan özel tasarım; ek özellik değil, ana odak.",
+      "focused": {
+        "title": "Tüm süreç bu iş için inşa edildi",
+        "description": "<p class='mb-3'>Birçok platformda ‘görüntüden görüntüye’ sadece ek bir araçtır. joymagic ise baştan uca bu akışa özeldir:</p><ul class='list-disc list-inside space-y-1 mb-3'><li>Gereksiz araç/fonksiyon yok</li><li>Daha hızlı öğrenim ve kullanım</li><li>Referans tabanlı üretim için ince ayarlandı</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "Her gün hızlı üretim için",
+        "description": "Aynı baz görsele farklı stil ve komutla hızlıca varyasyonlar dene; menülerin içinde kaybolmazsın."
+      },
+      "pricing": {
+        "title": "Büyüdükçe ölçeklenen fiyat",
+        "description": "Ücretsiz kullanım ile başla, neye ihtiyacın varsa onu test et. Daha fazlası için uygun paketlere geçebilirsin; en güncel detaylar uygulama içindedir."
+      },
+      "commercialUse": {
+        "title": "Ticari kullanım güvenli",
+        "description": "Yüklediğiniz görsellerin hakları sizde olduğu sürece, elde edilen üretim ticari kullanıma açıktır."
+      }
+    },
+    "perfectFor": {
+      "title": "joymagic kimler için ideal?",
+      "description": "Tutarlı ve yüksek kalitede özgün görsellik isteyenler için.",
+      "creators": {
+        "title": "İçerik üreticileri & influencerlar",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>İçeriğiniz etrafında tekrar eden bir görsel dil oluşturun</li><li>Dikkat çekici sosyal medya postları, küçük resimler, kapaklar</li><li>Farklı tarz ve atmosferi hızlı test edin</li><li>Avatar, karakter, maskot gibi kimlik unsurlarıyla sınırsız varyant çıkarın</li></ul><p class='text-sm text-muted-foreground italic'>Her görsel için saatler harcamadan farklı platformlarda öne çıkın.</p>"
+      }
+    }
+  }
+}

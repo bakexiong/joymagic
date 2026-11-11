@@ -1,0 +1,122 @@
+{
+  "textToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 Text zu Video - Cinematic AI Video Generator | joymagic",
+      "description": "Erstelle 5-sekündige 720p-Cinematic-Clips mit HappyHorse 1.0. Verwandle Prompts in hochwertige 16:9-AI-Videos mit optionaler Seed-Kontrolle für reproduzierbare Ergebnisse.",
+      "keywords": "happyhorse 1.0, text zu video, ai video generator, alibaba happyhorse, cinematic ai video, 720p text zu video, 16:9 ai video"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 Text zu Video",
+      "description": "HappyHorse 1.0 verwandelt einfache Prompts in hochwertige 3-15-Sekunden-Cinematic-Clips. Der Workflow bleibt bewusst schlank: natives 16:9-Format, 720p-Ausgabe und optionale Seed-Kontrolle für wiederholbare Entwürfe. <br/><br/>Du möchtest lieber ein Standbild animieren? Dann probiere <a href=\"/image-to-video/happyhorse-1-0\" class=\"text-primary underline\">HappyHorse 1.0 Bild zu Video</a>.",
+      "button1": "Jetzt testen",
+      "button2": "Preise ansehen"
+    },
+    "keyFeatures": {
+      "title": "Hauptfunktionen",
+      "cinematicPreset": {
+        "title": "Cinematic als Standard",
+        "description": "Ideal für visuelle Pitches, Social-Teaser und kurze Konzeptvideos mit professioneller Anmutung."
+      },
+      "fastStoryboard": {
+        "title": "Flexible 3-15-Sekunden-Entwürfe",
+        "description": "Die feste Länge von 3-15 Sekunden erleichtert den direkten Vergleich mehrerer Ideen."
+      },
+      "reproducibleSeed": {
+        "title": "Wiederholbare Seed-Kontrolle",
+        "description": "Setze einen Seed, wenn du ähnliche Ergebnisse über mehrere Prompt-Varianten hinweg behalten möchtest."
+      },
+      "nativeWideframe": {
+        "title": "Natives 16:9-Format",
+        "description": "Erzeuge sofort nutzbare Widescreen-Clips ohne zusätzliches Reframing."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "Was ist HappyHorse 1.0 Text zu Video?",
+        "answer": "Es ist ein AI-Video-Workflow, der Text-Prompts mit Alibaba HappyHorse 1.0 in 5-sekündige 720p-Videoclips umwandelt."
+      },
+      "q2": {
+        "question": "Welches Seitenverhältnis wird unterstützt?",
+        "answer": "Der aktuelle Text-zu-Video-Workflow ist auf 16:9-Ausgabe optimiert."
+      },
+      "q3": {
+        "question": "Kann ich die Dauer ändern?",
+        "answer": "Diese Version konzentriert sich auf schnelle 3-15-Sekunden-Generierung für zügige Iteration und Vorschau."
+      },
+      "q4": {
+        "question": "Wofür ist der Seed gut?",
+        "answer": "Ein Seed hilft dir, Ergebnisse zwischen mehreren Durchläufen besser zu reproduzieren oder zu stabilisieren."
+      },
+      "q5": {
+        "question": "Für wen eignet sich dieses Modell?",
+        "answer": "Es passt gut zu Kreativen, Marketingteams und Produktteams, die kurze filmische Konzeptclips aus Text benötigen."
+      }
+    },
+    "finalCTA": {
+      "title": "Bereit für HappyHorse 1.0?",
+      "description": "Verwandle Prompts in wenigen Sekunden in kurze Cinematic-Clips.",
+      "button": "Video generieren"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 Bild zu Video - Standbilder mit AI animieren | joymagic",
+      "description": "Verwandle ein Standbild mit HappyHorse 1.0 in einen 5-sekündigen 720p-Clip. Lade ein Bild hoch und erzeuge schnell saubere Bewegung.",
+      "keywords": "happyhorse 1.0, bild zu video, bild animation, ai bild animation, alibaba happyhorse, 720p bild zu video, 5 sekunden ai video"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 Bild zu Video",
+      "description": "HappyHorse 1.0 macht aus einem einzelnen Bild einen kurzen 3-15-Sekunden-Animationsclip in 720p. Lade ein Referenzbild hoch, ergänze optional einen Bewegungsprompt und erhalte schnell ein sauberes Widescreen-Ergebnis. <br/><br/>Du möchtest lieber von Text ausgehen? Dann probiere <a href=\"/text-to-video/happyhorse-1-0\" class=\"text-primary underline\">HappyHorse 1.0 Text zu Video</a>.",
+      "button1": "Jetzt testen",
+      "button2": "Preise ansehen"
+    },
+    "keyFeatures": {
+      "title": "Hauptfunktionen",
+      "singleImageMotion": {
+        "title": "Animation aus einem Bild",
+        "description": "Starte mit nur einem Standbild, ohne komplexes Szenen-Setup."
+      },
+      "fastFiveSecond": {
+        "title": "Schnelle 3-15-Sekunden-Ausgabe",
+        "description": "Die feste Kurzform erleichtert leichtes Testen und schnelles Vergleichen."
+      },
+      "cleanOutput": {
+        "title": "Saubere 720p- und 1080p-Ausgabe",
+        "description": "Erzeuge HD-Clips für Konzeptdemos, Social Posts und Kampagnen-Mockups."
+      },
+      "simpleWorkflow": {
+        "title": "Einfache Steuerung",
+        "description": "Konzentriere dich auf Bild, Dauer und Auflösung, mit optionalem Prompt für Bewegungsrichtung."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "Was macht HappyHorse 1.0 Bild zu Video?",
+        "answer": "Es animiert ein hochgeladenes Bild zu einem kurzen AI-generierten Videoclip."
+      },
+      "q2": {
+        "question": "Muss ich einen Prompt schreiben?",
+        "answer": "Nein. Ein Prompt ist optional, kann aber Bewegung und Stimmung gezielter steuern."
+      },
+      "q3": {
+        "question": "Welche Ausgabequalität gibt es?",
+        "answer": "Das aktuelle Setup erzeugt 720p-Videos."
+      },
+      "q4": {
+        "question": "Wie lang ist jeder Clip?",
+        "answer": "Dieser Workflow ist derzeit auf 3-15-Sekunden-Clips abgestimmt."
+      },
+      "q5": {
+        "question": "Wann sollte ich Bild zu Video statt Text zu Video verwenden?",
+        "answer": "Nutze Bild zu Video, wenn du ein Referenzbild, einen Charakter, ein Produktfoto oder eine feste Komposition beibehalten möchtest."
+      }
+    },
+    "finalCTA": {
+      "title": "Bewege dein Bild mit HappyHorse 1.0",
+      "description": "Lade ein Standbild hoch und verwandle es schnell in Bewegung.",
+      "button": "Bild animieren"
+    }
+  }
+}

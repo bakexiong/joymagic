@@ -1,0 +1,195 @@
+{
+  "imageBackgroundRemover": {
+    "id": "image-background-remover",
+    "title": "Hintergrund-Entferner KI von joymagic",
+    "description": "Entfernen Sie Hintergründe von Bildern sofort mit KI-Präzision. Perfekt für Produktfotos, Porträts und mehr.",
+    "steps": {
+      "sourceImage": {
+        "title": "Quellbild hochladen",
+        "hint": "Bild hier hochladen JPG/PNG/WEBP",
+        "dragDrop": "Ziehen & Ablegen oder klicken zum Hochladen",
+        "dropHere": "Bild hier ablegen"
+      },
+      "generate": {
+        "title": "Hintergrund entfernen",
+        "cta": "Hintergrund entfernen",
+        "generating": "Hintergrund wird entfernt..."
+      }
+    },
+    "preview": {
+      "title": "Vorschau",
+      "original": "Original",
+      "backgroundRemoved": "Hintergrund entfernt",
+      "placeholder": "Laden Sie ein Bild hoch, um hier das Ergebnis der Hintergrundentfernung zu sehen."
+    },
+    "common": {
+      "selected": "Ausgewählt: {name}",
+      "notSelected": "Nicht ausgewählt"
+    },
+    "errors": {
+      "invalidFileType": "Ungültiger Dateityp. Bitte laden Sie eine Bilddatei hoch (JPG, PNG, WEBP).",
+      "uploadFailed": "Upload fehlgeschlagen: {error}",
+      "uploadFailedGeneric": "Upload fehlgeschlagen",
+      "sourceImageRequired": "Bitte laden Sie zuerst ein Quellbild hoch",
+      "generationFailed": "Hintergrundentfernung fehlgeschlagen",
+      "taskFailed": "Aufgabenverarbeitung fehlgeschlagen",
+      "taskTimeout": "Aufgabenverarbeitung-Timeout, bitte versuchen Sie es später erneut",
+      "taskIdNotFound": "Task-ID konnte nicht abgerufen werden, bitte überprüfen Sie das API-Antwortformat",
+      "processingFailed": "Verarbeitung fehlgeschlagen, bitte versuchen Sie es erneut",
+      "statusQueryFailed": "Abfrage des Aufgabenstatus fehlgeschlagen",
+      "apiResponseParseFailed": "API-Antwort konnte nicht analysiert werden",
+      "downloadFailed": "Bild konnte nicht heruntergeladen werden"
+    },
+    "download": {
+      "title": "Bild herunterladen"
+    },
+    "alt": {
+      "sourcePreview": "Quellvorschau",
+      "enlargedPreview": "Vergrößerte Vorschau",
+      "source": "Quelle",
+      "generated": "Generiert"
+    }
+  },
+  "imageBackgroundRemoverPage": {
+    "metadata": {
+      "title": "KI Bild-Hintergrund-Entferner Online | Hintergrund sofort entfernen | joymagic",
+      "description": "Entfernen Sie sofort den Hintergrund von jedem Bild mit joymagic KI-Hintergrund-Entferner. Ein Klick, perfekter Schnitt – keine Bearbeitungskenntnisse erforderlich. HD-Download, Kein Wasserzeichen, Stapelverarbeitung.",
+      "keywords": "KI Bild-Hintergrund-Entferner, Hintergrund entfernen, transparenter Hintergrund, Hintergrund-Entferner online, KI-Hintergrundentfernung, Produktfoto-Editor, Porträt-Hintergrund-Entferner, Stapel-Hintergrundentfernung"
+    },
+    "hero": {
+      "title": "KI Bild-Hintergrund-Entferner Online",
+      "description": "Entfernen Sie sofort den Hintergrund von jedem Bild mit joymagic KI-Hintergrund-Entferner. Ein Klick, perfekter Schnitt – keine Bearbeitungskenntnisse erforderlich.",
+      "button1": "Jetzt Hintergrund entfernen",
+      "button2": "Kostenlos starten · Keine Kreditkarte"
+    },
+    "heroDescription": "✓ HD-Download  ✓ Kein Wasserzeichen  ✓ Stapelverarbeitung",
+    "whatIsAIBackgroundRemover": {
+      "title": "Was ist ein KI Bild-Hintergrund-Entferner?",
+      "description": "joymagic KI Bild-Hintergrund-Entferner verwendet fortschrittliches Deep Learning, um automatisch das Hauptmotiv in Ihrem Foto zu erkennen und den Hintergrund in Sekunden präzise zu entfernen. Im Gegensatz zu manuellen Tools oder einfachen Editoren, die Maskierung und Pinselarbeit erfordern, kann unsere KI:",
+      "features": [
+        "Intelligent Personen, Produkte, Tiere, Autos und Objekte identifizieren",
+        "Komplexe Kanten wie Haare, Fell und feine Details verarbeiten",
+        "Saubere, transparente Ausschnitte (PNG) erstellen oder durch jede Farbe ersetzen",
+        "Jedes Mal professionelle Ergebnisse liefern"
+      ],
+      "perfectFor": "Perfekt für Produktfotos, Porträts, Profilbilder, Social-Media-Inhalte, E-Commerce-Listen und Designprojekte."
+    },
+    "keyFeatures": {
+      "title": "Hauptfunktionen",
+      "description": "Leistungsstarke KI-Hintergrundentfernung für Geschwindigkeit und Qualität.",
+      "oneClickPrecision": {
+        "title": "Präzise Entfernung mit einem Klick",
+        "description": "<p class=\"mb-3\">Hochmoderne KI verarbeitet selbst knifflige Details wie Haare, Fell und transparente Objekte – Ergebnisse in Sekunden.</p>"
+      },
+      "highQualityTransparent": {
+        "title": "Hochwertige transparente Ausgaben",
+        "description": "<p class=\"mb-3\">Laden Sie knackige, professionelle Ausschnitte in voller HD mit glatten Kanten und ohne Artefakte herunter.</p>"
+      },
+      "batchRemoval": {
+        "title": "Stapel-Hintergrundentfernung",
+        "description": "<p class=\"mb-3\">Laden Sie mehrere Bilder gleichzeitig hoch und verarbeiten Sie sie – perfekt für Produktkataloge oder Massenbearbeitung.</p>"
+      },
+      "cleanProfessional": {
+        "title": "Saubere & professionelle Ergebnisse",
+        "description": "<p class=\"mb-3\">Keine Wasserzeichen, keine unscharfen Kanten – bereit für E-Commerce, Präsentationen oder Design.</p>"
+      },
+      "replaceBackground": {
+        "title": "Hintergrund ersetzen",
+        "description": "<p class=\"mb-3\">Wechseln Sie einfach mit einem Klick zu weißen, farbigen oder benutzerdefinierten Hintergründen.</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "Was Sie mit joymagic KI-Hintergrund-Entferner tun können",
+      "description": "Ein Upload, endlose kreative Möglichkeiten.",
+      "productPhotos": {
+        "title": "Beeindruckende Produktfotos erstellen",
+        "description": "<p class=\"mb-3\">Entfernen Sie ablenkende Hintergründe von Produktaufnahmen und platzieren Sie Artikel auf sauberem Weiß oder transparent für Amazon, Shopify oder Listen.</p>"
+      },
+      "profilePictures": {
+        "title": "Professionelle Profilbilder erstellen",
+        "description": "<p class=\"mb-3\">Isolieren Sie sofort Porträts für LinkedIn, Lebensläufe, Ausweisfotos oder Dating-Profile.</p>"
+      },
+      "graphicsMemes": {
+        "title": "Grafiken & Memes gestalten",
+        "description": "<p class=\"mb-3\">Extrahieren Sie Personen, Objekte oder Tiere, um sie auf neue Hintergründe, Poster oder Social-Media-Visuals zu legen.</p>"
+      },
+      "ecommerce": {
+        "title": "Bilder für E-Commerce vorbereiten",
+        "description": "<p class=\"mb-3\">Verarbeiten Sie schnell Hunderte von Produktbildern mit Stapelentfernung – sparen Sie Stunden manueller Bearbeitung.</p>"
+      },
+      "socialMedia": {
+        "title": "Social-Media-Inhalte verbessern",
+        "description": "<p class=\"mb-3\">Erstellen Sie auffällige Stories, Posts und Reels mit transparenten Stickern oder sauberen Ausschnitten.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "Wie entfernt man den Hintergrund von einem Bild",
+      "description": "Entfernen Sie Hintergründe mit unserem KI-Hintergrund-Entferner in nur wenigen einfachen Schritten:",
+      "step1": {
+        "title": "1. Laden Sie Ihr Bild hoch",
+        "description": "<p class=\"mb-3\">Ziehen Sie Ihr Foto per Drag & Drop oder wählen Sie es aus.</p><p class=\"mb-3\">Unterstützt JPG, JPEG, PNG, WEBP und HEIC Formate.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Funktioniert mit Porträts, Produktaufnahmen, Logos und mehr</li><li>Beste Ergebnisse mit klaren Motiven</li></ul>"
+      },
+      "step2": {
+        "title": "2. Lassen Sie die KI die Magie wirken",
+        "description": "<p class=\"mb-3\">Unsere KI erkennt und entfernt den Hintergrund automatisch in Sekunden.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Kein manuelles Pinseln oder Auswählen erforderlich</li><li>Vorschau des transparenten Ergebnisses sofort</li></ul>"
+      },
+      "step3": {
+        "title": "3. Verfeinern (optional)",
+        "description": "<p class=\"mb-3\">Feinabstimmung bei Bedarf:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Teile des Motivs wiederherstellen</li><li>Verbleibende Hintergrundflecken löschen</li><li>Kanten glätten für perfekte Ausschnitte</li></ul>"
+      },
+      "step4": {
+        "title": "4. Laden Sie Ihr Ergebnis herunter",
+        "description": "<p class=\"mb-3\">Erhalten Sie Ihr hintergrundfreies Bild sofort:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Transparentes PNG (ideal für Überlagerungen)</li><li>Oder wählen Sie einen einfarbigen/weißen Hintergrund</li><li>HD-Qualität, einsatzbereit</li></ul>"
+      }
+    },
+    "faq": {
+      "title": "KI Bild-Hintergrund-Entferner FAQs",
+      "description": "Häufige Fragen zu unserem KI Bild-Hintergrund-Entferner.",
+      "q1": {
+        "question": "Welche Bildformate werden unterstützt?",
+        "answer": "Wir unterstützen JPG, JPEG, PNG, WEBP und HEIC. Für beste Ergebnisse verwenden Sie hochwertige Bilder."
+      },
+      "q2": {
+        "question": "Werden meine Bilder ein Wasserzeichen haben?",
+        "answer": "Nein. Alle Downloads sind sauber und ohne Wasserzeichen."
+      },
+      "q3": {
+        "question": "Wie genau ist die KI?",
+        "answer": "Unsere KI ist hervorragend bei Haaren, Fell und komplexen Kanten. Für sehr komplizierte Fälle verwenden Sie die einfachen Verfeinerungstools, um das Ergebnis zu perfektionieren."
+      },
+      "q4": {
+        "question": "Kann ich Hintergründe von mehreren Bildern entfernen?",
+        "answer": "Ja – Stapelverarbeitung ermöglicht es Ihnen, mehrere Bilder gleichzeitig hochzuladen und Hintergründe zu entfernen."
+      },
+      "q5": {
+        "question": "Sind meine Daten sicher?",
+        "answer": "Ja. Hochgeladene Bilder werden sicher verarbeitet und nach der Verarbeitung automatisch gelöscht. Wir verwenden Ihre Bilder niemals für das Training."
+      },
+      "q6": {
+        "question": "Kann ich die Hintergrundfarbe ändern?",
+        "answer": "Ja – laden Sie mit transparentem Hintergrund herunter oder wählen Sie einen weißen/einfarbigen Hintergrund."
+      },
+      "q7": {
+        "question": "Welche Arten von Bildern funktionieren am besten?",
+        "answer": "Bilder mit einem klaren Hauptmotiv (Person, Produkt, Objekt, Tier) vor einem kontrastierenden oder unruhigen Hintergrund liefern die besten automatischen Ergebnisse. Porträts, Produktaufnahmen und Logos funktionieren besonders gut."
+      },
+      "q8": {
+        "question": "Kann ich das Ergebnis nach der KI-Entfernung verfeinern oder bearbeiten?",
+        "answer": "Ja – einfache Pinseltools ermöglichen es Ihnen, versehentlich entfernte Teile manuell wiederherzustellen oder verbleibende Hintergrundflecken zu löschen für pixelgenaue Kontrolle."
+      }
+    },
+    "privacySecurity": {
+      "title": "Datenschutz & Sicherheit",
+      "description": "Ihre Bilder und Privatsphäre haben für uns Priorität.",
+      "secureProcessing": "Alle Uploads werden sicher und verschlüsselt verarbeitet",
+      "autoDelete": "Bilder werden nach der Verarbeitung automatisch gelöscht",
+      "neverShared": "Niemals an Dritte weitergegeben oder für KI-Training verwendet"
+    },
+    "finalCTA": {
+      "title": "Verwandeln Sie jedes Foto in einen sauberen, professionellen Ausschnitt.",
+      "description": "Probieren Sie joymagic KI-Hintergrund-Entferner jetzt aus und erhalten Sie in Sekunden perfekte transparente Ergebnisse.<br/><span class=\"text-muted-foreground\">Keine Designkenntnisse erforderlich · Kostenlos testen</span>",
+      "button": "Jetzt Hintergrund entfernen"
+    }
+  }
+}
+

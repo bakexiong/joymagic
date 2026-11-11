@@ -1,0 +1,203 @@
+{
+  "videoFaceSwapPage": {
+    "whatIs": {
+      "title": "AI Video Face Swap Nedir?",
+      "description": "<strong>AI Video Face Swap</strong>, videolardaki yüzleri istediğiniz herhangi bir yüzle değiştirmenize olanak tanıyan AI destekli bir araçtır.",
+      "uses": "Gelişmiş makine öğrenimi kullanarak:",
+      "detect": "Videonuzdaki yüzleri tespit eder",
+      "track": "Hareketlerini kare kare takip eder",
+      "swap": "Onları yeni bir yüzle sorunsuz bir şekilde değiştirir",
+      "keep": "Doğal ifadeleri, ışığı ve açıları korur",
+      "canDo": "Çevrimiçi yüz değiştirme video AI'mızla şunları yapabilirsiniz:",
+      "movieScenes": "Yüzünüzü film sahnelerine yerleştirin",
+      "memeStars": "Arkadaşlarınızı meme yıldızlarına dönüştürün",
+      "cosplay": "Cosplay veya reaksiyon klipleri oluşturun",
+      "socialMedia": "Sosyal medya için kişiselleştirilmiş içerik yapın",
+      "cloud": "Her şey bulutta çalışır, bu yüzden güçlü donanım veya karmaşık yazılıma ihtiyacınız yoktur. Sadece yükleyin ve değiştirin."
+    },
+    "howTo": {
+      "title": "AI ile Videoda Yüz Nasıl Değiştirilir",
+      "description": "Birkaç basit adımda <strong>ücretsiz video yüz değiştirme AI</strong>'mızla gerçekçi, yüksek kaliteli yüz değiştirme videoları oluşturun:",
+      "step1": {
+        "title": "1. Yüz değiştirmek istediğiniz videoyu yükleyin",
+        "description": "Bir yüzü (veya birden fazla yüzü) değiştirmek istediğiniz orijinal videoyu yükleyin.",
+        "supportFormats": "Tüm yaygın video formatlarını destekliyoruz",
+        "clearFaces": "Videodaki yüzlerin net ve görünür olduğundan emin olun",
+        "quality": "Daha yüksek video kalitesi genellikle daha iyi sonuçlar verir"
+      },
+      "step2": {
+        "title": "2. Yüz değiştirmek istediğiniz videoyu yükleyin (isteğe bağlı)",
+        "description": "İki video arasında yüz değiştirmek istiyorsanız (örneğin, kendi videonuz ve bir film klibi):",
+        "secondVideo": "Kullanmak istediğiniz yüzü içeren ikinci videoyu yükleyin",
+        "detectBoth": "AI'mız her iki videodaki yüzleri tespit edecek",
+        "chooseFace": "Hangi yüzü eşleyeceğinizi ve değiştireceğinizi seçebilirsiniz",
+        "singleImage": "Yalnızca <strong>tek bir yüz görüntüsü</strong> kullanmak istiyorsanız, bu adımı atlayıp bir sonraki adıma geçebilirsiniz."
+      },
+      "step3": {
+        "title": "3. Değiştirme için bir yüz görüntüsü yükleyin",
+        "description": "Videoya koymak istediğiniz yüzün fotoğrafını yükleyin.",
+        "bestResults": "En iyi sonuçlar için:",
+        "clearPhoto": "Net, önden çekilmiş bir fotoğraf kullanın",
+        "wellLit": "Yüzün iyi aydınlatıldığından emin olun",
+        "avoidFilters": "Ağır filtrelerden veya yüz örtülerinden (güneş gözlüğü veya maske gibi) kaçının",
+        "autoAlign": "AI, yüzü videodaki açı, ışık ve ifadeyle eşleştirmek için otomatik olarak hizalayacaktır."
+      },
+      "step4": {
+        "title": "4. Video klibini kırpın (isteğe bağlı)",
+        "description": "Yüklediğiniz videoyu, yalnızca yüz değiştirmek istediğiniz kısma odaklanmak için kırpabilirsiniz.",
+        "trim": "Başlangıç ve bitiş zamanını kısaltın",
+        "focus": "Yüzün görünür olduğu ana sahneye odaklanın",
+        "improve": "Bu, hızı ve çıktı kalitesini artırabilir",
+        "generate": "Klipten memnun olduğunuzda, <strong>Oluştur</strong>'a tıklayın ve AI'ın yeni videonuzu oluşturmasına izin verin."
+      }
+    },
+    "features": {
+      "title": "AI Video Face Swap Online Aracımızın Temel Özellikleri",
+      "speed": {
+        "title": "Şimşek Hızında En Hızlı Video Yüz Değiştirme",
+        "description": "Yeni optimize edilmiş AI motorumuz <strong>dakikalar yerine saniyeler içinde yüz değiştirme</strong> sağlar.",
+        "faster": "Diğer birçok araçtan <strong>2× daha hızlı</strong>",
+        "complex": "<strong>Karmaşık, çok yüzlü videoları</strong> bile işler",
+        "sixFaces": "Tek bir videoda <strong>6 yüze</strong> kadar destekler",
+        "quick": "Hızlı önizlemeler ve hızlı final dışa aktarmalar için tasarlanmıştır",
+        "watermarkFree": "Uzun bekleme süreleri olmadan <strong>filigransız, profesyonel kalitede sonuçlar</strong> alırsınız."
+      },
+      "templates": {
+        "title": "Yüz Değiştirme için Trend Video Şablonları",
+        "description": "Nereden başlayacağınızı bilmiyor musunuz? Yüz değiştirme için tasarlanmış <strong>hazır video şablonlarımızı</strong> kullanın:",
+        "memeFormats": "Viral meme formatları",
+        "movieScenes": "Ünlü film sahneleri",
+        "reaction": "Reaksiyon ve düet klipleri",
+        "cosplay": "Cosplay ve karakter düzenlemeleri",
+        "shortForm": "TikTok, Reels ve YouTube Shorts için kısa form içerik",
+        "simple": "Sadece bir şablon seçin, yüzünüzü yükleyin ve birkaç tıklamayla paylaşılabilir bir video oluşturun."
+      },
+      "viral": {
+        "title": "Video Face Swap AI ile Herhangi Bir Klibi Viral Hit'e Dönüştürün",
+        "description": "Güçlü <strong>video yüz değiştirme AI</strong>'mızla sıradan klipleri eğlenceli, dikkat çekici içeriğe dönüştürebilirsiniz:",
+        "movieMoment": "Sizin başrol oynadığınız ikonik bir film anını yeniden yaratın",
+        "memes": "Arkadaşlarınızın yüzleriyle komik memeler yapın",
+        "team": "Ekibinizi, ailenizi veya müşterilerinizi temalı videolara yerleştirin",
+        "standOut": "Benzersiz, kişiselleştirilmiş düzenlemelerle sosyal medyada öne çıkın",
+        "easy": "İnsanların <strong>izlediği, paylaştığı ve hatırladığı</strong> videolar oluşturmak hiç bu kadar kolay olmamıştı."
+      }
+    },
+    "legal": {
+      "title": "Sorumlu Kullanım ve Yasal Gereksinimler",
+      "intro": "AI Video Face Swap aracımız yaratıcı ve eğlence amaçlı tasarlanmıştır. Yasal ve etik kullanımı sağlamak için lütfen bu yönergeleri dikkatlice okuyun ve takip edin.",
+      "whoCanSwap": {
+        "title": "Kimin Yüzünü Değiştirebilirsiniz?",
+        "mayUse": "YALNIZCA şunları kullanabilirsiniz:",
+        "ownFace": "Kendi yüzünüz",
+        "consent": "Size açık, bilgilendirilmiş onay vermiş bireylerin yüzleri",
+        "fictional": "Haklarına sahip olduğunuz kurgusal karakterler veya kamu malı içerik",
+        "mayNotUse": "Şunları kullanamazsınız:",
+        "noPermission": "Açık izinleri olmadan herhangi bir kişinin yüzü",
+        "celebrity": "Ticari amaçlar veya kimlik taklidi için ünlü yüzleri",
+        "minors": "Ebeveyn/vasi onayı olmadan reşit olmayanların (18 yaş altı) yüzleri",
+        "deceive": "Aldatmak, dolandırmak veya yanlış temsil etmek amacıyla herhangi bir içerik"
+      },
+      "prohibited": {
+        "title": "Kesinlikle Yasaklanan Kullanımlar",
+        "description": "AI Video Face Swap şunlar için kullanılamaz:",
+        "impersonation": "<strong>Kimlik Taklidi ve Dolandırıcılık</strong>: Başkalarını aldatmak, bireyleri taklit etmek veya yanlış bilgi yaymak için deepfake'ler oluşturmak",
+        "nonConsensual": "<strong>Rızasız İçerik</strong>: İzin olmadan yüzleri hassas, özel veya uygunsuz senaryolara değiştirmek",
+        "harassment": "<strong>Taciz ve İstismar</strong>: Herhangi bir bireye zarar veren, taciz eden veya onurunu ihlal eden içerik oluşturmak",
+        "copyright": "<strong>Telif Hakkı İhlali</strong>: Uygun yetkilendirme olmadan telif hakkı korumalı video içeriği (filmler, TV şovları, müzik videoları) kullanmak",
+        "political": "<strong>Politik Manipülasyon</strong>: Yanıltıcı politik içerik veya sahte onaylar oluşturmak",
+        "identityTheft": "<strong>Kimlik Hırsızlığı</strong>: Yüz değiştirmeleri kullanarak kendinizi başka biri olarak dolandırıcılıkla temsil etmek"
+      },
+      "disclosure": {
+        "title": "AI Üretilen İçerik Açıklaması",
+        "important": "Önemli",
+        "description": "Yüz değiştirme aracımızla oluşturulan videolar AI üretilen sentetik medyadır.",
+        "disclose": "Yüz değiştirilmiş videoları halka açık paylaşırken, içeriğin AI tarafından değiştirildiğini açıklamalısınız",
+        "jurisdictions": "Birçok yargı alanında, deepfake içeriğini açıklamama, sentetik medya ile ilgili yasalara aykırı olabilir",
+        "watermarks": "Aracımız, bölgenizin yasal gereksinimlerine bağlı olarak AI manipülasyonunu belirtmek için görünür veya görünmez filigranlar ekleyebilir"
+      },
+      "responsibilities": {
+        "title": "Yasal Sorumluluklarınız",
+        "description": "Bu aracı kullanarak şunları kabul edersiniz:",
+        "verify": "<strong>Yetkilendirmeyi Doğrulayın</strong>: Yüklediğiniz tüm yüzler ve video içeriği için uygun haklara ve izinlere sahip olduğunuzdan emin olun",
+        "comply": "<strong>Yasalara Uyun</strong>: Yargı alanınızdaki deepfake'ler, sentetik medya, gizlilik ve veri koruma ile ilgili tüm geçerli yasalara uyun",
+        "respect": "<strong>Hakları Saygı Gösterin</strong>: Tüm bireylerin fikri mülkiyet haklarına, kişilik haklarına ve gizlilik haklarına saygı gösterin",
+        "ethical": "<strong>Etik Kullanın</strong>: Aracı yalnızca yasal, etik ve zararsız amaçlar için kullanın"
+      },
+      "enforcement": {
+        "title": "Platform Uygulaması",
+        "description": "Kötüye kullanımı aktif olarak izliyoruz ve şunları uyguluyoruz:",
+        "moderation": "Otomatik içerik moderasyon sistemleri",
+        "reporting": "Kullanıcı bildirim mekanizmaları",
+        "suspension": "İhlaller için hesap askıya alma veya sonlandırma",
+        "cooperation": "Yasal olarak gerekli olduğunda kolluk kuvvetleriyle işbirliği",
+        "violation": "Bu yönergeleri ihlal etmek, hesabın derhal sonlandırılmasına ve olası yasal işlemlere yol açabilir."
+      },
+      "compliance": {
+        "title": "Bölgesel Uyumluluk",
+        "description": "Bu araç şunlara uygundur:",
+        "china": "İçerik etiketleme ve kullanıcı doğrulama gerektiren Çin'in \"Derin Sentez\" düzenlemeleri",
+        "eu": "AI üretilen içerikte şeffaflık için AB AI Yasası gereksinimleri",
+        "us": "Deepfake'ler ve sentetik medya ile ilgili ABD eyalet yasaları",
+        "consult": "Yasal kullanım hakkında sorularınız için yargı alanınızdaki bir avukata danışın."
+      }
+    },
+    "faq": {
+      "title": "Video Face Swap SSS",
+      "q1": {
+        "question": "1. AI Video Face Swap ücretsiz kullanılabilir mi?",
+        "answer1": "Evet, <strong>ücretsiz video yüz değiştirme AI</strong>'mızla yüz değiştirme videoları oluşturabilirsiniz.",
+        "answer2": "Bazı gelişmiş seçenekler (daha yüksek çözünürlük veya daha uzun klipler gibi), seçtiğiniz plana bağlı olarak yükseltme gerektirebilir."
+      },
+      "q2": {
+        "question": "2. Video düzenleme deneyimine ihtiyacım var mı?",
+        "answer1": "Hayır. Araç herkes için yapılmıştır:",
+        "simple": "Basit, adım adım iş akışı",
+        "aiHandles": "AI tespit, takip ve karıştırmayı otomatik olarak halleder",
+        "answer2": "Bir video ve yüz fotoğrafı yükleyebiliyorsanız, yüz değiştirme oluşturabilirsiniz."
+      },
+      "q3": {
+        "question": "3. Hangi video formatlarını destekliyorsunuz?",
+        "answer1": "Çoğu yaygın formatı destekliyoruz, dahil olmak üzere:",
+        "mp4": "MP4",
+        "answer2": "Dosyanız yüklenmiyorsa, onu MP4 olarak dışa aktarmayı ve tekrar yüklemeyi deneyin."
+      },
+      "q4": {
+        "question": "4. Videonumda filigran olacak mı?",
+        "answer1": "<strong>Evet, yasal uyumluluk ve şeffaflık için.</strong>",
+        "answer2": "Aracımız, çeşitli yargı alanlarındaki sentetik medya düzenlemelerine uygun olarak AI üretilen içeriği belirtmek için görünür veya görünmez işaretler ekler.",
+        "visible": "<strong>Görünür filigranlar</strong>: Bölgenizin yasal gereksinimlerine bağlı olarak önizleme veya final sürümlerinde görünebilir",
+        "invisible": "<strong>Görünmez işaretler</strong>: İçerik kimlik doğrulaması için videoya gömülü dijital parmak izleri",
+        "purpose": "<strong>Amaç</strong>: Deepfake açıklama yasalarına uyumu sağlamak ve kötüye kullanımı önlemek",
+        "answer3": "Bu işaretler, içeriği açıkça AI tarafından değiştirilmiş olarak tanımlayarak hem sizi hem de başkalarını korur."
+      },
+      "q5": {
+        "question": "5. Verilerim ve içeriğim güvende mi?",
+        "answer1": "Gizlilik ve güvenliği ciddiye alıyoruz:",
+        "secure": "Videolarınız ve görüntüleriniz güvenli bir şekilde işlenir ve iletim sırasında şifrelenir",
+        "only": "İçerik <strong>yalnızca</strong> istediğiniz sonuçları oluşturmak için kullanılır",
+        "notTrain": "Yüklemelerinizi <strong>modelimizi eğitmek veya üçüncü taraflarla paylaşmak için kullanmıyoruz</strong>",
+        "delete": "Dışa aktardıktan sonra dosyalarınızı silebilirsiniz",
+        "privacyRules": "Önemli Gizlilik Kuralları:",
+        "neverUpload1": "<strong>Asla yüklemeyin</strong> açık izinleri olmadan başka birinin yüzünü içeren içerik",
+        "neverUpload2": "<strong>Asla yüklemeyin</strong> hassas, özel veya samimi içerik",
+        "neverUpload3": "<strong>Asla yüklemeyin</strong> uygun ebeveyn/vasi onayı olmadan reşit olmayanların yüzleri",
+        "unauthorized": "Başka bir kişinin benzerliğini yetkisiz kullanmak gizlilik yasalarını ve Hizmet Şartlarımızı ihlal edebilir",
+        "responsible": "Yüklediğiniz tüm içerikler için haklara sahip olduğunuzdan emin olmak tamamen sizin sorumluluğunuzdadır."
+      },
+      "q6": {
+        "question": "6. Bir videoda birden fazla yüz değiştirebilir miyim?",
+        "answer1": "Evet. AI'mız tek bir videoda <strong>6 yüze</strong> kadar işleyebilir:",
+        "swapOne": "Bir yüzü veya birkaçını aynı anda değiştirin",
+        "mapDifferent": "Farklı yüzleri klipteki farklı kişilere eşleyin",
+        "great": "Grup videoları, takım tanıtımları veya aile memeleri için harika"
+      },
+      "q7": {
+        "question": "7. AI Video Face Swap sesi de değiştirir mi?",
+        "answer1": "Hayır. Yüz değiştirme yalnızca videodaki <strong>görsel yüzü</strong> değiştirir.",
+        "audioStays": "Orijinal ses (ses, müzik, efektler) aynı kalır",
+        "editLater": "Gerekirse sesi daha sonra başka araçlarla düzenleyebilirsiniz"
+      },
+      "cta": "Bugün <strong>AI Video Face Swap online</strong> kullanmaya başlayın ve fikirlerinizi, şakalarınızı ve hikayelerinizi sadece birkaç tıklamayla kaydırmayı durduran videolara dönüştürün."
+    }
+  }
+}

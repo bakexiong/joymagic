@@ -1,0 +1,114 @@
+{
+  "title": "Nano Banana Text to Image",
+  "subtitle": "Generate stunning images from text descriptions",
+  "prompt_label": "Prompt",
+  "prompt_placeholder": "A little girl blowing soap bubbles in a backyard, sunlight making rainbow colors in the bubbles, candid photography style.",
+  "prompt_tooltip": "Enter a description of the image you want to generate",
+  "prompt_enhancer": "Prompt Enhancer",
+  "enhancing": "Enhancing...",
+  "aspect_ratio_label": "Aspect Ratio",
+  "aspect_ratio_hint": "Choose the aspect ratio for the generated image",
+  "aspect_ratio_placeholder": "Select aspect ratio (optional)",
+  "aspect_ratio_none": "(None)",
+  "output_format_label": "Output Format",
+  "output_format_hint": "Choose the output image format",
+  "buttons": {
+    "generate": "Generate Image"
+  },
+  "errors": {
+    "promptRequired": "Prompt is required"
+  },
+  "image_alt": "Generated image",
+  "download": "Download",
+  "image_placeholder": "Generated image will appear here",
+  "page": {
+    "metadata": {
+      "title": "Nano Banana Text to Image - AI Image Generation | joymagic",
+      "description": "Generate images from text with Google Nano Banana AI. Create photos, illustrations, and designs with clear text rendering. Try Nano Banana free.",
+      "keywords": "nano banana text to image, ai image generator, google nano banana, gemini 2.5 flash image, text to image ai"
+    },
+    "hero": {
+      "title": "Nano Banana Text to Image",
+      "description": "Google Nano Banana (Gemini 2.5 Flash Image) generates images from text descriptions. Type what you want, get photos, illustrations, or concept art in seconds. Handles different visual styles naturally. Try Nano Banana free below!<br/><br/>Need professional controls and clear text rendering? <a href=\"/text-to-image/nano-banana-pro\" class=\"text-primary underline\">Try Nano Banana Pro</a>.",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Powerful AI image generation capabilities",
+      "createFromScratch": {
+        "title": "Create From Scratch",
+        "description": "Describe any scene and the model generates it. No reference images needed—just write what you want to see and the model builds it from your description."
+      },
+      "differentStyles": {
+        "title": "Handles Different Styles",
+        "description": "Works across visual styles naturally. Generate photorealistic scenes, anime characters, digital illustrations, concept art, or sketches by describing the style in your prompt."
+      },
+      "plainTextInput": {
+        "title": "Plain Text Input",
+        "description": "Write descriptions in everyday language. \"A cat wearing sunglasses on a beach at sunset\" or \"cyberpunk street scene with neon signs\"—the model understands natural phrasing."
+      },
+      "fastGeneration": {
+        "title": "Fast Generation",
+        "description": "Most images generate in 5-10 seconds. Test different ideas quickly—try variations of lighting, composition, and subjects without long waits."
+      },
+      "clearTextPro": {
+        "title": "Clear Text in Images (Pro)",
+        "description": "Pro version renders readable text in multiple languages. Generate logos, posters, signage, and product labels where typography stays sharp and legible. Particularly good at Chinese characters."
+      }
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "conceptVisualization": {
+        "title": "Concept Visualization",
+        "description": "Need to show clients an idea but don't have reference photos? Describe the concept and generate visuals for presentations and pitches."
+      },
+      "socialMedia": {
+        "title": "Social Media Graphics",
+        "description": "Create original images for posts and ads. Generate backgrounds, product mockups, or illustrations without stock photos or hiring designers."
+      },
+      "marketing": {
+        "title": "Marketing Materials",
+        "description": "Design posters, ads, and promotional graphics with text elements. Pro version keeps typography clear and professional—useful for event posters and product packaging."
+      },
+      "creativeExploration": {
+        "title": "Creative Exploration",
+        "description": "Test different visual directions before committing to detailed work. Generate multiple style variations to find what works."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Common questions about Nano Banana Text to Image",
+      "q1": {
+        "question": "What is Nano Banana Text to Image?",
+        "answer": "Nano Banana is Google DeepMind's AI image generator. It creates images from text descriptions—type what you want to see, get a generated image in seconds."
+      },
+      "q2": {
+        "question": "How detailed should my prompts be?",
+        "answer": "More detail usually helps. Instead of \"a dog,\" try \"a golden retriever sitting in a park, morning sunlight, photographic style.\" Include subject, setting, lighting, and visual style."
+      },
+      "q3": {
+        "question": "What formats are supported?",
+        "answer": "Outputs JPG, PNG, and WebP. Choose PNG if you need transparency support."
+      },
+      "q4": {
+        "question": "What's the difference from Nano Banana Pro?",
+        "answer": "Standard Nano Banana generates images quickly across different styles. Pro adds camera-style controls (depth of field, lighting), clear text rendering in multiple languages, and higher resolution output. <a href=\"/text-to-image/nano-banana-pro\" class=\"text-primary underline\">Compare versions →</a>"
+      },
+      "q5": {
+        "question": "How long does generation take?",
+        "answer": "Standard: 5-10 seconds per image. Pro: 10-15 seconds for complex prompts or higher resolution outputs."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Create?",
+      "description": "Start generating amazing images from your text descriptions today.",
+      "button": "Try It Now"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "textToImage": "Text to Image",
+      "nanoBanana": "Nano Banana"
+    }
+  }
+}

@@ -1,0 +1,1519 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "joymagic",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "joymagic"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Funzionalità",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "Prezzo",
+          "url": "/pricing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Affiliazione",
+          "url": "/affiliate",
+          "icon": "Handshake"
+        },
+        {
+          "title": "Effetto AI",
+          "icon": "Sparkles",
+          "children": [
+            {
+              "title": "Effetti immagine",
+              "url": "/image-effect",
+              "icon": "Image"
+            },
+            {
+              "title": "Effetti video",
+              "url": "/video-effect",
+              "icon": "Clapperboard"
+            }
+          ]
+        },
+        {
+          "title": "Immagine AI",
+          "icon": "Image",
+          "children": [
+            {
+              "title": "Testo in Immagine",
+              "icon": "Image",
+              "children": [
+                {
+                  "title": "GPT Image 2",
+                  "url": "/text-to-image/gpt-image-2",
+                  "icon": "Image",
+                  "description": "Genera con GPT Image 2 poster in cinese, scene fotorealistiche, screenshot UI e visual di prodotto",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Generale",
+                  "url": "/text-to-image/z-image-turbo",
+                  "icon": "Image",
+                  "description": "Genera immagini da testo con il modello AI Generale",
+                  "badge": "Gratis",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana",
+                  "url": "/text-to-image/nano-banana",
+                  "icon": "Image",
+                  "description": "Genera immagini da testo con il modello AI Nano Banana",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana Pro",
+                  "url": "/text-to-image/nano-banana-pro",
+                  "icon": "Image",
+                  "description": "Genera immagini di alta qualità da testo con il modello AI Nano Banana Pro",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana 2",
+                  "url": "/text-to-image/nano-banana-2",
+                  "icon": "Image",
+                  "description": "Testo a immagine di nuova generazione con controlli fotocamera, rendering testo nitido e output fino a 4K",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream V4.5",
+                  "url": "/text-to-image/seedream-4-5",
+                  "icon": "Image",
+                  "description": "Genera immagini straordinarie da testo con il modello AI Seedream V4.5",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream 5.0 Lite",
+                  "url": "/text-to-image/seedream-5-0-lite",
+                  "icon": "Image",
+                  "description": "Genera immagini straordinarie da testo con il modello AI Seedream 5.0 Lite",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Flux 2 Klein",
+                  "url": "/text-to-image/flux-2-klein",
+                  "icon": "Image",
+                  "description": "Genera immagini straordinarie da testo con il modello AI Flux 2 Klein",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "GPT Image 1",
+                  "url": "/text-to-image/gpt-image-1",
+                  "icon": "Image",
+                  "description": "Genera immagini da testo con il modello AI GPT Image 1",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Qwen Image 202512",
+                  "url": "/text-to-image/qwen-image-202512",
+                  "icon": "Image",
+                  "description": "Genera immagini straordinarie da testo con il modello AI Qwen Image 202512",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/text-to-image/wan-2-7",
+                  "icon": "Image",
+                  "description": "Genera immagini di alta qualità da testo con Wan 2.7, con Thinking Mode e risoluzione fino a 4096",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Midjourney",
+                  "url": "/text-to-image/midjourney",
+                  "icon": "Image",
+                  "description": "Genera immagini artistiche con modello AI in stile Midjourney",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Immagine in Immagine",
+              "icon": "Images",
+              "badge": "Gratis",
+              "children": [
+                {
+                  "title": "GPT Image 2",
+                  "url": "/image-to-image/gpt-image-2",
+                  "icon": "Images",
+                  "description": "Modifica fino a 4 immagini con GPT Image 2 per poster in cinese, ritocco fotorealistico, layout documentali e screenshot UI.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Generale",
+                  "url": "/image-to-image",
+                  "icon": "Images",
+                  "description": "Genera nuove immagini basate su esistenti",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Flux 2 Klein",
+                  "url": "/image-to-image/flux-2-klein",
+                  "icon": "Images",
+                  "description": "Trasforma e modifica immagini con Flux 2 Klein. Carica fino a 4 immagini, 2 crediti per immagine.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Soul",
+                  "url": "/image-to-image/soul",
+                  "icon": "Images",
+                  "description": "Trasforma immagini con Soul. Controllo qualità, dimensione, intensità e stile.",
+                  "badge": "Hot",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Z Image Turbo",
+                  "url": "/image-to-image/z-image-turbo",
+                  "icon": "Images",
+                  "description": "Trasforma immagini con Z Image Turbo. Dimensione, intensità e formato di output.",
+                  "badge": "Gratis",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Grok Imagine",
+                  "url": "/image-to-image/grok-imagine-image",
+                  "icon": "Images",
+                  "description": "Trasforma immagini con Grok Imagine. Carica un'immagine e descrivi la trasformazione.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream 5.0 Lite",
+                  "url": "/image-to-image/seedream-5-0-lite",
+                  "icon": "Images",
+                  "description": "Trasforma immagini con Seedream 5.0 Lite. Carica un'immagine e descrivi la trasformazione desiderata.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Qwen Image Max",
+                  "url": "/image-to-image/qwen-image-max",
+                  "icon": "Images",
+                  "description": "Modifica e trasforma immagini con Qwen Image Max AI. Editing intelligente basato su qwen-image-max-edit.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/image-to-image/wan-2-7",
+                  "icon": "Images",
+                  "description": "Modifica e trasforma immagini con Wan 2.7. Carica immagini, controlla la dimensione fino a 4096 e rifinisci il risultato con seed.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7 Image Edit Pro",
+                  "url": "/image-to-image/wan-2-7-image-edit-pro",
+                  "icon": "Images",
+                  "description": "Editing avanzato Wan 2.7 con supporto fino a 9 immagini, dimensione personalizzata fino a 4096 e controllo seed.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana",
+                  "url": "/image-to-image/nano-banana",
+                  "icon": "Images",
+                  "description": "Editor AI immagine-a-immagine Nano Banana. Carica fino a 10 immagini con controllo del rapporto d'aspetto per trasformazioni intelligenti.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana 2",
+                  "url": "/image-to-image/nano-banana-2",
+                  "icon": "Images",
+                  "description": "Nano Banana 2 image-to-image AI editor. Upload up to 14 images with aspect ratio and 1K/2K/4K resolution controls. Powered by nano-banana-2-edit.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana Pro Edit Ultra",
+                  "url": "/image-to-image/nano-banana-pro-edit-ultra",
+                  "icon": "Images",
+                  "description": "Nano Banana Pro Edit Ultra image-to-image AI editor. Upload up to 14 images with aspect ratio and 4K/8K resolution controls. Powered by nano-banana-pro-edit-ultra.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Qwen Immagine a Livelli",
+              "url": "/qwen-image-layered",
+              "icon": "Layers",
+              "description": "Scomporre immagini in livelli RGBA modificabili",
+              "icon_url": "https://ocdn.10b.ai/icon/qwen_image_layered.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Cancella Immagine",
+              "url": "/image-eraser",
+              "icon": "Eraser",
+              "description": "Rimuovere oggetti indesiderati, filigrane e sfondi dalle immagini",
+              "icon_url": "https://ocdn.10b.ai/icon/%20image_eraser.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Rimuovi Sfondo",
+              "url": "/image-background-remover",
+              "icon": "Scissors",
+              "description": "Rimuovi sfondi dalle immagini all'istante con IA",
+              "badge": "Free",
+              "icon_url": "https://ocdn.10b.ai/icon/background_remove.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Ingranditore Immagini",
+              "url": "/image-upscaler",
+              "icon": "Maximize2",
+              "description": "Ingrandisci immagini a 4K, 8K o 16K con precisione IA",
+              "icon_url": "https://ocdn.10b.ai/icon/image_upscaler.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            }
+          ]
+        },
+        {
+          "title": "Video AI",
+          "icon": "Video",
+          "children": [
+            {
+              "title": "Testo a Video",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "HappyHorse 1.0",
+                  "url": "/text-to-video/happyhorse-1-0",
+                  "icon": "Video",
+                  "description": "Generazione da testo a video con HappyHorse 1.0 - video cinematografico 16:9 da 5 secondi in 720p con seed opzionale",
+                  "badge": "Nuovo",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/text-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Genera video da testo con Wan 2.7, con 1080p, rapporto d'aspetto, fino a 15 secondi, espansione del prompt e controllo seed.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.6",
+                  "url": "/text-to-video/wan-2-6",
+                  "icon": "Video",
+                  "description": "Generazione video da testo con Wan 2.6",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Veo 3.1",
+                  "url": "/text-to-video/veo-3-1",
+                  "icon": "Video",
+                  "description": "Generazione video da testo con Veo 3.1",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 1.5 Pro",
+                  "url": "/text-to-video/seedance-1-5-pro",
+                  "icon": "Video",
+                  "description": "Generazione video da testo con Seedance 1.5 Pro",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 2.0",
+                  "url": "/text-to-video/seedance-2-0",
+                  "icon": "Video",
+                  "description": "Text to video generation with Seedance 2.0",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "PixVerse v5.6",
+                  "url": "/text-to-video/pixverse-5-6",
+                  "icon": "Video",
+                  "description": "Generazione video da testo con PixVerse v5.6",
+                  "badge": "Nuovo",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "LTX-2",
+                  "url": "/text-to-video/ltx2-fast",
+                  "icon": "Video",
+                  "description": "Generazione video da testo con LTX-2 - Generatore video AI 4K con audio sincronizzato",
+                  "badge": "Hot",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Immagine a Video",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "HappyHorse 1.0",
+                  "url": "/image-to-video/happyhorse-1-0",
+                  "icon": "Video",
+                  "description": "Generazione da immagine a video con HappyHorse 1.0 - anima una singola immagine in un clip cinematografico da 5 secondi in 720p",
+                  "badge": "Nuovo",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/image-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Anima immagini con Wan 2.7 usando un fotogramma iniziale, un fotogramma finale opzionale, audio opzionale, risoluzione, durata, espansione prompt e seed.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Vidu Q3",
+                  "url": "/image-to-video/vidu-q3",
+                  "icon": "Video",
+                  "description": "Generazione video da immagine con Vidu Q3 - Controlla l'ampiezza del movimento e genera video con audio e musica di sottofondo opzionali",
+                  "badge": "Nuovo",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Midjourney",
+                  "url": "/image-to-video/midjourney",
+                  "icon": "Video",
+                  "description": "Generazione video da immagine con Midjourney - Controlla movimento, qualità e parametri di stile",
+                  "badge": "Nuovo",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Veo 3.1",
+                  "url": "/image-to-video/veo-3-1",
+                  "icon": "Video",
+                  "description": "Generazione video da immagine con Veo 3.1",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 1.5 Pro",
+                  "url": "/image-to-video/seedance-1-5-pro",
+                  "icon": "Video",
+                  "description": "Generazione video da immagine con Seedance 1.5 Pro",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 2.0",
+                  "url": "/image-to-video/seedance-2-0",
+                  "icon": "Video",
+                  "description": "Generazione video da immagine con Seedance 2.0",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500",
+                  "badge": "New"
+                },
+                {
+                  "title": "PixVerse v5.6",
+                  "url": "/image-to-video/pixverse-5-6",
+                  "icon": "Video",
+                  "description": "Generazione video da immagine con PixVerse v5.6",
+                  "badge": "Nuovo",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "LTX-2",
+                  "url": "/image-to-video/ltx2-fast",
+                  "icon": "Video",
+                  "description": "Generazione video da immagine con LTX-2 - Generatore video AI 4K con audio sincronizzato",
+                  "badge": "Hot",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Reference To Video",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "Wan 2.7",
+                  "url": "/reference-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Wan 2.7 using multi-image and multi-video identity guidance.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 4K",
+                  "url": "/reference-to-video/kling-video-o3-4k",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 4K for high-fidelity subject-consistent shots.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O1 Std",
+                  "url": "/reference-to-video/kling-video-o1-std",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O1 Std using image and optional video references.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 Pro",
+                  "url": "/reference-to-video/kling-video-o3-pro",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 Pro, with optional audio generation and motion guidance.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 Std",
+                  "url": "/reference-to-video/kling-video-o3-std",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 Std for subject-consistent cinematic clips.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Grok Imagine Video",
+                  "url": "/reference-to-video/grok-imagine-video",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Grok Imagine Video from multiple reference images.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Video Extend",
+              "url": "/video-extend/wan-2-7",
+              "icon": "Video",
+              "description": "Extend existing videos with Wan 2.7, with optional audio, prompt expansion, and 720p/1080p output.",
+              "badge": "Nuovo",
+              "icon_url": "https://ocdn.10b.ai/icon/video_extend.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Controllo del Movimento",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "Kling 2.6 Pro",
+                  "url": "/motion-control/kling-2-6-pro",
+                  "icon": "Video",
+                  "description": "Generazione video con controllo del movimento usando Kling 2.6 Pro - Controlla il movimento del video con immagini e video di input",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Longcat Avatar",
+              "url": "/longcat-avatar",
+              "icon": "Video",
+              "description": "Crea video avatar AI con sincronizzazione audio e immagine - Genera video avatar parlanti fino a 2 minuti",
+              "icon_url": "https://ocdn.10b.ai/icon/longcat_avatar.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            }
+          ]
+        },
+        {
+          "title": "Blog",
+          "url": "/blog",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": []
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "disclaimer": "joymagic è un servizio indipendente di generazione di immagini con IA e non è affiliato, approvato né collegato ad Alibaba Group o a uno qualsiasi dei suoi modelli di IA. Tutti i riferimenti a \"joymagic\" riguardano esclusivamente il nostro prodotto e la nostra tecnologia."
+  },
+  "hero": {
+    "id": "hero",
+    "title": "Z-image - Generatore di immagini veloce e gratuito",
+    "highlight_text": "Veloce e gratuito",
+    "description": "Z-image è distribuito e ottimizzato da joymagic usando modelli IA open-source per creare immagini rapidamente e in alta qualità.",
+    "announcement": null,
+    "buttons": [
+      {
+        "title": "Unisciti a Discord per prompt segreti!",
+        "url": "https://discord.gg/bVCk5PHb8d",
+        "icon_url": "https://pub.wanai.pro/%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90/discord-logo-discord-icon-transparent-free-png.png",
+        "target": "_blank"
+      }
+    ],
+    "show_avatars": true,
+    "show_award": true,
+    "image": {
+      "src": "/imgs/features/hero-zimage.webp",
+      "alt": "joymagic"
+    },
+    "image_invert": {
+      "src": "/imgs/features/hero-zimage-dark.webp",
+      "alt": "joymagic"
+    }
+  },
+  "logos": {
+    "title": "Disponibile sulle principali piattaforme AI",
+    "items": [
+      {
+        "title": "GitHub",
+        "image": {
+          "src": "/imgs/logos/github.svg",
+          "alt": "GitHub"
+        }
+      },
+      {
+        "title": "ModelScope",
+        "image": {
+          "src": "/imgs/logos/modelscope.svg",
+          "alt": "ModelScope"
+        }
+      },
+      {
+        "title": "HuggingFace",
+        "image": {
+          "src": "/imgs/logos/huggingface.svg",
+          "alt": "HuggingFace"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "id": "introduce",
+    "title": "Quali modelli IA usa joymagic?",
+    "label": "Introduzione",
+    "description": "joymagic distribuisce e ottimizza modelli diffusion transformer open-source da 6B parametri come joymagic, rilasciati con licenza Apache-2.0. Offriamo una pipeline di inferenza potenziata, un sistema di sicurezza e una UI per un utilizzo più semplice.",
+    "image": {
+      "src": "/imgs/features/zimage-intro.webp",
+      "alt": "introduce"
+    },
+    "items": [
+      {
+        "title": "Qualità fotorealistica",
+        "description": "Realismo a livello fotografico con controllo fine su dettagli, illuminazione e texture. Ottima qualità estetica nella composizione e nell’atmosfera complessiva.",
+        "icon": "Camera",
+        "image": {
+          "src": "/imgs/features/photorealistic.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "Inferenza ultra-rapida",
+        "description": "Latenza di inferenza sotto il secondo su GPU H800 di classe enterprise. Solo 8 step necessari per la generazione.",
+        "icon": "Zap",
+        "image": {
+          "src": "/imgs/features/fast-inference.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "Rendering del testo bilingue",
+        "description": "Rendering accurato di testo cinese e inglese, preservando il realismo dei volti e l’estetica della composizione.",
+        "icon": "Languages",
+        "image": {
+          "src": "/imgs/features/bilingual-text.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "Uso efficiente della VRAM",
+        "description": "Funziona in modo fluido su GPU consumer con meno di 16GB di VRAM, rendendo la generazione avanzata di immagini più accessibile.",
+        "icon": "MemoryStick",
+        "image": {
+          "src": "/imgs/features/vram.webp",
+          "alt": "introduce"
+        }
+      }
+    ]
+  },
+  "benefits": {
+    "id": "benefits",
+    "title": "Funzionalità principali",
+    "label": "Funzionalità",
+    "description": "Uno sguardo alle capacità dei modelli IA distribuiti da joymagic",
+    "items": [
+      {
+        "title": "Fotorealistico",
+        "description": "Realismo a livello fotografico",
+        "icon": "Camera",
+        "image": {
+          "src": "/imgs/features/benefit-1.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "Testo bilingue",
+        "description": "Rendering del testo accurato",
+        "icon": "Languages",
+        "image": {
+          "src": "/imgs/features/benefit-4.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "Conoscenza del mondo",
+        "description": "Comprensione semantica profonda",
+        "icon": "Brain",
+        "image": {
+          "src": "/imgs/features/benefit-6.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "Editing immagini",
+        "description": "Modifiche creative su singola immagine",
+        "icon": "Edit",
+        "image": {
+          "src": "/imgs/features/benefit-7.webp",
+          "alt": "benefits"
+        }
+      }
+    ]
+  },
+  "features": {
+    "id": "features",
+    "title": "Vetrina delle capacità",
+    "description": "Scopri le capacità dei modelli IA distribuiti da joymagic.",
+    "items": [
+      {
+        "title": "Generazione fotorealistica",
+        "description": "Produce una generazione di immagini fortemente fotorealistica mantenendo un’eccellente qualità estetica.",
+        "icon": "Camera"
+      },
+      {
+        "title": "Rendering del testo bilingue",
+        "description": "Rende con precisione testo complesso in cinese e inglese in diversi scenari.",
+        "icon": "Languages"
+      },
+      {
+        "title": "Conoscenza del mondo",
+        "description": "Ampia comprensione della conoscenza globale e di diversi concetti culturali.",
+        "icon": "Globe"
+      },
+      {
+        "title": "Comprensione semantica",
+        "description": "Usa una catena di ragionamento strutturata per introdurre logica e buon senso.",
+        "icon": "Brain"
+      },
+      {
+        "title": "Editing creativo",
+        "description": "Esegue con precisione istruzioni complesse per trasformazioni dell’immagine.",
+        "icon": "Edit"
+      },
+      {
+        "title": "Esecuzione delle istruzioni",
+        "description": "Mostra un controllo fine sugli elementi e sulle trasformazioni dell’immagine.",
+        "icon": "CheckCircle"
+      }
+    ]
+  },
+  "models": {
+    "id": "models",
+    "title": "Architettura del modello",
+    "description": "Con soli 6 miliardi di parametri, il modello produce immagini fotorealistiche alla pari con quelle di modelli di un ordine di grandezza superiore. Può funzionare in modo fluido su schede grafiche consumer con meno di 16GB di VRAM.",
+    "items": [
+      {
+        "title": "Diffusione a flusso singolo",
+        "description": "Il modello joymagic adotta un’architettura Single-Stream Diffusion Transformer. Questo design unifica l’elaborazione di diversi input condizionali (come embedding di testo e immagine) con i latenti dell’immagine rumorosa in un’unica sequenza, poi passata al backbone Transformer.",
+        "image": {
+          "src": "/imgs/features/architecture.webp",
+          "alt": "architecture"
+        }
+      }
+    ]
+  },
+  "architecture": {
+    "id": "architecture",
+    "title": "Approfondimento tecnico",
+    "description": "Scopri l’architettura innovativa e le tecniche di training dietro joymagic.",
+    "items": [
+      {
+        "title": "Decoupled-DMD",
+        "description": "L’algoritmo core di distillazione in pochi step che abilita il modello joymagic a 8 step. Riconoscendo e disaccoppiando CFG Augmentation e Distribution Matching, abbiamo sviluppato un processo di distillazione migliorato.",
+        "icon": "Layers"
+      },
+      {
+        "title": "DMDR",
+        "description": "Integra DMD con Reinforcement Learning per ulteriori miglioramenti nell’allineamento semantico, qualità estetica e coerenza strutturale.",
+        "icon": "GitBranch"
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "Domande frequenti",
+    "description": "Domande comuni su joymagic e le sue capacità.",
+    "items": [
+      {
+        "question": "Come genera immagini joymagic?",
+        "answer": "joymagic genera immagini usando modelli IA avanzati rilasciati con licenza open-source Apache-2.0 e distribuiti sulla nostra infrastruttura di inferenza ottimizzata. Quando inserisci un prompt testuale, viene elaborato dai nostri sistemi di sicurezza e moderazione per garantire che rispetti le linee guida della piattaforma. Il prompt viene poi inviato alla pipeline di inferenza, dove il modello genera un’immagine in base alla tua descrizione. L’output finale viene consegnato istantaneamente al tuo browser. joymagic è un servizio indipendente e offre la propria interfaccia, livelli di sicurezza e ottimizzazioni delle prestazioni sopra componenti di modelli open-source concessi in licenza."
+      },
+      {
+        "question": "joymagic è un prodotto ufficiale di Alibaba o di un provider di modelli IA?",
+        "answer": "No. joymagic è un servizio indipendente di generazione di immagini con IA e non è affiliato, approvato o sponsorizzato da Alibaba Group o da qualsiasi altro provider di modelli IA. Distribuiamo e ottimizziamo modelli IA rilasciati con licenza open-source Apache-2.0 sulla nostra infrastruttura e aggiungiamo i nostri sistemi di sicurezza, controlli d’uso e interfaccia. Tutti i marchi, nomi di modelli e nomi di prodotti menzionati nella documentazione o nel marketing appartengono ai rispettivi proprietari. Per i dettagli completi, consulta le pagine AI Wrapper Disclaimer e Open-Source Attribution."
+      },
+      {
+        "question": "Cosa succede dopo che inserisco un prompt?",
+        "answer": "Il tuo prompt passa attraverso un controllo obbligatorio di moderazione della sicurezza. Se approvato, il sistema lo elabora per generare un’immagine. Se viola le nostre policy, verrà bloccato e potrebbe essere fornito un suggerimento alternativo."
+      },
+      {
+        "question": "joymagic consente la generazione di contenuti NSFW o per adulti?",
+        "answer": "No. joymagic vieta rigorosamente di generare: Contenuti sessuali o pornografici, Violenza grafica, Attività illegali o dannose, Materiale che viola il copyright. Tutti i prompt vengono controllati prima dell’elaborazione."
+      },
+      {
+        "question": "Quale tecnologia usa joymagic per generare i risultati?",
+        "answer": "joymagic utilizza modelli di generazione di immagini diffusion-transformer ottimizzati che supportano inferenza rapida, output fotorealistico e rendering del testo bilingue (cinese e inglese). La nostra interfaccia rende queste capacità accessibili a tutti."
+      },
+      {
+        "question": "Cosa sto pagando quando acquisto crediti?",
+        "answer": "I crediti rappresentano l’utilizzo di calcolo. Ogni generazione consuma un numero fisso di crediti e paghi solo per ciò che usi. Non è richiesto alcun abbonamento, a meno che tu non ne scelga uno. Non ci sono costi nascosti."
+      },
+      {
+        "question": "Le mie immagini o i miei prompt vengono usati per addestrare i vostri modelli?",
+        "answer": "No, a meno che tu non dia esplicito consenso. I prompt vengono elaborati solo per generare l’immagine richiesta e, per impostazione predefinita, non vengono archiviati né riutilizzati per fini di training."
+      },
+      {
+        "question": "joymagic memorizza dati degli utenti?",
+        "answer": "No. joymagic non memorizza prompt, immagini generate o dati personali, a meno che tu non scelga esplicitamente di salvarli nel tuo account."
+      },
+      {
+        "question": "Posso eliminare le immagini generate o i dati del mio account?",
+        "answer": "Sì. Se salvi volontariamente immagini o dati dell’account, puoi eliminarli in qualsiasi momento. Puoi anche richiedere la cancellazione completa dei dati contattando support@joymagic.fun."
+      },
+      {
+        "question": "Cosa succede se il mio prompt viene bloccato dalla moderazione?",
+        "answer": "Significa che il prompt ha violato le nostre regole di sicurezza. Puoi rivederlo per evitare contenuti non sicuri o limitati. Il sistema fornisce indicazioni quando un prompt viene bloccato."
+      },
+      {
+        "question": "joymagic supporta l’editing di immagini esistenti?",
+        "answer": "Non ancora. joymagic al momento non supporta l’editing di immagini caricate. Tuttavia, il nostro modello di editing (joymagic Edit) è in sviluppo attivo e verrà rilasciato in un aggiornamento futuro una volta completati i test."
+      },
+      {
+        "question": "Come protegge la privacy degli utenti joymagic?",
+        "answer": "Seguiamo standard rigorosi: Nessuna raccolta di dati biometrici, Nessuna condivisione dei dati con terze parti, Crittografia dei dati durante il trasferimento e l’archiviazione, Eliminazione opzionale di dati salvati e informazioni dell’account."
+      },
+      {
+        "question": "È disponibile l’assistenza clienti?",
+        "answer": "Sì. Il nostro team di supporto è raggiungibile all’indirizzo support@joymagic.fun e di solito rispondiamo entro 24–48 ore lavorative."
+      }
+    ]
+  },
+  "share_dialog": {
+    "title": "🎁 Condividi per sbloccare la generazione gratuita",
+    "description": "🚀 Aiutaci a crescere! Condividi joymagic sui social media per sbloccare la generazione GRATUITA di immagini. Il tuo supporto rende tutto questo possibile!",
+    "share_button": "✅ Ho condiviso, continua a generare",
+    "share_tip": "Clicca su uno dei pulsanti di condivisione qui sopra, completa la condivisione nella nuova finestra, poi clicca sul pulsante qui sotto per continuare",
+    "platforms": {
+      "twitter": "Condividi su X",
+      "reddit": "Condividi su Reddit",
+      "facebook": "Condividi su Facebook",
+      "instagram": "Copia link per condividere"
+    },
+    "share_message": "Prova Z Image Turbo - Genera immagini fotorealistiche in soli 8 step!",
+    "share_url": "https://10b.ai"
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "joymagic",
+      "description": "joymagic - Generatore di immagini veloce e gratuito",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "joymagic"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Progetto",
+          "children": [
+            {
+              "title": "Funzionalità",
+              "url": "/#features",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Risorse",
+          "children": [
+            {
+              "title": "Documentazione",
+              "url": "/docs",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "support@joymagic.fun",
+          "url": "mailto:support@joymagic.fun"
+        },
+        {
+          "title": "Informativa sulla privacy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Termini di servizio",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Policy di moderazione dei contenuti",
+          "url": "/content-moderation-policy"
+        },
+        {
+          "title": "Policy di utilizzo accettabile",
+          "url": "/acceptable-use-policy"
+        },
+        {
+          "title": "Policy di rimborso",
+          "url": "/refund-policy"
+        },
+        {
+          "title": "AI Wrapper Disclaimer",
+          "url": "/ai-wrapper-disclaimer"
+        },
+        {
+          "title": "Attribuzione open-source",
+          "url": "/open-source-attribution"
+        }
+      ]
+    },
+    "disclaimer": "joymagic è un servizio indipendente di generazione di immagini con IA e non è affiliato, approvato né collegato ad Alibaba Group o a uno qualsiasi dei suoi modelli di IA. Tutti i riferimenti a \"joymagic\" riguardano esclusivamente il nostro prodotto e la nostra tecnologia. joymagic fornisce un’interfaccia utente e miglioramenti del flusso di lavoro per modelli di generazione di immagini. Siamo una piattaforma indipendente e non affiliata ad alcun provider di modelli di terze parti.",
+    "show_theme": true,
+    "show_locale": true
+  },
+  "heroImageWall": {
+    "label": "Galleria curata",
+    "title": "Bacheca di ispirazione joymagic, generata in pochi secondi",
+    "description": "25 risultati recenti, caricamento differito. Tocca qualsiasi riquadro per ingrandire i dettagli.",
+    "hint": "Clicca per ingrandire",
+    "view": "Vedi",
+    "alt": "Immagine galleria {index}"
+  },
+  "wavespeed": {
+    "title": "",
+    "subtitle": "",
+    "prompt_label": "Il tuo prompt",
+    "prompt_placeholder": "Descrivi l’immagine che vuoi generare... ad es., stile film di Wong Kar-wai, un uomo solo che fuma una sigaretta in uno stretto corridoio di Hong Kong, anni ’90...",
+    "buttons": {
+      "generating": "Generazione...",
+      "checking": "Verifica disponibilità...",
+      "unavailable": "Servizio non disponibile",
+      "generate": "Genera",
+      "share_to_generate": "Condividi per generare",
+      "click_to_pay": "Clicca per pagare e ottenere più crediti"
+    },
+    "share_hint": "",
+    "prompt_inspirations": "Ispirazioni prompt",
+    "image_area": {
+      "alt": "Immagine generata",
+      "loading": "Sto generando la tua immagine...",
+      "placeholder": "La tua immagine generata apparirà qui"
+    },
+    "links": {
+      "open_in_new_tab": "Apri in una nuova scheda"
+    },
+    "status": {
+      "unknown_error": "Errore sconosciuto",
+      "submitting": "Invio richiesta...",
+      "task_submitted": "Attività inviata. ID richiesta: {id}",
+      "processing": "Elaborazione... Stato: {status}",
+      "image_success": "Immagine generata con successo!",
+      "video_submitting": "Invio richiesta di generazione video...",
+      "video_task_submitted": "Attività video inviata. ID richiesta: {id}",
+      "video_processing": "Elaborazione video... Stato: {status}",
+      "video_success": "Video generato con successo!",
+      "estimating": "Stima in corso..."
+    },
+    "errors": {
+      "restricted": "Il servizio è temporaneamente non disponibile a causa dell’elevata domanda. Riprova più tardi.",
+      "prompt_required": "Inserisci un prompt",
+      "task_failed": "Attività fallita: {error}",
+      "request_timeout": "Richiesta scaduta. Riprova.",
+      "http_error": "Errore: {code}",
+      "http_error_with_text": "Errore: {code} - {text}",
+      "request_failed": "Richiesta fallita: {error}",
+      "estimate_failed": "Impossibile stimare i crediti"
+    },
+    "video": {
+      "cta_pay": "Genera video ora (paga $5 per due video)",
+      "cta_ready": "Genera video da questa immagine",
+      "title": "Generazione video",
+      "creating": "Sto creando il tuo video...",
+      "unsupported": "Il tuo browser non supporta il tag video.",
+      "download": "Scarica video",
+      "credit_description": "Generazione video",
+      "errors": {
+        "insufficient_credits": "Crediti insufficienti. Servono almeno 250 crediti per generare un video.",
+        "image_required": "Genera prima un’immagine",
+        "task_failed": "Attività fallita: {error}",
+        "timeout": "La generazione video è scaduta. Riprova."
+      }
+    },
+    "payment": {
+      "title": "Upgrade per la generazione video",
+      "line1": "La generazione video è disponibile solo per utenti a pagamento.",
+      "line2": "I tuoi crediti attuali non sono sufficienti — acquista più crediti per continuare.",
+      "line3": "Ricarica ora per sbloccare la creazione di video.",
+      "cta_note": "Scegli un piano per continuare a generare video.",
+      "buy_now": "Acquista crediti",
+      "view_later": "Forse più tardi",
+      "description_checking": "Completa il pagamento nella nuova scheda. Controlleremo automaticamente lo stato del pagamento.",
+      "description_idle": "Paga $5 per sbloccare 500 crediti per joymagic - sufficienti per 250 immagini o 2 conversioni immagine-in-video.",
+      "pricing": "Paga $5, ottieni 500 crediti",
+      "pricing_note": "Usa i crediti per 250 generazioni di immagini IA (2 crediti ciascuna) o 2 conversioni immagine-in-video (250 crediti ciascuna).",
+      "waiting_confirmation": "In attesa di conferma del pagamento...",
+      "checkout_url_missing": "URL di checkout non trovato",
+      "success_toast": "Pagamento riuscito! I crediti sono stati aggiunti al tuo account.",
+      "failure_toast": "Checkout fallito: {error}",
+      "processing": "Elaborazione...",
+      "waiting": "In attesa del pagamento...",
+      "pay_button": "Clicca per pagare $5"
+    },
+    "payment_image": {
+      "title": "Quota giornaliera gratuita esaurita",
+      "line1": "Puoi generare 2 immagini gratis ogni giorno.",
+      "line2": "La tua quota gratuita per oggi è stata utilizzata.",
+      "line3": "Per continuare a creare immagini ora, effettua l’upgrade o acquista crediti.",
+      "line4": "Oppure, se preferisci, torna domani quando la quota gratuita si resetta.",
+      "cta_note": "Scegli un piano per continuare a creare, o torna domani.",
+      "buy_now": "Acquista crediti",
+      "wait_tomorrow": "Riprova domani",
+      "description_checking": "Completa il pagamento nella nuova scheda. Controlleremo automaticamente lo stato del pagamento.",
+      "description_idle": "Puoi generare 2 immagini gratis al giorno. La tua quota gratuita di oggi è esaurita. Paga $5 per ottenere 500 crediti - sufficienti per altre 250 immagini o 2 conversioni immagine-in-video.",
+      "pricing": "Paga $5, ottieni 500 crediti",
+      "pricing_note": "2 crediti per generazione di immagine IA o 250 crediti per conversione immagine-in-video.",
+      "waiting_confirmation": "In attesa di conferma del pagamento...",
+      "checkout_url_missing": "URL di checkout non trovato",
+      "success_toast": "Pagamento riuscito! I crediti sono stati aggiunti al tuo account.",
+      "failure_toast": "Checkout fallito: {error}",
+      "processing": "Elaborazione...",
+      "waiting": "In attesa del pagamento...",
+      "pay_button": "Clicca per pagare $5"
+    },
+    "featureCards": {
+      "image": {
+        "title": "Immagine",
+        "description": "Crea, modifica ed esplora look."
+      },
+      "video": {
+        "title": "Video",
+        "description": "Trasforma prompt e visual in clip."
+      },
+      "audio": {
+        "title": "Audio",
+        "description": "Prossimamente",
+        "badge": "Prossimamente"
+      },
+      "viewAll": "Vedi tutto"
+    },
+    "aiTools": {
+      "title": "AI Tools",
+      "subtitle": "Jump into the right tools from existing scenes."
+    },
+    "freeTools": {
+      "title": "Hot Tools",
+      "subtitle": "Usa strumenti gratuiti dalle scene disponibili.",
+      "badges": ["Gratis", "Free"]
+    },
+    "aiModels": {
+      "title": "Modelli di IA",
+      "subtitle": "Accedi rapidamente agli strumenti giusti dalle scene esistenti."
+    },
+    "desktopPlayground": {
+      "credits": "crediti",
+      "model": {
+        "label": "Modello",
+        "choose": "Scegli un modello",
+        "untitled": "Modello senza nome",
+        "fallbackTitle": "IA",
+        "fallbackMonogram": "M"
+      },
+      "scene": {
+        "untitled": "Scena senza nome"
+      },
+      "sceneGroups": {
+        "image": "Immagine",
+        "video": "Video"
+      },
+      "sceneMeta": {
+        "imageDescription": "Crea, modifica e migliora elementi visivi",
+        "videoDescription": "Anima clip e flussi di movimento"
+      },
+      "scenePicker": {
+        "title": "Seleziona scena",
+        "close": "Chiudi",
+        "currentSelection": "Selezione attuale",
+        "current": "Attuale",
+        "switch": "Cambia",
+        "currentSceneFallback": "Nessuna scena selezionata",
+        "empty": "Nessuna scena disponibile al momento.",
+        "tabs": {
+          "video": "Video",
+          "image": "Immagine"
+        },
+        "trigger": {
+          "open": "Cambia scena",
+          "change": "Modifica"
+        }
+      },
+      "sceneNames": {
+        "textToImage": "Testo in immagine",
+        "imageToImage": "Immagine in immagine",
+        "qwenImageLayered": "Immagine stratificata Qwen",
+        "imageEraser": "Gomma immagini",
+        "backgroundRemover": "Rimozione sfondo",
+        "imageUpscaler": "Upscaler immagini",
+        "textToVideo": "Testo in video",
+        "imageToVideo": "Immagine in video",
+        "motionControl": "Controllo del movimento",
+        "longcatAvatar": "Avatar Longcat",
+        "videoFaceSwap": "Scambio volto video",
+        "aiClothesRemover": "Rimozione vestiti AI",
+        "videoExtend": "Video Extend"
+      },
+      "prompt": {
+        "placeholder": "Descrivi la tua immagine...",
+        "referencePlaceholder": "Descrivi come trasformare l’immagine..."
+      },
+      "aspectRatio": {
+        "auto": "Auto"
+      },
+      "uploads": {
+        "uploading": "I file sono ancora in caricamento. Attendi un momento.",
+        "defaultHint": "Carica contenuti multimediali per continuare.",
+        "referenceHint": "Carica media di riferimento per iniziare."
+      },
+      "actions": {
+        "generateImage": "Genera immagine",
+        "generateVideo": "Genera video",
+        "generating": "Generazione in corso..."
+      },
+      "errors": {
+        "generationFailed": "Generazione non riuscita",
+        "generateImageFailed": "Impossibile generare l’immagine",
+        "insufficientCredits": "Crediti insufficienti: ne hai {remaining}, ma ne servono almeno {required}."
+      },
+      "generatedPanel": {
+        "empty": "Ops! Sembra che tu non abbia ancora creato nulla.",
+        "titleImages": "Questa creazione",
+        "titleVideos": "Questa creazione (video)",
+        "title": "{mediaLabel} generati",
+        "count": "{count} {label}",
+        "image": "immagine",
+        "images": "Immagini",
+        "video": "video",
+        "videos": "Video",
+        "itemAlt": "Generato {index}",
+        "itemLabel": "{mediaItemLabel} generato {index}",
+        "preview": {
+          "close": "Chiudi",
+          "openPreview": "Apri anteprima"
+        },
+        "deleteConfirm": {
+          "title": "Conferma eliminazione",
+          "description": "Vuoi davvero eliminare questa immagine? Questa azione non può essere annullata.",
+          "cancel": "Annulla",
+          "confirm": "Elimina"
+        },
+        "defaults": {
+          "imageTitle": "La tua immagine apparirà qui",
+          "videoTitle": "Il tuo video apparirà qui",
+          "imageDescription": "Inizia a creare o scegli una scena per generare la tua prima immagine.",
+          "videoDescription": "Inizia a creare o scegli una scena per generare il tuo primo video.",
+          "featuredImage": "Immagine in evidenza",
+          "featuredVideo": "Video in evidenza"
+        },
+        "selection": {
+          "clear": "Cancella selezione",
+          "download": "Scarica",
+          "delete": "Elimina elemento selezionato",
+          "selectItem": "Seleziona elemento",
+          "selectedItem": "Elemento selezionato",
+          "count": "{count} selezionati"
+        },
+        "actions": {
+          "imageToVideo": "Da immagine a video",
+          "regenerate": "Rigenera",
+          "upscaleImage": "Migliora immagine"
+        }
+      },
+      "videoWorkbench": {
+        "title": "Video generati",
+        "subtitle": "I tuoi video generati appariranno qui.",
+        "emptyHint": "Avvia una generazione a sinistra per visualizzare e gestire i tuoi risultati video."
+      },
+      "fields": {
+        "prompt": "Prompt",
+        "negativePrompt": "Prompt negativo",
+        "referenceImage": "Immagine di riferimento",
+        "referenceImages": "Immagini di riferimento",
+        "referenceVideo": "Video di riferimento",
+        "audioTrack": "Traccia audio",
+        "maskImage": "Immagine maschera",
+        "aspectRatio": "Rapporto d'aspetto",
+        "resolution": "Risoluzione",
+        "outputFormat": "Formato di output",
+        "seed": "Seed",
+        "width": "Larghezza",
+        "height": "Altezza",
+        "size": "Dimensione",
+        "duration": "Durata",
+        "shotType": "Tipo di inquadratura",
+        "promptExpansion": "Espansione del prompt",
+        "generateAudio": "Genera audio",
+        "fixedCamera": "Camera fissa",
+        "thinkingType": "Modalità di ragionamento",
+        "movementAmplitude": "Ampiezza del movimento",
+        "numberOfLayers": "Numero di livelli",
+        "quality": "Qualità",
+        "stylize": "Stilizza",
+        "chaos": "Caos",
+        "weird": "Stranezza",
+        "version": "Versione",
+        "niji": "Niji",
+        "strength": "Intensità",
+        "style": "Stile",
+        "targetResolution": "Risoluzione target",
+        "referenceAudio": "Reference Audio",
+        "firstFrame": "Primo fotogramma",
+        "lastFrame": "Ultimo fotogramma (opzionale)"
+      },
+      "options": {
+        "auto": "Automatico",
+        "enabled": "Attivato",
+        "disabled": "Disattivato",
+        "low": "Bassa",
+        "medium": "Media",
+        "high": "Alta",
+        "small": "Piccola",
+        "large": "Grande",
+        "singleShot": "Scatto singolo",
+        "multipleShots": "Scatti multipli",
+        "none": "Nessuno",
+        "close": "Vicino"
+      },
+      "placeholders": {
+        "describeImage": "Descrivi l'immagine che vuoi generare",
+        "transformImage": "Descrivi come trasformare l'immagine caricata",
+        "describeVideo": "Descrivi il video che vuoi generare",
+        "animateImage": "Descrivi come dovrebbe muoversi l'immagine caricata",
+        "negativePrompt": "Descrivi cosa vuoi evitare",
+        "randomSeed": "Usa -1 per un seed casuale",
+        "randomSeedOrEmpty": "Lascia vuoto o usa -1 per un seed casuale",
+        "fillErasedArea": "Descrivi cosa deve riempire l'area cancellata"
+      },
+      "descriptions": {
+        "describeImage": "Descrivi l'immagine che vuoi generare",
+        "widthPixels": "Larghezza immagine in pixel (256-1536, deve essere multiplo di 64)",
+        "heightPixels": "Altezza immagine in pixel (256-1536, deve essere multiplo di 64)",
+        "seedHelp": "Imposta un seed per ottenere risultati riproducibili. Usa -1 per un seed casuale.",
+        "optionalReferenceImage": "Carica un'immagine di riferimento opzionale per influenzare lo stile.",
+        "numberOfLayers": "Scegli quanti livelli semantici separare dall'immagine sorgente.",
+        "promptExpansion": "Lascia che il modello espanda automaticamente i prompt brevi.",
+        "generateAudioSynced": "Genera audio sincronizzato con il video.",
+        "generateAudioNative": "Genera audio nativo sincronizzato nel video di output.",
+        "fixedCamera": "Mantieni la camera più stabile durante la generazione.",
+        "generateAudioIncluded": "Includi nel risultato l'audio generato dal modello.",
+        "generateAudioOutput": "Crea audio sincronizzato per l'output video.",
+        "referenceVideoMotion": "Carica un video per trasferirne il modello di movimento.",
+        "audioTrackLimit": "Carica una traccia audio fino a 120 secondi.",
+        "faceImage": "Carica l'immagine del volto da inserire nel video.",
+        "targetVideo": "Carica il video di destinazione per il face swap.",
+        "maskImage": "Opzionale. Carica un'immagine maschera per controllare cosa viene cancellato.",
+        "uploadUpToImages": "Carica fino a {count} immagini",
+        "uploadImageToAnimate": "Carica un'immagine da animare",
+        "referenceVideoLimit": "MP4, WebM, MOV (max 50MB, up to 3 videos, duration ≤ 15s)",
+        "referenceAudioLimit": "WAV, MP3 (max 20MB, up to 3 audios, duration ≤ 15s)",
+        "uploadLastFrameImageOptional": "Opzionale: carica un'immagine dell'ultimo fotogramma per attivare automaticamente la transizione dal primo all'ultimo.",
+        "uploadFirstFrameImage": "Carica l'immagine del primo fotogramma."
+      },
+      "mediaPanel": {
+        "common": {
+          "all": "Tutto"
+        },
+        "tabs": {
+          "assets": "Risorse",
+          "creations": "Creazioni",
+          "uploads": "Caricamenti",
+          "collections": "Collezioni",
+          "templates": "Modelli"
+        },
+        "filters": {
+          "open": "Apri filtri",
+          "title": "Filtri",
+          "subtitle": "Affina la vista delle creazioni",
+          "dateRange": "Intervallo di date",
+          "pickDateRange": "Scegli un intervallo di date",
+          "keyword": "Parola chiave",
+          "searchPlaceholder": "Cerca nei caricamenti",
+          "type": "Tipo",
+          "tool": "Strumento",
+          "model": "Modello",
+          "clear": "Cancella",
+          "cancel": "Annulla",
+          "apply": "Applica",
+          "done": "Fatto"
+        },
+        "mediaTypes": {
+          "image": "Immagine",
+          "video": "Video",
+          "audio": "Audio"
+        },
+        "weekdays": {
+          "su": "Do",
+          "mo": "Lu",
+          "tu": "Ma",
+          "we": "Me",
+          "th": "Gi",
+          "fr": "Ve",
+          "sa": "Sa"
+        },
+        "collections": {
+          "heading": "Collections",
+          "createCardLabel": "Create New Collections",
+          "createTitle": "Create collection",
+          "createDescription": "Group related assets so you can organise your workspace faster.",
+          "renameTitle": "Rename collection",
+          "renameDescription": "Choose a clearer name for this collection.",
+          "deleteTitle": "Delete collection",
+          "deleteDescription": "Delete \"{name}\"? This only removes the collection itself for now.",
+          "renameAction": "Rename",
+          "deleteAction": "Delete",
+          "createAction": "Create",
+          "cancelAction": "Cancel",
+          "nameLabel": "Collection name",
+          "namePlaceholder": "Enter a collection name",
+          "assetsCount": "{count} assets",
+          "emptyTitle": "No collections yet",
+          "emptyDescription": "Create your first collection to start organising assets.",
+          "createSuccess": "Collection created",
+          "renameSuccess": "Collection renamed",
+          "deleteSuccess": "Collection deleted",
+          "createError": "Failed to create collection",
+          "renameError": "Failed to rename collection",
+          "deleteError": "Failed to delete collection"
+        },
+        "states": {
+          "noMatchingTitle": "Nessun elemento corrispondente",
+          "noMatchingDescription": "Prova a regolare i filtri di data, modello, strumento o tipo di media.",
+          "clearFilters": "Cancella filtri",
+          "creationsDescription": "Sfoglia e gestisci le tue creazioni recenti."
+        },
+        "viewMode": {
+          "title": "Modalità di visualizzazione",
+          "previewLayout": "Layout anteprima",
+          "overlays": "Sovrapposizioni",
+          "metadata": "Metadati",
+          "originalRatio": "Rapporto originale",
+          "cropToFill": "Ritaglia per riempire",
+          "mixedGrid": "Griglia mista"
+        },
+        "collectionActions": {
+          "remove": "Rimuovi dalla raccolta",
+          "error": "Impossibile rimuovere elementi dalla raccolta"
+        },
+        "collectionPicker": {
+          "loadError": "Impossibile caricare le raccolte",
+          "addError": "Impossibile aggiungere elementi alla raccolta",
+          "addSuccess": "Aggiunto alla raccolta",
+          "addButton": "Aggiungi alla raccolta",
+          "newCollection": "Nuova raccolta"
+        },
+        "hints": {
+          "recent7Days": "Creations, Uploads e gli elementi di Collection supportano solo gli ultimi 7 giorni. Scarica le risorse generate entro 7 giorni."
+        }
+      }
+    },
+    "homepageAnnouncement": {
+      "badge": "What's New - April 2026",
+      "title": "SEEDANCE 2.0 IS HERE",
+      "description": "The most powerful video generation model yet. Create faster, longer and more cinematic clips in one click.",
+      "cta": "Try Now",
+      "closeLabel": "Close announcement",
+      "videoLabel": "Seedance 2.0 announcement video"
+    }
+  },
+  "faceSwap": {
+    "title": "AI Video Face Swap Online",
+    "description": "Crea video di face swap divertenti e realistici in pochi secondi con il nostro strumento <strong class=\"text-primary font-semibold\">AI Video Face Swap online</strong>. Non servono competenze di montaggio. Carica il tuo video, scegli un volto e lascia fare la magia all'IA.",
+    "tabs": {
+      "single": "Volto singolo",
+      "multiple": "Volti multipli"
+    },
+    "steps": {
+      "video": {
+        "title": "Carica un video",
+        "cta": "Trascina/Clicca per caricare",
+        "hint": "Carica qui un video M4V/MP4/MOV/WEBM",
+        "dragDrop": "Trascina e rilascia o clicca per caricare",
+        "dropHere": "Rilascia il video qui"
+      },
+      "face": {
+        "title": "Carica un'immagine del volto",
+        "cta": "Trascina/Clicca per caricare",
+        "hint": "Carica qui un'immagine JPG/PNG/WEBP",
+        "dragDrop": "Trascina e rilascia o clicca per caricare",
+        "dropHere": "Rilascia l'immagine qui"
+      },
+      "render": {
+        "title": "Clicca su \"Render\" per iniziare",
+        "cta": "Render",
+        "rendering": "Rendering..."
+      },
+      "multiple": {
+        "face": {
+          "title": "Specifica la sostituzione del volto",
+          "cta": "Estrai volto({count}/{max})"
+        }
+      }
+    },
+    "badges": {
+      "free": "5 utilizzi gratuiti al giorno",
+      "clean": "Senza filigrana",
+      "resolution": "Supporto risoluzione 2K"
+    },
+    "preview": {
+      "title": "Anteprima",
+      "cta": "Prova face swap",
+      "original": "Originale",
+      "swapped": "Sostituito",
+      "faceAlt": "Anteprima volto",
+      "usingFace": "Volto in uso: {name}",
+      "placeholder": "Carica un video per vedere l'anteprima qui."
+    },
+    "common": {
+      "selected": "Selezionato: {name}",
+      "notSelected": "Non selezionato"
+    },
+    "errors": {
+      "videoDurationExceeded": "La durata del video non può superare {max} minuti, la durata attuale è {current} minuti",
+      "videoDurationReadFailed": "Impossibile leggere la durata del video, assicurati che il formato del file sia corretto",
+      "uploadFailed": "Caricamento fallito: {error}",
+      "uploadFailedGeneric": "Caricamento fallito",
+      "videoRequired": "Carica prima un video",
+      "faceImageRequired": "Carica prima un'immagine del volto",
+      "faceSwapFailed": "Elaborazione face swap fallita",
+      "taskFailed": "Elaborazione del task fallita",
+      "taskTimeout": "Timeout dell'elaborazione del task, riprova più tardi",
+      "taskIdNotFound": "Impossibile ottenere l'ID del task, controlla il formato della risposta API",
+      "apiResponseParseFailed": "Elaborazione face swap fallita: impossibile analizzare la risposta API",
+      "processingFailed": "Elaborazione fallita, riprova",
+      "statusQueryFailed": "Impossibile interrogare lo stato del task: impossibile analizzare i dati di risposta",
+      "videoFileNotFound": "File video non trovato, ricarica il video"
+    },
+    "footer": "Accedi per sbloccare più funzioni · Crediti gratuiti ogni giorno · Supporto risoluzione 2K",
+    "uploadConfirm": {
+      "title": "Conferma caricamento",
+      "description": "Prima di caricare, conferma quanto segue:",
+      "permission": "Confermo di avere l'autorizzazione a usare tutti i volti nel contenuto caricato",
+      "legal": "Non userò questo strumento per inganno, frode o scopi illegali",
+      "synthetic": "Capisco che questo crea media sintetici generati dall'IA",
+      "cancel": "Annulla",
+      "confirm": "Conferma"
+    }
+  },
+  "common": {
+    "fields": {
+      "firstFrame": "Primo fotogramma",
+      "lastFrame": "Ultimo fotogramma (opzionale)",
+      "referenceAudio": "Reference Audio"
+    },
+    "descriptions": {
+      "uploadFirstFrameImage": "Carica l'immagine del primo fotogramma.",
+      "uploadLastFrameImageOptional": "Opzionale: carica un'immagine dell'ultimo fotogramma per attivare automaticamente la transizione dal primo all'ultimo.",
+      "referenceVideoLimit": "MP4, WebM, MOV (max 50MB, up to 3 videos, duration ≤ 15s)",
+      "referenceAudioLimit": "WAV, MP3 (max 20MB, up to 3 audios, duration ≤ 15s)"
+    }
+  },
+  "canvasWorkspace": {
+    "nav": {
+      "canvas": "Canvas",
+      "creations": "Creations",
+      "collections": "Collections"
+    },
+    "page": {
+      "creationsEyebrow": "CREATIONS",
+      "creationsTitle": "Creations",
+      "creationsDescription": "All of your generated images, videos, and outputs live here so they are easy to review, filter, and organize.",
+      "collectionsEyebrow": "COLLECTIONS",
+      "collectionsTitle": "Collections",
+      "collectionsDescription": "Turn your strongest outputs into curated sets so pitching, reviewing, and reuse feel much faster.",
+      "projectsEyebrow": "CANVAS",
+      "projectsTitle": "Recent Projects",
+      "projectsDescription": "Jump back into your advanced-mode projects and keep shaping the canvas.",
+      "newCanvas": "New Canvas",
+      "emptyProjectsTitle": "No Canvas projects yet",
+      "emptyProjectsDescription": "Open Canvas from the homepage, or start a new advanced-mode project here.",
+      "emptyProjectsAction": "Create project",
+      "creationsEmptyText": "No creations yet",
+      "creationsEmptyTitle": "Your library is waiting for the first result",
+      "creationsEmptyDescription": "Generate from the homepage or run a workflow in Canvas and every new output will appear here.",
+      "collectionDetailDescription": "Review everything saved into this collection, then keep curating or return to Canvas to create more.",
+      "collectionDetailBack": "Back to Collections",
+      "collectionDetailEmptyText": "This collection is empty",
+      "collectionDetailEmptyTitle": "Nothing has been saved here yet",
+      "collectionDetailEmptyDescription": "Pick a few strong results from Creations and this collection will start to take shape."
+    },
+    "projectsGrid": {
+      "deleteConfirm": "Delete project \"{name}\"? This action cannot be undone.",
+      "deleteSuccess": "Project deleted",
+      "deleteError": "Failed to delete project",
+      "duplicateSuccess": "Project duplicated",
+      "duplicateError": "Failed to duplicate project",
+      "updatedAtPrefix": "Updated",
+      "duplicateAria": "Duplicate project",
+      "deleteAria": "Delete project"
+    },
+    "collectionsGrid": {
+      "heading": "Collections",
+      "createCardLabel": "New Collection",
+      "createTitle": "Create Collection",
+      "createDescription": "Give this curated set a clear name.",
+      "renameTitle": "Rename Collection",
+      "renameDescription": "Update how this collection appears in your library.",
+      "deleteTitle": "Delete Collection",
+      "deleteDescription": "Deleting a collection removes the group, but keeps every creation.",
+      "renameAction": "Save name",
+      "deleteAction": "Delete Collection",
+      "createAction": "Create Collection",
+      "cancelAction": "Cancel",
+      "nameLabel": "Name",
+      "namePlaceholder": "For example: Brand visual directions",
+      "emptyTitle": "No collections yet",
+      "emptyDescription": "Group strong outputs into collections so it is easier to revisit and present them later.",
+      "createSuccess": "Collection created",
+      "renameSuccess": "Collection updated",
+      "deleteSuccess": "Collection deleted",
+      "createError": "Failed to create collection",
+      "renameError": "Failed to rename collection",
+      "deleteError": "Failed to delete collection"
+    },
+    "projectsHub": {
+      "heroTitle": "Idee senza limiti, creazione senza confini",
+      "heroPlaceholder": "Parti da un’idea ed entra subito nella creazione su Canvas",
+      "heroSubmit": "Crea e genera",
+      "sectionTitle": "I miei progetti",
+      "sectionAction": "Vedi tutto",
+      "createCardTitle": "Nuovo progetto",
+      "createCardSubtitle": "Inizia da un nuovo prompt",
+      "submitError": "Inserisci un prompt prima di creare un progetto",
+      "autoLabel": "AUTO",
+      "plusMenuTitle": "Genera da questo nodo",
+      "uploadReferenceAria": "Carica riferimento",
+      "closeDirectionAria": "Chiudi",
+      "virtualReferenceLabel": "Immagine di riferimento",
+      "virtualPromptLabel": "Prompt"
+    }
+  }
+}

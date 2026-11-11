@@ -1,0 +1,56 @@
+{
+    "fields": {
+        "id": "ID",
+        "ip": "IP Address",
+        "ip_tip": "IP address to blacklist",
+        "status": "Status",
+        "reason": "Reason",
+        "reason_tip": "Optional, reason for blacklisting this IP",
+        "created_at": "Created At",
+        "actions": "Actions"
+    },
+    "status": {
+        "active": "Blacklisted",
+        "inactive": "Unblocked"
+    },
+    "list": {
+        "title": "IP Blacklist",
+        "crumbs": {
+            "admin": "Admin",
+            "ipBlacklist": "IP Blacklist"
+        },
+        "buttons": {
+            "add": "Add IP",
+            "edit": "Edit",
+            "delete": "Delete"
+        },
+        "search": {
+            "ip": {
+                "title": "IP Address",
+                "placeholder": "Search IP address"
+            }
+        }
+    },
+    "add": {
+        "title": "Add IP to Blacklist",
+        "crumbs": {
+            "admin": "Admin",
+            "ipBlacklist": "IP Blacklist",
+            "add": "Add"
+        },
+        "buttons": {
+            "submit": "Add"
+        }
+    },
+    "edit": {
+        "title": "Edit IP Blacklist",
+        "crumbs": {
+            "admin": "Admin",
+            "ipBlacklist": "IP Blacklist",
+            "edit": "Edit"
+        },
+        "buttons": {
+            "submit": "Update"
+        }
+    }
+}

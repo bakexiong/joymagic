@@ -1,0 +1,64 @@
+{
+  "titles": {
+    "advanced-photography": "高級攝影",
+    "plastic-bubble-figure": "泡泡塑像",
+    "felt-3d-polaroid": "毛氈 3D 拍立得",
+    "glass-ball": "玻璃球",
+    "micro-landscape-mini-world": "微縮景觀小世界",
+    "american-comic-style": "美式漫畫風",
+    "futuristic-american-comics": "未來美漫風",
+    "my-world": "我的世界",
+    "felt-keychain": "毛氈鑰匙扣",
+    "lofi-pixel-character-mini-card": "低傳真像素角色小卡",
+    "blurry-selfie-luffy": "模糊自拍魯夫",
+    "cyberpunk": "賽博龐克",
+    "exotic-charm": "異域魅力",
+    "acrylic-ornaments": "壓克力掛飾",
+    "furry-dream-doll": "毛絨夢幻玩偶",
+    "in-the-stadium": "置身球場",
+    "lying-in-fluffy-belly": "躺進毛絨肚肚",
+    "angel-figurine": "天使手辦"
+  },
+  "gallery": {
+    "metadata": {
+      "title": "圖片特效 | joymagic",
+      "description": "在瀑布流畫廊中瀏覽熱門圖片特效，一鍵進入圖片創作。"
+    },
+    "ctaLabel": "生成同款圖片",
+    "inputLabel": "輸入",
+    "outputLabel": "輸出",
+    "previewLabel": "預覽"
+  },
+  "workspace": {
+    "metadata": {
+      "title": "圖片特效工作台 | joymagic",
+      "description": "上傳圖片、選擇圖片特效，並在專屬工作台中管理這次創作。"
+    },
+    "category": "圖片",
+    "pageTitle": "圖片特效",
+    "workspaceLabel": "工作台",
+    "inputBadge": "1 張圖片輸入",
+    "selectedEffect": "已選特效",
+    "change": "更換",
+    "imageTitle": "圖片",
+    "imageHint": "支援 PNG、JPG、WEBP，最大 15MB",
+    "uploadHint": "點擊上傳圖片",
+    "tryExamples": "試試示例",
+    "estimating": "積分估算中...",
+    "create": "建立",
+    "creditsUnit": "積分",
+    "estimateError": "積分估算失敗：",
+    "emptyState": "哎呀，看起來你還沒有建立任何內容。",
+    "inputLabel": "輸入",
+    "outputLabel": "輸出",
+    "exampleAria": "使用示例 {index}",
+    "dialog": {
+      "title": "選擇一個圖片特效",
+      "searchPlaceholder": "搜尋你想要的特效",
+      "closeAria": "關閉特效選擇器",
+      "description": "從圖片特效頁面的同源畫廊資料中選擇一個圖片特效。",
+      "emptyTitle": "沒有符合的特效",
+      "emptyDescription": "試試其他關鍵字。"
+    }
+  }
+}

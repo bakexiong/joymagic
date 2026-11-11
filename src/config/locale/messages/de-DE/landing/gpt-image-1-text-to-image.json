@@ -1,0 +1,102 @@
+{
+  "title": "GPT Image 1 Text zu Bild",
+  "subtitle": "Erstellen Sie atemberaubende Bilder aus Textbeschreibungen",
+  "prompt_label": "Eingabeaufforderung",
+  "prompt_placeholder": "Erstellen Sie ein professionelles und visuell ansprechendes Magazincover für ein Lifestyle-Magazin namens \"Urban Pulse\".",
+  "prompt_tooltip": "Geben Sie eine Beschreibung des Bildes ein, das Sie erstellen möchten",
+  "size_label": "Größe",
+  "size_tooltip": "Wählen Sie die Bildgröße",
+  "quality_label": "Qualität",
+  "quality_tooltip": "Wählen Sie die Bildqualität. Höhere Qualität verwendet mehr Credits.",
+  "credits_required": "Erforderliche Credits",
+  "buttons": {
+    "generate": "Bild generieren"
+  },
+  "errors": {
+    "promptRequired": "Eingabeaufforderung ist erforderlich"
+  },
+  "image_alt": "Generiertes Bild",
+  "download": "Herunterladen",
+  "image_placeholder": "Generiertes Bild wird hier angezeigt",
+  "page": {
+    "metadata": {
+      "title": "GPT-Image-1 Text zu Bild - KI-Bildgenerator | joymagic",
+      "description": "Generieren Sie Bilder aus Text mit OpenAI GPT-Image-1. Überlegene Textwiedergabe für Poster und Schilder. Präzises Prompt-Verständnis, mehrere Stile. Jetzt kostenlos testen.",
+      "keywords": "GPT-Image-1, text zu bild, ki bildgenerator, openai, textwiedergabe, poster, schilder, prompt verständnis"
+    },
+    "hero": {
+      "title": "GPT-Image-1 Text zu Bild",
+      "description": "GPT-Image-1 ist OpenAIs Bildgenerierungsmodell, das für präzises Prompt-Verständnis und genaue Textwiedergabe entwickelt wurde. Beschreiben Sie jede Szene, jeden Stil oder jedes Design—einschließlich Textelementen wie Überschriften, Schildern und Etiketten. Testen Sie GPT-Image-1 unten kostenlos!<br/><br/>Benötigen Sie zweisprachige Prompts oder Charakterkonsistenz? <a href=\"/text-to-image/seedream-4-5\" class=\"text-primary underline\">Probieren Sie Seedream 4.5 Text zu Bild</a>.",
+      "button1": "Jetzt ausprobieren",
+      "button2": "Preise ansehen"
+    },
+    "keyFeatures": {
+      "title": "Hauptfunktionen",
+      "description": "Leistungsstarke Funktionen für präzise Bildgenerierung",
+      "superiorTextRendering": {
+        "title": "Überlegene Textwiedergabe",
+        "description": "Generieren Sie klaren, lesbaren Text in Bildern—Poster, Schilder, Buchumschläge, Produktetiketten, Social-Media-Grafiken. Verarbeitet mehrere Textelemente und dichte Typografie besser als die meisten Generierungsmodelle."
+      },
+      "preciseInstructionFollowing": {
+        "title": "Präzises Befolgen von Anweisungen",
+        "description": "Das Modell interpretiert detaillierte Prompts genau. Geben Sie Komposition, Beleuchtung, Farbpalette, Stimmung, Stil und Objektplatzierung an—GPT-Image-1 folgt Ihren Anweisungen bis zu kleinen Elementen ohne Abweichung."
+      },
+      "styleVersatility": {
+        "title": "Stilvielfalt",
+        "description": "Erstellen Sie fotorealistische Bilder, Illustrationen, Konzeptkunst, Vintage-Fotografie, minimalistisches Design und mehr. Verweisen Sie in Ihrem Prompt auf spezifische künstlerische Stile oder Bewegungen für zielgerichtete Ergebnisse."
+      },
+      "transparentBackground": {
+        "title": "Unterstützung für transparenten Hintergrund",
+        "description": "Generieren Sie Bilder mit Transparenz mit PNG-Ausgabe. Geben Sie \"transparenter Hintergrund\" in Ihrem Prompt an, um Assets zu erhalten, die ohne manuelles Ausschneiden in Designs zusammengesetzt werden können."
+      }
+    },
+    "useCases": {
+      "title": "Anwendungsfälle",
+      "marketingGraphics": {
+        "title": "Marketing-Grafiken",
+        "description": "Erstellen Sie Social-Media-Posts, Banner-Anzeigen und Werbematerialien mit eingebauten Textelementen. Überschriften, CTAs und Preise werden sauber wiedergegeben."
+      },
+      "signagePosters": {
+        "title": "Schilder & Poster",
+        "description": "Entwerfen Sie Event-Poster, Ladenschilder und Ankündigungen, bei denen Typografie im Mittelpunkt des Visuellen steht."
+      },
+      "bookAlbumCovers": {
+        "title": "Buch- & Albumcover",
+        "description": "Generieren Sie Cover-Konzepte mit integriertem Titel- und Autorentext. Erkunden Sie Richtungen, bevor Sie sich für das endgültige Design entscheiden."
+      },
+      "productMockups": {
+        "title": "Produkt-Mockups",
+        "description": "Erstellen Sie Verpackungskonzepte und Etikettendesigns mit lesbaren Produktnamen, Zutaten und Branding."
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Häufige Fragen zu GPT-Image-1 Text zu Bild",
+      "q1": {
+        "question": "Was ist GPT-Image-1?",
+        "answer": "GPT-Image-1 ist OpenAIs KI-Bildgenerierungsmodell, das Bilder aus Textbeschreibungen erstellt. Es ist besonders stark bei der Wiedergabe von lesbarem Text in Bildern."
+      },
+      "q2": {
+        "question": "Wie genau ist die Textwiedergabe?",
+        "answer": "GPT-Image-1 generiert lesbaren Text besser als die meisten KI-Modelle. Es verarbeitet mehrere Textelemente und dichte Typografie. Für pixelgenauen Text in kritischen Anwendungen generieren Sie hier das Basisbild und fügen Sie den endgültigen Text in Designsoftware hinzu."
+      },
+      "q3": {
+        "question": "Kann ich transparente Hintergründe erhalten?",
+        "answer": "Ja. Wählen Sie das PNG-Ausgabeformat und fügen Sie \"transparenter Hintergrund\" in Ihren Prompt ein. Nützlich für Logos, Aufkleber und Composite-Assets."
+      },
+      "q4": {
+        "question": "Welche Stile kann es generieren?",
+        "answer": "Fotorealismus, Illustration, Konzeptkunst, digitale Malerei, Vintage-Ästhetik, minimalistisches Design und mehr. Verweisen Sie in Ihrem Prompt auf spezifische Stile."
+      },
+      "q5": {
+        "question": "Wann sollte ich stattdessen Seedream 4.5 verwenden?",
+        "answer": "Verwenden Sie Seedream 4.5, wenn Sie zweisprachige Prompt-Unterstützung (Chinesisch) benötigen oder die Charakterkonsistenz über mehrere Generationen hinweg aufrechterhalten möchten. Verwenden Sie GPT-Image-1, wenn die Textwiedergabequalität Priorität hat."
+      }
+    },
+    "finalCTA": {
+      "title": "Bereit zum Erstellen?",
+      "description": "Beginnen Sie heute, erstaunliche Bilder aus Ihren Textbeschreibungen zu generieren.",
+      "button": "Jetzt ausprobieren"
+    }
+  }
+}

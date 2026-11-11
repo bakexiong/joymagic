@@ -1,0 +1,156 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Загрузите исходные изображения",
+      "hint": "Загрузите до {max} изображений (JPG/PNG/WEBP)",
+      "dragDrop": "Перетащите или нажмите для загрузки",
+      "dropHere": "Перетащите изображения сюда"
+    },
+    "aspectRatio": {
+      "title": "Выберите соотношение сторон",
+      "placeholder": "Выберите соотношение сторон",
+      "auto": "Авто",
+      "hint": "Выберите соотношение сторон для результата преобразования Nano Banana Pro Edit Ultra image-to-image"
+    },
+    "prompt": {
+      "title": "Введите промпт для редактирования",
+      "placeholder": "Опишите, как вы хотите отредактировать изображения, например: «Изменить на аниме-стиль», «Применить эффект масляной живописи», «Сделать кинематографичным»",
+      "hint": "Будьте конкретны в описании желаемых изменений — стиль, настроение, освещение и детали"
+    },
+    "generate": {
+      "title": "Сгенерировать отредактированные изображения",
+      "cta": "Сгенерировать",
+      "generating": "Генерация..."
+    },
+    "resolution": {
+      "title": "Выберите разрешение",
+      "placeholder": "Выберите разрешение",
+      "hint": "Выберите выходное разрешение: 4K или 8K"
+    }
+  },
+  "preview": {
+    "title": "Предпросмотр",
+    "original": "Оригинал",
+    "swap": "Поменять",
+    "placeholder": "Загрузите изображения и введите промпт для предпросмотра результата Nano Banana Pro Edit Ultra image-to-image."
+  },
+  "common": {
+    "selectedCount": "Выбрано: {count}/{max} изображений",
+    "notSelected": "Не выбрано"
+  },
+  "errors": {
+    "invalidFileType": "Неверный тип файла. Пожалуйста, загрузите изображение (JPG, PNG, WEBP).",
+    "uploadFailed": "Ошибка загрузки: {error}",
+    "uploadFailedGeneric": "Ошибка загрузки",
+    "sourceImageRequired": "Пожалуйста, загрузите хотя бы одно исходное изображение",
+    "promptRequired": "Пожалуйста, введите промпт для редактирования",
+    "generationFailed": "Ошибка редактирования изображения",
+    "taskFailed": "Ошибка обработки задачи",
+    "taskTimeout": "Тайм-аут обработки задачи, попробуйте позже",
+    "taskIdNotFound": "Не удалось получить ID задачи, проверьте формат ответа API",
+    "processingFailed": "Ошибка обработки, попробуйте снова",
+    "statusQueryFailed": "Не удалось запросить статус задачи",
+    "apiResponseParseFailed": "Не удалось разобрать ответ API"
+  },
+  "page": {
+    "metadata": {
+      "title": "Nano Banana Pro Edit Ultra Image-to-Image AI-редактор — Преобразование изображений онлайн бесплатно | joymagic",
+      "description": "Используйте Nano Banana Pro Edit Ultra image-to-image AI для редактирования и преобразования изображений онлайн. Загрузите до 14 изображений, выберите из 10+ соотношений сторон и применяйте преобразования стиля, улучшения и креативные трансформации на базе nano-banana за считанные секунды. Supports 4K and 8K resolution.",
+      "keywords": "image-to-image nano-banana-pro-edit, nano-banana-pro-edit-ultra, nano-banana-pro-edit-ultra image-to-image, image-to-image AI, nano-banana image editor, AI image-to-image transformation"
+    },
+    "hero": {
+      "title": "Nano Banana Pro Edit Ultra Image-to-Image — AI-редактор и преобразователь изображений",
+      "description": "Преобразуйте ваши изображения с помощью <strong class=\"text-primary font-semibold\">Nano Banana Pro Edit Ultra image-to-image</strong> AI-редактора. Загрузите до <strong class=\"text-primary font-semibold\">14 изображений</strong>, выберите из 10+ соотношений сторон и применяйте редактирование image-to-image на базе nano-banana — перенос стиля, цветокоррекция, художественные эффекты и креативные трансформации — всё за считанные секунды.",
+      "button1": "Попробовать Nano Banana Pro Edit Ultra Image-to-Image",
+      "button2": "Посмотреть цены"
+    },
+    "keyFeatures": {
+      "title": "Почему стоит выбрать Nano Banana для редактирования Image-to-Image?",
+      "description": "Продвинутое AI-редактирование image-to-image на базе технологии nano-banana",
+      "multiImage": {
+        "title": "Пакетная обработка Image-to-Image с Nano Banana",
+        "description": "Загрузите до 14 изображений одновременно для пакетного редактирования image-to-image с nano-banana. Обрабатывайте несколько изображений одновременно с единым стилем и качеством."
+      },
+      "aspectRatio": {
+        "title": "Управление соотношением сторон Nano Banana",
+        "description": "Nano-banana-2 image-to-image поддерживает 10+ соотношений сторон, включая 1:1, 3:2, 2:3, 3:4, 4:3, 4:5, 5:4, 9:16, 16:9 и 21:9 для идеальных размеров выходного изображения."
+      },
+      "smartEdit": {
+        "title": "Интеллектуальное редактирование Image-to-Image",
+        "description": "Nano Banana понимает контекст и семантику изображений для точных, естественных преобразований image-to-image. Умный AI, который знает, что изменить, а что сохранить."
+      },
+      "affordable": {
+        "title": "Доступные цены Nano Banana",
+        "description": "Экономичные преобразования nano-banana-pro-edit-ultra image-to-image с профессиональным AI-редактированием, доступным для проектов любого масштаба."
+      },
+      "resolution": {
+        "title": "4K/8K Resolution Options",
+        "description": "Output in 4K or 8K for social, web, and print-ready workflows."
+      }
+    },
+    "promptingTips": {
+      "title": "Как получить лучшие результаты Nano Banana Pro Edit Ultra Image-to-Image",
+      "specific": {
+        "title": "Будьте конкретны в промптах",
+        "description": "Для оптимальных результатов nano-banana-pro-edit-ultra image-to-image точно описывайте желаемые изменения. Примеры: «Преобразовать в акварельный стиль» или «Добавить кинематографическую цветокоррекцию с тёплыми тонами»."
+      },
+      "style": {
+        "title": "Укажите художественный стиль",
+        "description": "При использовании Nano Banana Pro Edit Ultra image-to-image чётко указывайте целевой стиль: «аниме-иллюстрация», «масляная живопись», «фотореалистичное улучшение», «винтажный плёночный вид» и т.д."
+      },
+      "color": {
+        "title": "Цвет и настроение",
+        "description": "Направляйте nano-banana-pro-edit-ultra image-to-image с помощью цветовых и атмосферных подсказок: «яркие насыщенные цвета», «мягкие пастельные тона», «тёмная мрачная атмосфера», «теплота золотого часа» и т.д."
+      },
+      "details": {
+        "title": "Добавьте детальные инструкции",
+        "description": "Максимизируйте качество Nano Banana Pro Edit Ultra image-to-image, указывая освещение, композицию, текстуру и какие элементы сохранить или преобразовать."
+      }
+    },
+    "faq": {
+      "title": "Часто задаваемые вопросы о Nano Banana Pro Edit Ultra Image-to-Image",
+      "description": "Часто задаваемые вопросы об AI-редакторе Nano Banana Pro Edit Ultra image-to-image",
+      "q1": {
+        "question": "Сколько изображений можно редактировать одновременно с Nano Banana Pro Edit Ultra image-to-image?",
+        "answer": "С редактором Nano Banana Pro Edit Ultra image-to-image вы можете загрузить до 14 изображений одновременно для пакетного редактирования image-to-image на базе nano-banana-pro-edit-ultra AI."
+      },
+      "q2": {
+        "question": "Какие соотношения сторон поддерживает Nano Banana Pro Edit Ultra image-to-image?",
+        "answer": "Nano Banana Pro Edit Ultra image-to-image поддерживает 10+ соотношений сторон: 1:1, 3:2, 2:3, 3:4, 4:3, 4:5, 5:4, 9:16, 16:9 и 21:9. Вы также можете использовать режим Авто, чтобы nano-banana выбрал автоматически. Resolution options: 4K, 8K."
+      },
+      "q3": {
+        "question": "Какие форматы изображений поддерживает Nano Banana Pro Edit Ultra image-to-image?",
+        "answer": "Nano Banana Pro Edit Ultra image-to-image поддерживает форматы PNG, JPEG, JPG и WebP. Для лучших результатов nano-banana используйте чёткие, хорошо освещённые исходные изображения."
+      },
+      "q4": {
+        "question": "Как писать эффективные промпты для Nano Banana Pro Edit Ultra image-to-image?",
+        "answer": "Для лучших результатов nano-banana-pro-edit-ultra image-to-image включайте подробные описания: целевой стиль, настроение, освещение, цветовую палитру и композицию. Больше деталей обычно даёт лучшие преобразования Nano Banana."
+      },
+      "q5": {
+        "question": "Чем Nano Banana Pro Edit Ultra image-to-image отличается от других AI-редакторов?",
+        "answer": "Nano Banana использует передовую технологию nano-banana-pro-edit-ultra AI для контекстно-зависимых, семантически интеллектуальных преобразований image-to-image с гибким управлением соотношением сторон. Он глубоко понимает содержание изображений, создавая естественные и точные редактирования image-to-image."
+      }
+    },
+    "finalCTA": {
+      "title": "Готовы попробовать Nano Banana Pro Edit Ultra Image-to-Image?",
+      "description": "Начните преобразовывать ваши изображения с помощью nano-banana-pro-edit-ultra image-to-image AI уже сегодня. Быстрые, качественные, интеллектуальные преобразования image-to-image у вас под рукой.",
+      "button": "Попробовать Nano Banana Pro Edit Ultra Image-to-Image сейчас"
+    },
+    "breadcrumb": {
+      "home": "Главная",
+      "imageToImage": "Image to Image",
+      "nanoBanana": "Nano Banana"
+    },
+    "schema": {
+      "softwareName": "Nano Banana Pro Edit Ultra Image-to-Image AI-редактор — joymagic",
+      "howToName": "Как использовать AI-редактор Nano Banana Pro Edit Ultra Image-to-Image",
+      "howToDescription": "Узнайте, как редактировать и преобразовывать изображения с помощью технологии nano-banana-pro-edit-ultra image-to-image AI. Загрузите изображения, выберите соотношение сторон и применяйте интеллектуальные AI-редактирования image-to-image.",
+      "features": {
+        "aiImageEditing": "AI-редактирование Nano Banana Pro Edit Ultra Image-to-Image",
+        "multiImage": "Пакетная обработка Image-to-Image с Nano Banana",
+        "aspectRatio": "Управление соотношением сторон Nano Banana",
+        "resolution": "4K/8K Resolution Options"
+      }
+    }
+  }
+}

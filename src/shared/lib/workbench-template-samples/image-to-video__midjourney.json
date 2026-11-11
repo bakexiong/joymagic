@@ -1,0 +1,272 @@
+[
+  {
+    "prompt": "A detailed illustration of an anthropomorphic fox wearing glasses, reading in an alchemist's workshop filled with magical artifacts, finely detailed illustration, warm oil lamp lighting, high level of detail, ",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/f91e3036d433627fe641dc0324186b75.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/f91e3036d433627fe641dc0324186b75.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A detailed illustration of an anthropomorphic fox wearing glasses, reading in an alchemist's workshop filled with magical artifacts, finely detailed illustration, warm oil lamp lighting, high level of detail, ",
+      "resolution": "480p",
+      "aspectRatio": "16:9",
+      "motion": "low",
+      "quality": "1",
+      "stylize": "0",
+      "chaos": "0",
+      "weird": "0",
+      "seed": "1915916223"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/888a70219b60b5d9c6a46bf01f401f56.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/888a70219b60b5d9c6a46bf01f401f56.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/9f3ef226fe49424d81d4573a7fc7ed3b.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/9f3ef226fe49424d81d4573a7fc7ed3b.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:20:57.005Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/8cc818212443454c3462335489de4f54.mp4"
+  },
+  {
+    "prompt": "A determined young Steampunk adventurer, looking forward with focus, adjusting her elaborate brass and leather goggles on her head, wearing a gear-adorned top hat, dramatic low-key lighting, deep warm tones, cinematic shot, hyper-detailed, action pose.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/a23e4597c07b1d32feb035325b9d7883.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/a23e4597c07b1d32feb035325b9d7883.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A determined young Steampunk adventurer, looking forward with focus, adjusting her elaborate brass and leather goggles on her head, wearing a gear-adorned top hat, dramatic low-key lighting, deep warm tones, cinematic shot, hyper-detailed, action pose.",
+      "resolution": "480p",
+      "aspectRatio": "16:9",
+      "motion": "low",
+      "quality": "1",
+      "stylize": "0",
+      "chaos": "0",
+      "weird": "0",
+      "seed": "2060831031"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/9e67683dd54a3431a53cc5d2fbb2eb60.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/9e67683dd54a3431a53cc5d2fbb2eb60.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/3a25eccb3931d9259d2be6ffe94bdf67.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/3a25eccb3931d9259d2be6ffe94bdf67.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:23:44.884Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/816a2d10648975464936212133346a0e.mp4"
+  },
+  {
+    "prompt": "Zoom in and girl smiling at the camera.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/145af6ae53e2b86afb572b162e03a05e.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/145af6ae53e2b86afb572b162e03a05e.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Zoom in and girl smiling at the camera.",
+      "resolution": "720p",
+      "aspectRatio": "16:9",
+      "motion": "low",
+      "quality": "1",
+      "stylize": "0",
+      "chaos": "0",
+      "weird": "0",
+      "seed": "228163482"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/29978b965b250154780a139ed0851525.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/29978b965b250154780a139ed0851525.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/6aa039b2a55fd6bd9092b8d9a3de53f5.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/6aa039b2a55fd6bd9092b8d9a3de53f5.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:25:11.635Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/0fe5a2e924cc16a9e18f20c7cb54c748.mp4"
+  },
+  {
+    "prompt": "The girl fiddled with her pose and winked at the camera.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/f4c1c04e412fbe1d6da1b4f717aedcc2.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/f4c1c04e412fbe1d6da1b4f717aedcc2.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The girl fiddled with her pose and winked at the camera.",
+      "resolution": "720p",
+      "aspectRatio": "16:9",
+      "motion": "low",
+      "quality": "1",
+      "stylize": "0",
+      "chaos": "0",
+      "weird": "0",
+      "seed": "189920174"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/6c0a1de824d51c0f14f43c2213da4e76.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/6c0a1de824d51c0f14f43c2213da4e76.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/8423e55971d1084229d2509206cbe28b.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/8423e55971d1084229d2509206cbe28b.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:27:48.566Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/bf965d53fa8230864b2f8fd95c145032.mp4"
+  },
+  {
+    "prompt": "A holographic swarm of butterflies flickering around the fingertips of a girl in a high-tech fiber suit, Digital Art, Octane Render, neon green and electric blue light sources, semi-transparent material texture, extremely sharp image fidelity.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/9a8bd2961c639517404dbb93655f2b69.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/9a8bd2961c639517404dbb93655f2b69.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A holographic swarm of butterflies flickering around the fingertips of a girl in a high-tech fiber suit, Digital Art, Octane Render, neon green and electric blue light sources, semi-transparent material texture, extremely sharp image fidelity.",
+      "resolution": "480p",
+      "aspectRatio": "16:9",
+      "motion": "low",
+      "quality": "1",
+      "stylize": "0",
+      "chaos": "0",
+      "weird": "0",
+      "seed": "262967096"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/914cb02acd7e1517d0b340e06a15440a.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/914cb02acd7e1517d0b340e06a15440a.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/00e4d468b0fb964f65c1c9af40e12ab0.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/00e4d468b0fb964f65c1c9af40e12ab0.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:29:18.009Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/152f8119190b4c071cf5395cc9c5e624.mp4"
+  },
+  {
+    "prompt": "鱼在池塘里游荡，高级感，电影质感",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/1c6f583f117e8e9c05df37a49b407fc5.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/1c6f583f117e8e9c05df37a49b407fc5.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "鱼在池塘里游荡，高级感，电影质感",
+      "resolution": "720p",
+      "aspectRatio": "16:9",
+      "motion": "low",
+      "quality": "1",
+      "stylize": "0",
+      "chaos": "0",
+      "weird": "0",
+      "seed": "598364885"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/176aff631b3109f3d0121002554733e6.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/176aff631b3109f3d0121002554733e6.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/01fb83b52f83b73092e69ac07ae7da5b.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/01fb83b52f83b73092e69ac07ae7da5b.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:30:45.234Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/8ed83a3416c462d874576be847482d5c.mp4"
+  },
+  {
+    "prompt": "Explosive close-up of a shattered biomechanical heart, crafted from dark polished chrome and intricate clockwork gears, mechanical debris flying outwards. Suspended in a deep crimson void, dramatic low-key lighting, highly reflective surfaces, concept art, ultra-detailed, cinematic composition.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/972048f902ec01050839eedcef53aa5a.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/972048f902ec01050839eedcef53aa5a.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Explosive close-up of a shattered biomechanical heart, crafted from dark polished chrome and intricate clockwork gears, mechanical debris flying outwards. Suspended in a deep crimson void, dramatic low-key lighting, highly reflective surfaces, concept art, ultra-detailed, cinematic composition.",
+      "resolution": "480p",
+      "aspectRatio": "16:9",
+      "motion": "low",
+      "quality": "1",
+      "stylize": "0",
+      "chaos": "0",
+      "weird": "0",
+      "seed": "2059919055"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/85b9bdf60f769796ca825ca64891b5cb.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/85b9bdf60f769796ca825ca64891b5cb.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/db93d7e50cf3d5b4b79bba989b4fa68f.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/db93d7e50cf3d5b4b79bba989b4fa68f.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:33:58.383Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/73484be2bb28c8d141520d686985dd78.mp4"
+  },
+  {
+    "prompt": "A bird flew over from outside the picture and stopped on the flowers.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/f45f1906ba9ebebc04121491ffa11449.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/f45f1906ba9ebebc04121491ffa11449.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A bird flew over from outside the picture and stopped on the flowers.",
+      "resolution": "480p",
+      "aspectRatio": "16:9",
+      "motion": "low",
+      "quality": "1",
+      "stylize": "0",
+      "chaos": "0",
+      "weird": "0",
+      "seed": "2059919055"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/5401445630313e4e7f92e500339648b1.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/5401445630313e4e7f92e500339648b1.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/0f00f2d030af893ad7601f1b20b3d4de.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/0f00f2d030af893ad7601f1b20b3d4de.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:35:25.660Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/d8859952cfbecddc0666bf7ee3c8d971.mp4"
+  },
+  {
+    "prompt": "The camera zooms in, and the characters are looking for light.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/929f92b43b2ae4415ac1c71c2c014112.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/929f92b43b2ae4415ac1c71c2c014112.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The camera zooms in, and the characters are looking for light.",
+      "resolution": "720p",
+      "aspectRatio": "16:9",
+      "motion": "low",
+      "quality": "1",
+      "stylize": "0",
+      "chaos": "0",
+      "weird": "0",
+      "seed": "598364885"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/48a072add93046e519bb57013dc2850e.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/48a072add93046e519bb57013dc2850e.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/bf13236de38b8dc81ad0429b45a2b100.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/bf13236de38b8dc81ad0429b45a2b100.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:39:08.480Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/745d958557e7002c8a72cb4e88ac485f.mp4"
+  }
+]

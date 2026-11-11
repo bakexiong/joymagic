@@ -1,0 +1,114 @@
+{
+  "title": "Nano Banana 文本生成图片",
+  "subtitle": "从文本描述生成精美的图片",
+  "prompt_label": "提示词",
+  "prompt_placeholder": "一个小女孩在后院吹肥皂泡，阳光在泡泡中形成彩虹色，抓拍风格。",
+  "prompt_tooltip": "输入您想要生成的图片描述",
+  "prompt_enhancer": "提示词增强",
+  "enhancing": "增强中...",
+  "aspect_ratio_label": "宽高比",
+  "aspect_ratio_hint": "选择生成图片的宽高比",
+  "aspect_ratio_placeholder": "选择宽高比（可选）",
+  "aspect_ratio_none": "（无）",
+  "output_format_label": "输出格式",
+  "output_format_hint": "选择输出图片格式",
+  "buttons": {
+    "generate": "生成图片"
+  },
+  "errors": {
+    "promptRequired": "提示词是必填项"
+  },
+  "image_alt": "生成的图片",
+  "download": "下载",
+  "image_placeholder": "生成的图片将显示在这里",
+  "page": {
+    "metadata": {
+      "title": "Nano Banana 文本生成图片 - AI 图片生成 | joymagic",
+      "description": "使用 Google Nano Banana AI 从文本生成图片。创建照片、插图和设计，支持清晰的文本渲染。免费试用 Nano Banana。",
+      "keywords": "nano banana 文本生成图片，AI 图片生成器，google nano banana，gemini 2.5 flash image，文本转图片 AI"
+    },
+    "hero": {
+      "title": "Nano Banana 文本生成图片",
+      "description": "Google Nano Banana (Gemini 2.5 Flash Image) 从文本描述生成图片。输入您想要的内容，几秒钟内即可获得照片、插图或概念艺术。自然处理不同的视觉风格。下方免费试用 Nano Banana！<br/><br/>需要专业控制和清晰的文本渲染？<a href=\"/text-to-image/nano-banana-pro\" class=\"text-primary underline\">试试 Nano Banana Pro</a>。",
+      "button1": "立即试用",
+      "button2": "查看价格"
+    },
+    "keyFeatures": {
+      "title": "主要特性",
+      "description": "强大的 AI 图片生成能力",
+      "createFromScratch": {
+        "title": "从零创建",
+        "description": "描述任何场景，模型即可生成。无需参考图片——只需写下您想看到的内容，模型会根据您的描述构建。"
+      },
+      "differentStyles": {
+        "title": "处理不同风格",
+        "description": "自然处理各种视觉风格。通过在提示词中描述风格，生成照片级真实场景、动漫角色、数字插图、概念艺术或素描。"
+      },
+      "plainTextInput": {
+        "title": "纯文本输入",
+        "description": "用日常语言编写描述。\"一只戴着太阳镜的猫在日落时的海滩上\"或\"霓虹灯标志的赛博朋克街景\"——模型理解自然表达。"
+      },
+      "fastGeneration": {
+        "title": "快速生成",
+        "description": "大多数图片在 5-10 秒内生成。快速测试不同想法——尝试不同的光线、构图和主题变化，无需长时间等待。"
+      },
+      "clearTextPro": {
+        "title": "图片中的清晰文本（Pro）",
+        "description": "Pro 版本可渲染多种语言的可读文本。生成徽标、海报、标牌和产品标签，字体保持清晰易读。特别擅长中文字符。"
+      }
+    },
+    "useCases": {
+      "title": "使用场景",
+      "conceptVisualization": {
+        "title": "概念可视化",
+        "description": "需要向客户展示想法但没有参考照片？描述概念并生成用于演示和推介的可视化内容。"
+      },
+      "socialMedia": {
+        "title": "社交媒体图形",
+        "description": "为帖子和广告创建原创图片。生成背景、产品模型或插图，无需库存照片或聘请设计师。"
+      },
+      "marketing": {
+        "title": "营销材料",
+        "description": "设计包含文本元素的海报、广告和促销图形。Pro 版本保持字体清晰专业——适用于活动海报和产品包装。"
+      },
+      "creativeExploration": {
+        "title": "创意探索",
+        "description": "在投入详细工作之前测试不同的视觉方向。生成多种风格变化以找到合适的方案。"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "关于 Nano Banana 文本生成图片的常见问题",
+      "q1": {
+        "question": "什么是 Nano Banana 文本生成图片？",
+        "answer": "Nano Banana 是 Google DeepMind 的 AI 图片生成器。它从文本描述创建图片——输入您想看到的内容，几秒钟内即可获得生成的图片。"
+      },
+      "q2": {
+        "question": "我的提示词应该有多详细？",
+        "answer": "更多细节通常有帮助。不要只说\"一只狗\"，试试\"一只金毛猎犬坐在公园里，晨光，摄影风格\"。包括主题、场景、光线和视觉风格。"
+      },
+      "q3": {
+        "question": "支持哪些格式？",
+        "answer": "输出 JPG、PNG 和 WebP。如果需要透明度支持，请选择 PNG。"
+      },
+      "q4": {
+        "question": "与 Nano Banana Pro 有什么区别？",
+        "answer": "标准 Nano Banana 可快速生成不同风格的图片。Pro 版本增加了相机风格控制（景深、光线）、多语言清晰文本渲染和更高分辨率输出。<a href=\"/text-to-image/nano-banana-pro\" class=\"text-primary underline\">比较版本 →</a>"
+      },
+      "q5": {
+        "question": "生成需要多长时间？",
+        "answer": "标准版：每张图片 5-10 秒。Pro 版：复杂提示词或更高分辨率输出需要 10-15 秒。"
+      }
+    },
+    "finalCTA": {
+      "title": "准备开始创作了吗？",
+      "description": "立即开始从您的文本描述生成精美的图片。",
+      "button": "立即试用"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "textToImage": "文本生成图片",
+      "nanoBanana": "Nano Banana"
+    }
+  }
+}

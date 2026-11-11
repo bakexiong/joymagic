@@ -1,0 +1,122 @@
+{
+  "textToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 Texto para Vídeo - Gerador de Vídeo AI Cinematográfico | joymagic",
+      "description": "Crie clipes cinematográficos de 3-15 segundos em 720p com HappyHorse 1.0. Transforme prompts em vídeos AI 16:9 de alta qualidade com seed opcional.",
+      "keywords": "happyhorse 1.0, texto para vídeo, gerador de vídeo ai, alibaba happyhorse, vídeo ai cinematográfico, 720p texto para vídeo, 16:9 ai vídeo"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 Texto para Vídeo",
+      "description": "HappyHorse 1.0 transforma um prompt simples em um clipe cinematográfico refinado de 3-15 segundos. O fluxo é direto: enquadramento 16:9 nativo, saída 720p e seed opcional para rascunhos reproduzíveis. <br/><br/>Quer animar uma imagem estática? Experimente <a href=\"/image-to-video/happyhorse-1-0\" class=\"text-primary underline\">HappyHorse 1.0 Imagem para Vídeo</a>.",
+      "button1": "Experimentar agora",
+      "button2": "Ver preços"
+    },
+    "keyFeatures": {
+      "title": "Principais recursos",
+      "cinematicPreset": {
+        "title": "Cinematográfico por padrão",
+        "description": "Gere clipes curtos ideais para storytelling visual, apresentações e teasers para redes sociais."
+      },
+      "fastStoryboard": {
+        "title": "Rascunhos flexíveis de 3-15 segundos",
+        "description": "A duração fixa facilita comparar ideias e iterar rapidamente na direção do prompt."
+      },
+      "reproducibleSeed": {
+        "title": "Controle de seed reproduzível",
+        "description": "Use um seed quando quiser manter mais consistência entre revisões ou variações."
+      },
+      "nativeWideframe": {
+        "title": "Saída nativa em 16:9",
+        "description": "Gere clipes widescreen prontos para compartilhar sem retrabalho de enquadramento."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "O que é HappyHorse 1.0 Texto para Vídeo?",
+        "answer": "É um fluxo de vídeo AI que transforma um prompt de texto em um clipe de 3-15 segundos em 720p usando Alibaba HappyHorse 1.0."
+      },
+      "q2": {
+        "question": "Qual proporção ele suporta?",
+        "answer": "O fluxo atual de texto para vídeo é otimizado para saída em 16:9."
+      },
+      "q3": {
+        "question": "Posso escolher a duração?",
+        "answer": "Esta versão suporta geração ajustável de 3-15 segundos para iteração rápida e pré-visualizações mais longas."
+      },
+      "q4": {
+        "question": "Para que serve o seed?",
+        "answer": "O seed ajuda a reproduzir ou estabilizar resultados quando você quer gerações parecidas em várias execuções."
+      },
+      "q5": {
+        "question": "Para quem esse modelo é indicado?",
+        "answer": "É ótimo para criadores, times de marketing e produto que precisam de clipes conceituais curtos com aparência cinematográfica."
+      }
+    },
+    "finalCTA": {
+      "title": "Pronto para gerar com HappyHorse 1.0?",
+      "description": "Transforme seus prompts em clipes cinematográficos curtos em segundos.",
+      "button": "Gerar vídeo"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 Imagem para Vídeo - Anime imagens estáticas com AI | joymagic",
+      "description": "Transforme uma imagem estática em um clipe de 3-15 segundos em 720p com HappyHorse 1.0. Envie uma imagem e gere movimento limpo rapidamente.",
+      "keywords": "happyhorse 1.0, imagem para vídeo, animar imagem, animação ai de imagem, alibaba happyhorse, 720p imagem para vídeo, vídeo ai de 3-15 segundos"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 Imagem para Vídeo",
+      "description": "HappyHorse 1.0 transforma uma única imagem em um clipe animado curto de 3-15 segundos em 720p. Envie uma imagem de referência, adicione opcionalmente um prompt de movimento e gere rapidamente um resultado widescreen limpo. <br/><br/>Quer começar pelo texto? Experimente <a href=\"/text-to-video/happyhorse-1-0\" class=\"text-primary underline\">HappyHorse 1.0 Texto para Vídeo</a>.",
+      "button1": "Experimentar agora",
+      "button2": "Ver preços"
+    },
+    "keyFeatures": {
+      "title": "Principais recursos",
+      "singleImageMotion": {
+        "title": "Animação com uma única imagem",
+        "description": "Envie uma imagem estática e transforme-a em movimento sem montar uma cena complexa."
+      },
+      "fastFiveSecond": {
+        "title": "Saída flexível de 3-15 segundos",
+        "description": "A duração curta e fixa facilita testes leves e comparações rápidas."
+      },
+      "cleanOutput": {
+        "title": "Entrega limpa em 720p",
+        "description": "Gere clipes HD adequados para demos conceituais, posts sociais e mockups de campanha."
+      },
+      "simpleWorkflow": {
+        "title": "Fluxo simples",
+        "description": "Foque no essencial: imagem, duração e resolução, com prompt opcional para orientar o movimento."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "O que o HappyHorse 1.0 Imagem para Vídeo faz?",
+        "answer": "Ele anima uma imagem enviada e a transforma em um clipe curto gerado por AI."
+      },
+      "q2": {
+        "question": "Preciso escrever um prompt?",
+        "answer": "Não. O prompt é opcional, mas pode ajudar a direcionar movimento e clima."
+      },
+      "q3": {
+        "question": "Qual qualidade de saída está disponível?",
+        "answer": "A configuração atual gera vídeos em 720p e 1080p."
+      },
+      "q4": {
+        "question": "Quanto dura cada clipe gerado?",
+        "answer": "Este fluxo está atualmente ajustado para clipes de 3-15 segundos."
+      },
+      "q5": {
+        "question": "Quando devo usar Imagem para Vídeo em vez de Texto para Vídeo?",
+        "answer": "Use imagem para vídeo quando você já tiver um frame de referência, personagem, foto de produto ou composição que queira preservar."
+      }
+    },
+    "finalCTA": {
+      "title": "Anime sua imagem com HappyHorse 1.0",
+      "description": "Envie uma imagem estática e transforme-a rapidamente em movimento.",
+      "button": "Animar imagem"
+    }
+  }
+}

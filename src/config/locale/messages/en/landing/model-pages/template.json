@@ -1,0 +1,50 @@
+{
+  "whyModelTitle": "Why this model",
+  "whyModelDescription": "A focused model page should explain where this model is strongest, when to use it, and why it deserves its own workflow entry point.",
+  "howItWorksTitle": "How it works",
+  "howItWorksDescription": "The page is structured to help users move from model understanding into action without leaving the main creation flow.",
+  "howItWorksSteps": [
+    {
+      "step": "01",
+      "title": "Choose a mode",
+      "copy": "Switch between the model's main creation modes and land in the workflow that matches your intent."
+    },
+    {
+      "step": "02",
+      "title": "Add prompt or references",
+      "copy": "Start from text, references, or both, depending on whether you are generating from scratch or refining assets."
+    },
+    {
+      "step": "03",
+      "title": "Generate and compare",
+      "copy": "Use the workbench to iterate quickly, compare directions, and keep the strongest candidates moving forward."
+    },
+    {
+      "step": "04",
+      "title": "Continue in creator",
+      "copy": "Once you have a strong direction, jump into the creator flow to keep working without rebuilding context."
+    }
+  ],
+  "workflowsTitle": "One model surface, multiple vertical workflows",
+  "workflowsDescription": "Instead of presenting feature cards first, the page flows through actual scene intent. Each mode explains what it is for, how to steer it, and how to start with a working prompt.",
+  "bestForTitle": "Best for",
+  "bestForDescription": "Use-case framing helps users understand not just what the model can do, but where it fits best in real production work.",
+  "galleryTitle": "A premium model page should explain the output, not bury it behind modules",
+  "galleryDescription": "The overall rhythm follows a vertical editorial layout: hero first, workbench second, then scene logic, product rationale, and real output proof. That keeps the page dense without collapsing into a card wall.",
+  "galleryLead": "Real outputs should carry the proof. The surrounding copy stays compact, readable, and secondary.",
+  "faqTitle": "Product framing, not just page styling",
+  "faqDescription": "Answers stay in the same vertical rhythm so the page still reads like one continuous product narrative instead of a set of detached modules.",
+  "openWithPrompt": "Open with prompt",
+  "openInCreator": "Open in creator",
+  "sampleLabel": "Sample",
+  "fallbackSampleTitle": "Model Sample",
+  "fallbackSampleCaption": "A real output sample selected from this model's own generation set.",
+  "controls": {
+    "promptWorkflow": "Prompt workflow",
+    "creatorSync": "Creator sync",
+    "uploadUpToRefs": "Upload up to {count} refs",
+    "referenceUploads": "Reference uploads",
+    "aspectRatios": "{count}+ aspect ratios",
+    "resolutionPresets": "{count} resolution presets"
+  }
+}

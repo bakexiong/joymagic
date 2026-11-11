@@ -1,0 +1,102 @@
+{
+  "title": "GPT Image 1 Testo in Immagine",
+  "subtitle": "Genera immagini straordinarie da descrizioni testuali",
+  "prompt_label": "Prompt",
+  "prompt_placeholder": "Crea una copertina di rivista professionale e visivamente accattivante per una rivista di lifestyle chiamata \"Urban Pulse\".",
+  "prompt_tooltip": "Inserisci una descrizione dell'immagine che desideri generare",
+  "size_label": "Dimensione",
+  "size_tooltip": "Seleziona la dimensione dell'immagine",
+  "quality_label": "Qualità",
+  "quality_tooltip": "Seleziona la qualità dell'immagine. Qualità più alta usa più crediti.",
+  "credits_required": "Crediti Richiesti",
+  "buttons": {
+    "generate": "Genera Immagine"
+  },
+  "errors": {
+    "promptRequired": "Il prompt è obbligatorio"
+  },
+  "image_alt": "Immagine generata",
+  "download": "Scarica",
+  "image_placeholder": "L'immagine generata apparirà qui",
+  "page": {
+    "metadata": {
+      "title": "GPT-Image-1 Testo in Immagine - Generatore di Immagini AI | joymagic",
+      "description": "Genera immagini da testo con OpenAI GPT-Image-1. Rendering del testo superiore per poster e insegne. Seguimento preciso delle istruzioni, stili multipli. Prova gratis ora.",
+      "keywords": "GPT-Image-1, testo in immagine, generatore immagini ai, openai, rendering testo, poster, insegne, seguimento istruzioni"
+    },
+    "hero": {
+      "title": "GPT-Image-1 Testo in Immagine",
+      "description": "GPT-Image-1 è il modello di generazione di immagini di OpenAI costruito per seguire istruzioni precise e renderizzare il testo con precisione. Descrivi qualsiasi scena, stile o design—inclusi elementi di testo come titoli, insegne ed etichette. Prova GPT-Image-1 gratis qui sotto!<br/><br/>Hai bisogno di prompt bilingue o coerenza dei personaggi? <a href=\"/text-to-image/seedream-4-5\" class=\"text-primary underline\">Prova Seedream 4.5 Testo in Immagine</a>.",
+      "button1": "Prova Ora",
+      "button2": "Vedi Prezzi"
+    },
+    "keyFeatures": {
+      "title": "Caratteristiche Principali",
+      "description": "Capacità potenti per la generazione precisa di immagini",
+      "superiorTextRendering": {
+        "title": "Rendering del Testo Superiore",
+        "description": "Genera testo chiaro e leggibile all'interno delle immagini—poster, insegne, copertine di libri, etichette di prodotti, grafiche per social media. Gestisce meglio di molti modelli di generazione elementi di testo multipli e tipografia densa."
+      },
+      "preciseInstructionFollowing": {
+        "title": "Seguimento Preciso delle Istruzioni",
+        "description": "Il modello interpreta prompt dettagliati con precisione. Specifica composizione, illuminazione, tavolozza colori, umore, stile e posizionamento del soggetto—GPT-Image-1 segue le tue istruzioni fino ai piccoli elementi senza deviazioni."
+      },
+      "styleVersatility": {
+        "title": "Versatilità di Stile",
+        "description": "Crea immagini fotorealistiche, illustrazioni, arte concettuale, fotografia vintage, design minimalisti e altro ancora. Fai riferimento a stili artistici specifici o movimenti nel tuo prompt per risultati mirati."
+      },
+      "transparentBackground": {
+        "title": "Supporto Sfondo Trasparente",
+        "description": "Genera immagini con trasparenza utilizzando l'output PNG. Specifica \"sfondo trasparente\" nel tuo prompt per risorse pronte per essere composte nei design senza ritaglio manuale."
+      }
+    },
+    "useCases": {
+      "title": "Casi d'Uso",
+      "marketingGraphics": {
+        "title": "Grafiche di Marketing",
+        "description": "Crea post sui social media, annunci banner e materiali promozionali con elementi di testo incorporati. Titoli, CTA e prezzi vengono renderizzati in modo pulito."
+      },
+      "signagePosters": {
+        "title": "Insegne e Poster",
+        "description": "Progetta poster per eventi, insegne di negozi e annunci dove la tipografia è centrale per il visuale."
+      },
+      "bookAlbumCovers": {
+        "title": "Copertine di Libri e Album",
+        "description": "Genera concept di copertine con testo di titolo e autore integrato. Esplora direzioni prima di impegnarti nel design finale."
+      },
+      "productMockups": {
+        "title": "Mockup di Prodotti",
+        "description": "Crea concept di packaging e design di etichette con nomi di prodotti leggibili, ingredienti e branding."
+      }
+    },
+    "faq": {
+      "title": "Domande Frequenti",
+      "description": "Domande comuni su GPT-Image-1 Testo in Immagine",
+      "q1": {
+        "question": "Cos'è GPT-Image-1?",
+        "answer": "GPT-Image-1 è il modello di generazione di immagini AI di OpenAI che crea immagini da descrizioni testuali. È particolarmente forte nel renderizzare testo leggibile all'interno delle immagini."
+      },
+      "q2": {
+        "question": "Quanto è accurato il rendering del testo?",
+        "answer": "GPT-Image-1 genera testo leggibile meglio della maggior parte dei modelli AI. Gestisce elementi di testo multipli e tipografia densa. Per testo perfetto a livello di pixel in applicazioni critiche, genera l'immagine base qui e aggiungi il testo finale nel software di design."
+      },
+      "q3": {
+        "question": "Posso ottenere sfondi trasparenti?",
+        "answer": "Sì. Scegli il formato di output PNG e includi \"sfondo trasparente\" nel tuo prompt. Utile per loghi, adesivi e risorse composite."
+      },
+      "q4": {
+        "question": "Quali stili può generare?",
+        "answer": "Fotorealismo, illustrazione, arte concettuale, pittura digitale, estetica vintage, design minimalista e altro ancora. Fai riferimento a stili specifici nel tuo prompt."
+      },
+      "q5": {
+        "question": "Quando dovrei usare Seedream 4.5 invece?",
+        "answer": "Usa Seedream 4.5 quando hai bisogno di supporto per prompt bilingue (cinese) o vuoi mantenere la coerenza dei personaggi tra le generazioni. Usa GPT-Image-1 quando la qualità del rendering del testo è la priorità."
+      }
+    },
+    "finalCTA": {
+      "title": "Pronto a Creare?",
+      "description": "Inizia a generare immagini incredibili dalle tue descrizioni testuali oggi.",
+      "button": "Prova Ora"
+    }
+  }
+}

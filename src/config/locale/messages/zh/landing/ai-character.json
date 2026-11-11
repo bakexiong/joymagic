@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "title": "AI Character Studio | joymagic",
+    "description": "用一个更有编辑感的暗色工作台来设计稳定一致的 AI 角色，覆盖图片、短视频与可复用角色资产。",
+    "keywords": "AI 角色, 角色生成器, AI 头像, 角色设计, 一致性角色生成"
+  },
+  "eyebrow": "AI Character Studio",
+  "title": "让一个角色形象，在图片、视频和动态内容里都保持统一。",
+  "description": "参考图中的暗色创作工作台气质，并结合 joymagic 现有能力，这个页面把角色创作整理成一套可复用流程：先确定角色身份，再快速浏览模板方向，最后延展到立绘、动态短片和系列化资产，而不是每次都从零开始。",
+  "primaryCta": "免费创建",
+  "secondaryCta": "查看价格",
+  "panelTitle": "Character",
+  "panelSubtitle": "以角色身份为核心的创作空间",
+  "createCardTitle": "Create Character",
+  "createCardDescription": "从一张脸、一个情绪，或一个品牌吉祥物出发，建立可重复使用的角色系统。",
+  "browseCardTitle": "Browse Library",
+  "browseCardDescription": "直接选用适合立绘、短视频和品牌内容的起步模板，快速进入创作状态。",
+  "quickStartsTitle": "Quick Starts",
+  "quickStartsDescription": "围绕 joymagic 当前常见角色生产流程整理的快速入口。",
+  "libraryTitle": "Starter Packs",
+  "libraryDescription": "把风格锁定、表情探索、动态测试和导出预设组合起来，构建一个可持续扩展的角色宇宙。",
+  "stageBadge": "Creations",
+  "stageTitle": "几分钟内产出成体系的角色内容。",
+  "stageDescription": "把一个稳定的角色身份作为创作源头，再延展出海报、短视频、封面图和更多风格变体，让结果天然更统一。",
+  "stagePrimaryCta": "开始创建角色",
+  "stageSecondaryCta": "打开图片工具",
+  "spotlightTitle": "为现代角色生产链路而设计",
+  "spotlightDescription": "页面保留了参考图的高级、趣味和工作台气质，同时把交互落回 joymagic 真实可用的产品场景。",
+  "workflowTitle": "更顺的创作路径",
+  "workflowDescription": "从灵感到可交付角色包，尽量减少来回切换页面和工具的成本。",
+  "quickStarts": [
+    {
+      "title": "Create Character",
+      "description": "新建角色身份",
+      "badge": "New"
+    },
+    {
+      "title": "Character Image",
+      "description": "@fluffy 戴眼镜"
+    },
+    {
+      "title": "Character Video",
+      "description": "@me Y2K 穿搭"
+    },
+    {
+      "title": "Talking Video",
+      "description": "配音与口型同步"
+    },
+    {
+      "title": "Motion Sync",
+      "description": "动作预演"
+    }
+  ],
+  "spotlightItems": [
+    {
+      "title": "一个身份，多种输出",
+      "description": "先锁定脸部特征、配色、穿搭提示和轮廓，再自然延展到海报、社媒视觉和短动态内容。"
+    },
+    {
+      "title": "结果优先的预览舞台",
+      "description": "右侧舞台先展示“最终会做出什么”，让用户在动手前就能理解这套角色工作流的价值。"
+    },
+    {
+      "title": "无缝进入现有工具",
+      "description": "主要按钮直接衔接图片生成链路，让这个页面看起来像产品的一部分，而不是孤立的展示页。"
+    }
+  ],
+  "workflowSteps": [
+    {
+      "title": "定义角色身份",
+      "description": "从肖像、吉祥物或情绪板开始，先确定那些最不能丢失的识别特征。"
+    },
+    {
+      "title": "选择起步方向",
+      "description": "根据当前目标，快速进入立绘、视频、口播头像或动作测试这几条最常见的创建路径。"
+    },
+    {
+      "title": "生成统一变体",
+      "description": "在共享参考和提示词的前提下产出图片与视频，尽量减少角色视觉漂移。"
+    },
+    {
+      "title": "导出成套资产",
+      "description": "把同一角色源头扩展成封面、短内容、品牌故事视觉或系列化社媒素材。"
+    }
+  ]
+}

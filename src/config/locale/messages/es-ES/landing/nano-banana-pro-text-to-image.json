@@ -1,0 +1,147 @@
+{
+  "title": "Nano Banana Pro Texto a Imagen",
+  "subtitle": "Genera imágenes impresionantes a partir de descripciones de texto",
+  "prompt_label": "Prompt",
+  "prompt_placeholder": "Una niña pequeña soplando burbujas de jabón en un patio trasero, la luz del sol creando colores del arcoíris en las burbujas, estilo fotografía espontánea.",
+  "prompt_tooltip": "Ingrese una descripción de la imagen que desea generar",
+  "aspect_ratio_label": "Relación de aspecto",
+  "aspect_ratio_hint": "Elija la relación de aspecto para la imagen generada",
+  "aspect_ratio_placeholder": "Seleccionar relación de aspecto (opcional)",
+  "aspect_ratio_none": "(Ninguna)",
+  "resolution_label": "Resolución",
+  "resolution_hint": "Elija la resolución para la imagen generada",
+  "output_format_label": "Formato de salida",
+  "output_format_hint": "Elija el formato de imagen de salida",
+  "buttons": {
+    "generate": "Generar Imagen"
+  },
+  "errors": {
+    "promptRequired": "El prompt es obligatorio",
+    "generate_failed": "Error al generar imagen: {status}",
+    "generate_failed_default": "Error al generar imagen",
+    "no_request_id": "Error al obtener el ID de solicitud"
+  },
+  "image_alt": "Imagen generada",
+  "download": "Descargar",
+  "image_placeholder": "La imagen generada aparecerá aquí",
+  "prompt_inspirations_button": "Inspiraciones de Prompts",
+  "prompt_guide_button": "Guía de Prompts",
+  "powered_by": "Impulsado por el modelo AI Nano Banana Pro optimizado por joymagic",
+  "prompt_guides": {
+    "guide1": "Mejores Prompts de Escenas Nano Banana",
+    "guide2": "Mejores Prompts de Retratos Nano Banana",
+    "guide3": "Prompts de Fotos de Productos Flux 1.1 para E-commerce",
+    "guide4": "Prompts de Imágenes Nano Banana: El Marco de 5 Capas",
+    "guide5": "Prompts de Productos Nano Banana Copiar-Pegar",
+    "guide6": "Ingeniería de Prompts Midjourney",
+    "guide7": "Prompts de Productos Midjourney",
+    "guide8": "Prompts de Retratos Midjourney",
+    "guide9": "50 Mejores Prompts de Fotos de Productos Flux 1.1",
+    "guide10": "50 Mejores Prompts de Retratos Flux 1.1"
+  },
+  "page": {
+    "metadata": {
+      "title": "Nano Banana Pro - AI Texto a Imagen con Tipografía Clara | joymagic",
+      "description": "Genera imágenes profesionales desde texto con Nano Banana Pro. Controles de cámara, texto claro en chino/inglés, salida de alta resolución. Crea fotos y diseños.",
+      "keywords": "nano banana pro, texto a imagen, generador de imágenes ai, renderizado de texto claro, controles de cámara, generación de imágenes profesional, texto chino ai, texto bilingüe ai"
+    },
+    "hero": {
+      "title": "Nano Banana Pro Texto a Imagen",
+      "description": "Nano Banana Pro genera imágenes profesionales desde descripciones de texto con controles de nivel de cámara. Describe profundidad de campo, configuraciones de iluminación y gradación de color en lenguaje simple. Renderiza texto en chino e inglés claramente—útil para carteles, logotipos y materiales de marca. ¡Prueba Nano Banana Pro a continuación!<br/><br/>¿Buscas generación básica de imágenes sin controles pro? <a href=\"/text-to-image/nano-banana\" class=\"text-primary underline\">Prueba Nano Banana estándar</a>.",
+      "button1": "Probar Ahora",
+      "button2": "Ver Precios"
+    },
+    "proFeatures": {
+      "title": "Características Exclusivas Pro",
+      "description": "Capacidades de nivel profesional para generación avanzada de imágenes",
+      "cameraControls": {
+        "title": "Controles de Cámara vía Texto",
+        "description": "Describe configuraciones de fotografía profesional en lenguaje simple. \"Profundidad de campo superficial con fondo bokeh\" o \"iluminación de cine negro con alto contraste\"—el modelo aplica técnicas que normalmente requieren equipos costosos y experiencia."
+      },
+      "clearTextRendering": {
+        "title": "Renderizado de Texto Claro",
+        "description": "Genera tipografía legible en múltiples idiomas. Logotipos, señalización, carteles, etiquetas de productos—el texto se mantiene nítido y profesional. Particularmente fuerte con caracteres chinos, lo que lo hace útil para materiales de marketing bilingües."
+      },
+      "highResolution": {
+        "title": "Salida de Alta Resolución",
+        "description": "Salida de imágenes de alta resolución adecuadas para materiales de impresión y pantallas de gran formato. El escalado opcional preserva detalles finos—textura de tela, elementos arquitectónicos, superficies de productos."
+      },
+      "complexScene": {
+        "title": "Comprensión de Escenas Complejas",
+        "description": "Maneja instrucciones espaciales detalladas. \"Coloca el jarrón en el lado izquierdo de la mesa, con luz solar viniendo de la ventana derecha\"—el modelo interpreta correctamente el posicionamiento, la dirección de la luz y las relaciones entre objetos."
+      },
+      "professionalComposition": {
+        "title": "Control de Composición Profesional",
+        "description": "Describe encuadres, ángulos y perspectivas específicos. \"Toma de ángulo bajo mirando hacia arriba al edificio\" o \"retrato de primer plano con líneas principales en el fondo\"—el modelo entiende terminología de cinematografía y fotografía."
+      }
+    },
+    "standardFeatures": {
+      "title": "Características Estándar (También Incluidas)",
+      "description": "Todas las capacidades esenciales que necesitas",
+      "styleFlexibility": {
+        "title": "Flexibilidad de Estilo",
+        "description": "Fotos, anime, arte digital, ilustraciones"
+      },
+      "naturalLanguage": {
+        "title": "Entrada de Lenguaje Natural",
+        "description": "Describe escenas en lenguaje cotidiano"
+      },
+      "fastGeneration": {
+        "title": "Generación Rápida",
+        "description": "10-15 segundos por imagen"
+      },
+      "multipleFormats": {
+        "title": "Múltiples Formatos de Salida",
+        "description": "JPG, PNG, WebP"
+      }
+    },
+    "useCases": {
+      "title": "Casos de Uso",
+      "eventPosters": {
+        "title": "Carteles de Eventos con Texto",
+        "description": "Genera carteles promocionales con detalles del evento, fechas e información del lugar. Pro renderiza texto claramente en chino e inglés—legible en cualquier tamaño para uso impreso o digital."
+      },
+      "productVisualization": {
+        "title": "Visualización de Productos",
+        "description": "¿Necesitas maquetas de productos para presentaciones pero no tienes fotos? Describe el producto, el entorno y la iluminación. Pro genera escenas de aspecto profesional con sombras y reflejos realistas."
+      },
+      "conceptPresentations": {
+        "title": "Presentaciones de Conceptos",
+        "description": "Presenta a los clientes direcciones de diseño sin crear trabajo terminado. Genera múltiples estilos visuales con controles de cámara para mostrar diferentes estados de ánimo y enfoques."
+      },
+      "bilingualMarketing": {
+        "title": "Materiales de Marketing Bilingües",
+        "description": "Crea anuncios y gráficos promocionales con texto en chino e inglés. Pro maneja bien la tipografía de ambos idiomas—importante para señalización minorista y empaques de productos dirigidos a múltiples mercados."
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "description": "Preguntas comunes sobre Nano Banana Pro Texto a Imagen",
+      "q1": {
+        "question": "¿Qué hace diferente a Pro de Nano Banana estándar?",
+        "answer": "Pro agrega controles de cámara (profundidad de campo, iluminación, gradación de color), renderizado de texto claro en múltiples idiomas y salida de mayor resolución. Estándar genera imágenes rápidamente en varios estilos pero sin controles de fotografía profesional o calidad de texto garantizada."
+      },
+      "q2": {
+        "question": "¿Cómo funciona el renderizado de texto?",
+        "answer": "Describe el texto que deseas en tu prompt, incluyendo contenido, estilo y posición. Pro genera tipografía que permanece legible en cualquier tamaño—particularmente efectivo para caracteres chinos donde la calidad de renderizado varía entre modelos de AI."
+      },
+      "q3": {
+        "question": "¿Qué resolución puedo generar?",
+        "answer": "Pro genera mayor resolución que estándar, con escalado opcional para resultados de calidad de impresión. Adecuado para impresión de gran formato, materiales de ferias comerciales y anuncios de revistas."
+      },
+      "q4": {
+        "question": "¿Qué tan detallados deben ser mis prompts?",
+        "answer": "Más detalle ayuda. En lugar de \"un producto en una mesa\", prueba \"smartphone en mesa de madera, luz solar de la tarde desde la izquierda, profundidad de campo superficial, estilo de fotografía de producto profesional\". Incluye sujeto, iluminación, configuraciones de cámara y estilo visual."
+      },
+      "q5": {
+        "question": "¿Vale la pena Pro para imágenes básicas?",
+        "answer": "Nano Banana estándar funciona bien para gráficos de redes sociales, conceptos rápidos e imágenes donde la calidad del texto no importa. Usa Pro cuando necesites controles de fotografía profesional, tipografía clara en tus imágenes o resolución de calidad de impresión."
+      }
+    },
+    "finalCTA": {
+      "title": "¿Listo para Crear?",
+      "description": "Comienza a generar imágenes increíbles a partir de tus descripciones de texto hoy.",
+      "button": "Pruébalo Ahora"
+    }
+  }
+}

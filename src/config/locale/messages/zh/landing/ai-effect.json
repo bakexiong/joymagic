@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "title": "AI 特效 | joymagic",
+    "description": "在同一个页面里浏览视频特效和图片特效，并一键进入对应创作流程。"
+  },
+  "badge": "AI 特效",
+  "title": "AI 特效",
+  "description": "在统一画廊中切换浏览视频特效和图片特效，选中喜欢的效果后即可一键进入对应创作流程。",
+  "cta": {
+    "video": "生成相似视频"
+  },
+  "tabs": {
+    "video": "视频特效",
+    "image": "图片特效"
+  }
+}

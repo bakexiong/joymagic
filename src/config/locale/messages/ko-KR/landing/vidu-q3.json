@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "title": "Vidu Q3 이미지를 비디오로 - AI로 사진 애니메이션 | joymagic",
+    "description": "Vidu Q3로 이미지를 비디오로 변환하세요. 참조 사진을 업로드하고, 움직임 진폭을 제어하고, 선택적 오디오와 배경 음악이 포함된 비디오를 생성하세요.",
+    "keywords": "vidu q3, 이미지를 비디오로, ai 비디오 생성기, 사진 애니메이션, 움직임 진폭, 배경 음악, vidu q3 이미지를 비디오로"
+  },
+  "viduq3": {
+    "form": {
+      "prompt": {
+        "label": "프롬프트",
+        "placeholder": "세련된 젊은 남성 아티스트가 햇살 가득한 도시 골목의 벽돌 벽에 화려한 꽃 벽화를 스프레이 페인팅하고 있습니다...",
+        "tooltip": "생성을 위한 긍정적 프롬프트입니다."
+      },
+      "image": {
+        "label": "이미지",
+        "tooltip": "비디오로 변환할 이미지를 업로드하세요",
+        "hint": "힌트: 파일을 드래그 앤 드롭하거나 클릭하여 업로드할 수 있습니다",
+        "dragDrop": "파일을 드래그 앤 드롭하거나 클릭하여 업로드",
+        "dropHere": "여기에 이미지를 놓으세요"
+      },
+      "resolution": {
+        "label": "해상도"
+      },
+      "duration": {
+        "label": "길이",
+        "tooltip": "비디오 길이를 1초에서 16초 사이로 설정",
+        "unit": "초"
+      },
+      "movementAmplitude": {
+        "label": "움직임 진폭"
+      },
+      "generateAudio": {
+        "label": "오디오 생성",
+        "description": "활성화하면 비디오에 오디오가 자동으로 생성됩니다.",
+        "tooltip": "이 옵션을 활성화하면 비디오에 오디오가 자동으로 생성됩니다."
+      },
+      "bgm": {
+        "label": "배경 음악",
+        "description": "활성화하면 비디오에 배경 음악이 추가됩니다.",
+        "tooltip": "이 옵션을 활성화하면 비디오에 배경 음악이 추가됩니다."
+      },
+      "seed": {
+        "label": "시드",
+        "placeholder": "비워두면 무작위"
+      },
+      "buttons": {
+        "reset": "초기화",
+        "run": "생성",
+        "generating": "생성 중..."
+      }
+    },
+    "preview": {
+      "placeholder": "프롬프트를 입력하고 실행을 클릭하면 생성된 비디오가 여기에 표시됩니다."
+    },
+    "status": {
+      "idle": "대기 중",
+      "processing": "처리 중",
+      "completed": "완료됨"
+    },
+    "actions": {
+      "downloadVideo": "비디오 다운로드",
+      "downloadFailed": "비디오 다운로드 실패"
+    },
+    "errors": {
+      "promptRequired": "프롬프트를 입력해 주세요",
+      "imageRequired": "이미지를 업로드해 주세요",
+      "generationFailed": "비디오 생성 실패",
+      "taskFailed": "작업 처리 실패",
+      "taskTimeout": "작업 처리 시간 초과, 나중에 다시 시도해 주세요",
+      "taskIdNotFound": "작업 ID를 가져올 수 없습니다. API 응답 형식을 확인해 주세요",
+      "processingFailed": "처리 실패, 다시 시도해 주세요",
+      "statusQueryFailed": "작업 상태 조회 실패",
+      "apiResponseParseFailed": "API 응답 파싱 실패",
+      "invalidFileType": "잘못된 파일 형식입니다. 이미지 파일(JPG, PNG 등)을 업로드해 주세요.",
+      "uploadFailed": "업로드 실패: {error}",
+      "uploadFailedGeneric": "업로드 실패"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "Vidu Q3 이미지를 비디오로 - AI로 사진 애니메이션 | joymagic",
+      "description": "Vidu Q3로 이미지를 비디오로 변환하세요. 참조 사진을 업로드하고, 움직임 진폭을 제어하고, 선택적 오디오와 배경 음악이 포함된 비디오를 생성하세요.",
+      "keywords": "vidu q3, 이미지를 비디오로, ai 비디오 생성기, 사진 애니메이션, 움직임 진폭, 배경 음악, vidu q3 이미지를 비디오로"
+    },
+    "hero": {
+      "title": "Vidu Q3 이미지를 비디오로",
+      "description": "Vidu Q3는 사용자 정의 가능한 움직임 진폭으로 이미지를 비디오 클립으로 변환합니다. 참조 사진을 업로드하고, 움직임 강도를 제어하고, 선택적 오디오와 배경 음악이 포함된 비디오를 생성하세요. 지금 무료로 Vidu Q3를 사용해 보세요!",
+      "button1": "지금 사용해 보기",
+      "button2": "가격 보기"
+    },
+    "keyFeatures": {
+      "title": "주요 기능",
+      "movementControl": {
+        "title": "움직임 진폭 제어",
+        "description": "비디오의 움직임 강도를 제어합니다. 자동, 소, 중, 대 움직임 진폭 중에서 선택하여 창의적 비전에 맞추세요."
+      },
+      "flexibleDuration": {
+        "title": "유연한 길이",
+        "description": "1초에서 16초까지의 비디오를 생성합니다. 길이 슬라이더를 조정하여 짧은 클립이나 긴 시퀀스를 만드세요."
+      },
+      "audioOptions": {
+        "title": "오디오 옵션",
+        "description": "오디오 생성 또는 배경 음악 추가를 선택합니다. 비디오의 사운드를 사용자 정의하여 시청 경험을 향상시키세요."
+      },
+      "multipleResolutions": {
+        "title": "다양한 해상도",
+        "description": "프로젝트 요구 사항과 품질 요구에 맞게 540p, 720p 또는 1080p 해상도 중에서 선택하세요."
+      }
+    },
+    "useCases": {
+      "title": "사용 사례",
+      "productAnimation": {
+        "title": "제품 애니메이션",
+        "description": "제품 사진을 회전, 사용법 또는 라이프스타일 컨텍스트를 보여주는 데모 비디오로 변환합니다."
+      },
+      "characterAnimation": {
+        "title": "캐릭터 애니메이션",
+        "description": "캐릭터 디자인과 컨셉 아트에 움직임과 표정을 부여하여 생동감을 불어넣습니다."
+      },
+      "portraitVideos": {
+        "title": "초상화 비디오",
+        "description": "초상화 사진에 미묘한 움직임을 추가합니다—눈 깜빡임, 고개 돌리기, 부드러운 미소."
+      },
+      "styleMatchedClips": {
+        "title": "스타일 매칭 클립",
+        "description": "스타일 참조를 업로드하여 특정 미학이나 아트 디렉션에 맞는 비디오를 생성합니다."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "Vidu Q3 이미지를 비디오로란 무엇인가요?",
+        "answer": "Vidu Q3 이미지를 비디오로는 업로드한 이미지를 사용자 정의 가능한 움직임 진폭, 길이 및 오디오 옵션이 있는 비디오 클립으로 변환합니다."
+      },
+      "q2": {
+        "question": "움직임 진폭이란 무엇인가요?",
+        "answer": "움직임 진폭은 비디오에 나타나는 움직임의 양을 제어합니다. 자동 감지를 위해 자동을 선택하거나, 특정 강도 수준을 위해 소, 중, 대를 선택하세요."
+      },
+      "q3": {
+        "question": "배경 음악을 추가할 수 있나요?",
+        "answer": "네. 배경 음악 옵션을 활성화하여 생성된 비디오에 음악을 추가할 수 있습니다."
+      },
+      "q4": {
+        "question": "어떤 비디오 길이가 지원되나요?",
+        "answer": "Vidu Q3는 1초에서 16초까지의 비디오 길이를 지원합니다. 슬라이더나 입력 필드를 사용하여 원하는 길이를 설정하세요."
+      },
+      "q5": {
+        "question": "어떤 해상도를 사용할 수 있나요?",
+        "answer": "품질 및 파일 크기 선호도에 따라 540p, 720p 또는 1080p 해상도 중에서 선택할 수 있습니다."
+      }
+    },
+    "finalCTA": {
+      "title": "만들 준비가 되셨나요?",
+      "description": "오늘부터 이미지로 놀라운 비디오를 생성해 보세요.",
+      "button": "지금 사용해 보기"
+    }
+  }
+}

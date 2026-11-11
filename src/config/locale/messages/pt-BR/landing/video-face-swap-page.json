@@ -1,0 +1,203 @@
+{
+  "videoFaceSwapPage": {
+    "whatIs": {
+      "title": "O que é Troca de Rosto em Vídeo com IA?",
+      "description": "<strong>Troca de Rosto em Vídeo com IA</strong> é uma ferramenta alimentada por IA que permite substituir rostos em vídeos por qualquer rosto que você desejar.",
+      "uses": "Usa aprendizado de máquina avançado para:",
+      "detect": "Detectar rostos no seu vídeo",
+      "track": "Rastrear seu movimento quadro a quadro",
+      "swap": "Substituí-los perfeitamente por um novo rosto",
+      "keep": "Manter expressões naturais, iluminação e ângulos",
+      "canDo": "Com nossa troca de rosto em vídeo com IA online, você pode:",
+      "movieScenes": "Colocar seu rosto em cenas de filmes",
+      "memeStars": "Transformar amigos em estrelas de memes",
+      "cosplay": "Criar clipes de cosplay ou reações",
+      "socialMedia": "Fazer conteúdo personalizado para redes sociais",
+      "cloud": "Tudo funciona na nuvem, então você não precisa de hardware poderoso ou software complexo. Apenas envie e troque."
+    },
+    "howTo": {
+      "title": "Como Trocar Rosto em um Vídeo com IA",
+      "description": "Crie vídeos de troca de rosto realistas e de alta qualidade com nossa <strong>troca de rosto em vídeo com IA gratuita</strong> em algumas etapas simples:",
+      "step1": {
+        "title": "1. Envie o vídeo onde deseja trocar o rosto",
+        "description": "Envie o vídeo original onde deseja substituir um rosto (ou vários rostos).",
+        "supportFormats": "Suportamos todos os formatos de vídeo comuns",
+        "clearFaces": "Certifique-se de que os rostos no vídeo estejam claros e visíveis",
+        "quality": "Uma qualidade de vídeo maior geralmente produz melhores resultados"
+      },
+      "step2": {
+        "title": "2. Envie o vídeo com o rosto que deseja trocar (opcional)",
+        "description": "Se você quiser trocar rostos entre <strong>dois vídeos</strong> (por exemplo, seu próprio vídeo e um clipe de filme):",
+        "secondVideo": "Envie o segundo vídeo que contém o rosto que deseja usar",
+        "detectBoth": "Nossa IA detectará rostos em ambos os vídeos",
+        "chooseFace": "Você pode escolher qual rosto mapear e substituir",
+        "singleImage": "Se você quiser usar apenas uma <strong>imagem de rosto única</strong>, pode pular esta etapa e ir para a próxima."
+      },
+      "step3": {
+        "title": "3. Envie uma imagem de rosto para trocar",
+        "description": "Envie uma foto do rosto que deseja colocar no vídeo.",
+        "bestResults": "Para obter os melhores resultados:",
+        "clearPhoto": "Use uma foto clara de frente",
+        "wellLit": "Certifique-se de que o rosto esteja bem iluminado",
+        "avoidFilters": "Evite filtros pesados ou coberturas faciais (como óculos de sol ou máscaras)",
+        "autoAlign": "A IA alinhará automaticamente o rosto para corresponder ao ângulo, iluminação e expressão no vídeo."
+      },
+      "step4": {
+        "title": "4. Recorte o clipe de vídeo (opcional)",
+        "description": "Você pode recortar o vídeo enviado para focar apenas na parte onde deseja trocar o rosto.",
+        "trim": "Aparar o tempo de início e fim",
+        "focus": "Focar na cena principal onde o rosto está visível",
+        "improve": "Isso pode melhorar a velocidade e a qualidade da saída",
+        "generate": "Quando estiver satisfeito com o clipe, clique em <strong>Gerar</strong> e deixe a IA criar seu novo vídeo."
+      }
+    },
+    "features": {
+      "title": "Principais Recursos da Nossa Troca de Rosto em Vídeo com IA Online",
+      "speed": {
+        "title": "A Troca de Rosto em Vídeo Mais Rápida com Velocidade Relâmpago",
+        "description": "Nosso motor de IA recém-otimizado oferece <strong>trocas de rosto em segundos em vez de minutos</strong>.",
+        "faster": "Até <strong>2 vezes mais rápido</strong> que muitas outras ferramentas",
+        "complex": "Lida até com <strong>vídeos complexos com múltiplos rostos</strong>",
+        "sixFaces": "Suporta até <strong>6 rostos</strong> em um único vídeo",
+        "quick": "Projetado para visualizações rápidas e exportações finais rápidas",
+        "watermarkFree": "Você obtém <strong>resultados profissionais sem marca d'água</strong> sem longos tempos de espera."
+      },
+      "templates": {
+        "title": "Modelos de Vídeo em Tendência para Troca de Rosto",
+        "description": "Não sabe por onde começar? Use nossos <strong>modelos de vídeo prontos</strong> projetados para troca de rosto:",
+        "memeFormats": "Formatos de memes virais",
+        "movieScenes": "Cenas de filmes famosos",
+        "reaction": "Clipes de reação e duetos",
+        "cosplay": "Edições de cosplay e personagens",
+        "shortForm": "Conteúdo de formato curto para TikTok, Reels e YouTube Shorts",
+        "simple": "Simplesmente escolha um modelo, envie seu rosto e gere um vídeo compartilhável em alguns cliques."
+      },
+      "viral": {
+        "title": "Transforme Qualquer Clipe em um Sucesso Viral com Troca de Rosto em Vídeo com IA",
+        "description": "Com nossa poderosa <strong>troca de rosto em vídeo com IA</strong>, você pode transformar clipes comuns em conteúdo divertido e chamativo:",
+        "movieMoment": "Recrie um momento icônico de filme estrelado por você",
+        "memes": "Faça memes hilários com rostos de amigos",
+        "team": "Coloque sua equipe, família ou clientes em vídeos temáticos",
+        "standOut": "Destaque-se nas redes sociais com edições únicas e personalizadas",
+        "easy": "Nunca foi tão fácil criar vídeos que as pessoas <strong>assistem, compartilham e lembram</strong>."
+      }
+    },
+    "legal": {
+      "title": "Uso Responsável e Requisitos Legais",
+      "intro": "Nossa ferramenta de troca de rosto em vídeo com IA é projetada para fins criativos e de entretenimento. Para garantir uso legal e ético, leia e siga estas diretrizes cuidadosamente.",
+      "whoCanSwap": {
+        "title": "Quem Você Pode Trocar?",
+        "mayUse": "Você pode APENAS usar:",
+        "ownFace": "Seu próprio rosto",
+        "consent": "Rostos de indivíduos que lhe deram consentimento explícito e informado",
+        "fictional": "Personagens fictícios ou conteúdo de domínio público onde você detém os direitos",
+        "mayNotUse": "Você NÃO pode usar:",
+        "noPermission": "O rosto de qualquer pessoa sem sua permissão explícita",
+        "celebrity": "Rostos de celebridades para fins comerciais ou impersonação",
+        "minors": "Rostos de menores (menores de 18 anos) sem consentimento de pais/responsáveis",
+        "deceive": "Qualquer conteúdo destinado a enganar, fraudar ou deturpar"
+      },
+      "prohibited": {
+        "title": "Usos Estritamente Proibidos",
+        "description": "A Troca de Rosto em Vídeo com IA NÃO pode ser usada para:",
+        "impersonation": "<strong>Impersonação e Fraude</strong>: Criar deepfakes para enganar outros, impersonar indivíduos ou espalhar desinformação",
+        "nonConsensual": "<strong>Conteúdo Não Consensual</strong>: Trocar rostos em cenários sensíveis, privados ou inadequados sem permissão",
+        "harassment": "<strong>Assédio e Abuso</strong>: Criar conteúdo que prejudique, assedie ou viole a dignidade de qualquer indivíduo",
+        "copyright": "<strong>Infração de Direitos Autorais</strong>: Usar conteúdo de vídeo com direitos autorais (filmes, programas de TV, videoclipes) sem autorização adequada",
+        "political": "<strong>Manipulação Política</strong>: Criar conteúdo político enganoso ou endossos falsos",
+        "identityTheft": "<strong>Roubo de Identidade</strong>: Usar trocas de rosto para se representar fraudulentamente como outra pessoa"
+      },
+      "disclosure": {
+        "title": "Divulgação de Conteúdo Gerado por IA",
+        "important": "Importante",
+        "description": "Vídeos criados com nossa ferramenta de troca de rosto são mídia sintética gerada por IA.",
+        "disclose": "Ao compartilhar vídeos com rosto trocado publicamente, você deve divulgar que o conteúdo foi modificado por IA",
+        "jurisdictions": "Em muitas jurisdições, não divulgar conteúdo deepfake pode violar leis sobre mídia sintética",
+        "watermarks": "Nossa ferramenta pode adicionar marcas d'água visíveis ou invisíveis para indicar manipulação por IA, dependendo dos requisitos legais da sua região"
+      },
+      "responsibilities": {
+        "title": "Suas Responsabilidades Legais",
+        "description": "Ao usar esta ferramenta, você concorda em:",
+        "verify": "<strong>Verificar Autorização</strong>: Garantir que você tem direitos e permissões adequados para todos os rostos e conteúdo de vídeo que você envia",
+        "comply": "<strong>Cumprir as Leis</strong>: Seguir todas as leis aplicáveis sobre deepfakes, mídia sintética, privacidade e proteção de dados em sua jurisdição",
+        "respect": "<strong>Respeitar Direitos</strong>: Honrar direitos de propriedade intelectual, direitos de personalidade e direitos de privacidade de todos os indivíduos",
+        "ethical": "<strong>Usar Éticamente</strong>: Usar a ferramenta apenas para fins legais, éticos e não prejudiciais"
+      },
+      "enforcement": {
+        "title": "Aplicação da Plataforma",
+        "description": "Monitoramos ativamente o uso indevido e implementamos:",
+        "moderation": "Sistemas automatizados de moderação de conteúdo",
+        "reporting": "Mecanismos de denúncia de usuários",
+        "suspension": "Suspensão ou encerramento de conta por violações",
+        "cooperation": "Cooperação com as autoridades quando legalmente exigido",
+        "violation": "A violação dessas diretrizes pode resultar no encerramento imediato da conta e possíveis ações legais."
+      },
+      "compliance": {
+        "title": "Conformidade Regional",
+        "description": "Esta ferramenta está em conformidade com:",
+        "china": "Regulamentos de \"Síntese Profunda\" da China que exigem rotulagem de conteúdo e verificação de usuários",
+        "eu": "Requisitos da Lei de IA da UE para transparência em conteúdo gerado por IA",
+        "us": "Leis estaduais dos EUA sobre deepfakes e mídia sintética",
+        "consult": "Para questões sobre uso legal, consulte um advogado em sua jurisdição."
+      }
+    },
+    "faq": {
+      "title": "Perguntas Frequentes sobre Troca de Rosto em Vídeo",
+      "q1": {
+        "question": "1. A Troca de Rosto em Vídeo com IA é gratuita?",
+        "answer1": "Sim, você pode criar vídeos de troca de rosto com nossa <strong>troca de rosto em vídeo com IA gratuita</strong>.",
+        "answer2": "Algumas opções avançadas (como maior resolução ou clipes mais longos) podem exigir um upgrade, dependendo do plano que você escolher."
+      },
+      "q2": {
+        "question": "2. Preciso de experiência em edição de vídeo?",
+        "answer1": "Não. A ferramenta é construída para todos:",
+        "simple": "Fluxo de trabalho simples passo a passo",
+        "aiHandles": "A IA lida com detecção, rastreamento e mesclagem automaticamente",
+        "answer2": "Se você pode enviar um vídeo e uma foto de rosto, pode criar uma troca de rosto."
+      },
+      "q3": {
+        "question": "3. Quais formatos de vídeo vocês suportam?",
+        "answer1": "Suportamos a maioria dos formatos comuns, incluindo:",
+        "mp4": "MP4",
+        "answer2": "Se seu arquivo não fizer upload, tente exportá-lo como MP4 e fazer upload novamente."
+      },
+      "q4": {
+        "question": "4. Meu vídeo terá marca d'água?",
+        "answer1": "<strong>Sim, para conformidade legal e transparência.</strong>",
+        "answer2": "Nossa ferramenta adiciona marcadores visíveis ou invisíveis para indicar conteúdo gerado por IA, de acordo com regulamentos sobre mídia sintética em várias jurisdições.",
+        "visible": "<strong>Marcas d'água visíveis</strong>: Podem aparecer em versões de pré-visualização ou finais dependendo dos requisitos legais da sua região",
+        "invisible": "<strong>Marcadores invisíveis</strong>: Impressões digitais embutidas no vídeo para autenticação de conteúdo",
+        "purpose": "<strong>Propósito</strong>: Garantir conformidade com leis de divulgação de deepfake e prevenir uso indevido",
+        "answer3": "Esses marcadores protegem você e outros ao identificar claramente o conteúdo como modificado por IA."
+      },
+      "q5": {
+        "question": "5. Meus dados e conteúdo estão seguros?",
+        "answer1": "Levamos privacidade e segurança a sério:",
+        "secure": "Seus vídeos e imagens são processados com segurança e criptografados durante a transmissão",
+        "only": "O conteúdo é usado <strong>apenas</strong> para gerar os resultados que você solicitou",
+        "notTrain": "<strong>Não</strong> usamos seus uploads para treinar nossos modelos ou compartilhá-los com terceiros",
+        "delete": "Você pode excluir seus arquivos após exportar",
+        "privacyRules": "Regras Importantes de Privacidade:",
+        "neverUpload1": "<strong>Nunca envie</strong> conteúdo contendo o rosto de outra pessoa sem sua permissão explícita",
+        "neverUpload2": "<strong>Nunca envie</strong> conteúdo sensível, privado ou íntimo",
+        "neverUpload3": "<strong>Nunca envie</strong> rostos de menores sem o consentimento adequado de pais/responsáveis",
+        "unauthorized": "O uso não autorizado da imagem de outra pessoa pode violar leis de privacidade e nossos Termos de Serviço",
+        "responsible": "Você é o único responsável por garantir que tem direitos sobre todo o conteúdo enviado."
+      },
+      "q6": {
+        "question": "6. Posso trocar múltiplos rostos em um vídeo?",
+        "answer1": "Sim. Nossa IA pode lidar com <strong>até 6 rostos</strong> em um único vídeo:",
+        "swapOne": "Trocar um rosto ou vários de uma vez",
+        "mapDifferent": "Mapear diferentes rostos para diferentes pessoas no clipe",
+        "great": "Ótimo para vídeos em grupo, introduções de equipe ou memes familiares"
+      },
+      "q7": {
+        "question": "7. A Troca de Rosto em Vídeo com IA também muda a voz?",
+        "answer1": "Não. A troca de rosto apenas muda o <strong>rosto visual</strong> no vídeo.",
+        "audioStays": "O áudio original (voz, música, efeitos) permanece o mesmo",
+        "editLater": "Você pode editar o áudio mais tarde com outras ferramentas se necessário"
+      },
+      "cta": "Comece a usar <strong>Troca de Rosto em Vídeo com IA online</strong> hoje e transforme suas ideias, piadas e histórias em vídeos que param o scroll com apenas alguns cliques."
+    }
+  }
+}

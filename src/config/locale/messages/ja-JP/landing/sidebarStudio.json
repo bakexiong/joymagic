@@ -1,0 +1,46 @@
+{
+  "primary": {
+    "home": "ホーム",
+    "infiniteCanvas": "無限キャンバス",
+    "image": "画像",
+    "video": "動画",
+    "effects": "エフェクト"
+  },
+  "imageTools": {
+    "Editor & Combiner": "編集と合成",
+    "Image to Image": "画像から画像",
+    "Text to Image": "テキストから画像",
+    "PhotoShoot": "フォトシュート",
+    "Variations": "バリエーション",
+    "Face Generator": "顔生成",
+    "Image Upscaler": "画像アップスケーラー",
+    "Background Remover": "背景除去",
+    "Image Eraser": "画像消しゴム",
+    "Image Effects": "画像エフェクト"
+  },
+  "videoTools": {
+    "Image to Video": "画像から動画",
+    "Text to Video": "テキストから動画",
+    "Longcat Avatar": "Lip-Sync",
+    "Reference To Video": "Reference To Video",
+    "Video Extend": "Video Extend",
+    "Motion Control": "モーションコントロール",
+    "Video Effects": "動画エフェクト"
+  },
+  "library": {
+    "title": "ライブラリ",
+    "assets": "アセット",
+    "creations": "作品",
+    "uploads": "アップロード",
+    "collections": "コレクション"
+  },
+  "creationTypes": {
+    "Video": "動画",
+    "Image": "画像",
+    "Audio": "音声",
+    "Effect": "エフェクト"
+  },
+  "badges": {
+    "beta": "ベータ"
+  }
+}

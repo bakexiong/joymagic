@@ -1,0 +1,113 @@
+[
+  {
+    "prompt": "Put the person in image1 into image2.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/40f37e1bc20f77e27df25864d0c046aa.jpg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/40f37e1bc20f77e27df25864d0c046aa.jpg",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/316487e77183c1f4f7098b012f379a9e.jpg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/316487e77183c1f4f7098b012f379a9e.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Put the person in image1 into image2."
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/5d50f47b525a239b7b5e9191b08db464.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/5d50f47b525a239b7b5e9191b08db464.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/d4ba83b4d13dc8722baa491ca124b2d0.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/d4ba83b4d13dc8722baa491ca124b2d0.jpeg"
+    ],
+    "generatedAt": "2026-04-15T03:23:25.984Z"
+  },
+  {
+    "prompt": "Put this character on the football field",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/b8e747d9acba6f86b6e1313213dcbe5a.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/b8e747d9acba6f86b6e1313213dcbe5a.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Put this character on the football field"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/cc109aae54e88af1c4b8655fec9668ef.jpeg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/cc109aae54e88af1c4b8655fec9668ef.jpeg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/1a65634c5fc5da6d0a0b61917491b3ff.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/1a65634c5fc5da6d0a0b61917491b3ff.jpeg"
+    ],
+    "generatedAt": "2026-04-15T03:23:32.579Z"
+  },
+  {
+    "prompt": "Change image1 to the oil painting style ",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/44521e89002c87005afe0c7dd1e5a39b.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/44521e89002c87005afe0c7dd1e5a39b.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Change image1 to the oil painting style "
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/a17805a3540d8084a26d36d6e6bf08fd.jpeg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/a17805a3540d8084a26d36d6e6bf08fd.jpeg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/debd1c033cc80b4403ce57154db88f80.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/debd1c033cc80b4403ce57154db88f80.jpeg"
+    ],
+    "generatedAt": "2026-04-15T03:23:42.020Z"
+  },
+  {
+    "prompt": "Change to a strawberry",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/d003769a19479189a5d33bd7899229cd.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/d003769a19479189a5d33bd7899229cd.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Change to a strawberry"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/42c25343a7367493c128e9b0c2e7c169.jpeg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/42c25343a7367493c128e9b0c2e7c169.jpeg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/6418daa0a2dee24d93235283c69ac3f3.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/6418daa0a2dee24d93235283c69ac3f3.jpeg"
+    ],
+    "generatedAt": "2026-04-15T03:24:16.377Z"
+  },
+  {
+    "prompt": "Change to a dog",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/1399c9721770169c76a7c351d5076739.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/1399c9721770169c76a7c351d5076739.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Change to a dog"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/5c1465fdbfd01a811d3e1a0ef84b9e0d.jpeg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/5c1465fdbfd01a811d3e1a0ef84b9e0d.jpeg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/4f1aec9534b9a75a1ef6ba3c30216b8a.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/4f1aec9534b9a75a1ef6ba3c30216b8a.jpeg"
+    ],
+    "generatedAt": "2026-04-15T03:24:23.151Z"
+  }
+]

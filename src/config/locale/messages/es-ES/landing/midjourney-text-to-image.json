@@ -1,0 +1,180 @@
+{
+  "title": "Midjourney Estilo Texto a Imagen",
+  "subtitle": "Genera impresionantes imágenes estilo Midjourney a partir de descripciones de texto",
+  "prompt_label": "Prompt",
+  "prompt_placeholder": "Paisaje de bosque etéreo, iluminación de hora dorada, estilo impresionista, enfoque suave, atmósfera de ensueño.",
+  "prompt_tooltip": "Ingrese una descripción de la imagen que desea generar",
+  "aspect_ratio_label": "Relación de aspecto",
+  "aspect_ratio_hint": "Elija la relación de aspecto para la imagen generada",
+  "aspect_ratio_placeholder": "Seleccionar relación de aspecto (opcional)",
+  "aspect_ratio_none": "(Ninguna)",
+  "resolution_label": "Resolución",
+  "resolution_hint": "Elija la resolución para la imagen generada",
+  "output_format_label": "Formato de salida",
+  "output_format_hint": "Elija el formato de imagen de salida",
+  "sref_label": "Imagen de referencia",
+  "sref_placeholder": "Ingrese URL de imagen de referencia (opcional)",
+  "sref_hint": "Suba una imagen de referencia o proporcione URL para influir en el estilo de generación",
+  "sref_upload_hint": "PNG, JPG, WebP compatible",
+  "sref_drag_drop": "Arrastre y suelte o haga clic para subir",
+  "sref_drop_here": "Suelte la imagen aquí",
+  "sref_upload_active": "Usando imagen subida como referencia",
+  "quality_label": "Calidad",
+  "quality_hint": "Elija el nivel de calidad de imagen",
+  "stylize_label": "Estilizar",
+  "stylize_hint": "Controlar intensidad del estilo artístico (0-1000)",
+  "chaos_label": "Caos",
+  "chaos_hint": "Agregar variedad a los resultados (0-100)",
+  "weird_label": "Extraño",
+  "weird_hint": "Hacer imágenes peculiares y no convencionales (0-3000)",
+  "version_label": "Versión",
+  "version_hint": "Seleccionar versión del modelo Midjourney",
+  "niji_label": "Modo Niji",
+  "niji_hint": "Modelo Niji para estética anime",
+  "niji_none": "Ninguno",
+  "seed_label": "Semilla",
+  "seed_hint": "Valor de semilla para resultados reproducibles (-1 para aleatorio)",
+  "estimated_credits": "Créditos estimados",
+  "buttons": {
+    "generate": "Generar Imagen",
+    "generating": "Generando...",
+    "estimating": "Estimando...",
+    "checking": "Verificando...",
+    "unavailable": "No disponible",
+    "credits": "créditos"
+  },
+  "errors": {
+    "promptRequired": "El prompt es obligatorio",
+    "generate_failed": "Error al generar imagen: {status}",
+    "generate_failed_default": "Error al generar imagen",
+    "no_request_id": "Error al obtener el ID de solicitud",
+    "restricted": "Este servicio no está disponible en su región",
+    "uploadFailed": "Error al subir la imagen",
+    "invalidFileType": "Tipo de archivo no válido. Por favor suba un archivo de imagen"
+  },
+  "image_alt": "Imagen generada",
+  "download": "Descargar",
+  "download_success": "Descarga exitosa",
+  "download_error": "Error en la descarga",
+  "image_placeholder": "La imagen generada aparecerá aquí",
+  "prompt_inspirations_button": "Inspiraciones de Prompts",
+  "prompt_guide_button": "Guía de Prompts",
+  "powered_by": "Impulsado por el modelo AI estilo Midjourney optimizado por joymagic",
+  "prompt_guides": {
+    "guide1": "Mejores Prompts de Escenas Midjourney",
+    "guide2": "Mejores Prompts de Retratos Midjourney",
+    "guide3": "Prompts de Fotos de Productos Midjourney",
+    "guide4": "Prompts de Imágenes Midjourney: El Marco de 5 Capas",
+    "guide5": "Prompts de Arte Midjourney Copiar-Pegar",
+    "guide6": "Ingeniería de Prompts Midjourney",
+    "guide7": "Guía de Estilo Midjourney",
+    "guide8": "Técnicas de Composición Midjourney",
+    "guide9": "50 Mejores Prompts Creativos Midjourney",
+    "guide10": "50 Mejores Prompts de Estilo Artístico Midjourney"
+  },
+  "page": {
+    "metadata": {
+      "title": "Generador de Imágenes AI Estilo Midjourney Texto a Imagen | joymagic",
+      "description": "Genera impresionantes imágenes estilo Midjourney a partir de descripciones de texto. Generación profesional de imágenes AI con control artístico, salida de alta resolución y flexibilidad creativa.",
+      "keywords": "midjourney, texto a imagen, generador de imágenes ai, alternativa midjourney, generador de arte ai, generación de imágenes creativa, ai artística, estilo midjourney"
+    },
+    "hero": {
+      "title": "Midjourney Estilo Texto a Imagen",
+      "description": "Crea impresionantes imágenes estilo Midjourney a partir de descripciones de texto con IA avanzada. Experimenta control artístico, flexibilidad creativa y salidas de calidad profesional. Perfecto para diseñadores, artistas y profesionales creativos que buscan imágenes generadas por IA de alta calidad.<br/><br/>¿Buscas otros modelos de IA? <a href=\"/text-to-image\" class=\"text-primary underline\">Explora todas las herramientas de texto a imagen</a>.",
+      "button1": "Probar Ahora",
+      "button2": "Ver Precios"
+    },
+    "keyFeatures": {
+      "title": "Características Estilo Midjourney",
+      "description": "Capacidades artísticas profesionales para generación de imágenes creativa",
+      "artisticControl": {
+        "title": "Control Artístico",
+        "description": "Ajusta finamente el estilo artístico, el estado de ánimo y la dirección estética con prompts en lenguaje natural. Describe estilos de pintura, movimientos artísticos o cualidades visuales específicas para lograr tu visión creativa."
+      },
+      "highQuality": {
+        "title": "Salida de Alta Calidad",
+        "description": "Genera imágenes de nivel profesional con detalles y claridad excepcionales. Adecuado para proyectos comerciales, trabajos de portafolio y necesidades de impresión de alta resolución."
+      },
+      "creativeFlexibility": {
+        "title": "Flexibilidad Creativa",
+        "description": "Explora posibilidades creativas ilimitadas desde renderizados fotorrealistas hasta arte abstracto. Mezcla estilos, combina conceptos y experimenta con combinaciones visuales únicas."
+      },
+      "compositionControl": {
+        "title": "Control de Composición",
+        "description": "Dirige el encuadre, la perspectiva y la jerarquía visual a través de prompts descriptivos. Logra composición profesional sin conocimientos técnicos de fotografía."
+      },
+      "styleConsistency": {
+        "title": "Consistencia de Estilo",
+        "description": "Mantén un estilo visual consistente a través de múltiples generaciones. Perfecto para crear series cohesivas, materiales de marca o colecciones de proyectos."
+      }
+    },
+    "standardFeatures": {
+      "title": "Características Estándar",
+      "description": "Todas las capacidades esenciales que necesitas",
+      "multipleStyles": {
+        "title": "Múltiples Estilos de Arte",
+        "description": "Fotorrealista, anime, pintura al óleo, acuarela, arte digital"
+      },
+      "naturalLanguage": {
+        "title": "Prompts en Lenguaje Natural",
+        "description": "Describe tu visión en lenguaje cotidiano"
+      },
+      "fastGeneration": {
+        "title": "Generación Rápida",
+        "description": "10-20 segundos por imagen"
+      },
+      "multipleFormats": {
+        "title": "Múltiples Formatos de Salida",
+        "description": "JPG, PNG, WebP"
+      }
+    },
+    "useCases": {
+      "title": "Casos de Uso",
+      "conceptArt": {
+        "title": "Arte Conceptual y Diseño",
+        "description": "Crea arte conceptual para juegos, películas y proyectos creativos. Explora direcciones visuales rápidamente e itera ideas sin el tiempo de ilustración tradicional."
+      },
+      "marketing": {
+        "title": "Marketing y Publicidad",
+        "description": "Genera visuales llamativos para campañas, redes sociales y materiales promocionales. Crea imágenes únicas que destacan y capturan la atención."
+      },
+      "creative": {
+        "title": "Exploración Creativa",
+        "description": "Experimenta con estilos artísticos y conceptos visuales. Perfecto para artistas, diseñadores y creativos que buscan inspiración o exploran nuevas direcciones."
+      },
+      "portfolio": {
+        "title": "Portafolio y Presentación",
+        "description": "Crea imágenes de calidad profesional para portafolios, presentaciones y propuestas a clientes. Muestra ideas con visuales pulidos de alta resolución."
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "description": "Preguntas comunes sobre la generación de texto a imagen estilo Midjourney",
+      "q1": {
+        "question": "¿Cómo funciona la generación estilo Midjourney?",
+        "answer": "Nuestro modelo de IA está entrenado para generar imágenes con cualidades artísticas similares a Midjourney, enfocándose en el atractivo estético, la interpretación creativa y salidas de calidad profesional. Simplemente describe tu visión en lenguaje natural."
+      },
+      "q2": {
+        "question": "¿Qué hace esto diferente de otros generadores de imágenes AI?",
+        "answer": "La generación estilo Midjourney enfatiza la calidad artística, la interpretación creativa y el atractivo estético. Sobresale en producir imágenes visualmente impactantes con fuerte composición y coherencia artística."
+      },
+      "q3": {
+        "question": "¿Puedo usar las imágenes generadas comercialmente?",
+        "answer": "Sí, las imágenes generadas a través de nuestra plataforma pueden usarse para fines comerciales. Por favor revisa nuestros términos de servicio para derechos de uso específicos y requisitos de atribución."
+      },
+      "q4": {
+        "question": "¿Qué tan detallados deben ser mis prompts?",
+        "answer": "Los prompts más detallados generalmente producen mejores resultados. Incluye tema, estilo artístico, estado de ánimo, iluminación, composición y cualquier elemento visual específico que desees. Por ejemplo: \"paisaje de bosque etéreo, iluminación de hora dorada, estilo impresionista, enfoque suave, atmósfera de ensueño\"."
+      },
+      "q5": {
+        "question": "¿Qué resolución tienen las imágenes generadas?",
+        "answer": "Las imágenes generadas son de alta resolución y adecuadas para la mayoría de usos profesionales incluyendo web, impresión y presentaciones. El escalado opcional está disponible para salidas de resolución aún mayor."
+      }
+    },
+    "finalCTA": {
+      "title": "¿Listo para Crear?",
+      "description": "Comienza a generar impresionantes imágenes estilo Midjourney a partir de tus descripciones de texto hoy.",
+      "button": "Pruébalo Ahora"
+    }
+  }
+}

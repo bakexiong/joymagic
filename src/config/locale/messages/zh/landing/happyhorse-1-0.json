@@ -1,0 +1,122 @@
+{
+  "textToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 文生视频 - 电影感 AI 视频生成器 | joymagic",
+      "description": "使用 HappyHorse 1.0 生成 3-15 秒 720p 电影感视频。把文字提示转换成高质量 16:9 AI 视频，并支持种子控制以便复现结果。",
+      "keywords": "happyhorse 1.0, 文生视频, ai视频生成, 阿里巴巴 happyhorse, 电影感视频, 720p/1080p 文生视频, 16:9 ai视频"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 文生视频",
+      "description": "HappyHorse 1.0 可以把简单提示词快速生成一段精致的 3-15 秒电影感视频。当前工作流聚焦于原生 16:9 构图、720p 输出和可选种子控制，方便你稳定复现草稿。<br/><br/>如果你想从静态图片开始动画化，也可以 <a href=\"/image-to-video/happyhorse-1-0\" class=\"text-primary underline\">试试 HappyHorse 1.0 图生视频</a>。",
+      "button1": "立即体验",
+      "button2": "查看价格"
+    },
+    "keyFeatures": {
+      "title": "核心特性",
+      "cinematicPreset": {
+        "title": "默认电影感风格",
+        "description": "适合视觉提案、社媒预告和短视频创意演示，开箱即可生成更有氛围感的片段。"
+      },
+      "fastStoryboard": {
+        "title": "3-15 秒灵活出稿",
+        "description": "支持 3-15 秒时长选择，让你更容易并排比较多个创意方向，提升迭代效率。"
+      },
+      "reproducibleSeed": {
+        "title": "可复现的种子控制",
+        "description": "当你希望多个版本保持风格接近时，可以通过 seed 获得更稳定的结果。"
+      },
+      "nativeWideframe": {
+        "title": "原生 16:9 宽屏输出",
+        "description": "直接生成适合分享和展示的宽屏视频，减少后期二次裁切。"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "q1": {
+        "question": "HappyHorse 1.0 文生视频是什么？",
+        "answer": "这是一个基于 Alibaba HappyHorse 1.0 的 AI 视频工作流，可以把文字提示生成 3-15 秒 720p 视频。"
+      },
+      "q2": {
+        "question": "支持什么画幅？",
+        "answer": "当前文生视频工作流针对 16:9 输出进行了优化。"
+      },
+      "q3": {
+        "question": "时长可以改吗？",
+        "answer": "当前版本支持 3-15 秒生成，兼顾高频预览与更完整的方向验证。"
+      },
+      "q4": {
+        "question": "Seed 有什么作用？",
+        "answer": "Seed 可以帮助你在多次生成时复现或稳定结果，适合做多版本对比。"
+      },
+      "q5": {
+        "question": "这个模型适合什么场景？",
+        "answer": "它很适合创作者、营销团队和产品团队快速生成短片概念稿。"
+      }
+    },
+    "finalCTA": {
+      "title": "准备用 HappyHorse 1.0 生成视频了吗？",
+      "description": "现在就把提示词变成短小精致的电影感视频。",
+      "button": "生成视频"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 图生视频 - 静态图片 AI 动画生成 | joymagic",
+      "description": "用 HappyHorse 1.0 把一张静态图片变成 3-15 秒 720p 视频。上传单张图片，以更简单的流程快速生成自然动效。",
+      "keywords": "happyhorse 1.0, 图生视频, 图片动画, ai 图片动效, 阿里巴巴 happyhorse, 720p/1080p 图生视频, 3-15秒 ai视频"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 图生视频",
+      "description": "HappyHorse 1.0 可以把单张图片转换成 3-15 秒 720p 动态视频。你只需要上传一张参考图，也可以选择补充运动描述，就能快速得到干净利落的宽屏结果。<br/><br/>如果你想直接从文字开始创作，也可以 <a href=\"/text-to-video/happyhorse-1-0\" class=\"text-primary underline\">试试 HappyHorse 1.0 文生视频</a>。",
+      "button1": "立即体验",
+      "button2": "查看价格"
+    },
+    "keyFeatures": {
+      "title": "核心特性",
+      "singleImageMotion": {
+        "title": "单图快速动画化",
+        "description": "上传一张静态图即可开始，不需要复杂的镜头或多素材准备。"
+      },
+      "fastFiveSecond": {
+        "title": "3-15 秒灵活预览",
+        "description": "轻量短时长更适合频繁测试，方便你快速比较不同方向。"
+      },
+      "cleanOutput": {
+        "title": "720p 高清输出",
+        "description": "适合概念展示、社媒内容和营销样片等日常创作场景。"
+      },
+      "simpleWorkflow": {
+        "title": "极简操作流程",
+        "description": "聚焦图片、时长和分辨率等核心参数，并支持可选运动提示词。"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "q1": {
+        "question": "HappyHorse 1.0 图生视频能做什么？",
+        "answer": "它可以把你上传的一张图片动画化，生成一段短视频。"
+      },
+      "q2": {
+        "question": "一定要写提示词吗？",
+        "answer": "不一定。这个工作流里提示词是可选的，但填写后可以更好地控制运动和氛围。"
+      },
+      "q3": {
+        "question": "输出质量是多少？",
+        "answer": "当前配置提供 720p 输出。"
+      },
+      "q4": {
+        "question": "每段视频时长多长？",
+        "answer": "当前工作流支持生成 3-15 秒视频。"
+      },
+      "q5": {
+        "question": "什么时候应该选图生视频而不是文生视频？",
+        "answer": "当你已经有角色图、产品图或固定构图，希望保留原始视觉元素时，更适合使用图生视频。"
+      }
+    },
+    "finalCTA": {
+      "title": "用 HappyHorse 1.0 让图片动起来",
+      "description": "上传一张静态图，用简单快速的流程生成动态视频。",
+      "button": "开始动画化"
+    }
+  }
+}

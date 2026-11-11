@@ -1,0 +1,247 @@
+{
+  "imageEraser": {
+    "id": "image-eraser",
+    "title": "joymagic AI 图片擦除工具",
+    "description": "使用 AI 精确移除图片中的不需要的对象、水印和背景。",
+    "steps": {
+      "sourceImage": {
+        "title": "上传源图片",
+        "hint": "支持 JPG/PNG/WEBP",
+        "dragDrop": "拖拽或点击上传",
+        "dropHere": "将图片拖放到此处"
+      },
+      "maskImage": {
+        "title": "上传遮罩图片（可选）",
+        "hint": "上传遮罩图片以指定要擦除的区域。白色区域将被擦除，黑色区域将保留。",
+        "dragDrop": "拖拽或点击上传",
+        "dropHere": "将遮罩图片拖放到此处"
+      },
+      "prompt": {
+        "title": "输入提示词（可选）",
+        "placeholder": "描述您想要擦除的内容，例如「移除背景中的人」「擦除水印」「移除文字」",
+        "hint": "用于指定要从图片中移除的对象或区域的文本提示词。例如：'狗' 或 '帽子'。"
+      },
+      "outputFormat": {
+        "title": "输出格式",
+        "placeholder": "选择输出格式",
+        "hint": "选择输出图片的格式"
+      },
+      "generate": {
+        "title": "生成擦除后的图片",
+        "cta": "擦除",
+        "generating": "擦除中..."
+      }
+    },
+    "preview": {
+      "title": "预览",
+      "original": "原图",
+      "erased": "擦除后",
+      "placeholder": "上传图片以查看擦除结果。"
+    },
+    "common": {
+      "selected": "已选择：{name}",
+      "notSelected": "未选择文件"
+    },
+    "errors": {
+      "invalidFileType": "无效的文件类型。请上传图片文件（JPG、PNG、WEBP）。",
+      "uploadFailed": "上传失败：{error}",
+      "uploadFailedGeneric": "上传失败",
+      "sourceImageRequired": "请先上传源图片",
+      "generationFailed": "图片擦除失败",
+      "taskFailed": "任务处理失败",
+      "taskTimeout": "任务处理超时，请稍后重试",
+      "taskIdNotFound": "无法获取任务 ID，请检查 API 响应格式",
+      "processingFailed": "处理失败，请重试",
+      "statusQueryFailed": "查询任务状态失败",
+      "apiResponseParseFailed": "解析 API 响应失败",
+      "downloadFailed": "下载图片失败"
+    },
+    "download": {
+      "title": "下载图片"
+    },
+    "alt": {
+      "sourcePreview": "源图片预览",
+      "maskPreview": "遮罩图片预览",
+      "enlargedPreview": "放大预览",
+      "source": "原图",
+      "generated": "生成图"
+    }
+  },
+  "imageEraserPage": {
+    "metadata": {
+      "title": "AI图片擦除器 | 从照片中移除对象 | joymagic",
+      "description": "即时擦除照片中不需要的对象、人物或文字。AI驱动的图片擦除器，简单的画笔界面。免费，无水印，支持高清下载。",
+      "keywords": "AI对象移除器，照片擦除器，移除不需要的对象，图片清理，图像修复，照片修图"
+    },
+    "hero": {
+      "title": "AI Image Eraser",
+      "description": "使用 joymagic 的 AI 图片擦除工具在线免费移除照片中不需要的对象。只需刷过您不想要的内容 – 几秒钟内消失。",
+      "button1": "立即移除对象",
+      "button2": "免费开始 · 无需信用卡"
+    },
+    "heroDescription": "✓ 高清下载 ✓ 无水印 ✓ 支持批量处理",
+    "whatIsAIEraser": {
+      "title": "什么是 AI Image Eraser？",
+      "description": "joymagic 的 AI Image Eraser（也称为 Magic Eraser 或 Object Remover）使用强大的 AI 智能检测并移除照片中不需要的对象、人物、文字、水印或瑕疵，同时无缝填充匹配的背景区域。",
+      "unlikeTraditional": "与需要精确手动操作的传统克隆或修复工具不同，我们的 AI：",
+      "understandContext": "理解场景上下文和纹理",
+      "generateRealistic": "生成完美融合的逼真填充",
+      "handleComplex": "处理复杂背景，如草地、天空、墙壁或人群",
+      "simpleBrush": "只需简单刷过或点击即可工作",
+      "perfectFor": "完美适用于清理旅行照片、产品图片、人像、房地产照片、社交媒体内容等。"
+    },
+    "interfaceFeatures": {
+      "title": "在单一、简洁的界面上，您可以：",
+      "uploadArea": "拖拽上传源图片的区域",
+      "maskArea": "可选的遮罩图片上传，用于精确指定要擦除的区域",
+      "promptBox": "可选的提示词框，用于描述您想要移除的内容",
+      "formatSelect": "输出格式选择（JPEG、PNG、WebP）",
+      "generateButton": "一键擦除按钮，从图片中移除不需要的元素"
+    },
+    "whatYouCanDo": {
+      "title": "joymagic AI Image Eraser 可以做什么",
+      "description": "一次刷过，无限清理可能。",
+      "travelPhotos": {
+        "title": "清理旅行和度假照片",
+        "description": "<p class=\"mb-3\">从完美照片中移除抢镜者、陌生人、标志或垃圾。</p>"
+      },
+      "productPhotography": {
+        "title": "完美产品摄影",
+        "description": "<p class=\"mb-3\">从电商图片中擦除灰尘、反光、价格标签或不需要的道具。</p>"
+      },
+      "portraits": {
+        "title": "增强人像和自拍",
+        "description": "<p class=\"mb-3\">轻松移除瑕疵、散乱的头发、背景干扰或前伴侣。</p>"
+      },
+      "realEstate": {
+        "title": "准备房地产和室内照片",
+        "description": "<p class=\"mb-3\">删除家具、杂物或个人物品，专业地布置房源照片。</p>"
+      },
+      "socialMedia": {
+        "title": "创建干净的社交媒体内容",
+        "description": "<p class=\"mb-3\">移除水印、文字叠加或干扰元素，打造精美的帖子和故事。</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "核心功能",
+      "description": "强大的 AI 图片擦除功能，为速度和质量而打造。",
+      "smartRemoval": {
+        "title": "智能一键移除",
+        "description": "<p class=\"mb-3\">刷一次 – AI 理解要移除的内容并自然填充。可处理人物、对象、文字、标志等。</p>"
+      },
+      "realisticInpainting": {
+        "title": "逼真的修复技术",
+        "description": "<p class=\"mb-3\">先进的生成式 AI 完美重建背景，即使在复杂图案如海滩、城市或织物上也能做到。</p>"
+      },
+      "fastPrecise": {
+        "title": "快速精确编辑",
+        "description": "<p class=\"mb-3\">几秒钟内获得结果，实时预览。无延迟，无需等待。</p>"
+      },
+      "batchRemoval": {
+        "title": "批量对象移除",
+        "description": "<p class=\"mb-3\">上传多张图片并一次性清理 – 非常适合照片批次或产品目录。</p>"
+      },
+      "cleanOutput": {
+        "title": "干净专业输出",
+        "description": "<p class=\"mb-3\">无水印，无伪影 – 每次都是全高清下载。</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "如何从照片中移除不需要的对象",
+      "description": "只需几个简单步骤，即可使用我们的免费 AI 图片擦除工具从图片中擦除任何内容：",
+      "step1": {
+        "title": "1. 上传您的图片",
+        "description": "<p class=\"mb-3\">拖拽或选择您的照片。支持 JPG、JPEG、PNG、WEBP 和 HEIC 格式。</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>适用于风景、人像、产品照片等</li></ul>"
+      },
+      "step2": {
+        "title": "2. 刷过或点击不需要的对象",
+        "description": "<p class=\"mb-3\">只需在您想要移除的对象、人物、文字或瑕疵上刷过。</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>调整画笔大小以精确控制</li><li>我们的 AI 自动检测并选择区域</li></ul>"
+      },
+      "step3": {
+        "title": "3. 让 AI 擦除并填充",
+        "description": "<p class=\"mb-3\">点击移除 – AI 立即擦除选择的内容，并智能填充匹配的周围环境。</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>实时预览结果</li><li>根据需要撤销或重做</li></ul>"
+      },
+      "step4": {
+        "title": "4. 优化和下载",
+        "description": "<p class=\"mb-3\">如需，可进行微调：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>重新刷过遗漏的地方</li><li>恢复意外移除的区域</li></ul><p class=\"mb-3\">下载您干净、高质量的图片 – 随时可用。</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "为什么选择 joymagic 而不是其他图片擦除工具",
+      "description": "专为 AI 驱动的图片擦除而打造，不仅仅是基础工具。",
+      "focused": {
+        "title": "专注于 AI 图片擦除",
+        "description": "<p class=\"mb-3\">许多工具提供基础擦除功能。joymagic 不同——它采用先进的 AI 技术打造：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>智能检测要移除的内容</li><li>上下文感知的擦除区域填充</li><li>专门为无缝对象移除而优化的结果</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "为快速日常工作流程而打造",
+        "description": "专为每天需要清理多张图片的创作者设计。更少的步骤，更简洁的界面，没有复杂的菜单。快速处理批量图片。"
+      },
+      "pricing": {
+        "title": "随您扩展的定价",
+        "description": "清晰的免费层级，让您可以无风险地测试图片擦除。为需要更高限制的高级用户和团队提供简单的付费计划。透明的使用——为您实际使用的内容付费。"
+      },
+      "commercialUse": {
+        "title": "商业使用安全",
+        "description": "您拥有使用 joymagic 生成的图片，只要您拥有上传的原始图片的权利。生成的图片可用于商业项目，如广告活动、客户工作和电商列表。"
+      }
+    },
+    "perfectFor": {
+      "title": "joymagic 适合谁使用",
+      "description": "专为需要干净、专业图片的创作者、品牌和设计师打造。",
+      "photographers": {
+        "title": "摄影师和创作者",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>发布前清理照片</li><li>从拍摄中移除不需要的元素</li><li>为作品集和画廊准备图片</li><li>从您自己的作品中移除水印</li></ul><p class=\"text-sm text-muted-foreground italic\">使用 AI 驱动的编辑增强您的摄影作品。</p>"
+      },
+      "ecommerce": {
+        "title": "电商和小品牌",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>清理产品照片</li><li>移除干扰背景</li><li>从库存图片中移除水印和标志（需获得许可）</li><li>为产品列表准备图片</li></ul><p class=\"text-sm text-muted-foreground italic\">无需昂贵的编辑即可获得专业的产品照片。</p>"
+      },
+      "designers": {
+        "title": "设计师和代理商",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>快速清理客户项目的图片</li><li>从模型图中移除不需要的元素</li><li>为演示和提案准备图片</li><li>节省手动编辑任务的时间</li></ul><p class=\"text-sm text-muted-foreground italic\">joymagic 完美融入您现有的设计工作流程。</p>"
+      }
+    },
+    "faq": {
+      "title": "AI Image Eraser 常见问题",
+      "description": "关于我们的 AI 图片擦除工具的常见问题。",
+      "q1": {
+        "question": "支持哪些图片格式？",
+        "answer": "我们支持 JPG、JPEG、PNG、WEBP 和 HEIC。使用清晰、高质量的图片可获得最佳效果。"
+      },
+      "q2": {
+        "question": "编辑后的图片会有水印吗？",
+        "answer": "不会。所有下载都是干净且无水印的。"
+      },
+      "q3": {
+        "question": "处理复杂移除的效果如何？",
+        "answer": "我们的 AI 擅长处理大型对象、人群中的人物和纹理背景。对于超精细细节，请使用较小的画笔笔触。"
+      },
+      "q4": {
+        "question": "我可以从一张图片中移除多个对象吗？",
+        "answer": "可以 – 在生成前刷过任意多个区域。"
+      },
+      "q5": {
+        "question": "我可以一次处理多张图片吗？",
+        "answer": "可以 – 批量模式让您在一次会话中上传并擦除多张照片中的对象。"
+      },
+      "q6": {
+        "question": "我的数据安全吗？",
+        "answer": "安全。上传的图片经过安全处理，处理完成后自动删除。我们绝不会将其用于训练。"
+      }
+    },
+    "privacySecurity": {
+      "title": "隐私与安全",
+      "description": "您的图片和隐私是我们的首要任务。",
+      "secureProcessing": "所有上传都经过安全处理和加密",
+      "autoDelete": "图片在处理完成后自动删除",
+      "neverShared": "绝不与第三方共享或用于 AI 训练"
+    },
+    "finalCTA": {
+      "title": "将杂乱的照片变成干净、令人惊艳的视觉效果。",
+      "description": "立即尝试 joymagic 的 AI Image Eraser，几秒钟内移除任何不需要的内容。<br/><span class=\"text-muted-foreground\">无需设计技能 · 免费试用</span>",
+      "button": "立即移除对象"
+    }
+  }
+}
+

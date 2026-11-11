@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Kaynak görselleri yükleyin",
+      "hint": "En fazla {max} görsel yükleyin (JPG/PNG/WEBP)",
+      "dragDrop": "Sürükleyip bırakın veya tıklayarak yükleyin",
+      "dropHere": "Görselleri buraya bırakın"
+    },
+    "prompt": {
+      "title": "Düzenleme komutunu girin",
+      "placeholder": "Görselleri nasıl düzenlemek istediğinizi açıklayın, örn. 'Anime tarzına dönüştür', 'Yağlı boya efekti uygula', 'Sinematik görünüm ver'",
+      "hint": "İstediğiniz düzenlemeler hakkında net olun — stil, atmosfer, aydınlatma ve detaylar"
+    },
+    "generate": {
+      "title": "Düzenlenmiş görselleri oluşturun",
+      "cta": "Oluştur",
+      "generating": "Oluşturuluyor..."
+    }
+  },
+  "preview": {
+    "title": "Önizleme",
+    "original": "Orijinal",
+    "swap": "Değiştir",
+    "placeholder": "Sonucu burada önizlemek için görselleri yükleyin ve bir düzenleme komutu girin."
+  },
+  "common": {
+    "selectedCount": "Seçili: {count}/{max} görsel",
+    "notSelected": "Seçilmedi"
+  },
+  "errors": {
+    "invalidFileType": "Geçersiz dosya türü. Lütfen bir görsel dosyası yükleyin (JPG, PNG, WEBP).",
+    "uploadFailed": "Yükleme başarısız: {error}",
+    "uploadFailedGeneric": "Yükleme başarısız",
+    "sourceImageRequired": "Lütfen en az bir kaynak görsel yükleyin",
+    "promptRequired": "Lütfen bir düzenleme komutu girin",
+    "generationFailed": "Görsel düzenleme başarısız oldu",
+    "taskFailed": "Görev işleme başarısız oldu",
+    "taskTimeout": "Görev işleme zaman aşımına uğradı, lütfen daha sonra tekrar deneyin",
+    "taskIdNotFound": "Görev kimliği alınamadı, lütfen API yanıt biçimini kontrol edin",
+    "processingFailed": "İşleme başarısız oldu, lütfen tekrar deneyin",
+    "statusQueryFailed": "Görev durumu sorgulanamadı",
+    "apiResponseParseFailed": "API yanıtı ayrıştırılamadı"
+  },
+  "page": {
+    "metadata": {
+      "title": "Qwen Image Max Image-to-Image Yapay Zeka Editörü — Görselleri Çevrimiçi Düzenleyin ve Dönüştürün | joymagic",
+      "description": "Qwen Image Max image-to-image yapay zeka editörü ile görselleri çevrimiçi düzenleyin ve dönüştürün. qwen-image-max-edit ile desteklenen bu araçla toplu yapay zeka düzenlemesi için en fazla 4 görsel yükleyin — stil transferi, iyileştirme ve yaratıcı dönüşümler saniyeler içinde.",
+      "keywords": "qwen image max, qwen-image-max-edit, qwen image max image-to-image, yapay zeka görsel editörü, image-to-image AI, qwen görsel düzenleme, yapay zeka görsel dönüşümü, toplu görsel düzenleme, çevrimiçi yapay zeka görsel editörü, qwen image max edit tool"
+    },
+    "hero": {
+      "title": "Qwen Image Max Image-to-Image — Yapay Zeka Destekli Görsel Editörü",
+      "description": "Qwen Image Max image-to-image yapay zeka editörü ile görsellerinizi düzenleyin ve dönüştürün. <strong class=\"text-primary font-semibold\">qwen-image-max-edit</strong> teknolojisi ile desteklenen bu araçla en fazla 4 görsel yükleyin ve akıllı düzenlemeler uygulayın — stil transferi, renk düzenleme, sanatsal efektler ve daha fazlası — hepsi saniyeler içinde.",
+      "button1": "Qwen Image Max Editörünü Deneyin",
+      "button2": "Fiyatlandırmayı Görüntüle"
+    },
+    "keyFeatures": {
+      "title": "Görsel Düzenleme İçin Neden Qwen Image Max?",
+      "description": "qwen-image-max-edit teknolojisi ile desteklenen gelişmiş yapay zeka görsel düzenleme",
+      "multiImage": {
+        "title": "Qwen Image Max ile Toplu Görsel Düzenleme",
+        "description": "qwen-image-max-edit ile toplu düzenleme için aynı anda en fazla 4 görsel yükleyin. Tutarlı stil ve kalitede birden fazla görseli eş zamanlı olarak işleyin. Düzenleme başına sabit 2 kredi."
+      },
+      "highQuality": {
+        "title": "Üstün Qwen Image Max Düzenleme Kalitesi",
+        "description": "Qwen Image Max, olağanüstü detay korumasıyla yüksek kaliteli düzenlemeler sunar. qwen-image-max-edit yapay zekası ile keskin, kusursuz sonuçlar elde edin."
+      },
+      "smartEdit": {
+        "title": "Akıllı Bağlam Duyarlı Düzenleme",
+        "description": "qwen-image-max-edit, hassas ve doğal görünümlü dönüşümler için görsel bağlamını ve anlamını anlar. Neyi değiştireceğini ve neyi koruyacağını bilen akıllı yapay zeka."
+      },
+      "affordable": {
+        "title": "Uygun Fiyatlı Qwen Image Max",
+        "description": "Düzenleme başına sadece 2 kredi ile uygun fiyatlı qwen-image-max-edit dönüşümleri. Her proje boyutu için erişilebilir profesyonel düzeyde yapay zeka görsel düzenleme."
+      }
+    },
+    "promptingTips": {
+      "title": "Qwen Image Max Editörü ile En İyi Sonuçları Nasıl Alırsınız?",
+      "specific": {
+        "title": "Komutlarınızda Spesifik Olun",
+        "description": "En iyi qwen-image-max-edit sonuçları için istediğiniz düzenlemeleri tam olarak açıklayın. Örnekler: \"Suluboya tarzına dönüştür\" veya \"Sıcak tonlarla sinematik renk düzenlemesi ekle\"."
+      },
+      "style": {
+        "title": "Sanatsal Stili Belirtin",
+        "description": "qwen-image-max-edit kullanırken hedef stili net bir şekilde belirtin: \"anime illüstrasyon\", \"yağlı boya\", \"fotorealistik iyileştirme\", \"vintage film görünümü\" vb."
+      },
+      "color": {
+        "title": "Renk ve Atmosfer Yönlendirmesi",
+        "description": "qwen-image-max-edit'i renk ve atmosfer ipuçlarıyla yönlendirin: \"canlı doygun renkler\", \"yumuşak pastel tonlar\", \"karanlık dramatik atmosfer\", \"altın saat sıcaklığı\" vb."
+      },
+      "details": {
+        "title": "Ayrıntılı Talimatlar Ekleyin",
+        "description": "Aydınlatma, kompozisyon, doku ve hangi öğelerin korunacağını veya dönüştürüleceğini belirterek qwen-image-max-edit kalitesini en üst düzeye çıkarın."
+      }
+    },
+    "useCases": {
+      "title": "Qwen Image Max Görsel Düzenleme Kullanım Alanları",
+      "style": {
+        "title": "Sanatsal Stil Transferi",
+        "description": "Fotoğrafları qwen-image-max-edit ile etkileyici sanatsal stillere dönüştürün — anime, suluboya, yağlı boya, eskiz ve daha fazlası. Yaratıcı projeler ve sosyal medya içerikleri için ideal."
+      },
+      "batch": {
+        "title": "Toplu Fotoğraf Düzenleme",
+        "description": "Tüm fotoğraf setinizde tutarlı stil için Qwen Image Max ile aynı anda en fazla 4 görseli düzenleyin. Ürün katalogları ve marka varlıkları için mükemmel."
+      },
+      "product": {
+        "title": "Ürün Görseli İyileştirme",
+        "description": "E-ticaret listeleri, pazarlama kampanyaları ve sosyal medya için qwen-image-max-edit ile ürün fotoğraflarını iyileştirin. Anında profesyonel kalitede görseller oluşturun."
+      },
+      "creative": {
+        "title": "Yaratıcı Tasarım Keşfi",
+        "description": "Qwen Image Max akıllı düzenleme ile yaratıcı olasılıkları keşfedin. Mükemmel görsel yönü bulmak için stiller, efektler ve dönüşümlerle deneyler yapın."
+      }
+    },
+    "faq": {
+      "title": "Qwen Image Max Image-to-Image SSS",
+      "description": "Qwen Image Max yapay zeka görsel editörü hakkında sık sorulan sorular",
+      "q1": {
+        "question": "Qwen Image Max ile aynı anda kaç görsel düzenleyebilirim?",
+        "answer": "Qwen Image Max image-to-image editörü ile toplu düzenleme için aynı anda en fazla 4 görsel yükleyebilirsiniz. Her düzenleme qwen-image-max-edit teknolojisi kullanılarak işlenir ve 2 kredi harcar."
+      },
+      "q2": {
+        "question": "Qwen Image Max görsel düzenleme ne kadar?",
+        "answer": "Qwen Image Max image-to-image düzenleme, yüklenen görsel sayısından bağımsız olarak düzenleme başına 2 kredi harcar. Bu sabit fiyatlandırma, qwen-image-max-edit'i her proje için uygun fiyatlı kılar."
+      },
+      "q3": {
+        "question": "Qwen Image Max hangi görsel formatlarını destekler?",
+        "answer": "Qwen Image Max image-to-image; PNG, JPEG, JPG ve WebP formatlarını destekler. En iyi qwen-image-max-edit sonuçları için net, iyi aydınlatılmış görseller kullanın."
+      },
+      "q4": {
+        "question": "Qwen Image Max için etkili düzenleme komutları nasıl yazılır?",
+        "answer": "En iyi qwen-image-max-edit sonuçları için ayrıntılı açıklamalar ekleyin: hedef stil, atmosfer, aydınlatma, renk paleti ve kompozisyon. Daha fazla detay genellikle daha iyi Qwen Image Max dönüşümleri üretir."
+      },
+      "q5": {
+        "question": "Qwen Image Max'ı diğer yapay zeka görsel editörlerinden farklı kılan nedir?",
+        "answer": "Qwen Image Max, bağlam duyarlı, anlamsal olarak akıllı görsel dönüşümleri için gelişmiş qwen-image-max-edit teknolojisini kullanır. Görsel içeriğini derinlemesine anlayarak doğal ve hassas düzenlemeler üretir."
+      }
+    },
+    "finalCTA": {
+      "title": "Qwen Image Max ile Görselleri Düzenlemeye Hazır mısınız?",
+      "description": "Bugün qwen-image-max-edit yapay zekası ile görsellerinizi düzenlemeye başlayın. Hızlı, yüksek kaliteli, akıllı görsel dönüşümleri parmaklarınızın ucunda.",
+      "button": "Qwen Image Max Editörünü Şimdi Deneyin"
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "imageToImage": "Image to Image",
+      "qwenImageMax": "Qwen Image Max"
+    },
+    "schema": {
+      "softwareName": "Qwen Image Max Image-to-Image Yapay Zeka Editörü — joymagic",
+      "howToName": "Qwen Image Max Yapay Zeka ile Görseller Nasıl Düzenlenir",
+      "howToDescription": "qwen-image-max-edit yapay zeka teknolojisini kullanarak görselleri nasıl düzenleyeceğinizi ve dönüştüreceğinizi öğrenin. Görselleri yükleyin ve akıllı yapay zeka destekli düzenlemeler uygulayın.",
+      "features": {
+        "aiImageEditing": "Qwen Image Max Yapay Zeka Düzenleme",
+        "multiImage": "Qwen Image Max ile Toplu Görsel Düzenleme",
+        "highQuality": "Yüksek Kaliteli Qwen Image Max Çıktısı"
+      }
+    }
+  }
+}

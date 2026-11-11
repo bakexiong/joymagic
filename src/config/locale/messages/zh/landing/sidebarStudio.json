@@ -1,0 +1,46 @@
+{
+  "primary": {
+    "home": "首页",
+    "infiniteCanvas": "无限画布",
+    "image": "图像",
+    "video": "视频",
+    "effects": "特效"
+  },
+  "imageTools": {
+    "Editor & Combiner": "编辑与合成",
+    "Image to Image": "图生图",
+    "Text to Image": "文生图",
+    "PhotoShoot": "写真",
+    "Variations": "变体",
+    "Face Generator": "人脸生成",
+    "Image Upscaler": "图像放大",
+    "Background Remover": "背景移除",
+    "Image Eraser": "图像擦除",
+    "Image Effects": "图像特效"
+  },
+  "videoTools": {
+    "Image to Video": "图生视频",
+    "Text to Video": "文生视频",
+    "Longcat Avatar": "Lip-Sync",
+    "Reference To Video": "参考图生视频",
+    "Video Extend": "视频延长",
+    "Motion Control": "运动控制",
+    "Video Effects": "视频特效"
+  },
+  "library": {
+    "title": "素材库",
+    "assets": "资产",
+    "creations": "创作",
+    "uploads": "上传",
+    "collections": "合集"
+  },
+  "creationTypes": {
+    "Video": "视频",
+    "Image": "图像",
+    "Audio": "音频",
+    "Effect": "特效"
+  },
+  "badges": {
+    "beta": "测试版"
+  }
+}

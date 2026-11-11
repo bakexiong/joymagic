@@ -1,0 +1,102 @@
+{
+  "title": "GPT Image 1 文本生成图片",
+  "subtitle": "从文本描述生成精美的图片",
+  "prompt_label": "提示词",
+  "prompt_placeholder": "为名为\"都市脉搏\"的生活方式杂志创建一个专业且视觉吸引人的杂志封面。",
+  "prompt_tooltip": "输入您想要生成的图片描述",
+  "size_label": "尺寸",
+  "size_tooltip": "选择图片尺寸",
+  "quality_label": "质量",
+  "quality_tooltip": "选择图片质量。更高质量会消耗更多积分。",
+  "credits_required": "所需积分",
+  "buttons": {
+    "generate": "生成图片"
+  },
+  "errors": {
+    "promptRequired": "提示词是必填项"
+  },
+  "image_alt": "生成的图片",
+  "download": "下载",
+  "image_placeholder": "生成的图片将显示在这里",
+  "page": {
+    "metadata": {
+      "title": "GPT-Image-1 文本生成图片 - AI 图片生成器 | joymagic",
+      "description": "使用 OpenAI GPT-Image-1 从文本生成图片。卓越的文字渲染能力，适合海报和标牌。精确的提示词理解，多种风格。立即免费试用。",
+      "keywords": "GPT-Image-1, 文本生成图片, AI 图片生成器, openai, 文字渲染, 海报, 标牌, 提示词理解"
+    },
+    "hero": {
+      "title": "GPT-Image-1 文本生成图片",
+      "description": "GPT-Image-1 是 OpenAI 开发的图片生成模型，专为精确的提示词理解和准确的文字渲染而构建。描述任何场景、风格或设计——包括标题、标牌和标签等文字元素。立即免费试用 GPT-Image-1！<br/><br/>需要双语提示词或角色一致性？<a href=\"/text-to-image/seedream-4-5\" class=\"text-primary underline\">试试 Seedream 4.5 文本生成图片</a>。",
+      "button1": "立即试用",
+      "button2": "查看价格"
+    },
+    "keyFeatures": {
+      "title": "核心特性",
+      "description": "强大的精确图片生成能力",
+      "superiorTextRendering": {
+        "title": "卓越的文字渲染",
+        "description": "在图片中生成清晰、易读的文字——海报、标牌、书籍封面、产品标签、社交媒体图片。处理多个文字元素和密集排版的能力优于大多数生成模型。"
+      },
+      "preciseInstructionFollowing": {
+        "title": "精确的指令理解",
+        "description": "模型能准确理解详细的提示词。指定构图、光照、色彩调色板、情绪、风格和主体位置——GPT-Image-1 会按照您的指令精确执行，连小细节也不会偏离。"
+      },
+      "styleVersatility": {
+        "title": "风格多样性",
+        "description": "创建照片级真实感图片、插画、概念艺术、复古摄影、极简设计等。在提示词中引用特定的艺术风格或运动，以获得针对性结果。"
+      },
+      "transparentBackground": {
+        "title": "透明背景支持",
+        "description": "使用 PNG 输出格式生成带透明度的图片。在提示词中指定\"透明背景\"，即可获得可直接合成到设计中的素材，无需手动抠图。"
+      }
+    },
+    "useCases": {
+      "title": "使用场景",
+      "marketingGraphics": {
+        "title": "营销图片",
+        "description": "创建包含文字元素的社交媒体帖子、横幅广告和宣传材料。标题、行动号召和价格都能清晰渲染。"
+      },
+      "signagePosters": {
+        "title": "标牌和海报",
+        "description": "设计活动海报、商店标牌和公告，其中排版是视觉的核心。"
+      },
+      "bookAlbumCovers": {
+        "title": "书籍和专辑封面",
+        "description": "生成包含标题和作者文字的封面概念。在确定最终设计之前探索不同方向。"
+      },
+      "productMockups": {
+        "title": "产品模型",
+        "description": "创建包装概念和标签设计，包含可读的产品名称、成分和品牌标识。"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "关于 GPT-Image-1 文本生成图片的常见问题",
+      "q1": {
+        "question": "什么是 GPT-Image-1？",
+        "answer": "GPT-Image-1 是 OpenAI 的 AI 图片生成模型，可以从文本描述创建图片。它在渲染图片中的可读文字方面特别强大。"
+      },
+      "q2": {
+        "question": "文字渲染的准确性如何？",
+        "answer": "GPT-Image-1 生成可读文字的能力优于大多数 AI 模型。它能处理多个文字元素和密集排版。对于关键应用中需要像素级完美文字的情况，可以在这里生成基础图片，然后在设计软件中添加最终文字。"
+      },
+      "q3": {
+        "question": "可以获得透明背景吗？",
+        "answer": "可以。选择 PNG 输出格式，并在提示词中包含\"透明背景\"。适用于标志、贴纸和合成素材。"
+      },
+      "q4": {
+        "question": "可以生成哪些风格？",
+        "answer": "照片级真实感、插画、概念艺术、数字绘画、复古美学、极简设计等。在提示词中引用特定风格即可。"
+      },
+      "q5": {
+        "question": "什么时候应该使用 Seedream 4.5？",
+        "answer": "当您需要双语提示词支持（中文）或想要在多次生成中保持角色一致性时，使用 Seedream 4.5。当文字渲染质量是优先考虑时，使用 GPT-Image-1。"
+      }
+    },
+    "finalCTA": {
+      "title": "准备开始创作了吗？",
+      "description": "立即开始从您的文本描述生成精美的图片。",
+      "button": "立即试用"
+    }
+  }
+}

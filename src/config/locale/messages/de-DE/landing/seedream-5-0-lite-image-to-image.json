@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Quellbilder hochladen",
+      "hint": "Laden Sie bis zu {max} Bilder hoch (JPG/PNG/WEBP).",
+      "dragDrop": "Ziehen & ablegen oder klicken zum Hochladen",
+      "dropHere": "Bilder hier ablegen"
+    },
+    "prompt": {
+      "title": "Transformations-Prompt eingeben",
+      "placeholder": "Beschreiben Sie, wie Sie die Bilder transformieren möchten, z.B. 'In Anime-Stil ändern'",
+      "hint": "Seien Sie spezifisch bei den gewünschten Änderungen"
+    },
+    "generate": {
+      "title": "Transformierte Bilder generieren",
+      "cta": "Generieren",
+      "generating": "Wird generiert..."
+    }
+  },
+  "preview": {
+    "title": "Vorschau",
+    "original": "Original",
+    "swap": "Tauschen",
+    "placeholder": "Laden Sie Bilder hoch und geben Sie einen Prompt ein, um die Transformation hier zu sehen."
+  },
+  "common": {
+    "selectedCount": "Ausgewählt: {count}/{max} Bilder",
+    "notSelected": "Nicht ausgewählt"
+  },
+  "errors": {
+    "invalidFileType": "Ungültiger Dateityp. Bitte laden Sie eine Bilddatei hoch (JPG, PNG, WEBP).",
+    "uploadFailed": "Upload fehlgeschlagen: {error}",
+    "uploadFailedGeneric": "Upload fehlgeschlagen",
+    "sourceImageRequired": "Bitte laden Sie ein Quellbild hoch",
+    "promptRequired": "Bitte geben Sie einen Transformations-Prompt ein",
+    "generationFailed": "Bildgenerierung fehlgeschlagen",
+    "taskFailed": "Aufgabenverarbeitung fehlgeschlagen",
+    "taskTimeout": "Zeitüberschreitung bei der Aufgabenverarbeitung, bitte versuchen Sie es später erneut",
+    "taskIdNotFound": "Aufgaben-ID konnte nicht abgerufen werden, bitte überprüfen Sie das API-Antwortformat",
+    "processingFailed": "Verarbeitung fehlgeschlagen, bitte versuchen Sie es erneut",
+    "statusQueryFailed": "Abfrage des Aufgabenstatus fehlgeschlagen",
+    "apiResponseParseFailed": "Analyse der API-Antwort fehlgeschlagen"
+  },
+  "page": {
+    "metadata": {
+      "title": "Seedream 5.0 Lite Bild-zu-Bild AI-Tool - Bilder mit AI transformieren | joymagic",
+      "description": "Verwenden Sie Seedream 5.0 Lite Bild-zu-Bild AI, um Ihre Bilder zu transformieren und zu bearbeiten. Laden Sie ein Bild hoch und transformieren Sie es mit fortschrittlicher AI-gestützter Bearbeitung. Schnelle, hochwertige Ergebnisse.",
+      "keywords": "seedream 5.0 lite bild-zu-bild, seedream bildtransformation, AI-Bildeditor, Bildbearbeitung, Bild-zu-Bild AI-Tool, AI-Bildkonverter"
+    },
+    "hero": {
+      "title": "Seedream 5.0 Lite Bild-zu-Bild AI - Transformieren Sie Ihre Bilder mit AI",
+      "description": "Transformieren und bearbeiten Sie Bilder mit Seedream 5.0 Lite Bild-zu-Bild AI. Laden Sie ein Bild hoch und transformieren Sie es mit fortschrittlicher AI-gestützter Bearbeitung. Erleben Sie schnelle, hochwertige Bildtransformationen.",
+      "button1": "Seedream 5.0 Lite Bild-zu-Bild testen",
+      "button2": "Preise ansehen"
+    },
+    "keyFeatures": {
+      "title": "Warum Seedream 5.0 Lite Bild-zu-Bild wählen?",
+      "description": "Entdecken Sie die leistungsstarken Funktionen von Seedream 5.0 Lite Bild-zu-Bild AI",
+      "singleImage": {
+        "title": "Einzelbild-Upload",
+        "description": "Laden Sie ein Bild hoch und beschreiben Sie, wie Sie es transformieren möchten. Einfach und schnell."
+      },
+      "highQuality": {
+        "title": "Hochwertige Seedream-Ergebnisse",
+        "description": "Erhalten Sie außergewöhnliche Bildqualität mit Seedream 5.0 Lite AI. Generieren Sie hochauflösende transformierte Bilder mit herausragenden Details und Klarheit."
+      },
+      "styleFlexibility": {
+        "title": "Vielseitige Stiltransformation",
+        "description": "Transformieren Sie Bilder in verschiedenen Stilen mit Seedream 5.0 Lite - fotorealistisch, künstlerisch, abstrakt und mehr. Volle Kontrolle mit detaillierten Prompts."
+      },
+      "affordable": {
+        "title": "Erschwingliche Preise",
+        "description": "Kostengünstige Bildtransformationen. Zahlen Sie pro Nutzung, erschwinglich für jede Projektgröße."
+      }
+    },
+    "promptingTips": {
+      "title": "So erzielen Sie die besten Ergebnisse mit Seedream 5.0 Lite Bild-zu-Bild",
+      "specific": {
+        "title": "Seien Sie spezifisch in Ihren Prompts",
+        "description": "Für optimale Ergebnisse beschreiben Sie genau, welche Transformation Sie wünschen. Beispiele: \"In Anime-Stil ändern\" oder \"Wie ein Ölgemälde aussehen lassen\"."
+      },
+      "style": {
+        "title": "Kunststil angeben",
+        "description": "Nennen Sie den gewünschten Kunststil: \"Anime-Stil\", \"Ölgemälde\", \"Digitale Kunst\" usw."
+      },
+      "color": {
+        "title": "Farb- und Stimmungseinstellungen",
+        "description": "Verbessern Sie Ihre Transformationen durch Beschreibung von Farbschemata und Stimmung: \"lebhafte Farben\", \"gedämpfte Töne\", \"dunkel und stimmungsvoll\" usw."
+      },
+      "details": {
+        "title": "Detaillierte Anweisungen hinzufügen",
+        "description": "Maximieren Sie die Qualität durch Details zu Beleuchtung, Komposition und spezifischen Elementen, die Sie beibehalten oder ändern möchten."
+      }
+    },
+    "useCases": {
+      "title": "Seedream 5.0 Lite Bild-zu-Bild Anwendungsfälle",
+      "style": {
+        "title": "Künstlerische Stiltransformation",
+        "description": "Transformieren Sie Fotos in verschiedene Kunststile - Anime, Aquarell, Ölgemälde und mehr. Perfekt für kreative Projekte."
+      },
+      "product": {
+        "title": "Produktfotografie-Verbesserung",
+        "description": "Transformieren Sie Produktfotos für Marketingmaterialien und soziale Medien. Erstellen Sie schnell mehrere Stilvarianten."
+      },
+      "creative": {
+        "title": "Kreative Designprojekte",
+        "description": "Experimentieren Sie mit verschiedenen Kunststilen und Transformationen für kreative Projekte. Finden Sie den perfekten Look."
+      },
+      "personal": {
+        "title": "Persönliche Nutzung",
+        "description": "Stellen Sie sich Ihre Fotos mit AI neu vor - ändern Sie Stimmung, Stil oder Umgebung mit einem einzigen Prompt."
+      }
+    },
+    "faq": {
+      "title": "Seedream 5.0 Lite Bild-zu-Bild FAQ",
+      "description": "Häufig gestellte Fragen zum Seedream 5.0 Lite Bild-zu-Bild AI-Tool",
+      "q1": {
+        "question": "Wie viele Bilder kann ich hochladen?",
+        "answer": "Sie laden jeweils ein Bild hoch. Beschreiben Sie Ihre Transformation im Prompt und generieren Sie."
+      },
+      "q2": {
+        "question": "Wie viel kostet es?",
+        "answer": "Jede Bildtransformation kostet eine feste Anzahl von Credits. Aktuelle Preise finden Sie auf der Preisseite."
+      },
+      "q3": {
+        "question": "Welche Bildformate unterstützt Seedream 5.0 Lite?",
+        "answer": "Seedream 5.0 Lite unterstützt PNG, JPEG, JPG und WebP-Formate. Stellen Sie sicher, dass Ihr Bild klar und gut beleuchtet ist, um optimale Ergebnisse zu erzielen."
+      },
+      "q4": {
+        "question": "Wie sollte ich Prompts für Seedream 5.0 Lite schreiben?",
+        "answer": "Für beste Ergebnisse fügen Sie detaillierte Beschreibungen hinzu: Motiv, Umgebung, Beleuchtung, Stil, Stimmung und Komposition. Mehr Details führen in der Regel zu besseren Transformationen."
+      },
+      "q5": {
+        "question": "Kann ich dasselbe Bild mehrmals transformieren?",
+        "answer": "Ja, Sie können verschiedene Prompts für dasselbe Bild verwenden, um unterschiedliche Transformationen zu erhalten."
+      }
+    },
+    "finalCTA": {
+      "title": "Bereit, Seedream 5.0 Lite Bild-zu-Bild auszuprobieren?",
+      "description": "Beginnen Sie noch heute mit der Transformation Ihrer Bilder mit Seedream 5.0 Lite AI. Erleben Sie schnelle, hochwertige Bildtransformationen.",
+      "button": "Seedream 5.0 Lite Bild-zu-Bild jetzt testen"
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "imageToImage": "Bild-zu-Bild",
+      "seedreamLite": "Seedream 5.0 Lite"
+    },
+    "schema": {
+      "softwareName": "Seedream 5.0 Lite Bild-zu-Bild AI-Tool von joymagic",
+      "howToName": "So verwenden Sie Seedream 5.0 Lite Bild-zu-Bild AI",
+      "howToDescription": "Erfahren Sie, wie Sie Bilder mit Seedream 5.0 Lite Bild-zu-Bild AI transformieren. Laden Sie ein Bild hoch und transformieren Sie es mit AI-gestützter Bearbeitung.",
+      "features": {
+        "aiImageEditing": "Seedream 5.0 Lite Bild-zu-Bild AI-Bearbeitung",
+        "singleImage": "Einzelbildtransformation mit Seedream 5.0 Lite",
+        "highQuality": "Hochwertige Seedream 5.0 Lite Ausgabe"
+      }
+    }
+  }
+}

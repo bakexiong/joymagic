@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Enviar imagens fonte",
+      "hint": "Envie até {max} imagens (JPG/PNG/WEBP). Cada imagem custa 2 créditos.",
+      "dragDrop": "Arraste e solte ou clique para enviar",
+      "dropHere": "Solte as imagens aqui"
+    },
+    "prompt": {
+      "title": "Inserir prompt de transformação",
+      "placeholder": "Descreva como você quer transformar as imagens, ex: 'Mudar imagem1 para o estilo de quadrinhos', 'Fazer todas as imagens parecerem aquarelas'",
+      "hint": "Seja específico sobre as mudanças que você quer fazer"
+    },
+    "generate": {
+      "title": "Gerar imagens transformadas",
+      "cta": "Gerar",
+      "generating": "Gerando..."
+    }
+  },
+  "preview": {
+    "title": "Pré-visualização",
+    "original": "Original",
+    "swap": "Trocar",
+    "placeholder": "Envie imagens e insira um prompt para ver a transformação aqui."
+  },
+  "common": {
+    "selectedCount": "Selecionadas: {count}/{max} imagens",
+    "notSelected": "Não selecionada"
+  },
+  "errors": {
+    "invalidFileType": "Tipo de arquivo inválido. Por favor envie um arquivo de imagem (JPG, PNG, WEBP).",
+    "uploadFailed": "Falha no envio: {error}",
+    "uploadFailedGeneric": "Falha no envio",
+    "sourceImageRequired": "Por favor envie pelo menos uma imagem fonte",
+    "promptRequired": "Por favor insira um prompt de transformação",
+    "generationFailed": "Falha na geração de imagens",
+    "taskFailed": "Falha no processamento da tarefa",
+    "taskTimeout": "Tempo limite do processamento da tarefa, por favor tente mais tarde",
+    "taskIdNotFound": "Não foi possível obter o ID da tarefa, por favor verifique o formato da resposta da API",
+    "processingFailed": "Falha no processamento, por favor tente novamente",
+    "statusQueryFailed": "Falha ao consultar o status da tarefa",
+    "apiResponseParseFailed": "Falha ao analisar a resposta da API"
+  },
+  "page": {
+    "metadata": {
+      "title": "Ferramenta AI Flux-2-Klein Imagem-para-Imagem - Transforme Imagens com AI | joymagic",
+      "description": "Use flux-2-klein imagem-para-imagem AI para transformar e editar suas imagens. Envie até 4 imagens de uma vez e transforme-as com edição avançada de imagens com IA. Resultados rápidos e de alta qualidade com tecnologia flux-2-klein imagem-para-imagem.",
+      "keywords": "flux-2-klein imagem-para-imagem, flux-2-klein image to image, flux-2-klein AI, transformação de imagens AI, editor de imagens AI, edição de imagens flux-2-klein, ferramenta AI imagem-para-imagem, flux-2-klein 4b, conversor de imagens AI"
+    },
+    "hero": {
+      "title": "Flux-2-Klein Imagem-para-Imagem AI - Transforme Suas Imagens com AI",
+      "description": "Transforme e edite imagens usando tecnologia AI flux-2-klein imagem-para-imagem. Envie até 4 imagens simultaneamente e transforme-as com edição avançada com IA. Experimente transformações de imagens rápidas e de alta qualidade com flux-2-klein imagem-para-imagem.",
+      "button1": "Experimente Flux-2-Klein Imagem-para-Imagem",
+      "button2": "Ver Preços"
+    },
+    "keyFeatures": {
+      "title": "Por Que Escolher Flux-2-Klein Imagem-para-Imagem?",
+      "description": "Descubra os recursos poderosos da tecnologia AI flux-2-klein imagem-para-imagem",
+      "multiImage": {
+        "title": "Processamento em Lote com Flux-2-Klein Imagem-para-Imagem",
+        "description": "Envie até 4 imagens de uma vez com flux-2-klein imagem-para-imagem. Processe múltiplas imagens simultaneamente para transformações em lote eficientes. Custo fixo de 2 créditos por transformação."
+      },
+      "highQuality": {
+        "title": "Resultados de Alta Qualidade Flux-2-Klein Imagem-para-Imagem",
+        "description": "Obtenha qualidade de imagem excepcional com flux-2-klein imagem-para-imagem AI. Gere imagens transformadas de alta resolução com detalhes e clareza excepcionais."
+      },
+      "styleFlexibility": {
+        "title": "Transformação de Estilo Versátil",
+        "description": "Transforme imagens em vários estilos usando flux-2-klein imagem-para-imagem - fotorrealista, artístico, abstrato e mais. Controle total com prompts detalhados."
+      },
+      "affordable": {
+        "title": "Preços Acessíveis Flux-2-Klein Imagem-para-Imagem",
+        "description": "Transformações flux-2-klein imagem-para-imagem econômicas. 2 créditos fixos por transformação, tornando-o acessível para projetos de qualquer tamanho."
+      }
+    },
+    "promptingTips": {
+      "title": "Como Obter Melhores Resultados com Flux-2-Klein Imagem-para-Imagem",
+      "specific": {
+        "title": "Seja Específico em Seus Prompts",
+        "description": "Para resultados ótimos de flux-2-klein imagem-para-imagem, descreva exatamente qual transformação você quer. Exemplos: \"Mudar para estilo de quadrinhos\" ou \"Fazer parecer uma aquarela\"."
+      },
+      "style": {
+        "title": "Especifique Estilo Artístico",
+        "description": "Ao usar flux-2-klein imagem-para-imagem, mencione o estilo artístico que você quer: \"estilo de quadrinhos\", \"pintura a óleo\", \"arte digital\", etc."
+      },
+      "color": {
+        "title": "Configurações de Cor e Ambiente",
+        "description": "Melhore suas transformações flux-2-klein imagem-para-imagem descrevendo esquemas de cores e ambiente: \"cores vibrantes\", \"tons suaves\", \"escuro e melancólico\", etc."
+      },
+      "details": {
+        "title": "Adicione Instruções Detalhadas",
+        "description": "Maximize a qualidade de flux-2-klein imagem-para-imagem incluindo detalhes sobre iluminação, composição e elementos específicos que você quer preservar ou mudar."
+      }
+    },
+    "useCases": {
+      "title": "Casos de Uso Flux-2-Klein Imagem-para-Imagem",
+      "style": {
+        "title": "Transformação de Estilo Artístico",
+        "description": "Use flux-2-klein imagem-para-imagem para transformar fotos em diferentes estilos artísticos - quadrinhos, aquarela, pintura a óleo e mais. Perfeito para projetos criativos."
+      },
+      "batch": {
+        "title": "Processamento de Imagens em Lote",
+        "description": "Aproveite o processamento em lote flux-2-klein imagem-para-imagem para transformar até 4 imagens simultaneamente com estilo consistente para fluxos de trabalho profissionais."
+      },
+      "product": {
+        "title": "Melhoria de Fotografia de Produtos",
+        "description": "Transforme fotos de produtos com flux-2-klein imagem-para-imagem para materiais de marketing e redes sociais. Crie rapidamente múltiplas variações de estilo."
+      },
+      "creative": {
+        "title": "Projetos de Design Criativo",
+        "description": "Experimente com flux-2-klein imagem-para-imagem para projetos criativos. Tente diferentes estilos artísticos e transformações para encontrar a aparência perfeita."
+      }
+    },
+    "faq": {
+      "title": "Perguntas Frequentes Flux-2-Klein Imagem-para-Imagem",
+      "description": "Perguntas frequentes sobre a ferramenta AI flux-2-klein imagem-para-imagem",
+      "q1": {
+        "question": "Quantas imagens posso enviar com flux-2-klein imagem-para-imagem?",
+        "answer": "Com flux-2-klein imagem-para-imagem, você pode enviar até 4 imagens de uma vez para processamento em lote. Cada transformação custa 2 créditos."
+      },
+      "q2": {
+        "question": "Quanto custa flux-2-klein imagem-para-imagem?",
+        "answer": "As transformações flux-2-klein imagem-para-imagem custam 2 créditos por transformação, independentemente do número de imagens enviadas. Este preço fixo o torna acessível para qualquer projeto."
+      },
+      "q3": {
+        "question": "Quais formatos de imagem flux-2-klein imagem-para-imagem suporta?",
+        "answer": "Flux-2-klein imagem-para-imagem suporta formatos PNG, JPEG, JPG e WebP. Certifique-se de que suas imagens estejam claras e bem iluminadas para resultados ótimos de flux-2-klein imagem-para-imagem."
+      },
+      "q4": {
+        "question": "Como devo escrever prompts para flux-2-klein imagem-para-imagem?",
+        "answer": "Para melhores resultados com flux-2-klein imagem-para-imagem, inclua descrições detalhadas: assunto, cenário, iluminação, estilo, ambiente e composição. Mais detalhes tipicamente produzem melhores transformações flux-2-klein imagem-para-imagem."
+      },
+      "q5": {
+        "question": "Posso usar o mesmo prompt para múltiplas imagens com flux-2-klein imagem-para-imagem?",
+        "answer": "Sim, flux-2-klein imagem-para-imagem permite que você use o mesmo prompt para todas as imagens enviadas. Cada imagem será transformada de acordo com sua descrição do prompt usando tecnologia flux-2-klein imagem-para-imagem."
+      }
+    },
+    "finalCTA": {
+      "title": "Pronto para Experimentar Flux-2-Klein Imagem-para-Imagem?",
+      "description": "Comece a transformar suas imagens com flux-2-klein imagem-para-imagem AI hoje. Experimente transformações de imagens rápidas e de alta qualidade.",
+      "button": "Experimente Flux-2-Klein Imagem-para-Imagem Agora"
+    },
+    "breadcrumb": {
+      "home": "Início",
+      "imageToImage": "Imagem para Imagem",
+      "flux2Klein": "Flux 2 Klein"
+    },
+    "schema": {
+      "softwareName": "Ferramenta AI Flux-2-Klein Imagem-para-Imagem de joymagic",
+      "howToName": "Como Usar Flux-2-Klein Imagem-para-Imagem AI",
+      "howToDescription": "Aprenda como transformar imagens usando tecnologia AI flux-2-klein imagem-para-imagem. Envie imagens e transforme-as com edição com IA.",
+      "features": {
+        "aiImageEditing": "Edição AI Flux-2-Klein Imagem-para-Imagem",
+        "multiImage": "Processamento em Lote com Flux-2-Klein Imagem-para-Imagem",
+        "highQuality": "Saída de Alta Qualidade Flux-2-Klein Imagem-para-Imagem"
+      }
+    }
+  }
+}

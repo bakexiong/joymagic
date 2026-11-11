@@ -1,0 +1,551 @@
+{
+  "metadata": {
+    "title": "價格",
+    "description": "選擇一個方案開始"
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "joymagic 價格",
+    "disclaimer": "joymagic uses open-source AI models (Apache-2.0) deployed and optimized on our own infrastructure.",
+    "title": "Buy Credits & Start Creating!",
+    "description": "joymagic uses open-source AI models (Apache-2.0) deployed and optimized on our own infrastructure.",
+    "groups": [
+      {
+        "name": "yearly",
+        "title": "年付"
+      },
+      {
+        "name": "monthly",
+        "title": "月付"
+      },
+      {
+        "name": "one-time",
+        "title": "按需購買"
+      }
+    ],
+    "items": [
+      {
+        "title": "入門版",
+        "description": "用輕量、靈活的積分包快速啟動項目。",
+        "features_title": "你將獲得",
+        "features": [
+          "1890 點通用積分，可用於 joymagic 全部功能",
+          "≈945 次 joymagic 生成（每次 2 點）",
+          "≈236 秒 LTX-2 視頻（每秒 8 點）",
+          "≈使用我們網站上列出的所有 25 個模型",
+          "適合初次體驗 joymagic 核心功能的新手用戶。"
+        ],
+        "interval": "one-time",
+        "amount": 1890,
+        "currency": "USD",
+        "price": "$18.9",
+        "original_price": "$29.0",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "購買積分",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Starter",
+        "product_name": "joymagic 1890 Credit Pack",
+        "credits": 1890,
+        "valid_days": 180,
+        "group": "one-time"
+      },
+      {
+        "title": "專業版（+40% 贈送）",
+        "description": "適合工作室與重度用戶的大容量方案。",
+        "features_title": "你將獲得",
+        "features": [
+          "4200 點（含 40% 贈送積分）",
+          "≈2100 次 joymagic 生成（每次 2 點）",
+          "≈525 秒 LTX-2 視頻（每秒 8 點）",
+          "≈使用我們網站上列出的所有 25 個模型",
+          "優先處理，加速任務完成",
+          "支持同時運行多個任務",
+          "適合專業人士、創作者、工作室與 AI 內容重度用戶"
+        ],
+        "interval": "one-time",
+        "amount": 2990,
+        "currency": "USD",
+        "price": "$29.9",
+        "original_price": "$80",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "購買積分",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Premium",
+        "product_name": "joymagic 4200 Credit Pack",
+        "credits": 4200,
+        "valid_days": 365,
+        "group": "one-time"
+      },
+      {
+        "title": "Titan（+50% 贈送）",
+        "description": "面向高頻創作者的最佳價值方案——包含優先隊列與更高吞吐能力。",
+        "features_title": "你將獲得",
+        "features": [
+          "15000 點（含高達 50% 贈送積分）",
+          "≈7500 次 joymagic 生成（每次 2 點）",
+          "≈1875 秒 LTX-2 視頻（每秒 8 點）",
+          "≈使用我們網站上列出的所有 25 個模型",
+          "所有任務均享優先處理",
+          "支持更多任務並行運行，顯著提升效率",
+          "適合專業人士、創作者、工作室與 AI 內容重度用戶，亦支持企業用途"
+        ],
+        "interval": "one-time",
+        "amount": 9990,
+        "currency": "USD",
+        "price": "$99.9",
+        "original_price": "$199",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "購買積分",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Titan",
+        "product_name": "joymagic 15000 Credit Pack",
+        "credits": 15000,
+        "valid_days": 365,
+        "group": "one-time"
+      },
+      {
+        "title": "入門版（月付）",
+        "description": "用輕量、靈活的積分包快速啟動項目。",
+        "features_title": "你將獲得",
+        "features": [
+          "1890 點通用積分，可用於 joymagic 全部功能",
+          "≈945 次 joymagic 生成（每次 2 點）",
+          "≈236 秒 LTX-2 視頻（每秒 8 點）",
+          "≈使用我們網站上列出的所有 25 個模型",
+          "適合初次體驗 joymagic 核心功能的新手用戶。"
+        ],
+        "interval": "month",
+        "amount": 1690,
+        "currency": "USD",
+        "price": "$16.9/Month",
+        "original_price": "$26.0",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "購買積分",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Starter-Monthly",
+        "product_name": "joymagic 1890 Credit Pack Monthly",
+        "credits": 1890,
+        "valid_days": 360,
+        "group": "monthly"
+      },
+      {
+        "title": "專業版（月付）",
+        "description": "適合工作室與重度用戶的大容量方案。",
+        "features_title": "你將獲得",
+        "features": [
+          "每月 4200 點（含 40% 贈送積分）",
+          "≈2100 次 joymagic 生成（每次 2 點）",
+          "≈525 秒 LTX-2 視頻（每秒 8 點）",
+          "≈使用我們網站上列出的所有 25 個模型",
+          "優先處理，加速任務完成",
+          "支持同時運行多個任務",
+          "適合專業人士、創作者、工作室與 AI 內容重度用戶"
+        ],
+        "interval": "month",
+        "amount": 2690,
+        "currency": "USD",
+        "price": "$26.9/Month",
+        "original_price": "$80",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "購買積分",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Premium-Monthly",
+        "product_name": "joymagic 4200 Credit Pack Monthly",
+        "credits": 4200,
+        "valid_days": 365,
+        "group": "monthly"
+      },
+      {
+        "title": "Titan（月付）",
+        "description": "面向高頻創作者的最佳價值方案——包含優先隊列與更高吞吐能力。",
+        "features_title": "你將獲得",
+        "features": [
+          "每月 15000 點（含高達 50% 贈送積分）",
+          "≈7500 次 joymagic 生成（每次 2 點）",
+          "≈1875 秒 LTX-2 視頻（每秒 8 點）",
+          "≈使用我們網站上列出的所有 25 個模型",
+          "所有任務均享優先處理",
+          "支持更多任務並行運行，顯著提升效率",
+          "適合專業人士、創作者、工作室與 AI 內容重度用戶，亦支持企業用途"
+        ],
+        "interval": "month",
+        "amount": 8990,
+        "currency": "USD",
+        "price": "$89.9/Month",
+        "original_price": "$199",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "購買積分",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Titan-Monthly",
+        "product_name": "joymagic 15000 Credit Pack Monthly",
+        "credits": 15000,
+        "valid_days": 365,
+        "group": "monthly"
+      },
+      {
+        "title": "入門版（年付）",
+        "description": "用輕量、靈活的積分包快速啟動項目。",
+        "features_title": "你將獲得",
+        "features": [
+          "每年 22680 點通用積分，可用於 joymagic 全部功能",
+          "≈11340 次 joymagic 生成（每次 2 點）",
+          "≈2835 秒 LTX-2 視頻（每秒 8 點）",
+          "≈使用我們網站上列出的所有 25 個模型",
+          "適合初次體驗 joymagic 核心功能的新手用戶。"
+        ],
+        "interval": "year",
+        "amount": 11900,
+        "currency": "USD",
+        "price": "$9.9/month",
+        "original_price": "$179",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "購買積分",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Starter-Yearly",
+        "product_name": "joymagic 22680 Credit Pack Yearly",
+        "credits": 22680,
+        "valid_days": 360,
+        "group": "yearly"
+      },
+      {
+        "title": "專業版（年付）",
+        "description": "適合工作室與重度用戶的大容量方案。",
+        "features_title": "你將獲得",
+        "features": [
+          "每年 50400 點（含 40% 贈送積分）",
+          "≈25200 次 joymagic 生成（每次 2 點）",
+          "≈6300 秒 LTX-2 視頻（每秒 8 點）",
+          "≈使用我們網站上列出的所有 25 個模型",
+          "優先處理，加速任務完成",
+          "支持同時運行多個任務",
+          "適合專業人士、創作者、工作室與 AI 內容重度用戶"
+        ],
+        "interval": "year",
+        "amount": 23880,
+        "currency": "USD",
+        "price": "$19.9/month",
+        "original_price": "$80",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "購買積分",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Premium-Yearly",
+        "product_name": "joymagic 50400 Credit Pack Yearly",
+        "credits": 50400,
+        "valid_days": 365,
+        "group": "yearly"
+      },
+      {
+        "title": "Titan（年付）",
+        "description": "面向高頻創作者的最佳價值方案——包含優先隊列與更高吞吐能力。",
+        "features_title": "你將獲得",
+        "features": [
+          "每年 180000 點（含高達 50% 贈送積分）",
+          "≈90000 次 joymagic 生成（每次 2 點）",
+          "≈22500 秒 LTX-2 視頻（每秒 8 點）",
+          "≈使用我們網站上列出的所有 25 個模型",
+          "所有任務均享優先處理",
+          "支持更多任務並行運行，顯著提升效率",
+          "適合專業人士、創作者、工作室與 AI 內容重度用戶，亦支持企業用途"
+        ],
+        "interval": "year",
+        "amount": 71800,
+        "currency": "USD",
+        "price": "$59.8/month",
+        "original_price": "$199",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "購買積分",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Titan-Yearly",
+        "product_name": "joymagic 180000 Credit Pack Yearly",
+        "credits": 180000,
+        "valid_days": 365,
+        "group": "yearly"
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "常見問題",
+    "description": "關於 joymagic 積分與定價的常見問題。",
+    "items": [
+      {
+        "question": "購買積分時我究竟是在為哪些內容付費？",
+        "answer": "積分代表生成圖片所消耗的算力使用量。每次發起圖片生成請求，都會從你的餘額中扣除固定數量的積分。你只為實際使用的部分付費——無需訂閱，也沒有隱藏費用。"
+      },
+      {
+        "question": "積分會過期嗎？",
+        "answer": "會。積分自購買之日起有效期為 365 天。未使用的積分將在 365 天後自動過期，且不可退款（除非適用法律另有要求）。"
+      },
+      {
+        "question": "購買後可以退款嗎？",
+        "answer": "僅在特定情況下提供退款，例如重複扣款或因系統錯誤導致積分未到賬。已使用的積分不支持退款。完整細則請查看我們的退款政策。"
+      },
+      {
+        "question": "付款是如何處理的？",
+        "answer": "所有付款均由我們的名義商戶（Merchant of Record）Creem 安全處理。Creem 負責全球稅務合規、開票與賬單管理。joymagic 不會處理或存儲你的信用卡信息。"
+      },
+      {
+        "question": "joymagic 是訂閱制服務嗎？",
+        "answer": "不是。joymagic 採用積分制。你在需要時購買積分，並在 365 天有效期內按自己的節奏使用。"
+      },
+      {
+        "question": "購買後可以取消或更改方案嗎？",
+        "answer": "積分購買為一次性交易，積分到賬後無法取消。你可隨時按需購買更多積分。"
+      },
+      {
+        "question": "圖片生成會一直消耗相同數量的積分嗎？",
+        "answer": "積分消耗可能因模型類型、分辨率或未來功能更新而有所變化。所有變更將在生效前明確告知。"
+      },
+      {
+        "question": "joymagic 會存儲我的提示詞或生成的圖片嗎？",
+        "answer": "不會。除非你主動保存到賬戶，joymagic 不會存儲提示詞或生成的圖片。我們不會將用戶內容用於模型訓練。"
+      },
+      {
+        "question": "安全與合規如何保障？",
+        "answer": "所有提示詞會經過自動化安全與內容審核過濾，以攔截禁止內容（如 NSFW、暴力、非法用途）。詳見我們的內容審核政策。"
+      },
+      {
+        "question": "joymagic 基於開源模型嗎？",
+        "answer": "是的。joymagic 使用 Apache-2.0 開源許可的組件。署名信息見我們的開源署名頁面。joymagic 為獨立服務，與原始模型作者無隸屬關係。"
+      },
+      {
+        "question": "我對自己生成的圖片擁有版權嗎？",
+        "answer": "是的。在遵守服務條款與適用法律的前提下，你對生成的圖片享有相應權利。"
+      },
+      {
+        "question": "如果付款失敗會怎樣？",
+        "answer": "若付款無法完成：你不會被扣款，積分不會增加，你可換用其他支付方式重試。若問題持續，請聯繫 support@joymagic.fun。"
+      },
+      {
+        "question": "如何查看收據或發票？",
+        "answer": "Creem 會在每次購買後自動將收據發送至你的郵箱。如可用，你也可以在賬戶儀表板中查看賬單歷史。"
+      },
+      {
+        "question": "積分是一種貨幣嗎？",
+        "answer": "不是。積分是使用單位，不是貨幣。它們沒有貨幣價值，不能兌換現金，也不能轉讓、交換或交易。積分僅用於衡量 joymagic 內的算力使用，在生成圖片或使用其他支持功能時被消耗。"
+      }
+    ]
+  },
+  "page": {
+    "current_plan": "當前方案",
+    "processing": "處理中"
+  },
+  "credit_modal": {
+    "title": "🎉 限時優惠 4折起！",
+    "tabs": {
+      "yearly": {
+        "label": "年付",
+        "badge": "立省 20%"
+      },
+      "monthly": {
+        "label": "月付"
+      },
+      "one_time": {
+        "label": "一次性購買"
+      },
+      "one_time_short": "單次購買"
+    },
+    "instant_delivery": "即時到帳——點數會立刻充值到你的錢包中。非常適合追求高效體驗的 AI 原生創作者。",
+    "see_credits_link": "查看每個功能大概需要多少點數",
+    "limited_time_bonus": "限時加贈",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "輕量靈活的點數包，適合小規模項目起步。",
+        "credits": "1890 點積分",
+        "cta_label": "立即購買",
+        "features": {
+          "1": "1890 點靈活通用點數，可用於 joymagic 上所有功能",
+          "2": "≈945 次 joymagic 生成（每次 2 點）",
+          "3": "≈236 秒 LTX-2 影片（每秒 8 點）",
+          "4": "≈可使用站點列出的全部 25 個模型",
+          "5": "非常適合剛開始體驗 joymagic 的新用戶。"
+        }
+      },
+      "professional": {
+        "name": "專業版",
+        "description": "為工作室和高頻創作者打造的大流量套餐。",
+        "credits": "4,200 點積分",
+        "bonus": "+40% 額外贈送",
+        "tag": "⭐️ 推薦",
+        "cta_label": "立即購買",
+        "features": {
+          "1": "≈2,100 次 joymagic 生成",
+          "2": "≈525 秒 LTX-2 影片",
+          "3": "≈可使用站點列出的全部 25 個模型",
+          "4": "優先隊列處理，減少等待時間"
+        }
+      },
+      "titan": {
+        "name": "泰坦版",
+        "description": "高頻創作者和團隊的性價比之選。",
+        "credits": "15,000 點積分",
+        "bonus": "+50% 額外贈送",
+        "cta_label": "立即購買",
+        "features": {
+          "1": "≈7,500 次 joymagic 生成",
+          "2": "≈1875 秒 LTX-2 影片",
+          "3": "≈可使用站點列出的全部 25 個模型",
+          "4": "優先隊列處理，適合高並發場景"
+        }
+      },
+      "monthly_professional": {
+        "name": "專業版",
+        "description": "適合穩定創作節奏的專業用戶，按月續費更靈活。",
+        "credits": "每月 4,200 點積分",
+        "bonus": "+40% 額外贈送",
+        "tag": "⭐️ 推薦",
+        "cta_label": "立即購買",
+        "features": {
+          "1": "≈2,100 次 joymagic 生成 / 月",
+          "2": "≈525 秒 LTX-2 影片 / 月",
+          "3": "≈可使用站點列出的全部 25 個模型",
+          "4": "優先處理隊列"
+        }
+      },
+      "monthly_titan": {
+        "name": "泰坦版",
+        "description": "高頻團隊和工作室的月度重度使用方案。",
+        "credits": "每月 15,000 點積分",
+        "bonus": "+50% 額外贈送",
+        "cta_label": "立即購買",
+        "features": {
+          "1": "≈7,500 次 joymagic 生成 / 月",
+          "2": "≈1875 秒 LTX-2 影片 / 月",
+          "3": "≈可使用站點列出的全部 25 個模型",
+          "4": "優先處理，適合批量生產內容"
+        }
+      },
+      "yearly_professional": {
+        "name": "專業版",
+        "description": "面向專業創作者的一年期套餐，長期使用更省。",
+        "credits": "每年 50,400 點積分",
+        "bonus": "+40% 額外贈送",
+        "tag": "⭐️ 最划算",
+        "cta_label": "立即購買",
+        "features": {
+          "1": "≈25,200 次 joymagic 生成 / 年",
+          "2": "≈6300 秒 LTX-2 影片 / 年",
+          "3": "≈可使用站點列出的全部 25 個模型",
+          "4": "優先隊列與穩定額度，適合長期項目"
+        }
+      },
+      "yearly_titan": {
+        "name": "泰坦版",
+        "description": "為大規模內容生產和企業團隊設計的一年期旗艦套餐。",
+        "credits": "每年 180,000 點積分",
+        "bonus": "+50% 額外贈送",
+        "cta_label": "立即購買",
+        "features": {
+          "1": "≈90,000 次 joymagic 生成 / 年",
+          "2": "≈22500 秒 LTX-2 影片 / 年",
+          "3": "≈可使用站點列出的全部 25 個模型",
+          "4": "優先處理與高並發支援，適合企業和大團隊"
+        }
+      },
+      "monthly_starter": {
+        "name": "入門版（月付）",
+        "description": "用輕量、靈活的積分包快速啟動項目。",
+        "credits": "每月 1,890點積分",
+        "cta_label": "立即購買",
+        "features": {
+          "1": "1890 點通用積分，可用於 joymagic 全部功能",
+          "2": "≈945 次 joymagic 生成（每次 2 點）",
+          "3": "≈236 秒 LTX-2 視頻（每秒 8 點）",
+          "4": "≈使用我們網站上列出的所有 25 個模型",
+          "5": "適合初次體驗 joymagic 核心功能的新手用戶。"
+        }
+      },
+      "yearly_starter": {
+        "name": "入門版（年付）",
+        "description": "用輕量、靈活的積分包快速啟動項目。",
+        "credits": "每年 22,680點積分",
+        "cta_label": "立即購買",
+        "features": {
+          "1": "每年 22680 點通用積分，可用於 joymagic 全部功能",
+          "2": "≈11340 次 joymagic 生成（每次 2 點）",
+          "3": "≈2835 秒 LTX-2 視頻（每秒 8 點）",
+          "4": "≈使用我們網站上列出的所有 25 個模型",
+          "5": "適合初次體驗 joymagic 核心功能的新手用戶。"
+        }
+      }
+    },
+    "close": "Close",
+    "hero_discount": "40% OFF",
+    "default_cta": "Buy Now",
+    "recurring_billing_note": "Recurring billing, cancel anytime.",
+    "badges": {
+      "most_popular": "MOST POPULAR"
+    },
+    "comparison": {
+      "features_label": "權益"
+    },
+    "countdown_units": {
+      "minute": "分",
+      "second": "秒",
+      "centisecond": "毫秒"
+    },
+    "plan_labels": {
+      "starter": "入門版",
+      "professional": "專業版",
+      "titan": "泰坦版"
+    },
+    "discount": {
+      "title": "折扣碼",
+      "description": "輸入 Affiliate 折扣碼，結帳時會自動帶入。",
+      "placeholder": "輸入折扣碼",
+      "apply": "套用",
+      "applied": "已套用",
+      "remove": "移除",
+      "success": "折扣碼已套用，結帳時會自動帶入",
+      "helper": "折扣會在結帳頁和訂單中自動生效。",
+      "applied_label": "已套用折扣碼",
+      "rate_label": "預計折扣",
+      "errors": {
+        "empty": "請輸入折扣碼",
+        "invalid": "折扣碼無效",
+        "already_used": "你已經使用過這個折扣碼。"
+      }
+    },
+    "errors": {
+      "no_product": "目前方案未配置可購買商品。",
+      "checkout_failed": "結帳失敗，請稍後再試。"
+    }
+  }
+}

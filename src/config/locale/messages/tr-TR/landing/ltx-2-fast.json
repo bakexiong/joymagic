@@ -1,0 +1,277 @@
+{
+  "ltx2FastPage": {
+    "metadata": {
+      "title": "LTX-2 Video Oluşturucu | Ücretsiz AI Metinden Videoya ve Görüntüden Videoya Araç Çevrimiçi | joymagic",
+      "description": "LTX-2 ile çarpıcı 4K AI videolar oluşturun. Açık kaynak LTX 2 modeliyle çalışan ücretsiz çevrimiçi metinden videoya ve görüntüden videoya oluşturucu. İndirme gerekmez, tarayıcıda çalışır.",
+      "keywords": "LTX-2, LTX 2 AI, LTX 2 video oluşturucu, metinden video, görüntüden video, AI video oluşturucu, LTX 2 ücretsiz, LTX 2 çevrimiçi, 4K video oluşturucu, açık kaynak video AI"
+    },
+    "hero": {
+      "title": "LTX-2 AI Video Oluşturucu",
+      "description": "Fikirlerinizi senkronize sesli profesyonel kalitede videolara dönüştürün. Lightricks'in LTX 2 AI modeliyle çalışan ücretsiz çevrimiçi metinden videoya oluşturucu. Tek birleşik geçişte senkronize sesli çarpıcı 4K videolar oluşturun.<br/><br/>Referans görüntüleriniz var mı? <a href=\"/image-to-video/ltx2-fast\" class=\"text-primary underline\">Karakter animasyonu için LTX-2 Görüntüden Videoya</a> deneyin.",
+      "button1": "Ücretsiz Başla",
+      "button2": "Fiyatları Gör"
+    },
+    "keyFeatures": {
+      "title": "Neden LTX-2 Video Oluşturucuyu Seçmelisiniz?",
+      "description": "Profesyoneller ve yaratıcılar için oluşturulmuş son teknoloji özelliklerle yeni nesil AI video oluşturmayı deneyimleyin.",
+      "native4K": {
+        "title": "Yerel 4K Çözünürlük",
+        "description": "Gerçek 4K (3840×2160) çözünürlükte çarpıcı videolar oluşturun. Profesyonel içerik, pazarlama kampanyaları ve yayın kalitesi üretimler için mükemmel."
+      },
+      "synchronizedAudio": {
+        "title": "Senkronize Ses",
+        "description": "LTX-2 video ve sesi tek birleşik geçişte birlikte oluşturur. Hareket, diyalog, ortam ve müzik manuel senkronizasyon olmadan doğal olarak hizalanır."
+      },
+      "lightningFast": {
+        "title": "Yıldırım Hızında Oluşturma",
+        "description": "Sadece 5 saniye hesaplama süresinde 6 saniyelik HD video oluşturun. Rekabet eden AI video modellerine kıyasla %50'ye kadar daha düşük hesaplama maliyeti."
+      },
+      "imageToVideo": {
+        "title": "Görüntüden Video",
+        "description": "Herhangi bir statik görüntüyü dinamik video içeriğine dönüştürün. Sanat eserleri, fotoğraflar, ürün çekimleri ve kavramsal tasarımları canlandırmak için mükemmel."
+      },
+      "creativeControl": {
+        "title": "Hassas Yaratıcı Kontrol",
+        "description": "Çoklu kare koşullandırma, 3D kamera mantığı ve LoRA ince ayar desteği, videonuzun her yönü üzerinde tam kontrol sağlar."
+      },
+      "openSource": {
+        "title": "Açık Kaynak Temel",
+        "description": "Lightricks'in açık kaynak LTX 2 modeli üzerine inşa edilmiştir. Özelleştirme için GitHub ve Hugging Face'de mevcut model ağırlıklarıyla tam şeffaflık."
+      }
+    },
+    "specs": {
+      "title": "LTX-2 Teknik Özellikler",
+      "description": "AI video oluşturma için standardı belirleyen endüstri lideri performans metrikleri.",
+      "maxResolution": "Maksimum Çözünürlük",
+      "fps": "FPS Kare Hızı",
+      "maxLength": "Maksimum Video Uzunluğu",
+      "lowerCost": "Düşük Hesaplama Maliyeti"
+    },
+    "howItWorks": {
+      "title": "LTX-2 ile Video Oluşturma",
+      "description": "Üç basit adımda profesyonel AI videolar oluşturun. Teknik bilgi gerekmez.",
+      "step1": {
+        "title": "İsteğinizi Girin",
+        "description": "Oluşturmak istediğiniz videoyu açıklayın. En iyi sonuçlar için sahne, eylem, kamera hareketi ve ruh hali hakkında detaylar ekleyin."
+      },
+      "step2": {
+        "title": "Ayarları Seçin",
+        "description": "Tercih ettiğiniz süreyi (20 saniyeye kadar) seçin ve ses senkronizasyonunu etkinleştirin."
+      },
+      "step3": {
+        "title": "Oluştur ve İndir",
+        "description": "Oluştur'a tıklayın ve LTX-2 AI'nın senkronize sesli videonuzu oluşturmasını izleyin. Hemen kullanım için yüksek kalitede indirin."
+      }
+    },
+    "useCases": {
+      "title": "Her Yaratıcı İçin Mükemmel",
+      "description": "LTX-2, tüm endüstrilerde çeşitli yaratıcı iş akışlarını destekler.",
+      "socialMedia": "Sosyal Medya İçeriği",
+      "filmTV": "Film ve TV Üretimi",
+      "marketing": "Pazarlama ve Reklam",
+      "gameDev": "Oyun Geliştirme",
+      "educational": "Eğitim İçeriği",
+      "artAnimation": "Sanat ve Animasyon",
+      "corporate": "Kurumsal Videolar",
+      "musicVideos": "Müzik Videoları"
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "description": "LTX-2 AI Video Oluşturucu hakkında bilmeniz gereken her şey.",
+      "q1": {
+        "question": "LTX-2 nedir ve nasıl çalışır?",
+        "answer": "LTX-2, Lightricks'in yeni nesil açık kaynak AI video temel modelidir. Metin isteklerinden veya görüntülerden yüksek kaliteli videolar oluşturmak için uzay-zaman modellemesiyle DiT (Diffusion-Transformer) hibrit mimarisi kullanır. Model, ayrı ses birleştirme veya manuel senkronizasyon ihtiyacını ortadan kaldırarak tek bir geçişte senkronize ses ve video oluşturur. LTX-2, 20 saniyeye kadar kliplerle 50 FPS'e kadar yerel 4K çözünürlüğü destekler."
+      },
+      "q2": {
+        "question": "LTX-2 video oluşturucu ücretsiz mi?",
+        "answer": "Evet, LTX-2 video oluşturucumuz temel video oluşturma için ücretsiz erişim sunar. Temel LTX 2 modeli, GitHub ve Hugging Face'de mevcut tam model ağırlıklarıyla tamamen açık kaynaktır. Daha yüksek çözünürlük (4K), daha uzun süreler ve ticari kullanım için ek özellikler ve öncelikli işleme ile premium planlar mevcuttur."
+      },
+      "q3": {
+        "question": "LTX-2 hangi çözünürlük ve kaliteyi oluşturabilir?",
+        "answer": "LTX-2, 720p HD, 1080p Full HD, 1440p QHD ve yerel 4K Ultra HD (3840×2160) dahil olmak üzere birden fazla çözünürlüğü destekler. Model, akıcı sinematik hareket sağlayarak 50 FPS'e kadar kare hızlarında video oluşturabilir. Maksimum video süresi, sürekli senkronize ses-video oluşturmanın 20 saniyesidir."
+      },
+      "q4": {
+        "question": "LTX-2'yi ComfyUI ile yerel olarak kullanabilir miyim?",
+        "answer": "Evet! LTX-2'nin yerel ComfyUI entegrasyonu vardır. Model ağırlıklarını Hugging Face'den indirebilir ve yerel oluşturma için ComfyUI-LTXVideo düğümleriyle kullanabilirsiniz. Optimum performans için NVIDIA, 720p/1080p için 12GB+ VRAM ve 4K oluşturma için 24GB+ önerir. Model, RTX GPU'larda azaltılmış bellek kullanımı ve daha hızlı çıkarım için NVFP8 nicemlemesini destekler."
+      },
+      "q5": {
+        "question": "LTX-2'yi yerel olarak çalıştırmak için hangi GPU ve VRAM'e ihtiyacım var?",
+        "answer": "Minimum gereksinimler: 24-30 FPS'te 720p-1080p için 12GB VRAM. Önerilen: Rahat 1080p-1440p oluşturma için 16-24GB VRAM (RTX 4080, RTX 3090). İdeal: 50 FPS'te yerel 4K için 24GB+ VRAM (RTX 4090, RTX 5090). NVIDIA, RTX 40/50 serisi GPU'larda VRAM'i %40 azaltan ve performansı 2 kat artıran NVFP8 ağırlıklarını optimize etti."
+      },
+      "q6": {
+        "question": "LTX-2 diğer AI video oluşturucularla nasıl karşılaştırılır?",
+        "answer": "LTX-2, senkronize ses-video oluşturma, yerel 4K çözünürlük ve 50 FPS'i tek bir sistemde birleştiren ilk açık kaynak modeldir. Runway, Pika ve Kling ile karşılaştırıldığında, LTX-2 %50'ye kadar daha düşük hesaplama maliyetleri ve tam açık kaynak şeffaflığı sunar. Görsel doğrulukta mükemmelleşir ve tüketici GPU'larında verimli çalışır, bağımsız yaratıcılar için profesyonel video oluşturmayı erişilebilir kılar."
+      },
+      "q7": {
+        "question": "LTX-2 ile özel LoRA modelleri eğitebilir miyim?",
+        "answer": "Evet! LTX-2, özel stiller, hareket desenleri ve karakter benzerliği için LoRA ince ayarını destekler. Hareket, stil veya benzerlik için eğitim birçok ayarda bir saatten az sürebilir. LTX-2 Trainer, tam ince ayar, LoRA eğitimi ve IC-LoRA (Tutarlı Kimlik LoRA) iş akışları için kapsamlı dokümantasyon sağlar."
+      }
+    },
+    "finalCTA": {
+      "title": "Harika Videolar Oluşturmaya Hazır mısınız?",
+      "description": "Vizyonlarını hayata geçirmek için LTX-2 kullanan binlerce yaratıcıya katılın.",
+      "button": "Şimdi Oluşturmaya Başla — Ücretsiz"
+    }
+  },
+  "ltx2FastImageToVideoPage": {
+    "metadata": {
+      "title": "LTX-2 Görüntüden Videoya | Ücretsiz AI Görüntü Video Dönüştürücü | 4K Görüntüden Videoya | joymagic",
+      "description": "LTX-2 görüntüden videoya AI ile görüntüleri çarpıcı 4K videolara dönüştürün. Senkronize sesli ücretsiz online LTX-2 görüntüden videoya oluşturucu. Statik görüntüleri saniyeler içinde dinamik videolara dönüştürün. İndirme gerekmez.",
+      "keywords": "ltx-2 görüntüden videoya, ltx-2 görüntü video dönüştürücü, ltx-2 görüntüden videoya AI, ltx-2 görüntüden videoya online, ltx-2 görüntüden videoya ücretsiz, LTX-2 görüntüden videoya, LTX 2 görüntüden videoya, görüntüden videoya ltx-2, AI görüntüden videoya, 4K görüntüden videoya, ücretsiz görüntüden videoya, görüntü video oluşturucu"
+    },
+    "hero": {
+      "title": "LTX-2 Görüntüden Videoya AI Oluşturucu",
+      "description": "LTX-2 görüntüden videoya teknolojisini kullanarak görüntülerinizi senkronize sesli profesyonel 4K videolara dönüştürün. Ücretsiz LTX-2 görüntüden videoya oluşturucumuz saniyeler içinde statik görüntülerden çarpıcı videolar oluşturur. Yerel 4K çözünürlük ve 50 FPS'e kadar LTX-2 görüntüden videoya AI'ın gücünü deneyimleyin.<br/><br/>Referans görüntüleriniz yok mu? <a href=\"/text-to-video/ltx2-fast\" class=\"text-primary underline\">LTX-2 Metinden Videoya</a> deneyerek sıfırdan oluşturun.",
+      "button1": "Ücretsiz Başla",
+      "button2": "Fiyatları Gör"
+    },
+    "keyFeatures": {
+      "title": "Neden LTX-2 Görüntüden Videoya Seçmelisiniz?",
+      "description": "En iyi LTX-2 görüntüden videoya AI'ı en son özelliklerle deneyimleyin. Tek bir birleşik geçişte görüntülerden senkronize sesli profesyonel videolar oluşturun.",
+      "native4K": {
+        "title": "Yerel 4K Çözünürlük",
+        "description": "LTX-2 görüntüden videoya ile gerçek 4K (3840×2160) çözünürlükte çarpıcı videolar oluşturun. Profesyonel içerik, pazarlama kampanyaları ve yayın kalitesi üretimler için mükemmel."
+      },
+      "synchronizedAudio": {
+        "title": "Senkronize Ses",
+        "description": "LTX-2 görüntüden videoya video ve sesi tek bir birleşik geçişte birlikte oluşturur. Hareket, diyalog, ortam ve müzik manuel senkronizasyon olmadan doğal olarak hizalanır."
+      },
+      "lightningFast": {
+        "title": "Yıldırım Hızında Oluşturma",
+        "description": "LTX-2 görüntüden videoya ile sadece 5 saniye hesaplama süresinde 6 saniyelik HD video oluşturun. Rekabet eden AI video modellerine kıyasla %50'ye kadar daha düşük hesaplama maliyeti."
+      },
+      "imageToVideo": {
+        "title": "Görüntüden Videoya Animasyon",
+        "description": "LTX-2 görüntüden videoya ile herhangi bir statik görüntüyü dinamik video içeriğine dönüştürün. Sanat eserleri, fotoğraflar, ürün çekimleri ve konsept tasarımlarını animasyonlaştırmak için mükemmel."
+      },
+      "creativeControl": {
+        "title": "Hassas Yaratıcı Kontrol",
+        "description": "LTX-2 görüntüden videoya, videonuzun her yönü üzerinde tam kontrol için çoklu keyframe koşullandırma, 3D kamera mantığı ve LoRA ince ayar desteği sunar."
+      },
+      "openSource": {
+        "title": "Açık Kaynak Temeli",
+        "description": "LTX-2 görüntüden videoya, Lightricks'in açık kaynak LTX 2 modeli üzerine inşa edilmiştir. GitHub ve Hugging Face'de mevcut model ağırlıklarıyla tam şeffaflık."
+      }
+    },
+    "specs": {
+      "title": "LTX-2 Görüntüden Videoya Teknik Özellikler",
+      "description": "LTX-2 görüntüden videoya oluşturma için standardı belirleyen endüstri lideri performans metrikleri.",
+      "maxResolution": "Maksimum Çözünürlük",
+      "fps": "FPS Kare Hızı",
+      "maxLength": "Maksimum Video Uzunluğu",
+      "lowerCost": "Daha Düşük Hesaplama Maliyeti"
+    },
+    "howItWorks": {
+      "title": "LTX-2 Görüntüden Videoya Nasıl Kullanılır",
+      "description": "Dört basit adımda LTX-2 görüntüden videoya ile görüntülerden profesyonel videolar oluşturun. Teknik bilgi gerekmez.",
+      "step1": {
+        "title": "Görüntünüzü Yükleyin",
+        "description": "LTX-2 görüntüden videoya ile animasyonlaştırmak istediğiniz statik bir görüntü yükleyin. Fotoğraflar, illüstrasyonlar, sanat eserleri ve daha fazlasıyla çalışır."
+      },
+      "step2": {
+        "title": "İsteğinizi Girin",
+        "description": "LTX-2 görüntüden videoya ile görüntünün nasıl animasyonlaştırılmasını istediğinizi açıklayın. En iyi sonuçlar için hareket, kamera hareketi ve ruh hali hakkında detaylar ekleyin."
+      },
+      "step3": {
+        "title": "Ayarları Seçin",
+        "description": "Tercih ettiğiniz süreyi (20 saniyeye kadar) seçin ve LTX-2 görüntüden videoya oluşturmanız için ses senkronizasyonunu etkinleştirin."
+      },
+      "step4": {
+        "title": "Oluştur ve İndir",
+        "description": "Oluştur'a tıklayın ve LTX-2 görüntüden videoya AI'ın senkronize sesli videonuzu oluşturmasını izleyin. Hemen kullanım için yüksek kaliteli 4K videonuzu indirin."
+      }
+    },
+    "useCases": {
+      "title": "Her Yaratıcı İçin Mükemmel",
+      "description": "LTX-2 görüntüden videoya tüm endüstrilerde çeşitli yaratıcı iş akışlarını güçlendirir.",
+      "socialMedia": "Sosyal Medya İçeriği",
+      "filmTV": "Film ve TV Üretimi",
+      "marketing": "Pazarlama ve Reklam",
+      "gameDev": "Oyun Geliştirme",
+      "educational": "Eğitim İçeriği",
+      "artAnimation": "Sanat ve Animasyon",
+      "corporate": "Kurumsal Videolar",
+      "musicVideos": "Müzik Videoları"
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "description": "LTX-2 görüntüden videoya oluşturucu hakkında bilmeniz gereken her şey.",
+      "q1": {
+        "question": "LTX-2 görüntüden videoya nedir ve nasıl çalışır?",
+        "answer": "LTX-2 görüntüden videoya, statik görüntüleri dinamik videolara dönüştüren Lightricks'in yeni nesil açık kaynak AI video temel modelidir. Yüklediğiniz görüntülerden yüksek kaliteli videolar oluşturmak için uzay-zaman modelleme ile DiT (Diffusion-Transformer) hibrit mimarisi kullanır. LTX-2 görüntüden videoya modeli, ayrı ses birleştirme veya manuel senkronizasyon ihtiyacını ortadan kaldırarak tek bir geçişte senkronize ses ve video oluşturur. LTX-2 görüntüden videoya, 20 saniyeye kadar kliplerle 50 FPS'e kadar yerel 4K çözünürlüğü destekler."
+      },
+      "q2": {
+        "question": "LTX-2 görüntüden videoya oluşturucu ücretsiz kullanılabilir mi?",
+        "answer": "Evet, LTX-2 görüntüden videoya oluşturucumuz temel video oluşturma için ücretsiz erişim sunar. Altta yatan LTX 2 modeli tamamen açık kaynaktır ve GitHub ve Hugging Face'de tam model ağırlıkları mevcuttur. Daha yüksek çözünürlük (4K), daha uzun süreler ve ticari kullanım için ek özellikler ve öncelikli işleme ile premium planlar mevcuttur."
+      },
+      "q3": {
+        "question": "LTX-2 görüntüden videoya hangi çözünürlük ve kaliteyi oluşturabilir?",
+        "answer": "LTX-2 görüntüden videoya 720p HD, 1080p Full HD, 1440p QHD ve yerel 4K Ultra HD (3840×2160) dahil olmak üzere birden fazla çözünürlüğü destekler. LTX-2 görüntüden videoya modeli, akıcı sinematik hareket sağlayarak 50 FPS'e kadar kare hızlarında video oluşturabilir. Maksimum video süresi, sürekli senkronize ses-video oluşturma için 20 saniyedir."
+      },
+      "q4": {
+        "question": "LTX-2 görüntüden videoya ile hangi tür görüntüler en iyi çalışır?",
+        "answer": "LTX-2 görüntüden videoya, fotoğraflar, illüstrasyonlar, sanat eserleri, ürün çekimleri ve konsept tasarımları dahil olmak üzere çok çeşitli görüntülerle iyi çalışır. İyi kontrastlı net, iyi aydınlatılmış görüntüler en iyi sonuçları üretme eğilimindedir. LTX-2 görüntüden videoya modeli hem gerçekçi hem de stilize edilmiş görüntüleri animasyonlaştırabilir ve kaynak materyalinizin görsel stilini korur."
+      },
+      "q5": {
+        "question": "LTX-2 görüntüden videoya metinden videoya ile nasıl karşılaştırılır?",
+        "answer": "LTX-2 görüntüden videoya, yüklediğiniz görüntüyü başlangıç noktası olarak kullanır ve görsel görünüm ve stil üzerinde hassas kontrol sağlar. Metinden videoya, metin açıklamanıza göre her şeyi sıfırdan oluşturur. Animasyonlaştırmak istediğiniz belirli bir görüntünüz olduğunda LTX-2 görüntüden videoya idealdir, oysa metinden videoya hayal gücünden tamamen yeni sahneler oluşturmak için daha iyidir."
+      },
+      "q6": {
+        "question": "LTX-2 görüntüden videoya'yı ComfyUI ile yerel olarak kullanabilir miyim?",
+        "answer": "Evet! LTX-2 yerel ComfyUI entegrasyonuna sahiptir. Model ağırlıklarını Hugging Face'den indirebilir ve yerel LTX-2 görüntüden videoya oluşturma için ComfyUI-LTXVideo düğümleriyle kullanabilirsiniz. Optimum performans için NVIDIA, 720p/1080p için 12GB+ VRAM ve 4K oluşturma için 24GB+ önerir. Model, azaltılmış bellek kullanımı ve RTX GPU'larda daha hızlı çıkarım için NVFP8 nicemleme destekler."
+      },
+      "q7": {
+        "question": "LTX-2 görüntüden videoya ile özel LoRA modelleri eğitebilir miyim?",
+        "answer": "Evet! LTX-2, özel stiller, hareket desenleri ve karakter benzerliği için LoRA ince ayar destekler. Hareket, stil veya benzerlik için eğitim birçok ayarda bir saatten az sürebilir. LTX-2 Trainer, tam ince ayar, LoRA eğitimi ve IC-LoRA (Kimlik Tutarlı LoRA) iş akışları için kapsamlı dokümantasyon sağlar."
+      }
+    },
+    "finalCTA": {
+      "title": "LTX-2 Görüntüden Videoya ile Harika Videolar Oluşturmaya Hazır mısınız?",
+      "description": "LTX-2 görüntüden videoya AI kullanarak görüntülerini hayata geçiren binlerce yaratıcıya katılın. Bugün görüntülerden video oluşturmaya başlayın.",
+      "button": "Şimdi Oluşturmaya Başla — Ücretsiz"
+    }
+  },
+  "ltx2Fast": {
+    "form": {
+      "prompt": {
+        "label": "İstek",
+        "placeholder": "Oluşturmak istediğiniz videoyu açıklayın...\n\nÖrnek: Altın saatte bir dağ sırasının sinematik hava çekimi. Karlı zirveler sıcak turuncu ışığı yakalarken bulutlar aşağıdaki vadilerden sürükleniyor. Kamera görkemli manzarayı yavaşça kaydırıyor."
+      },
+      "duration": {
+        "label": "Süre"
+      },
+      "generateAudio": {
+        "label": "Ses Senkronizasyonu",
+        "description": "Video ile senkronize ses oluştur"
+      },
+      "buttons": {
+        "reset": "Sıfırla",
+        "run": "Oluştur",
+        "generating": "Oluşturuluyor..."
+      }
+    },
+    "status": {
+      "idle": "Boşta",
+      "processing": "İşleniyor...",
+      "completed": "Tamamlandı"
+    },
+    "preview": {
+      "placeholder": "Oluşturulan videonuz burada görünecek"
+    },
+    "actions": {
+      "downloadVideo": "Videoyu İndir",
+      "downloadFailed": "İndirme başarısız"
+    },
+    "errors": {
+      "promptRequired": "İstek gereklidir",
+      "generationFailed": "Oluşturma başarısız",
+      "apiResponseParseFailed": "API yanıtı ayrıştırılamadı",
+      "taskIdNotFound": "Görev ID bulunamadı",
+      "taskTimeout": "Görev zaman aşımı",
+      "statusQueryFailed": "Durum sorgusu başarısız",
+      "taskFailed": "Görev başarısız",
+      "processingFailed": "İşleme başarısız"
+    }
+  }
+}
+

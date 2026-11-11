@@ -1,0 +1,88 @@
+{
+  "title": "Nano Banana 2",
+  "provider": "Google",
+  "eyebrow": "ماډل-محوره لینډینګ پاڼه",
+  "description": "کله چې تاسو یو ډېر تولید-محور کاري بهیر ته اړتیا لرئ، له Nano Banana 2 څخه پیل وکړئ: ډېرې مراجع، قوي output controls، روښانه text rendering، او په لومړۍ پاس کې لا پیاوړي campaign visuals.",
+  "seoTitle": "د Nano Banana 2 AI ماډل پاڼه | Advanced Image Edit + Text to Image | joymagic",
+  "seoDescription": "Nano Banana 2 د یوې model-first پاڼې په توګه وپلټئ. صحنې بدلې کړئ، د creator ورک‌بنچ بیا وکاروئ، او Nano Banana 2 د multi-image editing او high-control text-to-image generation لپاره وکاروئ.",
+  "stats": [
+    {
+      "label": "اصلي حالت",
+      "value": "Advanced Edit"
+    },
+    {
+      "label": "پراخې صحنې",
+      "value": "۲ فعال کاري بهیرونه"
+    },
+    {
+      "label": "د output تمرکز",
+      "value": "ډېر کنټرول"
+    }
+  ],
+  "differentiators": [
+    "Nano Banana 2 د هغه پورته-کچې انتخاب په توګه وړاندې کړئ چې کاروونکي یې د بنسټیز ماډل په پرتله ډېر تولیدي کنټرول ته اړتیا لري.",
+    "د creator-side ورک‌بنچ هماغه چلند وساتئ، خو د ماډل کیسه، starter prompts او scene framing بدل کړئ.",
+    "د وروڼو ماډل پاڼو پرتله کول اسانه کړئ، پرته له دې چې formونه، scene routing، یا ښي‌لوری media panel له سره جوړ کړئ."
+  ],
+  "gallery": [
+    {
+      "title": "د campaign packshot لوړول",
+      "caption": "له څو مراجعو او کلک output control څخه کار واخلئ ترڅو خام product assets په ډېر polished ad-ready visuals بدل کړئ.",
+      "prompt": "Use the uploaded references to create a premium skincare campaign visual with crisp reflections, elevated lighting, and a clean luxury retail finish.",
+      "accentClassName": "from-[#f8e08a] via-[#9c7c35] to-[#171717] text-white"
+    },
+    {
+      "title": "Typography-محور پوسټرونه",
+      "caption": "هغه poster comps جوړ کړئ چې layout، hierarchy، او readable type پکې له لومړۍ پاس څخه مهم وي.",
+      "prompt": "Design a premium launch poster for a summer beverage brand with clear readable headline typography, cinematic golden-hour light, and a glossy product hero composition.",
+      "accentClassName": "from-[#8cd3ff] via-[#2b75b6] to-[#121416] text-white"
+    },
+    {
+      "title": "کنټرول شوي brand concepts",
+      "caption": "هغسې مفهومي فریمونه تولید کړئ چې د campaign د وروستیو comps ته نږدې وي، نه دا چې یوازې loose moodboards وي.",
+      "prompt": "Create a polished brand concept visual for a luxury fragrance release, frontal hero composition, soft atmospheric haze, clear product labeling, and premium editorial lighting.",
+      "accentClassName": "from-[#d7b7ff] via-[#6f47a8] to-[#17131d] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "د /model/nanobana او /model/nanobanana-2 ترمنځ څه توپیر دی؟",
+      "answer": "په دې پاڼه کې Nano Banana 2 د هغه وروڼه ماډل په توګه ښودل شوی چې ډېر تولید-محور دی: د مراجعو پر بنسټ درنو ایډیټونو لپاره ښه، د output قوي control، او پریمیم concepts له روښانه layout intent سره."
+    },
+    {
+      "question": "ایا Nano Banana 2 لا هم هماغه creator workbench کاروي؟",
+      "answer": "هو. کیڼ form flow او ښی media panel لا هم له creator څخه بیا کارول کېږي، نو پاڼه یوازې د ماډل context بدلوي، د اصلي creative workflow نه."
+    },
+    {
+      "question": "ولې د Nano Banana 2 لپاره جلا ماډل پاڼه جوړه شي؟",
+      "answer": "ځکه چې د کاروونکي نیت توپیر لري. دا پاڼه Nano Banana 2 د upgrade path په توګه روښانوي او د هغه غوره سناریوګانې بیانوي، پرته له دې چې هغه په یوه عمومي tools page کې ګډ شي."
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "انځور سمون",
+      "title": "صحنه 01 · دقیق څو-انځوري ایډیټ",
+      "description": "Nano Banana 2 د هغو درنو ایډیټي کاري بهیرونو لپاره وکاروئ چې ډېرې مراجع، د output size روښانه control، او ډېر تولید-محور setup ته اړتیا لري.",
+      "spotlight": "د batchونو، reference-rich edits او لوړ-ریزولوشن deliverables لپاره غوره.",
+      "starterPrompt": "Use the uploaded references to restyle the product into a premium launch campaign, keep branding intact, add controlled studio reflections, and output a polished commercial visual.",
+      "useCases": [
+        "د څو مراجعو په کارولو د محصول refinement",
+        "د campaign متغیرات له سخت output control سره",
+        "د art direction passes له ثابت بصري هویت سره"
+      ]
+    },
+    {
+      "modeLabel": "متن نه انځور",
+      "title": "صحنه 02 · د لوړ کنټرول مفهومي تولید",
+      "description": "کله چې تاسو قوي camera direction، پاک text rendering، او داسې outputs ته اړتیا لرئ چې production-ready comps ته نږدې وي، prompt-led generation ته لاړ شئ.",
+      "spotlight": "د پریمیم concepting لپاره غوره، مخکې له دې چې assets د campaign production ته وسپارل شي.",
+      "starterPrompt": "Create a premium beverage campaign poster with strong camera composition, warm sunset key light, clear headline typography, and a glossy hero-product finish.",
+      "useCases": [
+        "Ad concept comps له روښانه layout intent سره",
+        "Poster او packaging drafts له readable typography سره",
+        "Brand visuals چې polished first-pass output ته اړتیا لري"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

@@ -1,0 +1,147 @@
+{
+  "title": "Nano Banana Pro Metinden Görüntü",
+  "subtitle": "Metin açıklamalarından çarpıcı görüntüler oluşturun",
+  "prompt_label": "İstem",
+  "prompt_placeholder": "Arka bahçede sabun köpükleri üfleyen küçük bir kız, köpüklerde gökkuşağı renkleri oluşturan güneş ışığı, samimi fotoğraf stili.",
+  "prompt_tooltip": "Oluşturmak istediğiniz görüntünün açıklamasını girin",
+  "aspect_ratio_label": "En-Boy Oranı",
+  "aspect_ratio_hint": "Oluşturulan görüntü için en-boy oranını seçin",
+  "aspect_ratio_placeholder": "En-boy oranı seçin (isteğe bağlı)",
+  "aspect_ratio_none": "(Yok)",
+  "resolution_label": "Çözünürlük",
+  "resolution_hint": "Oluşturulan görüntü için çözünürlüğü seçin",
+  "output_format_label": "Çıktı Formatı",
+  "output_format_hint": "Çıktı görüntü formatını seçin",
+  "buttons": {
+    "generate": "Görüntü Oluştur"
+  },
+  "errors": {
+    "promptRequired": "İstem gereklidir",
+    "generate_failed": "Görüntü oluşturma başarısız: {status}",
+    "generate_failed_default": "Görüntü oluşturma başarısız",
+    "no_request_id": "İstek ID'si alınamadı"
+  },
+  "image_alt": "Oluşturulan görüntü",
+  "download": "İndir",
+  "image_placeholder": "Oluşturulan görüntü burada görünecek",
+  "prompt_inspirations_button": "İstem İlhamları",
+  "prompt_guide_button": "İstem Kılavuzu",
+  "powered_by": "joymagic tarafından optimize edilmiş Nano Banana Pro AI modeli ile desteklenmektedir",
+  "prompt_guides": {
+    "guide1": "En İyi Nano Banana Sahne İstemleri",
+    "guide2": "En İyi Nano Banana Portre İstemleri",
+    "guide3": "E-ticaret için Flux 1.1 Ürün Fotoğrafı İstemleri",
+    "guide4": "Nano Banana Görüntü İstemleri: 5 Katmanlı Çerçeve",
+    "guide5": "Kopyala-Yapıştır Nano Banana Ürün İstemleri",
+    "guide6": "Midjourney İstem Mühendisliği",
+    "guide7": "Midjourney Ürün İstemleri",
+    "guide8": "Midjourney Portre İstemleri",
+    "guide9": "50 En İyi Flux 1.1 Ürün Fotoğrafı İstemleri",
+    "guide10": "50 En İyi Flux 1.1 Portre İstemleri"
+  },
+  "page": {
+    "metadata": {
+      "title": "Nano Banana Pro - Net Tipografi ile AI Metinden Görüntü | joymagic",
+      "description": "Nano Banana Pro ile metinden profesyonel görüntüler oluşturun. Kamera kontrolleri, Çince/İngilizce net metin, yüksek çözünürlüklü çıktı. Fotoğraflar ve tasarımlar oluşturun.",
+      "keywords": "nano banana pro, metinden görüntü, ai görüntü oluşturucu, net metin renderı, kamera kontrolleri, profesyonel görüntü oluşturma, çince metin ai, iki dilli metin ai"
+    },
+    "hero": {
+      "title": "Nano Banana Pro Metinden Görüntü",
+      "description": "Nano Banana Pro, kamera seviyesi kontrollerle metin açıklamalarından profesyonel görüntüler oluşturur. Alan derinliği, aydınlatma kurulumları ve renk derecelendirmesini basit dille açıklayın. Metni Çince ve İngilizce olarak net bir şekilde render eder—posterler, logolar ve marka materyalleri için kullanışlıdır. Aşağıda Nano Banana Pro'yu deneyin!<br/><br/>Pro kontrolleri olmadan temel görüntü oluşturma mı arıyorsunuz? <a href=\"/text-to-image/nano-banana\" class=\"text-primary underline\">Standart Nano Banana'yı deneyin</a>.",
+      "button1": "Şimdi Dene",
+      "button2": "Fiyatları Gör"
+    },
+    "proFeatures": {
+      "title": "Pro Özel Özellikler",
+      "description": "Gelişmiş görüntü oluşturma için profesyonel seviye yetenekler",
+      "cameraControls": {
+        "title": "Metin ile Kamera Kontrolleri",
+        "description": "Profesyonel fotoğraf ayarlarını basit dille açıklayın. \"Bokeh arka planlı sığ alan derinliği\" veya \"yüksek kontrastlı film noir aydınlatması\"—model normalde pahalı ekipman ve uzmanlık gerektiren teknikleri uygular."
+      },
+      "clearTextRendering": {
+        "title": "Net Metin Renderı",
+        "description": "Birden fazla dilde okunabilir tipografi oluşturun. Logolar, tabelalar, posterler, ürün etiketleri—metin keskin ve profesyonel kalır. Özellikle Çince karakterlerde güçlüdür, bu da iki dilli pazarlama materyalleri için kullanışlı hale getirir."
+      },
+      "highResolution": {
+        "title": "Yüksek Çözünürlüklü Çıktı",
+        "description": "Baskı materyalleri ve büyük format ekranlar için uygun yüksek çözünürlüklü görüntüler çıktı. İsteğe bağlı ölçeklendirme ince detayları korur—kumaş dokusu, mimari öğeler, ürün yüzeyleri."
+      },
+      "complexScene": {
+        "title": "Karmaşık Sahne Anlama",
+        "description": "Detaylı uzamsal talimatları işler. \"Vazoyu masanın sol tarafına yerleştirin, sağ pencereden gelen güneş ışığı ile\"—model konumlandırmayı, ışık yönünü ve nesne ilişkilerini doğru şekilde yorumlar."
+      },
+      "professionalComposition": {
+        "title": "Profesyonel Kompozisyon Kontrolü",
+        "description": "Belirli çerçeveleme, açılar ve perspektifleri açıklayın. \"Binanın yukarısına bakan düşük açılı çekim\" veya \"arka planda öncü çizgileri olan yakın plan portre\"—model sinematografi ve fotoğraf terminolojisini anlar."
+      }
+    },
+    "standardFeatures": {
+      "title": "Standart Özellikler (Ayrıca Dahil)",
+      "description": "İhtiyacınız olan tüm temel yetenekler",
+      "styleFlexibility": {
+        "title": "Stil Esnekliği",
+        "description": "Fotoğraflar, anime, dijital sanat, illüstrasyonlar"
+      },
+      "naturalLanguage": {
+        "title": "Doğal Dil Girişi",
+        "description": "Sahneleri günlük dille açıklayın"
+      },
+      "fastGeneration": {
+        "title": "Hızlı Oluşturma",
+        "description": "Görüntü başına 10-15 saniye"
+      },
+      "multipleFormats": {
+        "title": "Çoklu Çıktı Formatları",
+        "description": "JPG, PNG, WebP"
+      }
+    },
+    "useCases": {
+      "title": "Kullanım Senaryoları",
+      "eventPosters": {
+        "title": "Metinli Etkinlik Posterleri",
+        "description": "Etkinlik detayları, tarihler ve mekan bilgileriyle promosyon posterleri oluşturun. Pro, metni hem Çince hem İngilizce olarak net bir şekilde render eder—baskı veya dijital kullanım için herhangi bir boyutta okunabilir."
+      },
+      "productVisualization": {
+        "title": "Ürün Görselleştirme",
+        "description": "Sunumlar için ürün mockup'larına ihtiyacınız var ama fotoğrafınız yok mu? Ürünü, ortamı ve aydınlatmayı açıklayın. Pro, gerçekçi gölgeler ve yansımalarla profesyonel görünümlü sahneler oluşturur."
+      },
+      "conceptPresentations": {
+        "title": "Konsept Sunumları",
+        "description": "Bitmiş iş oluşturmadan müşterilere tasarım yönleri sunun. Farklı ruh hallerini ve yaklaşımları göstermek için kamera kontrolleriyle birden fazla görsel stil oluşturun."
+      },
+      "bilingualMarketing": {
+        "title": "İki Dilli Pazarlama Materyalleri",
+        "description": "Çince ve İngilizce metinli reklamlar ve promosyon grafikleri oluşturun. Pro, her iki dilin tipografisini iyi işler—birden fazla pazara yönelik perakende tabelaları ve ürün ambalajları için önemlidir."
+      }
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "description": "Nano Banana Pro Metinden Görüntü hakkında yaygın sorular",
+      "q1": {
+        "question": "Pro'yu standart Nano Banana'dan farklı kılan nedir?",
+        "answer": "Pro, kamera kontrolleri (alan derinliği, aydınlatma, renk derecelendirme), net çok dilli metin renderı ve daha yüksek çözünürlüklü çıktı ekler. Standart, stiller arasında hızlı bir şekilde görüntüler oluşturur ancak profesyonel fotoğraf kontrolleri veya garanti edilmiş metin kalitesi olmadan."
+      },
+      "q2": {
+        "question": "Metin renderı nasıl çalışır?",
+        "answer": "İsteminizde istediğiniz metni, içerik, stil ve konum dahil olmak üzere açıklayın. Pro, herhangi bir boyutta okunabilir kalan tipografi oluşturur—render kalitesinin AI modelleri arasında değiştiği Çince karakterler için özellikle etkilidir."
+      },
+      "q3": {
+        "question": "Hangi çözünürlüğü çıktı alabilirim?",
+        "answer": "Pro, standarttan daha yüksek çözünürlük çıktı alır, baskı kalitesi sonuçlar için isteğe bağlı ölçeklendirme ile. Büyük format baskı, fuar materyalleri ve dergi reklamları için uygundur."
+      },
+      "q4": {
+        "question": "İstemlerim ne kadar detaylı olmalı?",
+        "answer": "Daha fazla detay yardımcı olur. \"Masada bir ürün\" yerine \"ahşap masada akıllı telefon, soldan öğleden sonra güneş ışığı, sığ alan derinliği, profesyonel ürün fotoğrafçılığı stili\" deneyin. Konu, aydınlatma, kamera ayarları ve görsel stil ekleyin."
+      },
+      "q5": {
+        "question": "Temel görüntüler için Pro'ya değer mi?",
+        "answer": "Standart Nano Banana, sosyal medya grafikleri, hızlı konseptler ve metin kalitesinin önemli olmadığı görüntüler için iyi çalışır. Profesyonel fotoğraf kontrolleri, görüntülerinizde net tipografi veya baskı kalitesi çözünürlüğüne ihtiyacınız olduğunda Pro'yu kullanın."
+      }
+    },
+    "finalCTA": {
+      "title": "Oluşturmaya Hazır mısınız?",
+      "description": "Bugünden itibaren metin açıklamalarınızdan harika görüntüler oluşturmaya başlayın.",
+      "button": "Şimdi Dene"
+    }
+  }
+}

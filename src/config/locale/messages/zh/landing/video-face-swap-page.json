@@ -1,0 +1,203 @@
+{
+  "videoFaceSwapPage": {
+    "whatIs": {
+      "title": "什么是 AI 视频换脸？",
+      "description": "<strong>AI 视频换脸</strong> 是一款 AI 驱动的工具，可让您用任何您喜欢的面部替换视频中的面部。",
+      "uses": "它使用先进的机器学习技术：",
+      "detect": "检测视频中的面部",
+      "track": "逐帧跟踪其运动",
+      "swap": "无缝替换为新面部",
+      "keep": "保持自然的表情、光线和角度",
+      "canDo": "使用我们的在线视频换脸 AI，您可以：",
+      "movieScenes": "将您的面部放入电影场景中",
+      "memeStars": "将朋友变成表情包明星",
+      "cosplay": "创建角色扮演或反应视频",
+      "socialMedia": "为社交媒体制作个性化内容",
+      "cloud": "一切都在云端运行，因此您不需要强大的硬件或复杂的软件。只需上传并替换即可。"
+    },
+    "howTo": {
+      "title": "如何使用 AI 在视频中换脸",
+      "description": "使用我们的 <strong>免费视频换脸 AI</strong>，只需几个简单步骤即可创建逼真的高质量换脸视频：",
+      "step1": {
+        "title": "1. 上传要换脸的视频",
+        "description": "上传您想要替换面部（或多个面部）的原始视频。",
+        "supportFormats": "我们支持所有常见视频格式",
+        "clearFaces": "确保视频中的面部清晰可见",
+        "quality": "视频质量越高，效果通常越好"
+      },
+      "step2": {
+        "title": "2. 上传要替换的面部视频（可选）",
+        "description": "如果您想在 <strong>两个视频</strong> 之间换脸（例如，您自己的视频和电影片段）：",
+        "secondVideo": "上传包含您要使用的面部的第二个视频",
+        "detectBoth": "我们的 AI 将检测两个视频中的面部",
+        "chooseFace": "您可以选择要映射和替换的面部",
+        "singleImage": "如果您只想使用 <strong>单个面部图像</strong>，可以跳过此步骤，继续下一步。"
+      },
+      "step3": {
+        "title": "3. 上传用于换脸的面部图像",
+        "description": "上传您想要放入视频中的面部照片。",
+        "bestResults": "为获得最佳效果：",
+        "clearPhoto": "使用清晰的正面照片",
+        "wellLit": "确保面部光线充足",
+        "avoidFilters": "避免重度滤镜或面部遮挡（如太阳镜或口罩）",
+        "autoAlign": "AI 会自动对齐面部以匹配视频中的角度、光线和表情。"
+      },
+      "step4": {
+        "title": "4. 裁剪视频片段（可选）",
+        "description": "您可以裁剪上传的视频，只关注要换脸的部分。",
+        "trim": "修剪开始和结束时间",
+        "focus": "专注于面部可见的主要场景",
+        "improve": "这可以提高速度和输出质量",
+        "generate": "当您对片段满意后，点击 <strong>生成</strong>，让 AI 创建您的新视频。"
+      }
+    },
+    "features": {
+      "title": "我们的 AI 视频换脸在线工具的主要功能",
+      "speed": {
+        "title": "闪电般快速的最快视频换脸",
+        "description": "我们新优化的 AI 引擎可在 <strong>几秒钟内完成换脸，而不是几分钟</strong>。",
+        "faster": "比许多其他工具快 <strong>2 倍</strong>",
+        "complex": "甚至可以处理 <strong>复杂的多人视频</strong>",
+        "sixFaces": "单个视频最多支持 <strong>6 个面部</strong>",
+        "quick": "专为快速预览和快速最终导出而设计",
+        "watermarkFree": "您将获得 <strong>无水印、专业级的结果</strong>，无需长时间等待。"
+      },
+      "templates": {
+        "title": "热门视频换脸模板",
+        "description": "不知道从哪里开始？使用我们为换脸设计的 <strong>现成视频模板</strong>：",
+        "memeFormats": "病毒式表情包格式",
+        "movieScenes": "著名电影场景",
+        "reaction": "反应和合拍视频",
+        "cosplay": "角色扮演和角色编辑",
+        "shortForm": "适用于 TikTok、Reels 和 YouTube Shorts 的短视频内容",
+        "simple": "只需选择一个模板，上传您的面部，然后点击几下即可生成可分享的视频。"
+      },
+      "viral": {
+        "title": "使用视频换脸 AI 将任何片段变成病毒式热门",
+        "description": "使用我们强大的 <strong>视频换脸 AI</strong>，您可以将普通片段变成有趣、引人注目的内容：",
+        "movieMoment": "重现您主演的标志性电影时刻",
+        "memes": "用朋友的面部制作搞笑表情包",
+        "team": "将您的团队、家人或客户放入主题视频中",
+        "standOut": "通过独特的个性化编辑在社交媒体上脱颖而出",
+        "easy": "创建人们 <strong>观看、分享和记住</strong> 的视频从未如此简单。"
+      }
+    },
+    "legal": {
+      "title": "负责任使用和法律要求",
+      "intro": "我们的 AI 视频换脸工具专为创意和娱乐目的而设计。为确保合法和道德使用，请仔细阅读并遵循这些准则。",
+      "whoCanSwap": {
+        "title": "您可以替换谁？",
+        "mayUse": "您只能使用：",
+        "ownFace": "您自己的面部",
+        "consent": "已明确、知情同意您的个人的面部",
+        "fictional": "您拥有权利的虚构角色或公共领域内容",
+        "mayNotUse": "您不得使用：",
+        "noPermission": "未经明确许可的任何人的面部",
+        "celebrity": "用于商业目的或冒充的名人面部",
+        "minors": "未经父母/监护人同意的未成年人（18 岁以下）面部",
+        "deceive": "任何旨在欺骗、欺诈或虚假陈述的内容"
+      },
+      "prohibited": {
+        "title": "严格禁止的用途",
+        "description": "AI 视频换脸不得用于：",
+        "impersonation": "<strong>冒充和欺诈</strong>：创建深度伪造以欺骗他人、冒充个人或传播虚假信息",
+        "nonConsensual": "<strong>非自愿内容</strong>：未经许可将面部替换到敏感、私密或不适当的场景中",
+        "harassment": "<strong>骚扰和虐待</strong>：创建伤害、骚扰或侵犯任何个人尊严的内容",
+        "copyright": "<strong>版权侵权</strong>：未经适当授权使用受版权保护的视频内容（电影、电视节目、音乐视频）",
+        "political": "<strong>政治操纵</strong>：创建误导性政治内容或虚假背书",
+        "identityTheft": "<strong>身份盗窃</strong>：使用换脸欺诈性地将自己表现为另一个人"
+      },
+      "disclosure": {
+        "title": "AI 生成内容披露",
+        "important": "重要",
+        "description": "使用我们的换脸工具创建的视频是 AI 生成的合成媒体。",
+        "disclose": "在公开分享换脸视频时，您应该披露内容是经过 AI 修改的",
+        "jurisdictions": "在许多司法管辖区，未能披露深度伪造内容可能违反有关合成媒体的法律",
+        "watermarks": "根据您所在地区的法律要求，我们的工具可能会添加可见或不可见的水印以指示 AI 操作"
+      },
+      "responsibilities": {
+        "title": "您的法律责任",
+        "description": "使用此工具即表示您同意：",
+        "verify": "<strong>验证授权</strong>：确保您对所有上传的面部和视频内容拥有适当的权利和许可",
+        "comply": "<strong>遵守法律</strong>：遵守您所在司法管辖区内有关深度伪造、合成媒体、隐私和数据保护的所有适用法律",
+        "respect": "<strong>尊重权利</strong>：尊重所有个人的知识产权、人格权和隐私权",
+        "ethical": "<strong>道德使用</strong>：仅将工具用于合法、道德和无害的目的"
+      },
+      "enforcement": {
+        "title": "平台执行",
+        "description": "我们积极监控滥用行为并实施：",
+        "moderation": "自动化内容审核系统",
+        "reporting": "用户举报机制",
+        "suspension": "对违规行为暂停或终止账户",
+        "cooperation": "在法律要求时与执法部门合作",
+        "violation": "违反这些准则可能导致立即终止账户并可能采取法律行动。"
+      },
+      "compliance": {
+        "title": "区域合规性",
+        "description": "此工具符合：",
+        "china": "中国的\"深度合成\"法规要求内容标签和用户验证",
+        "eu": "欧盟 AI 法案对 AI 生成内容透明度的要求",
+        "us": "美国各州有关深度伪造和合成媒体的法律",
+        "consult": "有关合法使用的问题，请咨询您所在司法管辖区的法律顾问。"
+      }
+    },
+    "faq": {
+      "title": "视频换脸常见问题",
+      "q1": {
+        "question": "1. AI 视频换脸是否免费使用？",
+        "answer1": "是的，您可以使用我们的 <strong>免费视频换脸 AI</strong> 创建换脸视频。",
+        "answer2": "某些高级选项（如更高分辨率或更长的片段）可能需要升级，具体取决于您选择的计划。"
+      },
+      "q2": {
+        "question": "2. 我需要视频编辑经验吗？",
+        "answer1": "不需要。该工具为每个人而设计：",
+        "simple": "简单、分步的工作流程",
+        "aiHandles": "AI 自动处理检测、跟踪和混合",
+        "answer2": "如果您可以上传视频和面部照片，就可以创建换脸。"
+      },
+      "q3": {
+        "question": "3. 您支持哪些视频格式？",
+        "answer1": "我们支持大多数常见格式，包括：",
+        "mp4": "MP4",
+        "answer2": "如果您的文件无法上传，请尝试将其导出为 MP4 格式并重新上传。"
+      },
+      "q4": {
+        "question": "4. 我的视频会有水印吗？",
+        "answer1": "<strong>是的，为了法律合规和透明度。</strong>",
+        "answer2": "我们的工具会根据各司法管辖区关于合成媒体的法规添加可见或不可见的标记，以指示 AI 生成的内容。",
+        "visible": "<strong>可见水印</strong>：根据您所在地区的法律要求，可能会出现在预览或最终版本上",
+        "invisible": "<strong>不可见标记</strong>：嵌入视频中用于内容认证的数字指纹",
+        "purpose": "<strong>目的</strong>：确保遵守深度伪造披露法律并防止滥用",
+        "answer3": "这些标记通过清楚地识别内容为 AI 修改来保护您和他人。"
+      },
+      "q5": {
+        "question": "5. 我的数据和内容安全吗？",
+        "answer1": "我们非常重视隐私和安全：",
+        "secure": "您的视频和图像在传输过程中经过安全处理和加密",
+        "only": "内容 <strong>仅</strong> 用于生成您请求的结果",
+        "notTrain": "我们 <strong>不会</strong> 使用您的上传来训练我们的模型或与第三方分享",
+        "delete": "您可以在导出后删除文件",
+        "privacyRules": "重要隐私规则：",
+        "neverUpload1": "<strong>永远不要上传</strong> 包含他人面部但未经明确许可的内容",
+        "neverUpload2": "<strong>永远不要上传</strong> 敏感、私密或亲密的内容",
+        "neverUpload3": "<strong>永远不要上传</strong> 未经适当父母/监护人同意的未成年人面部",
+        "unauthorized": "未经授权使用他人的肖像可能违反隐私法律和我们的服务条款",
+        "responsible": "您全权负责确保您对所有上传内容拥有权利。"
+      },
+      "q6": {
+        "question": "6. 我可以在一个视频中替换多个面部吗？",
+        "answer1": "是的。我们的 AI 可以在单个视频中处理 <strong>最多 6 个面部</strong>：",
+        "swapOne": "一次替换一个或多个面部",
+        "mapDifferent": "将不同的面部映射到片段中的不同人物",
+        "great": "非常适合群组视频、团队介绍或家庭表情包"
+      },
+      "q7": {
+        "question": "7. AI 视频换脸也会改变声音吗？",
+        "answer1": "不会。换脸只会改变视频中的 <strong>视觉面部</strong>。",
+        "audioStays": "原始音频（声音、音乐、效果）保持不变",
+        "editLater": "如果需要，您可以稍后使用其他工具编辑音频"
+      },
+      "cta": "立即开始使用 <strong>AI 视频换脸在线</strong>，只需点击几下即可将您的想法、笑话和故事变成引人注目的视频。"
+    }
+  }
+}

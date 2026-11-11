@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "name": "Pollo AI Manual Design Variables",
+    "source": "manual extraction from pollo.ai public pages"
+  },
+  "collections": [
+    {
+      "name": "Colors",
+      "modes": ["Base"],
+      "variables": [
+        { "name": "bg/base", "type": "COLOR", "value": "#05070c" },
+        { "name": "bg/surface", "type": "COLOR", "value": "#0d1117" },
+        { "name": "bg/elevated", "type": "COLOR", "value": "#141a22" },
+        { "name": "text/primary", "type": "COLOR", "value": "#f8fafc" },
+        { "name": "text/secondary", "type": "COLOR", "value": "#b6c2d0" },
+        { "name": "text/tertiary", "type": "COLOR", "value": "#8a97a8" },
+        { "name": "accent/cyan", "type": "COLOR", "value": "#5fd7ff" },
+        { "name": "accent/blue", "type": "COLOR", "value": "#4ea3ff" },
+        { "name": "accent/teal", "type": "COLOR", "value": "#4ce6b2" },
+        { "name": "accent/purple", "type": "COLOR", "value": "#8b7cff" },
+        { "name": "accent/pink", "type": "COLOR", "value": "#ff6bd6" },
+        { "name": "feedback/success", "type": "COLOR", "value": "#33d17a" },
+        { "name": "feedback/warning", "type": "COLOR", "value": "#ffb84d" }
+      ]
+    },
+    {
+      "name": "Spacing",
+      "modes": ["Base"],
+      "variables": [
+        { "name": "space/1", "type": "FLOAT", "value": 4 },
+        { "name": "space/2", "type": "FLOAT", "value": 8 },
+        { "name": "space/3", "type": "FLOAT", "value": 12 },
+        { "name": "space/4", "type": "FLOAT", "value": 16 },
+        { "name": "space/5", "type": "FLOAT", "value": 24 },
+        { "name": "space/6", "type": "FLOAT", "value": 32 },
+        { "name": "space/7", "type": "FLOAT", "value": 48 },
+        { "name": "space/8", "type": "FLOAT", "value": 64 }
+      ]
+    },
+    {
+      "name": "Radius",
+      "modes": ["Base"],
+      "variables": [
+        { "name": "radius/sm", "type": "FLOAT", "value": 12 },
+        { "name": "radius/md", "type": "FLOAT", "value": 16 },
+        { "name": "radius/lg", "type": "FLOAT", "value": 24 },
+        { "name": "radius/pill", "type": "FLOAT", "value": 999 }
+      ]
+    }
+  ]
+}

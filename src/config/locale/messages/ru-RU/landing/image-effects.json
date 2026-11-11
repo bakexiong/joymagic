@@ -1,0 +1,64 @@
+{
+  "titles": {
+    "advanced-photography": "Продвинутая Фотография",
+    "plastic-bubble-figure": "Пластиковая Фигура в Пузыре",
+    "felt-3d-polaroid": "Фетровый 3D Polaroid",
+    "glass-ball": "Стеклянный Шар",
+    "micro-landscape-mini-world": "Мини-Мир Микроландшафта",
+    "american-comic-style": "Американский Комикс-Стиль",
+    "futuristic-american-comics": "Футуристические Американские Комиксы",
+    "my-world": "Мой Мир",
+    "felt-keychain": "Фетровый Брелок",
+    "lofi-pixel-character-mini-card": "Мини-Карта Lo-Fi Пиксельного Персонажа",
+    "blurry-selfie-luffy": "Размытое Селфи Луффи",
+    "cyberpunk": "Киберпанк",
+    "exotic-charm": "Экзотическое Очарование",
+    "acrylic-ornaments": "Акриловые Украшения",
+    "furry-dream-doll": "Пушистая Кукла-Мечта",
+    "in-the-stadium": "На Стадионе",
+    "lying-in-fluffy-belly": "Лежать в Пушистом Животике",
+    "angel-figurine": "Фигурка Ангела"
+  },
+  "gallery": {
+    "metadata": {
+      "title": "Эффекты Изображений | joymagic",
+      "description": "Просматривайте популярные эффекты изображений в masonry-галерее и переходите к созданию изображения в один клик."
+    },
+    "ctaLabel": "Создать Похожее Изображение",
+    "inputLabel": "Вход",
+    "outputLabel": "Выход",
+    "previewLabel": "Превью"
+  },
+  "workspace": {
+    "metadata": {
+      "title": "Рабочее Пространство Эффектов Изображений | joymagic",
+      "description": "Загрузите изображение, выберите эффект и управляйте этой генерацией в отдельном рабочем пространстве."
+    },
+    "category": "Изображение",
+    "pageTitle": "Эффекты Изображений",
+    "workspaceLabel": "Рабочее пространство",
+    "inputBadge": "1 входное изображение",
+    "selectedEffect": "Выбранный эффект",
+    "change": "Изменить",
+    "imageTitle": "Изображение",
+    "imageHint": "PNG, JPG, WEBP до 15 МБ",
+    "uploadHint": "Нажмите, чтобы загрузить изображение",
+    "tryExamples": "Попробовать примеры",
+    "estimating": "Расчёт...",
+    "create": "Создать",
+    "creditsUnit": "кредиты",
+    "estimateError": "Не удалось оценить кредиты:",
+    "emptyState": "Похоже, вы ещё ничего не создали.",
+    "inputLabel": "Вход",
+    "outputLabel": "Выход",
+    "exampleAria": "Использовать пример {index}",
+    "dialog": {
+      "title": "Выберите эффект изображения",
+      "searchPlaceholder": "Найдите нужный эффект",
+      "closeAria": "Закрыть выбор эффекта",
+      "description": "Выберите эффект изображения из той же галереи, что используется на странице эффектов изображений.",
+      "emptyTitle": "Подходящих эффектов нет",
+      "emptyDescription": "Попробуйте другое ключевое слово."
+    }
+  }
+}

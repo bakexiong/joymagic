@@ -1,0 +1,146 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "上传源图片",
+      "hint": "最多上传 {max} 张图片（JPG/PNG/WEBP）",
+      "dragDrop": "拖放或点击上传",
+      "dropHere": "将图片拖放到此处"
+    },
+    "aspectRatio": {
+      "title": "选择宽高比",
+      "placeholder": "选择宽高比",
+      "auto": "自动",
+      "hint": "选择 Nano Banana 图生图输出的宽高比"
+    },
+    "prompt": {
+      "title": "输入编辑提示词",
+      "placeholder": "描述您想要的编辑效果，例如：'转换为动漫风格'、'应用油画效果'、'使其看起来像电影画面'",
+      "hint": "请具体描述您想要的编辑效果——风格、氛围、光线和细节"
+    },
+    "generate": {
+      "title": "生成编辑后的图片",
+      "cta": "生成",
+      "generating": "生成中..."
+    }
+  },
+  "preview": {
+    "title": "预览",
+    "original": "原图",
+    "swap": "切换",
+    "placeholder": "上传图片并输入编辑提示词，即可在此预览 Nano Banana 图生图结果。"
+  },
+  "common": {
+    "selectedCount": "已选择：{count}/{max} 张图片",
+    "notSelected": "未选择"
+  },
+  "errors": {
+    "invalidFileType": "文件类型无效。请上传图片文件（JPG、PNG、WEBP）。",
+    "uploadFailed": "上传失败：{error}",
+    "uploadFailedGeneric": "上传失败",
+    "sourceImageRequired": "请至少上传一张源图片",
+    "promptRequired": "请输入编辑提示词",
+    "generationFailed": "图片编辑失败",
+    "taskFailed": "任务处理失败",
+    "taskTimeout": "任务处理超时，请稍后重试",
+    "taskIdNotFound": "无法获取任务ID，请检查API响应格式",
+    "processingFailed": "处理失败，请重试",
+    "statusQueryFailed": "查询任务状态失败",
+    "apiResponseParseFailed": "解析API响应失败"
+  },
+  "page": {
+    "metadata": {
+      "title": "Nano Banana 图生图 AI 编辑器 — 在线免费转换图片 | joymagic",
+      "description": "使用 Nano Banana 图生图 AI 在线编辑和转换图片。上传最多10张图片，选择10+宽高比，几秒内完成风格迁移、增强和创意图生图转换。",
+      "keywords": "nano banana, nano-banana, nano banana 图生图, 图生图 AI, nano-banana 图片编辑器, AI 图生图转换, 批量图生图编辑, nano banana AI, 在线图生图编辑器"
+    },
+    "hero": {
+      "title": "Nano Banana 图生图 — AI 图片编辑与转换工具",
+      "description": "使用 <strong class=\"text-primary font-semibold\">Nano Banana 图生图</strong> AI 编辑器转换您的图片。上传最多 <strong class=\"text-primary font-semibold\">10 张图片</strong>，选择10+宽高比，应用风格迁移、色彩调整、艺术效果和创意转换——一切只需几秒。",
+      "button1": "试用 Nano Banana 图生图",
+      "button2": "查看价格"
+    },
+    "keyFeatures": {
+      "title": "为什么选择 Nano Banana 图生图编辑？",
+      "description": "基于 Nano Banana 技术的高级 AI 图生图编辑",
+      "multiImage": {
+        "title": "Nano Banana 批量图生图",
+        "description": "一次上传最多10张图片，使用 Nano Banana 进行批量图生图编辑。同时处理多张图片，保持一致的风格和质量。"
+      },
+      "aspectRatio": {
+        "title": "Nano Banana 宽高比控制",
+        "description": "Nano Banana 图生图支持10+宽高比，包括 1:1、3:2、2:3、3:4、4:3、4:5、5:4、9:16、16:9 和 21:9，满足各种输出尺寸需求。"
+      },
+      "smartEdit": {
+        "title": "智能图生图编辑",
+        "description": "Nano Banana 理解图片上下文和语义，实现精准、自然的图生图转换。智能 AI 知道该改变什么、保留什么。"
+      },
+      "affordable": {
+        "title": "实惠的 Nano Banana 定价",
+        "description": "高性价比的 Nano Banana 图生图转换，专业级 AI 编辑适用于任何规模的项目。"
+      }
+    },
+    "promptingTips": {
+      "title": "如何获得最佳 Nano Banana 图生图效果",
+      "specific": {
+        "title": "提示词要具体",
+        "description": "为获得最佳 Nano Banana 图生图效果，请准确描述您想要的编辑。例如：\"转换为水彩风格\"或\"添加暖色调电影色彩\"。"
+      },
+      "style": {
+        "title": "指定艺术风格",
+        "description": "使用 Nano Banana 图生图时，请明确目标风格：\"动漫插画\"、\"油画\"、\"照片级增强\"、\"复古胶片风格\"等。"
+      },
+      "color": {
+        "title": "色彩与氛围引导",
+        "description": "通过色彩和氛围提示引导 Nano Banana 图生图：\"鲜艳饱和色彩\"、\"柔和粉彩色调\"、\"暗调氛围\"、\"金色时光温暖感\"等。"
+      },
+      "details": {
+        "title": "添加详细说明",
+        "description": "通过指定光线、构图、纹理以及需要保留或转换的元素，最大化 Nano Banana 图生图质量。"
+      }
+    },
+    "faq": {
+      "title": "Nano Banana 图生图常见问题",
+      "description": "关于 Nano Banana 图生图 AI 编辑器的常见问题",
+      "q1": {
+        "question": "Nano Banana 图生图一次可以编辑多少张图片？",
+        "answer": "使用 Nano Banana 图生图编辑器，您可以一次上传最多10张图片进行批量图生图编辑。"
+      },
+      "q2": {
+        "question": "Nano Banana 图生图支持哪些宽高比？",
+        "answer": "Nano Banana 图生图支持10+宽高比：1:1、3:2、2:3、3:4、4:3、4:5、5:4、9:16、16:9 和 21:9。您也可以使用自动模式。"
+      },
+      "q3": {
+        "question": "Nano Banana 图生图支持哪些图片格式？",
+        "answer": "Nano Banana 图生图支持 PNG、JPEG、JPG 和 WebP 格式。为获得最佳效果，请使用清晰、光线充足的源图片。"
+      },
+      "q4": {
+        "question": "如何为 Nano Banana 图生图编写有效的提示词？",
+        "answer": "为获得最佳效果，请包含详细描述：目标风格、氛围、光线、色彩和构图。更多细节通常能产生更好的转换效果。"
+      },
+      "q5": {
+        "question": "Nano Banana 图生图与其他 AI 编辑器有何不同？",
+        "answer": "Nano Banana 使用先进的 AI 技术进行上下文感知、语义智能的图生图转换，并支持灵活的宽高比控制。它深度理解图片内容，产生自然精准的编辑效果。"
+      }
+    },
+    "finalCTA": {
+      "title": "准备好试用 Nano Banana 图生图了吗？",
+      "description": "立即开始使用 Nano Banana 图生图 AI 转换您的图片。快速、高质量、智能的图生图转换触手可及。",
+      "button": "立即试用 Nano Banana 图生图"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "imageToImage": "图生图",
+      "nanoBanana": "Nano Banana"
+    },
+    "schema": {
+      "softwareName": "Nano Banana 图生图 AI 编辑器 — joymagic",
+      "howToName": "如何使用 Nano Banana 图生图 AI 编辑器",
+      "howToDescription": "了解如何使用 Nano Banana 图生图 AI 技术编辑和转换图片。上传图片、选择宽高比，应用智能 AI 图生图编辑。",
+      "features": {
+        "aiImageEditing": "Nano Banana 图生图 AI 编辑",
+        "multiImage": "Nano Banana 批量图生图",
+        "aspectRatio": "Nano Banana 宽高比控制"
+      }
+    }
+  }
+}

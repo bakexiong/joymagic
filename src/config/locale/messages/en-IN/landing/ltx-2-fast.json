@@ -1,0 +1,276 @@
+{
+  "ltx2FastPage": {
+    "metadata": {
+      "title": "LTX-2 Video Generator | Free AI Text to Video & Image to Video Tool Online | joymagic",
+      "description": "Generate stunning 4K AI videos with LTX-2. Free online text-to-video and image-to-video generator powered by open source LTX 2 model. No download required, works in browser.",
+      "keywords": "LTX-2, LTX 2 AI, LTX 2 video generator, text to video, image to video, AI video generator, LTX 2 free, LTX 2 online, 4K video generator, open source video AI"
+    },
+    "hero": {
+      "title": "LTX-2 AI Video Generator",
+      "description": "Transform your ideas into professional-grade videos with synchronized audio. Free online text-to-video generator powered by Lightricks' LTX 2 AI model. Generate stunning 4K videos with synchronized audio in one unified pass.<br/><br/>Have reference images? <a href=\"/image-to-video/ltx2-fast\" class=\"text-primary underline\">Try LTX-2 Image to Video</a> for character animation.",
+      "button1": "Start Creating Free",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Why Choose LTX-2 Video Generator?",
+      "description": "Experience the next generation of AI video creation with cutting-edge features built for professionals and creators alike.",
+      "native4K": {
+        "title": "Native 4K Resolution",
+        "description": "Generate stunning videos at true 4K (3840×2160) resolution. Perfect for professional content, marketing campaigns, and broadcast-quality productions."
+      },
+      "synchronizedAudio": {
+        "title": "Synchronized Audio",
+        "description": "LTX-2 generates video and audio together in one unified pass. Motion, dialogue, ambience, and music are naturally aligned without manual syncing."
+      },
+      "lightningFast": {
+        "title": "Lightning Fast Generation",
+        "description": "Generate a 6-second HD video in just 5 seconds of compute time. Up to 50% lower compute cost compared to competing AI video models."
+      },
+      "imageToVideo": {
+        "title": "Image to Video",
+        "description": "Transform any static image into dynamic video content. Perfect for animating artwork, photos, product shots, and concept designs."
+      },
+      "creativeControl": {
+        "title": "Precise Creative Control",
+        "description": "Multi-keyframe conditioning, 3D camera logic, and LoRA fine-tuning support give you complete control over every aspect of your video."
+      },
+      "openSource": {
+        "title": "Open Source Foundation",
+        "description": "Built on Lightricks' open-source LTX 2 model. Full transparency with model weights available on GitHub and Hugging Face for customization."
+      }
+    },
+    "specs": {
+      "title": "LTX-2 Technical Specifications",
+      "description": "Industry-leading performance metrics that set the standard for AI video generation.",
+      "maxResolution": "Maximum Resolution",
+      "fps": "FPS Frame Rate",
+      "maxLength": "Max Video Length",
+      "lowerCost": "Lower Compute Cost"
+    },
+    "howItWorks": {
+      "title": "How to Generate Videos with LTX-2",
+      "description": "Create professional AI videos in three simple steps. No technical knowledge required.",
+      "step1": {
+        "title": "Enter Your Prompt",
+        "description": "Describe the video you want to create. Include details about the scene, action, camera movement, and mood for best results."
+      },
+      "step2": {
+        "title": "Choose Settings",
+        "description": "Select your preferred duration (up to 20 seconds) and enable audio sync."
+      },
+      "step3": {
+        "title": "Generate & Download",
+        "description": "Click generate and watch LTX-2 AI create your video with synchronized audio. Download in high quality for immediate use."
+      }
+    },
+    "useCases": {
+      "title": "Perfect For Every Creator",
+      "description": "LTX-2 powers diverse creative workflows across industries.",
+      "socialMedia": "Social Media Content",
+      "filmTV": "Film & TV Production",
+      "marketing": "Marketing & Advertising",
+      "gameDev": "Game Development",
+      "educational": "Educational Content",
+      "artAnimation": "Art & Animation",
+      "corporate": "Corporate Videos",
+      "musicVideos": "Music Videos"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Everything you need to know about LTX-2 AI Video Generator.",
+      "q1": {
+        "question": "What is LTX-2 and how does it work?",
+        "answer": "LTX-2 is Lightricks' next-generation open-source AI video foundation model. It uses a DiT (Diffusion-Transformer) hybrid architecture with space-time modeling to generate high-fidelity videos from text prompts or images. The model creates synchronized audio and video in a single pass, eliminating the need for separate audio stitching or manual syncing. LTX-2 supports native 4K resolution at up to 50 FPS with clips up to 20 seconds long."
+      },
+      "q2": {
+        "question": "Is LTX-2 video generator free to use?",
+        "answer": "Yes, our LTX-2 video generator offers free access for basic video generation. The underlying LTX 2 model is fully open-source with complete model weights available on GitHub and Hugging Face. For higher resolution (4K), longer durations, and commercial use, premium plans are available with additional features and priority processing."
+      },
+      "q3": {
+        "question": "What resolution and quality can LTX-2 generate?",
+        "answer": "LTX-2 supports multiple resolutions including 720p HD, 1080p Full HD, 1440p QHD, and native 4K Ultra HD (3840×2160). The model can generate videos at frame rates up to 50 FPS, delivering smooth cinematic motion. Maximum video duration is 20 seconds of continuous synchronized audio-video generation."
+      },
+      "q4": {
+        "question": "Can I use LTX-2 with ComfyUI locally?",
+        "answer": "Yes! LTX-2 has native ComfyUI integration. You can download the model weights from Hugging Face and use them with ComfyUI-LTXVideo nodes for local generation. For optimal performance, NVIDIA recommends 12GB+ VRAM for 720p/1080p and 24GB+ for 4K generation. The model supports NVFP8 quantization for reduced memory usage and faster inference on RTX GPUs."
+      },
+      "q5": {
+        "question": "What GPU and VRAM do I need to run LTX-2 locally?",
+        "answer": "Minimum requirements: 12GB VRAM for 720p-1080p at 24-30 FPS. Recommended: 16-24GB VRAM (RTX 4080, RTX 3090) for comfortable 1080p-1440p generation. Ideal: 24GB+ VRAM (RTX 4090, RTX 5090) for native 4K at 50 FPS. NVIDIA has optimized NVFP8 weights that reduce VRAM by 40% and improve performance by 2x on RTX 40/50 series GPUs."
+      },
+      "q6": {
+        "question": "How does LTX-2 compare to other AI video generators?",
+        "answer": "LTX-2 is the first open-source model combining synchronized audio-video generation, native 4K resolution, and 50 FPS in one system. Compared to Runway, Pika, and Kling, LTX-2 offers up to 50% lower compute costs and full open-source transparency. It excels in visual fidelity and runs efficiently on consumer GPUs, making professional video creation accessible to independent creators."
+      },
+      "q7": {
+        "question": "Can I train custom LoRA models with LTX-2?",
+        "answer": "Yes! LTX-2 supports LoRA fine-tuning for custom styles, motion patterns, and character likeness. Training for motion, style, or likeness can take less than an hour in many settings. The LTX-2 Trainer provides comprehensive documentation for full fine-tuning, LoRA training, and IC-LoRA (Identity-Consistent LoRA) workflows."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Create Amazing Videos?",
+      "description": "Join thousands of creators using LTX-2 to bring their visions to life.",
+      "button": "Start Generating Now — It's Free"
+    }
+  },
+  "ltx2FastImageToVideoPage": {
+    "metadata": {
+      "title": "LTX-2 Image to Video | Free AI Image to Video Generator | 4K Image to Video Online | joymagic",
+      "description": "Transform images into stunning 4K videos with LTX-2 image to video AI. Free online LTX-2 image to video generator with synchronized audio. Convert static images to dynamic videos in seconds. No download required.",
+      "keywords": "ltx-2 image to video, ltx-2 image to video generator, ltx-2 image to video AI, ltx-2 image to video online, ltx-2 image to video free, LTX-2 image to video, LTX 2 image to video, image to video ltx-2, AI image to video, 4K image to video, free image to video, image to video generator, convert image to video, animate image to video"
+    },
+    "hero": {
+      "title": "LTX-2 Image to Video AI Generator",
+      "description": "Transform your images into professional 4K videos with synchronized audio using LTX-2 image to video technology. Our free LTX-2 image to video generator creates stunning videos from static images in seconds. Experience the power of LTX-2 image to video AI with native 4K resolution and up to 50 FPS.<br/><br/>No reference images? <a href=\"/text-to-video/ltx2-fast\" class=\"text-primary underline\">Try LTX-2 Text to Video</a> to generate from scratch.",
+      "button1": "Start Creating Free",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Why Choose LTX-2 Image to Video?",
+      "description": "Experience the best LTX-2 image to video AI with cutting-edge features. Create professional videos from images with synchronized audio in one unified pass.",
+      "native4K": {
+        "title": "Native 4K Resolution",
+        "description": "Generate stunning videos at true 4K (3840×2160) resolution with LTX-2 image to video. Perfect for professional content, marketing campaigns, and broadcast-quality productions."
+      },
+      "synchronizedAudio": {
+        "title": "Synchronized Audio",
+        "description": "LTX-2 image to video generates video and audio together in one unified pass. Motion, dialogue, ambience, and music are naturally aligned without manual syncing."
+      },
+      "lightningFast": {
+        "title": "Lightning Fast Generation",
+        "description": "Generate a 6-second HD video in just 5 seconds of compute time with LTX-2 image to video. Up to 50% lower compute cost compared to competing AI video models."
+      },
+      "imageToVideo": {
+        "title": "Image to Video Animation",
+        "description": "Transform any static image into dynamic video content with LTX-2 image to video. Perfect for animating artwork, photos, product shots, and concept designs."
+      },
+      "creativeControl": {
+        "title": "Precise Creative Control",
+        "description": "LTX-2 image to video offers multi-keyframe conditioning, 3D camera logic, and LoRA fine-tuning support for complete control over every aspect of your video."
+      },
+      "openSource": {
+        "title": "Open Source Foundation",
+        "description": "LTX-2 image to video is built on Lightricks' open-source LTX 2 model. Full transparency with model weights available on GitHub and Hugging Face."
+      }
+    },
+    "specs": {
+      "title": "LTX-2 Image to Video Technical Specifications",
+      "description": "Industry-leading performance metrics that set the standard for LTX-2 image to video generation.",
+      "maxResolution": "Maximum Resolution",
+      "fps": "FPS Frame Rate",
+      "maxLength": "Max Video Length",
+      "lowerCost": "Lower Compute Cost"
+    },
+    "howItWorks": {
+      "title": "How to Use LTX-2 Image to Video",
+      "description": "Create professional videos from images with LTX-2 image to video in four simple steps. No technical knowledge required.",
+      "step1": {
+        "title": "Upload Your Image",
+        "description": "Upload a static image you want to animate with LTX-2 image to video. Works with photos, illustrations, artwork, and more."
+      },
+      "step2": {
+        "title": "Enter Your Prompt",
+        "description": "Describe how you want the image to be animated with LTX-2 image to video. Include details about motion, camera movement, and mood for best results."
+      },
+      "step3": {
+        "title": "Choose Settings",
+        "description": "Select your preferred duration (up to 20 seconds) and enable audio sync for your LTX-2 image to video generation."
+      },
+      "step4": {
+        "title": "Generate & Download",
+        "description": "Click generate and watch LTX-2 image to video AI create your video with synchronized audio. Download your 4K video in high quality for immediate use."
+      }
+    },
+    "useCases": {
+      "title": "Perfect For Every Creator",
+      "description": "LTX-2 image to video powers diverse creative workflows across industries.",
+      "socialMedia": "Social Media Content",
+      "filmTV": "Film & TV Production",
+      "marketing": "Marketing & Advertising",
+      "gameDev": "Game Development",
+      "educational": "Educational Content",
+      "artAnimation": "Art & Animation",
+      "corporate": "Corporate Videos",
+      "musicVideos": "Music Videos"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Everything you need to know about LTX-2 image to video generator.",
+      "q1": {
+        "question": "What is LTX-2 image to video and how does it work?",
+        "answer": "LTX-2 image to video is Lightricks' next-generation open-source AI video foundation model that transforms static images into dynamic videos. It uses a DiT (Diffusion-Transformer) hybrid architecture with space-time modeling to generate high-fidelity videos from your uploaded images. The LTX-2 image to video model creates synchronized audio and video in a single pass, eliminating the need for separate audio stitching or manual syncing. LTX-2 image to video supports native 4K resolution at up to 50 FPS with clips up to 20 seconds long."
+      },
+      "q2": {
+        "question": "Is LTX-2 image to video generator free to use?",
+        "answer": "Yes, our LTX-2 image to video generator offers free access for basic video generation. The underlying LTX 2 model is fully open-source with complete model weights available on GitHub and Hugging Face. For higher resolution (4K), longer durations, and commercial use, premium plans are available with additional features and priority processing."
+      },
+      "q3": {
+        "question": "What resolution and quality can LTX-2 image to video generate?",
+        "answer": "LTX-2 image to video supports multiple resolutions including 720p HD, 1080p Full HD, 1440p QHD, and native 4K Ultra HD (3840×2160). The LTX-2 image to video model can generate videos at frame rates up to 50 FPS, delivering smooth cinematic motion. Maximum video duration is 20 seconds of continuous synchronized audio-video generation."
+      },
+      "q4": {
+        "question": "What types of images work best with LTX-2 image to video?",
+        "answer": "LTX-2 image to video works well with a wide variety of images including photographs, illustrations, artwork, product shots, and concept designs. Clear, well-lit images with good contrast tend to produce the best results. The LTX-2 image to video model can animate both realistic and stylized images, maintaining the visual style of your source material."
+      },
+      "q5": {
+        "question": "How does LTX-2 image to video compare to text to video?",
+        "answer": "LTX-2 image to video uses your uploaded image as the starting point, giving you precise control over the visual appearance and style. Text to video generates everything from scratch based on your text description. LTX-2 image to video is ideal when you have a specific image you want to animate, while text to video is better for creating entirely new scenes from imagination."
+      },
+      "q6": {
+        "question": "Can I use LTX-2 image to video with ComfyUI locally?",
+        "answer": "Yes! LTX-2 has native ComfyUI integration. You can download the model weights from Hugging Face and use them with ComfyUI-LTXVideo nodes for local LTX-2 image to video generation. For optimal performance, NVIDIA recommends 12GB+ VRAM for 720p/1080p and 24GB+ for 4K generation. The model supports NVFP8 quantization for reduced memory usage and faster inference on RTX GPUs."
+      },
+      "q7": {
+        "question": "Can I train custom LoRA models with LTX-2 image to video?",
+        "answer": "Yes! LTX-2 supports LoRA fine-tuning for custom styles, motion patterns, and character likeness. Training for motion, style, or likeness can take less than an hour in many settings. The LTX-2 Trainer provides comprehensive documentation for full fine-tuning, LoRA training, and IC-LoRA (Identity-Consistent LoRA) workflows."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Create Amazing Videos with LTX-2 Image to Video?",
+      "description": "Join thousands of creators using LTX-2 image to video AI to bring their images to life. Start generating videos from images today.",
+      "button": "Start Generating Now — It's Free"
+    }
+  },
+  "ltx2Fast": {
+    "form": {
+      "prompt": {
+        "label": "Prompt",
+        "placeholder": "Describe the video you want to create...\n\nExample: A cinematic aerial shot of a mountain range at golden hour. Snow-capped peaks catch warm orange light as clouds drift through valleys below. Camera slowly pans across the majestic landscape."
+      },
+      "duration": {
+        "label": "Duration"
+      },
+      "generateAudio": {
+        "label": "Audio Sync",
+        "description": "Generate synchronized audio with video"
+      },
+      "buttons": {
+        "reset": "Reset",
+        "run": "Generate",
+        "generating": "Generating..."
+      }
+    },
+    "status": {
+      "idle": "Idle",
+      "processing": "Processing...",
+      "completed": "Completed"
+    },
+    "preview": {
+      "placeholder": "Your generated video will appear here"
+    },
+    "actions": {
+      "downloadVideo": "Download Video",
+      "downloadFailed": "Download failed"
+    },
+    "errors": {
+      "promptRequired": "Prompt is required",
+      "generationFailed": "Generation failed",
+      "apiResponseParseFailed": "Failed to parse API response",
+      "taskIdNotFound": "Task ID not found",
+      "taskTimeout": "Task timeout",
+      "statusQueryFailed": "Status query failed",
+      "taskFailed": "Task failed",
+      "processingFailed": "Processing failed"
+    }
+  }
+}

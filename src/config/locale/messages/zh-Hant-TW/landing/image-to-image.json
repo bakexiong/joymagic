@@ -1,0 +1,177 @@
+{
+  "imageToImage": {
+    "id": "image-to-image",
+    "title": "joymagic 圖生圖 AI 生成器",
+    "description": "幾秒鐘內將任何圖片轉換為品牌視覺。無需設計技能。",
+    "steps": {
+      "sourceImage": {
+        "title": "上傳源圖片",
+        "cta": "拖拽/點擊上傳",
+        "hint": "支援 JPG/PNG/WEBP",
+        "dragDrop": "拖拽或點擊上傳",
+        "dropHere": "將圖片拖放到此處"
+      },
+      "prompt": {
+        "title": "輸入轉換提示詞",
+        "placeholder": "描述您想要如何轉換圖片，例如「讓它看起來像一幅畫」「將背景改為海灘」「添加日落天空」",
+        "hint": "請具體描述您想要做的更改"
+      },
+      "generate": {
+        "title": "生成轉換後的圖片",
+        "cta": "生成",
+        "generating": "生成中..."
+      }
+    },
+    "preview": {
+      "title": "預覽",
+      "original": "原圖",
+      "generated": "生成圖",
+      "placeholder": "上傳圖片並輸入提示詞，這裡將顯示轉換效果。"
+    },
+    "templates": {
+      "title": "提示詞模板",
+      "all": "全部",
+      "noItems": "此分類暫無模板"
+    },
+    "common": {
+      "selected": "已選擇：{name}",
+      "notSelected": "未選擇檔案"
+    },
+    "errors": {
+      "invalidFileType": "無效的檔案類型。請上傳圖片檔案（JPG、PNG、WEBP）。",
+      "uploadFailed": "上傳失敗：{error}",
+      "uploadFailedGeneric": "上傳失敗",
+      "sourceImageRequired": "請先上傳源圖片",
+      "promptRequired": "請輸入轉換提示詞",
+      "generationFailed": "圖片生成失敗",
+      "taskFailed": "任務處理失敗",
+      "taskTimeout": "任務處理超時，請稍後重試",
+      "taskIdNotFound": "無法獲取任務 ID，請檢查 API 響應格式",
+      "processingFailed": "處理失敗，請重試",
+      "statusQueryFailed": "查詢任務狀態失敗"
+    }
+  },
+  "imageToImagePage": {
+    "metadata": {
+      "title": "圖生圖 AI 生成器 | 秒速生成品牌視覺 – joymagic",
+      "description": "使用 joymagic 的圖生圖 AI 生成器，將任何圖片轉換為品牌視覺。上傳一張圖片，獲得不同風格和場景的無限變化。高清輸出，快速生成，免費試用，商業可用。"
+    },
+    "hero": {
+      "title": "圖生圖 AI 生成器 – joymagic",
+      "description": "幾秒鐘內將任何圖片轉換為品牌視覺。無需設計技能。",
+      "button1": "從圖片生成",
+      "button2": "免費開始 · 無需信用卡"
+    },
+    "heroDescription": "上傳一張圖片，獲得無限變化——新風格、新場景、新氛圍，同時保持核心主題一致。",
+    "builtFor": {
+      "title": "為現代創作者打造：",
+      "hdOutputs": "高清輸出",
+      "fastGeneration": "快速生成",
+      "commercialReady": "商業可用"
+    },
+    "interfaceFeatures": {
+      "title": "在單一、簡潔的介面上，您可以獲得：",
+      "uploadArea": "用於上傳參考圖片的拖放區域",
+      "promptBox": "用於描述您想要的變化的提示框",
+      "styleDropdown": "風格下拉選單（寫實、動漫、插畫、3D、像素、復古等）",
+      "strengthSlider": "變化強度滑桿，從細微調整到完全重塑",
+      "generateButton": "單一生成按鈕，從一張圖片創建多個變化"
+    },
+    "whatYouCanDo": {
+      "title": "joymagic 圖生圖能做什麼",
+      "description": "與其從零開始，不如從一張圖片開始——讓 joymagic 完成其餘工作。",
+      "styleTransformations": {
+        "title": "風格與氛圍轉換",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>將照片轉換為插畫、動漫、繪畫、3D 渲染、像素藝術等</li><li>改變光線、色彩與氛圍，保持原始構圖不變</li><li>快速對同一視覺主題測試不同美術走向</li></ul><p class='text-sm text-muted-foreground italic'>當你想探索已知主題的不同視覺感時，這是最佳選擇。</p>"
+      },
+      "characterConsistency": {
+        "title": "角色與身份一致性",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>讓相同臉孔與角色出現在多張圖片</li><li>變換姿勢、場景或風格時，頭髮、服裝、關鍵特質能保持一致</li><li>非常適合 VTuber、故事創作者、漫畫家與吉祥物角色</li></ul><p class='text-sm text-muted-foreground italic'>免手動重畫，每張都維持視覺辨識。</p>"
+      },
+      "productBrand": {
+        "title": "產品與品牌視覺",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>以單一圖片產生多款產品照</li><li>快速置換產品至不同場景、季節或情境主題</li><li>標誌、主色調、造型都能維持一致</li></ul><p class='text-sm text-muted-foreground italic'>一張圖就可作為全年行銷素材來源。</p>"
+      },
+      "socialContent": {
+        "title": "社群內容多元產出",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>參考圖升級為完整的 YouTube/TikTok/Bilibili 縮圖、頻道橫幅、社群發文與部落格標題</li><li>每個平台格式、氛圍快速匹配</li></ul><p class='text-sm text-muted-foreground italic'>少找圖、多產出，專注內容創作。</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "joymagic 圖生圖的主要功能",
+      "description": "AI 轉圖，高速高質一手掌握。",
+      "uploadPromptTransform": {
+        "title": "上傳、提示、轉換",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>支援 JPG、PNG、WEBP 格式</li><li>自訂描述多元風格、場景與氛圍</li><li>多種社群、縮圖、標題解析度預設</li></ul><p class='text-sm text-muted-foreground italic'>可簡單拖一張圖直接生成，也能細調提示詞掌控質感。</p>"
+      },
+      "flexibleControl": {
+        "title": "彈性控制轉換強度",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>調整變化強度，從細節微調到大膽風格重塑</li><li>可偏好維持原構圖、角色、風格</li></ul><p class='text-sm text-muted-foreground italic'>預期性高，重複表現不靠運氣。</p>"
+      },
+      "highQuality": {
+        "title": "高質量輸出",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>HD 高清導出，細節銳利</li><li>標誌、文字、產品邊緣智能清晰保護</li><li>網站橫幅、簡報、可列印素材都適用</li></ul><p class='text-sm text-muted-foreground italic'>從草稿到成品，都有保證。</p>"
+      },
+      "nonDesigners": {
+        "title": "零設計基礎也上手",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>風格預設一鍵切換：寫實、動漫、插畫、3D、像素、復古</li><li>快速重生成，嘗試新風格</li><li>介面分明：上傳→選風格→調強度→導出</li></ul><p class='text-sm text-muted-foreground italic'>只要會傳圖，品牌視覺人人做。</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "joymagic 圖生圖怎麼用？",
+      "description": "四步完成：上傳、說明、選擇、下載。",
+      "step1": {
+        "title": "步驟 1 – 上傳你的圖片",
+        "description": "<p class='mb-3'>隨便一張主圖（產品、人、LOGO、UI、插畫），拖拉上傳，品牌辨識不流失。</p>"
+      },
+      "step2": {
+        "title": "步驟 2 – 說明變化",
+        "description": "<p class='mb-3'>自訂提示詞，引導 AI 生成效果。</p><p class='mb-2'>例如：</p><ul class='list-disc list-inside space-y-1 mb-3 ml-4'><li>「轉為夜晚溫暖動畫場景」</li><li>「像頂級攝影棚產品照片」</li><li>「把草圖變成乾淨的插畫」</li><li>「把角色放進夕陽下的賽博龐克城市」</li></ul><p class='text-sm text-muted-foreground italic'>短句、關鍵詞即可，或只指定風格預設。</p>"
+      },
+      "step3": {
+        "title": "步驟 3 – 選風格與強度",
+        "description": "<p class='mb-3'>你決定想要改變多少。</p><ul class='list-disc list-inside space-y-1 mb-3'><li>選預設風格（寫實、動漫、3D、插畫等）</li><li>可重度變化可保守微調</li><li>（選填）保持構圖、角色或風格優先</li></ul><p class='text-sm text-muted-foreground italic'>創意主導你把控，joymagic 幫你執行。</p>"
+      },
+      "step4": {
+        "title": "步驟 4 – 生成與下載",
+        "description": "<p class='mb-3'>一鍵生成，挑自己最愛。</p><ul class='list-disc list-inside space-y-1 mb-3'><li>單張輸入多重輸出</li><li>並列預覽對比結果</li><li>標記最愛，HD 下載</li><li>馬上社群、網站、簡報、廣告直接用</li></ul><p class='text-sm text-muted-foreground italic'>幾分鐘出整組品牌新圖。</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "為什麼要用 joymagic？",
+      "description": "圖生圖全流程專屬設計，不只是附加功能。",
+      "focused": {
+        "title": "專為圖生圖而生",
+        "description": "<p class='mb-3'>主流程環環相扣，沒有多餘的工具，從上手到高級都能靈活精細：<ul class='list-disc list-inside space-y-1 mb-3'><li>只有需要的核心功能</li><li>快速學習，快速產出</li><li>針對參考類生成深度調校</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "日常創作效率提升",
+        "description": "同題反覆測風格、調 prompt，一圖多變，快速不重複。"
+      },
+      "pricing": {
+        "title": "彈性收費，隨量而動",
+        "description": "免費試用全流程，需要提升可加購方案，細節見應用內頁。"
+      },
+      "commercialUse": {
+        "title": "商業使用無疑慮",
+        "description": "只要上傳內容權屬於你，結果圖片可安心商用。"
+      }
+    },
+    "perfectFor": {
+      "title": "誰最適合用 joymagic 圖生圖？",
+      "description": "創作者、品牌、設計師等對一致高品質視覺有需求者。",
+      "creators": {
+        "title": "內容創作者與網紅",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>一套一致視覺，品牌內容不走調</li><li>吸睛社媒縮圖、風格套版一次搞定</li><li>同主題多風格 A/B 測試</li><li>重複利用臉孔、吉祥物，快速產生新變體</li></ul><p class='text-sm text-muted-foreground italic'>再不用為每張圖反覆設計。</p>"
+      },
+      "ecommerce": {
+        "title": "電商與小型品牌",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>一張產品圖輕鬆變多場景</li><li>不同季節不同風格快速覆蓋</li><li>相同色系同調全品牌行銷用</li><li>網店、宣傳、廣告一條龍統一視覺</li></ul><p class='text-sm text-muted-foreground italic'>拍攝一次夠全年行銷。</p>"
+      },
+      "designers": {
+        "title": "設計師與機構",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>靈感發想、變化測試一站式完成</li><li>迅速生成 mood board 短時提案</li><li>快速累積概念圖供客戶選擇</li><li>草稿減時，精力留給細節打磨</li></ul><p class='text-sm text-muted-foreground italic'>joymagic 快速切換，完美嵌入現有設計流。</p>"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "whyModelTitle": "Neden bu model",
+  "whyModelDescription": "Odaklanmış bir model sayfası, bu modelin nerede en güçlü olduğunu, ne zaman kullanılacağını ve neden kendi iş akışı giriş noktasını hak ettiğini açıklamalıdır.",
+  "howItWorksTitle": "Nasıl çalışır?",
+  "howItWorksDescription": "Sayfa, kullanıcıların ana oluşturma akışından ayrılmadan model anlayışından eyleme geçmelerine yardımcı olacak şekilde yapılandırılmıştır.",
+  "howItWorksSteps": [
+    {
+      "step": "01",
+      "title": "Bir mod seçin",
+      "copy": "Modelin ana oluşturma modları arasında geçiş yapın ve amacınıza uygun iş akışına ulaşın."
+    },
+    {
+      "step": "02",
+      "title": "Bilgi istemi veya referans ekleyin",
+      "copy": "Varlıkları sıfırdan oluşturmanıza veya varlıkları iyileştirmenize bağlı olarak metinden, referanslardan veya her ikisinden başlayın."
+    },
+    {
+      "step": "03",
+      "title": "Oluşturun ve karşılaştırın",
+      "copy": "Hızlı bir şekilde yinelemek, yönleri karşılaştırmak ve en güçlü adayların ilerlemesini sağlamak için çalışma tezgahını kullanın."
+    },
+    {
+      "step": "04",
+      "title": "Yaratıcıda devam et",
+      "copy": "Güçlü bir yön belirledikten sonra bağlamı yeniden inşa etmeden çalışmaya devam etmek için yaratıcı akışına geçin."
+    }
+  ],
+  "workflowsTitle": "Tek model yüzeyi, birden fazla dikey iş akışı",
+  "workflowsDescription": "Sayfa, önce özellik kartlarını sunmak yerine gerçek sahne amacı üzerinden akıyor. Her mod ne işe yaradığını, nasıl yönlendirileceğini ve çalışan bir komut istemiyle nasıl başlanacağını açıklar.",
+  "bestForTitle": "Şunun için en iyisi:",
+  "bestForDescription": "Kullanım senaryosu çerçevelemesi, kullanıcıların yalnızca modelin ne yapabileceğini değil, aynı zamanda gerçek üretim çalışmasında en iyi nereye uyduğunu anlamalarına da yardımcı olur.",
+  "galleryTitle": "Premium model sayfası çıktıyı açıklamalı, modüllerin arkasına gömmemelidir",
+  "galleryDescription": "Genel ritim dikey bir editoryal düzeni takip ediyor: önce kahraman, sonra tezgah, sonra sahne mantığı, ürün mantığı ve gerçek çıktı kanıtı. Bu, kartın duvarına çökmeden sayfayı yoğun tutar.",
+  "galleryLead": "Gerçek çıktılar kanıtı taşımalıdır. Çevreleyen kopya kompakt, okunabilir ve ikincil kalır.",
+  "faqTitle": "Yalnızca sayfa stili değil, ürün çerçeveleme",
+  "faqDescription": "Cevaplar aynı dikey ritimde kaldığından sayfa, bir dizi bağımsız modül yerine sürekli bir ürün anlatımı gibi okunmaya devam eder.",
+  "openWithPrompt": "İstemle aç",
+  "openInCreator": "Yaratıcıda aç",
+  "sampleLabel": "Örnek",
+  "fallbackSampleTitle": "Model Örneği",
+  "fallbackSampleCaption": "Bu modelin kendi nesil kümesinden seçilen gerçek bir çıktı örneği.",
+  "controls": {
+    "promptWorkflow": "Hızlı iş akışı",
+    "creatorSync": "Yaratıcı senkronizasyonu",
+    "uploadUpToRefs": "En fazla {count} referans yükleyin",
+    "referenceUploads": "Referans yüklemeleri",
+    "aspectRatios": "{count}+ en boy oranları",
+    "resolutionPresets": "{count} çözünürlük ön ayarı"
+  }
+}

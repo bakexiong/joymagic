@@ -1,0 +1,50 @@
+{
+  "whyModelTitle": "為什麼是這個模型",
+  "whyModelDescription": "一個聚焦的模型頁，應該講清楚這個模型最強在哪裡、適合什麼時候使用，以及為什麼它值得擁有獨立的工作流程入口。",
+  "howItWorksTitle": "如何開始",
+  "howItWorksDescription": "整個頁面的結構，都是為了讓使用者在理解模型之後，能直接進入創作，而不用跳出主流程。",
+  "howItWorksSteps": [
+    {
+      "step": "01",
+      "title": "選擇模式",
+      "copy": "在模型的主要創作模式之間切換，直接進入最符合當前意圖的工作流程。"
+    },
+    {
+      "step": "02",
+      "title": "加入提示詞或參考圖",
+      "copy": "依照你的目標，從文字、參考圖，或兩者一起開始，無論是從零生成，還是基於既有素材繼續優化。"
+    },
+    {
+      "step": "03",
+      "title": "生成並比較結果",
+      "copy": "在工作台中快速迭代、比較不同方向，並把更強的結果繼續往下推進。"
+    },
+    {
+      "step": "04",
+      "title": "繼續進入 Creator",
+      "copy": "一旦找到足夠清晰的方向，就可以直接進入 Creator 流程繼續工作，而不需要重建上下文。"
+    }
+  ],
+  "workflowsTitle": "一個模型頁面，多條垂直工作流程",
+  "workflowsDescription": "頁面不是先堆疊功能卡片，而是直接沿著真實場景往下展開。每個模式都會說明它適合什麼、該怎麼控制，以及如何開始。",
+  "bestForTitle": "適合用在",
+  "bestForDescription": "用場景化方式來組織內容，能讓使用者不僅知道模型「能做什麼」，還知道它在真實生產流程裡最適合放在哪一環。",
+  "galleryTitle": "高級模型頁應該解釋結果，而不是把結果埋在模組堆裡",
+  "galleryDescription": "整頁遵循縱向編輯式節奏：先是首屏，再是工作台，然後是場景邏輯、產品理由，最後用真實結果做證明。這樣頁面資訊會更密，但不會淪為卡片牆。",
+  "galleryLead": "真正的說服力應該由結果來承擔，周圍的文案只需要保持克制、清晰，並作為輔助存在。",
+  "faqTitle": "不是只換頁面樣式，而是重新組織產品敘事",
+  "faqDescription": "FAQ 也保持同一條縱向閱讀節奏，讓整頁看起來仍然是一段連續的產品敘事，而不是一堆彼此割裂的模組。",
+  "openWithPrompt": "帶提示詞開啟",
+  "openInCreator": "在 Creator 中開啟",
+  "sampleLabel": "樣片",
+  "fallbackSampleTitle": "模型樣片",
+  "fallbackSampleCaption": "這是從當前模型真實生成結果中選取的一條示例輸出。",
+  "controls": {
+    "promptWorkflow": "提示詞工作流程",
+    "creatorSync": "與 Creator 同步",
+    "uploadUpToRefs": "最多上傳 {count} 張參考圖",
+    "referenceUploads": "支援參考圖上傳",
+    "aspectRatios": "{count}+ 種畫幅比例",
+    "resolutionPresets": "{count} 種解析度預設"
+  }
+}

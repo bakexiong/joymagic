@@ -1,0 +1,166 @@
+{
+  "title": "Seedream 5.0 Lite 文本生成图片",
+  "subtitle": "从文本描述生成精美的图片",
+  "prompt_label": "提示词",
+  "prompt_placeholder": "夜间户外拍摄：一个年轻男子站在公共电话亭内，手持蓝色电话听筒放在耳边。一只手随意地插在口袋里，他摆出放松的姿势。他穿着一件带图案的白色T恤、宽松的棕色裤子和搭在手臂上的夹克。电话亭的玻璃反射城市街灯，带有散景效果，营造出复古胶片风格。",
+  "prompt_tooltip": "输入您想要生成的图片描述",
+  "size_label": "图片尺寸",
+  "size_hint": "选择输出图片的尺寸",
+  "width_label": "宽度",
+  "height_label": "高度",
+  "buttons": {
+    "generate": "生成图片"
+  },
+  "errors": {
+    "promptRequired": "提示词是必填项"
+  },
+  "image_alt": "生成的图片",
+  "download": "下载",
+  "image_placeholder": "生成的图片将显示在这里",
+  "prompt_inspirations_button": "提示词灵感",
+  "prompt_guide_button": "提示词指南",
+  "powered_by": "由 joymagic 优化的 Seedream 5.0 Lite AI 模型提供支持",
+  "page": {
+    "metadata": {
+      "title": "Seedream 5.0 Lite 文本生成图片 - AI 图片生成器 | joymagic",
+      "description": "使用字节跳动的 Seedream 5.0 Lite 模型从文本生成图片，创建逼真场景、插图和艺术作品。支持英文和中文双语提示词，在 joymagic 一站式完成 AI 图片生成。",
+      "keywords": "Seedream 5.0 Lite, 文本生成图片，AI 图片生成器，seedream 5 lite，字节跳动，双语提示词"
+    },
+    "hero": {
+      "title": "Seedream 5.0 Lite 文本生成图片",
+      "description": "Seedream 5.0 Lite 是字节跳动的轻量级 AI 文本生成图片模型，可将文本描述转换为图片。用英文或中文描述任何场景、角色或概念，在下方免费生成高质量图片。",
+      "button1": "立即试用",
+      "button2": "查看价格"
+    },
+    "heroDescription": "使用 Seedream 5.0 Lite 模型，从简单的文本描述创建精美的 AI 图片。",
+    "keyFeatures": {
+      "title": "主要特性",
+      "description": "基于 Seedream 5.0 Lite 的 AI 图片生成能力",
+      "photorealistic": {
+        "title": "逼真质量",
+        "description": "生成看起来像专业摄影的图片。准确的皮肤纹理、自然光照、真实环境——没有 AI 图片常见的恐怖谷效应。"
+      },
+      "complexScene": {
+        "title": "复杂场景理解",
+        "description": "描述包含多个主体、空间关系和特定光照的详细场景。模型能准确理解您文本中的构图、位置和氛围。"
+      },
+      "bilingual": {
+        "title": "双语提示词",
+        "description": "使用英文、中文或两者混合编写。模型对两种语言的细微描述理解同样出色——适用于中文文化参考或特定术语。"
+      },
+      "fastGeneration": {
+        "title": "快速生成",
+        "description": "在几秒钟内生成高分辨率图片。Lite 模型针对速度进行了优化，非常适合实时创意探索和迭代。"
+      },
+      "styleFlexibility": {
+        "title": "风格灵活性",
+        "description": "创建逼真图片、动漫插画、油画、水彩画、3D 渲染等。在提示词中指定您想要的风格，或让模型匹配主题。"
+      }
+    },
+    "howItWorks": {
+      "title": "使用方法",
+      "description": "三个简单步骤生成图片",
+      "step1": {
+        "title": "输入提示词",
+        "description": "描述您想要生成的图片"
+      },
+      "step2": {
+        "title": "选择设置",
+        "description": "选择输出格式和偏好设置"
+      },
+      "step3": {
+        "title": "生成和下载",
+        "description": "获取您的 AI 生成图片并下载"
+      }
+    },
+    "promptingTips": {
+      "title": "提示词技巧",
+      "lighting": {
+        "title": "具体描述光照",
+        "description": "\"左侧金色时光阳光，柔和阴影\" 比 \"良好光照\" 效果更好。"
+      },
+      "camera": {
+        "title": "包含相机细节",
+        "description": "\"使用 85mm 镜头拍摄，浅景深\" 可增加专业摄影质量。"
+      },
+      "style": {
+        "title": "指定艺术风格",
+        "description": "\"宫崎骏风格的数字插画\" 或 \"超写实 3D 渲染\" 可提供清晰方向。"
+      },
+      "mood": {
+        "title": "描述情绪和氛围",
+        "description": "\"舒适、温暖、怀旧的感觉\" 或 \"戏剧性、电影感、高对比度\" 塑造整体图片。"
+      }
+    },
+    "useCases": {
+      "title": "使用场景",
+      "marketing": {
+        "title": "营销视觉",
+        "description": "无需拍摄即可生成产品概念、广告图像和社交媒体内容。"
+      },
+      "character": {
+        "title": "角色设计",
+        "description": "从文本描述为游戏、漫画或动画项目创建原创角色。"
+      },
+      "concept": {
+        "title": "概念艺术",
+        "description": "快速可视化场景、环境和想法，用于创意项目和演示。"
+      },
+      "stock": {
+        "title": "图库替代",
+        "description": "生成您需要的特定图片，而不是在通用图库中搜索。"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "关于 Seedream 5.0 Lite 文本生成图片的常见问题",
+      "q1": {
+        "question": "什么是 Seedream 5.0 Lite？",
+        "answer": "Seedream 5.0 Lite 是字节跳动的轻量级 AI 图片生成模型，提供快速、高质量的文本生成图片功能，性能经过优化。"
+      },
+      "q2": {
+        "question": "我的提示词应该有多详细？",
+        "answer": "更多细节通常意味着更好的结果。包括主体、场景、光照、风格、情绪和相机角度。从几句话开始，如果需要可以添加更多。"
+      },
+      "q3": {
+        "question": "它可以生成哪些风格？",
+        "answer": "逼真、动漫、油画、水彩、3D 渲染、素描等。在提示词中指定风格或参考特定艺术家和工作室。"
+      },
+      "q4": {
+        "question": "它支持中文提示词吗？",
+        "answer": "是的，Seedream 5.0 Lite 对英文和中文的理解同样出色。您可以使用任一语言编写提示词，或混合使用两种语言。"
+      },
+      "q5": {
+        "question": "与 Seedream 5 有什么区别？",
+        "answer": "Seedream 5.0 Lite 是针对速度优化的轻量版本，在保持高图片质量的同时提供更快的生成速度，非常适合快速迭代和高性价比使用。"
+      }
+    },
+    "privacySecurity": {
+      "title": "隐私和安全",
+      "description": "您的隐私和安全是我们的首要任务。",
+      "secureProcessing": "安全处理",
+      "autoDelete": "自动删除",
+      "neverShared": "绝不共享"
+    },
+    "finalCTA": {
+      "title": "准备开始创作了吗？",
+      "description": "立即开始从您的文本描述生成精美的图片。",
+      "button": "立即试用"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "textToImage": "文本生成图片",
+      "seedream50Lite": "Seedream 5.0 Lite"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Seedream 5.0 Lite 文本生成图片",
+      "howToName": "如何使用 Seedream 5.0 Lite 生成图片",
+      "howToDescription": "使用 Seedream 5.0 Lite 从文本描述生成图片",
+      "features": {
+        "aiTextToImage": "AI 文本生成图片",
+        "highQuality": "高质量图片",
+        "fastProcessing": "快速处理"
+      }
+    }
+  }
+}

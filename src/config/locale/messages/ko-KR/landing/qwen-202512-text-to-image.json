@@ -1,0 +1,273 @@
+{
+  "title": "Qwen Image 202512 텍스트를 이미지로",
+  "subtitle": "텍스트 설명에서 놀라운 이미지 생성",
+  "prompt_label": "프롬프트",
+  "prompt_placeholder": "베네치안 블라인드가 그녀의 얼굴에 극적인 그림자 패턴을 만듭니다. 하셀블라드 H6D-100c, 85mm f/1.4 렌즈, 얕은 심도, 필름 그레인, 코닥 포트라 400 컬러 사이언스로 촬영. 네거티브 스페이스가 있는 영화적 구도, 우울한 분위기.",
+  "prompt_tooltip": "생성하려는 이미지의 설명을 입력하세요",
+  "size_label": "이미지 크기",
+  "size_hint": "출력 이미지 크기 선택",
+  "width_label": "너비",
+  "height_label": "높이",
+  "seed_label": "시드",
+  "seed_tooltip": "재현 가능한 결과를 위해 시드 값을 설정합니다. 랜덤 시드에는 -1을 사용하세요.",
+  "seed_randomize": "랜덤 시드 생성",
+  "output_format_label": "출력 형식",
+  "output_format_tooltip": "출력 이미지 형식 선택",
+  "buttons": {
+    "generate": "이미지 생성"
+  },
+  "errors": {
+    "promptRequired": "프롬프트가 필요합니다"
+  },
+  "image_alt": "생성된 이미지",
+  "download": "다운로드",
+  "image_placeholder": "생성된 이미지가 여기에 표시됩니다",
+  "prompt_inspirations_button": "프롬프트 영감",
+  "prompt_guide_button": "프롬프트 가이드",
+  "powered_by": "joymagic에서 최적화한 Qwen Image 202512 AI 모델로 구동",
+  "page": {
+    "metadata": {
+      "title": "Qwen Image 2512: 읽기 쉬운 텍스트를 위한 Alibaba의 Text-to-Image 모델 | joymagic",
+      "description": "Qwen Image 2512는 정확하고 읽기 쉬운 텍스트로 고품질 이미지 생성에 최적화된 Alibaba의 최신 텍스트 이미지 생성 모델입니다. 포스터, 간판, 로고, 광고 및 브랜드 디자인 자산에 완벽합니다.",
+      "keywords": "Qwen Image 2512, text to image, ai image generator, 읽기 쉬운 텍스트, 포스터, 간판, 로고, alibaba, qwen ai"
+    },
+    "hero": {
+      "title": "Qwen Image 2512: 읽기 쉬운 텍스트를 위한 Alibaba의 Text-to-Image 모델",
+      "description": "Qwen Image 2512는 Alibaba의 Qwen AI 패밀리의 최신 텍스트 이미지 생성 모델입니다. 정확하고 읽기 쉬운 텍스트로 고품질 이미지 생성에 특별히 최적화되어 있어 텍스트 명확성이 정말 중요한 포스터, 간판, 로고, 광고 및 브랜드 디자인 자산에 탁월한 선택입니다.<br/><br/>시각적 미학만 우선시하는 많은 이미지 생성 모델과 달리, Qwen Image 2512는 강력한 자연어 이해와 업계 최고 수준의 이미지 내 텍스트 렌더링을 결합하여 돋보입니다.",
+      "button1": "지금 시도하기",
+      "button2": "가격 보기"
+    },
+    "heroDescription": "고급 AI 기술을 사용하여 간단한 텍스트 설명에서 놀라운 이미지를 만듭니다.",
+    "keyFeatures": {
+      "title": "Qwen Image 2512를 선택하는 이유",
+      "description": "Qwen Image 2512를 텍스트가 풍부한 시각적 콘텐츠에 이상적인 선택으로 만드는 독특한 장점을 발견하세요",
+      "superiorTextRendering": {
+        "title": "우수한 텍스트 렌더링",
+        "description": "Qwen Image 2512는 이미지 내에서 명확하고 읽기 쉬운 텍스트를 생성하는 데 탁월하며, 여러 언어, 폰트 및 레이아웃 스타일을 지원합니다. 이는 마케팅 포스터, 프로모션 배너, 제품 라벨, 로고 및 간판과 같이 텍스트 가독성이 중요한 사용 사례에 이상적입니다."
+      },
+      "advancedPromptUnderstanding": {
+        "title": "고급 프롬프트 이해",
+        "description": "모델은 복잡한 프롬프트에 대한 향상된 이해력을 보여주며, 주제 관계, 공간 레이아웃 및 구성, 스타일 의도 및 시각적 계층 구조를 정확하게 해석합니다. 길고 상세한 프롬프트도 일관되고 신뢰할 수 있는 결과로 처리됩니다."
+      },
+      "flexibleImageSizing": {
+        "title": "유연한 이미지 크기 조정",
+        "description": "Qwen Image 2512는 사용자 정의 너비 및 높이 매개변수를 지원하여 소셜 미디어 형식(1:1, 4:5, 9:16), 프레젠테이션 및 웹 배너, 인쇄 준비된 시각 자료 및 포스터에 맞춘 이미지를 생성할 수 있습니다."
+      },
+      "consistentQuality": {
+        "title": "모든 스타일에서 일관된 품질",
+        "description": "사진 같은 이미지, 일러스트 또는 컨셉 아트, 또는 추상적이거나 브랜드 중심의 디자인이 필요한지 여부에 관계없이 Qwen Image 2512는 모든 출력에서 높은 시각적 품질과 스타일 일관성을 유지합니다."
+      },
+      "builtInPromptEnhancer": {
+        "title": "내장 프롬프트 향상기",
+        "description": "통합된 프롬프트 향상기는 자동으로 입력을 개선하여 시행착오를 줄이고 더 나은 생성 결과를 달성하는 데 도움이 됩니다."
+      }
+    },
+    "howItWorks": {
+      "title": "작동 방식",
+      "description": "세 가지 간단한 단계로 이미지 생성",
+      "step1": {
+        "title": "프롬프트 입력",
+        "description": "생성하려는 이미지를 설명하세요"
+      },
+      "step2": {
+        "title": "설정 선택",
+        "description": "출력 형식 및 기본 설정 선택"
+      },
+      "step3": {
+        "title": "생성 및 다운로드",
+        "description": "AI 생성 이미지를 받아 다운로드"
+      }
+    },
+    "promptingTips": {
+      "title": "프롬프트 팁",
+      "lighting": {
+        "title": "조명을 구체적으로 지정",
+        "description": "\"왼쪽에서 오는 골든 아워 햇빛, 부드러운 그림자\"가 \"좋은 조명\"보다 효과적입니다."
+      },
+      "camera": {
+        "title": "카메라 세부 정보 포함",
+        "description": "\"85mm 렌즈로 촬영, 얕은 심도\"는 전문 사진 품질을 추가합니다."
+      },
+      "style": {
+        "title": "아트 스타일 지정",
+        "description": "\"스튜디오 지브리 스타일의 디지털 일러스트\" 또는 \"초현실적인 3D 렌더링\"은 명확한 방향을 제공합니다."
+      },
+      "mood": {
+        "title": "분위기와 감정 설명",
+        "description": "\"아늑하고 따뜻하며 향수를 불러일으키는 느낌\" 또는 \"드라마틱하고 영화적이며 고대비\"가 전체 이미지를 형성합니다."
+      }
+    },
+    "parameters": {
+      "title": "Qwen Image 2512 매개변수",
+      "description": "매개변수 세부 정보는 플레이그라운드 인터페이스에서 확인할 수 있습니다. 너비, 높이, 시드 및 출력 형식을 조정하여 이미지 생성을 사용자 정의합니다."
+    },
+    "outputFormats": {
+      "title": "출력 형식 옵션",
+      "jpeg": {
+        "title": "JPEG",
+        "description": "파일 크기가 작고 사진 및 웹에 이상적"
+      },
+      "png": {
+        "title": "PNG",
+        "description": "투명도 지원이 있는 무손실 품질, 텍스트가 포함된 이미지에 최적"
+      },
+      "webp": {
+        "title": "WebP",
+        "description": "더 나은 압축 및 강력한 브라우저 호환성을 갖춘 현대적 형식"
+      }
+    },
+    "useCases": {
+      "title": "사용 사례",
+      "marketing": {
+        "title": "마케팅 비주얼",
+        "description": "사진 촬영 없이 제품 컨셉, 광고 이미지, 소셜 미디어 콘텐츠를 생성합니다."
+      },
+      "character": {
+        "title": "캐릭터 디자인",
+        "description": "텍스트 설명에서 게임, 만화 또는 애니메이션 프로젝트를 위한 오리지널 캐릭터를 만듭니다."
+      },
+      "concept": {
+        "title": "컨셉 아트",
+        "description": "창의적인 프로젝트와 프레젠테이션을 위해 장면, 환경, 아이디어를 빠르게 시각화합니다."
+      },
+      "stock": {
+        "title": "스톡 사진 대안",
+        "description": "일반적인 스톡 라이브러리를 검색하는 대신 필요한 특정 이미지를 생성합니다."
+      }
+    },
+    "pricing": {
+      "title": "가격",
+      "description": "이미지 크기와 무관한 간단한 정액 요금으로 대규모 및 상업적 사용에 비용 효율적입니다. 자세한 내용은 가격 페이지를 참조하세요.",
+      "link": "가격 보기 →"
+    },
+    "howToUse": {
+      "title": "Qwen Image 2512 사용 방법",
+      "step1": {
+        "title": "프롬프트 작성",
+        "description": "주제, 스타일, 구성, 조명 및 분위기를 설명하세요."
+      },
+      "step2": {
+        "title": "이미지 크기 조정",
+        "description": "대상 플랫폼에 따라 너비와 높이를 설정하세요."
+      },
+      "step3": {
+        "title": "시드 설정",
+        "description": "랜덤 출력에는 -1을 사용하거나 재현성을 위해 고정 값을 지정하세요."
+      },
+      "step4": {
+        "title": "출력 형식 선택",
+        "description": "필요에 따라 jpeg, png 또는 webp를 선택하세요."
+      },
+      "step5": {
+        "title": "실행 및 반복",
+        "description": "생성, 미리보기 및 필요에 따라 프롬프트를 개선하세요."
+      }
+    },
+    "bestUseCases": {
+      "title": "최적의 사용 사례",
+      "marketing": {
+        "title": "마케팅 및 광고",
+        "description": "광고, 포스터 및 캠페인을 위한 읽기 쉬운 텍스트가 있는 고임팩트 시각 자료를 만듭니다."
+      },
+      "socialMedia": {
+        "title": "소셜 미디어 콘텐츠",
+        "description": "참여를 유도하는 플랫폼 최적화 시각 자료를 생성합니다."
+      },
+      "productDesign": {
+        "title": "제품 및 패키징 디자인",
+        "description": "통합된 타이포그래피로 컨셉, 목업 및 패키징을 시각화합니다."
+      },
+      "branding": {
+        "title": "브랜딩 및 시각적 아이덴티티",
+        "description": "명확한 텍스트 요소로 로고, 간판 및 브랜드 자산을 디자인합니다."
+      },
+      "editorial": {
+        "title": "편집 및 출판",
+        "description": "기사 및 미디어용 일러스트, 커버 아트 및 시각적 콘텐츠를 제작합니다."
+      }
+    },
+    "proTips": {
+      "title": "최상의 결과를 위한 전문가 팁",
+      "specific": {
+        "title": "프롬프트에서 가능한 한 구체적으로",
+        "description": "주제 세부 사항, 스타일, 조명, 카메라 각도 및 분위기를 포함하세요."
+      },
+      "textInImages": {
+        "title": "이미지 내에서 텍스트를 생성할 때 정확한 문구, 폰트 스타일 및 배치를 명시적으로 지정",
+        "example": "예:",
+        "exampleText": "\"상단에 굵은 빨간색 글자로 '여름 세일' 텍스트가 있는 포스터.\""
+      },
+      "reproducibility": {
+        "title": "동일한 프롬프트와 시드를 사용하여 동일한 출력 재현",
+        "description": "이 모델은 읽기 쉬운 텍스트 생성에 특별히 최적화되어 있으므로 이 강점을 활용하세요."
+      }
+    },
+    "notes": {
+      "title": "참고사항",
+      "description": "프롬프트가 적용 가능한 콘텐츠 가이드라인을 준수하는지 확인하세요. 오류가 발생하면 다시 시도하기 전에 프롬프트를 검토하고 개선하세요."
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "Qwen Image 2512에 대한 일반적인 질문",
+      "q1": {
+        "question": "Qwen Image 2512란 무엇입니까?",
+        "answer": "Qwen Image 2512는 Alibaba의 Qwen AI 패밀리의 최신 텍스트 이미지 생성 모델입니다. 정확하고 읽기 쉬운 텍스트로 고품질 이미지 생성에 특별히 최적화되어 있어 포스터, 간판, 로고, 광고 및 브랜드 디자인 자산에 이상적입니다."
+      },
+      "q2": {
+        "question": "Qwen Image 2512가 다른 모델과 다른 점은 무엇입니까?",
+        "answer": "Qwen Image 2512는 강력한 자연어 이해와 업계 최고 수준의 이미지 내 텍스트 렌더링을 결합하여 돋보입니다. 시각적 미학만 우선시하는 많은 모델과 달리 이미지 내에서 명확하고 읽기 쉬운 텍스트를 생성하는 데 탁월합니다."
+      },
+      "q3": {
+        "question": "어떤 출력 형식이 지원됩니까?",
+        "answer": "Qwen Image 2512는 JPEG(파일 크기가 작고 사진 및 웹에 이상적), PNG(투명도 지원이 있는 무손실 품질, 텍스트가 포함된 이미지에 최적), WebP(더 나은 압축 및 강력한 브라우저 호환성을 갖춘 현대적 형식)를 지원합니다."
+      },
+      "q4": {
+        "question": "이미지 크기를 사용자 정의할 수 있습니까?",
+        "answer": "예, Qwen Image 2512는 사용자 정의 너비 및 높이 매개변수를 지원하여 소셜 미디어 형식(1:1, 4:5, 9:16), 프레젠테이션, 웹 배너 및 인쇄 준비된 시각 자료에 맞춘 이미지를 생성할 수 있습니다."
+      },
+      "q5": {
+        "question": "이미지 내 텍스트로 최상의 결과를 얻으려면 어떻게 해야 합니까?",
+        "answer": "이미지 내에서 텍스트를 생성할 때 정확한 문구, 폰트 스타일 및 배치를 명시적으로 지정하세요. 예: \"상단에 굵은 빨간색 글자로 '여름 세일' 텍스트가 있는 포스터.\" 이 모델은 읽기 쉬운 텍스트 생성에 특별히 최적화되어 있으므로 이 강점을 활용하세요."
+      }
+    },
+    "privacySecurity": {
+      "title": "개인정보 보호 및 보안",
+      "description": "귀하의 개인정보 보호와 보안은 우리의 최우선 과제입니다.",
+      "secureProcessing": "안전한 처리",
+      "autoDelete": "자동 삭제",
+      "neverShared": "공유되지 않음"
+    },
+    "finalCTA": {
+      "title": "만들 준비가 되셨나요?",
+      "description": "Qwen Image 2512는 단순한 또 다른 텍스트 이미지 모델이 아닙니다—실제 디자인 및 마케팅 워크플로우를 위해 설계된 프로덕션 준비가 된 시각적 생성 도구입니다. 프로젝트에 명확한 타이포그래피, 정확한 레이아웃 및 강력한 시각적 스토리텔링이 필요한 경우 Qwen Image 2512는 오늘날 사용 가능한 가장 매력적인 선택 중 하나입니다.",
+      "button": "지금 시도하기"
+    },
+    "breadcrumb": {
+      "home": "홈",
+      "textToImage": "텍스트를 이미지로",
+      "qwenImage2512": "Qwen Image 2512"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Qwen Image 2512 텍스트를 이미지로",
+      "howToName": "Qwen Image 2512로 이미지 생성하는 방법",
+      "howToDescription": "정확하고 읽기 쉬운 텍스트로 Qwen Image 2512를 사용하여 텍스트 설명에서 이미지 생성",
+      "features": {
+        "superiorTextRendering": "우수한 텍스트 렌더링",
+        "advancedPromptUnderstanding": "고급 프롬프트 이해",
+        "flexibleImageSizing": "유연한 이미지 크기 조정",
+        "consistentQuality": "모든 스타일에서 일관된 품질"
+      }
+    },
+    "showcase": {
+      "image1": {
+        "alt": "읽기 쉬운 텍스트가 포함된 Qwen Image 2512 생성 포스터"
+      },
+      "image2": {
+        "alt": "Qwen Image 2512 생성 다국어 hello 디자인"
+      },
+      "image3": {
+        "alt": "Qwen Image 2512 생성 이미지 콜라주"
+      }
+    }
+  }
+}

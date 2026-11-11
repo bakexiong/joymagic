@@ -1,0 +1,3698 @@
+#1 NanoBanana Pro Prompt by @me_Aarvi
+详情: https://www.meigen.ai/prompt/2011444759605510287
+图片: https://images.meigen.ai/tweets/2011444759605510287/0.jpg
+分数: 64
+提示词:
+    Using the uploaded reference image STRICTLY, preserve the same woman’s face, identity, age, facial structure, skin tone, and natural expression with 100% accuracy. No facial alteration, beautification, or identity change.\n\nGenerate a highly realistic cinematic fashion editorial photoshoot featuring a stylish adult woman leaning casually against a warm beige textured wall. Her body is slightly angled, one shoulder gently resting on the wall, conveying relaxed confidence, elegance, and quiet strength.\n\nOutfit:\nShe wears a loose pastel blue button-down shirt with softly rolled-up sleeves, styled effortlessly. Paired with tailored white relaxed-fit trousers that drape naturally. Footwear consists of clean minimalist white or soft blue-white sneakers, maintaining a modern, understated luxury feel.\n\nPose & Expression:\nShe stands with natural posture — one hand casually placed in her trouser pocket, the other delicately holding a small white daisy flower. Her facial expression is calm, self-assured, and serene, with a soft editorial gaze slightly away from the camera. Emotion feels confident yet gentle.\n\nHair & Makeup:\nHair is neatly styled in a natural, modern look (soft waves, low ponytail, or loose bun). Makeup is minimal and refined — clean skin, subtle blush, neutral lips, no heavy contouring or glow.\n\nLighting & Atmosphere:\nWarm natural sunlight streams from the side, creating soft highlights along her face and clothing, with gentle shadows adding depth to the textured wall. The mood is airy, sunlit, and cinematic.\n\nVisual Style:\nHigh-end fashion editorial aesthetic with realistic skin texture, crisp fabric details, refined neutral color palette, and elegant composition.\n\nCamera & Quality:\nProfessional fashion photography style, shallow depth of field, cinematic framing, ultra-realistic 8K quality, sharp focus on subject with smooth background falloff.\n\nOverall Feel:\nModern, minimal, sun-drenched lifestyle fashion campaign — confident, graceful, and timeless.",
+  
+  "style": "cinematic, high-end female fashion editorial",
+  "lighting": "warm natural sunlight with soft shadows",
+  "background": "minimal beige textured wall, sunlit",
+  "quality": "ultra-realistic, 8K, ultra-sharp",
+  "camera": "professional fashion photography, shallow depth of field",
+  "mood": "clean, modern, elegant, confident, relaxed"
+
+--------------------------------------------------------------------------------
+
+#4 NanoBanana Pro Prompt by @xmliisu
+详情: https://www.meigen.ai/prompt/2011393430442717194
+图片: https://images.meigen.ai/tweets/2011393430442717194/0.jpg
+分数: 54
+提示词:
+    {
+
+    "title": "LA Rooftop Poolside Selfie",
+    "style_attributes": [
+      "Ultra-realistic cinematic lifestyle photography",
+      "8K resolution",
+      "Hyper-detailed",
+      "Photorealistic",
+      "iPhone-style casual shot",
+      "Cinematic photographic quality"
+    ],
+    "subject": {
+      "demographics": "Female, 20 years old, Slavic appearance",
+      "facial_features": {
+        "structure": "Naturally beautiful, well-balanced face, realistic proportions",
+        "eyes": "Large expressive green-hazel, calm confident gaze",
+        "lips": "Naturally full, soft, unexaggerated",
+        "makeup": "Light natural daytime, not heavy"
+      },
+      "skin_texture": {
+        "quality": "Sun-kissed, highly realistic, visible pores, subtle micro-imperfections",
+        "effects": "Wet skin, water and oil droplets catching sunlight, no plastic texture"
+      },
+      "hair": "Long, wet, slightly messy, strands sticking naturally to cheek and forehead",
+      "body": {
+        "pose": "Lying on stomach, legs gently bent at knees and lifted, feet together, arm extended for selfie",
+        "physique": "Slim waist, natural back line, realistic anatomy without exaggeration"
+      },
+      "clothing": "Small classic black bikini top with thin straps and deep plunge"
+    },
+    "props": [
+      "Fresh coconut with straw and subtle ADORE logo",
+      "Bright blue-and-white striped beach towel",
+      "Smartphone (partial visibility)"
+    ],
+    "environment": {
+      "location": "Luxurious rooftop pool, high-rise building, Los Angeles",
+      "background": "Modern downtown LA skyscrapers, slight atmospheric haze, white sun loungers and umbrellas",
+      "elements": "Turquoise pool water, lush tropical greenery (banana palms, monstera plants)",
+      "weather": "Bright sunny day, clear blue sky, no clouds"
+    },
+    "technical_specs": {
+      "lighting": "Harsh midday sunlight, strong contrast, deep natural shadows, bright specular highlights",
+      "camera_settings": "50–85mm lens look, shallow depth of field, high dynamic range (HDR)",
+      "color_grading": "Realistic, true-to-life skin tones"
+    },
+    "full_prompt_string": "Ultra-realistic cinematic lifestyle photography, 8K, hyper-detailed, photorealistic, An attractive woman aged 20, Slavic appearance. A naturally beautiful, well-balanced face with realistic proportions, no artificial perfection. Large expressive green-hazel eyes, calm confident gaze toward the camera. Naturally full lips, soft and unexaggerated. Light, natural daytime makeup emphasizing her features without looking heavy. Her skin is sun-kissed and wet, highly realistic with visible pores, subtle micro-imperfections, fine highlights, and water and oil droplets catching the sunlight. No plastic or overly smooth texture. Long wet hair, slightly messy after swimming, with a few strands sticking naturally to her cheek and forehead. She is lying on her stomach on a bright blue-and-white striped beach towel. The pose feels relaxed and spontaneous, like a real vacation moment: legs gently bent at the knees and lifted upward, feet together; a natural back line, slim waist, realistic body anatomy without exaggeration. She wears a small classic black bikini top with thin straps and a deep plunge — minimalistic, clean design, naturally fitting the body. One arm is extended forward as she takes a selfie — part of her arm and the edge of a small smartphone are visible in frame, reinforcing a casual iPhone-style shot. In her other hand, she holds a fresh coconut with a straw and a subtle ADORE logo; water droplets run down the shell. Environment: a luxurious rooftop pool atop a high-rise building in Los Angeles. Bright sunny day, clear blue sky with no clouds, turquoise pool water. Lush tropical greenery (banana palms, monstera plants), white sun loungers and umbrellas. Modern downtown LA skyscrapers in the background with a slight atmospheric haze on the horizon.
+
+--------------------------------------------------------------------------------
+
+#5 NanoBanana Pro Prompt by @lexx_aura
+详情: https://www.meigen.ai/prompt/2011740093531217933
+图片: https://images.meigen.ai/tweets/2011740093531217933/0.jpg
+分数: 54
+提示词:
+    {
+"title": "LA Rooftop Poolside Selfie",
+    "style_attributes": [
+      "Ultra-realistic cinematic lifestyle photography",
+      "8K resolution",
+      "Hyper-detailed",
+      "Photorealistic",
+      "iPhone-style casual shot",
+      "Cinematic photographic quality"
+    ],
+    "subject": {
+      "demographics": "Female, 20 years old, Slavic appearance",
+      "facial_features": {
+        "structure": "Naturally beautiful, well-balanced face, realistic proportions",
+        "eyes": "Large expressive green-hazel, calm confident gaze",
+        "lips": "Naturally full, soft, unexaggerated",
+        "makeup": "Light natural daytime, not heavy"
+      },
+      "skin_texture": {
+        "quality": "Sun-kissed, highly realistic, visible pores, subtle micro-imperfections",
+        "effects": "Wet skin, water and oil droplets catching sunlight, no plastic texture"
+      },
+      "hair": "Long, wet, slightly messy, strands sticking naturally to cheek and forehead",
+      "body": {
+        "pose": "Lying on stomach, legs gently bent at knees and lifted, feet together, arm extended for selfie",
+        "physique": "Slim waist, natural back line, realistic anatomy without exaggeration"
+      },
+      "clothing": "Small classic black bikini top with thin straps and deep plunge"
+    },
+    "props": [
+      "Fresh coconut with straw and subtle ADORE logo",
+      "Bright blue-and-white striped beach towel",
+      "Smartphone (partial visibility)"
+    ],
+    "environment": {
+      "location": "Luxurious rooftop pool, high-rise building, Los Angeles",
+      "background": "Modern downtown LA skyscrapers, slight atmospheric haze, white sun loungers and umbrellas",
+      "elements": "Turquoise pool water, lush tropical greenery (banana palms, monstera plants)",
+      "weather": "Bright sunny day, clear blue sky, no clouds"
+    },
+    "technical_specs": {
+      "lighting": "Harsh midday sunlight, strong contrast, deep natural shadows, bright specular highlights",
+      "camera_settings": "50–85mm lens look, shallow depth of field, high dynamic range (HDR)",
+      "color_grading": "Realistic, true-to-life skin tones"
+    },
+    "full_prompt_string": "Ultra-realistic cinematic lifestyle photography, 8K, hyper-detailed, photorealistic, An attractive woman aged 20, Slavic appearance. A naturally beautiful, well-balanced face with realistic proportions, no artificial perfection. Large expressive green-hazel eyes, calm confident gaze toward the camera. Naturally full lips, soft and unexaggerated. Light, natural daytime makeup emphasizing her features without looking heavy. Her skin is sun-kissed and wet, highly realistic with visible pores, subtle micro-imperfections, fine highlights, and water and oil droplets catching the sunlight. No plastic or overly smooth texture. Long wet hair, slightly messy after swimming, with a few strands sticking naturally to her cheek and forehead. She is lying on her stomach on a bright blue-and-white striped beach towel. The pose feels relaxed and spontaneous, like a real vacation moment: legs gently bent at the knees and lifted upward, feet together; a natural back line, slim waist, realistic body anatomy without exaggeration. She wears a small classic black bikini top with thin straps and a deep plunge — minimalistic, clean design, naturally fitting the body. One arm is extended forward as she takes a selfie — part of her arm and the edge of a small smartphone are visible in frame, reinforcing a casual iPhone-style shot. In her other hand, she holds a fresh coconut with a straw and a subtle ADORE logo; water droplets run down the shell. Environment: a luxurious rooftop pool atop a high-rise building in Los Angeles. Bright sunny day, clear blue sky with no clouds, turquoise pool water. Lush tropical greenery (banana palms, monstera plants), white sun loungers and umbrellas. Modern downtown LA skyscrapers in the background with a slight atmospheric haze on the horizon.
+
+--------------------------------------------------------------------------------
+
+#6 GPT Image 1 Prompt by @BubbleBrain
+详情: https://www.meigen.ai/prompt/2046151898621993364
+图片: https://images.meigen.ai/tweets/2046151898621993364/0.jpg
+分数: 54
+提示词:
+    9:16 vertical — a 3x3 grid collage (nine images) forming a Korean idol portrait photoshoot series. Each frame features the same young Korean female idol, maintaining 100% consistency in facial features, proportions, hairstyle, and identity across all nine shots.   Natural, ultra-realistic skin texture, no retouching, no smoothing. Clean idol-style minimal makeup, soft glow, subtle imperfections.   Hair: long, voluminous dark hair, slightly tousled, consistent across all frames (natural loose flow, slight movement).  Outfit: cohesive Korean idol photoshoot styling — white shirt + short bottoms (or simple neutral-toned outfit), youthful, clean, slightly casual but styled. Same outfit across all frames.  Setting: minimal studio or simple indoor environment (plain wall, soft window light, clean background). Focus on subject, not environment.  Lighting: soft diffused natural light, gentle highlights, low contrast, slightly airy tones, subtle film-like softness.  Camera style: intimate portrait photography, slightly handheld feel, subtle imperfections (minor grain, slight blur in motion frames, imperfect framing).  Frame breakdown (3x3 grid):  Top row: - Top left: standing naturally, looking slightly away, relaxed expression - Top center: facing camera, casual mid-motion (hair or body slight movement) - Top right: slight side angle, soft gaze, natural candid feel  Middle row: - Center left: looking slightly upward, soft thoughtful expression - Center: close-up portrait, direct eye contact, gentle idol smile - Center right: turning body slightly, mid-motion candid frame  Bottom row: - Bottom left: seated or leaning casually, relaxed posture - Bottom center: back partially turned, looking over shoulder toward camera - Bottom right: standing close to frame, slightly playful or soft expression  Mood: Korean idol photobook / photocard aesthetic, intimate, soft, natural, everyday charm.  Quality: ultra-realistic, 8K detail, subtle analog film grain, natural imperfections, soft dreamy tone
+
+--------------------------------------------------------------------------------
+
+#8 GPT Image 1 Prompt by @saniaspeaks_
+详情: https://www.meigen.ai/prompt/2009834337043394622
+图片: https://images.meigen.ai/tweets/2009834337043394622/0.jpg
+分数: 49
+提示词:
+    {
+  "type": "image_generation_prompt",
+  "language": "en",
+  "style": "hyper-realistic cinematic selfie photography",
+  "aspect_ratio": "9:16",
+  "identity_preservation": {
+    "use_reference_image": true,
+    "strict_identity_lock": true,
+    "alter_face": false,
+    "alter_skin": false,
+    "alter_hair": false,
+    "alter_gender": false,
+    "notes": "Preserve identical facial features, skin texture, hair, glasses, age, and gender from the uploaded reference image. No synthetic skin or sculptural look."
+  },
+  "subject": {
+    "gender": "female",
+    "capture_method": "selfie taken by the subject herself",
+    "pose": {
+      "selfie_arm": {
+        "description": "one arm fully straight and completely extended upward holding the camera that takes the selfie",
+        "visibility": "arm clearly visible, straight and dominant in frame",
+        "camera_visibility": "the selfie camera device itself must NOT be visible in the frame"
+      },
+      "product_arm": {
+        "description": "the other arm fully extended toward the camera holding the attached Canon camera",
+        "importance": "product is closest to the camera and visually dominant"
+      },
+      "head": {
+        "tilt": "slightly tilted toward the selfie camera"
+      },
+      "expression": "natural and relaxed facial expression"
+    },
+    "body_visibility": "full body visible from head to toe",
+    "feet": "feet clearly touching the road surface"
+  },
+  "composition": {
+    "perspective": "natural selfie perspective at chest height",
+    "camera_angle": "extreme top-down angle, camera above the subject looking directly downward",
+    "layer_depth": [
+      "product (closest to camera)",
+      "face",
+      "full body",
+      "city environment (background)"
+    ]
+  },
+  "scale_and_perspective": {
+    "effect": "forced perspective",
+    "subject_scale": "the woman appears extremely giant",
+    "buildings_scale": "buildings appear much smaller, reaching no higher than her knees",
+    "dominance": "the subject visually dominates the entire scene",
+    "realism": "inspiring scale while remaining physically believable"
+  },
+  "environment": {
+    "location": "real urban intersection",
+    "elements": [
+      "pedestrian crosswalk",
+      "road markings",
+      "traffic signs",
+      "cars",
+      "bicycles",
+      "pedestrians at realistic human scale"
+    ],
+    "setting": "ground-level urban environment"
+  },
+  "lighting": {
+    "type": "natural daylight",
+    "conditions": "clear or lightly cloudy sky",
+    "shadows": "soft and realistic",
+    "restrictions": "no fantasy or dramatic lighting"
+  },
+  "product_rules": {
+    "usage": "use the uploaded Canon product exactly as provided",
+    "distortion": "none",
+    "logo": "unchanged",
+    "appearance": "natural reflections and realistic highlights only"
+  },
+  "camera_quality": {
+    "realism": "maximum photorealism",
+    "depth": "clear separation of foreground, subject, and background",
+    "artifacts": "none"
+  },
+  "constraints": [
+    "No AI-art look",
+    "No plastic or sculpted skin",
+    "No distortion of face or body",
+    "No extra limbs or incorrect anatomy",
+    "No text or watermarks",
+    "No visible selfie camera device"
+  ],
+  "output_goal": "Create a hyper-realistic cinematic selfie image of a woman using her exact reference identity, captured from an extreme top-down perspective in a real urban crosswalk, with forced perspective scale, natural daylight, and a Canon camera product prominently held toward the lens."
+}
+
+--------------------------------------------------------------------------------
+
+#14 NanoBanana Pro Prompt by @lilzula_009_me
+详情: https://www.meigen.ai/prompt/2012343139793621126
+图片: https://images.meigen.ai/tweets/2012343139793621126/0.jpg
+分数: 43
+提示词:
+    {
+  "image_request": {
+    "style": {
+      "genre": "High-fashion editorial portrait",
+      "vibe": "Luxury magazine aesthetic",
+      "mood": "Elegant, bold, confident",
+      "aspect_ratio": "4:4"
+    },
+    "lighting": {
+      "type": "Dramatic cinematic lighting",
+      "tone": "Warm highlights with soft shadows",
+      "environment": "Studio",
+      "background": "Dark gray, smooth, minimal"
+    },
+    "subject": {
+      "identity_lock": "Use the provided reference image",
+      "face_constraints": "Maintain 100% exact facial features, proportions, asymmetry, and realism",
+      "gender": "Woman",
+      "expression": "Sensual, confident, calm",
+      "gaze": "Soft and alluring, partially obscured by hair"
+    },
+    "hair": {
+      "length": "Long",
+      "style": "Loose, cascading over the shoulders",
+      "detail": "Some strands falling over the face for mystery"
+    },
+    "makeup": {
+      "style": "Subtle yet striking editorial makeup",
+      "lips": "Intense red lipstick",
+      "skin": "Natural, realistic texture",
+      "overall_finish": "High-fashion, refined"
+    },
+    "wardrobe": {
+      "outfit": "Draped garment",
+      "color": "Muted gray-green",
+      "design": "Off-shoulder, exposing shoulders and collarbones"
+    },
+    "accessories": {
+      "jewelry": [
+        "Gold necklace",
+        "Layered gold chains"
+      ]
+    },
+    "pose": {
+      "body_language": "Confident, elegant, bold",
+      "posture": "Relaxed yet powerful editorial stance"
+    },
+    "camera": {
+      "quality": "Ultra-realistic, ultra-detailed",
+      "style": "High-end fashion photography",
+      "focus": "Sharp facial detail with natural depth"
+    },
+    "final_notes": {
+      "realism": "Photorealistic skin, hair, and fabric textures",
+      "editing": "No face alteration, no over-smoothing, no stylization",
+      "overall_feel": "Luxury birthday editorial photoshoot"
+    }
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#15 NanoBanana Pro Prompt by @lexx_aura
+详情: https://www.meigen.ai/prompt/2015474841499975872
+图片: https://images.meigen.ai/tweets/2015474841499975872/0.jpg
+分数: 43
+提示词:
+    {
+  "subject": {
+    "appearance": {
+      “character”: “Margaret Qualley”,
+      "gender": "Female",
+      "age_range": "Young adult",
+      "hair": "Long, dark brown, wavy, parted slightly off-center, with individual strands, flyaways, and realistic texture visible.",
+      "eyes": "Light blue, striking intensity, with detailed iris structure, capillaries, and moisture catchlights.",
+      "skin_tone": "Fair, porcelain, with visible pores, fine lines, natural imperfections, and realistic subsurface scattering.",
+      "makeup": "Natural but polished, soft pink lip with fine texture, defined lashes, subtle contouring."
+    },
+    "pose": {
+      "stance": "Standing facing forward",
+      "hand_position": "Right hand raised to chin/mouth area, fingers gently curled, showing skin texture and veins.",
+      "action": "Holding a thin red stem (likely a cherry stem) between lips/teeth, showing moisture and pressure.",
+      "gaze": "Direct eye contact with the camera, alluring and intense."
+    }
+  },
+  "attire": {
+    "clothing": "Strapless mini dress",
+    "material": "Red leather or faux leather, slight sheen, with detailed grain, natural creases, imperfections, and stretching around curves.",
+    "design": "Layered bandage style, horizontal panels, structured pleats, form-fitting silhouette, with visible stitching and seam details.",
+    "color": "Vibrant red"
+  },
+  "accessories": {
+    "jewelry": [
+      "Silver stud earrings with crystal accents, showing facets, light refraction, and metal texture.",
+      "Large statement ring with black and silver detailing on right ring finger, with realistic material contrast and wear."
+    ],
+    "nails": "Manicured with red polish matching the dress, showing glossy finish and cuticle details."
+  },
+  "environment": {
+    "background": "Solid vibrant red studio backdrop, with subtle surface texture, minor imperfections, and realistic light fall-off.",
+    "props": "None visible other than the small stem in mouth"
+  },
+  "lighting": {
+    "type": "Studio lighting",
+    "quality": "Soft but directional, creating realistic highlights, deep shadows, and accurate volume.",
+    "shadows": "Subtle soft shadows behind the subject, anchored to the floor, showing accurate density and color bleeding.",
+    "highlights": "Specular highlights on the leather dress, lips, eyes, and jewelry, showing light source reflections."
+  },
+  "technical_details": {
+    "camera_angle": "Eye level",
+    "shot_size": "Medium shot (thighs up)",
+    "style": "High-fashion editorial, glossy magazine aesthetic, with ultra-high detail and fidelity.",
+    "resolution": "8k, RAW file quality, with natural film grain, sharp focus, and photorealistic rendering.",
+    "color_palette": "Monochromatic red theme with skin tone contrast, realistic color rendering and gradients."
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#17 NanoBanana Pro Prompt by @craftian_keskin
+详情: https://www.meigen.ai/prompt/2011148742913900843
+图片: https://images.meigen.ai/tweets/2011148742913900843/0.jpg
+分数: 42
+提示词:
+    Before-and-after upper-body portrait photo of Sydney Sweeney, smiling in both images, split vertically down the center into two equal halves for a direct visual comparison. Clear text labels appear at the top of each half.
+
+Left side – “Day” (label at top):
+Natural, no makeup look. Realistic skin texture with visible pores, slight under-eye shadows, natural lips, minimal grooming. Soft, relaxed smile. Hair casually styled. She is wearing a simple nightgown for bed, comfortable and modest. Daytime feeling, fresh and unstyled, authentic at-home appearance.
+
+Right side – “Night” (label at top):
+Professional makeup applied: even skin tone, subtle contouring, enhanced eyes with mascara and eyeliner, defined brows, soft lipstick. Bright, confident smile. Hair styled elegantly. She is wearing a beautiful, pink dress with a deep neckline
+
+Both sides show the same pose, framing, camera distance, background, and angle to ensure the contrast comes purely from makeup, styling, and wardrobe.
+
+Photography & Camera Style:
+Smartphone camera realism, portrait mode look, handheld feel, natural lighting, slight digital noise, mild compression artifacts, realistic color balance, minimal retouching, honest skin detail. Casual but clear comparison photo rather than studio perfection.
+
+Aspect ratio:
+3:4 (portrait)
+
+negative prompt:
+beauty filters, over-smoothed skin, exaggerated makeup, inconsistent lighting, mismatched expressions, face distortion, studio glamour lighting, cinematic look, watermark, text artifacts (except “Day” and “Night” labels)
+
+--------------------------------------------------------------------------------
+
+#18 NanoBanana Pro Prompt by @saniaspeaks_
+详情: https://www.meigen.ai/prompt/2011257477275468178
+图片: https://images.meigen.ai/tweets/2011257477275468178/0.jpg
+分数: 41
+提示词:
+    {
+  "prompt_type": "descriptive_portrait",
+  "subject_details": {
+    "demographics": "Young female, sun-kissed skin, fit and athletic build, strictly matching the reference photo.",
+    "facial_features": {
+      "expression": "Laughing with mouth open, a smudge of white flour on her nose and cheek, playful and messy yet attractive, facial expression matching the reference photo.",
+      "eyes": "Bright green eyes, aligned with the reference photo angle.",
+      "hair": "Slightly messy short-to-medium hair, casually styled, exactly following the reference photo hairstyle."
+    },
+    "apparel": {
+      "dress": "Plain black t-shirt fitting exactly like the reference photo pose, paired with tiny pajama shorts.",
+      "accessories": "None.",
+      "footwear": "Barefoot."
+    }
+  },
+  "pose_and_action": {
+    "body_position": "Leaning over the kitchen island counter, elbows resting on the surface, body position strictly following the reference photo.",
+    "hands": "Hands lightly dusted with flour. One hand holds the phone, the other is near her face, matching the reference photo hand positions exactly.",
+    "camera_angle": "Eye-level mirror selfie captured in a reflective kitchen cabinet or window, camera angle matching the reference photo precisely."
+  },
+  "background_environment": {
+    "location": "Messy kitchen.",
+    "lighting_source": "Bright overhead kitchen lights.",
+    "objects": {
+      "details": "Bowl of dough, scattered flour on the counter, cracked eggshells."
+    }
+  },
+  "technical_specs": {
+    "style": "Playful, domestic, ultra-realistic, high detail on natural skin texture and flour dust, strict adherence to the reference photo for realism.",
+    "aspect_ratio": "4:5"
+  },
+  "constraints": [
+    "Preserve facial identity exactly as in the reference image",
+    "No facial reshaping or beautification",
+    "No artificial filters or stylization",
+    "Maintain natural proportions and lighting"
+  ],
+  "output_goal": "Create a playful, ultra-realistic mirror selfie portrait of a young woman in a messy kitchen, laughing naturally with flour on her face, perfectly matching the reference photo in pose, expression, and identity."
+}
+
+--------------------------------------------------------------------------------
+
+#19 NanoBanana Pro Prompt by @Strength04_X
+详情: https://www.meigen.ai/prompt/2021118417227657409
+图片: https://images.meigen.ai/tweets/2021118417227657409/0.jpg
+分数: 38
+提示词:
+    {
+  "image_generation_prompt": {
+    "style": "Ultra-realistic cinematic fashion photography",
+    "subject": {
+      "type": "Female model",
+      "pose": "Standing confidently, slight body angle, direct eye contact with camera",
+      "expression": "Calm, elegant, confident",
+      "appearance": {
+        "skin_tone": "Warm medium complexion with natural glow",
+        "face": "Sharp symmetrical facial features, defined eyebrows, soft glam makeup, nude glossy lips",
+        "hair": "Long dark brown wavy hair, side-parted, flowing naturally over shoulders"
+      },
+      "outfit": {
+        "clothing": "Deep maroon saree with sheer fabric and heavy embroidered blouse",
+        "fabric_details": "Sequined embroidery, fine threadwork, subtle shimmer",
+        "fit": "Perfectly tailored, elegant drape",
+        "accessories": [
+          "Traditional gold jhumka earrings",
+          "Minimal rings"
+        ]
+      }
+    },
+    "environment": {
+      "location": "Indoor parking garage",
+      "background": "Luxury black car softly visible behind subject",
+      "lighting": {
+        "type": "Professional cinematic flash lighting",
+        "key_light": "Soft frontal light highlighting facial contours",
+        "fill_light": "Balanced shadows for depth",
+        "background_light": "Low ambient light for dramatic contrast"
+      }
+    },
+    "camera": {
+      "camera_type": "Full-frame DSLR",
+      "lens": "85mm portrait lens",
+      "aperture": "f/1.8",
+      "iso": 100,
+      "shutter_speed": "1/160s",
+      "focus": "Tack sharp focus on eyes, shallow depth of field"
+    },
+    "rendering": {
+      "quality": "8K ultra-high resolution",
+      "texture_detail": "Hyper-detailed skin texture, realistic fabric fibers, natural highlights",
+      "color_grading": "Moody cinematic tones with rich maroon and neutral shadows",
+      "realism": "Photorealistic, zero artificial look"
+    },
+    "composition": {
+      "framing": "Mid-length portrait",
+      "rule_of_thirds": true,
+      "vibe": "Luxury, elegance, high-fashion editorial"
+    },
+    "post_processing": {
+      "retouching": "Minimal, natural skin retouching",
+      "noise": "None",
+      "sharpness": "Crisp but natural"
+    }
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#20 NanoBanana Pro Prompt by @xmliisu
+详情: https://www.meigen.ai/prompt/2011913223964852336
+图片: https://images.meigen.ai/tweets/2011913223964852336/0.jpg
+分数: 36
+提示词:
+    {
+  "style": "ultra-realistic studio portrait",
+  "subject": {
+    "gender": "female",
+    "age": "young adult",
+    "pose": "leaning slightly forward toward the camera",
+    "expression": "playful, flirty",
+    "facial_details": {
+      "wink": true,
+      "tongue_out": true,
+      "freckles": "natural across fair skin",
+      "makeup": {
+        "blush": "soft pink",
+        "lips": "glossy"
+      }
+    },
+    "hair": {
+      "color": "blonde",
+      "length": "long",
+      "part": "side-parted",
+      "style": "falling naturally over shoulders"
+    },
+    "outfit": {
+      "dress": "off-shoulder fitted black dress",
+      "jewelry": {
+        "earrings": "long dangling gold earrings",
+        "necklaces": "layered gold necklaces with small heart pendant"
+      }
+    }
+  },
+  "environment": {
+    "setting": "studio",
+    "background": "clean minimal light neutral tones"
+  },
+  "lighting": {
+    "type": "soft diffused studio lighting",
+    "shadows": "smooth natural shadows"
+  },
+  "camera": {
+    "lens": "50mm",
+    "aperture": "f/1.8",
+    "depth_of_field": "shallow"
+  },
+  "quality": {
+    "resolution": "high resolution",
+    "detail": "ultra-detailed",
+    "skin_texture": "photorealistic",
+    "focus": "sharp focus",
+    "photography_style": "high fashion lifestyle photography"
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#22 NanoBanana Pro Prompt by @youngcatwoman
+详情: https://www.meigen.ai/prompt/2044495725053284467
+图片: https://images.meigen.ai/tweets/2044495725053284467/0.jpg
+分数: 36
+提示词:
+    {
+  "raw_prompt": "Ultra-realistic high-end smartphone photo of aespa's Ningning in a minimalist luxury studio. She has a distinct feline-like eye shape, soft cheeks, and long dark espresso brown hair styled in soft waves. She is wearing a deep ruby red latex mini dress with a structured sweetheart neckline and thin straps, paired with intricate floral lace patterned tights and ruby red patent leather thigh-high stiletto boots. She is kneeling elegantly on a beige upholstered chair, twisting her torso to look back at the camera with an alluring, composed expression. Soft studio lighting with warm highlights. --ar 9:16",
+  "aspect_ratio": "9:16",
+  "subjects": [
+    {
+      "name": "Ningning (aespa)",
+      "physical_features": "Distinct feline-like eye shape, soft cheeks, fair skin, long dark espresso brown hair with soft waves. Polished glam makeup with sharp eyeliner and a muted nude lip.",
+      "outfit": {
+        "garment": "Deep ruby red latex mini dress, tight body-hugging fit, structured sweetheart neckline, thin shoulder straps.",
+        "footwear": "Intricate floral lace patterned black tights, ruby red patent leather thigh-high boots with a slim pointed toe and tall stiletto heel.",
+        "accessories": "Sparkling silver choker, thin gold bracelet on the wrist."
+      },
+      "pose_and_expression": "Kneeling elegantly on a beige chair, upper body twisted to face the camera over her shoulder. Sultry, composed expression with a confident gaze."
+    }
+  ],
+  "environment": "Minimalist indoor studio, beige upholstered chair, light wooden floor, cream wall with decorative panel lines.",
+  "photography_and_lighting": {
+    "camera_style": "High-end smartphone-style portrait, 8k resolution, high-definition details.",
+    "lighting": "Soft studio lighting, even warm lighting with soft shadows enhancing skin and fabric textures.",
+    "color_grading": "Elegant and glamorous mood, crisp textures, high contrast between the red latex and cream background."
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#23 NanoBanana Pro Prompt by @Just_sharon7
+详情: https://www.meigen.ai/prompt/2013218438341394581
+图片: https://images.meigen.ai/tweets/2013218438341394581/0.jpg
+分数: 35
+提示词:
+    {
+  "meta_data": {
+    "prompt_version": "2.0",
+    "use_case": "High-Fashion Photorealistic Image Generation",
+    "main_subject_count": 1,
+    "reference_image": {
+      "face_consistency": true,
+      "instruction": "Use the same face from the reference image without changing facial features"
+    }
+  },
+  "subject_layer": {
+    "anatomy": {
+      "gender": "Female",
+      "age_group": "Young adult",
+      "ethnicity": "Western",
+      "build": "Slim, elegant"
+    },
+    "pose_expression": {
+      "pose": "Full-body portrait, body angled away, looking over her shoulder toward the camera",
+      "expression": "Soft, glamorous, confident"
+    },
+    "hair_makeup": {
+      "hair": {
+        "color": "Blonde",
+        "length": "Long",
+        "style": "Smooth, flowing naturally over shoulders"
+      },
+      "makeup": {
+        "eyes": "Soft winged eyeliner",
+        "lips": "Glossy, luminous finish",
+        "overall_style": "Polished, editorial glamour"
+      }
+    },
+    "wardrobe": {
+      "outfit": "Pale pink satin mini dress",
+      "design_details": [
+        "Structured corset back",
+        "Lace-up detailing",
+        "Crystal floral embellishments scattered across fabric"
+      ],
+      "material_texture": "High-quality satin with subtle sheen",
+      "embellishments": "Shimmering rhinestones with sharp detail"
+    }
+  },
+  "photography_style": {
+    "aesthetic": "1990s vintage editorial",
+    "camera_effects": [
+      "Subtle film grain",
+      "High contrast",
+      "Warm, saturated color tones"
+    ],
+    "lighting": {
+      "type": "Direct hard flash",
+      "effect": "Creates slight shadow on background",
+      "vibe": "Paparazzi / disposable camera look"
+    },
+    "background": {
+      "setting": "Plain studio wall",
+      "color": "Off-white"
+    },
+    "focus_details": [
+      "Sharp focus on corset lacing",
+      "Visible satin texture",
+      "Crisp rhinestone reflections"
+    ]
+  },
+  "image_quality": {
+    "realism": "Photorealistic",
+    "resolution": "Ultra high-definition",
+    "detail_level": "Editorial-grade clarity and texture"
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#24 NanoBanana Pro Prompt by @IqraSaifiii
+详情: https://www.meigen.ai/prompt/2010083845761314964
+图片: https://images.meigen.ai/tweets/2010083845761314964/0.jpg
+分数: 35
+提示词:
+    3x3 Photo Collage / 9-Panel Grid.",
+      "layout": "Nine vertical portrait images arranged in a square grid.",
+      "consistency": "Same subject, same outfit, and same lighting across all 9 panels."
+    },
+    "aesthetic_style": {
+      "theme": "Gen Z Home Party / 'Maiden Pavilion' Photoshoot.",
+      "lighting_technique": "Direct On-Camera Flash (Hard Light).",
+      "visuals": "High contrast, sharp shadows, chaotic fun, vibrant colors against a white background."
+    },
+    "subject_details": {
+      "appearance": "Young Asian woman, fair skin, long dark wavy hair with volume.",
+      "outfit": "White floral camisole top, blue denim shorts.",
+      "makeup": "Heavy pink blush (Igari style), red lips, glitter on cheeks."
+    },
+    "environment_and_props": {
+      "background": "White wall with taped photos, white bed sheets.",
+      "decor": "Silver disco balls (various sizes), colorful metallic confetti scattered everywhere, brown teddy bear, pink retro corded phone."
+    },
+    "panel_pose_breakdown": {
+      "1_top_left": "Lying on stomach (prone), resting chin on crossed arms, looking at camera. Confetti in hair.",
+      "2_top_center": "Top-down view lying on back, winking one eye, making a peace sign near face. Hair fanned out.",
+      "3_top_right": "Sitting sideways, knees bent, laughing candidly while throwing a handful of confetti in the air.",
+      "4_middle_left": "Leaning upper body over a large silver disco ball, looking intensely at the camera.",
+      "5_middle_center": "Close-up portrait. Hands touching cheeks in a 'surprised' or 'shy' gesture. Confetti stuck to cheeks.",
+      "6_middle_right": "Lying on back amongst the disco balls, one arm reaching up towards the ceiling/camera.",
+      "7_bottom_left": "Upside-down perspective (head at bottom of frame), playful expression, hair cascading down.",
+      "8_bottom_center": "Sitting cross-legged (Lotus position), hugging the brown teddy bear tight, pouting slightly.",
+      "9_bottom_right": "Sitting up, holding the pink retro telephone receiver to ear, looking sideways as if listening to gossip."
+    },
+    "camera_technical_values": {
+      "focal_length": "35mm (Versatile environmental portrait lens).",
+      "aperture": "f/5.6 (Ensures subject and props are in focus).",
+      "shutter_speed": "1/200s (Flash sync to freeze confetti motion).",
+      "iso": "ISO 200.",
+      "lighting": "Hard flash creates a distinct drop shadow behind the subject on the white wall and specular highlights on the disco balls."
+    }
+  },
+  "midjourney_string": "3x3 photo grid collage of a cute Asian girl at a home party, wearing white floral top and
+
+--------------------------------------------------------------------------------
+
+#25 NanoBanana Pro Prompt by @xmliisu
+详情: https://www.meigen.ai/prompt/2012936215176073501
+图片: https://images.meigen.ai/tweets/2012936215176073501/0.jpg
+分数: 34
+提示词:
+    {
+  "image_generation_prompt": {
+    "style": "Hyper-realistic photograph",
+    "subject": {
+      "demographic": "Young woman",
+      "pose": {
+        "angle": "Slightly rear three-quarter angle",
+        "posture": "Gracefully turning upper body and head toward camera, natural S-curve",
+        "arms": "One arm raised gently holding hair, other arm resting naturally by side",
+        "vibe": "Candid, effortless"
+      },
+      "face_and_identity": {
+        "constraint": "Use uploaded photo as exact and only reference",
+        "preservation": "100% facial structure, bone proportions, eyes, nose, lips, skin texture, natural asymmetry",
+        "prohibitions": "No alterations, filters, or stylization",
+        "expression": "Calm, subtly confident, slightly curious"
+      },
+      "hair": "Dark, straight, silky, tied in mid-height ponytail with loose front strands framing face",
+      "outfit": {
+        "top": "Fitted white backless crop top with short sleeves",
+        "bottom": "Loose-fitting black pants sitting comfortably at the waist",
+        "contrast": "Clean black-and-white"
+      }
+    },
+    "environment": {
+      "location": "Outdoors on a wooden deck beside a modern landscaped swimming pool",
+      "elements": [
+        "Lush green plants",
+        "Small trees",
+        "Calm reflective water",
+        "Contemporary buildings faintly visible in distance"
+      ]
+    },
+    "technical_details": {
+      "lighting": "Natural soft daylight (late afternoon), even illumination, gentle highlights on cheekbones/shoulders/back, soft diffused light, no harsh shadows",
+      "colors": "Fresh natural palette, greens, soft blues, warm wood tones, neutral clothing",
+      "mood": "Serene, stylish, lifestyle-oriented, peaceful, effortlessly fashionable",
+      "focus": "Natural anatomy, realistic skin texture, subtle highlights/reflections, photographic depth-of-field (editorial feel)"
+    },
+    "full_prompt_text": "A hyper-realistic photograph of a young woman standing outdoors on a wooden deck beside a modern landscaped swimming pool. Lush green plants, small trees, and calm reflective water surround her, with contemporary buildings faintly visible in the distance. She is captured from a slightly rear three-quarter angle, gracefully turning her upper body and head toward the camera, forming a natural S-curve in her posture. One arm is raised above her head, gently holding her hair, while the other arm rests naturally by her side, giving a candid, effortless feel. Face & Identity: Use the uploaded photo as the exact and only reference. Preserve the face 100%: facial structure, bone proportions, eyes, nose, lips, skin texture, and natural asymmetry. No alterations, filters, or stylization. Expression must remain calm, subtly confident, and slightly curious. Hair & Outfit: Dark, straight, silky hair tied in a mid-height ponytail, with loose front strands framing her face. She wears a fitted white backless crop top with short sleeves exposing her shoulders and upper back, paired with loose-fitting black pants sitting comfortably at the waist. Lighting & Mood: Natural soft daylight, likely late afternoon, evenly illuminating skin and clothing. Gentle highlights accentuate cheekbones, shoulder, and back. Soft, diffused lighting ensures no harsh shadows. Colors & Atmosphere: Fresh, natural palette dominated by greens, soft blues, warm wood tones, and neutral clothing colors. The mood is serene, stylish, and lifestyle-oriented. Extra: Focus on natural anatomy, realistic skin texture, and photographic depth-of-field."
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#26 NanoBanana Pro Prompt by @youngcatwoman
+详情: https://www.meigen.ai/prompt/2034002331340320770
+图片: https://images.meigen.ai/tweets/2034002331340320770/0.jpg
+分数: 34
+提示词:
+    Create a 3-image vertical collage (aspect ratio 9:16) featuring Le Sserafim's Kim Chaewon, showcasing her distinct features and short black bob with bangs, wearing a vibrant cherry-red strapless latex dress with a glossy finish. She is posing with a red lollipop.
+Image 1: Close-up portrait — Kim Chaewon looks directly at the camera with a soft, teasing smile, her glossy lips slightly parted, holding the red lollipop near her mouth. The shot highlights her precise features and dark hair. Warm lighting, smooth skin tones, shallow depth of field, cinematic glow.
+Image 2: Mid-shot — Kim Chaewon tilts her head slightly, the lollipop resting gently against her lips, a playful expression in her dark eyes. Her short hair is softly flowing, showing subtle highlights. She wears the red strapless latex dress. Modern aesthetic background with soft pink and red tones.
+Image 3: Side profile pose — Kim Chaewon looks over her shoulder while holding the lollipop near her chin, her distinctive profile on display with a confident and flirty expression. The texture of the red latex dress is visible. Soft studio lighting, blurred background, high-fashion editorial style.
+Overall Style: High-resolution, glossy magazine editorial look, soft glam makeup, cherry-red color theme, smooth skin retouching, aesthetic Instagram collage layout, clean white borders between images.
+
+--------------------------------------------------------------------------------
+
+#27 NanoBanana Pro Prompt by @Naiknelofar788
+详情: https://www.meigen.ai/prompt/2031169815927468186
+图片: https://images.meigen.ai/tweets/2031169815927468186/0.jpg
+分数: 33
+提示词:
+    {
+  "generation_request": {
+    "meta_data": {
+      "task_type": "black_and_white_photobooth_expression_grid_4x4",
+      "language": "en",
+      "priority": "highest",
+      "version": "v1.0_BW_PHOTOBOOTH_EXPRESSIONS_4X4"
+    },
+    "input": {
+      "mode": "image_to_image",
+      "reference_image_usage": "very_high",
+      "preserve_identity": true,
+      "preserve_facial_features": true,
+      "preserve_hairstyle": true,
+      "notes": "Use the reference as the primary anchor. Create a black-and-white photobooth-style expression grid. Keep the same adult woman identity and hair. Each panel should show a different facial expression. Minimal background, direct photobooth flash look, natural skin texture."
+    },
+    "output": {
+      "aspect_ratio": "1:1",
+      "resolution": "ultra_high",
+      "num_images": 1,
+      "layout": {
+        "type": "grid",
+        "rows": 4,
+        "cols": 4,
+        "gutter": "thin",
+        "panel_consistency": "high"
+      },
+      "sharpness": "crisp_photobooth",
+      "grain": "subtle_analog_bw"
+    },
+    "scene": {
+      "concept": "classic photobooth contact sheet with expressive faces",
+      "environment": "plain neutral backdrop, no props",
+      "lighting": {
+        "style": "direct photobooth flash",
+        "key_light": "front flash, slightly hard but flattering",
+        "shadows": "soft short shadows behind subject",
+        "avoid": "cinematic side light, dramatic backgrounds"
+      },
+      "camera": {
+        "lens": "50mm",
+        "distance": "tight head-and-shoulders framing",
+        "focus": "eyes sharp in every panel"
+      }
+    },
+    "subject": {
+      "type": "adult woman",
+      "wardrobe": "simple strapless or bare-shoulder photobooth look (no logos)",
+      "hair": "keep same hairstyle across all panels",
+      "makeup": "minimal, natural",
+      "anatomy_rules": "correct facial proportions, no warped eyes/mouth"
+    },
+    "expression_set": {
+      "panel_01": "scrunched smile, eyes squeezed slightly",
+      "panel_02": "intense stare with fingers framing eyes",
+      "panel_03": "big laugh, mouth open, joyful",
+      "panel_04": "bored / unimpressed face, chin in hands",
+      "panel_05": "sad pout, watery eyes look",
+      "panel_06": "goofy face with both hands making small horns above head",
+      "panel_07": "playful tongue out, cheeky grin",
+      "panel_08": "angry glare, eyebrows down",
+      "panel_09": "flirty look, hand touching cheek",
+      "panel_10": "surprised wide eyes, mouth slightly open",
+      "panel_11": "fake scream / excited shout, hands near face",
+      "panel_12": "mischievous grin with claw-like hand pose",
+      "panel_13": "confused frown, lips pressed",
+      "panel_14": "crying face, hands on head, dramatic",
+      "panel_15": "tongue out with eyes closed, playful",
+      "panel_16": "duck face with small devil horns gesture"
+    },
+    "style": {
+      "color": "pure black and white",
+      "contrast": "medium-high",
+      "background": "flat gray",
+      "finish": "slight photobooth grain, clean edges"
+    },
+    "quality_control": {
+      "identity_lock": "strict",
+      "hands_priority": "high",
+      "avoid": [
+        "extra fingers",
+        "missing fingers",
+        "deformed hands",
+        "warped face",
+        "uneven eyes",
+        "melted mouth",
+        "plastic skin",
+        "text",
+        "watermark",
+        "logo"
+      ]
+    },
+    "negative_prompt": [
+      "color",
+      "sepia",
+      "overly cinematic lighting",
+      "beauty retouch plastic skin",
+      "low resolution",
+      "blur",
+      "distorted anatomy"
+    ]
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#28 NanoBanana Pro Prompt by @JustBethanyai
+详情: https://www.meigen.ai/prompt/2019126008268403085
+图片: https://images.meigen.ai/tweets/2019126008268403085/0.jpg
+分数: 32
+提示词:
+    {
+  "subject": {
+    "character": "Sadie Sink",
+    "age_range": "early to mid 20s",
+    "skin_texture": "smooth, natural skin texture, soft porcelain tone",
+    "expression": "calm, distant, introspective"
+  },
+
+  "pose_and_orientation": {
+    "body_direction": "upper body fully facing the camera, straight on",
+    "head_direction": "head turned gently to the left, matching the reference image angle",
+    "gaze_direction": "looking past the camera to the left, identical to the reference image",
+    "shoulders": "even, squared shoulders facing forward",
+    "posture": "upright, elegant, noble posture"
+  },
+
+  "gaze": {
+    "eye_focus": "soft, unfocused gaze into the distance",
+    "emotion": "quiet confidence, subtle melancholy, composed elegance"
+  },
+
+  "mood": {
+    "overall_feeling": "elegant, poetic, timeless",
+    "energy": "soft, restrained, aristocratic",
+    "atmosphere": "romantic European fine art portrait"
+  },
+
+  "hair": {
+    "style": "loosely gathered messy bun",
+    "structure": "soft volume at the crown, natural irregularity",
+    "flyaways": "loose strands framing the face and neck",
+    "finish": "natural, matte, effortless"
+  },
+
+  "accessories": {
+    "earrings": "delicate dangling pearl earrings",
+    "style": "classic, minimal, aristocratic",
+    "movement": "subtle natural swing"
+  },
+
+  "outfit": {
+    "reference_instruction": "base the outfit directly on the clothing in the provided reference image",
+    "dress_type": "deep V-neck evening dress",
+    "fabric": "sheer black lace overlay",
+    "lace_detail": "intricate floral lace patterns identical in spirit to the reference",
+    "inner_layer": "solid black structured bodice beneath the lace",
+    "neckline_behavior": "lace softly draped over shoulders and collarbone as in the reference image",
+    "overall_style": "haute couture, timeless, refined, identical silhouette to the reference"
+  },
+
+  "lighting": {
+    "type": "soft natural daylight",
+    "direction": "side lighting from camera right, matching reference",
+    "shadow_style": "gentle shadows sculpting cheekbones and jawline",
+    "contrast": "low contrast, painterly softness",
+    "skin_light": "even, diffused glow"
+  },
+
+  "camera": {
+    "shot_type": "medium close-up portrait",
+    "lens": "85mm portrait lens look",
+    "depth_of_field": "shallow depth of field with soft background blur",
+    "focus": "sharp focus on eyes and facial features"
+  },
+
+  "composition": {
+    "framing": "vertical portrait",
+    "subject_placement": "centered composition with subtle negative space",
+    "aesthetic": "fine art editorial photography"
+  },
+
+  "background": {
+    "location": "historic European castle garden",
+    "elements": [
+      "ancient stone castle walls",
+      "ivy-covered arches",
+      "classical European garden statues",
+      "trimmed hedges and greenery",
+      "stone garden pathways"
+    ],
+    "time_of_day": "late afternoon",
+    "background_style": "romantic, softly blurred, cinematic"
+  },
+
+  "color_palette": {
+    "dominant_colors": [
+      "soft blush pink",
+      "stone gray",
+      "deep black",
+      "muted garden green"
+    ],
+    "tone": "warm, slightly desaturated, timeless"
+  },
+
+  "style_tags": [
+    "fine art portrait",
+    "cinematic lighting",
+    "european aristocracy",
+    "romantic realism",
+    "fashion editorial",
+    "renaissance inspired"
+  ],
+
+  "quality": {
+    "detail_level": "ultra-detailed",
+    "resolution": "high resolution, 8k look",
+    "texture_quality": "realistic lace, fabric and skin texture",
+    "render_style": "photorealistic with painterly softness"
+  },
+
+  "negative_prompt": {
+    "exclude": [
+      "different pose than specified",
+      "front-facing gaze",
+      "modern clothing",
+      "harsh lighting",
+      "over-saturated colors",
+      "plastic skin",
+      "cartoon or illustration style",
+      "distorted anatomy",
+      "over-sharpening"
+    ]
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#29 NanoBanana Pro Prompt by @ZaraIrahh
+详情: https://www.meigen.ai/prompt/2010661146349756814
+图片: https://images.meigen.ai/tweets/2010661146349756814/0.jpg
+分数: 32
+提示词:
+    A high-resolution, close-up editorial-style portrait of a young woman standing against a textured gray concrete wall, captured with direct on-camera flash that creates a raw, moody, high-contrast aesthetic. She is positioned slightly angled to the side with her head tilted back and chin lifted, giving an effortlessly cool, candid expression. Her face has a fair, smooth complexion with a natural sheen from the flash, soft rosy blush across the cheeks, minimal eye makeup, lightly defined brows, and glossy natural pink lips that are slightly parted, conveying a relaxed yet confident mood. Wispy strands of her dark brown hair fall loosely across her face, partially covering one eye, while the rest of her hair is pulled back into a low, casual style, enhancing the spontaneous, fashion-editorial feel. Her eyes look slightly upward and past the camera, adding to the detached, artistic vibe. She is wearing a loose-fitting white oversized T-shirt with bold red typography reading “CALIFORNIA” across the chest, along with smaller black text underneath, giving a casual streetwear aesthetic. Small, subtle stud earrings are visible, adding minimal detail without distracting from the overall look. The lighting is harsh and frontal, producing sharp shadows behind her on the wall and emphasizing skin texture, hair strands, and fabric folds, while the background remains simple and uncluttered. The color palette is muted and neutral—gray wall, white shirt, and red lettering—allowing the subject’s face and expression to remain the focal point. The overall atmosphere feels intimate, modern, slightly gritty, and effortlessly stylish, like a candid fashion snapshot captured at night with flash photography. Use this uploaded photo as the only and exact face reference. The generated image must use this same face exactly as shown, without any changes to identity, facial structure, or expression.
+
+--------------------------------------------------------------------------------
+
+#30 NanoBanana Pro Prompt by @Ankit_patel211
+详情: https://www.meigen.ai/prompt/2011729938991497671
+图片: https://images.meigen.ai/tweets/2011729938991497671/0.jpg
+分数: 31
+提示词:
+    {
+  "project": "Nano Banana – Maximalist Editorial Americana Scene",
+  "version": "2.4",
+  "engine_optimization": "Nano Banana (maximalist cinematic photorealism, high detail density, controlled imperfection)",
+  "render_intent": "cohesive western color harmony with refined fashion detail and narrative clarity",
+  "frame": {
+    "aspect_ratio": "3:4",
+    "shot_type": "medium-full portrait",
+    "camera_angle": "eye-level with subtle cinematic parallax",
+    "composition": "subject foreground dominant, pointing gesture aligned parallel to the sign, car balancing the frame",
+    "lens_simulation": "50mm full-frame prime",
+    "camera_metadata": {
+      "iso": 100,
+      "shutter_speed": "1/320",
+      "aperture": "f/1.8"
+    },
+    "depth_of_field": "shallow, face and guiding hand crisp, background softly diffused"
+  },
+  "subject": {
+    "type": "young woman",
+    "approximate_age": "early to mid 20s",
+    "identity_consistency": "single subject, realistic anatomy, natural proportions",
+    "appearance": {
+      "hair": {
+        "color": "deep brunette",
+        "length": "long",
+        "style": "loose, softly flowing, gently wind-swept"
+      },
+      "face": {
+        "beauty_level": "very beautiful, striking yet natural",
+        "pose_detail": "face slightly tilted, enhancing elegance and approachability"
+      },
+      "skin": {
+        "tone": "light to medium",
+        "details": [
+          "natural texture",
+          "subtle freckles",
+          "soft daylight glow"
+        ]
+      },
+      "eyes": {
+        "color": "warm brown or hazel",
+        "expression": "inviting, confident, gently persuasive"
+      },
+      "makeup": "minimal, clean editorial finish"
+    },
+    "expression": "calm confidence with a subtle, encouraging smile",
+    "pose": "standing beside the car, torso slightly angled, arm extended horizontally, pointing parallel to the sign as if signaling ‘follow that way, follow me’"
+  },
+  "wardrobe": {
+    "top": "light pastel blue denim shirt with visible weave, pink and white embroidery in refined western motifs",
+    "fit": "relaxed yet tailored",
+    "bottom": "light brown pants, soft twill or suede-like texture, tailored with natural creases",
+    "footwear": "warm tan suede cowboy boots, medium contrast, elegant western stitching, slightly worn for authenticity",
+    "accessories": [
+      "silver necklace",
+      "small silver heart-shaped pendant, delicate and understated, resting just below the collarbone"
+    ],
+    "fabric_behavior": "authentic material stiffness and drape, embroidered threads catching light, natural folds and tension"
+  },
+  "vehicle": {
+    "type": "classic Ford Mustang",
+    "color": "lemon yellow",
+    "finish": "glossy paint with realistic reflections and subtle surface imperfections",
+    "positioning": "parked beside the subject at a slight diagonal, iconic profile visible"
+  },
+  "environment": {
+    "location": "open roadside or rural edge",
+    "background_elements": [
+      "roadside sign with clearly legible text: 'My Way'",
+      "open sky",
+      "soft greenery or distant fields"
+    ],
+    "atmosphere": "freedom, direction, invitation, optimistic Americana mood"
+  },
+  "lighting": {
+    "type": "natural daylight",
+    "source": "open sky sunlight",
+    "time_of_day": "late afternoon",
+    "quality": "soft, directional, cinematic",
+    "effects": [
+      "gentle rim light on hair and shoulders",
+      "subtle highlights on silver jewelry",
+      "soft reflections on car paint"
+    ],
+    "shadow_behavior": "clean, soft-edged, physically accurate"
+  },
+  "color_palette": {
+    "dominant_colors": [
+      "lemon yellow",
+      "pastel denim blue",
+      "light brown",
+      "warm tan",
+      "soft pink and white embroidery",
+      "natural skin tones",
+      "silver accents"
+    ],
+    "grading_style": "warm cinematic editorial grading with filmic highlight roll-off"
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#31 NanoBanana Pro Prompt by @lexx_aura
+详情: https://www.meigen.ai/prompt/2009884343917818157
+图片: https://images.meigen.ai/tweets/2009884343917818157/0.jpg
+分数: 31
+提示词:
+    {
+  "project_meta": {
+    "title": "Monochromatic Orange High-Fashion Editorial",
+    "style": "Ultra-photorealistic, 8K, luxury magazine aesthetic",
+    "mood": "Bold, glamorous, confident, seductive"
+  },
+  "environment": {
+    "setting": "Minimalist professional studio",
+    "background": "Solid seamless vibrant orange backdrop and floor",
+    "props": "None (clean surface)",
+    "lighting": "Soft frontal key light, warm calibration, controlled shadows"
+  },
+  "subject": {
+    "likeness": "Sydney Sweeney-inspired (not identical)",
+    "demographics": "Female, mid-20s, slim toned physique",
+    "features": {
+      "skin": "Natural white, glossy bronzed highlights, realistic texture",
+      "hair": "Long light blonde, voluminous, side-parted",
+      "face": "Soft oval, full lips, bright expressive eyes",
+      "makeup": "High-glam, sculpted contour, smoky eyes, glossy nude lips"
+    }
+  },
+  "wardrobe": {
+    "dress": "Strapless mini dress, dense soft orange feather texture",
+    "shoes": "Matching orange pointed-toe stilettos",
+    "jewelry": "Gold hoop earrings, thin chain, stacked bangles, rings"
+  },
+  "technical": {
+    "gear": "Full-frame DSLR, 85mm prime lens",
+    "settings": "Aperture f/4, ISO 100, Shutter 1/125s",
+    "focus": "Tack-sharp on subject, subtle background separation"
+  },
+  "composition": {
+    "angles": "Eye-level to subtle low-angle",
+    "framing": ["Full-body", "Three-quarter", "Tight portrait"],
+    "poses": [
+      "Kneeling with legs folded",
+      "Seated with one knee raised",
+      "Standing with hip pop",
+      "Leaning back supported by hands",
+      "Looking over shoulder"
+    ]
+  },
+  "consistency_rules": {
+    "fixed_elements": ["Character identity", "Feather dress", "Orange background"],
+    "variable_elements": ["Pose", "Camera angle", "Framing"]
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#32 NanoBanana Pro Prompt by @NameIsSudee
+详情: https://www.meigen.ai/prompt/2010367571951001784
+图片: https://images.meigen.ai/tweets/2010367571951001784/0.jpg
+分数: 30
+提示词:
+    {
+  "task": "photo_editing",
+  "instruction": "Edit the photo according to the description without changing the face in the slightest. The face must remain 100% authentic and identical to the original.",
+  "photo_style": {
+    "type": "candid_smartphone_photo",
+    "aspect_ratio": "3:4",
+    "time": "night",
+    "device": "low-end Android phone",
+    "shooting_style": "handheld, rushed, imperfect",
+    "quality": "realistic, unpolished"
+  },
+  "subject": {
+    "gender": "female",
+    "age_appearance": "early 20s",
+    "ethnicity": "Indonesian",
+    "expression": {
+      "mood": "soft, youthful, naturally cute",
+      "face": "relaxed",
+      "lips": "gently closed",
+      "eyes": "calm and warm",
+      "smile": "none"
+    },
+    "vibe": ["girl-next-door", "young", "fresh", "everyday", "not model-like", "not glamorous", "not influencer", "not styled"]
+  },
+  "pose_and_action": {
+    "seating": "sitting casually",
+    "moment": "unplanned, unposed",
+    "hands": {
+      "one_hand": "holding a glass of drink",
+      "other_hand": "using phone"
+    },
+    "attention": "focused on her phone, unaware of camera"
+  },
+  "clothing_and_appearance": {
+    "top": {
+      "type": "plain long-sleeved top",
+      "color": "White",
+      "style": "simple, fitted, no patterns"
+    },
+    "hair": {
+      "length": "waist-length",
+      "color": "Platinum white",
+      "texture": "smooth, straight, natural",
+      "style": "flowing freely"
+    },
+    "skin": {
+      "look": "clean, youthful, lightly smooth",
+      "details": "subtle pores, mild natural variation",
+      "health": "healthy and soft",
+      "restrictions": ["no beauty filter", "no retouching", "no AI-polished skin", "no plastic look"]
+    }
+  },
+  "camera_angle_and_framing": {
+    "angle": "slightly from the side and slightly behind",
+    "perspective": "authentic candid",
+    "framing": "medium-wide",
+    "visibility": "upper body and part of table visible",
+    "composition": "subject slightly smaller in frame, minor imbalance"
+  },
+  "lighting": {
+    "type": "harsh and imperfect",
+    "sources": ["rooftop café lights", "city street lights"],
+    "effects": ["uneven exposure", "blown highlights", "deep shadows", "imperfect white balance"]
+  },
+  "focus_and_quality": {
+    "focus": "slightly more on subject",
+    "background_blur": "soft blur due to low light and camera limitations",
+    "restrictions": ["not portrait mode blur", "not artificial bokeh"],
+    "artifacts": ["visible digital noise", "grain", "slight motion blur", "imperfect focus accuracy", "limited dynamic range"]
+  },
+  "background": {
+    "location": "Jakarta rooftop café",
+    "elements": ["tables", "railing", "other people casually visible", "distant Jakarta buildings", "city lights"]
+  },
+  "objects": {
+    "table_items": ["iPhone 17 Pro Max", "part of a woman's handbag"],
+    "accessories": {
+      "wrist": "latest Apple Watch, naturally visible"
+    }
+  },
+  "overall_feeling": ["normal", "intimate", "quiet", "authentic", "slightly messy", "realistic", "non-aesthetic", "non-cinematic", "not staged", "not AI-looking", "taken by her boyfriend"]
+}
+
+--------------------------------------------------------------------------------
+
+#33 NanoBanana Pro Prompt by @Passionai0
+详情: https://www.meigen.ai/prompt/2012264538234564772
+图片: https://images.meigen.ai/tweets/2012264538234564772/0.jpg
+分数: 30
+提示词:
+    {
+  "meta": {
+    "aspect_ratio": "4:5",
+    "quality": "ultra_photorealistic, raw, professional fashion photography",
+    "resolution": "8k",
+    "camera": "Mirrorless camera (e.g., Sony A7R IV)",
+    "lens": "24mm f/1.4 wide-angle lens",
+    "style": "Clean girl aesthetic, minimalist, athletic lifestyle, high-end studio look",
+    "composition": "Extreme high-angle shot looking directly down at a woman kneeling, centered framing, focus on face and upper body."
+  },
+  "scene": {
+    "location": "A minimalist, bright interior room with neutral tones.",
+    "environment": [
+      "Large, plush, shaggy beige faux-fur rug on the floor",
+      "Plain off-white or light beige wall in the background",
+      "Clean, uncluttered minimalist space"
+    ],
+    "time": "Daytime, bright and airy indoor setting.",
+    "atmosphere": "Confident, cozy, modern, polished."
+  },
+  "lighting": {
+    "type": "Soft, diffused natural daylight or overhead softbox lighting.",
+    "source": "Large window or professional studio light from above.",
+    "effect": "Even, bright illumination that eliminates harsh shadows, highlighting the glow of the skin and the texture of the blonde hair."
+  },
+  "subject": {
+    "identity": "A stunningly beautiful young woman with sleek platinum blonde hair, fair skin, and light green eyes. She has distinctively plump, natural lips and defined eyebrows.",
+    "body": {
+      "pose": "Kneeling on the shaggy rug, leaning her body forward towards the lens, hands raised to her head as she adjusts a high ponytail.",
+      "physique": "Fit, athletic build with toned arms and shoulders."
+    },
+    "outfit": {
+      "clothing": "Black sleeveless ribbed crop top, matching high-waisted black yoga leggings.",
+      "accessories": "Elegant white pearl necklace, small gold hoop earrings."
+    }
+  },
+  "realism_focus": {
+    "textures": "Detailed fiber texture of the shaggy rug, ribbed fabric of the black top, individual strands and sheen of the blonde hair, smooth but realistic skin texture with subtle pores.",
+    "imperfections": "Natural highlights on the lips and eyes, soft shadows cast on the rug, realistic tension in the arms while holding the hair."
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#34 NanoBanana Pro Prompt by @me_Aarvi
+详情: https://www.meigen.ai/prompt/2008687707946709129
+图片: https://images.meigen.ai/tweets/2008687707946709129/0.jpg
+分数: 30
+提示词:
+    A cinematic 1970s-inspired fashion portrait of a graceful young woman seated on worn stone steps outside a cozy street café. She holds an ornate deep-green ceramic coffee cup with delicate gold rim accents, gently resting it in her hands as she gazes softly toward the camera with calm confidence. Her expression feels serene, thoughtful, and timeless.
+Her hair falls in soft, natural waves with loose strands framing her face, styled in a classic vintage manner. Makeup reflects 1970s elegance: matte crimson-red lips, subtle winged eyeliner, warm-toned blush, and softly defined brows. She wears a luxurious forest-green knitted sweater with a relaxed fit, paired with a flowing black tulle skirt that moves lightly with the air.
+A warm plaid scarf in earthy browns, burnt orange, and muted reds is draped casually around her neck. Beside her rests a premium dark-green leather crossbody bag with gold filigree hardware and a delicate chain strap.
+The background features an autumn café street with scattered fallen leaves, glowing amber lights behind glass windows, and a soft urban stillness. Shot with an 85mm lens at f/1.8, shallow depth of field, warm analog film grain, muted earthy palette, dreamy cinematic mood, ultra-realistic fashion editorial photography inspired by classic 1970s film aesthetics.
+
+--------------------------------------------------------------------------------
+
+#35 NanoBanana Pro Prompt by @Ankit_patel211
+详情: https://www.meigen.ai/prompt/2012893873866145840
+图片: https://images.meigen.ai/tweets/2012893873866145840/0.jpg
+分数: 30
+提示词:
+    {
+  "image_prompt_data": {
+    "subject": {
+      "appearance": "Young Sadie Sink woman with long, straight, dark brown hair parted in the middle. Tan complexion. Resembles Charli D'Amelio.",
+      "expression": "Neutral to slightly serious, confident gaze, looking directly down at the camera lens.",
+      "pose": "Sitting on a red leather bar stool, body angled slightly to the left, legs crossed at the knees, hands resting gently on her thighs."
+    },
+    "apparel": {
+      "clothing": "Fitted black mini dress (slip dress style) with thin, sparkling rhinestone or silver chain spaghetti straps.",
+      "footwear": "Black satin platform sandals with high block heels and buckle ankle straps.",
+      "accessories": "Large silver hoop earrings, delicate silver rings on fingers."
+    },
+    "environment": {
+      "setting": "Casino interior, dimly lit background.",
+      "objects": "Large slot machine to the left with illuminated neon signage reading 'TRIPLE JACKPOT GEMS'.",
+      "furniture": "Red cushioned swivel bar stool with a metallic bronze base.",
+      "flooring": "Retro-patterned casino carpet featuring swirling designs in teal, blue, and orange.",
+      "background_details": "Blurred casino lights, wooden paneling, slight reflection on the slot machine glass."
+    },
+    "technical_specs": {
+      "camera_angle": "Low angle shot (worm's-eye view), looking up at the subject to emphasize the legs and shoes.",
+      "lighting": "Direct on-camera flash photography. Hard lighting with distinct shadows behind the subject and high contrast.",
+      "aesthetic": "Y2K vintage digital camera vibe, paparazzi style, candid celebrity snapshot, slight film grain, high saturation."
+    }
+  },
+  "full_prompt_string": "Low angle flash photography of a young woman resembling Charli D'Amelio sitting on a red casino stool. She is wearing a black mini dress with rhinestone straps and black platform block heels. She is next to a slot machine that says 'TRIPLE JACKPOT GEMS'. Retro casino carpet floor. Direct flash, harsh shadows, 2000s digicam aesthetic, glamorous but gritty."
+}
+
+--------------------------------------------------------------------------------
+
+#36 GPT Image 1 Prompt by @saniaspeaks_
+详情: https://www.meigen.ai/prompt/2004854685438804012
+图片: https://images.meigen.ai/tweets/2004854685438804012/0.jpg
+分数: 29
+提示词:
+    {
+  "type": "image_generation_prompt",
+  "style": "ultra-wide angle, aerial portrait, contemporary studio photography",
+  "identity_preservation": {
+    "use_reference_image": true,
+    "strict_identity_lock": true,
+    "alter_face": false,
+    "notes": "Preserve 100% of the woman’s facial features, proportions, skin texture, and natural expression from the reference image."
+  },
+  "composition": {
+    "camera_angle": "top-down aerial view (approximately 90 degrees above the subject)",
+    "framing": "full-body framing with emphasis on head and upper torso",
+    "negative_space": "large amount of negative space surrounding the subject",
+    "perspective_effect": "dramatic isolation and graphic impact"
+  },
+  "subject": {
+    "gender": "female",
+    "pose": {
+      "body_position": "standing or lying naturally beneath the camera",
+      "head_direction": "looking straight up toward the camera",
+      "expression": "engaging, slightly curious or inquisitive"
+    },
+    "appearance": {
+      "hair": {
+        "style": "natural hairstyle with visible texture and volume",
+        "notes": "do not alter hair color or structure from reference"
+      },
+      "eyewear": "round, thick-framed stylish glasses",
+      "wardrobe": {
+        "outer_layer": "short-sleeve button-up shirt in deep dark brown, corduroy or textured fabric",
+        "inner_layer": "light beige or off-white textured sweater or t-shirt worn underneath"
+      },
+      "skin": {
+        "tone": "natural, realistic",
+        "texture": "clearly visible, not over-smoothed"
+      }
+    }
+  },
+  "environment": {
+    "background": {
+      "type": "studio backdrop",
+      "color": "soft gray gradient",
+      "gradient_style": "darker at the edges, lighter at the center directly beneath the subject"
+    },
+    "setup": "minimalist, distraction-free"
+  },
+  "lighting": {
+    "type": "soft, uniform overhead lighting",
+    "direction": "from above",
+    "effect": [
+      "subtle shadows defining facial features and clothing folds",
+      "even illumination with no harsh contrast"
+    ]
+  },
+  "camera_settings": {
+    "iso": "150–200",
+    "aperture": "f/1.28",
+    "shutter_speed": "1/200s",
+    "resolution": "high-resolution, ultra-detailed"
+  },
+  "color_grading": {
+    "palette": "neutral, modern tones",
+    "contrast": "soft and balanced",
+    "look": "clean, contemporary"
+  },
+  "mood": {
+    "atmosphere": "minimalist, modern, contemplative",
+    "focus": "strong subject isolation and visual clarity"
+  },
+  "output_goal": "Create a high-resolution, top-down aerial studio portrait of a woman against a soft gray gradient background, with dramatic perspective, minimalist composition, and complete preservation of her facial identity and natural appearance."
+}
+
+--------------------------------------------------------------------------------
+
+#37 NanoBanana Pro Prompt by @YaseenK7212
+详情: https://www.meigen.ai/prompt/2013248633748050216
+图片: https://images.meigen.ai/tweets/2013248633748050216/0.jpg
+分数: 29
+提示词:
+    {
+  "image_generation_request": {
+    "meta_settings": {
+      "aspect_ratio": "9:16",
+      "model_version": "v6.0",
+      "stylize_value": 250,
+      "quality": "High"
+    },
+    "subject_definition": {
+      "identity_source": {
+        "method": "Image Reference",
+        "instruction": "Strictly preserve facial features and hair from the uploaded reference image."
+      },
+      "body_language": {
+        "pose": "Seated on a high stool, body angled 30 degrees to the left, legs elegantly crossed at the knee to elongate the silhouette.",
+        "hands": "Resting casually on the upper thighs, fingers relaxed, showcasing rings.",
+        "gaze": "Looking slightly down towards the camera lens or directly into the flash."
+      }
+    },
+    "fashion_and_styling": {
+      "garment_main": {
+        "item": "Black mini slip dress",
+        "fabric": "Satin or high-sheen silk blend",
+        "fit": "Skin-tight, fitted bodycon silhouette",
+        "details": [
+          "Spaghetti straps made of glittering rhinestones",
+          "Deep scoop neckline",
+          "Mini hemline exposing legs"
+        ]
+      },
+      "footwear": {
+        "item": "Platform sandals",
+        "style": "Chunky block heel, 1990s/Y2K inspired",
+        "material": "Black patent leather or satin",
+        "details": "Silver buckle ankle strap, open toe"
+      },
+      "jewelry": {
+        "ears": "Oversized sterling silver hoop earrings",
+        "hands": "Multiple delicate silver stacking rings"
+      }
+    },
+    "environmental_context": {
+      "location": "Vintage Casino Floor",
+      "flooring": {
+        "type": "Patterned carpeting",
+        "texture": "Worn nylon",
+        "design": "Psychedelic swirls in teal, burnt orange, and royal blue",
+        "vibe": "Retro Las Vegas aesthetic"
+      },
+      "furniture": {
+        "item": "Casino bar stool",
+        "material": "Tufted red faux leather seat",
+        "base": "Tarnished bronze or gold metal pedestal with footrest"
+      },
+      "props_and_background": {
+        "primary_prop": "Slot machine",
+        "prop_details": "Illuminated marquee reading 'TRIPLE JACKPOT GEMS', glowing buttons, glass screen reflections",
+        "atmosphere": "Smoky, crowded, dimly lit background with bokeh lights from other machines"
+      }
+    },
+    "photography_technical": {
+      "camera_simulation": "Early 2000s Digital Compact Camera (e.g., Sony Cybershot or Canon PowerShot)",
+      "lighting_style": {
+        "type": "Direct On-Camera Flash",
+        "characteristics": [
+          "Harsh shadows directly behind the subject",
+          "High contrast",
+          "Overexposed specular highlights on skin and fabric",
+          "Vignetted corners"
+        ]
+      },
+      "composition": {
+        "angle": "Extreme low angle (Worm's-eye view)",
+        "focus": "Sharp focus on subject, slight blur on background",
+        "framing": "Full body shot emphasizing long legs and platform shoes"
+      },
+      "post_processing": {
+        "filters": "Vintage digicam aesthetic",
+        "grain": "ISO 800 digital noise",
+        "saturation": "High saturation, slightly blown-out whites"
+      }
+    },
+    "compiled_prompts": {
+      "main_prompt": "Low angle worm's-eye view shot, direct flash photography. A young woman sitting on a red tufted leather casino stool. She is wearing a fitted black satin mini slip dress with sparkling rhinestone spaghetti straps and chunky black platform block heels with ankle buckles. To her left is a large glowing slot machine with neon text 'TRIPLE JACKPOT GEMS'. The floor is a gaudy retro casino carpet with teal and orange swirls. Background is a dimly lit gambling floor. Aesthetic is Y2K party photography, candid snapshot, harsh flash lighting, hard shadows, high contrast, digital noise, 2000s digicam style, ultra-realistic texture on skin and fabric.",
+     }
+   }
+
+--------------------------------------------------------------------------------
+
+#38 NanoBanana Pro Prompt by @xmliisu
+详情: https://www.meigen.ai/prompt/2011084512617246917
+图片: https://images.meigen.ai/tweets/2011084512617246917/0.jpg
+分数: 28
+提示词:
+    {
+  "subject": {
+    "type": "Woman",
+    "age": "Young adult",
+    "appearance": {
+      "hair": {
+        "color": "Dark brown",
+        "style": "Medium length, with messy bangs",
+        "texture": "Wavy"
+      },
+      "eyes": {
+        "color": "Hazel",
+        "gaze": "Directly at camera"
+      },
+      "skin": {
+        "texture": "Natural, with freckles and a warm glow",
+        "makeup": "Minimal, dewy finish"
+      },
+      "features": "Full lips, prominent cheekbones"
+    },
+    "pose": "Portrait, close-up, neutral expression, head slightly tilted"
+  },
+  "styling": {
+    "clothing": {
+      "type": "Top",
+      "material": "Velvet",
+      "color": "Dark burgundy/maroon"
+    },
+    "accessories": {
+      "type": "Butterflies",
+      "color": "Dark red with black veining",
+      "placement": [
+        "One covering the mouth",
+        "Two in the hair on the right side",
+        "One on the left collarbone"
+      ]
+    }
+  },
+  "environment": {
+    "type": "Studio",
+    "background": "Dark, blurred, muted brown tones",
+    "setting": "Indoors, low-key"
+  },
+  "lighting": {
+    "type": "Soft, warm, directional",
+    "source": "From the front-left",
+    "effect": "Creates gentle shadows, highlights skin texture and butterfly wings"
+  },
+  "mood": {
+    "atmosphere": "Mysterious, serene, slightly melancholic, intimate"
+  },
+  "photography": {
+    "style": "Photorealistic portrait",
+    "shot_type": "Close-up",
+    "depth_of_field": "Shallow, sharp focus on eyes and butterflies",
+    "camera": {
+      "type": "DSLR",
+      "lens": "85mm portrait lens",
+      "aperture": "f/1.8"
+    }
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#39 NanoBanana Pro Prompt by @craftian_keskin
+详情: https://www.meigen.ai/prompt/2009728383911866778
+图片: https://images.meigen.ai/tweets/2009728383911866778/0.jpg
+分数: 27
+提示词:
+    A mirror selfie taken inside a commercial gym, photographed with a smartphone front camera. The subject is an attractive, athletic woman with a curvy, feminine build, strong thighs and hips, toned legs, and a confident stance. She is wearing a black tank top with a deep neckline and olive-green high-waisted workout shorts, white socks, and white trainers.
+
+She stands inside a squat rack, one knee slightly bent, hips angled forward, leaning casually against the barbell. The gym environment is clearly visible: metal racks, weight machines, rubber flooring, high industrial ceiling with exposed beams, warm overhead lights, and other gym-goers blurred in the background.
+
+Her face is fully visible and resembles Sydney Sweeney — soft facial features, expressive eyes, blonde hair styled naturally, minimal makeup, realistic skin texture — captured casually as if mid-workout. Expression is relaxed and confident, not posed.
+
+The photo has a raw smartphone aesthetic:
+
+noticeable film grain and digital noise
+
+low resolution
+
+mild blur and compression artifacts
+
+imperfect focus
+
+uneven indoor lighting
+
+slightly warm color cast
+
+The image feels candid and unpolished, like a real gym mirror selfie posted online.
+Photorealistic, casual realism, modern lo-fi aesthetic, natural body proportions.
+
+Camera & Style Cues
+
+Smartphone front camera
+
+Mirror selfie
+
+Slight wide-angle distortion
+
+Indoor gym lighting
+
+No studio polish
+
+Negative Prompt;
+
+ultra-high resolution, professional photoshoot, cinematic lighting, flawless skin, exaggerated curves, plastic look, studio background, cartoon style, text, watermark
+
+--------------------------------------------------------------------------------
+
+#40 NanoBanana Pro Prompt by @underwoodxie96
+详情: https://www.meigen.ai/prompt/2033917202567446610
+图片: https://images.meigen.ai/tweets/2033917202567446610/0.jpg
+分数: 27
+提示词:
+    {   "subject": {     "description": "A young adult woman with soft refined features, thin metal glasses, and shoulder-length dark hair, leaning across a couch at night while holding a smartphone, captured in a quiet low-light candid moment.",     "mirror_rules": "not a mirror shot",     "age": "young adult",     "expression": {       "eyes": {         "look": "soft, slightly tired, subtly attentive",         "energy": "low-key and intimate",         "direction": "toward the camera, as if she just looked up from her phone"       },       "mouth": {         "position": "gently closed with a relaxed pout",         "energy": "quiet and unforced"       },       "overall": "a dreamy late-night expression, calm, distant, and mildly seductive without exaggeration"     },     "face": {       "preserve_original": "keep the face proportions delicate and realistic, with a narrow jawline, soft cheeks, defined eyes, glossy lips, and no exaggerated facial distortion",       "makeup": "soft glam makeup, subtle eyeliner, long lashes, smooth skin finish, glossy pink-nude lips, lightly defined brows"     }   },   "hair": {     "color": "dark brown to black",     "style": "shoulder-length, loose, softly tousled with slight volume around the crown",     "effect": "natural flyaways and soft separation, not overly polished"   },   "body": {     "frame": "slim and softly curved",     "waist": "gently defined",     "chest": "natural and softly framed by the neckline",     "legs": "bare, partially folded and extending out of frame",     "skin": {       "visible_areas": "shoulders, collarbone, arms, upper chest, thighs, lower legs",       "tone": "fair with a warm indoor cast",       "texture": "smooth, velvety, lightly softened by low light and lens blur",       "lighting_effect": "warm ambient light on the skin with faint cool phone-screen reflections near the face and hands"     }   },   "pose": {     "position": "leaning forward across a couch, one arm supporting the body, the other hand holding a phone in the foreground",     "base": "casual lounging posture caught mid-movement",     "overall": "informal, intimate, slightly off-balance, as if she paused while scrolling and looked up"   },   "clothing": {     "top": {       "type": "lace-trim camisole or slip-style sleepwear",       "color": "pale cream with a soft blush tint",       "details": "thin straps, delicate lace texture, soft fitted bodice, lightweight fabric",       "effect": "sleepwear-like softness, feminine and understated"     },     "bottom": {       "type": "matching soft shorts or the lower part of a slip",       "color": "pale cream",       "details": "mostly obscured, softly wrinkled fabric, blending into the pose"     }   },   "accessories": {     "jewelry": "small subtle earrings",     "device": "smartphone held close to the camera, dark reflective case, screen glow lighting the fingers",     "prop": "thin metal-framed eyeglasses with visible screen reflections on the lenses"   },   "photography": {     "camera_style": "realistic social-media night portrait, smartphone candid aesthetic",     "angle": "slightly above eye level, close and intimate, with the phone hand entering the foreground",     "shot_type": "medium close-up to three-quarter portrait in vertical framing",     "aspect_ratio": "3:4 vertical",     "texture": "soft focus, slight motion blur, low-light grain, gentle facial smoothing from dim conditions, natural imperfect sharpness",     "lighting": "dim warm room light mixed with cool phone-screen reflections, no hard flash, soft falloff across the couch and wall",     "depth_of_field": "shallow to moderate, face prioritized but softened, foreground hand and phone slightly blurred"   },   "background": {     "setting": "an indoor living room or lounge at night",     "wall_color": "warm beige-gray",     "elements": [       "dark upholstered couch",       "plain softly lit wall",       "minimal visible decor"     ],     "atmosphere": "quiet, private, late-night, softly blurred and still",     "lighting": "very low ambient tungsten-like room light with shadows pooling in the background"   },   "the_vibe": {     "energy": "slow, hushed, intimate",     "mood": "late-night pause, private and emotionally suspended",     "aesthetic": "realistic social-media softness, low-light candid beauty, imperfect but magnetic",     "authenticity": "retain the accidental blur, the off-center body angle, the screen glare on the glasses, and the lived-in couch posture",     "intimacy": "close enough to feel the warmth of the room and the softness of fabric against skin",     "story": "She had been scrolling in silence, then something made her stop and lift her eyes for one quiet second.",     "caption_energy": "soft nocturnal allure, unspoken attention, the kind of moment that feels borrowed rather than staged"   },   "constraints": {     "must_keep": [       "young adult woman",       "thin metal glasses",       "visible screen reflections on the lenses",       "smartphone in hand close to the foreground",       "dark shoulder-length tousled hair",       "pale lace-trim sleepwear",       "leaning across a couch",       "warm dim indoor night lighting",       "soft blur and low-light texture",       "minimal beige-gray wall and dark couch background"     ],     "avoid": [       "studio lighting",       "hard flash",       "over-sharpened skin",       "perfect commercial glamour retouching",       "extra background clutter",       "bright daylight",       "mirror selfie composition",       "heavy accessories",       "exaggerated body proportions",       "watermarks, logos, extra text"     ]   },   "negative_prompt": [     "mirror selfie",     "hard flash",     "studio backdrop",     "ultra sharp DSLR clarity",     "over-retouched skin",     "cartoonish face",     "exaggerated anatomy",     "extra fingers",     "deformed hands",     "heavy jewelry",     "busy room",     "daylight window light",     "smiling broadly",     "strong action pose",     "symmetrical formal composition",     "text overlay",     "watermark",     "logo"   ] }
+
+--------------------------------------------------------------------------------
+
+#41 NanoBanana Pro Prompt by @xIrissy
+详情: https://www.meigen.ai/prompt/2011810184612757973
+图片: https://images.meigen.ai/tweets/2011810184612757973/0.jpg
+分数: 27
+提示词:
+    {
+  "task": "image_generation",
+  "style": {
+    "resolution": "8K",
+    "look": "hyper-realistic, cinematic",
+    "photorealism": true
+  },
+  "subject": {
+    "identity": "fictional fitness model",
+    "inspiration": "celebrity-inspired (non-identical, no face matching)",
+    "gender": "female",
+    "skin_tone": "fair",
+    "pose": {
+      "view": "3/4 rear",
+      "posture": "arched back",
+      "head_direction": "looking over shoulder"
+    },
+    "expression": "serious",
+    "makeup": {
+      "eyeliner": "winged",
+      "finish": "natural cinematic"
+    },
+    "hair": {
+      "color": "honey-brown",
+      "style": "bun",
+      "accessory": "hair clip"
+    }
+  },
+  "wardrobe": {
+    "top": {
+      "type": "sports bra",
+      "color": "grey",
+      "design": "multi-strap"
+    },
+    "bottom": {
+      "type": "shorts",
+      "fit": "tight, high-waist",
+      "texture": "ribbed",
+      "color": "brown"
+    },
+    "socks": {
+      "type": "thigh-high",
+      "color": "black",
+      "details": "red stripes"
+    }
+  },
+  "environment": {
+    "location": "gym",
+    "background_elements": [
+      "red metal rack"
+    ],
+    "atmosphere": "cinematic, moody"
+  },
+  "camera": {
+    "lens": "85mm",
+    "depth_of_field": "shallow",
+    "focus": "sharp on subject"
+  },
+  "lighting": {
+    "type": "cinematic",
+    "key": "soft directional",
+    "contrast": "high",
+    "highlights": "controlled"
+  },
+  "detail": {
+    "skin": "ultra-detailed, realistic texture",
+    "fabric": "high micro-detail"
+  },
+  "composition": {
+    "aspect_ratio": "3:4",
+    "framing": "portrait"
+  },
+  "constraints": {
+    "no_real_person_identity": true,
+    "no_face_matching": true
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#42 NanoBanana Pro Prompt by @YaseenK7212
+详情: https://www.meigen.ai/prompt/2011714932211908616
+图片: https://images.meigen.ai/tweets/2011714932211908616/0.jpg
+分数: 27
+提示词:
+    {
+  "task": "image_generation",
+  "style": {
+    "resolution": "8K",
+    "look": "hyper-realistic, cinematic",
+    "photorealism": true
+  },
+  "subject": {
+    "identity": "fictional fitness model",
+    "inspiration": "celebrity-inspired (non-identical, no face matching)",
+    "gender": "female",
+    "skin_tone": "fair",
+    "pose": {
+      "view": "3/4 rear",
+      "posture": "arched back",
+      "head_direction": "looking over shoulder"
+    },
+    "expression": "serious",
+    "makeup": {
+      "eyeliner": "winged",
+      "finish": "natural cinematic"
+    },
+    "hair": {
+      "color": "honey-brown",
+      "style": "bun",
+      "accessory": "hair clip"
+    }
+  },
+  "wardrobe": {
+    "top": {
+      "type": "sports bra",
+      "color": "grey",
+      "design": "multi-strap"
+    },
+    "bottom": {
+      "type": "shorts",
+      "fit": "tight, high-waist",
+      "texture": "ribbed",
+      "color": "brown"
+    },
+    "socks": {
+      "type": "thigh-high",
+      "color": "black",
+      "details": "red stripes"
+    }
+  },
+  "environment": {
+    "location": "gym",
+    "background_elements": [
+      "red metal rack"
+    ],
+    "atmosphere": "cinematic, moody"
+  },
+  "camera": {
+    "lens": "85mm",
+    "depth_of_field": "shallow",
+    "focus": "sharp on subject"
+  },
+  "lighting": {
+    "type": "cinematic",
+    "key": "soft directional",
+    "contrast": "high",
+    "highlights": "controlled"
+  },
+  "detail": {
+    "skin": "ultra-detailed, realistic texture",
+    "fabric": "high micro-detail"
+  },
+  "composition": {
+    "aspect_ratio": "3:4",
+    "framing": "portrait"
+  },
+  "constraints": {
+    "no_real_person_identity": true,
+    "no_face_matching": true
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#43 NanoBanana Pro Prompt by @GlenaJenne
+详情: https://www.meigen.ai/prompt/2043423593850368468
+图片: https://images.meigen.ai/tweets/2043423593850368468/0.jpg
+分数: 27
+提示词:
+    {
+  "scene": {
+    "setting": "aircraft staircase exterior",
+    "background": "realistic United States presidential aircraft design with blue and white fuselage, visible aircraft windows and structure, open sky above with vibrant blue color and bright daylight",
+    "lighting": "strong natural daylight, bright sun illumination, crisp highlights and defined shadows, clear sky reflections"
+  },
+  "subject": {
+    "type": "female",
+    "pose": "seated on staircase with stylish crossed-leg variation, one leg extended forward prominently toward camera while the other crosses naturally over it, slight hip shift for dynamic posture, upper body leaning slightly back with one hand supporting on step and the other relaxed on thigh, pose variation matching reference images with elegant asymmetry",
+    "expression": "playful confident expression with subtle wink and soft kissy lips, relaxed and natural",
+    "face": "Use uploaded reference image, keep identity exact, natural facial proportions, realistic skin texture with subtle imperfections",
+    "hair": "Use uploaded reference image, keep identity exact, medium-length wavy hair, natural volume and soft texture, exact same hair color preserved",
+    "eyes": "Use uploaded reference image, keep identity exact, natural eye color with bright daylight reflections",
+    "skin": "fair skin tone with natural texture, enhanced by daylight highlights, no artificial smoothing",
+    "body": "natural proportions maintained"
+  },
+  "clothing": {
+    "outfit": "black satin mini dress with thin straps, smooth reflective fabric, fitted silhouette",
+    "footwear": "silver high-heeled sandals with thin straps and subtle sparkle details",
+    "accessories": "minimal jewelry, clean and elegant styling"
+  },
+  "environment_details": {
+    "props": "full-length red aircraft staircase with realistic structure and proportions matching United States presidential airplane stairs, fully covered with soft red carpet, metal railings",
+    "textures": "soft plush red carpet texture on stairs, metal structure underneath, reflective satin dress, smooth aircraft surface"
+  },
+  "camera": {
+    "angle": "very low angle positioned close to feet, strong foreground emphasis on heels and legs, matching reference perspective",
+    "framing": "full body shot with dominant foreground feet perspective and depth",
+    "focus": "sharp focus on subject with slight depth falloff toward background",
+    "lens": "wide angle lens with enhanced perspective distortion toward foreground"
+  },
+  "style": {
+    "realism": "ultra realistic fashion photography",
+    "color_tone": "bright, vibrant daylight tones with strong contrast",
+    "effects": "natural sunlight glow, enhanced clarity, realistic reflections, no beautification",
+    "details": "high detail textures, natural imperfections preserved, crisp shadows and highlights"
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#44 NanoBanana Pro Prompt by @2abhisheknaks
+详情: https://www.meigen.ai/prompt/2008537400083939763
+图片: https://images.meigen.ai/tweets/2008537400083939763/0.jpg
+分数: 27
+提示词:
+    Aesthetic 1970s-inspired fashion portrait of a stylish young woman sitting on outdoor cafe steps, holding a premium ornate green coffee cup with gold rim detailing, gazing softly at the camera. Her hair is styled in soft loose strands framing her face with vintage makeup, matte red lips, and subtle eyeliner. She is wearing a cozy forest green premium knit sweater paired with a long flowing black tutu skirt. A warm vintage plaid scarf in earthy brown, burnt orange, and muted red tones is wrapped loosely around her neck. A premium dark green leather crossbody bag with a gold filigree clasp and chain strap is placed beside her. Autumn street café setting with scattered fallen leaves and warm amber café lights glowing behind glass windows. 1970s film tone, warm grainy texture, muted earthy color palette, cinematic atmosphere, shallow depth of field, soft natural lighting, analog film look, fashion editorial photography, ultra-realistic, high detail, 85mm lens, f/1.8, vintage aesthetic, dreamy mood.
+
+--------------------------------------------------------------------------------
+
+#45 NanoBanana Pro Prompt by @Ciri_ai
+详情: https://www.meigen.ai/prompt/2041379629668446277
+图片: https://images.meigen.ai/tweets/2041379629668446277/0.jpg
+分数: 27
+提示词:
+    Create a moody, ethereal cinematic portrait of a woman with a dramatic over-the-shoulder pose.
+
+1. Pose and Expression
+• Perspective: subject positioned with her back facing the camera, torso elegantly twisted, looking back over her shoulder, creating a graceful curve along the spine and highlighting shoulder blades
+• Gaze: direct eye contact with the camera, piercing yet soft expression, chin slightly tucked toward shoulder to evoke intimacy and mystery
+• Hand Placement: hands gently raised near chest/shoulder, fingers softly interlaced or delicately touching
+• Hair: loose messy bun with soft wispy strands falling naturally across the face, slightly windswept look
+
+2. Lighting and Color Palette
+• Lighting: strong side lighting, warm golden-hour sunlight, high contrast chiaroscuro effect, one side illuminated while the other fades into deep shadow
+• Skin Tone: luminous, glowing, pearlescent skin texture
+• Color Scheme: earthy muted tones, deep greens, dark browns, soft neutral background, warm skin tones as focal point
+
+3. Wardrobe and Accessories
+• Outfit: backless silky dress or top, smooth light fabric, paired with dark voluminous sleeves for strong texture contrast
+• Accessories: elegant drop pearl earrings reflecting light subtly
+
+4. Composition and Atmosphere
+• Framing: medium close-up shot, framed naturally with blurred foreground leaves for a voyeuristic, through-the-foliage effect
+• Depth of Field: shallow depth of field, sharp focus on face, soft bokeh in background and foreground
+• Mood: cinematic, melancholic, romantic, high-fashion editorial style, soft dreamy atmosphere
+
+Face reference: soft oval face, smooth glowing skin, symmetrical features, natural makeup, gentle but expressive eyes, slightly parted lips
+
+--------------------------------------------------------------------------------
+
+#46 NanoBanana Pro Prompt by @underwoodxie96
+详情: https://www.meigen.ai/prompt/2041043824697590152
+图片: https://images.meigen.ai/tweets/2041043824697590152/0.jpg
+分数: 27
+提示词:
+    {   "subject": {     "description": "Young woman, athletic gravure idol aesthetic.",     "mirror_rules": "none",     "age": "early 20s",     "expression": {       "eyes": {         "look": "direct contact",         "energy": "soft, engaging",         "direction": "at lens"       },       "mouth": {         "position": "slightly parted",         "energy": "relaxed"       },       "overall": "playful, innocent"     },     "face": {       "preserve_original": "true",       "makeup": "East Asian idol style, glossy pink lips, subtle blush, natural brows."     }   },   "hair": {     "color": "medium brown",     "style": "tied back under visor, loose wavy strands framing face",     "effect": "dynamic, moving as if caught in a breeze"   },   "body": {     "frame": "curvy bust, slim waist",     "waist": "toned, exposed",     "chest": "full, prominent",     "legs": "smooth thighs visible",     "skin": {       "visible_areas": "shoulders, arms, midriff, upper thighs",       "tone": "fair, pale",       "texture": "smooth, powdery to touch",       "lighting_effect": "even studio strobe reflecting softly off shoulder and collarbone"     }   },   "pose": {     "position": "leaning heavily forward at waist",     "base": "standing asymmetrical",     "overall": "dynamic bending posture, interacting with foreground net"   },   "clothing": {     "top": {       "type": "sleeveless ribbed crop top, polo collar",       "color": "white",       "details": "small black 'Los Angeles' text on left breast, tight fit",       "effect": "stretching taut over bust"     },     "bottom": {       "type": "pleated mini tennis skirt",       "color": "white",       "details": "short, high waist fit"     }   },   "accessories": {     "headwear": "white sun visor",     "jewelry": "small stud earrings",     "device": "none",     "prop": "tennis racket (white with pink rim), black tennis net with white top tape"   },   "photography": {     "camera_style": "studio gravure portrait",     "angle": "slightly low angle, tilting up to face",     "shot_type": "medium-full shot, slight off-center tilt",     "aspect_ratio": "4:5",     "texture": "crisp, digital high-res",     "lighting": "bright, flat studio strobe, large softbox, eliminating harsh shadows",     "depth_of_field": "f/8, subject fully in focus, net acts as slightly soft foreground interference"   },   "background": {     "setting": "studio",     "wall_color": "pure white",     "elements": [],     "atmosphere": "sterile, bright",     "lighting": "over-lit white seamless backdrop"   },   "the_vibe": {     "energy": "active, present-tense",     "mood": "breezy, suggestive",     "aesthetic": "Japanese sports gravure",     "authenticity": "staged but dynamic",     "intimacy": "direct fan-service",     "story": "she is playfully leaning over the net during a casual match",     "caption_energy": "Game set match."   },   "constraints": {     "must_keep": [       "tennis net as foreground obstacle",       "deep leaning pose",       "all-white outfit"     ],     "avoid": [       "dark shadows",       "outdoor settings",       "stiff posture"     ]   },   "negative_prompt": [     "dark, moody shadows, outdoor, messy background, missing net, flat chest, fully clothed, stiff pose"   ] }
+
+--------------------------------------------------------------------------------
+
+#47 NanoBanana Pro Prompt by @xmliisu
+详情: https://www.meigen.ai/prompt/2011027241371590981
+图片: https://images.meigen.ai/tweets/2011027241371590981/0.jpg
+分数: 27
+提示词:
+    {
+"shot": {
+"composition": "Cinematic close-up, 50mm lens, shot on ARRI Alexa LF, center-framed, symmetrical head-on angle",
+"camera_motion": "static camera",
+"frame_rate": "24fps",
+"film_grain": "clean digital with subtle texture"
+},
+"subject": {
+"description": "A young female boxer with a piercing gaze, wet dark hair slicked back, skin glistening with sweat. A black sports sticker with the Cartier logo on her nose, gold hoop earrings on her ears, and black boxing gloves raised in front of her face in a fighting stance.",
+"wardrobe": "Minimalist athletic look: gold Cartier earrings, black leather boxing gloves, dewy skin without makeup."
+},
+"scene": {
+"location": "a studio with a clean White background",
+"time_of_day": "neutral daylight",
+"environment": "a smooth white background without shadows or unnecessary details—the focus is on the face and brand"
+},
+"visual_details": {
+"action": "A woman looks directly into the camera with cool concentration. Beads of sweat are on her face. She remains motionless, her gaze intense and purposeful.",
+"props": "A black sticker on the nose with the Cartier inscription, boxing gloves"
+},
+"cinematography": {
+"lighting": "bright directional light from the front, highlighting beads of sweat and skin texture",
+"tone": "a glamorous and austere style, a balance of strength and style"
+},
+"audio": {
+"ambient": "a dull heartbeat, breathing, the short sound of gloves stretching as a fist is clenched"
+},
+"color_palette": "Black and white contrast with gold accents, leather in natural, warm tones,"
+"dialogue": {
+"character": "Boxer,"
+"line": "You either take a punch... or jewelry is just a mask for you.",
+"subtitles": false
+}
+}
+
+--------------------------------------------------------------------------------
+
+#48 NanoBanana Pro Prompt by @GlenaJenne
+详情: https://www.meigen.ai/prompt/2043449707314487616
+图片: https://images.meigen.ai/tweets/2043449707314487616/0.jpg
+分数: 27
+提示词:
+    {
+  "scene": {
+    "setting": "modern bathroom vanity",
+    "background": "large mirror with warm-toned walls, marble countertop, built-in sink, soft ambient lighting from ceiling fixtures, minimal decor including skincare items and tissue box",
+    "lighting": "warm indoor lighting with soft highlights and gentle shadows, evenly diffused across subject and reflection"
+  },
+  "subject": {
+    "type": "female",
+    "pose": "seated on bathroom counter with legs crossed at the knee, torso slightly turned toward mirror, one hand holding makeup applicator near lips, the other resting on lap",
+    "expression": "focused yet soft expression while applying makeup, slightly upward gaze toward mirror reflection",
+    "face": "Use uploaded reference image, keep identity exact, natural facial proportions, realistic skin texture with subtle imperfections",
+    "hair": "Use uploaded reference image, keep identity exact, medium-length straight hair with natural flow and texture, use reference image hair color",
+    "eyes": "Use uploaded reference image, keep identity exact, natural eye color with indoor reflections",
+    "skin": "natural skin tone with warm lighting highlights, realistic texture with subtle imperfections",
+    "body": "natural proportions maintained"
+  },
+  "clothing": {
+    "outfit": "black satin mini dress with thin straps and open back detailing, smooth reflective fabric",
+    "footwear": "black high-heeled sandals with ankle straps",
+    "accessories": "minimal jewelry, makeup applicator in hand"
+  },
+  "environment_details": {
+    "props": "mirror, marble countertop, sink fixtures, skincare items, tissue box",
+    "textures": "smooth marble surface, satin dress sheen, glossy mirror reflection, matte walls"
+  },
+  "camera": {
+    "angle": "slightly angled side view capturing both subject and mirror reflection",
+    "framing": "medium full-body shot with reflection included",
+    "focus": "sharp focus on subject and mirror reflection",
+    "lens": "standard lens with natural perspective"
+  },
+  "style": {
+    "realism": "ultra realistic lifestyle photography",
+    "color_tone": "warm indoor tones with soft contrast",
+    "effects": "natural lighting enhancement, realistic reflections, no beautification",
+    "details": "high detail textures, natural imperfections preserved, clean modern aesthetic"
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#49 NanoBanana Pro Prompt by @JustBethanyai
+详情: https://www.meigen.ai/prompt/2033430945877930237
+图片: https://images.meigen.ai/tweets/2033430945877930237/0.jpg
+分数: 26
+提示词:
+    {
+  "character_identity": {
+    "name_placeholder": "YOUR_CHARACTER",
+    "gender_presentation": "female",
+    "age_range": "custom based on reference image",
+    "ethnicity_placeholder": "auto-detected from reference image",
+    "body_type": "auto-detected from reference image",
+    "skin_tone": "sampled from reference image",
+    "facial_structure": "auto-detected from reference image",
+    "reference_image": "URL or local path to your character reference"
+  },
+
+  "hair": {
+    "color": "sampled from reference image",
+    "length": "sampled from reference image",
+    "style": "sampled from reference image",
+    "parting": "sampled from reference image",
+    "volume": "sampled from reference image",
+    "movement": "sampled from reference image"
+  },
+
+  "accessories": {
+    "earrings": "small gold hoop earrings",
+    "necklace": "thin gold chain with small cross pendant",
+    "bracelet": "minimal gold bracelet",
+    "anklet": "thin gold anklet",
+    "rings": "minimal gold rings",
+    "bag": {
+      "type": "small shoulder bag",
+      "color": "black",
+      "strap": "thin strap",
+      "position": "resting on shoulder behind arm"
+    }
+  },
+
+  "makeup": {
+    "style": "natural glam",
+    "skin": "dewy skin finish",
+    "eyes": "soft eyeliner, subtle mascara",
+    "brows": "natural full brows",
+    "lips": "neutral pink glossy lips",
+    "blush": "soft peach blush"
+  },
+
+  "gaze": {
+    "direction": "directly toward camera",
+    "expression": "neutral confident expression",
+    "eye_intensity": "soft but engaging",
+    "head_position": "slightly tilted forward"
+  },
+
+  "mood": {
+    "vibe": "casual nightlife fashion photo",
+    "energy": "confident, spontaneous",
+    "atmosphere": "urban evening aesthetic",
+    "tone": "stylish candid moment"
+  },
+
+  "outfit": {
+    "top": {
+      "type": "low scoop neck tank top",
+      "color": "white",
+      "fit": "tight fitted",
+      "fabric": "stretch cotton"
+    },
+    "bottom": {
+      "type": "mini skirt",
+      "color": "black",
+      "fit": "high waist fitted"
+    },
+    "shoes": {
+      "type": "strappy heeled sandals",
+      "color": "red",
+      "heel_height": "medium",
+      "style": "minimal straps"
+    }
+  },
+
+  "pose": {
+    "body_position": "stepping out of a doorway onto a small concrete step",
+    "left_arm": "extended outward touching the wall for balance",
+    "right_arm": "reaching down toward ankle as if adjusting shoe",
+    "left_leg": "supporting body weight on step",
+    "right_leg": "slightly lifted forward",
+    "torso": "leaning forward slightly",
+    "shoulders": "angled slightly toward camera"
+  },
+
+  "posture": {
+    "balance": "casual off-balance step",
+    "spine": "slightly bent forward",
+    "hips": "angled",
+    "stance": "dynamic mid-movement pose"
+  },
+
+  "camera": {
+    "angle": "slightly low eye-level perspective",
+    "framing": "full body portrait",
+    "distance": "about 1.5–2 meters from subject",
+    "lens": "35mm street photography lens",
+    "focus": "sharp focus on subject",
+    "depth_of_field": "moderate background blur"
+  },
+
+  "lighting": {
+    "type": "direct flash photography",
+    "style": "nighttime flash aesthetic",
+    "shadow": "hard shadows behind subject",
+    "color_temperature": "neutral flash white",
+    "contrast": "high contrast"
+  },
+
+  "background": {
+    "location": "apartment building entrance",
+    "door": "black metal framed glass door",
+    "walls": "light beige textured walls",
+    "floor": "concrete step",
+    "environment": "urban nighttime exterior",
+    "background_details": "dim city lights faintly visible"
+  },
+
+  "composition": {
+    "subject_position": "center frame slightly leaning left",
+    "leading_lines": "door frame and wall edges guiding toward subject",
+    "crop": "full body including feet",
+    "orientation": "vertical portrait"
+  },
+
+  "photography_style": {
+    "genre": "street style fashion photography",
+    "camera_style": "paparazzi / candid flash look",
+  }
+
+--------------------------------------------------------------------------------
+
+#51 NanoBanana Pro Prompt by @xmliisu
+详情: https://www.meigen.ai/prompt/2009206297737007306
+图片: https://images.meigen.ai/tweets/2009206297737007306/0.jpg
+分数: 26
+提示词:
+    {
+  "photograph": {
+    "style": "ultra-realistic portrait",
+    "camera": "full-frame DSLR",
+    "lens": "85mm prime",
+    "resolution": "high",
+    "lighting": {
+      "type": "soft natural window light",
+      "direction": "from the side",
+      "quality": "smooth shadow transitions, subtle highlights"
+    },
+    "focus": {
+      "depth_of_field": "shallow",
+      "focal_point": "woman's eyes and dog's face"
+    },
+    "composition": "candid, relaxed, looking at camera",
+    "mood": "calm, warm, gentle"
+  },
+  "subject": {
+    "description": "young beautiful woman",
+    "features": {
+      "eyes": "green",
+      "skin": "fair, realistic tone with visible pores and subtle natural texture",
+      "makeup": "minimal refined, emphasizing lips and eyes"
+    },
+    "hair": "long naturally wavy, brown",
+    "clothing": {
+      "item": "fitted white ribbed long-sleeve sweater",
+      "details": "delicate scalloped edges along neckline and cuffs, realistic knit structure, soft stretch"
+    },
+    "expression": "calm, warm, gentle"
+  },
+  "interaction": {
+    "action": "tenderly hugging a small fluffy white Maltese or Bichon Frise dog close to chest",
+    "dog": {
+      "breed": "Maltese or Bichon Frise",
+      "fur": "soft, slightly uneven and natural white",
+      "position": "head resting gently on her shoulder",
+      "expression": "calm, looking at camera"
+    }
+  },
+  "setting": {
+    "environment": "cozy indoor",
+    "background": "plain light beige wall, no decorative distractions",
+    "furniture": {
+      "item": "black leather couch",
+      "details": "visible leather grain and gentle creases"
+    }
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#52 NanoBanana Pro Prompt by @xmliisu
+详情: https://www.meigen.ai/prompt/2008486850378293427
+图片: https://images.meigen.ai/tweets/2008486850378293427/0.jpg
+分数: 26
+提示词:
+    {
+  "overall_theme": {
+    "description": "A curated series of four ultra-photorealistic vignettes showcasing a luxurious, wellness-focused lifestyle.",
+    "mood": "Calm, serene, balanced, sophisticated, peaceful, rejuvenating.",
+    "style": "Minimalist, high-end, contemporary, clean aesthetic, aspirational."
+  },
+  "subject": {
+    "description": "Young woman.",
+    "appearance": {
+      "hair": "Long, dark brown, wavy, natural texture.",
+      "skin": "Clear, glowing, natural.",
+      "makeup": "No-makeup makeup look, dewy finish.",
+      "physique": "Fit, toned."
+    },
+    "expression": "Serene, composed, gently smiling, focused."
+  },
+  "wardrobe": {
+    "outfit_base": "Matching ribbed beige/cream activewear set.",
+    "variations": [
+      "Sleeveless crop top and high-waisted leggings.",
+      "Long-sleeve crop top and high-waisted leggings."
+    ],
+    "style": "Comfortable, stylish, high-quality fabric."
+  },
+  "environmental_details": {
+    "lighting": {
+      "type": "Natural daylight.",
+      "quality": "Soft, diffused, warm, bright.",
+      "source": "Large windows (implied or visible)."
+    },
+    "color_palette": {
+      "dominant": ["Warm Beige", "Cream", "White", "Marble Grey"],
+      "accents": ["Green (plants)", "Gold (fixtures, details)", "Natural Wood", "Soft Purple (smoothie)"]
+    },
+    "materials": ["White Marble", "Light Wood", "Stone", "Ceramic", "Glass", "Linen"]
+  },
+  "scenes": [
+    {
+      "location": "Modern Luxury Kitchen",
+      "environment": "White marble island and countertops, white shaker cabinets, gold hardware, integrated wine fridge, large window.",
+      "pose": "Standing at the island, body angled slightly, looking down.",
+      "action": "Whisking a hot beverage in a small bowl.",
+      "props": ["Ceramic bowl", "Wooden whisk", "Steam", "Mug with 'H'", "Wine fridge"]
+    },
+    {
+      "location": "High-End Bathroom",
+      "environment": "Large backlit mirror, white marble vanity, white walls, orchid plant.",
+      "pose": "Standing facing the mirror, one hand applying product to face.",
+      "action": "Applying skincare.",
+      "props": ["Cotton pad", "Skincare bottle", "Lit Diptyque candle", "Whole coconut", "Glass jars"]
+    },
+    {
+      "location": "Minimalist Wellness Space",
+      "environment": "Textured beige walls with curved arches, stone water fountain, eucalyptus in a vase.",
+      "pose": "Full-body stretch, arms extended overhead, head tilted back, eyes closed.",
+      "action": "Stretching.",
+      "props": ["Stone water feature", "Large perfume bottle", "Eucalyptus vase"]
+    },
+    {
+      "location": "Bright Café Corner",
+      "environment": "Round white marble table, cane chair, large window overlooking a street.",
+      "pose": "Sitting at the table, smiling while eating, holding a fork.",
+      "action": "Eating avocado toast.",
+      "props": ["Avocado toast on plate", "Purple smoothie in glass", "Fork", "Assouline book", "Notebooks", "Small flowers"]
+    }
+  ],
+  "camera_and_technical": {
+    "type": "DSLR Photography",
+    "style": "Editorial lifestyle",
+    "lens": "Prime lens (e.g., 50mm or 85mm f/1.4)",
+    "focus": "Sharp focus on the subject in each frame.",
+    "depth_of_field": "Shallow, creating a soft, creamy bokeh in the background.",
+    "resolution": "Ultra-high resolution, photorealistic textures.",
+    "composition": "Four-panel grid collage."
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#53 NanoBanana Pro Prompt by @Arminn_Ai
+详情: https://www.meigen.ai/prompt/2016237325639155913
+图片: https://images.meigen.ai/tweets/2016237325639155913/0.jpg
+分数: 25
+提示词:
+    A photorealistic fashion upper body shot of [Character Description and expression] wearing [Detailed Outfit Description]. The subject is framed inside a central white Instagram-style post border.
+
+Composition & Spacing: The white frame is perfectly centered in the middle of the image, leaving balanced empty [Soft Background Color matching the outfit] space above and below the frame to match the theme.
+
+Frame Details: The top, left, and right white borders are very thin. The bottom white section is thicker to include UI elements. The bottom section features a red heart icon, comment bubble, share icon, and bookmark icon.
+
+Text Details: Clearly visible text on the bottom panel: "[Number] likes", username "[Username]", caption "[Caption text]... more", and below that, "View all comments".
+
+3D Pop-Out Effect & Hand Pose:
+[CHOOSE ONE OF THE FOLLOWING ACTIONS OR DESCRIBE YOUR OWN ACTION:]
+ 1. (Grip): head and arms are physically popping out OVER the top and side thin borders. hands are realistically gripping the outer edges of the thin side borders, appearing to hold the frame firmly.
+2. (Kiss): Her body is leaning forward towards the camera, creating a strong sense of depth. Her head remains securely framed WITHIN the top thin white border. Only her right hand, raised near her mouth in a blowing-kiss gesture, physically extends forward and breaks OUT of the thin side frame boundary. Her left hand realistically grips the side edge.
+3. (Resting): She is looking directly at the camera with a gentle smile. Her head and shoulders physically pop out OVER the top thin white border. Crucially, her hands are realistically resting comfortably on top of the thicker bottom white UI panel, appearing to lean casually on the frame edge.
+4. (Dynamic Frame): Her upper body and head remain secure WITHIN the boundaries of the white frame. However, both of her arms are fully extended outward dynamically, breaking past the thin borders up to her elbows, reaching straight toward the camera lens. She forms a distinct “L” shape with both hands, as if framing a scene. Due to perspective, her hands are positioned significantly closer to the camera than her face, showing strong spatial depth.
+
+Subject Dimensionality & Texture: The subject must look like a solid, three-dimensional figure, not flat. Emphasize the detailed texture of the [Specific Fabric Name from outfit description], the contours of the face, and realistic hair details. She should have distinct depth separating her from the flat [Background Color] background.
+
+Lighting & Shadows: Professional studio lighting creating soft, realistic drop shadows cast by the physical frame and, crucially, by the [popping-out elements, e.g., hands/head/arms] onto the solid flat [Background Color] background, enhancing the dramatic depth and illusion. High definition, commercial photography.
+
+--------------------------------------------------------------------------------
+
+#54 NanoBanana Pro Prompt by @YaseenK7212
+详情: https://www.meigen.ai/prompt/2012212911637217522
+图片: https://images.meigen.ai/tweets/2012212911637217522/0.jpg
+分数: 25
+提示词:
+    {
+  "prompt_details": {
+    "subject": {
+      "type": "Young woman Ana de Armas ",
+      "appearance": {
+        "hair": "Long, dark chestnut brown, loose waves, falling over face, messy aesthetic",
+        "skin": "Fair complexion, smooth texture, natural finish",
+        "face": "Looking downward, face partially obscured by hair, introspective expression",
+        "body_type": "Slender, fit"
+      },
+      "pose": {
+        "stance": "Leaning against a stone wall, body slightly angled",
+        "hands": "Right hand resting gently on chest/neck with fingers splayed, left hand holding a green object (boot) down by her side",
+        "gaze": "Downward, avoiding eye contact"
+      }
+    },
+    "clothing": {
+      "dress": {
+        "style": "Off-the-shoulder mini dress, cottagecore/boho style",
+        "fabric": "Lightweight cotton or linen blend",
+        "color": "Red/off-Red base",
+        "pattern": "Small, delicate floral print with purple and yellow wildflowers",
+        "details": ["Ruffled tiered skirt", "Puffed short sleeves", "Sweetheart neckline", "Corset-style bodice structure"]
+      },
+      "accessories": [
+        "Thin black choker necklace",
+        "Multiple silver rings on fingers",
+        "Red beaded bracelet on left wrist",
+        "Holding a dark green, crocodile-texture cowboy boot"
+      ]
+    },
+    "environment": {
+      "background": "Textured stone masonry wall",
+      "details": "Large, irregular grey and beige stone blocks, rough texture, natural architectural backdrop",
+      "setting": "Outdoor or semi-outdoor daylight setting"
+    },
+    "lighting": {
+      "type": "Soft natural daylight",
+      "quality": "Diffused, even illumination, soft shadows",
+      "direction": "Front-lit but soft"
+    },
+    "styling": {
+      "aesthetic": "Bohemian, chic, feminine, soft grunge undertones",
+      "mood": "Casual, candid, slightly moody, artistic"
+    },
+    "camera_details": {
+      "shot_type": "Medium shot (thigh-up)",
+      "angle": "Eye-level",
+      "lens": "85mm prime lens for flattering portrait compression",
+      "aperture": "f/2.8 for slight depth of field separation from the wall",
+      "focus": "Sharp focus on the subject and dress texture"
+    },
+    "technical_specifications": {
+      "quality": "Ultra Photorealistic, 8k resolution, highly detailed",
+      "texture_quality": "High fidelity fabric textures, realistic skin pores, detailed stone masonry",
+      "engine": "Unreal Engine 5 render style or high-end photography" Ratio 3.4
+    }
+  }
+
+--------------------------------------------------------------------------------
+
+#55 NanoBanana Pro Prompt by @xIrissy
+详情: https://www.meigen.ai/prompt/2011866699075895370
+图片: https://images.meigen.ai/tweets/2011866699075895370/0.jpg
+分数: 25
+提示词:
+    {
+  "prompt_details": {
+    "subject": {
+      "type": "Young woman",
+      "appearance": {
+        "hair": "Long, dark chestnut brown, loose waves, falling over face, messy aesthetic",
+        "skin": "Fair complexion, smooth texture, natural finish",
+        "face": "Looking downward, face partially obscured by hair, introspective expression",
+        "body_type": "Slender, fit"
+      },
+      "pose": {
+        "stance": "Leaning against a stone wall, body slightly angled",
+        "hands": "Right hand resting gently on chest/neck with fingers splayed, left hand holding a green object (boot) down by her side",
+        "gaze": "Downward, avoiding eye contact"
+      }
+    },
+    "clothing": {
+      "dress": {
+        "style": "Off-the-shoulder mini dress, cottagecore/boho style",
+        "fabric": "Lightweight cotton or linen blend",
+        "color": "Cream/off-white base",
+        "pattern": "Small, delicate floral print with purple and yellow wildflowers",
+        "details": ["Ruffled tiered skirt", "Puffed short sleeves", "Sweetheart neckline", "Corset-style bodice structure"]
+      },
+      "accessories": [
+        "Thin black choker necklace",
+        "Multiple silver rings on fingers",
+        "Red beaded bracelet on left wrist",
+        "Holding a dark green, crocodile-texture cowboy boot"
+      ]
+    },
+    "environment": {
+      "background": "Textured stone masonry wall",
+      "details": "Large, irregular grey and beige stone blocks, rough texture, natural architectural backdrop",
+      "setting": "Outdoor or semi-outdoor daylight setting"
+    },
+    "lighting": {
+      "type": "Soft natural daylight",
+      "quality": "Diffused, even illumination, soft shadows",
+      "direction": "Front-lit but soft"
+    },
+    "styling": {
+      "aesthetic": "Bohemian, chic, feminine, soft grunge undertones",
+      "mood": "Casual, candid, slightly moody, artistic"
+    },
+    "camera_details": {
+      "shot_type": "Medium shot (thigh-up)",
+      "angle": "Eye-level",
+      "lens": "85mm prime lens for flattering portrait compression",
+      "aperture": "f/2.8 for slight depth of field separation from the wall",
+      "focus": "Sharp focus on the subject and dress texture"
+    },
+    "technical_specifications": {
+      "quality": "Ultra Photorealistic, 8k resolution, highly detailed",
+      "texture_quality": "High fidelity fabric textures, realistic skin pores, detailed stone masonry",
+      "engine": "Unreal Engine 5 render style or high-end photography"
+    }
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#56 NanoBanana Pro Prompt by @underwoodxie96
+详情: https://www.meigen.ai/prompt/2030920695660806227
+图片: https://images.meigen.ai/tweets/2030920695660806227/0.jpg
+分数: 25
+提示词:
+    {   "subject": {     "description": "Beautiful young Korean female celebrity in early 20s lying on bed, close-up focus on fully exposed outer lateral hip skin",     "mirror_rules": "N/A - direct overhead phone selfie, not mirror reflection",     "age": "early 20s",     "expression": {       "eyes": {         "look": "direct gaze at camera",         "energy": "soft inviting",         "direction": "upward to lens"       },       "mouth": {         "position": "gentle slight smile",         "energy": "sweet and relaxed"       },       "overall": "playful yet intimate and confident"     },     "face": {       "preserve_original": true,       "makeup": "natural dewy Korean makeup, subtle blush, glossy lips"     },     "hair": {       "color": "jet black",       "style": "long wavy hair spread messily on bed",       "effect": "natural tousled flow"     },     "body": {       "frame": "slim toned figure",       "waist": "slim defined waist",       "chest": "natural in crop top",       "legs": "partially visible smooth legs",       "skin": {         "visible_areas": "fully exposed outer lateral hip skin, flat abdomen with prominent navel, natural waist curves",         "tone": "fair smooth Korean skin tone",         "texture": "silky smooth supple warm to the touch",         "lighting_effect": "gentle natural highlights on outer hip curve and belly"       }     },     "pose": {       "position": "lying on back on bed",       "base": "relaxed supine",       "overall": "one arm raised for selfie, body slightly angled to showcase outer hip"     },     "clothing": {       "top": {         "type": "white ribbed spaghetti strap crop top bralette",         "color": "pure white",         "details": "ribbed texture thin straps fitted cut",         "effect": "short crop design fully exposing lower midriff, abdomen and outer lateral hip skin"       },       "bottom": {         "type": "no visible bottoms",         "color": "n/a",         "details": "focus on exposed outer hip skin only"       }     }   },   "accessories": {     "jewelry": "delicate thin gold necklace small stud earrings"   },   "photography": {     "camera_style": "casual smartphone overhead selfie Korean influencer aesthetic",     "angle": "top-down overhead view",     "shot_type": "close-up midriff and outer hip focus upper body to hip level",     "aspect_ratio": "9:16 vertical",     "texture": "sharp natural skin and fabric details",     "lighting": "soft diffused natural bedroom light",     "depth_of_field": "shallow focus on exposed outer hip skin soft bed bg"   },   "background": {     "setting": "cozy bedroom bed",     "wall_color": "neutral",     "elements": ["wrinkled beige bedsheets"],     "atmosphere": "relaxed intimate morning",     "lighting": "warm soft ambient"   },   "the_vibe": {     "energy": "calm seductive",     "mood": "intimate confident",     "aesthetic": "natural Korean celebrity beauty casual selfie",     "authenticity": "real life candid",     "intimacy": "high personal",     "story": "Korean female star relaxing in bed capturing private lazy moment with fully exposed outer lateral hip skin",     "caption_energy": "gentle smile inviting gaze"   },   "constraints": {     "must_keep": ["Korean female celebrity look", "white ribbed crop top", "fully exposed outer lateral hip skin", "flat abdomen with prominent navel", "long black messy hair", "overhead lying pose", "natural lighting", "this exact outer hip skin area must be fully visible and uncovered"],     "avoid": ["visible underwear or panties", "any sensitive or explicit body parts", "clothing covering outer hip", "harsh shadows", "distorted anatomy"]   },   "negative_prompt": ["underwear", "panties", "nudity", "explicit content", "covered outer hip", "clothing over hip skin", "blurry", "low quality", "deformed", "extra limbs", "text", "watermark", "visible bottoms"] }
+
+--------------------------------------------------------------------------------
+
+#57 NanoBanana Pro Prompt by @oggii_0
+详情: https://www.meigen.ai/prompt/2011304086847832089
+图片: https://images.meigen.ai/tweets/2011304086847832089/0.jpg
+分数: 24
+提示词:
+    Paparazzi-style extreme close-up photo of a woman with striking facial features, caught off-guard while turning toward the camera. Face and shoulders only, shot from a low angle. Strong harsh on-camera flash, grainy high-ISO, raw candid street-photography feel. Background shows a crowded scene with motion blur (Paris Fashion Week atmosphere). Intense, spontaneous energy, imperfect and real. She is wearing a school uniform. Ultra-realistic, cinematic realism, high detail skin texture, slight lens distortion.
+
+Camera style: “35mm paparazzi lens, f/2.8, flash blown highlights”
+Look: “2000s tabloid photo aesthetic”
+Quality: “sharp focus on face, background heavily blurred and streaked”
+
+--------------------------------------------------------------------------------
+
+#58 NanoBanana Pro Prompt by @oggii_0
+详情: https://www.meigen.ai/prompt/2042288316868149748
+图片: https://images.meigen.ai/tweets/2042288316868149748/0.jpg
+分数: 24
+提示词:
+    3×3 storyboard grid, nine panels, same subject and outfit, consistent teal studio background, soft diffused lighting, clean editorial lifestyle photography
+young East Asian woman, natural makeup, black hair tied back, wearing white fitted top, blue/cream color-block cardigan with red strap, blue jeans, sneakers, pastel blue over-ear wireless headphones
+panel sequence (left→right, top→bottom): 1 standing adjusting headphones, front view
+2 close-up portrait touching earcup
+3 side profile sitting on tall stool
+4 lying on stomach with cassette tapes + retro player
+5 extreme close-up headphones + face detail
+6 tilted head smiling portrait
+7 low-angle crouch reaching headphones toward camera
+8 forced perspective product shot, headphones close to lens
+9 lying on back relaxed pose
+style: minimal, pastel tones, soft shadows, sharp focus, commercial product photography, consistent framing, balanced grid layout, mix of wide/medium/close shots
+
+--------------------------------------------------------------------------------
+
+#59 NanoBanana Pro Prompt by @youngcatwoman
+详情: https://www.meigen.ai/prompt/2040553750755172616
+图片: https://images.meigen.ai/tweets/2040553750755172616/0.jpg
+分数: 24
+提示词:
+    (Masterpiece, Best Quality, 8K UHD, RAW photo), photorealistic portrait, 
+the K-pop idol Nayeon from TWICE, iconic "bunny" smile with bright white teeth, 
+full cheeks, large round doe eyes with prominent aegyosal, soft facial contours, 
+gradient glossy strawberry lips, light blush, 
+messy long caramel brown wavy hair fanning out across the white pillow, 
+sun-kissed highlights on select strands, 
+
+worn delicate soft cream lace nightgown, 
+bare legs slightly bent at the knees, feet crossed in the air, 
+lying on her stomach on a white bed, propped up on elbows, chin resting on hands, 
+legs lazily crossed and kicked up behind her, shoulders relaxed and open, 
+natural effortless sensual pose, maximum breathing space in composition, 
+looking back over her shoulder at the camera, playful smile, eyes bright and inviting, 
+expression: carefree, natural beauty, innocent allure, relaxed brow, slight head tilt, 
+
+white bed with soft rumpled linen sheets, one white pillow beneath her elbows, 
+sheer white curtains with morning light pouring through, 
+large overexposed white background area on the right side, 
+strong negative space for breathing room, dreamy hazy soft-focus atmosphere, 
+
+golden morning sunlight from the right side through sheer curtains, 
+warm light illuminating her face and upper body, soft shadows, high-key overall, 
+dust motes floating in light beams, gentle hair backlight creating angelic glow, 
+
+Canon R5, 50mm f/1.4, eye-level intimate POV, moderate depth of field, 
+soft bokeh on background, sharp focus on eyes and face, 
+airy, luminous, dreamy morning atmosphere, youthful sensuality, effortless beauty, 
+ultra-detailed skin, realistic hair strands, fabric texture, 8K resolution, 
+photorealistic, no artifacts, no watermark --ar 9:16
+
+--------------------------------------------------------------------------------
+
+#60 NanoBanana Pro Prompt by @Passionai0
+详情: https://www.meigen.ai/prompt/2011435742375948739
+图片: https://images.meigen.ai/tweets/2011435742375948739/0.jpg
+分数: 24
+提示词:
+    {
+  "meta": {
+    "aspect_ratio": "9:16",
+    "quality": "photorealistic, raw, unedited smartphone photograph",
+    "resolution": "8k",
+    "camera": "Smartphone camera (e.g., iPhone 14 Pro)",
+    "lens": "Wide-angle smartphone lens",
+    "style": "Candid mirror selfie, natural indoor evening light, warm tone",
+    "composition": "Full-body mirror shot of a woman sitting on a rug, holding a smartphone to take the photo."
+  },
+  "scene": {
+    "location": "Indoor living room",
+    "environment": [
+      "Large grey shag rug on wooden floor",
+      "Dark grey sofa in background",
+      "White double doors",
+      "Warm ambient lighting from a lamp"
+    ],
+    "time": "Evening",
+    "atmosphere": "Casual, relaxed, intimate"
+  },
+  "lighting": {
+    "type": "Warm, dim indoor light",
+    "source": "Lamp light from the side and smartphone screen light",
+    "effect": "Soft, warm glow with shadows, highlighting wet hair and fishnet texture."
+  },
+  "subject": {
+    "identity": "The woman from image_0.png with wet platinum blonde hair.",
+    "body": {
+      "pose": "Sitting cross-legged on the grey rug, looking at the smartphone in her hand, holding it up for a mirror selfie.",
+      "physique": "Slim build."
+    },
+    "outfit": {
+      "clothing": "Black short-sleeved mini-dress, black fishnet tights.",
+      "accessories": "None visible besides the smartphone."
+    }
+  },
+  "realism_focus": {
+    "textures": "Wet hair strands, detailed mesh of the fishnet tights, texture of the grey shag rug, fabric of the black dress.",
+    "imperfections": "Natural skin texture, realistic phone reflection in the mirror."
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#61 NanoBanana Pro Prompt by @YaseenK7212
+详情: https://www.meigen.ai/prompt/2012901998060831020
+图片: https://images.meigen.ai/tweets/2012901998060831020/0.jpg
+分数: 23
+提示词:
+    {
+  "image_request": {
+    "identity_lock": {
+      "face_reference": "Use the uploaded reference image",
+      "constraints": [
+        "Preserve exact facial features",
+        "No face alteration",
+        "No morphing or beautification",
+        "Maintain true bone structure, proportions, and asymmetry"
+      ]
+    },
+    "subject": {
+      "type": "Adult woman Sydney Sweeney ",
+      "style": "Luxury high-fashion editorial portrait"
+    },
+    "face_and_expression": {
+      "features": "Striking, refined facial features identical to reference",
+      "expression": "Calm, confident, elegant",
+      "skin": {
+        "finish": "Natural, flawless, realistic texture",
+        "tone": "Warm, even, unedited"
+      }
+    },
+    "makeup": {
+      "style": "Luxury nude makeup",
+      "color_palette": "Brown and bronze tones",
+      "eyes": {
+        "shadow": "Softly smudged bronze-brown",
+        "liner": "Subtle, diffused",
+        "lashes": "Defined but natural"
+      },
+      "contour": "Soft sculpting with bronzed warmth",
+      "lips": {
+        "shape": "Naturally full",
+        "finish": "Glossy, well-contoured nude-bronze"
+      },
+      "overall": "Elegant, high-end, polished without excess"
+    },
+    "hair": {
+      "color": "Deep dark brown / black",
+      "length": "Very long",
+      "style": "Voluminous, flowing waves",
+      "finish": "Glossy, luxurious, red-carpet ready"
+    },
+    "wardrobe": {
+      "dress": {
+        "type": "Gala gown",
+        "material": "Fully covered in silver crystals",
+        "effect": "Intensely reflective, high sparkle",
+        "straps": "Thin straps",
+        "neckline": "Extremely deep V-neck",
+        "slit": "High thigh slit",
+        "fit": "Figure-enhancing, elegant, couture-level"
+      }
+    },
+    "lighting": {
+      "style": "Cinematic editorial lighting",
+      "quality": "Bright highlights on crystals, soft sculpting on face",
+      "mood": "Luxurious, dramatic, red-carpet glamour",
+      "contrast": "Balanced with refined shadows"
+    },
+    "camera_and_quality": {
+      "resolution": "Ultra-HD 8K",
+      "realism": "Hyper-realistic photographic quality",
+      "focus": "Sharp focus on face, hair, and crystal details",
+      "depth_of_field": "Natural, editorial"
+    },
+    "aesthetic": {
+      "theme": "High-glamour evening couture",
+      "vibe": [
+        "Elegant",
+        "Powerful",
+        "Luxury",
+        "Timeless"
+      ]
+    },
+    "negative_prompt": [
+      "face alteration",
+      "beauty morphing",
+      "cartoon",
+      "CGI",
+      "3D render",
+      "plastic skin",
+      "over-retouching",
+      "low detail",
+      "blur",
+      "illustration" Ratio 3.4
+    ]
+  }
+   }
+
+--------------------------------------------------------------------------------
+
+#62 NanoBanana Pro Prompt by @astronomerozge1
+详情: https://www.meigen.ai/prompt/2011077396263317952
+图片: https://images.meigen.ai/tweets/2011077396263317952/0.jpg
+分数: 23
+提示词:
+    {
+  "generation_request": {
+    "meta_data": {
+      "tool": "NanoBanana Pro",
+      "task_type": "photoreal_candid_street_romance",
+      "version": "v1.0_ISTANBUL_UNIVERSITY_FIRST_MEET_LOVE_EN",
+      "priority": "highest"
+    },
+
+    "output_settings": {
+      "aspect_ratio": "4:5",
+      "orientation": "portrait",
+      "resolution_target": "ultra_high_res",
+      "render_style": "ultra_photoreal_candid_street_film_still",
+      "sharpness": "crisp_but_natural",
+      "film_grain": "subtle_35mm",
+      "color_grade": "true_to_life_natural",
+      "dynamic_range": "natural_not_hdr",
+      "skin_rendering": "real_texture_no_retouch"
+    },
+
+    "global_rules": {
+      "camera_language": "35mm lens equivalent, eye-level, imperfect framing, candid documentary feel, focus on eyes when people are present",
+      "lighting_language": "motivated natural light only (overcast daylight or soft morning sun), deep but detailed shadows",
+      "authenticity_markers": "no studio look, no HDR, no AI glow, natural colors, real street atmosphere"
+    },
+
+    "creative_prompt": {
+      "scene_summary": "A quiet love story begins in Istanbul. Two university students meet for the first time at the main gate of Istanbul University. A candid, unposed moment — as if caught accidentally by a street photographer.",
+
+      "subjects": {
+        "count": 2,
+        "description": "a young man and woman in their early 20s, university students, ordinary and real, not model-like",
+        "expression": "subtle curiosity, shy eye contact, a small uncertain smile — restrained, natural",
+        "skin_and_face": "natural skin texture, no beauty retouch, slight under-eye shadows, real imperfections"
+      },
+
+      "wardrobe_and_style": {
+        "makeup": "very minimal, natural makeup only",
+        "clothing": "simple everyday student clothing in neutral tones (beige, grey, navy, soft brown), slightly wrinkled fabric",
+        "accessories": "backpacks or tote bags, books held naturally in arms — no logos"
+      },
+
+      "micro_action": "they pause briefly while passing each other; their eyes meet; one adjusts the books in their arms; a half-smile forms before words",
+
+      "environment_details": {
+        "location": "Istanbul University main entrance gate",
+        "background": "historic stone gate, worn pavement, passing students softly out of focus, trees and campus walls",
+        "street_elements": "subtle movement of people in the background, light breeze, everyday campus life"
+      },
+
+      "lighting": "soft natural daylight, slightly diffused, no dramatic contrast, realistic skin tones",
+
+      "composition": "eye-level medium shot, slightly off-center framing, faces clearly visible and sharp, background gently receding, no symmetry",
+
+      "mood": "quiet, human, intimate, observational — love as a small moment, not a performance"
+    },
+
+    "negative_prompt": [
+      "studio lighting",
+      "beauty retouch",
+      "plastic skin",
+      "model faces",
+      "over-stylized fashion",
+      "perfect symmetry",
+      "HDR",
+      "AI glow",
+      "fake bokeh",
+      "text",
+      "logo",
+      "watermark",
+      "posed romance",
+      "cinematic exaggeration"
+    ]
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#64 NanoBanana Pro Prompt by @manolyaai
+详情: https://www.meigen.ai/prompt/2021560192530354188
+图片: https://images.meigen.ai/tweets/2021560192530354188/0.jpg
+分数: 22
+提示词:
+    {
+  "visual_style": {
+    "pose": {
+      "position": "Kneeling seated on heels",
+      "body_orientation": "Side profile torso with slight twist toward camera",
+      "spine_posture": "Upright with gentle curve",
+      "head_angle": "Turned toward camera (three-quarter view)",
+      "gaze": "Direct confident eye contact",
+      "arms": "Relaxed, hands resting on thighs",
+      "energy": "Stylized fashion editorial posture"
+    },
+
+    "colors": {
+      "primary_palette": [
+        "Vivid Crimson Red (floral elements)",
+        "Soft Pastel Pink (background)",
+        "Platinum Blonde (hair)"
+      ],
+      "secondary_palette": [
+        "Warm natural skin tones",
+        "Neutral tan hosiery tones"
+      ],
+      "contrast_profile": "High saturation reds contrasted with muted pink background",
+      "color_distribution": {
+        "dominant": "Red",
+        "supporting": "Pink",
+        "accent": "Blonde highlights"
+      }
+    },
+
+    "composition": {
+      "framing": "Vertical portrait",
+      "shot_type": "Medium-full body",
+      "subject_placement": "Centered",
+      "foreground": "Dense red floral layer",
+      "midground": "Subject",
+      "background": "Flat pastel studio backdrop",
+      "visual_lines": "S-curve silhouette guiding viewer focus upward",
+      "depth": "Three-layer depth separation"
+    },
+
+    "outfits": {
+      "garment_concept": "Rose-inspired sculptural fashion elements",
+      "material_visual": "Soft textile or plush floral forms",
+      "legwear": "Fine mesh tights",
+      "footwear": "Gloss red pointed-toe heels",
+      "hair": {
+        "style": "Old Hollywood waves",
+        "volume": "High",
+        "tone": "Platinum blonde"
+      },
+      "makeup": {
+        "lip_color": "Matte vivid red",
+        "eyes": "Defined liner and lashes",
+        "skin_finish": "Smooth glam contour"
+      }
+    },
+
+    "lighting": {
+      "type": "Studio soft diffused lighting",
+      "direction": "Frontal key with slight side shaping",
+      "shadow_profile": "Minimal harsh shadows",
+      "highlight_behavior": "Even skin illumination",
+      "environment_reflection": "Matte backdrop light absorption"
+    },
+
+    "effects": {
+      "post_processing": [
+        "High red saturation",
+        "Soft glam skin smoothing",
+        "Clean digital polish"
+      ],
+      "texture_emphasis": [
+        "Floral softness",
+        "Smooth skin rendering",
+        "Matte backdrop"
+      ],
+      "aesthetic": [
+        "Glam editorial",
+        "Romantic studio fashion",
+        "Vintage Hollywood influence"
+      ]
+    }
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#65 NanoBanana Pro Prompt by @xIrissy
+详情: https://www.meigen.ai/prompt/2011768378969481414
+图片: https://images.meigen.ai/tweets/2011768378969481414/0.jpg
+分数: 22
+提示词:
+    {
+  "prompt_type": "Ultra Photorealistic Image Generation",
+  "subject": {
+    "description": "Young woman with long, straight dark brown hair cascading down her back",
+    "skin_tone": "Sun-kissed, glowing complexion",
+    "features": "Side profile visible, smiling/laughing expression, hands raised covering eyes/face playfully",
+    "details": "Red manicured fingernails, subtle jewelry including a ring on the left hand and a thin bracelet"
+  },
+  "fashion_and_styling": {
+    "outfit": "White, vintage-inspired corset-style mini dress with Swiss dot texture",
+    "garment_details": "Sweetheart neckline, ruffled cap sleeves, front lace-up ribbon detailing, fitted bodice, ruffled hem, slightly sheer fabric",
+    "aesthetic": "Coquette, cottagecore, soft feminine luxury, summer vacation style"
+  },
+  "pose_and_action": {
+    "pose": "Seated elegantly on a chair, body angled slightly away from the camera",
+    "gesture": "Both hands raised to shield eyes from the sun or in a candid moment of laughter, head tilted back slightly",
+    "interaction": "Relaxed posture sitting at a cafe table"
+  },
+  "environment": {
+    "setting": "Outdoor luxury hotel terrace or cafe balcony overlooking a scenic landscape",
+    "background_elements": "Historic yellow building with 'HOTEL FLORENCE' signage, lush green mountains in the distance, cloudy blue sky, vintage globe street lamps",
+    "foreground_elements": "Round glass-top table, black wrought-iron garden chairs",
+    "props": "Two white ceramic coffee cups on saucers, a paperback book lying on the table"
+  },
+  "lighting": {
+    "type": "Natural bright daylight, afternoon sun",
+    "quality": "High contrast, casting sharp shadows on the table, backlighting on hair creating a halo effect, sun-drenched atmosphere",
+    "direction": "Side/Front lighting illuminating the subject"
+  },
+  "mood_and_atmosphere": {
+    "vibe": "Joyful, candid, luxurious, carefree, Italian summer holiday",
+    "emotion": "Happiness, relaxation, playfulness"
+  },
+  "technical_camera_details": {
+    "quality": "8k resolution, RAW photo, hyper-realistic, highly detailed texture",
+    "camera_simulation": "DSLR, 85mm portrait lens",
+    "aperture": "f/2.8 (shallow depth of field to blur the background mountains and hotel)",
+    "shutter_speed": "1/500s (to freeze the candid movement)",
+    "iso": "100 (clean, noise-free image)",
+    "color_grading": "Vibrant, natural colors with slightly warm tones, clear whites"
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#67 NanoBanana Pro Prompt by @YaseenK7212
+详情: https://www.meigen.ai/prompt/2012944621815386617
+图片: https://images.meigen.ai/tweets/2012944621815386617/0.jpg
+分数: 21
+提示词:
+    {
+  "generation_parameters": {
+    "type": "photorealistic_cinematic_portrait",
+    "aspect_ratio": "3:4",
+    "quality_preset": "ultra_high_definition",
+    "model_reference": "Ana de Armas"
+  },
+  "subject_breakdown": {
+    "identity": {
+      "name": "Ana de Armas",
+      "facial_features": {
+        "skin_texture": "hyper-realistic pore detail, soft natural skin sheen",
+        "eyes": "deep hazel-green, intense eye contact, sharp focus, catching the light",
+        "lips": "bold classic red lipstick, matte finish, perfectly defined",
+        "expression": "alluring, mysterious, looking back over shoulder"
+      },
+      "hair": {
+        "color": "dark chocolate brown",
+        "style": "long, loose waves cascading down the back",
+        "texture": "silky, voluminous, high-shine"
+      },
+      "physique": {
+        "body_type": "curvy hourglass figure",
+        "silhouette": "form-fitting, accentuated curves"
+      }
+    },
+    "attire_and_styling": {
+      "main_garment": {
+        "item": "maxi dress",
+        "fit": "extremely tight, bodycon, second-skin fit",
+        "material": "glittering metallic silver fabric, liquid metal effect, high reflectivity",
+        "design_details": [
+          "dramatic open back",
+          "thin criss-cross lace-up straps across the back",
+          "deep thigh-high side slit",
+          "floor-length hem"
+        ]
+      },
+      "accessories": {
+        "jewelry": "large oversized crystal hoop earrings, diamond sparkle",
+        "shoes": "strappy silver high heels (partially visible)"
+      }
+    }
+  },
+  "environment_context": {
+    "setting": {
+      "location": "Luxurious Old European Street",
+      "architecture": "Baroque facades, cobblestone pavement, vintage aesthetics",
+      "atmosphere": "nightlife, sophisticated, romantic, moody"
+    },
+    "background_elements": {
+      "details": "blurred city lights, bokeh effect, historic buildings in shadow",
+      "depth": "shallow depth of field to isolate subject"
+    }
+  },
+  "lighting_and_atmosphere": {
+    "lighting_setup": {
+      "primary_source": "warm golden street lamps",
+      "ambient": "soft city glow",
+      "accents": "rim lighting highlighting hair and shoulder profile",
+      "shadows": "soft, cinematic contrast"
+    },
+    "color_palette": {
+      "tones": ["silver", "gold", "deep midnight blue", "crimson red"],
+      "temperature": "warm vs cool contrast"
+    }
+  },
+  "technical_specifications": {
+    "photography_style": "fashion editorial, cinematic glamour",
+    "camera_settings": {
+      "focal_length": "85mm portrait lens",
+      "aperture": "f/1.8",
+      "iso": "400",
+      "shutter_speed": "1/125"
+    },
+    "render_quality": [
+      "8k resolution",
+      "unreal engine 5 style",
+      "octane render",
+      "ray tracing",
+      "sharp focus on eyes"
+    ]
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#68 NanoBanana Pro Prompt by @chatgptpaglu
+详情: https://www.meigen.ai/prompt/2013228149975265413
+图片: https://images.meigen.ai/tweets/2013228149975265413/0.jpg
+分数: 21
+提示词:
+    {
+  "generation_parameters": {
+    "type": "photorealistic_cinematic_portrait",
+    "aspect_ratio": "3:4",
+    "quality_preset": "ultra_high_definition",
+    "model_reference": "Ana de Armas"
+  },
+  "subject_breakdown": {
+    "identity": {
+      "name": "Ana de Armas",
+      "facial_features": {
+        "skin_texture": "hyper-realistic pore detail, soft natural skin sheen",
+        "eyes": "deep hazel-green, intense eye contact, sharp focus, catching the light",
+        "lips": "bold classic red lipstick, matte finish, perfectly defined",
+        "expression": "alluring, mysterious, looking back over shoulder"
+      },
+      "hair": {
+        "color": "dark chocolate brown",
+        "style": "long, loose waves cascading down the back",
+        "texture": "silky, voluminous, high-shine"
+      },
+      "physique": {
+        "body_type": "curvy hourglass figure",
+        "silhouette": "form-fitting, accentuated curves"
+      }
+    },
+    "attire_and_styling": {
+      "main_garment": {
+        "item": "maxi dress",
+        "fit": "extremely tight, bodycon, second-skin fit",
+        "material": "glittering metallic silver fabric, liquid metal effect, high reflectivity",
+        "design_details": [
+          "dramatic open back",
+          "thin criss-cross lace-up straps across the back",
+          "deep thigh-high side slit",
+          "floor-length hem"
+        ]
+      },
+      "accessories": {
+        "jewelry": "large oversized crystal hoop earrings, diamond sparkle",
+        "shoes": "strappy silver high heels (partially visible)"
+      }
+    }
+  },
+  "environment_context": {
+    "setting": {
+      "location": "Luxurious Old European Street",
+      "architecture": "Baroque facades, cobblestone pavement, vintage aesthetics",
+      "atmosphere": "nightlife, sophisticated, romantic, moody"
+    },
+    "background_elements": {
+      "details": "blurred city lights, bokeh effect, historic buildings in shadow",
+      "depth": "shallow depth of field to isolate subject"
+    }
+  },
+  "lighting_and_atmosphere": {
+    "lighting_setup": {
+      "primary_source": "warm golden street lamps",
+      "ambient": "soft city glow",
+      "accents": "rim lighting highlighting hair and shoulder profile",
+      "shadows": "soft, cinematic contrast"
+    },
+    "color_palette": {
+      "tones": ["silver", "gold", "deep midnight blue", "crimson red"],
+      "temperature": "warm vs cool contrast"
+    }
+  },
+  "technical_specifications": {
+    "photography_style": "fashion editorial, cinematic glamour",
+    "camera_settings": {
+      "focal_length": "85mm portrait lens",
+      "aperture": "f/1.8",
+      "iso": "400",
+      "shutter_speed": "1/125"
+    },
+    "render_quality": [
+      "8k resolution",
+      "unreal engine 5 style",
+      "octane render",
+      "ray tracing",
+      "sharp focus on eyes"
+    ]
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#70 NanoBanana Pro Prompt by @kaanakz
+详情: https://www.meigen.ai/prompt/2009539375307076025
+图片: https://images.meigen.ai/tweets/2009539375307076025/0.jpg
+分数: 21
+提示词:
+    {
+  "subject_and_scene": {
+    "main_subject": "A beautiful young woman with blonde hair tied back, striking blue eyes, and natural makeup with glossy lips. She is wearing a black long-sleeve button-down shirt unbuttoned at the waist and classic blue denim jeans.",
+    "action": "Reclining casually on a grey fabric sofa, looking directly into the camera with a soft, confident expression.",
+    "environment": "Minimalist indoor living space with neutral cream-colored walls and a textured grey sectional sofa, creating a clean and intimate atmosphere."
+  },
+  "cinematography": {
+    "camera_model": "Sony Venice 2",
+    "sensor_type": "Full Frame",
+    "shot_type": "Medium Close-Up",
+    "camera_angle": "High Angle (slightly looking down)",
+    "movement": "Static"
+  },
+  "optics": {
+    "lens_type": "Spherical",
+    "focal_length": "35mm (Standard)",
+    "aperture": "f/2.8 (Moderate depth of field to maintain detail on subject and sofa texture)",
+    "shutter_effects": "High Shutter Speed (Freeze frame for maximum clarity)"
+  },
+  "lighting_design": {
+    "setup": "Butterfly Lighting with soft side fill",
+    "style": "Naturalistic High-Key",
+    "atmospheric_light": "Soft diffused window light creating gentle shadows and natural highlights on the skin",
+    "color_temperature": "Natural Daylight (5500K)"
+  },
+  "color_and_post": {
+    "film_stock": "Kodak Portra 400",
+    "color_grading": "Muted Log-C with emphasis on natural skin tones and deep blacks",
+    "analog_artifacts": "Fine Film Grain and subtle Halation on skin highlights"
+  },
+  "rendering_and_tech": {
+    "engine": "Octane Render",
+    "advanced_tech": "Subsurface Scattering for hyper-realistic skin texture, Global Illumination, Ray Tracing",
+    "specs": {
+      "aspect_ratio": "1.85:1 (Standard)",
+      "resolution": "8K, Photorealistic, Hyper-detailed"
+    }
+  },
+  "directorial_style": "Denis Villeneuve"
+}
+
+--------------------------------------------------------------------------------
+
+#71 NanoBanana Pro Prompt by @xIrissy
+详情: https://www.meigen.ai/prompt/2011413808481525888
+图片: https://images.meigen.ai/tweets/2011413808481525888/0.jpg
+分数: 20
+提示词:
+    {
+  "prompt_details": {
+    "subject": {
+      "description": "Young woman with a faired complexion and voluminous, layered brunette hair featuring honey-blonde highlights styled in loose, glamorous waves.",
+      "features": "Soft facial features, full lips, neutral expression, gazing off-camera to the right.",
+      "skin_texture": "Smooth, sun-kissed skin with realistic texture and subtle sheen."
+    },
+    "outfit": {
+      "garment": "White semi-sheer lace mini dress with a delicate floral pattern.",
+      "details": "Spaghetti straps tied in bows at the shoulders, sweetheart neckline, fitted bodice, flowy skirt with a scalloped raw-edge hem.",
+      "style": "Coquette aesthetic, summer resort wear, romantic and feminine."
+    },
+    "accessories": {
+      "item": "Woven straw market basket or tote bag placed on the ledge behind the subject.",
+      "texture": "Natural dried palm leaf texture."
+    },
+    "pose": {
+      "action": "Sitting gracefully on a textured stone garden wall.",
+      "body_language": "One leg bent at the knee, hands resting gently on the stone surface, posture upright but relaxed."
+    },
+    "environment": {
+      "setting": "Luxurious Mediterranean-style estate or villa garden.",
+      "foreground": "Rough-hewn beige stone wall/ledge.",
+      "background": "Manicured green lawn, sculpted hedges, large estate building with Spanish colonial architecture (stucco walls, tiled roof, tower), bright blue sky with fluffy white cumulus clouds.",
+      "atmosphere": "High-end vacation, tranquil, affluent summer day."
+    },
+    "lighting": {
+      "type": "Bright natural daylight.",
+      "quality": "Sun-drenched illumination, soft but distinct shadows indicating overhead sun, realistic global illumination."
+    },
+    "mood": {
+      "vibe": "Elegant, dreamy, serene, sophisticated, 'old money' aesthetic.",
+      "tone": "Warm, bright, and airy."
+    },
+    "camera_settings": {
+      "lens": "50mm portrait lens.",
+      "aperture": "f/2.8 for slight background separation while keeping the subject sharp.",
+      "shutter_speed": "1/250s.",
+      "iso": "100.",
+      "perspective": "Eye-level shot capturing the subject and the estate background."
+    },
+    "technical_specs": {
+      "quality": "Ultra-photorealistic, 8k resolution, raw photo style, highly detailed textures (lace, stone, hair), masterpiece, cinematic composition.",
+      "engine": "Unreal Engine 5 render style or high-end DSLR photography."
+    }
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#72 NanoBanana Pro Prompt by @bananababydoll
+详情: https://www.meigen.ai/prompt/2012264344998838279
+图片: https://images.meigen.ai/tweets/2012264344998838279/0.jpg
+分数: 20
+提示词:
+    {
+  "meta": {
+    "aspect_ratio": "9:16",
+    "camera": "iPhone rear camera",
+    "lens": "35mm",
+    "quality": "ultra photorealistic",
+    "style": "cold editorial mirror reflection, raw iphone realism, natural skin texture, slight grain"
+  },
+
+  "scene": {
+    "location": "empty concrete hallway apartment",
+    "visibility_rule": "only mirror reflection visible, subject never appears directly",
+    "environment_details": [
+      "tall frameless mirror mounted on concrete wall",
+      "industrial gray walls",
+      "soft shadow gradients",
+      "clean but slightly brutalist interior"
+    ],
+    "time": "very late night",
+    "atmosphere": "silent, detached, fashion-editorial tension"
+  },
+
+  "lighting": {
+    "type": "single directional light",
+    "source": "cool LED wall light from side",
+    "color_temperature": "cold white",
+    "effect": "sharp highlights on shoulders and collarbones, deep controlled shadows"
+  },
+
+  "camera_perspective": {
+    "pov": "mirror reflection only",
+    "angle": "straight-on, chest-height",
+    "framing": "upper thighs to head visible only inside mirror",
+    "real_world_visibility": "no body parts visible outside mirror",
+    "phone_visibility": "phone covering face in reflection"
+  },
+
+  "subject": {
+    "gender": "female",
+    "age_vibe": "young adult",
+    "ethnicity": "Northern European",
+
+    "hair": {
+      "color": "icy platinum blonde",
+      "style": "short blunt bob",
+      "behavior": "clean lines, barely touching jaw"
+    },
+
+    "outfit": {
+      "bodysuit": {
+        "type": "one-piece mesh bodysuit",
+        "color": "smoky graphite gray",
+        "material": "semi-transparent technical mesh",
+        "fit": "tight, sculpting, stretched naturally",
+        "coverage": "fashion-revealing, non-explicit"
+      }
+    },
+
+    "pose": {
+      "position": "standing still close to mirror",
+      "legs": {
+        "stance": "asymmetrical",
+        "detail": "one leg straight, one knee slightly bent inward"
+      },
+      "hips": {
+        "action": "subtle sideways shift creating tension in fabric"
+      },
+      "arms": {
+        "phone_hand": "holding phone directly in front of face",
+        "free_hand": "hanging loose by side, relaxed fingers"
+      },
+      "vibe": "cold confidence, model-off-duty, emotionally distant"
+    },
+
+    "face": {
+      "visibility": "completely hidden by phone",
+      "effect": "identity erased, body language only"
+    }
+  },
+
+  "imperfections": [
+    "minor mirror streaks",
+    "uneven LED light falloff",
+    "slight handheld camera micro-tilt"
+  ]
+}
+
+--------------------------------------------------------------------------------
+
+#73 NanoBanana Pro Prompt by @Artist04048661
+详情: https://www.meigen.ai/prompt/2032829615828283545
+图片: https://images.meigen.ai/tweets/2032829615828283545/0.jpg
+分数: 20
+提示词:
+    {
+  "image_generation_prompt": {
+    "subject": {
+      "description": "Young woman with a strong resemblance to Sabrina Carpenter.",
+      "hair": "Extra-long, straight, and sleek hair cascading down the shoulders and back, featuring a clean center part and soft silk-like physics.",
+      "face": "Enchanting expression with large blue eyes, slightly parted lips, and a flawless porcelain skin texture with a soft-focus glow.",
+      "body": "Slender and toned physique with smooth skin, captured in a reclining pose that emphasizes graceful curves."
+    },
+    "attire": {
+      "clothing": "A delicate cream-colored corset bodysuit with structured boning and visible stitching, paired with matching thin-strap lingerie and sheer thigh-high stockings with lace trim.",
+      "style": "Ethereal Boudoir / Angelic Fantasy."
+    },
+    "styling_and_accessories": {
+      "jewelry": [
+        "Large architectural white angel wings with layered, sculptural feather-like scales",
+        "Subtle red manicured nails"
+      ]
+    },
+    "environment": {
+      "setting": "An opulent indoor lounge featuring a plush velvet or suede sofa.",
+      "background": "An ornate wall with classical plaster molding and decorative wainscoting in a warm off-white tone.",
+      "water": "None"
+    },
+    "pose": {
+      "posture": "Reclining horizontally on a sofa, propped up slightly by the elbows, creating a dynamic diagonal composition.",
+      "arms": "One arm extended forward with hands resting gently on the sofa surface, the other tucked slightly behind.",
+      "angle": "Eye-level medium shot, focusing on the interplay between the subject and the wings."
+    },
+    "lighting_and_mood": {
+      "lighting": "Warm, directional studio lighting creating a soft spotlight effect on the subject, with gentle shadows cast by the wings against the wall.",
+      "mood": "Dreamy, angelic, and high-fashion editorial.",
+      "colors": "A monochrome-inspired palette of cream, ivory, and beige with warm golden undertones."
+    },
+    "camera_and_technical": {
+      "style": "Ultra Photorealistic, RAW photo.",
+      "lens": "35mm wide-angle lens to capture the span of the wings.",
+      "aperture": "f/2.0 for a shallow depth of field that keeps the wall texture soft.",
+      "quality_tags": [
+        "8k resolution",
+        "highly detailed",
+        "soft-focus skin",
+        "cinematic lighting",
+        "hyper-realistic texture",
+        "Vogue editorial style"
+      ]
+    }
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#74 NanoBanana Pro Prompt by @YaseenK7212
+详情: https://www.meigen.ai/prompt/2009672926522397130
+图片: https://images.meigen.ai/tweets/2009672926522397130/0.jpg
+分数: 20
+提示词:
+    {
+  "prompt_metadata": {
+    "title": "Cinematic Royal Portrait: Ana de Armas",
+    "version": "2.0",
+    "generation_type": "Photorealistic Cinematic",
+    "aspect_ratio": "3:4",
+    "quality_preset": "Ultra-High-Resolution / 8K / RAW",
+    "aesthetic_style": "Fairytale Royal / Ethereal Elegance"
+  },
+  "subject": {
+    "identity": {
+      "name": "Ana de Armas",
+      "likeness_fidelity": "100% accurate facial features",
+      "ethnicity_match": "Authentic skin tone and bone structure"
+    },
+    "physical_features": {
+      "eyes": {
+        "color": "Deep brown",
+        "details": "Luminous catch-lights, sharp focus on iris texture"
+      },
+      "complexion": {
+        "texture": "Visible skin pores, natural imperfections, luminous warm glow",
+        "finish": "Soft-focus dewiness"
+      },
+      "hair": {
+        "style": "Intricate blonde updo",
+        "texture": "Soft, loose ringlet curls framing the face",
+        "detail": "Fine individual strands visible, silk-like sheen"
+      },
+      "makeup": {
+        "style": "Natural / Minimalist",
+        "details": "Soft peach blush, nude glossy lips, light mascara"
+      }
+    },
+    "pose": {
+      "composition": "Close-up portrait",
+      "stance": "Graceful and poised, slight tilt of the head",
+      "expression": "Serene, regal, and enigmatic"
+    }
+  },
+  "wardrobe": {
+    "garment": "Grand Powder-Blue Ball Gown",
+    "bodice_details": {
+      "type": "Structured corset",
+      "neckline": "Off-shoulder ruffled sleeves",
+      "embellishments": "Hand-stitched 3D floral appliqués"
+    },
+    "skirt_details": {
+      "material": "Layered silk tulle",
+      "volume": "Voluminous and airy",
+      "translucency": "Subtle light-filtering through fabric layers"
+    }
+  },
+  "environment": {
+    "location": "Grand Palace Interior",
+    "architecture": {
+      "primary_element": "Wide marble staircase",
+      "material": "Polished white Calacatta marble with gold veining",
+      "backdrop": "Ornate balustrades, distant vaulted ceilings"
+    },
+    "atmosphere": {
+      "vibe": "Dreamy, luxurious, and timeless",
+      "depth": "Extreme shallow depth of field (bokeh background)"
+    }
+  },
+  "lighting_and_color": {
+    "lighting_scheme": {
+      "primary_source": "Cinematic soft-box simulation",
+      "secondary_source": "Warm ambient glow from palace chandeliers",
+      "effects": "Subtle bloom, ethereal light rays, volumetric golden hour glow"
+    },
+    "color_palette": {
+      "dominants": ["Powder blue", "Creamy white", "Soft gold"],
+      "accents": ["Warm skin tones", "Deep amber highlights"]
+    }
+  },
+  "technical_rendering": {
+    "camera_settings": {
+      "lens": "85mm prime lens simulation",
+      "aperture": "f/1.2 for creamy bokeh",
+      "sensor": "Full-frame digital cinema camera"
+    },
+    "image_fidelity": {
+      "texture_mapping": "High-fidelity fabric weave and marble grain",
+      "post_processing": "Subtle film grain, HDR, color graded for fairytale cinema",
+      "anti_aliasing": "Ultra-sharp edges on subject, smooth gradients in background"
+    }
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#76 NanoBanana Pro Prompt by @bananababydoll
+详情: https://www.meigen.ai/prompt/2010098987735671074
+图片: https://images.meigen.ai/tweets/2010098987735671074/0.jpg
+分数: 19
+提示词:
+    {
+  "image_prompt": {
+    "meta": {
+      "aspect_ratio": "9:16 vertical",
+      "camera": "iPhone 15 Pro Max (rear camera)",
+      "lens_feel": "24mm wide, slight wide-angle realism without face distortion",
+      "quality": "ultra-photorealistic, looks like a real iPhone camera roll photo",
+      "texture_rules": [
+        "natural skin texture (no plastic smoothing)",
+        "subtle smartphone noise/grain in shadows",
+        "tiny handheld imperfections (micro-tilt, not perfectly centered)"
+      ]
+    },
+    "scene": {
+      "location": "modern hotel-suite / upscale apartment living room",
+      "key_background_elements": [
+        "large floor-to-ceiling dark charcoal curtains on the left side",
+        "warm textured plaster wall on the right side (brown/tan, slightly mottled)",
+        "soft warm light gradient on the wall (like a hidden lamp or sconce spill)",
+        "neutral-toned interior, quiet late-night vibe"
+      ],
+      "foreground": [
+        "large beige fabric sectional sofa with visible woven texture",
+        "seat cushions slightly creased from weight (real compression, not perfect)",
+        "bottom-right corner hint of a speckled stone/marble tabletop edge (out of focus)"
+      ],
+      "extra_realism_details": [
+        "a few personal items/bags faintly visible in the back-right area (messy-but-real, not staged)",
+        "dim room depth, corners fall into shadow naturally"
+      ]
+    },
+    "lighting": {
+      "type": "warm indoor ambient lighting",
+      "sources": [
+        "soft warm lamp spill from camera-right creating a golden cast on skin and wall",
+        "darker fill from the curtain side (camera-left) for contrast"
+      ],
+      "look": [
+        "gentle highlights on shoulders, chest, thighs",
+        "soft but noticeable shadows under legs and along couch seams",
+        "overall warm tungsten color temperature"
+      ]
+    },
+    "subject": {
+      "person": "one adult woman",
+      "ethnicity": "fair-skinned European look",
+      "skin": {
+        "tone": "light warm-fair beige with a golden indoor cast",
+        "finish": "natural, slight sheen on shoulders and legs, visible pores/real texture"
+      },
+      "face": {
+        "structure": "soft pretty features, small nose, full lips, delicate jawline",
+        "expression": "calm, slightly dreamy/relaxed, eyes looking down to her right (not at camera)",
+        "makeup": "minimal glam: even skin, subtle blush, natural brows, soft lip tint (not bold)"
+      },
+      "hair": {
+        "color": "light blonde",
+        "length": "shoulder-length to slightly longer",
+        "style": "straight with a loose natural fall, center/soft-middle part, a few face-framing strands"
+      },
+      "body": {
+        "type": "slim-curvy hourglass (fit waist, rounded hips, very full bust but still natural)",
+        "waist": "tight and visibly cinched from seated twist and posture",
+        "legs": "long, smooth, slightly glossy highlights from warm light",
+        "chest": "very full and more prominent than before, lifted cleavage from posture and fabric tension, realistic weight and shape (not cartoonish)"
+      },
+      "grooming_details": {
+        "armpits": "visible because both arms are raised; smooth/clean look",
+        "fingernails": "short-to-medium length, glossy pale pink/nude manicure",
+        "toenails": "classic French tip pedicure (clean white tips, natural pink base, glossy finish)",
+        "accessory": "thin delicate anklet on the left ankle"
+      }
+    },
+    "outfit": {
+      "top": {
+        "type": "deep-plunge sleeveless halter-style bodysuit or draped knit top",
+        "color": "silver-grey / cool grey",
+        "material": "soft drapey fabric that catches warm light, slight sheen",
+        "fit_rules": [
+          "very deep V neckline",
+          "open sides / low armholes that reveal side torso",
+          "no bra lines visible",
+          "fabric tension/creases where it pulls at the waist and chest (realistic stretch, slightly stronger tension due to fuller bust)"
+        ]
+      },
+      "bottom": {
+        "type": "very short denim shorts (light blue wash)",
+        "fit": "snug on hips, subtle wrinkles at the lap/waist from sitting"
+      },
+      "feet": "barefoot on the couch cushions (natural toe spread, relaxed), French tip pedicure visible when toes catch the warm light"
+    },
+    "pose": {
+      "exact_pose_match": [
+        "sitting on the beige sofa",
+        "one leg folded under her (tucked), the other knee raised high toward her chest",
+        "raised knee is closest to camera, creating a strong thigh line and depth",
+        "both arms lifted behind her head, hands interlaced or resting in hair",
+        "elbows out wide, shoulders open, armpits naturally visible",
+        "torso slightly twisted, emphasizing waist curve",
+        "head turned down and to her right, relaxed neck line"
+      ],
+      "micro_motion": [
+        "a tiny arch in the back from the arms-behind-head stretch",
+        "subtle compression of thigh and hip against the cushion",
+        "loose strands of blonde hair resting near cheeks"
+      ]
+    },
+    "camera_composition": {
+      "framing": "vertical 9:16, subject low-mid frame with lots of negative space above",
+      "angle": "slightly low/straight-on from the front (as if a friend shot it while seated/standing nearby)",
+      "distance": "about 2–3 meters",
+      "focus": "sharp on her face + front thigh, background slightly softer but still readable",
+      "realism_notes": [
+        "not perfectly symmetrical",
+        "slight handheld tilt",
+        "iPhone-style HDR but restrained (no crunchy oversharpening)"
+      ]
+    },
+    "negative_prompt": [
+      "no cartoon/anime look",
+      "no CGI/plastic skin",
+      "no excessive symmetry or studio perfection",
+      "no extra fingers/limb glitches",
+      "no heavy beauty filter",
+      "no explicit nudity or pornographic framing"
+    ]
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#78 NanoBanana Pro Prompt by @xmliisu
+详情: https://www.meigen.ai/prompt/2008431151505879458
+图片: https://images.meigen.ai/tweets/2008431151505879458/0.jpg
+分数: 19
+提示词:
+    {
+  "title": "Winter Lifestyle Fashion Photograph",
+  "description": "An ultra-realistic winter lifestyle fashion photograph taken outdoors in a modern residential area under an overcast sky. A young woman, in a relaxed side profile facing right, stands in a snow-covered courtyard surrounded by contemporary white apartment buildings. She wears oversized black sunglasses, a fitted black bodysuit, a voluminous beige fur jacket, white ribbed socks, and brown platform UGG boots. In her arms, she holds a small fluffy Pomeranian dog in a black harness with a red heart tag, looking at the camera. The soft, diffused daylight and shallow depth of field create a candid, luxurious, and authentic atmosphere with natural textures and lifelike proportions.",
+  "photographer_perspective": {
+    "lens": "50–85mm",
+    "focus": "Shallow depth of field, sharp focus on the woman and dog.",
+    "lighting": "Soft, diffused cold daylight under an overcast sky.",
+    "color_temperature": "Realistic winter color temperature with low contrast.",
+    "aesthetic": "Editorial luxury casual, candid yet composed, true-to-life."
+  },
+  "subjects": {
+    "woman": {
+      "pose": "Side profile facing right, relaxed and naturally balanced.",
+      "attire": [
+        "Oversized black luxury sunglasses",
+        "Fitted black bodysuit / catsuit",
+        "Short beige fur jacket with voluminous sleeves",
+        "White ribbed socks",
+        "Brown platform UGG boots with worn winter soles"
+      ],
+      "details": "Authentic human proportions, natural posture, realistic skin texture, no plastic smoothness."
+    },
+    "dog": {
+      "breed": "Small fluffy Pomeranian",
+      "accessories": "Black harness with a subtle red heart tag",
+      "pose": "Looking directly toward the camera",
+      "details": "Detailed fur strands, soft natural shine, expressive eyes."
+    }
+  },
+  "environment": {
+    "location": "Modern residential area courtyard.",
+    "elements": "Contemporary white multi-story apartment buildings with balconies.",
+    "condition": "All surfaces naturally covered in fresh snow.",
+    "atmosphere": "True-to-life winter atmosphere, no artificial perfection."
+  }
+}
+
+--------------------------------------------------------------------------------
+
+#79 NanoBanana Pro Prompt by @youngcatwoman
+详情: https://www.meigen.ai/prompt/2040510465504158165
+图片: https://images.meigen.ai/tweets/2040510465504158165/0.jpg
+分数: 19
+提示词:
+    {
+  "meta": {
+    "quality": "ultra-photorealistic, 8k, raw style, highly detailed",
+    "camera_model": "iPhone 15 Pro Max, mobile photography aesthetic",
+    "lens_spec": "24mm wide angle, f/1.8 aperture",
+    "aspect_ratio": "9:16",
+    "style_preset": "high-fashion editorial, mirror selfie aesthetic",
+    "technical_rules": "no skin smoothing, natural skin texture, sharp focus"
+  },
+  "scene": {
+    "location": "luxury dressing room, modern dark interior",
+    "time_of_day": "evening, artificial indoor lighting",
+    "atmosphere": "sophisticated, intimate, chic",
+    "background_elements": ["black minimalist door", "sleek dark wood paneling", "framed k-pop editorial art"],
+    "props": ["smartphone", "black vase with red roses", "vanity desk"]
+  },
+  "subject": {
+    "identity": {
+      "name_reference": "Wonyoung from IVE",
+      "biometric_details": "ultra-slim proportions, doll-like features, signature beauty marks under eyes, long neck",
+      "ethnicity_age": "Korean, early 20s"
+    },
+    "physical": {
+      "body_type": "extremely slender, long legs, graceful posture",
+      "skin_details": "porcelain tone, subtle glow, natural skin grain",
+      "hair_style": "long voluminous dark brown waves, side-parted",
+      "facial_features": "almond-shaped eyes, slim nose, plump heart-shaped lips"
+    }
+  },
+  "wardrobe": {
+    "outfit_description": "plunging black blazer dress, structured shoulders, thin gold-buckle belt",
+    "materials": "matte wool-blend, satin lapels, sheer black hosiery",
+    "footwear": "pointed-toe black patent leather stiletto pumps",
+    "accessories": ["silver rings", "thin black bra peeking through"]
+  },
+  "pose_action": {
+    "primary_pose": "sitting on the edge of a wooden desk",
+    "body_language": "legs crossed elegantly, holding phone for a mirror selfie, slight lean",
+    "expression": "cool, composed gaze, slight pout",
+    "interaction": "taking a mirror selfie, looking at phone screen"
+  },
+  "lighting": {
+    "setup": "overhead softbox, warm interior accent lights",
+    "effects": "specular highlights on hair and shoes, soft shadows",
+    "color_grading": "moody, high-contrast, deep blacks, warm skin tones"
+  },
+  "composition": {
+    "shot_type": "full-body mirror selfie",
+    "camera_angle": "eye-level, slightly angled",
+    "focus_point": "sharp focus on subject and mirror reflection",
+    "depth_of_field": "slight fall-off in background"
+  },
+  "realism_focus": {
+    "textures": ["patent leather sheen", "sheer nylon texture", "wood grain"],
+    "imperfections": ["natural fabric folds", "mirror surface dust"]
+  }
+}

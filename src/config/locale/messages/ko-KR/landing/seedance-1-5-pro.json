@@ -1,0 +1,417 @@
+{
+  "metadata": {
+    "title": "Seedance 1.5 Pro 이미지 투 비디오 - 립싱크로 사진 애니메이션화 | joymagic",
+    "description": "Seedance 1.5 Pro로 사진을 말하는 비디오로 변환하세요. 초상화를 업로드하고 여러 언어로 정확한 립싱크 대화를 추가하세요. 캐릭터 애니메이션이 쉬워집니다.",
+    "keywords": "seedance 1.5 pro, 이미지 투 비디오, 립싱크, 말하는 아바타, 캐릭터 애니메이션, 사진 애니메이션, 다국어 비디오, 초상화 투 비디오"
+  },
+  "hero": {
+    "kicker": "One model, multiple modalities — on {brand}",
+    "h1": "Seedance 1.5 Pro 이미지 투 비디오",
+    "description": "Seedance 1.5 Pro는 립싱크로 사진을 말하는 비디오로 변환합니다. 초상화를 업로드하고 대화를 작성하세요—캐릭터는 영어, 중국어, 일본어, 한국어, 스페인어를 포함한 여러 언어에 맞는 입술 움직임으로 말합니다. 아래에서 Seedance 1.5 Pro를 무료로 시도해보세요！<br/><br/>참조 이미지가 없으신가요？<a href=\"/text-to-video/seedance-1-5-pro\" class=\"text-primary underline\">Seedance 1.5 Pro 텍스트 투 비디오</a>를 시도하여 처음부터 생성하세요.",
+    "trust": [
+      "HD outputs",
+      "Fast generation",
+      "Built for production"
+    ],
+    "pricing_from": "Pricing from",
+    "pricing_link": "$5",
+    "pricing_suffix": "(500 credits)"
+  },
+  "sections": {
+    "what_is": {
+      "h2": "What is Seedance 1.5 Pro?",
+      "paragraphs": [
+        "Seedance 1.5 Pro is a text-to-video generation model used for creating videos from text descriptions.",
+        "In practice, it can transform prompts into production-ready videos—supporting workflows from early concepting to marketing assets and iterative creative exploration.",
+        "joymagic provides an integration layer to run these workflows via a web UI and (when enabled) API access, so you can move from experimentation to automation with fewer steps."
+      ]
+    },
+    "creations": {
+      "h2": "What can you create with Seedance 1.5 Pro?",
+      "cards": {
+        "t2i": {
+          "h3": "Seedance 1.5 Pro Text-to-Video (T2V)",
+          "p": "Turn prompts into videos for product concepts, marketing creatives, and storytelling. Experiment with aspect ratios, durations, and resolutions without changing tools."
+        },
+        "editing": {
+          "h3": "Seedance 1.5 Pro Video Generation",
+          "p": "Create variations and iterate through refinements. Use the same prompt framework to converge on a final look faster."
+        },
+        "i2v": {
+          "h3": "Seedance 1.5 Pro Video Creation",
+          "p": "Generate videos with flexible controls for aspect ratio, duration, resolution, and audio generation."
+        }
+      },
+      "links": {
+        "prefix": "For related tools, see",
+        "i2v": "text-to-video",
+        "and": "and",
+        "t2i": "text-to-image",
+        "suffix": "on {brand}."
+      }
+    },
+    "i2v": {
+      "h2": "Seedance 1.5 Pro Text-to-Video",
+      "p": "For high-intent workflows like ads and product clips, Seedance 1.5 Pro text-to-video starts from a text prompt and generates a video sequence. You can tune output duration (up to 12 seconds), pick an HD preset (720p or 1080p), choose aspect ratios, and control audio generation.",
+      "cards": {
+        "inputs": {
+          "h3": "Supported inputs",
+          "p": "Provide a text prompt describing the scene and desired motion. Clear descriptions generally improve quality."
+        },
+        "controls": {
+          "h3": "Output controls",
+          "p": "Adjust aspect ratio (21:9, 16:9, 4:3, 1:1, 3:4, 9:16), resolution presets (720p, 1080p), and duration (1-12 seconds). Enable audio generation and camera fixed options."
+        },
+        "use_cases": {
+          "h3": "Common use cases",
+          "p": "Product videos, social ads, b-roll style motion, cinematic shots, and quick storyboards—especially when you need rapid iteration across many variants."
+        }
+      }
+    },
+    "how_to": {
+      "h2": "How to use Seedance 1.5 Pro",
+      "steps": {
+        "1": {
+          "h3": "1. Enter Your Prompt",
+          "p": "Describe the video you want to create. Be specific about the scene, characters, actions, and mood."
+        },
+        "2": {
+          "h3": "2. Configure Settings",
+          "p": "Choose aspect ratio, duration (1-12 seconds), resolution (720p or 1080p), and enable audio generation or camera fixed options as needed."
+        },
+        "3": {
+          "h3": "3. Generate Video",
+          "p": "Click the generate button and let AI create your video. Processing typically takes a few minutes."
+        },
+        "4": {
+          "h3": "4. Review and Iterate",
+          "p": "Review the generated video for quality, motion, and composition. Adjust settings and regenerate if needed."
+        },
+        "5": {
+          "h3": "5. Download & Use",
+          "p": "Download your video and use it in your projects immediately."
+        },
+        "6": {
+          "h3": "6. Export / integrate via API",
+          "p": "Download assets for your pipeline or integrate generation via API for batch and automation use cases."
+        }
+      }
+    },
+    "pricing": {
+      "h2": "Pricing for Seedance 1.5 Pro",
+      "p_before": "Pricing is credit-based. Refer to",
+      "p_after": "for current packs and plan details.",
+      "table": {
+        "task": "Resolution",
+        "unit": "Duration",
+        "starting_from": "Credits"
+      },
+      "rows": {
+        "720p": {
+          "task": "Seedance 1.5 Pro 720p",
+          "unit": "5s",
+          "start": "200 credits"
+        },
+        "1080p": {
+          "task": "Seedance 1.5 Pro 1080p",
+          "unit": "5s",
+          "start": "300 credits"
+        }
+      },
+      "note": "joymagic will always show the credit cost before you confirm a generation."
+    },
+    "quality": {
+      "h2": "Quality, Safety, and Usage Rights",
+      "p1": "Output quality depends on the chosen settings. For video, higher presets may be available (e.g., HD; including 1080p where supported), and results improve with specific prompts.",
+      "p2_before": "Commercial usage is subject to",
+      "terms_link": "Terms of Service",
+      "p2_after": "and applicable laws. You are responsible for the rights to any inputs you upload.",
+      "p3_before": "joymagic enforces a content policy to prevent prohibited use. See",
+      "moderation_link": "Content Moderation Policy",
+      "p3_middle": "and",
+      "aup_link": "Acceptable Use Policy",
+      "p3_after": "for details."
+    },
+    "keyFeatures": {
+      "h2": "주요 기능",
+      "portraitToVideo": {
+        "title": "초상화 투 비디오 립싱크",
+        "description": "모든 초상화 사진을 업로드하세요. 대화를 작성하세요. 캐릭터는 오디오에 맞는 정확한 입술 움직임으로 말합니다. 사진, 일러스트, 스타일화된 아트에서 작동—얼굴 구조가 분석되어 자연스럽게 애니메이션화됩니다."
+      },
+      "multilingual": {
+        "title": "다국어 음성 애니메이션",
+        "description": "입술 움직임이 선택한 언어에 맞춰집니다. 여러 언어를 지원하며, 각 언어는 발음에 정확한 입 모양을 가집니다. 지역 방언도 자연스럽게 처리됩니다."
+      },
+      "expressive": {
+        "title": "표현력 있는 퍼포먼스",
+        "description": "립싱크 이상의 기능입니다. 모델은 대화의 감정적 톤에 맞는 자연스러운 머리 움직임, 눈 움직임, 얼굴 표정을 추가합니다. 캐릭터가 살아있는 것처럼 느껴지며 로봇처럼 보이지 않습니다."
+      },
+      "stylePreservation": {
+        "title": "스타일 보존",
+        "description": "이미지의 시각적 스타일이 유지됩니다. 사진을 업로드하면 사진처럼 사실적인 애니메이션을 얻고, 애니메 아트를 업로드하면 애니메 스타일의 움직임을 얻습니다. 모델은 소스 자료에 적응합니다."
+      }
+    },
+    "useCases": {
+      "h2": "사용 사례",
+      "talkingAvatars": {
+        "title": "말하는 아바타",
+        "description": "프로필 사진을 고객 서비스, 튜토리얼 또는 공지사항용 말하는 대표로 변환하세요."
+      },
+      "characterAnimation": {
+        "title": "캐릭터 애니메이션",
+        "description": "대화로 일러스트 캐릭터를 생생하게 만드세요. 애니메이션 스토리와 게임 콘텐츠에 완벽합니다."
+      },
+      "multilingualSpokespersons": {
+        "title": "다국어 대변인",
+        "description": "같은 초상화가 여러 언어로 메시지를 말합니다. 재촬영 없이 현지화된 콘텐츠를 만드세요."
+      },
+      "memorialVideos": {
+        "title": "추모 비디오",
+        "description": "부드러운 움직임과 내레이션으로 사진을 애니메이션화하세요. 신중하고 존중하는 마음으로 다루세요."
+      }
+    }
+  },
+  "faq": {
+    "h2": "자주 묻는 질문",
+    "whatIsImageToVideo": {
+      "question": "이미지 투 비디오란 무엇인가요?",
+      "answer": "이미지 투 비디오는 업로드한 사진을 사실적인 움직임과 동기화된 음성으로 애니메이션화합니다. 모델은 얼굴 구조를 분석하고 대화에 맞는 자연스러운 립싱크를 생성합니다."
+    },
+    "whatImagesWorkBest": {
+      "question": "어떤 종류의 이미지가 가장 좋은가요?",
+      "answer": "좋은 조명의 명확한 정면 초상화. 사진, 일러스트, 애니메, 스타일화된 아트에서 작동합니다. 최상의 립싱크를 위해 심한 가림(선글라스, 마스크)을 피하세요."
+    },
+    "howAccurateLipSync": {
+      "question": "립싱크는 얼마나 정확한가요?",
+      "answer": "Seedance 1.5 Pro는 정확한 립 동기화에 특화되어 있습니다. 입 모양은 후처리 수정 없이 모든 지원 언어에서 발음에 자연스럽게 일치합니다."
+    },
+    "animateMoreThanLips": {
+      "question": "입술 외에도 애니메이션화되나요?",
+      "answer": "네. 모델은 대화의 감정적 톤에 맞는 자연스러운 머리 움직임, 눈 움직임, 얼굴 표정을 추가합니다."
+    },
+    "differentFromTextToVideo": {
+      "question": "텍스트 투 비디오와 어떻게 다른가요?",
+      "answer": "텍스트 투 비디오는 모든 것을 처음부터 생성합니다. 이미지 투 비디오는 업로드한 초상화를 사용하여 캐릭터 외모를 제어하면서 립싱크로 애니메이션화합니다—특정 얼굴이나 스타일이 필요할 때 유용합니다."
+    },
+    "items": [
+      {
+        "question": "What is Seedance 1.5 Pro used for?",
+        "answer": "Seedance 1.5 Pro is used for text-to-video generation workflows. You can turn prompts into videos with flexible controls for aspect ratio, duration, resolution, and audio generation."
+      },
+      {
+        "question": "How long does it take to generate a video?",
+        "answer": "Video generation typically takes 2-5 minutes depending on the duration and complexity of your prompt."
+      },
+      {
+        "question": "What video formats are supported?",
+        "answer": "We support standard video formats including MP4. Videos can be generated in various sizes from 720p to 1080p."
+      },
+      {
+        "question": "Can I use the generated videos commercially?",
+        "answer": "Yes, you can use the generated videos for commercial purposes. Please refer to our Terms of Service for complete details."
+      }
+    ]
+  },
+  "disclaimer": {
+    "h2": "Disclaimer",
+    "p": "{brand} is an independent service that provides access to AI generation workflows. We are not affiliated with, endorsed by, or sponsored by the original creators of \"Seedance 1.5 Pro.\" Trademarks and model names belong to their respective owners."
+  },
+  "seedance15Pro": {
+    "form": {
+      "prompt": {
+        "label": "Prompt",
+        "placeholder": "A candid photograph of a chubby ginger tabby cat deeply relaxed and soaking in a traditional Japanese wooden tub filled with countless floating yellow yuzu fruits. The kitty cat has its eyes closed in bliss, melting into the warm water, with a small white folded towel on its head. Gentle steam rises. Warm, soft natural light filters through a traditional window. Cozy, heartwarming atmosphere, serene. Film grain, highly detailed texture of fur and water.",
+        "tooltip": "The text prompt for video generation."
+      },
+      "aspectRatio": {
+        "label": "Aspect Ratio",
+        "tooltip": "Select the aspect ratio for your video output."
+      },
+      "duration": {
+        "label": "Duration",
+        "tooltip": "Set the video duration in seconds (1-12 seconds)."
+      },
+      "resolution": {
+        "label": "Resolution",
+        "tooltip": "Choose the video resolution (720p or 1080p)."
+      },
+      "generateAudio": {
+        "label": "Generate Audio",
+        "description": "Whether to generate audio.",
+        "tooltip": "Enable this option to automatically generate audio for the video."
+      },
+      "cameraFixed": {
+        "label": "Camera Fixed",
+        "description": "Whether to fix the camera position.",
+        "tooltip": "Enable this option to keep the camera position fixed during video generation."
+      },
+      "seed": {
+        "label": "Seed"
+      },
+      "buttons": {
+        "reset": "Reset",
+        "run": "생성",
+        "generating": "Generating..."
+      }
+    },
+    "preview": {
+      "placeholder": "Enter a prompt and click Run to generate a video here.",
+      "costInfo": "Your request will cost {cost} per run.",
+      "oneMoreThing": "One more thing:",
+      "actions": {
+        "addSound": "Add Sound",
+        "videoUpscaler": "Video Upscaler",
+        "videoUpscalerPro": "Video Upscaler Pro",
+        "videoExtend": "Video Extend"
+      }
+    },
+    "common": {
+      "selected": "Selected: {name}",
+      "notSelected": "No file selected"
+    },
+    "status": {
+      "idle": "Idle",
+      "processing": "Processing",
+      "completed": "Completed"
+    },
+    "actions": {
+      "downloadVideo": "Download Video",
+      "downloadFailed": "Download video failed",
+      "playAudioFailed": "Failed to play audio. Please check your browser settings."
+    },
+    "errors": {
+      "promptRequired": "Please enter a prompt",
+      "generationFailed": "Video generation failed",
+      "taskFailed": "Task processing failed",
+      "taskTimeout": "Task processing timeout, please try again later",
+      "taskIdNotFound": "Unable to get task ID, please check API response format",
+      "processingFailed": "Processing failed, please retry",
+      "statusQueryFailed": "Failed to query task status",
+      "apiResponseParseFailed": "Failed to parse API response"
+    }
+  },
+  "seedance15ProPage": {
+    "metadata": {
+      "title": "Seedance 1.5 Pro 텍스트 비디오 생성 - 립싱크 AI 비디오 | joymagic",
+      "description": "Seedance 1.5 Pro를 사용하여 동기화된 대화가 포함된 AI 비디오를 생성합니다. 여러 언어에서 정확한 립싱크, 영화적 카메라 제어, 멀티샷 스토리텔링.",
+      "keywords": "seedance 1.5 pro, 텍스트 비디오, ai 비디오 생성기, 립싱크, 다국어 비디오, 영화적 카메라 제어, 멀티샷 스토리텔링, 동기화된 대화"
+    },
+    "hero": {
+      "title": "Seedance 1.5 Pro 텍스트 비디오 생성",
+      "description": "Seedance 1.5 Pro는 한 번에 비디오와 동기화된 오디오를 생성합니다. 대화로 장면을 설명하세요—캐릭터는 영어, 중국어, 일본어, 한국어, 스페인어를 포함한 여러 언어에 맞춘 입술 움직임으로 말합니다. 아래에서 Seedance 1.5 Pro를 무료로 체험해보세요!<br/><br/>참조 이미지가 있으신가요? <a href=\"/image-to-video/seedance-1-5-pro\" class=\"text-primary underline\">Seedance 1.5 Pro 이미지 비디오 생성</a>으로 캐릭터 애니메이션을 시도해보세요.",
+      "button1": "지금 시도",
+      "button2": "가격 보기"
+    },
+    "heroDescription": "Enter a text prompt and watch as AI transforms your words into a beautiful video. Perfect for content creators, marketers, and storytellers.",
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast generation",
+      "commercialReady": "Commercial-use ready"
+    },
+    "whatYouCanDo": {
+      "title": "What You Can Do With Text to Video",
+      "description": "Turn your ideas into motion with AI-powered video generation.",
+      "contentCreation": {
+        "title": "Content Creation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create engaging video content for social media</li><li>Generate video thumbnails and previews</li><li>Produce short-form video content quickly</li></ul>"
+      },
+      "marketing": {
+        "title": "Marketing & Advertising",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create promotional videos from text descriptions</li><li>Generate video ads and campaigns</li><li>Produce marketing content at scale</li></ul>"
+      },
+      "entertainment": {
+        "title": "Entertainment & Storytelling",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Bring stories to life with AI-generated videos</li><li>Create animated scenes from text</li><li>Produce creative video content</li></ul>"
+      }
+    },
+    "keyFeatures": {
+      "title": "주요 기능",
+      "description": "AI로 텍스트에서 비디오를 만드는 데 필요한 모든 것.",
+      "multilingualLipSync": {
+        "title": "다국어 립싱크",
+        "description": "캐릭터는 대화에 맞춘 정확한 입술 움직임으로 말합니다. 영어, 중국어, 일본어, 한국어, 스페인어, 인도네시아어, 포르투갈어 및 지역 방언을 지원합니다. 더빙 아티팩트나 타이밍 불일치가 없습니다."
+      },
+      "multiShotStorytelling": {
+        "title": "멀티샷 스토리텔링",
+        "description": "서사적 일관성을 유지하는 여러 장면으로 비디오를 생성합니다. 캐릭터, 조명, 시각적 스타일이 다른 샷에서 일관되게 유지됩니다—고립된 클립이 아닌 스토리 시퀀스를 만듭니다."
+      },
+      "cinematicCameraControl": {
+        "title": "영화적 카메라 제어",
+        "description": "영화 촬영 감독처럼 비디오를 지시하세요. 프롬프트에서 팬, 틸트, 줌, 오빗, 트래킹 샷을 지정하세요. 모델은 정확한 프레이밍으로 전문적인 카메라 움직임을 실행합니다."
+      },
+      "jointAudioVisual": {
+        "title": "오디오-비주얼 공동 생성",
+        "description": "비디오와 오디오가 순차적으로가 아닌 함께 생성됩니다. 대화 타이밍, 음향 효과 배치, 음악 동기화가 생성 프로세스에 내장되어 있습니다—수동 정렬이 필요 없습니다."
+      }
+    },
+    "useCases": {
+      "title": "사용 사례",
+      "multilingualMarketing": {
+        "title": "다국어 마케팅",
+        "description": "정확한 립싱크로 여러 언어로 동일한 광고를 만듭니다. 재촬영 없음, 더빙 아티팩트 없음."
+      },
+      "shortFormStorytelling": {
+        "title": "짧은 형식 스토리텔링",
+        "description": "웹 시리즈 및 소셜 콘텐츠를 위한 일관된 캐릭터로 멀티샷 서사 시퀀스를 생성합니다."
+      },
+      "explainerVideos": {
+        "title": "설명 비디오",
+        "description": "동기화된 음성으로 토킹 헤드 스타일 콘텐츠를 제작합니다. 캐릭터가 개념을 자연스럽게 설명합니다."
+      },
+      "socialMediaAds": {
+        "title": "소셜 미디어 광고",
+        "description": "대화 훅이 있는 스크롤 중지 비디오 광고를 만듭니다. 여러 스크립트를 빠르게 테스트합니다."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "From text to video in simple steps.",
+      "step1": {
+        "title": "Step 1 – Enter Your Prompt",
+        "description": "<p class=\"mb-3\">Describe the video you want to create. Be specific about the scene, characters, actions, and mood.</p>"
+      },
+      "step2": {
+        "title": "Step 2 – Configure Settings",
+        "description": "<p class=\"mb-3\">Choose aspect ratio, duration (1-12 seconds), resolution (720p or 1080p), and enable audio generation or camera fixed options.</p>"
+      },
+      "step3": {
+        "title": "Step 3 – Generate Video",
+        "description": "<p class=\"mb-3\">Click the generate button and let AI create your video. Processing typically takes a few minutes.</p>"
+      },
+      "step4": {
+        "title": "Step 4 – Download & Use",
+        "description": "<p class=\"mb-3\">Preview your video, download it, and use it in your projects immediately.</p>"
+      }
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "텍스트 비디오 생성에 대한 일반적인 질문.",
+      "q1": {
+        "question": "Seedance 1.5 Pro란 무엇인가요?",
+        "answer": "Seedance 1.5 Pro는 비디오와 오디오를 동시에 생성하는 ByteDance의 AI 비디오 모델입니다. 여러 언어에 걸친 정확한 립싱크를 전문으로 합니다."
+      },
+      "q2": {
+        "question": "Veo 3.1과 어떻게 다른가요?",
+        "answer": "Seedance 1.5 Pro는 정확한 다국어 립싱크와 멀티샷 스토리텔링에 중점을 둡니다. Veo 3.1은 첫/마지막 프레임 제어 및 비디오 확장으로 더 넓은 창의적 유연성을 제공합니다. 립싱크 정확도가 중요한 경우 Seedance를 선택하세요."
+      },
+      "q3": {
+        "question": "립싱크는 어떤 언어를 지원하나요?",
+        "answer": "영어, 중국어(지역 방언 포함), 일본어, 한국어, 스페인어, 인도네시아어, 포르투갈어 등."
+      },
+      "q4": {
+        "question": "카메라 움직임을 제어할 수 있나요?",
+        "answer": "네. 프롬프트에서 팬, 틸트, 줌, 오빗 또는 트래킹 샷을 설명하세요. 모델이 전문적인 영화 촬영을 실행합니다."
+      },
+      "q5": {
+        "question": "이미지 비디오 생성과의 차이점은 무엇인가요?",
+        "answer": "텍스트 비디오 생성은 설명에서 모든 것을 생성합니다. 이미지 비디오 생성은 업로드한 사진을 사용하여 캐릭터 외모를 제어하면서 립싱크로 애니메이션화합니다."
+      }
+    },
+    "finalCTA": {
+      "title": "Turn your text into stunning videos.",
+      "description": "Try the joymagic text-to-video AI generator and start creating videos in seconds.<br/><span class=\"text-muted-foreground\">No video editing skills needed · Free to try</span>",
+      "button": "Start generating videos"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "primary": {
+    "home": "Ana Sayfa",
+    "infiniteCanvas": "Sonsuz tuval",
+    "image": "Gorsel",
+    "video": "Video",
+    "effects": "Efektler"
+  },
+  "imageTools": {
+    "Editor & Combiner": "Duzenleyici ve birlestirici",
+    "Image to Image": "Gorselden gorsele",
+    "Text to Image": "Metinden gorsele",
+    "PhotoShoot": "Foto cekimi",
+    "Variations": "Varyasyonlar",
+    "Face Generator": "Yuz olusturucu",
+    "Image Upscaler": "Gorsel buyutucu",
+    "Background Remover": "Arka plan kaldırıcı",
+    "Image Eraser": "Gorsel silgi",
+    "Image Effects": "Gorsel efektleri"
+  },
+  "videoTools": {
+    "Image to Video": "Gorselden videoya",
+    "Text to Video": "Metinden videoya",
+    "Longcat Avatar": "Lip-Sync",
+    "Reference To Video": "Reference To Video",
+    "Video Extend": "Video Extend",
+    "Motion Control": "Hareket kontrolü",
+    "Video Effects": "Video efektleri"
+  },
+  "library": {
+    "title": "Kutuphane",
+    "assets": "Varliklar",
+    "creations": "Uretimler",
+    "uploads": "Yuklemeler",
+    "collections": "Koleksiyonlar"
+  },
+  "creationTypes": {
+    "Video": "Video",
+    "Image": "Gorsel",
+    "Audio": "Ses",
+    "Effect": "Efekt"
+  },
+  "badges": {
+    "beta": "Beta"
+  }
+}

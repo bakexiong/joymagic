@@ -1,0 +1,195 @@
+{
+  "imageBackgroundRemover": {
+    "id": "image-background-remover",
+    "title": "joymagicの背景除去AI",
+    "description": "AIの精度で画像から背景を瞬時に除去。商品写真、ポートレートなどに最適。",
+    "steps": {
+      "sourceImage": {
+        "title": "ソース画像をアップロード",
+        "hint": "ここに画像をアップロード JPG/PNG/WEBP",
+        "dragDrop": "ドラッグ&ドロップまたはクリックしてアップロード",
+        "dropHere": "ここに画像をドロップ"
+      },
+      "generate": {
+        "title": "背景を除去",
+        "cta": "背景を除去",
+        "generating": "背景を除去中..."
+      }
+    },
+    "preview": {
+      "title": "プレビュー",
+      "original": "オリジナル",
+      "backgroundRemoved": "背景除去済み",
+      "placeholder": "画像をアップロードして、背景除去の結果をここで確認してください。"
+    },
+    "common": {
+      "selected": "選択済み: {name}",
+      "notSelected": "未選択"
+    },
+    "errors": {
+      "invalidFileType": "無効なファイルタイプです。画像ファイル（JPG、PNG、WEBP）をアップロードしてください。",
+      "uploadFailed": "アップロードに失敗しました: {error}",
+      "uploadFailedGeneric": "アップロードに失敗しました",
+      "sourceImageRequired": "まずソース画像をアップロードしてください",
+      "generationFailed": "背景除去に失敗しました",
+      "taskFailed": "タスク処理に失敗しました",
+      "taskTimeout": "タスク処理がタイムアウトしました。後でもう一度お試しください",
+      "taskIdNotFound": "タスクIDを取得できませんでした。APIレスポンス形式を確認してください",
+      "processingFailed": "処理に失敗しました。もう一度お試しください",
+      "statusQueryFailed": "タスクステータスの照会に失敗しました",
+      "apiResponseParseFailed": "APIレスポンスの解析に失敗しました",
+      "downloadFailed": "画像のダウンロードに失敗しました"
+    },
+    "download": {
+      "title": "画像をダウンロード"
+    },
+    "alt": {
+      "sourcePreview": "ソースプレビュー",
+      "enlargedPreview": "拡大プレビュー",
+      "source": "ソース",
+      "generated": "生成済み"
+    }
+  },
+  "imageBackgroundRemoverPage": {
+    "metadata": {
+      "title": "AI画像背景除去ツールオンライン | 背景を瞬時に除去 | joymagic",
+      "description": "joymagicのAI背景除去ツールで、あらゆる画像から背景を瞬時に除去。ワンクリックで完璧な切り抜き – 編集スキル不要。HDダウンロード、透かしなし、一括処理対応。",
+      "keywords": "AI画像背景除去ツール、背景除去、透明背景、オンライン背景除去、AI背景除去、商品写真エディター、ポートレート背景除去、一括背景除去"
+    },
+    "hero": {
+      "title": "AI画像背景除去ツールオンライン",
+      "description": "joymagicのAI背景除去ツールで、あらゆる画像から背景を瞬時に除去。ワンクリックで完璧な切り抜き – 編集スキル不要。",
+      "button1": "今すぐ背景を除去",
+      "button2": "無料で始める · クレジットカード不要"
+    },
+    "heroDescription": "✓ HDダウンロード  ✓ 透かしなし  ✓ 一括処理対応",
+    "whatIsAIBackgroundRemover": {
+      "title": "AI画像背景除去ツールとは？",
+      "description": "joymagicのAI画像背景除去ツールは、高度な深層学習を使用して、写真内の主要被写体を自動検出し、数秒で背景を正確に除去します。マスキングやブラシ作業が必要な手動ツールや基本的なエディターとは異なり、当社のAIは：",
+      "features": [
+        "人物、商品、動物、車、物体をインテリジェントに識別",
+        "髪、毛皮、細部などの複雑なエッジを処理",
+        "クリーンで透明な切り抜き（PNG）を作成、または任意の色に置き換え",
+        "毎回プロフェッショナルな結果を提供"
+      ],
+      "perfectFor": "商品写真、ポートレート、プロフィール写真、ソーシャルメディアコンテンツ、Eコマースリスト、デザインプロジェクトに最適。"
+    },
+    "keyFeatures": {
+      "title": "主な機能",
+      "description": "速度と品質のために構築された強力なAI背景除去機能。",
+      "oneClickPrecision": {
+        "title": "ワンクリック精密除去",
+        "description": "<p class=\"mb-3\">最先端のAIが、髪、毛皮、透明なオブジェクトなどの難しい詳細も処理 – 数秒で結果を提供。</p>"
+      },
+      "highQualityTransparent": {
+        "title": "高品質透明出力",
+        "description": "<p class=\"mb-3\">滑らかなエッジとアーティファクトのない、フルHDの鮮明でプロフェッショナルな切り抜きをダウンロード。</p>"
+      },
+      "batchRemoval": {
+        "title": "一括背景除去",
+        "description": "<p class=\"mb-3\">複数の画像を一度にアップロードして処理 – 商品カタログや一括編集に最適。</p>"
+      },
+      "cleanProfessional": {
+        "title": "クリーンでプロフェッショナルな結果",
+        "description": "<p class=\"mb-3\">透かしなし、ぼやけたエッジなし – Eコマース、プレゼンテーション、デザインにすぐに使用可能。</p>"
+      },
+      "replaceBackground": {
+        "title": "背景の置き換え",
+        "description": "<p class=\"mb-3\">ワンクリックで白、カラー、またはカスタム背景に簡単に切り替え。</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "joymagic AI背景除去ツールでできること",
+      "description": "1回のアップロードで、無限の創造的可能性。",
+      "productPhotos": {
+        "title": "素晴らしい商品写真を作成",
+        "description": "<p class=\"mb-3\">商品写真から気を散らす背景を除去し、Amazon、Shopify、またはリスト用にクリーンな白または透明な背景に配置。</p>"
+      },
+      "profilePictures": {
+        "title": "プロフェッショナルなプロフィール写真を作成",
+        "description": "<p class=\"mb-3\">LinkedIn、履歴書、身分証明写真、または出会い系プロフィール用にポートレートを瞬時に分離。</p>"
+      },
+      "graphicsMemes": {
+        "title": "グラフィックとミームをデザイン",
+        "description": "<p class=\"mb-3\">人物、物体、または動物を抽出して、新しい背景、ポスター、またはソーシャルメディアのビジュアルに重ねる。</p>"
+      },
+      "ecommerce": {
+        "title": "Eコマース用の画像を準備",
+        "description": "<p class=\"mb-3\">一括除去で数百の商品画像を迅速に処理 – 手動編集の時間を節約。</p>"
+      },
+      "socialMedia": {
+        "title": "ソーシャルメディアコンテンツを強化",
+        "description": "<p class=\"mb-3\">透明なステッカーやクリーンな切り抜きで、目を引くストーリー、投稿、リールを作成。</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "画像から背景を除去する方法",
+      "description": "AI背景除去ツールで、わずか数ステップで背景を除去：",
+      "step1": {
+        "title": "1. 画像をアップロード",
+        "description": "<p class=\"mb-3\">写真をドラッグ&ドロップまたは選択。</p><p class=\"mb-3\">JPG、JPEG、PNG、WEBP、HEIC形式をサポート。</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>ポートレート、商品写真、ロゴなどに対応</li><li>被写体が明確な場合に最良の結果</li></ul>"
+      },
+      "step2": {
+        "title": "2. AIに任せる",
+        "description": "<p class=\"mb-3\">AIが自動的に検出し、数秒で背景を除去します。</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>手動のブラシ作業や選択は不要</li><li>透明な結果を即座にプレビュー</li></ul>"
+      },
+      "step3": {
+        "title": "3. 調整（オプション）",
+        "description": "<p class=\"mb-3\">必要に応じて微調整：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>被写体の一部を復元</li><li>残りの背景スポットを消去</li><li>完璧な切り抜きのためにエッジを滑らかに</li></ul>"
+      },
+      "step4": {
+        "title": "4. 結果をダウンロード",
+        "description": "<p class=\"mb-3\">背景のない画像を即座に取得：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>透明PNG（オーバーレイに最適）</li><li>または単色/白背景を選択</li><li>HD品質、すぐに使用可能</li></ul>"
+      }
+    },
+    "faq": {
+      "title": "AI画像背景除去ツールよくある質問",
+      "description": "AI画像背景除去ツールに関するよくある質問。",
+      "q1": {
+        "question": "どの画像形式がサポートされていますか？",
+        "answer": "JPG、JPEG、PNG、WEBP、HEICをサポートしています。最良の結果を得るには、高品質の画像を使用してください。"
+      },
+      "q2": {
+        "question": "画像に透かしは入りますか？",
+        "answer": "いいえ。すべてのダウンロードはクリーンで透かしなしです。"
+      },
+      "q3": {
+        "question": "AIの精度はどの程度ですか？",
+        "answer": "当社のAIは、髪、毛皮、複雑なエッジに優れています。非常に複雑なケースでは、シンプルな調整ツールを使用して結果を完璧にします。"
+      },
+      "q4": {
+        "question": "複数の画像から背景を除去できますか？",
+        "answer": "はい – 一括処理により、複数の画像を一度にアップロードして背景を除去できます。"
+      },
+      "q5": {
+        "question": "データは安全ですか？",
+        "answer": "はい。アップロードされた画像は安全に処理され、処理後に自動的に削除されます。画像をトレーニングに使用することはありません。"
+      },
+      "q6": {
+        "question": "背景色を変更できますか？",
+        "answer": "はい – 透明背景でダウンロードするか、白/単色背景を選択できます。"
+      },
+      "q7": {
+        "question": "どのような種類の画像が最も効果的ですか？",
+        "answer": "明確な主要被写体（人物、商品、物体、動物）が対照的または雑然とした背景に対してある画像が、最良の自動結果を生み出します。ポートレート、商品写真、ロゴは特に良好に機能します。"
+      },
+      "q8": {
+        "question": "AI除去後に結果を調整または編集できますか？",
+        "answer": "はい – シンプルなブラシツールにより、誤って除去された部分を手動で復元したり、残りの背景スポットを消去したりして、ピクセル単位の完璧な制御が可能です。"
+      }
+    },
+    "privacySecurity": {
+      "title": "プライバシーとセキュリティ",
+      "description": "お客様の画像とプライバシーが最優先です。",
+      "secureProcessing": "すべてのアップロードは安全に暗号化されて処理されます",
+      "autoDelete": "画像は処理後に自動的に削除されます",
+      "neverShared": "第三者と共有されることはなく、AIトレーニングにも使用されません"
+    },
+    "finalCTA": {
+      "title": "あらゆる写真をクリーンでプロフェッショナルな切り抜きに変換。",
+      "description": "joymagicのAI背景除去ツールを今すぐお試しください。数秒で完璧な透明結果を取得できます。<br/><span class=\"text-muted-foreground\">デザインスキル不要 · 無料でお試し</span>",
+      "button": "今すぐ背景を除去"
+    }
+  }
+}
+

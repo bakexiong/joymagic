@@ -1,0 +1,156 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "소스 이미지 업로드",
+      "hint": "최대 {max}개의 이미지 업로드 (JPG/PNG/WEBP)",
+      "dragDrop": "드래그 앤 드롭 또는 클릭하여 업로드",
+      "dropHere": "여기에 이미지를 놓으세요"
+    },
+    "aspectRatio": {
+      "title": "화면 비율 선택",
+      "placeholder": "화면 비율 선택",
+      "auto": "자동",
+      "hint": "Nano Banana 이미지 변환 결과의 출력 화면 비율을 선택하세요"
+    },
+    "prompt": {
+      "title": "편집 프롬프트 입력",
+      "placeholder": "이미지를 어떻게 편집할지 설명하세요. 예: '애니메이션 스타일로 변경', '유화 효과 적용', '영화 같은 느낌으로 만들기'",
+      "hint": "원하는 편집 내용을 구체적으로 설명하세요 — 스타일, 분위기, 조명, 세부 사항"
+    },
+    "generate": {
+      "title": "편집된 이미지 생성",
+      "cta": "생성",
+      "generating": "생성 중..."
+    },
+    "resolution": {
+      "title": "해상도 선택",
+      "placeholder": "해상도 선택",
+      "hint": "출력 해상도를 선택하세요: 1K, 2K 또는 4K"
+    }
+  },
+  "preview": {
+    "title": "미리보기",
+    "original": "원본",
+    "swap": "전환",
+    "placeholder": "이미지를 업로드하고 편집 프롬프트를 입력하면 여기에서 Nano Banana 이미지 변환 결과를 미리 볼 수 있습니다."
+  },
+  "common": {
+    "selectedCount": "선택됨: {count}/{max}개 이미지",
+    "notSelected": "선택되지 않음"
+  },
+  "errors": {
+    "invalidFileType": "잘못된 파일 형식입니다. 이미지 파일(JPG, PNG, WEBP)을 업로드해 주세요.",
+    "uploadFailed": "업로드 실패: {error}",
+    "uploadFailedGeneric": "업로드 실패",
+    "sourceImageRequired": "소스 이미지를 하나 이상 업로드해 주세요",
+    "promptRequired": "편집 프롬프트를 입력해 주세요",
+    "generationFailed": "이미지 편집 실패",
+    "taskFailed": "작업 처리 실패",
+    "taskTimeout": "작업 처리 시간 초과, 나중에 다시 시도해 주세요",
+    "taskIdNotFound": "작업 ID를 가져올 수 없습니다. API 응답 형식을 확인해 주세요",
+    "processingFailed": "처리 실패, 다시 시도해 주세요",
+    "statusQueryFailed": "작업 상태 조회 실패",
+    "apiResponseParseFailed": "API 응답 파싱 실패"
+  },
+  "page": {
+    "metadata": {
+      "title": "Nano Banana 이미지 변환 AI 편집기 — 온라인 무료 이미지 변환 | joymagic",
+      "description": "Nano Banana 이미지 변환 AI로 온라인에서 이미지를 편집하고 변환하세요. 최대 14개의 이미지를 업로드하고, 10가지 이상의 화면 비율 중 선택하여, nano-banana 기반의 스타일 전환, 향상 및 창의적인 이미지 변환을 몇 초 만에 적용하세요. Supports 1K, 2K, and 4K resolution.",
+      "keywords": "image-to-image nano-banana-2-edit, nano-banana-2-edit image-to-image, nano banana 2, nano-banana, nano banana 2 이미지 변환, 이미지 변환 AI, nano-banana 이미지 편집기, AI 이미지 변환, 일괄 이미지 변환 편집, nano banana 2 AI, 온라인 이미지 변환 편집기, nano-banana 화면 비율"
+    },
+    "hero": {
+      "title": "Nano Banana 이미지 변환 — AI 이미지 편집기 및 변환기",
+      "description": "<strong class=\"text-primary font-semibold\">Nano Banana 이미지 변환</strong> AI 편집기로 이미지를 변환하세요. 최대 <strong class=\"text-primary font-semibold\">14개의 이미지</strong>를 업로드하고, 10가지 이상의 화면 비율 중 선택하여, nano-banana 기반 이미지 변환 편집 — 스타일 전환, 색상 보정, 예술적 효과, 창의적 변환 — 을 몇 초 만에 적용하세요.",
+      "button1": "Nano Banana 이미지 변환 체험하기",
+      "button2": "요금제 보기"
+    },
+    "keyFeatures": {
+      "title": "이미지 변환에 Nano Banana를 선택해야 하는 이유",
+      "description": "nano-banana 기술로 구동되는 고급 AI 이미지 변환 편집",
+      "multiImage": {
+        "title": "Nano Banana 일괄 이미지 변환",
+        "description": "nano-banana로 일괄 이미지 변환 편집을 위해 한 번에 최대 14개의 이미지를 업로드하세요. 일관된 스타일과 품질로 여러 이미지를 동시에 처리합니다."
+      },
+      "aspectRatio": {
+        "title": "Nano Banana 화면 비율 제어",
+        "description": "Nano-banana-2 이미지 변환은 완벽한 출력 크기를 위해 1:1, 3:2, 2:3, 3:4, 4:3, 4:5, 5:4, 9:16, 16:9, 21:9 등 10가지 이상의 화면 비율을 지원합니다."
+      },
+      "smartEdit": {
+        "title": "지능형 이미지 변환 편집",
+        "description": "Nano Banana는 정확하고 자연스러운 이미지 변환을 위해 이미지의 맥락과 의미를 이해합니다. 무엇을 변경하고 무엇을 보존할지 아는 스마트 AI입니다."
+      },
+      "affordable": {
+        "title": "합리적인 Nano Banana 요금",
+        "description": "모든 프로젝트 규모에 적합한 전문가급 AI 편집으로 비용 효율적인 nano-banana 이미지 변환을 제공합니다."
+      },
+      "resolution": {
+        "title": "1K/2K/4K 해상도 지원",
+        "description": "Output in 1K, 2K, or 4K for social, web, and print-ready workflows."
+      }
+    },
+    "promptingTips": {
+      "title": "Nano Banana 이미지 변환 최적의 결과를 얻는 방법",
+      "specific": {
+        "title": "프롬프트를 구체적으로 작성하세요",
+        "description": "최적의 nano-banana 이미지 변환 결과를 위해 원하는 편집 내용을 정확히 설명하세요. 예: \"수채화 스타일로 변환\" 또는 \"따뜻한 톤의 영화적 색상 보정 추가\"."
+      },
+      "style": {
+        "title": "예술 스타일 지정",
+        "description": "Nano Banana 이미지 변환 사용 시 대상 스타일을 명확히 언급하세요: \"애니메이션 일러스트\", \"유화\", \"사실적 향상\", \"빈티지 필름 느낌\" 등."
+      },
+      "color": {
+        "title": "색상 및 분위기 방향",
+        "description": "색상과 분위기 단서로 nano-banana 이미지 변환을 안내하세요: \"선명한 채도 높은 색상\", \"부드러운 파스텔 톤\", \"어두운 무디 분위기\", \"골든 아워 따뜻함\" 등."
+      },
+      "details": {
+        "title": "상세한 지시 추가",
+        "description": "조명, 구도, 질감, 보존하거나 변환할 요소를 지정하여 Nano Banana 이미지 변환 품질을 극대화하세요."
+      }
+    },
+    "faq": {
+      "title": "Nano Banana 이미지 변환 FAQ",
+      "description": "Nano Banana 이미지 변환 AI 편집기에 대한 자주 묻는 질문",
+      "q1": {
+        "question": "Nano Banana 이미지 변환으로 한 번에 몇 개의 이미지를 편집할 수 있나요?",
+        "answer": "Nano Banana 이미지 변환 편집기를 사용하면 nano-banana-2-edit AI 기반 일괄 이미지 변환 편집을 위해 한 번에 최대 14개의 이미지를 업로드할 수 있습니다."
+      },
+      "q2": {
+        "question": "Nano Banana 이미지 변환은 어떤 화면 비율을 지원하나요?",
+        "answer": "Nano Banana 이미지 변환은 1:1, 3:2, 2:3, 3:4, 4:3, 4:5, 5:4, 9:16, 16:9, 21:9 등 10가지 이상의 화면 비율을 지원합니다. nano-banana가 자동으로 결정하도록 자동 모드를 사용할 수도 있습니다. Resolution options: 1K, 2K, 4K."
+      },
+      "q3": {
+        "question": "Nano Banana 이미지 변환은 어떤 이미지 형식을 지원하나요?",
+        "answer": "Nano Banana 이미지 변환은 PNG, JPEG, JPG, WebP 형식을 지원합니다. 최상의 nano-banana 결과를 위해 선명하고 조명이 좋은 소스 이미지를 사용하세요."
+      },
+      "q4": {
+        "question": "Nano Banana 이미지 변환에 효과적인 프롬프트를 작성하는 방법은?",
+        "answer": "최상의 nano-banana 이미지 변환 결과를 위해 대상 스타일, 분위기, 조명, 색상 팔레트, 구도 등 상세한 설명을 포함하세요. 더 자세한 설명이 일반적으로 더 나은 Nano Banana 변환 결과를 만듭니다."
+      },
+      "q5": {
+        "question": "Nano Banana 이미지 변환이 다른 AI 편집기와 다른 점은 무엇인가요?",
+        "answer": "Nano Banana는 유연한 화면 비율 제어와 함께 맥락 인식, 의미론적으로 지능적인 이미지 변환을 위한 고급 nano-banana-2-edit AI 기술을 사용합니다. 이미지 콘텐츠를 깊이 이해하여 자연스럽고 정밀한 이미지 변환 편집을 생성합니다."
+      }
+    },
+    "finalCTA": {
+      "title": "Nano Banana 이미지 변환을 체험할 준비가 되셨나요?",
+      "description": "오늘부터 nano-banana 이미지 변환 AI로 이미지를 변환하세요. 빠르고 고품질의 지능형 이미지 변환이 손끝에 있습니다.",
+      "button": "지금 Nano Banana 이미지 변환 체험하기"
+    },
+    "breadcrumb": {
+      "home": "홈",
+      "imageToImage": "이미지 변환",
+      "nanoBanana": "Nano Banana"
+    },
+    "schema": {
+      "softwareName": "Nano Banana 이미지 변환 AI 편집기 — joymagic",
+      "howToName": "Nano Banana 이미지 변환 AI 편집기 사용 방법",
+      "howToDescription": "nano-banana 이미지 변환 AI 기술을 사용하여 이미지를 편집하고 변환하는 방법을 알아보세요. 이미지를 업로드하고, 화면 비율을 선택하고, 지능형 AI 기반 이미지 변환 편집을 적용하세요.",
+      "features": {
+        "aiImageEditing": "Nano Banana 이미지 변환 AI 편집",
+        "multiImage": "Nano Banana 일괄 이미지 변환",
+        "aspectRatio": "Nano Banana 화면 비율 제어",
+        "resolution": "1K/2K/4K Resolution Options"
+      }
+    }
+  }
+}

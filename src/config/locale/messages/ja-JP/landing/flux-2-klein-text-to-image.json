@@ -1,0 +1,143 @@
+{
+  "title": "flux-2-klein text-to-image",
+  "subtitle": "テキストの説明から美しい画像を生成",
+  "prompt_label": "プロンプト",
+  "prompt_placeholder": "赤い光で照らされた古代の記念碑的なテオティワカンのピラミッド、空には巨大な土星が浮かび、彫刻的で非天文学的、液体金属のリングを持つ、未来的でありながら古風、惑星というより神聖なポータルを想起させる、わずかな光の霧、映画的な深度と大気の視点、タイポグラフィのための大きなクリーンなネガティブスペースを持つ最小限の構図",
+  "prompt_tooltip": "生成したい画像の説明を入力してください",
+  "size_label": "画像サイズ",
+  "size_hint": "出力画像のサイズを選択",
+  "width_label": "幅",
+  "height_label": "高さ",
+  "seed_label": "シード",
+  "seed_hint": "-1でランダムシード",
+  "seed_tooltip": "再現可能な結果のためにシード値を設定します。ランダムシードには-1を使用してください。",
+  "seed_randomize": "ランダムシードを生成",
+  "buttons": {
+    "generate": "画像を生成"
+  },
+  "errors": {
+    "promptRequired": "プロンプトは必須です"
+  },
+  "image_alt": "生成された画像",
+  "download": "ダウンロード",
+  "image_placeholder": "生成された画像がここに表示されます",
+  "prompt_inspirations_button": "プロンプトのインスピレーション",
+  "prompt_guide_button": "プロンプトガイド",
+  "powered_by": "joymagicによって最適化されたFlux 2 Klein AIモデルによって提供",
+  "page": {
+    "metadata": {
+      "title": "flux-2-klein text-to-image（4B）- AI画像生成器 | joymagic",
+      "description": "flux-2-klein text-to-imageで高品質な画像を生成。シード制御で一貫した結果を作成し、最大1536×1536までエクスポート。",
+      "keywords": "flux-2-klein text-to-image, flux-2-klein, flux-2-klein-4b, text to image, ai画像生成器, プロンプトから画像"
+    },
+    "hero": {
+      "title": "flux-2-klein text-to-image",
+      "description": "flux-2-klein text-to-imageで生成：プロンプトから高速で高品質な画像。シード制御で一貫した結果を作成し、最大1536×1536までエクスポート。",
+      "button1": "今すぐ試す",
+      "button2": "価格を見る"
+    },
+    "heroDescription": "高度なAI技術を使用して、簡単なテキストの説明から美しい画像を作成します。",
+    "keyFeatures": {
+      "title": "主な機能",
+      "description": "強力なAI画像生成機能",
+      "highQuality": {
+        "title": "高品質画像",
+        "description": "卓越した詳細と明瞭さを持つ高解像度画像を生成。プロフェッショナルな用途に最適です。"
+      },
+      "fastGeneration": {
+        "title": "高速生成",
+        "description": "効率的な処理で画像を迅速に生成。数秒で結果を取得します。"
+      },
+      "styleFlexibility": {
+        "title": "スタイルの柔軟性",
+        "description": "様々なスタイルの画像を作成 - 写真のような、芸術的、抽象的など。詳細なプロンプトで出力を制御します。"
+      },
+      "seedControl": {
+        "title": "シード制御",
+        "description": "シード値でランダム性を制御します。同じシードを使用して類似の結果を再現するか、-1を使用してランダム生成を行います。"
+      }
+    },
+    "promptingTips": {
+      "title": "プロンプトのコツ",
+      "lighting": {
+        "title": "照明を具体的に指定",
+        "description": "\"左からのゴールデンアワーの陽光、柔らかな影\"は\"良い照明\"よりも効果的です。"
+      },
+      "camera": {
+        "title": "カメラの詳細を含める",
+        "description": "\"85mmレンズで撮影、浅い被写界深度\"はプロの写真品質を追加します。"
+      },
+      "style": {
+        "title": "アートスタイルを指定",
+        "description": "\"スタジオジブリスタイルのデジタルイラスト\"や\"超リアルな3Dレンダリング\"は明確な方向性を与えます。"
+      },
+      "mood": {
+        "title": "ムードと雰囲気を記述",
+        "description": "\"居心地の良い、温かい、懐かしい感じ\"や\"ドラマチック、映画的、高コントラスト\"が全体の画像を形作ります。"
+      }
+    },
+    "useCases": {
+      "title": "使用例",
+      "marketing": {
+        "title": "マーケティングビジュアル",
+        "description": "写真撮影なしで製品コンセプト、広告画像、ソーシャルメディアコンテンツを生成。"
+      },
+      "character": {
+        "title": "キャラクターデザイン",
+        "description": "テキストの説明からゲーム、漫画、アニメーションプロジェクトのオリジナルキャラクターを作成。"
+      },
+      "concept": {
+        "title": "コンセプトアート",
+        "description": "創造的なプロジェクトやプレゼンテーションのために、シーン、環境、アイデアを迅速に視覚化。"
+      },
+      "stock": {
+        "title": "ストック写真の代替",
+        "description": "一般的なストックライブラリを検索する代わりに、必要な特定の画像を生成。"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "flux-2-klein text-to-imageに関するよくある質問",
+      "q1": {
+        "question": "Flux 2 Kleinとは何ですか？",
+        "answer": "Flux 2 Kleinは、テキストの説明から画像を作成する高度なAI画像生成モデルです。様々な解像度で高品質な画像を生成します。"
+      },
+      "q2": {
+        "question": "プロンプトはどの程度詳細にすべきですか？",
+        "answer": "より詳細なほど、一般的に良い結果が得られます。被写体、設定、照明、スタイル、ムード、構図の詳細を含めてください。見たいものを具体的に説明してください。"
+      },
+      "q3": {
+        "question": "シードパラメータとは何ですか？",
+        "answer": "シードパラメータはランダム性を制御します。ランダム生成には-1を使用するか、特定の数値を使用して類似の結果を再現します。同じシードと同じプロンプトで類似の画像が生成されます。"
+      },
+      "q4": {
+        "question": "どのような画像サイズがサポートされていますか？",
+        "answer": "256×256から最大1536×1536までの画像を生成できます。サイズは64の倍数である必要があります。デフォルトは1024×1024です。"
+      },
+      "q5": {
+        "question": "いくらのクレジットが必要ですか？",
+        "answer": "各画像生成には2クレジットかかります。これにより、高品質な画像を作成するための手頃なオプションとなります。"
+      }
+    },
+    "finalCTA": {
+      "title": "作成する準備はできましたか？",
+      "description": "今日からテキストの説明から素晴らしい画像を生成し始めましょう。",
+      "button": "今すぐ試す"
+    },
+    "breadcrumb": {
+      "home": "ホーム",
+      "textToImage": "テキストから画像",
+      "flux2Klein": "Flux 2 Klein"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Flux 2 Klein テキストから画像",
+      "howToName": "Flux 2 Kleinで画像を生成する方法",
+      "howToDescription": "Flux 2 Kleinを使用してテキストの説明から画像を生成",
+      "features": {
+        "aiTextToImage": "AIテキストから画像生成",
+        "highQuality": "高品質画像",
+        "fastProcessing": "高速処理"
+      }
+    }
+  }
+}

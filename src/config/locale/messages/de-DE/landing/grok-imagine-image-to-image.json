@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Quellbild hochladen",
+      "hint": "Laden Sie ein Bild hoch (JPG/PNG/WEBP).",
+      "dragDrop": "Ziehen & Ablegen oder Klick zum Hochladen",
+      "dropHere": "Bild hier ablegen"
+    },
+    "prompt": {
+      "title": "Transformations-Prompt eingeben",
+      "placeholder": "Beschreiben Sie, wie Sie das Bild transformieren möchten, z. B. „In Comic-Stil ändern“, „Wie ein Aquarell aussehen lassen“",
+      "hint": "Seien Sie spezifisch bezüglich der gewünschten Änderungen"
+    },
+    "generate": {
+      "title": "Transformiertes Bild generieren",
+      "cta": "Generieren",
+      "generating": "Generiere..."
+    }
+  },
+  "preview": {
+    "title": "Vorschau",
+    "original": "Original",
+    "swap": "Tauschen",
+    "placeholder": "Laden Sie ein Bild hoch und geben Sie einen Prompt ein, um die Transformation hier zu sehen."
+  },
+  "common": {
+    "selectedCount": "Ausgewählt: 1 Bild",
+    "notSelected": "Nicht ausgewählt"
+  },
+  "errors": {
+    "invalidFileType": "Ungültiger Dateityp. Bitte laden Sie eine Bilddatei hoch (JPG, PNG, WEBP).",
+    "uploadFailed": "Upload fehlgeschlagen: {error}",
+    "uploadFailedGeneric": "Upload fehlgeschlagen",
+    "sourceImageRequired": "Bitte laden Sie ein Quellbild hoch",
+    "promptRequired": "Bitte geben Sie einen Transformations-Prompt ein",
+    "generationFailed": "Bildgenerierung fehlgeschlagen",
+    "taskFailed": "Aufgabenverarbeitung fehlgeschlagen",
+    "taskTimeout": "Zeitüberschreitung. Bitte versuchen Sie es später erneut",
+    "taskIdNotFound": "Aufgaben-ID konnte nicht abgerufen werden. Bitte API-Antwortformat prüfen",
+    "processingFailed": "Verarbeitung fehlgeschlagen. Bitte erneut versuchen",
+    "statusQueryFailed": "Aufgabenstatus konnte nicht abgefragt werden",
+    "apiResponseParseFailed": "API-Antwort konnte nicht analysiert werden"
+  },
+  "page": {
+    "metadata": {
+      "title": "Grok Imagine Bild-zu-Bild KI-Tool - Bilder mit KI transformieren | joymagic",
+      "description": "Nutzen Sie Grok Imagine Bild-zu-Bild KI, um Ihre Bilder zu transformieren und zu bearbeiten. Laden Sie ein Bild hoch und transformieren Sie es mit KI-gestützter Bearbeitung. Schnelle, hochwertige Ergebnisse mit Grok Imagine.",
+      "keywords": "grok imagine bild-zu-bild, grok imagine, bildtransformation KI, KI bildeditor, bildbearbeitung, bild-zu-bild KI tool, KI bildkonverter"
+    },
+    "hero": {
+      "title": "Grok Imagine Bild-zu-Bild KI - Transformieren Sie Ihre Bilder mit KI",
+      "description": "Transformieren und bearbeiten Sie Bilder mit Grok Imagine Bild-zu-Bild KI. Laden Sie ein Bild hoch und transformieren Sie es mit fortschrittlicher KI-Bearbeitung. Schnelle, hochwertige Bildtransformationen.",
+      "button1": "Grok Imagine Bild-zu-Bild ausprobieren",
+      "button2": "Preise ansehen"
+    },
+    "keyFeatures": {
+      "title": "Warum Grok Imagine Bild-zu-Bild?",
+      "description": "Entdecken Sie die Funktionen von Grok Imagine Bild-zu-Bild KI",
+      "singleImage": {
+        "title": "Einzelbild-Upload",
+        "description": "Laden Sie ein Bild hoch und beschreiben Sie die gewünschte Transformation. Einfach und schnell."
+      },
+      "highQuality": {
+        "title": "Hochwertige Grok Imagine Ergebnisse",
+        "description": "Erhalten Sie mit Grok Imagine KI hervorragende Bildqualität. Hochauflösende transformierte Bilder mit ausgezeichneter Detailtreue."
+      },
+      "styleFlexibility": {
+        "title": "Vielseitige Stil-Transformation",
+        "description": "Transformieren Sie Bilder mit Grok Imagine in verschiedene Stile – fotorealistisch, künstlerisch, abstrakt und mehr. Volle Kontrolle durch detaillierte Prompts."
+      },
+      "affordable": {
+        "title": "Günstige Grok Imagine Preise",
+        "description": "Kosteneffektive Bildtransformationen. Nutzungsbasierte Bezahlung für jedes Projekt."
+      }
+    },
+    "promptingTips": {
+      "title": "So erzielen Sie die besten Ergebnisse mit Grok Imagine Bild-zu-Bild",
+      "specific": {
+        "title": "Seien Sie konkret",
+        "description": "Beschreiben Sie genau die gewünschte Transformation. Beispiele: „In Comic-Stil ändern“ oder „Wie ein Aquarell aussehen lassen“."
+      },
+      "style": {
+        "title": "Künstlerischen Stil angeben",
+        "description": "Nennen Sie den gewünschten Stil: „Comic-Stil“, „Ölgemälde“, „Digitale Kunst“ usw."
+      },
+      "color": {
+        "title": "Farbe und Stimmung",
+        "description": "Verbessern Sie die Transformation durch Beschreibung von Farbschema und Stimmung: „lebhafte Farben“, „gedämpfte Töne“, „düster“ usw."
+      },
+      "details": {
+        "title": "Detaillierte Angaben",
+        "description": "Beziehen Sie Beleuchtung, Komposition und zu erhaltende oder zu ändernde Elemente ein."
+      }
+    },
+    "useCases": {
+      "title": "Grok Imagine Bild-zu-Bild Anwendungsfälle",
+      "style": {
+        "title": "Stil-Transformation",
+        "description": "Verwandeln Sie Fotos in verschiedene künstlerische Stile – Comic, Aquarell, Ölgemälde und mehr. Ideal für kreative Projekte."
+      },
+      "product": {
+        "title": "Produktfotografie",
+        "description": "Transformieren Sie Produktfotos für Marketing und Social Media. Schnell mehrere Stilvarianten erstellen."
+      },
+      "creative": {
+        "title": "Kreative Designprojekte",
+        "description": "Experimentieren Sie mit verschiedenen Stilen und Transformationen für kreative Projekte."
+      },
+      "personal": {
+        "title": "Persönliche Nutzung",
+        "description": "Gestalten Sie Ihre Fotos mit KI neu – Stimmung, Stil oder Szenerie mit einem Prompt ändern."
+      }
+    },
+    "faq": {
+      "title": "Grok Imagine Bild-zu-Bild FAQ",
+      "description": "Häufige Fragen zum Grok Imagine Bild-zu-Bild KI-Tool",
+      "q1": {
+        "question": "Wie viele Bilder kann ich hochladen?",
+        "answer": "Sie laden jeweils ein Bild hoch. Beschreiben Sie die Transformation im Prompt und generieren Sie."
+      },
+      "q2": {
+        "question": "Was kostet es?",
+        "answer": "Jede Bildtransformation kostet eine feste Anzahl Credits. Preise finden Sie auf der Preisseite."
+      },
+      "q3": {
+        "question": "Welche Bildformate unterstützt Grok Imagine?",
+        "answer": "Grok Imagine unterstützt PNG, JPEG, JPG und WebP. Für beste Ergebnisse sollten Bilder klar und gut beleuchtet sein."
+      },
+      "q4": {
+        "question": "Wie formuliere ich Prompts für Grok Imagine?",
+        "answer": "Für beste Ergebnisse: Subjekt, Szenerie, Beleuchtung, Stil, Stimmung und Komposition detailliert beschreiben."
+      },
+      "q5": {
+        "question": "Kann ich dasselbe Bild mehrmals transformieren?",
+        "answer": "Ja. Sie können mit verschiedenen Prompts dasselbe Bild mehrfach transformieren."
+      }
+    },
+    "finalCTA": {
+      "title": "Bereit für Grok Imagine Bild-zu-Bild?",
+      "description": "Starten Sie noch heute mit Grok Imagine KI. Schnelle, hochwertige Bildtransformationen.",
+      "button": "Grok Imagine Bild-zu-Bild jetzt ausprobieren"
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "imageToImage": "Bild zu Bild",
+      "grokImagine": "Grok Imagine"
+    },
+    "schema": {
+      "softwareName": "Grok Imagine Bild-zu-Bild KI-Tool von joymagic",
+      "howToName": "Grok Imagine Bild-zu-Bild KI nutzen",
+      "howToDescription": "Lernen Sie, Bilder mit Grok Imagine Bild-zu-Bild KI zu transformieren. Bild hochladen und mit KI bearbeiten.",
+      "features": {
+        "aiImageEditing": "Grok Imagine Bild-zu-Bild KI-Bearbeitung",
+        "singleImage": "Einzelbild-Transformation mit Grok Imagine",
+        "highQuality": "Hochwertige Grok Imagine Ausgabe"
+      }
+    }
+  }
+}

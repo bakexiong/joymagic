@@ -1,0 +1,203 @@
+{
+  "videoFaceSwapPage": {
+    "whatIs": {
+      "title": "¿Qué es el intercambio de caras en video con IA?",
+      "description": "<strong>Intercambio de caras en video con IA</strong> es una herramienta impulsada por IA que te permite reemplazar caras en videos con cualquier cara que te guste.",
+      "uses": "Utiliza aprendizaje automático avanzado para:",
+      "detect": "Detectar caras en tu video",
+      "track": "Rastrear su movimiento fotograma por fotograma",
+      "swap": "Intercambiarlas sin problemas con una nueva cara",
+      "keep": "Mantener expresiones naturales, iluminación y ángulos",
+      "canDo": "Con nuestro intercambio de caras en video con IA en línea, puedes:",
+      "movieScenes": "Poner tu cara en escenas de películas",
+      "memeStars": "Convertir amigos en estrellas de memes",
+      "cosplay": "Crear clips de cosplay o reacciones",
+      "socialMedia": "Hacer contenido personalizado para redes sociales",
+      "cloud": "Todo funciona en la nube, por lo que no necesitas hardware potente ni software complejo. Solo sube e intercambia."
+    },
+    "howTo": {
+      "title": "Cómo intercambiar caras en un video con IA",
+      "description": "Crea videos de intercambio de caras realistas y de alta calidad con nuestro <strong>intercambio de caras en video con IA gratuito</strong> en unos pocos pasos simples:",
+      "step1": {
+        "title": "1. Sube el video donde quieres intercambiar la cara",
+        "description": "Sube el video original donde quieres reemplazar una cara (o múltiples caras).",
+        "supportFormats": "Soportamos todos los formatos de video comunes",
+        "clearFaces": "Asegúrate de que las caras en el video sean claras y visibles",
+        "quality": "Una mayor calidad de video generalmente da mejores resultados"
+      },
+      "step2": {
+        "title": "2. Sube el video con la cara que quieres intercambiar (opcional)",
+        "description": "Si quieres intercambiar caras entre <strong>dos videos</strong> (por ejemplo, tu propio video y un clip de película):",
+        "secondVideo": "Sube el segundo video que contiene la cara que quieres usar",
+        "detectBoth": "Nuestra IA detectará caras en ambos videos",
+        "chooseFace": "Puedes elegir qué cara mapear y reemplazar",
+        "singleImage": "Si solo quieres usar una <strong>imagen de cara única</strong>, puedes omitir esto y pasar al siguiente paso."
+      },
+      "step3": {
+        "title": "3. Sube una imagen de cara para intercambiar",
+        "description": "Sube una foto de la cara que quieres poner en el video.",
+        "bestResults": "Para obtener los mejores resultados:",
+        "clearPhoto": "Usa una foto clara de frente",
+        "wellLit": "Asegúrate de que la cara esté bien iluminada",
+        "avoidFilters": "Evita filtros pesados o cubiertas faciales (como gafas de sol o máscaras)",
+        "autoAlign": "La IA alineará automáticamente la cara para que coincida con el ángulo, la iluminación y la expresión en el video."
+      },
+      "step4": {
+        "title": "4. Recorta el clip de video (opcional)",
+        "description": "Puedes recortar el video cargado para enfocarte solo en la parte donde quieres intercambiar la cara.",
+        "trim": "Recorta el tiempo de inicio y final",
+        "focus": "Enfócate en la escena principal donde la cara es visible",
+        "improve": "Esto puede mejorar la velocidad y la calidad de salida",
+        "generate": "Una vez que estés satisfecho con el clip, presiona <strong>Generar</strong> y deja que la IA cree tu nuevo video."
+      }
+    },
+    "features": {
+      "title": "Características clave de nuestro intercambio de caras en video con IA en línea",
+      "speed": {
+        "title": "El intercambio de caras en video más rápido con velocidad relámpago",
+        "description": "Nuestro motor de IA recién optimizado ofrece <strong>intercambios de caras en segundos en lugar de minutos</strong>.",
+        "faster": "Hasta <strong>2 veces más rápido</strong> que muchas otras herramientas",
+        "complex": "Maneja incluso <strong>videos complejos con múltiples caras</strong>",
+        "sixFaces": "Soporta hasta <strong>6 caras</strong> en un solo video",
+        "quick": "Diseñado para vistas previas rápidas y exportaciones finales rápidas",
+        "watermarkFree": "Obtienes <strong>resultados profesionales sin marca de agua</strong> sin largos tiempos de espera."
+      },
+      "templates": {
+        "title": "Plantillas de video de tendencia para intercambio de caras",
+        "description": "¿No sabes por dónde empezar? Usa nuestras <strong>plantillas de video listas para usar</strong> diseñadas para intercambio de caras:",
+        "memeFormats": "Formatos de memes virales",
+        "movieScenes": "Escenas de películas famosas",
+        "reaction": "Clips de reacciones y dúos",
+        "cosplay": "Ediciones de cosplay y personajes",
+        "shortForm": "Contenido de formato corto para TikTok, Reels y YouTube Shorts",
+        "simple": "Simplemente elige una plantilla, sube tu cara y genera un video compartible en unos pocos clics."
+      },
+      "viral": {
+        "title": "Convierte cualquier clip en un éxito viral con intercambio de caras en video con IA",
+        "description": "Con nuestro potente <strong>intercambio de caras en video con IA</strong>, puedes convertir clips ordinarios en contenido divertido y llamativo:",
+        "movieMoment": "Recrea un momento icónico de película protagonizado por ti",
+        "memes": "Haz memes divertidos con las caras de tus amigos",
+        "team": "Pon a tu equipo, familia o clientes en videos temáticos",
+        "standOut": "Destaca en redes sociales con ediciones únicas y personalizadas",
+        "easy": "Nunca ha sido tan fácil crear videos que la gente <strong>vea, comparta y recuerde</strong>."
+      }
+    },
+    "legal": {
+      "title": "Uso responsable y requisitos legales",
+      "intro": "Nuestra herramienta de intercambio de caras en video con IA está diseñada para fines creativos y de entretenimiento. Para garantizar un uso legal y ético, lee y sigue estas pautas cuidadosamente.",
+      "whoCanSwap": {
+        "title": "¿A quién puedes intercambiar?",
+        "mayUse": "Solo puedes usar:",
+        "ownFace": "Tu propia cara",
+        "consent": "Caras de individuos que te han dado consentimiento explícito e informado",
+        "fictional": "Personajes ficticios o contenido de dominio público donde tienes los derechos",
+        "mayNotUse": "No puedes usar:",
+        "noPermission": "La cara de cualquier persona sin su permiso explícito",
+        "celebrity": "Caras de celebridades para fines comerciales o suplantación",
+        "minors": "Caras de menores (menores de 18 años) sin consentimiento de padres/tutores",
+        "deceive": "Cualquier contenido destinado a engañar, defraudar o tergiversar"
+      },
+      "prohibited": {
+        "title": "Usos estrictamente prohibidos",
+        "description": "El intercambio de caras en video con IA NO puede usarse para:",
+        "impersonation": "<strong>Suplantación y fraude</strong>: Crear deepfakes para engañar a otros, suplantar individuos o difundir información errónea",
+        "nonConsensual": "<strong>Contenido sin consentimiento</strong>: Intercambiar caras en escenarios sensibles, privados o inapropiados sin permiso",
+        "harassment": "<strong>Acoso y abuso</strong>: Crear contenido que dañe, acose o viole la dignidad de cualquier individuo",
+        "copyright": "<strong>Infracción de derechos de autor</strong>: Usar contenido de video con derechos de autor (películas, programas de TV, videos musicales) sin autorización adecuada",
+        "political": "<strong>Manipulación política</strong>: Crear contenido político engañoso o respaldos falsos",
+        "identityTheft": "<strong>Suplantación de identidad</strong>: Usar intercambios de caras para representarse fraudulentamente como otra persona"
+      },
+      "disclosure": {
+        "title": "Divulgación de contenido generado por IA",
+        "important": "Importante",
+        "description": "Los videos creados con nuestra herramienta de intercambio de caras son medios sintéticos generados por IA.",
+        "disclose": "Al compartir videos con caras intercambiadas públicamente, debes divulgar que el contenido ha sido modificado por IA",
+        "jurisdictions": "En muchas jurisdicciones, no divulgar contenido deepfake puede violar leyes sobre medios sintéticos",
+        "watermarks": "Nuestra herramienta puede agregar marcas de agua visibles o invisibles para indicar manipulación por IA, dependiendo de los requisitos legales de tu región"
+      },
+      "responsibilities": {
+        "title": "Tus responsabilidades legales",
+        "description": "Al usar esta herramienta, aceptas:",
+        "verify": "<strong>Verificar autorización</strong>: Asegurar que tienes los derechos y permisos adecuados para todas las caras y contenido de video que cargas",
+        "comply": "<strong>Cumplir con las leyes</strong>: Seguir todas las leyes aplicables sobre deepfakes, medios sintéticos, privacidad y protección de datos en tu jurisdicción",
+        "respect": "<strong>Respetar derechos</strong>: Honrar los derechos de propiedad intelectual, derechos de personalidad y derechos de privacidad de todos los individuos",
+        "ethical": "<strong>Usar éticamente</strong>: Usar la herramienta solo para fines legales, éticos y no dañinos"
+      },
+      "enforcement": {
+        "title": "Aplicación de la plataforma",
+        "description": "Monitoreamos activamente el uso indebido e implementamos:",
+        "moderation": "Sistemas automatizados de moderación de contenido",
+        "reporting": "Mecanismos de reporte de usuarios",
+        "suspension": "Suspensión o terminación de cuenta por violaciones",
+        "cooperation": "Cooperación con las fuerzas del orden cuando sea legalmente requerido",
+        "violation": "La violación de estas pautas puede resultar en la terminación inmediata de la cuenta y posibles acciones legales."
+      },
+      "compliance": {
+        "title": "Cumplimiento regional",
+        "description": "Esta herramienta cumple con:",
+        "china": "Regulaciones de \"Síntesis Profunda\" de China que requieren etiquetado de contenido y verificación de usuarios",
+        "eu": "Requisitos de la Ley de IA de la UE para transparencia en contenido generado por IA",
+        "us": "Leyes estatales de EE. UU. sobre deepfakes y medios sintéticos",
+        "consult": "Para preguntas sobre uso legal, consulta con asesoría legal en tu jurisdicción."
+      }
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre intercambio de caras en video",
+      "q1": {
+        "question": "1. ¿El intercambio de caras en video con IA es gratuito?",
+        "answer1": "Sí, puedes crear videos de intercambio de caras con nuestro <strong>intercambio de caras en video con IA gratuito</strong>.",
+        "answer2": "Algunas opciones avanzadas (como mayor resolución o clips más largos) pueden requerir una actualización, dependiendo del plan que elijas."
+      },
+      "q2": {
+        "question": "2. ¿Necesito experiencia en edición de video?",
+        "answer1": "No. La herramienta está construida para todos:",
+        "simple": "Flujo de trabajo simple paso a paso",
+        "aiHandles": "La IA maneja la detección, el seguimiento y la mezcla automáticamente",
+        "answer2": "Si puedes subir un video y una foto de cara, puedes crear un intercambio de caras."
+      },
+      "q3": {
+        "question": "3. ¿Qué formatos de video soportan?",
+        "answer1": "Soportamos la mayoría de formatos comunes, incluyendo:",
+        "mp4": "MP4",
+        "answer2": "Si tu archivo no se carga, intenta exportarlo como MP4 y vuelve a cargarlo."
+      },
+      "q4": {
+        "question": "4. ¿Mi video tendrá marca de agua?",
+        "answer1": "<strong>Sí, para cumplimiento legal y transparencia.</strong>",
+        "answer2": "Nuestra herramienta agrega marcadores visibles o invisibles para indicar contenido generado por IA, de acuerdo con las regulaciones sobre medios sintéticos en varias jurisdicciones.",
+        "visible": "<strong>Marcas de agua visibles</strong>: Pueden aparecer en versiones de vista previa o finales dependiendo de los requisitos legales de tu región",
+        "invisible": "<strong>Marcadores invisibles</strong>: Huellas digitales incrustadas en el video para autenticación de contenido",
+        "purpose": "<strong>Propósito</strong>: Asegurar el cumplimiento de las leyes de divulgación de deepfakes y prevenir el uso indebido",
+        "answer3": "Estos marcadores protegen tanto a ti como a otros al identificar claramente el contenido como modificado por IA."
+      },
+      "q5": {
+        "question": "5. ¿Mis datos y contenido están seguros?",
+        "answer1": "Nos tomamos en serio la privacidad y la seguridad:",
+        "secure": "Tus videos e imágenes se procesan de forma segura y se cifran durante la transmisión",
+        "only": "El contenido se usa <strong>solo</strong> para generar los resultados que solicitas",
+        "notTrain": "<strong>No</strong> usamos tus cargas para entrenar nuestros modelos ni compartirlas con terceros",
+        "delete": "Puedes eliminar tus archivos después de exportar",
+        "privacyRules": "Reglas importantes de privacidad:",
+        "neverUpload1": "<strong>Nunca cargues</strong> contenido que contenga la cara de otra persona sin su permiso explícito",
+        "neverUpload2": "<strong>Nunca cargues</strong> contenido sensible, privado o íntimo",
+        "neverUpload3": "<strong>Nunca cargues</strong> caras de menores sin el consentimiento adecuado de padres/tutores",
+        "unauthorized": "El uso no autorizado de la imagen de otra persona puede violar las leyes de privacidad y nuestros Términos de Servicio",
+        "responsible": "Eres el único responsable de asegurar que tienes derechos sobre todo el contenido cargado."
+      },
+      "q6": {
+        "question": "6. ¿Puedo intercambiar múltiples caras en un video?",
+        "answer1": "Sí. Nuestra IA puede manejar <strong>hasta 6 caras</strong> en un solo video:",
+        "swapOne": "Intercambiar una cara o varias a la vez",
+        "mapDifferent": "Mapear diferentes caras a diferentes personas en el clip",
+        "great": "Excelente para videos grupales, introducciones de equipo o memes familiares"
+      },
+      "q7": {
+        "question": "7. ¿El intercambio de caras en video con IA también cambia la voz?",
+        "answer1": "No. El intercambio de caras solo cambia la <strong>cara visual</strong> en el video.",
+        "audioStays": "El audio original (voz, música, efectos) permanece igual",
+        "editLater": "Puedes editar el audio más tarde con otras herramientas si es necesario"
+      },
+      "cta": "Comienza a usar <strong>intercambio de caras en video con IA en línea</strong> hoy y convierte tus ideas, chistes e historias en videos que detengan el scroll con solo unos clics."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+FROM node:22-alpine AS base
+
+FROM base AS deps
+RUN apk add --no-cache libc6-compat && npm install -g pnpm
+
+WORKDIR /app
+
+COPY package.json pnpm-lock.yaml source.config.ts next.config.mjs ./
+COPY src/shared/lib/remark/remark-literal-mdx-expressions.ts ./src/shared/lib/remark/
+RUN pnpm install --frozen-lockfile
+
+FROM deps AS builder
+
+WORKDIR /app
+
+COPY . .
+RUN pnpm build:agent
+
+FROM base AS runner
+RUN apk add --no-cache libc6-compat && npm install -g pnpm
+
+WORKDIR /app
+
+ENV NODE_ENV=production
+ENV MASTRA_TELEMETRY_DISABLED=1
+ENV CANVAS_AGENT_SERVICE_HOST=0.0.0.0
+ENV PORT=4112
+
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+COPY --from=builder /app/.mastra/output /tmp/mastra-output
+RUN mkdir -p /app/.mastra/output && \
+    cp -R /tmp/mastra-output/. /app/.mastra/output/ && \
+    rm -rf /tmp/mastra-output
+
+EXPOSE 4112
+
+CMD ["sh", "-c", "node scripts/prepare-mastra-studio.mjs && export CANVAS_AGENT_SERVICE_PORT=${PORT:-4112} && pnpm exec mastra start"]

@@ -1,0 +1,143 @@
+{
+  "title": "flux-2-klein text-to-image",
+  "subtitle": "Gere imagens impressionantes a partir de descrições de texto",
+  "prompt_label": "Prompt",
+  "prompt_placeholder": "antigas pirâmides monumentais de Teotihuacán iluminadas por luzes vermelhas, no céu um Saturno gigante suspenso, escultural e não astronômico, com anéis de metal líquido, futurista mas arcaico, evocando um portal sagrado em vez de um planeta, pouca névoa de luz, profundidade cinematográfica e perspectiva atmosférica, composição minimalista com grande espaço negativo limpo para tipografia",
+  "prompt_tooltip": "Digite uma descrição da imagem que deseja gerar",
+  "size_label": "Tamanho da Imagem",
+  "size_hint": "Escolha o tamanho da imagem de saída",
+  "width_label": "Largura",
+  "height_label": "Altura",
+  "seed_label": "Semente",
+  "seed_hint": "-1 para semente aleatória",
+  "seed_tooltip": "Defina um valor de semente para resultados reproduzíveis. Use -1 para semente aleatória.",
+  "seed_randomize": "Gerar semente aleatória",
+  "buttons": {
+    "generate": "Gerar Imagem"
+  },
+  "errors": {
+    "promptRequired": "O prompt é obrigatório"
+  },
+  "image_alt": "Imagem gerada",
+  "download": "Baixar",
+  "image_placeholder": "A imagem gerada aparecerá aqui",
+  "prompt_inspirations_button": "Inspirações de Prompt",
+  "prompt_guide_button": "Guia de Prompt",
+  "powered_by": "Alimentado pelo modelo AI Flux 2 Klein otimizado por joymagic",
+  "page": {
+    "metadata": {
+      "title": "flux-2-klein text-to-image (4B) - Gerador de Imagens AI | joymagic",
+      "description": "Gere imagens de alta qualidade com flux-2-klein text-to-image. Crie resultados consistentes com controle de semente e exporte até 1536×1536.",
+      "keywords": "flux-2-klein text-to-image, flux-2-klein, flux-2-klein-4b, text to image, gerador de imagens ai, prompt para imagem"
+    },
+    "hero": {
+      "title": "flux-2-klein text-to-image",
+      "description": "Gere com flux-2-klein text-to-image: imagens rápidas e de alta qualidade a partir de prompts. Use controle de semente para resultados consistentes e exporte até 1536×1536.",
+      "button1": "Experimentar Agora",
+      "button2": "Ver Preços"
+    },
+    "heroDescription": "Crie imagens impressionantes a partir de descrições de texto simples usando tecnologia AI avançada.",
+    "keyFeatures": {
+      "title": "Recursos Principais",
+      "description": "Capacidades poderosas de geração de imagens com IA",
+      "highQuality": {
+        "title": "Imagens de Alta Qualidade",
+        "description": "Gere imagens de alta resolução com detalhes excepcionais e clareza. Perfeito para casos de uso profissionais."
+      },
+      "fastGeneration": {
+        "title": "Geração Rápida",
+        "description": "Gere imagens rapidamente com processamento eficiente. Obtenha resultados em segundos."
+      },
+      "styleFlexibility": {
+        "title": "Flexibilidade de Estilo",
+        "description": "Crie imagens em vários estilos - fotorrealistas, artísticas, abstratas e mais. Controle a saída com prompts detalhados."
+      },
+      "seedControl": {
+        "title": "Controle de Semente",
+        "description": "Controle a aleatoriedade com valores de semente. Use a mesma semente para reproduzir resultados similares ou use -1 para geração aleatória."
+      }
+    },
+    "promptingTips": {
+      "title": "Dicas para Prompts",
+      "lighting": {
+        "title": "Seja Específico Sobre a Iluminação",
+        "description": "\"Luz solar da hora dourada da esquerda, sombras suaves\" funciona melhor que \"boa iluminação\"."
+      },
+      "camera": {
+        "title": "Inclua Detalhes da Câmera",
+        "description": "\"Capturado com lente de 85mm, pouca profundidade de campo\" adiciona qualidade fotográfica profissional."
+      },
+      "style": {
+        "title": "Especifique o Estilo Artístico",
+        "description": "\"Ilustração digital no estilo Studio Ghibli\" ou \"render 3D hiperrealista\" dá uma direção clara."
+      },
+      "mood": {
+        "title": "Descreva o Humor e a Atmosfera",
+        "description": "\"Sensação aconchegante, quente, nostálgica\" ou \"dramático, cinematográfico, alto contraste\" molda a imagem geral."
+      }
+    },
+    "useCases": {
+      "title": "Casos de Uso",
+      "marketing": {
+        "title": "Visuais de Marketing",
+        "description": "Gere conceitos de produtos, imagens publicitárias e conteúdo para redes sociais sem sessões fotográficas."
+      },
+      "character": {
+        "title": "Design de Personagens",
+        "description": "Crie personagens originais para jogos, quadrinhos ou projetos de animação a partir de descrições de texto."
+      },
+      "concept": {
+        "title": "Arte Conceitual",
+        "description": "Visualize cenas, ambientes e ideias rapidamente para projetos criativos e apresentações."
+      },
+      "stock": {
+        "title": "Alternativa a Fotos Stock",
+        "description": "Gere imagens específicas de que precisa em vez de procurar em bibliotecas de stock genéricas."
+      }
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "description": "Perguntas comuns sobre flux-2-klein text-to-image",
+      "q1": {
+        "question": "O que é Flux 2 Klein?",
+        "answer": "Flux 2 Klein é um modelo avançado de geração de imagens com IA que cria imagens a partir de descrições de texto. Produz imagens de alta qualidade em várias resoluções."
+      },
+      "q2": {
+        "question": "Quão detalhado deve ser meu prompt?",
+        "answer": "Mais detalhes geralmente significam melhores resultados. Inclua sujeito, cenário, iluminação, estilo, humor e detalhes de composição. Seja específico sobre o que deseja ver."
+      },
+      "q3": {
+        "question": "O que é o parâmetro de semente?",
+        "answer": "O parâmetro de semente controla a aleatoriedade. Use -1 para geração aleatória ou use um número específico para reproduzir resultados similares. A mesma semente com o mesmo prompt produzirá imagens similares."
+      },
+      "q4": {
+        "question": "Quais tamanhos de imagem são suportados?",
+        "answer": "Você pode gerar imagens de 256×256 até 1536×1536. O tamanho deve ser um múltiplo de 64. O padrão é 1024×1024."
+      },
+      "q5": {
+        "question": "Quantos créditos custa?",
+        "answer": "Cada geração de imagem custa 2 créditos. Isso o torna uma opção acessível para criar imagens de alta qualidade."
+      }
+    },
+    "finalCTA": {
+      "title": "Pronto para Criar?",
+      "description": "Comece a gerar imagens incríveis a partir de suas descrições de texto hoje.",
+      "button": "Experimentar Agora"
+    },
+    "breadcrumb": {
+      "home": "Início",
+      "textToImage": "Texto para Imagem",
+      "flux2Klein": "Flux 2 Klein"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Flux 2 Klein Texto para Imagem",
+      "howToName": "Como Gerar Imagens com Flux 2 Klein",
+      "howToDescription": "Gere imagens a partir de descrições de texto usando Flux 2 Klein",
+      "features": {
+        "aiTextToImage": "Geração de Imagens AI de Texto",
+        "highQuality": "Imagens de Alta Qualidade",
+        "fastProcessing": "Processamento Rápido"
+      }
+    }
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "sidebar": {
+    "subtitle": "Creator Workbench",
+    "pinned": "Pinned",
+    "addTools": "Add tools",
+    "allTools": "All tools",
+    "pin": {
+      "ariaPin": "Pin: {label}",
+      "ariaUnpin": "Unpin: {label}"
+    }
+  },
+  "tools": {
+    "untitled": "Untitled Tool"
+  },
+  "model": {
+    "untitled": "Untitled Model",
+    "fallbackMonogram": "M"
+  },
+  "panels": {
+    "tools": {
+      "titleImage": "Text to Image",
+      "titleVideo": "Text to Video",
+      "empty": "Workspace tools will appear here.",
+      "formEmpty": "Form content will appear here."
+    },
+    "generated": {
+      "titleImages": "This Time Creation",
+      "titleVideos": "Generated Videos"
+    }
+  },
+  "generated": {
+    "empty": "Oops! It looks like you haven't created anything yet."
+  },
+  "errors": {
+    "noWorkspace": "No workspace is available for the current selection."
+  },
+  "loading": "Loading...",
+  "sceneBrowser": {
+    "title": "{category} Scenes",
+    "subtitle": "Pick a workflow to start creating.",
+    "tabs": {
+      "creations": "Creations",
+      "collections": "Collections",
+      "templates": "Templates"
+    }
+  },
+  "addToolsDialog": {
+    "title": "Add Tools",
+    "categories": {
+      "image": "Image",
+      "video": "Video"
+    }
+  },
+  "toolsDetailPage": {
+    "aliases": {
+      "photoshoot": "PhotoShoot",
+      "editorCombiner": "Editor & Combiner",
+      "imageEffects": "Image Effects",
+      "variations": "Variations",
+      "videoEffects": "Video Effects"
+    },
+    "workspace": {
+      "library": "Library",
+      "uploads": "Uploads",
+      "imageEyebrow": "AI Image Workspace",
+      "videoEyebrow": "AI Video Workspace",
+      "descriptionWithLibrary": "Pick a polished starting point, preview how the result should feel, and move straight into generation with a warmer Mango-style workflow.",
+      "descriptionWithoutLibrary": "Review recent outputs, organize collections, and keep your upscale workflow focused inside a cleaner Mango workbench.",
+      "emptyLibrary": "No template samples are available for the current model yet."
+    },
+    "actions": {
+      "useTemplate": "Try Template",
+      "templateFallback": "Template",
+      "startGenerating": "Start generating",
+      "closeGeneratorPanel": "Close generator panel",
+      "switchInLibrary": "Switch in Library"
+    },
+    "imageEffectsLanding": {
+      "hero": {
+        "title": "Endless Photo Effects to Match Every Vision",
+        "intro": "Bring your photos to life with a curated collection of AI photo effects, from nostalgic looks to trend-led aesthetics. Upload an image, switch styles in seconds, and turn a simple photo into something striking without leaving the workspace.",
+        "highlights": {
+          "upload": "1. Upload Your Photo",
+          "style": "2. Choose an Effect Style",
+          "apply": "3. Apply Photo Effects"
+        }
+      },
+      "story": {
+        "title": "Unleash Your Creativity with Rich AI Photo Effects",
+        "intro": "Transform everyday photos into polished, eye-catching visuals with an effect library designed for quick exploration. Each preset helps shape color, texture, and mood automatically, so you can reach a professional-looking finish in a few clicks instead of rebuilding the look from scratch.",
+        "features": {
+          "styles": {
+            "title": "One Photo, Endless Styles",
+            "description": "Move from soft romantic portraits to bold Y2K collages, dreamy seasonal edits, or vintage-inspired looks with a single reference photo and a few preset switches."
+          },
+          "lifelike": {
+            "title": "AI Photo Effects with Lifelike Styling",
+            "description": "Keep the subject recognizable while the effect refines color, texture, and atmosphere, giving the result a more natural, believable finish."
+          },
+          "trend": {
+            "title": "Trend-Ready Effects Updated Regularly",
+            "description": "Explore a library shaped by social trends, viral aesthetics, and seasonal moods so new looks are always close at hand when you need fresh content."
+          },
+          "share": {
+            "title": "Seamless Sharing-Ready Output",
+            "description": "Create polished visuals that feel ready for social posts, campaign creatives, moodboards, and fast personal sharing without extra editing steps."
+          }
+        }
+      },
+      "steps": {
+        "title": "How to Add Effects to Photos",
+        "items": {
+          "upload": {
+            "title": "Upload Your Photo",
+            "description": "Start with a clear, high-quality image. Better subject detail and cleaner framing usually produce a more stable and appealing final effect."
+          },
+          "select": {
+            "title": "Select an Effect Style",
+            "description": "Browse the available presets and choose the effect that best matches the mood, aesthetic, or visual direction you want for the image."
+          },
+          "apply": {
+            "title": "Apply the Effect and Download",
+            "description": "Generate the result, compare nearby styles if needed, and keep the version that feels right before saving or reusing it in your next creative flow."
+          }
+        }
+      },
+      "faq": {
+        "title": "FAQs About AI Photo Effects",
+        "items": {
+          "types": {
+            "question": "What types of effects can I use here?",
+            "answer": "You can explore painterly looks, seasonal aesthetics, collage styles, retro treatments, portrait-oriented presets, and other visual directions from the image effects library."
+          },
+          "skills": {
+            "question": "Do I need photo editing skills to use image effects?",
+            "answer": "No. The workflow is preset-led: upload a photo, choose a style, and generate. You can keep iterating visually without building a complex manual edit."
+          },
+          "photos": {
+            "question": "What kinds of photos work best with these effects?",
+            "answer": "Use photos with a clear subject, readable details, and balanced lighting. Cleaner source images make it easier for the selected effect to hold shape and atmosphere."
+          },
+          "share": {
+            "question": "Can I use the generated images in social content?",
+            "answer": "Yes. The image effects workflow is well suited to social posts, creative moodboards, quick campaign mockups, and other share-ready visual content."
+          },
+          "privacy": {
+            "question": "Are my uploaded photos private?",
+            "answer": "Uploads stay within the creation workflow for generation and comparison. Use account and storage policies that fit your team’s privacy requirements before sharing results."
+          }
+        }
+      },
+      "cta": {
+        "title": "Transform Your Photos with Creative AI Effects",
+        "description": "Pick a style, test a few variations, and move straight into generation from the same workspace.",
+        "button": "Apply Photo Effects Now"
+      }
+    },
+    "videoEffectsLanding": {
+      "hero": {
+        "title": "Endless Video Effects to Match Every Motion",
+        "intro": "Bring still images to life with a curated set of AI video effects. Upload a photo, switch motion styles in seconds, and preview animated results inside the same Mango-style workspace."
+      }
+    },
+    "marketing": {
+      "eyebrow": "Effect Guide",
+      "featureTitle": "Why use {effectName}?",
+      "stepsTitle": "How to use {effectName}",
+      "faqTitle": "FAQs about {effectName}",
+      "image": {
+        "title": "Create {effectName} images with AI",
+        "intro": "Use {effectName} as your starting point. Upload {sourceText}, generate a result, and compare nearby presets until the look feels right.",
+        "sourceCountOne": "one reference image",
+        "sourceCountMany": "{count} reference images",
+        "features": {
+          "workflow": {
+            "title": "Effect-first workflow",
+            "description": "Start from the {effectName} preset instead of rebuilding everything from scratch."
+          },
+          "reference": {
+            "title": "Reference-aware results",
+            "description": "Keep key subject cues from your upload while applying the selected {effectName} look."
+          },
+          "iteration": {
+            "title": "Better for quick iteration",
+            "description": "Use nearby presets to explore variations faster without rewriting the whole prompt."
+          }
+        },
+        "steps": {
+          "pick": {
+            "title": "1. Pick the effect",
+            "description": "Choose {effectName} from the {libraryLabel} tab, or switch presets with {useTemplateLabel} before you generate."
+          },
+          "upload": {
+            "title": "2. Upload your image",
+            "description": "Upload {sourceText} and make sure the subject is clear enough for the selected effect."
+          },
+          "generate": {
+            "title": "3. Generate and compare",
+            "description": "Create the result, then return to {libraryLabel} to compare nearby presets until the tone and finish feel right."
+          }
+        },
+        "faq": {
+          "bestInput": {
+            "question": "What kind of image works best for {effectName}?",
+            "answer": "Use {sourceText} with a clear subject and readable details for the most stable result."
+          },
+          "switch": {
+            "question": "Can I switch away from {effectName}?",
+            "answer": "Yes. Open {libraryLabel} and click {useTemplateLabel} on another preset to update the workspace preview and current selection."
+          },
+          "preset": {
+            "question": "Why use a preset instead of a plain prompt?",
+            "answer": "Presets reduce setup time and keep the composition, style direction, and output feel more consistent."
+          }
+        }
+      },
+      "video": {
+        "title": "Create {effectName} videos with AI",
+        "intro": "Start from the {effectName} preset, review the preview direction, and generate a short clip with a clearer motion target.",
+        "features": {
+          "motion": {
+            "title": "Preset-led motion design",
+            "description": "{effectName} gives you a ready-made motion direction, so you can reach a usable result faster."
+          },
+          "preview": {
+            "title": "Clearer visual expectation",
+            "description": "The workspace preview shows the chosen effect mood up front before you spend credits."
+          },
+          "exploration": {
+            "title": "Fast effect exploration",
+            "description": "Move through {libraryLabel} with {useTemplateLabel} to compare multiple motion ideas quickly."
+          }
+        },
+        "steps": {
+          "pick": {
+            "title": "1. Choose the preset",
+            "description": "Keep {effectName} selected, or switch from {libraryLabel} to another effect before you upload."
+          },
+          "upload": {
+            "title": "2. Upload a clean image",
+            "description": "Use a clear source image with readable framing so the motion result stays more controlled."
+          },
+          "generate": {
+            "title": "3. Generate the clip",
+            "description": "Create the video, review the movement, and compare other presets if you want a different animation style."
+          }
+        },
+        "faq": {
+          "image": {
+            "question": "Does {effectName} work with any image?",
+            "answer": "Most results work best with a clear subject, balanced framing, and enough detail to animate."
+          },
+          "switch": {
+            "question": "How do I change from {effectName} to another effect?",
+            "answer": "Open {libraryLabel} and click {useTemplateLabel} on another preset. The preview and active effect will update together."
+          },
+          "preset": {
+            "question": "Why start from a video effect preset?",
+            "answer": "Presets speed up testing and make animation direction more predictable than starting from a blank setup."
+          }
+        }
+      }
+    },
+    "errors": {
+      "fetchTaskStatusFailed": "Failed to fetch task status",
+      "resultUrlNotFound": "Result URL not found",
+      "taskFailed": "Task failed",
+      "taskPollingTimeout": "Task polling timed out"
+    },
+    "genericHero": {
+      "imageToImageTitle": "AI Image Generator from Image",
+      "imageToImageIntro": "Upload any picture, add a creative prompt, and watch Mango AI instantly create a new AI image. Perfect for creating new designs, enhancing existing photos, or exploring innovative ideas. Try our powerful image-to-image AI generator today!",
+      "textToImageIntro": "Shape a clear visual direction, refine the prompt you want, and turn ideas into polished images with a cleaner Mango-style workflow.",
+      "videoIntro": "Start from a strong visual direction, preview the motion you want, and move straight into creation with a cleaner Mango-style {sceneTitle} workflow.",
+      "imageIntro": "Pick a polished starting point, guide the final look you want, and move straight into generation with a cleaner Mango-style {sceneTitle} workflow."
+    }
+  },
+  "faceGenerator": {
+    "tabs": {
+      "library": "Library"
+    },
+    "hero": {
+      "eyebrow": "Portrait Lab",
+      "title": "Face Generator",
+      "description": "Start from portrait presets, preview the look you want, and fine-tune the generator in a brighter Mango-style workbench."
+    },
+    "actions": {
+      "useTemplate": "Try Template",
+      "surpriseMe": "Surprise Me"
+    },
+    "form": {
+      "prompt": "Prompt",
+      "promptPlaceholder": "Add extra creative direction for this face.",
+      "aspectRatio": "Aspect Ratio",
+      "gender": "Gender",
+      "age": "Age",
+      "ethnos": "Ethnos",
+      "bodyType": "Body Type",
+      "eyeColor": "Eye Color",
+      "hairColor": "Hair Color",
+      "hairType": "Hair Type",
+      "hairStyle": "Hair Style",
+      "makeup": "Makeup",
+      "generatedPromptPreview": "Generated Prompt Preview",
+      "selectPlaceholder": "Select"
+    },
+    "status": {
+      "ready": "Ready to generate",
+      "templateApplied": "Applied template: {title}",
+      "surpriseApplied": "Surprise settings applied",
+      "generating": "Generating face",
+      "generated": "Face generated",
+      "failed": "Generation failed"
+    },
+    "errors": {
+      "generateFailed": "Failed to generate face"
+    },
+    "empty": {
+      "creations": {
+        "title": "Creations",
+        "description": "Generated faces will appear here after you run the face generator.",
+        "chips": {
+          "generator": "Face Generator"
+        }
+      },
+      "collections": {
+        "title": "Collections",
+        "description": "Create and manage collections for your generated faces.",
+        "chips": {
+          "generator": "Face Generator",
+          "portrait": "Portrait",
+          "library": "Library"
+        }
+      }
+    }
+  }
+}

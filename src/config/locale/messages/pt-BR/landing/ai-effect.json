@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "title": "Efeito com IA | joymagic",
+    "description": "Explore efeitos de vídeo e efeitos de imagem em um só lugar e entre com um clique no fluxo de criação correto."
+  },
+  "badge": "Efeito com IA",
+  "title": "Efeito com IA",
+  "description": "Alterne entre efeitos de vídeo e efeitos de imagem em uma galeria unificada e entre com um clique no fluxo de criação correspondente.",
+  "cta": {
+    "video": "Criar video semelhante"
+  },
+  "tabs": {
+    "video": "Efeitos de vídeo",
+    "image": "Efeitos de imagem"
+  }
+}

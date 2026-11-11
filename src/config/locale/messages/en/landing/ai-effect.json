@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "title": "AI Effect | joymagic",
+    "description": "Browse video effects and image effects in one place, then jump into the matching creation flow with one click."
+  },
+  "badge": "AI Effect",
+  "title": "AI Effect",
+  "description": "Switch between video effects and image effects in one unified gallery, then jump into the matching creation flow with one click.",
+  "cta": {
+    "video": "Create Similar Video"
+  },
+  "tabs": {
+    "video": "Video Effects",
+    "image": "Image Effects"
+  }
+}

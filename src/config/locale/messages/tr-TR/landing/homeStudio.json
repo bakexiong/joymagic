@@ -1,0 +1,245 @@
+{
+  "header": {
+    "title": "Yaratici kategorileri kesfedin",
+    "subtitle": "Uretmek, duzenlemek ve hayal etmek icin ihtiyaciniz olan tum araclar."
+  },
+  "common": {
+    "prompt": "Prompt",
+    "before": "Once",
+    "after": "Sonra",
+    "image": "Gorsel",
+    "video": "Video",
+    "freeTrial": "Ucretsiz deneme"
+  },
+  "cards": {
+    "imageToVideo": {
+      "title": "Gorselden videoya",
+      "description": "Gorsellerinizi videoya donusturun",
+      "inputAlt": "Gorselden videoya giris",
+      "outputTitle": "Gorselden videoya cikis"
+    },
+    "textToVideo": {
+      "title": "Metinden videoya",
+      "description": "Metin promptlariyla video olusturun"
+    },
+    "longcatAvatar": {
+      "title": "Lip-Sync",
+      "description": "Gorsel ve sesten konusan avatar videolari olusturun",
+      "inputAlt": "Longcat Avatar gorsel girdisi",
+      "outputAlt": "Longcat Avatar video cikisi"
+    },
+    "editorCombiner": {
+      "title": "Duzenleyici ve birlestirici",
+      "description": "Duzenleyin, birlestirin ve olusturun",
+      "referencePortraitAlt": "Duzenleyici referans portre",
+      "referenceProductAlt": "Duzenleyici referans urun",
+      "outputAlt": "Duzenleyici birlesik cikis"
+    },
+    "imageToImage": {
+      "title": "Gorselden gorsele",
+      "description": "Gorselleri yapay zeka ile donusturun"
+    },
+    "textToImage": {
+      "title": "Metinden gorsele",
+      "description": "Metin promptlariyla gorsel olusturun"
+    },
+    "photoShoot": {
+      "title": "Foto cekimi",
+      "description": "Her stilde yapay zeka foto cekimleri",
+      "coverAlt": "Foto cekimi kapagi",
+      "coverBadge": "Kapak",
+      "scenesBadge": "Sahneler"
+    },
+    "variations": {
+      "title": "Varyasyonlar",
+      "description": "Herhangi bir gorselden varyasyonlar olusturun",
+      "inputAlt": "Varyasyon girisi",
+      "inputBadge": "Girdi",
+      "outputBadge": "Cikti"
+    },
+    "faceGenerator": {
+      "title": "Yuz olusturucu",
+      "description": "Gercekci yuzler olusturun"
+    },
+    "imageUpscaler": {
+      "title": "Gorsel buyutucu",
+      "description": "Gorsel cozunurlugunu artirin",
+      "beforeAlt": "Buyutmeden once",
+      "afterAlt": "Buyutmeden sonra",
+      "lowRes": "Dusuk cozum",
+      "enhanced": "Iyilestirilmis"
+    },
+    "videoUpscaler": {
+      "title": "Video buyutucu",
+      "description": "Video kalitesini artirin",
+      "hd": "HD",
+      "ultraHd": "Ultra HD"
+    },
+    "imageEffects": {
+      "title": "Gorsel efektleri",
+      "description": "Gorsellere etkileyici efektler uygulayin",
+      "chips": {
+        "original": "Orijinal",
+        "filmLook": "Film gorunumu",
+        "goldenHour": "Altin saat",
+        "blackWhite": "S/B"
+      }
+    },
+    "videoEffects": {
+      "title": "Video efektleri",
+      "description": "Videolara sinematik efektler ekleyin",
+      "chips": {
+        "cinematic": "Sinematik",
+        "slowMotion": "Agir cekim",
+        "lightLeak": "Isik sizmasi",
+        "vintage": "Vintage"
+      }
+    }
+  },
+  "mangoHomepage": {
+    "eyebrow": "Tek bir oluşturma sisteminde yapay zeka görüntüsü, video ve efektler",
+    "heroDescription": "Zaten projeye bağlı olan gerçek araçlara göz atın. Aşağıdaki her kart, mevcut ürün kitaplıklarından veya ana sayfa vitrinlerinden alınan medyayla doğrudan çalışan bir araç girişine işaret ediyor.",
+    "tabs": {
+      "video-tools": {
+        "label": "Video Araçları",
+        "description": "İsteme dayalı oluşturma, görüntü animasyonu ve yeniden kullanılabilir efekt şablonlarına kadar projenin ana video iş akışlarını önizleyin."
+      },
+      "image-tools": {
+        "label": "Görüntü Araçları",
+        "description": "Kullanıcıların en sık ihtiyaç duyduğu temel görüntü iş akışlarıyla başlayın: oluşturun, yeniden biçimlendirin, ölçeklendirin, arka planları kaldırın ve dikkat dağıtıcı unsurları silin."
+      },
+      "image-effects": {
+        "label": "Görüntü Efektleri",
+        "description": "Portreleri ve fotoğrafları tek adımda temalı sanat eserlerine dönüştürebilen kullanıma hazır görsel stilleri keşfedin."
+      }
+    },
+    "sections": {
+      "imageEffects": {
+        "eyebrow": "Görüntü Efektleri",
+        "title": "Mevcut kitaplıktan daha fazla görüntü efekti örneği"
+      },
+      "videoEffects": {
+        "eyebrow": "Video Efektleri",
+        "title": "Mevcut kitaplıktan daha fazla video efekti örneği"
+      },
+      "popularPaths": {
+        "eyebrow": "Popüler Yollar",
+        "title": "Kullanıcıların bugün girebileceği daha fazla araç yüzeyine göz atın"
+      }
+    },
+    "cta": {
+      "title": "Ana sayfadan başlayın, ardından gerçek çalışma tezgahlarında devam edin",
+      "description": "Mevcut ürün yapısından ayrılmadan keşiften görüntü oluşturmaya, video oluşturmaya veya efekt iş akışlarına geçin.",
+      "openImageWorkspace": "Resim çalışma alanını aç",
+      "openVideoWorkspace": "Video çalışma alanını aç"
+    },
+    "cards": {
+      "openTool": "Aracı aç",
+      "aiVideoGenerator": {
+        "title": "Yapay Zeka Video Oluşturucu",
+        "description": "Kısa sahneler, reklam konseptleri, ruh hali makaraları ve karakter hareketi fikirleri için bir metin isteminden videolar oluşturun."
+      },
+      "imageToVideo": {
+        "title": "Resimden Videoya",
+        "description": "Portreler, ürün tanıtımları ve atmosfer odaklı klipler için tek bir görüntüyü hareketli bir çekime dönüştürün."
+      },
+      "videoEffects": {
+        "title": "Video Efektleri",
+        "description": "Hazır hareket şablonlarını ve stilize edilmiş sinematik eylemleri uygulamak için video efektleri kitaplığını açın."
+      },
+      "fashionStride": {
+        "title": "Moda Adımı",
+        "description": "Hareketsiz portreleri kendinden emin, moda odaklı kliplere dönüştürmeye yardımcı olan podyum tarzı bir hareket efekti."
+      },
+      "dreamyWedding": {
+        "title": "Rüya Gibi Düğün",
+        "description": "Düğün görselleri, çift anları ve hafızaya dayalı düzenlemeler için oluşturulmuş romantik bir hareket stili."
+      },
+      "walkForward": {
+        "title": "İleri Yürü",
+        "description": "Girişler, açıklıklar ve dinamik kapak çekimleri için iyi sonuç veren doğal bir ileri yürüme hareketi ekleyin."
+      },
+      "aiImageGenerator": {
+        "title": "Yapay Zeka Görüntü Oluşturucu",
+        "description": "Posterler, karakter konseptleri, ürün görselleri ve sosyal kapaklar için metinlerden görseller oluşturun."
+      },
+      "imageToImage": {
+        "title": "Resimden Resme",
+        "description": "Kıyafet değişiklikleri, sahne güncellemeleri ve gösterişli görsel iyileştirmeler için yüklenen bir görseli yeniden şekillendirin veya yeniden çizin."
+      },
+      "imageUpscaler": {
+        "title": "Görüntü Yükseltici",
+        "description": "Portreler, ürün fotoğrafları ve düşük kaliteli kaynak görseller için çözünürlüğü artırın ve daha fazla ayrıntıyı kurtarın."
+      },
+      "backgroundRemover": {
+        "title": "Arka Plan Sökücü",
+        "description": "Ürün kesitleri, profil varlıkları ve şeffaf PNG dışa aktarımları için arka planı tek tıklamayla kaldırın."
+      },
+      "imageEraser": {
+        "title": "Görüntü Silgisi",
+        "description": "İstenmeyen kişileri, nesneleri veya kusurları silin ve yapay zekanın temizlenen alanı doğal bir şekilde doldurmasına izin verin."
+      },
+      "imageEffects": {
+        "title": "Görüntü Efektleri",
+        "description": "Fotoğrafları hızla farklı görsel stillere ve temalara dönüştürmek için görüntü efektleri koleksiyonuna göz atın."
+      },
+      "aiGhibliEffect": {
+        "title": "AI Ghibli Etkisi",
+        "description": "Portreleri, Ghibli'den ilham alan sıcak bir atmosfere sahip yumuşak hikaye kitabı benzeri anime sanat eserlerine dönüştürün."
+      },
+      "springBarbiecore": {
+        "title": "Bahar Barbiecore'u",
+        "description": "Cesur ve ileriye dönük bir görünüm için portrelerinizi parlak pembe stil ve eğlenceli moda enerjisiyle yeniden çerçeveleyin."
+      },
+      "softSpringHaze": {
+        "title": "Yumuşak Bahar Pusu",
+        "description": "Yaşam tarzı portreleri, yumuşak başyazılar ve kapak görselleri için iyi sonuç veren hafif bir bahar pusu ekleyin."
+      },
+      "provenceSummerGirl": {
+        "title": "Provence Yaz Kızı",
+        "description": "Havadar, seyahatten ilham alan ve hafif editoryal bir Fransız yaz portresi havası yaratın."
+      },
+      "roseBokeh": {
+        "title": "Gül Bokehi",
+        "description": "Şenlikli görseller, tebrik görüntüleri ve ruh hali açısından zengin düzenlemeler için portrelere romantik çiçek bokehini katmanlar halinde ekleyin."
+      },
+      "ccdStyleSnow": {
+        "title": "CCD Tarzı Kar",
+        "description": "Sezonluk fotoğraflar ve retro görsel hikaye anlatımı için nostaljik bir CCD kar sahnesi kamerası görünümünü simüle edin."
+      },
+      "y2kTrendCollage": {
+        "title": "Y2K Trend Kolajı",
+        "description": "Sosyal kartlar, trend kampanyaları ve eğlenceli kapaklar için portreleri Y2K kolaj poster estetiğiyle kaplayın."
+      },
+      "y2kCyberCollage": {
+        "title": "Y2K Siber Kolajı",
+        "description": "Geleceğe yönelik daha fazla trend enerjisine ihtiyaç duyan portreler için siber stil ile kolaj çerçevelemeyi birleştirin."
+      },
+      "miniMe": {
+        "title": "Mini Ben",
+        "description": "Avatarlar, ürün tarzı grafikler ve eğlenceli içerikler için bir kişiyi minyatür oyuncak benzeri bir versiyona dönüştürün."
+      },
+      "ghibliMotion": {
+        "title": "Ghibli Hareketi",
+        "description": "Hikaye odaklı klipler ve sinematik ruh hali sekansları için Ghibli benzeri bir animasyonlu hareket uygulaması uygulayın."
+      },
+      "starCarpet": {
+        "title": "Yıldız Halı",
+        "description": "Öne çıkan anlar, sahne girişleri ve ünlü tarzı sunumlar için kırmızı halıya varış hissi yaratın."
+      },
+      "blueprintSupreme": {
+        "title": "Yüce Taslak",
+        "description": "Tasarım odaklı vitrinler, soyut gösterimler ve stilize edilmiş hareketli parçalar için daha kavramsal bir video efekti kullanın."
+      },
+      "createImage": {
+        "title": "Resim Oluştur"
+      },
+      "createVideo": {
+        "title": "Video Oluştur"
+      },
+      "showcases": {
+        "title": "Vitrinler"
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "title": "Affiliate Program | joymagic",
+    "description": "Join the joymagic affiliate program and earn commissions from first orders and renewals."
+  },
+  "hero": {
+    "eyebrow": "Affiliate Program",
+    "title": "Turn your audience into recurring revenue",
+    "description": "Join the joymagic affiliate program. When a user registers within your 7-day attribution window and completes a paid order, the referral is bound to that account, and later renewals continue to belong to you.",
+    "primary": "Apply now",
+    "secondary": "See commission rules",
+    "trust": [
+      "7-day first-click lock",
+      "First-order and renewal commissions",
+      "Cross-device purchase attribution after account binding"
+    ]
+  },
+  "stats": {
+    "first_order": {
+      "label": "First-order commission",
+      "suffix": ""
+    },
+    "renewal": {
+      "label": "Renewal commission",
+      "suffix": ""
+    },
+    "cookie": {
+      "label": "Cookie window",
+      "suffix": "days"
+    },
+    "payout": {
+      "label": "Minimum payout",
+      "suffix": ""
+    }
+  },
+  "sections": {
+    "why": {
+      "title": "Why this program works",
+      "description": "Built for creators, educators, design communities, AI directories, and KOLs who want to turn existing traffic into durable revenue."
+    },
+    "how": {
+      "title": "How commissions work",
+      "description": "The path is simple and transparent. Share your referral link and let the system handle the tracking."
+    },
+    "faq": {
+      "title": "FAQ"
+    },
+    "apply": {
+      "title": "Apply to become an affiliate",
+      "description": "Share your promotion details and we will review your application manually. Once approved, your referral link is generated automatically.",
+      "signed_in": "You are signed in and can submit the application now.",
+      "signed_out": "You need to sign in first. After signing in, you will return to this page to continue.",
+      "signin": "Sign in to apply",
+      "open_modal": "Apply now",
+      "already_member": "You are already an affiliate. Open your affiliate centre to see your link and commission data.",
+      "pending": "Your application is currently under review.",
+      "go_dashboard": "Open affiliate centre",
+      "modal_title": "joymagic Affiliate Program",
+      "modal_subtitle": "Apply to become an affiliate",
+      "email_placeholder": "*Email",
+      "full_name_placeholder": "*Full Name",
+      "payout_method": "PayPal",
+      "paypal_placeholder": "*Your PayPal Account ID",
+      "channel_placeholder": "*Your way to promote affiliate link, such as making YouTube videos, posting content on social media, etc.",
+      "required_hint": "*Indicates required field",
+      "cancel": "Cancel",
+      "desired_tier": "Requested tier",
+      "standard": "Standard affiliate",
+      "kol": "KOL / large channel",
+      "paypal_email": "PayPal payout email",
+      "social_platform": "Social platform",
+      "social_account": "Social account / profile link",
+      "channel_summary": "Channel summary",
+      "application_note": "Additional note",
+      "agreement": "I have read and agree to the affiliate terms and commission rules",
+      "submit": "Submit application",
+      "agreement_hint": "By applying, you agree that invalid traffic is prohibited, commissions are paid on valid first orders and renewals, and payouts are processed through PayPal."
+    }
+  },
+  "cards": {
+    "audience": {
+      "title": "Best for",
+      "items": [
+        "AI tool reviewers and tutorial creators",
+        "Design communities and resource-site operators",
+        "YouTube, TikTok, Xiaohongshu, and X creators",
+        "Directories, template sites, and traffic partners"
+      ]
+    },
+    "benefits": {
+      "title": "What you get",
+      "items": [
+        "A dedicated referral link and affiliate code",
+        "Commissions from first orders and renewals",
+        "A dashboard for applications, commissions, and payouts",
+        "Optional KOL upgrades with custom commission rates"
+      ]
+    }
+  },
+  "how": {
+    "steps": [
+      {
+        "title": "1. Apply",
+        "description": "Submit your channel details, social profile, and PayPal payout information."
+      },
+      {
+        "title": "2. Get approved",
+        "description": "After approval, a unique affiliate code is generated and sent to you by email."
+      },
+      {
+        "title": "3. Share your link",
+        "description": "Once visitors click your link, first-click attribution is locked to you for 7 days."
+      },
+      {
+        "title": "4. Earn commissions",
+        "description": "If the user registers within the window, later purchases on that account continue to belong to you."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "What if the user clicks my link and then someone else’s within 7 days?",
+        "answer": "The referral is still yours. We use a 7-day first-click lock, so later clicks inside the active window do not overwrite the original affiliate."
+      },
+      {
+        "question": "Do I still get commission if the user buys on another device after registering?",
+        "answer": "Yes. Once the user registers within your valid attribution window, the referral is bound to the account, so later purchases on other devices still belong to you."
+      },
+      {
+        "question": "Do you support both first-order and renewal commissions?",
+        "answer": "Yes. First orders and renewals use separate rates, and KOL partners can also receive custom rates."
+      },
+      {
+        "question": "When can I request a payout?",
+        "answer": "After a successful payment, commissions enter a confirmation period and become withdrawable after the default 3-day delay. Once you reach the minimum payout threshold, you can request a PayPal payout."
+      }
+    ]
+  }
+}

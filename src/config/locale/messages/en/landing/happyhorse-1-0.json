@@ -1,0 +1,122 @@
+{
+  "textToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 Text to Video - Cinematic AI Video Generator | joymagic",
+      "description": "Create 3-15s 720p cinematic clips with HappyHorse 1.0. Turn prompts into polished 16:9 AI videos with optional seed control for repeatable results.",
+      "keywords": "happyhorse 1.0, text to video, ai video generator, alibaba happyhorse, cinematic ai video, 720p text to video, 16:9 ai video"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 Text to Video",
+      "description": "HappyHorse 1.0 helps you turn a simple prompt into a polished 3-15s cinematic clip. It keeps the workflow focused with native 16:9 framing, 720p output, and optional seed control for repeatable drafts. <br/><br/>Need to animate a still frame instead? <a href=\"/image-to-video/happyhorse-1-0\" class=\"text-primary underline\">Try HappyHorse 1.0 Image to Video</a>.",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "cinematicPreset": {
+        "title": "Cinematic By Default",
+        "description": "Generate short-form clips tuned for polished visual storytelling, pitch decks, and social previews."
+      },
+      "fastStoryboard": {
+        "title": "Flexible 3-15s Drafts",
+        "description": "A 3-15s duration range makes it easy to compare ideas quickly and iterate on prompt direction."
+      },
+      "reproducibleSeed": {
+        "title": "Repeatable Seed Control",
+        "description": "Set a seed when you want more consistency across prompt revisions or campaign variants."
+      },
+      "nativeWideframe": {
+        "title": "Native 16:9 Output",
+        "description": "Generate ready-to-share widescreen clips without extra reframing work."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "What is HappyHorse 1.0 Text to Video?",
+        "answer": "It is an AI video workflow that turns a text prompt into a 3-15s 720p video clip using Alibaba HappyHorse 1.0."
+      },
+      "q2": {
+        "question": "What aspect ratio does it support?",
+        "answer": "The current text-to-video workflow is optimized for 16:9 output."
+      },
+      "q3": {
+        "question": "Can I choose the duration?",
+        "answer": "This release supports selectable 3-15s generation for quick iteration and longer previewing."
+      },
+      "q4": {
+        "question": "What is the seed used for?",
+        "answer": "A seed helps you reproduce or stabilize results when you want similar generations across multiple runs."
+      },
+      "q5": {
+        "question": "Who is this model good for?",
+        "answer": "It works well for creators, marketers, and product teams who need short cinematic concept clips from text."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Generate with HappyHorse 1.0?",
+      "description": "Start turning prompts into short cinematic clips in seconds.",
+      "button": "Generate Video"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 Image to Video - Animate Still Images with AI | joymagic",
+      "description": "Animate a still image into a 3-15s 720p clip with HappyHorse 1.0. Upload one image, keep the workflow simple, and generate polished motion fast.",
+      "keywords": "happyhorse 1.0, image to video, animate image, ai image animation, alibaba happyhorse, 720p image to video, 3-15s ai video"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 Image to Video",
+      "description": "HappyHorse 1.0 turns a single image into a short 3-15s animated clip with 720p output. Upload one reference image, optionally add a motion prompt, and generate a clean widescreen result quickly. <br/><br/>Want to start from text instead? <a href=\"/text-to-video/happyhorse-1-0\" class=\"text-primary underline\">Try HappyHorse 1.0 Text to Video</a>.",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "singleImageMotion": {
+        "title": "Single-Image Animation",
+        "description": "Upload one still image and turn it into motion without building a complex scene setup."
+      },
+      "fastFiveSecond": {
+        "title": "Flexible 3-15s Output",
+        "description": "Keep testing lightweight with a selectable 3-15s duration that is easy to preview and compare."
+      },
+      "cleanOutput": {
+        "title": "Clean 720p and 1080p Delivery",
+        "description": "Generate shareable HD clips suitable for concept demos, social posts, and campaign mockups."
+      },
+      "simpleWorkflow": {
+        "title": "Simple Controls",
+        "description": "Focus on the essentials: image, duration, and resolution, with an optional prompt for motion guidance."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "What does HappyHorse 1.0 Image to Video do?",
+        "answer": "It animates one uploaded image into a short AI-generated video clip."
+      },
+      "q2": {
+        "question": "Do I need to write a prompt?",
+        "answer": "No. A prompt is optional for this workflow, but adding one can help steer motion or mood."
+      },
+      "q3": {
+        "question": "What output quality is available?",
+        "answer": "The current setup generates 720p and 1080p videos."
+      },
+      "q4": {
+        "question": "How long is each generated clip?",
+        "answer": "This workflow currently supports 3-15s clips."
+      },
+      "q5": {
+        "question": "When should I use Image to Video instead of Text to Video?",
+        "answer": "Use image-to-video when you already have a reference frame, character, product shot, or composition you want to preserve."
+      }
+    },
+    "finalCTA": {
+      "title": "Animate Your Image with HappyHorse 1.0",
+      "description": "Upload a still frame and turn it into motion with a fast, simple workflow.",
+      "button": "Animate Image"
+    }
+  }
+}

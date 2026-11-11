@@ -1,0 +1,1570 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "joymagic",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "joymagic"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "機能",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "Price",
+          "url": "/pricing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "アフィリエイト",
+          "url": "/affiliate",
+          "icon": "Handshake"
+        },
+        {
+          "title": "AIエフェクト",
+          "icon": "Sparkles",
+          "children": [
+            {
+              "title": "画像エフェクト",
+              "url": "/image-effect",
+              "icon": "Image"
+            },
+            {
+              "title": "動画エフェクト",
+              "url": "/video-effect",
+              "icon": "Clapperboard"
+            }
+          ]
+        },
+        {
+          "title": "画像AI",
+          "icon": "Image",
+          "children": [
+            {
+              "title": "テキストから画像",
+              "icon": "Image",
+              "children": [
+                {
+                  "title": "GPT Image 2",
+                  "url": "/text-to-image/gpt-image-2",
+                  "icon": "Image",
+                  "description": "GPT Image 2 で中国語ポスター、写実画像、UI スクリーンショット、商品ビジュアルを生成",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "一般",
+                  "url": "/text-to-image/z-image-turbo",
+                  "icon": "Image",
+                  "description": "一般AIモデルでテキストから画像を生成",
+                  "badge": "無料",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana",
+                  "url": "/text-to-image/nano-banana",
+                  "icon": "Image",
+                  "description": "Nano Banana AIモデルでテキストから画像を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana Pro",
+                  "url": "/text-to-image/nano-banana-pro",
+                  "icon": "Image",
+                  "description": "Nano Banana Pro AIモデルでテキストから高品質画像を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana 2",
+                  "url": "/text-to-image/nano-banana-2",
+                  "icon": "Image",
+                  "description": "カメラ制御、鮮明なテキストレンダリング、最大4K出力対応の次世代テキスト画像生成モデル",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream V4.5",
+                  "url": "/text-to-image/seedream-4-5",
+                  "icon": "Image",
+                  "description": "Seedream V4.5 AIモデルでテキストから美しい画像を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream 5.0 Lite",
+                  "url": "/text-to-image/seedream-5-0-lite",
+                  "icon": "Image",
+                  "description": "Seedream 5.0 Lite AIモデルでテキストから美しい画像を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Flux 2 Klein",
+                  "url": "/text-to-image/flux-2-klein",
+                  "icon": "Image",
+                  "description": "Flux 2 Klein AIモデルでテキストから美しい画像を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "GPT Image 1",
+                  "url": "/text-to-image/gpt-image-1",
+                  "icon": "Image",
+                  "description": "GPT Image 1 AIモデルでテキストから画像を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Qwen Image 202512",
+                  "url": "/text-to-image/qwen-image-202512",
+                  "icon": "Image",
+                  "description": "Qwen Image 202512 AIモデルでテキストから美しい画像を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/text-to-image/wan-2-7",
+                  "icon": "Image",
+                  "description": "Wan 2.7 でテキストから高品質な画像を生成。Thinking Mode と最大 4096 解像度に対応",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Midjourney",
+                  "url": "/text-to-image/midjourney",
+                  "icon": "Image",
+                  "description": "Midjourney スタイル AI モデルで芸術的な画像を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "画像から画像",
+              "icon": "Images",
+              "badge": "無料",
+              "children": [
+                {
+                  "title": "GPT Image 2",
+                  "url": "/image-to-image/gpt-image-2",
+                  "icon": "Images",
+                  "description": "GPT Image 2 で最大 4 枚の画像を編集し、中国語ポスター、写実レタッチ、文書レイアウト、UI スクリーンショット変換に対応",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "一般",
+                  "url": "/image-to-image",
+                  "icon": "Images",
+                  "description": "既存の画像から新しい画像を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Flux 2 Klein",
+                  "url": "/image-to-image/flux-2-klein",
+                  "icon": "Images",
+                  "description": "Flux 2 Kleinで画像を変換および編集。最大4枚の画像をアップロード、画像あたり2クレジット。",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Soul",
+                  "url": "/image-to-image/soul",
+                  "icon": "Images",
+                  "description": "Soulで画像を変換。品質、サイズ、強度、スタイルのコントロール。",
+                  "badge": "Hot",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Z Image Turbo",
+                  "url": "/image-to-image/z-image-turbo",
+                  "icon": "Images",
+                  "description": "Z Image Turboで画像を変換。サイズ、強度、出力形式のコントロール。",
+                  "badge": "無料",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Grok Imagine",
+                  "url": "/image-to-image/grok-imagine-image",
+                  "icon": "Images",
+                  "description": "Grok Imagineで画像を変換。1枚アップロードして変換内容を説明。",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream 5.0 Lite",
+                  "url": "/image-to-image/seedream-5-0-lite",
+                  "icon": "Images",
+                  "description": "Seedream 5.0 Lite で画像を変換。画像をアップロードして変換内容を記述してください。",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Qwen Image Max",
+                  "url": "/image-to-image/qwen-image-max",
+                  "icon": "Images",
+                  "description": "Qwen Image Max AIで画像を編集・変換。qwen-image-max-edit技術によるインテリジェントな画像編集。",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/image-to-image/wan-2-7",
+                  "icon": "Images",
+                  "description": "Wan 2.7 で画像を編集・変換。画像をアップロードし、最大 4096 のサイズを制御して seed で結果を調整",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7 Image Edit Pro",
+                  "url": "/image-to-image/wan-2-7-image-edit-pro",
+                  "icon": "Images",
+                  "description": "最大 9 枚入力、4096 までのカスタム size、seed 制御に対応した上位版 Wan 2.7 画像編集",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana",
+                  "url": "/image-to-image/nano-banana",
+                  "icon": "Images",
+                  "description": "Nano Banana 画像変換AIエディター。最大10枚の画像をアップロードし、アスペクト比を選択してインテリジェントな画像変換。",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana 2",
+                  "url": "/image-to-image/nano-banana-2",
+                  "icon": "Images",
+                  "description": "Nano Banana 2 image-to-image AI editor. Upload up to 14 images with aspect ratio and 1K/2K/4K resolution controls. Powered by nano-banana-2-edit.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana Pro Edit Ultra",
+                  "url": "/image-to-image/nano-banana-pro-edit-ultra",
+                  "icon": "Images",
+                  "description": "Nano Banana Pro Edit Ultra image-to-image AI editor. Upload up to 14 images with aspect ratio and 4K/8K resolution controls. Powered by nano-banana-pro-edit-ultra.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Qwen 画像レイヤー",
+              "url": "/qwen-image-layered",
+              "icon": "Layers",
+              "description": "画像を編集可能な RGBA レイヤーに分解",
+              "icon_url": "https://ocdn.10b.ai/icon/qwen_image_layered.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "画像消去",
+              "url": "/image-eraser",
+              "icon": "Eraser",
+              "description": "画像から不要なオブジェクト、透かし、背景を削除",
+              "icon_url": "https://ocdn.10b.ai/icon/%20image_eraser.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "背景削除",
+              "url": "/image-background-remover",
+              "icon": "Scissors",
+              "description": "AIで画像の背景を即座に削除",
+              "badge": "Free",
+              "icon_url": "https://ocdn.10b.ai/icon/background_remove.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "画像拡大",
+              "url": "/image-upscaler",
+              "icon": "Maximize2",
+              "description": "AI精度で画像を4K、8K、または16Kに拡大",
+              "icon_url": "https://ocdn.10b.ai/icon/image_upscaler.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            }
+          ]
+        },
+        {
+          "title": "動画AI",
+          "icon": "Video",
+          "children": [
+            {
+              "title": "テキストから動画",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "HappyHorse 1.0",
+                  "url": "/text-to-video/happyhorse-1-0",
+                  "icon": "Video",
+                  "description": "HappyHorse 1.0 によるテキストから動画生成 - 16:9、5秒、720p のシネマティック AI 動画",
+                  "badge": "新着",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/text-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Wan 2.7 でテキストから動画を生成。1080p、アスペクト比、最大 15 秒、プロンプト拡張、seed 制御に対応",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.6",
+                  "url": "/text-to-video/wan-2-6",
+                  "icon": "Video",
+                  "description": "Wan 2.6でテキストから動画を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Veo 3.1",
+                  "url": "/text-to-video/veo-3-1",
+                  "icon": "Video",
+                  "description": "Veo 3.1でテキストから動画を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 1.5 Pro",
+                  "url": "/text-to-video/seedance-1-5-pro",
+                  "icon": "Video",
+                  "description": "Seedance 1.5 Proでテキストから動画を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 2.0",
+                  "url": "/text-to-video/seedance-2-0",
+                  "icon": "Video",
+                  "description": "Text to video generation with Seedance 2.0",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "PixVerse v5.6",
+                  "url": "/text-to-video/pixverse-5-6",
+                  "icon": "Video",
+                  "description": "PixVerse v5.6でテキストから動画を生成",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "LTX-2",
+                  "url": "/text-to-video/ltx2-fast",
+                  "icon": "Video",
+                  "description": "LTX-2でテキストから動画を生成 - 同期オーディオ対応の4K AI動画ジェネレーター",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "画像から動画",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "HappyHorse 1.0",
+                  "url": "/image-to-video/happyhorse-1-0",
+                  "icon": "Video",
+                  "description": "HappyHorse 1.0 による画像から動画生成 - 1枚の画像を 5秒 720p のシネマティック動画に変換",
+                  "badge": "新着",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/image-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Wan 2.7 で画像から動画を生成。開始フレーム、任意の終了フレーム、任意の音声、解像度、長さ、プロンプト拡張、seed 制御に対応。",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Vidu Q3",
+                  "url": "/image-to-video/vidu-q3",
+                  "icon": "Video",
+                  "description": "Vidu Q3で画像から動画を生成 - 動きの振幅をコントロールし、オーディオとBGMの有無を選択可能",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Midjourney",
+                  "url": "/image-to-video/midjourney",
+                  "icon": "Video",
+                  "description": "Midjourneyで画像から動画を生成 - モーション、品質、スタイルパラメータを制御",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Veo 3.1",
+                  "url": "/image-to-video/veo-3-1",
+                  "icon": "Video",
+                  "description": "Veo 3.1で画像から動画を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 1.5 Pro",
+                  "url": "/image-to-video/seedance-1-5-pro",
+                  "icon": "Video",
+                  "description": "Seedance 1.5 Proで画像から動画を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 2.0",
+                  "url": "/image-to-video/seedance-2-0",
+                  "icon": "Video",
+                  "description": "Seedance 2.0で画像から動画を生成",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500",
+                  "badge": "New"
+                },
+                {
+                  "title": "PixVerse v5.6",
+                  "url": "/image-to-video/pixverse-5-6",
+                  "icon": "Video",
+                  "description": "PixVerse v5.6で画像から動画を生成",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "LTX-2",
+                  "url": "/image-to-video/ltx2-fast",
+                  "icon": "Video",
+                  "description": "LTX-2で画像から動画を生成 - 同期音声付き4K AI動画ジェネレーター",
+                  "badge": "Hot",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Reference To Video",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "Wan 2.7",
+                  "url": "/reference-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Wan 2.7 using multi-image and multi-video identity guidance.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 4K",
+                  "url": "/reference-to-video/kling-video-o3-4k",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 4K for high-fidelity subject-consistent shots.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O1 Std",
+                  "url": "/reference-to-video/kling-video-o1-std",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O1 Std using image and optional video references.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 Pro",
+                  "url": "/reference-to-video/kling-video-o3-pro",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 Pro, with optional audio generation and motion guidance.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 Std",
+                  "url": "/reference-to-video/kling-video-o3-std",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 Std for subject-consistent cinematic clips.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Grok Imagine Video",
+                  "url": "/reference-to-video/grok-imagine-video",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Grok Imagine Video from multiple reference images.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Video Extend",
+              "url": "/video-extend/wan-2-7",
+              "icon": "Video",
+              "description": "Extend existing videos with Wan 2.7, with optional audio, prompt expansion, and 720p/1080p output.",
+              "badge": "新規",
+              "icon_url": "https://ocdn.10b.ai/icon/video_extend.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "モーションコントロール",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "Kling 2.6 Pro",
+                  "url": "/motion-control/kling-2-6-pro",
+                  "icon": "Video",
+                  "description": "Kling 2.6 Proを使用したモーションコントロール動画生成 - 画像と動画の入力で動画の動きを制御",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Longcat Avatar",
+              "url": "/longcat-avatar",
+              "icon": "Video",
+              "description": "音声と画像の同期でAIアバタービデオを作成 - 最大2分間の話すアバタービデオを生成",
+              "icon_url": "https://ocdn.10b.ai/icon/longcat_avatar.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            }
+          ]
+        },
+        {
+          "title": "ブログ",
+          "url": "/blog",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": []
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "disclaimer": "joymagic is an independent AI image-generation service and is not affiliated with, endorsed by, or connected to Alibaba Group or any of its AI models. All references to \"joymagic\" relate solely to our own product and technology."
+  },
+  "hero": {
+    "id": "hero",
+    "title": "joymagic",
+    "highlight_text": "効率的な画像生成",
+    "description": "シングルストリーム拡散 Transformer<br/>60億パラメータの効率的な画像生成モデル",
+    "announcement": null,
+    "buttons": [
+      {
+        "title": "Join Discord for Secred Prompt!",
+        "url": "https://discord.gg/bVCk5PHb8d",
+        "icon_url": "https://pub.wanai.pro/%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90/discord-logo-discord-icon-transparent-free-png.png",
+        "target": "_blank"
+      }
+    ],
+    "show_avatars": true,
+    "show_award": true,
+    "image": {
+      "src": "/imgs/features/hero-zimage.webp",
+      "alt": "joymagic"
+    },
+    "image_invert": {
+      "src": "/imgs/features/hero-zimage-dark.webp",
+      "alt": "joymagic"
+    }
+  },
+  "logos": {
+    "title": "主要AIプラットフォームで利用可能",
+    "items": [
+      {
+        "title": "GitHub",
+        "image": {
+          "src": "/imgs/logos/github.svg",
+          "alt": "GitHub"
+        }
+      },
+      {
+        "title": "ModelScope",
+        "image": {
+          "src": "/imgs/logos/modelscope.svg",
+          "alt": "ModelScope"
+        }
+      },
+      {
+        "title": "HuggingFace",
+        "image": {
+          "src": "/imgs/logos/huggingface.svg",
+          "alt": "HuggingFace"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "id": "introduce",
+    "title": "joymagicとは？",
+    "label": "はじめに",
+    "description": "joymagicは画像生成用の効率的な60億パラメータのFoundationモデルです。体系的な最適化により、巨大なモデルサイズに依存せずに最高レベルのパフォーマンスが達成可能であることを証明し、写真リアルな生成とバイリンガルテキストレンダリングにおいて強力な結果を提供します。",
+    "image": {
+      "src": "/imgs/features/zimage-intro.webp",
+      "alt": "introduce"
+    },
+    "items": [
+      {
+        "title": "写真レベルリアリズム",
+        "description": "ディテール、照明、テクスチャの精密な制御による写真レベルのリアリズム。構図と全体の雰囲気で優れた美学的品質を達成。",
+        "icon": "Camera",
+        "image": {
+          "src": "/imgs/features/photorealistic.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "超高速推論",
+        "description": "企業向けH800 GPUでサブ秒の推論遅延を達成。生成にはわずか8ステップのみ必要です。",
+        "icon": "Zap",
+        "image": {
+          "src": "/imgs/features/fast-inference.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "バイリンガルテキストレンダリング",
+        "description": "面部リアリズムと全体の美構成を保持しながら、中英語テキストの正確なレンダリング。",
+        "icon": "Languages",
+        "image": {
+          "src": "/imgs/features/bilingual-text.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "効率的なVRAM使用",
+        "description": "16GB未満のVRAMでコンシューマグレードのグラフィックカードでスムーズに動作し、高度な画像生成をアクセス可能にします。",
+        "icon": "MemoryStick",
+        "image": {
+          "src": "/imgs/features/vram.webp",
+          "alt": "introduce"
+        }
+      }
+    ]
+  },
+  "benefits": {
+    "id": "benefits",
+    "title": "コア機能",
+    "label": "機能",
+    "description": "joymagicモデルの強力な機能を一望。",
+    "items": [
+      {
+        "title": "写真リアル",
+        "description": "写真レベルリアリズム",
+        "icon": "Camera",
+        "image": {
+          "src": "/imgs/features/benefit-1.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "1秒",
+        "description": "超高速推論速度",
+        "icon": "Timer",
+        "image": {
+          "src": "/imgs/features/benefit-2.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "6B+パラメータ",
+        "description": "シングルストリーム拡散",
+        "icon": "Layers",
+        "image": {
+          "src": "/imgs/features/benefit-3.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "バイリンガルテキスト",
+        "description": "正確なテキストレンダリング",
+        "icon": "Languages",
+        "image": {
+          "src": "/imgs/features/benefit-4.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "16GB VRAM",
+        "description": "効率的なメモリ使用",
+        "icon": "MemoryStick",
+        "image": {
+          "src": "/imgs/features/benefit-5.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "世界知識",
+        "description": "深い意味理解",
+        "icon": "Brain",
+        "image": {
+          "src": "/imgs/features/benefit-6.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "画像編集",
+        "description": "クリエイティブ single-image エディット",
+        "icon": "Edit",
+        "image": {
+          "src": "/imgs/features/benefit-7.webp",
+          "alt": "benefits"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "id": "usage",
+    "title": "モデルバリアント",
+    "description": "joymagicは異なるユースケースに特化したモデルを提供します：",
+    "image": {
+      "src": "/imgs/features/models.webp",
+      "alt": "usage"
+    },
+    "image_position": "left",
+    "text_align": "left",
+    "items": [
+      {
+        "title": "🚀 Z Image Turbo",
+        "description": "写真リアルな画像生成、中英語テキストの正確なレンダリング、バイリンガル命令への強力な遵守において強い能力を持つjoymagicの蒸留版。わずか8ステップで主流競合他社と同等またはそれ以上のパフォーマンスを達成。",
+        "image": {
+          "src": "/imgs/features/turbo-model.webp",
+          "alt": "usage"
+        }
+      },
+      {
+        "title": "✍️ joymagic Edit",
+        "description": "画像編集に特化したjoymagicの継続学習バリアント。複雑な命令の遵守に優れ、精密な局所的修正からグローバルなスタイル変換まで幅広いタスクを、高度な編集一貫性を維持しながら実行します。",
+        "image": {
+          "src": "/imgs/features/edit-model.webp",
+          "alt": "usage"
+        }
+      }
+    ]
+  },
+  "features": {
+    "id": "features",
+    "title": "能力ショーケース",
+    "description": "joymagicの様々な分野における高度な能力を探索してください。",
+    "items": [
+      {
+        "title": "写真リアル生成",
+        "description": "優れた美学的品質を維持しながら、強力な写真リアル画像生成を提供。",
+        "icon": "Camera"
+      },
+      {
+        "title": "バイリンガルテキストレンダリング",
+        "description": "様々なシナリオで複雑な中英語テキストを正確にレンダリング。",
+        "icon": "Languages"
+      },
+      {
+        "title": "世界知識",
+        "description": "広範囲の世界知識と多様な文化概念への深い理解を擁有。",
+        "icon": "Globe"
+      },
+      {
+        "title": "意味理解",
+        "description": "論理的推論鎖を使用して論理と常識を注入。",
+        "icon": "Brain"
+      },
+      {
+        "title": "クリエイティブ編集",
+        "description": "複雑な命令を精密に実行し、画像変換を実現。",
+        "icon": "Edit"
+      },
+      {
+        "title": "命令遵守",
+        "description": "画像要素と変換に対する微細な制御能力を示範。",
+        "icon": "CheckCircle"
+      }
+    ]
+  },
+  "models": {
+    "id": "models",
+    "title": "モデルアーキテクチャ",
+    "description": "わずか60億パラメータで、桁違いに大きいモデルと同等の写真リアル画像を生成。16GB未満のVRAMでコンシューマグレードのグラフィックカードでスムーズに動作可能。",
+    "items": [
+      {
+        "title": "シングルストリーム拡散",
+        "description": "joymagicモデルはシングルストリーム拡散 Transformer アーキテクチャを採用。この設計は、テキストや画像埋め込み等多种条件入力とノイズ付き画像潜在変数を単一シーケンスに統一し、Transformer バックボーンに入力。",
+        "image": {
+          "src": "/imgs/features/architecture.webp",
+          "alt": "architecture"
+        }
+      }
+    ]
+  },
+  "architecture": {
+    "id": "architecture",
+    "title": "技術的深掘り",
+    "description": "joymagic背后的革新的アーキテクチャとトレーニング技術を学ぶ。",
+    "items": [
+      {
+        "title": "Decoupled-DMD",
+        "description": "8ステップjoymagicモデルを力づける中核的な少ステップ蒸留アルゴリズム。CFG強化と分布マッチングを認識・分離することで、改善された蒸留プロセスを開発。",
+        "icon": "Layers"
+      },
+      {
+        "title": "DMDR",
+        "description": "DMDと強化学習を融合させ、意味的整合、美学的品質、構造的結束において更なる改善を達成。",
+        "icon": "GitBranch"
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "よくある質問",
+    "description": "joymagicとその能力に関するよくある質問。",
+    "items": [
+      {
+        "question": "joymagicとは？",
+        "answer": "joymagicは画像生成用の効率的な60億パラメータのFoundationモデル。巨大なモデルサイズに依存せずに最高レベルのパフォーマンスが達成可能であることを証明し、写真リアル生成とバイリンガルテキストレンダリングにおいて強力な結果を提供。"
+      },
+      {
+        "question": "joymagicの主な機能は？",
+        "answer": "joymagicは写真リアル画像生成、バイリンガルテキストレンダリング（英中）、超高速推論（8ステップ）、効率的なVRAM使用（16GB）、豊富な世界知識理解、クリエイティブ画像編集能力に優れる。"
+      },
+      {
+        "question": "どのようなモデルが利用可能ですか？",
+        "answer": "joymagic では、高品質な出力と安定した指示追従に対応した、最適化済みの画像生成および画像編集ワークフローを提供しています。"
+      },
+      {
+        "question": "必要なハードウェアは？",
+        "answer": "joymagicは16GB未満のVRAMでコンシューマグレードのグラフィックカードでスムーズに動作。企業向けH800 GPUでサブ秒推論遅延を達成。"
+      },
+      {
+        "question": "joymagicはオープンソースですか？",
+        "answer": "はい！モデルコード、重みづけ、オンラインデモはGitHub、ModelScope、HuggingFaceで公開されており、コミュニティの探索と使用を促進。"
+      },
+      {
+        "question": "joymagicの独特な点は？",
+        "answer": "joymagicは条件入力と画像潜在変数を統一するシングルストリーム拡散 Transformer アーキテクチャを採用。最適性能のために革新的なDecoupled-DMD蒸留とDMDR強化学習技術を使用。"
+      }
+    ]
+  },
+  "share_dialog": {
+    "title": "🎁 シェアして無料生成を解放",
+    "description": "🚀 応援お願いします！SNSで joymagic をシェアして、無料の画像生成を解放しましょう。あなたのサポートが力になります！",
+    "share_button": "✅ シェアしました。生成を続ける",
+    "share_tip": "上のシェアボタンをクリックして新しいウィンドウで共有を完了したら、下のボタンを押して続行してください",
+    "platforms": {
+      "twitter": "X でシェア",
+      "reddit": "Reddit でシェア",
+      "facebook": "Facebook でシェア",
+      "instagram": "リンクをコピーして共有"
+    },
+    "share_message": "Z Image Turbo を体験しよう — たった 8 ステップでフォトリアル画像を生成！",
+    "share_url": "https://10b.ai"
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "joymagic",
+      "description": "シングルストリーム拡散Transformerによる効率的な画像生成Foundationモデル。通義MAI、アリババグループにより構築。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "joymagic"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "プロジェクト",
+          "children": [
+            {
+              "title": "機能",
+              "url": "/#features",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "リソース",
+          "children": [
+            {
+              "title": "ドキュメント",
+              "url": "/docs",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "support@joymagic.fun",
+          "url": "mailto:support@joymagic.fun"
+        },
+        {
+          "title": "プライバシーポリシー",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "利用規約",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "コンテンツモデレーションポリシー",
+          "url": "/content-moderation-policy"
+        },
+        {
+          "title": "利用規定",
+          "url": "/acceptable-use-policy"
+        },
+        {
+          "title": "返金ポリシー",
+          "url": "/refund-policy"
+        },
+        {
+          "title": "AIラッパー免責事項",
+          "url": "/ai-wrapper-disclaimer"
+        },
+        {
+          "title": "オープンソース表記",
+          "url": "/open-source-attribution"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "disclaimer": "joymagic is an independent AI image-generation service and is not affiliated with, endorsed by, or connected to Alibaba Group or any of its AI models. All references to \"joymagic\" relate solely to our own product and technology."
+  },
+  "heroImageWall": {
+    "label": "キュレーションギャラリー",
+    "title": "数秒で生まれるインスピレーションウォール",
+    "description": "最新の生成結果 25 枚を遅延読み込みで表示。タイルをタップすると拡大して詳細を確認できます。",
+    "hint": "クリックで拡大",
+    "view": "見る",
+    "alt": "ギャラリー画像 {index}"
+  },
+  "wavespeed": {
+    "prompt_label": "プロンプト",
+    "prompt_placeholder": "生成したい画像を説明してください。例：ウォン・カーウァイ風、狭い香港の廊下で煙草を吸う孤独な男性、1990年代…",
+    "buttons": {
+      "generating": "生成中...",
+      "checking": "利用可否を確認中...",
+      "unavailable": "サービス利用不可",
+      "generate": "生成",
+      "share_to_generate": "共有して生成",
+      "click_to_pay": "クレジットを購入"
+    },
+    "share_hint": "SNSで共有すると無料生成が解放されます",
+    "prompt_inspirations": "プロンプト例",
+    "image_area": {
+      "alt": "生成画像",
+      "loading": "画像を生成しています...",
+      "placeholder": "ここに生成結果が表示されます"
+    },
+    "links": {
+      "open_in_new_tab": "新しいタブで開く"
+    },
+    "status": {
+      "unknown_error": "不明なエラー",
+      "submitting": "リクエスト送信中...",
+      "task_submitted": "タスクを送信しました。ID: {id}",
+      "processing": "処理中... ステータス: {status}",
+      "image_success": "画像を生成しました！",
+      "video_submitting": "動画生成をリクエスト中...",
+      "video_task_submitted": "動画タスクを送信しました。ID: {id}",
+      "video_processing": "動画を生成中... ステータス: {status}",
+      "video_success": "動画を生成しました！",
+      "estimating": "推定中..."
+    },
+    "errors": {
+      "restricted": "ただいま混雑のため利用できません。しばらくしてからお試しください。",
+      "prompt_required": "プロンプトを入力してください",
+      "task_failed": "タスク失敗: {error}",
+      "request_timeout": "タイムアウトしました。もう一度お試しください。",
+      "http_error": "エラー: {code}",
+      "http_error_with_text": "エラー: {code} - {text}",
+      "request_failed": "リクエストに失敗しました: {error}",
+      "estimate_failed": "クレジットの見積もりに失敗しました"
+    },
+    "video": {
+      "cta_pay": "今すぐ動画を生成（$5 で動画 2 本）",
+      "cta_ready": "この画像から動画を生成",
+      "title": "動画生成",
+      "creating": "動画を作成しています...",
+      "unsupported": "お使いのブラウザは video タグをサポートしていません。",
+      "download": "動画をダウンロード",
+      "credit_description": "動画生成",
+      "errors": {
+        "insufficient_credits": "クレジットが不足しています。動画生成には 250 クレジット以上必要です。",
+        "image_required": "まず画像を生成してください",
+        "task_failed": "タスク失敗: {error}",
+        "timeout": "動画生成がタイムアウトしました。再試行してください。"
+      }
+    },
+    "payment": {
+      "title": "動画生成のためにアップグレード",
+      "line1": "動画生成は有料ユーザーのみ利用できます。",
+      "line2": "現在のクレジットが不足しています — 続行するにはクレジットを購入してください。",
+      "line3": "今すぐチャージして動画作成を解放しましょう。",
+      "cta_note": "プランを選択して動画生成を続けてください。",
+      "buy_now": "クレジットを購入",
+      "view_later": "後で",
+      "description_checking": "新しいタブで決済を完了してください。ステータスは自動で確認します。",
+      "description_idle": "動画生成用のクレジットを入手",
+      "pricing": "$5 = 500 クレジット",
+      "pricing_note": "動画生成 1 回あたり 250 クレジット",
+      "waiting_confirmation": "支払い確認を待っています...",
+      "checkout_url_missing": "決済リンクが見つかりませんでした",
+      "success_toast": "支払いに成功しました。クレジットが追加されました。",
+      "failure_toast": "決済に失敗しました: {error}",
+      "processing": "処理中...",
+      "waiting": "支払い待ち...",
+      "pay_button": "$5 を支払う"
+    },
+    "payment_image": {
+      "title": "本日の無料枠を使い切りました",
+      "line1": "毎日 2 枚まで無料で画像を生成できます。",
+      "line2": "本日の無料クォータはすでに使用済みです。",
+      "line3": "今すぐ続けるには、アップグレードするかクレジットを購入してください。",
+      "line4": "または明日、無料枠がリセットされた後に再度お試しください。",
+      "cta_note": "プランを選択して続けるか、明日また戻ってきてください。",
+      "buy_now": "クレジットを購入",
+      "wait_tomorrow": "明日もう一度試す",
+      "description_checking": "新しいタブで決済を完了してください。ステータスは自動で確認します。",
+      "description_idle": "1日あたり2枚の画像を無料で生成できます。本日の無料クォータを使い切りました。クレジットを購入して今すぐ画像を生成するか、明日の無料クォータをお待ちください。",
+      "pricing": "$5 = 500 クレジット",
+      "pricing_note": "画像生成 1 回あたり 2 クレジット",
+      "waiting_confirmation": "支払い確認を待っています...",
+      "checkout_url_missing": "決済リンクが見つかりませんでした",
+      "success_toast": "支払いに成功しました。クレジットが追加されました。",
+      "failure_toast": "決済に失敗しました: {error}",
+      "processing": "処理中...",
+      "waiting": "支払い待ち...",
+      "pay_button": "$5 を支払う"
+    },
+    "featureCards": {
+      "image": {
+        "title": "画像",
+        "description": "ルックを作成、編集、探索します。"
+      },
+      "video": {
+        "title": "動画",
+        "description": "プロンプトとビジュアルをクリップに変換します。"
+      },
+      "audio": {
+        "title": "オーディオ",
+        "description": "近日公開",
+        "badge": "近日公開"
+      },
+      "viewAll": "すべて表示"
+    },
+    "aiTools": {
+      "title": "AI Tools",
+      "subtitle": "Jump into the right tools from existing scenes."
+    },
+    "freeTools": {
+      "title": "Hot Tools",
+      "subtitle": "利用可能なシーンから無料ツールを使えます。",
+      "badges": ["無料", "Free"]
+    },
+    "aiModels": {
+      "title": "AI モデル",
+      "subtitle": "既存のシーンから適切なツールにすばやく移動できます。"
+    },
+    "desktopPlayground": {
+      "credits": "クレジット",
+      "model": {
+        "label": "モデル",
+        "choose": "モデルを選択",
+        "untitled": "無題のモデル",
+        "fallbackTitle": "AI",
+        "fallbackMonogram": "M"
+      },
+      "scene": {
+        "untitled": "無題のシーン"
+      },
+      "sceneGroups": {
+        "image": "画像",
+        "video": "動画"
+      },
+      "sceneMeta": {
+        "imageDescription": "ビジュアルを作成・編集・強化します",
+        "videoDescription": "クリップやモーションワークフローをアニメーション化します"
+      },
+      "scenePicker": {
+        "title": "シーンを選択",
+        "close": "閉じる",
+        "currentSelection": "現在の選択",
+        "current": "現在",
+        "switch": "切り替え",
+        "currentSceneFallback": "シーンが選択されていません",
+        "empty": "現在利用できるシーンはありません。",
+        "tabs": {
+          "video": "動画",
+          "image": "画像"
+        },
+        "trigger": {
+          "open": "シーンを切り替え",
+          "change": "変更"
+        }
+      },
+      "sceneNames": {
+        "textToImage": "テキストから画像",
+        "imageToImage": "画像から画像",
+        "qwenImageLayered": "Qwen レイヤー画像",
+        "imageEraser": "画像消去",
+        "backgroundRemover": "背景除去",
+        "imageUpscaler": "画像アップスケーラー",
+        "textToVideo": "テキストから動画",
+        "imageToVideo": "画像から動画",
+        "motionControl": "モーションコントロール",
+        "longcatAvatar": "Longcat アバター",
+        "videoFaceSwap": "動画顔交換",
+        "aiClothesRemover": "AI服除去",
+        "videoExtend": "Video Extend"
+      },
+      "prompt": {
+        "placeholder": "画像の内容を説明してください...",
+        "referencePlaceholder": "画像をどのように変換したいか説明してください..."
+      },
+      "aspectRatio": {
+        "auto": "自動"
+      },
+      "uploads": {
+        "uploading": "ファイルはまだアップロード中です。しばらくお待ちください。",
+        "defaultHint": "続行するにはメディアをアップロードしてください。",
+        "referenceHint": "開始するには参照メディアをアップロードしてください。"
+      },
+      "actions": {
+        "generateImage": "画像を生成",
+        "generateVideo": "動画を生成",
+        "generating": "生成中..."
+      },
+      "errors": {
+        "generationFailed": "生成に失敗しました",
+        "generateImageFailed": "画像の生成に失敗しました",
+        "insufficientCredits": "クレジットが不足しています: 現在 {remaining} クレジットですが、少なくとも {required} クレジットが必要です。"
+      },
+      "generatedPanel": {
+        "empty": "まだ何も作成されていないようです。",
+        "titleImages": "今回の作成記録",
+        "titleVideos": "今回の作成記録（動画）",
+        "title": "生成された{mediaLabel}",
+        "count": "{count}件の{label}",
+        "image": "画像",
+        "images": "画像",
+        "video": "動画",
+        "videos": "動画",
+        "itemAlt": "生成結果 {index}",
+        "itemLabel": "生成された{mediaItemLabel} {index}",
+        "preview": {
+          "close": "閉じる",
+          "openPreview": "プレビューを開く"
+        },
+        "deleteConfirm": {
+          "title": "削除の確認",
+          "description": "この画像を削除してもよろしいですか？この操作は元に戻せません。",
+          "cancel": "キャンセル",
+          "confirm": "削除"
+        },
+        "defaults": {
+          "imageTitle": "ここに画像が表示されます",
+          "videoTitle": "ここに動画が表示されます",
+          "imageDescription": "作成を開始するか、シーンを選んで最初の画像を生成してください。",
+          "videoDescription": "作成を開始するか、シーンを選んで最初の動画を生成してください。",
+          "featuredImage": "注目の画像",
+          "featuredVideo": "注目の動画"
+        },
+        "selection": {
+          "clear": "選択をクリア",
+          "download": "ダウンロード",
+          "delete": "選択した項目を削除",
+          "selectItem": "項目を選択",
+          "selectedItem": "選択済みの項目",
+          "count": "{count} 件を選択中"
+        },
+        "actions": {
+          "imageToVideo": "画像から動画へ",
+          "regenerate": "再生成",
+          "upscaleImage": "画像を高解像度化"
+        }
+      },
+      "videoWorkbench": {
+        "title": "生成された動画",
+        "subtitle": "生成した動画はここに表示されます。",
+        "emptyHint": "左側で生成を開始すると、ここで動画結果をプレビューして管理できます。"
+      },
+      "fields": {
+        "prompt": "プロンプト",
+        "negativePrompt": "ネガティブプロンプト",
+        "referenceImage": "参照画像",
+        "referenceImages": "参照画像",
+        "referenceVideo": "参照動画",
+        "audioTrack": "音声トラック",
+        "maskImage": "マスク画像",
+        "aspectRatio": "アスペクト比",
+        "resolution": "解像度",
+        "outputFormat": "出力形式",
+        "seed": "シード",
+        "width": "幅",
+        "height": "高さ",
+        "size": "サイズ",
+        "duration": "長さ",
+        "shotType": "ショットタイプ",
+        "promptExpansion": "プロンプト拡張",
+        "generateAudio": "音声を生成",
+        "fixedCamera": "固定カメラ",
+        "thinkingType": "思考モード",
+        "movementAmplitude": "動きの大きさ",
+        "numberOfLayers": "レイヤー数",
+        "quality": "品質",
+        "stylize": "スタイライズ",
+        "chaos": "カオス",
+        "weird": "ウィアード",
+        "version": "バージョン",
+        "niji": "Niji",
+        "strength": "強度",
+        "style": "スタイル",
+        "targetResolution": "目標解像度",
+        "referenceAudio": "Reference Audio",
+        "firstFrame": "開始フレーム",
+        "lastFrame": "終了フレーム（任意）"
+      },
+      "options": {
+        "auto": "自動",
+        "enabled": "有効",
+        "disabled": "無効",
+        "low": "低",
+        "medium": "中",
+        "high": "高",
+        "small": "小",
+        "large": "大",
+        "singleShot": "シングルショット",
+        "multipleShots": "マルチショット",
+        "none": "なし",
+        "close": "クローズ"
+      },
+      "placeholders": {
+        "describeImage": "生成したい画像を説明してください",
+        "transformImage": "アップロードした画像をどのように変換したいか説明してください",
+        "describeVideo": "生成したい動画を説明してください",
+        "animateImage": "アップロードした画像をどのように動かしたいか説明してください",
+        "negativePrompt": "避けたい内容を説明してください",
+        "randomSeed": "ランダムシードには -1 を使用してください",
+        "randomSeedOrEmpty": "空欄にするか -1 を使うとランダムシードになります",
+        "fillErasedArea": "消去した領域を何で埋めるか説明してください"
+      },
+      "descriptions": {
+        "describeImage": "生成したい画像を説明してください",
+        "widthPixels": "画像の幅（ピクセル、256〜1536、64 の倍数である必要があります）",
+        "heightPixels": "画像の高さ（ピクセル、256〜1536、64 の倍数である必要があります）",
+        "seedHelp": "再現可能な結果のためにシード値を設定します。ランダムシードには -1 を使用してください。",
+        "optionalReferenceImage": "スタイルに影響を与えるための参照画像を任意でアップロードします。",
+        "numberOfLayers": "元画像から分割する意味レイヤーの数を選択します。",
+        "promptExpansion": "短いプロンプトをモデルに自動で拡張させます。",
+        "generateAudioSynced": "動画に同期した音声を生成します。",
+        "generateAudioNative": "出力動画にネイティブ同期音声を生成します。",
+        "fixedCamera": "生成中にカメラをより安定させます。",
+        "generateAudioIncluded": "結果にモデル生成音声を含めます。",
+        "generateAudioOutput": "動画出力用の同期音声を生成します。",
+        "referenceVideoMotion": "動きのパターンを転送するための動画をアップロードします。",
+        "audioTrackLimit": "最大 120 秒の音声トラックをアップロードします。",
+        "faceImage": "動画に差し替えたい顔画像をアップロードします。",
+        "targetVideo": "顔交換の対象動画をアップロードします。",
+        "maskImage": "任意。削除する範囲を制御するためのマスク画像をアップロードします。",
+        "uploadUpToImages": "最大 {count} 枚の画像をアップロード",
+        "uploadImageToAnimate": "アニメーション化する画像をアップロード",
+        "referenceVideoLimit": "MP4, WebM, MOV (max 50MB, up to 3 videos, duration ≤ 15s)",
+        "referenceAudioLimit": "WAV, MP3 (max 20MB, up to 3 audios, duration ≤ 15s)",
+        "uploadLastFrameImageOptional": "任意: 終了フレーム画像をアップロードすると、開始から終了への遷移が自動で有効になります。",
+        "uploadFirstFrameImage": "開始フレーム画像をアップロードしてください。"
+      },
+      "mediaPanel": {
+        "common": {
+          "all": "すべて"
+        },
+        "tabs": {
+          "assets": "アセット",
+          "creations": "作品",
+          "uploads": "アップロード",
+          "collections": "コレクション",
+          "templates": "テンプレート"
+        },
+        "filters": {
+          "open": "フィルターを開く",
+          "title": "フィルター",
+          "subtitle": "作品ビューを絞り込む",
+          "dateRange": "日付範囲",
+          "pickDateRange": "日付範囲を選択",
+          "keyword": "キーワード",
+          "searchPlaceholder": "アップロードを検索",
+          "type": "種類",
+          "tool": "ツール",
+          "model": "モデル",
+          "clear": "クリア",
+          "cancel": "キャンセル",
+          "apply": "適用",
+          "done": "完了"
+        },
+        "mediaTypes": {
+          "image": "画像",
+          "video": "動画",
+          "audio": "音声"
+        },
+        "weekdays": {
+          "su": "日",
+          "mo": "月",
+          "tu": "火",
+          "we": "水",
+          "th": "木",
+          "fr": "金",
+          "sa": "土"
+        },
+        "collections": {
+          "heading": "Collections",
+          "createCardLabel": "Create New Collections",
+          "createTitle": "Create collection",
+          "createDescription": "Group related assets so you can organise your workspace faster.",
+          "renameTitle": "Rename collection",
+          "renameDescription": "Choose a clearer name for this collection.",
+          "deleteTitle": "Delete collection",
+          "deleteDescription": "Delete \"{name}\"? This only removes the collection itself for now.",
+          "renameAction": "Rename",
+          "deleteAction": "Delete",
+          "createAction": "Create",
+          "cancelAction": "Cancel",
+          "nameLabel": "Collection name",
+          "namePlaceholder": "Enter a collection name",
+          "assetsCount": "{count} assets",
+          "emptyTitle": "No collections yet",
+          "emptyDescription": "Create your first collection to start organising assets.",
+          "createSuccess": "Collection created",
+          "renameSuccess": "Collection renamed",
+          "deleteSuccess": "Collection deleted",
+          "createError": "Failed to create collection",
+          "renameError": "Failed to rename collection",
+          "deleteError": "Failed to delete collection"
+        },
+        "states": {
+          "noMatchingTitle": "一致する項目がありません",
+          "noMatchingDescription": "日付、モデル、ツール、またはメディアタイプのフィルターを調整してください。",
+          "clearFilters": "フィルターをクリア",
+          "creationsDescription": "最近の作品を確認して管理できます。"
+        },
+        "viewMode": {
+          "title": "表示モード",
+          "previewLayout": "プレビュー レイアウト",
+          "overlays": "オーバーレイ",
+          "metadata": "メタデータ",
+          "originalRatio": "元の比率",
+          "cropToFill": "切り抜いて表示",
+          "mixedGrid": "ミックスグリッド"
+        },
+        "collectionActions": {
+          "remove": "コレクションから削除",
+          "error": "コレクションから項目を削除できませんでした"
+        },
+        "collectionPicker": {
+          "loadError": "コレクションを読み込めませんでした",
+          "addError": "項目をコレクションに追加できませんでした",
+          "addSuccess": "コレクションに追加しました",
+          "addButton": "コレクションに追加",
+          "newCollection": "新しいコレクション"
+        },
+        "hints": {
+          "recent7Days": "Creations、Uploads、Collection items は直近 7 日間のみ対応しています。生成した素材は 7 日以内にダウンロードしてください。"
+        }
+      }
+    },
+    "homepageAnnouncement": {
+      "badge": "What's New - April 2026",
+      "title": "SEEDANCE 2.0 IS HERE",
+      "description": "The most powerful video generation model yet. Create faster, longer and more cinematic clips in one click.",
+      "cta": "Try Now",
+      "closeLabel": "Close announcement",
+      "videoLabel": "Seedance 2.0 announcement video"
+    }
+  },
+  "faceSwap": {
+    "title": "AI動画フェイススワップ・オンライン",
+    "description": "数秒で楽しくてリアルなフェイススワップ動画を作れるのが、<strong class=\"text-primary font-semibold\">AI動画フェイススワップ・オンライン</strong> ツールです。編集スキルは一切不要、動画をアップロードして顔を選ぶだけで、あとはAIが魔法のように仕上げてくれます。",
+    "tabs": {
+      "single": "単一顔",
+      "multiple": "複数の顔"
+    },
+    "steps": {
+      "video": {
+        "title": "動画をアップロード",
+        "cta": "ドラッグ/クリックでアップロード",
+        "hint": "対応: M4V/MP4/MOV/WEBM",
+        "dragDrop": "ドラッグ&ドロップまたはクリックしてアップロード",
+        "dropHere": "ここに動画をドロップ"
+      },
+      "face": {
+        "title": "顔画像をアップロード",
+        "cta": "ドラッグ/クリックでアップロード",
+        "hint": "対応: JPG/PNG/WEBP",
+        "dragDrop": "ドラッグ&ドロップまたはクリックしてアップロード",
+        "dropHere": "ここに画像をドロップ"
+      },
+      "render": {
+        "title": "「レンダー」を押して開始",
+        "cta": "レンダー",
+        "rendering": "レンダリング中..."
+      },
+      "multiple": {
+        "face": {
+          "title": "顔の置き換えを指定",
+          "cta": "顔を抽出({count}/{max})"
+        }
+      }
+    },
+    "badges": {
+      "free": "毎日5回無料実行",
+      "clean": "ウォーターマークなし",
+      "resolution": "2K解像度対応"
+    },
+    "preview": {
+      "title": "プレビュー",
+      "cta": "フェイススワップを試す",
+      "original": "オリジナル",
+      "swapped": "入れ替え後",
+      "faceAlt": "顔のプレビュー",
+      "usingFace": "使用する顔：{name}",
+      "placeholder": "動画をアップロードすると、ここにプレビューが表示されます。"
+    },
+    "common": {
+      "selected": "選択済み：{name}",
+      "notSelected": "未選択"
+    },
+    "errors": {
+      "videoDurationExceeded": "動画の長さは{max}分を超えることはできません。現在の長さは{current}分です",
+      "videoDurationReadFailed": "動画の長さを読み取れませんでした。動画ファイル形式が正しいことを確認してください",
+      "uploadFailed": "アップロードに失敗しました: {error}",
+      "uploadFailedGeneric": "アップロードに失敗しました",
+      "videoRequired": "先に動画をアップロードしてください",
+      "faceImageRequired": "先に顔画像をアップロードしてください",
+      "faceSwapFailed": "フェイススワップの処理に失敗しました",
+      "taskFailed": "タスクの処理に失敗しました",
+      "taskTimeout": "タスク処理がタイムアウトしました。後でもう一度お試しください",
+      "taskIdNotFound": "タスクIDを取得できませんでした。APIレスポンス形式を確認してください",
+      "apiResponseParseFailed": "フェイススワップ処理に失敗しました: APIレスポンスを解析できません",
+      "processingFailed": "処理に失敗しました。もう一度お試しください",
+      "statusQueryFailed": "タスクステータスの取得に失敗しました: 応答データを解析できません",
+      "videoFileNotFound": "動画ファイルが見つかりませんでした。動画を再アップロードしてください"
+    },
+    "footer": "ログインして機能を解放 · 毎日無料クレジット · 2K解像度対応",
+    "uploadConfirm": {
+      "title": "アップロード確認",
+      "description": "アップロード前に以下を確認してください：",
+      "permission": "アップロードしたコンテンツ内のすべての顔を使用する権限があることを確認します",
+      "legal": "このツールを欺瞞、詐欺、または違法な目的で使用しません",
+      "synthetic": "これがAI生成の合成メディアを作成することを理解しています",
+      "cancel": "キャンセル",
+      "confirm": "確認"
+    }
+  },
+  "clothesRemover": {
+    "id": "clothes-remover",
+    "title": "AI服装チェンジ・プレイグラウンド",
+    "description": "写真をアップロードし、欲しい服装を書くだけで数ステップで新しいルックを生成。",
+    "tabs": {
+      "auto": "Auto",
+      "manual": "Manual"
+    },
+    "steps": {
+      "type": {
+        "title": "服装タイプを選択"
+      },
+      "upload": {
+        "title": "写真をアップロード（正面全身が望ましい）",
+        "cta": "クリックしてアップロード",
+        "hint": "(JPG, PNG, WEBP) ≤ 20MB"
+      },
+      "describe": {
+        "title": "欲しい服装を記述",
+        "placeholder": "欲しいコーデを入力してください。例: \"赤いビキニ\" \"カジュアルスーツ\" \"夏のスカート\" など。"
+      }
+    },
+    "actions": {
+      "remove": "衣装チェンジを実行"
+    }
+  },
+  "common": {
+    "fields": {
+      "firstFrame": "開始フレーム",
+      "lastFrame": "終了フレーム（任意）",
+      "referenceAudio": "Reference Audio"
+    },
+    "descriptions": {
+      "uploadFirstFrameImage": "開始フレーム画像をアップロードしてください。",
+      "uploadLastFrameImageOptional": "任意: 終了フレーム画像をアップロードすると、開始から終了への遷移が自動で有効になります。",
+      "referenceVideoLimit": "MP4, WebM, MOV (max 50MB, up to 3 videos, duration ≤ 15s)",
+      "referenceAudioLimit": "WAV, MP3 (max 20MB, up to 3 audios, duration ≤ 15s)"
+    }
+  },
+  "canvasWorkspace": {
+    "nav": {
+      "canvas": "Canvas",
+      "creations": "Creations",
+      "collections": "Collections"
+    },
+    "page": {
+      "creationsEyebrow": "CREATIONS",
+      "creationsTitle": "Creations",
+      "creationsDescription": "All of your generated images, videos, and outputs live here so they are easy to review, filter, and organize.",
+      "collectionsEyebrow": "COLLECTIONS",
+      "collectionsTitle": "Collections",
+      "collectionsDescription": "Turn your strongest outputs into curated sets so pitching, reviewing, and reuse feel much faster.",
+      "projectsEyebrow": "CANVAS",
+      "projectsTitle": "Recent Projects",
+      "projectsDescription": "Jump back into your advanced-mode projects and keep shaping the canvas.",
+      "newCanvas": "New Canvas",
+      "emptyProjectsTitle": "No Canvas projects yet",
+      "emptyProjectsDescription": "Open Canvas from the homepage, or start a new advanced-mode project here.",
+      "emptyProjectsAction": "Create project",
+      "creationsEmptyText": "No creations yet",
+      "creationsEmptyTitle": "Your library is waiting for the first result",
+      "creationsEmptyDescription": "Generate from the homepage or run a workflow in Canvas and every new output will appear here.",
+      "collectionDetailDescription": "Review everything saved into this collection, then keep curating or return to Canvas to create more.",
+      "collectionDetailBack": "Back to Collections",
+      "collectionDetailEmptyText": "This collection is empty",
+      "collectionDetailEmptyTitle": "Nothing has been saved here yet",
+      "collectionDetailEmptyDescription": "Pick a few strong results from Creations and this collection will start to take shape."
+    },
+    "projectsGrid": {
+      "deleteConfirm": "Delete project \"{name}\"? This action cannot be undone.",
+      "deleteSuccess": "Project deleted",
+      "deleteError": "Failed to delete project",
+      "duplicateSuccess": "Project duplicated",
+      "duplicateError": "Failed to duplicate project",
+      "updatedAtPrefix": "Updated",
+      "duplicateAria": "Duplicate project",
+      "deleteAria": "Delete project"
+    },
+    "collectionsGrid": {
+      "heading": "Collections",
+      "createCardLabel": "New Collection",
+      "createTitle": "Create Collection",
+      "createDescription": "Give this curated set a clear name.",
+      "renameTitle": "Rename Collection",
+      "renameDescription": "Update how this collection appears in your library.",
+      "deleteTitle": "Delete Collection",
+      "deleteDescription": "Deleting a collection removes the group, but keeps every creation.",
+      "renameAction": "Save name",
+      "deleteAction": "Delete Collection",
+      "createAction": "Create Collection",
+      "cancelAction": "Cancel",
+      "nameLabel": "Name",
+      "namePlaceholder": "For example: Brand visual directions",
+      "emptyTitle": "No collections yet",
+      "emptyDescription": "Group strong outputs into collections so it is easier to revisit and present them later.",
+      "createSuccess": "Collection created",
+      "renameSuccess": "Collection updated",
+      "deleteSuccess": "Collection deleted",
+      "createError": "Failed to create collection",
+      "renameError": "Failed to rename collection",
+      "deleteError": "Failed to delete collection"
+    },
+    "projectsHub": {
+      "heroTitle": "アイデアは無限、創作は境界なし",
+      "heroPlaceholder": "アイデアを入力して、すぐに Canvas 制作を始めましょう",
+      "heroSubmit": "作成して生成",
+      "sectionTitle": "マイプロジェクト",
+      "sectionAction": "すべて表示",
+      "createCardTitle": "新規プロジェクト",
+      "createCardSubtitle": "新しいプロンプトから開始",
+      "submitError": "プロジェクトを作成する前にプロンプトを入力してください",
+      "autoLabel": "AUTO",
+      "plusMenuTitle": "このノードを使って生成",
+      "uploadReferenceAria": "参考画像をアップロード",
+      "closeDirectionAria": "閉じる",
+      "virtualReferenceLabel": "参考画像",
+      "virtualPromptLabel": "プロンプト"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "title": "GPT-Image 2",
+  "provider": "OpenAI",
+  "eyebrow": "Model-first landing page",
+  "description": "Explore GPT-Image 2 through Text to Image, Image Edit workflows in one page, then move directly into the shared Creator workbench to generate, compare, and continue production.",
+  "seoTitle": "GPT-Image 2 Online | Text to Image + Image Edit in One Workbench | joymagic",
+  "seoDescription": "Try GPT-Image 2 online with text-to-image and image-edit workflows in one Creator-native page. Generate ad visuals, UI concepts, product shots, and polished image revisions without switching surfaces.",
+  "stats": [
+    {
+      "label": "Primary mode",
+      "value": "Text to Image"
+    },
+    {
+      "label": "Live workflows",
+      "value": "2 connected modes"
+    },
+    {
+      "label": "Workbench",
+      "value": "Shared Creator flow"
+    }
+  ],
+  "differentiators": [
+    "Put Text to Image and Image Edit on one conversion-focused model page, so paid traffic does not have to guess which tool family to click first.",
+    "Keep the live Creator workbench above the fold, so the first interaction already feels like product use instead of a brochure read.",
+    "Shift the proof toward ad-ready outputs, UI concepts, product visuals, and polished revisions instead of text-heavy language-specific examples."
+  ],
+  "gallery": [
+    {
+      "title": "Photoreal Lifestyle Portrait",
+      "caption": "Use short prompts to land polished, camera-aware portraits that already feel close to campaign-ready output.",
+      "prompt": "A vintage 35mm film photograph of a young woman in soft flash lighting, realistic skin texture, muted tones, and candid editorial framing.",
+      "accentClassName": "from-[#d8c9b2] via-[#8a7156] to-[#101114] text-white",
+      "imageUrl": "https://ocdn.10b.ai/workbench-template-samples/images/e8f7ff049d612daf589d3352a30cb3b7.jpg"
+    },
+    {
+      "title": "Consistent Multi-Panel Identity",
+      "caption": "Structured grids, repeated character identity, and clean panel logic make GPT-Image 2 useful for profile systems and concept boards.",
+      "prompt": "Create a 2x2 portrait grid with one subject shown in four professional roles, keeping identity, lighting quality, and layout consistency intact.",
+      "accentClassName": "from-[#bcc8d8] via-[#54667f] to-[#0c1015] text-white",
+      "imageUrl": "https://ocdn.10b.ai/workbench-template-samples/images/df733808bd65b1b631a5230e50e6cb01.jpg"
+    },
+    {
+      "title": "Loose Creative Direction",
+      "caption": "Move from idea to visual direction fast with sketch-like concept treatments that still feel intentional and presentation-ready.",
+      "prompt": "Express a powerful AI builder in a graffiti sketch style with energetic linework, clean white space, and a refined designer signature.",
+      "accentClassName": "from-[#f0dfc4] via-[#8c6d4b] to-[#111214] text-white",
+      "imageUrl": "https://ocdn.10b.ai/workbench-template-samples/images/a219bc08ff6f12cefe2d5fdf85381c42.jpg"
+    },
+    {
+      "title": "Clean 3D Brand Mascot",
+      "caption": "Simple product mascots, icons, and friendly branded characters come out crisp enough for landing pages, onboarding, and app surfaces.",
+      "prompt": "Render a cute 3D cloud mascot on a white background with soft studio light, glossy eyes, and a clean icon-style silhouette.",
+      "accentClassName": "from-[#f5f7ff] via-[#8ca3d8] to-[#10131a] text-white",
+      "imageUrl": "https://ocdn.10b.ai/workbench-template-samples/images/c4e761f6add51616318b3997dd5eb276.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why send paid traffic to /model/gpt-image-2 instead of a single workflow page?",
+      "answer": "This page keeps the intent clear at the model level first, then lets visitors choose between generation and editing without losing context or needing a second landing page hop."
+    },
+    {
+      "question": "What kinds of outputs fit GPT-Image 2 best here?",
+      "answer": "The page is tuned around practical commercial output categories: ad visuals, UI concepts, product imagery, photoreal portraits, graphic systems, and revision-heavy image edits."
+    },
+    {
+      "question": "Does the page use the same production surface as Creator?",
+      "answer": "Yes. The main workbench is the shared Creator flow, so prompts, comparisons, and follow-up production all continue inside the same interaction model."
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "Text to Image",
+      "title": "Scene 01 · Prompt-first image generation",
+      "description": "Use GPT-Image 2 when you need ad visuals, UI concepts, product hero shots, or polished stills from short natural prompts.",
+      "spotlight": "Best for high-intent traffic that wants to try the model immediately and see a strong first pass without over-configuring.",
+      "starterPrompt": "Create a premium skincare campaign visual with a single bottle on reflective acrylic, soft directional light, restrained typography space, and a polished editorial finish.",
+      "useCases": [
+        "Ad-ready hero visuals",
+        "UI and dashboard concepts",
+        "Product and portrait stills"
+      ]
+    },
+    {
+      "modeLabel": "Image Edit",
+      "title": "Scene 02 · Structured image refinement",
+      "description": "Switch into Image Edit when the job is to clean up layouts, retouch photoreal assets, restyle screenshots, or tighten an existing visual direction.",
+      "spotlight": "Best for production-minded revisions where preserving the core composition matters as much as improving the finish.",
+      "starterPrompt": "Keep the existing composition, clean the layout hierarchy, refine lighting and texture, simplify distracting elements, and make the result feel like a finished campaign asset.",
+      "useCases": [
+        "Poster and layout cleanup",
+        "Product and portrait retouching",
+        "Screenshot and interface restyling"
+      ]
+    }
+  ],
+  "templateCopy": {
+    "whyModelTitle": "Why GPT-Image 2 converts better on a model-first page",
+    "whyModelDescription": "This version keeps the story tight for paid traffic: show the model, show the two core workflows, then let the visitor try it before momentum drops.",
+    "workflowsTitle": "Choose the workflow, then click straight into production",
+    "workflowsDescription": "Visitors should understand both routes at a glance: start from scratch with Text to Image or tighten an existing asset with Image Edit, then move directly into the shared workbench.",
+    "galleryTitle": "Examples should sell the click before the visitor reads the rest",
+    "galleryDescription": "The examples below stay focused on commercially legible directions: polished portraits, structured layouts, branded concepts, and clean mascot-style assets.",
+    "galleryLead": "The most persuasive proof is seeing GPT-Image 2 produce usable outputs fast, not reading another generic model summary.",
+    "openWithPrompt": "Try GPT-Image 2 Online Now",
+    "openInCreator": "Open in Shared Creator"
+  }
+}

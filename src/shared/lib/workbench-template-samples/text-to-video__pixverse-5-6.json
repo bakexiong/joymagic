@@ -1,0 +1,386 @@
+[
+  {
+    "prompt": "Vertical video. A barista pours latte art in a cozy cafe.\nHook (first second): extreme close-up of glossy espresso crema swirling as milk hits the surface.\nCamera: quick push-in to macro detail, then slow stabilized top-down shot as the rosette pattern forms, smooth motion for 5 seconds.\nLighting: warm morning sunlight through window, soft shadows, gentle steam.\nStyle: cinematic food videography, realistic liquids, crisp detail.\nConstraints: no scene cuts, no text.\n",
+    "params": {
+      "prompt": "Vertical video. A barista pours latte art in a cozy cafe.\nHook (first second): extreme close-up of glossy espresso crema swirling as milk hits the surface.\nCamera: quick push-in to macro detail, then slow stabilized top-down shot as the rosette pattern forms, smooth motion for 5 seconds.\nLighting: warm morning sunlight through window, soft shadows, gentle steam.\nStyle: cinematic food videography, realistic liquids, crisp detail.\nConstraints: no scene cuts, no text.\n",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "540p",
+      "duration": "5",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/140a47b94d7f1f0f869ba1172b12156a.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/140a47b94d7f1f0f869ba1172b12156a.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/225fdea51a58721d6247f59a68a97275.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/225fdea51a58721d6247f59a68a97275.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:43:04.219Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/7dbb70cc973ce47f98dff2954305e3e3.mp4"
+  },
+  {
+    "prompt": "Cinematic wide shot, historical epic in the style of Akira Kurosawa — a solitary samurai, clad in weathered, traditional dark grey robes with flowing sleeves, walks away from the camera through a dense, mist-laden bamboo forest at dawn. God rays pierce the canopy, casting long, golden beams through the fractured leaves, illuminating swirling dust and falling bamboo fronds. The wind howls softly, causing leaves to spiral around him like a living, chaotic veil. His right hand rests firmly on the hilt of his katana, blade gleaming faintly in the divine light, symbolizing resolve and quiet strength. The forest is alive with subtle movement — dewdrops glisten, shadows stretch, and the air hums with ancient silence. 8K resolution, atmospheric, moody, with deep contrast and cinematic depth. Shot on a wide-angle lens, emphasizing scale and isolation.",
+    "params": {
+      "prompt": "Cinematic wide shot, historical epic in the style of Akira Kurosawa — a solitary samurai, clad in weathered, traditional dark grey robes with flowing sleeves, walks away from the camera through a dense, mist-laden bamboo forest at dawn. God rays pierce the canopy, casting long, golden beams through the fractured leaves, illuminating swirling dust and falling bamboo fronds. The wind howls softly, causing leaves to spiral around him like a living, chaotic veil. His right hand rests firmly on the hilt of his katana, blade gleaming faintly in the divine light, symbolizing resolve and quiet strength. The forest is alive with subtle movement — dewdrops glisten, shadows stretch, and the air hums with ancient silence. 8K resolution, atmospheric, moody, with deep contrast and cinematic depth. Shot on a wide-angle lens, emphasizing scale and isolation.",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "540p",
+      "duration": "5",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/47d22405088eee7eb7f52ce9a13327ef.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/47d22405088eee7eb7f52ce9a13327ef.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/88751e48b2b8d4c54dcd0312e5455a95.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/88751e48b2b8d4c54dcd0312e5455a95.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:43:49.637Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/85cd8557b1c970af6018dabb44b584b2.mp4"
+  },
+  {
+    "prompt": "Golden hour mountain landscape with a winding lake, clouds drifting slowly, gentle push-in camera, volumetric sunlight, crisp alpine atmosphere, cinematic nature documentary",
+    "params": {
+      "prompt": "Golden hour mountain landscape with a winding lake, clouds drifting slowly, gentle push-in camera, volumetric sunlight, crisp alpine atmosphere, cinematic nature documentary",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/86737fca5107349051024cfbf52dbbf1.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/86737fca5107349051024cfbf52dbbf1.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:44:23.710Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/700d1cc44746ffa3814c9624b5ef8f0f.mp4"
+  },
+  {
+    "prompt": "A colorful Mediterranean coastal town under bright midday sun, sea shimmering softly, light breeze in hanging flags, postcard-perfect travel shot, slow crane movement",
+    "params": {
+      "prompt": "A colorful Mediterranean coastal town under bright midday sun, sea shimmering softly, light breeze in hanging flags, postcard-perfect travel shot, slow crane movement",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/b59a0ee743aa46571dc1524159cf9abd.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/b59a0ee743aa46571dc1524159cf9abd.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:44:58.016Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/08fdc5ef01c51cb8c045a1cd8c84bc1c.mp4"
+  },
+  {
+    "prompt": "An armored hero faces a colossal dragon above ruined cliffs, cape fluttering, dragon breathing smoke, dramatic atmosphere, AAA fantasy game cinematic, slow epic camera move",
+    "params": {
+      "prompt": "An armored hero faces a colossal dragon above ruined cliffs, cape fluttering, dragon breathing smoke, dramatic atmosphere, AAA fantasy game cinematic, slow epic camera move",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/5119da3955bbd2115a25d45b183d156c.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/5119da3955bbd2115a25d45b183d156c.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:45:34.999Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/1f457c796d9f44a2eb9bfa8205280503.mp4"
+  },
+  {
+    "prompt": "An anime heroine leaps across futuristic rooftops with electric energy trails, dynamic action timing, dramatic perspective, vibrant cel shading, high-impact vertical teaser",
+    "params": {
+      "prompt": "An anime heroine leaps across futuristic rooftops with electric energy trails, dynamic action timing, dramatic perspective, vibrant cel shading, high-impact vertical teaser",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/1296a0311b4a3ff298e53da2ea36da95.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/1296a0311b4a3ff298e53da2ea36da95.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:46:11.945Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/368feb7bddbf58417bd3c01e8941ce79.mp4"
+  },
+  {
+    "prompt": "A luxury cosmetic bottle floats above a reflective surface, elegant water droplets moving gently, premium commercial lighting, clean beauty campaign, polished product motion ad",
+    "params": {
+      "prompt": "A luxury cosmetic bottle floats above a reflective surface, elegant water droplets moving gently, premium commercial lighting, clean beauty campaign, polished product motion ad",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/9cdffa285cf6137612ee3800f70e16a8.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/9cdffa285cf6137612ee3800f70e16a8.mp4"
+    ],
+    "generatedAt": "2026-04-15T10:01:48.067Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/93cb2a8f02f928dc7fee7af80f956801.mp4"
+  },
+  {
+    "prompt": "Close-up gourmet ramen bowl with steam rising, gentle broth shimmer, cinematic restaurant lighting, premium food commercial shot, appetizing detail",
+    "params": {
+      "prompt": "Close-up gourmet ramen bowl with steam rising, gentle broth shimmer, cinematic restaurant lighting, premium food commercial shot, appetizing detail",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/6dd3a4854248bc7810fafbcd62eba229.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/6dd3a4854248bc7810fafbcd62eba229.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:46:57.027Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/3ba41a492c27cadb1c421d10f46cca9a.mp4"
+  },
+  {
+    "prompt": "A massive sci-fi megacity skyline at dusk with flying vehicles and holographic billboards, atmospheric haze, wide cinematic pan, immersive world-building",
+    "params": {
+      "prompt": "A massive sci-fi megacity skyline at dusk with flying vehicles and holographic billboards, atmospheric haze, wide cinematic pan, immersive world-building",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/022bf306ca7b25b1da49af2e0058a3dc.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/022bf306ca7b25b1da49af2e0058a3dc.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:47:34.039Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/ea4d0f4b80565216bc64f1f817fc4472.mp4"
+  },
+  {
+    "prompt": "Black and white documentary portrait of an elderly craftsman in a workshop, subtle hand movement, textured lighting, emotional realism, timeless cinematic shot",
+    "params": {
+      "prompt": "Black and white documentary portrait of an elderly craftsman in a workshop, subtle hand movement, textured lighting, emotional realism, timeless cinematic shot",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/d13b053e6bece2a6ade95264dc5a54e9.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/d13b053e6bece2a6ade95264dc5a54e9.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:48:13.678Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/b0f4ab105621ac66db63f52420622616.mp4"
+  },
+  {
+    "prompt": "A romantic wedding scene in a sunlit garden, veil moving softly in the breeze, natural laughter, creamy bokeh, timeless cinematic motion",
+    "params": {
+      "prompt": "A romantic wedding scene in a sunlit garden, veil moving softly in the breeze, natural laughter, creamy bokeh, timeless cinematic motion",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/0202cba7d53355263300b64372764ed4.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/0202cba7d53355263300b64372764ed4.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:48:47.846Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/adb9fea8b4b7f2bdffda8d6f47b55c26.mp4"
+  },
+  {
+    "prompt": "A professional athlete sprints through rain under stadium lights, powerful strides, droplets flying, sportswear campaign, dramatic action commercial",
+    "params": {
+      "prompt": "A professional athlete sprints through rain under stadium lights, powerful strides, droplets flying, sportswear campaign, dramatic action commercial",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/11c15b4466b20c28c44e6ea99e1879d0.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/11c15b4466b20c28c44e6ea99e1879d0.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:49:22.246Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/1cd84ce03539fbaee2d37e75fe223edb.mp4"
+  },
+  {
+    "prompt": "A warm Scandinavian living room with soft natural light, curtains moving slightly, cozy interior ambiance, refined design photography, slow walkthrough feel",
+    "params": {
+      "prompt": "A warm Scandinavian living room with soft natural light, curtains moving slightly, cozy interior ambiance, refined design photography, slow walkthrough feel",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/0ae863fcc6d5be9a9864a5d20b044fc1.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/0ae863fcc6d5be9a9864a5d20b044fc1.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:49:57.073Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/1cbe8db8a836e300e4b61a4adf244ed3.mp4"
+  },
+  {
+    "prompt": "A majestic fantasy creature stands in a bioluminescent forest, subtle breathing and eye movement, mystical glow, premium creature cinematic concept shot",
+    "params": {
+      "prompt": "A majestic fantasy creature stands in a bioluminescent forest, subtle breathing and eye movement, mystical glow, premium creature cinematic concept shot",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/6bf909f04ed7dba17b29af52dbd00952.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/6bf909f04ed7dba17b29af52dbd00952.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:50:31.777Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/eb12c03af006e54437c512c797234866.mp4"
+  },
+  {
+    "prompt": "A whimsical children's book scene of a fox and rabbit sharing tea in a magical forest, gentle animated motions, soft watercolor textures, warm storytelling tone",
+    "params": {
+      "prompt": "A whimsical children's book scene of a fox and rabbit sharing tea in a magical forest, gentle animated motions, soft watercolor textures, warm storytelling tone",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/1db5c59bd677626b42a002943e9152db.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/1db5c59bd677626b42a002943e9152db.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:51:08.491Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/a7537114efc6e33f87da509de92308bc.mp4"
+  },
+  {
+    "prompt": "A cyberpunk close-up portrait with glossy visor reflections, subtle head movement, cyan and magenta neon lighting, futuristic makeup, moody sci-fi fashion teaser",
+    "params": {
+      "prompt": "A cyberpunk close-up portrait with glossy visor reflections, subtle head movement, cyan and magenta neon lighting, futuristic makeup, moody sci-fi fashion teaser",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/9e11cae75d0cd2a3022bab3d51fa1b37.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/9e11cae75d0cd2a3022bab3d51fa1b37.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:51:45.073Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/49e5c47aa59b33615037d222eb4abc71.mp4"
+  },
+  {
+    "prompt": "A snow leopard stands on a rocky ridge during snowfall, subtle breathing and head turn, dramatic wildlife cinematography, crisp fur detail",
+    "params": {
+      "prompt": "A snow leopard stands on a rocky ridge during snowfall, subtle breathing and head turn, dramatic wildlife cinematography, crisp fur detail",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/a13dc2ca8e10d04bd946b5dcd0c2efc6.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/a13dc2ca8e10d04bd946b5dcd0c2efc6.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:52:20.367Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/004b6bb8982b8d519dafdb6bb8d9d2df.mp4"
+  },
+  {
+    "prompt": "Minimalist concrete architecture beside a calm reflective pool, subtle water ripples, slow dolly movement, premium architectural film, serene atmosphere",
+    "params": {
+      "prompt": "Minimalist concrete architecture beside a calm reflective pool, subtle water ripples, slow dolly movement, premium architectural film, serene atmosphere",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/76da1bb14a770359440dc0cbac67a279.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/76da1bb14a770359440dc0cbac67a279.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:53:10.654Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/d18be7232fe175d1a6c79ffd7856e52d.mp4"
+  },
+  {
+    "prompt": "A singer under saturated stage lights in a bold music festival promo, rhythmic camera sway, graphic composition, modern campaign teaser",
+    "params": {
+      "prompt": "A singer under saturated stage lights in a bold music festival promo, rhythmic camera sway, graphic composition, modern campaign teaser",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/e2c8cfb4b2d8964afe48030e2b9f763b.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/e2c8cfb4b2d8964afe48030e2b9f763b.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:53:47.668Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/49e5599993d3e2be5bf5e38565822316.mp4"
+  },
+  {
+    "prompt": "A high-end electric sports car drives along a wet mountain road at dawn, dramatic reflections, cinematic headlights, premium automotive commercial motion",
+    "params": {
+      "prompt": "A high-end electric sports car drives along a wet mountain road at dawn, dramatic reflections, cinematic headlights, premium automotive commercial motion",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "360p",
+      "duration": "10",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/9177e1f355f85cac2b6a2e71737745e5.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/9177e1f355f85cac2b6a2e71737745e5.mp4"
+    ],
+    "generatedAt": "2026-04-15T06:54:32.831Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/4042b86e220a6ee0ceed164799f7a5eb.mp4"
+  }
+]

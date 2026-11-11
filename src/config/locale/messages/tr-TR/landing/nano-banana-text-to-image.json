@@ -1,0 +1,114 @@
+{
+  "title": "Nano Banana Metinden Görüntü",
+  "subtitle": "Metin açıklamalarından çarpıcı görüntüler oluşturun",
+  "prompt_label": "İstem",
+  "prompt_placeholder": "Arka bahçede sabun köpükleri üfleyen küçük bir kız, köpüklerde gökkuşağı renkleri oluşturan güneş ışığı, samimi fotoğraf stili.",
+  "prompt_tooltip": "Oluşturmak istediğiniz görüntünün açıklamasını girin",
+  "prompt_enhancer": "İstem Geliştirici",
+  "enhancing": "Geliştiriliyor...",
+  "aspect_ratio_label": "En-Boy Oranı",
+  "aspect_ratio_hint": "Oluşturulan görüntü için en-boy oranını seçin",
+  "aspect_ratio_placeholder": "En-boy oranı seçin (isteğe bağlı)",
+  "aspect_ratio_none": "(Yok)",
+  "output_format_label": "Çıktı Formatı",
+  "output_format_hint": "Çıktı görüntü formatını seçin",
+  "buttons": {
+    "generate": "Görüntü Oluştur"
+  },
+  "errors": {
+    "promptRequired": "İstem gereklidir"
+  },
+  "image_alt": "Oluşturulan görüntü",
+  "download": "İndir",
+  "image_placeholder": "Oluşturulan görüntü burada görünecek",
+  "page": {
+    "metadata": {
+      "title": "Nano Banana Metinden Görüntü - AI Görüntü Oluşturma | joymagic",
+      "description": "Google Nano Banana AI ile metinden görüntü oluşturun. Net metin işleme ile fotoğraflar, illüstrasyonlar ve tasarımlar oluşturun. Nano Banana'yı ücretsiz deneyin.",
+      "keywords": "nano banana metinden görüntü, ai görüntü oluşturucu, google nano banana, gemini 2.5 flash image, metinden görüntü ai"
+    },
+    "hero": {
+      "title": "Nano Banana Metinden Görüntü",
+      "description": "Google Nano Banana (Gemini 2.5 Flash Image) metin açıklamalarından görüntüler oluşturur. İstediğinizi yazın, saniyeler içinde fotoğraflar, illüstrasyonlar veya konsept sanatı alın. Farklı görsel stilleri doğal olarak işler. Aşağıda Nano Banana'yı ücretsiz deneyin!<br/><br/>Profesyonel kontroller ve net metin işleme mi gerekiyor? <a href=\"/text-to-image/nano-banana-pro\" class=\"text-primary underline\">Nano Banana Pro'yu deneyin</a>.",
+      "button1": "Şimdi Dene",
+      "button2": "Fiyatları Gör"
+    },
+    "keyFeatures": {
+      "title": "Temel Özellikler",
+      "description": "Güçlü AI görüntü oluşturma yetenekleri",
+      "createFromScratch": {
+        "title": "Sıfırdan Oluştur",
+        "description": "Herhangi bir sahneyi açıklayın ve model onu oluşturur. Referans görüntülere gerek yok—sadece görmek istediğinizi yazın ve model açıklamanızdan oluşturur."
+      },
+      "differentStyles": {
+        "title": "Farklı Stilleri İşler",
+        "description": "Görsel stiller arasında doğal olarak çalışır. İsteminizde stili açıklayarak fotoğraf gerçekçi sahneler, anime karakterleri, dijital illüstrasyonlar, konsept sanatı veya eskizler oluşturun."
+      },
+      "plainTextInput": {
+        "title": "Düz Metin Girişi",
+        "description": "Günlük dilde açıklamalar yazın. \"Gün batımında plajda güneş gözlüğü takan bir kedi\" veya \"neon işaretli cyberpunk sokak sahnesi\"—model doğal ifadeleri anlar."
+      },
+      "fastGeneration": {
+        "title": "Hızlı Oluşturma",
+        "description": "Çoğu görüntü 5-10 saniye içinde oluşturulur. Farklı fikirleri hızlıca test edin—ışık, kompozisyon ve konu varyasyonlarını uzun bekleme süreleri olmadan deneyin."
+      },
+      "clearTextPro": {
+        "title": "Görüntülerde Net Metin (Pro)",
+        "description": "Pro sürümü birden fazla dilde okunabilir metin işler. Tipografinin keskin ve okunabilir kaldığı logolar, posterler, tabelalar ve ürün etiketleri oluşturun. Özellikle Çince karakterlerde iyidir."
+      }
+    },
+    "useCases": {
+      "title": "Kullanım Durumları",
+      "conceptVisualization": {
+        "title": "Konsept Görselleştirme",
+        "description": "Müşterilere bir fikir göstermeniz gerekiyor ama referans fotoğraflarınız yok mu? Konsepti açıklayın ve sunumlar ve sunumlar için görseller oluşturun."
+      },
+      "socialMedia": {
+        "title": "Sosyal Medya Grafikleri",
+        "description": "Gönderiler ve reklamlar için orijinal görüntüler oluşturun. Stok fotoğraflar veya tasarımcı kiralamadan arka planlar, ürün mockup'ları veya illüstrasyonlar oluşturun."
+      },
+      "marketing": {
+        "title": "Pazarlama Materyalleri",
+        "description": "Metin öğeleriyle posterler, reklamlar ve promosyon grafikleri tasarlayın. Pro sürümü tipografiyi net ve profesyonel tutar—etkinlik posterleri ve ürün ambalajları için kullanışlıdır."
+      },
+      "creativeExploration": {
+        "title": "Yaratıcı Keşif",
+        "description": "Detaylı çalışmaya başlamadan önce farklı görsel yönleri test edin. Ne işe yaradığını bulmak için birden fazla stil varyasyonu oluşturun."
+      }
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "description": "Nano Banana Metinden Görüntü hakkında yaygın sorular",
+      "q1": {
+        "question": "Nano Banana Metinden Görüntü nedir?",
+        "answer": "Nano Banana, Google DeepMind'in AI görüntü oluşturucusudur. Metin açıklamalarından görüntüler oluşturur—görmek istediğinizi yazın, saniyeler içinde oluşturulmuş bir görüntü alın."
+      },
+      "q2": {
+        "question": "İstemlerim ne kadar detaylı olmalı?",
+        "answer": "Daha fazla detay genellikle yardımcı olur. \"Bir köpek\" yerine \"parkta oturan altın retriever, sabah güneş ışığı, fotoğrafik stil\" deneyin. Konu, ortam, ışıklandırma ve görsel stil ekleyin."
+      },
+      "q3": {
+        "question": "Hangi formatlar destekleniyor?",
+        "answer": "JPG, PNG ve WebP çıktıları. Şeffaflık desteğine ihtiyacınız varsa PNG'yi seçin."
+      },
+      "q4": {
+        "question": "Nano Banana Pro'dan farkı nedir?",
+        "answer": "Standart Nano Banana farklı stillerde hızlıca görüntüler oluşturur. Pro, kamera tarzı kontroller (alan derinliği, ışıklandırma), birden fazla dilde net metin işleme ve daha yüksek çözünürlüklü çıktı ekler. <a href=\"/text-to-image/nano-banana-pro\" class=\"text-primary underline\">Sürümleri karşılaştır →</a>"
+      },
+      "q5": {
+        "question": "Oluşturma ne kadar sürer?",
+        "answer": "Standart: görüntü başına 5-10 saniye. Pro: karmaşık istemler veya daha yüksek çözünürlüklü çıktılar için 10-15 saniye."
+      }
+    },
+    "finalCTA": {
+      "title": "Oluşturmaya Hazır mısınız?",
+      "description": "Bugünden itibaren metin açıklamalarınızdan harika görüntüler oluşturmaya başlayın.",
+      "button": "Şimdi Dene"
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "textToImage": "Metinden Görüntü",
+      "nanoBanana": "Nano Banana"
+    }
+  }
+}

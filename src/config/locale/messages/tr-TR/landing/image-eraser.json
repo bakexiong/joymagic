@@ -1,0 +1,253 @@
+{
+  "imageEraser": {
+    "id": "image-eraser",
+    "title": "joymagic'ın AI Görüntü Silici",
+    "description": "AI hassasiyetiyle görüntülerden istenmeyen nesneleri, filigranları ve arka planları kaldırın.",
+    "steps": {
+      "sourceImage": {
+        "title": "Kaynak görüntü yükle",
+        "hint": "Buraya görüntü yükle JPG/PNG/WEBP",
+        "dragDrop": "Sürükle ve bırak veya yüklemek için tıkla",
+        "dropHere": "Görüntüyü buraya bırak"
+      },
+      "maskImage": {
+        "title": "Maske görüntüsü yükle (İsteğe bağlı)",
+        "hint": "Silinecek alanları belirtmek için bir maske görüntüsü yükleyin. Beyaz alanlar silinecek, siyah alanlar korunacaktır.",
+        "dragDrop": "Sürükle ve bırak veya yüklemek için tıkla",
+        "dropHere": "Maske görüntüsünü buraya bırak"
+      },
+      "prompt": {
+        "title": "İpucu gir (İsteğe bağlı)",
+        "placeholder": "Ne silmek istediğinizi açıklayın, örn. 'arka plandaki kişiyi kaldır', 'filigranı sil', 'metni kaldır'",
+        "hint": "Görüntüden kaldırılacak nesneleri veya alanları belirtmek için metin ipucu. Örneğin, 'köpek' veya 'şapka'."
+      },
+      "outputFormat": {
+        "title": "Çıktı formatı",
+        "placeholder": "Çıktı formatını seç",
+        "hint": "Çıktı görüntüsü için formatı seçin"
+      },
+      "generate": {
+        "title": "Silinmiş görüntü oluştur",
+        "cta": "Sil",
+        "generating": "Siliniyor..."
+      }
+    },
+    "preview": {
+      "title": "Önizleme",
+      "original": "Orijinal",
+      "erased": "Silindi",
+      "placeholder": "Silinmiş sonucu görmek için buraya bir görüntü yükleyin."
+    },
+    "common": {
+      "selected": "Seçildi: {name}",
+      "notSelected": "Seçilmedi"
+    },
+    "errors": {
+      "invalidFileType": "Geçersiz dosya türü. Lütfen bir görüntü dosyası (JPG, PNG, WEBP) yükleyin.",
+      "uploadFailed": "Yükleme başarısız: {error}",
+      "uploadFailedGeneric": "Yükleme başarısız",
+      "sourceImageRequired": "Lütfen önce bir kaynak görüntü yükleyin",
+      "generationFailed": "Görüntü silme başarısız",
+      "taskFailed": "Görev işleme başarısız",
+      "taskTimeout": "Görev işleme zaman aşımı, lütfen daha sonra tekrar deneyin",
+      "taskIdNotFound": "Görev ID'si alınamadı, lütfen API yanıt formatını kontrol edin",
+      "processingFailed": "İşleme başarısız, lütfen tekrar deneyin",
+      "statusQueryFailed": "Görev durumu sorgulanamadı",
+      "apiResponseParseFailed": "API yanıtı ayrıştırılamadı",
+      "downloadFailed": "Görüntü indirilemedi"
+    },
+    "download": {
+      "title": "Görüntüyü indir"
+    },
+    "alt": {
+      "sourcePreview": "Kaynak önizleme",
+      "maskPreview": "Maske önizleme",
+      "enlargedPreview": "Büyütülmüş önizleme",
+      "source": "Kaynak",
+      "generated": "Oluşturuldu"
+    }
+  },
+  "imageEraserPage": {
+    "metadata": {
+      "title": "AI Görüntü Silici | Fotoğraflardan Nesneleri Kaldır | joymagic",
+      "description": "İstenmeyen nesneleri, insanları veya metinleri fotoğraflardan anında silin. Basit fırça arayüzlü AI görüntü silicisi. Ücretsiz, filigran yok, HD indirme hazır.",
+      "keywords": "AI nesne kaldırıcı, fotoğraf silici, istenmeyen nesneleri kaldır, görüntü temizleme, inpainting, fotoğraf rötuşlama"
+    },
+    "hero": {
+      "title": "AI Görüntü Silici",
+      "description": "joymagic'ın AI görüntü silicisi ile fotoğraflardan istenmeyen nesneleri ücretsiz çevrimiçi kaldırın. İstediğiniz şeyin üzerinden fırçayla geçin – saniyeler içinde kaybolur.",
+      "button1": "Nesneleri Şimdi Kaldır",
+      "button2": "Ücretsiz başla · Kredi kartı yok"
+    },
+    "heroDescription": "✓ HD İndirme ✓ Filigran yok ✓ Toplu işlem desteği",
+    "whatIsAIEraser": {
+      "title": "AI Görüntü Silici Nedir?",
+      "description": "joymagic'ın AI Görüntü Silicisi (Magic Eraser veya Nesne Kaldırıcı olarak da adlandırılır), güçlü AI kullanarak fotoğraflarınızdan istenmeyen nesneleri, insanları, metni, filigranları veya kusurları akıllıca tespit eder ve kaldırırken alanı eşleşen arka planla sorunsuz bir şekilde doldurur.",
+      "unlikeTraditional": "Hassas manuel çalışma gerektiren geleneksel klonlama veya iyileştirme araçlarının aksine, AI'mız:",
+      "understandContext": "Sahne bağlamını ve dokuyu anlar",
+      "generateRealistic": "Mükemmel bir şekilde karışan gerçekçi dolgu oluşturur",
+      "handleComplex": "Çimen, gökyüzü, duvarlar veya kalabalıklar gibi karmaşık arka planları işler",
+      "simpleBrush": "Basit bir fırça veya tıklama ile çalışır",
+      "perfectFor": "Seyahat fotoğraflarını, ürün görüntülerini, portreleri, emlak çekimlerini, sosyal medya içeriklerini ve daha fazlasını temizlemek için mükemmeldir."
+    },
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast processing",
+      "commercialReady": "Commercial-use ready"
+    },
+    "interfaceFeatures": {
+      "title": "On a single, clean interface you get:",
+      "uploadArea": "A drag-and-drop upload area for your source image",
+      "maskArea": "An optional mask image upload to specify exact areas to erase",
+      "promptBox": "An optional prompt box to describe what you want to remove",
+      "formatSelect": "Output format selection (JPEG, PNG, WebP)",
+      "generateButton": "A single Erase button to remove unwanted elements from your image"
+    },
+    "whatYouCanDo": {
+      "title": "joymagic AI Görüntü Silici ile Neler Yapabilirsiniz",
+      "description": "Bir fırça, sonsuz temizleme olanakları.",
+      "travelPhotos": {
+        "title": "Seyahat ve Tatil Fotoğraflarını Temizle",
+        "description": "<p class=\"mb-3\">Mükemmel çekimlerinizden fotoğraf bombacılarını, yabancıları, tabelaları veya çöpleri kaldırın.</p>"
+      },
+      "productPhotography": {
+        "title": "Mükemmel Ürün Fotoğrafçılığı",
+        "description": "<p class=\"mb-3\">E-ticaret görüntülerinden toz, yansımalar, fiyat etiketleri veya istenmeyen aksesuarları silin.</p>"
+      },
+      "portraits": {
+        "title": "Portre ve Selfieleri Geliştir",
+        "description": "<p class=\"mb-3\">Kusurları, dağınık saçları, arka plan dikkat dağıtıcılarını veya eski partnerleri zahmetsizce kaldırın.</p>"
+      },
+      "realEstate": {
+        "title": "Emlak ve İç Mekan Fotoğraflarını Hazırla",
+        "description": "<p class=\"mb-3\">Mobilyaları, dağınıklığı veya kişisel eşyaları profesyonelce sahnelemek için silin.</p>"
+      },
+      "socialMedia": {
+        "title": "Temiz Sosyal Medya İçeriği Oluştur",
+        "description": "<p class=\"mb-3\">Cilalı gönderiler ve hikayeler için filigranları, metin katmanlarını veya dikkat dağıtıcı öğeleri kaldırın.</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Ana Özellikler",
+      "description": "Hız ve kalite için oluşturulmuş güçlü AI görüntü silme yetenekleri.",
+      "smartRemoval": {
+        "title": "Akıllı Tek Dokunuş Kaldırma",
+        "description": "<p class=\"mb-3\">Bir kez fırçalayın – AI neyi kaldıracağını anlar ve doğal olarak doldurur. İnsanları, nesneleri, metni, logoları ve daha fazlasını işler.</p>"
+      },
+      "realisticInpainting": {
+        "title": "Gerçekçi Boyama Teknolojisi",
+        "description": "<p class=\"mb-3\">Gelişmiş üretken AI, plajlar, şehirler veya kumaşlar gibi karmaşık desenlerde bile arka planları mükemmel şekilde yeniden oluşturur.</p>"
+      },
+      "fastPrecise": {
+        "title": "Hızlı ve Hassas Düzenleme",
+        "description": "<p class=\"mb-3\">Gerçek zamanlı önizleme ile saniyeler içinde sonuçlar. Gecikme yok, bekleme yok.</p>"
+      },
+      "batchRemoval": {
+        "title": "Toplu Nesne Kaldırma",
+        "description": "<p class=\"mb-3\">Birden fazla görüntü yükleyin ve hepsini bir kerede temizleyin – fotoğraf toplu işlemleri veya ürün katalogları için idealdir.</p>"
+      },
+      "cleanOutput": {
+        "title": "Temiz Profesyonel Çıktı",
+        "description": "<p class=\"mb-3\">Filigran yok, artefakt yok – her seferinde tam HD indirmeler.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "Fotoğraflardan İstenmeyen Nesneleri Kaldırma",
+      "description": "Ücretsiz AI görüntü silicimizle sadece birkaç basit adımda görüntülerinizden her şeyi silin:",
+      "step1": {
+        "title": "1. Görüntünüzü yükleyin",
+        "description": "<p class=\"mb-3\">Fotoğrafınızı sürükleyip bırakın veya seçin. JPG, JPEG, PNG, WEBP ve HEIC formatlarını destekler.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Manzaralar, portreler, ürün çekimleri ve daha fazlasıyla çalışır</li></ul>"
+      },
+      "step2": {
+        "title": "2. İstenmeyen nesnelerin üzerinden fırçalayın veya tıklayın",
+        "description": "<p class=\"mb-3\">Kaldırmak istediğiniz nesne, kişi, metin veya kusurun üzerinden fırçayla geçin.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Hassasiyet için fırça boyutunu ayarlayın</li><li>AI'mız alanı otomatik olarak tespit eder ve seçer</li></ul>"
+      },
+      "step3": {
+        "title": "3. AI'nın silmesine ve doldurmasına izin verin",
+        "description": "<p class=\"mb-3\">Kaldır'a tıklayın – AI seçimi anında siler ve alanı eşleşen çevreyle akıllıca doldurur.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Sonucu gerçek zamanlı olarak önizleyin</li><li>Gerektiğinde geri alın veya yeniden yapın</li></ul>"
+      },
+      "step4": {
+        "title": "4. İnce ayar yapın ve indirin",
+        "description": "<p class=\"mb-3\">İstenirse ince ayar yapın:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Kaçırılan noktaları yeniden fırçalayın</li><li>Yanlışlıkla kaldırılan alanları geri yükleyin</li></ul><p class=\"mb-3\">Temiz, yüksek kaliteli görüntünüzü indirin – kullanıma hazır.</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "Why joymagic vs Other Image Eraser Tools",
+      "description": "Built specifically for AI-powered image erasing, not just a basic tool.",
+      "focused": {
+        "title": "Focused on AI Image Erasing",
+        "description": "<p class=\"mb-3\">Many tools offer basic erasing features. joymagic is different—it's built with advanced AI:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Smart detection of what to remove</li><li>Context-aware filling of erased areas</li><li>Results tuned specifically for seamless object removal</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "Made for Fast Daily Workflows",
+        "description": "Designed for creators who need to clean up multiple images per day. Fewer steps, cleaner UI, no maze of menus. Quickly process batches of images."
+      },
+      "pricing": {
+        "title": "Pricing That Scales With You",
+        "description": "A clear free tier so you can test image erasing with no risk. A simple paid plan for power users and teams who need higher limits. Transparent usage — pay for what you actually use."
+      },
+      "commercialUse": {
+        "title": "Safe for Commercial Use",
+        "description": "You own the images you generate with joymagic, as long as you have the rights to the original images you upload. Generated images can be used for commercial projects such as campaigns, client work, and ecommerce listings."
+      }
+    },
+    "perfectFor": {
+      "title": "Who joymagic Is Perfect For",
+      "description": "Built for creators, brands, and designers who need clean, professional images.",
+      "photographers": {
+        "title": "Photographers & Creators",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up photos before publishing</li><li>Remove unwanted elements from shots</li><li>Prepare images for portfolios and galleries</li><li>Remove watermarks from your own work</li></ul><p class=\"text-sm text-muted-foreground italic\">Enhance your photography with AI-powered editing.</p>"
+      },
+      "ecommerce": {
+        "title": "Ecommerce & Small Brands",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up product photos</li><li>Remove distracting backgrounds</li><li>Remove watermarks and logos from stock images (with permission)</li><li>Prepare images for product listings</li></ul><p class=\"text-sm text-muted-foreground italic\">Get professional product photos without expensive editing.</p>"
+      },
+      "designers": {
+        "title": "Designers & Agencies",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Quickly clean up images for client projects</li><li>Remove unwanted elements from mockups</li><li>Prepare images for presentations and proposals</li><li>Save time on manual editing tasks</li></ul><p class=\"text-sm text-muted-foreground italic\">joymagic fits neatly into your existing design workflow.</p>"
+      }
+    },
+    "faq": {
+      "title": "AI Görüntü Silici SSS",
+      "description": "AI görüntü silicimiz hakkında yaygın sorular.",
+      "q1": {
+        "question": "Hangi görüntü formatları destekleniyor?",
+        "answer": "JPG, JPEG, PNG, WEBP ve HEIC'i destekliyoruz. Net, yüksek kaliteli görüntülerle en iyi sonuçlar."
+      },
+      "q2": {
+        "question": "Düzenlenmiş görüntülerimde filigran olacak mı?",
+        "answer": "Hayır. Tüm indirmeler temiz ve filigransızdır."
+      },
+      "q3": {
+        "question": "Karmaşık kaldırmalarda ne kadar iyi?",
+        "answer": "AI'mız büyük nesnelerde, kalabalıktaki insanlarda ve dokulu arka planlarda mükemmeldir. Ultra ince detaylar için daha küçük fırça darbeleri kullanın."
+      },
+      "q4": {
+        "question": "Bir görüntüden birden fazla nesne kaldırabilir miyim?",
+        "answer": "Evet – oluşturmadan önce ihtiyacınız olan kadar alanın üzerinden fırçalayın."
+      },
+      "q5": {
+        "question": "Birden fazla görüntüyü aynı anda işleyebilir miyim?",
+        "answer": "Evet – toplu mod, bir oturumda birden fazla fotoğraf yüklemenize ve nesneleri silmenize olanak tanır."
+      },
+      "q6": {
+        "question": "Verilerim güvende mi?",
+        "answer": "Evet. Yüklenen görüntüler güvenli bir şekilde işlenir ve işlemeden sonra otomatik olarak silinir. Onları asla eğitim için kullanmayız."
+      }
+    },
+    "privacySecurity": {
+      "title": "Gizlilik ve Güvenlik",
+      "description": "Görüntüleriniz ve gizliliğiniz önceliğimizdir.",
+      "secureProcessing": "Tüm yüklemeler güvenli bir şekilde işlenir ve şifrelenir",
+      "autoDelete": "Görüntüler işlemeden sonra otomatik olarak silinir",
+      "neverShared": "Üçüncü taraflarla asla paylaşılmaz veya AI eğitimi için kullanılmaz"
+    },
+    "finalCTA": {
+      "title": "Dağınık fotoğrafları temiz, çarpıcı görsellere dönüştürün.",
+      "description": "joymagic'ın AI Görüntü Silicisini şimdi deneyin ve saniyeler içinde istenmeyen her şeyi kaldırın.<br/><span class=\"text-muted-foreground\">Tasarım becerisi gerekmez · Ücretsiz deneyin</span>",
+      "button": "Nesneleri Şimdi Kaldır"
+    }
+  }
+}
+

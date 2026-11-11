@@ -1,0 +1,551 @@
+{
+  "metadata": {
+    "title": "料金",
+    "description": "プランから始める"
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "joymagic 料金",
+    "disclaimer": "joymagic uses open-source AI models (Apache-2.0) deployed and optimized on our own infrastructure.",
+    "title": "Buy Credits & Start Creating!",
+    "description": "joymagic uses open-source AI models (Apache-2.0) deployed and optimized on our own infrastructure.",
+    "groups": [
+      {
+        "name": "yearly",
+        "title": "年額"
+      },
+      {
+        "name": "monthly",
+        "title": "月額"
+      },
+      {
+        "name": "one-time",
+        "title": "使った分だけ支払い"
+      }
+    ],
+    "items": [
+      {
+        "title": "スターター",
+        "description": "軽く柔軟なクレジットパックでプロジェクトを始めましょう。",
+        "features_title": "含まれる内容",
+        "features": [
+          "joymagic の全機能で使える 1890 クレジット",
+          "≈945 回の joymagic 生成（1回あたり 2 クレジット）",
+          "≈236 秒の LTX-2 動画（1秒あたり 8 クレジット）",
+          "≈当サイト掲載の全 25 モデルをご利用いただけます",
+          "joymagic のコア機能を試したい初心者に最適です。"
+        ],
+        "interval": "one-time",
+        "amount": 1890,
+        "currency": "USD",
+        "price": "$18.9",
+        "original_price": "$29.0",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "クレジットを購入",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Starter",
+        "product_name": "joymagic 1890 Credit Pack",
+        "credits": 1890,
+        "valid_days": 180,
+        "group": "one-time"
+      },
+      {
+        "title": "プロフェッショナル（+40% ボーナス）",
+        "description": "スタジオやパワーユーザー向けの大容量プラン。",
+        "features_title": "含まれる内容",
+        "features": [
+          "40% ボーナス付き 4200 クレジット",
+          "≈2100 回の joymagic 生成（1回あたり 2 クレジット）",
+          "≈525 秒の LTX-2 動画（1秒あたり 8 クレジット）",
+          "≈当サイト掲載の全 25 モデルをご利用いただけます",
+          "優先処理でタスクをより早く完了",
+          "複数タスクの同時実行",
+          "プロ、クリエイター、スタジオ、AI コンテンツパワーユーザーに最適"
+        ],
+        "interval": "one-time",
+        "amount": 2990,
+        "currency": "USD",
+        "price": "$29.9",
+        "original_price": "$80",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "クレジットを購入",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Premium",
+        "product_name": "joymagic 4200 Credit Pack",
+        "credits": 4200,
+        "valid_days": 365,
+        "group": "one-time"
+      },
+      {
+        "title": "タイタン（+50% ボーナス）",
+        "description": "大量制作向けの最高コスパプラン — 優先キューと高スループット付き。",
+        "features_title": "含まれる内容",
+        "features": [
+          "50% ボーナス付き 15000 クレジット",
+          "≈7500 回の joymagic 生成（1回あたり 2 クレジット）",
+          "≈1875 秒の LTX-2 動画（1秒あたり 8 クレジット）",
+          "≈当サイト掲載の全 25 モデルをご利用いただけます",
+          "全タスク優先処理",
+          "並列タスクで生産性アップ",
+          "プロ、クリエイター、スタジオ、AI パワーユーザー、企業利用に最適"
+        ],
+        "interval": "one-time",
+        "amount": 9990,
+        "currency": "USD",
+        "price": "$99.9",
+        "original_price": "$199",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "クレジットを購入",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Titan",
+        "product_name": "joymagic 15000 Credit Pack",
+        "credits": 15000,
+        "valid_days": 365,
+        "group": "one-time"
+      },
+      {
+        "title": "スターター月額",
+        "description": "軽く柔軟なクレジットパックでプロジェクトを始めましょう。",
+        "features_title": "含まれる内容",
+        "features": [
+          "joymagic の全機能で使える 1890 クレジット",
+          "≈945 回の joymagic 生成（1回あたり 2 クレジット）",
+          "≈236 秒の LTX-2 動画（1秒あたり 8 クレジット）",
+          "≈当サイト掲載の全 25 モデルをご利用いただけます",
+          "joymagic のコア機能を試したい初心者に最適です。"
+        ],
+        "interval": "month",
+        "amount": 1690,
+        "currency": "USD",
+        "price": "$16.9/月",
+        "original_price": "$26.0",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "クレジットを購入",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Starter-Monthly",
+        "product_name": "joymagic 1890 Credit Pack Monthly",
+        "credits": 1890,
+        "valid_days": 360,
+        "group": "monthly"
+      },
+      {
+        "title": "プロフェッショナル月額",
+        "description": "スタジオやパワーユーザー向けの大容量プラン。",
+        "features_title": "含まれる内容",
+        "features": [
+          "月 4200 クレジット（40% ボーナス付き）",
+          "≈2100 回の joymagic 生成（1回あたり 2 クレジット）",
+          "≈525 秒の LTX-2 動画（1秒あたり 8 クレジット）",
+          "≈当サイト掲載の全 25 モデルをご利用いただけます",
+          "優先処理でタスクをより早く完了",
+          "複数タスクの同時実行",
+          "プロ、クリエイター、スタジオ、AI コンテンツパワーユーザーに最適"
+        ],
+        "interval": "month",
+        "amount": 2690,
+        "currency": "USD",
+        "price": "$26.9/月",
+        "original_price": "$80",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "クレジットを購入",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Premium-Monthly",
+        "product_name": "joymagic 4200 Credit Pack Monthly",
+        "credits": 4200,
+        "valid_days": 365,
+        "group": "monthly"
+      },
+      {
+        "title": "タイタン月額",
+        "description": "大量制作向けの最高コスパプラン — 優先キューと高スループット付き。",
+        "features_title": "含まれる内容",
+        "features": [
+          "月 15000 クレジット（50% ボーナス付き）",
+          "≈7500 回の joymagic 生成（1回あたり 2 クレジット）",
+          "≈1875 秒の LTX-2 動画（1秒あたり 8 クレジット）",
+          "≈当サイト掲載の全 25 モデルをご利用いただけます",
+          "全タスク優先処理",
+          "並列タスクで生産性アップ",
+          "プロ、クリエイター、スタジオ、AI パワーユーザー、企業利用に最適"
+        ],
+        "interval": "month",
+        "amount": 8990,
+        "currency": "USD",
+        "price": "$89.9/月",
+        "original_price": "$199",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "クレジットを購入",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Titan-Monthly",
+        "product_name": "joymagic 15000 Credit Pack Monthly",
+        "credits": 15000,
+        "valid_days": 365,
+        "group": "monthly"
+      },
+      {
+        "title": "スターター年額",
+        "description": "軽く柔軟なクレジットパックでプロジェクトを始めましょう。",
+        "features_title": "含まれる内容",
+        "features": [
+          "年間 22680 クレジット（joymagic 全機能で利用可）",
+          "≈11340 回の joymagic 生成（1回あたり 2 クレジット）",
+          "≈2835 秒の LTX-2 動画（1秒あたり 8 クレジット）",
+          "≈当サイト掲載の全 25 モデルをご利用いただけます",
+          "joymagic のコア機能を試したい初心者に最適です。"
+        ],
+        "interval": "year",
+        "amount": 11900,
+        "currency": "USD",
+        "price": "$9.9/月",
+        "original_price": "$179",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "クレジットを購入",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Starter-Yearly",
+        "product_name": "joymagic 22680 Credit Pack Yearly",
+        "credits": 22680,
+        "valid_days": 360,
+        "group": "yearly"
+      },
+      {
+        "title": "プロフェッショナル年額",
+        "description": "スタジオやパワーユーザー向けの大容量プラン。",
+        "features_title": "含まれる内容",
+        "features": [
+          "年間 50400 クレジット（40% ボーナス付き）",
+          "≈25200 回の joymagic 生成（1回あたり 2 クレジット）",
+          "≈6300 秒の LTX-2 動画（1秒あたり 8 クレジット）",
+          "≈当サイト掲載の全 25 モデルをご利用いただけます",
+          "優先処理でタスクをより早く完了",
+          "複数タスクの同時実行",
+          "プロ、クリエイター、スタジオ、AI コンテンツパワーユーザーに最適"
+        ],
+        "interval": "year",
+        "amount": 23880,
+        "currency": "USD",
+        "price": "$19.9/月",
+        "original_price": "$80",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "クレジットを購入",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Premium-Yearly",
+        "product_name": "joymagic 50400 Credit Pack Yearly",
+        "credits": 50400,
+        "valid_days": 365,
+        "group": "yearly"
+      },
+      {
+        "title": "タイタン年額",
+        "description": "大量制作向けの最高コスパプラン — 優先キューと高スループット付き。",
+        "features_title": "含まれる内容",
+        "features": [
+          "年間 180000 クレジット（50% ボーナス付き）",
+          "≈90000 回の joymagic 生成（1回あたり 2 クレジット）",
+          "≈22500 秒の LTX-2 動画（1秒あたり 8 クレジット）",
+          "≈当サイト掲載の全 25 モデルをご利用いただけます",
+          "全タスク優先処理",
+          "並列タスクで生産性アップ",
+          "プロ、クリエイター、スタジオ、AI パワーユーザー、企業利用に最適"
+        ],
+        "interval": "year",
+        "amount": 71800,
+        "currency": "USD",
+        "price": "$59.8/月",
+        "original_price": "$199",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "クレジットを購入",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Titan-Yearly",
+        "product_name": "joymagic 180000 Credit Pack Yearly",
+        "credits": 180000,
+        "valid_days": 365,
+        "group": "yearly"
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "よくある質問",
+    "description": "joymagic のクレジットと料金に関するよくある質問。",
+    "items": [
+      {
+        "question": "クレジット購入では何に支払っているのですか？",
+        "answer": "クレジットは画像生成のコンピュート使用量を表します。画像リクエストのたびに残高から一定のクレジットが差し引かれます。使った分だけお支払い — サブスクは不要で、隠れた料金もありません。"
+      },
+      {
+        "question": "クレジットには有効期限がありますか？",
+        "answer": "はい。購入日から 365 日間有効です。未使用のクレジットは 365 日後に自動失効し、法令で認められる場合を除き返金できません。"
+      },
+      {
+        "question": "購入後の返金は可能ですか？",
+        "answer": "二重課金やシステムエラーでクレジットが届かなかった場合など、特定の場合にのみ返金対応します。使用済みクレジットは返金不可です。詳細は返金ポリシーをご確認ください。"
+      },
+      {
+        "question": "支払いはどのように処理されますか？",
+        "answer": "すべての支払いは記録販売業者（Merchant of Record）の Creem が安全に処理します。Creem が税務、請求、決済を管理します。joymagic はクレジットカード情報を処理・保存しません。"
+      },
+      {
+        "question": "joymagic はサブスクリプションサービスですか？",
+        "answer": "いいえ。joymagic はクレジット制です。必要なときにクレジットを購入し、365 日以内にご自身のペースでご利用ください。"
+      },
+      {
+        "question": "購入後にプランのキャンセルや変更はできますか？",
+        "answer": "クレジット購入は一度限りの取引で、クレジット付与後のキャンセルはできません。必要に応じて追加購入できます。"
+      },
+      {
+        "question": "画像生成のクレジット消費は常に同じですか？",
+        "answer": "モデル種類、解像度、今後の機能更新により変わる場合があります。変更は実施前に明確に告知します。"
+      },
+      {
+        "question": "joymagic はプロンプトや生成画像を保存しますか？",
+        "answer": "いいえ。明示的にアカウントに保存しない限り、プロンプトや生成画像は保存されません。ユーザーコンテンツをモデル学習には使用しません。"
+      },
+      {
+        "question": "安全はどのように確保されていますか？",
+        "answer": "すべてのプロンプトは自動の安全・モデレーションフィルターを通し、禁止コンテンツ（NSFW、暴力、違法利用など）をブロックします。詳細はコンテンツモデレーションポリシーをご確認ください。"
+      },
+      {
+        "question": "joymagic はオープンソースモデルベースですか？",
+        "answer": "はい。joymagic は Apache-2.0 オープンソースライセンスのコンポーネントを使用しています。帰属はオープンソース帰属ページに記載しています。joymagic は独立サービスであり、元のモデル作者とは提携していません。"
+      },
+      {
+        "question": "生成した画像の著作権は自分にありますか？",
+        "answer": "はい。利用規約と適用法令に従い、生成画像に対する権利はお客様に帰属します。"
+      },
+      {
+        "question": "支払いが失敗した場合はどうなりますか？",
+        "answer": "支払いが完了しない場合：課金されず、クレジットも付与されません。別の支払い方法で再試行できます。問題が続く場合は support@joymagic.fun までご連絡ください。"
+      },
+      {
+        "question": "領収書や請求書はどこで確認できますか？",
+        "answer": "Creem が購入のたびに領収書をメールで送信します。利用可能な場合はアカウントダッシュボードで請求履歴も確認できます。"
+      },
+      {
+        "question": "クレジットは通貨ですか？",
+        "answer": "いいえ。クレジットは使用単位であり、通貨ではありません。金銭的価値はなく、現金への換金や譲渡・交換・取引はできません。joymagic 内のコンピュート使用量の測定にのみ使われ、画像生成やその他対応機能の利用時に消費されます。"
+      }
+    ]
+  },
+  "page": {
+    "current_plan": "現在のプラン",
+    "processing": "処理中"
+  },
+  "credit_modal": {
+    "title": "🎉 おめでとうございます！特別割引価格が解放されました",
+    "tabs": {
+      "yearly": {
+        "label": "年額",
+        "badge": "20% お得"
+      },
+      "monthly": {
+        "label": "月額"
+      },
+      "one_time": {
+        "label": "都度購入"
+      },
+      "one_time_short": "都度購入"
+    },
+    "instant_delivery": "即時チャージ — 決済後すぐにクレジットがウォレットに反映されます。スピードと効率を重視する AI ネイティブなクリエイターに最適です。",
+    "see_credits_link": "各機能のおおよそのクレジット消費量を見る",
+    "limited_time_bonus": "期間限定ボーナス",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "小規模プロジェクトの立ち上げに最適な、軽量で柔軟なクレジットパック。",
+        "credits": "1,890 クレジット",
+        "cta_label": "今すぐ購入",
+        "features": {
+          "1": "joymagic 上のすべての機能で利用できる 1,890 点の汎用クレジット",
+          "2": "≈945 回の joymagic 生成（1回あたり 2 クレジット）",
+          "3": "≈236 秒の LTX-2 動画（1秒あたり 8 クレジット）",
+          "4": "サイトに掲載されている 25 個すべてのモデルにアクセス可能",
+          "5": "初めて joymagic を試す新規ユーザーにぴったりの入門パックです。"
+        }
+      },
+      "professional": {
+        "name": "プロ",
+        "description": "スタジオや高頻度クリエイター向けの大容量パッケージ。",
+        "credits": "4,200 クレジット",
+        "bonus": "+40% 追加ボーナス",
+        "tag": "⭐️ おすすめ",
+        "cta_label": "今すぐ購入",
+        "features": {
+          "1": "≈2,100 回の joymagic 生成",
+          "2": "≈525 秒の LTX-2 動画",
+          "3": "サイト掲載の 25 モデルすべてにアクセス可能",
+          "4": "優先処理でタスクをより早く完了"
+        }
+      },
+      "titan": {
+        "name": "タイタン",
+        "description": "高頻度クリエイターやチームに最適なコストパフォーマンス重視プラン。",
+        "credits": "15,000 クレジット",
+        "bonus": "+50% 追加ボーナス",
+        "cta_label": "今すぐ購入",
+        "features": {
+          "1": "≈7,500 回の joymagic 生成",
+          "2": "≈1,875 秒の LTX-2 動画",
+          "3": "サイト掲載の 25 モデルすべてにアクセス可能",
+          "4": "高い同時実行に対応する優先キュー処理"
+        }
+      },
+      "monthly_professional": {
+        "name": "プロ",
+        "description": "安定した制作ペースを持つプロユーザー向けの月額プラン。毎月更新で柔軟に利用できます。",
+        "credits": "毎月 4,200 クレジット",
+        "bonus": "+40% 追加ボーナス",
+        "tag": "⭐️ おすすめ",
+        "cta_label": "今すぐ購入",
+        "features": {
+          "1": "月あたり ≈2,100 回の joymagic 生成",
+          "2": "月あたり ≈525 秒の LTX-2 動画",
+          "3": "サイト掲載の 25 モデルすべてにアクセス可能",
+          "4": "優先処理キューを利用可能"
+        }
+      },
+      "monthly_titan": {
+        "name": "タイタン",
+        "description": "チームやスタジオ向けのヘビー・ユース月額プラン。",
+        "credits": "毎月 15,000 クレジット",
+        "bonus": "+50% 追加ボーナス",
+        "cta_label": "今すぐ購入",
+        "features": {
+          "1": "月あたり ≈7,500 回の joymagic 生成",
+          "2": "月あたり ≈1,875 秒の LTX-2 動画",
+          "3": "サイト掲載の 25 モデルすべてにアクセス可能",
+          "4": "大規模コンテンツ制作に適した優先処理"
+        }
+      },
+      "yearly_professional": {
+        "name": "プロ",
+        "description": "プロクリエイター向けの年間プラン。長期利用ほどお得になります。",
+        "credits": "年間 50,400 クレジット",
+        "bonus": "+40% 追加ボーナス",
+        "tag": "⭐️ 最もお得",
+        "cta_label": "今すぐ購入",
+        "features": {
+          "1": "年間 ≈25,200 回の joymagic 生成",
+          "2": "年間 ≈6,300 秒の LTX-2 動画",
+          "3": "サイト掲載の 25 モデルすべてにアクセス可能",
+          "4": "長期プロジェクトに最適な優先キューと安定した枠"
+        }
+      },
+      "yearly_titan": {
+        "name": "タイタン",
+        "description": "大規模コンテンツ制作やエンタープライズ向けに設計されたフラッグシップ年間プラン。",
+        "credits": "年間 180,000 クレジット",
+        "bonus": "+50% 追加ボーナス",
+        "cta_label": "今すぐ購入",
+        "features": {
+          "1": "年間 ≈90,000 回の joymagic 生成",
+          "2": "年間 ≈22,500 秒の LTX-2 動画",
+          "3": "サイト掲載の 25 モデルすべてにアクセス可能",
+          "4": "企業や大規模チーム向けの優先処理と高い同時実行サポート"
+        }
+      },
+      "monthly_starter": {
+        "name": "スターター月額",
+        "description": "軽く柔軟なクレジットパックでプロジェクトを始めましょう。",
+        "credits": "毎月 1,890クレジット",
+        "cta_label": "今すぐ購入",
+        "features": {
+          "1": "joymagic の全機能で使える 1890 クレジット",
+          "2": "≈945 回の joymagic 生成（1回あたり 2 クレジット）",
+          "3": "≈236 秒の LTX-2 動画（1秒あたり 8 クレジット）",
+          "4": "≈当サイト掲載の全 25 モデルをご利用いただけます",
+          "5": "joymagic のコア機能を試したい初心者に最適です。"
+        }
+      },
+      "yearly_starter": {
+        "name": "スターター年額",
+        "description": "軽く柔軟なクレジットパックでプロジェクトを始めましょう。",
+        "credits": "年間 22,680クレジット",
+        "cta_label": "今すぐ購入",
+        "features": {
+          "1": "年間 22680 クレジット（joymagic 全機能で利用可）",
+          "2": "≈11340 回の joymagic 生成（1回あたり 2 クレジット）",
+          "3": "≈2835 秒の LTX-2 動画（1秒あたり 8 クレジット）",
+          "4": "≈当サイト掲載の全 25 モデルをご利用いただけます",
+          "5": "joymagic のコア機能を試したい初心者に最適です。"
+        }
+      }
+    },
+    "close": "Close",
+    "hero_discount": "40% OFF",
+    "default_cta": "Buy Now",
+    "recurring_billing_note": "Recurring billing, cancel anytime.",
+    "badges": {
+      "most_popular": "MOST POPULAR"
+    },
+    "comparison": {
+      "features_label": "機能"
+    },
+    "countdown_units": {
+      "minute": "分",
+      "second": "秒",
+      "centisecond": "ms"
+    },
+    "plan_labels": {
+      "starter": "スターター",
+      "professional": "プロ",
+      "titan": "タイタン"
+    },
+    "discount": {
+      "title": "割引コード",
+      "description": "アフィリエイト割引コードを入力すると、チェックアウト時に自動で適用されます。",
+      "placeholder": "割引コードを入力",
+      "apply": "適用",
+      "applied": "適用済み",
+      "remove": "削除",
+      "success": "割引コードが適用されました。チェックアウト時に利用されます。",
+      "helper": "割引はチェックアウト時に自動で反映されます。",
+      "applied_label": "適用中の割引コード",
+      "rate_label": "想定割引率",
+      "errors": {
+        "empty": "割引コードを入力してください",
+        "invalid": "無効な割引コードです",
+        "already_used": "この割引コードはすでに使用しています。"
+      }
+    },
+    "errors": {
+      "no_product": "このプランには購入可能な商品が設定されていません。",
+      "checkout_failed": "チェックアウトに失敗しました。しばらくしてからもう一度お試しください。"
+    }
+  }
+}

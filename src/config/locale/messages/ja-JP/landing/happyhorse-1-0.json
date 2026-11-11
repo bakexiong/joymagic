@@ -1,0 +1,122 @@
+{
+  "textToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 テキストから動画 - 映画風 AI 動画ジェネレーター | joymagic",
+      "description": "HappyHorse 1.0 で 3-15 秒の 720p 映画風クリップを生成。テキストプロンプトを高品質な 16:9 AI 動画に変換し、必要に応じて seed で再現性も確保できます。",
+      "keywords": "happyhorse 1.0, テキストから動画, ai動画生成, alibaba happyhorse, 映画風ai動画, 720p テキストから動画, 16:9 ai動画"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 テキストから動画",
+      "description": "HappyHorse 1.0 は、シンプルなプロンプトを洗練された 3-15 秒の映画風クリップに変換します。ネイティブ 16:9 構図、720p 出力、必要に応じた seed 制御により、短いドラフトを素早く比較できます。<br/><br/>静止画からアニメーションを作りたい場合は、<a href=\"/image-to-video/happyhorse-1-0\" class=\"text-primary underline\">HappyHorse 1.0 画像から動画</a> をお試しください。",
+      "button1": "今すぐ試す",
+      "button2": "料金を見る"
+    },
+    "keyFeatures": {
+      "title": "主な特長",
+      "cinematicPreset": {
+        "title": "標準で映画風",
+        "description": "ビジュアル提案、SNS ティザー、短いコンセプト動画向けに調整された映像表現をすぐに生成できます。"
+      },
+      "fastStoryboard": {
+        "title": "3-15 秒の高速ドラフト",
+        "description": "3〜15秒の長さを選べるので、複数案を並べて比較しやすく、プロンプトの方向性を素早く詰められます。"
+      },
+      "reproducibleSeed": {
+        "title": "再現しやすい Seed 制御",
+        "description": "複数回の生成で近い結果を維持したいときに seed が役立ちます。"
+      },
+      "nativeWideframe": {
+        "title": "ネイティブ 16:9 出力",
+        "description": "追加のトリミングなしで、そのまま共有しやすいワイド画面動画を生成できます。"
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "HappyHorse 1.0 テキストから動画とは何ですか？",
+        "answer": "Alibaba HappyHorse 1.0 を使って、テキストプロンプトから 3-15 秒の 720p 動画を生成する AI 動画ワークフローです。"
+      },
+      "q2": {
+        "question": "対応アスペクト比は？",
+        "answer": "現在のテキストから動画ワークフローは 16:9 出力向けに最適化されています。"
+      },
+      "q3": {
+        "question": "長さは変更できますか？",
+        "answer": "このリリースは高速な 3-15 秒生成に特化しており、素早い確認と反復に向いています。"
+      },
+      "q4": {
+        "question": "Seed は何のために使いますか？",
+        "answer": "Seed を使うと、複数回の生成で結果を再現したり安定させたりしやすくなります。"
+      },
+      "q5": {
+        "question": "どんな用途に向いていますか？",
+        "answer": "短い映画風コンセプト動画を素早く作りたいクリエイター、マーケター、プロダクトチームに向いています。"
+      }
+    },
+    "finalCTA": {
+      "title": "HappyHorse 1.0 で動画を作りませんか？",
+      "description": "プロンプトを短い映画風クリップに変換してみましょう。",
+      "button": "動画を生成"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 画像から動画 - 静止画を AI でアニメ化 | joymagic",
+      "description": "HappyHorse 1.0 で静止画を 3-15 秒の 720p クリップに変換。1 枚の画像をアップロードするだけで、シンプルな流れで素早く映像化できます。",
+      "keywords": "happyhorse 1.0, 画像から動画, 画像アニメーション, ai画像アニメ, alibaba happyhorse, 720p 画像から動画, 3-15秒 ai動画"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 画像から動画",
+      "description": "HappyHorse 1.0 は 1 枚の画像を 3-15 秒の 720p アニメーションクリップに変換します。参照画像を 1 枚アップロードし、必要であれば動きのプロンプトを追加するだけで、すっきりしたワイド映像を素早く生成できます。<br/><br/>テキストから始めたい場合は、<a href=\"/text-to-video/happyhorse-1-0\" class=\"text-primary underline\">HappyHorse 1.0 テキストから動画</a> をお試しください。",
+      "button1": "今すぐ試す",
+      "button2": "料金を見る"
+    },
+    "keyFeatures": {
+      "title": "主な特長",
+      "singleImageMotion": {
+        "title": "1 枚の画像を動画化",
+        "description": "複雑なシーン設計なしで、静止画 1 枚から動きを加えられます。"
+      },
+      "fastFiveSecond": {
+        "title": "3-15 秒の高速出力",
+        "description": "3〜15秒の長さを選べるので、軽量に試作しながら結果を比較しやすくなります。"
+      },
+      "cleanOutput": {
+        "title": "クリーンな 720p 出力",
+        "description": "コンセプトデモ、SNS 投稿、キャンペーンモックなどに使いやすい HD クリップを生成します。"
+      },
+      "simpleWorkflow": {
+        "title": "シンプルな操作",
+        "description": "画像、長さ、解像度という基本操作に絞り、必要に応じてモーション指示も追加できます。"
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "HappyHorse 1.0 画像から動画は何をしますか？",
+        "answer": "アップロードした 1 枚の画像を短い AI 動画クリップに変換します。"
+      },
+      "q2": {
+        "question": "プロンプトは必須ですか？",
+        "answer": "いいえ。プロンプトは任意ですが、動きや雰囲気の方向付けに役立ちます。"
+      },
+      "q3": {
+        "question": "出力品質は？",
+        "answer": "現在の設定では 720p 動画を生成します。"
+      },
+      "q4": {
+        "question": "動画の長さは？",
+        "answer": "このワークフローは現在 3-15 秒クリップ向けに調整されています。"
+      },
+      "q5": {
+        "question": "テキストから動画ではなく画像から動画を使うべき場面は？",
+        "answer": "参照フレーム、キャラクター、商品写真、構図をそのまま保ちたい場合に画像から動画が適しています。"
+      }
+    },
+    "finalCTA": {
+      "title": "HappyHorse 1.0 で画像を動かす",
+      "description": "静止画をアップロードして、素早くシンプルに動画化しましょう。",
+      "button": "画像をアニメ化"
+    }
+  }
+}

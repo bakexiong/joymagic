@@ -1,0 +1,180 @@
+{
+  "title": "Midjourney スタイル テキストから画像",
+  "subtitle": "テキストの説明から素晴らしい Midjourney スタイルの画像を生成",
+  "prompt_label": "プロンプト",
+  "prompt_placeholder": "空気のような森の風景、ゴールデンアワーの照明、印象派スタイル、ソフトフォーカス、夢のような雰囲気。",
+  "prompt_tooltip": "生成したい画像の説明を入力してください",
+  "aspect_ratio_label": "アスペクト比",
+  "aspect_ratio_hint": "生成する画像のアスペクト比を選択",
+  "aspect_ratio_placeholder": "アスペクト比を選択（オプション）",
+  "aspect_ratio_none": "（なし）",
+  "resolution_label": "解像度",
+  "resolution_hint": "生成する画像の解像度を選択",
+  "output_format_label": "出力形式",
+  "output_format_hint": "出力画像の形式を選択",
+  "sref_label": "参照画像",
+  "sref_placeholder": "参照画像のURLを入力（オプション）",
+  "sref_hint": "参照画像をアップロードまたはURLを提供して生成スタイルに影響を与える",
+  "sref_upload_hint": "PNG、JPG、WebP対応",
+  "sref_drag_drop": "ドラッグ＆ドロップまたはクリックしてアップロード",
+  "sref_drop_here": "ここに画像をドロップ",
+  "sref_upload_active": "アップロードした画像を参照として使用中",
+  "quality_label": "品質",
+  "quality_hint": "画像品質レベルを選択",
+  "stylize_label": "スタイライズ",
+  "stylize_hint": "芸術的スタイルの強度を制御（0-1000）",
+  "chaos_label": "カオス",
+  "chaos_hint": "結果にバリエーションを追加（0-100）",
+  "weird_label": "ウィアード",
+  "weird_hint": "画像を風変わりで型破りにする（0-3000）",
+  "version_label": "バージョン",
+  "version_hint": "Midjourneyモデルバージョンを選択",
+  "niji_label": "Nijiモード",
+  "niji_hint": "アニメ美学のためのNijiモデル",
+  "niji_none": "なし",
+  "seed_label": "シード",
+  "seed_hint": "再現可能な結果のためのシード値（-1でランダム）",
+  "estimated_credits": "推定クレジット",
+  "buttons": {
+    "generate": "画像を生成",
+    "generating": "生成中...",
+    "estimating": "推定中...",
+    "checking": "確認中...",
+    "unavailable": "利用不可",
+    "credits": "クレジット"
+  },
+  "errors": {
+    "promptRequired": "プロンプトは必須です",
+    "generate_failed": "画像の生成に失敗しました: {status}",
+    "generate_failed_default": "画像の生成に失敗しました",
+    "no_request_id": "リクエストIDの取得に失敗しました",
+    "restricted": "このサービスはお住まいの地域ではご利用いただけません",
+    "uploadFailed": "画像のアップロードに失敗しました",
+    "invalidFileType": "無効なファイル形式です。画像ファイルをアップロードしてください"
+  },
+  "image_alt": "生成された画像",
+  "download": "ダウンロード",
+  "download_success": "ダウンロード成功",
+  "download_error": "ダウンロード失敗",
+  "image_placeholder": "生成された画像がここに表示されます",
+  "prompt_inspirations_button": "プロンプトのインスピレーション",
+  "prompt_guide_button": "プロンプトガイド",
+  "powered_by": "joymagicによって最適化された Midjourney スタイル AIモデルで動作",
+  "prompt_guides": {
+    "guide1": "最高の Midjourney シーンプロンプト",
+    "guide2": "最高の Midjourney ポートレートプロンプト",
+    "guide3": "Midjourney 製品写真プロンプト",
+    "guide4": "Midjourney 画像プロンプト：5層フレームワーク",
+    "guide5": "コピー＆ペースト Midjourney アートプロンプト",
+    "guide6": "Midjourney プロンプトエンジニアリング",
+    "guide7": "Midjourney スタイルガイド",
+    "guide8": "Midjourney 構図テクニック",
+    "guide9": "50の最高の Midjourney クリエイティブプロンプト",
+    "guide10": "50の最高の Midjourney アートスタイルプロンプト"
+  },
+  "page": {
+    "metadata": {
+      "title": "Midjourney スタイル AI テキストから画像ジェネレーター | joymagic",
+      "description": "テキストの説明から素晴らしい Midjourney スタイルの画像を生成。芸術的コントロール、高解像度出力、創造的柔軟性を備えたプロフェッショナルな AI 画像生成。",
+      "keywords": "midjourney, テキストから画像, ai画像ジェネレーター, midjourney代替, aiアートジェネレーター, クリエイティブ画像生成, 芸術的ai, midjourneyスタイル"
+    },
+    "hero": {
+      "title": "Midjourney スタイル テキストから画像",
+      "description": "高度な AI を使用してテキストの説明から素晴らしい Midjourney スタイルの画像を作成します。芸術的コントロール、創造的柔軟性、プロフェッショナル品質の出力を体験してください。高品質な AI 生成画像を求めるデザイナー、アーティスト、クリエイティブプロフェッショナルに最適です。<br/><br/>他の AI モデルをお探しですか？<a href=\"/text-to-image\" class=\"text-primary underline\">すべてのテキストから画像ツールを探索</a>。",
+      "button1": "今すぐ試す",
+      "button2": "価格を見る"
+    },
+    "keyFeatures": {
+      "title": "Midjourney スタイル機能",
+      "description": "クリエイティブな画像生成のためのプロフェッショナルな芸術的能力",
+      "artisticControl": {
+        "title": "芸術的コントロール",
+        "description": "自然言語プロンプトで芸術スタイル、ムード、美的方向性を微調整します。絵画スタイル、芸術運動、または特定の視覚的品質を説明して、創造的ビジョンを実現します。"
+      },
+      "highQuality": {
+        "title": "高品質出力",
+        "description": "卓越したディテールと明瞭さを持つプロフェッショナルグレードの画像を生成します。商業プロジェクト、ポートフォリオ作品、高解像度印刷ニーズに適しています。"
+      },
+      "creativeFlexibility": {
+        "title": "創造的柔軟性",
+        "description": "フォトリアリスティックなレンダリングから抽象芸術まで、無限の創造的可能性を探索します。スタイルを混ぜ、コンセプトを組み合わせ、ユニークな視覚的組み合わせを実験します。"
+      },
+      "compositionControl": {
+        "title": "構図コントロール",
+        "description": "説明的なプロンプトを通じてフレーミング、視点、視覚的階層を直接制御します。技術的な写真知識なしでプロフェッショナルな構図を実現します。"
+      },
+      "styleConsistency": {
+        "title": "スタイルの一貫性",
+        "description": "複数の生成にわたって一貫した視覚スタイルを維持します。まとまりのあるシリーズ、ブランド素材、またはプロジェクトコレクションの作成に最適です。"
+      }
+    },
+    "standardFeatures": {
+      "title": "標準機能",
+      "description": "必要なすべての基本機能",
+      "multipleStyles": {
+        "title": "複数のアートスタイル",
+        "description": "フォトリアリスティック、アニメ、油絵、水彩、デジタルアート"
+      },
+      "naturalLanguage": {
+        "title": "自然言語プロンプト",
+        "description": "日常的な言葉でビジョンを説明"
+      },
+      "fastGeneration": {
+        "title": "高速生成",
+        "description": "画像あたり10-20秒"
+      },
+      "multipleFormats": {
+        "title": "複数の出力形式",
+        "description": "JPG、PNG、WebP"
+      }
+    },
+    "useCases": {
+      "title": "使用例",
+      "conceptArt": {
+        "title": "コンセプトアート＆デザイン",
+        "description": "ゲーム、映画、クリエイティブプロジェクトのコンセプトアートを作成します。視覚的方向性を素早く探索し、従来のイラスト時間なしでアイデアを反復します。"
+      },
+      "marketing": {
+        "title": "マーケティング＆広告",
+        "description": "キャンペーン、ソーシャルメディア、プロモーション素材のための目を引くビジュアルを生成します。目立ち、注目を集めるユニークな画像を作成します。"
+      },
+      "creative": {
+        "title": "クリエイティブ探索",
+        "description": "芸術スタイルと視覚的コンセプトを実験します。インスピレーションを求めたり、新しい方向性を探索したりするアーティスト、デザイナー、クリエイティブに最適です。"
+      },
+      "portfolio": {
+        "title": "ポートフォリオ＆プレゼンテーション",
+        "description": "ポートフォリオ、プレゼンテーション、クライアントピッチのためのプロフェッショナル品質の画像を作成します。洗練された高解像度のビジュアルでアイデアを紹介します。"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "Midjourney スタイル テキストから画像生成に関するよくある質問",
+      "q1": {
+        "question": "Midjourney スタイル生成はどのように機能しますか？",
+        "answer": "私たちの AI モデルは、美的魅力、創造的解釈、プロフェッショナル品質の出力に焦点を当てた、Midjourney に似た芸術的品質を持つ画像を生成するように訓練されています。自然言語でビジョンを説明するだけです。"
+      },
+      "q2": {
+        "question": "これは他の AI 画像ジェネレーターと何が違いますか？",
+        "answer": "Midjourney スタイル生成は、芸術的品質、創造的解釈、美的魅力を強調します。強い構図と芸術的一貫性を持つ視覚的に印象的な画像の制作に優れています。"
+      },
+      "q3": {
+        "question": "生成された画像を商業的に使用できますか？",
+        "answer": "はい、私たちのプラットフォームを通じて生成された画像は商業目的で使用できます。具体的な使用権と帰属要件については、利用規約をご確認ください。"
+      },
+      "q4": {
+        "question": "プロンプトはどの程度詳細にすべきですか？",
+        "answer": "より詳細なプロンプトは一般的により良い結果を生み出します。主題、芸術スタイル、ムード、照明、構図、および希望する特定の視覚要素を含めてください。例：「空気のような森の風景、ゴールデンアワーの照明、印象派スタイル、ソフトフォーカス、夢のような雰囲気」。"
+      },
+      "q5": {
+        "question": "生成された画像の解像度は？",
+        "answer": "生成された画像は高解像度で、ウェブ、印刷、プレゼンテーションを含むほとんどのプロフェッショナルな用途に適しています。さらに高解像度の出力のためのオプションのアップスケーリングが利用可能です。"
+      }
+    },
+    "finalCTA": {
+      "title": "作成する準備はできましたか？",
+      "description": "今日からテキストの説明から素晴らしい Midjourney スタイルの画像を生成し始めましょう。",
+      "button": "今すぐ試す"
+    }
+  }
+}

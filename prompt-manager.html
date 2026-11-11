@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prompt 管理器</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    .controls {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .btn-primary {
+      background: #007bff;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #0056b3;
+    }
+
+    .btn-success {
+      background: #28a745;
+      color: white;
+    }
+
+    .btn-success:hover {
+      background: #218838;
+    }
+
+    .btn-secondary {
+      background: #6c757d;
+      color: white;
+    }
+
+    .btn-secondary:hover {
+      background: #5a6268;
+    }
+
+    .categories {
+      margin-bottom: 30px;
+    }
+
+    .category-section {
+      margin-bottom: 40px;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 20px;
+      background: #fafafa;
+    }
+
+    .category-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .category-title {
+      font-size: 20px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .category-subtitle {
+      color: #666;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    th {
+      background: #f8f9fa;
+      font-weight: 600;
+      color: #333;
+      font-size: 13px;
+    }
+
+    td {
+      font-size: 13px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 60px;
+      font-family: inherit;
+    }
+
+    .delete-btn {
+      background: #dc3545;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .delete-btn:hover {
+      background: #c82333;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+      z-index: 1000;
+    }
+
+    .modal-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 500px;
+    }
+
+    .modal-header {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 500;
+      font-size: 13px;
+      color: #333;
+    }
+
+    .modal-actions {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+      margin-top: 20px;
+    }
+
+    .json-output {
+      background: #f8f9fa;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 20px;
+      margin-top: 20px;
+      display: none;
+    }
+
+    .json-output pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      font-family: 'Monaco', 'Courier New', monospace;
+      font-size: 12px;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    .copy-btn {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 Prompt 管理器</h1>
+    <p class="subtitle">按分类整理 AI 图像生成提示词，支持多种模型参数配置</p>
+
+    <div class="controls">
+      <button class="btn btn-primary" onclick="showAddCategoryModal()">➕ 添加分类</button>
+      <button class="btn btn-success" onclick="generateJSON()">📄 生成 JSON</button>
+      <button class="btn btn-secondary" onclick="importJSON()">📥 导入 JSON</button>
+      <button class="btn btn-secondary" onclick="exportJSON()">💾 导出 JSON</button>
+    </div>
+
+    <div id="categories" class="categories"></div>
+
+    <div id="jsonOutput" class="json-output">
+      <h3>生成的 JSON 配置</h3>
+      <pre id="jsonContent"></pre>
+      <button class="btn btn-primary copy-btn" onclick="copyJSON()">📋 复制到剪贴板</button>
+    </div>
+  </div>
+
+  <!-- 添加分类模态框 -->
+  <div id="categoryModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">添加新分类</div>
+      <div class="form-group">
+        <label>分类 ID</label>
+        <input type="text" id="categoryId" placeholder="例如: portraits">
+      </div>
+      <div class="form-group">
+        <label>分类名称</label>
+        <input type="text" id="categoryName" placeholder="例如: Portraits">
+      </div>
+      <div class="form-group">
+        <label>分类描述</label>
+        <input type="text" id="categorySubtitle" placeholder="例如: Real people, cosplay, fashion photography">
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-secondary" onclick="closeModal()">取消</button>
+        <button class="btn btn-primary" onclick="addCategory()">添加</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 数据存储
+    let data = {
+      title: "Explore",
+      subtitle: "",
+      sections: []
+    };
+
+    // 模型配置
+    const modelConfigs = {
+      "GPT-image 1": {
+        qualities: ["standard", "hd", "2k"],
+        sizes: ["1024x1024", "1792x1024", "1024x1792"],
+        defaultQuality: "2k",
+        defaultSize: "1024x1024"
+      },
+      "10b.ai": {
+        qualities: ["standard", "hd", "2k"],
+        sizes: ["1024x1024", "1792x1024", "1024x1792"],
+        defaultQuality: "2k",
+        defaultSize: "1024x1024"
+      },
+      "Nano Banana": {
+        qualities: ["standard", "hd", "2k"],
+        sizes: ["1024x1024", "1792x1024", "1024x1792"],
+        defaultQuality: "2k",
+        defaultSize: "1024x1024"
+      },
+      "DALL-E 3": {
+        qualities: ["standard", "hd"],
+        sizes: ["1024x1024", "1792x1024", "1024x1792"],
+        defaultQuality: "hd",
+        defaultSize: "1024x1024"
+      },
+      "Stable Diffusion": {
+        qualities: ["standard", "hd"],
+        sizes: ["512x512", "768x768", "1024x1024"],
+        defaultQuality: "hd",
+        defaultSize: "1024x1024"
+      },
+      "Midjourney": {
+        qualities: ["standard", "hd", "2k", "4k"],
+        sizes: ["1024x1024", "1792x1024", "1024x1792", "2048x2048"],
+        defaultQuality: "2k",
+        defaultSize: "1024x1024"
+      }
+    };
+
+    // 初始化
+    function init() {
+      loadFromLocalStorage();
+      renderCategories();
+    }
+
+    // 显示添加分类模态框
+    function showAddCategoryModal() {
+      document.getElementById('categoryModal').style.display = 'block';
+    }
+
+    // 关闭模态框
+    function closeModal() {
+      document.getElementById('categoryModal').style.display = 'none';
+      document.getElementById('categoryId').value = '';
+      document.getElementById('categoryName').value = '';
+      document.getElementById('categorySubtitle').value = '';
+    }
+
+    // 添加分类
+    function addCategory() {
+      const id = document.getElementById('categoryId').value.trim();
+      const name = document.getElementById('categoryName').value.trim();
+      const subtitle = document.getElementById('categorySubtitle').value.trim();
+
+      if (!id || !name) {
+        alert('请填写分类 ID 和名称');
+        return;
+      }
+
+      data.sections.push({
+        id: id,
+        sceneName: name,
+        subtitle: subtitle,
+        generateUrl: `/text-to-image?category=${id}`,
+        items: []
+      });
+
+      saveToLocalStorage();
+      renderCategories();
+      closeModal();
+    }
+
+    // 渲染分类
+    function renderCategories() {
+      const container = document.getElementById('categories');
+      container.innerHTML = '';
+
+      data.sections.forEach((section, sectionIndex) => {
+        const categoryDiv = document.createElement('div');
+        categoryDiv.className = 'category-section';
+        categoryDiv.innerHTML = `
+          <div class="category-header">
+            <div>
+              <div class="category-title">${section.sceneName}</div>
+              <div class="category-subtitle">${section.subtitle}</div>
+            </div>
+            <div>
+              <button class="btn btn-primary" onclick="addPrompt(${sectionIndex})">➕ 添加 Prompt</button>
+              <button class="delete-btn" onclick="deleteCategory(${sectionIndex})">🗑️ 删除分类</button>
+            </div>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 5%">ID</th>
+                <th style="width: 30%">Prompt</th>
+                <th style="width: 12%">模型</th>
+                <th style="width: 10%">质量</th>
+                <th style="width: 12%">尺寸</th>
+                <th style="width: 15%">图片URL</th>
+                <th style="width: 8%">点赞数</th>
+                <th style="width: 8%">操作</th>
+              </tr>
+            </thead>
+            <tbody id="category-${sectionIndex}">
+            </tbody>
+          </table>
+        `;
+        container.appendChild(categoryDiv);
+
+        renderPrompts(sectionIndex);
+      });
+    }
+
+    // 渲染提示词
+    function renderPrompts(sectionIndex) {
+      const tbody = document.getElementById(`category-${sectionIndex}`);
+      tbody.innerHTML = '';
+
+      const section = data.sections[sectionIndex];
+      section.items.forEach((item, itemIndex) => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td><input type="text" value="${item.id}" onchange="updatePrompt(${sectionIndex}, ${itemIndex}, 'id', this.value)"></td>
+          <td><textarea onchange="updatePrompt(${sectionIndex}, ${itemIndex}, 'prompt', this.value)">${item.prompt}</textarea></td>
+          <td>
+            <select onchange="updatePromptModel(${sectionIndex}, ${itemIndex}, this.value)">
+              ${Object.keys(modelConfigs).map(model =>
+                `<option value="${model}" ${item.model === model ? 'selected' : ''}>${model}</option>`
+              ).join('')}
+            </select>
+          </td>
+          <td>
+            <select onchange="updatePrompt(${sectionIndex}, ${itemIndex}, 'quality', this.value)">
+              ${modelConfigs[item.model].qualities.map(q =>
+                `<option value="${q}" ${item.quality === q ? 'selected' : ''}>${q}</option>`
+              ).join('')}
+            </select>
+          </td>
+          <td>
+            <select onchange="updatePromptSize(${sectionIndex}, ${itemIndex}, this.value)">
+              ${modelConfigs[item.model].sizes.map(s =>
+                `<option value="${s}" ${item.size === s ? 'selected' : ''}>${s}</option>`
+              ).join('')}
+            </select>
+          </td>
+          <td><input type="text" value="${item.src}" onchange="updatePrompt(${sectionIndex}, ${itemIndex}, 'src', this.value)"></td>
+          <td><input type="number" value="${item.likes}" onchange="updatePrompt(${sectionIndex}, ${itemIndex}, 'likes', parseInt(this.value))"></td>
+          <td><button class="delete-btn" onclick="deletePrompt(${sectionIndex}, ${itemIndex})">删除</button></td>
+        `;
+        tbody.appendChild(row);
+      });
+    }
+
+    // 添加提示词
+    function addPrompt(sectionIndex) {
+      const defaultModel = "GPT-image 1";
+      const config = modelConfigs[defaultModel];
+      const defaultSize = config.defaultSize;
+      const [width, height] = defaultSize.split('x').map(Number);
+
+      data.sections[sectionIndex].items.push({
+        id: String(data.sections[sectionIndex].items.length + 1),
+        type: "image",
+        src: "",
+        alt: `${defaultModel} creation`,
+        model: defaultModel,
+        prompt: "",
+        quality: config.defaultQuality,
+        size: defaultSize,
+        width: width,
+        height: height,
+        generateUrl: "/text-to-image",
+        aspectRatio: width / height,
+        likes: 0,
+        priority: "high",
+        thumbnailUrl: ""
+      });
+
+      saveToLocalStorage();
+      renderPrompts(sectionIndex);
+    }
+
+    // 更新提示词
+    function updatePrompt(sectionIndex, itemIndex, field, value) {
+      data.sections[sectionIndex].items[itemIndex][field] = value;
+      saveToLocalStorage();
+    }
+
+    // 更新模型
+    function updatePromptModel(sectionIndex, itemIndex, model) {
+      const item = data.sections[sectionIndex].items[itemIndex];
+      const config = modelConfigs[model];
+
+      item.model = model;
+      item.quality = config.defaultQuality;
+      item.size = config.defaultSize;
+
+      const [width, height] = config.defaultSize.split('x').map(Number);
+      item.width = width;
+      item.height = height;
+      item.aspectRatio = width / height;
+      item.alt = `${model} creation`;
+
+      saveToLocalStorage();
+      renderPrompts(sectionIndex);
+    }
+
+    // 更新尺寸
+    function updatePromptSize(sectionIndex, itemIndex, size) {
+      const item = data.sections[sectionIndex].items[itemIndex];
+      const [width, height] = size.split('x').map(Number);
+
+      item.size = size;
+      item.width = width;
+      item.height = height;
+      item.aspectRatio = width / height;
+
+      saveToLocalStorage();
+    }
+
+    // 删除提示词
+    function deletePrompt(sectionIndex, itemIndex) {
+      if (confirm('确定要删除这个 Prompt 吗？')) {
+        data.sections[sectionIndex].items.splice(itemIndex, 1);
+        saveToLocalStorage();
+        renderPrompts(sectionIndex);
+      }
+    }
+
+    // 删除分类
+    function deleteCategory(sectionIndex) {
+      if (confirm('确定要删除这个分类及其所有 Prompt 吗？')) {
+        data.sections.splice(sectionIndex, 1);
+        saveToLocalStorage();
+        renderCategories();
+      }
+    }
+
+    // 生成 JSON
+    function generateJSON() {
+      const jsonContent = JSON.stringify(data, null, 2);
+      document.getElementById('jsonContent').textContent = jsonContent;
+      document.getElementById('jsonOutput').style.display = 'block';
+    }
+
+    // 复制 JSON
+    function copyJSON() {
+      const jsonContent = document.getElementById('jsonContent').textContent;
+      navigator.clipboard.writeText(jsonContent).then(() => {
+        alert('JSON 已复制到剪贴板！');
+      });
+    }
+
+    // 导出 JSON
+    function exportJSON() {
+      const jsonContent = JSON.stringify(data, null, 2);
+      const blob = new Blob([jsonContent], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'prompt-config.json';
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    // 导入 JSON
+    function importJSON() {
+      const input = document.createElement('input');
+      input.type = 'file';
+      input.accept = 'application/json';
+      input.onchange = (e) => {
+        const file = e.target.files[0];
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          try {
+            data = JSON.parse(event.target.result);
+            saveToLocalStorage();
+            renderCategories();
+            alert('导入成功！');
+          } catch (error) {
+            alert('导入失败：JSON 格式错误');
+          }
+        };
+        reader.readAsText(file);
+      };
+      input.click();
+    }
+
+    // 保存到本地存储
+    function saveToLocalStorage() {
+      localStorage.setItem('promptManagerData', JSON.stringify(data));
+    }
+
+    // 从本地存储加载
+    function loadFromLocalStorage() {
+      const saved = localStorage.getItem('promptManagerData');
+      if (saved) {
+        data = JSON.parse(saved);
+      }
+    }
+
+    // 页面加载时初始化
+    init();
+  </script>
+</body>
+</html>

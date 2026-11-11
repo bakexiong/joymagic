@@ -1,0 +1,88 @@
+{
+  "title": "Nano Muz 2",
+  "provider": "Google",
+  "eyebrow": "Modelin ilk açılış sayfası",
+  "description": "Daha üretim odaklı bir iş akışına ihtiyaç duyduğunuzda Nano Banana 2 ile başlayın: daha fazla referans, daha güçlü çıktı kontrolleri, daha net metin oluşturma ve daha keskin ilk geçiş kampanya görselleri.",
+  "seoTitle": "Nano Banana 2 Yapay Zeka Modeli Sayfası | Gelişmiş Görüntü Düzenleme + Metinden Görüntüye | joymagic",
+  "seoDescription": "Model öncelikli açılış sayfası olarak Nano Banana 2'yi keşfedin. Sahneleri değiştirin, yaratıcı çalışma tezgahını yeniden kullanın ve çoklu görüntü düzenleme ve daha yüksek kontrollü metinden görüntüye dönüştürme için Nano Banana 2'yi kullanın.",
+  "stats": [
+    {
+      "label": "Birincil mod",
+      "value": "Gelişmiş Düzenleme"
+    },
+    {
+      "label": "Genişletilmiş sahneler",
+      "value": "2 canlı iş akışı"
+    },
+    {
+      "label": "Çıkış odağı",
+      "value": "Daha fazla kontrol"
+    }
+  ],
+  "differentiators": [
+    "Temel modelden daha fazla üretim kontrolüne ihtiyaç duyan kullanıcılar için Nano Banana 2'yi yükseltme seçeneği olarak konumlandırın.",
+    "Model öyküsünü, başlangıç ​​istemlerini ve sahne çerçevesini değiştirirken aynı yaratıcı tarafındaki çalışma tezgahı davranışını koruyun.",
+    "Formları yeniden oluşturmaya, sahne yönlendirmeye veya sağdaki medya paneline gerek kalmadan kardeş model sayfalarını karşılaştırmayı kolaylaştırın."
+  ],
+  "gallery": [
+    {
+      "title": "Kampanya Paket Görüntüsü Yükseltmesi",
+      "caption": "Ham ürün varlıklarını reklama hazır daha gösterişli görsellere dönüştürmek için birden fazla referans ve daha sıkı çıktı kontrolleri kullanın.",
+      "prompt": "Canlı yansımalar, yükseltilmiş aydınlatma ve temiz, lüks perakende görünümüyle birinci sınıf bir cilt bakımı kampanyası görseli oluşturmak için yüklenen referansları kullanın.",
+      "accentClassName": "from-[#f8e08a] via-[#9c7c35] to-[#171717] text-white"
+    },
+    {
+      "title": "Tipografi-İleri Posterler",
+      "caption": "İlk geçişte düzen, hiyerarşi ve okunabilir yazı tipinin önemli olduğu poster kompozisyonları oluşturun.",
+      "prompt": "Bir yaz içeceği markası için net okunabilir başlık tipografisi, sinematik altın saat ışığı ve parlak ürün kahramanı kompozisyonu içeren birinci sınıf bir lansman posteri tasarlayın.",
+      "accentClassName": "from-[#8cd3ff] via-[#2b75b6] to-[#121416] text-white"
+    },
+    {
+      "title": "Kontrollü Marka Konseptleri",
+      "caption": "Gevşek ruh hali panoları yerine nihai kampanya kompozisyonlarına daha yakın hissettiren konsept çerçeveleri oluşturun.",
+      "prompt": "Lüks bir koku sürümü, ön cephede kahraman kompozisyonu, yumuşak atmosferik bulanıklık, net ürün etiketi ve birinci sınıf editoryal aydınlatma için gösterişli bir marka konsepti görseli oluşturun.",
+      "accentClassName": "from-[#d7b7ff] via-[#6f47a8] to-[#17131d] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "/model/nanobana ve /model/nanobanana-2 arasındaki fark nedir?",
+      "answer": "Nano Banana 2 burada daha üretim odaklı kardeş olarak çerçeveleniyor: daha ağır referans odaklı düzenlemeler, daha güçlü çıktı kontrolleri ve daha net düzen amacına sahip birinci sınıf konsept üretimi için daha iyi."
+    },
+    {
+      "question": "Nano Banana 2 hâlâ aynı yaratıcı çalışma tezgahını mı kullanıyor?",
+      "answer": "Evet. Soldaki form akışı ve sağ medya paneli, oluşturucu tarafından hâlâ yeniden kullanılıyor, dolayısıyla sayfa, temel oluşturma iş akışını değiştirmeden model bağlamını değiştiriyor."
+    },
+    {
+      "question": "Nano Banana 2 için neden ayrı bir model sayfası hazırlamalısınız?",
+      "answer": "Çünkü kullanıcının amacı farklıdır. Bu sayfa Nano Banana 2'yi bir yükseltme yolu olarak konumlandırmanıza yardımcı olur ve genel araçlar sayfasına karıştırmadan en uygun senaryoları açıklamanıza olanak tanır."
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "Resim Düzenleme",
+      "title": "Sahne 01 · Çoklu görüntü hassas düzenleme",
+      "description": "Daha fazla referans gerektiren daha ağır düzenleme iş akışları, çıktı boyutu üzerinde daha net kontrol ve daha üretim odaklı kurulum için Nano Banana 2'yi kullanın.",
+      "spotlight": "Toplu işler, referans açısından zengin düzenlemeler ve daha yüksek çözünürlüklü çıktılar için en iyisi.",
+      "starterPrompt": "Ürünü birinci sınıf bir lansman kampanyasına dönüştürmek, markayı olduğu gibi korumak, kontrollü stüdyo yansımaları eklemek ve gösterişli bir ticari görsel oluşturmak için yüklenen referansları kullanın.",
+      "useCases": [
+        "Çoklu referanslı ürün görselinin iyileştirilmesi",
+        "Daha sıkı çıktı kontrolüne sahip kampanya varyasyonları",
+        "Sanat yönetimi tutarlı görsel kimlikle geçer"
+      ]
+    },
+    {
+      "modeLabel": "Metinden Görüntüye",
+      "title": "Sahne 02 · Yüksek kontrollü konsept oluşturma",
+      "description": "Daha güçlü kamera yönüne, daha temiz metin oluşturmaya ve üretime hazır kompozisyonlara daha yakın hissettiren çıktılara ihtiyaç duyduğunuzda, istem odaklı üretime geçin.",
+      "spotlight": "Varlıkları kampanya prodüksiyonuna aktarmadan önce premium konsept oluşturmak için en iyisi.",
+      "starterPrompt": "Güçlü kamera kompozisyonu, sıcak gün batımı ana ışığı, net başlık tipografisi ve parlak kahraman ürünü kaplamasıyla birinci sınıf bir içecek kampanyası posteri oluşturun.",
+      "useCases": [
+        "Reklam konsepti, daha net düzen amacına uygundur",
+        "Okunabilir tipografiye sahip poster ve ambalaj taslakları",
+        "Daha parlak ilk geçiş çıktısına ihtiyaç duyan marka görselleri"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

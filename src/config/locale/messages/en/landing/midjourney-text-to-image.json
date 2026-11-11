@@ -1,0 +1,180 @@
+{
+  "title": "Midjourney Style Text to Image",
+  "subtitle": "Generate stunning Midjourney-style images from text descriptions",
+  "prompt_label": "Prompt",
+  "prompt_placeholder": "Ethereal forest landscape, golden hour lighting, impressionist style, soft focus, dreamy atmosphere.",
+  "prompt_tooltip": "Enter a description of the image you want to generate",
+  "aspect_ratio_label": "Aspect Ratio",
+  "aspect_ratio_hint": "Choose the aspect ratio for the generated image",
+  "aspect_ratio_placeholder": "Select aspect ratio (optional)",
+  "aspect_ratio_none": "(None)",
+  "resolution_label": "Resolution",
+  "resolution_hint": "Choose the resolution for the generated image",
+  "output_format_label": "Output Format",
+  "output_format_hint": "Choose the output image format",
+  "sref_label": "Reference Image",
+  "sref_placeholder": "Enter reference image URL (optional)",
+  "sref_hint": "Upload a reference image or provide URL to influence generation style",
+  "sref_upload_hint": "PNG, JPG, WebP supported",
+  "sref_drag_drop": "Drag & drop or click to upload",
+  "sref_drop_here": "Drop image here",
+  "sref_upload_active": "Using uploaded image as reference",
+  "quality_label": "Quality",
+  "quality_hint": "Choose the image quality level",
+  "stylize_label": "Stylize",
+  "stylize_hint": "Control artistic style intensity (0-1000)",
+  "chaos_label": "Chaos",
+  "chaos_hint": "Add variety to results (0-100)",
+  "weird_label": "Weird",
+  "weird_hint": "Make images quirky and unconventional (0-3000)",
+  "version_label": "Version",
+  "version_hint": "Select Midjourney model version",
+  "niji_label": "Niji Mode",
+  "niji_hint": "Niji model for anime aesthetics",
+  "niji_none": "None",
+  "seed_label": "Seed",
+  "seed_hint": "Seed value for reproducible results (-1 for random)",
+  "estimated_credits": "Estimated Credits",
+  "buttons": {
+    "generate": "Generate Image",
+    "generating": "Generating...",
+    "estimating": "Estimating...",
+    "checking": "Checking...",
+    "unavailable": "Unavailable",
+    "credits": "credits"
+  },
+  "errors": {
+    "promptRequired": "Prompt is required",
+    "generate_failed": "Failed to generate image: {status}",
+    "generate_failed_default": "Failed to generate image",
+    "no_request_id": "Failed to get request ID",
+    "restricted": "This service is not available in your region",
+    "uploadFailed": "Image upload failed",
+    "invalidFileType": "Invalid file type. Please upload an image file"
+  },
+  "image_alt": "Generated image",
+  "download": "Download",
+  "download_success": "Download successful",
+  "download_error": "Download failed",
+  "image_placeholder": "Generated image will appear here",
+  "prompt_inspirations_button": "Prompt Inspirations",
+  "prompt_guide_button": "Prompt Guide",
+  "powered_by": "Powered by Midjourney-style AI model optimized by joymagic",
+  "prompt_guides": {
+    "guide1": "Best Midjourney Scene Prompts",
+    "guide2": "Best Midjourney Portrait Prompts",
+    "guide3": "Midjourney Product Photo Prompts",
+    "guide4": "Midjourney Image Prompting: The 5-Layer Framework",
+    "guide5": "Copy-Paste Midjourney Art Prompts",
+    "guide6": "Midjourney Prompt Engineering",
+    "guide7": "Midjourney Style Guide",
+    "guide8": "Midjourney Composition Techniques",
+    "guide9": "50 Best Midjourney Creative Prompts",
+    "guide10": "50 Best Midjourney Art Style Prompts"
+  },
+  "page": {
+    "metadata": {
+      "title": "Midjourney Style AI Text to Image Generator | joymagic",
+      "description": "Generate stunning Midjourney-style images from text descriptions. Professional AI image generation with artistic control, high resolution output, and creative flexibility.",
+      "keywords": "midjourney, text to image, ai image generator, midjourney alternative, ai art generator, creative image generation, artistic ai, midjourney style"
+    },
+    "hero": {
+      "title": "Midjourney Style Text to Image",
+      "description": "Create stunning Midjourney-style images from text descriptions with advanced AI. Experience artistic control, creative flexibility, and professional-quality outputs. Perfect for designers, artists, and creative professionals seeking high-quality AI-generated imagery.<br/><br/>Looking for other AI models? <a href=\"/text-to-image\" class=\"text-primary underline\">Explore all text-to-image tools</a>.",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Midjourney-Style Features",
+      "description": "Professional artistic capabilities for creative image generation",
+      "artisticControl": {
+        "title": "Artistic Control",
+        "description": "Fine-tune artistic style, mood, and aesthetic direction with natural language prompts. Describe painting styles, art movements, or specific visual qualities to achieve your creative vision."
+      },
+      "highQuality": {
+        "title": "High-Quality Output",
+        "description": "Generate professional-grade images with exceptional detail and clarity. Suitable for commercial projects, portfolio work, and high-resolution printing needs."
+      },
+      "creativeFlexibility": {
+        "title": "Creative Flexibility",
+        "description": "Explore unlimited creative possibilities from photorealistic renders to abstract art. Mix styles, combine concepts, and experiment with unique visual combinations."
+      },
+      "compositionControl": {
+        "title": "Composition Control",
+        "description": "Direct framing, perspective, and visual hierarchy through descriptive prompts. Achieve professional composition without technical photography knowledge."
+      },
+      "styleConsistency": {
+        "title": "Style Consistency",
+        "description": "Maintain consistent visual style across multiple generations. Perfect for creating cohesive series, brand materials, or project collections."
+      }
+    },
+    "standardFeatures": {
+      "title": "Standard Features",
+      "description": "All the essential capabilities you need",
+      "multipleStyles": {
+        "title": "Multiple Art Styles",
+        "description": "Photorealistic, anime, oil painting, watercolor, digital art"
+      },
+      "naturalLanguage": {
+        "title": "Natural Language Prompts",
+        "description": "Describe your vision in everyday language"
+      },
+      "fastGeneration": {
+        "title": "Fast Generation",
+        "description": "10-20 seconds per image"
+      },
+      "multipleFormats": {
+        "title": "Multiple Output Formats",
+        "description": "JPG, PNG, WebP"
+      }
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "conceptArt": {
+        "title": "Concept Art & Design",
+        "description": "Create concept art for games, films, and creative projects. Explore visual directions quickly and iterate on ideas without traditional illustration time."
+      },
+      "marketing": {
+        "title": "Marketing & Advertising",
+        "description": "Generate eye-catching visuals for campaigns, social media, and promotional materials. Create unique imagery that stands out and captures attention."
+      },
+      "creative": {
+        "title": "Creative Exploration",
+        "description": "Experiment with artistic styles and visual concepts. Perfect for artists, designers, and creatives seeking inspiration or exploring new directions."
+      },
+      "portfolio": {
+        "title": "Portfolio & Presentation",
+        "description": "Create professional-quality images for portfolios, presentations, and client pitches. Showcase ideas with polished, high-resolution visuals."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Common questions about Midjourney-style text to image generation",
+      "q1": {
+        "question": "How does Midjourney-style generation work?",
+        "answer": "Our AI model is trained to generate images with artistic qualities similar to Midjourney, focusing on aesthetic appeal, creative interpretation, and professional-quality outputs. Simply describe your vision in natural language."
+      },
+      "q2": {
+        "question": "What makes this different from other AI image generators?",
+        "answer": "Midjourney-style generation emphasizes artistic quality, creative interpretation, and aesthetic appeal. It excels at producing visually striking images with strong composition and artistic coherence."
+      },
+      "q3": {
+        "question": "Can I use generated images commercially?",
+        "answer": "Yes, images generated through our platform can be used for commercial purposes. Please review our terms of service for specific usage rights and attribution requirements."
+      },
+      "q4": {
+        "question": "How detailed should my prompts be?",
+        "answer": "More detailed prompts generally produce better results. Include subject matter, artistic style, mood, lighting, composition, and any specific visual elements you want. For example: \"ethereal forest landscape, golden hour lighting, impressionist style, soft focus, dreamy atmosphere\"."
+      },
+      "q5": {
+        "question": "What resolution are the generated images?",
+        "answer": "Generated images are high-resolution and suitable for most professional uses including web, print, and presentations. Optional upscaling is available for even higher resolution outputs."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Create?",
+      "description": "Start generating stunning Midjourney-style images from your text descriptions today.",
+      "button": "Try It Now"
+    }
+  }
+}

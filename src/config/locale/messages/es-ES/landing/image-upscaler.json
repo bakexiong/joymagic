@@ -1,0 +1,193 @@
+{
+  "imageUpscaler": {
+    "id": "image-upscaler",
+    "title": "Ampliador de Imagen IA",
+    "description": "Mejora instantáneamente la calidad de la imagen y aumenta la resolución a 4K, 8K o 16K con IA. Sube tu imagen y mejórala automáticamente.",
+    "steps": {
+      "sourceImage": {
+        "title": "Subir imagen",
+        "hint": "Arrastrar y soltar o hacer clic para subir · JPG/PNG/WEBP/HEIC",
+        "dragDrop": "Arrastrar y soltar o hacer clic para subir",
+        "dropHere": "Soltar imagen aquí"
+      },
+      "settings": {
+        "title": "Elegir configuración de ampliación",
+        "targetResolution": "Escala / Salida",
+        "outputFormat": "Formato de salida"
+      },
+      "generate": {
+        "title": "Generar y descargar",
+        "cta": "Iniciar Ampliación",
+        "generating": "Ampliando..."
+      }
+    },
+    "preview": {
+      "title": "Vista previa",
+      "original": "Original",
+      "upscaled": "Ampliado",
+      "placeholder": "Sube una imagen para ver el resultado ampliado aquí."
+    },
+    "common": {
+      "selected": "Seleccionado: {name}",
+      "notSelected": "No seleccionado"
+    },
+    "errors": {
+      "invalidFileType": "Tipo de archivo no válido. Por favor, sube un archivo de imagen (JPG, PNG, WEBP, HEIC).",
+      "uploadFailed": "Error al subir: {error}",
+      "uploadFailedGeneric": "Error al subir",
+      "sourceImageRequired": "Por favor, sube primero una imagen fuente",
+      "generationFailed": "Error al ampliar la imagen",
+      "taskFailed": "Error al procesar la tarea",
+      "taskTimeout": "Tiempo de espera del procesamiento de la tarea, por favor intenta más tarde",
+      "taskIdNotFound": "No se pudo obtener el ID de la tarea, por favor verifica el formato de respuesta de la API",
+      "processingFailed": "Error en el procesamiento, por favor intenta de nuevo",
+      "statusQueryFailed": "Error al consultar el estado de la tarea",
+      "apiResponseParseFailed": "Error al analizar la respuesta de la API",
+      "downloadFailed": "Error al descargar la imagen"
+    },
+    "download": {
+      "title": "Descargar imagen"
+    },
+    "alt": {
+      "sourcePreview": "Vista previa de la fuente",
+      "enlargedPreview": "Vista previa ampliada",
+      "source": "Fuente",
+      "original": "Original",
+      "upscaled": "Ampliado"
+    }
+  },
+  "imageUpscalerPage": {
+    "metadata": {
+      "title": "Ampliador de Imagen IA Online | Ampliar Imágenes a 4K 8K 16K | joymagic",
+      "description": "Mejora instantáneamente la calidad de la imagen y aumenta la resolución a 4K, 8K o 16K con el Ampliador de Imagen IA de joymagic. Descarga HD, sin marca de agua, soporte por lotes.",
+      "keywords": "Ampliador de Imagen IA, ampliar imagen, aumentar resolución, ampliador 4K, ampliador 8K, ampliador 16K, mejorador de imagen IA, mejorador de resolución, ampliador de fotos, mejorador de calidad, ampliación rápida, ampliación creativa"
+    },
+    "hero": {
+      "title": "Ampliador de Imagen IA Online",
+      "description": "Mejora instantáneamente la calidad de la imagen y aumenta la resolución a 4K, 8K o 16K con el ampliador de imagen IA de joymagic. Sube tu imagen y mejórala automáticamente.",
+      "button1": "Iniciar Ampliación Ahora",
+      "button2": "Gratis para empezar · Sin marca de agua"
+    },
+    "heroDescription": "✓ Descarga HD  ✓ Sin marca de agua  ✓ Soporte por lotes",
+    "whatIsAIUpscaler": {
+      "title": "¿Qué es un Ampliador de Imagen IA?",
+      "description": "El Ampliador de Imagen IA utiliza aprendizaje profundo para ampliar imágenes mientras añade detalles realistas y nitidez. A diferencia del redimensionamiento tradicional que estira píxeles y causa desenfoque, nuestra IA:",
+      "features": [
+        "Analiza el contenido y la estructura de la imagen",
+        "Genera nuevos píxeles de forma inteligente",
+        "Preserva texturas, bordes y colores",
+        "Produce resultados nítidos y naturales"
+      ],
+      "perfectFor": "Úsalo para fotos de productos, imágenes antiguas, arte generado por IA, contenido de redes sociales e imágenes listas para imprimir."
+    },
+    "keyFeatures": {
+      "title": "Características Principales",
+      "description": "Ampliación de imagen IA rápida y de alta calidad hasta 16K.",
+      "fastProcessing": {
+        "title": "Procesamiento Rápido",
+        "description": "<p class=\"mb-3\">Obtén resultados en segundos. La IA optimizada maneja imágenes complejas rápidamente.</p>"
+      },
+      "highQuality": {
+        "title": "Salida hasta 16K",
+        "description": "<p class=\"mb-3\">Amplía imágenes a 4K, 8K o 16K manteniendo la claridad y el detalle.</p>"
+      },
+      "twoModes": {
+        "title": "Dos Modos de Ampliación",
+        "description": "<p class=\"mb-3\">Modo rápido para ampliación fiel; modo creativo para detalles mejorados por IA.</p>"
+      },
+      "batch": {
+        "title": "Procesamiento por Lotes",
+        "description": "<p class=\"mb-3\">Sube y procesa múltiples imágenes a la vez. Ahorra tiempo en tareas masivas.</p>"
+      },
+      "cleanOutput": {
+        "title": "Salida Limpia",
+        "description": "<p class=\"mb-3\">Descarga resultados de alta calidad sin marca de agua, listos para usar.</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "Qué Puedes Hacer con el Ampliador IA de joymagic",
+      "description": "Una carga, infinitas posibilidades.",
+      "photography": {
+        "title": "Mejorar Fotografía",
+        "description": "<p class=\"mb-3\">Amplía fotos antiguas o retratos para calidad de impresión.</p>"
+      },
+      "design": {
+        "title": "Diseño y Arte IA",
+        "description": "<p class=\"mb-3\">Mejora arte o gráficos generados por IA con detalles más nítidos.</p>"
+      },
+      "ecommerce": {
+        "title": "Comercio Electrónico y Productos",
+        "description": "<p class=\"mb-3\">Haz que las imágenes de productos sean nítidas para listados y anuncios.</p>"
+      },
+      "socialMedia": {
+        "title": "Redes Sociales",
+        "description": "<p class=\"mb-3\">Comparte visuales claros y de alta resolución en todas las plataformas.</p>"
+      },
+      "print": {
+        "title": "Gran Formato e Impresión",
+        "description": "<p class=\"mb-3\">Escala hasta 16K para carteles, pancartas y materiales de impresión.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "Cómo Ampliar una Imagen",
+      "description": "Amplía con IA en tres pasos simples:",
+      "step1": {
+        "title": "1. Sube tu imagen",
+        "description": "<p class=\"mb-3\">Arrastra y suelta o selecciona tu archivo de imagen.</p><p class=\"mb-3\">Soporta formatos JPG, PNG, WEBP y HEIC.</p>"
+      },
+      "step2": {
+        "title": "2. Elige configuración de ampliación",
+        "description": "<p class=\"mb-3\">Selecciona tu escala preferida:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>2x – Duplicar la resolución</li><li>4x – Cuadruplicar la resolución</li><li>8x – Mejora máxima (hasta salida 16K)</li></ul><p class=\"mb-3\">Elige un modo:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Ampliación Rápida – Preserva detalles originales</li><li>Ampliación Creativa – Añade detalles generados por IA</li></ul>"
+      },
+      "step3": {
+        "title": "3. Genera y descarga",
+        "description": "<p class=\"mb-3\">Haz clic en Iniciar y obtén tu imagen ampliada en segundos.</p><p class=\"mb-1\">Descarga en alta resolución, lista para usar.</p>"
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes sobre Ampliador de Imagen IA",
+      "description": "Respuestas rápidas sobre ampliación IA.",
+      "q1": {
+        "question": "¿Qué formatos de imagen se admiten?",
+        "answer": "Admitimos JPG, JPEG, PNG, WEBP y HEIC. Si la carga falla, intenta convertir a JPG o PNG."
+      },
+      "q2": {
+        "question": "¿Cuál es la resolución de salida máxima?",
+        "answer": "Puedes ampliar hasta 16K (16384 × 16384) según el tamaño de entrada y la escala."
+      },
+      "q3": {
+        "question": "¿Cuál es la diferencia entre modo Rápido y Creativo?",
+        "answer": "Rápido amplía fielmente—mejor para productos/capturas. Creativo añade detalles IA—mejor para arte IA o fotos antiguas."
+      },
+      "q4": {
+        "question": "¿Puedo ampliar múltiples imágenes a la vez?",
+        "answer": "Sí. El procesamiento por lotes te permite subir y ampliar múltiples imágenes en una sesión."
+      },
+      "q5": {
+        "question": "¿Tendrán mis imágenes ampliadas una marca de agua?",
+        "answer": "No. Todas las descargas están libres de marca de agua y listas para usar."
+      },
+      "q6": {
+        "question": "¿Son seguros y privados mis datos?",
+        "answer": "Sí. Las imágenes se procesan en sesiones aisladas y cifradas y se eliminan después del procesamiento. Nunca almacenamos ni entrenamos con tus cargas."
+      },
+      "q7": {
+        "question": "¿Qué tipo de imágenes funcionan mejor?",
+        "answer": "Las imágenes claras y bien iluminadas producen los mejores resultados. Las entradas de muy baja calidad aún pueden mostrar algunos artefactos después de la ampliación."
+      }
+    },
+    "privacySecurity": {
+      "title": "Privacidad y Seguridad",
+      "description": "Tus imágenes y privacidad son nuestra prioridad.",
+      "secureProcessing": "Todas las cargas se procesan de forma segura y cifrada",
+      "autoDelete": "Las imágenes se eliminan automáticamente después del procesamiento",
+      "neverShared": "Nunca se comparten con terceros ni se usan para entrenamiento IA"
+    },
+    "finalCTA": {
+      "title": "Convierte imágenes de baja resolución en obras maestras de alta definición.",
+      "description": "Prueba ahora el Ampliador de Imagen IA de joymagic y lleva tus fotos a claridad 4K, 8K o 16K en segundos.<br/><span class=\"text-muted-foreground\">No se necesitan habilidades de edición · Gratis para empezar · Descargas sin marca de agua</span>",
+      "button": "Iniciar Ampliación Ahora"
+    }
+  }
+}
+

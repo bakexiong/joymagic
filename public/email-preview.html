@@ -1,0 +1,812 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>joymagic 邮件营销预览</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --mango: #ffc100;
+        --mango-hover: #ffb300;
+        --navy: #23282f;
+        --blue: #00b2ff;
+        --purple: #a734ee;
+        --teal: #1dbfa1;
+        --coral: #ff5735;
+        --soft: #f5f7f9;
+        --pale: #f1f2f4;
+        --line: #e5e7eb;
+        --muted: #4a5464;
+        --white: #ffffff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--pale);
+        color: var(--navy);
+        font-family:
+          "Segoe UI",
+          Roboto,
+          Oxygen,
+          Ubuntu,
+          Cantarell,
+          -apple-system,
+          BlinkMacSystemFont,
+          sans-serif;
+      }
+
+      .preview-shell {
+        min-height: 100vh;
+        padding: 28px 16px 48px;
+      }
+
+      .client-frame {
+        width: min(980px, 100%);
+        margin: 0 auto;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: var(--white);
+        box-shadow:
+          rgba(0, 0, 0, 0.05) 0 1px 3px,
+          rgba(0, 0, 0, 0.1) 0 18px 42px -24px;
+      }
+
+      .client-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 12px 16px;
+        border-bottom: 1px solid var(--line);
+        background: var(--mango);
+      }
+
+      .traffic {
+        display: flex;
+        gap: 7px;
+      }
+
+      .dot {
+        width: 11px;
+        height: 11px;
+        border-radius: 999px;
+        background: #000000;
+        opacity: 0.85;
+      }
+
+      .client-title {
+        color: #000000;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      .message-meta {
+        padding: 20px 24px;
+        border-bottom: 1px solid var(--line);
+        background: var(--white);
+      }
+
+      .subject {
+        margin: 0 0 10px;
+        color: #000000;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.35;
+        letter-spacing: 0;
+      }
+
+      .meta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 14px;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.45;
+      }
+
+      .email-canvas {
+        padding: 28px 16px 36px;
+        background:
+          linear-gradient(135deg, rgba(255, 193, 0, 0.18), transparent 38%),
+          linear-gradient(225deg, rgba(0, 178, 255, 0.12), transparent 42%),
+          var(--soft);
+      }
+
+      .email {
+        max-width: 640px;
+        margin: 0 auto;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: var(--white);
+      }
+
+      .hero {
+        padding: 30px 28px 28px;
+        background:
+          radial-gradient(circle at 88% 18%, rgba(167, 52, 238, 0.22), transparent 28%),
+          radial-gradient(circle at 12% 18%, rgba(0, 178, 255, 0.16), transparent 26%),
+          var(--mango);
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 26px;
+      }
+
+      .brand img {
+        display: block;
+        width: 152px;
+        max-width: 48%;
+        height: auto;
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        min-height: 30px;
+        padding: 0 12px;
+        border: 2px solid #000000;
+        border-radius: 999px;
+        color: #000000;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 1;
+        background: rgba(255, 255, 255, 0.38);
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        max-width: 560px;
+        color: #000000;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 1.12;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        margin-top: 16px;
+        color: #23282f;
+        font-size: 17px;
+        line-height: 1.55;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .button {
+        display: inline-block;
+        min-height: 54px;
+        padding: 0 32px;
+        border-radius: 999px;
+        background: #000000;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 54px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      .button.secondary {
+        border: 2px solid #000000;
+        background: #ffffff;
+        color: #000000;
+        line-height: 50px;
+      }
+
+      .section {
+        padding: 26px 28px 4px;
+      }
+
+      .section-title {
+        color: var(--navy);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.3;
+      }
+
+      .section-copy {
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.6;
+      }
+
+      .product-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+        margin-top: 18px;
+      }
+
+      .product-card {
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: #ffffff;
+        box-shadow:
+          rgba(0, 0, 0, 0.05) 0 1px 3px,
+          rgba(0, 0, 0, 0.1) 0 1px 2px -1px;
+      }
+
+      .product-media {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1px;
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        overflow: hidden;
+        background:
+          linear-gradient(135deg, rgba(255, 193, 0, 0.18), rgba(0, 178, 255, 0.08)),
+          var(--soft);
+      }
+
+      .media-frame {
+        position: relative;
+        display: flex;
+        min-width: 0;
+        align-items: center;
+        justify-content: center;
+        background: #f8fafc;
+      }
+
+      .ref-pair {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1px;
+        width: 100%;
+        height: 100%;
+      }
+
+      .ref-pair img {
+        min-height: 0;
+        background: #ffffff;
+      }
+
+      a.media-frame {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .product-card img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      .product-card video {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        background: #000000;
+      }
+
+      .media-label {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        min-height: 22px;
+        padding: 0 8px;
+        border-radius: 999px;
+        background: rgba(0, 0, 0, 0.76);
+        color: #ffffff;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 22px;
+      }
+
+      .play-mark {
+        position: absolute;
+        right: 8px;
+        bottom: 8px;
+        min-height: 24px;
+        padding: 0 9px;
+        border-radius: 999px;
+        background: #000000;
+        color: #ffffff;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 24px;
+      }
+
+      .video-frame::after {
+        position: absolute;
+        inset: 0;
+        content: "";
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.38), transparent 48%);
+        pointer-events: none;
+      }
+
+      .play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 2;
+        display: grid;
+        width: 48px;
+        height: 48px;
+        place-items: center;
+        border-radius: 999px;
+        background: rgba(0, 0, 0, 0.82);
+        color: #ffffff;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.24);
+        transform: translate(-50%, -50%);
+      }
+
+      .play-button::before {
+        width: 0;
+        height: 0;
+        margin-left: 3px;
+        border-top: 9px solid transparent;
+        border-bottom: 9px solid transparent;
+        border-left: 14px solid #ffffff;
+        content: "";
+      }
+
+      .video-timeline {
+        position: absolute;
+        right: 10px;
+        bottom: 11px;
+        left: 10px;
+        z-index: 2;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 7px;
+      }
+
+      .video-frame:has(video) .play-button,
+      .video-frame:has(video) .video-timeline,
+      .video-frame:has(video) .play-mark,
+      .video-frame:has(video)::after {
+        display: none;
+      }
+
+      .video-bar {
+        height: 4px;
+        overflow: hidden;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.45);
+      }
+
+      .video-bar span {
+        display: block;
+        width: 62%;
+        height: 100%;
+        border-radius: inherit;
+        background: var(--mango);
+      }
+
+      .video-time {
+        color: #ffffff;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 1;
+        text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
+      }
+
+      .product-body {
+        padding: 14px;
+      }
+
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        min-height: 24px;
+        padding: 0 9px;
+        border-radius: 999px;
+        background: var(--mango);
+        color: #000000;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1;
+      }
+
+      .tag.blue {
+        background: rgba(0, 178, 255, 0.18);
+        color: #005f87;
+      }
+
+      .tag.purple {
+        background: rgba(167, 52, 238, 0.16);
+        color: #6b19a0;
+      }
+
+      .tag.teal {
+        background: rgba(29, 191, 161, 0.18);
+        color: #087763;
+      }
+
+      h3 {
+        margin-top: 10px;
+        color: #000000;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 1.35;
+      }
+
+      .product-body p {
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      .mini-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 10px;
+      }
+
+      .mini-tags span {
+        display: inline-flex;
+        min-height: 22px;
+        align-items: center;
+        border-radius: 999px;
+        background: var(--soft);
+        color: #333333;
+        font-size: 11px;
+        font-weight: 600;
+        padding: 0 8px;
+      }
+
+      .feature-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 18px;
+      }
+
+      .feature {
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: var(--soft);
+      }
+
+      .feature strong {
+        display: block;
+        color: #000000;
+        font-size: 15px;
+        line-height: 1.35;
+      }
+
+      .feature span {
+        display: block;
+        margin-top: 5px;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.5;
+      }
+
+      .cta {
+        margin: 28px;
+        padding: 24px;
+        border-radius: 12px;
+        background:
+          linear-gradient(135deg, rgba(255, 193, 0, 0.95), rgba(255, 193, 0, 0.72)),
+          #ffc100;
+        text-align: center;
+      }
+
+      .cta h2 {
+        color: #000000;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.3;
+      }
+
+      .cta p {
+        margin: 10px auto 18px;
+        max-width: 460px;
+        color: #23282f;
+        font-size: 15px;
+        line-height: 1.55;
+      }
+
+      .footer {
+        padding: 20px 28px 28px;
+        border-top: 1px solid var(--line);
+        background: var(--soft);
+      }
+
+      .footer p {
+        color: #666666;
+        font-size: 12px;
+        line-height: 1.55;
+      }
+
+      .footer p + p {
+        margin-top: 8px;
+      }
+
+      .footer a {
+        color: #333333;
+        text-decoration: underline;
+      }
+
+      @media (max-width: 560px) {
+        .preview-shell {
+          padding: 12px 0 28px;
+        }
+
+        .client-frame {
+          border-right: 0;
+          border-left: 0;
+          border-radius: 0;
+        }
+
+        .message-meta {
+          padding: 16px;
+        }
+
+        .email-canvas {
+          padding: 14px 0 24px;
+        }
+
+        .email {
+          border-right: 0;
+          border-left: 0;
+          border-radius: 0;
+        }
+
+        .hero,
+        .section,
+        .footer {
+          padding-right: 20px;
+          padding-left: 20px;
+        }
+
+        h1 {
+          font-size: 30px;
+        }
+
+        .brand {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
+        .brand img {
+          max-width: 176px;
+        }
+
+        .product-grid,
+        .feature-list {
+          grid-template-columns: 1fr;
+        }
+
+        .cta {
+          margin: 24px 20px;
+        }
+
+        .button {
+          width: 100%;
+          padding-right: 18px;
+          padding-left: 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="preview-shell">
+      <div class="client-frame">
+        <div class="client-bar">
+          <div class="traffic" aria-hidden="true">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <div class="client-title">邮件预览</div>
+        </div>
+
+        <div class="message-meta">
+          <h1 class="subject">用 joymagic 生成 AI 图片、视频和热门特效</h1>
+          <div class="meta-row">
+            <span>发件人：joymagic &lt;hello@joymagic.ai&gt;</span>
+            <span>预览：图片生成、视频生成、热门特效和 AI Bikini，新用户可免费试用。</span>
+          </div>
+        </div>
+
+        <div class="email-canvas">
+          <article class="email" aria-label="joymagic 营销邮件">
+            <header class="hero">
+              <div class="brand">
+                <img src="https://ocdn.10b.ai/icon/joymagic-wordmark.png" alt="joymagic" />
+                <span class="badge">18+ Creative Tools</span>
+              </div>
+
+              <h1>图片、视频和特效，一次开始创作</h1>
+              <p class="lead">
+                joymagic 帮你从文字或照片生成图片、短视频和热门视觉特效。上传素材，选择工具，快速得到可发布的创作结果。
+              </p>
+
+              <div class="hero-actions">
+                <a class="button" href="https://z-image.ai">免费开始</a>
+                <a class="button secondary" href="https://z-image.ai/tool/video-effect/ai-bikini">试试 AI Bikini</a>
+              </div>
+            </header>
+
+            <section class="section">
+              <h2 class="section-title">热门创作入口</h2>
+              <p class="section-copy">
+                覆盖图片、视频、特效和后期编辑，适合快速做头像、写真、短片和社媒素材。
+              </p>
+
+              <div class="product-grid">
+                <article class="product-card">
+                  <div class="product-media">
+                    <div class="media-frame">
+                      <span class="media-label">Ref</span>
+                      <img src="https://ocdn.10b.ai/landing/ai-bikini/sourcePortrait.png" alt="AI Bikini 参考照片" />
+                    </div>
+                    <div class="media-frame video-frame">
+                      <span class="media-label">Result</span>
+                      <span class="play-mark">Video</span>
+                      <span class="play-button" aria-hidden="true"></span>
+                      <span class="video-timeline" aria-hidden="true">
+                        <span class="video-bar"><span></span></span>
+                        <span class="video-time">5s</span>
+                      </span>
+                      <video
+                        src="https://ocdn.10b.ai/landing/ai-bikini/featureSwimwearVideo.mp4"
+                        poster="https://ocdn.10b.ai/landing/ai-bikini/sampleFrame.png"
+                        controls
+                        playsinline
+                        preload="metadata"
+                        aria-label="AI Bikini 换装短片结果"
+                      ></video>
+                    </div>
+                  </div>
+                  <div class="product-body">
+                    <span class="tag">AI Bikini</span>
+                    <h3>照片生成换装短片</h3>
+                    <p>从一张成人人物照生成夏日风格短视频。</p>
+                  </div>
+                </article>
+
+                <article class="product-card">
+                  <div class="product-media">
+                    <div class="media-frame">
+                      <span class="media-label">Ref</span>
+                      <div class="ref-pair">
+                        <img src="https://ocdn.10b.ai/video-effects/v2/images/4f5c8a3b2d5c78fe28da45077df1aafd.jpeg" alt="AI Kissing 第一张参考照片" />
+                        <img src="https://ocdn.10b.ai/video-effects/v2/images/74e7e41a9f2595dccb7ab17bd2d3de48.jpeg" alt="AI Kissing 第二张参考照片" />
+                      </div>
+                    </div>
+                    <div class="media-frame video-frame">
+                      <span class="media-label">Result</span>
+                      <video
+                        src="https://ocdn.10b.ai/video-effects/v2/videos/3a9d1d67e78f2a1f38e7fb65177fa391.mp4"
+                        poster="https://ocdn.10b.ai/video-effects/v2/images/4f5c8a3b2d5c78fe28da45077df1aafd.jpeg"
+                        controls
+                        playsinline
+                        preload="metadata"
+                        aria-label="AI Kissing 视频特效结果"
+                      ></video>
+                    </div>
+                  </div>
+                  <div class="product-body">
+                    <span class="tag blue">AI Kissing</span>
+                    <h3>照片生成亲吻视频</h3>
+                    <p>上传参考图，生成浪漫互动短片。</p>
+                  </div>
+                </article>
+
+                <article class="product-card">
+                  <div class="product-media">
+                    <div class="media-frame">
+                      <span class="media-label">Ref</span>
+                      <img src="https://ocdn.10b.ai/image-effects/images/5389961d8a458feff33cd6ce46fa02e4.jpeg" alt="Image Effects 参考照片" />
+                    </div>
+                    <div class="media-frame">
+                      <span class="media-label">Result</span>
+                      <img src="https://ocdn.10b.ai/image-effects/images/0315109edc7d2e00050c6d263113880b.png" alt="Cyberpunk Image Effects 特效结果" />
+                    </div>
+                  </div>
+                  <div class="product-body">
+                    <span class="tag purple">Image Effects</span>
+                    <h3>几十种特效风格</h3>
+                    <p>从一张参考图生成完全不同的视觉结果。</p>
+                    <div class="mini-tags">
+                      <span>Cyberpunk</span>
+                      <span>Comic</span>
+                      <span>Y2K</span>
+                      <span>更多</span>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="product-card">
+                  <div class="product-media">
+                    <div class="media-frame">
+                      <span class="media-label">Image</span>
+                      <img src="https://ocdn.10b.ai/video-effects/product-assets/wavespeed-ai/ai-twerk/poster-cda7699a268cee6575d94fcc60b8e187.webp" alt="AI Twerk 示例图片" />
+                    </div>
+                    <div class="media-frame video-frame">
+                      <span class="media-label">Video</span>
+                      <video
+                        src="https://ocdn.10b.ai/video-effects/product-assets/wavespeed-ai/ai-twerk/cover_url-0e9a9bae6eec0ee634adcc5fb4e93eec.mp4"
+                        poster="https://ocdn.10b.ai/video-effects/product-assets/wavespeed-ai/ai-twerk/poster-cda7699a268cee6575d94fcc60b8e187.webp"
+                        controls
+                        playsinline
+                        preload="metadata"
+                        aria-label="AI Twerk 视频特效结果"
+                      ></video>
+                    </div>
+                  </div>
+                  <div class="product-body">
+                    <span class="tag teal">Video Effects</span>
+                    <h3>AI Twerk 舞蹈视频</h3>
+                    <p>从单张人物图生成更有动感的短视频效果。</p>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="section">
+              <h2 class="section-title">从图片到视频，一条工作流</h2>
+              <div class="feature-list">
+                <div class="feature">
+                  <strong>AI Image</strong>
+                  <span>Text to Image、PhotoShoot、Face Generator。</span>
+                </div>
+                <div class="feature">
+                  <strong>AI Video</strong>
+                  <span>Text to Video、Image to Video、Motion Control。</span>
+                </div>
+                <div class="feature">
+                  <strong>Effects</strong>
+                  <span>Image Effects、Video Effects、AI Bikini。</span>
+                </div>
+                <div class="feature">
+                  <strong>Editing</strong>
+                  <span>Upscaler、Background Remover、Image Eraser。</span>
+                </div>
+              </div>
+            </section>
+
+            <section class="cta">
+              <h2>新用户可免费试用</h2>
+              <p>上传图片或输入提示词，先生成第一版。更多可能，待你发现。</p>
+              <a class="button" href="https://z-image.ai">立即打开 joymagic</a>
+            </section>
+
+            <footer class="footer">
+              <p>你收到这封邮件，是因为你曾使用过我们旗下产品，或订阅过我们的产品更新。joymagic 是独立新服务，需要重新注册使用。</p>
+              <p>
+                如果你不想继续收到产品更新，可以
+                <a href="{{unsubscribe_link}}">点击退订</a>。<br />
+                {{company_name}} · {{company_address}}
+              </p>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "prompt": "Transform the entire scene into a miniature tilt-shift diorama. Make the subject look like a hand-painted figurine with visible brush strokes on the skin. Add a wooden display base beneath the scene. Shift the lighting to warm studio spotlights from above. Make all textures look like craft materials — felt, clay, and balsa wood.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/8459bc7c330c34aebca8a7d9c94653f1.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/8459bc7c330c34aebca8a7d9c94653f1.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Transform the entire scene into a miniature tilt-shift diorama. Make the subject look like a hand-painted figurine with visible brush strokes on the skin. Add a wooden display base beneath the scene. Shift the lighting to warm studio spotlights from above. Make all textures look like craft materials — felt, clay, and balsa wood."
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/8986cbecb95043ee146fbc92195fc606.jpeg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/8986cbecb95043ee146fbc92195fc606.jpeg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/2f819cf9908895882e0155013f773b62.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/2f819cf9908895882e0155013f773b62.jpeg"
+    ],
+    "generatedAt": "2026-04-15T03:28:45.603Z"
+  }
+]

@@ -1,0 +1,156 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Subir imágenes de origen",
+      "hint": "Sube hasta {max} imágenes (JPG/PNG/WEBP)",
+      "dragDrop": "Arrastra y suelta o haz clic para subir",
+      "dropHere": "Suelta las imágenes aquí"
+    },
+    "aspectRatio": {
+      "title": "Seleccionar relación de aspecto",
+      "placeholder": "Seleccionar relación de aspecto",
+      "auto": "Automático",
+      "hint": "Elige la relación de aspecto de salida para tu resultado de imagen a imagen con nano-banana"
+    },
+    "prompt": {
+      "title": "Ingresa el prompt de edición",
+      "placeholder": "Describe cómo quieres editar las imágenes, por ejemplo, 'Cambiar a estilo anime', 'Aplicar efecto de pintura al óleo', 'Darle un aspecto cinematográfico'",
+      "hint": "Sé específico sobre las ediciones que deseas — estilo, ambiente, iluminación y detalles"
+    },
+    "generate": {
+      "title": "Generar imágenes editadas",
+      "cta": "Generar",
+      "generating": "Generando..."
+    },
+    "resolution": {
+      "title": "Seleccionar resolución",
+      "placeholder": "Seleccionar resolución",
+      "hint": "Elige la resolución de salida: 4K o 8K"
+    }
+  },
+  "preview": {
+    "title": "Vista previa",
+    "original": "Original",
+    "swap": "Intercambiar",
+    "placeholder": "Sube imágenes e ingresa un prompt de edición para previsualizar el resultado de imagen a imagen con nano-banana aquí."
+  },
+  "common": {
+    "selectedCount": "Seleccionadas: {count}/{max} imágenes",
+    "notSelected": "No seleccionado"
+  },
+  "errors": {
+    "invalidFileType": "Tipo de archivo no válido. Por favor, sube un archivo de imagen (JPG, PNG, WEBP).",
+    "uploadFailed": "Error al subir: {error}",
+    "uploadFailedGeneric": "Error al subir",
+    "sourceImageRequired": "Por favor, sube al menos una imagen de origen",
+    "promptRequired": "Por favor, ingresa un prompt de edición",
+    "generationFailed": "Error en la edición de imagen",
+    "taskFailed": "Error en el procesamiento de la tarea",
+    "taskTimeout": "Tiempo de espera agotado en el procesamiento de la tarea, por favor inténtalo de nuevo más tarde",
+    "taskIdNotFound": "No se pudo obtener el ID de la tarea, por favor verifica el formato de respuesta de la API",
+    "processingFailed": "Error en el procesamiento, por favor inténtalo de nuevo",
+    "statusQueryFailed": "Error al consultar el estado de la tarea",
+    "apiResponseParseFailed": "Error al analizar la respuesta de la API"
+  },
+  "page": {
+    "metadata": {
+      "title": "Editor IA Nano Banana Imagen a Imagen — Transforma Imágenes en Línea Gratis | joymagic",
+      "description": "Usa la IA de imagen a imagen de Nano Banana para editar y transformar imágenes en línea. Sube hasta 14 imágenes, elige entre más de 10 relaciones de aspecto y aplica transferencia de estilo, mejora y transformaciones creativas de imagen a imagen con nano-banana en segundos. Supports 4K and 8K resolution.",
+      "keywords": "image-to-image nano-banana-pro-edit, nano-banana-pro-edit-ultra, nano-banana-pro-edit-ultra image-to-image, image-to-image AI, nano-banana image editor, AI image-to-image transformation"
+    },
+    "hero": {
+      "title": "Nano Banana Imagen a Imagen — Editor y Transformador de Imágenes con IA",
+      "description": "Transforma tus imágenes con el editor de IA <strong class=\"text-primary font-semibold\">Nano Banana imagen a imagen</strong>. Sube hasta <strong class=\"text-primary font-semibold\">14 imágenes</strong>, selecciona entre más de 10 relaciones de aspecto y aplica ediciones de imagen a imagen con nano-banana — transferencia de estilo, gradación de color, efectos artísticos y transformaciones creativas — todo en segundos.",
+      "button1": "Probar Nano Banana Imagen a Imagen",
+      "button2": "Ver Precios"
+    },
+    "keyFeatures": {
+      "title": "¿Por Qué Elegir Nano Banana para Edición de Imagen a Imagen?",
+      "description": "Edición avanzada de imagen a imagen con IA impulsada por tecnología nano-banana",
+      "multiImage": {
+        "title": "Imagen a Imagen por Lotes con Nano Banana",
+        "description": "Sube hasta 14 imágenes a la vez para edición por lotes de imagen a imagen con nano-banana. Procesa múltiples imágenes simultáneamente con estilo y calidad consistentes."
+      },
+      "aspectRatio": {
+        "title": "Control de Relación de Aspecto Nano Banana",
+        "description": "Nano-banana-2 imagen a imagen soporta más de 10 relaciones de aspecto incluyendo 1:1, 3:2, 2:3, 3:4, 4:3, 4:5, 5:4, 9:16, 16:9 y 21:9 para dimensiones de salida perfectas."
+      },
+      "smartEdit": {
+        "title": "Edición Inteligente de Imagen a Imagen",
+        "description": "Nano Banana comprende el contexto y la semántica de la imagen para transformaciones de imagen a imagen precisas y de aspecto natural. IA inteligente que sabe qué cambiar y qué preservar."
+      },
+      "affordable": {
+        "title": "Precios Accesibles de Nano Banana",
+        "description": "Transformaciones de imagen a imagen con nano-banana rentables con edición de IA de grado profesional accesible para cualquier tamaño de proyecto."
+      },
+      "resolution": {
+        "title": "4K/8K Resolution Options",
+        "description": "Output in 4K or 8K for social, web, and print-ready workflows."
+      }
+    },
+    "promptingTips": {
+      "title": "Cómo Obtener los Mejores Resultados de Imagen a Imagen con Nano Banana",
+      "specific": {
+        "title": "Sé Específico en Tus Prompts",
+        "description": "Para resultados óptimos de imagen a imagen con nano-banana, describe exactamente qué ediciones deseas. Ejemplos: \"Transformar a estilo acuarela\" o \"Agregar gradación de color cinematográfica con tonos cálidos\"."
+      },
+      "style": {
+        "title": "Especifica el Estilo Artístico",
+        "description": "Al usar Nano Banana imagen a imagen, menciona el estilo objetivo claramente: \"ilustración anime\", \"pintura al óleo\", \"mejora fotorrealista\", \"aspecto de película vintage\", etc."
+      },
+      "color": {
+        "title": "Dirección de Color y Ambiente",
+        "description": "Guía a nano-banana imagen a imagen con indicaciones de color y ambiente: \"colores vibrantes saturados\", \"tonos pastel suaves\", \"atmósfera oscura y dramática\", \"calidez de hora dorada\", etc."
+      },
+      "details": {
+        "title": "Agrega Instrucciones Detalladas",
+        "description": "Maximiza la calidad de imagen a imagen de Nano Banana especificando iluminación, composición, textura y qué elementos preservar o transformar."
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes sobre Nano Banana Imagen a Imagen",
+      "description": "Preguntas frecuentes sobre el editor de IA de imagen a imagen Nano Banana",
+      "q1": {
+        "question": "¿Cuántas imágenes puedo editar a la vez con Nano Banana imagen a imagen?",
+        "answer": "Con el editor de imagen a imagen Nano Banana, puedes subir hasta 14 imágenes a la vez para edición por lotes de imagen a imagen impulsada por IA nano-banana."
+      },
+      "q2": {
+        "question": "¿Qué relaciones de aspecto soporta Nano Banana imagen a imagen?",
+        "answer": "Nano Banana imagen a imagen soporta más de 10 relaciones de aspecto: 1:1, 3:2, 2:3, 3:4, 4:3, 4:5, 5:4, 9:16, 16:9 y 21:9. También puedes usar el modo Automático para que nano-banana decida. Resolution options: 4K, 8K."
+      },
+      "q3": {
+        "question": "¿Qué formatos de imagen soporta Nano Banana imagen a imagen?",
+        "answer": "Nano Banana imagen a imagen soporta formatos PNG, JPEG, JPG y WebP. Para mejores resultados con nano-banana, usa imágenes de origen claras y bien iluminadas."
+      },
+      "q4": {
+        "question": "¿Cómo escribo prompts efectivos para Nano Banana imagen a imagen?",
+        "answer": "Para mejores resultados de imagen a imagen con nano-banana, incluye descripciones detalladas: estilo objetivo, ambiente, iluminación, paleta de colores y composición. Más detalle generalmente produce mejores transformaciones con Nano Banana."
+      },
+      "q5": {
+        "question": "¿Qué hace diferente a Nano Banana imagen a imagen de otros editores de IA?",
+        "answer": "Nano Banana utiliza tecnología avanzada de IA nano-banana para transformaciones de imagen a imagen conscientes del contexto y semánticamente inteligentes con control flexible de relación de aspecto. Comprende profundamente el contenido de la imagen, produciendo ediciones de imagen a imagen naturales y precisas."
+      }
+    },
+    "finalCTA": {
+      "title": "¿Listo para Probar Nano Banana Imagen a Imagen?",
+      "description": "Comienza a transformar tus imágenes con la IA de imagen a imagen nano-banana hoy. Transformaciones de imagen a imagen rápidas, de alta calidad e inteligentes al alcance de tu mano.",
+      "button": "Probar Nano Banana Imagen a Imagen Ahora"
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "imageToImage": "Imagen a Imagen",
+      "nanoBanana": "Nano Banana"
+    },
+    "schema": {
+      "softwareName": "Editor IA Nano Banana Imagen a Imagen — joymagic",
+      "howToName": "Cómo Usar el Editor de IA Nano Banana Imagen a Imagen",
+      "howToDescription": "Aprende a editar y transformar imágenes usando la tecnología de IA de imagen a imagen nano-banana. Sube imágenes, selecciona la relación de aspecto y aplica ediciones inteligentes de imagen a imagen impulsadas por IA.",
+      "features": {
+        "aiImageEditing": "Edición de IA Nano Banana Imagen a Imagen",
+        "multiImage": "Imagen a Imagen por Lotes con Nano Banana",
+        "aspectRatio": "Control de Relación de Aspecto Nano Banana",
+        "resolution": "4K/8K Resolution Options"
+      }
+    }
+  }
+}

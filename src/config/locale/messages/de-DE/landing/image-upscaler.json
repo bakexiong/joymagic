@@ -1,0 +1,193 @@
+{
+  "imageUpscaler": {
+    "id": "image-upscaler",
+    "title": "KI Bild-Vergrößerer",
+    "description": "Verbessern Sie sofort die Bildqualität und erhöhen Sie die Auflösung auf 4K, 8K oder 16K mit KI. Laden Sie Ihr Bild hoch und verbessern Sie es automatisch.",
+    "steps": {
+      "sourceImage": {
+        "title": "Bild hochladen",
+        "hint": "Ziehen & Ablegen oder klicken zum Hochladen · JPG/PNG/WEBP/HEIC",
+        "dragDrop": "Ziehen & Ablegen oder klicken zum Hochladen",
+        "dropHere": "Bild hier ablegen"
+      },
+      "settings": {
+        "title": "Vergrößerungseinstellungen wählen",
+        "targetResolution": "Vergrößerung / Ausgabe",
+        "outputFormat": "Ausgabeformat"
+      },
+      "generate": {
+        "title": "Generieren und herunterladen",
+        "cta": "Vergrößerung starten",
+        "generating": "Wird vergrößert..."
+      }
+    },
+    "preview": {
+      "title": "Vorschau",
+      "original": "Original",
+      "upscaled": "Vergrößert",
+      "placeholder": "Laden Sie ein Bild hoch, um hier das vergrößerte Ergebnis zu sehen."
+    },
+    "common": {
+      "selected": "Ausgewählt: {name}",
+      "notSelected": "Nicht ausgewählt"
+    },
+    "errors": {
+      "invalidFileType": "Ungültiger Dateityp. Bitte laden Sie eine Bilddatei hoch (JPG, PNG, WEBP, HEIC).",
+      "uploadFailed": "Upload fehlgeschlagen: {error}",
+      "uploadFailedGeneric": "Upload fehlgeschlagen",
+      "sourceImageRequired": "Bitte laden Sie zuerst ein Quellbild hoch",
+      "generationFailed": "Bildvergrößerung fehlgeschlagen",
+      "taskFailed": "Aufgabenverarbeitung fehlgeschlagen",
+      "taskTimeout": "Aufgabenverarbeitung-Timeout, bitte versuchen Sie es später erneut",
+      "taskIdNotFound": "Task-ID konnte nicht abgerufen werden, bitte überprüfen Sie das API-Antwortformat",
+      "processingFailed": "Verarbeitung fehlgeschlagen, bitte versuchen Sie es erneut",
+      "statusQueryFailed": "Abfrage des Aufgabenstatus fehlgeschlagen",
+      "apiResponseParseFailed": "API-Antwort konnte nicht analysiert werden",
+      "downloadFailed": "Bild konnte nicht heruntergeladen werden"
+    },
+    "download": {
+      "title": "Bild herunterladen"
+    },
+    "alt": {
+      "sourcePreview": "Quellvorschau",
+      "enlargedPreview": "Vergrößerte Vorschau",
+      "source": "Quelle",
+      "original": "Original",
+      "upscaled": "Vergrößert"
+    }
+  },
+  "imageUpscalerPage": {
+    "metadata": {
+      "title": "KI Bild-Vergrößerer Online | Bilder auf 4K 8K 16K vergrößern | joymagic",
+      "description": "Verbessern Sie sofort die Bildqualität und erhöhen Sie die Auflösung auf 4K, 8K oder 16K mit joymagic KI Bild-Vergrößerer. HD-Download, kein Wasserzeichen, Stapelverarbeitung.",
+      "keywords": "KI Bild-Vergrößerer, Bild vergrößern, Bildauflösung erhöhen, 4K Vergrößerer, 8K Vergrößerer, 16K Vergrößerer, KI Bildverbesserer, Bildauflösungsverbesserer, Foto-Vergrößerer, Bildqualitätsverbesserer, schnelle Vergrößerung, kreative Vergrößerung"
+    },
+    "hero": {
+      "title": "KI Bild-Vergrößerer Online",
+      "description": "Verbessern Sie sofort die Bildqualität und erhöhen Sie die Auflösung auf 4K, 8K oder 16K mit joymagic KI Bild-Vergrößerer. Laden Sie Ihr Bild hoch und verbessern Sie es automatisch.",
+      "button1": "Jetzt vergrößern",
+      "button2": "Kostenlos starten · Kein Wasserzeichen"
+    },
+    "heroDescription": "✓ HD-Download  ✓ Kein Wasserzeichen  ✓ Stapelverarbeitung",
+    "whatIsAIUpscaler": {
+      "title": "Was ist ein KI Bild-Vergrößerer?",
+      "description": "KI Bild-Vergrößerer verwendet Deep Learning, um Bilder zu vergrößern und dabei realistische Details und Schärfe hinzuzufügen. Im Gegensatz zur traditionellen Größenänderung, die Pixel streckt und Unschärfe verursacht, kann unsere KI:",
+      "features": [
+        "Bildinhalt und -struktur analysieren",
+        "Intelligent neue Pixel generieren",
+        "Texturen, Kanten und Farben erhalten",
+        "Knackige, natürlich aussehende Ergebnisse ausgeben"
+      ],
+      "perfectFor": "Verwenden Sie es für Produktfotos, alte Bilder, KI-generierte Kunst, Social-Media-Inhalte und druckfertige Bilder."
+    },
+    "keyFeatures": {
+      "title": "Hauptfunktionen",
+      "description": "Schnelle, hochwertige KI-Bildvergrößerung bis zu 16K.",
+      "fastProcessing": {
+        "title": "Schnelle Verarbeitung",
+        "description": "<p class=\"mb-3\">Erhalten Sie Ergebnisse in Sekunden. Optimierte KI verarbeitet komplexe Bilder schnell.</p>"
+      },
+      "highQuality": {
+        "title": "Bis zu 16K Ausgabe",
+        "description": "<p class=\"mb-3\">Vergrößern Sie Bilder auf 4K, 8K oder 16K und behalten Sie dabei Klarheit und Details bei.</p>"
+      },
+      "twoModes": {
+        "title": "Zwei Vergrößerungsmodi",
+        "description": "<p class=\"mb-3\">Schnellmodus für treue Vergrößerung; Kreativmodus für KI-verbesserte Details.</p>"
+      },
+      "batch": {
+        "title": "Stapelverarbeitung",
+        "description": "<p class=\"mb-3\">Laden Sie mehrere Bilder gleichzeitig hoch und verarbeiten Sie sie. Sparen Sie Zeit bei Massenaufgaben.</p>"
+      },
+      "cleanOutput": {
+        "title": "Saubere Ausgabe",
+        "description": "<p class=\"mb-3\">Laden Sie hochwertige, wasserzeichenfreie Ergebnisse herunter, die sofort einsatzbereit sind.</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "Was Sie mit joymagic KI-Vergrößerer tun können",
+      "description": "Ein Upload, endlose Möglichkeiten.",
+      "photography": {
+        "title": "Fotografie verbessern",
+        "description": "<p class=\"mb-3\">Vergrößern Sie alte Fotos oder Porträts für druckfertige Qualität.</p>"
+      },
+      "design": {
+        "title": "Design & KI-Kunst",
+        "description": "<p class=\"mb-3\">Verbessern Sie KI-generierte Kunst oder Grafiken mit schärferen Details.</p>"
+      },
+      "ecommerce": {
+        "title": "E-Commerce & Produkte",
+        "description": "<p class=\"mb-3\">Machen Sie Produktbilder scharf für Listen und Anzeigen.</p>"
+      },
+      "socialMedia": {
+        "title": "Social Media",
+        "description": "<p class=\"mb-3\">Teilen Sie klare, hochauflösende Visuals auf allen Plattformen.</p>"
+      },
+      "print": {
+        "title": "Großformat & Druck",
+        "description": "<p class=\"mb-3\">Skalieren Sie auf bis zu 16K für Poster, Banner und Druckmaterialien.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "Wie man ein Bild vergrößert",
+      "description": "Vergrößern Sie mit KI in drei einfachen Schritten:",
+      "step1": {
+        "title": "1. Laden Sie Ihr Bild hoch",
+        "description": "<p class=\"mb-3\">Ziehen Sie Ihr Bild per Drag & Drop oder wählen Sie Ihre Bilddatei aus.</p><p class=\"mb-3\">Unterstützt JPG, PNG, WEBP und HEIC Formate.</p>"
+      },
+      "step2": {
+        "title": "2. Wählen Sie Vergrößerungseinstellungen",
+        "description": "<p class=\"mb-3\">Wählen Sie Ihre bevorzugte Vergrößerung:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>2x – Doppelte Auflösung</li><li>4x – Vierfache Auflösung</li><li>8x – Maximale Verbesserung (bis zu 16K Ausgabe)</li></ul><p class=\"mb-3\">Wählen Sie einen Modus:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Schnelle Vergrößerung – Erhält ursprüngliche Details</li><li>Kreative Vergrößerung – Fügt KI-generierte Details hinzu</li></ul>"
+      },
+      "step3": {
+        "title": "3. Generieren und herunterladen",
+        "description": "<p class=\"mb-3\">Klicken Sie auf Start und erhalten Sie Ihr vergrößertes Bild in Sekunden.</p><p class=\"mb-1\">Laden Sie es in hoher Auflösung herunter, sofort einsatzbereit.</p>"
+      }
+    },
+    "faq": {
+      "title": "KI Bild-Vergrößerer FAQs",
+      "description": "Schnelle Antworten zur KI-Vergrößerung.",
+      "q1": {
+        "question": "Welche Bildformate werden unterstützt?",
+        "answer": "Wir unterstützen JPG, JPEG, PNG, WEBP und HEIC. Wenn der Upload fehlschlägt, versuchen Sie, in JPG oder PNG zu konvertieren."
+      },
+      "q2": {
+        "question": "Wie ist die maximale Ausgabeauflösung?",
+        "answer": "Je nach Eingabegröße und Vergrößerung können Sie bis zu 16K (16384 × 16384) vergrößern."
+      },
+      "q3": {
+        "question": "Was ist der Unterschied zwischen Schnell- und Kreativmodus?",
+        "answer": "Schnell vergrößert treu – am besten für Produkte/Screenshots. Kreativ fügt KI-Details hinzu – am besten für KI-Kunst oder alte Fotos."
+      },
+      "q4": {
+        "question": "Kann ich mehrere Bilder gleichzeitig vergrößern?",
+        "answer": "Ja. Die Stapelverarbeitung ermöglicht es Ihnen, mehrere Bilder in einer Sitzung hochzuladen und zu vergrößern."
+      },
+      "q5": {
+        "question": "Haben meine vergrößerten Bilder ein Wasserzeichen?",
+        "answer": "Nein. Alle Downloads sind wasserzeichenfrei und sofort einsatzbereit."
+      },
+      "q6": {
+        "question": "Sind meine Daten sicher und privat?",
+        "answer": "Ja. Bilder werden in isolierten, verschlüsselten Sitzungen verarbeitet und nach der Verarbeitung gelöscht. Wir speichern oder trainieren niemals mit Ihren Uploads."
+      },
+      "q7": {
+        "question": "Welche Art von Bildern funktioniert am besten?",
+        "answer": "Klare, gut beleuchtete Bilder erzielen die besten Ergebnisse. Sehr niedrige Qualitätseingaben können nach der Vergrößerung noch einige Artefakte zeigen."
+      }
+    },
+    "privacySecurity": {
+      "title": "Datenschutz & Sicherheit",
+      "description": "Ihre Bilder und Privatsphäre haben für uns Priorität.",
+      "secureProcessing": "Alle Uploads werden sicher und verschlüsselt verarbeitet",
+      "autoDelete": "Bilder werden nach der Verarbeitung automatisch gelöscht",
+      "neverShared": "Niemals an Dritte weitergegeben oder für KI-Training verwendet"
+    },
+    "finalCTA": {
+      "title": "Verwandeln Sie Bilder mit niedriger Auflösung in hochauflösende Meisterwerke.",
+      "description": "Probieren Sie jetzt joymagic KI Bild-Vergrößerer aus und bringen Sie Ihre Fotos in Sekunden auf 4K-, 8K- oder 16K-Klarheit.<br/><span class=\"text-muted-foreground\">Keine Bearbeitungskenntnisse erforderlich · Kostenlos starten · Wasserzeichenfreie Downloads</span>",
+      "button": "Jetzt vergrößern"
+    }
+  }
+}
+

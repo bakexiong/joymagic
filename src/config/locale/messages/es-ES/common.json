@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "joymagic - Crea imágenes y videos IA impresionantes",
+    "description": "joymagic es una plataforma creativa impulsada por IA para generar imágenes y videos. Crea visuales de alta calidad a partir de texto, mejora contenido más rápido y explora potentes herramientas de IA para creadores modernos.",
+    "keywords": "joymagic, generación de imágenes, IA, diffusion transformer, código abierto, visión por computador, deep learning"
+  },
+  "auth": {
+    "reset_password_email_sent": "If this email exists, we have sent a reset link.",
+    "reset_password_email_failed": "Failed to send reset password email.",
+    "reset_password_no_email": "No email found for current user.",
+    "reset_password_page_title": "Set new password",
+    "reset_password_page_description": "Enter a new strong password for your account.",
+    "reset_password_toast_short": "Password too short, please use at least 8 characters.",
+    "reset_password_toast_long": "Password too long, please use a shorter password.",
+    "reset_password_toast_invalid_token": "Reset link is invalid or has expired, please request again.",
+    "reset_password_toast_success": "Password has been reset successfully, please sign in.",
+    "reset_password_toast_failed": "Reset password failed, please try again.",
+    "forgot_password_description": "Enter your account email and we'll send you a password reset link.",
+    "forgot_password_email_required": "Email is required.",
+    "verify_email_title": "Verify your email",
+    "verify_email_description": "We sent a verification link to your email. Please check your inbox and verify before signing in.",
+    "verify_email_go_sign_in": "Go to sign in",
+    "verify_email_resend": "Resend email",
+    "verify_email_resend_countdown": "Resend in {seconds}s",
+    "verify_email_resend_sent": "Verification email sent. Please check your inbox.",
+    "verify_email_resend_failed": "Failed to resend verification email. Please try again later.",
+    "verify_email_resend_missing_email": "Please enter your email first.",
+    "verify_email_resend_cooldown": "Please wait {seconds}s before trying again.",
+    "verify_email_already_verified": "This email is already verified. You can sign in directly.",
+    "sign_up_required_fields": "Name, email and password are required.",
+    "sign_up_failed": "Sign up failed, please try again.",
+    "email_not_verified": "Your email is not verified. Please check your inbox and click the verification link."
+  },
+  "api": {
+    "nsfw_blocked": "El resultado generado contiene contenido prohibido y ha sido bloqueado."
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "imageUpscaler": {
+    "id": "image-upscaler",
+    "title": "AI Görüntü Büyütücü",
+    "description": "AI kullanarak görüntü kalitesini anında iyileştirin ve çözünürlüğü 4K, 8K veya 16K'ya yükseltin. Görüntünüzü yükleyin ve otomatik olarak geliştirin.",
+    "steps": {
+      "sourceImage": {
+        "title": "Görüntü yükle",
+        "hint": "Sürükle ve bırak veya yüklemek için tıkla · JPG/PNG/WEBP/HEIC",
+        "dragDrop": "Sürükle ve bırak veya yüklemek için tıkla",
+        "dropHere": "Görüntüyü buraya bırak"
+      },
+      "settings": {
+        "title": "Büyütme ayarlarını seç",
+        "targetResolution": "Ölçek / Çıkış",
+        "outputFormat": "Çıkış Formatı"
+      },
+      "generate": {
+        "title": "Oluştur ve indir",
+        "cta": "Büyütmeyi Başlat",
+        "generating": "Büyütülüyor..."
+      }
+    },
+    "preview": {
+      "title": "Önizleme",
+      "original": "Orijinal",
+      "upscaled": "Büyütülmüş",
+      "placeholder": "Büyütülmüş sonucu görmek için buraya bir görüntü yükleyin."
+    },
+    "common": {
+      "selected": "Seçildi: {name}",
+      "notSelected": "Seçilmedi"
+    },
+    "errors": {
+      "invalidFileType": "Geçersiz dosya türü. Lütfen bir görüntü dosyası (JPG, PNG, WEBP, HEIC) yükleyin.",
+      "uploadFailed": "Yükleme başarısız: {error}",
+      "uploadFailedGeneric": "Yükleme başarısız",
+      "sourceImageRequired": "Lütfen önce kaynak görüntüyü yükleyin",
+      "generationFailed": "Görüntü büyütme başarısız",
+      "taskFailed": "Görev işleme başarısız",
+      "taskTimeout": "Görev işleme zaman aşımı, lütfen daha sonra tekrar deneyin",
+      "taskIdNotFound": "Görev ID'si alınamadı, lütfen API yanıt formatını kontrol edin",
+      "processingFailed": "İşleme başarısız, lütfen tekrar deneyin",
+      "statusQueryFailed": "Görev durumu sorgulanamadı",
+      "apiResponseParseFailed": "API yanıtı ayrıştırılamadı",
+      "downloadFailed": "Görüntü indirilemedi"
+    },
+    "download": {
+      "title": "Görüntüyü indir"
+    },
+    "alt": {
+      "sourcePreview": "Kaynak önizleme",
+      "enlargedPreview": "Büyütülmüş önizleme",
+      "source": "Kaynak",
+      "original": "Orijinal",
+      "upscaled": "Büyütülmüş"
+    }
+  },
+  "imageUpscalerPage": {
+    "metadata": {
+      "title": "AI Görüntü Büyütücü Çevrimiçi | Görüntüleri 4K 8K 16K'ya Büyüt | joymagic",
+      "description": "joymagic'ın AI Görüntü Büyütücüsü ile görüntü kalitesini anında iyileştirin ve çözünürlüğü 4K, 8K veya 16K'ya yükseltin. HD indirme, filigran yok, toplu işlem desteği.",
+      "keywords": "AI Görüntü Büyütücü, görüntü büyüt, çözünürlük artır, 4K büyütücü, 8K büyütücü, 16K büyütücü, AI görüntü geliştirici, çözünürlük geliştirici, fotoğraf büyütücü, görüntü kalite geliştirici, hızlı büyütme, yaratıcı büyütme"
+    },
+    "hero": {
+      "title": "AI Görüntü Büyütücü Çevrimiçi",
+      "description": "joymagic'ın AI görüntü büyütücüsü ile görüntü kalitesini anında iyileştirin ve çözünürlüğü 4K, 8K veya 16K'ya yükseltin. Görüntünüzü yükleyin ve otomatik olarak geliştirin.",
+      "button1": "Şimdi Büyütmeyi Başlat",
+      "button2": "Ücretsiz başla · Filigran yok"
+    },
+    "heroDescription": "✓ HD İndirme  ✓ Filigran yok  ✓ Toplu işlem desteği",
+    "whatIsAIUpscaler": {
+      "title": "AI Görüntü Büyütücü Nedir?",
+      "description": "AI Görüntü Büyütücü, gerçekçi detaylar ve keskinlik eklerken görüntüleri büyütmek için derin öğrenme kullanır. Pikseli uzatan ve bulanıklığa neden olan geleneksel yeniden boyutlandırmadan farklı olarak, AI'mız:",
+      "features": [
+        "Görüntü içeriğini ve yapısını analiz eder",
+        "Yeni pikselleri akıllıca oluşturur",
+        "Dokuları, kenarları ve renkleri korur",
+        "Net, doğal görünümlü sonuçlar üretir"
+      ],
+      "perfectFor": "Ürün fotoğrafları, eski resimler, AI tarafından oluşturulan sanat, sosyal medya içeriği ve baskıya hazır görüntüler için kullanın."
+    },
+    "keyFeatures": {
+      "title": "Temel Özellikler",
+      "description": "16K'ya kadar hızlı, yüksek kaliteli AI görüntü büyütme.",
+      "fastProcessing": {
+        "title": "Hızlı İşleme",
+        "description": "<p class=\"mb-3\">Saniyeler içinde sonuç alın. Optimize edilmiş AI karmaşık görüntüleri hızlıca işler.</p>"
+      },
+      "highQuality": {
+        "title": "16K'ya Kadar Çıkış",
+        "description": "<p class=\"mb-3\">Netliği ve detayları korurken görüntüleri 4K, 8K veya 16K'ya büyütün.</p>"
+      },
+      "twoModes": {
+        "title": "İki Büyütme Modu",
+        "description": "<p class=\"mb-3\">Sadık büyütme için hızlı mod; AI geliştirilmiş detaylar için yaratıcı mod.</p>"
+      },
+      "batch": {
+        "title": "Toplu İşleme",
+        "description": "<p class=\"mb-3\">Birden fazla görüntüyü aynı anda yükleyin ve işleyin. Toplu görevlerde zaman kazanın.</p>"
+      },
+      "cleanOutput": {
+        "title": "Temiz Çıkış",
+        "description": "<p class=\"mb-3\">Hemen kullanıma hazır yüksek kaliteli, filigransız sonuçları indirin.</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "joymagic AI Büyütücü ile Neler Yapabilirsiniz",
+      "description": "Bir yükleme, sonsuz olasılık.",
+      "photography": {
+        "title": "Fotoğrafçılığı Geliştir",
+        "description": "<p class=\"mb-3\">Eski fotoğrafları veya portreleri baskı kalitesine büyütün.</p>"
+      },
+      "design": {
+        "title": "Tasarım ve AI Sanatı",
+        "description": "<p class=\"mb-3\">AI tarafından oluşturulan sanat veya grafikleri daha keskin detaylarla geliştirin.</p>"
+      },
+      "ecommerce": {
+        "title": "E-Ticaret ve Ürünler",
+        "description": "<p class=\"mb-3\">Ürün görüntülerini listelemeler ve reklamlar için net yapın.</p>"
+      },
+      "socialMedia": {
+        "title": "Sosyal Medya",
+        "description": "<p class=\"mb-3\">Tüm platformlarda net, yüksek çözünürlüklü görseller paylaşın.</p>"
+      },
+      "print": {
+        "title": "Büyük Format ve Baskı",
+        "description": "<p class=\"mb-3\">Posterler, afişler ve baskı malzemeleri için 16K'ya kadar ölçeklendirin.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "Görüntüyü Nasıl Büyütülür",
+      "description": "Üç basit adımda AI ile büyütün:",
+      "step1": {
+        "title": "1. Görüntünüzü yükleyin",
+        "description": "<p class=\"mb-3\">Görüntü dosyanızı sürükleyip bırakın veya seçin.</p><p class=\"mb-3\">JPG, PNG, WEBP ve HEIC formatlarını destekler.</p>"
+      },
+      "step2": {
+        "title": "2. Büyütme ayarlarını seçin",
+        "description": "<p class=\"mb-3\">Tercih ettiğiniz ölçeği seçin:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>2x – Çözünürlüğü ikiye katla</li><li>4x – Çözünürlüğü dört katına çıkar</li><li>8x – Maksimum geliştirme (16K çıkışa kadar)</li></ul><p class=\"mb-3\">Bir mod seçin:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Hızlı Büyütme – Orijinal detayları korur</li><li>Yaratıcı Büyütme – AI tarafından oluşturulan detaylar ekler</li></ul>"
+      },
+      "step3": {
+        "title": "3. Oluşturun ve indirin",
+        "description": "<p class=\"mb-3\">Başlat'a tıklayın ve büyütülmüş görüntünüzü saniyeler içinde alın.</p><p class=\"mb-1\">Hemen kullanıma hazır yüksek çözünürlükte indirin.</p>"
+      }
+    },
+    "faq": {
+      "title": "AI Görüntü Büyütücü SSS",
+      "description": "AI büyütme hakkında hızlı cevaplar.",
+      "q1": {
+        "question": "Hangi görüntü formatları destekleniyor?",
+        "answer": "JPG, JPEG, PNG, WEBP ve HEIC'i destekliyoruz. Yükleme başarısız olursa, JPG veya PNG'ye dönüştürmeyi deneyin."
+      },
+      "q2": {
+        "question": "Maksimum çıkış çözünürlüğü nedir?",
+        "answer": "Giriş boyutuna ve ölçeğe bağlı olarak 16K'ya (16384 × 16384) kadar büyütebilirsiniz."
+      },
+      "q3": {
+        "question": "Hızlı ve Yaratıcı mod arasındaki fark nedir?",
+        "answer": "Hızlı sadık büyütür—ürünler/ekran görüntüleri için en iyi. Yaratıcı AI detayları ekler—AI sanatı veya eski fotoğraflar için en iyi."
+      },
+      "q4": {
+        "question": "Birden fazla görüntüyü aynı anda büyütebilir miyim?",
+        "answer": "Evet. Toplu işleme, bir oturumda birden fazla görüntüyü yüklemenize ve büyütmenize olanak tanır."
+      },
+      "q5": {
+        "question": "Büyütülmüş görüntülerimde filigran olacak mı?",
+        "answer": "Hayır. Tüm indirmeler filigransızdır ve hemen kullanıma hazırdır."
+      },
+      "q6": {
+        "question": "Verilerim güvenli ve özel mi?",
+        "answer": "Evet. Görüntüler izole, şifrelenmiş oturumlarda işlenir ve işlemeden sonra silinir. Yüklemelerinizi asla saklamıyoruz veya eğitmiyoruz."
+      },
+      "q7": {
+        "question": "Hangi tür görüntüler en iyi sonuç verir?",
+        "answer": "Net, iyi aydınlatılmış görüntüler en iyi sonuçları üretir. Çok düşük kaliteli girişler büyütmeden sonra hala bazı yapay eserler gösterebilir."
+      }
+    },
+    "privacySecurity": {
+      "title": "Gizlilik ve Güvenlik",
+      "description": "Görüntüleriniz ve gizliliğiniz önceliğimizdir.",
+      "secureProcessing": "Tüm yüklemeler güvenli ve şifrelenmiş olarak işlenir",
+      "autoDelete": "Görüntüler işlemeden sonra otomatik olarak silinir",
+      "neverShared": "Üçüncü taraflarla asla paylaşılmaz veya AI eğitimi için kullanılmaz"
+    },
+    "finalCTA": {
+      "title": "Düşük çözünürlüklü görüntüleri yüksek tanımlı başyapıtlara dönüştürün.",
+      "description": "Şimdi joymagic'ın AI Görüntü Büyütücüsünü deneyin ve fotoğraflarınızı saniyeler içinde 4K, 8K veya 16K netliğe getirin.<br/><span class=\"text-muted-foreground\">Düzenleme becerisi gerekmez · Ücretsiz başla · Filigransız indirmeler</span>",
+      "button": "Şimdi Büyütmeyi Başlat"
+    }
+  }
+}
+

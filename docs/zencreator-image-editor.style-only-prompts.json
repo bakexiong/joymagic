@@ -1,0 +1,280 @@
+{
+  "source_file": "/Users/admin/Desktop/z-image.ai/docs/zencreator-image-editor.visible-templates.inferred.json",
+  "generated_at": "2026-05-02T17:24:27.807Z",
+  "policy_note": "以下 prompt 只保留 Template Name 所要求的风格与题材方向，ref 图主体统一为年轻成年美女；prompt 采用更自然的生成式写法，不额外加入过强控制语句。",
+  "templates": [
+    {
+      "index": 1,
+      "original_template_name": "Playful Duck Face",
+      "template_name_synonym": "Cheeky Pout Pose",
+      "final_generated_image_url": "https://storage.zencreator.pro/bfc38e7bb1bc490cbe1264d20f064735.png",
+      "primary_ref_image_url": "https://ocdn.10b.ai/zencreator/image-editor-style-only/cheeky-pout-pose-ref-b6ef263388eb0add97a13c6bdeda5ac1.png",
+      "ref_image_urls": [
+        "https://ocdn.10b.ai/zencreator/image-editor-style-only/cheeky-pout-pose-ref-b6ef263388eb0add97a13c6bdeda5ac1.png"
+      ],
+      "inferred_style_only_prompt": "A playful editorial portrait of a young beautiful woman giving a cheeky pout, wearing fresh street-fashion styling in a neon-lit arcade, lively energy, glossy color, photorealistic fashion photography."
+    },
+    {
+      "index": 2,
+      "original_template_name": "Sultry Lip Pose",
+      "template_name_synonym": "Smoldering Lip Gesture",
+      "final_generated_image_url": "https://storage.zencreator.pro/5d6d32ce247b47ca984b0d767bb96877.png",
+      "primary_ref_image_url": "https://ocdn.10b.ai/zencreator/image-editor-style-only/smoldering-lip-gesture-ref-bf672f31b85ea5a88cfafdbae7d5b776.png",
+      "ref_image_urls": [
+        "https://ocdn.10b.ai/zencreator/image-editor-style-only/smoldering-lip-gesture-ref-bf672f31b85ea5a88cfafdbae7d5b776.png"
+      ],
+      "inferred_style_only_prompt": "A moody close portrait of a young beautiful woman with a soft finger-near-lips gesture, deep eye contact, cinematic shadows, elegant styling, intimate editorial atmosphere, photorealistic beauty photography."
+    },
+    {
+      "index": 3,
+      "original_template_name": "Luxury Yacht - 3:4",
+      "template_name_synonym": "Prestige Superyacht - 3:4",
+      "final_generated_image_url": "https://storage.zencreator.pro/77f8faa8de8341e8aa8baa4f28aab6a1.png",
+      "primary_ref_image_url": "https://ocdn.10b.ai/zencreator/image-editor-style-only/prestige-superyacht-3-4-ref-0306859a4574617d3fc7561b9af6b664.png",
+      "ref_image_urls": [
+        "https://ocdn.10b.ai/zencreator/image-editor-style-only/prestige-superyacht-3-4-ref-0306859a4574617d3fc7561b9af6b664.png"
+      ],
+      "inferred_style_only_prompt": "A luxury yacht editorial of a young beautiful woman in refined resort fashion on a sunlit deck, sea breeze, polished summer glamour, bright ocean reflections, photorealistic lifestyle photography, vertical composition."
+    },
+    {
+      "index": 4,
+      "original_template_name": "Mirror Selfie/ Sexy Pose",
+      "template_name_synonym": "Chic Mirror Snapshot",
+      "final_generated_image_url": "https://storage.zencreator.pro/ea4e5516341a470788f1e34f77682be7.png",
+      "primary_ref_image_url": "https://ocdn.10b.ai/zencreator/image-editor-style-only/chic-mirror-snapshot-ref-3debbf3c254d11e1d8e0c9c7c629d8c2.png",
+      "ref_image_urls": [
+        "https://ocdn.10b.ai/zencreator/image-editor-style-only/chic-mirror-snapshot-ref-3debbf3c254d11e1d8e0c9c7c629d8c2.png"
+      ],
+      "inferred_style_only_prompt": "A stylish mirror selfie of a young beautiful woman in a sleek fashion look inside a modern boutique hotel, clean reflections, confident attitude, cool indoor light, photorealistic smartphone-photo aesthetic."
+    },
+    {
+      "index": 5,
+      "original_template_name": "Parisian golden gown",
+      "template_name_synonym": "Paris Gilded Evening Gown",
+      "final_generated_image_url": "https://storage.zencreator.pro/d71b3bee837b4849b87ef9347d14b12c.png",
+      "primary_ref_image_url": "https://ocdn.10b.ai/zencreator/image-editor-style-only/paris-gilded-evening-gown-ref-76865ad9f1d4027173955ea587aca891.png",
+      "ref_image_urls": [
+        "https://ocdn.10b.ai/zencreator/image-editor-style-only/paris-gilded-evening-gown-ref-76865ad9f1d4027173955ea587aca891.png"
+      ],
+      "inferred_style_only_prompt": "A romantic Paris night portrait of a young beautiful woman wearing a glowing golden couture gown, sparkling city lights, elegant drama, cinematic glamour, luxurious photorealistic fashion photography."
+    },
+    {
+      "index": 6,
+      "original_template_name": "Outfit Change + Sitting Pose + Living Room",
+      "template_name_synonym": "Wardrobe Switch + Seated Lounge Pose",
+      "final_generated_image_url": "https://storage.zencreator.pro/dcc719eb54f94618a4638840c1dce6a7.png",
+      "primary_ref_image_url": "https://ocdn.10b.ai/zencreator/image-editor-style-only/wardrobe-switch-seated-lounge-pose-ref-03b80c50006c2d55229ba9f80f3dd480.png",
+      "ref_image_urls": [
+        "https://ocdn.10b.ai/zencreator/image-editor-style-only/wardrobe-switch-seated-lounge-pose-ref-03b80c50006c2d55229ba9f80f3dd480.png"
+      ],
+      "inferred_style_only_prompt": "A curated living-room portrait of a young beautiful woman seated in a designer lounge, wearing a fresh contemporary outfit, relaxed charm, upscale interior mood, photorealistic editorial lifestyle photography."
+    },
+    {
+      "index": 7,
+      "original_template_name": "Same Background/ Change Person - 3:4",
+      "template_name_synonym": "Backdrop Match Muse Swap - 3:4",
+      "final_generated_image_url": "https://storage.zencreator.pro/1e29053ba04c42679368e18466d60eb8.png",
+      "primary_ref_image_url": "https://ocdn.10b.ai/zencreator/image-editor-style-only/backdrop-match-muse-swap-3-4-ref-7007a08d37cc4c062ce66d414e6d04dd.png",
+      "ref_image_urls": [
+        "https://ocdn.10b.ai/zencreator/image-editor-style-only/backdrop-match-muse-swap-3-4-ref-7007a08d37cc4c062ce66d414e6d04dd.png"
+      ],
+      "inferred_style_only_prompt": "A glamorous portrait of a young beautiful woman set against a striking luxury backdrop, strong environmental presence, polished styling, elegant posture, photorealistic editorial image with a clear sense of scene continuity."
+    },
+    {
+      "index": 8,
+      "original_template_name": "Remove Person - 3:4",
+      "template_name_synonym": "Scene Clean-Up Muse - 3:4",
+      "final_generated_image_url": "https://storage.zencreator.pro/e4bee37a903a41968baa8f32832dacc5.png",
+      "primary_ref_image_url": "https://ocdn.10b.ai/zencreator/image-editor-style-only/scene-clean-up-muse-3-4-ref-d9d465f75da1e153fc12b96985174587.png",
+      "ref_image_urls": [
+        "https://ocdn.10b.ai/zencreator/image-editor-style-only/scene-clean-up-muse-3-4-ref-d9d465f75da1e153fc12b96985174587.png"
+      ],
+      "inferred_style_only_prompt": "A photorealistic city portrait of a young beautiful woman in a spacious urban setting with crisp architectural depth, stylish outfit, natural daylight, clean composition, polished editorial realism."
+    },
+    {
+      "index": 9,
+      "original_template_name": "Selfie-style photo",
+      "template_name_synonym": "Phone-Shot Portrait",
+      "final_generated_image_url": "https://storage.zencreator.pro/1c7a9d2be57744e3b168da2ced7e7907.png",
+      "primary_ref_image_url": "https://ocdn.10b.ai/zencreator/image-editor-style-only/phone-shot-portrait-ref-e7deee399281363d739a6a841d5f4ca1.png",
+      "ref_image_urls": [
+        "https://ocdn.10b.ai/zencreator/image-editor-style-only/phone-shot-portrait-ref-e7deee399281363d739a6a841d5f4ca1.png"
+      ],
+      "inferred_style_only_prompt": "A close selfie-style portrait of a young beautiful woman with personality, softly tousled hair, fashionable casual look, warm room glow, authentic phone-camera intimacy, photorealistic modern beauty shot."
+    },
+    {
+      "index": 10,
+      "original_template_name": "Ebony wrapped in red changing pose",
+      "template_name_synonym": "Crimson-Wrapped Pose Remix",
+      "final_generated_image_url": "https://storage.zencreator.pro/8a039851e8a4477da5639ab95255b589.png",
+      "primary_ref_image_url": "https://ocdn.10b.ai/zencreator/image-editor-style-only/crimson-wrapped-pose-remix-ref-b290112f8bb76aadc53290f632f8ff2e.png",
+      "ref_image_urls": [
+        "https://ocdn.10b.ai/zencreator/image-editor-style-only/crimson-wrapped-pose-remix-ref-b290112f8bb76aadc53290f632f8ff2e.png"
+      ],
+      "inferred_style_only_prompt": "A dramatic studio portrait of a young beautiful woman wrapped in flowing crimson fabric, bold elegance, sculptural pose, rich contrast, luxurious mood, photorealistic fashion editorial."
+    },
+    {
+      "index": 11,
+      "original_template_name": "Same Background/ Change Person - 3:4",
+      "template_name_synonym": "Night Backdrop Muse Swap - 3:4",
+      "final_generated_image_url": "https://storage.zencreator.pro/7e6b306fdfd04797a5172f1010a6052a.png",
+      "primary_ref_image_url": "https://ocdn.10b.ai/zencreator/image-editor-style-only/night-backdrop-muse-swap-3-4-ref-d8862a1f33f25649c4c27f02c9a85c64.png",
+      "ref_image_urls": [
+        "https://ocdn.10b.ai/zencreator/image-editor-style-only/night-backdrop-muse-swap-3-4-ref-d8862a1f33f25649c4c27f02c9a85c64.png"
+      ],
+      "inferred_style_only_prompt": "A glamorous night portrait of a young beautiful woman framed by a vivid urban backdrop, polished styling, luminous atmosphere, editorial confidence, photorealistic scene-rich fashion photography."
+    },
+    {
+      "index": 12,
+      "original_template_name": "Close-up portrait",
+      "template_name_synonym": "Tight Framing Portrait Study",
+      "final_generated_image_url": "https://storage.zencreator.pro/34d2d46dc2c74d57873443aec26a59d9.png",
+      "primary_ref_image_url": "https://ocdn.10b.ai/zencreator/image-editor-style-only/tight-framing-portrait-study-ref-a4e97da22a019cf62ee7d0e11af98ca9.png",
+      "ref_image_urls": [
+        "https://ocdn.10b.ai/zencreator/image-editor-style-only/tight-framing-portrait-study-ref-a4e97da22a019cf62ee7d0e11af98ca9.png"
+      ],
+      "inferred_style_only_prompt": "A close-up beauty portrait of a young beautiful woman with expressive eyes, luminous skin, subtle makeup, shallow depth of field, refined elegance, photorealistic high-end portrait photography."
+    },
+    {
+      "index": 13,
+      "original_template_name": "Manor intrigue",
+      "template_name_synonym": "Estate Mystique",
+      "final_generated_image_url": "https://storage.zencreator.pro/066021f28630470e860a7ae7219fc19a.png",
+      "primary_ref_image_url": "https://ocdn.10b.ai/zencreator/image-editor-style-only/estate-mystique-ref-54829a87699bfbc6b825213dc1aed7f9.png",
+      "ref_image_urls": [
+        "https://ocdn.10b.ai/zencreator/image-editor-style-only/estate-mystique-ref-54829a87699bfbc6b825213dc1aed7f9.png"
+      ],
+      "inferred_style_only_prompt": "A mysterious manor-inspired portrait of a young beautiful woman in elegant dark styling, old-world atmosphere, candlelit mood, quiet drama, cinematic photorealistic editorial photography."
+    },
+    {
+      "index": 14,
+      "original_template_name": "Muscle Upgrade - 3:4",
+      "template_name_synonym": "Physique Glow-Up - 3:4",
+      "final_generated_image_url": "https://storage.zencreator.pro/fd0d5f2235a640e483c1164f21bc100d.png",
+      "primary_ref_image_url": "https://ocdn.10b.ai/zencreator/image-editor-style-only/physique-glow-up-3-4-ref-404cfcf84ccf042e15f61ebe6e066b01.png",
+      "ref_image_urls": [
+        "https://ocdn.10b.ai/zencreator/image-editor-style-only/physique-glow-up-3-4-ref-404cfcf84ccf042e15f61ebe6e066b01.png"
+      ],
+      "inferred_style_only_prompt": "A toned fitness portrait of a young beautiful woman in stylish activewear, healthy athletic shape, clean daylight, confident body language, photorealistic transformation-inspired editorial image, vertical framing."
+    },
+    {
+      "index": 15,
+      "original_template_name": "Classy beauty beside a classic car",
+      "template_name_synonym": "Elegant Muse Beside A Vintage Automobile",
+      "final_generated_image_url": "https://storage.zencreator.pro/4a920c7cd2be4547a551501c22a76477.png",
+      "primary_ref_image_url": "https://storage.zencreator.pro/d7d55831edfd4cddb7d1a1197e3ee47a.png",
+      "ref_image_urls": [
+        "https://storage.zencreator.pro/d7d55831edfd4cddb7d1a1197e3ee47a.png",
+        "https://storage.zencreator.pro/c6b1526907ec43e5afd45bff2bf4eb98.png",
+        "https://storage.zencreator.pro/c9cd919f70cc49f1af5583e9b39e1533.png"
+      ],
+      "inferred_style_only_prompt": "A refined retro fashion portrait of a young beautiful woman beside a classic car, polished twilight glow, cinematic elegance, premium styling, photorealistic automotive editorial photography."
+    },
+    {
+      "index": 16,
+      "original_template_name": "Pose Change",
+      "template_name_synonym": "Pose Remix",
+      "final_generated_image_url": "https://storage.zencreator.pro/336628b3e9b94e48b4ec22aaf6e32349.png",
+      "primary_ref_image_url": "https://storage.zencreator.pro/43a9132d044146d7bb28fba143021a11.png",
+      "ref_image_urls": [
+        "https://storage.zencreator.pro/43a9132d044146d7bb28fba143021a11.png"
+      ],
+      "inferred_style_only_prompt": "A full-body fashion portrait of a young beautiful woman in a fresh expressive pose, clean modern setting, graceful movement, stylish wardrobe, photorealistic editorial image with strong body language."
+    },
+    {
+      "index": 17,
+      "original_template_name": "Lavender couture & white thigh-highs",
+      "template_name_synonym": "Lilac Couture With White Accents",
+      "final_generated_image_url": "https://storage.zencreator.pro/41ca593fe3494ad0961e1fa4988879b1.png",
+      "primary_ref_image_url": "https://storage.zencreator.pro/ea8fe96310dd4dc688523cad16fabbbf.png",
+      "ref_image_urls": [
+        "https://storage.zencreator.pro/ea8fe96310dd4dc688523cad16fabbbf.png",
+        "https://storage.zencreator.pro/8ab197ef02154ed98f410e7065453b28.png"
+      ],
+      "inferred_style_only_prompt": "A pastel couture portrait of a young beautiful woman in lilac high-fashion styling with crisp white accents, airy elegance, runway polish, refined photorealistic editorial photography."
+    },
+    {
+      "index": 18,
+      "original_template_name": "From bath to race",
+      "template_name_synonym": "Spa-To-Speed",
+      "final_generated_image_url": "https://storage.zencreator.pro/e491dca4aa79450d86a09d00477aeb9e.png",
+      "primary_ref_image_url": "https://storage.zencreator.pro/ad96c15d6a924b2090f661db700818c3.png",
+      "ref_image_urls": [
+        "https://storage.zencreator.pro/ad96c15d6a924b2090f661db700818c3.png"
+      ],
+      "inferred_style_only_prompt": "A cinematic transformation portrait of a young beautiful woman blending calm spa luxury with racing energy, sleek styling, motion-ready attitude, dramatic contrast, photorealistic concept editorial."
+    },
+    {
+      "index": 19,
+      "original_template_name": "Sunglasses elegance portrait",
+      "template_name_synonym": "Shades Elegance Portrait",
+      "final_generated_image_url": "https://storage.zencreator.pro/042809184cc44ca6a071e391ea419742.png",
+      "primary_ref_image_url": "https://storage.zencreator.pro/a78500b9fade4d17badcf63a83fdee74.png",
+      "ref_image_urls": [
+        "https://storage.zencreator.pro/a78500b9fade4d17badcf63a83fdee74.png"
+      ],
+      "inferred_style_only_prompt": "A chic portrait of a young beautiful woman wearing statement sunglasses, understated luxury, graceful confidence, soft premium light, photorealistic accessories-focused editorial photography."
+    },
+    {
+      "index": 20,
+      "original_template_name": "Home made photo",
+      "template_name_synonym": "Homestyle Snapshot",
+      "final_generated_image_url": "https://storage.zencreator.pro/f9d301e5dc01423e8ad24faab4ce8616.png",
+      "primary_ref_image_url": "https://storage.zencreator.pro/34365feef1d14b9ba2d4c481c1413671.png",
+      "ref_image_urls": [
+        "https://storage.zencreator.pro/34365feef1d14b9ba2d4c481c1413671.png",
+        "https://storage.zencreator.pro/48e901f933d5483bb0d5c3edea659913.png",
+        "https://storage.zencreator.pro/0fa8fdf3f67742249507a272ab8b1bb7.png"
+      ],
+      "inferred_style_only_prompt": "An authentic at-home portrait of a young beautiful woman in a cozy lived-in space, casual natural styling, warm realism, candid charm, photorealistic domestic snapshot aesthetic."
+    },
+    {
+      "index": 21,
+      "original_template_name": "Ad's photoshoot",
+      "template_name_synonym": "Campaign Photoshoot",
+      "final_generated_image_url": "https://storage.zencreator.pro/c4a992f3374045a884e0cd0b50f14d11.png",
+      "primary_ref_image_url": "https://storage.zencreator.pro/f8b94871e6d84117ad30b435acdaa388.png",
+      "ref_image_urls": [
+        "https://storage.zencreator.pro/f8b94871e6d84117ad30b435acdaa388.png"
+      ],
+      "inferred_style_only_prompt": "A polished commercial photoshoot portrait of a young beautiful woman, premium styling, ad-ready lighting, confident expression, modern luxury mood, photorealistic campaign photography."
+    },
+    {
+      "index": 22,
+      "original_template_name": "Home comfort with a martini",
+      "template_name_synonym": "Home Comfort With A Martini",
+      "final_generated_image_url": "https://storage.zencreator.pro/7eeb4309afe0420b94681790ec67b3fc.png",
+      "primary_ref_image_url": "https://storage.zencreator.pro/5c1e3273419a4d85b456847c10ee19e5.png",
+      "ref_image_urls": [
+        "https://storage.zencreator.pro/5c1e3273419a4d85b456847c10ee19e5.png",
+        "https://storage.zencreator.pro/917364f552d04b01a43f10de732b01f7.png",
+        "https://storage.zencreator.pro/7a1e0fa64f30451ba6ca440ec3c86fb3.png"
+      ],
+      "inferred_style_only_prompt": "A relaxed evening portrait of a young beautiful woman holding a martini in a stylish home interior, soft ambient light, quiet luxury, photorealistic lifestyle editorial mood."
+    },
+    {
+      "index": 23,
+      "original_template_name": "Makeup - 9:16",
+      "template_name_synonym": "Beauty Detail - 9:16",
+      "final_generated_image_url": "https://storage.zencreator.pro/460a72527ee246a394a39275546a5c04.png",
+      "primary_ref_image_url": "https://storage.zencreator.pro/5b36ec773e634b54b077a582d1eda5b1.png",
+      "ref_image_urls": [
+        "https://storage.zencreator.pro/5b36ec773e634b54b077a582d1eda5b1.png"
+      ],
+      "inferred_style_only_prompt": "A vertical beauty portrait of a young beautiful woman showcasing refined makeup, glowing skin, elegant expression, studio polish, photorealistic cosmetic campaign photography, 9:16 framing."
+    },
+    {
+      "index": 24,
+      "original_template_name": "On the boat in coral swimsuit",
+      "template_name_synonym": "Coral Swimwear On Deck",
+      "final_generated_image_url": "https://storage.zencreator.pro/b4ed4733da424aadb70c451e3f45b421.png",
+      "primary_ref_image_url": "https://storage.zencreator.pro/ed1a26adad5146588c1302e802b65e89.png",
+      "ref_image_urls": [
+        "https://storage.zencreator.pro/ed1a26adad5146588c1302e802b65e89.png",
+        "https://storage.zencreator.pro/70501a6550084b31884b22d6b3617ca0.jpeg",
+        "https://storage.zencreator.pro/a32229f80dad467499da4666a67959c1.png"
+      ],
+      "inferred_style_only_prompt": "A bright summer boat portrait of a young beautiful woman in coral swimwear, sparkling water, sunlit resort glamour, breezy confidence, photorealistic marine lifestyle editorial, vertical composition."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "titles": {
+    "advanced-photography": "高度な写真表現",
+    "plastic-bubble-figure": "プラスチックバブルフィギュア",
+    "felt-3d-polaroid": "フェルト 3D ポラロイド",
+    "glass-ball": "ガラスボール",
+    "micro-landscape-mini-world": "ミクロ風景ミニワールド",
+    "american-comic-style": "アメリカンコミック風",
+    "futuristic-american-comics": "近未来アメリカンコミック",
+    "my-world": "マイワールド",
+    "felt-keychain": "フェルトキーホルダー",
+    "lofi-pixel-character-mini-card": "Lo-Fi ピクセルキャラミニカード",
+    "blurry-selfie-luffy": "ぼやけたルフィ自撮り",
+    "cyberpunk": "サイバーパンク",
+    "exotic-charm": "エキゾチックな魅力",
+    "acrylic-ornaments": "アクリルオーナメント",
+    "furry-dream-doll": "ふわふわドリームドール",
+    "in-the-stadium": "スタジアムの中で",
+    "lying-in-fluffy-belly": "ふわふわのお腹に寝転ぶ",
+    "angel-figurine": "天使のフィギュア"
+  },
+  "gallery": {
+    "metadata": {
+      "title": "画像エフェクト | joymagic",
+      "description": "人気の画像エフェクトをメイソンリーギャラリーで閲覧し、ワンクリックで画像生成に進めます。"
+    },
+    "ctaLabel": "似た画像を作成",
+    "inputLabel": "入力",
+    "outputLabel": "出力",
+    "previewLabel": "プレビュー"
+  },
+  "workspace": {
+    "metadata": {
+      "title": "画像エフェクト ワークスペース | joymagic",
+      "description": "画像をアップロードし、画像エフェクトを選択して、この作成を専用ワークスペースで管理します。"
+    },
+    "category": "画像",
+    "pageTitle": "画像エフェクト",
+    "workspaceLabel": "ワークスペース",
+    "inputBadge": "画像入力 1 枚",
+    "selectedEffect": "選択中のエフェクト",
+    "change": "変更",
+    "imageTitle": "画像",
+    "imageHint": "PNG、JPG、WEBP、最大 15MB",
+    "uploadHint": "クリックして画像をアップロード",
+    "tryExamples": "サンプルを試す",
+    "estimating": "見積もり中...",
+    "create": "作成",
+    "creditsUnit": "クレジット",
+    "estimateError": "クレジット見積もりに失敗しました:",
+    "emptyState": "まだ何も作成していないようです。",
+    "inputLabel": "入力",
+    "outputLabel": "出力",
+    "exampleAria": "サンプル {index} を使う",
+    "dialog": {
+      "title": "画像エフェクトを選択",
+      "searchPlaceholder": "使いたいエフェクトを検索",
+      "closeAria": "エフェクト選択を閉じる",
+      "description": "画像エフェクトページと同じギャラリーデータから画像エフェクトを選択します。",
+      "emptyTitle": "一致するエフェクトがありません",
+      "emptyDescription": "別のキーワードを試してください。"
+    }
+  }
+}

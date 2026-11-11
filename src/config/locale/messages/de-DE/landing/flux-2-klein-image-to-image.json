@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Quellbilder hochladen",
+      "hint": "Laden Sie bis zu {max} Bilder hoch (JPG/PNG/WEBP). Jedes Bild kostet 2 Credits.",
+      "dragDrop": "Ziehen & Ablegen oder klicken zum Hochladen",
+      "dropHere": "Bilder hier ablegen"
+    },
+    "prompt": {
+      "title": "Transformations-Prompt eingeben",
+      "placeholder": "Beschreiben Sie, wie Sie die Bilder transformieren möchten, z.B. 'Bild1 in Comic-Stil ändern', 'Alle Bilder wie Aquarellgemälde aussehen lassen'",
+      "hint": "Seien Sie spezifisch bezüglich der Änderungen, die Sie vornehmen möchten"
+    },
+    "generate": {
+      "title": "Transformierte Bilder generieren",
+      "cta": "Generieren",
+      "generating": "Generiere..."
+    }
+  },
+  "preview": {
+    "title": "Vorschau",
+    "original": "Original",
+    "swap": "Tauschen",
+    "placeholder": "Laden Sie Bilder hoch und geben Sie einen Prompt ein, um die Transformation hier zu sehen."
+  },
+  "common": {
+    "selectedCount": "Ausgewählt: {count}/{max} Bilder",
+    "notSelected": "Nicht ausgewählt"
+  },
+  "errors": {
+    "invalidFileType": "Ungültiger Dateityp. Bitte laden Sie eine Bilddatei hoch (JPG, PNG, WEBP).",
+    "uploadFailed": "Upload fehlgeschlagen: {error}",
+    "uploadFailedGeneric": "Upload fehlgeschlagen",
+    "sourceImageRequired": "Bitte laden Sie mindestens ein Quellbild hoch",
+    "promptRequired": "Bitte geben Sie einen Transformations-Prompt ein",
+    "generationFailed": "Bildgenerierung fehlgeschlagen",
+    "taskFailed": "Aufgabenverarbeitung fehlgeschlagen",
+    "taskTimeout": "Aufgabenverarbeitung Zeitüberschreitung, bitte versuchen Sie es später erneut",
+    "taskIdNotFound": "Aufgaben-ID konnte nicht abgerufen werden, bitte überprüfen Sie das API-Antwortformat",
+    "processingFailed": "Verarbeitung fehlgeschlagen, bitte versuchen Sie es erneut",
+    "statusQueryFailed": "Aufgabenstatus konnte nicht abgefragt werden",
+    "apiResponseParseFailed": "API-Antwort konnte nicht analysiert werden"
+  },
+  "page": {
+    "metadata": {
+      "title": "Flux-2-Klein Bild-zu-Bild KI-Tool - Bilder mit KI transformieren | joymagic",
+      "description": "Verwenden Sie flux-2-klein Bild-zu-Bild KI, um Ihre Bilder zu transformieren und zu bearbeiten. Laden Sie bis zu 4 Bilder gleichzeitig hoch und transformieren Sie sie mit fortschrittlicher KI-gestützter Bildbearbeitung. Schnelle, hochwertige Ergebnisse mit flux-2-klein Bild-zu-Bild Technologie.",
+      "keywords": "flux-2-klein bild-zu-bild, flux-2-klein image to image, flux-2-klein KI, bildtransformation KI, KI bildeditor, flux-2-klein bildbearbeitung, bild-zu-bild KI tool, flux-2-klein 4b, KI bildkonverter"
+    },
+    "hero": {
+      "title": "Flux-2-Klein Bild-zu-Bild KI - Transformieren Sie Ihre Bilder mit KI",
+      "description": "Transformieren und bearbeiten Sie Bilder mit flux-2-klein Bild-zu-Bild KI-Technologie. Laden Sie bis zu 4 Bilder gleichzeitig hoch und transformieren Sie sie mit fortschrittlicher KI-gestützter Bearbeitung. Erleben Sie schnelle, hochwertige Bildtransformationen mit flux-2-klein Bild-zu-Bild.",
+      "button1": "Flux-2-Klein Bild-zu-Bild ausprobieren",
+      "button2": "Preise ansehen"
+    },
+    "keyFeatures": {
+      "title": "Warum Flux-2-Klein Bild-zu-Bild wählen?",
+      "description": "Entdecken Sie die leistungsstarken Funktionen der flux-2-klein Bild-zu-Bild KI-Technologie",
+      "multiImage": {
+        "title": "Stapelverarbeitung mit Flux-2-Klein Bild-zu-Bild",
+        "description": "Laden Sie mit flux-2-klein Bild-zu-Bild bis zu 4 Bilder gleichzeitig hoch. Verarbeiten Sie mehrere Bilder gleichzeitig für effiziente Stapeltransformationen. Feste Kosten von 2 Credits pro Transformation."
+      },
+      "highQuality": {
+        "title": "Hochwertige Flux-2-Klein Bild-zu-Bild Ergebnisse",
+        "description": "Erhalten Sie außergewöhnliche Bildqualität mit flux-2-klein Bild-zu-Bild KI. Generieren Sie hochauflösende transformierte Bilder mit herausragenden Details und Klarheit."
+      },
+      "styleFlexibility": {
+        "title": "Vielseitige Stiltransformation",
+        "description": "Transformieren Sie Bilder in verschiedenen Stilen mit flux-2-klein Bild-zu-Bild - fotorealistisch, künstlerisch, abstrakt und mehr. Volle Kontrolle mit detaillierten Prompts."
+      },
+      "affordable": {
+        "title": "Erschwingliche Flux-2-Klein Bild-zu-Bild Preise",
+        "description": "Kosteneffektive flux-2-klein Bild-zu-Bild Transformationen. Feste 2 Credits pro Transformation, was es für Projekte jeder Größe erschwinglich macht."
+      }
+    },
+    "promptingTips": {
+      "title": "Wie Sie die besten Ergebnisse mit Flux-2-Klein Bild-zu-Bild erzielen",
+      "specific": {
+        "title": "Seien Sie spezifisch in Ihren Prompts",
+        "description": "Für optimale flux-2-klein Bild-zu-Bild Ergebnisse beschreiben Sie genau, welche Transformation Sie möchten. Beispiele: \"In Comic-Stil ändern\" oder \"Wie ein Aquarellgemälde aussehen lassen\"."
+      },
+      "style": {
+        "title": "Kunststil angeben",
+        "description": "Wenn Sie flux-2-klein Bild-zu-Bild verwenden, erwähnen Sie den gewünschten Kunststil: \"Comic-Buch-Stil\", \"Ölgemälde\", \"Digitale Kunst\" usw."
+      },
+      "color": {
+        "title": "Farb- und Stimmungseinstellungen",
+        "description": "Verbessern Sie Ihre flux-2-klein Bild-zu-Bild Transformationen, indem Sie Farbschemata und Stimmung beschreiben: \"lebendige Farben\", \"gedämpfte Töne\", \"dunkel und stimmungsvoll\" usw."
+      },
+      "details": {
+        "title": "Detaillierte Anweisungen hinzufügen",
+        "description": "Maximieren Sie die flux-2-klein Bild-zu-Bild Qualität, indem Sie Details über Beleuchtung, Komposition und spezifische Elemente einbeziehen, die Sie erhalten oder ändern möchten."
+      }
+    },
+    "useCases": {
+      "title": "Flux-2-Klein Bild-zu-Bild Anwendungsfälle",
+      "style": {
+        "title": "Künstlerische Stiltransformation",
+        "description": "Verwenden Sie flux-2-klein Bild-zu-Bild, um Fotos in verschiedene künstlerische Stile zu transformieren - Comic, Aquarell, Ölgemälde und mehr. Perfekt für kreative Projekte."
+      },
+      "batch": {
+        "title": "Stapelbildverarbeitung",
+        "description": "Nutzen Sie die flux-2-klein Bild-zu-Bild Stapelverarbeitung, um bis zu 4 Bilder gleichzeitig mit konsistentem Stil für professionelle Workflows zu transformieren."
+      },
+      "product": {
+        "title": "Produktfotografie-Verbesserung",
+        "description": "Transformieren Sie Produktfotos mit flux-2-klein Bild-zu-Bild für Marketingmaterialien und soziale Medien. Erstellen Sie schnell mehrere Stilvariationen."
+      },
+      "creative": {
+        "title": "Kreative Designprojekte",
+        "description": "Experimentieren Sie mit flux-2-klein Bild-zu-Bild für kreative Projekte. Probieren Sie verschiedene künstlerische Stile und Transformationen aus, um das perfekte Aussehen zu finden."
+      }
+    },
+    "faq": {
+      "title": "Flux-2-Klein Bild-zu-Bild FAQ",
+      "description": "Häufig gestellte Fragen zum flux-2-klein Bild-zu-Bild KI-Tool",
+      "q1": {
+        "question": "Wie viele Bilder kann ich mit flux-2-klein Bild-zu-Bild hochladen?",
+        "answer": "Mit flux-2-klein Bild-zu-Bild können Sie bis zu 4 Bilder gleichzeitig für die Stapelverarbeitung hochladen. Jede Transformation kostet 2 Credits."
+      },
+      "q2": {
+        "question": "Wie viel kostet flux-2-klein Bild-zu-Bild?",
+        "answer": "Flux-2-klein Bild-zu-Bild Transformationen kosten 2 Credits pro Transformation, unabhängig von der Anzahl der hochgeladenen Bilder. Diese feste Preisgestaltung macht es für jedes Projekt erschwinglich."
+      },
+      "q3": {
+        "question": "Welche Bildformate unterstützt flux-2-klein Bild-zu-Bild?",
+        "answer": "Flux-2-klein Bild-zu-Bild unterstützt PNG, JPEG, JPG und WebP Formate. Stellen Sie sicher, dass Ihre Bilder klar und gut beleuchtet sind, um optimale flux-2-klein Bild-zu-Bild Ergebnisse zu erzielen."
+      },
+      "q4": {
+        "question": "Wie sollte ich Prompts für flux-2-klein Bild-zu-Bild schreiben?",
+        "answer": "Für die besten Ergebnisse mit flux-2-klein Bild-zu-Bild fügen Sie detaillierte Beschreibungen ein: Motiv, Umgebung, Beleuchtung, Stil, Stimmung und Komposition. Mehr Details führen typischerweise zu besseren flux-2-klein Bild-zu-Bild Transformationen."
+      },
+      "q5": {
+        "question": "Kann ich denselben Prompt für mehrere Bilder mit flux-2-klein Bild-zu-Bild verwenden?",
+        "answer": "Ja, flux-2-klein Bild-zu-Bild ermöglicht es Ihnen, denselben Prompt für alle hochgeladenen Bilder zu verwenden. Jedes Bild wird gemäß Ihrer Prompt-Beschreibung mit flux-2-klein Bild-zu-Bild Technologie transformiert."
+      }
+    },
+    "finalCTA": {
+      "title": "Bereit, Flux-2-Klein Bild-zu-Bild auszuprobieren?",
+      "description": "Beginnen Sie noch heute, Ihre Bilder mit flux-2-klein Bild-zu-Bild KI zu transformieren. Erleben Sie schnelle, hochwertige Bildtransformationen.",
+      "button": "Flux-2-Klein Bild-zu-Bild jetzt ausprobieren"
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "imageToImage": "Bild zu Bild",
+      "flux2Klein": "Flux 2 Klein"
+    },
+    "schema": {
+      "softwareName": "Flux-2-Klein Bild-zu-Bild KI-Tool von joymagic",
+      "howToName": "So verwenden Sie Flux-2-Klein Bild-zu-Bild KI",
+      "howToDescription": "Lernen Sie, wie Sie Bilder mit flux-2-klein Bild-zu-Bild KI-Technologie transformieren. Laden Sie Bilder hoch und transformieren Sie sie mit KI-gestützter Bearbeitung.",
+      "features": {
+        "aiImageEditing": "Flux-2-Klein Bild-zu-Bild KI-Bearbeitung",
+        "multiImage": "Stapelverarbeitung mit Flux-2-Klein Bild-zu-Bild",
+        "highQuality": "Hochwertige Flux-2-Klein Bild-zu-Bild Ausgabe"
+      }
+    }
+  }
+}

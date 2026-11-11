@@ -1,0 +1,193 @@
+{
+  "imageUpscaler": {
+    "id": "image-upscaler",
+    "title": "AI Image Upscaler",
+    "description": "Instantly improve image quality and increase resolution to 4K, 8K, or 16K with AI. Upload and enhance automatically.",
+    "steps": {
+      "sourceImage": {
+        "title": "Upload your image",
+        "hint": "Drag & drop or click to upload · JPG/PNG/WEBP/HEIC",
+        "dragDrop": "Drag & drop or click to upload",
+        "dropHere": "Drop image here"
+      },
+      "settings": {
+        "title": "Choose upscale settings",
+        "targetResolution": "Scale / Output",
+        "outputFormat": "Output Format"
+      },
+      "generate": {
+        "title": "Generate and download",
+        "cta": "Start Upscaling",
+        "generating": "Upscaling..."
+      }
+    },
+    "preview": {
+      "title": "Preview",
+      "original": "Original",
+      "upscaled": "Upscaled",
+      "placeholder": "Upload an image to see the upscaled result here."
+    },
+    "common": {
+      "selected": "Selected: {name}",
+      "notSelected": "Not selected"
+    },
+    "errors": {
+      "invalidFileType": "Invalid file type. Please upload an image file (JPG, PNG, WEBP, HEIC).",
+      "uploadFailed": "Upload failed: {error}",
+      "uploadFailedGeneric": "Upload failed",
+      "sourceImageRequired": "Please upload a source image first",
+      "generationFailed": "Image upscaling failed",
+      "taskFailed": "Task processing failed",
+      "taskTimeout": "Task processing timeout, please try again later",
+      "taskIdNotFound": "Unable to get task ID, please check API response format",
+      "processingFailed": "Processing failed, please try again",
+      "statusQueryFailed": "Failed to query task status",
+      "apiResponseParseFailed": "Failed to parse API response",
+      "downloadFailed": "Failed to download image"
+    },
+    "download": {
+      "title": "Download image"
+    },
+    "alt": {
+      "sourcePreview": "Source preview",
+      "enlargedPreview": "Enlarged preview",
+      "source": "Source",
+      "original": "Original",
+      "upscaled": "Upscaled"
+    }
+  },
+  "imageUpscalerPage": {
+    "metadata": {
+      "title": "AI Image Upscaler Online | Upscale Images to 4K 8K 16K | joymagic",
+      "description": "Instantly improve image quality and increase resolution to 4K, 8K, or 16K with joymagic's AI Image Upscaler. HD download, no watermark, batch support.",
+      "keywords": "AI Image Upscaler, image upscaler, upscale image, 4K upscaler, 8K upscaler, 16K upscaler, AI image enhancer, image resolution enhancer, photo upscaler, image quality enhancer, fast upscale, creative upscale"
+    },
+    "hero": {
+      "title": "AI Image Upscaler Online",
+      "description": "Instantly improve image quality and increase resolution to 4K, 8K, or 16K with joymagic's AI image upscaler. Upload your image and enhance automatically.",
+      "button1": "Start Upscaling Now",
+      "button2": "Free to start · No watermark"
+    },
+    "heroDescription": "✓ HD Download  ✓ No watermark  ✓ Batch support",
+    "whatIsAIUpscaler": {
+      "title": "What is AI Image Upscaler?",
+      "description": "AI Image Upscaler uses deep learning to enlarge images while adding realistic details and sharpness. Unlike traditional resizing that stretches pixels and causes blur, our AI:",
+      "features": [
+        "Analyzes image content and structure",
+        "Generates new pixels intelligently",
+        "Preserves textures, edges, and colors",
+        "Outputs crisp, natural-looking results"
+      ],
+      "perfectFor": "Use it for product photos, old pictures, AI-generated art, social media content, and print-ready images."
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Fast, high-quality AI image upscaling up to 16K.",
+      "fastProcessing": {
+        "title": "Fast Processing",
+        "description": "<p class=\"mb-3\">Get results in seconds. Optimized AI handles complex images quickly.</p>"
+      },
+      "highQuality": {
+        "title": "Up to 16K Output",
+        "description": "<p class=\"mb-3\">Enlarge images to 4K, 8K, or 16K while keeping clarity and detail.</p>"
+      },
+      "twoModes": {
+        "title": "Two Upscaling Modes",
+        "description": "<p class=\"mb-3\">Fast mode for faithful enlargement; Creative mode for AI-enhanced details.</p>"
+      },
+      "batch": {
+        "title": "Batch Processing",
+        "description": "<p class=\"mb-3\">Upload and process multiple images at once. Save time on bulk tasks.</p>"
+      },
+      "cleanOutput": {
+        "title": "Clean Output",
+        "description": "<p class=\"mb-3\">Download high-quality, watermark-free results ready to use.</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "What You Can Do With joymagic AI Upscaler",
+      "description": "One upload, endless possibilities.",
+      "photography": {
+        "title": "Enhance Photography",
+        "description": "<p class=\"mb-3\">Upscale old photos or portraits for print-ready quality.</p>"
+      },
+      "design": {
+        "title": "Design & AI Art",
+        "description": "<p class=\"mb-3\">Boost AI-generated art or graphics with sharper details.</p>"
+      },
+      "ecommerce": {
+        "title": "E-Commerce & Products",
+        "description": "<p class=\"mb-3\">Make product images crisp for listings and ads.</p>"
+      },
+      "socialMedia": {
+        "title": "Social Media",
+        "description": "<p class=\"mb-3\">Share clear, high-res visuals across platforms.</p>"
+      },
+      "print": {
+        "title": "Large-Format & Print",
+        "description": "<p class=\"mb-3\">Scale up to 16K for posters, banners, and print materials.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "How to Upscale an Image",
+      "description": "Upscale with AI in three simple steps:",
+      "step1": {
+        "title": "1. Upload your image",
+        "description": "<p class=\"mb-3\">Drag and drop or select your image file.</p><p class=\"mb-3\">Supports JPG, PNG, WEBP, and HEIC formats.</p>"
+      },
+      "step2": {
+        "title": "2. Choose upscale settings",
+        "description": "<p class=\"mb-3\">Select your preferred scale:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>2x – Double the resolution</li><li>4x – Quadruple the resolution</li><li>8x – Maximum enhancement (up to 16K output)</li></ul><p class=\"mb-3\">Choose a mode:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Fast Upscale – Preserves original details</li><li>Creative Upscale – Adds AI-generated details</li></ul>"
+      },
+      "step3": {
+        "title": "3. Generate and download",
+        "description": "<p class=\"mb-3\">Click Start and get your upscaled image in seconds.</p><p class=\"mb-1\">Download in high resolution, ready to use.</p>"
+      }
+    },
+    "faq": {
+      "title": "AI Image Upscaler FAQs",
+      "description": "Quick answers about AI upscaling.",
+      "q1": {
+        "question": "What image formats are supported?",
+        "answer": "We support JPG, JPEG, PNG, WEBP, and HEIC. If upload fails, try converting to JPG or PNG."
+      },
+      "q2": {
+        "question": "What's the maximum output resolution?",
+        "answer": "You can upscale up to 16K (16384 × 16384) depending on input size and scale."
+      },
+      "q3": {
+        "question": "What's the difference between Fast and Creative mode?",
+        "answer": "Fast enlarges faithfully—best for products/screenshots. Creative adds AI details—best for AI art or old photos."
+      },
+      "q4": {
+        "question": "Can I upscale multiple images at once?",
+        "answer": "Yes. Batch processing lets you upload and upscale multiple images in one session."
+      },
+      "q5": {
+        "question": "Will my upscaled images have a watermark?",
+        "answer": "No. All downloads are watermark-free and ready for use."
+      },
+      "q6": {
+        "question": "Is my data safe and private?",
+        "answer": "Yes. Images are processed in isolated, encrypted sessions and deleted after processing. We never store or train on your uploads."
+      },
+      "q7": {
+        "question": "What kind of images work best?",
+        "answer": "Clear, well-lit images produce the best results. Very low-quality inputs may still show some artifacts after upscaling."
+      }
+    },
+    "privacySecurity": {
+      "title": "Privacy & Security",
+      "description": "Your images and privacy are our priority.",
+      "secureProcessing": "All uploads are processed securely and encrypted",
+      "autoDelete": "Images are automatically deleted after processing",
+      "neverShared": "Never shared with third parties or used for AI training"
+    },
+    "finalCTA": {
+      "title": "Turn low-res images into high-definition masterpieces.",
+      "description": "Try joymagic's AI Image Upscaler now and bring your photos to 4K, 8K, or 16K clarity in seconds.<br/><span class=\"text-muted-foreground\">No editing skills needed · Free to start · Watermark-free downloads</span>",
+      "button": "Start Upscaling Now"
+    }
+  }
+}
+

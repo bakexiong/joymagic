@@ -1,0 +1,193 @@
+{
+  "imageUpscaler": {
+    "id": "image-upscaler",
+    "title": "AI 圖片放大工具",
+    "description": "使用 AI 即時提升圖片品質，將解析度提升至 4K、8K 或 16K。上傳圖片即可自動增強。",
+    "steps": {
+      "sourceImage": {
+        "title": "上傳圖片",
+        "hint": "拖拽或點擊上傳 · 支援 JPG/PNG/WEBP/HEIC",
+        "dragDrop": "拖拽或點擊上傳",
+        "dropHere": "將圖片拖放到此處"
+      },
+      "settings": {
+        "title": "選擇放大設定",
+        "targetResolution": "放大倍數 / 輸出解析度",
+        "outputFormat": "輸出格式"
+      },
+      "generate": {
+        "title": "產生並下載",
+        "cta": "開始放大",
+        "generating": "正在放大..."
+      }
+    },
+    "preview": {
+      "title": "預覽",
+      "original": "原圖",
+      "upscaled": "放大後",
+      "placeholder": "上傳圖片以查看放大結果。"
+    },
+    "common": {
+      "selected": "已選擇：{name}",
+      "notSelected": "未選擇檔案"
+    },
+    "errors": {
+      "invalidFileType": "無效的檔案類型。請上傳圖片檔案（JPG、PNG、WEBP、HEIC）。",
+      "uploadFailed": "上傳失敗：{error}",
+      "uploadFailedGeneric": "上傳失敗",
+      "sourceImageRequired": "請先上傳來源圖片",
+      "generationFailed": "圖片放大失敗",
+      "taskFailed": "任務處理失敗",
+      "taskTimeout": "任務處理逾時，請稍後重試",
+      "taskIdNotFound": "無法取得任務 ID，請檢查 API 回應格式",
+      "processingFailed": "處理失敗，請重試",
+      "statusQueryFailed": "查詢任務狀態失敗",
+      "apiResponseParseFailed": "解析 API 回應失敗",
+      "downloadFailed": "下載圖片失敗"
+    },
+    "download": {
+      "title": "下載圖片"
+    },
+    "alt": {
+      "sourcePreview": "來源圖片預覽",
+      "enlargedPreview": "放大預覽",
+      "source": "來源圖片",
+      "original": "原圖",
+      "upscaled": "放大後"
+    }
+  },
+  "imageUpscalerPage": {
+    "metadata": {
+      "title": "AI 圖片放大工具線上 | 將圖片放大至 4K 8K 16K | joymagic",
+      "description": "使用 joymagic 的 AI 圖片放大工具即時提升圖片品質，將解析度提升至 4K、8K 或 16K。高清下載，無浮水印，支援批次處理。",
+      "keywords": "AI 圖片放大工具，圖片放大，放大圖片，4K 放大，8K 放大，16K 放大，AI 圖片增強，圖片解析度增強，照片放大，圖片品質增強，快速放大，創意放大"
+    },
+    "hero": {
+      "title": "AI 圖片放大工具線上",
+      "description": "使用 joymagic 的 AI 圖片放大工具即時提升圖片品質，將解析度提升至 4K、8K 或 16K。上傳圖片即可自動增強。",
+      "button1": "立即開始放大",
+      "button2": "免費開始 · 無浮水印"
+    },
+    "heroDescription": "✓ 高清下載  ✓ 無浮水印  ✓ 批次支援",
+    "whatIsAIUpscaler": {
+      "title": "什麼是 AI 圖片放大工具？",
+      "description": "AI 圖片放大工具使用深度學習技術放大圖片，同時添加逼真的細節和銳度。與傳統的拉伸像素導致模糊的調整大小不同，我們的 AI：",
+      "features": [
+        "分析圖片內容和結構",
+        "智慧產生新像素",
+        "保留紋理、邊緣和顏色",
+        "輸出清晰、自然的結果"
+      ],
+      "perfectFor": "適用於產品照片、舊照片、AI 產生的藝術作品、社群媒體內容和印刷級圖片。"
+    },
+    "keyFeatures": {
+      "title": "核心功能",
+      "description": "快速、高品質的 AI 圖片放大，最高支援 16K。",
+      "fastProcessing": {
+        "title": "快速處理",
+        "description": "<p class=\"mb-3\">幾秒鐘內獲得結果。優化的 AI 快速處理複雜圖片。</p>"
+      },
+      "highQuality": {
+        "title": "最高 16K 輸出",
+        "description": "<p class=\"mb-3\">將圖片放大至 4K、8K 或 16K，同時保持清晰度和細節。</p>"
+      },
+      "twoModes": {
+        "title": "兩種放大模式",
+        "description": "<p class=\"mb-3\">快速模式忠實放大；創意模式添加 AI 增強細節。</p>"
+      },
+      "batch": {
+        "title": "批次處理",
+        "description": "<p class=\"mb-3\">一次上傳並處理多張圖片。批次任務節省時間。</p>"
+      },
+      "cleanOutput": {
+        "title": "乾淨輸出",
+        "description": "<p class=\"mb-3\">下載高品質、無浮水印的結果，可直接使用。</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "joymagic AI 放大工具的用途",
+      "description": "一次上傳，無限可能。",
+      "photography": {
+        "title": "增強攝影作品",
+        "description": "<p class=\"mb-3\">放大舊照片或人像，達到印刷級品質。</p>"
+      },
+      "design": {
+        "title": "設計與 AI 藝術",
+        "description": "<p class=\"mb-3\">增強 AI 產生的藝術作品或圖形，獲得更清晰的細節。</p>"
+      },
+      "ecommerce": {
+        "title": "電商與產品",
+        "description": "<p class=\"mb-3\">讓產品圖片清晰銳利，適用於商品列表和廣告。</p>"
+      },
+      "socialMedia": {
+        "title": "社群媒體",
+        "description": "<p class=\"mb-3\">在各平台分享清晰、高解析度的視覺內容。</p>"
+      },
+      "print": {
+        "title": "大幅面與印刷",
+        "description": "<p class=\"mb-3\">放大至 16K，適用於海報、橫幅和印刷材料。</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "如何放大圖片",
+      "description": "三個簡單步驟，使用 AI 放大圖片：",
+      "step1": {
+        "title": "1. 上傳您的圖片",
+        "description": "<p class=\"mb-3\">拖拽或選擇您的圖片檔案。</p><p class=\"mb-3\">支援 JPG、PNG、WEBP 和 HEIC 格式。</p>"
+      },
+      "step2": {
+        "title": "2. 選擇放大設定",
+        "description": "<p class=\"mb-3\">選擇您喜歡的放大倍數：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>2x – 解析度翻倍</li><li>4x – 解析度四倍</li><li>8x – 最大增強（最高 16K 輸出）</li></ul><p class=\"mb-3\">選擇模式：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>快速放大 – 保留原始細節</li><li>創意放大 – 添加 AI 產生的細節</li></ul>"
+      },
+      "step3": {
+        "title": "3. 產生並下載",
+        "description": "<p class=\"mb-3\">點擊開始，幾秒鐘內獲得放大後的圖片。</p><p class=\"mb-1\">下載高解析度版本，可直接使用。</p>"
+      }
+    },
+    "faq": {
+      "title": "AI 圖片放大工具常見問題",
+      "description": "關於 AI 放大的快速解答。",
+      "q1": {
+        "question": "支援哪些圖片格式？",
+        "answer": "我們支援 JPG、JPEG、PNG、WEBP 和 HEIC。如果上傳失敗，請嘗試轉換為 JPG 或 PNG。"
+      },
+      "q2": {
+        "question": "最大輸出解析度是多少？",
+        "answer": "根據輸入大小和選擇的放大倍數，您可以放大至 16K（16384 × 16384 像素）。"
+      },
+      "q3": {
+        "question": "快速模式和創意模式有什麼區別？",
+        "answer": "快速模式忠實放大——最適合產品照片或截圖。創意模式添加 AI 細節——最適合 AI 藝術或舊照片。"
+      },
+      "q4": {
+        "question": "可以一次放大多張圖片嗎？",
+        "answer": "可以。批次處理功能允許您在一次工作階段中上傳並放大多張圖片。"
+      },
+      "q5": {
+        "question": "放大後的圖片會有浮水印嗎？",
+        "answer": "不會。所有下載都是無浮水印的，可直接使用。"
+      },
+      "q6": {
+        "question": "我的資料安全私密嗎？",
+        "answer": "是的。圖片在隔離的加密工作階段中處理，處理完成後自動刪除。我們從不儲存或使用您的上傳內容進行訓練。"
+      },
+      "q7": {
+        "question": "什麼樣的圖片效果最好？",
+        "answer": "清晰、光線良好的圖片效果最好。非常低品質的輸入在放大後可能仍會出現一些偽影。"
+      }
+    },
+    "privacySecurity": {
+      "title": "隱私與安全",
+      "description": "您的圖片和隱私是我們的首要任務。",
+      "secureProcessing": "所有上傳都在安全加密的環境中處理",
+      "autoDelete": "圖片處理完成後自動刪除",
+      "neverShared": "絕不與第三方共享或用於 AI 訓練"
+    },
+    "finalCTA": {
+      "title": "將低解析度圖片轉換為高清傑作。",
+      "description": "立即試用 joymagic 的 AI 圖片放大工具，幾秒鐘內將您的照片提升至 4K、8K 或 16K 清晰度。<br/><span class=\"text-muted-foreground\">無需編輯技能 · 免費開始 · 無浮水印下載</span>",
+      "button": "立即開始放大"
+    }
+  }
+}
+

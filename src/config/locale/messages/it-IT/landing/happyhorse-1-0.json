@@ -1,0 +1,122 @@
+{
+  "textToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 Da Testo a Video - Generatore AI Cinematografico | joymagic",
+      "description": "Crea clip cinematografici da 3-15si in 720p con HappyHorse 1.0. Trasforma i prompt in video AI 16:9 di alta qualità con seed opzionale per risultati ripetibili.",
+      "keywords": "happyhorse 1.0, testo a video, generatore video ai, alibaba happyhorse, video ai cinematografico, 720p testo a video, 16:9 ai video"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 Da Testo a Video",
+      "description": "HappyHorse 1.0 trasforma un prompt semplice in un clip cinematografico rifinito di 3-15si. Il flusso resta essenziale con formato 16:9 nativo, output 720p e controllo seed opzionale per bozze ripetibili. <br/><br/>Vuoi animare invece un'immagine statica? Prova <a href=\"/image-to-video/happyhorse-1-0\" class=\"text-primary underline\">HappyHorse 1.0 Da Immagine a Video</a>.",
+      "button1": "Prova ora",
+      "button2": "Vedi prezzi"
+    },
+    "keyFeatures": {
+      "title": "Funzionalità principali",
+      "cinematicPreset": {
+        "title": "Cinematografico di default",
+        "description": "Genera clip brevi ottimizzati per storytelling visivo, pitch deck e teaser social."
+      },
+      "fastStoryboard": {
+        "title": "Bozze rapide da 3-15si",
+        "description": "La durata fissa rende più facile confrontare idee e iterare sul prompt."
+      },
+      "reproducibleSeed": {
+        "title": "Controllo seed ripetibile",
+        "description": "Imposta un seed quando vuoi mantenere più coerenza tra revisioni o varianti."
+      },
+      "nativeWideframe": {
+        "title": "Output nativo 16:9",
+        "description": "Genera clip widescreen pronti da condividere senza lavoro extra di riframing."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "Che cos'è HappyHorse 1.0 Da Testo a Video?",
+        "answer": "È un workflow video AI che trasforma un prompt testuale in un clip 720p di 3-15si usando Alibaba HappyHorse 1.0."
+      },
+      "q2": {
+        "question": "Quale aspect ratio supporta?",
+        "answer": "L'attuale workflow da testo a video è ottimizzato per l'output 16:9."
+      },
+      "q3": {
+        "question": "Posso scegliere la durata?",
+        "answer": "Questa release è pensata per una generazione rapida da 3-15si, ideale per iterare e confrontare velocemente."
+      },
+      "q4": {
+        "question": "A cosa serve il seed?",
+        "answer": "Il seed aiuta a riprodurre o stabilizzare i risultati quando vuoi output simili in più esecuzioni."
+      },
+      "q5": {
+        "question": "Per chi è adatto questo modello?",
+        "answer": "È utile per creator, team marketing e team prodotto che hanno bisogno di concept clip brevi e cinematografici."
+      }
+    },
+    "finalCTA": {
+      "title": "Pronto a generare con HappyHorse 1.0?",
+      "description": "Trasforma i tuoi prompt in clip cinematografici brevi in pochi secondi.",
+      "button": "Genera video"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 Da Immagine a Video - Anima immagini statiche con AI | joymagic",
+      "description": "Trasforma un'immagine statica in un clip 720p da 3-15si con HappyHorse 1.0. Carica un'immagine e genera movimento pulito rapidamente.",
+      "keywords": "happyhorse 1.0, immagine a video, animare immagine, animazione ai immagine, alibaba happyhorse, 720p immagine a video, video ai 3-15si"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 Da Immagine a Video",
+      "description": "HappyHorse 1.0 trasforma una singola immagine in un breve clip animato da 3-15si in 720p. Carica un'immagine di riferimento, aggiungi opzionalmente un prompt di movimento e ottieni rapidamente un risultato widescreen pulito. <br/><br/>Vuoi partire dal testo? Prova <a href=\"/text-to-video/happyhorse-1-0\" class=\"text-primary underline\">HappyHorse 1.0 Da Testo a Video</a>.",
+      "button1": "Prova ora",
+      "button2": "Vedi prezzi"
+    },
+    "keyFeatures": {
+      "title": "Funzionalità principali",
+      "singleImageMotion": {
+        "title": "Animazione da una sola immagine",
+        "description": "Carica un'immagine statica e trasformala in movimento senza creare una scena complessa."
+      },
+      "fastFiveSecond": {
+        "title": "Output rapido da 3-15si",
+        "description": "La durata breve e fissa facilita test veloci e confronti immediati."
+      },
+      "cleanOutput": {
+        "title": "Output pulito in 720p",
+        "description": "Genera clip HD adatti a demo concettuali, social post e mockup di campagna."
+      },
+      "simpleWorkflow": {
+        "title": "Workflow semplice",
+        "description": "Concentrati su immagine, durata e risoluzione, con prompt opzionale per guidare il movimento."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "Cosa fa HappyHorse 1.0 Da Immagine a Video?",
+        "answer": "Anima un'immagine caricata e la trasforma in un breve clip video generato con AI."
+      },
+      "q2": {
+        "question": "Devo scrivere un prompt?",
+        "answer": "No. Il prompt è opzionale, ma può aiutare a orientare movimento e atmosfera."
+      },
+      "q3": {
+        "question": "Qual è la qualità di output disponibile?",
+        "answer": "L'attuale configurazione genera video in 720p."
+      },
+      "q4": {
+        "question": "Quanto dura ogni clip generato?",
+        "answer": "Questo workflow è attualmente ottimizzato per clip da 3-15si."
+      },
+      "q5": {
+        "question": "Quando dovrei usare Da Immagine a Video invece di Da Testo a Video?",
+        "answer": "Usa immagine a video quando hai già un frame di riferimento, un personaggio, una foto prodotto o una composizione che vuoi preservare."
+      }
+    },
+    "finalCTA": {
+      "title": "Anima la tua immagine con HappyHorse 1.0",
+      "description": "Carica un'immagine statica e trasformala rapidamente in movimento.",
+      "button": "Anima immagine"
+    }
+  }
+}

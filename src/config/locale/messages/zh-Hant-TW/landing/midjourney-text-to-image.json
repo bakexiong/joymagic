@@ -1,0 +1,176 @@
+{
+  "title": "Midjourney 風格文本生成圖片",
+  "subtitle": "從文本描述生成精美的 Midjourney 風格圖片",
+  "prompt_label": "提示詞",
+  "prompt_placeholder": "空靈的森林景觀，黃金時段光線，印象派風格，柔焦，夢幻氛圍。",
+  "prompt_tooltip": "輸入您想要生成的圖片描述",
+  "aspect_ratio_label": "寬高比",
+  "aspect_ratio_hint": "選擇生成圖片的寬高比",
+  "aspect_ratio_placeholder": "選擇寬高比（可選）",
+  "aspect_ratio_none": "（無）",
+  "resolution_label": "解析度",
+  "resolution_hint": "選擇生成圖片的解析度",
+  "output_format_label": "輸出格式",
+  "output_format_hint": "選擇輸出圖片格式",
+  "sref_label": "參考圖片",
+  "sref_placeholder": "輸入參考圖片的 URL（可選）",
+  "sref_hint": "上傳參考圖片或提供 URL 以影響生成風格",
+  "sref_upload_hint": "上傳參考圖片或在下方輸入 URL",
+  "sref_upload_active": "正在使用上傳的圖片作為參考",
+  "quality_label": "品質",
+  "quality_hint": "選擇圖片品質級別",
+  "stylize_label": "風格化",
+  "stylize_hint": "控制藝術風格強度（0-1000）",
+  "chaos_label": "混亂度",
+  "chaos_hint": "為結果添加變化性（0-100）",
+  "weird_label": "怪異度",
+  "weird_hint": "使圖片更加奇特和非常規（0-3000）",
+  "version_label": "版本",
+  "version_hint": "選擇 Midjourney 模型版本",
+  "niji_label": "Niji 模式",
+  "niji_hint": "動漫美學的 Niji 模型",
+  "niji_none": "無",
+  "seed_label": "種子",
+  "seed_hint": "用於可重現結果的種子值（-1 為隨機）",
+  "estimated_credits": "預估積分",
+  "buttons": {
+    "generate": "生成圖片",
+    "generating": "生成中...",
+    "estimating": "估算中...",
+    "checking": "檢查中...",
+    "unavailable": "不可用",
+    "credits": "積分"
+  },
+  "errors": {
+    "promptRequired": "提示詞是必填項",
+    "generate_failed": "生成圖片失敗：{status}",
+    "generate_failed_default": "生成圖片失敗",
+    "no_request_id": "獲取請求 ID 失敗",
+    "restricted": "該服務在您所在的地區不可用"
+  },
+  "image_alt": "生成的圖片",
+  "download": "下載",
+  "download_success": "下載成功",
+  "download_error": "下載失敗",
+  "image_placeholder": "生成的圖片將顯示在這裡",
+  "prompt_inspirations_button": "提示詞靈感",
+  "prompt_guide_button": "提示詞指南",
+  "powered_by": "由 joymagic 優化的 Midjourney 風格 AI 模型提供支持",
+  "prompt_guides": {
+    "guide1": "最佳 Midjourney 場景提示詞",
+    "guide2": "最佳 Midjourney 肖像提示詞",
+    "guide3": "Midjourney 產品照片提示詞",
+    "guide4": "Midjourney 圖片提示詞：5 層框架",
+    "guide5": "複製粘貼 Midjourney 藝術提示詞",
+    "guide6": "Midjourney 提示詞工程",
+    "guide7": "Midjourney 風格指南",
+    "guide8": "Midjourney 構圖技巧",
+    "guide9": "50 個最佳 Midjourney 創意提示詞",
+    "guide10": "50 個最佳 Midjourney 藝術風格提示詞"
+  },
+  "page": {
+    "metadata": {
+      "title": "Midjourney 風格 AI 文本生成圖片 | joymagic",
+      "description": "使用 Midjourney 風格 AI 從文本生成精美圖片。藝術控制、創意靈活性、高解析度輸出。創建專業級藝術作品和設計。",
+      "keywords": "midjourney, 文本生成圖片, ai 圖片生成器, midjourney 替代品, ai 藝術生成器, 創意圖片生成, 藝術 ai, midjourney 風格"
+    },
+    "hero": {
+      "title": "Midjourney 風格文本生成圖片",
+      "description": "使用先進的 AI 從文本描述創建令人驚嘆的 Midjourney 風格圖片。體驗藝術控制、創意靈活性和專業品質的輸出。非常適合設計師、藝術家和尋求高質量 AI 生成圖像的創意專業人士。<br/><br/>想嘗試其他 AI 模型？<a href=\"/text-to-image\" class=\"text-primary underline\">探索所有文本生成圖片工具</a>。",
+      "button1": "立即試用",
+      "button2": "查看價格"
+    },
+    "keyFeatures": {
+      "title": "Midjourney 風格功能",
+      "description": "專業藝術能力，用於創意圖片生成",
+      "artisticControl": {
+        "title": "藝術控制",
+        "description": "使用自然語言提示詞微調藝術風格、情緒和美學方向。描述繪畫風格、藝術運動或特定視覺品質，實現您的創意願景。"
+      },
+      "highQuality": {
+        "title": "高質量輸出",
+        "description": "生成具有卓越細節和清晰度的專業級圖片。適用於商業項目、作品集和高解析度印刷需求。"
+      },
+      "creativeFlexibility": {
+        "title": "創意靈活性",
+        "description": "探索從照片級真實渲染到抽象藝術的無限創意可能性。混合風格、組合概念，嘗試獨特的視覺組合。"
+      },
+      "compositionControl": {
+        "title": "構圖控制",
+        "description": "通過描述性提示詞直接控制取景、視角和視覺層次。無需技術攝影知識即可實現專業構圖。"
+      },
+      "styleConsistency": {
+        "title": "風格一致性",
+        "description": "在多次生成中保持一致的視覺風格。非常適合創建連貫的系列、品牌材料或項目集合。"
+      }
+    },
+    "standardFeatures": {
+      "title": "標準功能",
+      "description": "您需要的所有基本功能",
+      "multipleStyles": {
+        "title": "多種藝術風格",
+        "description": "照片級真實、動漫、油畫、水彩、數位藝術"
+      },
+      "naturalLanguage": {
+        "title": "自然語言提示詞",
+        "description": "用日常語言描述您的願景"
+      },
+      "fastGeneration": {
+        "title": "快速生成",
+        "description": "每張圖片 10-20 秒"
+      },
+      "multipleFormats": {
+        "title": "多種輸出格式",
+        "description": "JPG、PNG、WebP"
+      }
+    },
+    "useCases": {
+      "title": "使用場景",
+      "conceptArt": {
+        "title": "概念藝術與設計",
+        "description": "為遊戲、電影和創意項目創建概念藝術。快速探索視覺方向，無需傳統插畫時間即可迭代想法。"
+      },
+      "marketing": {
+        "title": "營銷與廣告",
+        "description": "為活動、社交媒體和宣傳材料生成引人注目的視覺效果。創建獨特的圖像，脫穎而出並吸引注意力。"
+      },
+      "creative": {
+        "title": "創意探索",
+        "description": "嘗試藝術風格和視覺概念。非常適合尋求靈感或探索新方向的藝術家、設計師和創意人士。"
+      },
+      "portfolio": {
+        "title": "作品集與演示",
+        "description": "為作品集、演示和客戶提案創建專業品質的圖片。用精美的高解析度視覺效果展示想法。"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "description": "關於 Midjourney 風格文本生成圖片的常見問題",
+      "q1": {
+        "question": "Midjourney 風格生成是如何工作的？",
+        "answer": "我們的 AI 模型經過訓練，可以生成具有類似 Midjourney 藝術品質的圖片，專注於美學吸引力、創意詮釋和專業品質的輸出。只需用自然語言描述您的願景即可。"
+      },
+      "q2": {
+        "question": "這與其他 AI 圖片生成器有什麼不同？",
+        "answer": "Midjourney 風格生成強調藝術品質、創意詮釋和美學吸引力。它擅長製作具有強烈構圖和藝術連貫性的視覺衝擊力圖片。"
+      },
+      "q3": {
+        "question": "我可以將生成的圖片用於商業用途嗎？",
+        "answer": "是的，通過我們平台生成的圖片可以用於商業用途。請查看我們的服務條款，了解具體的使用權利和署名要求。"
+      },
+      "q4": {
+        "question": "提示詞應該多詳細？",
+        "answer": "更詳細的提示詞通常會產生更好的結果。包括主題、藝術風格、情緒、光線、構圖以及您想要的任何特定視覺元素。例如：\"空靈的森林景觀，黃金時段光線，印象派風格，柔焦，夢幻氛圍\"。"
+      },
+      "q5": {
+        "question": "生成的圖片解析度是多少？",
+        "answer": "生成的圖片是高解析度的，適用於大多數專業用途，包括網頁、印刷和演示。可選的放大功能可提供更高解析度的輸出。"
+      }
+    },
+    "finalCTA": {
+      "title": "準備開始創作了嗎？",
+      "description": "立即開始從您的文本描述生成令人驚嘆的 Midjourney 風格圖片。",
+      "button": "立即試用"
+    }
+  }
+}

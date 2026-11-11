@@ -1,0 +1,28 @@
+{
+  "media_detail": {
+    "prompt_title": "프롬프트",
+    "copy_button": "복사",
+    "copied_button": "복사됨!",
+    "show_more": "전체 보기",
+    "show_less": "접기",
+    "information_title": "정보",
+    "model_label": "모델:",
+    "quality_label": "품질:",
+    "size_label": "크기:",
+    "generate_button": "유사 생성",
+    "video_button": "비디오",
+    "download_button": "다운로드",
+    "upscale_button": "확대",
+    "edit_button": "편집",
+    "no_prompt": "프롬프트 없음",
+    "image_alt": "생성된 이미지"
+  },
+  "mobile_homepage": {
+    "create_image": "이미지 생성",
+    "create_video": "비디오 생성",
+    "ai_effect": "AI 효과",
+    "new_badge": "신규",
+    "view_all": "전체 보기",
+    "view_more": "더 보기"
+  }
+}

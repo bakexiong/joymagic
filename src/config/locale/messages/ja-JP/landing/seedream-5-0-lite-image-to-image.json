@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "ソース画像をアップロード",
+      "hint": "最大{max}枚の画像をアップロード（JPG/PNG/WEBP）。",
+      "dragDrop": "ドラッグ＆ドロップまたはクリックしてアップロード",
+      "dropHere": "画像をここにドロップ"
+    },
+    "prompt": {
+      "title": "変換プロンプトを入力",
+      "placeholder": "画像をどのように変換したいか説明してください",
+      "hint": "変更したい内容を具体的に記述してください"
+    },
+    "generate": {
+      "title": "変換画像を生成",
+      "cta": "生成",
+      "generating": "生成中..."
+    }
+  },
+  "preview": {
+    "title": "プレビュー",
+    "original": "オリジナル",
+    "swap": "切り替え",
+    "placeholder": "画像をアップロードしてプロンプトを入力すると、ここに変換結果が表示されます。"
+  },
+  "common": {
+    "selectedCount": "選択済み：{count}/{max}枚",
+    "notSelected": "未選択"
+  },
+  "errors": {
+    "invalidFileType": "無効なファイル形式です。画像ファイルをアップロードしてください（JPG、PNG、WEBP）。",
+    "uploadFailed": "アップロード失敗：{error}",
+    "uploadFailedGeneric": "アップロード失敗",
+    "sourceImageRequired": "ソース画像をアップロードしてください",
+    "promptRequired": "変換プロンプトを入力してください",
+    "generationFailed": "画像生成に失敗しました",
+    "taskFailed": "タスク処理に失敗しました",
+    "taskTimeout": "タスク処理がタイムアウトしました。後でもう一度お試しください",
+    "taskIdNotFound": "タスクIDを取得できません。APIレスポンス形式を確認してください",
+    "processingFailed": "処理に失敗しました。もう一度お試しください",
+    "statusQueryFailed": "タスクステータスの照会に失敗しました",
+    "apiResponseParseFailed": "APIレスポンスの解析に失敗しました"
+  },
+  "page": {
+    "metadata": {
+      "title": "Seedream 5.0 Lite 画像変換 AIツール - AIで画像を変換 | joymagic",
+      "description": "Seedream 5.0 Lite 画像変換 AIを使用して画像を変換・編集。画像をアップロードし、高度なAI編集で変換します。高速で高品質な結果。",
+      "keywords": "seedream 5.0 lite 画像変換, seedream 画像トランスフォーメーション, AI画像エディター, 画像編集, 画像変換AIツール, AI画像コンバーター"
+    },
+    "hero": {
+      "title": "Seedream 5.0 Lite 画像変換 AI - AIで画像を変換",
+      "description": "Seedream 5.0 Lite 画像変換 AIで画像を変換・編集。画像をアップロードし、高度なAI編集で変換します。高速で高品質な画像変換を体験してください。",
+      "button1": "Seedream 5.0 Lite 画像変換を試す",
+      "button2": "料金を見る"
+    },
+    "keyFeatures": {
+      "title": "なぜ Seedream 5.0 Lite 画像変換を選ぶのか？",
+      "description": "Seedream 5.0 Lite 画像変換 AIの強力な機能をご紹介",
+      "singleImage": {
+        "title": "単一画像アップロード",
+        "description": "画像を1枚アップロードし、変換方法を説明するだけ。シンプルで高速です。"
+      },
+      "highQuality": {
+        "title": "高品質な Seedream 結果",
+        "description": "Seedream 5.0 Lite AIで卓越した画像品質を実現。優れたディテールと鮮明さを持つ高解像度の変換画像を生成します。"
+      },
+      "styleFlexibility": {
+        "title": "多彩なスタイル変換",
+        "description": "Seedream 5.0 Lite でさまざまなスタイルに画像を変換——フォトリアル、アーティスティック、アブストラクトなど。詳細なプロンプトで完全にコントロール。"
+      },
+      "affordable": {
+        "title": "手頃な価格",
+        "description": "コスト効率の良い画像変換。使用量に応じた課金で、あらゆる規模のプロジェクトに対応。"
+      }
+    },
+    "promptingTips": {
+      "title": "Seedream 5.0 Lite 画像変換で最高の結果を得る方法",
+      "specific": {
+        "title": "プロンプトを具体的に",
+        "description": "最適な結果を得るには、希望する変換を正確に記述してください。例：「アニメスタイルに変更」や「油絵のように見せる」。"
+      },
+      "style": {
+        "title": "アートスタイルを指定",
+        "description": "希望するアートスタイルを記述：「アニメスタイル」、「油絵」、「デジタルアート」など。"
+      },
+      "color": {
+        "title": "色彩とムードの設定",
+        "description": "色彩スキームとムードを記述して変換を強化：「鮮やかな色彩」、「落ち着いたトーン」、「ダークでムーディー」など。"
+      },
+      "details": {
+        "title": "詳細な指示を追加",
+        "description": "照明、構図、保持または変更したい特定の要素についての詳細を含めて品質を最大化してください。"
+      }
+    },
+    "useCases": {
+      "title": "Seedream 5.0 Lite 画像変換の活用事例",
+      "style": {
+        "title": "アートスタイル変換",
+        "description": "写真をさまざまなアートスタイルに変換——アニメ、水彩、油絵など。クリエイティブプロジェクトに最適。"
+      },
+      "product": {
+        "title": "商品写真の強化",
+        "description": "マーケティング素材やソーシャルメディア向けに商品写真を変換。複数のスタイルバリエーションを素早く作成。"
+      },
+      "creative": {
+        "title": "クリエイティブデザインプロジェクト",
+        "description": "クリエイティブプロジェクトのためにさまざまなアートスタイルと変換を試してみましょう。完璧なルックを見つけてください。"
+      },
+      "personal": {
+        "title": "個人利用",
+        "description": "AIで写真を再構築——1つのプロンプトでムード、スタイル、シーンを変更できます。"
+      }
+    },
+    "faq": {
+      "title": "Seedream 5.0 Lite 画像変換 FAQ",
+      "description": "Seedream 5.0 Lite 画像変換 AIツールに関するよくある質問",
+      "q1": {
+        "question": "何枚の画像をアップロードできますか？",
+        "answer": "一度に1枚の画像をアップロードします。プロンプトで変換内容を説明して生成してください。"
+      },
+      "q2": {
+        "question": "料金はいくらですか？",
+        "answer": "各画像変換は固定のクレジットを消費します。現在の料金は料金ページをご確認ください。"
+      },
+      "q3": {
+        "question": "Seedream 5.0 Lite はどの画像形式に対応していますか？",
+        "answer": "Seedream 5.0 Lite は PNG、JPEG、JPG、WebP形式に対応しています。最適な結果を得るために、画像が鮮明で十分な照明があることを確認してください。"
+      },
+      "q4": {
+        "question": "Seedream 5.0 Lite のプロンプトはどう書けばいいですか？",
+        "answer": "最良の結果を得るには、詳細な説明を含めてください：主題、設定、照明、スタイル、ムード、構図。より多くの詳細が通常、より良い変換結果を生み出します。"
+      },
+      "q5": {
+        "question": "同じ画像を複数回変換できますか？",
+        "answer": "はい、同じ画像に異なるプロンプトを使用して、さまざまな変換結果を得ることができます。"
+      }
+    },
+    "finalCTA": {
+      "title": "Seedream 5.0 Lite 画像変換を試す準備はできましたか？",
+      "description": "今すぐ Seedream 5.0 Lite AIで画像変換を始めましょう。高速で高品質な画像変換を体験してください。",
+      "button": "今すぐ Seedream 5.0 Lite 画像変換を試す"
+    },
+    "breadcrumb": {
+      "home": "ホーム",
+      "imageToImage": "画像変換",
+      "seedreamLite": "Seedream 5.0 Lite"
+    },
+    "schema": {
+      "softwareName": "joymagic の Seedream 5.0 Lite 画像変換 AIツール",
+      "howToName": "Seedream 5.0 Lite 画像変換 AIの使い方",
+      "howToDescription": "Seedream 5.0 Lite 画像変換 AIを使用して画像を変換する方法を学びましょう。画像をアップロードしてAI編集で変換します。",
+      "features": {
+        "aiImageEditing": "Seedream 5.0 Lite 画像変換 AI編集",
+        "singleImage": "Seedream 5.0 Lite で単一画像変換",
+        "highQuality": "高品質 Seedream 5.0 Lite 出力"
+      }
+    }
+  }
+}

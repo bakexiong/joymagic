@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Kaynak görüntüleri yükle",
+      "hint": "En fazla {max} görüntü yükleyin (JPG/PNG/WEBP). Her görüntü 2 kredi tutar.",
+      "dragDrop": "Sürükle ve bırak veya yüklemek için tıkla",
+      "dropHere": "Görüntüleri buraya bırak"
+    },
+    "prompt": {
+      "title": "Dönüşüm istemini girin",
+      "placeholder": "Görüntüleri nasıl dönüştürmek istediğinizi açıklayın, örn: 'Görüntü1'i çizgi roman stiline değiştir', 'Tüm görüntüleri suluboya gibi göster'",
+      "hint": "Yapmak istediğiniz değişiklikler hakkında spesifik olun"
+    },
+    "generate": {
+      "title": "Dönüştürülmüş görüntüleri oluştur",
+      "cta": "Oluştur",
+      "generating": "Oluşturuluyor..."
+    }
+  },
+  "preview": {
+    "title": "Önizleme",
+    "original": "Orijinal",
+    "swap": "Değiştir",
+    "placeholder": "Görüntüleri yükleyin ve bir istem girin, burada dönüşümü görün."
+  },
+  "common": {
+    "selectedCount": "Seçildi: {count}/{max} görüntü",
+    "notSelected": "Seçilmedi"
+  },
+  "errors": {
+    "invalidFileType": "Geçersiz dosya türü. Lütfen bir görüntü dosyası yükleyin (JPG, PNG, WEBP).",
+    "uploadFailed": "Yükleme başarısız: {error}",
+    "uploadFailedGeneric": "Yükleme başarısız",
+    "sourceImageRequired": "Lütfen en az bir kaynak görüntü yükleyin",
+    "promptRequired": "Lütfen bir dönüşüm istemi girin",
+    "generationFailed": "Görüntü oluşturma başarısız",
+    "taskFailed": "Görev işleme başarısız",
+    "taskTimeout": "Görev işleme zaman aşımı, lütfen daha sonra tekrar deneyin",
+    "taskIdNotFound": "Görev ID'si alınamadı, lütfen API yanıt formatını kontrol edin",
+    "processingFailed": "İşleme başarısız, lütfen tekrar deneyin",
+    "statusQueryFailed": "Görev durumu sorgulanamadı",
+    "apiResponseParseFailed": "API yanıtı ayrıştırılamadı"
+  },
+  "page": {
+    "metadata": {
+      "title": "Flux-2-Klein Görüntüden-Görüntüye AI Aracı - Görüntüleri AI ile Dönüştür | joymagic",
+      "description": "Görüntülerinizi dönüştürmek ve düzenlemek için flux-2-klein görüntüden-görüntüye AI kullanın. Aynı anda en fazla 4 görüntü yükleyin ve gelişmiş AI destekli görüntü düzenleme ile dönüştürün. Flux-2-klein görüntüden-görüntüye teknolojisi ile hızlı, yüksek kaliteli sonuçlar.",
+      "keywords": "flux-2-klein görüntüden-görüntüye, flux-2-klein image to image, flux-2-klein AI, görüntü dönüşümü AI, AI görüntü düzenleyici, flux-2-klein görüntü düzenleme, görüntüden-görüntüye AI aracı, flux-2-klein 4b, AI görüntü dönüştürücü"
+    },
+    "hero": {
+      "title": "Flux-2-Klein Görüntüden-Görüntüye AI - Görüntülerinizi AI ile Dönüştürün",
+      "description": "Flux-2-klein görüntüden-görüntüye AI teknolojisini kullanarak görüntüleri dönüştürün ve düzenleyin. Aynı anda en fazla 4 görüntü yükleyin ve gelişmiş AI destekli düzenleme ile dönüştürün. Flux-2-klein görüntüden-görüntüye ile hızlı, yüksek kaliteli görüntü dönüşümlerini deneyimleyin.",
+      "button1": "Flux-2-Klein Görüntüden-Görüntüye'yi Dene",
+      "button2": "Fiyatları Görüntüle"
+    },
+    "keyFeatures": {
+      "title": "Neden Flux-2-Klein Görüntüden-Görüntüye'yi Seçmelisiniz?",
+      "description": "Flux-2-klein görüntüden-görüntüye AI teknolojisinin güçlü özelliklerini keşfedin",
+      "multiImage": {
+        "title": "Flux-2-Klein Görüntüden-Görüntüye ile Toplu İşleme",
+        "description": "Flux-2-klein görüntüden-görüntüye ile aynı anda en fazla 4 görüntü yükleyin. Verimli toplu dönüşümler için birden fazla görüntüyü aynı anda işleyin. Dönüşüm başına sabit maliyet 2 kredi."
+      },
+      "highQuality": {
+        "title": "Yüksek Kaliteli Flux-2-Klein Görüntüden-Görüntüye Sonuçları",
+        "description": "Flux-2-klein görüntüden-görüntüye AI ile olağanüstü görüntü kalitesi elde edin. Olağanüstü detay ve netlikle yüksek çözünürlüklü dönüştürülmüş görüntüler oluşturun."
+      },
+      "styleFlexibility": {
+        "title": "Çok Yönlü Stil Dönüşümü",
+        "description": "Flux-2-klein görüntüden-görüntüye kullanarak görüntüleri çeşitli stillerde dönüştürün - fotoğraf gerçekçi, sanatsal, soyut ve daha fazlası. Detaylı istemlerle tam kontrol."
+      },
+      "affordable": {
+        "title": "Uygun Fiyatlı Flux-2-Klein Görüntüden-Görüntüye Fiyatlandırması",
+        "description": "Uygun maliyetli flux-2-klein görüntüden-görüntüye dönüşümleri. Dönüşüm başına sabit 2 kredi, herhangi bir proje boyutu için uygun fiyatlı."
+      }
+    },
+    "promptingTips": {
+      "title": "Flux-2-Klein Görüntüden-Görüntüye ile En İyi Sonuçları Nasıl Alırsınız",
+      "specific": {
+        "title": "İstemlerinizde Spesifik Olun",
+        "description": "Optimal flux-2-klein görüntüden-görüntüye sonuçları için tam olarak hangi dönüşümü istediğinizi açıklayın. Örnekler: \"Çizgi roman stiline değiştir\" veya \"Suluboya gibi görünmesini sağla\"."
+      },
+      "style": {
+        "title": "Sanatsal Stil Belirtin",
+        "description": "Flux-2-klein görüntüden-görüntüye kullanırken istediğiniz sanatsal stili belirtin: \"çizgi roman stili\", \"yağlı boya\", \"dijital sanat\" vb."
+      },
+      "color": {
+        "title": "Renk ve Ruh Hali Ayarları",
+        "description": "Renk şemaları ve ruh halini açıklayarak flux-2-klein görüntüden-görüntüye dönüşümlerinizi geliştirin: \"canlı renkler\", \"soluk tonlar\", \"karanlık ve kasvetli\" vb."
+      },
+      "details": {
+        "title": "Detaylı Talimatlar Ekleyin",
+        "description": "Işıklandırma, kompozisyon ve korumak veya değiştirmek istediğiniz belirli öğeler hakkında detaylar ekleyerek flux-2-klein görüntüden-görüntüye kalitesini maksimize edin."
+      }
+    },
+    "useCases": {
+      "title": "Flux-2-Klein Görüntüden-Görüntüye Kullanım Senaryoları",
+      "style": {
+        "title": "Sanatsal Stil Dönüşümü",
+        "description": "Flux-2-klein görüntüden-görüntüye kullanarak fotoğrafları farklı sanatsal stillere dönüştürün - çizgi roman, suluboya, yağlı boya ve daha fazlası. Yaratıcı projeler için mükemmel."
+      },
+      "batch": {
+        "title": "Toplu Görüntü İşleme",
+        "description": "Profesyonel iş akışları için tutarlı stil ile aynı anda en fazla 4 görüntüyü dönüştürmek için flux-2-klein görüntüden-görüntüye toplu işlemeyi kullanın."
+      },
+      "product": {
+        "title": "Ürün Fotoğrafçılığı İyileştirme",
+        "description": "Pazarlama materyalleri ve sosyal medya için flux-2-klein görüntüden-görüntüye ile ürün fotoğraflarını dönüştürün. Hızlıca birden fazla stil varyasyonu oluşturun."
+      },
+      "creative": {
+        "title": "Yaratıcı Tasarım Projeleri",
+        "description": "Yaratıcı projeler için flux-2-klein görüntüden-görüntüye ile deney yapın. Mükemmel görünümü bulmak için farklı sanatsal stiller ve dönüşümler deneyin."
+      }
+    },
+    "faq": {
+      "title": "Flux-2-Klein Görüntüden-Görüntüye SSS",
+      "description": "Flux-2-klein görüntüden-görüntüye AI aracı hakkında sık sorulan sorular",
+      "q1": {
+        "question": "Flux-2-klein görüntüden-görüntüye ile kaç görüntü yükleyebilirim?",
+        "answer": "Flux-2-klein görüntüden-görüntüye ile toplu işleme için aynı anda en fazla 4 görüntü yükleyebilirsiniz. Her dönüşüm 2 kredi tutar."
+      },
+      "q2": {
+        "question": "Flux-2-klein görüntüden-görüntüye ne kadar tutar?",
+        "answer": "Flux-2-klein görüntüden-görüntüye dönüşümleri, yüklenen görüntü sayısından bağımsız olarak dönüşüm başına 2 kredi tutar. Bu sabit fiyatlandırma, herhangi bir proje için uygun fiyatlı hale getirir."
+      },
+      "q3": {
+        "question": "Flux-2-klein görüntüden-görüntüye hangi görüntü formatlarını destekler?",
+        "answer": "Flux-2-klein görüntüden-görüntüye PNG, JPEG, JPG ve WebP formatlarını destekler. Optimal flux-2-klein görüntüden-görüntüye sonuçları için görüntülerinizin net ve iyi aydınlatılmış olduğundan emin olun."
+      },
+      "q4": {
+        "question": "Flux-2-klein görüntüden-görüntüye için istemleri nasıl yazmalıyım?",
+        "answer": "Flux-2-klein görüntüden-görüntüye ile en iyi sonuçlar için detaylı açıklamalar ekleyin: konu, ortam, ışıklandırma, stil, ruh hali ve kompozisyon. Daha fazla detay genellikle daha iyi flux-2-klein görüntüden-görüntüye dönüşümleri üretir."
+      },
+      "q5": {
+        "question": "Flux-2-klein görüntüden-görüntüye ile birden fazla görüntü için aynı istemi kullanabilir miyim?",
+        "answer": "Evet, flux-2-klein görüntüden-görüntüye, yüklenen tüm görüntüler için aynı istemi kullanmanıza izin verir. Her görüntü, flux-2-klein görüntüden-görüntüye teknolojisini kullanarak istem açıklamanıza göre dönüştürülecektir."
+      }
+    },
+    "finalCTA": {
+      "title": "Flux-2-Klein Görüntüden-Görüntüye'yi Denemeye Hazır mısınız?",
+      "description": "Bugün flux-2-klein görüntüden-görüntüye AI ile görüntülerinizi dönüştürmeye başlayın. Hızlı, yüksek kaliteli görüntü dönüşümlerini deneyimleyin.",
+      "button": "Şimdi Flux-2-Klein Görüntüden-Görüntüye'yi Deneyin"
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "imageToImage": "Görüntüden Görüntüye",
+      "flux2Klein": "Flux 2 Klein"
+    },
+    "schema": {
+      "softwareName": "joymagic'nin Flux-2-Klein Görüntüden-Görüntüye AI Aracı",
+      "howToName": "Flux-2-Klein Görüntüden-Görüntüye AI Nasıl Kullanılır",
+      "howToDescription": "Flux-2-klein görüntüden-görüntüye AI teknolojisini kullanarak görüntüleri nasıl dönüştüreceğinizi öğrenin. Görüntüleri yükleyin ve AI destekli düzenleme ile dönüştürün.",
+      "features": {
+        "aiImageEditing": "Flux-2-Klein Görüntüden-Görüntüye AI Düzenleme",
+        "multiImage": "Flux-2-Klein Görüntüden-Görüntüye ile Toplu İşleme",
+        "highQuality": "Yüksek Kaliteli Flux-2-Klein Görüntüden-Görüntüye Çıktısı"
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "nanoplátano 2",
+  "provider": "Google",
+  "eyebrow": "Primera página de inicio del modelo",
+  "description": "Comience con Nano Banana 2 cuando necesite un flujo de trabajo más orientado a la producción: más referencias, controles de salida más sólidos, representación de texto más clara e imágenes de campaña de primer paso más nítidas.",
+  "seoTitle": "Página del modelo de IA Nano Banana 2 | Edición avanzada de imágenes + Texto a imagen | joymagic",
+  "seoDescription": "Explora Nano Banana 2 como página de inicio para modelos. Cambie de escena, reutilice el banco de trabajo del creador y utilice Nano Banana 2 para la edición de múltiples imágenes y la generación de texto a imagen con mayor control.",
+  "stats": [
+    {
+      "label": "Modo primario",
+      "value": "Edición avanzada"
+    },
+    {
+      "label": "Escenas ampliadas",
+      "value": "2 flujos de trabajo en vivo"
+    },
+    {
+      "label": "Enfoque de salida",
+      "value": "Más control"
+    }
+  ],
+  "differentiators": [
+    "Posicione Nano Banana 2 como la opción mejorada para los usuarios que necesitan más control de producción que el modelo base.",
+    "Mantenga el mismo comportamiento en el banco de trabajo del creador mientras cambia la historia del modelo, las indicaciones iniciales y el encuadre de la escena.",
+    "Facilite la comparación de páginas de modelos hermanos sin reconstruir formularios, enrutamiento de escenas o el panel multimedia derecho."
+  ],
+  "gallery": [
+    {
+      "title": "Actualización del paquete de campaña",
+      "caption": "Utilice múltiples referencias y controles de salida más estrictos para convertir los activos del producto sin procesar en imágenes más pulidas y listas para publicidad.",
+      "prompt": "Utilice las referencias cargadas para crear una imagen de campaña de cuidado de la piel premium con reflejos nítidos, iluminación elevada y un acabado minorista limpio y lujoso.",
+      "accentClassName": "from-[#f8e08a] via-[#9c7c35] to-[#171717] text-white"
+    },
+    {
+      "title": "Carteles tipográficos hacia adelante",
+      "caption": "Cree composiciones de carteles donde el diseño, la jerarquía y la letra legible sean importantes desde el primer paso.",
+      "prompt": "Diseñe un póster de lanzamiento premium para una marca de bebidas de verano con una tipografía de titular clara y legible, una luz cinematográfica de hora dorada y una composición brillante del héroe del producto.",
+      "accentClassName": "from-[#8cd3ff] via-[#2b75b6] to-[#121416] text-white"
+    },
+    {
+      "title": "Conceptos de marca controlados",
+      "caption": "Genere marcos conceptuales que se parezcan más a las composiciones finales de la campaña en lugar de a los moodboards sueltos.",
+      "prompt": "Cree un concepto visual de marca pulido para el lanzamiento de una fragancia de lujo, una composición frontal del héroe, una suave neblina atmosférica, un etiquetado claro del producto y una iluminación editorial premium.",
+      "accentClassName": "from-[#d7b7ff] via-[#6f47a8] to-[#17131d] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cuál es la diferencia entre /model/nanobanana y /model/nanobanana-2?",
+      "answer": "Nano Banana 2 se enmarca aquí como el hermano más orientado a la producción: mejor para ediciones más intensas basadas en referencias, controles de salida más sólidos y generación de conceptos premium con una intención de diseño más clara."
+    },
+    {
+      "question": "¿Nano Banana 2 sigue utilizando el mismo banco de trabajo de creador?",
+      "answer": "Sí. El flujo de formulario izquierdo y el panel de medios derecho aún se reutilizan del creador, por lo que la página cambia el contexto del modelo sin cambiar el flujo de trabajo de creación principal."
+    },
+    {
+      "question": "¿Por qué crear una página de modelo separada para Nano Banana 2?",
+      "answer": "Porque la intención del usuario es diferente. Esta página ayuda a posicionar Nano Banana 2 como una ruta de actualización y le permite explicar sus escenarios más adecuados sin mezclarlos en una página de herramientas genéricas."
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "Editar imagen",
+      "title": "Escena 01 · Edición de precisión de múltiples imágenes",
+      "description": "Utilice Nano Banana 2 para flujos de trabajo de edición más intensos que necesitan más referencias, un control más claro sobre el tamaño de salida y una configuración más orientada a la producción.",
+      "spotlight": "Lo mejor para lotes, ediciones ricas en referencias y entregables de mayor resolución.",
+      "starterPrompt": "Utilice las referencias cargadas para cambiar el estilo del producto y convertirlo en una campaña de lanzamiento premium, mantener la marca intacta, agregar reflejos de estudio controlados y generar una imagen comercial pulida.",
+      "useCases": [
+        "Refinamiento de la imagen del producto con múltiples referencias",
+        "Variaciones de campaña con control de producción más estricto",
+        "La dirección de arte pasa con una identidad visual consistente"
+      ]
+    },
+    {
+      "modeLabel": "Texto a imagen",
+      "title": "Escena 02 · Generación de conceptos de alto control",
+      "description": "Pase a la generación guiada por indicaciones cuando necesite una dirección de cámara más fuerte, una representación de texto más limpia y resultados que se acerquen más a las composiciones listas para producción.",
+      "spotlight": "Lo mejor para la concepción premium antes de entregar los activos a la producción de campañas.",
+      "starterPrompt": "Cree un póster de campaña de bebidas premium con una fuerte composición de cámara, una cálida luz clave del atardecer, una tipografía clara de titulares y un acabado brillante de producto estrella.",
+      "useCases": [
+        "Compensaciones de conceptos publicitarios con una intención de diseño más clara",
+        "Borradores de carteles y embalajes con tipografía legible.",
+        "Imágenes de marca que necesitan un resultado de primer paso más pulido"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

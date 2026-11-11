@@ -1,0 +1,203 @@
+{
+  "videoFaceSwapPage": {
+    "whatIs": {
+      "title": "What is AI Video Face Swap?",
+      "description": "<strong>AI Video Face Swap</strong> is an AI-powered tool that lets you replace faces in videos with any face you like.",
+      "uses": "It uses advanced machine learning to:",
+      "detect": "Detect faces in your video",
+      "track": "Track their movement frame by frame",
+      "swap": "Seamlessly swap them with a new face",
+      "keep": "Keep natural expressions, lighting, and angles",
+      "canDo": "With our online face swap video AI, you can:",
+      "movieScenes": "Put your face into movie scenes",
+      "memeStars": "Turn friends into meme stars",
+      "cosplay": "Create cosplay or reaction clips",
+      "socialMedia": "Make personalized content for social media",
+      "cloud": "Everything runs in the cloud, so you don't need powerful hardware or complex software. Just upload and swap."
+    },
+    "howTo": {
+      "title": "How to Swap Face in a Video with AI",
+      "description": "Create realistic, high-quality face swap videos with our <strong>free video face swap AI</strong> in a few simple steps:",
+      "step1": {
+        "title": "1. Upload the video you want to swap face",
+        "description": "Upload the original video where you want to replace a face (or multiple faces).",
+        "supportFormats": "We support all common video formats",
+        "clearFaces": "Make sure the faces in the video are clear and visible",
+        "quality": "Higher video quality usually gives better results"
+      },
+      "step2": {
+        "title": "2. Upload the video you want to swap face with (optional)",
+        "description": "If you want to swap faces between <strong>two videos</strong> (for example, your own video and a movie clip):",
+        "secondVideo": "Upload the second video that contains the face you want to use",
+        "detectBoth": "Our AI will detect faces in both videos",
+        "chooseFace": "You can choose which face to map and replace",
+        "singleImage": "If you only want to use a <strong>single face image</strong>, you can skip this and go to the next step."
+      },
+      "step3": {
+        "title": "3. Upload a face image for swapping",
+        "description": "Upload a photo of the face you want to put into the video.",
+        "bestResults": "For best results:",
+        "clearPhoto": "Use a clear, front-facing photo",
+        "wellLit": "Make sure the face is well lit",
+        "avoidFilters": "Avoid heavy filters or face coverings (like sunglasses or masks)",
+        "autoAlign": "The AI will automatically align the face to match the angle, lighting, and expression in the video."
+      },
+      "step4": {
+        "title": "4. Crop the video clip (optional)",
+        "description": "You can crop the uploaded video to focus only on the part where you want to swap the face.",
+        "trim": "Trim the start and end time",
+        "focus": "Focus on the main scene where the face is visible",
+        "improve": "This can improve speed and output quality",
+        "generate": "Once you're happy with the clip, hit <strong>Generate</strong> and let the AI create your new video."
+      }
+    },
+    "features": {
+      "title": "Key Features of Our AI Video Face Swap Online",
+      "speed": {
+        "title": "The Fastest Video Face Swap with Lightning Speed",
+        "description": "Our newly optimized AI engine delivers <strong>face swaps in seconds instead of minutes</strong>.",
+        "faster": "Up to <strong>2× faster</strong> than many other tools",
+        "complex": "Handles even <strong>complex, multi-face videos</strong>",
+        "sixFaces": "Supports up to <strong>6 faces</strong> in a single video",
+        "quick": "Designed for quick previews and fast final exports",
+        "watermarkFree": "You get <strong>watermark-free, professional-grade results</strong> without long waiting times."
+      },
+      "templates": {
+        "title": "Trending Video Templates for Face Swap",
+        "description": "Don't know where to start? Use our <strong>ready-made video templates</strong> designed for face swapping:",
+        "memeFormats": "Viral meme formats",
+        "movieScenes": "Famous movie scenes",
+        "reaction": "Reaction and duet clips",
+        "cosplay": "Cosplay and character edits",
+        "shortForm": "Short-form content for TikTok, Reels, and YouTube Shorts",
+        "simple": "Simply pick a template, upload your face, and generate a shareable video in a few clicks."
+      },
+      "viral": {
+        "title": "Turn Any Clip into a Viral Hit with Video Face Swap AI",
+        "description": "With our powerful <strong>video face swap AI</strong>, you can turn ordinary clips into fun, eye-catching content:",
+        "movieMoment": "Recreate an iconic movie moment starring you",
+        "memes": "Make hilarious memes with friends' faces",
+        "team": "Put your team, family, or customers into themed videos",
+        "standOut": "Stand out on social media with unique, personalized edits",
+        "easy": "It's never been easier to create videos that people <strong>watch, share, and remember</strong>."
+      }
+    },
+    "legal": {
+      "title": "Responsible Use & Legal Requirements",
+      "intro": "Our AI Video Face Swap tool is designed for creative and entertainment purposes. To ensure lawful and ethical use, please read and follow these guidelines carefully.",
+      "whoCanSwap": {
+        "title": "Who Can You Swap?",
+        "mayUse": "You may ONLY use:",
+        "ownFace": "Your own face",
+        "consent": "Faces of individuals who have given you explicit, informed consent",
+        "fictional": "Fictional characters or public domain content where you hold the rights",
+        "mayNotUse": "You may NOT use:",
+        "noPermission": "Any person's face without their explicit permission",
+        "celebrity": "Celebrity faces for commercial purposes or impersonation",
+        "minors": "Faces of minors (under 18) without parental/guardian consent",
+        "deceive": "Any content intended to deceive, defraud, or misrepresent"
+      },
+      "prohibited": {
+        "title": "Strictly Prohibited Uses",
+        "description": "AI Video Face Swap may NOT be used to:",
+        "impersonation": "<strong>Impersonation & Fraud</strong>: Create deepfakes to deceive others, impersonate individuals, or spread misinformation",
+        "nonConsensual": "<strong>Non-Consensual Content</strong>: Swap faces into sensitive, private, or inappropriate scenarios without permission",
+        "harassment": "<strong>Harassment & Abuse</strong>: Create content that harms, harasses, or violates the dignity of any individual",
+        "copyright": "<strong>Copyright Infringement</strong>: Use copyrighted video content (movies, TV shows, music videos) without proper authorization",
+        "political": "<strong>Political Manipulation</strong>: Create misleading political content or false endorsements",
+        "identityTheft": "<strong>Identity Theft</strong>: Use face swaps to fraudulently represent yourself as another person"
+      },
+      "disclosure": {
+        "title": "AI-Generated Content Disclosure",
+        "important": "Important",
+        "description": "Videos created with our face swap tool are AI-generated synthetic media.",
+        "disclose": "When sharing face-swapped videos publicly, you should disclose that the content is AI-modified",
+        "jurisdictions": "In many jurisdictions, failure to disclose deepfake content may violate laws regarding synthetic media",
+        "watermarks": "Our tool may add visible or invisible watermarks to indicate AI manipulation, depending on your region's legal requirements"
+      },
+      "responsibilities": {
+        "title": "Your Legal Responsibilities",
+        "description": "By using this tool, you agree to:",
+        "verify": "<strong>Verify Authorization</strong>: Ensure you have proper rights and permissions for all faces and video content you upload",
+        "comply": "<strong>Comply with Laws</strong>: Follow all applicable laws regarding deepfakes, synthetic media, privacy, and data protection in your jurisdiction",
+        "respect": "<strong>Respect Rights</strong>: Honor intellectual property rights, personality rights, and privacy rights of all individuals",
+        "ethical": "<strong>Use Ethically</strong>: Use the tool only for lawful, ethical, and non-harmful purposes"
+      },
+      "enforcement": {
+        "title": "Platform Enforcement",
+        "description": "We actively monitor for misuse and implement:",
+        "moderation": "Automated content moderation systems",
+        "reporting": "User reporting mechanisms",
+        "suspension": "Account suspension or termination for violations",
+        "cooperation": "Cooperation with law enforcement when legally required",
+        "violation": "Violation of these guidelines may result in immediate account termination and potential legal action."
+      },
+      "compliance": {
+        "title": "Regional Compliance",
+        "description": "This tool complies with:",
+        "china": "China's \"Deep Synthesis\" regulations requiring content labeling and user verification",
+        "eu": "EU AI Act requirements for transparency in AI-generated content",
+        "us": "US state laws regarding deepfakes and synthetic media",
+        "consult": "For questions about lawful use, consult legal counsel in your jurisdiction."
+      }
+    },
+    "faq": {
+      "title": "Video Face Swap FAQs",
+      "q1": {
+        "question": "1. Is AI Video Face Swap free to use?",
+        "answer1": "Yes, you can create face swap videos with our <strong>free video face swap AI</strong>.",
+        "answer2": "Some advanced options (like higher resolution or longer clips) may require an upgrade, depending on the plan you choose."
+      },
+      "q2": {
+        "question": "2. Do I need video editing experience?",
+        "answer1": "No. The tool is built for everyone:",
+        "simple": "Simple, step-by-step workflow",
+        "aiHandles": "AI handles detection, tracking, and blending automatically",
+        "answer2": "If you can upload a video and a face photo, you can create a face swap."
+      },
+      "q3": {
+        "question": "3. What video formats do you support?",
+        "answer1": "We support most common formats, including:",
+        "mp4": "MP4",
+        "answer2": "If your file doesn't upload, try exporting it as MP4 and uploading again."
+      },
+      "q4": {
+        "question": "4. Will my video have a watermark?",
+        "answer1": "<strong>Yes, for legal compliance and transparency.</strong>",
+        "answer2": "Our tool adds visible or invisible markers to indicate AI-generated content, in accordance with regulations on synthetic media in various jurisdictions.",
+        "visible": "<strong>Visible watermarks</strong>: May appear on preview or final versions depending on your region's legal requirements",
+        "invisible": "<strong>Invisible markers</strong>: Digital fingerprints embedded in the video for content authentication",
+        "purpose": "<strong>Purpose</strong>: Ensure compliance with deepfake disclosure laws and prevent misuse",
+        "answer3": "These markers protect both you and others by clearly identifying the content as AI-modified."
+      },
+      "q5": {
+        "question": "5. Is my data and content safe?",
+        "answer1": "We take privacy and security seriously:",
+        "secure": "Your videos and images are processed securely and encrypted during transmission",
+        "only": "Content is used <strong>only</strong> to generate your requested results",
+        "notTrain": "We do <strong>not</strong> use your uploads to train our models or share them with third parties",
+        "delete": "You can delete your files after export",
+        "privacyRules": "Important Privacy Rules:",
+        "neverUpload1": "<strong>Never upload</strong> content containing someone else's face without their explicit permission",
+        "neverUpload2": "<strong>Never upload</strong> sensitive, private, or intimate content",
+        "neverUpload3": "<strong>Never upload</strong> faces of minors without proper parental/guardian consent",
+        "unauthorized": "Unauthorized use of another person's likeness may violate privacy laws and our Terms of Service",
+        "responsible": "You are solely responsible for ensuring you have rights to all uploaded content."
+      },
+      "q6": {
+        "question": "6. Can I swap multiple faces in one video?",
+        "answer1": "Yes. Our AI can handle <strong>up to 6 faces</strong> in a single video:",
+        "swapOne": "Swap one face or several at once",
+        "mapDifferent": "Map different faces to different people in the clip",
+        "great": "Great for group videos, team intros, or family memes"
+      },
+      "q7": {
+        "question": "7. Does AI Video Face Swap change the voice too?",
+        "answer1": "No. The face swap only changes the <strong>visual face</strong> in the video.",
+        "audioStays": "Original audio (voice, music, effects) stays the same",
+        "editLater": "You can later edit the audio with other tools if needed"
+      },
+      "cta": "Start using <strong>AI Video Face Swap online</strong> today and turn your ideas, jokes, and stories into scroll-stopping videos in just a few clicks."
+    }
+  }
+}

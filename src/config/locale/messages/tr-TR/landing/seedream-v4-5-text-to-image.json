@@ -1,0 +1,167 @@
+{
+  "title": "Seedream 4.5 Text to Image",
+  "subtitle": "Generate stunning images from text descriptions",
+  "prompt_label": "İstem",
+  "prompt_placeholder": "Nighttime outdoor photoshoot: A young man stands inside a public phone booth, holding a blue phone receiver to his ear. One hand is casually tucked into his pocket, and he strikes a relaxed posture. He wears a white T-shirt with a pattern, loose brown pants, and jacket draped over his arm. The booth's glass reflects city streetlights with a bokeh effect, creating a vintage film style.",
+  "prompt_tooltip": "Enter a description of the image you want to generate",
+  "size_label": "Görüntü Boyutu",
+  "size_hint": "Çıktı görüntü boyutunu seçin",
+  "width_label": "Genişlik",
+  "height_label": "Yükseklik",
+  "buttons": {
+    "generate": "Görüntü Oluştur"
+  },
+  "errors": {
+    "promptRequired": "Prompt is required"
+  },
+  "image_alt": "Generated image",
+  "download": "Download",
+  "image_placeholder": "Oluşturulan görüntü burada görünecek",
+  "prompt_inspirations_button": "Prompt İlhamları",
+  "prompt_guide_button": "Prompt Kılavuzu",
+  "powered_by": "joymagic tarafından optimize edilmiş Seedream 4.5 AI modeli ile desteklenmektedir",
+  "page": {
+    "metadata": {
+      "title": "Seedream 4.5 Text to Image - AI Image Generator | joymagic",
+      "description": "ByteDance'in Seedream 4.5'i ile metinden görüntüler oluşturun. Fotoğraf gerçekçi sahneler, illüstrasyonlar ve sanat oluşturun. İngilizce ve Çince iki dilli istemler.",
+      "keywords": "text to image, ai image generator, seedream v4.5, ai art generator, text to image ai, image generation"
+    },
+    "hero": {
+      "title": "Seedream 4.5 Text to Image",
+      "description": "Seedream 4.5, metin açıklamalarını görüntülere dönüştüren ByteDance'in AI modelidir. İngilizce veya Çince olarak herhangi bir sahne, karakter veya konsepti açıklayın. Aşağıda Seedream 4.5'i ücretsiz deneyin!",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "heroDescription": "Create stunning images from simple text descriptions using advanced AI technology.",
+    "keyFeatures": {
+      "title": "Temel Özellikler",
+      "description": "Güçlü AI görüntü oluşturma yetenekleri",
+      "photorealistic": {
+        "title": "Fotoğraf Gerçekçi Kalite",
+        "description": "Profesyonel fotoğrafçılık gibi görünen görüntüler oluşturun. Doğru cilt dokuları, doğal aydınlatma, gerçekçi ortamlar—AI görüntülerinde yaygın olan ürkütücü vadi etkisi olmadan."
+      },
+      "complexScene": {
+        "title": "Karmaşık Sahne Anlayışı",
+        "description": "Birden fazla özne, uzamsal ilişkiler ve spesifik aydınlatma içeren detaylı senaryoları açıklayın. Model, metninizden kompozisyon, konumlandırma ve atmosferi doğru bir şekilde yorumlar."
+      },
+      "bilingual": {
+        "title": "İki Dilli İstemler",
+        "description": "İngilizce, Çince veya her ikisinde yazın. Model, her iki dildeki nüanslı açıklamaları eşit derecede iyi anlar—Çin kültürel referansları veya spesifik terminoloji için yararlıdır."
+      },
+      "fastGeneration": {
+        "title": "Hızlı Oluşturma",
+        "description": "Saniyeler içinde yüksek çözünürlüklü görüntüler oluşturun. Gerçek zamanlı yaratıcı keşif ve yineleme için yeterince hızlı."
+      },
+      "styleFlexibility": {
+        "title": "Stil Esnekliği",
+        "description": "Fotoğraf gerçekçi görüntüler, anime illüstrasyonları, yağlı boya resimler, suluboya, 3D renderlar ve daha fazlasını oluşturun. İstediğiniz stili istemde belirtin veya modelin konuya uymasına izin verin."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "Generate images in three simple steps",
+      "step1": {
+        "title": "Enter Your Prompt",
+        "description": "Describe the image you want to generate"
+      },
+      "step2": {
+        "title": "Choose Settings",
+        "description": "Select output format and preferences"
+      },
+      "step3": {
+        "title": "Generate & Download",
+        "description": "Get your AI-generated image and download it"
+      }
+    },
+    "promptingTips": {
+      "title": "İstem İpuçları",
+      "lighting": {
+        "title": "Aydınlatma Hakkında Spesifik Olun",
+        "description": "\"Soldan altın saat güneş ışığı, yumuşak gölgeler\" \"iyi aydınlatma\"dan daha iyi çalışır."
+      },
+      "camera": {
+        "title": "Kamera Detaylarını Dahil Edin",
+        "description": "\"85mm lens ile çekilmiş, sığ alan derinliği\" profesyonel fotoğrafçılık kalitesi ekler."
+      },
+      "style": {
+        "title": "Sanat Stilini Belirtin",
+        "description": "\"Studio Ghibli tarzında dijital illüstrasyon\" veya \"hipergerçekçi 3D render\" net bir yön verir."
+      },
+      "mood": {
+        "title": "Ruh Hali ve Atmosferi Açıklayın",
+        "description": "\"Rahat, sıcak, nostaljik his\" veya \"dramatik, sinematik, yüksek kontrast\" genel görüntüyü şekillendirir."
+      }
+    },
+    "useCases": {
+      "title": "Kullanım Senaryoları",
+      "marketing": {
+        "title": "Pazarlama Görselleri",
+        "description": "Fotoğraf çekimi olmadan ürün konseptleri, reklam görselleri ve sosyal medya içeriği oluşturun."
+      },
+      "character": {
+        "title": "Karakter Tasarımı",
+        "description": "Metin açıklamalarından oyunlar, çizgi romanlar veya animasyon projeleri için özgün karakterler oluşturun."
+      },
+      "concept": {
+        "title": "Konsept Sanatı",
+        "description": "Yaratıcı projeler ve sunumlar için sahneleri, ortamları ve fikirleri hızlıca görselleştirin."
+      },
+      "stock": {
+        "title": "Stok Fotoğraf Alternatifi",
+        "description": "Genel stok kütüphanelerinde arama yapmak yerine ihtiyacınız olan spesifik görüntüleri oluşturun."
+      }
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "description": "Seedream 4.5 Text to Image hakkında yaygın sorular",
+      "q1": {
+        "question": "Seedream 4.5 nedir?",
+        "answer": "Seedream 4.5, metin açıklamalarından görüntüler oluşturan ByteDance'in AI görüntü oluşturma modelidir. Yüksek çözünürlükte fotoğraf gerçekçi ve stilize edilmiş görüntüler üretir."
+      },
+      "q2": {
+        "question": "İstemim ne kadar detaylı olmalı?",
+        "answer": "Daha fazla detay genellikle daha iyi sonuçlar anlamına gelir. Özne, ortam, aydınlatma, stil, ruh hali ve kamera açısını dahil edin. Birkaç cümleyle başlayın ve gerekirse daha fazla ekleyin."
+      },
+      "q3": {
+        "question": "Hangi stilleri oluşturabilir?",
+        "answer": "Fotoğraf gerçekçi, anime, yağlı boya, suluboya, 3D render, eskiz ve daha fazlası. İstediğiniz stili istemde belirtin veya belirli sanatçıları ve stüdyoları referans alın."
+      },
+      "q4": {
+        "question": "Çince istemleri destekliyor mu?",
+        "answer": "Evet, Seedream 4.5 hem İngilizce hem de Çince'yi eşit derecede iyi anlar. İstemleri her iki dilde yazabilir veya ikisini karıştırabilirsiniz."
+      },
+      "q5": {
+        "question": "GPT-Image-1'den farkı nedir?",
+        "answer": "Seedream 4.5, iki dilli istemler ve çoklu görüntü karıştırma (Image to Image modunda) konusunda mükemmeldir. GPT-Image-1, görüntüler içindeki metin oluşturma için daha iyidir. Ana ihtiyacınıza göre seçin."
+      }
+    },
+    "privacySecurity": {
+      "title": "Privacy & Security",
+      "description": "Your privacy and security are our top priorities.",
+      "secureProcessing": "Secure Processing",
+      "autoDelete": "Auto Delete",
+      "neverShared": "Never Shared"
+    },
+    "finalCTA": {
+      "title": "Ready to Create?",
+      "description": "Start generating amazing images from your text descriptions today.",
+      "button": "Şimdi Dene"
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "textToImage": "Metinden Görüntü",
+      "seedreamV45": "Seedream 4.5"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Seedream 4.5 Metinden Görüntü",
+      "howToName": "Seedream 4.5 ile Görüntü Oluşturma",
+      "howToDescription": "Seedream 4.5 kullanarak metin açıklamalarından görüntüler oluşturun",
+      "features": {
+        "aiTextToImage": "AI Metinden Görüntü Oluşturma",
+        "highQuality": "Yüksek Kaliteli Görüntüler",
+        "fastProcessing": "Hızlı İşleme"
+      }
+    }
+  }
+}
+

@@ -1,0 +1,304 @@
+[
+  {
+    "prompt": "Same female character, 3-angle turnaround (front, side, 3/4), consistent face and lighting, detailed outfit texture, animation design sheet.",
+    "params": {
+      "prompt": "Same female character, 3-angle turnaround (front, side, 3/4), consistent face and lighting, detailed outfit texture, animation design sheet.",
+      "aspectRatio": "16:9",
+      "resolution": "2k",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/258c64db4f48a5defda8c6572edd0e58.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/258c64db4f48a5defda8c6572edd0e58.jpg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/363f24b0743be503e434015978636699.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/363f24b0743be503e434015978636699.jpeg"
+    ],
+    "generatedAt": "2026-04-14T17:16:12.022Z"
+  },
+  {
+    "prompt": "Generate a screenshot of a windows 11 desktop, with google chrome open, showing a YouTube thumbnail of Mr. Beast on YouTube.com",
+    "params": {
+      "prompt": "Generate a screenshot of a windows 11 desktop, with google chrome open, showing a YouTube thumbnail of Mr. Beast on YouTube.com",
+      "aspectRatio": "16:9",
+      "resolution": "2k",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/851d6f9851d534020fee5952f1ad644b.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/851d6f9851d534020fee5952f1ad644b.jpg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/b68a70ec1f981fe46bbf349972f4b367.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/b68a70ec1f981fe46bbf349972f4b367.jpeg"
+    ],
+    "generatedAt": "2026-04-14T17:17:00.943Z"
+  },
+  {
+    "prompt": "Please create a solution layout for a mathematics problem with a paper-texture background. Requirements: split the canvas into left and right sections—\\emph{left:} schematic of the plan (arrows/notes, scale, directions); \\emph{right:} step-by-step derivation. Use consistent annotations in the figure: known quantities, unknowns, key relations, and coordinate axes or normals. Box the final answer and include a check. \\textbf{Problem:} Given $v_0=20\\,\\text{m/s}$ and $\\theta=30^\\circ$, find the time of flight, the maximum height, and the range, and output the position at $t=1\\,\\text{s}$. Take $g=10\\,\\text{m/s}^2$. draw the question and solution.",
+    "params": {
+      "prompt": "Please create a solution layout for a mathematics problem with a paper-texture background. Requirements: split the canvas into left and right sections—\\emph{left:} schematic of the plan (arrows/notes, scale, directions); \\emph{right:} step-by-step derivation. Use consistent annotations in the figure: known quantities, unknowns, key relations, and coordinate axes or normals. Box the final answer and include a check. \\textbf{Problem:} Given $v_0=20\\,\\text{m/s}$ and $\\theta=30^\\circ$, find the time of flight, the maximum height, and the range, and output the position at $t=1\\,\\text{s}$. Take $g=10\\,\\text{m/s}^2$. draw the question and solution.",
+      "aspectRatio": "16:9",
+      "resolution": "2k",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/96ba76db69877cba2b3c4d154140144e.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/96ba76db69877cba2b3c4d154140144e.jpg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/aa73c0ee29facf2fdbbec4d994452d1d.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/aa73c0ee29facf2fdbbec4d994452d1d.jpeg"
+    ],
+    "generatedAt": "2026-04-14T17:18:19.056Z"
+  },
+  {
+    "prompt": "A perfectly reflective chrome (Chrome) mirror ball placed on a black and white checkerboard.",
+    "params": {
+      "prompt": "A perfectly reflective chrome (Chrome) mirror ball placed on a black and white checkerboard.",
+      "aspectRatio": "16:9",
+      "resolution": "2k",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/262d26df4c64c08566f9e9a5b9295e33.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/262d26df4c64c08566f9e9a5b9295e33.jpg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/78071ab1b038b11d3bdb2d290d266248.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/78071ab1b038b11d3bdb2d290d266248.jpeg"
+    ],
+    "generatedAt": "2026-04-14T17:19:30.881Z"
+  },
+  {
+    "prompt": "High-quality flat lay photography creating a DIY infographic that simply explains how solar energy works, arranged on a clean, light gray textured background. The visual story flows from left to right in clear steps. Simple, clean black arrows are hand-drawn onto the background to guide the viewer's eye from the sun to the house, clearly marking the flow of energy. The overall mood is educational, modern, and easy to understand. The image is shot from a top-down, bird's-eye view with soft, even lighting that minimizes shadows and keeps the focus on the process. Format 16:9",
+    "params": {
+      "prompt": "High-quality flat lay photography creating a DIY infographic that simply explains how solar energy works, arranged on a clean, light gray textured background. The visual story flows from left to right in clear steps. Simple, clean black arrows are hand-drawn onto the background to guide the viewer's eye from the sun to the house, clearly marking the flow of energy. The overall mood is educational, modern, and easy to understand. The image is shot from a top-down, bird's-eye view with soft, even lighting that minimizes shadows and keeps the focus on the process. Format 16:9",
+      "aspectRatio": "16:9",
+      "resolution": "2k",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/be1f8d9fbb20702cb8cc296e9c07bfbb.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/be1f8d9fbb20702cb8cc296e9c07bfbb.jpg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/b1a596c3b09bce7198d2dea02bd3eab6.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/b1a596c3b09bce7198d2dea02bd3eab6.jpeg"
+    ],
+    "generatedAt": "2026-04-15T01:56:32.806Z"
+  },
+  {
+    "prompt": "An intense, cinematic 3D animation style render of a boxing match taking place inside a large sizzling frying pan. The main characters are an anthropomorphic French fry wearing a red, white, and blue sweatband and boxing gloves, fighting against an anthropomorphic onion wearing a blue wrestling singlet and a mustache. They are in a dynamic fighting pose with hot oil splashing around their feet and flying vegetable particles. In the background, a crowd of anthropomorphic burgers, potatoes, and hot dogs are watching and cheering. The lighting is professional studio lighting with a kitchen background, high quality, octane render, hyper-realistic food textures, 8k resolution.",
+    "params": {
+      "prompt": "An intense, cinematic 3D animation style render of a boxing match taking place inside a large sizzling frying pan. The main characters are an anthropomorphic French fry wearing a red, white, and blue sweatband and boxing gloves, fighting against an anthropomorphic onion wearing a blue wrestling singlet and a mustache. They are in a dynamic fighting pose with hot oil splashing around their feet and flying vegetable particles. In the background, a crowd of anthropomorphic burgers, potatoes, and hot dogs are watching and cheering. The lighting is professional studio lighting with a kitchen background, high quality, octane render, hyper-realistic food textures, 8k resolution.",
+      "aspectRatio": "16:9",
+      "resolution": "2k",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/e072e617d354ce0797156e8f5fa94984.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/e072e617d354ce0797156e8f5fa94984.jpg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/3351ec0dbde771adf32d7c2148d5059c.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/3351ec0dbde771adf32d7c2148d5059c.jpeg"
+    ],
+    "generatedAt": "2026-04-15T01:57:33.111Z"
+  },
+  {
+    "prompt": "actor standing on set surrounded by two large cinema cameras, LED walls behind creating a sci-fi backdrop illusion, crew marking positions on the floor, realistic production lighting, ultra-real cinematic style",
+    "params": {
+      "prompt": "actor standing on set surrounded by two large cinema cameras, LED walls behind creating a sci-fi backdrop illusion, crew marking positions on the floor, realistic production lighting, ultra-real cinematic style",
+      "aspectRatio": "3:4",
+      "resolution": "2k",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/d54938a340ac8ff4733eeae0d4b34726.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/d54938a340ac8ff4733eeae0d4b34726.jpg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/84cf54be9c2b6063e281684dbdb557c8.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/84cf54be9c2b6063e281684dbdb557c8.jpeg"
+    ],
+    "generatedAt": "2026-04-14T18:42:53.810Z"
+  },
+  {
+    "prompt": "behind-the-scenes of a high-end commercial shoot, fashion model under giant soft lights, photographers, stylists fixing details, production assistants holding reflectors, studio filled with pro equipment, crisp realistic image",
+    "params": {
+      "prompt": "behind-the-scenes of a high-end commercial shoot, fashion model under giant soft lights, photographers, stylists fixing details, production assistants holding reflectors, studio filled with pro equipment, crisp realistic image",
+      "aspectRatio": "3:4",
+      "resolution": "2k",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/80d2577e012ec1bebb580cfc056c4a06.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/80d2577e012ec1bebb580cfc056c4a06.jpg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/afcb7e77ebad6b666fb9651aba2141d5.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/afcb7e77ebad6b666fb9651aba2141d5.jpeg"
+    ],
+    "generatedAt": "2026-04-14T18:43:55.725Z"
+  },
+  {
+    "prompt": "Generate a black-and-white comic for me about a Japanese high school student being late for school.",
+    "params": {
+      "prompt": "Generate a black-and-white comic for me about a Japanese high school student being late for school.",
+      "aspectRatio": "4:3",
+      "resolution": "2k",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/cf0d2ee5800097487f5a4306d2e2bcd3.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/cf0d2ee5800097487f5a4306d2e2bcd3.jpg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/532c6159694a9839edb1ee465c3c861a.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/532c6159694a9839edb1ee465c3c861a.jpeg"
+    ],
+    "generatedAt": "2026-04-14T18:44:46.476Z"
+  },
+  {
+    "prompt": "a realistic person blended into an artistic collage of textures, shapes, torn paper layers, bold contrasting typography, experimental poster layout, overlapping elements, vibrant color palette, modern graphic design aesthetic, high-resolution details",
+    "params": {
+      "prompt": "a realistic person blended into an artistic collage of textures, shapes, torn paper layers, bold contrasting typography, experimental poster layout, overlapping elements, vibrant color palette, modern graphic design aesthetic, high-resolution details",
+      "aspectRatio": "16:9",
+      "resolution": "2k",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/44b5964083a90044d1c551d4d368ea87.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/44b5964083a90044d1c551d4d368ea87.jpg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/5691417faf7920445e2170c6a3eb8ccf.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/5691417faf7920445e2170c6a3eb8ccf.jpeg"
+    ],
+    "generatedAt": "2026-04-15T01:58:39.782Z"
+  },
+  {
+    "prompt": "Create a vibrant and modern magazine cover for Women’s Health, themed for April 2025. The main background is a warm, orange gradient with soft shadows, evoking a fresh spring mood. Centered is a stylish young woman sitting confidently on color-blocked orange cubes. She has long, voluminous, wavy blonde hair and a natural, glowing complexion. She’s dressed in a forest green zip-up windbreaker jacket with loose sleeves and an orange top underneath, paired with white athletic crew socks branded ‘SAMOLA’ and retro-style white sneakers with thick black stripes and tan soles. One leg is propped up, creating a confident, athletic pose. Her expression is calm and poised. Include magazine headlines in stylish fonts, balancing black, white, and lime green text, placed thoughtfully around the subject: • Top left: ‘Covid: five years on’ in pale lime green with subtext in black: ‘Has the pandemic reshaped your identity?’ • Top right: ‘Spring forward’ in bold black with subtext: ‘How to eat, travel and sweat for your healthiest season yet’ • Center right: ‘15 skincare habits beauty founders swear by’ with large lime green ‘15’ • Bottom left: ‘FAKE VIEWS: Inside the scroll holes telling women how to “fix” themselves’ in black and pale pink • Bottom left corner with a green plus sign: ‘The workout that experts are calling a magic pill’ • Bottom right over the box: ‘Em the nutritionist’ in elegant white serif font, with yellow subheading: ‘In the kitchen with wellness’s favourite foodie’ Design should reflect an empowering, clean, editorial style, with an emphasis on health, wellness, and bold femininity. Lighting should be studio-bright, shadows soft and controlled.",
+    "params": {
+      "prompt": "Create a vibrant and modern magazine cover for Women’s Health, themed for April 2025. The main background is a warm, orange gradient with soft shadows, evoking a fresh spring mood. Centered is a stylish young woman sitting confidently on color-blocked orange cubes. She has long, voluminous, wavy blonde hair and a natural, glowing complexion. She’s dressed in a forest green zip-up windbreaker jacket with loose sleeves and an orange top underneath, paired with white athletic crew socks branded ‘SAMOLA’ and retro-style white sneakers with thick black stripes and tan soles. One leg is propped up, creating a confident, athletic pose. Her expression is calm and poised. Include magazine headlines in stylish fonts, balancing black, white, and lime green text, placed thoughtfully around the subject: • Top left: ‘Covid: five years on’ in pale lime green with subtext in black: ‘Has the pandemic reshaped your identity?’ • Top right: ‘Spring forward’ in bold black with subtext: ‘How to eat, travel and sweat for your healthiest season yet’ • Center right: ‘15 skincare habits beauty founders swear by’ with large lime green ‘15’ • Bottom left: ‘FAKE VIEWS: Inside the scroll holes telling women how to “fix” themselves’ in black and pale pink • Bottom left corner with a green plus sign: ‘The workout that experts are calling a magic pill’ • Bottom right over the box: ‘Em the nutritionist’ in elegant white serif font, with yellow subheading: ‘In the kitchen with wellness’s favourite foodie’ Design should reflect an empowering, clean, editorial style, with an emphasis on health, wellness, and bold femininity. Lighting should be studio-bright, shadows soft and controlled.",
+      "aspectRatio": "3:4",
+      "resolution": "2k",
+      "outputFormat": "png"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/50415b0856752b7814ca4a33a7fee495.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/50415b0856752b7814ca4a33a7fee495.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/0761cd380db63b87936d2448e9db7d7f.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/0761cd380db63b87936d2448e9db7d7f.png"
+    ],
+    "generatedAt": "2026-04-15T01:59:40.915Z"
+  },
+  {
+    "prompt": "Professional athlete sprinting through rain under stadium lights, droplets frozen in the air, intense expression, sportswear campaign, dramatic action photography",
+    "params": {
+      "prompt": "Professional athlete sprinting through rain under stadium lights, droplets frozen in the air, intense expression, sportswear campaign, dramatic action photography",
+      "aspectRatio": "1:1",
+      "resolution": "2k",
+      "outputFormat": "png"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/968d2eb7c1baa7c18a63a4573f472009.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/968d2eb7c1baa7c18a63a4573f472009.png"
+    ],
+    "generatedAt": "2026-04-15T02:00:36.369Z"
+  },
+  {
+    "prompt": "Warm Scandinavian living room with soft natural light, textured linen sofa, oak furniture, tasteful decor styling, interior design photography",
+    "params": {
+      "prompt": "Warm Scandinavian living room with soft natural light, textured linen sofa, oak furniture, tasteful decor styling, interior design photography",
+      "aspectRatio": "1:1",
+      "resolution": "2k",
+      "outputFormat": "png"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/50875327591ddc454e5ebeaee350d0c9.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/50875327591ddc454e5ebeaee350d0c9.png"
+    ],
+    "generatedAt": "2026-04-15T08:49:47.264Z"
+  },
+  {
+    "prompt": "Majestic fantasy creature standing in a bioluminescent forest, intricate scales and feathers, mystical glow, premium creature concept art, hyper-detailed rendering",
+    "params": {
+      "prompt": "Majestic fantasy creature standing in a bioluminescent forest, intricate scales and feathers, mystical glow, premium creature concept art, hyper-detailed rendering",
+      "aspectRatio": "1:1",
+      "resolution": "2k",
+      "outputFormat": "png"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/9fc76478f53997242df2c932d4962fef.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/9fc76478f53997242df2c932d4962fef.png"
+    ],
+    "generatedAt": "2026-04-15T02:02:01.481Z"
+  },
+  {
+    "prompt": "Whimsical children's book illustration of a fox and rabbit sharing tea in a magical forest, soft watercolor textures, charming storytelling composition",
+    "params": {
+      "prompt": "Whimsical children's book illustration of a fox and rabbit sharing tea in a magical forest, soft watercolor textures, charming storytelling composition",
+      "aspectRatio": "1:1",
+      "resolution": "2k",
+      "outputFormat": "png"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/fc0fb195dc9e59ee7033ed8df7df181c.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/fc0fb195dc9e59ee7033ed8df7df181c.png"
+    ],
+    "generatedAt": "2026-04-15T00:01:34.749Z"
+  },
+  {
+    "prompt": "Cyberpunk close-up portrait with glossy visor reflections, cyan and magenta neon lighting, futuristic makeup, moody atmosphere, ultra-detailed sci-fi fashion photography",
+    "params": {
+      "prompt": "Cyberpunk close-up portrait with glossy visor reflections, cyan and magenta neon lighting, futuristic makeup, moody atmosphere, ultra-detailed sci-fi fashion photography",
+      "aspectRatio": "1:1",
+      "resolution": "2k",
+      "outputFormat": "png"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/28de2c3f723175689fe4b642add57bff.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/28de2c3f723175689fe4b642add57bff.png"
+    ],
+    "generatedAt": "2026-04-15T02:03:29.581Z"
+  },
+  {
+    "prompt": "Snow leopard standing on a rocky ridge during snowfall, piercing eyes, dramatic wildlife photography, crisp fur detail, National Geographic quality",
+    "params": {
+      "prompt": "Snow leopard standing on a rocky ridge during snowfall, piercing eyes, dramatic wildlife photography, crisp fur detail, National Geographic quality",
+      "aspectRatio": "1:1",
+      "resolution": "2k",
+      "outputFormat": "png"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/fe7de21c6c40ff5230ff9442abe4f1c3.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/fe7de21c6c40ff5230ff9442abe4f1c3.png"
+    ],
+    "generatedAt": "2026-04-15T02:05:18.647Z"
+  },
+  {
+    "prompt": "Minimalist concrete architecture beside a calm reflective pool, clean geometry, soft overcast lighting, premium architectural photography, serene atmosphere",
+    "params": {
+      "prompt": "Minimalist concrete architecture beside a calm reflective pool, clean geometry, soft overcast lighting, premium architectural photography, serene atmosphere",
+      "aspectRatio": "1:1",
+      "resolution": "2k",
+      "outputFormat": "png"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/aa6397a3169f1464e70d3140e7215f78.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/aa6397a3169f1464e70d3140e7215f78.png"
+    ],
+    "generatedAt": "2026-04-15T02:05:56.348Z"
+  },
+  {
+    "prompt": "Bold music festival poster visual with a singer under saturated stage lights, graphic typography space, stylish composition, modern campaign artwork",
+    "params": {
+      "prompt": "Bold music festival poster visual with a singer under saturated stage lights, graphic typography space, stylish composition, modern campaign artwork",
+      "aspectRatio": "1:1",
+      "resolution": "2k",
+      "outputFormat": "png"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/a89f5e34937559b90b15d8ffde6f0306.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/a89f5e34937559b90b15d8ffde6f0306.png"
+    ],
+    "generatedAt": "2026-04-15T08:50:41.093Z"
+  },
+  {
+    "prompt": "High-end electric sports car on a wet mountain road at dawn, dramatic reflections, cinematic headlights, premium automotive commercial photography",
+    "params": {
+      "prompt": "High-end electric sports car on a wet mountain road at dawn, dramatic reflections, cinematic headlights, premium automotive commercial photography",
+      "aspectRatio": "1:1",
+      "resolution": "2k",
+      "outputFormat": "png"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/4c354d3eccce5ca6f1ef02d4d7e4df12.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/4c354d3eccce5ca6f1ef02d4d7e4df12.png"
+    ],
+    "generatedAt": "2026-04-15T02:09:39.197Z"
+  }
+]

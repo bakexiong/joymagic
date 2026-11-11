@@ -1,0 +1,328 @@
+[
+  {
+    "prompt": "Action: A man adjusts his suit cuff before entering an evening gala. His watch glints under chandelier light.\nCamera: Close-up of ticking hands, reflections on glass, slow pull-back to reveal his composed face.\nAmbient Sound: Subtle ticking, low ambient orchestral hum, murmuring crowd.\nDialogue:\nVoice-over (deep, calm): “Time doesn’t wait. But it remembers those who dare.”\nLogo fade-in: “Chronos — Measure Your Moments.”",
+    "params": {
+      "prompt": "Action: A man adjusts his suit cuff before entering an evening gala. His watch glints under chandelier light.\nCamera: Close-up of ticking hands, reflections on glass, slow pull-back to reveal his composed face.\nAmbient Sound: Subtle ticking, low ambient orchestral hum, murmuring crowd.\nDialogue:\nVoice-over (deep, calm): “Time doesn’t wait. But it remembers those who dare.”\nLogo fade-in: “Chronos — Measure Your Moments.”",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/f2954e2c1725d80cfd38273d4abf36b4.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/f2954e2c1725d80cfd38273d4abf36b4.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/19d50cff8ea92c598c1946202e0891eb.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/19d50cff8ea92c598c1946202e0891eb.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:17:57.836Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/9a5f9e4659ee6da2dcdc6e13a311cf2e.mp4"
+  },
+  {
+    "prompt": "This is a 3-beat prompt. Convert each beat into a distinct story. [Beat 1] A detective in a rainy alley whispers to himself: 'The clues don't add up.' Thunder rumbles. [Beat 2] He picks up a clue, rain pattering on pavement. [Beat 3] Close-up: He says 'Gotcha!' with dramatic music swell.",
+    "params": {
+      "prompt": "This is a 3-beat prompt. Convert each beat into a distinct story. [Beat 1] A detective in a rainy alley whispers to himself: 'The clues don't add up.' Thunder rumbles. [Beat 2] He picks up a clue, rain pattering on pavement. [Beat 3] Close-up: He says 'Gotcha!' with dramatic music swell.",
+      "aspectRatio": "16:9",
+      "resolution": "1080p",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/69fdf8b2ae726f9b24b81a5008dc33e7.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/69fdf8b2ae726f9b24b81a5008dc33e7.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/f9dcc3a39effa41b9a243681119d268a.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/f9dcc3a39effa41b9a243681119d268a.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:20:44.885Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/9f1f26f202a2c4b0ef3f938d08f301e8.mp4"
+  },
+  {
+    "prompt": "```json\n{\n  \"description\": \"A mother and daughter share a magical moment reading a Japanese folktale that comes to life from their book in a cozy evening setting.\",\n  \"Shots\": {\n    \"Shot_1\": {\n      \"Camera_Angle\": {\n        \"shot_size\": \"medium two-shot\",\n        \"angle\": \"front view\",\n        \"focus\": \"mother and daughter with book\",\n        \"details\": \"warm intimate framing showing both characters on sofa\"\n      },\n      \"Camera_Movement\": {\n        \"movement\": \"gentle glide\",\n        \"Description\": \"Slow, emotional pacing with subtle movement to enhance the intimate atmosphere\"\n      },\n      \"Transition\": {\n        \"type\": \"continuous glide\",\n        \"target\": \"daughter's face\"\n      },\n      \"Background\": {\n        \"use\": \"Japanese living room\"\n      },\n      \"Action\": {\n        \"character\": \"Mother\",\n        \"action\": \"sits on sofa with daughter\",\n        \"action\": \"arm gently wrapped behind daughter\",\n        \"action\": \"looking down at open book on their laps\",\n        \"action\": \"wavy hair catches the light shimmer\"\n      },\n      \"Action\": {\n        \"character\": \"Daughter\",\n        \"action\": \"sits close to mother on sofa\",\n        \"action\": \"looks down at book with wonder\",\n        \"action\": \"watches as magical scene unfolds\"\n      },\n      \"Action\": {\n        \"character\": \"Book\",\n        \"action\": \"fills lower frame\",\n        \"action\": \"radiates soft golden light\",\n        \"action\": \"pages pulse and ripple\",\n        \"action\": \"pop-up world begins to unfold with Urashima Tarō riding sea turtle\"\n      }\n    },\n    \"Shot_2\": {\n      \"Camera_Angle\": {\n        \"shot_size\": \"close-up\",\n        \"angle\": \"left-side perspective\",\n        \"focus\": \"daughter's profile\",\n        \"details\": \"mother blurred in background\"\n      },\n      \"Camera_Movement\": {\n        \"movement\": \"static\",\n        \"Description\": \"Held frame capturing daughter's wonder\"\n      },\n      \"Dialogue\": {\n        \"character\": \"Daughter\",\n        \"line\": \"Mama, look! He's moving!\",\n        \"timin",
+    "params": {
+      "prompt": "```json\n{\n  \"description\": \"A mother and daughter share a magical moment reading a Japanese folktale that comes to life from their book in a cozy evening setting.\",\n  \"Shots\": {\n    \"Shot_1\": {\n      \"Camera_Angle\": {\n        \"shot_size\": \"medium two-shot\",\n        \"angle\": \"front view\",\n        \"focus\": \"mother and daughter with book\",\n        \"details\": \"warm intimate framing showing both characters on sofa\"\n      },\n      \"Camera_Movement\": {\n        \"movement\": \"gentle glide\",\n        \"Description\": \"Slow, emotional pacing with subtle movement to enhance the intimate atmosphere\"\n      },\n      \"Transition\": {\n        \"type\": \"continuous glide\",\n        \"target\": \"daughter's face\"\n      },\n      \"Background\": {\n        \"use\": \"Japanese living room\"\n      },\n      \"Action\": {\n        \"character\": \"Mother\",\n        \"action\": \"sits on sofa with daughter\",\n        \"action\": \"arm gently wrapped behind daughter\",\n        \"action\": \"looking down at open book on their laps\",\n        \"action\": \"wavy hair catches the light shimmer\"\n      },\n      \"Action\": {\n        \"character\": \"Daughter\",\n        \"action\": \"sits close to mother on sofa\",\n        \"action\": \"looks down at book with wonder\",\n        \"action\": \"watches as magical scene unfolds\"\n      },\n      \"Action\": {\n        \"character\": \"Book\",\n        \"action\": \"fills lower frame\",\n        \"action\": \"radiates soft golden light\",\n        \"action\": \"pages pulse and ripple\",\n        \"action\": \"pop-up world begins to unfold with Urashima Tarō riding sea turtle\"\n      }\n    },\n    \"Shot_2\": {\n      \"Camera_Angle\": {\n        \"shot_size\": \"close-up\",\n        \"angle\": \"left-side perspective\",\n        \"focus\": \"daughter's profile\",\n        \"details\": \"mother blurred in background\"\n      },\n      \"Camera_Movement\": {\n        \"movement\": \"static\",\n        \"Description\": \"Held frame capturing daughter's wonder\"\n      },\n      \"Dialogue\": {\n        \"character\": \"Daughter\",\n        \"line\": \"Mama, look! He's moving!\",\n        \"timin",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/0f53debd4d11d9a4cbc13b3456687b9b.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/0f53debd4d11d9a4cbc13b3456687b9b.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/ddcacfd3fc4df848092985e389130c99.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/ddcacfd3fc4df848092985e389130c99.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:22:25.379Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/d18a82af9ef04c39dada4ff0f64b7d07.mp4"
+  },
+  {
+    "prompt": "Two person street interview in New York City.\nSample Dialogue:\nHost: \"Did you hear the news?\"\nPerson: \"Yes! Veo 3.1 is now available on 10BAI. If you want to see it, go check their website.\"",
+    "params": {
+      "prompt": "Two person street interview in New York City.\nSample Dialogue:\nHost: \"Did you hear the news?\"\nPerson: \"Yes! Veo 3.1 is now available on 10BAI. If you want to see it, go check their website.\"",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/40cf9b1f1899180c518cf8696f91b587.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/40cf9b1f1899180c518cf8696f91b587.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/fe77456dbbc7482b4890b344d3a649c6.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/fe77456dbbc7482b4890b344d3a649c6.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:24:07.352Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/b35db0ad9b44a576e32739476401a399.mp4"
+  },
+  {
+    "prompt": "Action: A young woman sits by a window at dawn, sipping coffee while sunlight cuts across the table. Steam rises from her cup as she smiles.\nCamera: Slow pan from her hand to her face, then to the glowing skyline outside.\nAmbient Sound: Soft morning breeze, faint café chatter, gentle acoustic guitar.\nDialogue:\nWoman (voice-over): “Every sunrise is a blank page. Start bold. Start with Brew&Co.”",
+    "params": {
+      "prompt": "Action: A young woman sits by a window at dawn, sipping coffee while sunlight cuts across the table. Steam rises from her cup as she smiles.\nCamera: Slow pan from her hand to her face, then to the glowing skyline outside.\nAmbient Sound: Soft morning breeze, faint café chatter, gentle acoustic guitar.\nDialogue:\nWoman (voice-over): “Every sunrise is a blank page. Start bold. Start with Brew&Co.”",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/caf92f5ab014af41acd60ecc55acad6f.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/caf92f5ab014af41acd60ecc55acad6f.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/6fdd992ea89590092103a8e965f6381e.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/6fdd992ea89590092103a8e965f6381e.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:25:54.351Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/96b4a12e78eb709e4ba1b366679846f7.mp4"
+  },
+  {
+    "prompt": "Action: Inside a dimly lit recording studio, two producers argue over a mix. One sits at the console, the other paces back and forth.\nCamera: Handheld motion, circling around them as lights flicker from monitors.\nAmbient Sound: Low bass hum, clicking buttons, faint static from speakers.\nDialogue:\nMaya (frustrated): “You keep chasing perfection, but the track’s already alive.”\nZane (snaps): “Alive isn’t enough — it has to move people.”",
+    "params": {
+      "prompt": "Action: Inside a dimly lit recording studio, two producers argue over a mix. One sits at the console, the other paces back and forth.\nCamera: Handheld motion, circling around them as lights flicker from monitors.\nAmbient Sound: Low bass hum, clicking buttons, faint static from speakers.\nDialogue:\nMaya (frustrated): “You keep chasing perfection, but the track’s already alive.”\nZane (snaps): “Alive isn’t enough — it has to move people.”",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/7909b2d20c4ae8f712e03c4a71ae31ab.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/7909b2d20c4ae8f712e03c4a71ae31ab.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/d0652b102ce2bca4c0e07a5f656e6abd.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/d0652b102ce2bca4c0e07a5f656e6abd.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:27:26.863Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/b2a66c6193502d671e7a472bdd3e42ff.mp4"
+  },
+  {
+    "prompt": "Action: Two friends sit on a rooftop ledge overlooking a glowing city skyline at sunset. One is relaxed, the other deep in thought.\nCamera: Slow dolly-in toward the two as warm sunlight flares through the lens.\nAmbient Sound: City traffic far below, soft wind, faint indie guitar music playing from a phone speaker.\nDialogue:\nEmma (softly): “You ever think about leaving all this behind?”\nRyan (smirks): “Only when I forget how beautiful it looks from up here.”",
+    "params": {
+      "prompt": "Action: Two friends sit on a rooftop ledge overlooking a glowing city skyline at sunset. One is relaxed, the other deep in thought.\nCamera: Slow dolly-in toward the two as warm sunlight flares through the lens.\nAmbient Sound: City traffic far below, soft wind, faint indie guitar music playing from a phone speaker.\nDialogue:\nEmma (softly): “You ever think about leaving all this behind?”\nRyan (smirks): “Only when I forget how beautiful it looks from up here.”",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/fd6c5a0ca3f8bbe958ff0a3ee5134673.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/fd6c5a0ca3f8bbe958ff0a3ee5134673.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/31cf9be266b1a773a7f15f9ada02ff0e.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/31cf9be266b1a773a7f15f9ada02ff0e.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:28:55.409Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/e8a8648c96bad32526a1670694b268c5.mp4"
+  },
+  {
+    "prompt": "A vibrant young woman in her early 20s runs toward the camera in Times Square at night, ecstatic and wide-eyed, shouting passionately into a black microphone. She wears a neon green windbreaker and black headphones around her neck. She yells: “Yo, Veo3.1 just dropped on 10BAI — sound and texture are next level, try it right now!” Wet reflective streets, glowing blue-white-magenta billboards, blurred pedestrians, dynamic handheld follow-shot, sharp face focus, shallow depth of field. 4K UHD, saturated colors, viral UGC style.",
+    "params": {
+      "prompt": "A vibrant young woman in her early 20s runs toward the camera in Times Square at night, ecstatic and wide-eyed, shouting passionately into a black microphone. She wears a neon green windbreaker and black headphones around her neck. She yells: “Yo, Veo3.1 just dropped on 10BAI — sound and texture are next level, try it right now!” Wet reflective streets, glowing blue-white-magenta billboards, blurred pedestrians, dynamic handheld follow-shot, sharp face focus, shallow depth of field. 4K UHD, saturated colors, viral UGC style.",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/2e3cfbbf7678d832924fba67b043c4e3.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/2e3cfbbf7678d832924fba67b043c4e3.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/09220f384e6668e96f04e50ed2446af1.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/09220f384e6668e96f04e50ed2446af1.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:30:32.156Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/2e201eed4e605b03ce32ce5aee65768a.mp4"
+  },
+  {
+    "prompt": "Action: A performer stands before a mirror backstage, adjusting costume and makeup under bright bulbs.\nCamera: Slow zoom-in toward the reflection, emphasizing tension in the eyes.\nAmbient Sound: Distant applause, creaking floorboards, faint orchestra tuning.\nDialogue:\nPerformer (to self): “This is it. One more chance to mean it.”",
+    "params": {
+      "prompt": "Action: A performer stands before a mirror backstage, adjusting costume and makeup under bright bulbs.\nCamera: Slow zoom-in toward the reflection, emphasizing tension in the eyes.\nAmbient Sound: Distant applause, creaking floorboards, faint orchestra tuning.\nDialogue:\nPerformer (to self): “This is it. One more chance to mean it.”",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/2bb5148ef5bdb692c96b9a9ecf6ec7c4.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/2bb5148ef5bdb692c96b9a9ecf6ec7c4.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/db381618214b93208aad74532cac0b7f.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/db381618214b93208aad74532cac0b7f.mp4"
+    ],
+    "generatedAt": "2026-04-15T09:05:50.946Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/c663a4696de0dadae922512e5becb325.mp4"
+  },
+  {
+    "prompt": "Scene 1:\nAction: Inside a modern coworking office, two young entrepreneurs rehearse a startup pitch in front of a whiteboard filled with diagrams.\nDialogue:\nAnna (determined): “We’re not selling a product. We’re selling a vision.”\nLeo (nodding): “Then let’s make them believe it.”\nAmbient Sound: Office air hum, typing in the background, occasional distant city noise.\n\nScene 2:\nAction: Cut to the real pitch — same outfits, gestures, and tone. The lighting shifts to bright stage lights as they present confidently.\nContinuity: Smooth cross-scene identity retention; their confidence builds visually and emotionally.",
+    "params": {
+      "prompt": "Scene 1:\nAction: Inside a modern coworking office, two young entrepreneurs rehearse a startup pitch in front of a whiteboard filled with diagrams.\nDialogue:\nAnna (determined): “We’re not selling a product. We’re selling a vision.”\nLeo (nodding): “Then let’s make them believe it.”\nAmbient Sound: Office air hum, typing in the background, occasional distant city noise.\n\nScene 2:\nAction: Cut to the real pitch — same outfits, gestures, and tone. The lighting shifts to bright stage lights as they present confidently.\nContinuity: Smooth cross-scene identity retention; their confidence builds visually and emotionally.",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/83040f02557cdac8cc3fa7a82b81c728.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/83040f02557cdac8cc3fa7a82b81c728.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/fc78017d1d8d8655fa3d0183f53381bb.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/fc78017d1d8d8655fa3d0183f53381bb.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:32:53.362Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/145c5312767e433419bb8fac8ab8729b.mp4"
+  },
+  {
+    "prompt": "Scene 1:\nAction: A cozy downtown café at sunrise. Steam rises from two coffee mugs.\nCharacters: A young woman (Emma) and her friend (Jake) sit by the window, sunlight filtering through.\nDialogue:\nEmma (warmly): “I can’t believe it’s been a year since we started this.”\nJake (smiling): “Yeah, and we’re still chasing the same dream.”\nAmbient Sound: Soft background jazz, light chatter, the sound of a coffee machine.\n\nScene 2:\nAction: The camera slowly pans as they laugh together, then fades into a flashback of their first meeting at the same café — same seats, same sunlight.\nContinuity: Same faces, gestures, and lighting tone across both shots.",
+    "params": {
+      "prompt": "Scene 1:\nAction: A cozy downtown café at sunrise. Steam rises from two coffee mugs.\nCharacters: A young woman (Emma) and her friend (Jake) sit by the window, sunlight filtering through.\nDialogue:\nEmma (warmly): “I can’t believe it’s been a year since we started this.”\nJake (smiling): “Yeah, and we’re still chasing the same dream.”\nAmbient Sound: Soft background jazz, light chatter, the sound of a coffee machine.\n\nScene 2:\nAction: The camera slowly pans as they laugh together, then fades into a flashback of their first meeting at the same café — same seats, same sunlight.\nContinuity: Same faces, gestures, and lighting tone across both shots.",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/11e81cc1157570c097868ebd423dc12b.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/11e81cc1157570c097868ebd423dc12b.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/c53bbece5f4c0fae2d0f6d3a32768483.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/c53bbece5f4c0fae2d0f6d3a32768483.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:34:43.751Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/6a792f1d39a42f003542962058bbd3cf.mp4"
+  },
+  {
+    "prompt": "A professional athlete sprints through rain under stadium lights, powerful strides, droplets flying, sportswear campaign, dramatic action commercial",
+    "params": {
+      "prompt": "A professional athlete sprints through rain under stadium lights, powerful strides, droplets flying, sportswear campaign, dramatic action commercial",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": false
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/c7872d1552fe0162316146b2fa1e709a.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/c7872d1552fe0162316146b2fa1e709a.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:36:47.402Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/75de241a32edd4297a28da8cbaaab49e.mp4"
+  },
+  {
+    "prompt": "A warm Scandinavian living room with soft natural light, curtains moving slightly, cozy interior ambiance, refined design photography, slow walkthrough feel",
+    "params": {
+      "prompt": "A warm Scandinavian living room with soft natural light, curtains moving slightly, cozy interior ambiance, refined design photography, slow walkthrough feel",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": false
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/475f0ee0d53f20308efdb361ba0ad9c2.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/475f0ee0d53f20308efdb361ba0ad9c2.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:38:26.348Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/16675220196285f93541d272d08a7d77.mp4"
+  },
+  {
+    "prompt": "A majestic fantasy creature stands in a bioluminescent forest, subtle breathing and eye movement, mystical glow, premium creature cinematic concept shot",
+    "params": {
+      "prompt": "A majestic fantasy creature stands in a bioluminescent forest, subtle breathing and eye movement, mystical glow, premium creature cinematic concept shot",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": false
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/0bc076d1fe88b8e7f20844a0c5992b5a.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/0bc076d1fe88b8e7f20844a0c5992b5a.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:40:16.819Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/44a0c363d8378bd992d640aa7ffdd594.mp4"
+  },
+  {
+    "prompt": "A whimsical children's book scene of a fox and rabbit sharing tea in a magical forest, gentle animated motions, soft watercolor textures, warm storytelling tone",
+    "params": {
+      "prompt": "A whimsical children's book scene of a fox and rabbit sharing tea in a magical forest, gentle animated motions, soft watercolor textures, warm storytelling tone",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": false
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/443ee26179b2d857f43a8093e1e529fd.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/443ee26179b2d857f43a8093e1e529fd.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:41:53.723Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/a31bce1656a73796f53ada076648fe43.mp4"
+  },
+  {
+    "prompt": "A cyberpunk close-up portrait with glossy visor reflections, subtle head movement, cyan and magenta neon lighting, futuristic makeup, moody sci-fi fashion teaser",
+    "params": {
+      "prompt": "A cyberpunk close-up portrait with glossy visor reflections, subtle head movement, cyan and magenta neon lighting, futuristic makeup, moody sci-fi fashion teaser",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": false
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/9b83991e6c3a5b7d504db19fa1877762.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/9b83991e6c3a5b7d504db19fa1877762.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:43:52.877Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/bb7977e033c41252805861bac9442723.mp4"
+  },
+  {
+    "prompt": "A snow leopard stands on a rocky ridge during snowfall, subtle breathing and head turn, dramatic wildlife cinematography, crisp fur detail",
+    "params": {
+      "prompt": "A snow leopard stands on a rocky ridge during snowfall, subtle breathing and head turn, dramatic wildlife cinematography, crisp fur detail",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": false
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/c6dad704d750741319d6f264c8af5d43.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/c6dad704d750741319d6f264c8af5d43.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:45:35.211Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/e1627a0d3b3cfe17e158ee1c7aa4076e.mp4"
+  },
+  {
+    "prompt": "Minimalist concrete architecture beside a calm reflective pool, subtle water ripples, slow dolly movement, premium architectural film, serene atmosphere",
+    "params": {
+      "prompt": "Minimalist concrete architecture beside a calm reflective pool, subtle water ripples, slow dolly movement, premium architectural film, serene atmosphere",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": false
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/eab4b185f2fec8316a55210876fef43d.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/eab4b185f2fec8316a55210876fef43d.mp4"
+    ],
+    "generatedAt": "2026-04-15T09:07:49.035Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/74761c574901a9b05c4026030f967b8c.mp4"
+  },
+  {
+    "prompt": "A high-end electric sports car drives along a wet mountain road at dawn, dramatic reflections, cinematic headlights, premium automotive commercial motion",
+    "params": {
+      "prompt": "A high-end electric sports car drives along a wet mountain road at dawn, dramatic reflections, cinematic headlights, premium automotive commercial motion",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": false
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/4daea73bcd061c1a9f16ab3de23a06e8.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/4daea73bcd061c1a9f16ab3de23a06e8.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:48:32.467Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/597e738bac2e16dd5c06242b24fc3c43.mp4"
+  }
+]

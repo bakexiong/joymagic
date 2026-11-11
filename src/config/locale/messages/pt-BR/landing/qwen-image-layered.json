@@ -1,0 +1,195 @@
+{
+  "qwenImageLayered": {
+    "steps": {
+      "image": {
+        "title": "Imagem*",
+        "hint": "Dica: Você pode arrastar e soltar um arquivo ou clicar para fazer upload",
+        "dragDrop": "Arrastar e soltar ou clicar para fazer upload",
+        "dropHere": "Solte a imagem aqui",
+        "urlPlaceholder": "Ou insira a URL da imagem",
+        "urlEntered": "URL inserida"
+      },
+      "numLayers": {
+        "title": "Número de Camadas",
+        "hint": "Número de camadas para decompor (1-8)"
+      },
+      "generate": {
+        "title": "Gerar",
+        "cta": "Gerar",
+        "generating": "Gerando..."
+      }
+    },
+    "preview": {
+      "title": "Visualização",
+      "original": "Original",
+      "swap": "Trocar",
+      "placeholder": "Faça upload de uma imagem para ver a decomposição em camadas aqui.",
+      "layers": "Camadas",
+      "noLayers": "Nenhuma camada gerada ainda",
+      "downloadAll": "Baixar Tudo"
+    },
+    "common": {
+      "selected": "Selecionado: {name}",
+      "notSelected": "Não selecionado",
+      "clear": "Limpar"
+    },
+    "errors": {
+      "invalidFileType": "Tipo de arquivo inválido. Por favor, faça upload de um arquivo de imagem (JPG, PNG, WEBP).",
+      "uploadFailed": "Falha no upload: {error}",
+      "uploadFailedGeneric": "Falha no upload",
+      "imageRequired": "Por favor, faça upload de uma imagem ou insira uma URL de imagem",
+      "generationFailed": "Falha na geração da imagem",
+      "taskFailed": "Falha no processamento da tarefa",
+      "taskTimeout": "Tempo limite de processamento da tarefa, por favor tente novamente mais tarde",
+      "taskIdNotFound": "Não foi possível obter o ID da tarefa, por favor verifique o formato da resposta da API",
+      "processingFailed": "Falha no processamento, por favor tente novamente",
+      "statusQueryFailed": "Falha ao consultar o status da tarefa",
+      "apiResponseParseFailed": "Falha ao analisar a resposta da API"
+    }
+  },
+  "qwenImageLayeredPage": {
+    "metadata": {
+      "title": "Ferramenta de Decomposição de Camadas de Imagem com IA | Camadas RGBA | joymagic",
+      "description": "Ferramenta alimentada por IA para decompor imagens em camadas RGBA editáveis. Separação semântica automática com canais alfa para edição de fotos e design perfeitos."
+    },
+    "hero": {
+      "title": "Decomposição de Imagem em Camadas com IA",
+      "description": "Decomponha automaticamente qualquer imagem em camadas RGBA editáveis com a ferramenta de camadas com IA do joymagic. Separação semântica perfeita – canais alfa limpos, bordas suaves e ordem de oclusão correta.",
+      "button1": "Decompor em Camadas Agora",
+      "button2": "Começar grátis · Sem cartão de crédito"
+    },
+    "heroDescription": "✓ Download HD ✓ Sem marca d'água ✓ Múltiplas camadas",
+    "whatIs": {
+      "title": "O que é Decomposição de Imagem em Camadas com IA?",
+      "description": "A ferramenta de Imagem em Camadas com IA do joymagic, alimentada pela tecnologia avançada Qwen-Image-Layered, analisa automaticamente uma única imagem e a decompõe em múltiplas camadas RGBA semanticamente independentes (vermelho, verde, azul + transparência alfa).",
+      "paragraph1": "Ao contrário da segmentação tradicional que apenas fornece máscaras, nossa IA:",
+      "points": [
+        "Compreende profundidade, oclusão e estrutura da cena",
+        "Gera canais alfa limpos com bordas suaves para cada camada",
+        "Preserva a ordem correta de camadas (primeiro plano para fundo)",
+        "Gera camadas de composição prontas para uso"
+      ],
+      "paragraph2": "Ideal para designers, ilustradores, desenvolvedores de jogos, editores de fotos e qualquer pessoa que precise de controle não destrutivo baseado em camadas sobre imagens complexas."
+    },
+    "howTo": {
+      "title": "Como Decompor uma Imagem em Camadas",
+      "description": "Crie composições em camadas editáveis com nossa ferramenta de decomposição em camadas com IA em apenas alguns passos simples:",
+      "step1": {
+        "title": "Faça upload da sua imagem",
+        "description": "Arraste e solte ou selecione sua foto ou obra de arte.<br/>Suporta formatos JPG, JPEG, PNG, WEBP.<br/><br/><strong>Funciona com fotos, arte gerada por IA, ilustrações e cenas</strong>"
+      },
+      "step2": {
+        "title": "Configure as opções de decomposição",
+        "description": "Personalize a saída:<br/><br/><strong>Número de camadas:</strong> Escolha de 2 a 8 camadas (padrão: 4)<br/><strong>Prompt opcional:</strong> Adicione orientação como \"separar pessoa, móveis, fundo\" para controle mais preciso"
+      },
+      "step3": {
+        "title": "Gere camadas",
+        "description": "Clique em Decompor – nossa IA analisa instantaneamente e divide a imagem em saídas RGBA em camadas.<br/><br/><strong>Visualização em tempo real de cada camada</strong>"
+      },
+      "step4": {
+        "title": "Visualize e baixe",
+        "description": "Veja camadas individuais com transparência.<br/><br/><strong>Baixe como arquivos PNG separados (com alfa)</strong><br/><strong>Ou obtenha um arquivo PSD em camadas (em breve)</strong><br/><strong>Qualidade HD, pronto para Photoshop, Procreate ou qualquer editor</strong>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Recursos Principais",
+      "description": "Decomposição em camadas com IA de nível profissional com separação semântica inteligente.",
+      "semantic": {
+        "title": "Separação Semântica de Camadas",
+        "description": "Decomposição inteligente em objetos e regiões significativos – pessoas, móveis, céu, primeiro plano, fundo e mais."
+      },
+      "alpha": {
+        "title": "Canais Alfa Limpos e Bordas Suaves",
+        "description": "Transparência de nível profissional com bordas naturais e difusas – sem cortes duros ou halos."
+      },
+      "occlusion": {
+        "title": "Ordem de Oclusão Correta",
+        "description": "Camadas ordenadas automaticamente da frente para trás para uma recomposição perfeita."
+      },
+      "adjustable": {
+        "title": "Quantidade de Camadas Ajustável",
+        "description": "Controle de profundidade: 2-8 camadas dependendo da complexidade da imagem e suas necessidades."
+      },
+      "prompt": {
+        "title": "Controle Guiado por Prompt",
+        "description": "Prompt de texto opcional para focar a separação em elementos ou regiões específicos."
+      },
+      "quality": {
+        "title": "Saída em Camadas de Alta Qualidade",
+        "description": "Baixe PNGs transparentes individuais ou prepare-se para edição avançada – HD completo com detalhes preservados."
+      }
+    },
+    "useCases": {
+      "title": "O que Você Pode Fazer com a Decomposição em Camadas com IA do joymagic",
+      "description": "Desbloqueie infinitas possibilidades em camadas a partir de uma única imagem.",
+      "editing": {
+        "title": "Edição de Fotos Não Destrutiva",
+        "description": "Isole e edite elementos individuais (pessoa, objetos, fundo) sem afetar o resto."
+      },
+      "compositing": {
+        "title": "Composição Avançada",
+        "description": "Reorganize, recoloque ou substitua camadas para criar novas cenas a partir de uma única imagem fonte."
+      },
+      "gameAssets": {
+        "title": "Criação de Ativos para Jogos e UI",
+        "description": "Extraia sprites limpos, personagens ou camadas ambientais de arte conceitual ou fotos."
+      },
+      "illustration": {
+        "title": "Fluxo de Trabalho de Ilustração e Arte Digital",
+        "description": "Transforme imagens planas em projetos completamente em camadas para pintura ou animação adicional."
+      },
+      "sceneReconstruction": {
+        "title": "Reconstrução e Remixagem de Cenas",
+        "description": "Troque fundos, mova objetos ou construa variações manipulando camadas separadas."
+      },
+      "tagline": "Uma imagem, infinitas possibilidades em camadas."
+    },
+    "faq": {
+      "title": "Perguntas Frequentes sobre Decomposição de Imagem em Camadas com IA",
+      "description": "Tudo o que você precisa saber sobre nossa ferramenta de decomposição em camadas com IA.",
+      "q1": {
+        "question": "Quais formatos de imagem são suportados?",
+        "answer": "Suportamos JPG, JPEG, PNG e WEBP. Melhores resultados com imagens claras e de alta resolução."
+      },
+      "q2": {
+        "question": "Quantas camadas posso gerar?",
+        "answer": "Você pode selecionar de 2 a 8 camadas. Mais camadas fornecem separação mais fina em cenas complexas."
+      },
+      "q3": {
+        "question": "Minhas camadas terão transparência limpa?",
+        "answer": "Sim. Cada camada inclui um canal alfa profissional com bordas suaves para uma mistura natural."
+      },
+      "q4": {
+        "question": "Posso guiar a decomposição com texto?",
+        "answer": "Sim – adicione um prompt opcional para priorizar certos objetos ou regiões (por exemplo, \"focar em pessoa e mesa\")."
+      },
+      "q5": {
+        "question": "Quais formatos de saída estão disponíveis?",
+        "answer": "Cada camada é baixada como um PNG transparente separado. A exportação PSD em camadas em breve."
+      },
+      "q6": {
+        "question": "Meus dados estão seguros?",
+        "answer": "Sim. As imagens enviadas são processadas com segurança e excluídas automaticamente após o processamento. Nunca usamos suas imagens para treinamento."
+      },
+      "q7": {
+        "question": "Funciona com imagens geradas por IA ou ilustradas?",
+        "answer": "Sim – excelentes resultados tanto em estilos fotográficos quanto artísticos, incluindo arte com IA."
+      }
+    },
+    "privacy": {
+      "title": "Privacidade e Segurança",
+      "description": "Suas imagens e privacidade são nossa prioridade.",
+      "points": [
+        "Todos os uploads são processados com segurança e criptografados",
+        "As imagens são excluídas automaticamente após o processamento",
+        "Nunca compartilhadas com terceiros ou usadas para treinamento de IA"
+      ]
+    },
+    "finalCTA": {
+      "title": "Transforme qualquer imagem em camadas profissionais totalmente editáveis.",
+      "description": "Experimente a Decomposição em Camadas com IA do joymagic agora e desbloqueie o controle verdadeiro de composição em segundos.",
+      "button": "Decompor em Camadas Agora",
+      "helperText": "Não é necessário cadastro · Grátis para começar · Downloads sem marca d'água"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "page": {
+    "metadata": {
+      "title": "GPT Image 2 图生图 - 海报、UI 与写实图片编辑 | joymagic",
+      "description": "使用 GPT Image 2 编辑最多 4 张上传图片，适合中文海报修图、文档版式重做、照片级精修，以及 UI 界面和截图风格变换。",
+      "keywords": "GPT Image 2 图生图, 海报编辑, 中文海报修图, 写实图片编辑, UI 界面编辑, 截图风格生成, 最多上传4张图片"
+    },
+    "hero": {
+      "title": "GPT-Image 2 图生图",
+      "description": "GPT Image 2 的图像编辑尤其适合处理文字密集型视觉、文档感版式、照片级写实修图，以及 UI 界面和截图风格变换。你可以一次上传最多 4 张源图，用自然语言描述修改方向，并通过合适的宽高比控制最终画面。<br/><br/>如果你想从零开始生成？<a href=\"/text-to-image/gpt-image-2\" class=\"text-primary underline\">试试 GPT-Image 2 文本生成图片</a>。",
+      "button1": "立即试用",
+      "button2": "查看价格"
+    },
+    "features": {
+      "title": "为什么用 GPT-Image 2 做图片编辑",
+      "description": "一个更适合文字型图片、写实修图和界面类视觉的编辑工作流。",
+      "references": {
+        "title": "最多 4 张图片协同编辑",
+        "description": "适合同时处理一小组海报、活动素材或界面稿，让同一条创意方向在多个结果中保持一致。"
+      },
+      "promptLed": {
+        "title": "更适合文字与版式型修改",
+        "description": "GPT Image 2 更适合处理海报文案、文档结构、标签说明和图文混排类修改，不只是做表面风格替换。"
+      },
+      "framing": {
+        "title": "兼顾写实与界面输出控制",
+        "description": "在生成前先确定输出比例，让照片精修、截图重绘和构图调整更接近真实使用场景。"
+      }
+    },
+    "promptingTips": {
+      "title": "如何获得更好的 GPT-Image 2 编辑结果",
+      "specific": {
+        "title": "说清哪里改、哪里保留",
+        "description": "做海报、文档或 UI 编辑时，明确指出要修改的文字区块、版面区域或视觉元素，同时说明哪些内容需要保持不变。"
+      },
+      "batch": {
+        "title": "多图尽量保持同一方向",
+        "description": "如果一次上传多张图片，尽量用一条清晰统一的指令，让整组素材的质感和风格落在同一个范围内。"
+      },
+      "framing": {
+        "title": "先选最终宽高比",
+        "description": "提前选择目标画幅，有助于让裁切、留白和构图更贴近最后的投放位置。"
+      },
+      "details": {
+        "title": "补充真实感或界面感要求",
+        "description": "你可以明确说明想要照片级写实、胶片感、干净的 UI 表面，或接近真实截图的效果，以便更精准地控制最终质感。"
+      }
+    },
+    "useCases": {
+      "title": "使用场景",
+      "batchAssets": {
+        "title": "海报与版式重做",
+        "description": "适合重做中文海报、封面图和文档感设计，在保留整体结构的同时优化文字区、信息层级和版面平衡。"
+      },
+      "productRefresh": {
+        "title": "产品图与人像写实精修",
+        "description": "可以优化产品图、人像或街拍中的光线、材质、背景氛围和收尾质感，而不必重新搭建整个场景。"
+      },
+      "socialVariants": {
+        "title": "UI 与截图风格变换",
+        "description": "适合理财 App、桌面布局、数据面板和软件截图的重绘与风格统一，让界面视觉更干净、更清晰或更具展示感。"
+      },
+      "lookDev": {
+        "title": "小批量创意方向统一",
+        "description": "通过一条提示词同时作用于最多 4 张图片，先验证一组素材的创意方向，再进入正式制作。"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "关于 GPT Image 2 海报修图、写实图片编辑和 UI 截图变换的常见问题。",
+      "q1": {
+        "question": "我最多可以上传多少张图片？",
+        "answer": "当前 GPT Image 2 图生图工作流支持单次最多上传 4 张图片。"
+      },
+      "q2": {
+        "question": "支持哪些参数？",
+        "answer": "当前支持 images、prompt 和 aspect ratio。宽高比包括 1:1、16:9、9:16、4:3、3:4、3:2、2:3、5:4、4:5、2:1、1:2、21:9 和 9:21。"
+      },
+      "q3": {
+        "question": "GPT Image 2 更适合哪些编辑任务？",
+        "answer": "它尤其适合中文海报修改、文档版式重做、照片级写实精修，以及 UI 界面和截图类图像的风格调整与结构优化。"
+      }
+    },
+    "finalCTA": {
+      "title": "准备好用 GPT Image 2 编辑图片了吗？",
+      "description": "上传图片，用自然语言描述修改方向，把海报、界面稿或写实照片快速推进到更可用的成品状态。",
+      "button": "打开工作台"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "imageToImage": "图生图",
+      "model": "GPT-Image 2"
+    },
+    "schema": {
+      "softwareName": "joymagic GPT-Image 2 图生图",
+      "softwareDescription": "使用 GPT Image 2 编辑最多 4 张上传图片，适合中文海报优化、写实精修和 UI 截图变换。",
+      "howToName": "如何用 GPT Image 2 编辑海报、UI 和写实图片",
+      "howToDescription": "上传图片、描述修改方向、选择宽高比，并用 GPT Image 2 生成海报、写实照片或界面截图的编辑结果。",
+      "features": {
+        "multiUpload": "最多上传 4 张图片",
+        "promptEditing": "更适合文字与版式的图片编辑",
+        "aspectPresets": "13 种宽高比预设"
+      },
+      "steps": {
+        "upload": {
+          "name": "上传图片",
+          "text": "上传最多 4 张源图，用于同一组海报修改、截图重绘或写实精修方向。"
+        },
+        "prompt": {
+          "name": "编写提示词",
+          "text": "描述你想改动的部分、需要保留的内容，以及希望结果更偏真实、干净还是更像界面视觉。"
+        },
+        "aspectRatio": {
+          "name": "选择宽高比并生成",
+          "text": "选择最适合最终使用场景的输出比例，然后生成并查看编辑结果。"
+        }
+      }
+    }
+  }
+}

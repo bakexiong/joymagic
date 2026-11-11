@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "원본 이미지 업로드",
+      "hint": "이미지 1장을 업로드하세요 (JPG/PNG/WEBP).",
+      "dragDrop": "드래그 앤 드롭 또는 클릭하여 업로드",
+      "dropHere": "여기에 이미지 드롭"
+    },
+    "prompt": {
+      "title": "변환 프롬프트 입력",
+      "placeholder": "이미지를 어떻게 변환하고 싶은지 설명하세요. 예: '만화 스타일로 변경', '수채화처럼 보이게'",
+      "hint": "원하는 변경 사항을 구체적으로 설명하세요"
+    },
+    "generate": {
+      "title": "변환된 이미지 생성",
+      "cta": "생성",
+      "generating": "생성 중..."
+    }
+  },
+  "preview": {
+    "title": "미리보기",
+    "original": "원본",
+    "swap": "교체",
+    "placeholder": "이미지를 업로드하고 프롬프트를 입력하여 여기에서 변환을 확인하세요."
+  },
+  "common": {
+    "selectedCount": "선택됨: 1개 이미지",
+    "notSelected": "선택되지 않음"
+  },
+  "errors": {
+    "invalidFileType": "잘못된 파일 형식입니다. 이미지 파일(JPG, PNG, WEBP)을 업로드하세요.",
+    "uploadFailed": "업로드 실패: {error}",
+    "uploadFailedGeneric": "업로드 실패",
+    "sourceImageRequired": "원본 이미지를 1장 업로드하세요",
+    "promptRequired": "변환 프롬프트를 입력하세요",
+    "generationFailed": "이미지 생성 실패",
+    "taskFailed": "작업 처리 실패",
+    "taskTimeout": "작업 처리 시간 초과, 나중에 다시 시도하세요",
+    "taskIdNotFound": "작업 ID를 가져올 수 없습니다. API 응답 형식을 확인하세요",
+    "processingFailed": "처리 실패, 다시 시도하세요",
+    "statusQueryFailed": "작업 상태 조회 실패",
+    "apiResponseParseFailed": "API 응답 구문 분석 실패"
+  },
+  "page": {
+    "metadata": {
+      "title": "Grok Imagine 이미지-투-이미지 AI 도구 - AI로 이미지 변환 | joymagic",
+      "description": "Grok Imagine 이미지-투-이미지 AI로 이미지를 변환하고 편집하세요. 이미지 1장을 업로드해 고급 AI 편집으로 변환. Grok Imagine으로 빠르고 고품질 결과를.",
+      "keywords": "grok imagine 이미지-투-이미지, grok imagine, 이미지 변환 AI, AI 이미지 편집기, 이미지 편집, 이미지-투-이미지 AI 도구, AI 이미지 변환기"
+    },
+    "hero": {
+      "title": "Grok Imagine 이미지-투-이미지 AI - AI로 이미지 변환",
+      "description": "Grok Imagine 이미지-투-이미지 AI로 이미지를 변환하고 편집하세요. 이미지 1장을 업로드해 고급 AI 편집으로 변환. 빠르고 고품질 이미지 변환을 경험하세요.",
+      "button1": "Grok Imagine 이미지-투-이미지 체험",
+      "button2": "가격 보기"
+    },
+    "keyFeatures": {
+      "title": "왜 Grok Imagine 이미지-투-이미지인가요?",
+      "description": "Grok Imagine 이미지-투-이미지 AI의 기능을 알아보세요",
+      "singleImage": {
+        "title": "단일 이미지 업로드",
+        "description": "이미지 1장을 업로드하고 변환 내용을 설명하세요. 간단하고 빠릅니다."
+      },
+      "highQuality": {
+        "title": "고품질 Grok Imagine 결과",
+        "description": "Grok Imagine AI로 뛰어난 화질을. 선명하고 디테일한 고해상도 변환 이미지를 생성하세요."
+      },
+      "styleFlexibility": {
+        "title": "다양한 스타일 변환",
+        "description": "Grok Imagine으로 사실적·예술·추상 등 다양한 스타일로 변환. 상세한 프롬프트로 완전 제어."
+      },
+      "affordable": {
+        "title": "합리적인 Grok Imagine 요금",
+        "description": "비용 효율적인 이미지 변환. 사용량 기준 과금으로 어떤 규모의 프로젝트에도 적합."
+      }
+    },
+    "promptingTips": {
+      "title": "Grok Imagine 이미지-투-이미지 최적 결과 얻기",
+      "specific": {
+        "title": "구체적으로 작성",
+        "description": "원하는 변환을 정확히 설명하세요. 예: \"만화 스타일로 변경\", \"수채화처럼 보이게\""
+      },
+      "style": {
+        "title": "예술 스타일 지정",
+        "description": "원하는 스타일을 적어주세요: \"만화 스타일\", \"유화\", \"디지털 아트\" 등."
+      },
+      "color": {
+        "title": "색상과 분위기",
+        "description": "색조와 분위기를 설명해 결과를 살리세요: \"선명한 색\", \"은은한 톤\", \"어둡고 무디하게\" 등."
+      },
+      "details": {
+        "title": "세부 사항 추가",
+        "description": "조명, 구도, 유지하거나 바꾸고 싶은 요소를 넣으면 품질이 올라갑니다."
+      }
+    },
+    "useCases": {
+      "title": "Grok Imagine 이미지-투-이미지 활용 사례",
+      "style": {
+        "title": "스타일 변환",
+        "description": "사진을 만화·수채·유화 등 다양한 예술 스타일로. 크리에이티브 작업에 적합."
+      },
+      "product": {
+        "title": "제품 사진 보강",
+        "description": "마케팅·SNS용 제품 사진 변환. 여러 스타일 변형을 빠르게 만드세요."
+      },
+      "creative": {
+        "title": "크리에이티브 프로젝트",
+        "description": "다양한 스타일과 변환을 시도해 원하는 결과를 찾아보세요."
+      },
+      "personal": {
+        "title": "개인 사용",
+        "description": "AI로 사진을 다시 상상해 보세요. 한 줄 프롬프트로 분위기·스타일·장면을 바꿀 수 있습니다."
+      }
+    },
+    "faq": {
+      "title": "Grok Imagine 이미지-투-이미지 FAQ",
+      "description": "Grok Imagine 이미지-투-이미지 AI 도구 자주 묻는 질문",
+      "q1": {
+        "question": "이미지는 몇 장까지 업로드할 수 있나요?",
+        "answer": "한 번에 1장입니다. 프롬프트에 변환 내용을 적고 생성하세요."
+      },
+      "q2": {
+        "question": "비용은 얼마인가요?",
+        "answer": "변환 1회당 고정 크레딧이 소요됩니다. 가격 페이지에서 요금을 확인하세요."
+      },
+      "q3": {
+        "question": "Grok Imagine은 어떤 이미지 형식을 지원하나요?",
+        "answer": "PNG, JPEG, JPG, WebP를 지원합니다. 선명하고 밝은 이미지일수록 결과가 좋습니다."
+      },
+      "q4": {
+        "question": "Grok Imagine 프롬프트는 어떻게 쓰나요?",
+        "answer": "주제, 배경, 조명, 스타일, 분위기, 구도를 자세히 쓰면 더 좋은 변환이 나옵니다."
+      },
+      "q5": {
+        "question": "같은 이미지를 여러 번 변환할 수 있나요?",
+        "answer": "네. 같은 이미지에 다른 프롬프트를 써서 여러 번 변환할 수 있습니다."
+      }
+    },
+    "finalCTA": {
+      "title": "Grok Imagine 이미지-투-이미지 써보실래요?",
+      "description": "오늘 Grok Imagine AI로 이미지 변환을 시작하세요. 빠르고 고품질 변환을 경험하세요.",
+      "button": "지금 Grok Imagine 이미지-투-이미지 체험"
+    },
+    "breadcrumb": {
+      "home": "홈",
+      "imageToImage": "이미지 투 이미지",
+      "grokImagine": "Grok Imagine"
+    },
+    "schema": {
+      "softwareName": "Grok Imagine 이미지-투-이미지 AI 도구 by joymagic",
+      "howToName": "Grok Imagine 이미지-투-이미지 AI 사용법",
+      "howToDescription": "Grok Imagine 이미지-투-이미지 AI로 이미지 변환하기. 이미지를 업로드하고 AI 편집으로 변환.",
+      "features": {
+        "aiImageEditing": "Grok Imagine 이미지-투-이미지 AI 편집",
+        "singleImage": "Grok Imagine 단일 이미지 변환",
+        "highQuality": "고품질 Grok Imagine 출력"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "prompt": "Let the man in Figure 1 put on the sunglasses in Figure 2.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/d7315b9858a990181925b6455679de54.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/d7315b9858a990181925b6455679de54.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/589f71862af9652aa94ddf4e15523758.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/589f71862af9652aa94ddf4e15523758.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Let the man in Figure 1 put on the sunglasses in Figure 2."
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/ba2c500e317c1a5873cd508585da88fa.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/ba2c500e317c1a5873cd508585da88fa.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/e6cb280aeab3189fb78d884212e2ac28.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/e6cb280aeab3189fb78d884212e2ac28.png"
+    ],
+    "generatedAt": "2026-04-15T03:30:15.748Z"
+  }
+]

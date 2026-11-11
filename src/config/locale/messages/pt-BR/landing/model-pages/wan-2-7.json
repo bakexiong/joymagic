@@ -1,0 +1,142 @@
+{
+  "title": "Wan 2.7",
+  "provider": "Alibaba",
+  "eyebrow": "Landing page centrada no modelo",
+  "description": "Comece com Wan 2.7 quando você quiser geração de imagem mais cinematográfica e storytelling guiado por movimento: atmosfera mais forte, enquadramento mais editorial e outputs que parecem mais próximas de visuais premium de campanha.",
+  "seoTitle": "Página do modelo AI Wan 2.7 | Text to Image + Text to Video | joymagic",
+  "seoDescription": "Explore o Wan 2.7 como uma landing page model-first. Alterne entre text-to-image e text-to-video, reaproveite o creator workbench e passe de stills cinematográficas para motion em um único fluxo.",
+  "stats": [
+    {
+      "label": "Modo principal",
+      "value": "Text to Image"
+    },
+    {
+      "label": "Cenas expandidas",
+      "value": "6 fluxos ativos"
+    },
+    {
+      "label": "Foco da saída",
+      "value": "Direção cinematográfica"
+    }
+  ],
+  "differentiators": [
+    "Posicione o Wan 2.7 como a opção premium de storytelling para equipes que valorizam atmosfera, renderização beauty e composição editorial.",
+    "Use uma única página de modelo para ligar concepção estática, edição controlada, geração de movimento e extensão de sequência sem mudar o comportamento central do workbench.",
+    "Dê ao Wan 2.7 uma narrativa própria para que o usuário entenda quando escolhê-lo em vez de tratá-lo como um modelo de edição mais utilitário."
+  ],
+  "gallery": [
+    {
+      "title": "Retratos beauty cinematográficos",
+      "caption": "Gere frames editoriais premium com mais clima, renderização de personagem mais limpa e acabamento mais polido de campanha fashion.",
+      "prompt": "Create a cinematic beauty portrait in a rain-lit street at blue hour with premium styling, refined reflections, and elegant editorial lighting.",
+      "accentClassName": "from-[#9f7bff] via-[#3d3276] to-[#121212] text-white"
+    },
+    {
+      "title": "Atmosfera fashion de luxo",
+      "caption": "Leve os outputs estáticos para uma luz mais fílmica, texturas mais ricas e storytelling visual mais elevado.",
+      "prompt": "Generate a luxury fashion campaign still of a model walking through a neon city after rain, glossy reflections, premium wardrobe, and moody cinematic framing.",
+      "accentClassName": "from-[#5ec8ff] via-[#1e567b] to-[#101216] text-white"
+    },
+    {
+      "title": "Conceitos de campanha orientados a motion",
+      "caption": "Passe de conceitos estáticos para ideias curtas de motion cinematográfico quando a história exigir movimento de câmera e continuidade.",
+      "prompt": "Create a short campaign motion concept of a model exiting a taxi at night, wet pavement reflections, slow camera push, and luxury beauty close-ups.",
+      "accentClassName": "from-[#f7c875] via-[#88612f] to-[#161616] text-white"
+    },
+    {
+      "title": "Loops editoriais premium",
+      "caption": "Use Wan 2.7 para testar direções curtas de beauty film e fashion film antes de entrar no planejamento completo de produção.",
+      "prompt": "Generate a fashion-film style loop with subtle wind movement, cinematic close-up transitions, premium makeup detail, and dramatic city-night ambience.",
+      "accentClassName": "from-[#f19dc2] via-[#75405e] to-[#171216] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Por que dar ao Wan 2.7 uma página de modelo própria?",
+      "answer": "Porque o Wan 2.7 atende uma intenção de usuário diferente daquela dos tools de imagem mais utilitários. Esta página ajuda a explicar quando usá-lo para stills cinematográficas, conceitos editoriais e desenvolvimento narrativo curto orientado a motion."
+    },
+    {
+      "question": "O Wan 2.7 ainda reaproveita o mesmo creator workbench?",
+      "answer": "Sim. A página mantém a mesma superfície de workflow do creator, então o usuário pode alternar entre geração de imagem e de vídeo sem precisar reaprender a estrutura do produto."
+    },
+    {
+      "question": "O Wan 2.7 é melhor para still ou motion?",
+      "answer": "Esta página o posiciona para ambos. O text-to-image funciona bem para frames conceituais premium, enquanto o text-to-video leva a mesma direção estética para clipes cinematográficos curtos."
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "Texto para imagem",
+      "title": "Cena 01 · Geração cinematográfica de imagem",
+      "description": "Use Wan 2.7 quando você quiser visuais guiadas por prompt com mood mais editorial, renderização de personagem mais refinada e composição premium já na primeira passada.",
+      "spotlight": "Ideal para editoriais de beauty, campanhas fashion e conceitos visuais cinematográficos.",
+      "starterPrompt": "Generate a cinematic beauty editorial portrait in a rain-lit city at blue hour, polished skin detail, premium fashion styling, and refined reflections.",
+      "useCases": [
+        "Campanhas premium de retrato e beauty",
+        "Editoriais fashion com atmosfera mais forte",
+        "Frames conceituais de luxo com iluminação mais rica"
+      ]
+    },
+    {
+      "modeLabel": "Editar imagem",
+      "title": "Cena 02 · Edição de imagem guiada por referências",
+      "description": "Leve o Wan 2.7 para image editing quando você precisar preservar a identidade do sujeito, guiar a composição por referências e empurrar stills para um acabamento mais cinematográfico.",
+      "spotlight": "Ideal para retoque editorial, restyling de imagem e upgrades de atmosfera em assets já existentes.",
+      "starterPrompt": "Keep the original subject and framing, deepen the night-time cinematic mood, improve reflections and skin detail, and elevate the image into a premium editorial still.",
+      "useCases": [
+        "Stills fashion com direção de luz mais forte",
+        "Edições beauty que preservam a identidade do sujeito",
+        "Refino de cena e clima guiado por referência"
+      ]
+    },
+    {
+      "modeLabel": "Editar imagem Pro",
+      "title": "Cena 03 · Image edit com alto controle",
+      "description": "Use o caminho de edição pro quando o trabalho exigir controle visual mais rígido, direção de arte mais pesada e refinamento mais deliberado sobre múltiplas referências.",
+      "spotlight": "Ideal para polishing premium de campanha, controle de edição mais rigoroso e refinamento de imagem com maior fidelidade.",
+      "starterPrompt": "Using the uploaded references, refine the frame into a premium campaign visual with tighter contrast control, richer atmosphere, and a cleaner luxury finish.",
+      "useCases": [
+        "Refinamentos de produto ou retrato prontos para campanha",
+        "Passagens de direção de arte mais pesadas guiadas por referência",
+        "Stills polidas para visuais premium de lançamento"
+      ]
+    },
+    {
+      "modeLabel": "Texto para vídeo",
+      "title": "Cena 04 · Storytelling fashion orientado a motion",
+      "description": "Entre na geração de vídeo do Wan 2.7 quando a ideia pedir movimento de câmera, continuidade de clima e uma narrativa beauty ou fashion mais fílmica.",
+      "spotlight": "Ideal para clipes cinematográficos curtos, loops de campanha e takes premium focados no modelo.",
+      "starterPrompt": "Create a short luxury fashion-film clip of a model stepping out of a taxi at night, wet reflections, slow camera push, premium beauty close-up.",
+      "useCases": [
+        "Clipes motion em estilo beauty-film",
+        "Sequências curtas de campanha fashion",
+        "Conceitos motion editoriais de luxo"
+      ]
+    },
+    {
+      "modeLabel": "Imagem para vídeo",
+      "title": "Cena 05 · Continuação de still para motion",
+      "description": "Transforme um frame estático forte em motion quando você quiser preservar a composição original, mas introduzir movimento sutil de câmera, movimento ambiente e continuidade cinematográfica.",
+      "spotlight": "Ideal para animar key visuals, frames de pôster e stills editoriais em loops motion curtos.",
+      "starterPrompt": "Animate the uploaded key visual into a short cinematic clip with subtle wind, reflective light movement, and a slow editorial camera drift.",
+      "useCases": [
+        "Animar frames de pôster em promo clips curtos",
+        "Levar stills beauty para um motion cinematográfico sutil",
+        "Testar direção de motion a partir de um key visual aprovado"
+      ]
+    },
+    {
+      "modeLabel": "Estender vídeo",
+      "title": "Cena 06 · Extensão de sequência",
+      "description": "Estenda um clipe existente do Wan 2.7 quando o conceito já estiver funcionando e você precisar de mais duração, continuidade narrativa mais suave ou um beat extra antes do corte.",
+      "spotlight": "Ideal para estender clipes aprovados, construir loops mais longos e manter a mesma linguagem de movimento ao longo de uma sequência.",
+      "starterPrompt": "Extend the uploaded clip by continuing the same cinematic mood, camera language, and subject motion without breaking continuity.",
+      "useCases": [
+        "Estender clipes curtos em loops de campanha mais completos",
+        "Adicionar um beat extra a takes aprovados de fashion-film",
+        "Preservar a linguagem de movimento em uma sequência mais longa"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

@@ -1,0 +1,132 @@
+{
+  "source": "https://app.zencreator.pro/tools/generator-by-ref",
+  "api": "https://api.zencreator.pro/api/v1/tools/templates?tool_name=by_ref&page_size=12&public=true&sort_by=new_first_popularity&website_only=false",
+  "collected_at": "2026-05-02T15:40:42.370Z",
+  "total_templates": 31,
+  "templates": [
+    {
+      "TemplateName": "Late Night Car Moment",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "In dress",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Cozy Selfie Moment",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Playful Outdoor Pose",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Two-Tone Hair Style",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Stylish Plaid Look",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Mirror Selfie in Black Dress",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Leopard Print Chic",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Relaxed Park Look",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Chic Office Look",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Relaxed Home Vibes",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Casual Stairway Moment",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Elegant Black Dress",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Two-Tone Elegance",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "General - Keep Pose Off",
+      "prompt": "Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them."
+    },
+    {
+      "TemplateName": "Blue bodycon",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Wearing black dress",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Sparkling dress",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Rainbow chill",
+      "prompt": ""
+    },
+    {
+      "TemplateName": "Underwater neon glow",
+      "prompt": "make the tits larger"
+    },
+    {
+      "TemplateName": "Product cart fun",
+      "prompt": "Keep the main pose, theme, and color palette of the photo. Replace the face."
+    },
+    {
+      "TemplateName": "Corset bubble elegance",
+      "prompt": "make the tits larger"
+    },
+    {
+      "TemplateName": "Laundry-lunch",
+      "prompt": "Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them."
+    },
+    {
+      "TemplateName": "Gray style suit",
+      "prompt": "Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them."
+    },
+    {
+      "TemplateName": "Mirror my mirror",
+      "prompt": "Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them."
+    },
+    {
+      "TemplateName": "Blond with blade",
+      "prompt": "Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them."
+    },
+    {
+      "TemplateName": "Crosswalk unicorn",
+      "prompt": "Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them."
+    },
+    {
+      "TemplateName": "Queen of fire",
+      "prompt": "Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them."
+    },
+    {
+      "TemplateName": "Crown yourself",
+      "prompt": "Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them."
+    },
+    {
+      "TemplateName": "Green jacket, leather pants",
+      "prompt": "Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them."
+    },
+    {
+      "TemplateName": "Broken mirror portrait",
+      "prompt": "Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them."
+    }
+  ]
+}

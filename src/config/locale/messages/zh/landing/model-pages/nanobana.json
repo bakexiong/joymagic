@@ -1,0 +1,88 @@
+{
+  "title": "Nano Banana",
+  "provider": "Google",
+  "eyebrow": "按模型组织的落地页",
+  "description": "从 Nano Banana 出发，再展开到它最适合承接的工作流：引导式图像编辑、快速概念生成，以及与 creator 完全一致的工作台迭代体验。",
+  "seoTitle": "Nano Banana 模型页 | 图像编辑 + 文生图 | joymagic",
+  "seoDescription": "以模型维度浏览 Nano Banana。支持切换场景，复用 creator 工作台，并在同一页中完成图像编辑与文生图创作。",
+  "stats": [
+    {
+      "label": "主打模式",
+      "value": "图像编辑"
+    },
+    {
+      "label": "扩展场景",
+      "value": "2 个可用工作流"
+    },
+    {
+      "label": "右侧面板",
+      "value": "与 creator 一致"
+    }
+  ],
+  "differentiators": [
+    "先讲模型，再展开场景，让广告或 SEO 流量落到更聚焦的价值主张上。",
+    "直接复用现有 creator 表单 schema 和右侧媒体面板，确保产品行为一致。",
+    "后续新增更多模型页时，只需要补一份配置数据，不必再复制整页代码。"
+  ],
+  "gallery": [
+    {
+      "title": "产品重塑",
+      "caption": "把普通电商白底图，快速改造成更像发布会主视觉的高级产品图。",
+      "prompt": "Transform the uploaded bottle shot into a luxury skincare ad with brushed metal reflections, soft fog, and a champagne gold palette.",
+      "accentClassName": "from-[#f4d38f] via-[#8b6b2b] to-[#161616] text-white"
+    },
+    {
+      "title": "角色焕新",
+      "caption": "在保留角色身份特征的前提下，连续调整姿态、风格和光线。",
+      "prompt": "Keep the same character and facial identity, switch to magazine portrait lighting, soft pink hair, and a collectible-figure styling.",
+      "accentClassName": "from-[#b78cff] via-[#5c38a5] to-[#151515] text-white"
+    },
+    {
+      "title": "纯提示词概念稿",
+      "caption": "先用同一模型做概念探索，再进入后续编辑、精修或放大流程。",
+      "prompt": "Generate a futuristic dessert cafe interior with chrome counters, creamy daylight, and playful signage rendered in clear readable type.",
+      "accentClassName": "from-[#7ee7f2] via-[#167f8c] to-[#131313] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "为什么要用 /model/nanobana，而不是通用工具页？",
+      "answer": "这类页面是为“先认模型、再选场景”的流量设计的。它不会先让用户挑工具分类，而是先聚焦 Nano Banana，再展开它最适合承接的工作流。"
+    },
+    {
+      "question": "这个页面的右侧结果面板会和 creator 不一样吗？",
+      "answer": "不会。这里直接复用 creator 的右侧媒体面板，所以作品、模板、场景切换和使用习惯都保持一致。"
+    },
+    {
+      "question": "这个模板以后可以复用到更多模型吗？",
+      "answer": "可以。当前页面是注册表驱动的，后续新增 /model/[slug] 基本只需要补数据和少量模型文案。"
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "图像编辑",
+      "title": "场景 01 · 引导式图像编辑",
+      "description": "把 Nano Banana 作为默认编辑工作面，用于精修、风格迁移、产品优化，以及保持主体身份一致的连续改图。",
+      "spotlight": "适合已有素材、但还需要更快二次加工的场景。",
+      "starterPrompt": "Keep the original composition, clean the background, upgrade the lighting to a cinematic studio look, and preserve all brand details.",
+      "useCases": [
+        "商品图清理与高级重塑",
+        "UGC 素材转广告主视觉",
+        "角色或 IP 的安全风格变体"
+      ]
+    },
+    {
+      "modeLabel": "文生图",
+      "title": "场景 02 · 从提示词开始的概念生成",
+      "description": "在同一模型下直接进入零到一图像生成，适合概念草图、活动视觉方向探索和新风格尝试。",
+      "spotlight": "适合先产出方向，再决定后续要不要继续精修或放大。",
+      "starterPrompt": "Create a polished campaign key visual for a summer drink launch, bright afternoon backlight, citrus tones, bold readable headline typography.",
+      "useCases": [
+        "活动视觉和广告 moodboard",
+        "社媒配图和海报草稿",
+        "包装、标识和含文字的版式探索"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

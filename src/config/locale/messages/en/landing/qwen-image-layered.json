@@ -1,0 +1,352 @@
+{
+  "qwenImageLayered": {
+    "steps": {
+      "image": {
+        "title": "Image*",
+        "hint": "Hint: You can drag and drop a file or click to upload",
+        "dragDrop": "Drag & drop or click to upload",
+        "dropHere": "Drop image here",
+        "urlPlaceholder": "Or enter image URL",
+        "urlEntered": "URL entered"
+      },
+      "numLayers": {
+        "title": "Num Layers",
+        "hint": "Number of layers to decompose (1-8)"
+      },
+      "generate": {
+        "title": "Generate",
+        "cta": "Generate",
+        "generating": "Generating..."
+      }
+    },
+    "preview": {
+      "title": "Preview",
+      "original": "Original",
+      "swap": "Swap",
+      "placeholder": "Upload an image to see the layered decomposition here.",
+      "layers": "Layers",
+      "noLayers": "No layers generated yet",
+      "downloadAll": "Download All"
+    },
+    "common": {
+      "selected": "Selected: {name}",
+      "notSelected": "Not selected",
+      "clear": "Clear"
+    },
+    "errors": {
+      "invalidFileType": "Invalid file type. Please upload an image file (JPG, PNG, WEBP).",
+      "uploadFailed": "Upload failed: {error}",
+      "uploadFailedGeneric": "Upload failed",
+      "imageRequired": "Please upload an image or enter an image URL",
+      "generationFailed": "Image generation failed",
+      "taskFailed": "Task processing failed",
+      "taskTimeout": "Task processing timeout, please try again later",
+      "taskIdNotFound": "Unable to get task ID, please check API response format",
+      "processingFailed": "Processing failed, please try again",
+      "statusQueryFailed": "Failed to query task status",
+      "apiResponseParseFailed": "Failed to parse API response"
+    }
+  },
+  "qwenImageLayeredPage": {
+    "metadata": {
+      "title": "AI Image Layer Decomposition Tool | RGBA Layers | joymagic",
+      "description": "AI-powered tool to decompose images into editable RGBA layers. Automatic semantic separation with alpha channels for seamless photo editing and design."
+    },
+    "hero": {
+      "title": "AI Image Layered Decomposition",
+      "description": "Automatically decompose any image into editable RGBA layers with joymagic's AI layered tool. Perfect semantic separation – clean alpha channels, soft edges, and correct occlusion order.",
+      "button1": "Decompose into Layers Now",
+      "button2": "Start free · No credit card"
+    },
+    "heroDescription": "✓ HD Download ✓ No watermark ✓ Multiple layers",
+    "whatIs": {
+      "title": "What is AI Image Layered Decomposition?",
+      "description": "joymagic's AI Image Layered tool, powered by advanced Qwen-Image-Layered technology, automatically analyzes a single image and decomposes it into multiple semantically independent RGBA layers (red, green, blue + alpha transparency).",
+      "paragraph1": "Unlike traditional segmentation that only gives masks, our AI:",
+      "points": [
+        "Understands depth, occlusion, and scene structure",
+        "Generates clean, soft-edged alpha channels for each layer",
+        "Preserves correct layering order (foreground to background)",
+        "Outputs ready-to-use compositing layers"
+      ],
+      "paragraph2": "Ideal for designers, illustrators, game developers, photo editors, and anyone who needs non-destructive, layer-based control over complex images."
+    },
+    "howTo": {
+      "title": "How to Decompose an Image into Layers",
+      "description": "Create editable layered compositions with our AI layered decomposition tool in just a few simple steps:",
+      "step1": {
+        "title": "Upload your image",
+        "description": "Drag and drop or select your photo or artwork.<br/>Supports JPG, JPEG, PNG, WEBP formats.<br/><br/><strong>Works with photos, AI-generated art, illustrations, and scenes</strong>"
+      },
+      "step2": {
+        "title": "Set decomposition options",
+        "description": "Customize the output:<br/><br/><strong>Number of layers:</strong> Choose from 2 to 8 layers (default: 4)<br/><strong>Optional prompt:</strong> Add guidance like \"separate person, furniture, background\" for more precise control"
+      },
+      "step3": {
+        "title": "Generate layers",
+        "description": "Click Decompose – our AI instantly analyzes and splits the image into layered RGBA outputs.<br/><br/><strong>Real-time preview of each layer</strong>"
+      },
+      "step4": {
+        "title": "Preview and download",
+        "description": "View individual layers with transparency.<br/><br/><strong>Download as separate PNG files (with alpha)</strong><br/><strong>Or get a layered PSD file (coming soon)</strong><br/><strong>HD quality, ready for Photoshop, Procreate, or any editor</strong>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Professional-grade AI layered decomposition with intelligent semantic separation.",
+      "semantic": {
+        "title": "Semantic Layer Separation",
+        "description": "Intelligent decomposition into meaningful objects and regions – people, furniture, sky, foreground, background, and more."
+      },
+      "alpha": {
+        "title": "Clean Alpha Channels & Soft Edges",
+        "description": "Professional-grade transparency with feathered, natural edges – no hard cutouts or halos."
+      },
+      "occlusion": {
+        "title": "Correct Occlusion Order",
+        "description": "Layers automatically sorted from front to back for seamless recomposition."
+      },
+      "adjustable": {
+        "title": "Adjustable Layer Count",
+        "description": "Control depth: 2–8 layers depending on image complexity and your needs."
+      },
+      "prompt": {
+        "title": "Prompt-Guided Control",
+        "description": "Optional text prompt to focus separation on specific elements or regions."
+      },
+      "quality": {
+        "title": "High-Quality Layered Output",
+        "description": "Download individual transparent PNGs or prepare for advanced editing – full HD with preserved details."
+      }
+    },
+    "useCases": {
+      "title": "What You Can Do With joymagic AI Layered Decomposition",
+      "description": "Unlock infinite layered possibilities from a single image.",
+      "editing": {
+        "title": "Non-Destructive Photo Editing",
+        "description": "Isolate and edit individual elements (person, objects, background) without affecting the rest."
+      },
+      "compositing": {
+        "title": "Advanced Compositing",
+        "description": "Rearrange, recolor, or replace layers to create new scenes from a single source image."
+      },
+      "gameAssets": {
+        "title": "Game & UI Asset Creation",
+        "description": "Extract clean sprites, characters, or environmental layers from concept art or photos."
+      },
+      "illustration": {
+        "title": "Illustration & Digital Art Workflow",
+        "description": "Turn flat images into fully layered projects for further painting or animation."
+      },
+      "sceneReconstruction": {
+        "title": "Scene Reconstruction & Remixing",
+        "description": "Swap backgrounds, move objects, or build variations by manipulating separated layers."
+      },
+      "tagline": "One image, infinite layered possibilities."
+    },
+    "faq": {
+      "title": "AI Image Layered Decomposition FAQs",
+      "description": "Everything you need to know about our AI layered decomposition tool.",
+      "q1": {
+        "question": "What image formats are supported?",
+        "answer": "We support JPG, JPEG, PNG, and WEBP. Best results with clear, high-resolution images."
+      },
+      "q2": {
+        "question": "How many layers can I generate?",
+        "answer": "You can select from 2 to 8 layers. More layers provide finer separation on complex scenes."
+      },
+      "q3": {
+        "question": "Will my layers have clean transparency?",
+        "answer": "Yes. Each layer includes a professional soft-edged alpha channel for natural blending."
+      },
+      "q4": {
+        "question": "Can I guide the decomposition with text?",
+        "answer": "Yes – add an optional prompt to prioritize certain objects or regions (e.g., \"focus on person and table\")."
+      },
+      "q5": {
+        "question": "What output formats are available?",
+        "answer": "Each layer is downloaded as a separate transparent PNG. Layered PSD export coming soon."
+      },
+      "q6": {
+        "question": "Is my data safe?",
+        "answer": "Yes. Uploaded images are processed securely and automatically deleted after processing. We never use your images for training."
+      },
+      "q7": {
+        "question": "Does it work on AI-generated or illustrated images?",
+        "answer": "Yes – excellent results on both photographic and artistic styles, including AI art."
+      }
+    },
+    "privacy": {
+      "title": "Privacy & Security",
+      "description": "Your images and privacy are our priority.",
+      "points": [
+        "All uploads are processed securely and encrypted",
+        "Images are automatically deleted after processing",
+        "Never shared with third parties or used for AI training"
+      ]
+    },
+    "finalCTA": {
+      "title": "Turn any image into fully editable, professional layers.",
+      "description": "Try joymagic's AI Layered Decomposition now and unlock true compositing control in seconds.",
+      "button": "Decompose into Layers Now",
+      "helperText": "No sign-up needed · Free to start · Watermark-free downloads"
+    }
+  },
+  "metadata": {
+    "title": "qwen image layered - layered RGBA image decomposition and editing model",
+    "description": "qwen image layered is an open-source diffusion model that decomposes a single RGB image into editable RGBA layers for precise image editing and compositing.",
+    "keywords": "qwen image layered, Qwen-Image-Layered, RGBA layers, layer decomposition, image editing, diffusion model"
+  },
+  "hero": {
+    "kicker": "Layered AI image decomposition demo",
+    "h1": "Qwen Image Layered",
+    "description": "qwen image layered is an open-source diffusion model that decomposes a single RGB image into editable RGBA layers for precise image editing and compositing.",
+    "iframe_title": "Qwen Image Layered demo"
+  },
+  "sections": {
+    "what_is": {
+      "h2": "What is Qwen-Image-Layered?",
+      "paragraphs": [
+        "Qwen-Image-Layered is a newly released AI model from the Qwen team at Alibaba. It decomposes a single RGB image into multiple semantically disentangled RGBA layers, enabling inherent editability without extra masking or manual cutouts.",
+        "Each layer isolates an element like an object, background, or text, so it can be resized, repositioned, recolored, removed, or replaced without affecting other layers. The model supports variable numbers of layers (typically 3-10, with common options like 3 or 8) and even recursive decomposition so one layer can be split into sub-layers for finer control."
+      ]
+    },
+    "how_it_works": {
+      "h2": "How it works",
+      "items": [
+        {
+          "label": "Input",
+          "description": "Provide an image and optionally a prompt to guide the decomposition, such as the layer count or structure."
+        },
+        {
+          "label": "Output",
+          "description": "A set of RGBA layers (RGB plus alpha transparency) that can be composited back into the original image."
+        },
+        {
+          "label": "Editing",
+          "description": "High-fidelity edits like recoloring an object, swapping a subject, revising text, or moving elements while preserving consistency."
+        }
+      ],
+      "note": "The system is an end-to-end diffusion model trained for layered representations, moving beyond flat pixels to a structured, editable format."
+    },
+    "features": {
+      "h2": "Key features and benefits",
+      "items": [
+        {
+          "title": "Inherent editability",
+          "description": "Physically isolated layers enable clean edits without artifacts or extra masking tools."
+        },
+        {
+          "title": "Flexible structure",
+          "description": "Prompt-controlled layer layouts support design, content creation, and AI-assisted editing."
+        },
+        {
+          "title": "Open-source",
+          "description": "Fully available for free use, including commercial applications."
+        },
+        {
+          "title": "Applications",
+          "description": "Ideal for graphic design, content generation, and advanced image manipulation in tools like ComfyUI."
+        }
+      ]
+    },
+    "resources": {
+      "h2": "Availability and resources",
+      "items": [
+        {
+          "title": "Hugging Face",
+          "description": "Model weights and a demo space for quick testing."
+        },
+        {
+          "title": "GitHub",
+          "description": "Code repository for implementation details."
+        },
+        {
+          "title": "ModelScope",
+          "description": "Additional hosting for the model."
+        },
+        {
+          "title": "arXiv paper",
+          "description": "Qwen-Image-Layered: Towards Inherent Editability via Layer Decomposition."
+        },
+        {
+          "title": "YouTube demo",
+          "description": "Overview video showcasing layered generation."
+        }
+      ],
+      "note": "For quick experiments, start with the Hugging Face demo embedded above."
+    },
+    "problem": {
+      "h2": "Problem statement",
+      "description": "Recent visual generative models struggle with consistency during image editing because raster images entangle all visual content into a single canvas, leading to semantic drift and geometric misalignment in editing methods. Qwen-Image-Layered addresses this by decomposing images into semantically disentangled RGBA layers, allowing independent manipulation of each layer without affecting others."
+    },
+    "method": {
+      "h2": "Proposed method",
+      "paragraphs": [
+        "Qwen-Image-Layered is an end-to-end diffusion model that takes a single RGB image I in R^(H x W x 3) and decomposes it into N RGBA layers L in R^(N x H x W x 4). Layers are reconstructed via sequential alpha blending:",
+        "The model supports variable-length decomposition (up to 20 layers) through an RGBA-VAE for shared latent spaces, a VLD-MMDiT architecture for layer prediction, and a multi-stage training strategy. A custom data pipeline processes Photoshop documents (PSD) to create multilayer training data."
+      ],
+      "formula": [
+        "C_0 = 0",
+        "C_i = alpha_i * RGB_i + (1 - alpha_i) * C_{i-1}",
+        "I = C_N"
+      ]
+    },
+    "architecture": {
+      "h2": "Model architecture",
+      "cards": [
+        {
+          "title": "RGBA-VAE",
+          "description": "This variational autoencoder handles both RGB and RGBA inputs in a unified latent space to minimize distribution gaps. The encoder and decoder extend from 3 to 4 channels with alpha initialized to preserve RGB reconstruction. Training uses reconstruction, perceptual, and regularization losses, and layers are encoded independently without cross-layer interactions."
+        },
+        {
+          "title": "VLD-MMDiT",
+          "description": "The Variable Layers Decomposition MMDiT uses flow matching with rectified flow. It encodes input RGB latents and predicts target layer latents, incorporates text prompts via Qwen2.5-VL, and applies Layer3D RoPE for variable-length layers. Visual sequences and text are concatenated for intra- and inter-layer attention."
+        }
+      ]
+    },
+    "innovations": {
+      "h2": "Key innovations",
+      "items": [
+        "Unified latent space via RGBA-VAE, unlike prior separate VAEs that introduce gaps.",
+        "Layer-wise attention in VLD-MMDiT with Layer3D RoPE for variable-length support and multi-task compatibility.",
+        "Multi-stage training to progressively adapt pretrained models and avoid direct finetuning issues.",
+        "PSD-based data pipeline using psd-tools to extract layers, filter anomalies, merge non-overlapping elements, and generate captions with Qwen2.5-VL."
+      ]
+    },
+    "training": {
+      "h2": "Training details",
+      "description": "Training uses a multi-stage approach on custom multilayer datasets derived from PSD files and internal data, totaling 1.3M steps with Adam at a 1e-5 learning rate. Stages include text-to-RGB/RGBA, text-to-multi-RGBA, and image-to-multi-RGBA for decomposition. The objective is flow matching loss on predicted velocity. Built on Qwen-Image, supporting up to 20 layers."
+    },
+    "experiments": {
+      "h2": "Experiments",
+      "items": [
+        "Decomposition evaluated on the Crello dataset for image-to-multi-RGBA (I2L), including open-domain and text-heavy images.",
+        "Editing demonstrates recoloring, repositioning, resizing, removal, and revision.",
+        "Synthesis compares text-to-multi-RGBA (T2L) against raster generation followed by decomposition.",
+        "Reconstruction tested on the AIM-500 dataset."
+      ]
+    },
+    "metrics": {
+      "h2": "Evaluation metrics",
+      "items": [
+        "Decomposition on Crello uses RGB L1 distance (weighted by ground-truth alpha, lower is better) and Alpha soft IoU (higher is better) with order-aware DTW alignment and layer merging.",
+        "Reconstruction on AIM-500 uses PSNR, SSIM, rFID, and LPIPS on blended RGBA images over backgrounds."
+      ]
+    },
+    "results": {
+      "h2": "Results",
+      "paragraphs": [
+        "Quantitative results show Qwen-Image-Layered-I2L reaching RGB L1 = 0.0363 and Alpha soft IoU = 0.9160 on Crello (merge = 5), outperforming LayerD and VLM+Hi-SAM. Ablations without Layer3D RoPE, RGBA-VAE, or multi-stage training drop sharply.",
+        "RGBA-VAE reconstruction scores include PSNR 38.8252, SSIM 0.9802, rFID 5.3132, and LPIPS 0.0123, outperforming LayerDiffuse and AlphaVAE. Qualitatively, the model produces clean layer decomposition without artifacts and consistent edits."
+      ]
+    },
+    "community": {
+      "h2": "Community reactions and performance notes",
+      "paragraphs": [
+        "Community reactions on X highlight its potential for ComfyUI and Google Colab workflows. Some note it can be computationally intensive (8-10 minutes on high-end GPUs like RTX 5090) and compare it to faster alternatives such as SAM3 for similar tasks.",
+        "It has been praised for advancing editable AI images, with users experimenting on manga panels, product designs, and layered text edits. If you are looking to try it, start with the Hugging Face demo."
+      ]
+    }
+  }
+}

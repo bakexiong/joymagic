@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "title": "Wan 2.6 – 圖生影片 & 文生圖 API | joymagic",
+    "description": "喺 joymagic 使用 Wan 2.6 圖生影片同文生圖能力，以更清晰畫質、更快生成同簡單計費，打造可用於生產嘅工作流。",
+    "keywords": "Wan 2.6, Wan 2.6 圖生影片, Wan 2.6 I2V, Wan 2.6 文生圖, Wan 2.6 API, Wan 2.6 價格"
+  },
+  "hero": {
+    "kicker": "一個模型，多種模態 — 來自 {brand}",
+    "h1": "Wan 2.6 圖生影片同文生圖 API",
+    "description": "用 Wan 2.6 將提示詞或參考圖生成高質素影像同影片，可透過 Web UI 或 API 使用。",
+    "trust": [
+      "HD 輸出",
+      "快速生成",
+      "面向生產"
+    ],
+    "pricing_from": "價格由",
+    "pricing_link": "$5",
+    "pricing_suffix": "（500 點數）"
+  },
+  "sections": {
+    "what_is": {
+      "h2": "咩係 Wan 2.6？",
+      "paragraphs": [
+        "Wan 2.6 係一個多模態生成模型家族（Wan 2.6 model），可用於文生圖（text-to-image）同圖生影片（image-to-video）等任務。",
+        "佢可以將提示詞同參考圖變成可用於生產嘅視覺素材，支援由概念探索到營銷素材同持續迭代嘅流程。",
+        "joymagic 提供獨立整合層，透過 Web UI 同（啟用時的）API，令你由試驗更順暢走向自動化。"
+      ]
+    },
+    "creations": {
+      "h2": "Wan 2.6 可以創作咩？",
+      "cards": {
+        "t2i": {
+          "h3": "Wan 2.6 文生圖（T2I）",
+          "p": "用提示詞生成圖片，適合產品概念、插畫同營銷創意；可快速試風格、構圖同比例。"
+        },
+        "editing": {
+          "h3": "Wan 2.6 圖像生成 / 圖像編輯",
+          "p": "生成變體、做風格化同逐步精修；用一致提示詞框架更快收斂到最終效果。"
+        },
+        "i2v": {
+          "h3": "Wan 2.6 圖生影片（I2V）",
+          "p": "將單張圖片變成短片；用提示詞引導動作，保持關鍵元素一致，並用變體迭代到想要嘅質感。"
+        }
+      },
+      "links": {
+        "prefix": "相關工具可睇",
+        "i2v": "圖生影片",
+        "and": "以及",
+        "t2i": "文生圖",
+        "suffix": "（{brand}）。"
+      }
+    },
+    "i2v": {
+      "h2": "Wan 2.6 圖生影片（I2V）",
+      "p": "針對廣告、產品短片等高意圖場景，Wan 2.6 圖生影片（I2V）由輸入圖片出發，按提示詞生成有動態嘅短序列。可因應可用能力調整時長（duration）、選 HD 預設，並用動作提示詞（motion prompt）控制動態；如端點支援 1080p 等更高預設，會顯示為選項。",
+      "cards": {
+        "inputs": {
+          "h3": "支援輸入",
+          "p": "提供參考圖 + 描述場景同動作嘅提示詞。主體清楚、背景乾淨通常更穩定。"
+        },
+        "controls": {
+          "h3": "輸出控制",
+          "p": "喺可用時調整解析度預設同時長；用鏡頭運動、主體動作同氛圍描述，令結果更可重現。"
+        },
+        "use_cases": {
+          "h3": "常見用途",
+          "p": "產品片、社媒廣告、B-roll 風格動態、創意鏡頭同快速分鏡，適合大量變體迭代。"
+        }
+      }
+    },
+    "how_to": {
+      "h2": "點樣用 Wan 2.6",
+      "steps": {
+        "1": {
+          "h3": "1. 揀模式（T2I 或 I2V）",
+          "p": "要靜態圖揀文生圖；想由參考圖生成動態就揀圖生影片。"
+        },
+        "2": {
+          "h3": "2. 入提示詞（需要時加參考圖）",
+          "p": "描述主體、風格同情境；I2V 可加入「慢推」「微風」等動作引導。"
+        },
+        "3": {
+          "h3": "3. 設定輸出（解析度、時長、比例）",
+          "p": "按渠道揀預設（社媒/網頁/廣告）；保持參數一致方便重現同批量化。"
+        },
+        "4": {
+          "h3": "4. 生成同檢視",
+          "p": "先快速出一版，再檢查主體一致性、動態質素同構圖。"
+        },
+        "5": {
+          "h3": "5. 用變體迭代",
+          "p": "細改提示詞對比效果，保留最佳輸出作下一輪參考。"
+        },
+        "6": {
+          "h3": "6. 匯出 / 下載 / 用 API 整合",
+          "p": "下載素材入你嘅流程，或用 API 做批量生成同自動化整合。"
+        }
+      }
+    },
+    "api": {
+      "h2": "Wan 2.6 API",
+      "p": "用 REST/JSON 方式做生產級整合。認證通常用 API Key，可將生成能力接到現有產品流程，用於批量任務、模板同團隊工具。",
+      "links": {
+        "docs_label": "文件：",
+        "keys_label": "API Key：",
+        "keys_suffix": "（需登入）"
+      },
+      "example": {
+        "h3": "請求示例（示意）",
+        "p": "只作占位參考，實際端點、參數同回應格式以文件為準。"
+      }
+    },
+    "pricing": {
+      "h2": "Wan 2.6 價格",
+      "p_before": "以點數（credits）計費，按任務消耗不同。以下為常見起步，最新資訊請睇",
+      "p_after": "頁面。",
+      "table": {
+        "task": "任務",
+        "unit": "單位",
+        "starting_from": "起步消耗"
+      },
+      "rows": {
+        "t2i": {
+          "task": "文生圖（T2I）",
+          "unit": "每張",
+          "start": "2 點數起"
+        },
+        "editing": {
+          "task": "圖像生成 / 編輯",
+          "unit": "每張",
+          "start": "4 點數起"
+        },
+        "i2v": {
+          "task": "圖生影片（I2V）",
+          "unit": "每次轉換",
+          "start": "250 點數起"
+        }
+      },
+      "note": "消耗可能因解析度、時長同供應方可用性而變動。joymagic 會喺生成前清楚顯示本次消耗。"
+    },
+    "quality": {
+      "h2": "質素、安全同使用權",
+      "p1": "輸出質素取決於模式同設定。影片方面可能提供更高預設（例如 HD；支援時包括 1080p）。乾淨參考圖同清楚動作提示一般會更好。",
+      "p2_before": "商用需遵守",
+      "terms_link": "服務條款",
+      "p2_after": "同適用法律；你要確保上載素材有相應權利。",
+      "p3_before": "joymagic 以內容政策限制禁止用途。詳情請見",
+      "moderation_link": "內容審核政策",
+      "p3_middle": "同",
+      "aup_link": "可接受使用政策",
+      "p3_after": "。"
+    }
+  },
+  "faq": {
+    "h2": "Wan 2.6 常見問題",
+    "items": [
+      {
+        "question": "Wan 2.6 用嚟做咩？",
+        "answer": "Wan 2.6 可用於文生圖同圖生影片等多模態生成流程。你可以用提示詞生成圖片、做變體同編輯，或者將參考圖變成短片。喺 joymagic 上，佢適合由原型探索到營銷素材同生產資產嘅端到端流程。"
+      },
+      {
+        "question": "Wan 2.6 適合圖生影片嗎？",
+        "answer": "當你想由靜態圖出發並用提示詞控制動態時，Wan 2.6 圖生影片（I2V）好合適。常見用途包括產品鏡頭、廣告創意、B-roll 風格短片同概念畫面；效果同參考圖質素同動作提示嘅具體程度有關。"
+      },
+      {
+        "question": "點寫 Wan 2.6 提示詞？",
+        "answer": "先講清主體，再加風格、光線同鏡頭。對 I2V，加入動作提示（例如「慢推」「微風」「向左平移」）同講明邊啲元素要保持穩定。細幅迭代通常更易得到理想結果。"
+      },
+      {
+        "question": "Wan 2.6 支援 1080p 嗎？",
+        "answer": "是否支援 1080p 取決於你用嘅 UI/API 端點同當前預設。支援會顯示為選項；冇嘅話可先用最高可用預設生成，再喺後製放大處理。以 joymagic 實際選項為準。"
+      },
+      {
+        "question": "Wan 2.6 點收費？",
+        "answer": "joymagic 用點數計費。常見起步為文生圖 2 點數/張、圖生影片 250 點數/次（實際會因模型、解析度同時長而變）。最新方案請睇價格頁。"
+      },
+      {
+        "question": "生成結果可以商用嗎？",
+        "answer": "一般可以，但要遵守服務條款同內容政策。你需要確保上載嘅圖片、商標同品牌素材有相應權利。如需嚴格合規，建議上線前先睇清相關條款同政策頁面。"
+      },
+      {
+        "question": "你哋有提供 Wan 2.6 API 嗎？",
+        "answer": "有。joymagic 為已支援工作流提供 API，方便整合到你嘅產品同管線。API 通常用 REST/JSON，並以控制台產生嘅 API Key 認證；具體端點同參數以文件為準。"
+      },
+      {
+        "question": "你哋同原始模型提供者有關聯嗎？",
+        "answer": "冇。joymagic 係獨立服務，並非 “Wan 2.6” 原始創作者嘅關係企業、受其背書或贊助。商標同模型名稱屬各自權利人。"
+      }
+    ]
+  },
+  "disclaimer": {
+    "h2": "免責聲明",
+    "p": "{brand} 係提供 AI 生成工作流嘅獨立服務。我哋同 “Wan 2.6” 原始創作者冇關聯、未受其背書或贊助。商標同模型名稱屬各自權利人。"
+  },
+  "wan26": {
+    "form": {
+      "prompt": {
+        "label": "提示詞",
+        "enhancer": "Prompt Enhancer",
+        "placeholder": "一個時尚的年輕男性藝術家正在陽光明媚的城市小巷中的磚牆上噴塗一幅色彩繽紛的花朵壁畫...",
+        "tooltip": "用於生成的正向提示詞。"
+      },
+      "negativePrompt": {
+        "label": "負面提示詞",
+        "placeholder": "請輸入負面提示詞",
+        "tooltip": "用於生成的負面提示詞。"
+      },
+      "audio": {
+        "label": "音訊",
+        "hint": "支援音訊檔案（MP3、WAV 等）",
+        "tooltip": "用於生成的音訊檔案 URL。",
+        "dragDrop": "拖拽或點擊上傳",
+        "dropHere": "將音訊檔案拖放到此處",
+        "record": "錄製音訊",
+        "recordDialog": {
+          "title": "錄製音訊",
+          "instruction": "使用您的麥克風錄製音訊。",
+          "noRecording": "尚未錄製。",
+          "hint": "您可以點擊下面的「開始錄製」按鈕進行錄製。",
+          "recording": "正在錄製...",
+          "startRecording": "開始錄製",
+          "stopRecording": "停止錄製",
+          "retake": "重新錄製",
+          "useAudio": "使用音訊",
+          "uploading": "上傳中..."
+        }
+      },
+      "size": {
+        "label": "尺寸"
+      },
+      "duration": {
+        "label": "時長"
+      },
+      "shotType": {
+        "label": "鏡頭類型",
+        "single": "單鏡頭",
+        "multiple": "多鏡頭"
+      },
+      "enablePromptExpansion": {
+        "label": "啟用提示詞擴展",
+        "description": "如果設置為 true，將啟用提示詞優化器。",
+        "tooltip": "啟用提示詞擴展以自動優化您的提示詞。"
+      },
+      "seed": {
+        "label": "種子"
+      },
+      "buttons": {
+        "reset": "重置",
+        "run": "生成",
+        "generating": "生成中..."
+      }
+    },
+    "preview": {
+      "placeholder": "輸入提示詞並點擊執行，這裡將顯示生成的影片。",
+      "costInfo": "您的請求每次執行將花費 {cost}。",
+      "oneMoreThing": "還有一件事：",
+      "actions": {
+        "addSound": "添加聲音",
+        "videoUpscaler": "影片放大",
+        "videoUpscalerPro": "影片放大 Pro",
+        "videoExtend": "影片延長"
+      }
+    },
+    "common": {
+      "selected": "已選擇：{name}",
+      "notSelected": "未選擇"
+    },
+    "status": {
+      "idle": "空閒",
+      "processing": "處理中",
+      "completed": "已完成"
+    },
+    "actions": {
+      "downloadVideo": "下載影片",
+      "downloadFailed": "下載影片失敗",
+      "playAudioFailed": "播放音訊失敗。請檢查您的瀏覽器設定。"
+    },
+    "errors": {
+      "promptRequired": "請輸入提示詞",
+      "generationFailed": "影片生成失敗",
+      "taskFailed": "任務處理失敗",
+      "taskTimeout": "任務處理超時，請稍後重試",
+      "taskIdNotFound": "無法取得任務 ID，請檢查 API 回應格式",
+      "processingFailed": "處理失敗，請重試",
+      "statusQueryFailed": "查詢任務狀態失敗",
+      "apiResponseParseFailed": "解析 API 回應失敗",
+      "invalidFileType": "無效的檔案類型。請上傳音訊檔案（MP3、WAV 等）。",
+      "uploadFailed": "上傳失敗：{error}",
+      "uploadFailedGeneric": "上傳失敗",
+      "recordingFailed": "開始錄製失敗。請檢查麥克風權限。"
+    }
+  },
+  "wan26Page": {
+    "metadata": {
+      "title": "Text to Video AI Generator (WAN-2.6) | Create Videos from Text – joymagic",
+      "description": "Transform text prompts into stunning videos with joymagic's text-to-video AI generator. Powered by WAN-2.6, create high-quality videos in seconds. HD outputs, fast generation, free to try."
+    },
+    "hero": {
+      "title": "Text to Video AI Generator – WAN-2.6",
+      "description": "Transform text prompts into stunning videos in seconds. No video editing skills needed.",
+      "button1": "Generate Video",
+      "button2": "Start free · No credit card"
+    },
+    "heroDescription": "Enter a text prompt and watch as AI transforms your words into a beautiful video. Perfect for content creators, marketers, and storytellers.",
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast generation",
+      "commercialReady": "Commercial-use ready"
+    },
+    "whatYouCanDo": {
+      "title": "What You Can Do With Text to Video",
+      "description": "Turn your ideas into motion with AI-powered video generation.",
+      "contentCreation": {
+        "title": "Content Creation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create engaging video content for social media</li><li>Generate video thumbnails and previews</li><li>Produce short-form video content quickly</li></ul>"
+      },
+      "marketing": {
+        "title": "Marketing & Advertising",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create promotional videos from text descriptions</li><li>Generate video ads and campaigns</li><li>Produce marketing content at scale</li></ul>"
+      },
+      "entertainment": {
+        "title": "Entertainment & Storytelling",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Bring stories to life with AI-generated videos</li><li>Create animated scenes from text</li><li>Produce creative video content</li></ul>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Everything you need to create videos from text with AI.",
+      "textToVideo": {
+        "title": "Text to Video Generation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Transform text prompts into high-quality videos</li><li>Support for various video durations and sizes</li><li>Advanced prompt optimization</li></ul>"
+      },
+      "highQuality": {
+        "title": "High-Quality Outputs",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>HD video outputs up to 1920x1080</li><li>Smooth motion and transitions</li><li>Professional-grade video quality</li></ul>"
+      },
+      "flexibleControl": {
+        "title": "Flexible Control",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Customize video size, duration, and shot type</li><li>Negative prompts for fine-tuning</li><li>Seed control for reproducible results</li></ul>"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "From text to video in four simple steps.",
+      "step1": {
+        "title": "Step 1 – Enter Your Prompt",
+        "description": "<p class=\"mb-3\">Describe the video you want to create. Be specific about the scene, characters, actions, and mood.</p>"
+      },
+      "step2": {
+        "title": "Step 2 – Configure Settings",
+        "description": "<p class=\"mb-3\">Choose video size, duration, shot type, and other parameters to match your needs.</p>"
+      },
+      "step3": {
+        "title": "Step 3 – Generate Video",
+        "description": "<p class=\"mb-3\">Click the generate button and let AI create your video. Processing typically takes a few minutes.</p>"
+      },
+      "step4": {
+        "title": "Step 4 – Download & Use",
+        "description": "<p class=\"mb-3\">Preview your video, download it, and use it in your projects immediately.</p>"
+      }
+    },
+    "faq": {
+      "title": "FAQs",
+      "description": "Common questions about text-to-video generation.",
+      "q1": {
+        "question": "How long does it take to generate a video?",
+        "answer": "Video generation typically takes 2-5 minutes depending on the duration and complexity of your prompt."
+      },
+      "q2": {
+        "question": "What video formats are supported?",
+        "answer": "We support standard video formats including MP4. Videos can be generated in various sizes from 720p to 1080p."
+      },
+      "q3": {
+        "question": "Can I use the generated videos commercially?",
+        "answer": "Yes, you can use the generated videos for commercial purposes. Please refer to our Terms of Service for complete details."
+      }
+    },
+    "finalCTA": {
+      "title": "Turn your text into stunning videos.",
+      "description": "Try the joymagic text-to-video AI generator and start creating videos in seconds.<br/><span class=\"text-muted-foreground\">No video editing skills needed · Free to try</span>",
+      "button": "Start generating videos"
+    }
+  }
+}

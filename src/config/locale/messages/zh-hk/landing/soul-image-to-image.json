@@ -1,0 +1,169 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "上傳源圖片",
+      "hint": "上傳一張圖片（JPG/PNG/WEBP）。",
+      "dragDrop": "拖放或點擊上傳",
+      "dropHere": "將圖片拖放到此處"
+    },
+    "prompt": {
+      "title": "提示詞與選項",
+      "placeholder": "描述您想要如何轉換圖片，例如：「強閃光、時間戳角落、原始質感」",
+      "hint": "請具體描述。下方可設置質量、尺寸、強度與風格。"
+    },
+    "options": {
+      "quality": "質量",
+      "size": "輸出尺寸",
+      "strength": "強度（0–1）",
+      "style": "風格"
+    },
+    "generate": {
+      "title": "生成",
+      "cta": "生成",
+      "generating": "生成中..."
+    }
+  },
+  "preview": {
+    "title": "預覽",
+    "placeholder": "上傳圖片、填寫提示詞並設置選項後，點擊生成即可在此查看結果。",
+    "downloadTitle": "下載圖片",
+    "altSource": "源圖片",
+    "altGenerated": "生成圖片",
+    "altEnlarged": "放大預覽"
+  },
+  "errors": {
+    "uploadFailed": "上傳失敗：{error}",
+    "uploadFailedGeneric": "上傳失敗",
+    "sourceImageRequired": "請上傳一張源圖片",
+    "promptRequired": "請輸入轉換提示詞",
+    "generationFailed": "圖片生成失敗",
+    "taskFailed": "任務處理失敗",
+    "taskTimeout": "任務處理超時，請稍後再試",
+    "taskIdNotFound": "無法獲取任務 ID，請檢查 API 響應格式",
+    "processingFailed": "處理失敗，請重試",
+    "statusQueryFailed": "查詢任務狀態失敗",
+    "apiResponseParseFailed": "解析 API 響應失敗",
+    "downloadFailed": "下載圖片失敗"
+  },
+  "page": {
+    "metadata": {
+      "title": "Soul 圖片轉換 - AI 圖片編輯 | joymagic",
+      "description": "使用 Soul 圖片轉換，上傳一張圖片並控制質量、尺寸、強度與風格。",
+      "keywords": "soul 圖片轉換, soul, 圖片編輯, ai 圖片編輯, 圖片轉換"
+    },
+    "hero": {
+      "title": "Soul 圖片轉換",
+      "description": "使用 Soul 轉換圖片。上傳一張圖片，並通過質量、尺寸、強度與風格進行控制。",
+      "button1": "立即試用",
+      "button2": "查看價格"
+    },
+    "keyFeatures": {
+      "title": "為什麼選擇 Soul 圖片轉換？",
+      "description": "強大的 Soul 圖片轉換能力",
+      "singleImage": {
+        "title": "單圖上傳",
+        "description": "上傳一張圖片，並可完整控制質量、尺寸、強度與風格。"
+      },
+      "highQuality": {
+        "title": "高質量輸出",
+        "description": "可選中等或高質量。多種輸出尺寸，從 960×1696 到 2048×1536。"
+      },
+      "styleFlexibility": {
+        "title": "風格與強度",
+        "description": "多種預設風格（Creatures、Spotlight、Y2K 等），強度 0–1 控制轉換程度。"
+      },
+      "affordable": {
+        "title": "實惠定價",
+        "description": "按次計費，每次轉換固定積分。"
+      }
+    },
+    "promptingTips": {
+      "title": "如何獲得最佳 Soul 圖片轉換效果",
+      "specific": {
+        "title": "描述具體",
+        "description": "準確描述您想要的轉換效果。例如：「強閃光、時間戳角落、原始質感」。"
+      },
+      "style": {
+        "title": "選擇風格",
+        "description": "選擇預設風格（如 Spotlight、Y2K、Medieval）或 General，默認為 Creatures。"
+      },
+      "strength": {
+        "title": "強度",
+        "description": "強度 0–1 控制轉換程度，數值越低保留原圖越多。"
+      },
+      "details": {
+        "title": "質量與尺寸",
+        "description": "選擇中等或高質量，並選擇適合的輸出尺寸。"
+      }
+    },
+    "useCases": {
+      "title": "Soul 圖片轉換應用場景",
+      "style": {
+        "title": "風格轉換",
+        "description": "將照片轉換為不同風格：Spotlight、Y2K、Medieval 等。"
+      },
+      "creative": {
+        "title": "創意項目",
+        "description": "在創意項目中嘗試不同質量、尺寸、強度與風格。"
+      },
+      "product": {
+        "title": "產品與社媒",
+        "description": "以可控的輸出尺寸與質量轉換產品圖或社媒圖片。"
+      },
+      "consistent": {
+        "title": "統一風格",
+        "description": "對多張圖片使用相同風格與強度，保持視覺一致。"
+      }
+    },
+    "faq": {
+      "title": "Soul 圖片轉換常見問題",
+      "description": "關於 Soul 圖片轉換的常見問題",
+      "q1": {
+        "question": "可以上傳幾張圖片？",
+        "answer": "Soul 每次處理一張圖片。上傳一張圖後，設置提示詞、質量、尺寸、強度與風格即可生成。"
+      },
+      "q2": {
+        "question": "如何計費？",
+        "answer": "每次轉換消耗固定積分，具體以生成按鈕顯示為準。"
+      },
+      "q3": {
+        "question": "支持哪些圖片格式？",
+        "answer": "支持 PNG、JPEG、JPG、WebP。建議使用清晰、光線良好的圖片以獲得最佳效果。"
+      },
+      "q4": {
+        "question": "提示詞應該多詳細？",
+        "answer": "建議包含主體、場景、光線、風格與氛圍，描述越詳細通常效果越好。"
+      },
+      "q5": {
+        "question": "強度是什麼？",
+        "answer": "強度（0.00–1.00）控制轉換程度。數值越低保留原圖越多；數值越高變化越大。"
+      }
+    },
+    "finalCTA": {
+      "title": "準備好轉換您的圖片了嗎？",
+      "description": "立即使用 Soul 開始轉換圖片。",
+      "button": "立即試用"
+    },
+    "breadcrumb": {
+      "home": "首頁",
+      "imageToImage": "圖生圖",
+      "soul": "Soul"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Soul 圖生圖",
+      "howToName": "如何使用 Soul 轉換圖片",
+      "howToDescription": "使用 Soul 圖生圖轉換圖片",
+      "howToSteps": [
+        { "name": "上傳圖片", "text": "上傳一張要轉換的圖片" },
+        { "name": "填寫提示詞與選項", "text": "設置提示詞、質量、尺寸、強度與風格" },
+        { "name": "生成", "text": "點擊生成以轉換圖片" },
+        { "name": "下載", "text": "下載轉換後的圖片" }
+      ],
+      "features": {
+        "aiImageEditing": "AI 圖片編輯",
+        "singleImage": "單圖完整控制",
+        "highQuality": "高質量輸出"
+      }
+    }
+  }
+}

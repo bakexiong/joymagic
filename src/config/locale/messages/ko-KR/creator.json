@@ -1,0 +1,336 @@
+{
+  "sidebar": {
+    "subtitle": "크리에이터 작업 공간",
+    "pinned": "고정됨",
+    "addTools": "도구 추가",
+    "allTools": "모든 도구",
+    "pin": {
+      "ariaPin": "고정: {label}",
+      "ariaUnpin": "고정 해제: {label}"
+    }
+  },
+  "tools": {
+    "untitled": "이름 없는 도구"
+  },
+  "model": {
+    "untitled": "이름 없는 모델",
+    "fallbackMonogram": "M"
+  },
+  "panels": {
+    "tools": {
+      "titleImage": "텍스트 → 이미지",
+      "titleVideo": "텍스트 → 비디오",
+      "empty": "작업 공간 도구가 여기에 표시됩니다.",
+      "formEmpty": "폼 내용이 여기에 표시됩니다."
+    },
+    "generated": {
+      "titleImages": "이번 생성 기록",
+      "titleVideos": "생성된 비디오"
+    }
+  },
+  "generated": {
+    "empty": "아직 생성한 항목이 없습니다."
+  },
+  "errors": {
+    "noWorkspace": "현재 선택에 사용할 수 있는 작업 공간이 없습니다."
+  },
+  "sceneBrowser": {
+    "title": "{category} 장면",
+    "subtitle": "워크플로를 선택해 생성을 시작하세요.",
+    "tabs": {
+      "creations": "생성물",
+      "collections": "컬렉션",
+      "templates": "템플릿"
+    }
+  },
+  "addToolsDialog": {
+    "title": "도구 추가",
+    "categories": {
+      "image": "이미지",
+      "video": "비디오"
+    }
+  },
+  "toolsDetailPage": {
+    "aliases": {
+      "photoshoot": "포토슈트",
+      "editorCombiner": "에디터 및 결합기",
+      "imageEffects": "이미지 효과",
+      "variations": "변형",
+      "videoEffects": "비디오 효과"
+    },
+    "workspace": {
+      "library": "라이브러리",
+      "uploads": "업로드",
+      "imageEyebrow": "AI 이미지 작업공간",
+      "videoEyebrow": "AI 비디오 작업공간",
+      "descriptionWithLibrary": "세련된 시작점을 선택하고, 결과가 어떻게 느껴질지 미리 보고, 보다 따뜻한 Mango 스타일 워크플로를 통해 바로 생성으로 넘어갑니다.",
+      "descriptionWithoutLibrary": "최근 출력을 검토하고, 컬렉션을 구성하고, 더욱 깔끔한 Mango 워크벤치 내부에 고급 워크플로우에 집중하세요.",
+      "emptyLibrary": "아직 현재 모델에 사용할 수 있는 템플릿 샘플이 없습니다."
+    },
+    "actions": {
+      "useTemplate": "템플릿 사용해 보기",
+      "templateFallback": "템플릿",
+      "startGenerating": "생성 시작",
+      "closeGeneratorPanel": "생성기 패널 닫기",
+      "switchInLibrary": "라이브러리에서 전환"
+    },
+    "marketing": {
+      "eyebrow": "효과 가이드",
+      "featureTitle": "{effectName}을 사용하는 이유는 무엇입니까?",
+      "stepsTitle": "{effectName} 사용 방법",
+      "faqTitle": "{effectName} 관련 FAQ",
+      "image": {
+        "title": "AI로 {effectName} 이미지 만들기",
+        "intro": "{effectName}을(를) 시작점으로 사용하세요. {sourceText}을(를) 업로드하고, 결과를 생성하고, 모양이 올바르다고 느껴질 때까지 주변 사전 설정을 비교하세요.",
+        "sourceCountOne": "참조 이미지 1개",
+        "sourceCountMany": "{count} 참조 이미지",
+        "features": {
+          "workflow": {
+            "title": "효과 우선 작업 흐름",
+            "description": "모든 것을 처음부터 다시 작성하는 대신 {effectName} 사전 설정부터 시작하세요."
+          },
+          "reference": {
+            "title": "참조 인식 결과",
+            "description": "선택한 {effectName} 디자인을 적용하면서 업로드의 주요 주제 단서를 유지하세요."
+          },
+          "iteration": {
+            "title": "빠른 반복에 더 좋음",
+            "description": "전체 프롬프트를 다시 작성하지 않고도 가까운 사전 설정을 사용하여 변형을 더 빠르게 탐색할 수 있습니다."
+          }
+        },
+        "steps": {
+          "pick": {
+            "title": "1. 효과를 선택하세요",
+            "description": "{libraryLabel} 탭에서 {effectName}을 선택하거나 생성하기 전에 {useTemplateLabel}로 사전 설정을 전환하세요."
+          },
+          "upload": {
+            "title": "2. 이미지 업로드",
+            "description": "{sourceText}을(를) 업로드하고 선택한 효과에 대해 피사체가 충분히 명확한지 확인하세요."
+          },
+          "generate": {
+            "title": "3. 생성 및 비교",
+            "description": "결과를 만든 다음 {libraryLabel}로 돌아가서 톤과 마무리가 적절하다고 느껴질 때까지 근처 사전 설정을 비교하세요."
+          }
+        },
+        "faq": {
+          "bestInput": {
+            "question": "{effectName}에 가장 적합한 이미지 종류는 무엇입니까?",
+            "answer": "가장 안정적인 결과를 얻으려면 명확한 제목과 읽기 쉬운 세부정보가 포함된 {sourceText}을(를) 사용하세요."
+          },
+          "switch": {
+            "question": "{effectName}에서 전환할 수 있나요?",
+            "answer": "예. {libraryLabel}을 열고 다른 사전 설정에서 {useTemplateLabel}을 클릭하여 작업 공간 미리보기와 현재 선택을 업데이트하세요."
+          },
+          "preset": {
+            "question": "일반 프롬프트 대신 사전 설정을 사용하는 이유는 무엇입니까?",
+            "answer": "사전 설정은 설정 시간을 줄이고 구성, 스타일 방향 및 출력 느낌을 더욱 일관되게 유지합니다."
+          }
+        }
+      },
+      "video": {
+        "title": "AI로 {effectName} 동영상 만들기",
+        "intro": "{effectName} 사전 설정에서 시작하여 미리보기 방향을 검토하고 더 명확한 모션 대상이 있는 짧은 클립을 생성합니다.",
+        "features": {
+          "motion": {
+            "title": "사전 설정된 모션 디자인",
+            "description": "{effectName}은(는) 미리 만들어진 모션 방향을 제공하므로 사용 가능한 결과에 더 빨리 도달할 수 있습니다."
+          },
+          "preview": {
+            "title": "더욱 명확한 시각적 기대",
+            "description": "작업 공간 미리 보기에는 크레딧을 사용하기 전에 선택한 효과 분위기가 미리 표시됩니다."
+          },
+          "exploration": {
+            "title": "빠른 효과 탐색",
+            "description": "여러 모션 아이디어를 빠르게 비교하려면 {useTemplateLabel}을(를) 사용하여 {libraryLabel}을(를) 이동하세요."
+          }
+        },
+        "steps": {
+          "pick": {
+            "title": "1. 프리셋을 선택하세요",
+            "description": "업로드하기 전에 {effectName}을(를) 선택한 상태로 유지하거나 {libraryLabel}에서 다른 효과로 전환하세요."
+          },
+          "upload": {
+            "title": "2. 깨끗한 이미지 업로드",
+            "description": "읽을 수 있는 프레임을 갖춘 명확한 소스 이미지를 사용하면 모션 결과를 더욱 효과적으로 제어할 수 있습니다."
+          },
+          "generate": {
+            "title": "3. 클립 생성",
+            "description": "다른 애니메이션 스타일을 원하는 경우 비디오를 만들고, 움직임을 검토하고, 다른 사전 설정을 비교하십시오."
+          }
+        },
+        "faq": {
+          "image": {
+            "question": "{effectName}은(는) 어떤 이미지와도 작동하나요?",
+            "answer": "대부분의 결과는 명확한 주제, 균형 잡힌 프레임, 애니메이션에 충분한 디테일이 있을 때 가장 잘 작동합니다."
+          },
+          "switch": {
+            "question": "{effectName}에서 다른 효과로 어떻게 변경합니까?",
+            "answer": "{libraryLabel}을 열고 다른 사전 설정에서 {useTemplateLabel}을 클릭하세요. 미리보기와 활성 효과가 함께 업데이트됩니다."
+          },
+          "preset": {
+            "question": "비디오 효과 사전 설정에서 시작하는 이유는 무엇입니까?",
+            "answer": "사전 설정은 빈 설정에서 시작하는 것보다 테스트 속도를 높이고 애니메이션 방향을 더 예측 가능하게 만듭니다."
+          }
+        }
+      }
+    },
+    "errors": {
+      "fetchTaskStatusFailed": "작업 상태를 가져오지 못했습니다.",
+      "resultUrlNotFound": "결과 URL을 찾을 수 없습니다",
+      "taskFailed": "작업 실패",
+      "taskPollingTimeout": "작업 폴링 시간이 초과되었습니다."
+    },
+    "imageEffectsLanding": {
+      "hero": {
+        "title": "모든 아이디어에 맞는 무한한 사진 효과",
+        "intro": "향수를 불러오는 룩부터 트렌디한 스타일까지만 엄선한 AI 사진 효과로 사진을 생동감 있게 바꿔보세요. 이미지를 업로드하고 몇 초 만에 스타일을 전환해 같은 작업 공간에서 인상적인 결과를 만들 수 있습니다.",
+        "highlights": {
+          "upload": "1. 사진 업로드",
+          "style": "2. 효과 스타일 선택",
+          "apply": "3. 사진 효과 적용"
+        }
+      },
+      "story": {
+        "title": "풍부한 AI 사진 효과로 창의력을 펼치세요",
+        "intro": "빠르게 탐색할 수 있는 효과 라이브러리로 일상 사진을 세련되고 눈에 띄는 비주얼로 바꿉니다. 각 프리셋은 색감, 질감, 분위기를 자동으로 잡아줍니다.",
+        "features": {
+          "styles": {
+            "title": "사진 한 장, 끝없는 스타일",
+            "description": "하나의 참고 사진으로 부드러운 인물 사진, Y2K 콜라주, 시즌 편집, 빈티지 룩을 빠르게 시도할 수 있습니다."
+          },
+          "lifelike": {
+            "title": "자연스러운 스타일링의 AI 사진 효과",
+            "description": "피사체의 인식 가능성을 유지하면서 색상, 질감, 분위기를 다듬어 더 자연스러운 결과를 만듭니다."
+          },
+          "trend": {
+            "title": "정기적으로 업데이트되는 트렌드 효과",
+            "description": "소셜 트렌드, 바이럴 감성, 시즌 무드에 맞춘 라이브러리를 탐색하세요."
+          },
+          "share": {
+            "title": "공유하기 좋은 출력물",
+            "description": "소셜 게시물, 캠페인 시안, 무드보드, 개인 공유에 바로 쓸 수 있는 비주얼을 만듭니다."
+          }
+        }
+      },
+      "steps": {
+        "title": "사진에 효과를 추가하는 방법",
+        "items": {
+          "upload": {
+            "title": "사진 업로드",
+            "description": "선명하고 품질 좋은 이미지로 시작하세요. 피사체 디테일과 구도가 명확할수록 결과가 안정적입니다."
+          },
+          "select": {
+            "title": "효과 스타일 선택",
+            "description": "원하는 분위기와 시각 방향에 가장 잘 맞는 프리셋을 고릅니다."
+          },
+          "apply": {
+            "title": "효과 적용 및 다운로드",
+            "description": "결과를 생성하고 필요한 경우 비슷한 스타일을 비교한 뒤 알맞은 버전을 저장하세요."
+          }
+        }
+      },
+      "faq": {
+        "title": "AI 사진 효과 FAQ",
+        "items": {
+          "types": {
+            "question": "어떤 효과를 사용할 수 있나요?",
+            "answer": "회화풍, 시즌 감성, 콜라주, 레트로, 인물 중심 프리셋 등 다양한 방향을 사용할 수 있습니다."
+          },
+          "skills": {
+            "question": "사진 편집 기술이 필요한가요?",
+            "answer": "아니요. 사진 업로드, 스타일 선택, 생성으로 이어지는 프리셋 중심 흐름입니다."
+          },
+          "photos": {
+            "question": "어떤 사진이 가장 잘 맞나요?",
+            "answer": "피사체가 명확하고 디테일이 읽히며 조명이 균형 잡힌 사진이 가장 안정적입니다."
+          },
+          "share": {
+            "question": "생성 이미지를 소셜 콘텐츠에 쓸 수 있나요?",
+            "answer": "네. 소셜 게시물, 무드보드, 캠페인 시안, 공유용 콘텐츠에 적합합니다."
+          },
+          "privacy": {
+            "question": "업로드한 사진은 비공개인가요?",
+            "answer": "업로드는 생성과 비교 워크플로 안에서 사용됩니다. 공유 전 계정 및 저장 정책을 확인하세요."
+          }
+        }
+      },
+      "cta": {
+        "title": "창의적인 AI 효과로 사진을 변환하세요",
+        "description": "스타일을 선택하고 몇 가지 변형을 테스트한 뒤 같은 작업 공간에서 바로 생성하세요.",
+        "button": "사진 효과 적용하기"
+      }
+    },
+    "videoEffectsLanding": {
+      "hero": {
+        "title": "모든 모션에 맞는 무한한 비디오 효과",
+        "intro": "정지 이미지를 엄선된 AI 비디오 효과로 생동감 있게 만드세요. 사진을 업로드하고 몇 초 만에 모션 스타일을 바꾸며 같은 Mango 스타일 작업 공간에서 애니메이션 결과를 미리 볼 수 있습니다."
+      }
+    },
+    "genericHero": {
+      "imageToImageTitle": "이미지 기반 AI 이미지 생성기",
+      "imageToImageIntro": "이미지를 업로드하고 창의적인 프롬프트를 더하면 AI가 즉시 새 이미지를 만듭니다. 디자인 제작, 사진 개선, 새로운 아이디어 탐색에 적합합니다.",
+      "textToImageIntro": "명확한 시각 방향을 잡고 프롬프트를 다듬어 더 깔끔한 Mango 스타일 워크플로로 완성도 높은 이미지를 만드세요.",
+      "videoIntro": "강한 시각 방향에서 시작해 원하는 움직임을 미리 보고 더 깔끔한 Mango 스타일 {sceneTitle} 워크플로로 바로 제작하세요.",
+      "imageIntro": "완성도 높은 시작점을 고르고 최종 룩을 안내한 뒤 더 깔끔한 Mango 스타일 {sceneTitle} 워크플로로 바로 생성하세요."
+    }
+  },
+  "faceGenerator": {
+    "tabs": {
+      "library": "라이브러리"
+    },
+    "hero": {
+      "eyebrow": "인물 실험실",
+      "title": "얼굴 생성기",
+      "description": "인물 사전 설정에서 시작하여 원하는 모양을 미리 보고 더 밝은 Mango 스타일 작업대에서 생성기를 미세 조정하세요."
+    },
+    "actions": {
+      "useTemplate": "템플릿 사용해 보기",
+      "surpriseMe": "나를 놀라게 해주세요"
+    },
+    "form": {
+      "prompt": "즉각적인",
+      "promptPlaceholder": "이 얼굴에 창의적인 방향을 추가하세요.",
+      "aspectRatio": "종횡비",
+      "gender": "성별",
+      "age": "나이",
+      "ethnos": "민족",
+      "bodyType": "체형",
+      "eyeColor": "눈 색깔",
+      "hairColor": "머리 색깔",
+      "hairType": "헤어 타입",
+      "hairStyle": "헤어스타일",
+      "makeup": "조립",
+      "generatedPromptPreview": "생성된 프롬프트 미리보기",
+      "selectPlaceholder": "선택하다"
+    },
+    "status": {
+      "ready": "생성 준비 완료",
+      "templateApplied": "적용된 템플릿: {title}",
+      "surpriseApplied": "깜짝 설정이 적용되었습니다",
+      "generating": "얼굴 생성 중",
+      "generated": "얼굴이 생성됨",
+      "failed": "생성 실패"
+    },
+    "errors": {
+      "generateFailed": "얼굴을 생성하지 못했습니다."
+    },
+    "empty": {
+      "creations": {
+        "title": "창작물",
+        "description": "얼굴 생성기를 실행하면 생성된 얼굴이 여기에 나타납니다.",
+        "chips": {
+          "generator": "얼굴 생성기"
+        }
+      },
+      "collections": {
+        "title": "컬렉션",
+        "description": "생성된 얼굴에 대한 컬렉션을 만들고 관리하세요.",
+        "chips": {
+          "generator": "얼굴 생성기",
+          "portrait": "초상화",
+          "library": "라이브러리"
+        }
+      }
+    }
+  }
+}

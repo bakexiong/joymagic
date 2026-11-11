@@ -1,0 +1,417 @@
+{
+  "metadata": {
+    "title": "Seedance 1.5 Pro Immagine a Video - Anima Foto con Sincronizzazione Labiale | joymagic",
+    "description": "Trasforma foto in video parlanti con Seedance 1.5 Pro. Carica ritratti, aggiungi dialogo con sincronizzazione labiale precisa in più lingue. Animazione di personaggi facilitata.",
+    "keywords": "seedance 1.5 pro, immagine a video, sincronizzazione labiale, avatar parlante, animazione personaggi, animazione foto, video multilingue, ritratto a video"
+  },
+  "hero": {
+    "kicker": "One model, multiple modalities — on {brand}",
+    "h1": "Seedance 1.5 Pro Immagine a Video",
+    "description": "Seedance 1.5 Pro trasforma le tue foto in video parlanti con sincronizzazione labiale. Carica un ritratto, scrivi un dialogo—il personaggio parla con movimenti labiali che corrispondono a più lingue, inclusi inglese, cinese, giapponese, coreano e spagnolo. Prova Seedance 1.5 Pro gratuitamente qui sotto!<br/><br/>Non hai immagini di riferimento? <a href=\"/text-to-video/seedance-1-5-pro\" class=\"text-primary underline\">Prova Seedance 1.5 Pro Testo a Video</a> per generare da zero.",
+    "trust": [
+      "HD outputs",
+      "Fast generation",
+      "Built for production"
+    ],
+    "pricing_from": "Pricing from",
+    "pricing_link": "$5",
+    "pricing_suffix": "(500 credits)"
+  },
+  "sections": {
+    "what_is": {
+      "h2": "What is Seedance 1.5 Pro?",
+      "paragraphs": [
+        "Seedance 1.5 Pro is a text-to-video generation model used for creating videos from text descriptions.",
+        "In practice, it can transform prompts into production-ready videos—supporting workflows from early concepting to marketing assets and iterative creative exploration.",
+        "joymagic provides an integration layer to run these workflows via a web UI and (when enabled) API access, so you can move from experimentation to automation with fewer steps."
+      ]
+    },
+    "creations": {
+      "h2": "What can you create with Seedance 1.5 Pro?",
+      "cards": {
+        "t2i": {
+          "h3": "Seedance 1.5 Pro Text-to-Video (T2V)",
+          "p": "Turn prompts into videos for product concepts, marketing creatives, and storytelling. Experiment with aspect ratios, durations, and resolutions without changing tools."
+        },
+        "editing": {
+          "h3": "Seedance 1.5 Pro Video Generation",
+          "p": "Create variations and iterate through refinements. Use the same prompt framework to converge on a final look faster."
+        },
+        "i2v": {
+          "h3": "Seedance 1.5 Pro Video Creation",
+          "p": "Generate videos with flexible controls for aspect ratio, duration, resolution, and audio generation."
+        }
+      },
+      "links": {
+        "prefix": "For related tools, see",
+        "i2v": "text-to-video",
+        "and": "and",
+        "t2i": "text-to-image",
+        "suffix": "on {brand}."
+      }
+    },
+    "i2v": {
+      "h2": "Seedance 1.5 Pro Text-to-Video",
+      "p": "For high-intent workflows like ads and product clips, Seedance 1.5 Pro text-to-video starts from a text prompt and generates a video sequence. You can tune output duration (up to 12 seconds), pick an HD preset (720p or 1080p), choose aspect ratios, and control audio generation.",
+      "cards": {
+        "inputs": {
+          "h3": "Supported inputs",
+          "p": "Provide a text prompt describing the scene and desired motion. Clear descriptions generally improve quality."
+        },
+        "controls": {
+          "h3": "Output controls",
+          "p": "Adjust aspect ratio (21:9, 16:9, 4:3, 1:1, 3:4, 9:16), resolution presets (720p, 1080p), and duration (1-12 seconds). Enable audio generation and camera fixed options."
+        },
+        "use_cases": {
+          "h3": "Common use cases",
+          "p": "Product videos, social ads, b-roll style motion, cinematic shots, and quick storyboards—especially when you need rapid iteration across many variants."
+        }
+      }
+    },
+    "how_to": {
+      "h2": "How to use Seedance 1.5 Pro",
+      "steps": {
+        "1": {
+          "h3": "1. Enter Your Prompt",
+          "p": "Describe the video you want to create. Be specific about the scene, characters, actions, and mood."
+        },
+        "2": {
+          "h3": "2. Configure Settings",
+          "p": "Choose aspect ratio, duration (1-12 seconds), resolution (720p or 1080p), and enable audio generation or camera fixed options as needed."
+        },
+        "3": {
+          "h3": "3. Generate Video",
+          "p": "Click the generate button and let AI create your video. Processing typically takes a few minutes."
+        },
+        "4": {
+          "h3": "4. Review and Iterate",
+          "p": "Review the generated video for quality, motion, and composition. Adjust settings and regenerate if needed."
+        },
+        "5": {
+          "h3": "5. Download & Use",
+          "p": "Download your video and use it in your projects immediately."
+        },
+        "6": {
+          "h3": "6. Export / integrate via API",
+          "p": "Download assets for your pipeline or integrate generation via API for batch and automation use cases."
+        }
+      }
+    },
+    "pricing": {
+      "h2": "Pricing for Seedance 1.5 Pro",
+      "p_before": "Pricing is credit-based. Refer to",
+      "p_after": "for current packs and plan details.",
+      "table": {
+        "task": "Resolution",
+        "unit": "Duration",
+        "starting_from": "Credits"
+      },
+      "rows": {
+        "720p": {
+          "task": "Seedance 1.5 Pro 720p",
+          "unit": "5s",
+          "start": "200 credits"
+        },
+        "1080p": {
+          "task": "Seedance 1.5 Pro 1080p",
+          "unit": "5s",
+          "start": "300 credits"
+        }
+      },
+      "note": "joymagic will always show the credit cost before you confirm a generation."
+    },
+    "quality": {
+      "h2": "Quality, Safety, and Usage Rights",
+      "p1": "Output quality depends on the chosen settings. For video, higher presets may be available (e.g., HD; including 1080p where supported), and results improve with specific prompts.",
+      "p2_before": "Commercial usage is subject to",
+      "terms_link": "Terms of Service",
+      "p2_after": "and applicable laws. You are responsible for the rights to any inputs you upload.",
+      "p3_before": "joymagic enforces a content policy to prevent prohibited use. See",
+      "moderation_link": "Content Moderation Policy",
+      "p3_middle": "and",
+      "aup_link": "Acceptable Use Policy",
+      "p3_after": "for details."
+    },
+    "keyFeatures": {
+      "h2": "Caratteristiche Principali",
+      "portraitToVideo": {
+        "title": "Sincronizzazione Labiale Ritratto-Video",
+        "description": "Carica qualsiasi foto di ritratto. Scrivi un dialogo. Il personaggio parla con movimenti labiali precisi che corrispondono all'audio. Funziona con foto, illustrazioni e arte stilizzata—la struttura facciale viene analizzata e animata naturalmente."
+      },
+      "multilingual": {
+        "title": "Animazione Vocale Multilingue",
+        "description": "I movimenti labiali si adattano alla lingua scelta. Supportate più lingue, ognuna con forme della bocca precise nella pronuncia. Anche i dialetti regionali vengono gestiti naturalmente."
+      },
+      "expressive": {
+        "title": "Prestazione Espressiva",
+        "description": "Più della semplice sincronizzazione labiale. Il modello aggiunge movimento naturale della testa, movimento degli occhi ed espressioni facciali che corrispondono al tono emotivo del tuo dialogo. I personaggi sembrano vivi, non robotici."
+      },
+      "stylePreservation": {
+        "title": "Preservazione dello Stile",
+        "description": "Lo stile visivo della tua immagine viene mantenuto. Carica una foto, ottieni un'animazione fotorealistica. Carica arte anime, ottieni movimento in stile anime. Il modello si adatta al tuo materiale sorgente."
+      }
+    },
+    "useCases": {
+      "h2": "Casi d'Uso",
+      "talkingAvatars": {
+        "title": "Avatar Parlanti",
+        "description": "Trasforma le foto del profilo in rappresentanti parlanti per il servizio clienti, tutorial o annunci."
+      },
+      "characterAnimation": {
+        "title": "Animazione dei Personaggi",
+        "description": "Dai vita ai personaggi illustrati con il dialogo. Perfetto per storie animate e contenuti di giochi."
+      },
+      "multilingualSpokespersons": {
+        "title": "Portavoce Multilingue",
+        "description": "Lo stesso ritratto parla il tuo messaggio in più lingue. Crea contenuti localizzati senza nuove riprese."
+      },
+      "memorialVideos": {
+        "title": "Video Commemorativi",
+        "description": "Anima le foto con movimento delicato e narrazione. Gestisci con cura e rispetto."
+      }
+    }
+  },
+  "faq": {
+    "h2": "Domande Frequenti",
+    "whatIsImageToVideo": {
+      "question": "Cos'è Immagine a Video?",
+      "answer": "Immagine a Video anima le tue foto caricate con movimento realistico e voce sincronizzata. Il modello analizza la struttura facciale e genera una sincronizzazione labiale naturale che corrisponde al tuo dialogo."
+    },
+    "whatImagesWorkBest": {
+      "question": "Che tipo di immagini funzionano meglio?",
+      "answer": "Ritratti frontali chiari con buona illuminazione. Funziona con foto, illustrazioni, anime e arte stilizzata. Evita l'occlusione pesante (occhiali da sole, maschere) per la migliore sincronizzazione labiale."
+    },
+    "howAccurateLipSync": {
+      "question": "Quanto è precisa la sincronizzazione labiale?",
+      "answer": "Seedance 1.5 Pro si specializza nella sincronizzazione labiale precisa. Le forme della bocca corrispondono alla pronuncia naturalmente in tutte le lingue supportate senza correzioni post-produzione."
+    },
+    "animateMoreThanLips": {
+      "question": "Anima più delle labbra?",
+      "answer": "Sì. Il modello aggiunge movimento naturale della testa, movimento degli occhi ed espressioni facciali che corrispondono al tono emotivo del tuo dialogo."
+    },
+    "differentFromTextToVideo": {
+      "question": "In cosa differisce da Testo a Video?",
+      "answer": "Testo a Video genera tutto da zero. Immagine a Video usa il tuo ritratto caricato per controllare l'aspetto del personaggio mentre lo anima con sincronizzazione labiale—utile quando hai bisogno di un volto o stile specifico."
+    },
+    "items": [
+      {
+        "question": "What is Seedance 1.5 Pro used for?",
+        "answer": "Seedance 1.5 Pro is used for text-to-video generation workflows. You can turn prompts into videos with flexible controls for aspect ratio, duration, resolution, and audio generation."
+      },
+      {
+        "question": "How long does it take to generate a video?",
+        "answer": "Video generation typically takes 2-5 minutes depending on the duration and complexity of your prompt."
+      },
+      {
+        "question": "What video formats are supported?",
+        "answer": "We support standard video formats including MP4. Videos can be generated in various sizes from 720p to 1080p."
+      },
+      {
+        "question": "Can I use the generated videos commercially?",
+        "answer": "Yes, you can use the generated videos for commercial purposes. Please refer to our Terms of Service for complete details."
+      }
+    ]
+  },
+  "disclaimer": {
+    "h2": "Disclaimer",
+    "p": "{brand} is an independent service that provides access to AI generation workflows. We are not affiliated with, endorsed by, or sponsored by the original creators of \"Seedance 1.5 Pro.\" Trademarks and model names belong to their respective owners."
+  },
+  "seedance15Pro": {
+    "form": {
+      "prompt": {
+        "label": "Prompt",
+        "placeholder": "A candid photograph of a chubby ginger tabby cat deeply relaxed and soaking in a traditional Japanese wooden tub filled with countless floating yellow yuzu fruits. The kitty cat has its eyes closed in bliss, melting into the warm water, with a small white folded towel on its head. Gentle steam rises. Warm, soft natural light filters through a traditional window. Cozy, heartwarming atmosphere, serene. Film grain, highly detailed texture of fur and water.",
+        "tooltip": "The text prompt for video generation."
+      },
+      "aspectRatio": {
+        "label": "Aspect Ratio",
+        "tooltip": "Select the aspect ratio for your video output."
+      },
+      "duration": {
+        "label": "Duration",
+        "tooltip": "Set the video duration in seconds (1-12 seconds)."
+      },
+      "resolution": {
+        "label": "Resolution",
+        "tooltip": "Choose the video resolution (720p or 1080p)."
+      },
+      "generateAudio": {
+        "label": "Generate Audio",
+        "description": "Whether to generate audio.",
+        "tooltip": "Enable this option to automatically generate audio for the video."
+      },
+      "cameraFixed": {
+        "label": "Camera Fixed",
+        "description": "Whether to fix the camera position.",
+        "tooltip": "Enable this option to keep the camera position fixed during video generation."
+      },
+      "seed": {
+        "label": "Seed"
+      },
+      "buttons": {
+        "reset": "Reset",
+        "run": "Genera",
+        "generating": "Generating..."
+      }
+    },
+    "preview": {
+      "placeholder": "Enter a prompt and click Run to generate a video here.",
+      "costInfo": "Your request will cost {cost} per run.",
+      "oneMoreThing": "One more thing:",
+      "actions": {
+        "addSound": "Add Sound",
+        "videoUpscaler": "Video Upscaler",
+        "videoUpscalerPro": "Video Upscaler Pro",
+        "videoExtend": "Video Extend"
+      }
+    },
+    "common": {
+      "selected": "Selected: {name}",
+      "notSelected": "No file selected"
+    },
+    "status": {
+      "idle": "Idle",
+      "processing": "Processing",
+      "completed": "Completed"
+    },
+    "actions": {
+      "downloadVideo": "Download Video",
+      "downloadFailed": "Download video failed",
+      "playAudioFailed": "Failed to play audio. Please check your browser settings."
+    },
+    "errors": {
+      "promptRequired": "Please enter a prompt",
+      "generationFailed": "Video generation failed",
+      "taskFailed": "Task processing failed",
+      "taskTimeout": "Task processing timeout, please try again later",
+      "taskIdNotFound": "Unable to get task ID, please check API response format",
+      "processingFailed": "Processing failed, please retry",
+      "statusQueryFailed": "Failed to query task status",
+      "apiResponseParseFailed": "Failed to parse API response"
+    }
+  },
+  "seedance15ProPage": {
+    "metadata": {
+      "title": "Seedance 1.5 Pro Testo a Video - Video AI con Sincronizzazione Labiale | joymagic",
+      "description": "Genera video AI con dialogo sincronizzato utilizzando Seedance 1.5 Pro. Sincronizzazione labiale precisa in più lingue, controllo cinematografico della fotocamera, narrazione multi-inquadratura.",
+      "keywords": "seedance 1.5 pro, testo a video, generatore video ai, sincronizzazione labiale, video multilingue, controllo cinematografico fotocamera, narrazione multi-inquadratura, dialogo sincronizzato"
+    },
+    "hero": {
+      "title": "Seedance 1.5 Pro Testo a Video",
+      "description": "Seedance 1.5 Pro genera video e audio sincronizzato in un'unica passata. Descrivi la tua scena con dialogo—i personaggi parlano con movimenti labiali corrispondenti a più lingue, inclusi inglese, cinese, giapponese, coreano e spagnolo. Prova Seedance 1.5 Pro gratuitamente qui sotto!<br/><br/>Hai immagini di riferimento? <a href=\"/image-to-video/seedance-1-5-pro\" class=\"text-primary underline\">Prova Seedance 1.5 Pro Immagine a Video</a> per l'animazione dei personaggi.",
+      "button1": "Prova Ora",
+      "button2": "Visualizza Prezzi"
+    },
+    "heroDescription": "Enter a text prompt and watch as AI transforms your words into a beautiful video. Perfect for content creators, marketers, and storytellers.",
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast generation",
+      "commercialReady": "Commercial-use ready"
+    },
+    "whatYouCanDo": {
+      "title": "What You Can Do With Text to Video",
+      "description": "Turn your ideas into motion with AI-powered video generation.",
+      "contentCreation": {
+        "title": "Content Creation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create engaging video content for social media</li><li>Generate video thumbnails and previews</li><li>Produce short-form video content quickly</li></ul>"
+      },
+      "marketing": {
+        "title": "Marketing & Advertising",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create promotional videos from text descriptions</li><li>Generate video ads and campaigns</li><li>Produce marketing content at scale</li></ul>"
+      },
+      "entertainment": {
+        "title": "Entertainment & Storytelling",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Bring stories to life with AI-generated videos</li><li>Create animated scenes from text</li><li>Produce creative video content</li></ul>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Caratteristiche Principali",
+      "description": "Tutto ciò di cui hai bisogno per creare video da testo con IA.",
+      "multilingualLipSync": {
+        "title": "Sincronizzazione Labiale Multilingue",
+        "description": "I personaggi parlano con movimenti labiali precisi corrispondenti al tuo dialogo. Supporta più lingue, inclusi inglese, cinese, giapponese, coreano, spagnolo, indonesiano e portoghese, oltre a dialetti regionali. Nessun artefatto di doppiaggio o disallineamento temporale."
+      },
+      "multiShotStorytelling": {
+        "title": "Narrazione Multi-Inquadratura",
+        "description": "Genera video con più scene che mantengono la coerenza narrativa. Personaggi, illuminazione e stile visivo rimangono coerenti tra diverse inquadrature—crea sequenze di storia, non solo clip isolati."
+      },
+      "cinematicCameraControl": {
+        "title": "Controllo Cinematografico della Fotocamera",
+        "description": "Dirigi il tuo video come un direttore della fotografia. Specifica panoramiche, inclinazioni, zoom, orbite e inquadrature di tracciamento nel tuo prompt. Il modello esegue movimenti di fotocamera professionali con inquadratura precisa."
+      },
+      "jointAudioVisual": {
+        "title": "Generazione Congiunta Audio-Visiva",
+        "description": "Video e audio vengono generati insieme, non sequenzialmente. Il timing del dialogo, il posizionamento degli effetti sonori e la sincronizzazione della musica sono integrati nel processo di generazione—nessun allineamento manuale necessario."
+      }
+    },
+    "useCases": {
+      "title": "Casi d'Uso",
+      "multilingualMarketing": {
+        "title": "Marketing Multilingue",
+        "description": "Crea lo stesso annuncio in più lingue con sincronizzazione labiale precisa. Nessuna nuova ripresa, nessun artefatto di doppiaggio."
+      },
+      "shortFormStorytelling": {
+        "title": "Narrazione Formato Breve",
+        "description": "Genera sequenze narrative multi-inquadratura con personaggi coerenti per serie web e contenuti social."
+      },
+      "explainerVideos": {
+        "title": "Video Esplicativi",
+        "description": "Produce contenuti stile talking-head con discorso sincronizzato. I personaggi spiegano concetti naturalmente."
+      },
+      "socialMediaAds": {
+        "title": "Annunci sui Social Media",
+        "description": "Crea annunci video che fermano lo scorrimento con ganci di dialogo. Testa rapidamente più script."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "From text to video in simple steps.",
+      "step1": {
+        "title": "Step 1 – Enter Your Prompt",
+        "description": "<p class=\"mb-3\">Describe the video you want to create. Be specific about the scene, characters, actions, and mood.</p>"
+      },
+      "step2": {
+        "title": "Step 2 – Configure Settings",
+        "description": "<p class=\"mb-3\">Choose aspect ratio, duration (1-12 seconds), resolution (720p or 1080p), and enable audio generation or camera fixed options.</p>"
+      },
+      "step3": {
+        "title": "Step 3 – Generate Video",
+        "description": "<p class=\"mb-3\">Click the generate button and let AI create your video. Processing typically takes a few minutes.</p>"
+      },
+      "step4": {
+        "title": "Step 4 – Download & Use",
+        "description": "<p class=\"mb-3\">Preview your video, download it, and use it in your projects immediately.</p>"
+      }
+    },
+    "faq": {
+      "title": "Domande Frequenti",
+      "description": "Domande comuni sulla generazione da testo a video.",
+      "q1": {
+        "question": "Cos'è Seedance 1.5 Pro?",
+        "answer": "Seedance 1.5 Pro è il modello video IA di ByteDance che genera video e audio simultaneamente. Si specializza nella sincronizzazione labiale precisa in più lingue."
+      },
+      "q2": {
+        "question": "In cosa differisce da Veo 3.1?",
+        "answer": "Seedance 1.5 Pro si concentra sulla sincronizzazione labiale multilingue precisa e sulla narrazione multi-inquadratura. Veo 3.1 offre maggiore flessibilità creativa con controllo primo/ultimo fotogramma ed estensione video. Scegli Seedance quando la precisione della sincronizzazione labiale è importante."
+      },
+      "q3": {
+        "question": "Quali lingue supporta la sincronizzazione labiale?",
+        "answer": "Inglese, cinese (inclusi dialetti regionali), giapponese, coreano, spagnolo, indonesiano, portoghese e altro ancora."
+      },
+      "q4": {
+        "question": "Posso controllare il movimento della fotocamera?",
+        "answer": "Sì. Descrivi panoramiche, inclinazioni, zoom, orbite o inquadrature di tracciamento nel tuo prompt. Il modello esegue cinematografia professionale."
+      },
+      "q5": {
+        "question": "Qual è la differenza da Immagine a Video?",
+        "answer": "Testo a Video genera tutto dalla tua descrizione. Immagine a Video usa foto caricate per controllare l'aspetto del personaggio mentre li anima con sincronizzazione labiale."
+      }
+    },
+    "finalCTA": {
+      "title": "Turn your text into stunning videos.",
+      "description": "Try the joymagic text-to-video AI generator and start creating videos in seconds.<br/><span class=\"text-muted-foreground\">No video editing skills needed · Free to try</span>",
+      "button": "Start generating videos"
+    }
+  }
+}

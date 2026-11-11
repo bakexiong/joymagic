@@ -1,0 +1,64 @@
+{
+  "titles": {
+    "advanced-photography": "Gelişmiş Fotoğrafçılık",
+    "plastic-bubble-figure": "Plastik Baloncuk Figürü",
+    "felt-3d-polaroid": "Keçe 3D Polaroid",
+    "glass-ball": "Cam Küre",
+    "micro-landscape-mini-world": "Mikro Manzara Mini Dünya",
+    "american-comic-style": "Amerikan Çizgi Roman Stili",
+    "futuristic-american-comics": "Fütüristik Amerikan Çizgi Romanları",
+    "my-world": "Benim Dünyam",
+    "felt-keychain": "Keçe Anahtarlık",
+    "lofi-pixel-character-mini-card": "Lo-Fi Piksel Karakter Mini Kartı",
+    "blurry-selfie-luffy": "Bulanık Luffy Selfie'si",
+    "cyberpunk": "Cyberpunk",
+    "exotic-charm": "Egzotik Cazibe",
+    "acrylic-ornaments": "Akrilik Süsler",
+    "furry-dream-doll": "Tüylü Rüya Oyuncağı",
+    "in-the-stadium": "Stadyumda",
+    "lying-in-fluffy-belly": "Yumuşak Bir Göbeğin İçinde Uzanmak",
+    "angel-figurine": "Melek Figürü"
+  },
+  "gallery": {
+    "metadata": {
+      "title": "Görsel Efektleri | joymagic",
+      "description": "Trend görsel efektlerini masonry galerisinde keşfedin ve tek tıkla görsel oluşturmaya geçin."
+    },
+    "ctaLabel": "Benzer Görsel Oluştur",
+    "inputLabel": "Girdi",
+    "outputLabel": "Çıktı",
+    "previewLabel": "Önizleme"
+  },
+  "workspace": {
+    "metadata": {
+      "title": "Görsel Efektleri Çalışma Alanı | joymagic",
+      "description": "Bir görsel yükleyin, bir görsel efekti seçin ve bu üretimi özel bir çalışma alanında yönetin."
+    },
+    "category": "Görsel",
+    "pageTitle": "Görsel Efektleri",
+    "workspaceLabel": "Çalışma alanı",
+    "inputBadge": "1 görsel girişi",
+    "selectedEffect": "Seçilen Efekt",
+    "change": "Değiştir",
+    "imageTitle": "Görsel",
+    "imageHint": "PNG, JPG, WEBP en fazla 15 MB",
+    "uploadHint": "Bir görsel yüklemek için tıklayın",
+    "tryExamples": "Örnekleri dene",
+    "estimating": "Hesaplanıyor...",
+    "create": "Oluştur",
+    "creditsUnit": "kredi",
+    "estimateError": "Kredi tahmini başarısız:",
+    "emptyState": "Henüz hiçbir şey oluşturmadığınız görünüyor.",
+    "inputLabel": "Girdi",
+    "outputLabel": "Çıktı",
+    "exampleAria": "Örnek {index} kullan",
+    "dialog": {
+      "title": "Bir görsel efekti seçin",
+      "searchPlaceholder": "İstediğiniz efekti arayın",
+      "closeAria": "Efekt seçiciyi kapat",
+      "description": "Görsel efekt sayfasında kullanılan aynı galeri verilerinden bir görsel efekti seçin.",
+      "emptyTitle": "Eşleşen efekt yok",
+      "emptyDescription": "Başka bir anahtar kelime deneyin."
+    }
+  }
+}

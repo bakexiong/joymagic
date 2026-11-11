@@ -1,0 +1,203 @@
+{
+  "videoFaceSwapPage": {
+    "whatIs": {
+      "title": "Cos'è AI Video Face Swap?",
+      "description": "<strong>AI Video Face Swap</strong> è uno strumento basato sull'IA che ti consente di sostituire i volti nei video con qualsiasi volto tu voglia.",
+      "uses": "Utilizza l'apprendimento automatico avanzato per:",
+      "detect": "Rilevare i volti nel tuo video",
+      "track": "Tracciare il loro movimento fotogramma per fotogramma",
+      "swap": "Sostituirli senza soluzione di continuità con un nuovo volto",
+      "keep": "Mantenere espressioni naturali, illuminazione e angolazioni",
+      "canDo": "Con il nostro AI di scambio facciale video online, puoi:",
+      "movieScenes": "Inserire il tuo volto nelle scene cinematografiche",
+      "memeStars": "Trasformare gli amici in star dei meme",
+      "cosplay": "Creare clip di cosplay o reazioni",
+      "socialMedia": "Creare contenuti personalizzati per i social media",
+      "cloud": "Tutto funziona nel cloud, quindi non hai bisogno di hardware potente o software complesso. Basta caricare e scambiare."
+    },
+    "howTo": {
+      "title": "Come Scambiare il Volto in un Video con l'IA",
+      "description": "Crea video di scambio facciale realistici e di alta qualità con il nostro <strong>AI di scambio facciale video gratuito</strong> in pochi semplici passaggi:",
+      "step1": {
+        "title": "1. Carica il video in cui vuoi scambiare il volto",
+        "description": "Carica il video originale in cui vuoi sostituire un volto (o più volti).",
+        "supportFormats": "Supportiamo tutti i formati video comuni",
+        "clearFaces": "Assicurati che i volti nel video siano chiari e visibili",
+        "quality": "Una qualità video più alta di solito dà risultati migliori"
+      },
+      "step2": {
+        "title": "2. Carica il video con cui vuoi scambiare il volto (opzionale)",
+        "description": "Se vuoi scambiare i volti tra <strong>due video</strong> (ad esempio, il tuo video e una clip cinematografica):",
+        "secondVideo": "Carica il secondo video che contiene il volto che vuoi usare",
+        "detectBoth": "La nostra IA rileverà i volti in entrambi i video",
+        "chooseFace": "Puoi scegliere quale volto mappare e sostituire",
+        "singleImage": "Se vuoi usare solo un <strong>singolo volto immagine</strong>, puoi saltare questo passaggio e passare al successivo."
+      },
+      "step3": {
+        "title": "3. Carica un'immagine del volto per lo scambio",
+        "description": "Carica una foto del volto che vuoi inserire nel video.",
+        "bestResults": "Per i migliori risultati:",
+        "clearPhoto": "Usa una foto chiara e frontale",
+        "wellLit": "Assicurati che il volto sia ben illuminato",
+        "avoidFilters": "Evita filtri pesanti o coperture del volto (come occhiali da sole o maschere)",
+        "autoAlign": "L'IA allineerà automaticamente il volto per corrispondere all'angolo, all'illuminazione e all'espressione nel video."
+      },
+      "step4": {
+        "title": "4. Ritaglia il clip video (opzionale)",
+        "description": "Puoi ritagliare il video caricato per concentrarti solo sulla parte in cui vuoi scambiare il volto.",
+        "trim": "Taglia il tempo di inizio e fine",
+        "focus": "Concentrati sulla scena principale dove il volto è visibile",
+        "improve": "Questo può migliorare la velocità e la qualità dell'output",
+        "generate": "Quando sei soddisfatto del clip, premi <strong>Genera</strong> e lascia che l'IA crei il tuo nuovo video."
+      }
+    },
+    "features": {
+      "title": "Caratteristiche Principali del Nostro AI Video Face Swap Online",
+      "speed": {
+        "title": "Lo Scambio Facciale Video Più Veloce con Velocità Fulminea",
+        "description": "Il nostro motore IA appena ottimizzato fornisce <strong>scambi facciali in secondi invece di minuti</strong>.",
+        "faster": "Fino a <strong>2× più veloce</strong> di molti altri strumenti",
+        "complex": "Gestisce anche <strong>video complessi con più volti</strong>",
+        "sixFaces": "Supporta fino a <strong>6 volti</strong> in un singolo video",
+        "quick": "Progettato per anteprime rapide ed esportazioni finali veloci",
+        "watermarkFree": "Ottieni <strong>risultati senza filigrana di livello professionale</strong> senza lunghi tempi di attesa."
+      },
+      "templates": {
+        "title": "Modelli Video di Tendenza per lo Scambio Facciale",
+        "description": "Non sai da dove iniziare? Usa i nostri <strong>modelli video pronti</strong> progettati per lo scambio facciale:",
+        "memeFormats": "Formati meme virali",
+        "movieScenes": "Scene cinematografiche famose",
+        "reaction": "Clip di reazione e duetti",
+        "cosplay": "Modifiche di cosplay e personaggi",
+        "shortForm": "Contenuti a breve formato per TikTok, Reels e YouTube Shorts",
+        "simple": "Scegli semplicemente un modello, carica il tuo volto e genera un video condivisibile con pochi clic."
+      },
+      "viral": {
+        "title": "Trasforma Qualsiasi Clip in un Successo Virale con AI Video Face Swap",
+        "description": "Con il nostro potente <strong>AI di scambio facciale video</strong>, puoi trasformare clip ordinarie in contenuti divertenti e accattivanti:",
+        "movieMoment": "Ricrea un momento cinematografico iconico con te come protagonista",
+        "memes": "Crea meme divertenti con i volti degli amici",
+        "team": "Inserisci il tuo team, famiglia o clienti in video a tema",
+        "standOut": "Distinguiti sui social media con modifiche uniche e personalizzate",
+        "easy": "Non è mai stato così facile creare video che le persone <strong>guardano, condividono e ricordano</strong>."
+      }
+    },
+    "legal": {
+      "title": "Uso Responsabile e Requisiti Legali",
+      "intro": "Il nostro strumento AI Video Face Swap è progettato per scopi creativi e di intrattenimento. Per garantire un uso legale ed etico, leggi e segui attentamente queste linee guida.",
+      "whoCanSwap": {
+        "title": "Chi Puoi Scambiare?",
+        "mayUse": "Puoi usare SOLO:",
+        "ownFace": "Il tuo stesso volto",
+        "consent": "Volti di individui che ti hanno dato consenso esplicito e informato",
+        "fictional": "Personaggi di fantasia o contenuti di pubblico dominio per i quali detieni i diritti",
+        "mayNotUse": "NON puoi usare:",
+        "noPermission": "Il volto di qualsiasi persona senza il loro permesso esplicito",
+        "celebrity": "Volti di celebrità per scopi commerciali o impersonificazione",
+        "minors": "Volti di minori (sotto i 18 anni) senza il consenso dei genitori/tutori",
+        "deceive": "Qualsiasi contenuto destinato a ingannare, frodare o rappresentare falsamente"
+      },
+      "prohibited": {
+        "title": "Usi Severamente Vietati",
+        "description": "AI Video Face Swap NON può essere utilizzato per:",
+        "impersonation": "<strong>Impersonificazione e Frode</strong>: Creare deepfake per ingannare altri, impersonare individui o diffondere disinformazione",
+        "nonConsensual": "<strong>Contenuto Non Consensuale</strong>: Scambiare volti in scenari sensibili, privati o inappropriati senza permesso",
+        "harassment": "<strong>Molestie e Abusi</strong>: Creare contenuti che danneggiano, molestano o violano la dignità di qualsiasi individuo",
+        "copyright": "<strong>Violazione del Copyright</strong>: Utilizzare contenuti video protetti da copyright (film, programmi TV, video musicali) senza autorizzazione adeguata",
+        "political": "<strong>Manipolazione Politica</strong>: Creare contenuti politici fuorvianti o false approvazioni",
+        "identityTheft": "<strong>Furto d'Identità</strong>: Utilizzare scambi facciali per rappresentare fraudolentemente te stesso come un'altra persona"
+      },
+      "disclosure": {
+        "title": "Divulgazione del Contenuto Generato dall'IA",
+        "important": "Importante",
+        "description": "I video creati con il nostro strumento di scambio facciale sono media sintetici generati dall'IA.",
+        "disclose": "Quando condividi pubblicamente video con volti scambiati, dovresti divulgare che il contenuto è stato modificato dall'IA",
+        "jurisdictions": "In molte giurisdizioni, il mancato divulgare contenuti deepfake può violare le leggi relative ai media sintetici",
+        "watermarks": "Il nostro strumento può aggiungere filigrane visibili o invisibili per indicare la manipolazione dell'IA, a seconda dei requisiti legali della tua regione"
+      },
+      "responsibilities": {
+        "title": "Le Tue Responsabilità Legali",
+        "description": "Utilizzando questo strumento, accetti di:",
+        "verify": "<strong>Verificare l'Autorizzazione</strong>: Assicurati di avere diritti e permessi adeguati per tutti i volti e i contenuti video che carichi",
+        "comply": "<strong>Rispettare le Leggi</strong>: Segui tutte le leggi applicabili relative a deepfake, media sintetici, privacy e protezione dei dati nella tua giurisdizione",
+        "respect": "<strong>Rispettare i Diritti</strong>: Onora i diritti di proprietà intellettuale, i diritti della personalità e i diritti alla privacy di tutti gli individui",
+        "ethical": "<strong>Usare Eticamente</strong>: Usa lo strumento solo per scopi legali, etici e non dannosi"
+      },
+      "enforcement": {
+        "title": "Applicazione della Piattaforma",
+        "description": "Monitoriamo attivamente l'abuso e implementiamo:",
+        "moderation": "Sistemi di moderazione dei contenuti automatizzati",
+        "reporting": "Meccanismi di segnalazione degli utenti",
+        "suspension": "Sospensione o terminazione dell'account per violazioni",
+        "cooperation": "Cooperazione con le forze dell'ordine quando legalmente richiesto",
+        "violation": "La violazione di queste linee guida può comportare la terminazione immediata dell'account e potenziali azioni legali."
+      },
+      "compliance": {
+        "title": "Conformità Regionale",
+        "description": "Questo strumento è conforme a:",
+        "china": "Regolamenti cinesi \"Deep Synthesis\" che richiedono l'etichettatura dei contenuti e la verifica degli utenti",
+        "eu": "Requisiti dell'EU AI Act per la trasparenza nei contenuti generati dall'IA",
+        "us": "Leggi statali statunitensi relative a deepfake e media sintetici",
+        "consult": "Per domande sull'uso legale, consulta un consulente legale nella tua giurisdizione."
+      }
+    },
+    "faq": {
+      "title": "FAQ Video Face Swap",
+      "q1": {
+        "question": "1. AI Video Face Swap è gratuito?",
+        "answer1": "Sì, puoi creare video di scambio facciale con il nostro <strong>AI di scambio facciale video gratuito</strong>.",
+        "answer2": "Alcune opzioni avanzate (come risoluzione più alta o clip più lunghe) potrebbero richiedere un aggiornamento, a seconda del piano che scegli."
+      },
+      "q2": {
+        "question": "2. Ho bisogno di esperienza nell'editing video?",
+        "answer1": "No. Lo strumento è costruito per tutti:",
+        "simple": "Flusso di lavoro semplice e passo-passo",
+        "aiHandles": "L'IA gestisce automaticamente il rilevamento, il tracciamento e la fusione",
+        "answer2": "Se puoi caricare un video e una foto del volto, puoi creare uno scambio facciale."
+      },
+      "q3": {
+        "question": "3. Quali formati video supportate?",
+        "answer1": "Supportiamo la maggior parte dei formati comuni, inclusi:",
+        "mp4": "MP4",
+        "answer2": "Se il tuo file non si carica, prova a esportarlo come MP4 e caricarlo di nuovo."
+      },
+      "q4": {
+        "question": "4. Il mio video avrà una filigrana?",
+        "answer1": "<strong>Sì, per conformità legale e trasparenza.</strong>",
+        "answer2": "Il nostro strumento aggiunge marcatori visibili o invisibili per indicare contenuti generati dall'IA, in conformità con i regolamenti sui media sintetici in varie giurisdizioni.",
+        "visible": "<strong>Filigrane visibili</strong>: Possono apparire su versioni di anteprima o finali a seconda dei requisiti legali della tua regione",
+        "invisible": "<strong>Marcatori invisibili</strong>: Impronte digitali incorporate nel video per l'autenticazione dei contenuti",
+        "purpose": "<strong>Scopo</strong>: Garantire la conformità alle leggi sulla divulgazione dei deepfake e prevenire l'abuso",
+        "answer3": "Questi marcatori proteggono sia te che gli altri identificando chiaramente il contenuto come modificato dall'IA."
+      },
+      "q5": {
+        "question": "5. I miei dati e contenuti sono sicuri?",
+        "answer1": "Prendiamo sul serio privacy e sicurezza:",
+        "secure": "I tuoi video e immagini vengono elaborati in modo sicuro e crittografati durante la trasmissione",
+        "only": "Il contenuto viene utilizzato <strong>solo</strong> per generare i risultati che hai richiesto",
+        "notTrain": "<strong>Non</strong> utilizziamo i tuoi caricamenti per addestrare i nostri modelli o condividerli con terze parti",
+        "delete": "Puoi eliminare i tuoi file dopo l'esportazione",
+        "privacyRules": "Regole Importanti sulla Privacy:",
+        "neverUpload1": "<strong>Non caricare mai</strong> contenuti contenenti il volto di qualcun altro senza il loro permesso esplicito",
+        "neverUpload2": "<strong>Non caricare mai</strong> contenuti sensibili, privati o intimi",
+        "neverUpload3": "<strong>Non caricare mai</strong> volti di minori senza il consenso adeguato di genitori/tutori",
+        "unauthorized": "L'uso non autorizzato della somiglianza di un'altra persona può violare le leggi sulla privacy e i nostri Termini di Servizio",
+        "responsible": "Sei l'unico responsabile di garantire di avere diritti su tutti i contenuti caricati."
+      },
+      "q6": {
+        "question": "6. Posso scambiare più volti in un video?",
+        "answer1": "Sì. La nostra IA può gestire <strong>fino a 6 volti</strong> in un singolo video:",
+        "swapOne": "Scambia un volto o diversi alla volta",
+        "mapDifferent": "Mappa volti diversi a persone diverse nel clip",
+        "great": "Ottimo per video di gruppo, introduzioni di team o meme familiari"
+      },
+      "q7": {
+        "question": "7. AI Video Face Swap cambia anche la voce?",
+        "answer1": "No. Lo scambio facciale cambia solo il <strong>volto visivo</strong> nel video.",
+        "audioStays": "L'audio originale (voce, musica, effetti) rimane lo stesso",
+        "editLater": "Puoi successivamente modificare l'audio con altri strumenti se necessario"
+      },
+      "cta": "Inizia a usare <strong>AI Video Face Swap online</strong> oggi e trasforma le tue idee, battute e storie in video che fermano lo scroll con pochi clic."
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "title": "Affiliate Program | joymagic",
+    "description": "加入 joymagic 推广计划，获得专属推广链接，按首订与续费赚取佣金。"
+  },
+  "hero": {
+    "eyebrow": "Affiliate Program",
+    "title": "把你的流量，变成长期复利收入",
+    "description": "加入 joymagic 推广计划。用户在 7 天有效期内通过你的推广链接注册并完成首订后，即绑定到该账号；后续该账号的续费也会继续归属你。",
+    "primary": "立即申请",
+    "secondary": "查看佣金规则",
+    "trust": [
+      "7 天首击锁定",
+      "首订 + 续费双佣金",
+      "账号绑定后支持跨设备购买归因"
+    ]
+  },
+  "stats": {
+    "first_order": {
+      "label": "首订佣金",
+      "suffix": ""
+    },
+    "renewal": {
+      "label": "续费佣金",
+      "suffix": ""
+    },
+    "cookie": {
+      "label": "Cookie 有效期",
+      "suffix": "天"
+    },
+    "payout": {
+      "label": "最低提现",
+      "suffix": ""
+    }
+  },
+  "sections": {
+    "why": {
+      "title": "为什么做这个计划",
+      "description": "适合内容创作者、教程博主、设计社区运营者、AI 工具导航站和 KOL，把你已经拥有的受众转成稳定分成。"
+    },
+    "how": {
+      "title": "如何获得佣金",
+      "description": "规则透明，路径清晰。你只需要分享专属链接，剩下交给系统自动追踪。"
+    },
+    "faq": {
+      "title": "常见问题"
+    },
+    "apply": {
+      "title": "申请成为推广者",
+      "description": "填写你的推广资料，我们会人工审核。审核通过后系统自动生成专属推广链接。",
+      "signed_in": "你已登录，可以直接提交申请。",
+      "signed_out": "需要先登录账号，登录后会返回当前页面继续申请。",
+      "signin": "登录后申请",
+      "open_modal": "立即申请",
+      "already_member": "你已经是推广者了，可直接进入推广中心查看链接和佣金。",
+      "pending": "你的申请正在审核中，请耐心等待。",
+      "go_dashboard": "进入推广中心",
+      "modal_title": "joymagic Affiliate Program",
+      "modal_subtitle": "申请成为推广者",
+      "email_placeholder": "*邮箱",
+      "full_name_placeholder": "*姓名",
+      "payout_method": "PayPal",
+      "paypal_placeholder": "*你的 PayPal 收款账号",
+      "channel_placeholder": "*请描述你的推广方式，例如 YouTube 视频、社媒内容、社群分发等。",
+      "required_hint": "* 为必填项",
+      "cancel": "取消",
+      "desired_tier": "申请等级",
+      "standard": "普通推广者",
+      "kol": "KOL / 大渠道",
+      "paypal_email": "PayPal 收款邮箱",
+      "social_platform": "社媒平台",
+      "social_account": "社媒账号 / 主页链接",
+      "channel_summary": "推广渠道说明",
+      "application_note": "补充说明",
+      "agreement": "我已阅读并同意推广协议与佣金结算规则",
+      "submit": "提交申请",
+      "agreement_hint": "提交申请即表示你同意：禁止作弊流量；佣金基于有效首订与续费结算；提现通过 PayPal 发放。"
+    }
+  },
+  "cards": {
+    "audience": {
+      "title": "适合谁",
+      "items": [
+        "AI 工具测评与教程创作者",
+        "设计师社群与资源站运营者",
+        "YouTube / TikTok / 小红书 / X 账号",
+        "导航站、模板站、流量联盟渠道"
+      ]
+    },
+    "benefits": {
+      "title": "你会得到",
+      "items": [
+        "专属推广链接与推广码",
+        "首订和续费分成",
+        "后台查看申请、佣金与提现状态",
+        "KOL 可升级并使用单独佣金比例"
+      ]
+    }
+  },
+  "how": {
+    "steps": [
+      {
+        "title": "1. 提交申请",
+        "description": "填写你的渠道、社媒信息和 PayPal 收款信息。"
+      },
+      {
+        "title": "2. 审核通过",
+        "description": "审核通过后会生成唯一推广码，并通过邮件通知你。"
+      },
+      {
+        "title": "3. 分享链接",
+        "description": "访客点击你的专属链接后，7 天内首击归因锁定到你。"
+      },
+      {
+        "title": "4. 获得佣金",
+        "description": "用户在有效窗口内注册并完成购买后，该账号后续购买也继续归属你。"
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "如果用户 7 天内先点了我的链接，又点了别人的链接怎么办？",
+        "answer": "仍然归你。我们采用 7 天窗口内首击锁定规则，在 Cookie 有效期内后续点击不会覆盖最初的推广者。"
+      },
+      {
+        "question": "用户注册后换设备购买，还算我的佣金吗？",
+        "answer": "算。只要用户在有效窗口内通过你的推广链路完成注册，推广关系会绑定到账号，后续该账号跨设备购买也继续归属你。"
+      },
+      {
+        "question": "支持首订和续费佣金吗？",
+        "answer": "支持。首订和续费分别按独立比例计算，KOL 还可配置单独比例。"
+      },
+      {
+        "question": "多久能提现？",
+        "answer": "订单支付后佣金先进入待确认，默认 3 天后转为可提现；累计达到最低提现门槛后可发起 PayPal 提现。"
+      }
+    ]
+  }
+}

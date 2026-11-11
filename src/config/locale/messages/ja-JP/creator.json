@@ -1,0 +1,336 @@
+{
+  "sidebar": {
+    "subtitle": "クリエイター作業スペース",
+    "pinned": "ピン留め",
+    "addTools": "ツールを追加",
+    "allTools": "すべてのツール",
+    "pin": {
+      "ariaPin": "ピン留め：{label}",
+      "ariaUnpin": "ピン留め解除：{label}"
+    }
+  },
+  "tools": {
+    "untitled": "名称未設定のツール"
+  },
+  "model": {
+    "untitled": "名称未設定のモデル",
+    "fallbackMonogram": "M"
+  },
+  "panels": {
+    "tools": {
+      "titleImage": "テキストから画像",
+      "titleVideo": "テキストから動画",
+      "empty": "ワークスペースのツールはここに表示されます。",
+      "formEmpty": "フォーム内容はここに表示されます。"
+    },
+    "generated": {
+      "titleImages": "今回の作成記録",
+      "titleVideos": "生成した動画"
+    }
+  },
+  "generated": {
+    "empty": "まだ何も作成していません。"
+  },
+  "errors": {
+    "noWorkspace": "現在の選択で利用できるワークスペースがありません。"
+  },
+  "sceneBrowser": {
+    "title": "{category} シーン",
+    "subtitle": "ワークフローを選択して作成を開始します。",
+    "tabs": {
+      "creations": "作成",
+      "collections": "コレクション",
+      "templates": "テンプレート"
+    }
+  },
+  "addToolsDialog": {
+    "title": "ツールを追加",
+    "categories": {
+      "image": "画像",
+      "video": "動画"
+    }
+  },
+  "toolsDetailPage": {
+    "aliases": {
+      "photoshoot": "フォトシュート",
+      "editorCombiner": "エディター＆コンバイナー",
+      "imageEffects": "画像エフェクト",
+      "variations": "バリエーション",
+      "videoEffects": "ビデオエフェクト"
+    },
+    "workspace": {
+      "library": "ライブラリ",
+      "uploads": "アップロード",
+      "imageEyebrow": "AI 画像ワークスペース",
+      "videoEyebrow": "AI ビデオ ワークスペース",
+      "descriptionWithLibrary": "洗練された開始点を選択し、結果がどのように感じられるかをプレビューし、より温かみのある Mango スタイルのワークフローで生成に直接進みます。",
+      "descriptionWithoutLibrary": "最近の出力を確認し、コレクションを整理し、よりクリーンな Mango ワークベンチ内で高級ワークフローに集中させます。",
+      "emptyLibrary": "現在のモデルにはまだテンプレート サンプルがありません。"
+    },
+    "actions": {
+      "useTemplate": "テンプレートを試す",
+      "templateFallback": "テンプレート",
+      "startGenerating": "生成を開始する",
+      "closeGeneratorPanel": "生成パネルを閉じる",
+      "switchInLibrary": "ライブラリで切り替える"
+    },
+    "marketing": {
+      "eyebrow": "エフェクトガイド",
+      "featureTitle": "{effectName} を使用する理由",
+      "stepsTitle": "{effectName} の使用方法",
+      "faqTitle": "{effectName} に関する FAQ",
+      "image": {
+        "title": "AI を使用して {effectName} 画像を作成する",
+        "intro": "出発点として {effectName} を使用します。 {sourceText} をアップロードし、結果を生成し、見た目が適切になるまで近くのプリセットを比較します。",
+        "sourceCountOne": "1 つの参考画像",
+        "sourceCountMany": "{count} 参考画像",
+        "features": {
+          "workflow": {
+            "title": "エフェクト優先のワークフロー",
+            "description": "すべてを最初から再構築するのではなく、{effectName} プリセットから開始します。"
+          },
+          "reference": {
+            "title": "リファレンスを意識した結果",
+            "description": "選択した {effectName} の外観を適用しながら、アップロードからの主要な主題の手がかりを保持します。"
+          },
+          "iteration": {
+            "title": "素早い反復に適しています。",
+            "description": "近くのプリセットを使用すると、プロンプト全体を書き直すことなく、より速くバリエーションを探索できます。"
+          }
+        },
+        "steps": {
+          "pick": {
+            "title": "1. エフェクトを選択します",
+            "description": "[{libraryLabel}] タブから {effectName} を選択するか、生成する前に {useTemplateLabel} でプリセットを切り替えます。"
+          },
+          "upload": {
+            "title": "2. 画像をアップロードします",
+            "description": "{sourceText} をアップロードし、選択した効果に対して被写体が十分に鮮明であることを確認します。"
+          },
+          "generate": {
+            "title": "3.",
+            "description": "の生成と比較 結果を作成し、{libraryLabel} に戻って、トーンと仕上がりが適切に感じられるまで近くのプリセットを比較します。"
+          }
+        },
+        "faq": {
+          "bestInput": {
+            "question": "{effectName} にはどのような画像が最適ですか?",
+            "answer": "最も安定した結果を得るには、明確な件名と読みやすい詳細を指定して {sourceText} を使用します。"
+          },
+          "switch": {
+            "question": "{effectName} から切り替えることはできますか?",
+            "answer": "はい。 {libraryLabel} を開き、別のプリセットの {useTemplateLabel} をクリックして、ワークスペースのプレビューと現在の選択を更新します。"
+          },
+          "preset": {
+            "question": "単純なプロンプトではなくプリセットを使用する理由は何ですか?",
+            "answer": "プリセットを使用すると、セットアップ時間が短縮され、構成、スタイルの方向性、出力の感触がより一貫したものになります。"
+          }
+        }
+      },
+      "video": {
+        "title": "AI を使用して {effectName} ビデオを作成",
+        "intro": "{effectName} プリセットから開始し、プレビュー方向を確認し、より明確なモーション ターゲットを含む短いクリップを生成します。",
+        "features": {
+          "motion": {
+            "title": "プリセット主導のモーション設計",
+            "description": "{effectName} は、既成のモーション方向を提供するため、使用可能な結果に迅速に到達できます。"
+          },
+          "preview": {
+            "title": "より明確な視覚的期待",
+            "description": "ワークスペースのプレビューには、クレジットを使用する前に、選択したエフェクトのムードが表示されます。"
+          },
+          "exploration": {
+            "title": "高速エフェクト探索",
+            "description": "{libraryLabel} を {useTemplateLabel} で移動して、複数のモーション アイデアをすばやく比較します。"
+          }
+        },
+        "steps": {
+          "pick": {
+            "title": "1. プリセット",
+            "description": "を選択します。 {effectName} を選択したままにするか、アップロードする前に {libraryLabel} から別のエフェクトに切り替えます。"
+          },
+          "upload": {
+            "title": "2. クリーンなイメージをアップロードします",
+            "description": "モーション結果がより制御された状態に保たれるように、読み取り可能なフレームを持つクリアなソースイメージを使用します。"
+          },
+          "generate": {
+            "title": "3. クリップ",
+            "description": "ビデオを作成し、動きを確認し、別のアニメーション スタイルが必要な場合は他のプリセットを比較します。"
+          }
+        },
+        "faq": {
+          "image": {
+            "question": "{effectName} はどの画像でも機能しますか?",
+            "answer": "ほとんどの結果は、明確な被写体、バランスの取れたフレーミング、アニメーション化するのに十分な詳細があれば最もよく機能します。"
+          },
+          "switch": {
+            "question": "{effectName} から別のエフェクトに変更するにはどうすればよいですか?",
+            "answer": "{libraryLabel} を開き、別のプリセットの {useTemplateLabel} をクリックします。プレビューとアクティブなエフェクトが同時に更新されます。"
+          },
+          "preset": {
+            "question": "なぜビデオエフェクトのプリセットから始めるのでしょうか?",
+            "answer": "プリセットを使用すると、空のセットアップから開始する場合よりもテストが高速化され、アニメーションの方向が予測しやすくなります。"
+          }
+        }
+      }
+    },
+    "errors": {
+      "fetchTaskStatusFailed": "タスクステータスの取得に失敗しました",
+      "resultUrlNotFound": "結果 URL が見つかりません",
+      "taskFailed": "タスクが失敗しました",
+      "taskPollingTimeout": "タスクのポーリングがタイムアウトしました"
+    },
+    "imageEffectsLanding": {
+      "hero": {
+        "title": "あらゆる表現に合う豊富な写真エフェクト",
+        "intro": "ノスタルジックな見た目からトレンド感のある表現まで、厳選されたAI写真エフェクトで写真を引き立てます。画像をアップロードし、数秒でスタイルを切り替え、同じワークスペース内で印象的な一枚に仕上げられます。",
+        "highlights": {
+          "upload": "1. 写真をアップロード",
+          "style": "2. エフェクトを選択",
+          "apply": "3. 写真エフェクトを適用"
+        }
+      },
+      "story": {
+        "title": "豊富なAI写真エフェクトで創造力を広げる",
+        "intro": "日常の写真を、素早く洗練された目を引くビジュアルに変換できます。各プリセットが色、質感、雰囲気を自動で整えるため、数クリックで完成度の高い結果に近づけます。",
+        "features": {
+          "styles": {
+            "title": "1枚の写真から無数のスタイルへ",
+            "description": "柔らかなポートレート、Y2Kコラージュ、季節感のある編集、ヴィンテージ風などを1枚の参照写真から試せます。"
+          },
+          "lifelike": {
+            "title": "自然さを保つAI写真エフェクト",
+            "description": "被写体の पहचान性を残しながら、色、質感、空気感を整えて自然な仕上がりにします。"
+          },
+          "trend": {
+            "title": "トレンドに合うエフェクトを随時追加",
+            "description": "SNSトレンド、バイラルな美意識、季節のムードに合わせたライブラリを利用できます。"
+          },
+          "share": {
+            "title": "共有しやすい仕上がり",
+            "description": "SNS投稿、キャンペーン素材、ムードボード、個人共有に使いやすいビジュアルを作れます。"
+          }
+        }
+      },
+      "steps": {
+        "title": "写真にエフェクトを追加する方法",
+        "items": {
+          "upload": {
+            "title": "写真をアップロード",
+            "description": "鮮明で高品質な画像から始めてください。被写体の細部と構図が明確なほど安定した結果になります。"
+          },
+          "select": {
+            "title": "エフェクトを選択",
+            "description": "利用可能なプリセットから、求める雰囲気や方向性に合うものを選びます。"
+          },
+          "apply": {
+            "title": "適用してダウンロード",
+            "description": "生成後、必要なら近いスタイルを比較し、気に入ったバージョンを保存します。"
+          }
+        }
+      },
+      "faq": {
+        "title": "AI写真エフェクトのよくある質問",
+        "items": {
+          "types": {
+            "question": "どんなエフェクトを使えますか？",
+            "answer": "絵画風、季節感、コラージュ、レトロ処理、ポートレート向けプリセットなどを利用できます。"
+          },
+          "skills": {
+            "question": "写真編集スキルは必要ですか？",
+            "answer": "不要です。写真をアップロードし、スタイルを選んで生成するプリセット中心の流れです。"
+          },
+          "photos": {
+            "question": "どんな写真が向いていますか？",
+            "answer": "被写体が明確で、細部が読み取りやすく、光が安定している写真が最適です。"
+          },
+          "share": {
+            "question": "生成画像をSNSに使えますか？",
+            "answer": "はい。SNS投稿、ムードボード、キャンペーン案などに適しています。"
+          },
+          "privacy": {
+            "question": "アップロードした写真は非公開ですか？",
+            "answer": "アップロードは生成と比較のワークフロー内で扱われます。共有前にアカウントと保存ポリシーを確認してください。"
+          }
+        }
+      },
+      "cta": {
+        "title": "創造的なAIエフェクトで写真を変換",
+        "description": "スタイルを選び、いくつかのバリエーションを試し、同じワークスペースで生成できます。",
+        "button": "写真エフェクトを適用"
+      }
+    },
+    "videoEffectsLanding": {
+      "hero": {
+        "title": "あらゆる動きに合う豊富な動画エフェクト",
+        "intro": "静止画像を厳選されたAI動画エフェクトで動きのある結果に変換します。写真をアップロードし、数秒でモーションスタイルを切り替え、同じMango風ワークスペースでプレビューできます。"
+      }
+    },
+    "genericHero": {
+      "imageToImageTitle": "画像から作るAI画像生成",
+      "imageToImageIntro": "任意の画像をアップロードし、クリエイティブなプロンプトを追加すると、AIがすぐに新しい画像を生成します。新しいデザイン、写真の改善、アイデア探索に適しています。",
+      "textToImageIntro": "明確なビジュアル方向を作り、プロンプトを整えて、よりすっきりしたMango風ワークフローでアイデアを洗練された画像にします。",
+      "videoIntro": "強いビジュアル方向から始め、求める動きを確認し、Mango風のすっきりした{sceneTitle}ワークフローでそのまま作成できます。",
+      "imageIntro": "完成度の高い出発点を選び、最終的な見た目を導き、Mango風のすっきりした{sceneTitle}ワークフローで生成できます。"
+    }
+  },
+  "faceGenerator": {
+    "tabs": {
+      "library": "ライブラリ"
+    },
+    "hero": {
+      "eyebrow": "ポートレートラボ",
+      "title": "フェイスジェネレーター",
+      "description": "ポートレート プリセットから開始し、必要な外観をプレビューし、より明るい Mango スタイルのワークベンチでジェネレーターを微調整します。"
+    },
+    "actions": {
+      "useTemplate": "テンプレートを試す",
+      "surpriseMe": "サプライズミー"
+    },
+    "form": {
+      "prompt": "プロンプト",
+      "promptPlaceholder": "この顔にクリエイティブな方向性を追加します。",
+      "aspectRatio": "アスペクト比",
+      "gender": "性別",
+      "age": "年齢",
+      "ethnos": "民族",
+      "bodyType": "体型",
+      "eyeColor": "目の色",
+      "hairColor": "ヘアカラー",
+      "hairType": "ヘアタイプ",
+      "hairStyle": "ヘアスタイル",
+      "makeup": "メイクアップ",
+      "generatedPromptPreview": "生成されたプロンプトプレビュー",
+      "selectPlaceholder": ""
+    },
+    "status": {
+      "ready": "を選択",
+      "templateApplied": "適用されたテンプレート: {title}",
+      "surpriseApplied": "サプライズ設定が適用されました",
+      "generating": "顔の生成中",
+      "generated": "顔が生成されました",
+      "failed": "生成に失​​敗しました"
+    },
+    "errors": {
+      "generateFailed": "顔の生成に失敗しました"
+    },
+    "empty": {
+      "creations": {
+        "title": "作成物",
+        "description": "顔ジェネレータを実行すると、生成された顔がここに表示されます。",
+        "chips": {
+          "generator": "フェイスジェネレーター"
+        }
+      },
+      "collections": {
+        "title": "コレクション",
+        "description": "生成された顔のコレクションを作成および管理します。",
+        "chips": {
+          "generator": "フェイスジェネレーター",
+          "portrait": "ポートレート",
+          "library": "ライブラリ"
+        }
+      }
+    }
+  }
+}

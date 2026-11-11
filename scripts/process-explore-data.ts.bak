@@ -1,0 +1,426 @@
+/**
+ * 数据处理脚本：补全 + 重新分类
+ *
+ * 功能：
+ * 1. 读取现有的 explore_page_config
+ * 2. 补全必需字段（width, height, aspectRatio, likes, priority）
+ * 3. 根据 prompt 关键词自动分类
+ * 4. 输出新的分类结构
+ *
+ * 使用方法：
+ * npx tsx scripts/process-explore-data.ts
+ */
+
+import { getConfigsDirectly } from '@/shared/models/config';
+import { writeFileSync } from 'fs';
+import { join } from 'path';
+
+// ==================== 配置 ====================
+
+// 分类元数据
+const categoryMetadata = {
+  portraits: {
+    id: 'portraits',
+    sceneName: 'Portraits',
+    subtitle: 'Real people, cosplay, fashion photography',
+    generateUrl: '/text-to-image?category=portrait',
+    order: 1,
+  },
+  fantasy: {
+    id: 'fantasy',
+    sceneName: 'Fantasy',
+    subtitle: 'Magic, mythology, sci-fi scenes',
+    generateUrl: '/text-to-image?category=fantasy',
+    order: 2,
+  },
+  nature: {
+    id: 'nature',
+    sceneName: 'Nature',
+    subtitle: 'Mountains, oceans, forests, sunsets',
+    generateUrl: '/text-to-image?category=nature',
+    order: 3,
+  },
+  urban: {
+    id: 'urban',
+    sceneName: 'Urban',
+    subtitle: 'Street photography, architecture, cyberpunk',
+    generateUrl: '/text-to-image?category=urban',
+    order: 4,
+  },
+  art: {
+    id: 'art',
+    sceneName: 'Art',
+    subtitle: 'Oil painting, watercolor, illustration, concept art',
+    generateUrl: '/text-to-image?category=art',
+    order: 5,
+  },
+  animals: {
+    id: 'animals',
+    sceneName: 'Animals',
+    subtitle: 'Pets, wildlife, fantasy creatures',
+    generateUrl: '/text-to-image?category=animals',
+    order: 6,
+  },
+  food: {
+    id: 'food',
+    sceneName: 'Food',
+    subtitle: 'Cuisine, desserts, creative food',
+    generateUrl: '/text-to-image?category=food',
+    order: 7,
+  },
+  videos: {
+    id: 'videos',
+    sceneName: 'Videos',
+    subtitle: 'Dynamic scenes, video effects',
+    generateUrl: '/text-to-video',
+    order: 8,
+  },
+};
+
+// 模型默认尺寸映射
+const modelDimensions: Record<string, { width: number; height: number }> = {
+  'gpt-image': { width: 1024, height: 1024 },
+  'nano banana': { width: 1024, height: 1024 },
+  'qwen': { width: 1328, height: 1328 },
+  'seedream': { width: 2048, height: 2048 },
+  'wan': { width: 1280, height: 1280 },
+  '10b.ai': { width: 1024, height: 1024 },
+};
+
+// ==================== 工具函数 ====================
+
+/**
+ * 生成虚拟点赞数（基于 ID 的哈希算法，确保确定性）
+ */
+function generateVirtualLikes(itemId: string): number {
+  let hash = 0;
+  for (let i = 0; i < itemId.length; i++) {
+    const char = itemId.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash = hash & hash;
+  }
+  const min = 100;
+  const max = 9999;
+  return min + (Math.abs(hash) % (max - min + 1));
+}
+
+/**
+ * 从图片信息推测尺寸
+ */
+function inferDimensions(item: any): { width: number; height: number; aspectRatio: number } | null {
+  // 1. 如果已有完整尺寸信息，直接使用
+  if (item.width && item.height) {
+    return {
+      width: item.width,
+      height: item.height,
+      aspectRatio: item.height / item.width,
+    };
+  }
+
+  // 2. 从 size 字段解析（如 "1024x1024"）
+  if (item.size && typeof item.size === 'string') {
+    const match = item.size.match(/(\d+)x(\d+)/);
+    if (match) {
+      const width = parseInt(match[1]);
+      const height = parseInt(match[2]);
+      return { width, height, aspectRatio: height / width };
+    }
+  }
+
+  // 3. 根据模型推测默认尺寸
+  const model = (item.model || '').toLowerCase();
+  for (const [key, dimensions] of Object.entries(modelDimensions)) {
+    if (model.includes(key)) {
+      return {
+        ...dimensions,
+        aspectRatio: dimensions.height / dimensions.width,
+      };
+    }
+  }
+
+  // 4. 默认方形
+  return { width: 1024, height: 1024, aspectRatio: 1 };
+}
+
+/**
+ * 根据内容自动分类
+ */
+function categorizeItem(item: any): string {
+  const prompt = (item.prompt || '').toLowerCase();
+  const alt = (item.alt || '').toLowerCase();
+  const text = prompt + ' ' + alt;
+
+  // 视频单独分类
+  if (item.type === 'video') {
+    return 'videos';
+  }
+
+  // 定义分类关键词
+  const categoryKeywords: Record<string, string[]> = {
+    portraits: [
+      '人物', '女', '男', 'female', 'male', '肖像', 'portrait',
+      '学生', '职业', '角色', '穿着', 'wearing', 'girl', 'boy',
+      'woman', 'man', 'lady', 'cheerleader', 'jk', '校服',
+      '白领', '模特', 'model', 'firefighter', 'florist', 'teacher',
+      'doctor', 'nurse', 'chef', 'artist', 'musician'
+    ],
+    fantasy: [
+      '魔法', '精灵', '神话', '仙', '龙', 'magic', 'fantasy', 'elf',
+      '奇幻', '飞天', '神兽', 'celestial', 'dunhuang', '敦煌',
+      'alien', '外星', 'mecha', '机甲', 'wizard', 'witch',
+      'unicorn', '独角兽', 'galaxy', '星系', 'quantum', '量子',
+      'spaceship', '飞船', 'portal', '传送门', 'crystal', '水晶'
+    ],
+    nature: [
+      '山', '海', '森林', '日落', '星空', '瀑布', 'mountain', 'ocean',
+      'forest', 'sunset', '风景', '自然', 'nature', 'beach', '沙滩',
+      'waterfall', 'rainbow', '彩虹', 'flower', '花', 'tulip',
+      'sunflower', '向日葵', 'maple', '枫叶', 'snow', '雪',
+      'lake', '湖', 'river', '河', 'cloud', '云', 'sky', '天空'
+    ],
+    urban: [
+      '城市', '街道', '建筑', '赛博', 'cyberpunk', 'city', 'urban',
+      '咖啡', '书店', '霓虹', 'neon', 'street', '街头', 'cafe',
+      'office', '办公', 'rooftop', '天台', 'skyscraper', '摩天楼',
+      'tram', '电车', 'bus', '公交', 'subway', '地铁', 'bridge', '桥'
+    ],
+    animals: [
+      '猫', '狗', '动物', '宠物', 'cat', 'dog', 'animal', 'pet',
+      '老虎', '狮子', 'tiger', 'lion', 'alpaca', '羊驼',
+      'octopus', '章鱼', 'marmot', '土拨鼠', 'glider', '蜜袋鼯',
+      'dragon', 'bearded', '鬃狮蜥', 'squirrel', '松鼠',
+      'bird', '鸟', 'fish', '鱼', 'rabbit', '兔', 'panda', '熊猫'
+    ],
+    food: [
+      '食物', '料理', '甜点', 'food', 'sushi', '寿司',
+      '蛋糕', 'cake', '美食', 'candy', '糖果', 'dessert',
+      'pizza', '披萨', 'burger', '汉堡', 'noodle', '面条'
+    ],
+    art: [
+      '油画', '水彩', '插画', '艺术', 'art', 'painting', '风格',
+      'style', '浮世绘', 'ukiyo-e', 'van gogh', '梵高', 'picasso',
+      '毕加索', 'comic', '漫画', 'steampunk', '蒸汽朋克',
+      'gothic', '哥特', 'retro', '复古', 'vintage', 'abstract',
+      '抽象', 'impressionism', '印象派', 'cubism', '立体主义'
+    ],
+  };
+
+  // 按顺序检查每个分类
+  for (const [category, keywords] of Object.entries(categoryKeywords)) {
+    if (keywords.some(kw => text.includes(kw))) {
+      return category;
+    }
+  }
+
+  // 默认归类到艺术创作
+  return 'art';
+}
+
+/**
+ * 补全单个 item 的数据
+ */
+function enrichItem(item: any): any {
+  const enriched = { ...item };
+
+  // 1. 补全尺寸信息（仅图片类型）
+  if (enriched.type !== 'video' && (!enriched.width || !enriched.height || !enriched.aspectRatio)) {
+    const dimensions = inferDimensions(item);
+    if (dimensions) {
+      enriched.width = dimensions.width;
+      enriched.height = dimensions.height;
+      enriched.aspectRatio = dimensions.aspectRatio;
+    }
+  }
+
+  // 2. 补全点赞数
+  if (enriched.likes === undefined || enriched.likes === null) {
+    enriched.likes = generateVirtualLikes(item.id);
+  }
+
+  // 3. 视频类型移除尺寸字段
+  if (enriched.type === 'video') {
+    delete enriched.width;
+    delete enriched.height;
+    delete enriched.aspectRatio;
+  }
+
+  return enriched;
+}
+
+/**
+ * 处理数据：补全 + 重新分类
+ */
+function processData(config: any): any {
+  if (!config || !config.sections || !Array.isArray(config.sections)) {
+    console.error('❌ 无效的配置结构');
+    return config;
+  }
+
+  // 步骤 1: 收集所有 items 并补全数据
+  const allItems: any[] = [];
+  config.sections.forEach((section: any) => {
+    if (section.items && Array.isArray(section.items)) {
+      section.items.forEach((item: any) => {
+        allItems.push(enrichItem(item));
+      });
+    }
+  });
+
+  console.log(`\n✅ 收集到 ${allItems.length} 个 items`);
+
+  // 步骤 2: 按分类分组
+  const categorizedItems: Record<string, any[]> = {};
+  Object.keys(categoryMetadata).forEach(key => {
+    categorizedItems[key] = [];
+  });
+
+  allItems.forEach(item => {
+    const category = categorizeItem(item);
+    categorizedItems[category].push(item);
+  });
+
+  // 步骤 3: 生成新的 sections
+  const newSections = Object.entries(categoryMetadata)
+    .sort((a, b) => a[1].order - b[1].order)
+    .map(([key, meta]) => {
+      const items = categorizedItems[key];
+
+      // 为每个分类的前 4 个 item 设置高优先级
+      const itemsWithPriority = items.map((item, index) => ({
+        ...item,
+        priority: index < 4 ? 'high' : 'low',
+      }));
+
+      return {
+        id: meta.id,
+        sceneName: meta.sceneName,
+        subtitle: meta.subtitle,
+        generateUrl: meta.generateUrl,
+        items: itemsWithPriority,
+      };
+    })
+    .filter(section => section.items.length > 0); // 移除空分类
+
+  return {
+    title: config.title || 'Explore',
+    subtitle: config.subtitle || '',
+    sections: newSections,
+  };
+}
+
+/**
+ * 打印统计信息
+ */
+function printStatistics(config: any) {
+  console.log('\n\n=== 📊 处理统计 ===\n');
+
+  let totalItems = 0;
+  let totalImages = 0;
+  let totalVideos = 0;
+  let totalHighPriority = 0;
+
+  config.sections.forEach((section: any, index: number) => {
+    const imageCount = section.items.filter((item: any) => item.type === 'image').length;
+    const videoCount = section.items.filter((item: any) => item.type === 'video').length;
+    const highPriorityCount = section.items.filter((item: any) => item.priority === 'high').length;
+    const itemsWithDimensions = section.items.filter((item: any) =>
+      item.width && item.height && item.aspectRatio
+    ).length;
+
+    totalItems += section.items.length;
+    totalImages += imageCount;
+    totalVideos += videoCount;
+    totalHighPriority += highPriorityCount;
+
+    console.log(`${index + 1}. ${section.sceneName} (${section.id})`);
+    console.log(`   📦 总数: ${section.items.length}`);
+    console.log(`   🖼️  图片: ${imageCount} | 🎬 视频: ${videoCount}`);
+    console.log(`   ⚡ 高优先级: ${highPriorityCount}`);
+    console.log(`   📐 有尺寸信息: ${itemsWithDimensions}/${imageCount}`);
+    console.log('');
+  });
+
+  console.log('=== 📈 总计 ===');
+  console.log(`总 Items: ${totalItems}`);
+  console.log(`图片: ${totalImages} | 视频: ${totalVideos}`);
+  console.log(`高优先级: ${totalHighPriority}`);
+  console.log(`分类数: ${config.sections.length}`);
+}
+
+/**
+ * 主函数
+ */
+async function main() {
+  console.log('🚀 开始处理数据...\n');
+  console.log('功能：数据补全 + 重新分类\n');
+
+  try {
+    // 1. 读取配置
+    console.log('📖 读取配置...');
+    const configs = await getConfigsDirectly();
+    const raw = configs['explore_page_config'];
+
+    if (!raw) {
+      console.error('❌ 未找到 explore_page_config 配置');
+      return;
+    }
+
+    console.log('✅ 成功读取配置\n');
+
+    // 2. 解析 JSON
+    console.log('🔍 解析 JSON...');
+    let config;
+    try {
+      config = JSON.parse(raw);
+    } catch (error) {
+      console.error('❌ JSON 解析失败:', error);
+      return;
+    }
+
+    console.log(`✅ 原配置包含 ${config.sections?.length || 0} 个 section\n`);
+
+    // 3. 处理数据
+    console.log('⚙️  处理数据（补全 + 分类）...');
+    const processed = processData(config);
+
+    // 4. 打印统计信息
+    printStatistics(processed);
+
+    // 5. 输出结果
+    console.log('\n=== 📄 处理后的配置 ===\n');
+    const jsonOutput = JSON.stringify(processed, null, 2);
+    console.log(jsonOutput);
+
+    // 6. 导出到文件
+    const outputPath = join(process.cwd(), 'explore-config-processed.json');
+    writeFileSync(outputPath, jsonOutput, 'utf-8');
+    console.log(`\n✅ 配置已导出到: ${outputPath}`);
+
+    // 7. 下一步提示
+    console.log('\n\n=== ✅ 完成！下一步操作 ===\n');
+    console.log('1. 打开文件: explore-config-processed.json');
+    console.log('2. 复制完整的 JSON 配置');
+    console.log('3. 访问管理后台: /admin/explore');
+    console.log('4. 更新 explore_page_config 配置');
+    console.log('5. 保存并验证页面显示\n');
+
+  } catch (error) {
+    console.error('❌ 执行失败:', error);
+    process.exit(1);
+  }
+}
+
+// 如果直接运行此脚本
+if (require.main === module) {
+  main().catch(console.error);
+}
+
+// 导出函数供其他模块使用
+export {
+  processData,
+  enrichItem,
+  categorizeItem,
+  generateVirtualLikes,
+  inferDimensions,
+  categoryMetadata,
+};

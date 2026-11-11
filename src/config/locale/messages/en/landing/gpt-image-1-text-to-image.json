@@ -1,0 +1,102 @@
+{
+  "title": "GPT Image 1 Text to Image",
+  "subtitle": "Generate stunning images from text descriptions",
+  "prompt_label": "Prompt",
+  "prompt_placeholder": "Create a professional and visually engaging magazine cover for a lifestyle magazine called \"Urban Pulse.\"",
+  "prompt_tooltip": "Enter a description of the image you want to generate",
+  "size_label": "Size",
+  "size_tooltip": "Select the image size",
+  "quality_label": "Quality",
+  "quality_tooltip": "Select the image quality. Higher quality uses more credits.",
+  "credits_required": "Credits Required",
+  "buttons": {
+    "generate": "Generate Image"
+  },
+  "errors": {
+    "promptRequired": "Prompt is required"
+  },
+  "image_alt": "Generated image",
+  "download": "Download",
+  "image_placeholder": "Generated image will appear here",
+  "page": {
+    "metadata": {
+      "title": "GPT-Image-1 Text to Image - AI Image Generator | joymagic",
+      "description": "Generate images from text with OpenAI GPT-Image-1. Superior text rendering for posters and signage. Precise prompt following, multiple styles. Try free now.",
+      "keywords": "GPT-Image-1, text to image, ai image generator, openai, text rendering, posters, signage, prompt following"
+    },
+    "hero": {
+      "title": "GPT-Image-1 Text to Image",
+      "description": "GPT-Image-1 is OpenAI's image generation model built for precise prompt following and accurate text rendering. Describe any scene, style, or design—including text elements like headlines, signage, and labels. Try GPT-Image-1 for free below!<br/><br/>Need bilingual prompts or character consistency? <a href=\"/text-to-image/seedream-4-5\" class=\"text-primary underline\">Try Seedream 4.5 Text to Image</a>.",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Powerful capabilities for precise image generation",
+      "superiorTextRendering": {
+        "title": "Superior Text Rendering",
+        "description": "Generate clear, legible text inside images—posters, signage, book covers, product labels, social media graphics. Handles multiple text elements and dense typography better than most generation models."
+      },
+      "preciseInstructionFollowing": {
+        "title": "Precise Instruction Following",
+        "description": "The model interprets detailed prompts accurately. Specify composition, lighting, color palette, mood, style, and subject placement—GPT-Image-1 follows your instructions down to small elements without drift."
+      },
+      "styleVersatility": {
+        "title": "Style Versatility",
+        "description": "Create photorealistic images, illustrations, concept art, vintage photography, minimalist designs, and more. Reference specific artistic styles or movements in your prompt for targeted results."
+      },
+      "transparentBackground": {
+        "title": "Transparent Background Support",
+        "description": "Generate images with transparency using PNG output. Specify \"transparent background\" in your prompt for assets ready to composite into designs without manual cutout."
+      }
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "marketingGraphics": {
+        "title": "Marketing Graphics",
+        "description": "Create social posts, banner ads, and promotional materials with text elements built in. Headlines, CTAs, and pricing render cleanly."
+      },
+      "signagePosters": {
+        "title": "Signage & Posters",
+        "description": "Design event posters, store signage, and announcements where typography is central to the visual."
+      },
+      "bookAlbumCovers": {
+        "title": "Book & Album Covers",
+        "description": "Generate cover concepts with title and author text integrated. Explore directions before committing to final design."
+      },
+      "productMockups": {
+        "title": "Product Mockups",
+        "description": "Create packaging concepts and label designs with readable product names, ingredients, and branding."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Common questions about GPT-Image-1 Text to Image",
+      "q1": {
+        "question": "What is GPT-Image-1?",
+        "answer": "GPT-Image-1 is OpenAI's AI image generation model that creates images from text descriptions. It's particularly strong at rendering readable text within images."
+      },
+      "q2": {
+        "question": "How accurate is the text rendering?",
+        "answer": "GPT-Image-1 generates legible text better than most AI models. It handles multiple text elements and dense typography. For pixel-perfect text in critical applications, generate the base image here and add final text in design software."
+      },
+      "q3": {
+        "question": "Can I get transparent backgrounds?",
+        "answer": "Yes. Choose PNG output format and include \"transparent background\" in your prompt. Useful for logos, stickers, and composite assets."
+      },
+      "q4": {
+        "question": "What styles can it generate?",
+        "answer": "Photorealism, illustration, concept art, digital painting, vintage aesthetics, minimalist design, and more. Reference specific styles in your prompt."
+      },
+      "q5": {
+        "question": "When should I use Seedream 4.5 instead?",
+        "answer": "Use Seedream 4.5 when you need bilingual prompt support (Chinese) or want to maintain character consistency across generations. Use GPT-Image-1 when text rendering quality is the priority."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Create?",
+      "description": "Start generating amazing images from your text descriptions today.",
+      "button": "Try It Now"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Name",
+    "avatar": "Avatar",
+    "email": "Email",
+    "email_verified": "Email Verified",
+      "email_not_verified": "Not verified",
+    "remaining_credits": "Remaining Credits",
+    "created_at": "Created At",
+    "actions": "Actions",
+    "roles": "Roles"
+  },
+  "list": {
+    "title": "Users",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Users"
+    },
+    "buttons": {
+      "add": "Add User",
+      "edit": "Edit User",
+      "view": "View User",
+      "delete": "Delete User",
+      "edit_roles": "Edit Roles",
+      "adjust_credits": "Adjust Credits"
+    },
+    "search": {
+      "email": {
+        "title": "Email",
+        "placeholder": "Email"
+      }
+    }
+  },
+  "edit": {
+    "title": "Edit User",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Users",
+      "edit": "Edit"
+    },
+    "buttons": {
+      "submit": "Update"
+    }
+  },
+  "edit_roles": {
+    "title": "Edit Roles",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Users",
+      "edit_roles": "Edit Roles"
+    },
+    "buttons": {
+      "submit": "Update"
+    }
+  },
+  "adjust_credits": {
+    "title": "Adjust Credits",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Users",
+      "adjust": "Adjust Credits"
+    },
+    "fields": {
+      "type": "Type",
+      "type_placeholder": "Select type",
+      "amount": "Credits",
+      "amount_placeholder": "Enter credits amount",
+      "description": "Description",
+      "description_placeholder": "Optional note"
+    },
+    "types": {
+      "purchase": "Purchase",
+      "compensation": "Compensation",
+      "refund": "Refund",
+      "deduction": "Deduction"
+    },
+    "buttons": {
+      "submit": "Confirm"
+    }
+  }
+}

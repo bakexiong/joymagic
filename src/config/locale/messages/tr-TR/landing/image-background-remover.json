@@ -1,0 +1,195 @@
+{
+  "imageBackgroundRemover": {
+    "id": "image-background-remover",
+    "title": "joymagic Arka Plan Kaldırıcı AI",
+    "description": "AI hassasiyeti ile görüntülerden arka planları anında kaldırın. Ürün fotoğrafları, portreler ve daha fazlası için mükemmel.",
+    "steps": {
+      "sourceImage": {
+        "title": "Kaynak görüntü yükle",
+        "hint": "Buraya görüntü yükle JPG/PNG/WEBP",
+        "dragDrop": "Sürükle ve bırak veya yüklemek için tıkla",
+        "dropHere": "Görüntüyü buraya bırak"
+      },
+      "generate": {
+        "title": "Arka planı kaldır",
+        "cta": "Arka Planı Kaldır",
+        "generating": "Arka plan kaldırılıyor..."
+      }
+    },
+    "preview": {
+      "title": "Önizleme",
+      "original": "Orijinal",
+      "backgroundRemoved": "Arka Plan Kaldırıldı",
+      "placeholder": "Arka plan kaldırma sonucunu görmek için buraya bir görüntü yükleyin."
+    },
+    "common": {
+      "selected": "Seçildi: {name}",
+      "notSelected": "Seçilmedi"
+    },
+    "errors": {
+      "invalidFileType": "Geçersiz dosya türü. Lütfen bir görüntü dosyası (JPG, PNG, WEBP) yükleyin.",
+      "uploadFailed": "Yükleme başarısız: {error}",
+      "uploadFailedGeneric": "Yükleme başarısız",
+      "sourceImageRequired": "Lütfen önce bir kaynak görüntü yükleyin",
+      "generationFailed": "Arka plan kaldırma başarısız",
+      "taskFailed": "Görev işleme başarısız",
+      "taskTimeout": "Görev işleme zaman aşımı, lütfen daha sonra tekrar deneyin",
+      "taskIdNotFound": "Görev ID'si alınamadı, lütfen API yanıt formatını kontrol edin",
+      "processingFailed": "İşleme başarısız, lütfen tekrar deneyin",
+      "statusQueryFailed": "Görev durumu sorgulanamadı",
+      "apiResponseParseFailed": "API yanıtı ayrıştırılamadı",
+      "downloadFailed": "Görüntü indirilemedi"
+    },
+    "download": {
+      "title": "Görüntüyü indir"
+    },
+    "alt": {
+      "sourcePreview": "Kaynak önizleme",
+      "enlargedPreview": "Büyütülmüş önizleme",
+      "source": "Kaynak",
+      "generated": "Oluşturuldu"
+    }
+  },
+  "imageBackgroundRemoverPage": {
+    "metadata": {
+      "title": "AI Görüntü Arka Plan Kaldırıcı Çevrimiçi | Arka Planı Anında Kaldır | joymagic",
+      "description": "joymagic'ın AI arka plan kaldırıcısı ile herhangi bir görüntüden arka planı anında kaldırın. Tek tık, mükemmel kesim – düzenleme becerisi gerekmez. HD İndirme, Filigran yok, Toplu işlem desteği.",
+      "keywords": "AI Görüntü Arka Plan Kaldırıcı, arka plan kaldır, şeffaf arka plan, çevrimiçi arka plan kaldırıcı, AI arka plan kaldırma, ürün fotoğraf editörü, portre arka plan kaldırıcı, toplu arka plan kaldırma"
+    },
+    "hero": {
+      "title": "AI Görüntü Arka Plan Kaldırıcı Çevrimiçi",
+      "description": "joymagic'ın AI arka plan kaldırıcısı ile herhangi bir görüntüden arka planı anında kaldırın. Tek tık, mükemmel kesim – düzenleme becerisi gerekmez.",
+      "button1": "Şimdi Arka Planı Kaldır",
+      "button2": "Ücretsiz başla · Kredi kartı yok"
+    },
+    "heroDescription": "✓ HD İndirme  ✓ Filigran yok  ✓ Toplu işlem desteği",
+    "whatIsAIBackgroundRemover": {
+      "title": "AI Görüntü Arka Plan Kaldırıcı Nedir?",
+      "description": "joymagic'ın AI Görüntü Arka Plan Kaldırıcısı, fotoğrafınızdaki ana konuyu otomatik olarak algılamak ve arka planı saniyeler içinde hassas bir şekilde kaldırmak için gelişmiş derin öğrenme kullanır. Maskeleme ve fırçalama gerektiren manuel araçlar veya temel düzenleyicilerden farklı olarak, AI'mız:",
+      "features": [
+        "İnsanları, ürünleri, hayvanları, arabaları ve nesneleri akıllıca tanımlar",
+        "Saç, kürk ve ince detaylar gibi karmaşık kenarları işler",
+        "Temiz, şeffaf kesimler (PNG) oluşturur veya herhangi bir renkle değiştirir",
+        "Her seferinde profesyonel sonuçlar sunar"
+      ],
+      "perfectFor": "Ürün fotoğrafları, portreler, profil resimleri, sosyal medya içeriği, e-ticaret listeleri ve tasarım projeleri için mükemmel."
+    },
+    "keyFeatures": {
+      "title": "Temel Özellikler",
+      "description": "Hız ve kalite için oluşturulmuş güçlü AI arka plan kaldırma yetenekleri.",
+      "oneClickPrecision": {
+        "title": "Tek Tıkla Hassas Kaldırma",
+        "description": "<p class=\"mb-3\">Son teknoloji AI, saç, kürk ve şeffaf nesneler gibi zor detayları bile işler – saniyeler içinde sonuçlar.</p>"
+      },
+      "highQualityTransparent": {
+        "title": "Yüksek Kaliteli Şeffaf Çıktılar",
+        "description": "<p class=\"mb-3\">Pürüzsüz kenarlar ve artefakt olmayan tam HD'de net, profesyonel kesimler indirin.</p>"
+      },
+      "batchRemoval": {
+        "title": "Toplu Arka Plan Kaldırma",
+        "description": "<p class=\"mb-3\">Birden fazla görüntüyü aynı anda yükleyin ve işleyin – ürün katalogları veya toplu düzenleme için mükemmel.</p>"
+      },
+      "cleanProfessional": {
+        "title": "Temiz ve Profesyonel Sonuçlar",
+        "description": "<p class=\"mb-3\">Filigran yok, bulanık kenarlar yok – e-ticaret, sunumlar veya tasarım için hazır.</p>"
+      },
+      "replaceBackground": {
+        "title": "Arka Planı Değiştir",
+        "description": "<p class=\"mb-3\">Tek tıkla beyaz, renkli veya özel arka planlara kolayca geçin.</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "joymagic AI Arka Plan Kaldırıcı ile Neler Yapabilirsiniz",
+      "description": "Bir yükleme, sonsuz yaratıcı olanaklar.",
+      "productPhotos": {
+        "title": "Çarpıcı Ürün Fotoğrafları Oluşturun",
+        "description": "<p class=\"mb-3\">Ürün çekimlerinden dikkat dağıtıcı arka planları kaldırın ve öğeleri Amazon, Shopify veya listeler için temiz beyaz veya şeffaf üzerine yerleştirin.</p>"
+      },
+      "profilePictures": {
+        "title": "Profesyonel Profil Resimleri Yapın",
+        "description": "<p class=\"mb-3\">LinkedIn, özgeçmişler, kimlik fotoğrafları veya tanışma profilleri için portreleri anında izole edin.</p>"
+      },
+      "graphicsMemes": {
+        "title": "Grafikler ve Meme'ler Tasarım",
+        "description": "<p class=\"mb-3\">İnsanları, nesneleri veya hayvanları çıkarın ve yeni arka planlar, posterler veya sosyal medya görsellerine katmanlayın.</p>"
+      },
+      "ecommerce": {
+        "title": "E-Ticaret için Görüntüleri Hazırlayın",
+        "description": "<p class=\"mb-3\">Toplu kaldırma ile yüzlerce ürün görüntüsünü hızlıca işleyin – manuel düzenleme saatlerinden tasarruf edin.</p>"
+      },
+      "socialMedia": {
+        "title": "Sosyal Medya İçeriğini Geliştirin",
+        "description": "<p class=\"mb-3\">Şeffaf çıkartmalar veya temiz kesimlerle göz alıcı hikayeler, gönderiler ve reel'ler oluşturun.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "Görüntüden Arka Plan Nasıl Kaldırılır",
+      "description": "AI arka plan kaldırıcımızla sadece birkaç basit adımda arka planları kaldırın:",
+      "step1": {
+        "title": "1. Görüntünüzü yükleyin",
+        "description": "<p class=\"mb-3\">Fotoğrafınızı sürükleyip bırakın veya seçin.</p><p class=\"mb-3\">JPG, JPEG, PNG, WEBP ve HEIC formatlarını destekler.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Portreler, ürün çekimleri, logolar ve daha fazlasıyla çalışır</li><li>Net konularla en iyi sonuçlar</li></ul>"
+      },
+      "step2": {
+        "title": "2. AI'nın sihri yapmasına izin verin",
+        "description": "<p class=\"mb-3\">AI'mız otomatik olarak algılar ve saniyeler içinde arka planı kaldırır.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Manuel fırçalama veya seçim gerekmez</li><li>Şeffaf sonucu anında önizleyin</li></ul>"
+      },
+      "step3": {
+        "title": "3. İnce ayar (isteğe bağlı)",
+        "description": "<p class=\"mb-3\">Gerekirse ince ayar yapın:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Konunun kısımlarını geri yükleyin</li><li>Kalan arka plan lekelerini silin</li><li>Mükemmel kesimler için kenarları düzeltin</li></ul>"
+      },
+      "step4": {
+        "title": "4. Sonucunuzu indirin",
+        "description": "<p class=\"mb-3\">Arka plansız görüntünüzü anında alın:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Şeffaf PNG (katmanlar için ideal)</li><li>Veya düz renk/beyaz arka plan seçin</li><li>HD kalite, kullanıma hazır</li></ul>"
+      }
+    },
+    "faq": {
+      "title": "AI Görüntü Arka Plan Kaldırıcı SSS",
+      "description": "AI Görüntü Arka Plan Kaldırıcımız hakkında yaygın sorular.",
+      "q1": {
+        "question": "Hangi görüntü formatları destekleniyor?",
+        "answer": "JPG, JPEG, PNG, WEBP ve HEIC'i destekliyoruz. En iyi sonuçlar için yüksek kaliteli görüntüler kullanın."
+      },
+      "q2": {
+        "question": "Görüntülerimde filigran olacak mı?",
+        "answer": "Hayır. Tüm indirmeler temiz ve filigransızdır."
+      },
+      "q3": {
+        "question": "AI ne kadar hassas?",
+        "answer": "AI'mız saç, kürk ve karmaşık kenarlarda mükemmeldir. Çok karmaşık durumlar için, sonucu mükemmelleştirmek için basit ince ayar araçlarını kullanın."
+      },
+      "q4": {
+        "question": "Birden fazla görüntüden arka plan kaldırabilir miyim?",
+        "answer": "Evet – toplu işleme, birden fazla görüntüyü aynı anda yüklemenize ve arka planlarını kaldırmanıza olanak tanır."
+      },
+      "q5": {
+        "question": "Verilerim güvende mi?",
+        "answer": "Evet. Yüklenen görüntüler güvenli bir şekilde işlenir ve işlemeden sonra otomatik olarak silinir. Görüntülerinizi asla eğitim için kullanmayız."
+      },
+      "q6": {
+        "question": "Arka plan rengini değiştirebilir miyim?",
+        "answer": "Evet – şeffaf arka planla indirin veya beyaz/düz renk arka plan seçin."
+      },
+      "q7": {
+        "question": "Hangi tür görüntüler en iyi çalışır?",
+        "answer": "Kontrastlı veya dağınık bir arka plana karşı net bir ana konu (kişi, ürün, nesne, hayvan) olan görüntüler en iyi otomatik sonuçları verir. Portreler, ürün çekimleri ve logolar özellikle iyi performans gösterir."
+      },
+      "q8": {
+        "question": "AI kaldırmadan sonra sonucu ince ayar yapabilir veya düzenleyebilir miyim?",
+        "answer": "Evet – basit fırça araçları, yanlışlıkla kaldırılan kısımları manuel olarak geri yüklemenize veya piksel mükemmel kontrolü için kalan arka plan lekelerini silmenize olanak tanır."
+      }
+    },
+    "privacySecurity": {
+      "title": "Gizlilik ve Güvenlik",
+      "description": "Görüntüleriniz ve gizliliğiniz önceliğimizdir.",
+      "secureProcessing": "Tüm yüklemeler güvenli ve şifrelenmiş olarak işlenir",
+      "autoDelete": "Görüntüler işlemeden sonra otomatik olarak silinir",
+      "neverShared": "Üçüncü taraflarla asla paylaşılmaz veya AI eğitimi için kullanılmaz"
+    },
+    "finalCTA": {
+      "title": "Herhangi bir fotoğrafı temiz, profesyonel bir kesime dönüştürün.",
+      "description": "joymagic'ın AI Arka Plan Kaldırıcısını şimdi deneyin ve saniyeler içinde mükemmel şeffaf sonuçlar elde edin.<br/><span class=\"text-muted-foreground\">Tasarım becerisi gerekmez · Ücretsiz deneyin</span>",
+      "button": "Şimdi Arka Planı Kaldır"
+    }
+  }
+}
+

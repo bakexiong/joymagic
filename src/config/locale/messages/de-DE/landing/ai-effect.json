@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "title": "KI-Effekt | joymagic",
+    "description": "Durchsuche Video- und Bildeffekte an einem Ort und springe mit einem Klick in den passenden Erstellungsablauf."
+  },
+  "badge": "KI-Effekt",
+  "title": "KI-Effekt",
+  "description": "Wechsle in einer gemeinsamen Galerie zwischen Video- und Bildeffekten und starte den passenden Erstellungsablauf mit nur einem Klick.",
+  "cta": {
+    "video": "Ahnliches Video erstellen"
+  },
+  "tabs": {
+    "video": "Videoeffekte",
+    "image": "Bildeffekte"
+  }
+}

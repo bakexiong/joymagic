@@ -1,0 +1,178 @@
+{
+  "title": "Seedream V4.5 Text to Image",
+  "subtitle": "Generate stunning images from text descriptions",
+  "prompt_label": "提示詞",
+  "prompt_placeholder": "Nighttime outdoor photoshoot: A young man stands inside a public phone booth, holding a blue phone receiver to his ear. One hand is casually tucked into his pocket, and he strikes a relaxed posture. He wears a white T-shirt with a pattern, loose brown pants, and jacket draped over his arm. The booth's glass reflects city streetlights with a bokeh effect, creating a vintage film style.",
+  "prompt_tooltip": "Enter a description of the image you want to generate",
+  "size_label": "Image Size",
+  "size_hint": "Choose the output image size",
+  "width_label": "Width",
+  "height_label": "Height",
+  "buttons": {
+    "generate": "生成圖片"
+  },
+  "errors": {
+    "promptRequired": "Prompt is required"
+  },
+  "image_alt": "Generated image",
+  "download": "Download",
+  "image_placeholder": "Generated image will appear here",
+  "prompt_inspirations_button": "提示詞靈感",
+  "prompt_guide_button": "提示詞指南",
+  "powered_by": "由 joymagic 優化的 Seedream V4.5 AI 模型提供支持",
+  "page": {
+    "metadata": {
+      "title": "Seedream 4.5 Text to Image - AI Image Generator | joymagic",
+      "description": "Generate stunning images from text descriptions using Seedream V4.5 AI model. High-quality, fast, and easy to use.",
+      "keywords": "text to image, ai image generator, seedream v4.5, ai art generator, text to image ai, image generation"
+    },
+    "hero": {
+      "title": "Seedream 4.5 Text to Image",
+      "description": "Transform your text descriptions into stunning images with AI",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "heroDescription": "Create stunning images from simple text descriptions using advanced AI technology.",
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Powerful AI image generation capabilities",
+      "fastProcessing": {
+        "title": "Fast Processing",
+        "description": "Generate images quickly with our optimized AI model"
+      },
+      "highQuality": {
+        "title": "High Quality",
+        "description": "Produce high-resolution, detailed images"
+      },
+      "easyToUse": {
+        "title": "Easy to Use",
+        "description": "Simply describe what you want and let AI create it"
+      },
+      "photorealistic": {
+        "title": "逼真品質",
+        "description": "生成看起來像專業攝影的圖片。準確的皮膚紋理、自然光照、真實環境—沒有 AI 圖片常見的恐怖谷效應。"
+      },
+      "complexScene": {
+        "title": "複雜場景理解",
+        "description": "描述包含多個主體、空間關係和特定光照的詳細場景。模型能準確理解您文字中的構圖、位置和氛圍。"
+      },
+      "bilingual": {
+        "title": "雙語提示詞",
+        "description": "使用英文、中文或兩者混合編寫。模型對兩種語言的細微描述理解同樣出色—適用於中文文化參考或特定術語。"
+      },
+      "fastGeneration": {
+        "title": "快速生成",
+        "description": "在幾秒鐘內生成高解析度圖片。速度快到足以進行即時創意探索和迭代。"
+      },
+      "styleFlexibility": {
+        "title": "風格靈活性",
+        "description": "創建逼真圖片、動漫插畫、油畫、水彩畫、3D 渲染等。在提示詞中指定您想要的風格，或讓模型匹配主題。"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "Generate images in three simple steps",
+      "step1": {
+        "title": "Enter Your Prompt",
+        "description": "Describe the image you want to generate"
+      },
+      "step2": {
+        "title": "Choose Settings",
+        "description": "Select output format and preferences"
+      },
+      "step3": {
+        "title": "Generate & Download",
+        "description": "Get your AI-generated image and download it"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Common questions about Seedream V4.5 Text to Image",
+      "q1": {
+        "question": "What is Seedream V4.5 Text to Image?",
+        "answer": "Seedream V4.5 is an AI model that generates images from text descriptions."
+      },
+      "q2": {
+        "question": "How long does it take to generate an image?",
+        "answer": "Generation time varies, but typically takes a few seconds to a minute."
+      },
+      "q3": {
+        "question": "What formats are supported?",
+        "answer": "We support PNG, JPEG, and WEBP formats."
+      },
+      "q4": {
+        "question": "它支援中文提示詞嗎？",
+        "answer": "是的，Seedream 4.5 對英文和中文的理解同樣出色。您可以使用任一語言編寫提示詞，或混合使用兩種語言。"
+      },
+      "q5": {
+        "question": "與 GPT-Image-1 有什麼區別？",
+        "answer": "Seedream 4.5 在雙語提示詞和多圖片混合（在圖片轉圖片模式下）方面表現出色。GPT-Image-1 在圖片內文字渲染方面更好。根據您的主要需求選擇。"
+      }
+    },
+    "privacySecurity": {
+      "title": "Privacy & Security",
+      "description": "Your privacy and security are our top priorities.",
+      "secureProcessing": "Secure Processing",
+      "autoDelete": "Auto Delete",
+      "neverShared": "Never Shared"
+    },
+    "finalCTA": {
+      "title": "準備開始創作了嗎？",
+      "description": "立即開始從您的文字描述生成精美的圖片。",
+      "button": "立即試用"
+    },
+    "breadcrumb": {
+      "home": "首頁",
+      "textToImage": "文字轉圖片",
+      "seedreamV45": "Seedream 4.5"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Seedream 4.5 文字轉圖片",
+      "howToName": "如何使用 Seedream 4.5 生成圖片",
+      "features": {
+        "aiTextToImage": "AI 文字轉圖片",
+        "highQuality": "高品質圖片",
+        "fastProcessing": "快速處理"
+      },
+      "howToDescription": "使用 Seedream 4.5 從文字描述生成圖片"
+    },
+    "promptingTips": {
+      "title": "提示詞技巧",
+      "lighting": {
+        "title": "具體描述光照",
+        "description": "\"左側金色時光陽光，柔和陰影\" 比 \"良好光照\" 效果更好。"
+      },
+      "camera": {
+        "title": "包含相機細節",
+        "description": "\"使用 85mm 鏡頭拍攝，淺景深\" 可增加專業攝影品質。"
+      },
+      "style": {
+        "title": "指定藝術風格",
+        "description": "\"宮崎駿風格的數位插畫\" 或 \"超寫實 3D 渲染\" 可提供清晰方向。"
+      },
+      "mood": {
+        "title": "描述情緒和氛圍",
+        "description": "\"舒適、溫暖、懷舊的感覺\" 或 \"戲劇性、電影感、高對比度\" 塑造整體圖片。"
+      }
+    },
+    "useCases": {
+      "title": "使用場景",
+      "marketing": {
+        "title": "行銷視覺",
+        "description": "無需拍攝即可生成產品概念、廣告圖像和社群媒體內容。"
+      },
+      "character": {
+        "title": "角色設計",
+        "description": "從文字描述為遊戲、漫畫或動畫專案創建原創角色。"
+      },
+      "concept": {
+        "title": "概念藝術",
+        "description": "快速視覺化場景、環境和想法，用於創意專案和簡報。"
+      },
+      "stock": {
+        "title": "圖庫替代",
+        "description": "生成您需要的特定圖片，而不是在通用圖庫中搜尋。"
+      }
+    }
+  }
+}

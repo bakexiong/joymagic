@@ -1,0 +1,102 @@
+{
+  "title": "GPT Image 1 텍스트에서 이미지로",
+  "subtitle": "텍스트 설명으로 멋진 이미지 생성",
+  "prompt_label": "프롬프트",
+  "prompt_placeholder": "\"Urban Pulse\"라는 라이프스타일 잡지를 위한 전문적이고 시각적으로 매력적인 잡지 표지를 만듭니다.",
+  "prompt_tooltip": "생성하려는 이미지의 설명을 입력하세요",
+  "size_label": "크기",
+  "size_tooltip": "이미지 크기 선택",
+  "quality_label": "품질",
+  "quality_tooltip": "이미지 품질을 선택하세요. 더 높은 품질은 더 많은 크레딧을 사용합니다.",
+  "credits_required": "필요한 크레딧",
+  "buttons": {
+    "generate": "이미지 생성"
+  },
+  "errors": {
+    "promptRequired": "프롬프트가 필요합니다"
+  },
+  "image_alt": "생성된 이미지",
+  "download": "다운로드",
+  "image_placeholder": "생성된 이미지가 여기에 표시됩니다",
+  "page": {
+    "metadata": {
+      "title": "GPT-Image-1 텍스트에서 이미지로 - AI 이미지 생성기 | joymagic",
+      "description": "OpenAI GPT-Image-1을 사용하여 텍스트에서 이미지를 생성합니다. 포스터 및 간판을 위한 우수한 텍스트 렌더링. 정확한 프롬프트 이해, 다양한 스타일. 지금 무료로 시도해보세요.",
+      "keywords": "GPT-Image-1, 텍스트에서 이미지로, AI 이미지 생성기, openai, 텍스트 렌더링, 포스터, 간판, 프롬프트 이해"
+    },
+    "hero": {
+      "title": "GPT-Image-1 텍스트에서 이미지로",
+      "description": "GPT-Image-1은 정확한 프롬프트 이해와 정확한 텍스트 렌더링을 위해 구축된 OpenAI의 이미지 생성 모델입니다. 제목, 간판, 레이블과 같은 텍스트 요소를 포함하여 모든 장면, 스타일 또는 디자인을 설명할 수 있습니다. 아래에서 GPT-Image-1을 무료로 시도해보세요！<br/><br/>이중 언어 프롬프트나 캐릭터 일관성이 필요하신가요? <a href=\"/text-to-image/seedream-4-5\" class=\"text-primary underline\">Seedream 4.5 텍스트에서 이미지로를 시도해보세요</a>.",
+      "button1": "지금 시도",
+      "button2": "가격 보기"
+    },
+    "keyFeatures": {
+      "title": "주요 기능",
+      "description": "정확한 이미지 생성을 위한 강력한 기능",
+      "superiorTextRendering": {
+        "title": "우수한 텍스트 렌더링",
+        "description": "이미지 내부에 명확하고 읽기 쉬운 텍스트를 생성합니다—포스터, 간판, 책 표지, 제품 라벨, 소셜 미디어 그래픽. 대부분의 생성 모델보다 여러 텍스트 요소와 밀집된 타이포그래피를 더 잘 처리합니다."
+      },
+      "preciseInstructionFollowing": {
+        "title": "정확한 지시 이해",
+        "description": "모델은 상세한 프롬프트를 정확하게 해석합니다. 구도, 조명, 색상 팔레트, 분위기, 스타일 및 피사체 배치를 지정하면 GPT-Image-1은 작은 요소까지 지시를 따르며 드리프트 없이 실행합니다."
+      },
+      "styleVersatility": {
+        "title": "스타일 다양성",
+        "description": "사진처럼 사실적인 이미지, 일러스트레이션, 컨셉 아트, 빈티지 사진, 미니멀 디자인 등을 생성할 수 있습니다. 프롬프트에서 특정 예술적 스타일이나 운동을 참조하여 타겟팅된 결과를 얻을 수 있습니다."
+      },
+      "transparentBackground": {
+        "title": "투명 배경 지원",
+        "description": "PNG 출력 형식을 사용하여 투명도가 있는 이미지를 생성합니다. 프롬프트에 \"투명 배경\"을 지정하면 수동으로 잘라내지 않고도 디자인에 합성할 수 있는 자산을 준비할 수 있습니다."
+      }
+    },
+    "useCases": {
+      "title": "사용 사례",
+      "marketingGraphics": {
+        "title": "마케팅 그래픽",
+        "description": "텍스트 요소가 내장된 소셜 미디어 게시물, 배너 광고 및 프로모션 자료를 만듭니다. 제목, CTA 및 가격이 깔끔하게 렌더링됩니다."
+      },
+      "signagePosters": {
+        "title": "간판 및 포스터",
+        "description": "타이포그래피가 시각의 중심이 되는 이벤트 포스터, 상점 간판 및 공지를 디자인합니다."
+      },
+      "bookAlbumCovers": {
+        "title": "책 및 앨범 표지",
+        "description": "제목과 저자 텍스트가 통합된 표지 컨셉을 생성합니다. 최종 디자인을 확정하기 전에 방향을 탐색합니다."
+      },
+      "productMockups": {
+        "title": "제품 목업",
+        "description": "읽기 쉬운 제품명, 성분 및 브랜딩이 포함된 패키징 컨셉 및 라벨 디자인을 만듭니다."
+      }
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "GPT-Image-1 텍스트에서 이미지로에 대한 일반적인 질문",
+      "q1": {
+        "question": "GPT-Image-1이란 무엇입니까?",
+        "answer": "GPT-Image-1은 텍스트 설명에서 이미지를 생성하는 OpenAI의 AI 이미지 생성 모델입니다. 이미지 내에서 읽기 쉬운 텍스트 렌더링에 특히 강점이 있습니다."
+      },
+      "q2": {
+        "question": "텍스트 렌더링의 정확도는 어느 정도입니까?",
+        "answer": "GPT-Image-1은 대부분의 AI 모델보다 읽기 쉬운 텍스트를 생성합니다. 여러 텍스트 요소와 밀집된 타이포그래피를 처리합니다. 중요한 애플리케이션에서 픽셀 완벽한 텍스트가 필요한 경우 여기에서 기본 이미지를 생성한 다음 디자인 소프트웨어에서 최종 텍스트를 추가하세요."
+      },
+      "q3": {
+        "question": "투명 배경을 얻을 수 있습니까?",
+        "answer": "예. PNG 출력 형식을 선택하고 프롬프트에 \"투명 배경\"을 포함하세요. 로고, 스티커 및 합성 자산에 유용합니다."
+      },
+      "q4": {
+        "question": "어떤 스타일을 생성할 수 있습니까?",
+        "answer": "사진처럼 사실적인 이미지, 일러스트레이션, 컨셉 아트, 디지털 페인팅, 빈티지 미학, 미니멀 디자인 등. 프롬프트에서 특정 스타일을 참조하세요."
+      },
+      "q5": {
+        "question": "언제 Seedream 4.5를 대신 사용해야 합니까?",
+        "answer": "이중 언어 프롬프트 지원(중국어)이 필요하거나 여러 생성에서 캐릭터 일관성을 유지하려는 경우 Seedream 4.5를 사용하세요. 텍스트 렌더링 품질이 우선순위인 경우 GPT-Image-1을 사용하세요."
+      }
+    },
+    "finalCTA": {
+      "title": "만들 준비가 되셨나요?",
+      "description": "오늘부터 텍스트 설명으로 멋진 이미지를 생성하기 시작하세요.",
+      "button": "지금 시도"
+    }
+  }
+}

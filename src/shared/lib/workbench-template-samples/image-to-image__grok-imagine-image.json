@@ -1,0 +1,23 @@
+[
+  {
+    "prompt": "Let the man in the Figure sits at a cluttered desk in a dimly lit office, surrounded by stacks of papers, half-empty coffee cups, and a blinking computer monitor. He wears a worn gray button-up shirt and dark trousers, with one hand resting on the keyboard and the other gripping a pen. His expression is weary but focused, eyes fixed on the screen as if deep in thought or solving a complex problem. Natural light filters through blinds, casting soft shadows across the room. The office has a lived-in feel—posters on the wall, a water bottle on the desk, and a faint smell of stale coffee. Medium shot, eye-level perspective, realistic lighting, detailed textures, naturalistic atmosphere.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/77c925bade53fc25a154f0aa0312f6d6.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/77c925bade53fc25a154f0aa0312f6d6.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Let the man in the Figure sits at a cluttered desk in a dimly lit office, surrounded by stacks of papers, half-empty coffee cups, and a blinking computer monitor. He wears a worn gray button-up shirt and dark trousers, with one hand resting on the keyboard and the other gripping a pen. His expression is weary but focused, eyes fixed on the screen as if deep in thought or solving a complex problem. Natural light filters through blinds, casting soft shadows across the room. The office has a lived-in feel—posters on the wall, a water bottle on the desk, and a faint smell of stale coffee. Medium shot, eye-level perspective, realistic lighting, detailed textures, naturalistic atmosphere."
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/cd002b2114a57982137c70bec33edadb.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/cd002b2114a57982137c70bec33edadb.jpg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/ea0e724dbb1c70e365b74643e92ceaee.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/ea0e724dbb1c70e365b74643e92ceaee.jpeg"
+    ],
+    "generatedAt": "2026-04-15T03:27:45.538Z"
+  }
+]

@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "title": "Affiliate Program | joymagic",
+    "description": "Tritt dem joymagic-Partnerprogramm bei und verdiene Provisionen aus Erstkäufen und Verlängerungen."
+  },
+  "hero": {
+    "eyebrow": "Affiliate Program",
+    "title": "Mache aus deiner Reichweite wiederkehrende Einnahmen",
+    "description": "Tritt dem joymagic-Partnerprogramm bei. Wenn sich ein Nutzer innerhalb deines 7-Tage-Zuordnungsfensters registriert und einen kostenpflichtigen Kauf abschließt, wird die Zuordnung an dieses Konto gebunden und spätere Verlängerungen zählen weiterhin für dich.",
+    "primary": "Jetzt bewerben",
+    "secondary": "Provisionsregeln ansehen",
+    "trust": [
+      "7-Tage-First-Click-Sperre",
+      "Provisionen für Erstkäufe und Verlängerungen",
+      "Geräteübergreifende Zuordnung nach Kontobindung"
+    ]
+  },
+  "stats": {
+    "first_order": {
+      "label": "Provision für Erstkauf",
+      "suffix": ""
+    },
+    "renewal": {
+      "label": "Verlängerungsprovision",
+      "suffix": ""
+    },
+    "cookie": {
+      "label": "Cookie-Fenster",
+      "suffix": "Tage"
+    },
+    "payout": {
+      "label": "Mindestauszahlung",
+      "suffix": ""
+    }
+  },
+  "sections": {
+    "why": {
+      "title": "Warum dieses Programm funktioniert",
+      "description": "Ideal für Creator, Lehrende, Design-Communities, AI-Verzeichnisse und KOLs, die bestehenden Traffic in dauerhafte Einnahmen verwandeln möchten."
+    },
+    "how": {
+      "title": "So funktionieren Provisionen",
+      "description": "Der Ablauf ist einfach und transparent. Teile deinen Empfehlungslink und lass das System das Tracking übernehmen."
+    },
+    "faq": {
+      "title": "FAQ"
+    },
+    "apply": {
+      "title": "Als Affiliate bewerben",
+      "description": "Teile deine Promotion-Details und wir prüfen deine Bewerbung manuell. Nach der Freigabe wird dein Empfehlungslink automatisch erstellt.",
+      "signed_in": "Du bist angemeldet und kannst die Bewerbung jetzt absenden.",
+      "signed_out": "Du musst dich zuerst anmelden. Danach kehrst du zu dieser Seite zurück.",
+      "signin": "Anmelden und bewerben",
+      "open_modal": "Jetzt bewerben",
+      "already_member": "Du bist bereits Affiliate. Öffne dein Affiliate-Center, um Link und Provisionsdaten zu sehen.",
+      "pending": "Deine Bewerbung wird derzeit geprüft.",
+      "go_dashboard": "Affiliate-Center öffnen",
+      "modal_title": "joymagic Affiliate Program",
+      "modal_subtitle": "Als Affiliate bewerben",
+      "email_placeholder": "*E-Mail",
+      "full_name_placeholder": "*Vollständiger Name",
+      "payout_method": "PayPal",
+      "paypal_placeholder": "*Deine PayPal-Konto-ID",
+      "channel_placeholder": "*Wie du den Affiliate-Link bewerben willst, z. B. über YouTube-Videos, Social-Media-Inhalte usw.",
+      "required_hint": "*Pflichtfeld",
+      "cancel": "Abbrechen",
+      "desired_tier": "Gewünschte Stufe",
+      "standard": "Standard-Affiliate",
+      "kol": "KOL / großer Kanal",
+      "paypal_email": "PayPal-Auszahlungs-E-Mail",
+      "social_platform": "Social-Media-Plattform",
+      "social_account": "Social-Media-Konto / Profil-Link",
+      "channel_summary": "Kanalbeschreibung",
+      "application_note": "Zusätzliche Notiz",
+      "agreement": "Ich habe die Affiliate-Bedingungen und Provisionsregeln gelesen und stimme ihnen zu",
+      "submit": "Bewerbung absenden",
+      "agreement_hint": "Mit der Bewerbung stimmst du zu, dass ungültiger Traffic verboten ist, Provisionen nur für gültige Erstkäufe und Verlängerungen gezahlt werden und Auszahlungen über PayPal erfolgen."
+    }
+  },
+  "cards": {
+    "audience": {
+      "title": "Am besten geeignet für",
+      "items": [
+        "AI-Tool-Reviewer und Tutorial-Creator",
+        "Design-Communities und Betreiber von Ressourcen-Websites",
+        "Creator auf YouTube, TikTok, Xiaohongshu und X",
+        "Verzeichnisse, Template-Seiten und Traffic-Partner"
+      ]
+    },
+    "benefits": {
+      "title": "Was du bekommst",
+      "items": [
+        "Einen eigenen Empfehlungslink und Affiliate-Code",
+        "Provisionen aus Erstkäufen und Verlängerungen",
+        "Ein Dashboard für Bewerbungen, Provisionen und Auszahlungen",
+        "Optionale KOL-Upgrades mit individuellen Provisionssätzen"
+      ]
+    }
+  },
+  "how": {
+    "steps": [
+      {
+        "title": "1. Bewerben",
+        "description": "Sende deine Kanalinfos, Social-Profile und PayPal-Auszahlungsdaten ein."
+      },
+      {
+        "title": "2. Freigabe erhalten",
+        "description": "Nach der Freigabe wird ein eindeutiger Affiliate-Code erstellt und per E-Mail an dich gesendet."
+      },
+      {
+        "title": "3. Link teilen",
+        "description": "Sobald Besucher deinen Link anklicken, wird die First-Click-Zuordnung 7 Tage lang für dich gesperrt."
+      },
+      {
+        "title": "4. Provisionen verdienen",
+        "description": "Registriert sich der Nutzer innerhalb des Fensters, zählen spätere Käufe dieses Kontos weiterhin für dich."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "Was passiert, wenn ein Nutzer meinen Link und innerhalb von 7 Tagen dann den Link eines anderen anklickt?",
+        "answer": "Die Zuordnung bleibt bei dir. Wir nutzen eine 7-Tage-First-Click-Sperre, daher überschreiben spätere Klicks innerhalb des aktiven Fensters den ursprünglichen Affiliate nicht."
+      },
+      {
+        "question": "Bekomme ich noch Provision, wenn der Nutzer nach der Registrierung auf einem anderen Gerät kauft?",
+        "answer": "Ja. Sobald sich der Nutzer innerhalb deines gültigen Zuordnungsfensters registriert, wird die Zuordnung an das Konto gebunden. Spätere Käufe auf anderen Geräten zählen weiterhin für dich."
+      },
+      {
+        "question": "Unterstützt ihr Provisionen für Erstkäufe und Verlängerungen?",
+        "answer": "Ja. Erstkäufe und Verlängerungen haben getrennte Sätze, und KOL-Partner können zusätzlich individuelle Sätze erhalten."
+      },
+      {
+        "question": "Wann kann ich eine Auszahlung beantragen?",
+        "answer": "Nach einer erfolgreichen Zahlung gehen Provisionen zunächst in eine Bestätigungsphase und werden nach der standardmäßigen Verzögerung von 3 Tagen auszahlbar. Sobald du die Mindestauszahlung erreichst, kannst du eine PayPal-Auszahlung beantragen."
+      }
+    ]
+  }
+}

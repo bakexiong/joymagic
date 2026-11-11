@@ -1,0 +1,122 @@
+{
+  "textToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 텍스트 투 비디오 - 시네마틱 AI 비디오 생성기 | joymagic",
+      "description": "HappyHorse 1.0으로 3-15초 720p 시네마틱 클립을 생성하세요. 프롬프트를 세련된 16:9 AI 비디오로 바꾸고, 필요하면 seed로 결과 재현성도 확보할 수 있습니다.",
+      "keywords": "happyhorse 1.0, 텍스트 투 비디오, ai 비디오 생성기, alibaba happyhorse, 시네마틱 ai 비디오, 720p 텍스트 투 비디오, 16:9 ai 비디오"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 텍스트 투 비디오",
+      "description": "HappyHorse 1.0은 간단한 프롬프트를 완성도 높은 3-15초 시네마틱 클립으로 바꿔줍니다. 기본 16:9 프레이밍, 720p 출력, 선택적 seed 제어로 짧은 초안을 빠르게 비교하고 반복할 수 있습니다.<br/><br/>정지 이미지를 움직이고 싶다면 <a href=\"/image-to-video/happyhorse-1-0\" class=\"text-primary underline\">HappyHorse 1.0 이미지 투 비디오</a>를 사용해 보세요.",
+      "button1": "지금 시작",
+      "button2": "가격 보기"
+    },
+    "keyFeatures": {
+      "title": "핵심 기능",
+      "cinematicPreset": {
+        "title": "기본 시네마틱 톤",
+        "description": "비주얼 피치, SNS 티저, 짧은 콘셉트 영상에 잘 맞는 시네마틱 느낌의 결과를 빠르게 생성합니다."
+      },
+      "fastStoryboard": {
+        "title": "3-15초 고속 초안",
+        "description": "길이가 고정되어 있어 여러 아이디어를 나란히 비교하며 프롬프트 방향을 빠르게 조정할 수 있습니다."
+      },
+      "reproducibleSeed": {
+        "title": "재현 가능한 Seed 제어",
+        "description": "여러 번 생성해도 유사한 결과를 유지하고 싶을 때 seed를 활용할 수 있습니다."
+      },
+      "nativeWideframe": {
+        "title": "기본 16:9 출력",
+        "description": "추가 리프레이밍 없이 바로 공유하기 좋은 와이드스크린 영상을 생성합니다."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "HappyHorse 1.0 텍스트 투 비디오는 무엇인가요?",
+        "answer": "Alibaba HappyHorse 1.0을 사용해 텍스트 프롬프트를 3-15초 720p 영상으로 생성하는 AI 비디오 워크플로입니다."
+      },
+      "q2": {
+        "question": "어떤 화면비를 지원하나요?",
+        "answer": "현재 텍스트 투 비디오 워크플로는 16:9 출력에 최적화되어 있습니다."
+      },
+      "q3": {
+        "question": "길이를 바꿀 수 있나요?",
+        "answer": "이 버전은 빠른 3-15초 생성에 초점을 맞춰 빠른 검토와 반복 작업에 적합합니다."
+      },
+      "q4": {
+        "question": "Seed는 무엇에 쓰이나요?",
+        "answer": "Seed는 여러 번 생성할 때 결과를 더 비슷하게 재현하거나 안정화하는 데 도움이 됩니다."
+      },
+      "q5": {
+        "question": "어떤 사용자에게 적합한가요?",
+        "answer": "짧은 시네마틱 콘셉트 영상을 빠르게 만들어야 하는 크리에이터, 마케터, 제품 팀에 잘 맞습니다."
+      }
+    },
+    "finalCTA": {
+      "title": "HappyHorse 1.0으로 영상을 만들어 볼까요?",
+      "description": "프롬프트를 짧고 인상적인 시네마틱 클립으로 바꿔 보세요.",
+      "button": "영상 생성"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 이미지 투 비디오 - 정지 이미지를 AI로 애니메이션화 | joymagic",
+      "description": "HappyHorse 1.0으로 정지 이미지를 3-15초 720p 클립으로 변환하세요. 이미지 한 장만 업로드하면 간단한 흐름으로 빠르게 모션을 만들 수 있습니다.",
+      "keywords": "happyhorse 1.0, 이미지 투 비디오, 이미지 애니메이션, ai 이미지 애니메이션, alibaba happyhorse, 720p 이미지 투 비디오, 3-15초 ai 비디오"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 이미지 투 비디오",
+      "description": "HappyHorse 1.0은 이미지 한 장을 3-15초 720p 애니메이션 클립으로 바꿉니다. 참조 이미지를 한 장 업로드하고 필요하면 모션 프롬프트를 추가해 깔끔한 와이드스크린 결과를 빠르게 얻을 수 있습니다.<br/><br/>텍스트에서 바로 시작하고 싶다면 <a href=\"/text-to-video/happyhorse-1-0\" class=\"text-primary underline\">HappyHorse 1.0 텍스트 투 비디오</a>를 사용해 보세요.",
+      "button1": "지금 시작",
+      "button2": "가격 보기"
+    },
+    "keyFeatures": {
+      "title": "핵심 기능",
+      "singleImageMotion": {
+        "title": "단일 이미지 애니메이션",
+        "description": "복잡한 장면 구성 없이 정지 이미지 한 장만으로 움직임을 만들 수 있습니다."
+      },
+      "fastFiveSecond": {
+        "title": "빠른 3-15초 출력",
+        "description": "짧고 고정된 길이 덕분에 가볍게 테스트하고 결과를 비교하기 좋습니다."
+      },
+      "cleanOutput": {
+        "title": "깔끔한 720p 및 1080p 출력",
+        "description": "콘셉트 데모, 소셜 콘텐츠, 캠페인 목업에 적합한 HD 클립을 생성합니다."
+      },
+      "simpleWorkflow": {
+        "title": "단순한 워크플로",
+        "description": "이미지, 길이, 해상도 같은 핵심 요소에 집중하고 필요할 때만 모션 프롬프트를 추가하세요."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "HappyHorse 1.0 이미지 투 비디오는 무엇을 하나요?",
+        "answer": "업로드한 이미지 한 장을 짧은 AI 비디오 클립으로 애니메이션화합니다."
+      },
+      "q2": {
+        "question": "프롬프트가 꼭 필요한가요?",
+        "answer": "아니요. 프롬프트는 선택 사항이지만 모션과 분위기를 더 잘 제어하는 데 도움이 됩니다."
+      },
+      "q3": {
+        "question": "출력 품질은 어떻게 되나요?",
+        "answer": "현재 설정에서는 720p 비디오를 생성합니다."
+      },
+      "q4": {
+        "question": "영상 길이는 얼마나 되나요?",
+        "answer": "이 워크플로는 현재 3-15초 클립에 맞춰 조정되어 있습니다."
+      },
+      "q5": {
+        "question": "텍스트 투 비디오 대신 이미지 투 비디오를 써야 하는 경우는 언제인가요?",
+        "answer": "참조 프레임, 캐릭터, 제품 사진, 구도를 그대로 유지하고 싶을 때 이미지 투 비디오가 더 적합합니다."
+      }
+    },
+    "finalCTA": {
+      "title": "HappyHorse 1.0으로 이미지를 움직이세요",
+      "description": "정지 이미지를 업로드하고 빠르고 간단하게 모션 클립으로 바꿔 보세요.",
+      "button": "이미지 애니메이션"
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "qwenImageLayered": {
+    "steps": {
+      "image": {
+        "title": "Bild*",
+        "hint": "Hinweis: Sie können eine Datei per Drag & Drop verschieben oder zum Hochladen klicken",
+        "dragDrop": "Ziehen und ablegen oder klicken zum Hochladen",
+        "dropHere": "Bild hier ablegen",
+        "urlPlaceholder": "Oder Bild-URL eingeben",
+        "urlEntered": "URL eingegeben"
+      },
+      "numLayers": {
+        "title": "Anzahl der Ebenen",
+        "hint": "Anzahl der zu zerlegenden Ebenen (1-8)"
+      },
+      "generate": {
+        "title": "Generieren",
+        "cta": "Generieren",
+        "generating": "Wird generiert..."
+      }
+    },
+    "preview": {
+      "title": "Vorschau",
+      "original": "Original",
+      "swap": "Tauschen",
+      "placeholder": "Laden Sie ein Bild hoch, um hier die Ebenenzerlegung zu sehen.",
+      "layers": "Ebenen",
+      "noLayers": "Noch keine Ebenen generiert",
+      "downloadAll": "Alle herunterladen"
+    },
+    "common": {
+      "selected": "Ausgewählt: {name}",
+      "notSelected": "Nicht ausgewählt",
+      "clear": "Löschen"
+    },
+    "errors": {
+      "invalidFileType": "Ungültiger Dateityp. Bitte laden Sie eine Bilddatei (JPG, PNG, WEBP) hoch.",
+      "uploadFailed": "Upload fehlgeschlagen: {error}",
+      "uploadFailedGeneric": "Upload fehlgeschlagen",
+      "imageRequired": "Bitte laden Sie ein Bild hoch oder geben Sie eine Bild-URL ein",
+      "generationFailed": "Bildgenerierung fehlgeschlagen",
+      "taskFailed": "Aufgabenverarbeitung fehlgeschlagen",
+      "taskTimeout": "Timeout bei der Aufgabenverarbeitung, bitte versuchen Sie es später erneut",
+      "taskIdNotFound": "Aufgaben-ID konnte nicht abgerufen werden, bitte überprüfen Sie das API-Antwortformat",
+      "processingFailed": "Verarbeitung fehlgeschlagen, bitte versuchen Sie es erneut",
+      "statusQueryFailed": "Abfrage des Aufgabenstatus fehlgeschlagen",
+      "apiResponseParseFailed": "API-Antwort konnte nicht analysiert werden"
+    }
+  },
+  "qwenImageLayeredPage": {
+    "metadata": {
+      "title": "KI-Bild-Ebenen-Zerlegungstool | RGBA-Ebenen | joymagic",
+      "description": "KI-gestütztes Tool zur Zerlegung von Bildern in bearbeitbare RGBA-Ebenen. Automatische semantische Trennung mit Alpha-Kanälen für nahtlose Foto-Bearbeitung und Design."
+    },
+    "hero": {
+      "title": "KI-Bild-Ebenen-Zerlegung",
+      "description": "Zerlegen Sie jedes Bild automatisch in bearbeitbare RGBA-Ebenen mit joymagic KI-Ebenen-Tool. Perfekte semantische Trennung – saubere Alpha-Kanäle, weiche Kanten und korrekte Okklusionsreihenfolge.",
+      "button1": "Jetzt in Ebenen zerlegen",
+      "button2": "Kostenlos starten · Keine Kreditkarte"
+    },
+    "heroDescription": "✓ HD-Download ✓ Kein Wasserzeichen ✓ Mehrere Ebenen",
+    "whatIs": {
+      "title": "Was ist KI-Bild-Ebenen-Zerlegung?",
+      "description": "joymagic KI-Bild-Ebenen-Tool, angetrieben von fortschrittlicher Qwen-Image-Layered-Technologie, analysiert automatisch ein einzelnes Bild und zerlegt es in mehrere semantisch unabhängige RGBA-Ebenen (Rot, Grün, Blau + Alpha-Transparenz).",
+      "paragraph1": "Im Gegensatz zur traditionellen Segmentierung, die nur Masken liefert, versteht unsere KI:",
+      "points": [
+        "Versteht Tiefe, Okklusion und Szenenstruktur",
+        "Generiert saubere Alpha-Kanäle mit weichen Kanten für jede Ebene",
+        "Bewahrt die korrekte Ebenenreihenfolge (Vordergrund zu Hintergrund)",
+        "Gibt sofort verwendbare Kompositionsebenen aus"
+      ],
+      "paragraph2": "Ideal für Designer, Illustratoren, Spieleentwickler, Fotobearbeiter und alle, die nicht-destruktive, ebenenbasierte Kontrolle über komplexe Bilder benötigen."
+    },
+    "howTo": {
+      "title": "Wie man ein Bild in Ebenen zerlegt",
+      "description": "Erstellen Sie bearbeitbare Ebenenkompositionen mit unserem KI-Ebenen-Zerlegungstool in nur wenigen einfachen Schritten:",
+      "step1": {
+        "title": "Laden Sie Ihr Bild hoch",
+        "description": "Ziehen Sie Ihr Foto oder Kunstwerk per Drag & Drop oder wählen Sie es aus.<br/>Unterstützt JPG, JPEG, PNG, WEBP-Formate.<br/><br/><strong>Funktioniert mit Fotos, KI-generierter Kunst, Illustrationen und Szenen</strong>"
+      },
+      "step2": {
+        "title": "Zerlegungsoptionen festlegen",
+        "description": "Passen Sie die Ausgabe an:<br/><br/><strong>Anzahl der Ebenen:</strong> Wählen Sie zwischen 2 und 8 Ebenen (Standard: 4)<br/><strong>Optionaler Prompt:</strong> Fügen Sie Anweisungen wie \"Person, Möbel, Hintergrund trennen\" für präzisere Kontrolle hinzu"
+      },
+      "step3": {
+        "title": "Ebenen generieren",
+        "description": "Klicken Sie auf Zerlegen – unsere KI analysiert sofort und teilt das Bild in Ebenen-RGBA-Ausgaben auf.<br/><br/><strong>Echtzeit-Vorschau jeder Ebene</strong>"
+      },
+      "step4": {
+        "title": "Vorschau und Download",
+        "description": "Zeigen Sie einzelne Ebenen mit Transparenz an.<br/><br/><strong>Als separate PNG-Dateien (mit Alpha) herunterladen</strong><br/><strong>Oder eine Ebenen-PSD-Datei erhalten (demnächst)</strong><br/><strong>HD-Qualität, bereit für Photoshop, Procreate oder jeden Editor</strong>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Hauptfunktionen",
+      "description": "Professionelle KI-Ebenen-Zerlegung mit intelligenter semantischer Trennung.",
+      "semantic": {
+        "title": "Semantische Ebenentrennung",
+        "description": "Intelligente Zerlegung in bedeutungsvolle Objekte und Bereiche – Menschen, Möbel, Himmel, Vordergrund, Hintergrund und mehr."
+      },
+      "alpha": {
+        "title": "Saubere Alpha-Kanäle und weiche Kanten",
+        "description": "Professionelle Transparenz mit gefederten, natürlichen Kanten – keine harten Ausschnitte oder Halos."
+      },
+      "occlusion": {
+        "title": "Korrekte Okklusionsreihenfolge",
+        "description": "Ebenen automatisch von vorne nach hinten sortiert für nahtlose Rekomposition."
+      },
+      "adjustable": {
+        "title": "Anpassbare Ebenenanzahl",
+        "description": "Tiefenkontrolle: 2-8 Ebenen je nach Bildkomplexität und Ihren Bedürfnissen."
+      },
+      "prompt": {
+        "title": "Prompt-gesteuerte Kontrolle",
+        "description": "Optionaler Text-Prompt, um die Trennung auf bestimmte Elemente oder Bereiche zu fokussieren."
+      },
+      "quality": {
+        "title": "Hochwertige Ebenenausgabe",
+        "description": "Laden Sie einzelne transparente PNGs herunter oder bereiten Sie sich auf erweiterte Bearbeitung vor – vollständiges HD mit erhaltenen Details."
+      }
+    },
+    "useCases": {
+      "title": "Was Sie mit joymagic KI-Ebenen-Zerlegung tun können",
+      "description": "Schalten Sie unendliche Ebenenmöglichkeiten aus einem einzigen Bild frei.",
+      "editing": {
+        "title": "Nicht-destruktive Fotobearbeitung",
+        "description": "Isolieren und bearbeiten Sie einzelne Elemente (Person, Objekte, Hintergrund), ohne den Rest zu beeinflussen."
+      },
+      "compositing": {
+        "title": "Erweiterte Komposition",
+        "description": "Ebenen neu anordnen, neu einfärben oder ersetzen, um neue Szenen aus einem einzigen Quellbild zu erstellen."
+      },
+      "gameAssets": {
+        "title": "Spiel- und UI-Asset-Erstellung",
+        "description": "Extrahieren Sie saubere Sprites, Charaktere oder Umgebungsebenen aus Konzeptkunst oder Fotos."
+      },
+      "illustration": {
+        "title": "Illustrations- und Digitalkunst-Workflow",
+        "description": "Verwandeln Sie flache Bilder in vollständig geschichtete Projekte für weitere Malerei oder Animation."
+      },
+      "sceneReconstruction": {
+        "title": "Szenenrekonstruktion und Remix",
+        "description": "Tauschen Sie Hintergründe, verschieben Sie Objekte oder erstellen Sie Variationen durch Manipulation getrennter Ebenen."
+      },
+      "tagline": "Ein Bild, unendliche Ebenenmöglichkeiten."
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen zur KI-Bild-Ebenen-Zerlegung",
+      "description": "Alles, was Sie über unser KI-Ebenen-Zerlegungstool wissen müssen.",
+      "q1": {
+        "question": "Welche Bildformate werden unterstützt?",
+        "answer": "Wir unterstützen JPG, JPEG, PNG und WEBP. Beste Ergebnisse mit klaren, hochauflösenden Bildern."
+      },
+      "q2": {
+        "question": "Wie viele Ebenen kann ich generieren?",
+        "answer": "Sie können zwischen 2 und 8 Ebenen wählen. Mehr Ebenen bieten feinere Trennung bei komplexen Szenen."
+      },
+      "q3": {
+        "question": "Werden meine Ebenen saubere Transparenz haben?",
+        "answer": "Ja. Jede Ebene enthält einen professionellen Alpha-Kanal mit weichen Kanten für natürliches Blending."
+      },
+      "q4": {
+        "question": "Kann ich die Zerlegung mit Text steuern?",
+        "answer": "Ja – fügen Sie einen optionalen Prompt hinzu, um bestimmte Objekte oder Bereiche zu priorisieren (z. B. \"auf Person und Tisch fokussieren\")."
+      },
+      "q5": {
+        "question": "Welche Ausgabeformate sind verfügbar?",
+        "answer": "Jede Ebene wird als separate transparente PNG heruntergeladen. Ebenen-PSD-Export demnächst."
+      },
+      "q6": {
+        "question": "Sind meine Daten sicher?",
+        "answer": "Ja. Hochgeladene Bilder werden sicher verarbeitet und nach der Verarbeitung automatisch gelöscht. Wir verwenden Ihre Bilder niemals für das Training."
+      },
+      "q7": {
+        "question": "Funktioniert es mit KI-generierten oder illustrierten Bildern?",
+        "answer": "Ja – ausgezeichnete Ergebnisse sowohl bei fotografischen als auch bei künstlerischen Stilen, einschließlich KI-Kunst."
+      }
+    },
+    "privacy": {
+      "title": "Datenschutz und Sicherheit",
+      "description": "Ihre Bilder und Ihre Privatsphäre haben für uns Priorität.",
+      "points": [
+        "Alle Uploads werden sicher verarbeitet und verschlüsselt",
+        "Bilder werden nach der Verarbeitung automatisch gelöscht",
+        "Niemals an Dritte weitergegeben oder für KI-Training verwendet"
+      ]
+    },
+    "finalCTA": {
+      "title": "Verwandeln Sie jedes Bild in vollständig bearbeitbare professionelle Ebenen.",
+      "description": "Probieren Sie joymagic KI-Ebenen-Zerlegung jetzt aus und schalten Sie echte Kompositionskontrolle in Sekunden frei.",
+      "button": "Jetzt in Ebenen zerlegen",
+      "helperText": "Keine Anmeldung erforderlich · Kostenlos starten · Downloads ohne Wasserzeichen"
+    }
+  }
+}

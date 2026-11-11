@@ -1,0 +1,603 @@
+{
+  "metadata": {
+    "title": "Veo 3.1 – 画像→動画 & テキスト→画像 API | joymagic",
+    "description": "joymagic で Veo 3.1 の画像→動画・テキスト→画像生成を利用。シンプルな価格、API サポート、実運用向けワークフローで HD ビジュアルを高速生成。",
+    "keywords": "Veo 3.1, Veo 3.1 image-to-video, Veo 3.1 I2V, Veo 3.1 text-to-image, Veo 3.1 API, Veo 3.1 料金"
+  },
+  "hero": {
+    "kicker": "1つのモデルで複数モダリティ — {brand}",
+    "h1": "Veo 3.1 画像→動画・テキスト→画像 API",
+    "description": "Veo 3.1 を使って、プロンプトや参照画像から高品質な画像と動画を生成。Web UI でも API でも利用できます。",
+    "trust": [
+      "HD 出力",
+      "高速生成",
+      "プロダクション向け"
+    ],
+    "pricing_from": "料金は",
+    "pricing_link": "$5",
+    "pricing_suffix": "（500 クレジット）から"
+  },
+  "sections": {
+    "what_is": {
+      "h2": "Veo 3.1 とは？",
+      "paragraphs": [
+        "Veo 3.1 は、テキスト→画像や画像→動画などに使われるマルチモーダル生成モデル（Veo 3.1 model）のファミリーです。",
+        "プロンプトと参照画像を、コンセプト作成からマーケ素材、反復制作まで使えるビジュアルに変換します。",
+        "joymagic は独立したサービスとして、Web UI と（有効化されている場合）API でこれらのワークフローを提供します。"
+      ]
+    },
+    "creations": {
+      "h2": "Veo 3.1 で作れるもの",
+      "cards": {
+        "t2i": {
+          "h3": "Veo 3.1 テキスト→画像（T2I）",
+          "p": "プロンプトから画像を生成。製品コンセプト、イラスト、マーケ用クリエイティブなどに。スタイルや構図、比率を素早く試せます。"
+        },
+        "editing": {
+          "h3": "Veo 3.1 画像生成 / 画像編集",
+          "p": "バリエーション生成、スタイライズ、段階的な改善。統一したプロンプト設計で最終ルックに早く収束します。"
+        },
+        "i2v": {
+          "h3": "Veo 3.1 画像→動画（I2V）",
+          "p": "1枚の画像を短い動画クリップに。モーションプロンプトで動きを誘導し、バリエーションで反復できます。"
+        }
+      },
+      "links": {
+        "prefix": "関連ツール：",
+        "i2v": "image-to-video",
+        "and": "と",
+        "t2i": "text-to-image",
+        "suffix": "（{brand}）"
+      }
+    },
+    "i2v": {
+      "h2": "Veo 3.1 画像→動画（I2V）",
+      "p": "広告や商品クリップなどの用途では、Veo 3.1 image-to-video（I2V）が入力画像から短いシーケンスを生成し、プロンプトで動きを制御します。対応していれば duration や HD プリセットを調整でき、motion prompt で動きを指定できます。1080p はエンドポイントが対応する場合にのみ選択肢に表示されます。",
+      "cards": {
+        "inputs": {
+          "h3": "入力",
+          "p": "参照画像 + シーンと動きを説明するプロンプト。被写体が明確で背景がシンプルだと安定しやすいです。"
+        },
+        "controls": {
+          "h3": "出力コントロール",
+          "p": "可能な場合は解像度や duration を調整。カメラ/被写体の動き、雰囲気を具体化すると再現性が上がります。"
+        },
+        "use_cases": {
+          "h3": "用途例",
+          "p": "商品動画、SNS 広告、B-roll 風、クリエイティブショット、簡易ストーリーボードなど。"
+        }
+      }
+    },
+    "how_to": {
+      "h2": "Veo 3.1 の使い方",
+      "steps": {
+        "1": {
+          "h3": "1. モードを選ぶ（T2I / I2V）",
+          "p": "静止画ならテキスト→画像、動きを付けるなら画像→動画。"
+        },
+        "2": {
+          "h3": "2. プロンプト（必要なら参照画像）",
+          "p": "被写体、スタイル、状況を記述。I2V は「slow push-in」などの動き指定を追加します。"
+        },
+        "3": {
+          "h3": "3. 出力設定（解像度・duration・比率）",
+          "p": "用途に合うプリセットを選び、同じ設定で再現性を確保します。"
+        },
+        "4": {
+          "h3": "4. 生成して確認",
+          "p": "まず1回生成し、一貫性・動き・構図をチェック。"
+        },
+        "5": {
+          "h3": "5. バリエーションで反復",
+          "p": "小さな変更で比較し、狙いに近づけます。"
+        },
+        "6": {
+          "h3": "6. エクスポート / ダウンロード / API 連携",
+          "p": "素材をダウンロードするか、API でバッチ/自動化に組み込みます。"
+        }
+      }
+    },
+    "api": {
+      "h2": "Veo 3.1 API",
+      "p": "REST/JSON でプロダクション連携を構築。認証は通常 API キーで、バッチ生成、テンプレ、チームツールに接続できます。",
+      "links": {
+        "docs_label": "Docs:",
+        "keys_label": "API キー:",
+        "keys_suffix": "（ログインが必要）"
+      },
+      "example": {
+        "h3": "リクエスト例（参考）",
+        "p": "例示です。正確なエンドポイント/パラメータ/レスポンスはドキュメントを参照してください。"
+      }
+    },
+    "pricing": {
+      "h2": "Veo 3.1 の料金",
+      "p_before": "クレジット制でタスクにより消費が異なります。目安として以下、詳細は",
+      "p_after": "へ。",
+      "table": {
+        "task": "タスク",
+        "unit": "単位",
+        "starting_from": "目安"
+      },
+      "rows": {
+        "t2i": {
+          "task": "テキスト→画像（T2I）",
+          "unit": "1枚あたり",
+          "start": "2 クレジット〜"
+        },
+        "editing": {
+          "task": "画像生成/編集",
+          "unit": "1枚あたり",
+          "start": "4 クレジット〜"
+        },
+        "i2v": {
+          "task": "画像→動画（I2V）",
+          "unit": "変換あたり",
+          "start": "250 クレジット〜"
+        },
+        "video": {
+          "task": "動画のみ",
+          "unit": "秒あたり",
+          "start": "80 クレジット/秒"
+        },
+        "video_audio": {
+          "task": "動画 + 音声",
+          "unit": "秒あたり",
+          "start": "160 クレジット/秒"
+        }
+      },
+      "note": "解像度、duration、提供状況により変動する場合があります。joymagic は生成前に消費クレジットを明確に表示します。"
+    },
+    "quality": {
+      "h2": "品質・安全・利用権",
+      "p1": "品質はモードと設定に依存します。動画はより高いプリセット（HD、対応時は 1080p）を選べる場合があります。きれいな参照画像と具体的な motion prompt が有効です。",
+      "p2_before": "商用利用は",
+      "terms_link": "利用規約",
+      "p2_after": "および適用法令に従います。入力素材の権利は利用者が確認してください。",
+      "p3_before": "joymagic はコンテンツポリシーを適用します。詳しくは",
+      "moderation_link": "Content Moderation Policy",
+      "p3_middle": "と",
+      "aup_link": "Acceptable Use Policy",
+      "p3_after": "を参照してください。"
+    }
+  },
+  "faq": {
+    "h2": "Veo 3.1 FAQ",
+    "items": [
+      {
+        "question": "Veo 3.1 は何に使えますか？",
+        "answer": "Veo 3.1 はテキスト→画像や画像→動画などのマルチモーダル生成に使えます。プロンプトから画像を作ったり、バリエーションや編集を行ったり、参照画像を短いクリップにアニメーション化できます。"
+      },
+      {
+        "question": "画像→動画に向いていますか？",
+        "answer": "静止画から始めてプロンプトで動きを制御したい場合、Veo 3.1 I2V が有効です。商品ショット、広告、B-roll、コンセプトクリップなどで使われ、参照画像の品質とモーション指示の具体性が結果に影響します。"
+      },
+      {
+        "question": "プロンプトのコツは？",
+        "answer": "被写体を明確にし、スタイル/照明/カメラを追加。I2V は動き（slow push-in など）と安定させたい要素を記述し、小さく反復して調整します。"
+      },
+      {
+        "question": "1080p に対応していますか？",
+        "answer": "1080p は UI/API のエンドポイントとプリセットに依存します。対応していれば選択肢に表示されます。利用可能な最高プリセットで生成し、必要に応じて後段でアップスケールしてください。"
+      },
+      {
+        "question": "料金はいくら？",
+        "answer": "joymagic はクレジット制です。目安としてテキスト→画像は 2 クレジット/枚〜、画像→動画は 250 クレジット/回〜。モデル、解像度、duration により変動します。"
+      },
+      {
+        "question": "商用利用できますか？",
+        "answer": "原則可能ですが、利用規約とポリシーに従う必要があります。入力素材（ロゴ/ブランド資産等）の権利は利用者が確認してください。"
+      },
+      {
+        "question": "Veo 3.1 API はありますか？",
+        "answer": "はい。joymagic はサポートされているワークフロー向けに API を提供し、通常 REST/JSON と API キーで認証します。詳細はドキュメントをご確認ください。"
+      },
+      {
+        "question": "提供元と提携していますか？",
+        "answer": "いいえ。joymagic は独立サービスであり、「Veo 3.1」の元の作成者と提携/承認/スポンサー関係はありません。商標・モデル名は各権利者に帰属します。"
+      }
+    ]
+  },
+  "disclaimer": {
+    "h2": "免責事項",
+    "p": "{brand} は AI 生成ワークフローを提供する独立サービスです。「Veo 3.1」の元の作成者と提携/承認/スポンサー関係はありません。商標・モデル名は各権利者に帰属します。"
+  },
+  "veo31": {
+    "form": {
+      "prompt": {
+        "label": "プロンプト",
+        "enhancer": "Prompt Enhancer",
+        "placeholder": "スタイリッシュな若い男性アーティストが、日当たりの良い都市の路地のレンガ壁にカラフルな花の壁画をスプレーペイントしています...",
+        "tooltip": "生成用のポジティブプロンプト。"
+      },
+      "negativePrompt": {
+        "label": "ネガティブプロンプト",
+        "placeholder": "ネガティブプロンプトを入力してください",
+        "tooltip": "生成用のネガティブプロンプト。"
+      },
+      "audio": {
+        "label": "オーディオ",
+        "hint": "オーディオファイル（MP3、WAVなど）をサポート",
+        "tooltip": "生成用のオーディオファイルURL。",
+        "dragDrop": "ドラッグ＆ドロップまたはクリックしてアップロード",
+        "dropHere": "オーディオファイルをここにドロップ",
+        "record": "オーディオを録音",
+        "recordDialog": {
+          "title": "オーディオを録音",
+          "instruction": "マイクを使用してオーディオを録音します。",
+          "noRecording": "まだ録音されていません。",
+          "hint": "以下の「録音開始」ボタンをクリックして録音できます。",
+          "recording": "録音中...",
+          "startRecording": "録音開始",
+          "stopRecording": "録音停止",
+          "retake": "再録音",
+          "useAudio": "オーディオを使用",
+          "uploading": "アップロード中..."
+        }
+      },
+      "aspectRatio": {
+        "label": "アスペクト比"
+      },
+      "resolution": {
+        "label": "解像度"
+      },
+      "duration": {
+        "label": "時間（秒）"
+      },
+      "generateAudio": {
+        "label": "オーディオを生成",
+        "description": "有効にすると、ビデオのオーディオが自動的に生成されます。",
+        "tooltip": "このオプションを有効にして、ビデオのオーディオを自動的に生成します。"
+      },
+      "image": {
+        "label": "画像",
+        "tooltip": "動画に変換する画像をアップロード",
+        "hint": "ヒント：ファイルをドラッグ＆ドロップするか、クリックしてアップロードできます",
+        "dragDrop": "ファイルをドラッグ＆ドロップするか、クリックしてアップロード",
+        "dropHere": "画像をここにドロップ"
+      },
+      "lastImage": {
+        "label": "最後の画像",
+        "tooltip": "動画生成用のオプションの最後の画像",
+        "hint": "ヒント：ファイルをドラッグ＆ドロップするか、クリックしてアップロードできます",
+        "dragDrop": "ファイルをドラッグ＆ドロップするか、クリックしてアップロード",
+        "dropHere": "画像をここにドロップ"
+      },
+      "seed": {
+        "label": "シード",
+        "placeholder": "ランダムの場合は空欄"
+      },
+      "buttons": {
+        "reset": "リセット",
+        "run": "生成",
+        "generating": "生成中..."
+      }
+    },
+    "preview": {
+      "placeholder": "プロンプトを入力して実行をクリックすると、生成されたビデオがここに表示されます。",
+      "costInfo": "リクエストは実行ごとに {cost} かかります。",
+      "oneMoreThing": "もう一つ：",
+      "actions": {
+        "addSound": "音を追加",
+        "videoUpscaler": "ビデオアップスケーラー",
+        "videoUpscalerPro": "ビデオアップスケーラー Pro",
+        "videoExtend": "ビデオ延長"
+      }
+    },
+    "common": {
+      "selected": "選択: {name}",
+      "notSelected": "ファイルが選択されていません"
+    },
+    "status": {
+      "idle": "アイドル",
+      "processing": "処理中",
+      "completed": "完了"
+    },
+    "actions": {
+      "downloadVideo": "ビデオをダウンロード",
+      "downloadFailed": "ビデオのダウンロードに失敗しました",
+      "playAudioFailed": "オーディオの再生に失敗しました。ブラウザの設定を確認してください。"
+    },
+    "errors": {
+      "promptRequired": "プロンプトを入力してください",
+      "imageRequired": "画像をアップロードしてください",
+      "generationFailed": "ビデオ生成に失敗しました",
+      "taskFailed": "タスク処理に失敗しました",
+      "taskTimeout": "タスク処理がタイムアウトしました。後でもう一度お試しください。",
+      "taskIdNotFound": "タスクIDを取得できませんでした。API応答形式を確認してください。",
+      "processingFailed": "処理に失敗しました。再試行してください。",
+      "statusQueryFailed": "タスクステータスのクエリに失敗しました",
+      "apiResponseParseFailed": "API応答の解析に失敗しました",
+      "invalidFileType": "無効なファイルタイプ。画像ファイル（JPG、PNGなど）をアップロードしてください。",
+      "uploadFailed": "アップロードに失敗しました：{error}",
+      "uploadFailedGeneric": "アップロードに失敗しました",
+      "recordingFailed": "録音を開始できませんでした。マイクの権限を確認してください。"
+    }
+  },
+  "veo31Page": {
+    "metadata": {
+      "title": "Veo 3.1 画像から動画へ - AIで写真をアニメーション化 | joymagic",
+      "description": "Google Veo 3.1で画像を動画に変換。参照写真をアップロードし、キャラクターの一貫性を維持し、ネイティブオーディオ付きの映画的な動画を生成。"
+    },
+    "hero": {
+      "title": "Veo 3.1 画像から動画へ",
+      "description": "Google Veo 3.1は、画像を同期オーディオ付きの動画クリップに変換します。参照写真をアップロードしてキャラクターのアイデンティティ、シーンの構図、または視覚スタイルを制御し、希望する動きを説明します。以下でVeo 3.1を無料でお試しください！<br/><br/>参照画像がありませんか？<a href=\"/text-to-video/veo-3-1\" class=\"text-primary underline\">Veo 3.1 テキストから動画へ</a>を試して、ゼロから生成してください。",
+      "button1": "今すぐ試す",
+      "button2": "価格を見る"
+    },
+    "heroDescription": "Enter a text prompt and watch as AI transforms your words into a beautiful video. Perfect for content creators, marketers, and storytellers.",
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast generation",
+      "commercialReady": "Commercial-use ready"
+    },
+    "whatYouCanDo": {
+      "title": "What You Can Do With Text to Video",
+      "description": "Turn your ideas into motion with AI-powered video generation.",
+      "contentCreation": {
+        "title": "Content Creation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create engaging video content for social media</li><li>Generate video thumbnails and previews</li><li>Produce short-form video content quickly</li></ul>"
+      },
+      "marketing": {
+        "title": "Marketing & Advertising",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create promotional videos from text descriptions</li><li>Generate video ads and campaigns</li><li>Produce marketing content at scale</li></ul>"
+      },
+      "entertainment": {
+        "title": "Entertainment & Storytelling",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Bring stories to life with AI-generated videos</li><li>Create animated scenes from text</li><li>Produce creative video content</li></ul>"
+      }
+    },
+    "keyFeatures": {
+      "title": "主な機能",
+      "multiImageReference": {
+        "title": "複数画像参照",
+        "description": "複数の画像をアップロードして、動画の視覚的方向性をガイドします。1つをキャラクター参照に、もう1つをスタイルに、3つ目をシーン構図に使用—モデルはそれらをインテリジェントに組み合わせます。"
+      },
+      "characterConsistency": {
+        "title": "キャラクターの一貫性",
+        "description": "キャラクターは動画全体で同一に見えます。明確な参照をアップロード—顔の特徴、プロポーション、服装の詳細がすべてのフレーム、ポーズ、カメラアングルでロックされます。"
+      },
+      "realisticMotion": {
+        "title": "リアルな動き",
+        "description": "静止画像が自然な動きで生き生きとします。髪が流れ、布が動き、表情が変化—参照写真の視覚的アイデンティティを維持しながら。"
+      },
+      "nativeAudioSync": {
+        "title": "ネイティブオーディオ同期",
+        "description": "生成された動画には同期オーディオが含まれます—足音、環境音、対話。オーディオはプロンプトに基づいて動きとシーンに自動的に一致します。"
+      }
+    },
+    "useCases": {
+      "title": "使用例",
+      "productAnimation": {
+        "title": "製品アニメーション",
+        "description": "製品写真を回転、使用、またはライフスタイルのコンテキストを示すデモ動画に変換。"
+      },
+      "characterAnimation": {
+        "title": "キャラクターアニメーション",
+        "description": "動きと表情でキャラクターデザインとコンセプトアートを生き生きとさせます。"
+      },
+      "portraitVideos": {
+        "title": "ポートレート動画",
+        "description": "微妙な動きでポートレート写真をアニメーション化—まばたき、頭の回転、優しい笑顔。"
+      },
+      "styleMatchedClips": {
+        "title": "スタイルマッチクリップ",
+        "description": "スタイル参照をアップロードして、特定の美学やアートディレクションに一致する動画を生成。"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "From text to video in four simple steps.",
+      "step1": {
+        "title": "Step 1 – Enter Your Prompt",
+        "description": "<p class=\"mb-3\">Describe the video you want to create. Be specific about the scene, characters, actions, and mood.</p>"
+      },
+      "step2": {
+        "title": "Step 2 – Configure Settings",
+        "description": "<p class=\"mb-3\">Choose video size, duration, shot type, and other parameters to match your needs.</p>"
+      },
+      "step3": {
+        "title": "Step 3 – Generate Video",
+        "description": "<p class=\"mb-3\">Click the generate button and let AI create your video. Processing typically takes a few minutes.</p>"
+      },
+      "step4": {
+        "title": "Step 4 – Download & Use",
+        "description": "<p class=\"mb-3\">Preview your video, download it, and use it in your projects immediately.</p>"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "q1": {
+        "question": "画像から動画へとは何ですか？",
+        "answer": "画像から動画へは、アップロードした写真を使用して視覚出力を制御します。モデルは動きとオーディオを生成しながら、参照からのキャラクターのアイデンティティ、スタイル、または構図を保持します。"
+      },
+      "q2": {
+        "question": "何枚の画像をアップロードできますか？",
+        "answer": "複数の参照画像がサポートされています。異なる画像を使用して、異なる側面—キャラクター、スタイル、シーン—を制御します。"
+      },
+      "q3": {
+        "question": "キャラクターは一貫性を保ちますか？",
+        "answer": "はい。Veo 3.1はすべてのフレームでキャラクターのアイデンティティを保持します。最良の結果を得るために、明確な正面参照をアップロードしてください。"
+      },
+      "q4": {
+        "question": "オーディオは含まれますか？",
+        "answer": "はい。生成された動画には、プロンプトに基づいて同期された環境音、効果音、対話が含まれます。"
+      },
+      "q5": {
+        "question": "テキストから動画へとどう違いますか？",
+        "answer": "テキストから動画へは、すべてをテキストの説明から生成します。画像から動画へは、写真を使用して視覚的アイデンティティを制御しながら動きを生成します。"
+      }
+    },
+    "finalCTA": {
+      "title": "作成の準備はできましたか？",
+      "description": "今日から画像から素晴らしい動画を生成し始めましょう。",
+      "button": "今すぐ試す"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "Veo 3.1 画像から動画へ - AIで写真をアニメーション化 | joymagic",
+      "description": "Google Veo 3.1で画像を動画に変換。参照写真をアップロードし、キャラクターの一貫性を維持し、ネイティブオーディオ付きの映画的な動画を生成。",
+      "keywords": "veo 3.1, 画像から動画, ai動画生成, 写真アニメーション, キャラクター一貫性, 映画的な動画, ネイティブオーディオ, google veo"
+    },
+    "hero": {
+      "title": "Veo 3.1 画像から動画へ",
+      "description": "Google Veo 3.1は、画像を同期オーディオ付きの動画クリップに変換します。参照写真をアップロードしてキャラクターのアイデンティティ、シーンの構図、または視覚スタイルを制御し、希望する動きを説明します。以下でVeo 3.1を無料でお試しください！<br/><br/>参照画像がありませんか？<a href=\"/text-to-video/veo-3-1\" class=\"text-primary underline\">Veo 3.1 テキストから動画へ</a>を試して、ゼロから生成してください。",
+      "button1": "今すぐ試す",
+      "button2": "価格を見る"
+    },
+    "keyFeatures": {
+      "title": "主な機能",
+      "multiImageReference": {
+        "title": "複数画像参照",
+        "description": "複数の画像をアップロードして、動画の視覚的方向性をガイドします。1つをキャラクター参照に、もう1つをスタイルに、3つ目をシーン構図に使用—モデルはそれらをインテリジェントに組み合わせます。"
+      },
+      "characterConsistency": {
+        "title": "キャラクターの一貫性",
+        "description": "キャラクターは動画全体で同一に見えます。明確な参照をアップロード—顔の特徴、プロポーション、服装の詳細がすべてのフレーム、ポーズ、カメラアングルでロックされます。"
+      },
+      "realisticMotion": {
+        "title": "リアルな動き",
+        "description": "静止画像が自然な動きで生き生きとします。髪が流れ、布が動き、表情が変化—参照写真の視覚的アイデンティティを維持しながら。"
+      },
+      "nativeAudioSync": {
+        "title": "ネイティブオーディオ同期",
+        "description": "生成された動画には同期オーディオが含まれます—足音、環境音、対話。オーディオはプロンプトに基づいて動きとシーンに自動的に一致します。"
+      }
+    },
+    "useCases": {
+      "title": "使用例",
+      "productAnimation": {
+        "title": "製品アニメーション",
+        "description": "製品写真を回転、使用、またはライフスタイルのコンテキストを示すデモ動画に変換。"
+      },
+      "characterAnimation": {
+        "title": "キャラクターアニメーション",
+        "description": "動きと表情でキャラクターデザインとコンセプトアートを生き生きとさせます。"
+      },
+      "portraitVideos": {
+        "title": "ポートレート動画",
+        "description": "微妙な動きでポートレート写真をアニメーション化—まばたき、頭の回転、優しい笑顔。"
+      },
+      "styleMatchedClips": {
+        "title": "スタイルマッチクリップ",
+        "description": "スタイル参照をアップロードして、特定の美学やアートディレクションに一致する動画を生成。"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "q1": {
+        "question": "画像から動画へとは何ですか？",
+        "answer": "画像から動画へは、アップロードした写真を使用して視覚出力を制御します。モデルは動きとオーディオを生成しながら、参照からのキャラクターのアイデンティティ、スタイル、または構図を保持します。"
+      },
+      "q2": {
+        "question": "何枚の画像をアップロードできますか？",
+        "answer": "複数の参照画像がサポートされています。異なる画像を使用して、異なる側面—キャラクター、スタイル、シーン—を制御します。"
+      },
+      "q3": {
+        "question": "キャラクターは一貫性を保ちますか？",
+        "answer": "はい。Veo 3.1はすべてのフレームでキャラクターのアイデンティティを保持します。最良の結果を得るために、明確な正面参照をアップロードしてください。"
+      },
+      "q4": {
+        "question": "オーディオは含まれますか？",
+        "answer": "はい。生成された動画には、プロンプトに基づいて同期された環境音、効果音、対話が含まれます。"
+      },
+      "q5": {
+        "question": "テキストから動画へとどう違いますか？",
+        "answer": "テキストから動画へは、すべてをテキストの説明から生成します。画像から動画へは、写真を使用して視覚的アイデンティティを制御しながら動きを生成します。"
+      }
+    },
+    "finalCTA": {
+      "title": "作成の準備はできましたか？",
+      "description": "今日から画像から素晴らしい動画を生成し始めましょう。",
+      "button": "今すぐ試す"
+    }
+  },
+  "textToVideo": {
+    "metadata": {
+      "title": "Veo 3.1 テキストから動画へ - AI動画ジェネレーター | joymagic",
+      "description": "Google Veo 3.1でテキストから動画を生成。対話、音響効果、カメラの動きを含む映画的なクリップを作成。ネイティブオーディオ付き。素材不要。"
+    },
+    "hero": {
+      "title": "Veo 3.1 テキストから動画へ",
+      "description": "Google Veo 3.1はテキストの説明を同期オーディオ付きの動画クリップに変換します。シーン、カメラの動き、対話を記述すると、モデルがネイティブサウンド付きの動画を生成します。以下でVeo 3.1を無料でお試しください！<br/><br/>参考画像をお持ちですか？<a href=\"/image-to-video/veo-3-1\" class=\"text-primary underline\">Veo 3.1 画像から動画へ</a>で視覚的なコントロールをお試しください。"
+    },
+    "keyFeatures": {
+      "title": "主な機能",
+      "nativeAudio": {
+        "title": "ネイティブオーディオ生成",
+        "description": "モデルは自動的に同期オーディオを作成します。プロンプトに対話を書くと、キャラクターがそれを話します。カフェのシーンを記述すると、環境の会話やカップの音が聞こえます。足音は歩行と一致し、ドアが閉まると音がします。"
+      },
+      "cinematicCamera": {
+        "title": "映画的なカメラコントロール",
+        "description": "カメラの動きを平易な言葉で記述：「ゆっくりとドリーで前進」「空中追跡ショット」「手持ちの揺れるカメラ」。モデルは映画撮影用語を解釈し、生成された動画で実行します。"
+      },
+      "frameControl": {
+        "title": "最初と最後のフレームコントロール",
+        "description": "動画の開始と終了を正確に指定します。他のクリップと接続する正確なトランジションを作成するか、ストーリーボードの精度のために開始と終了ショットをロックします。"
+      },
+      "videoExtension": {
+        "title": "動画拡張",
+        "description": "より長いコンテンツが必要ですか？生成された動画を最後のフレームから拡張します。自然に流れる複数のクリップを接続して、より長いシーケンスを構築します。"
+      }
+    },
+    "promptingTips": {
+      "title": "プロンプトのコツ",
+      "cameraMovement": {
+        "title": "カメラの動きを記述",
+        "description": "「被写体に向かってゆっくりとドリーで前進」または「都市景観の上に上昇するクレーンショット」は映画的な結果を生み出します。"
+      },
+      "audioDetails": {
+        "title": "オーディオの詳細を含める",
+        "description": "「ソフトジャズ付きのカフェの環境音」または「キャラクターのささやき：ついてきて」は、一致する音の生成に役立ちます。"
+      },
+      "lighting": {
+        "title": "照明を指定",
+        "description": "「ゴールデンアワー、長い影」または「ネオンライトの雨、濡れた舗装の反射」は視覚的な雰囲気を設定します。"
+      }
+    },
+    "useCases": {
+      "title": "使用例",
+      "socialMedia": {
+        "title": "ソーシャルメディアコンテンツ",
+        "description": "テキストからTikTok、Reels、Shortsを作成。撮影不要。"
+      },
+      "adPrevisualization": {
+        "title": "広告プレビジュアライゼーション",
+        "description": "制作前に商業コンセプトをテスト。クライアントレビュー用のバリエーションを生成。"
+      },
+      "storyboard": {
+        "title": "ストーリーボードアニメーション",
+        "description": "ピッチデッキや計画のために書かれたシーンを実現。"
+      },
+      "educational": {
+        "title": "教育動画",
+        "description": "スクリプトから視覚的なデモンストレーションと説明動画を生成。"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "q1": {
+        "question": "Veo 3.1 テキストから動画へとは何ですか？",
+        "answer": "Veo 3.1は、Google DeepMindのAIで、テキストの説明からネイティブオーディオ付きの動画クリップを生成します。シーンを記述すると、撮影や編集なしで映画的な動画が得られます。"
+      },
+      "q2": {
+        "question": "オーディオは自動的に生成されますか？",
+        "answer": "はい。モデルはプロンプトに基づいて同期対話、環境音、音響効果を作成します。オーディオとビジュアルは整列したままです。"
+      },
+      "q3": {
+        "question": "カメラの動きをコントロールできますか？",
+        "answer": "はい。プロンプトでカメラの動きを記述します—ドリー、トラッキング、クレーン、ズーム—モデルが実行します。"
+      },
+      "q4": {
+        "question": "動画を拡張できますか？",
+        "answer": "はい。動画拡張を使用して最後のフレームから続行し、より長いシーケンスを構築します。"
+      },
+      "q5": {
+        "question": "画像から動画への違いは何ですか？",
+        "answer": "テキストから動画は、テキストの説明からすべてを生成します。画像から動画は、アップロードされた写真を使用して、動きを生成しながらキャラクターのアイデンティティ、スタイル、または構図をコントロールします。"
+      }
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "imageBackgroundRemover": {
+    "id": "image-background-remover",
+    "title": "Background Remover AI by joymagic",
+    "description": "Remove backgrounds from images instantly with AI precision. Perfect for product photos, portraits, and more.",
+    "steps": {
+      "sourceImage": {
+        "title": "Upload source image",
+        "hint": "Upload image here JPG/PNG/WEBP",
+        "dragDrop": "Drag & drop or click to upload",
+        "dropHere": "Drop image here"
+      },
+      "generate": {
+        "title": "Remove background",
+        "cta": "Remove Background",
+        "generating": "Removing background..."
+      }
+    },
+    "preview": {
+      "title": "Preview",
+      "original": "Original",
+      "backgroundRemoved": "Background Removed",
+      "placeholder": "Upload an image to see the background removed result here."
+    },
+    "common": {
+      "selected": "Selected: {name}",
+      "notSelected": "Not selected"
+    },
+    "errors": {
+      "invalidFileType": "Invalid file type. Please upload an image file (JPG, PNG, WEBP).",
+      "uploadFailed": "Upload failed: {error}",
+      "uploadFailedGeneric": "Upload failed",
+      "sourceImageRequired": "Please upload a source image first",
+      "generationFailed": "Background removal failed",
+      "taskFailed": "Task processing failed",
+      "taskTimeout": "Task processing timeout, please try again later",
+      "taskIdNotFound": "Unable to get task ID, please check API response format",
+      "processingFailed": "Processing failed, please try again",
+      "statusQueryFailed": "Failed to query task status",
+      "apiResponseParseFailed": "Failed to parse API response",
+      "downloadFailed": "Failed to download image"
+    },
+    "download": {
+      "title": "Download image"
+    },
+    "alt": {
+      "sourcePreview": "Source preview",
+      "enlargedPreview": "Enlarged preview",
+      "source": "Source",
+      "generated": "Generated"
+    }
+  },
+  "imageBackgroundRemoverPage": {
+    "metadata": {
+      "title": "AI Image Background Remover Online | Remove Background Instantly | joymagic",
+      "description": "Instantly remove background from any image with joymagic's AI background remover. One click, perfect cutout – no editing skills needed. HD Download, No watermark, Batch support.",
+      "keywords": "AI Image Background Remover, remove background, transparent background, background remover online, AI background removal, product photo editor, portrait background remover, batch background removal"
+    },
+    "hero": {
+      "title": "AI Image Background Remover Online",
+      "description": "Instantly remove background from any image with joymagic's AI background remover. One click, perfect cutout – no editing skills needed.",
+      "button1": "Remove Background Now",
+      "button2": "Start free · No credit card"
+    },
+    "heroDescription": "✓ HD Download  ✓ No watermark  ✓ Batch support",
+    "whatIsAIBackgroundRemover": {
+      "title": "What is AI Image Background Remover?",
+      "description": "joymagic's AI Image Background Remover uses advanced deep learning to automatically detect the main subject in your photo and precisely remove the background in seconds. Unlike manual tools or basic editors that require masking and brushing, our AI:",
+      "features": [
+        "Intelligently identifies people, products, animals, cars, and objects",
+        "Handles complex edges like hair, fur, and fine details",
+        "Creates clean, transparent cutouts (PNG) or replaces with any color",
+        "Delivers professional results every time"
+      ],
+      "perfectFor": "Perfect for product photos, portraits, profile pictures, social media content, e-commerce listings, and design projects."
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Powerful AI background removal capabilities built for speed and quality.",
+      "oneClickPrecision": {
+        "title": "One-Click Precision Removal",
+        "description": "<p class=\"mb-3\">State-of-the-art AI handles even tricky details like hair, fur, and transparent objects – results in seconds.</p>"
+      },
+      "highQualityTransparent": {
+        "title": "High-Quality Transparent Outputs",
+        "description": "<p class=\"mb-3\">Download crisp, professional cutouts in full HD with smooth edges and no artifacts.</p>"
+      },
+      "batchRemoval": {
+        "title": "Batch Background Removal",
+        "description": "<p class=\"mb-3\">Upload and process multiple images at once – perfect for product catalogs or bulk editing.</p>"
+      },
+      "cleanProfessional": {
+        "title": "Clean & Professional Results",
+        "description": "<p class=\"mb-3\">No watermarks, no blurry edges – ready for e-commerce, presentations, or design.</p>"
+      },
+      "replaceBackground": {
+        "title": "Replace Background",
+        "description": "<p class=\"mb-3\">Easily swap to white, colored, or custom backgrounds in one click.</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "What You Can Do With joymagic AI Background Remover",
+      "description": "One upload, endless creative possibilities.",
+      "productPhotos": {
+        "title": "Create Stunning Product Photos",
+        "description": "<p class=\"mb-3\">Remove distracting backgrounds from product shots and place items on clean white or transparent for Amazon, Shopify, or listings.</p>"
+      },
+      "profilePictures": {
+        "title": "Make Professional Profile Pictures",
+        "description": "<p class=\"mb-3\">Instantly isolate portraits for LinkedIn, resumes, ID photos, or dating profiles.</p>"
+      },
+      "graphicsMemes": {
+        "title": "Design Graphics & Memes",
+        "description": "<p class=\"mb-3\">Extract people, objects, or animals to layer onto new backgrounds, posters, or social media visuals.</p>"
+      },
+      "ecommerce": {
+        "title": "Prepare Images for E-Commerce",
+        "description": "<p class=\"mb-3\">Quickly process hundreds of product images with batch removal – save hours of manual editing.</p>"
+      },
+      "socialMedia": {
+        "title": "Enhance Social Media Content",
+        "description": "<p class=\"mb-3\">Create eye-catching stories, posts, and reels with transparent stickers or clean cutouts.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "How to Remove Background from Image",
+      "description": "Remove backgrounds with our AI background remover in just a few simple steps:",
+      "step1": {
+        "title": "1. Upload your image",
+        "description": "<p class=\"mb-3\">Drag and drop or select your photo.</p><p class=\"mb-3\">Supports JPG, JPEG, PNG, WEBP, and HEIC formats.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Works with portraits, product shots, logos, and more</li><li>Best results with clear subjects</li></ul>"
+      },
+      "step2": {
+        "title": "2. Let AI do the magic",
+        "description": "<p class=\"mb-3\">Our AI automatically detects and removes the background in seconds.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>No manual brushing or selection needed</li><li>Preview the transparent result instantly</li></ul>"
+      },
+      "step3": {
+        "title": "3. Refine (optional)",
+        "description": "<p class=\"mb-3\">Fine-tune if needed:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Restore parts of the subject</li><li>Erase remaining background spots</li><li>Smooth edges for perfect cutouts</li></ul>"
+      },
+      "step4": {
+        "title": "4. Download your result",
+        "description": "<p class=\"mb-3\">Get your background-free image instantly:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Transparent PNG (ideal for overlays)</li><li>Or choose a solid color/white background</li><li>HD quality, ready to use</li></ul>"
+      }
+    },
+    "faq": {
+      "title": "AI Image Background Remover FAQs",
+      "description": "Common questions about our AI Image Background Remover.",
+      "q1": {
+        "question": "What image formats are supported?",
+        "answer": "We support JPG, JPEG, PNG, WEBP, and HEIC. For best results, use high-quality images."
+      },
+      "q2": {
+        "question": "Will my images have a watermark?",
+        "answer": "No. All downloads are clean and watermark-free."
+      },
+      "q3": {
+        "question": "How accurate is the AI?",
+        "answer": "Our AI excels at hair, fur, and complex edges. For very intricate cases, use the simple refine tools to perfect the result."
+      },
+      "q4": {
+        "question": "Can I remove backgrounds from multiple images?",
+        "answer": "Yes – batch processing lets you upload and remove backgrounds from several images at once."
+      },
+      "q5": {
+        "question": "Is my data safe?",
+        "answer": "Yes. Uploaded images are processed securely and automatically deleted after processing. We never use your images for training."
+      },
+      "q6": {
+        "question": "Can I change the background color?",
+        "answer": "Yes – download with transparent background or choose white/solid color background."
+      },
+      "q7": {
+        "question": "What kinds of images work best?",
+        "answer": "Images with a clear main subject (person, product, object, animal) against a contrasting or cluttered background yield the best automatic results. Portraits, product shots, and logos perform exceptionally well."
+      },
+      "q8": {
+        "question": "Can I refine or edit the result after AI removal?",
+        "answer": "Yes – simple brush tools let you manually restore any accidentally removed parts or erase remaining background spots for pixel-perfect control."
+      }
+    },
+    "privacySecurity": {
+      "title": "Privacy & Security",
+      "description": "Your images and privacy are our priority.",
+      "secureProcessing": "All uploads are processed securely and encrypted",
+      "autoDelete": "Images are automatically deleted after processing",
+      "neverShared": "Never shared with third parties or used for AI training"
+    },
+    "finalCTA": {
+      "title": "Turn any photo into a clean, professional cutout.",
+      "description": "Try joymagic's AI Background Remover now and get perfect transparent results in seconds.<br/><span class=\"text-muted-foreground\">No design skills needed · Free to try</span>",
+      "button": "Remove Background Now"
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "imageToImage": {
+    "id": "image-to-image",
+    "title": "Bild-zu-Bild KI Generator von joymagic",
+    "description": "Verwandeln Sie jedes Bild in sekundenschnelle in markenkonforme Visuals. Keine Designkenntnisse erforderlich.",
+    "steps": {
+      "sourceImage": {
+        "title": "Quellbild hochladen",
+        "cta": "Ziehen/Klicken zum Hochladen",
+        "hint": "Formate: JPG/PNG/WEBP",
+        "dragDrop": "Ziehen und ablegen oder klicken zum Hochladen",
+        "dropHere": "Bild hier ablegen"
+      },
+      "prompt": {
+        "title": "Transformations-Prompt eingeben",
+        "placeholder": "Beschreiben Sie, wie Sie das Bild transformieren möchten, z.B. 'wie ein Gemälde aussehen lassen', 'Hintergrund zu einem Strand ändern', 'Sonnenuntergangshimmel hinzufügen'",
+        "hint": "Seien Sie spezifisch bezüglich der gewünschten Änderungen"
+      },
+      "generate": {
+        "title": "Transformiertes Bild generieren",
+        "cta": "Generieren",
+        "generating": "Generiere..."
+      }
+    },
+    "preview": {
+      "title": "Vorschau",
+      "original": "Original",
+      "generated": "Generiert",
+      "placeholder": "Laden Sie ein Bild hoch und geben Sie einen Prompt ein, um die Transformation hier zu sehen."
+    },
+    "templates": {
+      "title": "Prompt-Vorlagen",
+      "all": "Alle",
+      "noItems": "Keine Vorlagen in dieser Kategorie verfügbar"
+    },
+    "common": {
+      "selected": "Ausgewählt: {name}",
+      "notSelected": "Nicht ausgewählt"
+    },
+    "errors": {
+      "invalidFileType": "Ungültiger Dateityp. Bitte laden Sie eine Bilddatei (JPG, PNG, WEBP) hoch.",
+      "uploadFailed": "Upload fehlgeschlagen: {error}",
+      "uploadFailedGeneric": "Upload fehlgeschlagen",
+      "sourceImageRequired": "Bitte laden Sie zuerst ein Quellbild hoch",
+      "promptRequired": "Bitte geben Sie einen Transformations-Prompt ein",
+      "generationFailed": "Bildgenerierung fehlgeschlagen",
+      "taskFailed": "Aufgabenverarbeitung fehlgeschlagen",
+      "taskTimeout": "Aufgabenverarbeitung Zeitüberschreitung, bitte versuchen Sie es später erneut",
+      "taskIdNotFound": "Aufgaben-ID konnte nicht abgerufen werden, bitte überprüfen Sie das API-Antwortformat",
+      "processingFailed": "Verarbeitung fehlgeschlagen, bitte versuchen Sie es erneut",
+      "statusQueryFailed": "Aufgabenstatus-Abfrage fehlgeschlagen"
+    }
+  },
+  "imageToImagePage": {
+    "metadata": {
+      "title": "Bild-zu-Bild KI-Generator | Markenkonforme Visuals in Sekunden – joymagic",
+      "description": "Verwandeln Sie jedes Bild in markenkonforme Visuals mit joymagic Bild-zu-Bild KI-Generator. Laden Sie ein Bild hoch und erhalten Sie endlose Variationen in verschiedenen Stilen und Szenen. HD-Ausgaben, schnelle Generierung, kostenlos testen, kommerziell einsatzbereit."
+    },
+    "hero": {
+      "title": "Bild-zu-Bild KI-Generator – joymagic",
+      "description": "Verwandeln Sie jedes Bild in Sekunden in markenkonforme Visuals. Keine Designkenntnisse erforderlich.",
+      "button1": "Aus Bild generieren",
+      "button2": "Kostenlos starten · Keine Kreditkarte"
+    },
+    "heroDescription": "Laden Sie ein Bild hoch und erhalten Sie endlose Variationen – neue Stile, Szenen und Stimmungen, während Ihr Hauptmotiv konsistent bleibt.",
+    "builtFor": {
+      "title": "Erstellt für moderne Creator:",
+      "hdOutputs": "HD-Ausgaben",
+      "fastGeneration": "Schnelle Generierung",
+      "commercialReady": "Kommerziell einsatzbereit"
+    },
+    "interfaceFeatures": {
+      "title": "Auf einer einzigen, übersichtlichen Oberfläche erhalten Sie:",
+      "uploadArea": "Ein Drag-and-Drop-Upload-Bereich für Ihr Referenzbild",
+      "promptBox": "Ein Eingabefeld, in dem Sie die gewünschte Änderung beschreiben",
+      "styleDropdown": "Ein Stil-Dropdown (Realistisch, Anime, Illustration, 3D, Pixel, Vintage usw.)",
+      "strengthSlider": "Ein Änderungsstärke-Schieberegler von subtiler Retusche bis zur vollständigen Neugestaltung",
+      "generateButton": "Eine einzelne Generieren-Schaltfläche, um mehrere Variationen aus einem Bild zu erstellen"
+    },
+    "whatYouCanDo": {
+      "title": "Was Sie mit joymagic Bild-zu-Bild tun können",
+      "description": "Statt von Grund auf zu beginnen, beginnen Sie mit einem Bild – und lassen Sie joymagic den Rest erledigen.",
+      "styleTransformations": {
+        "title": "Stil- und Stimmungstransformationen",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Verwandeln Sie Fotos in Illustrationen, Anime, Gemälde, 3D-Renderings, Pixelkunst und mehr</li><li>Ändern Sie Beleuchtung, Farben und Stimmung, während das Grundlayout intakt bleibt</li><li>Testen Sie schnell verschiedene künstlerische Richtungen für dieselbe visuelle Idee</li></ul><p class=\"text-sm text-muted-foreground italic\">Perfekt, wenn Sie wissen, was Sie zeigen möchten, aber erkunden möchten, wie es aussieht.</p>"
+      },
+      "characterConsistency": {
+        "title": "Charakter- und Identitätskonsistenz",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Behalten Sie dasselbe Gesicht oder denselben Charakter über mehrere Bilder hinweg bei</li><li>Behalten Sie konsistente Frisur, Outfit und Schlüsseleigenschaften bei, während Sie Posen, Szenen oder Stile ändern</li><li>Ideal für VTuber, Geschichtenerzähler, Comic-Ersteller und Maskottchen</li></ul><p class=\"text-sm text-muted-foreground italic\">Erstellen Sie eine erkennbare visuelle Identität, ohne alles manuell neu zu zeichnen.</p>"
+      },
+      "productBrand": {
+        "title": "Produkt- und Markenvisuals",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Generieren Sie mehrere Produktaufnahmen aus einem einzigen Basisbild</li><li>Platzieren Sie dasselbe Produkt sofort in verschiedene Szenen, Jahreszeiten und Kampagnenkonzepte</li><li>Behalten Sie Logos, Farben und Schlüsselformen markenkonform bei</li></ul><p class=\"text-sm text-muted-foreground italic\">Ein Fotoshooting kann jetzt ein ganzes Jahr an Kampagnen antreiben.</p>"
+      },
+      "socialContent": {
+        "title": "Social Media & Content-Assets",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Verwandeln Sie ein Referenzbild in einen vollständigen Satz von YouTube/TikTok/Bilibili-Thumbnails, Kanalbannern, Social-Media-Posts und Blog-Headern</li><li>Passen Sie Visuals schnell an das Format und die Atmosphäre jeder Plattform an</li></ul><p class=\"text-sm text-muted-foreground italic\">Verbringen Sie weniger Zeit mit der Suche nach Stock-Bildern und mehr Zeit mit der Erstellung von Inhalten.</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Hauptfunktionen von joymagic Bild-zu-Bild",
+      "description": "Alles, was Sie benötigen, um Bilder mit KI zu transformieren, entwickelt für Geschwindigkeit und Qualität.",
+      "uploadPromptTransform": {
+        "title": "Hochladen, Eingabe, Transformieren",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Unterstützung für JPG, PNG, WEBP und mehr</li><li>Optionaler Texthinweis für präzise Kontrolle über Stil, Szene und Stimmung</li><li>Seitenverhältnis- und Auflösungsvoreinstellungen für Social-Media-Feeds, Thumbnails, Cover und mehr</li></ul><p class=\"text-sm text-muted-foreground italic\">Nutzen Sie es auf Ihre Weise: einfach hochladen und generieren oder detaillierte Hinweise für künstlerische Kontrolle auf Direktorenniveau hinzufügen.</p>"
+      },
+      "flexibleControl": {
+        "title": "Flexible Kontrolle über Änderungen",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Änderungsstärke-Schieberegler von subtiler Retusche bis zur kühnen Neugestaltung</li><li>Optionen zur Priorisierung von Komposition, Charakter oder Stil</li></ul><p class=\"text-sm text-muted-foreground italic\">Dies macht Ergebnisse vorhersagbar und wiederholbar, nicht zufällig.</p>"
+      },
+      "highQuality": {
+        "title": "Hochwertige Ausgaben",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>HD-Exporte optimiert für scharfe, saubere Details</li><li>Intelligente Generierung, um Text, Logos und Produktkanten scharf zu halten</li><li>Optionales Upscaling für Website-Hero-Bilder, Präsentationen und druckfertige Assets</li></ul><p class=\"text-sm text-muted-foreground italic\">Von schnellen Entwürfen bis zu finalen Assets behält joymagic die Qualität unter Kontrolle.</p>"
+      },
+      "nonDesigners": {
+        "title": "Erstellt für Nicht-Designer",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Fertige Stilvoreinstellungen: Realistisch, Anime, Illustration, 3D, Vintage, Pixel und mehr</li><li>Ein-Klick-Neu-Generierung, um neue Looks auszuprobieren</li><li>Übersichtliche, fokussierte Benutzeroberfläche für Upload → Stil wählen → Stärke anpassen → Exportieren</li></ul><p class=\"text-sm text-muted-foreground italic\">Wenn Sie eine Datei hochladen können, können Sie mit joymagic markenkonforme Visuals erstellen.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "Wie joymagic Bild-zu-Bild funktioniert",
+      "description": "Vom Upload zum Download in vier einfachen Schritten.",
+      "step1": {
+        "title": "Schritt 1 – Laden Sie Ihr Bild hoch",
+        "description": "<p class=\"mb-3\">Beginnen Sie mit einem klaren Basisbild: einer Produktaufnahme, einem Charakter, einem Logo, einem UI-Mockup oder einer Illustration. Ziehen und ablegen oder von Ihrem Gerät auswählen. joymagic verwendet dies als Referenz, um Ihr Motiv erkennbar zu halten.</p>"
+      },
+      "step2": {
+        "title": "Schritt 2 – Beschreiben Sie die Änderung",
+        "description": "<p class=\"mb-3\">Fügen Sie einen optionalen kurzen Hinweis hinzu, um die KI zu leiten.</p><p class=\"mb-2\">Beispiele:</p><ul class=\"list-disc list-inside space-y-1 mb-3 ml-4\"><li>\"Verwandeln Sie dies in eine gemütliche Anime-Szene bei Nacht\"</li><li>\"Lassen Sie dies wie ein hochwertiges Studio-Produktfoto aussehen\"</li><li>\"Konvertieren Sie diese Skizze in eine saubere flache Illustration\"</li><li>\"Platzieren Sie diesen Charakter in einer Cyberpunk-Stadt bei Sonnenuntergang\"</li></ul><p class=\"text-sm text-muted-foreground italic\">Kurze, einfache Anweisungen reichen aus. Oder überspringen Sie den Hinweis und verlassen Sie sich nur auf Stilvoreinstellungen.</p>"
+      },
+      "step3": {
+        "title": "Schritt 3 – Wählen Sie Stil & Stärke",
+        "description": "<p class=\"mb-3\">Sagen Sie joymagic, wie weit es gehen soll.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Wählen Sie eine Stilvoreinstellung (realistisch, Anime, 3D, Illustration usw.)</li><li>Passen Sie die Änderungsstärke von leichter Retusche bis zur vollständigen Neugestaltung an</li><li>(Optional) Legen Sie Präferenzen fest, um Komposition, Charakter oder Stil konsistent zu halten</li></ul><p class=\"text-sm text-muted-foreground italic\">Sie behalten die Kontrolle über die kreative Richtung – joymagic übernimmt die schwere Arbeit.</p>"
+      },
+      "step4": {
+        "title": "Schritt 4 – Generieren & Herunterladen",
+        "description": "<p class=\"mb-3\">Lassen Sie das Modell arbeiten und wählen Sie dann aus, was Ihnen gefällt.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Generieren Sie mehrere Variationen aus einer Eingabe</li><li>Vergleichen Sie Optionen nebeneinander in der Vorschau</li><li>Markieren Sie Ihre Favoriten und laden Sie sie in HD herunter</li><li>Verwenden Sie sie sofort für Social Media, Produktseiten, Anzeigen und Präsentationen</li></ul><p class=\"text-sm text-muted-foreground italic\">Verwandeln Sie ein Bild in nur wenigen Minuten in ein gesamtes visuelles Set.</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "Warum joymagic vs. andere Bild-zu-Bild KI-Tools",
+      "description": "Speziell für Bild-zu-Bild-Workflows entwickelt, nicht nur ein Add-On-Feature.",
+      "focused": {
+        "title": "Fokus auf Bild-zu-Bild, nicht nur ein Add-On",
+        "description": "<p class=\"mb-3\">Viele Plattformen behandeln Bild-zu-Bild als kleines Feature in einer großen, unübersichtlichen Toolbox. joymagic ist anders – es wurde von Grund auf um Bild-zu-Bild-KI entwickelt:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Kein zusätzlicher Schnickschnack oder unverwandte Tools</li><li>Schneller zu erlernen, schneller zu verwenden</li><li>Ergebnisse speziell für referenzbasierte Generierung optimiert</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "Für schnelle tägliche Workflows entwickelt",
+        "description": "Entwickelt für Creator, die täglich Dutzende von Variationen benötigen. Weniger Schritte, übersichtlichere Benutzeroberfläche, kein Labyrinth von Menüs. Verwenden Sie schnell dasselbe Basisbild mit verschiedenen Stilen und Hinweisen wieder."
+      },
+      "pricing": {
+        "title": "Preise, die mit Ihnen skalieren",
+        "description": "Eine klare kostenlose Stufe, damit Sie Bild-zu-Bild-KI ohne Risiko testen können. Ein einfacher kostenpflichtiger Plan für Power-User und Teams, die höhere Limits benötigen. Transparente Nutzung – zahlen Sie für das, was Sie tatsächlich verwenden."
+      },
+      "commercialUse": {
+        "title": "Sicher für kommerzielle Nutzung",
+        "description": "Sie besitzen die Bilder, die Sie mit joymagic generieren, solange Sie die Rechte an den ursprünglichen Bildern haben, die Sie hochladen. Generierte Bilder können für kommerzielle Projekte wie Kampagnen, Kundenarbeit und E-Commerce-Listen verwendet werden."
+      }
+    },
+    "perfectFor": {
+      "title": "Für wen joymagic perfekt ist",
+      "description": "Erstellt für Creator, Marken und Designer, die konsistente, hochwertige Visuals benötigen.",
+      "creators": {
+        "title": "Creator & Influencer",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Erstellen Sie eine konsistente visuelle Welt um Ihre Inhalte</li><li>Auffällige YouTube/TikTok/Bilibili-Thumbnails, passende Seriencover und wiederkehrende Charakterkunst</li><li>Schnelles A/B-Testing verschiedener Stile und Stimmungen</li><li>Verwenden Sie Ihr Gesicht, Avatar oder Maskottchen in endlosen Variationen wieder</li></ul><p class=\"text-sm text-muted-foreground italic\">Heben Sie sich in Feeds ab, ohne Stunden mit dem Design jedes Bildes zu verbringen.</p>"
+      },
+      "ecommerce": {
+        "title": "E-Commerce & kleine Marken",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Verwandeln Sie eine Produktaufnahme in eine vollständige Kampagne</li><li>Verschiedene Hintergründe, Szenen und Jahreszeiten aus einem einzigen Basisbild</li><li>Stile, die zu Ihrer Markenpersönlichkeit passen (minimalistisch, mutig, verspielt, Premium)</li><li>Visuelle Konsistenz über Produktseiten, Anzeigen, Promos und Social-Media-Kampagnen hinweg</li></ul><p class=\"text-sm text-muted-foreground italic\">Erhalten Sie Studio-ähnliche Vielfalt ohne ständige Neuaufnahmen.</p>"
+      },
+      "designers": {
+        "title": "Designer & Agenturen",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Verwenden Sie joymagic als schnelles Erkundungs- und Iterationstool</li><li>Generieren Sie schnell Stilboards und Moodboards aus einigen Referenzen</li><li>Erstellen Sie mehrere Konzeptvariationen für Kunden in Minuten</li><li>Sparen Sie Zeit bei der groben Erkundung, damit Sie sich auf die finale Polierung konzentrieren können</li></ul><p class=\"text-sm text-muted-foreground italic\">joymagic fügt sich nahtlos in Ihren bestehenden Design-Workflow ein, ersetzt ihn nicht.</p>"
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen zu joymagic Bild-zu-Bild",
+      "description": "Häufige Fragen zu unserem Bild-zu-Bild KI-Generator.",
+      "q1": {
+        "question": "Was ist ein Bild-zu-Bild KI-Generator?",
+        "answer": "Ein Bild-zu-Bild KI-Generator nimmt ein vorhandenes Bild und verwendet es als Referenz, um neue Bilder zu erstellen. Mit joymagic laden Sie ein Basisbild hoch, fügen optional einen Texthinweis hinzu, wählen einen Stil und eine Änderungsstärke, und die KI generiert neue Visuals, die mit Ihrem ursprünglichen Motiv verbunden bleiben."
+      },
+      "q2": {
+        "question": "Muss ich einen Hinweis schreiben oder kann ich einfach ein Bild hochladen?",
+        "answer": "Sie können beides tun. Wenn Sie nur ein Bild hochladen und einen Stil auswählen, erstellt joymagic automatisch Variationen. Wenn Sie einen kurzen Hinweis hinzufügen, erhalten Sie mehr Kontrolle über Stimmung, Szene, Farben und Details. Hinweise sind optional – sie sind da, wenn Sie zusätzliche Präzision möchten."
+      },
+      "q3": {
+        "question": "Ist joymagic kostenlos zu verwenden? Was sind die Limits?",
+        "answer": "Ja, joymagic bietet eine kostenlose Stufe, damit Sie Bild-zu-Bild-KI ohne Verpflichtung testen können. Die kostenlose Stufe umfasst eine begrenzte Anzahl von Generierungen, damit Sie Workflows und Qualität testen können. Wenn Sie bereit sind zu skalieren, können Sie auf einen kostenpflichtigen Plan mit höheren Limits und mehr Funktionen upgraden. Überprüfen Sie die Preisseite in der App für die neuesten Details."
+      },
+      "q4": {
+        "question": "Kann ich die Bilder kommerziell verwenden?",
+        "answer": "In den meisten Fällen ja – Sie können mit joymagic generierte Bilder für kommerzielle Zwecke verwenden, einschließlich:<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>Kundenprojekte</li><li>Anzeigen und Kampagnen</li><li>Produktseiten und Markeninhalte</li></ul><p class=\"mt-3 mb-2\">Zwei wichtige Hinweise:</p><ol class=\"list-decimal list-inside space-y-1 ml-4\"><li>Stellen Sie sicher, dass Sie die Rechte an allen Bildern haben, die Sie als Eingabe hochladen.</li><li>Überprüfen Sie immer unsere offiziellen Nutzungsbedingungen und Lizenzen für die genauesten, aktuellsten Regeln.</li></ol><p class=\"mt-3 text-sm\">Die kurze Version: joymagic ist für den echten Geschäftseinsatz konzipiert.</p>"
+      },
+      "q5": {
+        "question": "Welche Bildformate und -größen unterstützen Sie?",
+        "answer": "joymagic unterstützt derzeit beliebte Formate wie:<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>JPG</li><li>PNG</li><li>WEBP</li></ul><p class=\"mt-3\">Sie können Standard-Web- und Kamerauflösungen hochladen. Für Ausgaben können Sie wählen aus:</p><ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>Voreingestellte Seitenverhältnisse (quadratisch, vertikal, horizontal, Thumbnail usw.)</li><li>HD-Auflösungen geeignet für Web, Social Media und leichten Druck</li><li>Optionales Upscaling für größere Banner und Präsentationen</li></ul>"
+      },
+      "q6": {
+        "question": "Kann ich denselben Charakter über mehrere Bilder hinweg beibehalten?",
+        "answer": "Ja. Dies ist eine der Hauptstärken von Bild-zu-Bild mit joymagic.<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>Verwenden Sie dasselbe Referenzbild als Basis</li><li>Halten Sie die Änderungsstärke moderat und aktivieren Sie Optionen, die den Charakter priorisieren</li><li>Sie können dann diesen Charakter in verschiedenen Outfits, Szenen und Kunststilen platzieren, während die erkennbare Identität erhalten bleibt</li></ul><p class=\"mt-3 text-sm\">Großartig für VTuber, geschichtengetriebene Creator und Marken mit Maskottchen.</p>"
+      },
+      "q7": {
+        "question": "Sind meine hochgeladenen Inhalte privat und sicher?",
+        "answer": "joymagic wurde mit Datenschutz im Hinterkopf entwickelt.<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>Ihre hochgeladenen Bilder werden verwendet, um Ihre Ausgaben zu generieren und werden nicht mit anderen Benutzern geteilt</li><li>Wir verwenden Ihre privaten Projekte nicht als öffentliche Vorlagen</li><li>Grundlegende Sicherheitspraktiken werden angewendet, um Ihr Konto und Ihre Assets zu schützen</li></ul><p class=\"mt-3 text-sm\">Für genaue Details zur Datenverarbeitung und -aufbewahrung lesen Sie bitte die Datenschutzrichtlinie und die Bedingungen im Produkt.</p>"
+      }
+    },
+    "finalCTA": {
+      "title": "Verwandeln Sie ein Bild in endlose Visuals.",
+      "description": "Probieren Sie den joymagic Bild-zu-Bild KI-Generator aus und beginnen Sie in Sekunden mit der Erstellung markenkonformer Inhalte.<br/><span class=\"text-muted-foreground\">Keine Designkenntnisse erforderlich · Kostenlos testen</span>",
+      "button": "Beginnen Sie mit der Generierung aus Bildern"
+    },
+    "responsibleUse": {
+      "title": "Verantwortungsvolle Nutzung & Inhaltsrichtlinien",
+      "intro": "joymagic wurde für kreative und kommerzielle Zwecke entwickelt, und wir verpflichten uns zu verantwortungsvollen KI-Praktiken.",
+      "note": "Bitte beachten Sie die folgenden Nutzungseinschränkungen:",
+      "identity": {
+        "title": "Identität & Ähnlichkeit",
+        "items": [
+          "Sie dürfen nur Bilder von sich selbst oder Personen verwenden, für die Sie eine ausdrückliche Genehmigung haben",
+          "Die unbefugte Verwendung des Gesichts, der Ähnlichkeit oder der Identität einer anderen Person ist strengstens untersagt",
+          "Beschränken Sie Charakterkonsistenz-Funktionen auf Ihre eigenen Inhalte, autorisierte Personas oder fiktive Charaktere, für die Sie Rechte haben"
+        ]
+      },
+      "prohibited": {
+        "title": "Verbotene Verwendungen",
+        "intro": "joymagic darf nicht verwendet werden, um:",
+        "items": [
+          "Deepfakes, irreführende Inhalte oder Betrug oder Täuschung zu erstellen",
+          "Inhalte zu generieren, die die Rechte, Privatsphäre oder Würde anderer verletzen",
+          "Schädliche, illegale oder bösartige Materialien zu produzieren"
+        ]
+      },
+      "responsibility": {
+        "title": "Ihre Verantwortung",
+        "intro": "Durch die Nutzung von joymagic stimmen Sie zu:",
+        "items": [
+          "Sicherzustellen, dass Sie ordnungsgemäße Rechte an allen Bildern haben, die Sie hochladen",
+          "Den Service ethisch und in Übereinstimmung mit geltenden Gesetzen zu verwenden",
+          "KI-generierte Inhalte nicht als authentische Fotografie darzustellen, wenn der Kontext eine Offenlegung erfordert"
+        ]
+      },
+      "safety": {
+        "title": "Sicherheitsmaßnahmen",
+        "description": "joymagic implementiert automatisierte Inhaltsmoderation und Sicherheitsfilter, um Missbrauch zu verhindern. Konten, die gegen diese Richtlinien verstoßen, können gesperrt oder gekündigt werden."
+      },
+      "termsLink": "Für vollständige Details lesen Sie bitte unsere",
+      "termsOfService": "Nutzungsbedingungen",
+      "and": "und",
+      "acceptableUsePolicy": "Akzeptable Nutzungsrichtlinie",
+      "period": "."
+    }
+  }
+}

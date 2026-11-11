@@ -1,0 +1,337 @@
+{
+  "sidebar": {
+    "subtitle": "创作工作区",
+    "pinned": "固定",
+    "addTools": "添加工具",
+    "allTools": "所有工具",
+    "pin": {
+      "ariaPin": "固定：{label}",
+      "ariaUnpin": "取消固定：{label}"
+    }
+  },
+  "tools": {
+    "untitled": "未命名工具"
+  },
+  "model": {
+    "untitled": "未命名模型",
+    "fallbackMonogram": "M"
+  },
+  "panels": {
+    "tools": {
+      "titleImage": "文生图",
+      "titleVideo": "文生视频",
+      "empty": "工作区工具会显示在这里。",
+      "formEmpty": "表单内容会显示在这里。"
+    },
+    "generated": {
+      "titleImages": "本次创作记录",
+      "titleVideos": "已生成视频"
+    }
+  },
+  "generated": {
+    "empty": "你还没有生成任何内容。"
+  },
+  "errors": {
+    "noWorkspace": "当前选择没有可用的工作区。"
+  },
+  "loading": "加载中...",
+  "sceneBrowser": {
+    "title": "{category} 场景",
+    "subtitle": "选择一个工作流开始创作。",
+    "tabs": {
+      "creations": "创作",
+      "collections": "收藏",
+      "templates": "模板"
+    }
+  },
+  "addToolsDialog": {
+    "title": "添加工具",
+    "categories": {
+      "image": "图片",
+      "video": "视频"
+    }
+  },
+  "toolsDetailPage": {
+    "aliases": {
+      "photoshoot": "写真",
+      "editorCombiner": "编辑与合成",
+      "imageEffects": "图片特效",
+      "variations": "变体",
+      "videoEffects": "视频特效"
+    },
+    "workspace": {
+      "library": "模板库",
+      "uploads": "上传",
+      "imageEyebrow": "AI 图片工作台",
+      "videoEyebrow": "AI 视频工作台",
+      "descriptionWithLibrary": "先挑一个更合适的起点，预览最终风格，再直接进入生成流程，整个工作台会更贴近 Mango 这一版的体验。",
+      "descriptionWithoutLibrary": "查看最近生成结果、整理收藏，并把当前放大类流程集中在更干净的 Mango 工作台里完成。",
+      "emptyLibrary": "当前模型暂时还没有可用的模板示例。"
+    },
+    "actions": {
+      "useTemplate": "试试这个模板",
+      "templateFallback": "模板",
+      "startGenerating": "开始生成",
+      "closeGeneratorPanel": "关闭生成面板",
+      "switchInLibrary": "去模板库切换"
+    },
+    "imageEffectsLanding": {
+      "hero": {
+        "title": "海量照片特效，匹配你的每一种灵感",
+        "intro": "把一张普通照片快速变成更有风格的成品。从复古、梦幻到流行感更强的视觉方向，你都可以在同一个工作区里上传图片、切换特效并直接生成，不用来回跳页。",
+        "highlights": {
+          "upload": "1. 上传你的照片",
+          "style": "2. 选择特效风格",
+          "apply": "3. 一键应用特效"
+        }
+      },
+      "story": {
+        "title": "用更丰富的 AI 照片特效释放创意",
+        "intro": "把日常照片快速变成更完整、更抓眼的视觉成品。每个特效模板都会自动帮你塑造色彩、纹理和氛围，所以你不需要从零搭建复杂提示，也能在几次点击内得到更像样的结果。",
+        "features": {
+          "styles": {
+            "title": "一张照片，延展出多种风格",
+            "description": "同一张参考图可以很快切到柔和人像、Y2K 拼贴、季节感滤镜或复古审美，方便你横向比较不同视觉方向。"
+          },
+          "lifelike": {
+            "title": "风格化同时保留真实感",
+            "description": "在强化色彩、纹理和气氛的同时，尽量保留主体辨识度，让结果既有风格，也不会失去原图的真实基础。"
+          },
+          "trend": {
+            "title": "更贴近流行趋势的特效库",
+            "description": "特效方向会更偏向社媒流行审美、热门视觉趋势和季节性氛围，做内容时更容易拿到新鲜且不过时的风格。"
+          },
+          "share": {
+            "title": "生成后就适合继续分享或出稿",
+            "description": "生成结果适合继续用于社媒内容、情绪板、活动素材草图或个人分享，减少后续再做二次修图的负担。"
+          }
+        }
+      },
+      "steps": {
+        "title": "如何给照片添加特效",
+        "items": {
+          "upload": {
+            "title": "上传你的照片",
+            "description": "建议使用主体清晰、质量较高的原图。参考图越干净、细节越明确，特效结果通常越稳定。"
+          },
+          "select": {
+            "title": "选择一个特效风格",
+            "description": "浏览可用模板，挑一个最接近你目标氛围、审美或风格方向的特效，再继续生成。"
+          },
+          "apply": {
+            "title": "应用特效并保存结果",
+            "description": "生成后可以继续对比附近风格，确认满意的版本后再保存，或者直接接到下一步创作流程里。"
+          }
+        }
+      },
+      "faq": {
+        "title": "AI 照片特效常见问题",
+        "items": {
+          "types": {
+            "question": "这里可以使用哪些类型的特效？",
+            "answer": "你可以在图片特效库里找到绘画感、季节感、拼贴风、复古处理、人像向模板等多种视觉方向。"
+          },
+          "skills": {
+            "question": "使用图片特效需要修图经验吗？",
+            "answer": "不需要。这个流程本身就是以模板为起点：上传图片、选择风格、直接生成，更适合快速试效果。"
+          },
+          "photos": {
+            "question": "什么样的照片更适合套用这些特效？",
+            "answer": "更推荐主体明确、细节可读、光线相对均衡的图片，这样特效更容易稳定地保留形状和氛围。"
+          },
+          "share": {
+            "question": "生成后的图片适合继续用于社媒内容吗？",
+            "answer": "可以。这类图片很适合继续做社媒发帖、情绪板、活动创意草图，或者快速产出可分享的视觉内容。"
+          },
+          "privacy": {
+            "question": "我上传的照片会保持私密吗？",
+            "answer": "上传内容会用于当前生成与对比流程。正式分享结果前，建议结合你自己的账号与存储策略来满足隐私要求。"
+          }
+        }
+      },
+      "cta": {
+        "title": "用创意 AI 特效重新改造你的照片",
+        "description": "先挑风格，再快速试几种变化，然后直接在同一个工作区里继续生成。",
+        "button": "立即应用照片特效"
+      }
+    },
+    "videoEffectsLanding": {
+      "hero": {
+        "title": "海量视频特效，匹配每一种动效灵感",
+        "intro": "把静态照片快速变成带有动作与情绪的短视频效果。上传一张图片，切换不同动效风格，并在同一个 Mango 风格工作区里直接预览与生成。"
+      }
+    },
+    "marketing": {
+      "eyebrow": "特效指南",
+      "featureTitle": "为什么用 {effectName}？",
+      "stepsTitle": "{effectName} 怎么用",
+      "faqTitle": "{effectName} 常见问题",
+      "image": {
+        "title": "用 AI 生成 {effectName} 风格图片",
+        "intro": "把 {effectName} 当成你的起点。上传{sourceText}，生成结果后再对比相邻模板，直到画面感觉合适为止。",
+        "sourceCountOne": "1 张参考图",
+        "sourceCountMany": "{count} 张参考图",
+        "features": {
+          "workflow": {
+            "title": "先选特效再生成",
+            "description": "直接从 {effectName} 模板开始，不用每次都从零重搭整套提示。"
+          },
+          "reference": {
+            "title": "更贴近参考图",
+            "description": "在保留主体关键信息的同时，套用当前 {effectName} 的风格方向。"
+          },
+          "iteration": {
+            "title": "更适合快速试风格",
+            "description": "可以快速切换附近模板，不用反复重写整段提示词。"
+          }
+        },
+        "steps": {
+          "pick": {
+            "title": "1. 先选特效",
+            "description": "在{libraryLabel}里选择 {effectName}，或者生成前用 {useTemplateLabel} 换成别的模板。"
+          },
+          "upload": {
+            "title": "2. 上传图片",
+            "description": "上传{sourceText}，并确认主体足够清晰，适合当前特效处理。"
+          },
+          "generate": {
+            "title": "3. 生成并对比",
+            "description": "先生成结果，再回到{libraryLabel}继续横向比较附近模板，直到风格和完成度都满意。"
+          }
+        },
+        "faq": {
+          "bestInput": {
+            "question": "{effectName} 最适合什么样的图片？",
+            "answer": "建议使用主体清晰、细节可读的{sourceText}，结果会更稳定。"
+          },
+          "switch": {
+            "question": "我可以从 {effectName} 切到别的效果吗？",
+            "answer": "可以。打开{libraryLabel}后，在其他模板上点击 {useTemplateLabel}，就会同步更新当前预览和选择。"
+          },
+          "preset": {
+            "question": "为什么要用模板，而不是直接写普通提示词？",
+            "answer": "模板能明显减少前期设置时间，也更容易保持构图、风格方向和输出气质的一致性。"
+          }
+        }
+      },
+      "video": {
+        "title": "用 AI 生成 {effectName} 风格视频",
+        "intro": "从 {effectName} 模板开始，先看预览方向，再生成一段运动目标更明确的短视频。",
+        "features": {
+          "motion": {
+            "title": "先有动效方向",
+            "description": "{effectName} 会直接提供一套可用的运动思路，让你更快得到像样结果。"
+          },
+          "preview": {
+            "title": "预期更清晰",
+            "description": "在消耗额度前，就能先看到当前特效的大致气质和方向。"
+          },
+          "exploration": {
+            "title": "更快试不同动效",
+            "description": "在{libraryLabel}里配合 {useTemplateLabel} 快速比较多种运动方案。"
+          }
+        },
+        "steps": {
+          "pick": {
+            "title": "1. 先选模板",
+            "description": "保留当前 {effectName}，或者上传前先从{libraryLabel}切换到别的视频特效。"
+          },
+          "upload": {
+            "title": "2. 上传清晰图片",
+            "description": "尽量使用主体明确、构图清楚的图片，运动结果会更可控。"
+          },
+          "generate": {
+            "title": "3. 生成视频",
+            "description": "先生成视频，检查动作和节奏，再按需要切换别的模板继续比较。"
+          }
+        },
+        "faq": {
+          "image": {
+            "question": "{effectName} 适合任何图片吗？",
+            "answer": "更推荐主体清晰、细节足够、构图稳定的图片，这样生成出来的运动会更自然。"
+          },
+          "switch": {
+            "question": "怎么从 {effectName} 切换到别的效果？",
+            "answer": "打开{libraryLabel}后，在其他模板上点击 {useTemplateLabel}，预览和当前效果会一起更新。"
+          },
+          "preset": {
+            "question": "为什么视频特效要从模板开始？",
+            "answer": "模板能更快帮你确定运动方向，比空白起步更容易得到稳定结果。"
+          }
+        }
+      }
+    },
+    "errors": {
+      "fetchTaskStatusFailed": "获取任务状态失败",
+      "resultUrlNotFound": "没有找到生成结果",
+      "taskFailed": "任务执行失败",
+      "taskPollingTimeout": "任务查询超时"
+    },
+    "genericHero": {
+      "imageToImageTitle": "由图片生成 AI 图片",
+      "imageToImageIntro": "上传任意图片，补充创意提示词，就能让 AI 快速生成新的图像。适合做新设计、优化现有照片，或探索更多视觉创意。",
+      "textToImageIntro": "先明确视觉方向，再打磨提示词，把想法变成更完整的图片结果，并保持更清爽的 Mango 风格工作流。",
+      "videoIntro": "先确定清晰的视觉方向，预览想要的运动效果，再用更清爽的 Mango 风格 {sceneTitle} 工作流直接进入创作。",
+      "imageIntro": "先挑一个更合适的起点，明确最终画面方向，再用更清爽的 Mango 风格 {sceneTitle} 工作流直接进入生成。"
+    }
+  },
+  "faceGenerator": {
+    "tabs": {
+      "library": "模板库"
+    },
+    "hero": {
+      "eyebrow": "人像实验室",
+      "title": "人脸生成器",
+      "description": "从人像模板开始，先预览想要的风格，再在更明亮的 Mango 工作台里细调生成结果。"
+    },
+    "actions": {
+      "useTemplate": "试试这个模板",
+      "surpriseMe": "随机来一组"
+    },
+    "form": {
+      "prompt": "提示词",
+      "promptPlaceholder": "补充这张人脸想要的额外创意方向。",
+      "aspectRatio": "宽高比",
+      "gender": "性别",
+      "age": "年龄",
+      "ethnos": "族裔",
+      "bodyType": "体型",
+      "eyeColor": "眼睛颜色",
+      "hairColor": "发色",
+      "hairType": "发质",
+      "hairStyle": "发型",
+      "makeup": "妆容",
+      "generatedPromptPreview": "生成提示词预览",
+      "selectPlaceholder": "请选择"
+    },
+    "status": {
+      "ready": "准备开始生成",
+      "templateApplied": "已应用模板：{title}",
+      "surpriseApplied": "已随机应用一组参数",
+      "generating": "正在生成人脸",
+      "generated": "人脸生成完成",
+      "failed": "生成失败"
+    },
+    "errors": {
+      "generateFailed": "生成人脸失败"
+    },
+    "empty": {
+      "creations": {
+        "title": "创作记录",
+        "description": "运行人脸生成器后，生成结果会显示在这里。",
+        "chips": {
+          "generator": "人脸生成器"
+        }
+      },
+      "collections": {
+        "title": "收藏",
+        "description": "在这里创建并管理你的人脸生成收藏。",
+        "chips": {
+          "generator": "人脸生成器",
+          "portrait": "人像",
+          "library": "模板库"
+        }
+      }
+    }
+  }
+}

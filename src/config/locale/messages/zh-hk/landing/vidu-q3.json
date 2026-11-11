@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "title": "Vidu Q3 圖片轉影片 - AI 動畫相片 | joymagic",
+    "description": "使用 Vidu Q3 將圖片轉換為影片。上載參考相片，控制運動幅度，生成帶有可選音訊和背景音樂嘅影片。",
+    "keywords": "vidu q3, 圖片轉影片, ai影片生成器, 動畫相片, 運動幅度, 背景音樂, vidu q3 圖片轉影片"
+  },
+  "viduq3": {
+    "form": {
+      "prompt": {
+        "label": "提示詞",
+        "placeholder": "一位時尚嘅年輕男性藝術家正喺陽光明媚嘅城市小巷入面，喺磚牆上噴繪一幅色彩繽紛嘅花卉壁畫...",
+        "tooltip": "用於生成嘅正向提示詞。"
+      },
+      "image": {
+        "label": "圖片",
+        "tooltip": "上載要轉換為影片嘅圖片",
+        "hint": "提示：你可以拖放檔案或點擊上載",
+        "dragDrop": "拖放檔案或點擊上載",
+        "dropHere": "將圖片拖放到呢度"
+      },
+      "resolution": {
+        "label": "解像度"
+      },
+      "duration": {
+        "label": "時長",
+        "tooltip": "設定影片時長，範圍為 1 到 16 秒",
+        "unit": "秒"
+      },
+      "movementAmplitude": {
+        "label": "運動幅度"
+      },
+      "generateAudio": {
+        "label": "生成音訊",
+        "description": "啟用後，將自動為影片生成音訊。",
+        "tooltip": "啟用呢個選項可自動為影片生成音訊。"
+      },
+      "bgm": {
+        "label": "背景音樂",
+        "description": "啟用後，將為影片添加背景音樂。",
+        "tooltip": "啟用呢個選項可為影片添加背景音樂。"
+      },
+      "seed": {
+        "label": "種子",
+        "placeholder": "留空則隨機生成"
+      },
+      "buttons": {
+        "reset": "重設",
+        "run": "生成",
+        "generating": "生成中..."
+      }
+    },
+    "preview": {
+      "placeholder": "輸入提示詞並點擊執行，生成嘅影片將顯示喺呢度。"
+    },
+    "status": {
+      "idle": "閒置",
+      "processing": "處理中",
+      "completed": "已完成"
+    },
+    "actions": {
+      "downloadVideo": "下載影片",
+      "downloadFailed": "下載影片失敗"
+    },
+    "errors": {
+      "promptRequired": "請輸入提示詞",
+      "imageRequired": "請上載圖片",
+      "generationFailed": "影片生成失敗",
+      "taskFailed": "任務處理失敗",
+      "taskTimeout": "任務處理逾時，請稍後重試",
+      "taskIdNotFound": "無法取得任務ID，請檢查API回應格式",
+      "processingFailed": "處理失敗，請重試",
+      "statusQueryFailed": "查詢任務狀態失敗",
+      "apiResponseParseFailed": "解析API回應失敗",
+      "invalidFileType": "檔案類型無效。請上載圖片檔案（JPG、PNG等）。",
+      "uploadFailed": "上載失敗：{error}",
+      "uploadFailedGeneric": "上載失敗"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "Vidu Q3 圖片轉影片 - AI 動畫相片 | joymagic",
+      "description": "使用 Vidu Q3 將圖片轉換為影片。上載參考相片，控制運動幅度，生成帶有可選音訊和背景音樂嘅影片。",
+      "keywords": "vidu q3, 圖片轉影片, ai影片生成器, 動畫相片, 運動幅度, 背景音樂, vidu q3 圖片轉影片"
+    },
+    "hero": {
+      "title": "Vidu Q3 圖片轉影片",
+      "description": "Vidu Q3 可將你嘅圖片轉換為具有可自訂運動幅度嘅影片片段。上載參考相片，控制運動強度，並生成帶有可選音訊和背景音樂嘅影片。立即免費試用 Vidu Q3！",
+      "button1": "立即試用",
+      "button2": "查看定價"
+    },
+    "keyFeatures": {
+      "title": "核心功能",
+      "movementControl": {
+        "title": "運動幅度控制",
+        "description": "控制影片入面嘅運動強度。從自動、小、中、大運動幅度中選擇，以符合你嘅創意願景。"
+      },
+      "flexibleDuration": {
+        "title": "彈性時長",
+        "description": "生成 1 到 16 秒嘅影片。調整時長滑桿以建立短片或更長嘅序列。"
+      },
+      "audioOptions": {
+        "title": "音訊選項",
+        "description": "選擇生成音訊或添加背景音樂。自訂影片嘅聲音以增強觀看體驗。"
+      },
+      "multipleResolutions": {
+        "title": "多種解像度",
+        "description": "從 540p、720p 或 1080p 解像度中選擇，以滿足你嘅專案需求和質素要求。"
+      }
+    },
+    "useCases": {
+      "title": "使用場景",
+      "productAnimation": {
+        "title": "產品動畫",
+        "description": "將產品相片轉換為展示旋轉、使用或生活場景嘅展示影片。"
+      },
+      "characterAnimation": {
+        "title": "角色動畫",
+        "description": "為角色設計和概念藝術賦予運動和表情，令佢哋栩栩如生。"
+      },
+      "portraitVideos": {
+        "title": "肖像影片",
+        "description": "為肖像相片添加微妙嘅動作——眨眼、轉頭、輕微微笑。"
+      },
+      "styleMatchedClips": {
+        "title": "風格匹配片段",
+        "description": "上載風格參考以生成符合特定美學或藝術方向嘅影片。"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "咩係 Vidu Q3 圖片轉影片？",
+        "answer": "Vidu Q3 圖片轉影片可將你上載嘅圖片轉換為具有可自訂運動幅度、時長和音訊選項嘅影片片段。"
+      },
+      "q2": {
+        "question": "咩係運動幅度？",
+        "answer": "運動幅度控制影片入面出現嘅運動量。選擇自動進行自動偵測，或選擇小、中、大以獲得特定嘅強度級別。"
+      },
+      "q3": {
+        "question": "可以添加背景音樂嗎？",
+        "answer": "可以。你可以啟用背景音樂選項為生成嘅影片添加音樂。"
+      },
+      "q4": {
+        "question": "支援邊啲影片時長？",
+        "answer": "Vidu Q3 支援 1 到 16 秒嘅影片時長。使用滑桿或輸入框設定你想要嘅長度。"
+      },
+      "q5": {
+        "question": "有邊啲可用嘅解像度？",
+        "answer": "你可以根據質素和檔案大小偏好從 540p、720p 或 1080p 解像度中選擇。"
+      }
+    },
+    "finalCTA": {
+      "title": "準備好創作未？",
+      "description": "立即開始從你嘅圖片生成精彩影片。",
+      "button": "立即試用"
+    }
+  }
+}

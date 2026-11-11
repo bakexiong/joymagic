@@ -1,0 +1,551 @@
+{
+  "metadata": {
+    "title": "Precios",
+    "description": "Empieza con un plan"
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "Precios joymagic",
+    "disclaimer": "joymagic uses open-source AI models (Apache-2.0) deployed and optimized on our own infrastructure.",
+    "title": "Buy Credits & Start Creating!",
+    "description": "joymagic uses open-source AI models (Apache-2.0) deployed and optimized on our own infrastructure.",
+    "groups": [
+      {
+        "name": "yearly",
+        "title": "Anual"
+      },
+      {
+        "name": "monthly",
+        "title": "Mensual"
+      },
+      {
+        "name": "one-time",
+        "title": "Paga según uses"
+      }
+    ],
+    "items": [
+      {
+        "title": "Starter",
+        "description": "Empieza proyectos con un paquete de créditos ligero y flexible.",
+        "features_title": "Qué incluye",
+        "features": [
+          "1890 créditos flexibles para todas las funciones en joymagic",
+          "≈945 generaciones joymagic (2 créditos cada una)",
+          "≈236 segundos de vídeo LTX-2 (8 créditos por segundo)",
+          "≈Usa los 25 modelos listados en nuestro sitio",
+          "Perfecto para principiantes que exploran las funciones principales de joymagic."
+        ],
+        "interval": "one-time",
+        "amount": 1890,
+        "currency": "USD",
+        "price": "$18.9",
+        "original_price": "$29.0",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Comprar créditos",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Starter",
+        "product_name": "joymagic 1890 Credit Pack",
+        "credits": 1890,
+        "valid_days": 180,
+        "group": "one-time"
+      },
+      {
+        "title": "Professional (+40% de bonificación)",
+        "description": "Volumen masivo para estudios y usuarios avanzados.",
+        "features_title": "Qué incluye",
+        "features": [
+          "4200 créditos con 40% de bonificación incluida",
+          "≈2100 generaciones joymagic (2 créditos cada una)",
+          "≈525 segundos de vídeo LTX-2 (8 créditos por segundo)",
+          "≈Usa los 25 modelos listados en nuestro sitio",
+          "Procesamiento prioritario para completar más rápido",
+          "Ejecuta varias tareas a la vez",
+          "Perfecto para profesionales, creadores, estudios y usuarios avanzados de contenido IA"
+        ],
+        "interval": "one-time",
+        "amount": 2990,
+        "currency": "USD",
+        "price": "$29.9",
+        "original_price": "$80",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Comprar créditos",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Premium",
+        "product_name": "joymagic 4200 Credit Pack",
+        "credits": 4200,
+        "valid_days": 365,
+        "group": "one-time"
+      },
+      {
+        "title": "Titan (+50% de bonificación)",
+        "description": "Nuestro mejor paquete para creadores de alto volumen — incluye cola prioritaria y mayor capacidad.",
+        "features_title": "Qué incluye",
+        "features": [
+          "15000 créditos con 50% de bonificación incluida",
+          "≈7500 generaciones joymagic (2 créditos cada una)",
+          "≈1875 segundos de vídeo LTX-2 (8 créditos por segundo)",
+          "≈Usa los 25 modelos listados en nuestro sitio",
+          "Procesamiento prioritario para todas las tareas",
+          "Más tareas en paralelo para mayor productividad",
+          "Perfecto para profesionales, creadores, estudios y usuarios avanzados IA, uso empresarial"
+        ],
+        "interval": "one-time",
+        "amount": 9990,
+        "currency": "USD",
+        "price": "$99.9",
+        "original_price": "$199",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Comprar créditos",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Titan",
+        "product_name": "joymagic 15000 Credit Pack",
+        "credits": 15000,
+        "valid_days": 365,
+        "group": "one-time"
+      },
+      {
+        "title": "Starter Mensual",
+        "description": "Empieza proyectos con un paquete de créditos ligero y flexible.",
+        "features_title": "Qué incluye",
+        "features": [
+          "1890 créditos flexibles para todas las funciones en joymagic",
+          "≈945 generaciones joymagic (2 créditos cada una)",
+          "≈236 segundos de vídeo LTX-2 (8 créditos por segundo)",
+          "≈Usa los 25 modelos listados en nuestro sitio",
+          "Perfecto para principiantes que exploran las funciones principales de joymagic."
+        ],
+        "interval": "month",
+        "amount": 1690,
+        "currency": "USD",
+        "price": "$16.9/mes",
+        "original_price": "$26.0",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Comprar créditos",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Starter-Monthly",
+        "product_name": "joymagic 1890 Credit Pack Monthly",
+        "credits": 1890,
+        "valid_days": 360,
+        "group": "monthly"
+      },
+      {
+        "title": "Professional Mensual",
+        "description": "Volumen masivo para estudios y usuarios avanzados.",
+        "features_title": "Qué incluye",
+        "features": [
+          "4200 créditos/mes con 40% de bonificación incluida",
+          "≈2100 generaciones joymagic (2 créditos cada una)",
+          "≈525 segundos de vídeo LTX-2 (8 créditos por segundo)",
+          "≈Usa los 25 modelos listados en nuestro sitio",
+          "Procesamiento prioritario para completar más rápido",
+          "Ejecuta varias tareas a la vez",
+          "Perfecto para profesionales, creadores, estudios y usuarios avanzados de contenido IA"
+        ],
+        "interval": "month",
+        "amount": 2690,
+        "currency": "USD",
+        "price": "$26.9/mes",
+        "original_price": "$80",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Comprar créditos",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Premium-Monthly",
+        "product_name": "joymagic 4200 Credit Pack Monthly",
+        "credits": 4200,
+        "valid_days": 365,
+        "group": "monthly"
+      },
+      {
+        "title": "Titan Mensual",
+        "description": "Nuestro mejor paquete para creadores de alto volumen — incluye cola prioritaria y mayor capacidad.",
+        "features_title": "Qué incluye",
+        "features": [
+          "15000 créditos/mes con 50% de bonificación incluida",
+          "≈7500 generaciones joymagic (2 créditos cada una)",
+          "≈1875 segundos de vídeo LTX-2 (8 créditos por segundo)",
+          "≈Usa los 25 modelos listados en nuestro sitio",
+          "Procesamiento prioritario para todas las tareas",
+          "Más tareas en paralelo para mayor productividad",
+          "Perfecto para profesionales, creadores, estudios y usuarios avanzados IA, uso empresarial"
+        ],
+        "interval": "month",
+        "amount": 8990,
+        "currency": "USD",
+        "price": "$89.9/mes",
+        "original_price": "$199",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Comprar créditos",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Titan-Monthly",
+        "product_name": "joymagic 15000 Credit Pack Monthly",
+        "credits": 15000,
+        "valid_days": 365,
+        "group": "monthly"
+      },
+      {
+        "title": "Starter Anual",
+        "description": "Empieza proyectos con un paquete de créditos ligero y flexible.",
+        "features_title": "Qué incluye",
+        "features": [
+          "22680 créditos flexibles/año para todas las funciones en joymagic",
+          "≈11340 generaciones joymagic (2 créditos cada una)",
+          "≈2835 segundos de vídeo LTX-2 (8 créditos por segundo)",
+          "≈Usa los 25 modelos listados en nuestro sitio",
+          "Perfecto para principiantes que exploran las funciones principales de joymagic."
+        ],
+        "interval": "year",
+        "amount": 11900,
+        "currency": "USD",
+        "price": "$9.9/mes",
+        "original_price": "$179",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Comprar créditos",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Starter-Yearly",
+        "product_name": "joymagic 22680 Credit Pack Yearly",
+        "credits": 22680,
+        "valid_days": 360,
+        "group": "yearly"
+      },
+      {
+        "title": "Professional Anual",
+        "description": "Volumen masivo para estudios y usuarios avanzados.",
+        "features_title": "Qué incluye",
+        "features": [
+          "50400 créditos/año con 40% de bonificación incluida",
+          "≈25200 generaciones joymagic (2 créditos cada una)",
+          "≈6300 segundos de vídeo LTX-2 (8 créditos por segundo)",
+          "≈Usa los 25 modelos listados en nuestro sitio",
+          "Procesamiento prioritario para completar más rápido",
+          "Ejecuta varias tareas a la vez",
+          "Perfecto para profesionales, creadores, estudios y usuarios avanzados de contenido IA"
+        ],
+        "interval": "year",
+        "amount": 23880,
+        "currency": "USD",
+        "price": "$19.9/mes",
+        "original_price": "$80",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Comprar créditos",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Premium-Yearly",
+        "product_name": "joymagic 50400 Credit Pack Yearly",
+        "credits": 50400,
+        "valid_days": 365,
+        "group": "yearly"
+      },
+      {
+        "title": "Titan Anual",
+        "description": "Nuestro mejor paquete para creadores de alto volumen — incluye cola prioritaria y mayor capacidad.",
+        "features_title": "Qué incluye",
+        "features": [
+          "180000 créditos/año con 50% de bonificación incluida",
+          "≈90000 generaciones joymagic (2 créditos cada una)",
+          "≈22500 segundos de vídeo LTX-2 (8 créditos por segundo)",
+          "≈Usa los 25 modelos listados en nuestro sitio",
+          "Procesamiento prioritario para todas las tareas",
+          "Más tareas en paralelo para mayor productividad",
+          "Perfecto para profesionales, creadores, estudios y usuarios avanzados IA, uso empresarial"
+        ],
+        "interval": "year",
+        "amount": 71800,
+        "currency": "USD",
+        "price": "$59.8/mes",
+        "original_price": "$199",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Comprar créditos",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Titan-Yearly",
+        "product_name": "joymagic 180000 Credit Pack Yearly",
+        "credits": 180000,
+        "valid_days": 365,
+        "group": "yearly"
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "Preguntas frecuentes",
+    "description": "Preguntas comunes sobre créditos y precios de joymagic.",
+    "items": [
+      {
+        "question": "¿Por qué pago cuando compro créditos?",
+        "answer": "Los créditos representan el uso de computación para generar imágenes. Cada solicitud de imagen deduce un número fijo de créditos de tu saldo. Solo pagas lo que usas — no se requieren suscripciones ni hay tasas ocultas."
+      },
+      {
+        "question": "¿Los créditos caducan?",
+        "answer": "Sí. Los créditos son válidos 365 días desde la fecha de compra. Los créditos no usados caducan automáticamente después de 365 días y no son reembolsables, salvo cuando la ley aplicable lo exija."
+      },
+      {
+        "question": "¿Las compras son reembolsables?",
+        "answer": "Los reembolsos están disponibles solo en casos específicos como cargos duplicados o créditos no entregados por error del sistema. Los créditos usados no son reembolsables. Consulta nuestra Política de reembolso para más detalles."
+      },
+      {
+        "question": "¿Cómo se procesa mi pago?",
+        "answer": "Todos los pagos son procesados de forma segura por Creem, nuestro Merchant of Record. Creem gestiona cumplimiento fiscal global, facturación y cobro. joymagic no procesa ni almacena la información de tu tarjeta."
+      },
+      {
+        "question": "¿joymagic es un servicio de suscripción?",
+        "answer": "No. joymagic usa un sistema basado en créditos. Compras créditos cuando los necesitas y los usas a tu ritmo dentro de 365 días."
+      },
+      {
+        "question": "¿Puedo cancelar o cambiar un plan después de comprar?",
+        "answer": "Las compras de créditos son transacciones únicas y no pueden cancelarse después de la entrega de créditos. Puedes simplemente comprar créditos adicionales cuando los necesites."
+      },
+      {
+        "question": "¿La generación de imágenes siempre costará el mismo número de créditos?",
+        "answer": "El uso de créditos puede variar según el tipo de modelo, resolución o actualizaciones futuras. Todos los cambios se comunicarán claramente antes de entrar en vigor."
+      },
+      {
+        "question": "¿joymagic almacena mis prompts o imágenes generadas?",
+        "answer": "No. joymagic no almacena prompts ni imágenes generadas a menos que las guardes explícitamente en tu cuenta. No usamos contenido de usuarios para entrenar modelos."
+      },
+      {
+        "question": "¿Cómo se aplica la seguridad?",
+        "answer": "Todos los prompts pasan por filtros automáticos de seguridad y moderación para bloquear contenido prohibido (p. ej. NSFW, violencia, uso ilegal). Consulta nuestra Política de moderación de contenido para más detalles."
+      },
+      {
+        "question": "¿joymagic está basado en modelos open-source?",
+        "answer": "Sí. joymagic incorpora componentes bajo licencia Apache-2.0 open-source. Los detalles de atribución están en nuestra página Open-Source Attribution. joymagic es un servicio independiente y no está afiliado a los autores originales de los modelos."
+      },
+      {
+        "question": "¿Poseo las imágenes que genero?",
+        "answer": "Sí. Tienes los derechos sobre las imágenes que generas, sujeto a nuestros Términos de servicio y leyes aplicables."
+      },
+      {
+        "question": "¿Qué pasa si un pago falla?",
+        "answer": "Si un pago no puede completarse: no se te cobrará, no se añadirán créditos, puedes reintentar con otro método. Si los problemas continúan, contacta support@joymagic.fun."
+      },
+      {
+        "question": "¿Cómo accedo a mis recibos o facturas?",
+        "answer": "Creem te envía automáticamente un recibo por email después de cada compra. Si está disponible, también puedes ver el historial de facturación en el panel de tu cuenta."
+      },
+      {
+        "question": "¿Los créditos son una forma de moneda?",
+        "answer": "No. Los créditos son unidades de uso, no una moneda. No tienen valor monetario, no pueden convertirse en efectivo ni transferirse, intercambiarse o negociarse. Existen únicamente para medir el uso de computación en joymagic y se consumen al generar imágenes o usar otras funciones soportadas."
+      }
+    ]
+  },
+  "page": {
+    "current_plan": "Plan actual",
+    "processing": "Procesando"
+  },
+  "credit_modal": {
+    "title": "🎉 ¡Enhorabuena! Has desbloqueado precios exclusivos",
+    "tabs": {
+      "yearly": {
+        "label": "Anual",
+        "badge": "Ahorra un 20 %"
+      },
+      "monthly": {
+        "label": "Mensual"
+      },
+      "one_time": {
+        "label": "Compra única"
+      },
+      "one_time_short": "Pago único"
+    },
+    "instant_delivery": "Recarga instantánea: los créditos se añaden a tu monedero al momento. Perfecto para creadores nativos de IA que buscan la máxima eficiencia.",
+    "see_credits_link": "Ver cuántos créditos cuesta aproximadamente cada función",
+    "limited_time_bonus": "Bonificación por tiempo limitado",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Paquete de créditos ligero y flexible, ideal para arrancar proyectos pequeños.",
+        "credits": "1.890 créditos",
+        "cta_label": "Conseguir ahora",
+        "features": {
+          "1": "1.890 créditos flexibles y de uso general, válidos para todas las funciones de joymagic",
+          "2": "≈945 generaciones joymagic (2 créditos por imagen)",
+          "3": "≈236 segundos de vídeo LTX-2 (8 créditos por segundo)",
+          "4": "≈Acceso a los 25 modelos listados en el sitio",
+          "5": "Perfecto para nuevos usuarios que prueban joymagic por primera vez."
+        }
+      },
+      "professional": {
+        "name": "Profesional",
+        "description": "Paquete de alto volumen para estudios y creadores frecuentes.",
+        "credits": "4.200 créditos",
+        "bonus": "+40 % de créditos extra",
+        "tag": "⭐️ Recomendado",
+        "cta_label": "Conseguir ahora",
+        "features": {
+          "1": "≈2.100 generaciones joymagic",
+          "2": "≈525 segundos de vídeo LTX-2",
+          "3": "≈Acceso a los 25 modelos listados en el sitio",
+          "4": "Cola de procesamiento prioritaria para reducir tiempos de espera"
+        }
+      },
+      "titan": {
+        "name": "Titán",
+        "description": "La mejor relación calidad-precio para creadores intensivos y equipos.",
+        "credits": "15.000 créditos",
+        "bonus": "+50 % de créditos extra",
+        "cta_label": "Conseguir ahora",
+        "features": {
+          "1": "≈7.500 generaciones joymagic",
+          "2": "≈1.875 segundos de vídeo LTX-2",
+          "3": "≈Acceso a los 25 modelos listados en el sitio",
+          "4": "Cola prioritaria, ideal para escenarios de alta concurrencia"
+        }
+      },
+      "monthly_professional": {
+        "name": "Profesional",
+        "description": "Para usuarios profesionales con ritmo de creación constante; pago mensual para mayor flexibilidad.",
+        "credits": "4.200 créditos al mes",
+        "bonus": "+40 % de créditos extra",
+        "tag": "⭐️ Recomendado",
+        "cta_label": "Conseguir ahora",
+        "features": {
+          "1": "≈2.100 generaciones joymagic / mes",
+          "2": "≈525 segundos de vídeo LTX-2 / mes",
+          "3": "≈Acceso a los 25 modelos listados en el sitio",
+          "4": "Cola de procesamiento prioritaria"
+        }
+      },
+      "monthly_titan": {
+        "name": "Titán",
+        "description": "Plan mensual de uso intensivo para equipos y estudios.",
+        "credits": "15.000 créditos al mes",
+        "bonus": "+50 % de créditos extra",
+        "cta_label": "Conseguir ahora",
+        "features": {
+          "1": "≈7.500 generaciones joymagic / mes",
+          "2": "≈1.875 segundos de vídeo LTX-2 / mes",
+          "3": "≈Acceso a los 25 modelos listados en el sitio",
+          "4": "Procesamiento prioritario, ideal para producción de contenido a gran escala"
+        }
+      },
+      "yearly_professional": {
+        "name": "Profesional",
+        "description": "Plan anual para creadores profesionales; a largo plazo sale más económico.",
+        "credits": "50.400 créditos al año",
+        "bonus": "+40 % de créditos extra",
+        "tag": "⭐️ Mejor valor",
+        "cta_label": "Conseguir ahora",
+        "features": {
+          "1": "≈25.200 generaciones joymagic / año",
+          "2": "≈6.300 segundos de vídeo LTX-2 / año",
+          "3": "≈Acceso a los 25 modelos listados en el sitio",
+          "4": "Cola prioritaria y cupo estable, ideal para proyectos a largo plazo"
+        }
+      },
+      "yearly_titan": {
+        "name": "Titán",
+        "description": "Plan anual insignia diseñado para producción de contenido a gran escala y equipos empresariales.",
+        "credits": "180.000 créditos al año",
+        "bonus": "+50 % de créditos extra",
+        "cta_label": "Conseguir ahora",
+        "features": {
+          "1": "≈90.000 generaciones joymagic / año",
+          "2": "≈22.500 segundos de vídeo LTX-2 / año",
+          "3": "≈Acceso a los 25 modelos listados en el sitio",
+          "4": "Procesamiento prioritario y soporte de alta concurrencia, ideal para empresas y grandes equipos"
+        }
+      },
+      "monthly_starter": {
+        "name": "Starter Mensual",
+        "description": "Empieza proyectos con un paquete de créditos ligero y flexible.",
+        "credits": "1,890créditos al mes",
+        "cta_label": "Conseguir ahora",
+        "features": {
+          "1": "1890 créditos flexibles para todas las funciones en joymagic",
+          "2": "≈945 generaciones joymagic (2 créditos cada una)",
+          "3": "≈236 segundos de vídeo LTX-2 (8 créditos por segundo)",
+          "4": "≈Usa los 25 modelos listados en nuestro sitio",
+          "5": "Perfecto para principiantes que exploran las funciones principales de joymagic."
+        }
+      },
+      "yearly_starter": {
+        "name": "Starter Anual",
+        "description": "Empieza proyectos con un paquete de créditos ligero y flexible.",
+        "credits": "22,680créditos al año",
+        "cta_label": "Conseguir ahora",
+        "features": {
+          "1": "22680 créditos flexibles/año para todas las funciones en joymagic",
+          "2": "≈11340 generaciones joymagic (2 créditos cada una)",
+          "3": "≈2835 segundos de vídeo LTX-2 (8 créditos por segundo)",
+          "4": "≈Usa los 25 modelos listados en nuestro sitio",
+          "5": "Perfecto para principiantes que exploran las funciones principales de joymagic."
+        }
+      }
+    },
+    "close": "Close",
+    "hero_discount": "40% OFF",
+    "default_cta": "Buy Now",
+    "recurring_billing_note": "Recurring billing, cancel anytime.",
+    "badges": {
+      "most_popular": "MOST POPULAR"
+    },
+    "comparison": {
+      "features_label": "Funciones"
+    },
+    "countdown_units": {
+      "minute": "min",
+      "second": "s",
+      "centisecond": "ms"
+    },
+    "plan_labels": {
+      "starter": "Inicial",
+      "professional": "Profesional",
+      "titan": "Titán"
+    },
+    "discount": {
+      "title": "Código de descuento",
+      "description": "Introduce un código de descuento de afiliado y lo aplicaremos en el checkout.",
+      "placeholder": "Introduce el código",
+      "apply": "Aplicar",
+      "applied": "Aplicado",
+      "remove": "Quitar",
+      "success": "Código aplicado. Se usará en el checkout.",
+      "helper": "El descuento se aplicará automáticamente en el checkout.",
+      "applied_label": "Código aplicado",
+      "rate_label": "Descuento estimado",
+      "errors": {
+        "empty": "Introduce un código de descuento",
+        "invalid": "Código de descuento no válido",
+        "already_used": "Ya has usado este código de descuento."
+      }
+    },
+    "errors": {
+      "no_product": "No hay ningún producto configurado para este plan.",
+      "checkout_failed": "El pago ha fallado. Inténtalo de nuevo."
+    }
+  }
+}

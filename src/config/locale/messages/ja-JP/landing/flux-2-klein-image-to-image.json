@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "ソース画像をアップロード",
+      "hint": "最大 {max} 枚の画像をアップロード（JPG/PNG/WEBP）。各画像は 2 クレジットかかります。",
+      "dragDrop": "ドラッグ＆ドロップまたはクリックしてアップロード",
+      "dropHere": "ここに画像をドロップ"
+    },
+    "prompt": {
+      "title": "変換プロンプトを入力",
+      "placeholder": "画像をどのように変換したいか説明してください。例：「画像1を漫画スタイルに変更」「すべての画像を水彩画のように見せる」",
+      "hint": "行いたい変更を具体的に説明してください"
+    },
+    "generate": {
+      "title": "変換された画像を生成",
+      "cta": "生成",
+      "generating": "生成中..."
+    }
+  },
+  "preview": {
+    "title": "プレビュー",
+    "original": "オリジナル",
+    "swap": "交換",
+    "placeholder": "画像をアップロードしてプロンプトを入力すると、ここで変換を確認できます。"
+  },
+  "common": {
+    "selectedCount": "選択済み: {count}/{max} 枚の画像",
+    "notSelected": "未選択"
+  },
+  "errors": {
+    "invalidFileType": "無効なファイルタイプです。画像ファイル（JPG、PNG、WEBP）をアップロードしてください。",
+    "uploadFailed": "アップロードに失敗しました: {error}",
+    "uploadFailedGeneric": "アップロードに失敗しました",
+    "sourceImageRequired": "少なくとも1枚のソース画像をアップロードしてください",
+    "promptRequired": "変換プロンプトを入力してください",
+    "generationFailed": "画像生成に失敗しました",
+    "taskFailed": "タスク処理に失敗しました",
+    "taskTimeout": "タスク処理がタイムアウトしました。後でもう一度お試しください",
+    "taskIdNotFound": "タスクIDを取得できませんでした。API応答形式を確認してください",
+    "processingFailed": "処理に失敗しました。もう一度お試しください",
+    "statusQueryFailed": "タスクステータスの照会に失敗しました",
+    "apiResponseParseFailed": "API応答の解析に失敗しました"
+  },
+  "page": {
+    "metadata": {
+      "title": "Flux-2-Klein 画像-対-画像 AI ツール - AIで画像を変換 | joymagic",
+      "description": "flux-2-klein 画像-対-画像 AI を使用して画像を変換および編集します。一度に最大4枚の画像をアップロードし、高度なAI画像編集で変換します。flux-2-klein 画像-対-画像技術で高速、高品質な結果を実現します。",
+      "keywords": "flux-2-klein 画像-対-画像, flux-2-klein image to image, flux-2-klein AI, 画像変換 AI, AI 画像エディター, flux-2-klein 画像編集, 画像-対-画像 AI ツール, flux-2-klein 4b, AI 画像コンバーター"
+    },
+    "hero": {
+      "title": "Flux-2-Klein 画像-対-画像 AI - AIで画像を変換",
+      "description": "flux-2-klein 画像-対-画像 AI 技術を使用して画像を変換および編集します。同時に最大4枚の画像をアップロードし、高度なAI編集で変換します。flux-2-klein 画像-対-画像で高速、高品質な画像変換を体験してください。",
+      "button1": "Flux-2-Klein 画像-対-画像を試す",
+      "button2": "価格を見る"
+    },
+    "keyFeatures": {
+      "title": "なぜ Flux-2-Klein 画像-対-画像を選ぶのか？",
+      "description": "flux-2-klein 画像-対-画像 AI 技術の強力な機能を発見",
+      "multiImage": {
+        "title": "Flux-2-Klein 画像-対-画像によるバッチ処理",
+        "description": "flux-2-klein 画像-対-画像で一度に最大4枚の画像をアップロードします。複数の画像を同時に処理し、効率的なバッチ変換を実現します。変換あたり固定コスト2クレジット。"
+      },
+      "highQuality": {
+        "title": "高品質な Flux-2-Klein 画像-対-画像結果",
+        "description": "flux-2-klein 画像-対-画像 AI で優れた画像品質を実現します。優れた詳細と明瞭さで高解像度の変換画像を生成します。"
+      },
+      "styleFlexibility": {
+        "title": "多様なスタイル変換",
+        "description": "flux-2-klein 画像-対-画像を使用して、さまざまなスタイルで画像を変換します - フォトリアル、アーティスティック、抽象的など。詳細なプロンプトで完全な制御が可能です。"
+      },
+      "affordable": {
+        "title": "手頃な Flux-2-Klein 画像-対-画像価格",
+        "description": "コスト効率の高い flux-2-klein 画像-対-画像変換。変換あたり固定2クレジットで、あらゆる規模のプロジェクトに適しています。"
+      }
+    },
+    "promptingTips": {
+      "title": "Flux-2-Klein 画像-対-画像で最良の結果を得る方法",
+      "specific": {
+        "title": "プロンプトを具体的に",
+        "description": "最適な flux-2-klein 画像-対-画像結果を得るには、希望する変換を正確に説明してください。例：「漫画スタイルに変更」または「水彩画のように見せる」"
+      },
+      "style": {
+        "title": "アーティスティックスタイルを指定",
+        "description": "flux-2-klein 画像-対-画像を使用する際は、希望するアーティスティックスタイルを言及してください：「漫画本スタイル」「油絵」「デジタルアート」など。"
+      },
+      "color": {
+        "title": "色とムード設定",
+        "description": "カラースキームとムードを説明して、flux-2-klein 画像-対-画像変換を強化してください：「鮮やかな色」「落ち着いたトーン」「暗くてムーディー」など。"
+      },
+      "details": {
+        "title": "詳細な指示を追加",
+        "description": "照明、構図、保持または変更したい特定の要素に関する詳細を含めることで、flux-2-klein 画像-対-画像の品質を最大化してください。"
+      }
+    },
+    "useCases": {
+      "title": "Flux-2-Klein 画像-対-画像の使用例",
+      "style": {
+        "title": "アーティスティックスタイル変換",
+        "description": "flux-2-klein 画像-対-画像を使用して、写真をさまざまなアーティスティックスタイルに変換します - 漫画、水彩、油絵など。クリエイティブプロジェクトに最適です。"
+      },
+      "batch": {
+        "title": "バッチ画像処理",
+        "description": "flux-2-klein 画像-対-画像バッチ処理を活用して、プロフェッショナルなワークフローのために一貫したスタイルで最大4枚の画像を同時に変換します。"
+      },
+      "product": {
+        "title": "製品写真の強化",
+        "description": "マーケティング資料やソーシャルメディア用に flux-2-klein 画像-対-画像で製品写真を変換します。複数のスタイルバリエーションをすばやく作成します。"
+      },
+      "creative": {
+        "title": "クリエイティブデザインプロジェクト",
+        "description": "クリエイティブプロジェクトで flux-2-klein 画像-対-画像を実験してください。さまざまなアーティスティックスタイルと変換を試して、完璧な外観を見つけます。"
+      }
+    },
+    "faq": {
+      "title": "Flux-2-Klein 画像-対-画像 FAQ",
+      "description": "flux-2-klein 画像-対-画像 AI ツールに関するよくある質問",
+      "q1": {
+        "question": "flux-2-klein 画像-対-画像で何枚の画像をアップロードできますか？",
+        "answer": "flux-2-klein 画像-対-画像では、バッチ処理のために一度に最大4枚の画像をアップロードできます。各変換は2クレジットかかります。"
+      },
+      "q2": {
+        "question": "flux-2-klein 画像-対-画像の費用はいくらですか？",
+        "answer": "Flux-2-klein 画像-対-画像変換は、アップロードした画像数に関係なく、変換あたり2クレジットかかります。この固定価格により、あらゆる規模のプロジェクトに適しています。"
+      },
+      "q3": {
+        "question": "flux-2-klein 画像-対-画像はどの画像形式をサポートしていますか？",
+        "answer": "Flux-2-klein 画像-対-画像は PNG、JPEG、JPG、WebP 形式をサポートしています。最適な flux-2-klein 画像-対-画像結果を得るために、画像が明確で適切に照明されていることを確認してください。"
+      },
+      "q4": {
+        "question": "flux-2-klein 画像-対-画像のプロンプトをどのように書くべきですか？",
+        "answer": "flux-2-klein 画像-対-画像で最良の結果を得るには、詳細な説明を含めてください：主題、設定、照明、スタイル、ムード、構図。より詳細なほど、通常はより良い flux-2-klein 画像-対-画像変換が生成されます。"
+      },
+      "q5": {
+        "question": "flux-2-klein 画像-対-画像で複数の画像に同じプロンプトを使用できますか？",
+        "answer": "はい、flux-2-klein 画像-対-画像では、アップロードしたすべての画像に同じプロンプトを使用できます。各画像は、flux-2-klein 画像-対-画像技術を使用して、プロンプトの説明に従って変換されます。"
+      }
+    },
+    "finalCTA": {
+      "title": "Flux-2-Klein 画像-対-画像を試す準備はできましたか？",
+      "description": "今日から flux-2-klein 画像-対-画像 AI で画像変換を始めましょう。高速、高品質な画像変換を体験してください。",
+      "button": "今すぐ Flux-2-Klein 画像-対-画像を試す"
+    },
+    "breadcrumb": {
+      "home": "ホーム",
+      "imageToImage": "画像対画像",
+      "flux2Klein": "Flux 2 Klein"
+    },
+    "schema": {
+      "softwareName": "joymagic の Flux-2-Klein 画像-対-画像 AI ツール",
+      "howToName": "Flux-2-Klein 画像-対-画像 AI の使用方法",
+      "howToDescription": "flux-2-klein 画像-対-画像 AI 技術を使用して画像を変換する方法を学びます。画像をアップロードし、AI編集で変換します。",
+      "features": {
+        "aiImageEditing": "Flux-2-Klein 画像-対-画像 AI 編集",
+        "multiImage": "Flux-2-Klein 画像-対-画像によるバッチ処理",
+        "highQuality": "高品質な Flux-2-Klein 画像-対-画像出力"
+      }
+    }
+  }
+}

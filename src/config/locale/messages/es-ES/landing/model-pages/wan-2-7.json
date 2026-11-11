@@ -1,0 +1,142 @@
+{
+  "title": "Pálido 2.7",
+  "provider": "Alibaba",
+  "eyebrow": "Primera página de inicio del modelo",
+  "description": "Comience con Wan 2.7 cuando desee más generación de imágenes cinematográficas y narración basada en movimiento: atmósfera más fuerte, más encuadre editorial y resultados que se acerquen más a las imágenes de campaña premium.",
+  "seoTitle": "Página del modelo de IA Wan 2.7 | Texto a imagen + Texto a vídeo | joymagic",
+  "seoDescription": "Explore Wan 2.7 como página de inicio para modelos. Cambie entre texto a imagen y texto a video, reutilice el banco de trabajo del creador y pase de imágenes fijas cinematográficas a movimiento en un solo flujo.",
+  "stats": [
+    {
+      "label": "Modo primario",
+      "value": "Texto a imagen"
+    },
+    {
+      "label": "Escenas ampliadas",
+      "value": "6 flujos de trabajo en vivo"
+    },
+    {
+      "label": "Enfoque de salida",
+      "value": "dirección cinematográfica"
+    }
+  ],
+  "differentiators": [
+    "Posicione Wan 2.7 como la opción de narración premium para equipos que se preocupan por la atmósfera, la belleza y la composición editorial.",
+    "Utilice una página de modelo para unir la concepción de imágenes fijas, la edición controlada, la generación de movimiento y la extensión de secuencias sin cambiar el comportamiento principal del banco de trabajo.",
+    "Dale a Wan 2.7 su propia narrativa para que los usuarios entiendan cuándo elegirlo en lugar de un modelo de edición más basado en utilidades."
+  ],
+  "gallery": [
+    {
+      "title": "Retratos cinematográficos de belleza",
+      "caption": "Genere marcos editoriales premium con un estado de ánimo más fuerte, una representación de personajes más limpia y un acabado de campaña de moda más pulido.",
+      "prompt": "Cree un retrato cinematográfico de belleza en una calle iluminada por la lluvia a la hora azul con un estilo premium, reflejos refinados y una elegante iluminación editorial.",
+      "accentClassName": "from-[#9f7bff] via-[#3d3276] to-[#121212] text-white"
+    },
+    {
+      "title": "Ambiente de moda de lujo",
+      "caption": "Impulsa las salidas de imágenes fijas hacia una luz cinematográfica más rica, texturas premium y una narración visual más elevada.",
+      "prompt": "Genere una imagen de campaña de moda de lujo de una modelo caminando por una ciudad de neón después de la lluvia, reflejos brillantes, vestuario premium y encuadres cinematográficos de mal humor.",
+      "accentClassName": "from-[#5ec8ff] via-[#1e567b] to-[#101216] text-white"
+    },
+    {
+      "title": "Conceptos de campaña basados ​​en movimientos",
+      "caption": "Pase de conceptos fijos a ideas cinematográficas breves en movimiento cuando la historia necesite movimiento y continuidad de la cámara.",
+      "prompt": "Cree un concepto de movimiento de campaña corto de una modelo saliendo de un taxi por la noche, reflejos en el pavimento mojado, movimientos lentos de la cámara y primeros planos de belleza de lujo.",
+      "accentClassName": "from-[#f7c875] via-[#88612f] to-[#161616] text-white"
+    },
+    {
+      "title": "Bucles editoriales premium",
+      "caption": "Utilice Wan 2.7 para probar direcciones de cortometrajes de belleza y moda antes de que comience la planificación completa de la producción.",
+      "prompt": "Genere un bucle al estilo de una película de moda con sutiles movimientos del viento, transiciones cinematográficas de primeros planos, detalles de maquillaje de primera calidad y un espectacular ambiente urbano nocturno.",
+      "accentClassName": "from-[#f19dc2] via-[#75405e] to-[#171216] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué darle a Wan 2.7 su propia página de modelo?",
+      "answer": "Porque Wan 2.7 tiene una intención de usuario diferente a la de las herramientas de imágenes orientadas a utilidades. Esta página ayuda a explicar cuándo usarla para imágenes fijas cinematográficas, conceptos editoriales y desarrollo de historias con movimientos cortos."
+    },
+    {
+      "question": "¿Wan 2.7 todavía reutiliza el mismo banco de trabajo del creador?",
+      "answer": "Sí. La página mantiene la misma superficie de flujo de trabajo del lado del creador, por lo que los usuarios pueden cambiar entre la generación de imágenes y videos sin volver a aprender la estructura del producto."
+    },
+    {
+      "question": "¿Wan 2.7 es mejor para imágenes fijas o en movimiento?",
+      "answer": "Esta página posiciona Wan 2.7 para ambos. La conversión de texto a imagen funciona bien para marcos conceptuales premium, mientras que la conversión de texto a video ayuda a llevar la misma dirección estética a clips cinematográficos cortos."
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "Texto a imagen",
+      "title": "Escena 01 · Generación de imágenes cinematográficas",
+      "description": "Utilice Wan 2.7 cuando desee imágenes pulidas basadas en mensajes con un estilo editorial más fuerte, una representación de personajes refinada y una composición de primer paso más premium.",
+      "spotlight": "Ideal para editoriales de belleza, campañas de moda y conceptos visuales cinematográficos.",
+      "starterPrompt": "Genere un retrato editorial de belleza cinematográfica en una ciudad iluminada por la lluvia a la hora azul, detalles de piel pulidos, estilo de moda premium y reflejos refinados.",
+      "useCases": [
+        "Campañas de retratos y belleza de alto nivel.",
+        "Editoriales de moda con atmósfera más fuerte",
+        "Marcos conceptuales de lujo con iluminación más rica"
+      ]
+    },
+    {
+      "modeLabel": "Editar imagen",
+      "title": "Escena 02 · Edición de imágenes basada en referencias",
+      "description": "Cambie Wan 2.7 a la edición de imágenes cuando necesite preservar la identidad del sujeto, desviar la composición de las referencias y llevar las imágenes fijas hacia un acabado más cinematográfico.",
+      "spotlight": "Lo mejor para retoque editorial, rediseño de imágenes y mejoras de atmósfera a partir de recursos existentes.",
+      "starterPrompt": "Mantenga el sujeto y el encuadre originales, profundice el ambiente cinematográfico nocturno, mejore los reflejos y los detalles de la piel y eleve la imagen a una imagen editorial premium.",
+      "useCases": [
+        "Fotografías de moda con una dirección de iluminación más fuerte",
+        "Ediciones de belleza que preservan la identidad del sujeto",
+        "Escena basada en referencias y refinamiento del estado de ánimo."
+      ]
+    },
+    {
+      "modeLabel": "Edición de imagen profesional",
+      "title": "Escena 03 · Edición de imágenes de alto control",
+      "description": "Utilice la ruta de edición profesional cuando el trabajo necesite un control visual más estricto, una dirección de arte más intensa y un refinamiento más deliberado en múltiples entradas de referencia.",
+      "spotlight": "Lo mejor para pulir campañas premium, un control de edición más estricto y un refinamiento de imágenes de mayor fidelidad.",
+      "starterPrompt": "Utilizando las referencias cargadas, refine el encuadre hasta convertirlo en una imagen de campaña premium con un control de contraste más estricto, una atmósfera más rica y un acabado de lujo más limpio.",
+      "useCases": [
+        "Mejoras en retratos o productos listos para la campaña",
+        "Pases de dirección de arte más pesados ​​basados ​​en referencias",
+        "Imágenes fijas pulidas para imágenes de lanzamiento premium"
+      ]
+    },
+    {
+      "modeLabel": "Texto a vídeo",
+      "title": "Escena 04 · Narración de moda que da prioridad al movimiento",
+      "description": "Pase a la generación de vídeo Wan 2.7 cuando la idea necesite movimiento de cámara, continuidad del estado de ánimo y una narrativa de belleza o moda más parecida a una película.",
+      "spotlight": "Ideal para clips cinematográficos cortos, bucles de movimiento de campaña y tomas premium centradas en modelos.",
+      "starterPrompt": "Cree un clip corto de una película de moda de lujo de una modelo saliendo de un taxi por la noche, reflejos húmedos, cámara lenta y primeros planos de belleza premium.",
+      "useCases": [
+        "Clips de movimiento al estilo de una película de belleza",
+        "Secuencias cortas de campañas de moda.",
+        "Conceptos de movimiento editorial de lujo"
+      ]
+    },
+    {
+      "modeLabel": "Imagen a vídeo",
+      "title": "Escena 05 · Continuación en movimiento",
+      "description": "Convierta un fotograma fijo intenso en movimiento cuando desee conservar la composición original pero introduzca un movimiento sutil de la cámara, movimiento ambiental y continuidad cinematográfica.",
+      "spotlight": "Lo mejor para animar imágenes clave, fotogramas de carteles e imágenes fijas editoriales en bucles de movimiento cortos.",
+      "starterPrompt": "Anima la imagen clave cargada en un clip cinematográfico corto con viento sutil, movimiento de luz reflectante y una lenta deriva de la cámara editorial.",
+      "useCases": [
+        "Animar fotogramas de carteles para convertirlos en clips promocionales cortos.",
+        "Convierte bellas imágenes fijas en un sutil movimiento cinematográfico",
+        "Pruebe la dirección del movimiento desde una imagen clave aprobada"
+      ]
+    },
+    {
+      "modeLabel": "Ampliar vídeo",
+      "title": "Escena 06 · Ampliación de secuencia",
+      "description": "Amplíe un clip Wan 2.7 existente cuando el concepto funcione y necesite más tiempo de ejecución, una continuación narrativa más fluida o un ritmo adicional antes del corte.",
+      "spotlight": "Lo mejor para extender clips aprobados, crear bucles más largos y transmitir estilo de movimiento a lo largo de una secuencia.",
+      "starterPrompt": "Amplíe el clip subido continuando con el mismo ambiente cinematográfico, el mismo lenguaje de la cámara y el movimiento del sujeto sin romper la continuidad.",
+      "useCases": [
+        "Extienda clips cortos a bucles de campaña más completos",
+        "Añade un ritmo extra a las tomas aprobadas de películas de moda.",
+        "Preservar el lenguaje de movimiento a lo largo de una secuencia más larga"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Kaynak görselleri yükle",
+      "hint": "En fazla {max} görsel yükleyin (JPG/PNG/WEBP).",
+      "dragDrop": "Sürükle bırak veya yüklemek için tıkla",
+      "dropHere": "Görselleri buraya bırakın"
+    },
+    "prompt": {
+      "title": "Dönüşüm promptu girin",
+      "placeholder": "Görselleri nasıl dönüştürmek istediğinizi açıklayın",
+      "hint": "Yapmak istediğiniz değişiklikler hakkında spesifik olun"
+    },
+    "generate": {
+      "title": "Dönüştürülmüş görselleri oluştur",
+      "cta": "Oluştur",
+      "generating": "Oluşturuluyor..."
+    }
+  },
+  "preview": {
+    "title": "Önizleme",
+    "original": "Orijinal",
+    "swap": "Değiştir",
+    "placeholder": "Görselleri yükleyin ve dönüşümü burada görmek için bir istem girin."
+  },
+  "common": {
+    "selectedCount": "Seçilen: {count}/{max} görsel",
+    "notSelected": "Seçilmedi"
+  },
+  "errors": {
+    "invalidFileType": "Geçersiz dosya türü. Lütfen bir görsel dosyası yükleyin (JPG, PNG, WEBP).",
+    "uploadFailed": "Yükleme başarısız: {error}",
+    "uploadFailedGeneric": "Yükleme başarısız",
+    "sourceImageRequired": "Lütfen bir kaynak görsel yükleyin",
+    "promptRequired": "Lütfen bir dönüşüm promptu girin",
+    "generationFailed": "Görsel oluşturma başarısız",
+    "taskFailed": "Görev işleme başarısız",
+    "taskTimeout": "Görev işleme zaman aşımı, lütfen daha sonra tekrar deneyin",
+    "taskIdNotFound": "Görev kimliği alınamadı, lütfen API yanıt formatını kontrol edin",
+    "processingFailed": "İşleme başarısız, lütfen tekrar deneyin",
+    "statusQueryFailed": "Görev durumu sorgulaması başarısız",
+    "apiResponseParseFailed": "API yanıtı ayrıştırma başarısız"
+  },
+  "page": {
+    "metadata": {
+      "title": "Seedream 5.0 Lite Görselden Görsele AI Aracı - AI ile Görselleri Dönüştürün | joymagic",
+      "description": "Seedream 5.0 Lite görselden görsele AI ile görsellerinizi dönüştürün ve düzenleyin. Bir görsel yükleyin ve gelişmiş AI destekli düzenleme ile dönüştürün. Hızlı, yüksek kaliteli sonuçlar.",
+      "keywords": "seedream 5.0 lite görselden görsele, seedream görsel dönüşümü, AI görsel düzenleyici, görsel düzenleme, görselden görsele AI aracı, AI görsel dönüştürücü"
+    },
+    "hero": {
+      "title": "Seedream 5.0 Lite Görselden Görsele AI - Görsellerinizi AI ile Dönüştürün",
+      "description": "Seedream 5.0 Lite görselden görsele AI ile görselleri dönüştürün ve düzenleyin. Bir görsel yükleyin ve gelişmiş AI destekli düzenleme ile dönüştürün. Hızlı, yüksek kaliteli görsel dönüşümlerini deneyimleyin.",
+      "button1": "Seedream 5.0 Lite Görselden Görsele'yi Deneyin",
+      "button2": "Fiyatları Görüntüle"
+    },
+    "keyFeatures": {
+      "title": "Neden Seedream 5.0 Lite Görselden Görsele'yi Seçmelisiniz?",
+      "description": "Seedream 5.0 Lite görselden görsele AI'nın güçlü özelliklerini keşfedin",
+      "singleImage": {
+        "title": "Tekli Görsel Yükleme",
+        "description": "Bir görsel yükleyin ve nasıl dönüştürmek istediğinizi açıklayın. Basit ve hızlı."
+      },
+      "highQuality": {
+        "title": "Yüksek Kaliteli Seedream Sonuçları",
+        "description": "Seedream 5.0 Lite AI ile olağanüstü görsel kalitesi elde edin. Üstün detay ve netliğe sahip yüksek çözünürlüklü dönüştürülmüş görseller oluşturun."
+      },
+      "styleFlexibility": {
+        "title": "Çok Yönlü Stil Dönüşümü",
+        "description": "Seedream 5.0 Lite ile görselleri çeşitli stillerde dönüştürün - fotorealistik, sanatsal, soyut ve daha fazlası. Detaylı promptlarla tam kontrol."
+      },
+      "affordable": {
+        "title": "Uygun Fiyatlar",
+        "description": "Uygun maliyetli görsel dönüşümleri. Kullanım başına ödeme, her proje boyutu için uygun."
+      }
+    },
+    "promptingTips": {
+      "title": "Seedream 5.0 Lite Görselden Görsele ile En İyi Sonuçları Nasıl Alırsınız",
+      "specific": {
+        "title": "Promptlarınızda Spesifik Olun",
+        "description": "Optimum sonuçlar için tam olarak hangi dönüşümü istediğinizi açıklayın. Örnekler: \"Anime tarzına değiştir\" veya \"Yağlı boya tablosu gibi görünsün\"."
+      },
+      "style": {
+        "title": "Sanat Stilini Belirtin",
+        "description": "İstediğiniz sanat stilini belirtin: \"anime tarzı\", \"yağlı boya\", \"dijital sanat\" vb."
+      },
+      "color": {
+        "title": "Renk ve Atmosfer Ayarları",
+        "description": "Renk şemaları ve atmosfer tanımlayarak dönüşümlerinizi geliştirin: \"canlı renkler\", \"yumuşak tonlar\", \"karanlık ve dramatik\" vb."
+      },
+      "details": {
+        "title": "Detaylı Talimatlar Ekleyin",
+        "description": "Aydınlatma, kompozisyon ve korumak veya değiştirmek istediğiniz belirli öğeler hakkında ayrıntılar ekleyerek kaliteyi en üst düzeye çıkarın."
+      }
+    },
+    "useCases": {
+      "title": "Seedream 5.0 Lite Görselden Görsele Kullanım Alanları",
+      "style": {
+        "title": "Sanatsal Stil Dönüşümü",
+        "description": "Fotoğrafları farklı sanat stillerine dönüştürün - anime, suluboya, yağlı boya ve daha fazlası. Yaratıcı projeler için mükemmel."
+      },
+      "product": {
+        "title": "Ürün Fotoğrafçılığı İyileştirme",
+        "description": "Pazarlama materyalleri ve sosyal medya için ürün fotoğraflarını dönüştürün. Hızla birden fazla stil varyasyonu oluşturun."
+      },
+      "creative": {
+        "title": "Yaratıcı Tasarım Projeleri",
+        "description": "Yaratıcı projeler için farklı sanat stilleri ve dönüşümlerle deneyler yapın. Mükemmel görünümü bulun."
+      },
+      "personal": {
+        "title": "Kişisel Kullanım",
+        "description": "Fotoğraflarınızı AI ile yeniden hayal edin - tek bir promptla atmosferi, stili veya ortamı değiştirin."
+      }
+    },
+    "faq": {
+      "title": "Seedream 5.0 Lite Görselden Görsele SSS",
+      "description": "Seedream 5.0 Lite görselden görsele AI aracı hakkında sık sorulan sorular",
+      "q1": {
+        "question": "Kaç görsel yükleyebilirim?",
+        "answer": "Bir seferde bir görsel yüklersiniz. Dönüşümünüzü promptta açıklayın ve oluşturun."
+      },
+      "q2": {
+        "question": "Maliyeti nedir?",
+        "answer": "Her görsel dönüşümü sabit sayıda kredi tüketir. Güncel tarifeler için fiyatlandırma sayfasına bakın."
+      },
+      "q3": {
+        "question": "Seedream 5.0 Lite hangi görsel formatlarını destekler?",
+        "answer": "Seedream 5.0 Lite PNG, JPEG, JPG ve WebP formatlarını destekler. Optimum sonuçlar için görselinizin net ve iyi aydınlatılmış olduğundan emin olun."
+      },
+      "q4": {
+        "question": "Seedream 5.0 Lite için promptları nasıl yazmalıyım?",
+        "answer": "En iyi sonuçlar için ayrıntılı açıklamalar ekleyin: konu, ortam, aydınlatma, stil, atmosfer ve kompozisyon. Daha fazla ayrıntı genellikle daha iyi dönüşümler üretir."
+      },
+      "q5": {
+        "question": "Aynı görseli birden fazla kez dönüştürebilir miyim?",
+        "answer": "Evet, farklı dönüşümler elde etmek için aynı görselde farklı promptlar kullanabilirsiniz."
+      }
+    },
+    "finalCTA": {
+      "title": "Seedream 5.0 Lite Görselden Görsele'yi Denemeye Hazır mısınız?",
+      "description": "Bugün Seedream 5.0 Lite AI ile görsellerinizi dönüştürmeye başlayın. Hızlı, yüksek kaliteli görsel dönüşümlerini deneyimleyin.",
+      "button": "Seedream 5.0 Lite Görselden Görsele'yi Şimdi Deneyin"
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "imageToImage": "Görselden Görsele",
+      "seedreamLite": "Seedream 5.0 Lite"
+    },
+    "schema": {
+      "softwareName": "joymagic tarafından Seedream 5.0 Lite Görselden Görsele AI Aracı",
+      "howToName": "Seedream 5.0 Lite Görselden Görsele AI Nasıl Kullanılır",
+      "howToDescription": "Seedream 5.0 Lite görselden görsele AI kullanarak görselleri nasıl dönüştüreceğinizi öğrenin. Bir görsel yükleyin ve AI destekli düzenleme ile dönüştürün.",
+      "features": {
+        "aiImageEditing": "Seedream 5.0 Lite Görselden Görsele AI Düzenleme",
+        "singleImage": "Seedream 5.0 Lite ile Tekli Görsel Dönüşümü",
+        "highQuality": "Yüksek Kaliteli Seedream 5.0 Lite Çıktısı"
+      }
+    }
+  }
+}

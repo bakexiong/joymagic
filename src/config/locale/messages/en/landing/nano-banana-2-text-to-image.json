@@ -1,0 +1,147 @@
+{
+  "title": "Nano Banana 2 Text to Image",
+  "subtitle": "Next-gen AI text to image generator — turn words into stunning visuals",
+  "prompt_label": "Prompt",
+  "prompt_placeholder": "A little girl blowing soap bubbles in a backyard, sunlight making rainbow colors in the bubbles, candid photography style.",
+  "prompt_tooltip": "Enter a description of the image you want to generate",
+  "aspect_ratio_label": "Aspect Ratio",
+  "aspect_ratio_hint": "Choose the aspect ratio for the generated image",
+  "aspect_ratio_placeholder": "Select aspect ratio (optional)",
+  "aspect_ratio_none": "(None)",
+  "resolution_label": "Resolution",
+  "resolution_hint": "Choose the resolution for the generated image",
+  "output_format_label": "Output Format",
+  "output_format_hint": "Choose the output image format",
+  "buttons": {
+    "generate": "Generate Image"
+  },
+  "errors": {
+    "promptRequired": "Prompt is required",
+    "generate_failed": "Failed to generate image: {status}",
+    "generate_failed_default": "Failed to generate image",
+    "no_request_id": "Failed to get request ID"
+  },
+  "image_alt": "AI generated image by Nano Banana 2 text to image",
+  "download": "Download",
+  "image_placeholder": "Your Nano Banana 2 generated image will appear here",
+  "prompt_inspirations_button": "Prompt Inspirations",
+  "prompt_guide_button": "Prompt Guide",
+  "powered_by": "Powered by Nano Banana 2 text to image AI model — optimized by joymagic",
+  "prompt_guides": {
+    "guide1": "Best Nano Banana 2 Scene Prompts for Text to Image",
+    "guide2": "Best Nano Banana 2 Portrait Prompts",
+    "guide3": "Flux 1.1 Product Photo Prompts for E-commerce",
+    "guide4": "Nano Banana 2 Image Prompting: The 5-Layer Framework",
+    "guide5": "Copy-Paste Nano Banana 2 Product Prompts",
+    "guide6": "Midjourney Prompt Engineering",
+    "guide7": "Midjourney Product Prompts",
+    "guide8": "Midjourney Portrait Prompts",
+    "guide9": "50 Best Flux 1.1 Product Photo Prompts",
+    "guide10": "50 Best Flux 1.1 Portrait Prompts"
+  },
+  "page": {
+    "metadata": {
+      "title": "Nano Banana 2 Text to Image — Free AI Image Generator Online | joymagic",
+      "description": "Nano Banana 2 text to image generator creates high-quality images from prompts. Advanced camera controls, clear text rendering in Chinese & English, up to 4K resolution. Try Nano Banana 2 free online.",
+      "keywords": "nano banana 2, text to image, nano banana 2 text to image, ai image generator, nano banana 2 ai, text to image generator, free ai image generator, nano banana 2 online, text to image free, ai art generator, nano banana text to image"
+    },
+    "hero": {
+      "title": "Nano Banana 2 Text to Image Generator",
+      "description": "Nano Banana 2 is a next-generation text to image AI model that turns your prompts into professional-quality visuals. With advanced camera controls, clear multilingual text rendering, and up to 4K output, Nano Banana 2 text to image delivers results that rival professional photography. Try the Nano Banana 2 text to image generator below!<br/><br/>Looking for basic image generation? <a href=\"/text-to-image/nano-banana\" class=\"text-primary underline\">Try standard Nano Banana text to image</a>.",
+      "button1": "Try Nano Banana 2 Free",
+      "button2": "View Pricing"
+    },
+    "proFeatures": {
+      "title": "What Makes Nano Banana 2 Text to Image Special",
+      "description": "Advanced capabilities that set Nano Banana 2 apart from other text to image generators",
+      "cameraControls": {
+        "title": "Camera Controls via Text Prompts",
+        "description": "Nano Banana 2 text to image understands professional photography language. Describe depth of field, bokeh, film noir lighting, or color grading — the model applies real camera techniques to your generated images."
+      },
+      "clearTextRendering": {
+        "title": "Clear Text Rendering in Images",
+        "description": "Unlike most text to image models, Nano Banana 2 renders readable typography in multiple languages. Logos, signage, posters, product labels — text stays sharp. Especially strong with Chinese characters for bilingual designs."
+      },
+      "highResolution": {
+        "title": "Up to 4K Resolution Output",
+        "description": "Nano Banana 2 text to image outputs high-resolution images up to 4K, suitable for print materials and large displays. Upscaling preserves fine details — fabric texture, architectural elements, product surfaces."
+      },
+      "complexScene": {
+        "title": "Complex Scene Composition",
+        "description": "Nano Banana 2 handles detailed spatial instructions in text to image generation. Describe object placement, lighting direction, and spatial relationships — the model interprets them accurately."
+      },
+      "professionalComposition": {
+        "title": "Professional Framing & Angles",
+        "description": "Describe specific framing, angles, and perspectives in your text to image prompts. Low angle shots, close-up portraits, leading lines — Nano Banana 2 understands cinematography terminology."
+      }
+    },
+    "standardFeatures": {
+      "title": "Core Text to Image Features",
+      "description": "Essential capabilities included in every Nano Banana 2 generation",
+      "styleFlexibility": {
+        "title": "Multiple Art Styles",
+        "description": "Photos, anime, digital art, illustrations, oil paintings"
+      },
+      "naturalLanguage": {
+        "title": "Natural Language Prompts",
+        "description": "Describe scenes in everyday language — no special syntax needed"
+      },
+      "fastGeneration": {
+        "title": "Fast Image Generation",
+        "description": "10–15 seconds per image with Nano Banana 2"
+      },
+      "multipleFormats": {
+        "title": "Multiple Output Formats",
+        "description": "Download in JPG, PNG, or WebP"
+      }
+    },
+    "useCases": {
+      "title": "Nano Banana 2 Text to Image Use Cases",
+      "eventPosters": {
+        "title": "Posters & Banners with Text",
+        "description": "Use Nano Banana 2 text to image to generate promotional posters with event details, dates, and venue info. Text renders clearly in both Chinese and English — readable at any size for print or digital."
+      },
+      "productVisualization": {
+        "title": "Product Mockups & Visualization",
+        "description": "Generate product mockups from text descriptions with Nano Banana 2. Describe the product, setting, and lighting — get professional scenes with realistic shadows and reflections."
+      },
+      "conceptPresentations": {
+        "title": "Design Concepts & Presentations",
+        "description": "Pitch design directions to clients using Nano Banana 2 text to image. Generate multiple visual styles with camera controls to show different moods and approaches — no finished artwork needed."
+      },
+      "bilingualMarketing": {
+        "title": "Bilingual Marketing Materials",
+        "description": "Create ads and graphics with Chinese and English text using Nano Banana 2 text to image. Both languages render cleanly — ideal for retail signage and product packaging across markets."
+      }
+    },
+    "faq": {
+      "title": "Nano Banana 2 Text to Image FAQ",
+      "description": "Frequently asked questions about the Nano Banana 2 text to image generator",
+      "q1": {
+        "question": "What is Nano Banana 2 text to image?",
+        "answer": "Nano Banana 2 is a next-generation AI text to image model that converts text prompts into high-quality images. It features advanced camera controls, clear multilingual text rendering, and up to 4K resolution output — making it one of the most capable text to image generators available."
+      },
+      "q2": {
+        "question": "How does Nano Banana 2 text to image handle text rendering?",
+        "answer": "Nano Banana 2 text to image generates readable typography directly in images. Describe the text content, style, and position in your prompt. It renders text clearly at any size — particularly effective for Chinese characters where most AI text to image models struggle."
+      },
+      "q3": {
+        "question": "What resolution does Nano Banana 2 text to image support?",
+        "answer": "Nano Banana 2 text to image supports 1K, 2K, and 4K resolution output. The 4K option is ideal for print materials, trade show displays, and magazine-quality images."
+      },
+      "q4": {
+        "question": "How to write good prompts for Nano Banana 2 text to image?",
+        "answer": "Be specific. Instead of \"a product on a table,\" try \"smartphone on wooden table, afternoon sunlight from left, shallow depth of field, professional product photography style.\" Nano Banana 2 text to image responds well to detailed descriptions of subject, lighting, camera settings, and visual style."
+      },
+      "q5": {
+        "question": "Is Nano Banana 2 text to image free to use?",
+        "answer": "You can try Nano Banana 2 text to image for free with limited credits. For regular use, check our pricing plans. Nano Banana 2 offers the best value for professional-quality text to image generation with camera controls and clear text rendering."
+      }
+    },
+    "finalCTA": {
+      "title": "Try Nano Banana 2 Text to Image Now",
+      "description": "Start generating professional images from text with Nano Banana 2 — free to try, no signup required.",
+      "button": "Generate Your First Image"
+    }
+  }
+}

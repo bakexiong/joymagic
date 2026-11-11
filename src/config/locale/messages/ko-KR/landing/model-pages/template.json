@@ -1,0 +1,50 @@
+{
+  "whyModelTitle": "왜 이 모델인가요",
+  "whyModelDescription": "집중된 모델 페이지는 이 모델이 가장 강한 지점이 어디인지, 언제 써야 하는지, 그리고 왜 별도의 워크플로 진입점을 가질 가치가 있는지를 분명하게 설명해야 합니다.",
+  "howItWorksTitle": "시작 방법",
+  "howItWorksDescription": "이 페이지는 사용자가 모델을 이해한 뒤 메인 제작 흐름을 벗어나지 않고 바로 작업으로 들어갈 수 있도록 구성되어 있습니다.",
+  "howItWorksSteps": [
+    {
+      "step": "01",
+      "title": "모드 선택",
+      "copy": "모델의 주요 생성 모드 사이를 전환하고 현재 의도에 가장 잘 맞는 워크플로로 바로 들어가세요."
+    },
+    {
+      "step": "02",
+      "title": "프롬프트 또는 레퍼런스 추가",
+      "copy": "처음부터 생성하는지, 기존 자산을 다듬는지에 따라 텍스트, 레퍼런스 이미지 또는 둘 다로 시작하세요."
+    },
+    {
+      "step": "03",
+      "title": "생성하고 비교",
+      "copy": "워크벤치를 활용해 빠르게 반복하고 여러 방향을 비교한 뒤 가장 강한 결과를 계속 밀고 나가세요."
+    },
+    {
+      "step": "04",
+      "title": "Creator에서 이어가기",
+      "copy": "방향이 충분히 선명해지면 맥락을 다시 만들 필요 없이 바로 Creator 흐름으로 들어가 작업을 이어갈 수 있습니다."
+    }
+  ],
+  "workflowsTitle": "하나의 모델 페이지, 여러 개의 세로형 워크플로",
+  "workflowsDescription": "기능 카드를 먼저 쌓아 올리는 대신, 페이지는 실제 장면 의도를 따라 내려갑니다. 각 모드는 어떤 상황에 맞는지, 어떻게 제어하는지, 어떻게 시작하면 좋은지를 설명합니다.",
+  "bestForTitle": "이럴 때 적합합니다",
+  "bestForDescription": "사용 사례 중심으로 구성하면 모델이 무엇을 할 수 있는지만이 아니라 실제 제작 흐름에서 어디에 가장 잘 들어맞는지도 함께 이해할 수 있습니다.",
+  "galleryTitle": "프리미엄 모델 페이지는 결과를 숨기지 말고 설명해야 합니다",
+  "galleryDescription": "전체 페이지는 세로형 에디토리얼 리듬을 따릅니다. 히어로, 워크벤치, 장면 로직, 제품 포지셔닝, 실제 결과 증명 순서로 이어지기 때문에 정보 밀도는 높지만 카드 벽처럼 보이지 않습니다.",
+  "galleryLead": "실제 결과가 가장 큰 설득력을 가져야 합니다. 주변 문구는 짧고 읽기 쉬우며 보조 역할에 머물러야 합니다.",
+  "faqTitle": "단순한 페이지 스타일 변경이 아니라 제품 서사의 재구성",
+  "faqDescription": "FAQ도 같은 세로 리듬을 유지해 페이지 전체가 분절된 모듈 묶음이 아니라 하나의 연속된 제품 서사처럼 읽히도록 합니다.",
+  "openWithPrompt": "프롬프트로 열기",
+  "openInCreator": "Creator에서 열기",
+  "sampleLabel": "샘플",
+  "fallbackSampleTitle": "모델 샘플",
+  "fallbackSampleCaption": "이 모델이 실제로 생성한 결과물 중에서 고른 예시입니다.",
+  "controls": {
+    "promptWorkflow": "프롬프트 워크플로",
+    "creatorSync": "Creator 동기화",
+    "uploadUpToRefs": "최대 {count}개의 레퍼런스 업로드",
+    "referenceUploads": "레퍼런스 업로드 지원",
+    "aspectRatios": "{count}+ 종횡비",
+    "resolutionPresets": "{count}개 해상도 프리셋"
+  }
+}

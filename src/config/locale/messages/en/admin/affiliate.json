@@ -1,0 +1,208 @@
+{
+  "module_title": "Affiliate Admin",
+  "module_description": "Manage affiliate operations, reviews, commissions and payouts in one place.",
+  "crumbs": {
+    "admin": "Admin",
+    "module": "Affiliate"
+  },
+  "tabs": {
+    "overview": "Overview",
+    "affiliates": "Affiliates",
+    "applications": "Applications",
+    "commissions": "Commissions",
+    "payouts": "Payouts",
+    "settings": "Settings"
+  },
+  "sections": {
+    "overview": {
+      "title": "Overview",
+      "description": "Affiliate program operations snapshot"
+    },
+    "affiliates": {
+      "title": "Affiliate Management",
+      "description": "View and manage all affiliates"
+    },
+    "applications": {
+      "title": "Application Review",
+      "description": "Process pending affiliate applications"
+    },
+    "commissions": {
+      "title": "Commission Management",
+      "description": "Inspect all commission records"
+    },
+    "payouts": {
+      "title": "Payout Management",
+      "description": "Review and process payout requests"
+    },
+    "settings": {
+      "title": "Global Settings",
+      "description": "Configure affiliate rules and thresholds"
+    }
+  },
+  "search": {
+    "button": "Search",
+    "affiliates": "Search name / email...",
+    "commissions": "Search affiliate / referred user...",
+    "payouts": "Search affiliate / PayPal..."
+  },
+  "status": {
+    "normal": "Active",
+    "pending": "Pending",
+    "suspended": "Suspended",
+    "blacklisted": "Blacklisted",
+    "withdrawable": "Withdrawable",
+    "confirming": "Confirming",
+    "requesting": "Requesting",
+    "approved": "Approved",
+    "paid": "Paid",
+    "rejected": "Rejected",
+    "canceled": "Canceled"
+  },
+  "overview": {
+    "stats": {
+      "total_affiliates": "Total affiliates",
+      "pending_applications": "Pending applications",
+      "monthly_commission": "Commission issued this month",
+      "pending_payout_amount": "Pending payout amount",
+      "clicks": "Clicks this month",
+      "signups": "Signups",
+      "first_orders": "First paid orders",
+      "recent_commissions": "Recent commissions",
+      "latest_activity": "Latest activity",
+      "view_all": "View all"
+    },
+    "table": {
+      "affiliate": "Affiliate",
+      "type": "Type",
+      "amount": "Amount",
+      "status": "Status"
+    }
+  },
+  "affiliates": {
+    "filters": {
+      "all": "All",
+      "normal": "Active",
+      "pending": "Pending",
+      "suspended": "Suspended",
+      "blacklisted": "Blacklisted"
+    },
+    "create": {
+      "title": "Add affiliate manually",
+      "description": "Link an existing user or create a new account and enable affiliate access immediately.",
+      "email": "User email",
+      "name": "Name (optional)",
+      "password": "Initial password for new user",
+      "paypal": "PayPal email",
+      "platform": "Social platform",
+      "account": "Social account / link",
+      "channel": "Channel summary",
+      "note": "Internal note",
+      "standard": "Standard",
+      "kol": "KOL",
+      "submit": "Create affiliate"
+    },
+    "empty": "No affiliates yet",
+    "table": {
+      "affiliate": "Affiliate",
+      "email": "Email",
+      "tier": "Tier",
+      "referrals": "Referrals",
+      "confirming": "Confirming",
+      "withdrawable": "Withdrawable",
+      "status": "Status",
+      "actions": "Actions",
+      "set_rate": "Set rate",
+      "upgrade": "Upgrade to KOL",
+      "suspend": "Suspend",
+      "resume": "Resume",
+      "blacklist": "Blacklist",
+      "banned": "Permanently banned"
+    }
+  },
+  "applications": {
+    "summary": "applications",
+    "total": "{count} applications",
+    "pending_badge": "Pending review",
+    "social_account": "Social account",
+    "channels": "Promotion channels",
+    "paypal": "PayPal account",
+    "bio": "Promotion plan",
+    "empty": "Not provided",
+    "approve": "Approve",
+    "approve_kol": "Approve as KOL",
+    "reject": "Reject",
+    "reject_suggested": "Reject (recommended)",
+    "reviewed_hint": "This application has already been processed."
+  },
+  "commissions": {
+    "filters": {
+      "all": "All",
+      "confirming": "Confirming",
+      "withdrawable": "Withdrawable",
+      "first_order": "First + Renewal",
+      "renewal_only": "Renewal only"
+    },
+    "table": {
+      "affiliate": "Affiliate",
+      "referred_user": "Referred user",
+      "type": "Type",
+      "order_amount": "Order amount",
+      "ratio": "Rate",
+      "commission": "Commission",
+      "status": "Status",
+      "time": "Time"
+    }
+  },
+  "payouts": {
+    "filters": {
+      "all": "All",
+      "requesting": "Requesting",
+      "approved": "Approved",
+      "paid": "Paid",
+      "rejected": "Rejected"
+    },
+    "table": {
+      "affiliate": "Affiliate",
+      "paypal": "PayPal account",
+      "amount": "Requested amount",
+      "requested_at": "Requested at",
+      "available": "Available balance",
+      "status": "Status",
+      "actions": "Actions",
+      "approve": "Approve",
+      "mark_paid": "Mark as paid",
+      "reject": "Reject",
+      "note": "Note"
+    }
+  },
+  "settings": {
+    "commission": {
+      "title": "Standard affiliate rate",
+      "description": "Unified percentage for regular affiliates",
+      "first_order": "First-order commission",
+      "renewal": "Renewal commission",
+      "save": "Save"
+    },
+    "tracking": {
+      "title": "Tracking and attribution",
+      "cookie_days": "Cookie valid days",
+      "confirm_days": "Commission confirmation days",
+      "save": "Save"
+    },
+    "withdrawal": {
+      "title": "Withdrawal rules",
+      "minimum": "Minimum payout amount",
+      "save": "Save"
+    },
+    "risk": {
+      "title": "Anti-fraud rules",
+      "window_minutes": "Time window",
+      "max_clicks": "Max clicks per IP",
+      "save": "Save"
+    },
+    "agreement": {
+      "title": "Affiliate agreement",
+      "save": "Save agreement"
+    }
+  }
+}

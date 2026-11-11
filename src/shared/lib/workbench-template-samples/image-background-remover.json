@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Portrait Cutout",
+    "prompt": "Remove the background from a fashion portrait while keeping the hair edges and clothing silhouette clean.",
+    "params": {
+      "size": "800*1000",
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/background-remover-samples/1779444431682-portrait-source.png",
+          "url": "https://ocdn.10b.ai/background-remover-samples/1779444431682-portrait-source.png",
+          "status": "uploaded"
+        }
+      ]
+    },
+    "previewUrl": "https://ocdn.10b.ai/background-remover-samples/1779444431682-portrait-source.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/background-remover-samples/1779444461783-portrait-result.png",
+    "generatedUrl": "https://ocdn.10b.ai/background-remover-samples/1779444461783-portrait-result.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/background-remover-samples/1779444461783-portrait-result.png"
+    ]
+  },
+  {
+    "title": "Product Bottle",
+    "prompt": "Cut out a skincare bottle from a styled product photo for ecommerce and ad creative reuse.",
+    "params": {
+      "size": "800*1000",
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/background-remover-samples/1779444600367-cosmetics-source.png",
+          "url": "https://ocdn.10b.ai/background-remover-samples/1779444600367-cosmetics-source.png",
+          "status": "uploaded"
+        }
+      ]
+    },
+    "previewUrl": "https://ocdn.10b.ai/background-remover-samples/1779444600367-cosmetics-source.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/background-remover-samples/1779444624126-cosmetics-result.png",
+    "generatedUrl": "https://ocdn.10b.ai/background-remover-samples/1779444624126-cosmetics-result.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/background-remover-samples/1779444624126-cosmetics-result.png"
+    ]
+  },
+  {
+    "title": "Sneaker Packshot",
+    "prompt": "Extract a clean shoe cutout from a lifestyle packshot so it can be placed on any campaign background.",
+    "params": {
+      "size": "800*1000",
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/background-remover-samples/1779444672328-sneaker-source.png",
+          "url": "https://ocdn.10b.ai/background-remover-samples/1779444672328-sneaker-source.png",
+          "status": "uploaded"
+        }
+      ]
+    },
+    "previewUrl": "https://ocdn.10b.ai/background-remover-samples/1779444672328-sneaker-source.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/background-remover-samples/1779444713243-sneaker-result.png",
+    "generatedUrl": "https://ocdn.10b.ai/background-remover-samples/1779444713243-sneaker-result.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/background-remover-samples/1779444713243-sneaker-result.png"
+    ]
+  },
+  {
+    "title": "Pet Sticker",
+    "prompt": "Isolate a cat from its indoor background to create a transparent sticker-style asset.",
+    "params": {
+      "size": "800*1000",
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/background-remover-samples/1779444783290-cat-source.png",
+          "url": "https://ocdn.10b.ai/background-remover-samples/1779444783290-cat-source.png",
+          "status": "uploaded"
+        }
+      ]
+    },
+    "previewUrl": "https://ocdn.10b.ai/background-remover-samples/1779444783290-cat-source.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/background-remover-samples/1779444854098-cat-result.png",
+    "generatedUrl": "https://ocdn.10b.ai/background-remover-samples/1779444854098-cat-result.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/background-remover-samples/1779444854098-cat-result.png"
+    ]
+  }
+]

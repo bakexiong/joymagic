@@ -1,0 +1,101 @@
+{
+  "page": {
+    "metadata": {
+      "title": "GPT-Image 2 Texto a imagen: texto en chino, imágenes fotorrealistas de IA | __MARCA__",
+      "description": "Cree carteles chinos, exámenes, caligrafía, fotografías callejeras fotorrealistas, capturas de pantalla de UI e imágenes de productos con GPT-Image 2. Representación de texto sólida, conocimiento mundial y calidad de imagen realista.",
+      "keywords": "GPT-Image 2, GPT Image 2, representación de texto en chino, generador de carteles con IA, imágenes fotorrealistas con IA, generador de capturas de pantalla UI, texto a imagen, modelo de imagen OpenAI"
+    },
+    "hero": {
+      "title": "GPT-Image 2 Texto a imagen",
+      "description": "GPT Image 2 es el modelo de imagen más nuevo de OpenAI en implementación limitada, construido en torno a tres puntos fuertes destacados: representación de texto de alta precisión, mayor conocimiento del mundo y calidad de imagen fotorrealista. Ya no necesita indicaciones extremadamente largas para obtener resultados sólidos. Puede producir carteles chinos, exámenes, caligrafía, fotografías realistas de estilo documental y capturas de pantalla UI convincentes a partir de breves instrucciones naturales.<br/><br/>¿Necesitas transformar las imágenes cargadas? <a href=\"/image-to-image/gpt-image-2\" class=\"text-primary underline\">Try GPT-Image 2 Image to Image</a>.",
+      "button1": "Pruébalo ahora",
+      "button2": "Ver precios"
+    },
+    "features": {
+      "title": "Por qué GPT-Image 2",
+      "description": "Diseñado para imágenes con mucho texto, escenas fotográficas y generación de imágenes creíbles con estilo de producto.",
+      "promptFirst": {
+        "title": "Indicaciones breves, resultados sólidos",
+        "description": "GPT Image 2 no necesita instrucciones sobrecargadas para tareas comunes. Las indicaciones directas suelen producir imágenes pulidas en el primer paso con mayor rapidez."
+      },
+      "aspectCoverage": {
+        "title": "Representación precisa de texto y diseño",
+        "description": "Genere texto en chino dentro de carteles, documentos, páginas estilo libro, embalajes y superficies de interfaz con una legibilidad mucho mayor que los modelos de imágenes más antiguos."
+      },
+      "creatorReady": {
+        "title": "Fotorrealista y consciente de la interfaz",
+        "description": "El modelo comprende la óptica, los materiales, la sensación de la cámara y la estructura UI del software lo suficientemente bien como para realizar maquetas de productos, capturas de pantalla e indicaciones fotográficas realistas."
+      }
+    },
+    "useCases": {
+      "title": "Casos de uso",
+      "socialCampaigns": {
+        "title": "Carteles chinos y tipografía mixta",
+        "description": "Cree portadas, carteles promocionales y diseños clave de juegos con títulos, subtítulos y texto de diseño de respaldo en chino legibles."
+      },
+      "coverArt": {
+        "title": "Documentos, papeles y caligrafía",
+        "description": "Genere hojas de examen, simulaciones de páginas impresas, trabajos de caligrafía y composiciones de estilo artístico tradicional con una ubicación de texto más creíble."
+      },
+      "productVisuals": {
+        "title": "Fotografía fotográfica editorial y callejera",
+        "description": "Solicite cuerpos de cámara, lentes, películas, iluminación ambiental y encuadres naturales para obtener imágenes de estilo fotográfico más convincentes."
+      },
+      "cinematicBoards": {
+        "title": "App UI y conceptos de captura de pantalla de escritorio",
+        "description": "Genere interfaces de __aplicaciones__, paneles financieros, escritorios macOS y escenas de demostración de productos con un estilo similar a una captura de pantalla con una estructura de interfaz clara."
+      }
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Preguntas comunes sobre la representación de texto GPT Image 2 y la generación fotorrealista.",
+      "q1": {
+        "question": "¿En qué es especialmente bueno GPT Image 2?",
+        "answer": "Sus casos de uso más importantes son la generación de imágenes con mucho texto, tipografía china, escenas fotográficas, indicaciones de fotografía profesional y UI o composiciones de estilo captura de pantalla."
+      },
+      "q2": {
+        "question": "¿Puede GPT Image 2 representar texto chino con precisión?",
+        "answer": "Es mucho mejor que los modelos anteriores para texto, carteles, hojas de examen, etiquetas y otros diseños estructurados en chino, aunque aún debe revisar los detalles antes de usarlo en producción."
+      },
+      "q3": {
+        "question": "¿Necesito indicaciones largas para obtener buenos resultados?",
+        "answer": "Normalmente no. Una de las ventajas del modelo es que indicaciones simples y directas ya pueden producir imágenes excelentes, especialmente para solicitudes visuales comunes."
+      }
+    },
+    "finalCTA": {
+      "title": "¿Listo para probar GPT Image 2?",
+      "description": "Comience con un breve mensaje y genere carteles, fotografías realistas, capturas de pantalla de UI o imágenes de estilo documento en segundos.",
+      "button": "Área de juegos abierta"
+    },
+    "breadcrumb": {
+      "home": "Hogar",
+      "textToImage": "Texto a imagen",
+      "model": "__MODELO_A__"
+    },
+    "schema": {
+      "softwareName": "joymagic AI GPT-Image 2 Texto a imagen",
+      "softwareDescription": "Genere carteles chinos, exámenes, caligrafía, fotografías realistas y capturas de pantalla UI con GPT Image 2.",
+      "howToName": "Cómo generar imágenes con GPT Image 2",
+      "howToDescription": "Escriba un mensaje breve, elija una relación de aspecto y genere imágenes fotorrealistas o con mucho texto con GPT Image 2.",
+      "features": {
+        "promptFirst": "Generación de imágenes breves",
+        "aspectPresets": "Representación de texto y diseño en chino",
+        "outputCoverage": "Fotografía fotorrealista y generación de capturas de pantalla UI"
+      },
+      "steps": {
+        "prompt": {
+          "name": "Escribe tu mensaje",
+          "text": "Describe el tema, el estilo, la iluminación y la composición que deseas crear."
+        },
+        "aspectRatio": {
+          "name": "Elige la relación de aspecto",
+          "text": "Elija la forma de salida que coincida con el lienzo de destino, desde cuadrado hasta retrato o ultraancho."
+        },
+        "generate": {
+          "name": "Generar y descargar",
+          "text": "Ejecute el modelo y descargue el resultado que mejor se adapte a su flujo de trabajo creativo."
+        }
+      }
+    }
+  }
+}

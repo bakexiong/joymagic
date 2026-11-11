@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "원본 이미지 업로드",
+      "hint": "최대 {max}장의 이미지를 업로드하세요 (JPG/PNG/WEBP).",
+      "dragDrop": "드래그 앤 드롭 또는 클릭하여 업로드",
+      "dropHere": "이미지를 여기에 놓으세요"
+    },
+    "prompt": {
+      "title": "변환 프롬프트 입력",
+      "placeholder": "이미지를 어떻게 변환하고 싶은지 설명하세요",
+      "hint": "원하는 변경 사항을 구체적으로 설명하세요"
+    },
+    "generate": {
+      "title": "변환된 이미지 생성",
+      "cta": "생성",
+      "generating": "생성 중..."
+    }
+  },
+  "preview": {
+    "title": "미리보기",
+    "original": "원본",
+    "swap": "전환",
+    "placeholder": "이미지를 업로드하고 프롬프트를 입력하면 여기에서 변환 결과를 확인할 수 있습니다."
+  },
+  "common": {
+    "selectedCount": "선택됨: {count}/{max}장",
+    "notSelected": "선택되지 않음"
+  },
+  "errors": {
+    "invalidFileType": "잘못된 파일 형식입니다. 이미지 파일을 업로드하세요 (JPG, PNG, WEBP).",
+    "uploadFailed": "업로드 실패: {error}",
+    "uploadFailedGeneric": "업로드 실패",
+    "sourceImageRequired": "원본 이미지를 업로드하세요",
+    "promptRequired": "변환 프롬프트를 입력하세요",
+    "generationFailed": "이미지 생성 실패",
+    "taskFailed": "작업 처리 실패",
+    "taskTimeout": "작업 처리 시간 초과, 나중에 다시 시도하세요",
+    "taskIdNotFound": "작업 ID를 가져올 수 없습니다. API 응답 형식을 확인하세요",
+    "processingFailed": "처리 실패, 다시 시도하세요",
+    "statusQueryFailed": "작업 상태 조회 실패",
+    "apiResponseParseFailed": "API 응답 분석 실패"
+  },
+  "page": {
+    "metadata": {
+      "title": "Seedream 5.0 Lite 이미지-투-이미지 AI 도구 - AI로 이미지 변환 | joymagic",
+      "description": "Seedream 5.0 Lite 이미지-투-이미지 AI를 사용하여 이미지를 변환하고 편집하세요. 이미지를 업로드하고 고급 AI 편집으로 변환하세요. 빠르고 고품질의 결과.",
+      "keywords": "seedream 5.0 lite 이미지-투-이미지, seedream 이미지 변환, AI 이미지 편집기, 이미지 편집, 이미지-투-이미지 AI 도구, AI 이미지 변환기"
+    },
+    "hero": {
+      "title": "Seedream 5.0 Lite 이미지-투-이미지 AI - AI로 이미지를 변환하세요",
+      "description": "Seedream 5.0 Lite 이미지-투-이미지 AI로 이미지를 변환하고 편집하세요. 이미지를 업로드하고 고급 AI 편집으로 변환하세요. 빠르고 고품질의 이미지 변환을 경험하세요.",
+      "button1": "Seedream 5.0 Lite 이미지-투-이미지 체험하기",
+      "button2": "가격 보기"
+    },
+    "keyFeatures": {
+      "title": "왜 Seedream 5.0 Lite 이미지-투-이미지를 선택해야 할까요?",
+      "description": "Seedream 5.0 Lite 이미지-투-이미지 AI의 강력한 기능을 알아보세요",
+      "singleImage": {
+        "title": "단일 이미지 업로드",
+        "description": "이미지 한 장을 업로드하고 원하는 변환 방법을 설명하세요. 간단하고 빠릅니다."
+      },
+      "highQuality": {
+        "title": "고품질 Seedream 결과",
+        "description": "Seedream 5.0 Lite AI로 뛰어난 이미지 품질을 얻으세요. 뛰어난 디테일과 선명도를 갖춘 고해상도 변환 이미지를 생성합니다."
+      },
+      "styleFlexibility": {
+        "title": "다양한 스타일 변환",
+        "description": "Seedream 5.0 Lite로 다양한 스타일로 이미지를 변환하세요 - 사실적, 예술적, 추상적 등. 상세한 프롬프트로 완전한 제어가 가능합니다."
+      },
+      "affordable": {
+        "title": "합리적인 가격",
+        "description": "비용 효율적인 이미지 변환. 사용량에 따라 지불하여 모든 규모의 프로젝트에 적합합니다."
+      }
+    },
+    "promptingTips": {
+      "title": "Seedream 5.0 Lite 이미지-투-이미지로 최상의 결과를 얻는 방법",
+      "specific": {
+        "title": "프롬프트를 구체적으로 작성하세요",
+        "description": "최적의 결과를 위해 원하는 변환을 정확히 설명하세요. 예: \"애니메이션 스타일로 변경\" 또는 \"유화처럼 보이게 만들기\"."
+      },
+      "style": {
+        "title": "예술 스타일 지정",
+        "description": "원하는 예술 스타일을 언급하세요: \"애니메이션 스타일\", \"유화\", \"디지털 아트\" 등."
+      },
+      "color": {
+        "title": "색상 및 분위기 설정",
+        "description": "색상 구성과 분위기를 설명하여 변환을 향상시키세요: \"선명한 색상\", \"차분한 톤\", \"어둡고 무디한\" 등."
+      },
+      "details": {
+        "title": "상세한 지시 추가",
+        "description": "조명, 구도, 보존하거나 변경하고 싶은 특정 요소에 대한 세부 사항을 포함하여 품질을 극대화하세요."
+      }
+    },
+    "useCases": {
+      "title": "Seedream 5.0 Lite 이미지-투-이미지 활용 사례",
+      "style": {
+        "title": "예술 스타일 변환",
+        "description": "사진을 다양한 예술 스타일로 변환하세요 - 애니메이션, 수채화, 유화 등. 창작 프로젝트에 완벽합니다."
+      },
+      "product": {
+        "title": "제품 사진 향상",
+        "description": "마케팅 자료와 소셜 미디어용 제품 사진을 변환하세요. 다양한 스타일 변형을 빠르게 만들 수 있습니다."
+      },
+      "creative": {
+        "title": "창작 디자인 프로젝트",
+        "description": "창작 프로젝트를 위해 다양한 예술 스타일과 변환을 실험하세요. 완벽한 룩을 찾아보세요."
+      },
+      "personal": {
+        "title": "개인 사용",
+        "description": "AI로 사진을 재구성하세요 - 하나의 프롬프트로 분위기, 스타일 또는 배경을 변경할 수 있습니다."
+      }
+    },
+    "faq": {
+      "title": "Seedream 5.0 Lite 이미지-투-이미지 FAQ",
+      "description": "Seedream 5.0 Lite 이미지-투-이미지 AI 도구에 대한 자주 묻는 질문",
+      "q1": {
+        "question": "이미지를 몇 장 업로드할 수 있나요?",
+        "answer": "한 번에 이미지 한 장을 업로드합니다. 프롬프트에서 변환 내용을 설명하고 생성하세요."
+      },
+      "q2": {
+        "question": "비용은 얼마인가요?",
+        "answer": "각 이미지 변환은 고정된 크레딧을 소비합니다. 현재 요금은 가격 페이지를 확인하세요."
+      },
+      "q3": {
+        "question": "Seedream 5.0 Lite는 어떤 이미지 형식을 지원하나요?",
+        "answer": "Seedream 5.0 Lite는 PNG, JPEG, JPG 및 WebP 형식을 지원합니다. 최적의 결과를 위해 이미지가 선명하고 조명이 좋은지 확인하세요."
+      },
+      "q4": {
+        "question": "Seedream 5.0 Lite용 프롬프트는 어떻게 작성해야 하나요?",
+        "answer": "최상의 결과를 위해 상세한 설명을 포함하세요: 주제, 배경, 조명, 스타일, 분위기, 구도. 더 많은 세부 사항이 일반적으로 더 나은 변환 결과를 만듭니다."
+      },
+      "q5": {
+        "question": "같은 이미지를 여러 번 변환할 수 있나요?",
+        "answer": "네, 같은 이미지에 다른 프롬프트를 사용하여 다양한 변환 결과를 얻을 수 있습니다."
+      }
+    },
+    "finalCTA": {
+      "title": "Seedream 5.0 Lite 이미지-투-이미지를 체험할 준비가 되셨나요?",
+      "description": "지금 바로 Seedream 5.0 Lite AI로 이미지 변환을 시작하세요. 빠르고 고품질의 이미지 변환을 경험하세요.",
+      "button": "지금 Seedream 5.0 Lite 이미지-투-이미지 체험하기"
+    },
+    "breadcrumb": {
+      "home": "홈",
+      "imageToImage": "이미지-투-이미지",
+      "seedreamLite": "Seedream 5.0 Lite"
+    },
+    "schema": {
+      "softwareName": "joymagic의 Seedream 5.0 Lite 이미지-투-이미지 AI 도구",
+      "howToName": "Seedream 5.0 Lite 이미지-투-이미지 AI 사용 방법",
+      "howToDescription": "Seedream 5.0 Lite 이미지-투-이미지 AI를 사용하여 이미지를 변환하는 방법을 알아보세요. 이미지를 업로드하고 AI 편집으로 변환하세요.",
+      "features": {
+        "aiImageEditing": "Seedream 5.0 Lite 이미지-투-이미지 AI 편집",
+        "singleImage": "Seedream 5.0 Lite로 단일 이미지 변환",
+        "highQuality": "고품질 Seedream 5.0 Lite 출력"
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "上傳源圖片",
+      "hint": "最多上傳 {max} 張圖片（JPG/PNG/WEBP）。每張圖片消耗 2 積分。",
+      "dragDrop": "拖放或點擊上傳",
+      "dropHere": "將圖片拖放到此處"
+    },
+    "prompt": {
+      "title": "輸入轉換提示詞",
+      "placeholder": "描述您想要如何轉換圖片，例如：「將圖片1改為漫畫風格」、「讓所有圖片看起來像水彩畫」",
+      "hint": "請具體說明您想要進行的更改"
+    },
+    "generate": {
+      "title": "生成轉換後的圖片",
+      "cta": "生成",
+      "generating": "生成中..."
+    }
+  },
+  "preview": {
+    "title": "預覽",
+    "original": "原始",
+    "swap": "交換",
+    "placeholder": "上傳圖片並輸入提示詞以在此處查看轉換效果。"
+  },
+  "common": {
+    "selectedCount": "已選擇：{count}/{max} 張圖片",
+    "notSelected": "未選擇"
+  },
+  "errors": {
+    "invalidFileType": "無效的文件類型。請上傳圖片文件（JPG、PNG、WEBP）。",
+    "uploadFailed": "上傳失敗：{error}",
+    "uploadFailedGeneric": "上傳失敗",
+    "sourceImageRequired": "請至少上傳一張源圖片",
+    "promptRequired": "請輸入轉換提示詞",
+    "generationFailed": "圖片生成失敗",
+    "taskFailed": "任務處理失敗",
+    "taskTimeout": "任務處理超時，請稍後再試",
+    "taskIdNotFound": "無法獲取任務 ID，請檢查 API 響應格式",
+    "processingFailed": "處理失敗，請重試",
+    "statusQueryFailed": "查詢任務狀態失敗",
+    "apiResponseParseFailed": "解析 API 響應失敗"
+  },
+  "page": {
+    "metadata": {
+      "title": "Flux-2-Klein 圖片轉換 AI 工具 - 使用 AI 轉換圖片 | joymagic",
+      "description": "使用 flux-2-klein 圖片轉換 AI 來轉換和編輯您的圖片。一次最多上傳 4 張圖片，使用先進的 AI 圖片編輯技術進行轉換。flux-2-klein 圖片轉換技術提供快速、高質量的結果。",
+      "keywords": "flux-2-klein 圖片轉換, flux-2-klein image-to-image, flux-2-klein AI, 圖片轉換 AI, AI 圖片編輯器, flux-2-klein 圖片編輯, 圖片轉換 AI 工具, flux-2-klein 4b, AI 圖片轉換器"
+    },
+    "hero": {
+      "title": "Flux-2-Klein 圖片轉換 AI - 使用 AI 轉換您的圖片",
+      "description": "使用 flux-2-klein 圖片轉換 AI 技術來轉換和編輯圖片。可同時上傳最多 4 張圖片，使用先進的 AI 圖片編輯技術進行轉換。體驗 flux-2-klein 圖片轉換帶來的快速、高質量圖片轉換效果。",
+      "button1": "試用 Flux-2-Klein 圖片轉換",
+      "button2": "查看價格"
+    },
+    "keyFeatures": {
+      "title": "為什麼選擇 Flux-2-Klein 圖片轉換？",
+      "description": "了解 flux-2-klein 圖片轉換 AI 技術的強大功能",
+      "multiImage": {
+        "title": "Flux-2-Klein 圖片轉換批量處理",
+        "description": "使用 flux-2-klein 圖片轉換一次最多上傳 4 張圖片。同時處理多張圖片，實現高效的批量轉換。每次轉換固定消耗 2 積分。"
+      },
+      "highQuality": {
+        "title": "高質量 Flux-2-Klein 圖片轉換結果",
+        "description": "使用 flux-2-klein 圖片轉換 AI 獲得卓越的圖片質量。生成細節清晰、質量出眾的高分辨率轉換圖片。"
+      },
+      "styleFlexibility": {
+        "title": "多樣化風格轉換",
+        "description": "使用 flux-2-klein 圖片轉換將圖片轉換為各種風格 - 寫實、藝術、抽象等。通過詳細的提示詞完全控制輸出效果。"
+      },
+      "affordable": {
+        "title": "實惠的 Flux-2-Klein 圖片轉換價格",
+        "description": "經濟實惠的 flux-2-klein 圖片轉換服務。每次轉換固定 2 積分，適合任何規模的項目。"
+      }
+    },
+    "promptingTips": {
+      "title": "如何獲得最佳的 Flux-2-Klein 圖片轉換效果",
+      "specific": {
+        "title": "提示詞要具體",
+        "description": "為了獲得最佳的 flux-2-klein 圖片轉換效果，請準確描述您想要的轉換。例如：「改為漫畫風格」或「讓它看起來像水彩畫」。"
+      },
+      "style": {
+        "title": "指定藝術風格",
+        "description": "使用 flux-2-klein 圖片轉換時，請提及您想要的藝術風格：「漫畫書風格」、「油畫」、「數字藝術」等。"
+      },
+      "color": {
+        "title": "顏色和氛圍設置",
+        "description": "通過描述配色方案和氛圍來增強您的 flux-2-klein 圖片轉換效果：「鮮豔的色彩」、「柔和的色調」、「暗黑風格」等。"
+      },
+      "details": {
+        "title": "添加詳細說明",
+        "description": "通過包含有關光照、構圖以及您想要保留或更改的特定元素的細節，最大化 flux-2-klein 圖片轉換的質量。"
+      }
+    },
+    "useCases": {
+      "title": "Flux-2-Klein 圖片轉換使用場景",
+      "style": {
+        "title": "藝術風格轉換",
+        "description": "使用 flux-2-klein 圖片轉換將照片轉換為不同的藝術風格 - 漫畫、水彩、油畫等。非常適合創意項目。"
+      },
+      "batch": {
+        "title": "批量圖片處理",
+        "description": "利用 flux-2-klein 圖片轉換批量處理功能，同時轉換最多 4 張圖片，使用一致的風格，適合專業工作流程。"
+      },
+      "product": {
+        "title": "產品攝影增強",
+        "description": "使用 flux-2-klein 圖片轉換轉換產品照片，用於營銷材料和社交媒體。快速創建多種風格變化。"
+      },
+      "creative": {
+        "title": "創意設計項目",
+        "description": "在創意項目中使用 flux-2-klein 圖片轉換進行實驗。嘗試不同的藝術風格和轉換效果，找到完美的外觀。"
+      }
+    },
+    "faq": {
+      "title": "Flux-2-Klein 圖片轉換常見問題",
+      "description": "關於 flux-2-klein 圖片轉換 AI 工具的常見問題",
+      "q1": {
+        "question": "使用 flux-2-klein 圖片轉換可以上傳多少張圖片？",
+        "answer": "使用 flux-2-klein 圖片轉換，您一次最多可以上傳 4 張圖片進行批量處理。每次轉換消耗 2 積分。"
+      },
+      "q2": {
+        "question": "flux-2-klein 圖片轉換的費用是多少？",
+        "answer": "Flux-2-klein 圖片轉換每次轉換固定消耗 2 積分，無論上傳多少張圖片。這種固定定價使其適合任何規模的項目。"
+      },
+      "q3": {
+        "question": "flux-2-klein 圖片轉換支持哪些圖片格式？",
+        "answer": "Flux-2-klein 圖片轉換支持 PNG、JPEG、JPG 和 WebP 格式。請確保您的圖片清晰且光線充足，以獲得最佳的 flux-2-klein 圖片轉換效果。"
+      },
+      "q4": {
+        "question": "如何為 flux-2-klein 圖片轉換編寫提示詞？",
+        "answer": "為了獲得最佳的 flux-2-klein 圖片轉換效果，請包含詳細描述：主題、場景、光照、風格、氛圍和構圖。通常越詳細，flux-2-klein 圖片轉換的效果越好。"
+      },
+      "q5": {
+        "question": "使用 flux-2-klein 圖片轉換可以對多張圖片使用相同的提示詞嗎？",
+        "answer": "是的，flux-2-klein 圖片轉換允許您對所有上傳的圖片使用相同的提示詞。每張圖片都會根據您的提示詞描述使用 flux-2-klein 圖片轉換技術進行轉換。"
+      }
+    },
+    "finalCTA": {
+      "title": "準備好試用 Flux-2-Klein 圖片轉換了嗎？",
+      "description": "立即開始使用 flux-2-klein 圖片轉換 AI 轉換您的圖片。體驗快速、高質量的圖片轉換效果。",
+      "button": "立即試用 Flux-2-Klein 圖片轉換"
+    },
+    "breadcrumb": {
+      "home": "首頁",
+      "imageToImage": "圖片轉換",
+      "flux2Klein": "Flux 2 Klein"
+    },
+    "schema": {
+      "softwareName": "Flux-2-Klein 圖片轉換 AI 工具 - joymagic",
+      "howToName": "如何使用 Flux-2-Klein 圖片轉換 AI",
+      "howToDescription": "學習如何使用 flux-2-klein 圖片轉換 AI 技術轉換圖片。上傳圖片並使用 AI 圖片編輯技術進行轉換。",
+      "features": {
+        "aiImageEditing": "Flux-2-Klein 圖片轉換 AI 編輯",
+        "multiImage": "Flux-2-Klein 圖片轉換批量處理",
+        "highQuality": "高質量 Flux-2-Klein 圖片轉換輸出"
+      }
+    }
+  }
+}

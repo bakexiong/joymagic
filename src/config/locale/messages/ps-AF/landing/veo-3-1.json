@@ -1,0 +1,488 @@
+{
+  "metadata": {
+    "title": "Veo 3.1 – د انځور-تر-وېډیو او متن-تر-انځور API | joymagic",
+    "description": "په joymagic کې Veo 3.1 ته لاسرسی: انځور-تر-وېډیو او متن-تر-انځور تولید. HD پایلې ژر جوړې کړئ، ساده قیمت، API ملاتړ او د تولید لپاره چمتو بهیرونه.",
+    "keywords": "Veo 3.1, Veo 3.1 image-to-video, Veo 3.1 I2V, Veo 3.1 text-to-image, Veo 3.1 API, Veo 3.1 قیمت"
+  },
+  "hero": {
+    "kicker": "یو ماډل، څو موډالېټي — په {brand} کې",
+    "h1": "Veo 3.1 API د انځور-تر-وېډیو او متن-تر-انځور لپاره",
+    "description": "له پرامپټونو یا د نمونې انځور څخه د Veo 3.1 په مرسته لوړ کیفیت انځورونه او وېډیوګانې جوړې کړئ — د وېب UI یا API له لارې.",
+    "trust": [
+      "HD پایلې",
+      "چټک تولید",
+      "د تولید لپاره جوړ شوی"
+    ],
+    "pricing_from": "قیمت له",
+    "pricing_link": "$5",
+    "pricing_suffix": "(500 کریډېټ) څخه"
+  },
+  "sections": {
+    "what_is": {
+      "h2": "Veo 3.1 څه شی دی؟",
+      "paragraphs": [
+        "Veo 3.1 د څو-موډال تولیدي ماډلونو (Veo 3.1 model) کورنۍ ده چې د متن-تر-انځور او انځور-تر-وېډیو لپاره کارېږي.",
+        "دا پرامپټونه او د نمونې انځورونه د تولید لپاره چمتو بصري پایلو ته اړوي — له مفکورې جوړولو تر بازارموندنې موادو او تکراري کار پورې.",
+        "joymagic یو خپلواک خدمت دی چې دا بهیرونه د وېب UI او (که فعال وي) API له لارې برابروي."
+      ]
+    },
+    "creations": {
+      "h2": "تاسې له Veo 3.1 سره څه جوړولی شئ؟",
+      "cards": {
+        "t2i": {
+          "h3": "Veo 3.1 متن-تر-انځور (T2I)",
+          "p": "پرامپټونه انځورونو ته واړوئ: د محصول مفکورې، انځورګري او مارکېټینګ کریېټېف لپاره. سټایل، ترکیب او تناسب ژر وازمویئ."
+        },
+        "editing": {
+          "h3": "Veo 3.1 د انځور تولید / سمون",
+          "p": "بدیلونه جوړ کړئ، سټایل وکړئ او په پړاوونو کې ښه کړئ. د پرامپټ ثابت چوکاټ مرسته کوي چې ژر وروستي بڼې ته ورسېږئ."
+        },
+        "i2v": {
+          "h3": "Veo 3.1 انځور-تر-وېډیو (I2V)",
+          "p": "یو انځور په لنډه وېډیو واړوئ. حرکت د پرامپټ په وسیله کنټرول کړئ او له بدیلونو سره تکرار وکړئ."
+        }
+      },
+      "links": {
+        "prefix": "اړوند وسایل:",
+        "i2v": "image-to-video",
+        "and": "او",
+        "t2i": "text-to-image",
+        "suffix": "په {brand} کې."
+      }
+    },
+    "i2v": {
+      "h2": "Veo 3.1 انځور-تر-وېډیو (I2V)",
+      "p": "د اعلانونو او محصول کلېپونو لپاره، Veo 3.1 image-to-video (I2V) له یو انځور څخه پیل کوي او د پرامپټ له مخې لنډه سېکوینس جوړوي. که ملاتړ وي، duration او HD preset تنظیمولی شئ او د motion prompt له لارې حرکت کنټرول کړئ؛ 1080p یوازې هغه وخت ښکاري چې endpoint یې ملاتړ وکړي.",
+      "cards": {
+        "inputs": {
+          "h3": "ملاتړ شوې داخلې",
+          "p": "د نمونې انځور + د صحنې او حرکت پرامپټ. روښانه موضوع او پاک شالید عموماً ثبات ښه کوي."
+        },
+        "controls": {
+          "h3": "د پایلې کنټرول",
+          "p": "که موجود وي، ریزولوشن او دوام presetونه بدل کړئ. د کمرې/موضوع حرکت او فضا په دقیق ډول بیان کړئ."
+        },
+        "use_cases": {
+          "h3": "عام کارونې",
+          "p": "د محصول وېډیو، ټولنیز اعلانونه، b-roll، خلاقه شاتونه او چټک سټوريبورډونه."
+        }
+      }
+    },
+    "how_to": {
+      "h2": "Veo 3.1 څنګه وکاروئ",
+      "steps": {
+        "1": {
+          "h3": "1. موډ وټاکئ (T2I یا I2V)",
+          "p": "د ثابت انځور لپاره متن-تر-انځور؛ د حرکت لپاره انځور-تر-وېډیو."
+        },
+        "2": {
+          "h3": "2. پرامپټ زیات کړئ (او که اړتیا وي د نمونې انځور)",
+          "p": "موضوع، سټایل او کانټېکسټ ولیکئ. د I2V لپاره د حرکت لارښوونې ورزیاتې کړئ."
+        },
+        "3": {
+          "h3": "3. اختیارونه وټاکئ (ریزولوشن، دوام، تناسب)",
+          "p": "د چینل مطابق presetونه غوره کړئ او د تکرار وړ بهیر لپاره تنظیمات ثابت وساتئ."
+        },
+        "4": {
+          "h3": "4. تولید او بیاکتنه",
+          "p": "لومړی ځل تولید کړئ او ثبات، حرکت او ترکیب وګورئ."
+        },
+        "5": {
+          "h3": "5. له بدیلونو سره تکرار",
+          "p": "په لږو بدلونونو سره پرامپټونه پرتله او ښه کړئ."
+        },
+        "6": {
+          "h3": "6. صادرات / ډاونلوډ / د API له لارې ادغام",
+          "p": "پایلې ډاونلوډ کړئ یا د API له لارې batch او اتومات لپاره ادغام وکړئ."
+        }
+      }
+    },
+    "api": {
+      "h2": "Veo 3.1 API",
+      "p": "د REST/JSON له لارې د تولید ادغام جوړ کړئ. تصدیق عموماً د API key سره وي، او کولای شئ تولید خپل پایپ لاین، ټمپلېټونو او ټیم وسایلو ته وصل کړئ.",
+      "links": {
+        "docs_label": "Docs:",
+        "keys_label": "API keys:",
+        "keys_suffix": "(ننوتل اړین دي)"
+      },
+      "example": {
+        "h3": "د غوښتنې بېلګه (تشریحي)",
+        "p": "یوازې د نمونې لپاره؛ دقیق endpoint/پارامیټر/ځواب د Docs کې وګورئ."
+      }
+    },
+    "pricing": {
+      "h2": "د Veo 3.1 قیمت",
+      "p_before": "بیه د کریډېټونو پر بنسټ ده او د کار له ډول سره بدلېږي. د اوسنیو پلانونو لپاره",
+      "p_after": "وګورئ.",
+      "table": {
+        "task": "کار",
+        "unit": "واحد",
+        "starting_from": "له"
+      },
+      "rows": {
+        "t2i": {
+          "task": "متن-تر-انځور (T2I)",
+          "unit": "پر انځور",
+          "start": "له 2 کریډېټ"
+        },
+        "editing": {
+          "task": "انځور تولید/سمون",
+          "unit": "پر انځور",
+          "start": "له 4 کریډېټ"
+        },
+        "i2v": {
+          "task": "انځور-تر-وېډیو (I2V)",
+          "unit": "پر بدلون",
+          "start": "له 250 کریډېټ"
+        },
+        "video": {
+          "task": "یوازې وېډیو",
+          "unit": "پر ثانیه",
+          "start": "80 کریډېټ/ثانیه"
+        },
+        "video_audio": {
+          "task": "وېډیو + غږ",
+          "unit": "پر ثانیه",
+          "start": "160 کریډېټ/ثانیه"
+        }
+      },
+      "note": "لګښتونه کېدای شي د ریزولوشن، دوام او شتون له مخې بدلون وکړي. joymagic د تولید مخکې د کریډېټ لګښت ښکاره کوي."
+    },
+    "quality": {
+      "h2": "کیفیت، خوندیتوب او د کار حقونه",
+      "p1": "کیفیت د موډ او تنظیماتو پورې تړاو لري. د وېډیو لپاره لوړ presetونه (HD؛ او 1080p که ملاتړ وي) کېدای شي موجود وي. پاک ریفرنس او دقیق motion prompt مرسته کوي.",
+      "p2_before": "تجارتي کارونه د",
+      "terms_link": "د خدمت شرطونه",
+      "p2_after": "او اړوند قوانینو تابع دي. د داخل شوو موادو پر حقونو تاسې مسؤل یاست.",
+      "p3_before": "joymagic د محتوا پالیسۍ پلي کوي. وګورئ",
+      "moderation_link": "Content Moderation Policy",
+      "p3_middle": "او",
+      "aup_link": "Acceptable Use Policy",
+      "p3_after": "."
+    }
+  },
+  "faq": {
+    "h2": "د Veo 3.1 پوښتنې",
+    "items": [
+      {
+        "question": "Veo 3.1 د څه لپاره کارېږي؟",
+        "answer": "Veo 3.1 د څو-موډال تولید لپاره کارېږي لکه متن-تر-انځور او انځور-تر-وېډیو. تاسې انځورونه تولیدولی شئ، بدیلونه جوړولی شئ یا ریفرنس په لنډ کلېپ بدلولی شئ."
+      },
+      {
+        "question": "Veo 3.1 د انځور-تر-وېډیو لپاره ښه دی؟",
+        "answer": "کله چې له ثابت انځور څخه پیل او حرکت د پرامپټ له لارې کنټرولول غواړئ، I2V ګټور دی. پایلې د ریفرنس کیفیت او د motion prompt دقت پورې تړلې دي."
+      },
+      {
+        "question": "پرامپټونه څنګه ولیکم؟",
+        "answer": "موضوع روښانه کړئ، بیا سټایل/رڼا/کمره ورزیاته کړئ. د I2V لپاره حرکت او هغه څه ولیکئ چې ثابت باید پاتې شي. په کوچنیو بدلونونو سره تکرار وکړئ."
+      },
+      {
+        "question": "1080p ملاتړ شته؟",
+        "answer": "دا د endpoint او د UI/API presetونو پورې تړاو لري. که ملاتړ وي، د انتخاب په توګه ښکاري. که نه وي، تر ټولو لوړ موجود preset وکاروئ او وروسته upscaling په پام کې ونیسئ."
+      },
+      {
+        "question": "بیه څومره ده؟",
+        "answer": "joymagic د کریډېټونو پر بنسټ ده. د نمونې په توګه: متن-تر-انځور له 2 کریډېټ/انځور او انځور-تر-وېډیو له 250 کریډېټ/بدلون څخه پیل کېدای شي، د تنظیماتو له مخې بدلېږي."
+      },
+      {
+        "question": "تجارتي کارولای شم؟",
+        "answer": "عموماً هو، خو د شرطونو او پالیسۍ تابع دی. د اپلوډ شوو موادو پر حقونو تاسې مسؤل یاست."
+      },
+      {
+        "question": "Veo 3.1 API شته؟",
+        "answer": "هو. joymagic د ملاتړ شوو بهیرونو لپاره API برابروي (عموماً REST/JSON) او د API key له لارې تصدیق کېږي."
+      },
+      {
+        "question": "له اصلي جوړوونکو سره تړاو لرئ؟",
+        "answer": "نه. joymagic خپلواک خدمت دی او د “Veo 3.1” اصلي جوړوونکو سره تړاو/تایید/تمویل نه لري. نومونه او نښې د خپلو مالکانو دي."
+      }
+    ]
+  },
+  "disclaimer": {
+    "h2": "خبرتیا",
+    "p": "{brand} د AI تولیدي بهیرونو خپلواک خدمت دی. موږ د “Veo 3.1” له اصلي جوړوونکو سره تړاو نه لرو او نه یې تایید/تمویل کوو. نومونه او نښې د خپلو مالکانو دي."
+  },
+  "veo31": {
+    "form": {
+      "prompt": {
+        "label": "Prompt",
+        "enhancer": "Prompt Enhancer",
+        "placeholder": "A stylish young male artist is spray-painting a colorful mural of flowers on a brick wall in a sunny city alleyway...",
+        "tooltip": "The positive prompt for the generation."
+      },
+      "negativePrompt": {
+        "label": "Negative Prompt",
+        "placeholder": "Enter negative prompt here",
+        "tooltip": "The negative prompt for the generation."
+      },
+      "audio": {
+        "label": "Audio",
+        "hint": "Support audio files (MP3, WAV, etc.)",
+        "tooltip": "The audio file URL for the generation.",
+        "dragDrop": "Drag & drop or click to upload",
+        "dropHere": "Drop audio file here",
+        "record": "Record Audio",
+        "recordDialog": {
+          "title": "Record Audio",
+          "instruction": "Record audio using your microphone.",
+          "noRecording": "No recording yet.",
+          "hint": "You can click the \"Start Recording\" button below to record.",
+          "recording": "Recording...",
+          "startRecording": "Start Recording",
+          "stopRecording": "Stop Recording",
+          "retake": "Retake",
+          "useAudio": "Use Audio",
+          "uploading": "Uploading..."
+        }
+      },
+      "aspectRatio": {
+        "label": "Aspect Ratio"
+      },
+      "resolution": {
+        "label": "Resolution"
+      },
+      "duration": {
+        "label": "Duration (seconds)"
+      },
+      "generateAudio": {
+        "label": "Generate Audio",
+        "description": "If enabled, audio will be automatically generated for the video.",
+        "tooltip": "Enable this option to automatically generate audio for the video."
+      },
+      "image": {
+        "label": "انځور",
+        "tooltip": "د وېډیو بدلولو لپاره انځور پورته کړئ",
+        "hint": "لارښود: تاسو کولی شئ فایل راکښل او پورته کړئ یا د پورته کولو لپاره کلیک وکړئ",
+        "dragDrop": "فایل راکښل او پورته کړئ یا د پورته کولو لپاره کلیک وکړئ",
+        "dropHere": "انځور دلته پورته کړئ"
+      },
+      "lastImage": {
+        "label": "وروستی انځور",
+        "tooltip": "د وېډیو تولید لپاره اختیاري وروستی انځور",
+        "hint": "لارښود: تاسو کولی شئ فایل راکښل او پورته کړئ یا د پورته کولو لپاره کلیک وکړئ",
+        "dragDrop": "فایل راکښل او پورته کړئ یا د پورته کولو لپاره کلیک وکړئ",
+        "dropHere": "انځور دلته پورته کړئ"
+      },
+      "seed": {
+        "label": "بزګ",
+        "placeholder": "د تصادفي لپاره خالي پریږدئ"
+      },
+      "buttons": {
+        "reset": "Reset",
+        "run": "Generate",
+        "generating": "Generating..."
+      }
+    },
+    "preview": {
+      "placeholder": "Enter a prompt and click run, and the generated video will be displayed here.",
+      "costInfo": "Your request will cost {cost} per run.",
+      "oneMoreThing": "One more thing:",
+      "actions": {
+        "addSound": "Add Sound",
+        "videoUpscaler": "Video Upscaler",
+        "videoUpscalerPro": "Video Upscaler Pro",
+        "videoExtend": "Video Extend"
+      }
+    },
+    "common": {
+      "selected": "Selected: {name}",
+      "notSelected": "No file selected"
+    },
+    "status": {
+      "idle": "Idle",
+      "processing": "Processing",
+      "completed": "Completed"
+    },
+    "actions": {
+      "downloadVideo": "Download Video",
+      "downloadFailed": "Download video failed",
+      "playAudioFailed": "Failed to play audio. Please check your browser settings."
+    },
+    "errors": {
+      "promptRequired": "Please enter a prompt",
+      "imageRequired": "Please upload an image",
+      "generationFailed": "Video generation failed",
+      "taskFailed": "Task processing failed",
+      "taskTimeout": "Task processing timeout, please try again later",
+      "taskIdNotFound": "Unable to get task ID, please check API response format",
+      "processingFailed": "Processing failed, please retry",
+      "statusQueryFailed": "Failed to query task status",
+      "apiResponseParseFailed": "Failed to parse API response",
+      "invalidFileType": "Invalid file type. Please upload image files (JPG, PNG, etc.).",
+      "uploadFailed": "Upload failed: {error}",
+      "uploadFailedGeneric": "Upload failed",
+      "recordingFailed": "Failed to start recording. Please check microphone permissions."
+    }
+  },
+  "veo31Page": {
+    "metadata": {
+      "title": "Text to Video AI Generator (VEO-3.1) | Create Videos from Text – joymagic",
+      "description": "Transform text prompts into stunning videos with joymagic's text-to-video AI generator. Powered by VEO-3.1, create high-quality videos in seconds. HD outputs, fast generation, free to try."
+    },
+    "hero": {
+      "title": "Text to Video AI Generator – VEO-3.1",
+      "description": "Transform text prompts into stunning videos in seconds. No video editing skills needed.",
+      "button1": "Generate Video",
+      "button2": "Start free · No credit card"
+    },
+    "heroDescription": "Enter a text prompt and watch as AI transforms your words into a beautiful video. Perfect for content creators, marketers, and storytellers.",
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast generation",
+      "commercialReady": "Commercial-use ready"
+    },
+    "whatYouCanDo": {
+      "title": "What You Can Do With Text to Video",
+      "description": "Turn your ideas into motion with AI-powered video generation.",
+      "contentCreation": {
+        "title": "Content Creation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create engaging video content for social media</li><li>Generate video thumbnails and previews</li><li>Produce short-form video content quickly</li></ul>"
+      },
+      "marketing": {
+        "title": "Marketing & Advertising",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create promotional videos from text descriptions</li><li>Generate video ads and campaigns</li><li>Produce marketing content at scale</li></ul>"
+      },
+      "entertainment": {
+        "title": "Entertainment & Storytelling",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Bring stories to life with AI-generated videos</li><li>Create animated scenes from text</li><li>Produce creative video content</li></ul>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Everything you need to create videos from text with AI.",
+      "textToVideo": {
+        "title": "Text to Video Generation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Transform text prompts into high-quality videos</li><li>Support for various video durations and sizes</li><li>Advanced prompt optimization</li></ul>"
+      },
+      "highQuality": {
+        "title": "High-Quality Outputs",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>HD video outputs up to 1920x1080</li><li>Smooth motion and transitions</li><li>Professional-grade video quality</li></ul>"
+      },
+      "flexibleControl": {
+        "title": "Flexible Control",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Customize video size, duration, and shot type</li><li>Negative prompts for fine-tuning</li><li>Seed control for reproducible results</li></ul>"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "From text to video in four simple steps.",
+      "step1": {
+        "title": "Step 1 – Enter Your Prompt",
+        "description": "<p class=\"mb-3\">Describe the video you want to create. Be specific about the scene, characters, actions, and mood.</p>"
+      },
+      "step2": {
+        "title": "Step 2 – Configure Settings",
+        "description": "<p class=\"mb-3\">Choose video size, duration, shot type, and other parameters to match your needs.</p>"
+      },
+      "step3": {
+        "title": "Step 3 – Generate Video",
+        "description": "<p class=\"mb-3\">Click the generate button and let AI create your video. Processing typically takes a few minutes.</p>"
+      },
+      "step4": {
+        "title": "Step 4 – Download & Use",
+        "description": "<p class=\"mb-3\">Preview your video, download it, and use it in your projects immediately.</p>"
+      }
+    },
+    "faq": {
+      "title": "FAQs",
+      "description": "Common questions about text-to-video generation.",
+      "q1": {
+        "question": "How long does it take to generate a video?",
+        "answer": "Video generation typically takes 2-5 minutes depending on the duration and complexity of your prompt."
+      },
+      "q2": {
+        "question": "What video formats are supported?",
+        "answer": "We support standard video formats including MP4. Videos can be generated in various sizes from 720p to 1080p."
+      },
+      "q3": {
+        "question": "Can I use the generated videos commercially?",
+        "answer": "Yes, you can use the generated videos for commercial purposes. Please refer to our Terms of Service for complete details."
+      }
+    },
+    "finalCTA": {
+      "title": "Turn your text into stunning videos.",
+      "description": "Try the joymagic text-to-video AI generator and start creating videos in seconds.<br/><span class=\"text-muted-foreground\">No video editing skills needed · Free to try</span>",
+      "button": "Start generating videos"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "Veo 3.1 Image to Video - Animate Photos with AI | joymagic",
+      "description": "Turn images into video with Google Veo 3.1. Upload reference photos, maintain character consistency, generate cinematic video with native audio.",
+      "keywords": "veo 3.1, image to video, ai video generator, animate photos, character consistency, cinematic video, native audio, google veo"
+    },
+    "hero": {
+      "title": "Veo 3.1 Image to Video",
+      "description": "Google Veo 3.1 turns your images into video clips with synchronized audio. Upload reference photos to control character identity, scene composition, or visual style—then describe the motion you want. Try Veo 3.1 for free below!<br/><br/>No reference images? <a href=\"/text-to-video/veo-3-1\" class=\"text-primary underline\">Try Veo 3.1 Text to Video</a> to generate from scratch.",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "multiImageReference": {
+        "title": "Multi-Image Reference",
+        "description": "Upload multiple images to guide your video's visual direction. Use one for character reference, another for style, a third for scene composition—the model combines them intelligently."
+      },
+      "characterConsistency": {
+        "title": "Character Consistency",
+        "description": "Your character looks identical throughout the video. Upload a clear reference—facial features, proportions, clothing details stay locked across all frames, poses, and camera angles."
+      },
+      "realisticMotion": {
+        "title": "Realistic Motion",
+        "description": "Static images come alive with natural movement. Hair flows, fabric shifts, expressions change—all while maintaining visual identity from your reference photos."
+      },
+      "nativeAudioSync": {
+        "title": "Native Audio Sync",
+        "description": "Generated video includes synchronized audio—footsteps, ambient sounds, dialogue. Audio matches the motion and scene automatically based on your prompt."
+      }
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "productAnimation": {
+        "title": "Product Animation",
+        "description": "Turn product photos into demo videos showing rotation, usage, or lifestyle contexts."
+      },
+      "characterAnimation": {
+        "title": "Character Animation",
+        "description": "Bring character designs and concept art to life with movement and expressions."
+      },
+      "portraitVideos": {
+        "title": "Portrait Videos",
+        "description": "Animate portrait photos with subtle movements—blinking, head turns, gentle smiles."
+      },
+      "styleMatchedClips": {
+        "title": "Style-Matched Clips",
+        "description": "Upload style references to generate videos matching a specific aesthetic or art direction."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "What is Image to Video?",
+        "answer": "Image to Video uses your uploaded photos to control the visual output. The model generates motion and audio while preserving character identity, style, or composition from your references."
+      },
+      "q2": {
+        "question": "How many images can I upload?",
+        "answer": "Multiple reference images are supported. Use different images to control different aspects—character, style, scene."
+      },
+      "q3": {
+        "question": "Will my character stay consistent?",
+        "answer": "Yes. Veo 3.1 preserves character identity across all frames. Upload a clear front-facing reference for best results."
+      },
+      "q4": {
+        "question": "Does it include audio?",
+        "answer": "Yes. Generated videos include synchronized ambient sounds, effects, and dialogue based on your prompt."
+      },
+      "q5": {
+        "question": "How is this different from Text to Video?",
+        "answer": "Text to Video generates everything from scratch. Image to Video uses your photos to control visual identity while generating motion."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Create?",
+      "description": "Start generating amazing videos from your images today.",
+      "button": "Try It Now"
+    }
+  }
+}

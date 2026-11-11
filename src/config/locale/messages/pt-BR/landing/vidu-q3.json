@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "title": "Vidu Q3 Imagem para Vídeo - Anime Fotos com IA | joymagic",
+    "description": "Transforme imagens em vídeo com Vidu Q3. Faça upload de fotos de referência, controle a amplitude de movimento, gere vídeo com áudio opcional e música de fundo.",
+    "keywords": "vidu q3, imagem para vídeo, gerador de vídeo ia, animar fotos, amplitude de movimento, música de fundo, vidu q3 imagem para vídeo"
+  },
+  "viduq3": {
+    "form": {
+      "prompt": {
+        "label": "Prompt",
+        "placeholder": "Um jovem artista masculino estiloso está pintando com spray um mural colorido de flores em uma parede de tijolos em um beco ensolarado da cidade...",
+        "tooltip": "O prompt positivo para geração."
+      },
+      "image": {
+        "label": "Imagem",
+        "tooltip": "Faça upload de uma imagem para converter em vídeo",
+        "hint": "Dica: Você pode arrastar e soltar um arquivo ou clicar para fazer upload",
+        "dragDrop": "Arraste e solte um arquivo ou clique para fazer upload",
+        "dropHere": "Solte a imagem aqui"
+      },
+      "resolution": {
+        "label": "Resolução"
+      },
+      "duration": {
+        "label": "Duração",
+        "tooltip": "Defina a duração do vídeo de 1 a 16 segundos",
+        "unit": "segundos"
+      },
+      "movementAmplitude": {
+        "label": "Amplitude de Movimento"
+      },
+      "generateAudio": {
+        "label": "Gerar Áudio",
+        "description": "Se habilitado, o áudio será gerado automaticamente para o vídeo.",
+        "tooltip": "Habilite esta opção para gerar áudio automaticamente para o vídeo."
+      },
+      "bgm": {
+        "label": "Música de Fundo",
+        "description": "Se habilitado, música de fundo será adicionada ao vídeo.",
+        "tooltip": "Habilite esta opção para adicionar música de fundo ao vídeo."
+      },
+      "seed": {
+        "label": "Seed",
+        "placeholder": "Deixe vazio para aleatório"
+      },
+      "buttons": {
+        "reset": "Redefinir",
+        "run": "Gerar",
+        "generating": "Gerando..."
+      }
+    },
+    "preview": {
+      "placeholder": "Digite um prompt e clique em executar, o vídeo gerado será exibido aqui."
+    },
+    "status": {
+      "idle": "Inativo",
+      "processing": "Processando",
+      "completed": "Concluído"
+    },
+    "actions": {
+      "downloadVideo": "Baixar Vídeo",
+      "downloadFailed": "Falha ao baixar o vídeo"
+    },
+    "errors": {
+      "promptRequired": "Por favor, digite um prompt",
+      "imageRequired": "Por favor, faça upload de uma imagem",
+      "generationFailed": "Falha na geração do vídeo",
+      "taskFailed": "Falha no processamento da tarefa",
+      "taskTimeout": "Tempo limite de processamento esgotado, por favor tente novamente mais tarde",
+      "taskIdNotFound": "Não foi possível obter o ID da tarefa, por favor verifique o formato de resposta da API",
+      "processingFailed": "Falha no processamento, por favor tente novamente",
+      "statusQueryFailed": "Falha na consulta do status da tarefa",
+      "apiResponseParseFailed": "Falha ao analisar a resposta da API",
+      "invalidFileType": "Tipo de arquivo inválido. Por favor, faça upload de arquivos de imagem (JPG, PNG, etc.).",
+      "uploadFailed": "Falha no upload: {error}",
+      "uploadFailedGeneric": "Falha no upload"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "Vidu Q3 Imagem para Vídeo - Anime Fotos com IA | joymagic",
+      "description": "Transforme imagens em vídeo com Vidu Q3. Faça upload de fotos de referência, controle a amplitude de movimento, gere vídeo com áudio opcional e música de fundo.",
+      "keywords": "vidu q3, imagem para vídeo, gerador de vídeo ia, animar fotos, amplitude de movimento, música de fundo, vidu q3 imagem para vídeo"
+    },
+    "hero": {
+      "title": "Vidu Q3 Imagem para Vídeo",
+      "description": "Vidu Q3 transforma suas imagens em clipes de vídeo com amplitude de movimento personalizável. Faça upload de fotos de referência, controle a intensidade do movimento e gere vídeo com áudio opcional e música de fundo. Experimente o Vidu Q3 gratuitamente agora!",
+      "button1": "Experimentar Agora",
+      "button2": "Ver Preços"
+    },
+    "keyFeatures": {
+      "title": "Recursos Principais",
+      "movementControl": {
+        "title": "Controle de Amplitude de Movimento",
+        "description": "Controle a intensidade do movimento em seus vídeos. Escolha entre automático, pequeno, médio ou grande para corresponder à sua visão criativa."
+      },
+      "flexibleDuration": {
+        "title": "Duração Flexível",
+        "description": "Gere vídeos de 1 a 16 segundos. Ajuste o controle deslizante de duração para criar clipes curtos ou sequências mais longas."
+      },
+      "audioOptions": {
+        "title": "Opções de Áudio",
+        "description": "Escolha gerar áudio ou adicionar música de fundo. Personalize o som do seu vídeo para melhorar a experiência de visualização."
+      },
+      "multipleResolutions": {
+        "title": "Múltiplas Resoluções",
+        "description": "Selecione entre resoluções de 540p, 720p ou 1080p para atender aos requisitos do seu projeto e necessidades de qualidade."
+      }
+    },
+    "useCases": {
+      "title": "Casos de Uso",
+      "productAnimation": {
+        "title": "Animação de Produtos",
+        "description": "Transforme fotos de produtos em vídeos de demonstração mostrando rotação, uso ou contextos de estilo de vida."
+      },
+      "characterAnimation": {
+        "title": "Animação de Personagens",
+        "description": "Dê vida a designs de personagens e arte conceitual com movimento e expressões."
+      },
+      "portraitVideos": {
+        "title": "Vídeos de Retrato",
+        "description": "Anime fotos de retrato com movimentos sutis—piscadas, viradas de cabeça, sorrisos suaves."
+      },
+      "styleMatchedClips": {
+        "title": "Clipes com Estilo Combinado",
+        "description": "Faça upload de referências de estilo para gerar vídeos que correspondam a uma estética ou direção artística específica."
+      }
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "q1": {
+        "question": "O que é Vidu Q3 Imagem para Vídeo?",
+        "answer": "Vidu Q3 Imagem para Vídeo converte suas imagens enviadas em clipes de vídeo com amplitude de movimento, duração e opções de áudio personalizáveis."
+      },
+      "q2": {
+        "question": "O que é amplitude de movimento?",
+        "answer": "A amplitude de movimento controla quanto movimento aparece no seu vídeo. Escolha automático para detecção automática, ou selecione pequeno, médio ou grande para níveis de intensidade específicos."
+      },
+      "q3": {
+        "question": "Posso adicionar música de fundo?",
+        "answer": "Sim. Você pode habilitar a opção de música de fundo para adicionar música aos seus vídeos gerados."
+      },
+      "q4": {
+        "question": "Quais durações de vídeo são suportadas?",
+        "answer": "Vidu Q3 suporta durações de vídeo de 1 a 16 segundos. Use o controle deslizante ou o campo de entrada para definir o comprimento desejado."
+      },
+      "q5": {
+        "question": "Quais resoluções estão disponíveis?",
+        "answer": "Você pode escolher entre resoluções de 540p, 720p ou 1080p dependendo das suas preferências de qualidade e tamanho de arquivo."
+      }
+    },
+    "finalCTA": {
+      "title": "Pronto para Criar?",
+      "description": "Comece a gerar vídeos incríveis a partir das suas imagens hoje.",
+      "button": "Experimentar Agora"
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "videoFaceSwapPage": {
+    "whatIs": {
+      "title": "什麼是 AI 影片換臉？",
+      "description": "<strong>AI 影片換臉</strong> 是一款 AI 驅動的工具，可讓您用任何您喜歡的臉部替換影片中的臉部。",
+      "uses": "它使用先進的機器學習技術：",
+      "detect": "偵測影片中的臉部",
+      "track": "逐幀追蹤其運動",
+      "swap": "無縫替換為新臉部",
+      "keep": "保持自然的表情、光線和角度",
+      "canDo": "使用我們的線上影片換臉 AI，您可以：",
+      "movieScenes": "將您的臉部放入電影場景中",
+      "memeStars": "將朋友變成迷因明星",
+      "cosplay": "建立角色扮演或反應影片",
+      "socialMedia": "為社群媒體製作個人化內容",
+      "cloud": "一切都在雲端執行，因此您不需要強大的硬體或複雜的軟體。只需上傳並替換即可。"
+    },
+    "howTo": {
+      "title": "如何使用 AI 在影片中換臉",
+      "description": "使用我們的 <strong>免費影片換臉 AI</strong>，只需幾個簡單步驟即可建立逼真的高品質換臉影片：",
+      "step1": {
+        "title": "1. 上傳要換臉的影片",
+        "description": "上傳您想要替換臉部（或多個臉部）的原始影片。",
+        "supportFormats": "我們支援所有常見影片格式",
+        "clearFaces": "確保影片中的臉部清晰可見",
+        "quality": "影片品質越高，效果通常越好"
+      },
+      "step2": {
+        "title": "2. 上傳要替換的臉部影片（選填）",
+        "description": "如果您想在 <strong>兩個影片</strong> 之間換臉（例如，您自己的影片和電影片段）：",
+        "secondVideo": "上傳包含您要使用的臉部的第二個影片",
+        "detectBoth": "我們的 AI 將偵測兩個影片中的臉部",
+        "chooseFace": "您可以選擇要對應和替換的臉部",
+        "singleImage": "如果您只想使用 <strong>單個臉部圖像</strong>，可以跳過此步驟，繼續下一步。"
+      },
+      "step3": {
+        "title": "3. 上傳用於換臉的臉部圖像",
+        "description": "上傳您想要放入影片中的臉部照片。",
+        "bestResults": "為獲得最佳效果：",
+        "clearPhoto": "使用清晰的正面照片",
+        "wellLit": "確保臉部光線充足",
+        "avoidFilters": "避免重度濾鏡或臉部遮擋（如太陽眼鏡或口罩）",
+        "autoAlign": "AI 會自動對齊臉部以匹配影片中的角度、光線和表情。"
+      },
+      "step4": {
+        "title": "4. 裁剪影片片段（選填）",
+        "description": "您可以裁剪上傳的影片，只專注於要換臉的部分。",
+        "trim": "修剪開始和結束時間",
+        "focus": "專注於臉部可見的主要場景",
+        "improve": "這可以提高速度和輸出品質",
+        "generate": "當您對片段滿意後，點擊 <strong>生成</strong>，讓 AI 建立您的新影片。"
+      }
+    },
+    "features": {
+      "title": "我們的 AI 影片換臉線上工具的主要功能",
+      "speed": {
+        "title": "閃電般快速的最快影片換臉",
+        "description": "我們新優化的 AI 引擎可在 <strong>幾秒鐘內完成換臉，而不是幾分鐘</strong>。",
+        "faster": "比許多其他工具快 <strong>2 倍</strong>",
+        "complex": "甚至可以處理 <strong>複雜的多人影片</strong>",
+        "sixFaces": "單個影片最多支援 <strong>6 個臉部</strong>",
+        "quick": "專為快速預覽和快速最終匯出而設計",
+        "watermarkFree": "您將獲得 <strong>無浮水印、專業級的結果</strong>，無需長時間等待。"
+      },
+      "templates": {
+        "title": "熱門影片換臉範本",
+        "description": "不知道從哪裡開始？使用我們為換臉設計的 <strong>現成影片範本</strong>：",
+        "memeFormats": "病毒式迷因格式",
+        "movieScenes": "著名電影場景",
+        "reaction": "反應和合拍影片",
+        "cosplay": "角色扮演和角色編輯",
+        "shortForm": "適用於 TikTok、Reels 和 YouTube Shorts 的短片內容",
+        "simple": "只需選擇一個範本，上傳您的臉部，然後點擊幾下即可生成可分享的影片。"
+      },
+      "viral": {
+        "title": "使用影片換臉 AI 將任何片段變成病毒式熱門",
+        "description": "使用我們強大的 <strong>影片換臉 AI</strong>，您可以將普通片段變成有趣、引人注目的內容：",
+        "movieMoment": "重現您主演的標誌性電影時刻",
+        "memes": "用朋友的臉部製作搞笑迷因",
+        "team": "將您的團隊、家人或客戶放入主題影片中",
+        "standOut": "透過獨特的個人化編輯在社群媒體上脫穎而出",
+        "easy": "建立人們 <strong>觀看、分享和記住</strong> 的影片從未如此簡單。"
+      }
+    },
+    "legal": {
+      "title": "負責任使用和法律要求",
+      "intro": "我們的 AI 影片換臉工具專為創意和娛樂目的而設計。為確保合法和道德使用，請仔細閱讀並遵循這些準則。",
+      "whoCanSwap": {
+        "title": "您可以替換誰？",
+        "mayUse": "您只能使用：",
+        "ownFace": "您自己的臉部",
+        "consent": "已明確、知情同意您的個人的臉部",
+        "fictional": "您擁有權利的虛構角色或公共領域內容",
+        "mayNotUse": "您不得使用：",
+        "noPermission": "未經明確許可的任何人的臉部",
+        "celebrity": "用於商業目的或冒充的名人臉部",
+        "minors": "未經父母/監護人同意的未成年人（18 歲以下）臉部",
+        "deceive": "任何旨在欺騙、詐欺或虛假陳述的內容"
+      },
+      "prohibited": {
+        "title": "嚴格禁止的用途",
+        "description": "AI 影片換臉不得用於：",
+        "impersonation": "<strong>冒充和詐欺</strong>：建立深度偽造以欺騙他人、冒充個人或傳播虛假資訊",
+        "nonConsensual": "<strong>非自願內容</strong>：未經許可將臉部替換到敏感、私密或不適當的場景中",
+        "harassment": "<strong>騷擾和虐待</strong>：建立傷害、騷擾或侵犯任何個人尊嚴的內容",
+        "copyright": "<strong>版權侵權</strong>：未經適當授權使用受版權保護的影片內容（電影、電視節目、音樂影片）",
+        "political": "<strong>政治操縱</strong>：建立誤導性政治內容或虛假背書",
+        "identityTheft": "<strong>身份盜竊</strong>：使用換臉詐欺性地將自己表現為另一個人"
+      },
+      "disclosure": {
+        "title": "AI 生成內容披露",
+        "important": "重要",
+        "description": "使用我們的換臉工具建立的影片是 AI 生成的合成媒體。",
+        "disclose": "在公開分享換臉影片時，您應該披露內容是經過 AI 修改的",
+        "jurisdictions": "在許多司法管轄區，未能披露深度偽造內容可能違反有關合成媒體的法律",
+        "watermarks": "根據您所在地區的法律要求，我們的工具可能會添加可見或不可見的浮水印以指示 AI 操作"
+      },
+      "responsibilities": {
+        "title": "您的法律責任",
+        "description": "使用此工具即表示您同意：",
+        "verify": "<strong>驗證授權</strong>：確保您對所有上傳的臉部和影片內容擁有適當的權利和許可",
+        "comply": "<strong>遵守法律</strong>：遵守您所在司法管轄區內有關深度偽造、合成媒體、隱私和資料保護的所有適用法律",
+        "respect": "<strong>尊重權利</strong>：尊重所有個人的智慧財產權、人格權和隱私權",
+        "ethical": "<strong>道德使用</strong>：僅將工具用於合法、道德和無害的目的"
+      },
+      "enforcement": {
+        "title": "平台執行",
+        "description": "我們積極監控濫用行為並實施：",
+        "moderation": "自動化內容審核系統",
+        "reporting": "使用者舉報機制",
+        "suspension": "對違規行為暫停或終止帳戶",
+        "cooperation": "在法律要求時與執法部門合作",
+        "violation": "違反這些準則可能導致立即終止帳戶並可能採取法律行動。"
+      },
+      "compliance": {
+        "title": "區域合規性",
+        "description": "此工具符合：",
+        "china": "中國的「深度合成」法規要求內容標籤和使用者驗證",
+        "eu": "歐盟 AI 法案對 AI 生成內容透明度的要求",
+        "us": "美國各州有關深度偽造和合成媒體的法律",
+        "consult": "有關合法使用的問題，請諮詢您所在司法管轄區的法律顧問。"
+      }
+    },
+    "faq": {
+      "title": "影片換臉常見問題",
+      "q1": {
+        "question": "1. AI 影片換臉是否免費使用？",
+        "answer1": "是的，您可以使用我們的 <strong>免費影片換臉 AI</strong> 建立換臉影片。",
+        "answer2": "某些進階選項（如更高解析度或更長的片段）可能需要升級，具體取決於您選擇的方案。"
+      },
+      "q2": {
+        "question": "2. 我需要影片編輯經驗嗎？",
+        "answer1": "不需要。該工具為每個人而設計：",
+        "simple": "簡單、分步的工作流程",
+        "aiHandles": "AI 自動處理偵測、追蹤和混合",
+        "answer2": "如果您可以上傳影片和臉部照片，就可以建立換臉。"
+      },
+      "q3": {
+        "question": "3. 您支援哪些影片格式？",
+        "answer1": "我們支援大多數常見格式，包括：",
+        "mp4": "MP4",
+        "answer2": "如果您的檔案無法上傳，請嘗試將其匯出為 MP4 格式並重新上傳。"
+      },
+      "q4": {
+        "question": "4. 我的影片會有浮水印嗎？",
+        "answer1": "<strong>是的，為了法律合規和透明度。</strong>",
+        "answer2": "我們的工具會根據各司法管轄區關於合成媒體的法規添加可見或不可見的標記，以指示 AI 生成的內容。",
+        "visible": "<strong>可見浮水印</strong>：根據您所在地區的法律要求，可能會出現在預覽或最終版本上",
+        "invisible": "<strong>不可見標記</strong>：嵌入影片中用於內容認證的數位指紋",
+        "purpose": "<strong>目的</strong>：確保遵守深度偽造披露法律並防止濫用",
+        "answer3": "這些標記通過清楚地識別內容為 AI 修改來保護您和他人。"
+      },
+      "q5": {
+        "question": "5. 我的資料和內容安全嗎？",
+        "answer1": "我們非常重視隱私和安全：",
+        "secure": "您的影片和圖像在傳輸過程中經過安全處理和加密",
+        "only": "內容 <strong>僅</strong> 用於生成您請求的結果",
+        "notTrain": "我們 <strong>不會</strong> 使用您的上傳來訓練我們的模型或與第三方分享",
+        "delete": "您可以在匯出後刪除檔案",
+        "privacyRules": "重要隱私規則：",
+        "neverUpload1": "<strong>永遠不要上傳</strong> 包含他人臉部但未經明確許可的內容",
+        "neverUpload2": "<strong>永遠不要上傳</strong> 敏感、私密或親密的內容",
+        "neverUpload3": "<strong>永遠不要上傳</strong> 未經適當父母/監護人同意的未成年人臉部",
+        "unauthorized": "未經授權使用他人的肖像可能違反隱私法律和我們的服務條款",
+        "responsible": "您全權負責確保您對所有上傳內容擁有權利。"
+      },
+      "q6": {
+        "question": "6. 我可以在一個影片中替換多個臉部嗎？",
+        "answer1": "是的。我們的 AI 可以在單個影片中處理 <strong>最多 6 個臉部</strong>：",
+        "swapOne": "一次替換一個或多個臉部",
+        "mapDifferent": "將不同的臉部對應到片段中的不同人物",
+        "great": "非常適合群組影片、團隊介紹或家庭迷因"
+      },
+      "q7": {
+        "question": "7. AI 影片換臉也會改變聲音嗎？",
+        "answer1": "不會。換臉只會改變影片中的 <strong>視覺臉部</strong>。",
+        "audioStays": "原始音訊（聲音、音樂、效果）保持不變",
+        "editLater": "如果需要，您可以稍後使用其他工具編輯音訊"
+      },
+      "cta": "立即開始使用 <strong>AI 線上影片換臉</strong>，只需點擊幾下即可將您的想法、笑話和故事變成引人注目的影片。"
+    }
+  }
+}

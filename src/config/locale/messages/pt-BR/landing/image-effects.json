@@ -1,0 +1,64 @@
+{
+  "titles": {
+    "advanced-photography": "Fotografia Avançada",
+    "plastic-bubble-figure": "Figura de Bolha Plástica",
+    "felt-3d-polaroid": "Polaroid 3D de Feltro",
+    "glass-ball": "Bola de Vidro",
+    "micro-landscape-mini-world": "Mini Mundo de Micro Paisagem",
+    "american-comic-style": "Estilo de Quadrinhos Americanos",
+    "futuristic-american-comics": "Quadrinhos Americanos Futuristas",
+    "my-world": "Meu Mundo",
+    "felt-keychain": "Chaveiro de Feltro",
+    "lofi-pixel-character-mini-card": "Mini Cartão de Personagem Pixel Lo-Fi",
+    "blurry-selfie-luffy": "Selfie Borrada do Luffy",
+    "cyberpunk": "Cyberpunk",
+    "exotic-charm": "Charme Exótico",
+    "acrylic-ornaments": "Enfeites de Acrílico",
+    "furry-dream-doll": "Boneca de Sonho Fofinha",
+    "in-the-stadium": "No Estádio",
+    "lying-in-fluffy-belly": "Deitado em uma Barriga Fofinha",
+    "angel-figurine": "Estatueta de Anjo"
+  },
+  "gallery": {
+    "metadata": {
+      "title": "Efeitos de Imagem | joymagic",
+      "description": "Explore efeitos de imagem em alta em uma galeria masonry e comece a criar imagens com um clique."
+    },
+    "ctaLabel": "Criar Imagem Semelhante",
+    "inputLabel": "Entrada",
+    "outputLabel": "Saída",
+    "previewLabel": "Prévia"
+  },
+  "workspace": {
+    "metadata": {
+      "title": "Workspace de Efeitos de Imagem | joymagic",
+      "description": "Envie uma imagem, escolha um efeito de imagem e gerencie esta criação em um workspace dedicado."
+    },
+    "category": "Imagem",
+    "pageTitle": "Efeitos de Imagem",
+    "workspaceLabel": "Workspace",
+    "inputBadge": "1 imagem de entrada",
+    "selectedEffect": "Efeito selecionado",
+    "change": "Alterar",
+    "imageTitle": "Imagem",
+    "imageHint": "PNG, JPG, WEBP até 15MB",
+    "uploadHint": "Clique para enviar uma imagem",
+    "tryExamples": "Testar exemplos",
+    "estimating": "Calculando...",
+    "create": "Criar",
+    "creditsUnit": "créditos",
+    "estimateError": "Falha ao estimar créditos:",
+    "emptyState": "Ops! Parece que você ainda não criou nada.",
+    "inputLabel": "Entrada",
+    "outputLabel": "Saída",
+    "exampleAria": "Usar exemplo {index}",
+    "dialog": {
+      "title": "Selecione um efeito de imagem",
+      "searchPlaceholder": "Procure o efeito que você quer",
+      "closeAria": "Fechar seletor de efeitos",
+      "description": "Escolha um efeito de imagem a partir dos mesmos dados de galeria usados na página de efeitos de imagem.",
+      "emptyTitle": "Nenhum efeito correspondente",
+      "emptyDescription": "Tente outra palavra-chave."
+    }
+  }
+}

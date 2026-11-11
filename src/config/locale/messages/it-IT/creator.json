@@ -1,0 +1,336 @@
+{
+  "sidebar": {
+    "subtitle": "Spazio di creazione",
+    "pinned": "Fissati",
+    "addTools": "Aggiungi strumenti",
+    "allTools": "Tutti gli strumenti",
+    "pin": {
+      "ariaPin": "Fissa: {label}",
+      "ariaUnpin": "Rimuovi fissaggio: {label}"
+    }
+  },
+  "tools": {
+    "untitled": "Strumento senza nome"
+  },
+  "model": {
+    "untitled": "Modello senza nome",
+    "fallbackMonogram": "M"
+  },
+  "panels": {
+    "tools": {
+      "titleImage": "Testo in immagine",
+      "titleVideo": "Testo in video",
+      "empty": "Gli strumenti dell'area di lavoro verranno mostrati qui.",
+      "formEmpty": "Il contenuto del modulo verrà mostrato qui."
+    },
+    "generated": {
+      "titleImages": "Questa creazione",
+      "titleVideos": "Video generati"
+    }
+  },
+  "generated": {
+    "empty": "Ops! Sembra che tu non abbia ancora creato nulla."
+  },
+  "errors": {
+    "noWorkspace": "Nessuna area di lavoro disponibile per la selezione corrente."
+  },
+  "sceneBrowser": {
+    "title": "Scene {category}",
+    "subtitle": "Scegli un flusso di lavoro per iniziare a creare.",
+    "tabs": {
+      "creations": "Creazioni",
+      "collections": "Raccolte",
+      "templates": "Modelli"
+    }
+  },
+  "addToolsDialog": {
+    "title": "Aggiungi strumenti",
+    "categories": {
+      "image": "Immagine",
+      "video": "Video"
+    }
+  },
+  "toolsDetailPage": {
+    "aliases": {
+      "photoshoot": "Servizio fotografico",
+      "editorCombiner": "Editor e combinatore",
+      "imageEffects": "Effetti immagine",
+      "variations": "Variazioni",
+      "videoEffects": "Effetti video"
+    },
+    "workspace": {
+      "library": "Libreria",
+      "uploads": "Caricamenti",
+      "imageEyebrow": "Area di lavoro immagini AI",
+      "videoEyebrow": "Area video IA",
+      "descriptionWithLibrary": "Scegli un punto di partenza raffinato, visualizza in anteprima come dovrebbe essere il risultato e passa direttamente alla generazione con un flusso di lavoro più caldo in stile Mango.",
+      "descriptionWithoutLibrary": "Esamina i risultati recenti, organizza le raccolte e mantieni il tuo flusso di lavoro di alto livello focalizzato all'interno di un ambiente di lavoro Mango più pulito.",
+      "emptyLibrary": "Nessun esempio di modello è ancora disponibile per il modello corrente."
+    },
+    "actions": {
+      "useTemplate": "Prova Template",
+      "templateFallback": "Modello",
+      "startGenerating": "Inizia a generare",
+      "closeGeneratorPanel": "Chiudi il pannello del generatore",
+      "switchInLibrary": "Passa alla Libreria"
+    },
+    "marketing": {
+      "eyebrow": "Guida agli effetti",
+      "featureTitle": "Perché utilizzare {effectName}?",
+      "stepsTitle": "Come utilizzare {effectName}",
+      "faqTitle": "Domande frequenti su {effectName}",
+      "image": {
+        "title": "Crea immagini {effectName} con l'intelligenza artificiale",
+        "intro": "Utilizza {effectName} come punto di partenza. Carica {sourceText}, genera un risultato e confronta le preimpostazioni vicine finché l'aspetto non risulta corretto.",
+        "sourceCountOne": "un'immagine di riferimento",
+        "sourceCountMany": "{count} immagini di riferimento",
+        "features": {
+          "workflow": {
+            "title": "Flusso di lavoro basato sugli effetti",
+            "description": "Inizia dal preset {effectName} invece di ricostruire tutto da zero."
+          },
+          "reference": {
+            "title": "Risultati basati sui riferimenti",
+            "description": "Mantieni i suggerimenti dei soggetti chiave dal tuo caricamento mentre applichi il look {effectName} selezionato."
+          },
+          "iteration": {
+            "title": "Meglio per un'iterazione rapida",
+            "description": "Utilizza i preset vicini per esplorare le variazioni più velocemente senza riscrivere l'intero prompt."
+          }
+        },
+        "steps": {
+          "pick": {
+            "title": "1. Scegli l'effetto",
+            "description": "Scegli {effectName} dalla scheda {libraryLabel} o cambia le preimpostazioni con {useTemplateLabel} prima di generare."
+          },
+          "upload": {
+            "title": "2. Carica la tua immagine",
+            "description": "Carica {sourceText} e assicurati che il soggetto sia sufficientemente chiaro per l'effetto selezionato."
+          },
+          "generate": {
+            "title": "3. Genera e confronta",
+            "description": "Crea il risultato, quindi torna a {libraryLabel} per confrontare i preset vicini finché il tono e la finitura non risultano corretti."
+          }
+        },
+        "faq": {
+          "bestInput": {
+            "question": "Che tipo di immagine funziona meglio per {effectName}?",
+            "answer": "Utilizza {sourceText} con un soggetto chiaro e dettagli leggibili per il risultato più stabile."
+          },
+          "switch": {
+            "question": "Posso abbandonare {effectName}?",
+            "answer": "SÌ. Apri {libraryLabel} e fai clic su {useTemplateLabel} su un'altra preimpostazione per aggiornare l'anteprima dell'area di lavoro e la selezione corrente."
+          },
+          "preset": {
+            "question": "Perché utilizzare un preset invece di un semplice prompt?",
+            "answer": "Le preimpostazioni riducono i tempi di configurazione e mantengono la composizione, la direzione dello stile e l'output più coerenti."
+          }
+        }
+      },
+      "video": {
+        "title": "Crea video {effectName} con l'intelligenza artificiale",
+        "intro": "Inizia dalla preimpostazione {effectName}, rivedi la direzione dell'anteprima e genera una breve clip con un target di movimento più chiaro.",
+        "features": {
+          "motion": {
+            "title": "Design del movimento con LED preimpostato",
+            "description": "{effectName} ti offre una direzione di movimento già pronta, in modo da poter raggiungere un risultato utilizzabile più velocemente."
+          },
+          "preview": {
+            "title": "Aspettativa visiva più chiara",
+            "description": "L'anteprima dell'area di lavoro mostra in anticipo l'umore dell'effetto scelto prima di spendere crediti."
+          },
+          "exploration": {
+            "title": "Esplorazione rapida degli effetti",
+            "description": "Muoviti attraverso {libraryLabel} con {useTemplateLabel} per confrontare rapidamente più idee di movimento."
+          }
+        },
+        "steps": {
+          "pick": {
+            "title": "1. Scegli il preset",
+            "description": "Mantieni {effectName} selezionato o passa da {libraryLabel} a un altro effetto prima del caricamento."
+          },
+          "upload": {
+            "title": "2. Carica un'immagine pulita",
+            "description": "Utilizza un'immagine sorgente chiara con inquadrature leggibili in modo che il risultato del movimento rimanga più controllato."
+          },
+          "generate": {
+            "title": "3. Genera la clip",
+            "description": "Crea il video, rivedi il movimento e confronta altri preset se desideri uno stile di animazione diverso."
+          }
+        },
+        "faq": {
+          "image": {
+            "question": "{effectName} funziona con qualsiasi immagine?",
+            "answer": "La maggior parte dei risultati funziona meglio con un soggetto chiaro, un'inquadratura bilanciata e dettagli sufficienti per l'animazione."
+          },
+          "switch": {
+            "question": "Come posso passare da {effectName} a un altro effetto?",
+            "answer": "Apri {libraryLabel} e fai clic su {useTemplateLabel} su un'altra preimpostazione. L'anteprima e l'effetto attivo verranno aggiornati insieme."
+          },
+          "preset": {
+            "question": "Perché iniziare da un preset di effetti video?",
+            "answer": "Le preimpostazioni accelerano i test e rendono la direzione dell'animazione più prevedibile rispetto all'avvio da un'impostazione vuota."
+          }
+        }
+      }
+    },
+    "errors": {
+      "fetchTaskStatusFailed": "Impossibile recuperare lo stato dell'attività",
+      "resultUrlNotFound": "URL del risultato non trovato",
+      "taskFailed": "Attività fallita",
+      "taskPollingTimeout": "Sondaggio attività scaduto"
+    },
+    "imageEffectsLanding": {
+      "hero": {
+        "title": "Effetti fotografici infiniti per ogni visione",
+        "intro": "Dai vita alle tue foto con una raccolta curata di effetti fotografici IA, dai look nostalgici alle estetiche di tendenza. Carica un’immagine, cambia stile in pochi secondi e trasforma una foto semplice senza uscire dall’area di lavoro.",
+        "highlights": {
+          "upload": "1. Carica la foto",
+          "style": "2. Scegli uno stile",
+          "apply": "3. Applica gli effetti"
+        }
+      },
+      "story": {
+        "title": "Libera la creatività con ricchi effetti fotografici IA",
+        "intro": "Trasforma foto quotidiane in visual raffinati e d’impatto con una libreria pensata per esplorare rapidamente. Ogni preset modella automaticamente colore, texture e atmosfera.",
+        "features": {
+          "styles": {
+            "title": "Una foto, stili infiniti",
+            "description": "Passa da ritratti morbidi a collage Y2K, mood stagionali o look vintage con una sola foto di riferimento."
+          },
+          "lifelike": {
+            "title": "Effetti IA con resa naturale",
+            "description": "Mantieni riconoscibile il soggetto mentre l’effetto perfeziona colore, texture e atmosfera."
+          },
+          "trend": {
+            "title": "Effetti pronti per le tendenze",
+            "description": "Esplora una libreria ispirata a trend social, estetiche virali e mood stagionali."
+          },
+          "share": {
+            "title": "Output pronto da condividere",
+            "description": "Crea visual rifiniti per post social, campagne, moodboard e condivisioni rapide."
+          }
+        }
+      },
+      "steps": {
+        "title": "Come aggiungere effetti alle foto",
+        "items": {
+          "upload": {
+            "title": "Carica la foto",
+            "description": "Inizia con un’immagine chiara e di alta qualità. Dettagli puliti producono effetti più stabili."
+          },
+          "select": {
+            "title": "Seleziona uno stile",
+            "description": "Scegli il preset più vicino al mood, all’estetica o alla direzione visiva desiderata."
+          },
+          "apply": {
+            "title": "Applica e scarica",
+            "description": "Genera il risultato, confronta stili simili se serve e salva la versione migliore."
+          }
+        }
+      },
+      "faq": {
+        "title": "FAQ sugli effetti fotografici IA",
+        "items": {
+          "types": {
+            "question": "Che effetti posso usare?",
+            "answer": "Puoi esplorare look pittorici, estetiche stagionali, collage, trattamenti retro, preset per ritratto e altre direzioni."
+          },
+          "skills": {
+            "question": "Servono competenze di fotoritocco?",
+            "answer": "No. Il flusso parte dai preset: carica, scegli lo stile e genera."
+          },
+          "photos": {
+            "question": "Quali foto funzionano meglio?",
+            "answer": "Foto con soggetto chiaro, dettagli leggibili e luce equilibrata offrono risultati più coerenti."
+          },
+          "share": {
+            "question": "Posso usarle per contenuti social?",
+            "answer": "Sì. Il flusso è adatto a post social, moodboard, bozze di campagna e visual pronti da condividere."
+          },
+          "privacy": {
+            "question": "Le foto caricate restano private?",
+            "answer": "I caricamenti restano nel flusso di creazione per generazione e confronto. Verifica le policy di account e archiviazione prima di condividere."
+          }
+        }
+      },
+      "cta": {
+        "title": "Trasforma le foto con effetti IA creativi",
+        "description": "Scegli uno stile, prova alcune varianti e genera nello stesso spazio di lavoro.",
+        "button": "Applica effetti ora"
+      }
+    },
+    "videoEffectsLanding": {
+      "hero": {
+        "title": "Effetti video infiniti per ogni movimento",
+        "intro": "Dai vita alle immagini statiche con effetti video IA curati. Carica una foto, cambia stile di movimento in pochi secondi e visualizza anteprime animate nello stesso spazio in stile Mango."
+      }
+    },
+    "genericHero": {
+      "imageToImageTitle": "Generatore IA da immagine",
+      "imageToImageIntro": "Carica qualsiasi immagine, aggiungi un prompt creativo e lascia che l’IA crei subito una nuova immagine. Ideale per design, migliorare foto o esplorare idee visive.",
+      "textToImageIntro": "Definisci una direzione visiva chiara, perfeziona il prompt e trasforma le idee in immagini curate con un flusso in stile Mango più pulito.",
+      "videoIntro": "Parti da una forte direzione visiva, visualizza il movimento desiderato e crea subito con un flusso {sceneTitle} in stile Mango più pulito.",
+      "imageIntro": "Scegli un punto di partenza curato, guida il look finale e genera subito con un flusso {sceneTitle} in stile Mango più pulito."
+    }
+  },
+  "faceGenerator": {
+    "tabs": {
+      "library": "Libreria"
+    },
+    "hero": {
+      "eyebrow": "Laboratorio ritratti",
+      "title": "Generatore di volti",
+      "description": "Inizia dalle preimpostazioni di ritratto, visualizza in anteprima l'aspetto che desideri e ottimizza il generatore in un ambiente di lavoro più luminoso in stile Mango."
+    },
+    "actions": {
+      "useTemplate": "Prova il modello",
+      "surpriseMe": "Sorprendimi"
+    },
+    "form": {
+      "prompt": "Richiesta",
+      "promptPlaceholder": "Aggiungi ulteriore direzione creativa per questo volto.",
+      "aspectRatio": "Proporzioni",
+      "gender": "Sesso",
+      "age": "Età",
+      "ethnos": "Etnia",
+      "bodyType": "Tipo di corporatura",
+      "eyeColor": "Colore degli occhi",
+      "hairColor": "Colore dei capelli",
+      "hairType": "Tipo di capelli",
+      "hairStyle": "Stile dei capelli",
+      "makeup": "Trucco",
+      "generatedPromptPreview": "Anteprima del messaggio generato",
+      "selectPlaceholder": "Seleziona"
+    },
+    "status": {
+      "ready": "Pronto per generare",
+      "templateApplied": "Modello applicato: {title}",
+      "surpriseApplied": "Impostazioni sorpresa applicate",
+      "generating": "Generazione del volto",
+      "generated": "Volto generato",
+      "failed": "Generazione non riuscita"
+    },
+    "errors": {
+      "generateFailed": "Impossibile generare il volto"
+    },
+    "empty": {
+      "creations": {
+        "title": "Creazioni",
+        "description": "I volti generati verranno visualizzati qui dopo aver eseguito il generatore di volti.",
+        "chips": {
+          "generator": "Generatore di volti"
+        }
+      },
+      "collections": {
+        "title": "Raccolte",
+        "description": "Crea e gestisci raccolte per i tuoi volti generati.",
+        "chips": {
+          "generator": "Generatore di volti",
+          "portrait": "Ritratto",
+          "library": "Libreria"
+        }
+      }
+    }
+  }
+}

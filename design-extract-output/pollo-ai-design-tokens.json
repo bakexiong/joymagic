@@ -1,0 +1,67 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "source": "manual extraction from pollo.ai public pages",
+    "confidence": "medium"
+  },
+  "color": {
+    "background": {
+      "base": { "$value": "#05070c", "$type": "color" },
+      "surface": { "$value": "#0d1117", "$type": "color" },
+      "surfaceElevated": { "$value": "#141a22", "$type": "color" }
+    },
+    "border": {
+      "subtle": { "$value": "rgba(255,255,255,0.08)", "$type": "color" },
+      "strong": { "$value": "rgba(255,255,255,0.16)", "$type": "color" }
+    },
+    "text": {
+      "primary": { "$value": "#f8fafc", "$type": "color" },
+      "secondary": { "$value": "#b6c2d0", "$type": "color" },
+      "tertiary": { "$value": "#8a97a8", "$type": "color" }
+    },
+    "accent": {
+      "cyan": { "$value": "#5fd7ff", "$type": "color" },
+      "blue": { "$value": "#4ea3ff", "$type": "color" },
+      "teal": { "$value": "#4ce6b2", "$type": "color" },
+      "purple": { "$value": "#8b7cff", "$type": "color" },
+      "pink": { "$value": "#ff6bd6", "$type": "color" }
+    },
+    "feedback": {
+      "success": { "$value": "#33d17a", "$type": "color" },
+      "warning": { "$value": "#ffb84d", "$type": "color" }
+    }
+  },
+  "font": {
+    "heading": {
+      "$value": "Inter, SF Pro Display, ui-sans-serif, system-ui, sans-serif",
+      "$type": "fontFamily"
+    },
+    "body": {
+      "$value": "Inter, SF Pro Text, ui-sans-serif, system-ui, sans-serif",
+      "$type": "fontFamily"
+    }
+  },
+  "radius": {
+    "sm": { "$value": "12px", "$type": "borderRadius" },
+    "md": { "$value": "16px", "$type": "borderRadius" },
+    "lg": { "$value": "24px", "$type": "borderRadius" },
+    "pill": { "$value": "9999px", "$type": "borderRadius" }
+  },
+  "spacing": {
+    "1": { "$value": "4px", "$type": "dimension" },
+    "2": { "$value": "8px", "$type": "dimension" },
+    "3": { "$value": "12px", "$type": "dimension" },
+    "4": { "$value": "16px", "$type": "dimension" },
+    "5": { "$value": "24px", "$type": "dimension" },
+    "6": { "$value": "32px", "$type": "dimension" },
+    "7": { "$value": "48px", "$type": "dimension" },
+    "8": { "$value": "64px", "$type": "dimension" }
+  },
+  "shadow": {
+    "card": { "$value": "0 10px 30px rgba(0,0,0,0.28)", "$type": "shadow" },
+    "glow": {
+      "$value": "0 0 0 1px rgba(95,215,255,0.2), 0 18px 50px rgba(95,215,255,0.12)",
+      "$type": "shadow"
+    }
+  }
+}

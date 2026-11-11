@@ -1,0 +1,1570 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "joymagic",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "joymagic"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "功能特色",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "價格",
+          "url": "/pricing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "聯盟",
+          "url": "/affiliate",
+          "icon": "Handshake"
+        },
+        {
+          "title": "AI 特效",
+          "icon": "Sparkles",
+          "children": [
+            {
+              "title": "圖片特效",
+              "url": "/image-effect",
+              "icon": "Image"
+            },
+            {
+              "title": "影片特效",
+              "url": "/video-effect",
+              "icon": "Clapperboard"
+            }
+          ]
+        },
+        {
+          "title": "圖片AI",
+          "icon": "Image",
+          "children": [
+            {
+              "title": "文本生成圖片",
+              "icon": "Image",
+              "children": [
+                {
+                  "title": "GPT Image 2",
+                  "url": "/text-to-image/gpt-image-2",
+                  "icon": "Image",
+                  "description": "使用 GPT Image 2 生成中文海報、考卷、書法、照片級寫實圖片與高擬真 UI 截圖",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Z Image Turbo",
+                  "url": "/text-to-image/z-image-turbo",
+                  "icon": "Image",
+                  "description": "使用通用 AI 模型從文本生成圖片",
+                  "badge": "免費",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana",
+                  "url": "/text-to-image/nano-banana",
+                  "icon": "Image",
+                  "description": "使用 Nano Banana AI 模型從文本生成圖片",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana Pro",
+                  "url": "/text-to-image/nano-banana-pro",
+                  "icon": "Image",
+                  "description": "使用 Nano Banana Pro AI 模型從文本生成高品質圖片",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana 2",
+                  "url": "/text-to-image/nano-banana-2",
+                  "icon": "Image",
+                  "description": "下一代文生圖模型，支援相機控制、清晰文字渲染，最高4K輸出",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream V4.5",
+                  "url": "/text-to-image/seedream-4-5",
+                  "icon": "Image",
+                  "description": "使用 Seedream V4.5 AI 模型從文本生成精美圖片",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream 5.0 Lite",
+                  "url": "/text-to-image/seedream-5-0-lite",
+                  "icon": "Image",
+                  "description": "使用 Seedream 5.0 Lite AI 模型從文本生成精美圖片",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Flux 2 Klein",
+                  "url": "/text-to-image/flux-2-klein",
+                  "icon": "Image",
+                  "description": "使用 Flux 2 Klein AI 模型從文本生成精美圖片",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "GPT Image 1",
+                  "url": "/text-to-image/gpt-image-1",
+                  "icon": "Image",
+                  "description": "使用 GPT Image 1 AI 模型從文本生成圖片",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Qwen Image 202512",
+                  "url": "/text-to-image/qwen-image-202512",
+                  "icon": "Image",
+                  "description": "使用 Qwen Image 202512 AI 模型從文本生成精美圖片",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/text-to-image/wan-2-7",
+                  "icon": "Image",
+                  "description": "使用 Wan 2.7 AI 模型從文本生成高品質圖片，支援 thinking mode 與最高 4096 尺寸",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Midjourney",
+                  "url": "/text-to-image/midjourney",
+                  "icon": "Image",
+                  "description": "使用 Midjourney 風格 AI 模型生成藝術圖片",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "圖片轉圖片",
+              "icon": "Images",
+              "badge": "免費",
+              "children": [
+                {
+                  "title": "GPT Image 2",
+                  "url": "/image-to-image/gpt-image-2",
+                  "icon": "Images",
+                  "description": "使用 GPT Image 2 編輯最多 4 張圖片，適合中文海報優化、寫實精修、文件版式重做與 UI 截圖風格變換。",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "通用",
+                  "url": "/image-to-image",
+                  "icon": "Images",
+                  "description": "基於現有圖片生成新圖片",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Flux 2 Klein",
+                  "url": "/image-to-image/flux-2-klein",
+                  "icon": "Images",
+                  "description": "使用 Flux 2 Klein 轉換和編輯圖片。最多上傳 4 張圖片，每張 2 積分。",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Soul",
+                  "url": "/image-to-image/soul",
+                  "icon": "Images",
+                  "description": "使用 Soul 轉換圖片，可控制質量、尺寸、強度與風格。",
+                  "badge": "熱門",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Z Image Turbo",
+                  "url": "/image-to-image/z-image-turbo",
+                  "icon": "Images",
+                  "description": "使用 Z Image Turbo 轉換圖片，可控制尺寸、強度與輸出格式。",
+                  "badge": "免費",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Grok Imagine",
+                  "url": "/image-to-image/grok-imagine-image",
+                  "icon": "Images",
+                  "description": "使用 Grok Imagine 轉換圖片，上傳一張圖並描述您想要的轉換效果。",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream 5.0 Lite",
+                  "url": "/image-to-image/seedream-5-0-lite",
+                  "icon": "Images",
+                  "description": "使用 Seedream 5.0 Lite 轉換圖片，上傳一張圖並描述想要的轉換效果。",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Qwen Image Max",
+                  "url": "/image-to-image/qwen-image-max",
+                  "icon": "Images",
+                  "description": "使用 Qwen Image Max AI 編輯和轉換圖片。基於 qwen-image-max-edit 技術的智能圖片編輯。",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/image-to-image/wan-2-7",
+                  "icon": "Images",
+                  "description": "使用 Wan 2.7 編輯和轉換圖片，支援多圖輸入、自定義 size 到 4096 以及 seed 控制。",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7 Image Edit Pro",
+                  "url": "/image-to-image/wan-2-7-image-edit-pro",
+                  "icon": "Images",
+                  "description": "進階版 Wan 2.7 圖像編輯，支援最多 9 張圖片輸入、自訂 size 到 4096，並可透過 seed 精細控制結果。",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana",
+                  "url": "/image-to-image/nano-banana",
+                  "icon": "Images",
+                  "description": "Nano Banana 圖生圖 AI 編輯器。支援上傳最多 10 張圖片，靈活選擇寬高比，智能圖生圖轉換。",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana 2",
+                  "url": "/image-to-image/nano-banana-2",
+                  "icon": "Images",
+                  "description": "Nano Banana 2 圖生圖 AI 編輯器。最多可上傳 14 張圖片，支援長寬比與 1K/2K/4K 解析度控制，採用 nano-banana-2-edit。",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana Pro Edit Ultra",
+                  "url": "/image-to-image/nano-banana-pro-edit-ultra",
+                  "icon": "Images",
+                  "description": "Nano Banana Pro Edit Ultra 圖生圖 AI 編輯器。最多可上傳 14 張圖片，支援長寬比與 4K/8K 解析度控制，採用 nano-banana-pro-edit-ultra。",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Qwen 圖片分層",
+              "url": "/qwen-image-layered",
+              "icon": "Layers",
+              "description": "將圖片分解為可編輯的 RGBA 圖層",
+              "icon_url": "https://ocdn.10b.ai/icon/qwen_image_layered.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "圖片擦除",
+              "url": "/image-eraser",
+              "icon": "Eraser",
+              "description": "移除圖片中不需要的物件、水印和背景",
+              "icon_url": "https://ocdn.10b.ai/icon/%20image_eraser.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "背景移除",
+              "url": "/image-background-remover",
+              "icon": "Scissors",
+              "description": "使用 AI 一鍵移除圖片背景",
+              "badge": "Free",
+              "icon_url": "https://ocdn.10b.ai/icon/background_remove.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "圖片放大",
+              "url": "/image-upscaler",
+              "icon": "Maximize2",
+              "description": "使用 AI 將圖片放大至 4K、8K 或 16K",
+              "icon_url": "https://ocdn.10b.ai/icon/image_upscaler.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            }
+          ]
+        },
+        {
+          "title": "影片AI",
+          "icon": "Video",
+          "children": [
+            {
+              "title": "文本生成影片",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "HappyHorse 1.0",
+                  "url": "/text-to-video/happyhorse-1-0",
+                  "icon": "Video",
+                  "description": "使用 HappyHorse 1.0 進行文字生成影片，支援 16:9 輸出、5 秒時長、720p 解析度與可選 seed 控制",
+                  "badge": "新",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/text-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "使用 Wan 2.7 進行文字生成影片，支援 1080p、畫面比例、15 秒時長、提示詞擴寫與 seed 控制",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.6",
+                  "url": "/text-to-video/wan-2-6",
+                  "icon": "Video",
+                  "description": "使用 Wan 2.6 進行文本生成影片",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Veo 3.1",
+                  "url": "/text-to-video/veo-3-1",
+                  "icon": "Video",
+                  "description": "使用 Veo 3.1 進行文本生成影片",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 1.5 Pro",
+                  "url": "/text-to-video/seedance-1-5-pro",
+                  "icon": "Video",
+                  "description": "使用 Seedance 1.5 Pro 進行文本生成影片",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 2.0",
+                  "url": "/text-to-video/seedance-2-0",
+                  "icon": "Video",
+                  "description": "Text to video generation with Seedance 2.0",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "PixVerse v5.6",
+                  "url": "/text-to-video/pixverse-5-6",
+                  "icon": "Video",
+                  "description": "使用 PixVerse v5.6 進行文本生成影片",
+                  "badge": "新",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "LTX-2",
+                  "url": "/text-to-video/ltx2-fast",
+                  "icon": "Video",
+                  "description": "使用 LTX-2 進行文本生成影片 - 4K AI 影片生成器，支持同步音頻",
+                  "badge": "熱門",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "圖片生成影片",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "HappyHorse 1.0",
+                  "url": "/image-to-video/happyhorse-1-0",
+                  "icon": "Video",
+                  "description": "使用 HappyHorse 1.0 將單張圖片動畫化為 5 秒 720p 電影感影片",
+                  "badge": "新",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/image-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "使用 Wan 2.7 製作圖生影片，支援首幀圖、可選尾幀圖、可選音訊、解析度、時長、提示詞擴寫與 seed 控制。",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Vidu Q3",
+                  "url": "/image-to-video/vidu-q3",
+                  "icon": "Video",
+                  "description": "使用 Vidu Q3 進行圖片生成影片 - 可控制動作幅度，並可選擇生成音頻與加入背景音樂",
+                  "badge": "新",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Midjourney",
+                  "url": "/image-to-video/midjourney",
+                  "icon": "Video",
+                  "description": "使用 Midjourney 進行圖片生成影片 - 控制動作、品質和風格參數",
+                  "badge": "新",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Veo 3.1",
+                  "url": "/image-to-video/veo-3-1",
+                  "icon": "Video",
+                  "description": "使用 Veo 3.1 進行圖片生成影片",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 1.5 Pro",
+                  "url": "/image-to-video/seedance-1-5-pro",
+                  "icon": "Video",
+                  "description": "使用 Seedance 1.5 Pro 進行圖片生成影片",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 2.0",
+                  "url": "/image-to-video/seedance-2-0",
+                  "icon": "Video",
+                  "description": "使用 Seedance 2.0 進行圖片生成影片",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500",
+                  "badge": "New"
+                },
+                {
+                  "title": "PixVerse v5.6",
+                  "url": "/image-to-video/pixverse-5-6",
+                  "icon": "Video",
+                  "description": "使用 PixVerse v5.6 進行圖片生成影片",
+                  "badge": "新",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "LTX-2",
+                  "url": "/image-to-video/ltx2-fast",
+                  "icon": "Video",
+                  "description": "使用 LTX-2 進行圖片生成影片 - 4K AI 影片生成器，支持同步音頻",
+                  "badge": "熱門",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "參考圖/影片生成影片",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "Wan 2.7",
+                  "url": "/reference-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "使用 Wan 2.7 進行參考圖/影片生成影片，支援多圖、多影片身份與場景一致性控制。",
+                  "badge": "新",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 4K",
+                  "url": "/reference-to-video/kling-video-o3-4k",
+                  "icon": "Video",
+                  "description": "使用 Kling Video O3 4K 進行參考圖/影片生成影片，適合高保真主體一致性鏡頭。",
+                  "badge": "新",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O1 Std",
+                  "url": "/reference-to-video/kling-video-o1-std",
+                  "icon": "Video",
+                  "description": "使用 Kling Video O1 Std 進行參考圖/影片生成影片，支援圖片參考和可選參考影片。",
+                  "badge": "新",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 Pro",
+                  "url": "/reference-to-video/kling-video-o3-pro",
+                  "icon": "Video",
+                  "description": "使用 Kling Video O3 Pro 進行參考圖/影片生成影片，支援可選音訊生成和運動參考。",
+                  "badge": "新",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 Std",
+                  "url": "/reference-to-video/kling-video-o3-std",
+                  "icon": "Video",
+                  "description": "使用 Kling Video O3 Std 進行參考圖/影片生成影片，生成主體一致的影片片段。",
+                  "badge": "新",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Grok Imagine Video",
+                  "url": "/reference-to-video/grok-imagine-video",
+                  "icon": "Video",
+                  "description": "使用 Grok Imagine Video 進行參考圖生成影片，支援多參考圖一致性生成。",
+                  "badge": "新",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "視頻續寫",
+              "url": "/video-extend/wan-2-7",
+              "icon": "Video",
+              "description": "使用 Wan 2.7 進行視頻續寫，支援可選音訊、提示詞擴展與 720p/1080p 輸出",
+              "badge": "新",
+              "icon_url": "https://ocdn.10b.ai/icon/video_extend.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "動作控制",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "Kling 2.6 Pro",
+                  "url": "/motion-control/kling-2-6-pro",
+                  "icon": "Video",
+                  "description": "使用 Kling 2.6 Pro 進行動作控制影片生成 - 透過圖片和影片輸入控制影片動作",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Longcat Avatar",
+              "url": "/longcat-avatar",
+              "icon": "Video",
+              "description": "使用音頻和圖片同步創建 AI 頭像影片 - 生成最長 2 分鐘的說話頭像影片",
+              "icon_url": "https://ocdn.10b.ai/icon/longcat_avatar.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            }
+          ]
+        },
+        {
+          "title": "部落格",
+          "url": "/blog",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": []
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "disclaimer": "joymagic 是一個獨立的 AI 圖像生成服務，與阿里巴巴集團或其任何 AI 模型均無關聯、未獲背書，也沒有任何連結。文中提及的「joymagic」僅指我們自家產品與技術。"
+  },
+  "hero": {
+    "id": "hero",
+    "title": "Z-image - 快速又免費的圖片生成器",
+    "highlight_text": "快速又免費",
+    "description": "Z-image 由 joymagic 基於開源 AI 模型部署並優化，提供快速且高品質的圖像創作體驗。",
+    "announcement": null,
+    "buttons": [
+      {
+        "title": "加入 Discord 取得私藏提示詞！",
+        "url": "https://discord.gg/bVCk5PHb8d",
+        "icon_url": "https://pub.wanai.pro/%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90/discord-logo-discord-icon-transparent-free-png.png",
+        "target": "_blank"
+      }
+    ],
+    "show_avatars": true,
+    "show_award": true,
+    "image": {
+      "src": "/imgs/features/hero-zimage.webp",
+      "alt": "joymagic"
+    },
+    "image_invert": {
+      "src": "/imgs/features/hero-zimage-dark.webp",
+      "alt": "joymagic"
+    }
+  },
+  "logos": {
+    "title": "可在主要 AI 平台使用",
+    "items": [
+      {
+        "title": "GitHub",
+        "image": {
+          "src": "/imgs/logos/github.svg",
+          "alt": "GitHub"
+        }
+      },
+      {
+        "title": "ModelScope",
+        "image": {
+          "src": "/imgs/logos/modelscope.svg",
+          "alt": "ModelScope"
+        }
+      },
+      {
+        "title": "HuggingFace",
+        "image": {
+          "src": "/imgs/logos/huggingface.svg",
+          "alt": "HuggingFace"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "id": "introduce",
+    "title": "什麼是 joymagic？",
+    "label": "介紹",
+    "description": "joymagic 是一個具備 60 億參數的高效圖像生成基礎模型。通過系統性優化，它證明了無需依賴龐大的模型規模也能達到頂級性能，在真實感生成和雙語文字渲染方面表現卓越。",
+    "image": {
+      "src": "/imgs/features/zimage-intro.webp",
+      "alt": "introduce"
+    },
+    "items": [
+      {
+        "title": "攝影級真實感",
+        "description": "達到攝影級的真實效果，可精細控制細節、光線和紋理。在構圖和整體氛圍方面展現出色的美學品質。",
+        "icon": "Camera",
+        "image": {
+          "src": "/imgs/features/photorealistic.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "超高速推理",
+        "description": "在企業級 H800 GPU 上實現亞秒級推理延遲。僅需 8 步即可完成生成。",
+        "icon": "Zap",
+        "image": {
+          "src": "/imgs/features/fast-inference.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "雙語文字渲染",
+        "description": "精準渲染中文和英文文字，同時保持面部真實感和整體美學構圖。",
+        "icon": "Languages",
+        "image": {
+          "src": "/imgs/features/bilingual-text.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "高效記憶體使用",
+        "description": "可在消費級顯卡（VRAM 少於 16GB）上流暢運行，讓先進的圖像生成技術更加普及。",
+        "icon": "MemoryStick",
+        "image": {
+          "src": "/imgs/features/vram.webp",
+          "alt": "introduce"
+        }
+      }
+    ]
+  },
+  "faceSwap": {
+    "title": "AI 線上影片換臉",
+    "description": "使用我們的 <strong class=\"text-primary font-semibold\">AI 線上影片換臉</strong> 工具，在數秒內創作有趣又逼真的換臉影片。完全不需剪輯經驗，只要上傳影片、選擇人臉，其餘交給 AI 魔法。",
+    "tabs": {
+      "single": "單人臉",
+      "multiple": "多人臉"
+    },
+    "steps": {
+      "video": {
+        "title": "上傳影片",
+        "cta": "拖曳/點擊上傳",
+        "hint": "支援 M4V/MP4/MOV/WEBM",
+        "dragDrop": "拖拽或點擊上傳",
+        "dropHere": "將影片拖放到此處"
+      },
+      "face": {
+        "title": "上傳人臉圖片",
+        "cta": "拖曳/點擊上傳",
+        "hint": "支援 JPG/PNG/WEBP",
+        "dragDrop": "拖拽或點擊上傳",
+        "dropHere": "將圖片拖放到此處"
+      },
+      "render": {
+        "title": "點擊「渲染」開始",
+        "cta": "開始渲染",
+        "rendering": "渲染中..."
+      },
+      "multiple": {
+        "face": {
+          "title": "指定人臉替換",
+          "cta": "提取人臉({count}/{max})"
+        }
+      }
+    },
+    "badges": {
+      "free": "每日 5 次免費運行",
+      "clean": "無浮水印",
+      "resolution": "支援 2K 解析度"
+    },
+    "preview": {
+      "title": "預覽",
+      "cta": "試試換臉",
+      "original": "原影片",
+      "swapped": "已換臉",
+      "faceAlt": "人臉預覽",
+      "usingFace": "使用人臉：{name}",
+      "placeholder": "上傳影片後，這裡會顯示預覽。"
+    },
+    "common": {
+      "selected": "已選擇：{name}",
+      "notSelected": "未選擇檔案"
+    },
+    "errors": {
+      "videoDurationExceeded": "影片時長不得超過 {max} 分鐘，目前影片時長為 {current} 分鐘",
+      "videoDurationReadFailed": "無法讀取影片時長，請確認影片檔案格式是否正確",
+      "uploadFailed": "上傳失敗：{error}",
+      "uploadFailedGeneric": "上傳失敗",
+      "videoRequired": "請先上傳影片",
+      "faceImageRequired": "請先上傳人臉圖片",
+      "faceSwapFailed": "換臉處理失敗",
+      "taskFailed": "任務處理失敗",
+      "taskTimeout": "任務處理逾時，請稍後再試",
+      "taskIdNotFound": "無法取得任務 ID，請檢查 API 回應格式",
+      "apiResponseParseFailed": "換臉處理失敗：無法解析 API 回應",
+      "processingFailed": "處理失敗，請再試一次",
+      "statusQueryFailed": "查詢任務狀態失敗：無法解析回應資料",
+      "videoFileNotFound": "找不到影片檔案，請重新上傳影片"
+    },
+    "footer": "登入解鎖更多功能 · 每日免費額度 · 支援 2K 解析度",
+    "uploadConfirm": {
+      "title": "上傳確認",
+      "description": "上傳前請確認以下內容：",
+      "permission": "我確認我有權使用上傳內容中的所有面部",
+      "legal": "我不會將此工具用於欺騙、詐騙或非法目的",
+      "synthetic": "我理解這會建立 AI 生成的合成媒體",
+      "cancel": "取消",
+      "confirm": "確認"
+    }
+  },
+  "clothesRemover": {
+    "id": "clothes-remover",
+    "title": "AI 換裝展示台",
+    "description": "上傳照片，描述想要的服裝，幾步即可生成新造型。",
+    "tabs": {
+      "auto": "自動",
+      "manual": "手動"
+    },
+    "steps": {
+      "type": {
+        "title": "選擇服裝類型"
+      },
+      "upload": {
+        "title": "上傳照片（正面全身照更佳）",
+        "cta": "點擊上傳",
+        "hint": "(JPG, PNG, WEBP) ≤ 20MB"
+      },
+      "describe": {
+        "title": "描述想要的服裝",
+        "placeholder": "描述你想要的穿搭，例如「紅色比基尼」「休閒西裝」或「夏日半裙」。"
+      }
+    },
+    "actions": {
+      "remove": "去衣生成"
+    }
+  },
+  "benefits": {
+    "id": "benefits",
+    "title": "核心特色",
+    "label": "功能特色",
+    "description": "一覽 joymagic 模型的強大能力。",
+    "items": [
+      {
+        "title": "真實感",
+        "description": "攝影級真實效果",
+        "icon": "Camera",
+        "image": {
+          "src": "/imgs/features/benefit-1.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "1 秒",
+        "description": "超高速推理",
+        "icon": "Timer",
+        "image": {
+          "src": "/imgs/features/benefit-2.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "60 億+ 參數",
+        "description": "單串流擴散",
+        "icon": "Layers",
+        "image": {
+          "src": "/imgs/features/benefit-3.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "雙語文字",
+        "description": "精準文字渲染",
+        "icon": "Languages",
+        "image": {
+          "src": "/imgs/features/benefit-4.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "16GB VRAM",
+        "description": "高效記憶體使用",
+        "icon": "MemoryStick",
+        "image": {
+          "src": "/imgs/features/benefit-5.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "世界知識",
+        "description": "深度語義理解",
+        "icon": "Brain",
+        "image": {
+          "src": "/imgs/features/benefit-6.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "圖像編輯",
+        "description": "創意單圖像編輯",
+        "icon": "Edit",
+        "image": {
+          "src": "/imgs/features/benefit-7.webp",
+          "alt": "benefits"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "id": "usage",
+    "title": "模型變體",
+    "description": "joymagic 提供針對不同使用情境的專業模型：",
+    "image": {
+      "src": "/imgs/features/models.webp",
+      "alt": "usage"
+    },
+    "image_position": "left",
+    "text_align": "left",
+    "items": [
+      {
+        "title": "🚀 Z Image Turbo",
+        "description": "joymagic 的精餾版本，在真實感圖像生成、中英文文字精準渲染和雙語指令遵循方面表現卓越。僅需 8 步即可達到媲美或超越主要競爭對手的性能。",
+        "image": {
+          "src": "/imgs/features/turbo-model.webp",
+          "alt": "usage"
+        }
+      },
+      {
+        "title": "✍️ joymagic Edit",
+        "description": "joymagic 的持續訓練變體，專精於圖像編輯。擅長遵循複雜指令執行多種任務，從精確的局部修改到全域風格轉換，同時保持高度編輯一致性。",
+        "image": {
+          "src": "/imgs/features/edit-model.webp",
+          "alt": "usage"
+        }
+      }
+    ]
+  },
+  "features": {
+    "id": "features",
+    "title": "能力展示",
+    "description": "探索 joymagic 在各個領域的先進能力。",
+    "items": [
+      {
+        "title": "真實感生成",
+        "description": "提供強大的真實感圖像生成，同時保持出色的美學品質。",
+        "icon": "Camera"
+      },
+      {
+        "title": "雙語文字渲染",
+        "description": "在各種情境下精準渲染複雜的中文和英文文字。",
+        "icon": "Languages"
+      },
+      {
+        "title": "世界知識",
+        "description": "擁有對世界知識和多元文化概念的深刻理解。",
+        "icon": "Globe"
+      },
+      {
+        "title": "語義理解",
+        "description": "使用結構化推理鏈注入邏輯和常識。",
+        "icon": "Brain"
+      },
+      {
+        "title": "創意編輯",
+        "description": "精確執行複雜指令進行圖像轉換。",
+        "icon": "Edit"
+      },
+      {
+        "title": "指令遵循",
+        "description": "對圖像元素和轉換展現精細控制。",
+        "icon": "CheckCircle"
+      }
+    ]
+  },
+  "models": {
+    "id": "models",
+    "title": "模型架構",
+    "description": "僅憑 60 億參數，該模型就能生成與規模大一個數量級的模型相媲美的真實感圖像。它可在消費級顯卡（VRAM 少於 16GB）上流暢運行。",
+    "items": [
+      {
+        "title": "單串流擴散",
+        "description": "joymagic 模型採用單串流擴散 Transformer 架構。此設計將各種條件輸入（如文字和圖像嵌入）與有噪聲的圖像潛變數統一到單一序列中，然後饋入 Transformer 主幹。",
+        "image": {
+          "src": "/imgs/features/architecture.webp",
+          "alt": "architecture"
+        }
+      }
+    ]
+  },
+  "architecture": {
+    "id": "architecture",
+    "title": "技術深度解析",
+    "description": "了解 joymagic 背後的創新架構和訓練技術。",
+    "items": [
+      {
+        "title": "解耦-DMD",
+        "description": "賦能 8 步 joymagic 模型的核心少步驟精餾算法。通過識別和解耦 CFG 增強與分佈匹配，我們開發了改進的精餾過程。",
+        "icon": "Layers"
+      },
+      {
+        "title": "DMDR",
+        "description": "融合 DMD 與強化學習，在語義對齊、美學品質和結構一致性方面實現進一步改進。",
+        "icon": "GitBranch"
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "常見問題",
+    "description": "關於 joymagic 及其功能的常見問題。",
+    "items": [
+      {
+        "question": "什麼是 joymagic？",
+        "answer": "joymagic 是一個具備 60 億參數的高效圖像生成基礎模型。它證明了無需依賴龐大的模型規模也能達到頂級性能，在真實感生成和雙語文字渲染方面表現卓越。"
+      },
+      {
+        "question": "joymagic 的主要功能是什麼？",
+        "answer": "joymagic 在真實感圖像生成、雙語文字渲染（英文和中文）、超高速推理（8 步）、高效 VRAM 使用（16GB）、豐富的世界知識理解和創意圖像編輯能力方面表現出色。"
+      },
+      {
+        "question": "有哪些模型可用？",
+        "answer": "joymagic 提供經過最佳化的圖片生成與圖片編輯工作流程，可支援高品質輸出與穩定的指令遵循。"
+      },
+      {
+        "question": "需要什麼硬體配置？",
+        "answer": "joymagic 可在消費級顯卡（VRAM 少於 16GB）上流暢運行。它在企業級 H800 GPU 上實現亞秒級推理延遲。"
+      },
+      {
+        "question": "joymagic 是開源的嗎？",
+        "answer": "是的！模型代碼、權重和線上示範已在 GitHub、ModelScope 和 HuggingFace 上公開可用，以鼓勵社群探索和使用。"
+      },
+      {
+        "question": "是什麼讓 joymagic 與眾不同？",
+        "answer": "joymagic 採用將條件輸入與圖像潛變數統一的單串流擴散 Transformer 架構。它使用創新的解耦-DMD 精餾和 DMDR 強化學習技術以實現最佳性能。"
+      }
+    ]
+  },
+  "share_dialog": {
+    "title": "🎁 分享解鎖免費生成",
+    "description": "🚀 幫我們一起成長！分享到社群媒體即可解鎖免費圖片生成。你的支持讓這一切成真！",
+    "share_button": "✅ 我已分享，繼續生成",
+    "share_tip": "點擊上方任一分享按鈕，在新視窗完成分享後，再點擊下方按鈕繼續",
+    "platforms": {
+      "twitter": "分享到 X",
+      "reddit": "分享到 Reddit",
+      "facebook": "分享到 Facebook",
+      "instagram": "複製連結分享"
+    },
+    "share_message": "體驗 Z Image Turbo - 只需 8 步即可生成照片級寫實圖片！",
+    "share_url": "https://10b.ai"
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "joymagic",
+      "description": "joymagic - 快速又免費的圖片生成器",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "joymagic"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "專案",
+          "children": [
+            {
+              "title": "功能特色",
+              "url": "/#features",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "資源",
+          "children": [
+            {
+              "title": "說明文件",
+              "url": "/docs",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "support@joymagic.fun",
+          "url": "mailto:support@joymagic.fun"
+        },
+        {
+          "title": "隱私權政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服務條款",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "內容審核政策",
+          "url": "/content-moderation-policy"
+        },
+        {
+          "title": "可接受使用政策",
+          "url": "/acceptable-use-policy"
+        },
+        {
+          "title": "退款政策",
+          "url": "/refund-policy"
+        },
+        {
+          "title": "AI 包裝器免責聲明",
+          "url": "/ai-wrapper-disclaimer"
+        },
+        {
+          "title": "開源授權與致謝",
+          "url": "/open-source-attribution"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "disclaimer": "joymagic 是一個獨立的 AI 圖像生成服務，與阿里巴巴集團或其任何 AI 模型均無關聯、未獲背書，也沒有任何連結。文中提及的「joymagic」僅指我們自家產品與技術。"
+  },
+  "heroImageWall": {
+    "label": "精選作品牆",
+    "title": "靈感牆，秒級生成",
+    "description": "25 張最新作品，延遲載入展示。點擊任意圖片即可放大查看細節。",
+    "hint": "點擊放大",
+    "view": "查看",
+    "alt": "作品圖 {index}"
+  },
+  "wavespeed": {
+    "prompt_label": "你的提示詞",
+    "prompt_placeholder": "描述你想要的畫面，例如：王家衛電影風格，狹窄的香港走廊裡獨自吸煙的男人，1990 年代……",
+    "buttons": {
+      "generating": "生成中...",
+      "checking": "正在檢查可用性...",
+      "unavailable": "服務暫不可用",
+      "generate": "生成",
+      "share_to_generate": "分享後生成",
+      "click_to_pay": "點擊付款以購買更多積分"
+    },
+    "share_hint": "分享至社群媒體解鎖免費生成",
+    "prompt_inspirations": "靈感示例",
+    "image_area": {
+      "alt": "生成的圖片",
+      "loading": "正在生成你的圖片...",
+      "placeholder": "生成的圖片會顯示在這裡"
+    },
+    "links": {
+      "open_in_new_tab": "在新分頁中開啟"
+    },
+    "status": {
+      "unknown_error": "未知錯誤",
+      "submitting": "提交請求中...",
+      "task_submitted": "任務已提交，ID: {id}",
+      "processing": "處理中... 狀態：{status}",
+      "image_success": "圖片生成成功！",
+      "video_submitting": "提交影片生成請求中...",
+      "video_task_submitted": "影片任務已提交，ID: {id}",
+      "video_processing": "影片生成中... 狀態：{status}",
+      "video_success": "影片生成成功！",
+      "estimating": "估算中..."
+    },
+    "errors": {
+      "restricted": "服務繁忙，請稍後再試。",
+      "prompt_required": "請輸入提示詞",
+      "task_failed": "任務失敗：{error}",
+      "request_timeout": "請求逾時，請重試。",
+      "http_error": "錯誤：{code}",
+      "http_error_with_text": "錯誤：{code} - {text}",
+      "request_failed": "請求失敗：{error}",
+      "estimate_failed": "估算積分失敗"
+    },
+    "video": {
+      "cta_pay": "立即生成影片（支付 $5 可獲得 2 支影片）",
+      "cta_ready": "將此圖片生成影片",
+      "title": "影片生成",
+      "creating": "正在製作你的影片...",
+      "unsupported": "你的瀏覽器不支援影片播放。",
+      "download": "下載影片",
+      "credit_description": "影片生成",
+      "errors": {
+        "insufficient_credits": "積分不足，生成影片至少需要 250 積分。",
+        "image_required": "請先生成一張圖片",
+        "task_failed": "任務失敗：{error}",
+        "timeout": "影片生成逾時，請重試。"
+      }
+    },
+    "payment": {
+      "title": "升級以生成影片",
+      "line1": "影片生成功能僅提供付費用戶使用。",
+      "line2": "你目前的積分不足—請先購買更多積分以繼續。",
+      "line3": "立即加值，解鎖影片創作。",
+      "cta_note": "選擇方案以繼續生成影片。",
+      "buy_now": "購買積分",
+      "view_later": "稍後再說",
+      "description_checking": "請在新分頁完成付款，我們會自動檢查付款狀態。",
+      "description_idle": "取得積分以生成影片",
+      "pricing": "$5 = 500 積分",
+      "pricing_note": "每次影片生成消耗 250 積分",
+      "waiting_confirmation": "等待付款確認...",
+      "checkout_url_missing": "付款連結未找到",
+      "success_toast": "付款成功！積分已入帳。",
+      "failure_toast": "付款失敗：{error}",
+      "processing": "處理中...",
+      "waiting": "等待付款...",
+      "pay_button": "點擊付款 $5"
+    },
+    "payment_image": {
+      "title": "今日免費圖片額度已用完",
+      "line1": "你每天可以免費生成 2 張圖片。",
+      "line2": "你今天的免費額度已用完。",
+      "line3": "若要繼續創作，請升級或購買積分。",
+      "line4": "或者你也可以等到明天免費額度重置後再回來。",
+      "cta_note": "選擇方案以繼續創作，或明天再回來。",
+      "buy_now": "購買積分",
+      "wait_tomorrow": "明天再試",
+      "description_checking": "請在新分頁完成付款，我們會自動檢查付款狀態。",
+      "description_idle": "你每天可以免費生成 2 張圖片。你今天的免費額度已用完。你可以購買積分立即生成圖片，或等到明天免費額度重置後再回來。",
+      "pricing": "$5 = 500 積分",
+      "pricing_note": "每次圖片生成消耗 2 積分",
+      "waiting_confirmation": "等待付款確認...",
+      "checkout_url_missing": "付款連結未找到",
+      "success_toast": "付款成功！積分已入帳。",
+      "failure_toast": "付款失敗：{error}",
+      "processing": "處理中...",
+      "waiting": "等待付款...",
+      "pay_button": "點擊付款 $5"
+    },
+    "featureCards": {
+      "image": {
+        "title": "圖片",
+        "description": "創建、編輯和探索視覺效果。"
+      },
+      "video": {
+        "title": "影片",
+        "description": "將提示詞和視覺效果轉換為影片片段。"
+      },
+      "audio": {
+        "title": "音訊",
+        "description": "即將推出",
+        "badge": "即將推出"
+      }
+    },
+    "aiTools": {
+      "title": "AI 工具",
+      "subtitle": "從現有場景中快速進入對應工具"
+    },
+    "freeTools": {
+      "title": "熱門工具",
+      "subtitle": "從可用場景中快速進入免費工具",
+      "badges": ["免費", "Free"]
+    },
+    "aiModels": {
+      "title": "AI 模型",
+      "subtitle": "從現有場景中快速進入對應工具"
+    },
+    "desktopPlayground": {
+      "credits": "積分",
+      "model": {
+        "label": "模型",
+        "choose": "選擇模型",
+        "untitled": "未命名模型",
+        "fallbackTitle": "AI",
+        "fallbackMonogram": "M"
+      },
+      "scene": {
+        "untitled": "未命名場景"
+      },
+      "sceneGroups": {
+        "image": "圖片",
+        "video": "影片"
+      },
+      "sceneMeta": {
+        "imageDescription": "建立、編輯並增強視覺內容",
+        "videoDescription": "製作動畫片段與動作工作流程"
+      },
+      "scenePicker": {
+        "title": "選擇場景",
+        "close": "關閉",
+        "currentSelection": "目前選擇",
+        "current": "目前",
+        "switch": "切換",
+        "currentSceneFallback": "未選擇場景",
+        "empty": "目前沒有可用場景。",
+        "tabs": {
+          "video": "影片",
+          "image": "圖片"
+        },
+        "trigger": {
+          "open": "切換場景",
+          "change": "更換"
+        }
+      },
+      "sceneNames": {
+        "textToImage": "文生圖",
+        "imageToImage": "圖生圖",
+        "qwenImageLayered": "Qwen 分層圖像",
+        "imageEraser": "圖片擦除",
+        "backgroundRemover": "背景移除",
+        "imageUpscaler": "圖片放大",
+        "textToVideo": "文生影片",
+        "imageToVideo": "圖生影片",
+        "motionControl": "動作控制",
+        "longcatAvatar": "Longcat 頭像",
+        "videoFaceSwap": "影片換臉",
+        "aiClothesRemover": "AI 去衣",
+        "videoExtend": "視頻續寫"
+      },
+      "prompt": {
+        "placeholder": "描述你想要的圖片...",
+        "referencePlaceholder": "描述你希望如何轉換這張圖片..."
+      },
+      "aspectRatio": {
+        "auto": "自動"
+      },
+      "uploads": {
+        "uploading": "檔案仍在上傳中，請稍候。",
+        "defaultHint": "上傳媒體後再繼續。",
+        "referenceHint": "先上傳參考媒體以開始。"
+      },
+      "actions": {
+        "generateImage": "生成圖片",
+        "generateVideo": "生成影片",
+        "generating": "生成中..."
+      },
+      "errors": {
+        "generationFailed": "生成失敗",
+        "generateImageFailed": "生成圖片失敗",
+        "insufficientCredits": "積分不足：目前剩餘 {remaining} 積分，至少需要 {required} 積分。"
+      },
+      "generatedPanel": {
+        "empty": "你還沒有生成任何內容。",
+        "titleImages": "本次創作記錄",
+        "titleVideos": "本次創作記錄（影片）",
+        "title": "已生成{mediaLabel}",
+        "count": "{count} 個{label}",
+        "image": "圖片",
+        "images": "圖片",
+        "video": "影片",
+        "videos": "影片",
+        "itemAlt": "第 {index} 個生成結果",
+        "itemLabel": "已生成{mediaItemLabel} {index}",
+        "preview": {
+          "close": "關閉",
+          "openPreview": "開啟預覽"
+        },
+        "deleteConfirm": {
+          "title": "確認刪除",
+          "description": "確定要刪除這張圖片嗎？此操作無法復原。",
+          "cancel": "取消",
+          "confirm": "刪除"
+        },
+        "defaults": {
+          "imageTitle": "你的圖片會顯示在這裡",
+          "videoTitle": "你的影片會顯示在這裡",
+          "imageDescription": "開始創作，或選擇一個場景生成你的第一張圖片。",
+          "videoDescription": "開始創作，或選擇一個場景生成你的第一支影片。",
+          "featuredImage": "精選圖片",
+          "featuredVideo": "精選影片"
+        },
+        "selection": {
+          "clear": "清除選擇",
+          "download": "下載",
+          "delete": "刪除所選項目",
+          "selectItem": "選擇項目",
+          "selectedItem": "已選項目",
+          "count": "已選擇 {count} 項"
+        },
+        "actions": {
+          "imageToVideo": "圖片轉影片",
+          "regenerate": "重新生成",
+          "upscaleImage": "圖片放大"
+        }
+      },
+      "videoWorkbench": {
+        "title": "已生成影片",
+        "subtitle": "你生成的影片會顯示在這裡。",
+        "emptyHint": "在左側開始生成後，就可以在這裡預覽與管理影片結果。"
+      },
+      "fields": {
+        "prompt": "提示詞",
+        "negativePrompt": "反向提示詞",
+        "referenceImage": "參考圖片",
+        "referenceImages": "參考圖片",
+        "referenceVideo": "參考影片",
+        "audioTrack": "音軌",
+        "maskImage": "遮罩圖片",
+        "aspectRatio": "長寬比",
+        "resolution": "解析度",
+        "outputFormat": "輸出格式",
+        "seed": "種子",
+        "width": "寬度",
+        "height": "高度",
+        "size": "尺寸",
+        "duration": "時長",
+        "shotType": "鏡頭類型",
+        "promptExpansion": "提示詞擴展",
+        "generateAudio": "生成音訊",
+        "fixedCamera": "固定鏡頭",
+        "thinkingType": "思考模式",
+        "movementAmplitude": "運動幅度",
+        "numberOfLayers": "圖層數量",
+        "quality": "品質",
+        "stylize": "風格化",
+        "chaos": "混亂度",
+        "weird": "怪誕度",
+        "version": "版本",
+        "niji": "Niji",
+        "strength": "強度",
+        "style": "風格",
+        "targetResolution": "目標解析度",
+        "referenceAudio": "Reference Audio",
+        "firstFrame": "首幀",
+        "lastFrame": "尾幀（可選）"
+      },
+      "options": {
+        "auto": "自動",
+        "enabled": "啟用",
+        "disabled": "停用",
+        "low": "低",
+        "medium": "中",
+        "high": "高",
+        "small": "小",
+        "large": "大",
+        "singleShot": "單鏡頭",
+        "multipleShots": "多鏡頭",
+        "none": "無",
+        "close": "關閉"
+      },
+      "placeholders": {
+        "describeImage": "描述你想生成的圖片",
+        "transformImage": "描述你希望如何轉換這張圖片",
+        "describeVideo": "描述你想生成的影片",
+        "animateImage": "描述上傳圖片應如何運動",
+        "negativePrompt": "描述你想避免的內容",
+        "randomSeed": "使用 -1 表示隨機種子",
+        "randomSeedOrEmpty": "留空或使用 -1 表示隨機種子",
+        "fillErasedArea": "描述擦除區域應填入什麼內容"
+      },
+      "descriptions": {
+        "describeImage": "描述你想生成的圖片",
+        "widthPixels": "圖片寬度（像素，256-1536，必須為 64 的倍數）",
+        "heightPixels": "圖片高度（像素，256-1536，必須為 64 的倍數）",
+        "seedHelp": "設定種子值以重現結果。使用 -1 表示隨機種子。",
+        "optionalReferenceImage": "上傳可選參考圖以影響風格。",
+        "numberOfLayers": "選擇要從來源圖片分離出的語義圖層數量。",
+        "promptExpansion": "讓模型自動擴展簡短提示詞。",
+        "generateAudioSynced": "為影片生成同步音訊。",
+        "generateAudioNative": "在輸出影片中生成原生同步音訊。",
+        "fixedCamera": "在生成過程中讓鏡頭更穩定。",
+        "generateAudioIncluded": "在結果中包含模型生成的音訊。",
+        "generateAudioOutput": "為影片輸出生成同步音訊。",
+        "referenceVideoMotion": "上傳影片以轉移其動作模式。",
+        "audioTrackLimit": "上傳最長 120 秒的音軌。",
+        "faceImage": "上傳你想替換到影片中的人臉圖片。",
+        "targetVideo": "上傳用於換臉的目標影片。",
+        "maskImage": "可選。上傳遮罩圖片以控制擦除區域。",
+        "uploadUpToImages": "最多上傳 {count} 張圖片",
+        "uploadImageToAnimate": "上傳一張圖片進行動畫化",
+        "referenceVideoLimit": "MP4、WebM、MOV（最大 50MB，最多 3 個影片，時長 ≤ 15 秒）",
+        "referenceAudioLimit": "WAV、MP3（最大 20MB，最多 3 個音訊，時長 ≤ 15 秒）",
+        "uploadLastFrameImageOptional": "可選上傳尾幀圖片。上傳後會自動啟用首尾幀過渡。",
+        "uploadFirstFrameImage": "上傳首幀圖片"
+      },
+      "mediaPanel": {
+        "common": {
+          "all": "全部"
+        },
+        "tabs": {
+          "assets": "資源",
+          "creations": "作品",
+          "uploads": "上傳",
+          "collections": "合集",
+          "templates": "模板"
+        },
+        "filters": {
+          "open": "開啟篩選",
+          "title": "篩選",
+          "subtitle": "更精準地查看你的內容",
+          "dateRange": "日期範圍",
+          "pickDateRange": "選擇日期範圍",
+          "keyword": "關鍵字",
+          "searchPlaceholder": "搜尋上傳內容",
+          "type": "類型",
+          "tool": "工具",
+          "model": "模型",
+          "clear": "清除",
+          "cancel": "取消",
+          "apply": "套用",
+          "done": "完成"
+        },
+        "mediaTypes": {
+          "image": "圖片",
+          "video": "影片",
+          "audio": "音訊"
+        },
+        "weekdays": {
+          "su": "日",
+          "mo": "一",
+          "tu": "二",
+          "we": "三",
+          "th": "四",
+          "fr": "五",
+          "sa": "六"
+        },
+        "collections": {
+          "heading": "合集",
+          "createCardLabel": "建立新合集",
+          "createTitle": "建立合集",
+          "createDescription": "把相關資源整理在一起，方便你更快管理工作台。",
+          "renameTitle": "重新命名合集",
+          "renameDescription": "替這個合集換一個更清楚的名稱。",
+          "deleteTitle": "刪除合集",
+          "deleteDescription": "確定要刪除「{name}」嗎？目前只會刪除合集本身。",
+          "renameAction": "重新命名",
+          "deleteAction": "刪除",
+          "createAction": "建立",
+          "cancelAction": "取消",
+          "nameLabel": "合集名稱",
+          "namePlaceholder": "輸入合集名稱",
+          "assetsCount": "{count} 個資源",
+          "emptyTitle": "還沒有合集",
+          "emptyDescription": "先建立一個合集，開始整理你的資源。",
+          "createSuccess": "合集已建立",
+          "renameSuccess": "合集已重新命名",
+          "deleteSuccess": "合集已刪除",
+          "createError": "建立合集失敗",
+          "renameError": "重新命名合集失敗",
+          "deleteError": "刪除合集失敗"
+        },
+        "states": {
+          "noMatchingTitle": "沒有符合條件的內容",
+          "noMatchingDescription": "請嘗試調整日期、模型、工具或媒體類型篩選。",
+          "clearFilters": "清除篩選",
+          "creationsDescription": "瀏覽並管理你最近的創作。"
+        },
+        "viewMode": {
+          "title": "視圖模式",
+          "previewLayout": "預覽版面",
+          "overlays": "疊層資訊",
+          "metadata": "中繼資料",
+          "originalRatio": "原始比例",
+          "cropToFill": "裁切填滿",
+          "mixedGrid": "混合網格"
+        },
+        "collectionActions": {
+          "remove": "移出合集",
+          "error": "移出合集失敗"
+        },
+        "collectionPicker": {
+          "loadError": "載入合集失敗",
+          "addError": "加入合集失敗",
+          "addSuccess": "已加入合集",
+          "addButton": "加入合集",
+          "newCollection": "新增合集"
+        },
+        "hints": {
+          "recent7Days": "Creations、Uploads 和 Collection items 僅支援最近 7 天的資料，請在 7 天內下載你生成的素材。"
+        }
+      }
+    },
+    "homepageAnnouncement": {
+      "badge": "新品發佈 - 2026年4月",
+      "title": "SEEDANCE 2.0 重磅上線",
+      "description": "目前最強的影片生成模型之一。更快速度、更長時長、更電影感畫面，一鍵生成。",
+      "cta": "立即體驗",
+      "closeLabel": "關閉公告彈窗",
+      "videoLabel": "Seedance 2.0 公告影片"
+    }
+  },
+  "common": {
+    "fields": {
+      "firstFrame": "首幀",
+      "lastFrame": "尾幀（可選）",
+      "referenceAudio": "參考音訊"
+    },
+    "descriptions": {
+      "uploadFirstFrameImage": "上傳首幀圖片",
+      "uploadLastFrameImageOptional": "可選上傳尾幀圖片。上傳後會自動啟用首尾幀過渡。",
+      "referenceVideoLimit": "MP4、WebM、MOV（最大 50MB，最多 3 個影片，時長 ≤ 15 秒）",
+      "referenceAudioLimit": "WAV、MP3（最大 20MB，最多 3 個音訊，時長 ≤ 15 秒）"
+    }
+  },
+  "canvasWorkspace": {
+    "nav": {
+      "canvas": "Canvas",
+      "creations": "作品庫",
+      "collections": "收藏夾"
+    },
+    "page": {
+      "creationsEyebrow": "CREATIONS",
+      "creationsTitle": "作品庫",
+      "creationsDescription": "這裡集中承接你生成過的圖片、影片和其他結果，方便回看、篩選與繼續整理。",
+      "collectionsEyebrow": "COLLECTIONS",
+      "collectionsTitle": "作品收藏夾",
+      "collectionsDescription": "把值得保留的創作結果整理成主題集合，後續提案、篩圖與複用都會更順。",
+      "projectsEyebrow": "CANVAS",
+      "projectsTitle": "最近專案",
+      "projectsDescription": "返回你之前的進階模式專案，繼續編輯畫布。",
+      "newCanvas": "新增 Canvas",
+      "emptyProjectsTitle": "還沒有 Canvas 專案",
+      "emptyProjectsDescription": "從首頁點 Canvas，或直接新建一個進階模式專案。",
+      "emptyProjectsAction": "開始建立",
+      "creationsEmptyText": "還沒有任何作品",
+      "creationsEmptyTitle": "你的作品庫還在等第一張結果",
+      "creationsEmptyDescription": "從首頁生成，或在 Canvas 裡執行 workflow，新的作品都會出現在這裡。",
+      "collectionDetailDescription": "查看這個收藏夾收錄的作品，並繼續整理、篩選或回到畫布繼續創作。",
+      "collectionDetailBack": "返回收藏夾",
+      "collectionDetailEmptyText": "這個收藏夾還沒有作品",
+      "collectionDetailEmptyTitle": "這個收藏夾還是空的",
+      "collectionDetailEmptyDescription": "先從作品庫挑一些喜歡的結果加進來，這裡就會慢慢充實起來。"
+    },
+    "projectsGrid": {
+      "deleteConfirm": "確定刪除專案「{name}」嗎？此操作無法復原。",
+      "deleteSuccess": "專案已刪除",
+      "deleteError": "刪除專案失敗",
+      "duplicateSuccess": "專案已複製",
+      "duplicateError": "複製專案失敗",
+      "updatedAtPrefix": "更新於",
+      "duplicateAria": "複製專案",
+      "deleteAria": "刪除專案"
+    },
+    "collectionsGrid": {
+      "heading": "收藏夾",
+      "createCardLabel": "新建 Collection",
+      "createTitle": "建立 Collection",
+      "createDescription": "為這組精選作品取個名字。",
+      "renameTitle": "重新命名 Collection",
+      "renameDescription": "更新這個 Collection 的顯示名稱。",
+      "deleteTitle": "刪除 Collection",
+      "deleteDescription": "刪除後會移除這個 Collection，但不會刪除作品本身。",
+      "renameAction": "儲存名稱",
+      "deleteAction": "刪除 Collection",
+      "createAction": "建立 Collection",
+      "cancelAction": "取消",
+      "nameLabel": "名稱",
+      "namePlaceholder": "例如：品牌視覺提案",
+      "emptyTitle": "還沒有 Collection",
+      "emptyDescription": "把值得保留的作品整理成 Collection，之後回看會輕鬆很多。",
+      "createSuccess": "Collection 已建立",
+      "renameSuccess": "Collection 已更新",
+      "deleteSuccess": "Collection 已刪除",
+      "createError": "建立 Collection 失敗",
+      "renameError": "重新命名 Collection 失敗",
+      "deleteError": "刪除 Collection 失敗"
+    },
+    "projectsHub": {
+      "heroTitle": "靈感不設限，創作無邊界",
+      "heroPlaceholder": "先輸入你的想法，馬上進入 Canvas 開始創作",
+      "heroSubmit": "立即建立並生成",
+      "sectionTitle": "我的專案",
+      "sectionAction": "查看全部",
+      "createCardTitle": "新建專案",
+      "createCardSubtitle": "從一個新提示開始",
+      "submitError": "請先輸入提示詞再開始建立",
+      "autoLabel": "AUTO",
+      "plusMenuTitle": "引用此節點生成",
+      "uploadReferenceAria": "上傳參考圖",
+      "closeDirectionAria": "關閉",
+      "virtualReferenceLabel": "參考圖片",
+      "virtualPromptLabel": "提示詞"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "page": {
+    "metadata": {
+      "title": "GPT-Image 2 Imagen a imagen: edite carteles, UI e imágenes fotorrealistas | __MARCA__",
+      "description": "Edite hasta 4 imágenes cargadas con GPT-Image 2 para limpieza de carteles chinos, diseños de estilo de documentos, retoque fotográfico y transformaciones de maquetas de interfaz.",
+      "keywords": "GPT-Image 2 imagen a imagen, edición de carteles chinos, editor de imágenes fotorrealistas, editor de maquetas UI, IA de imagen a imagen, edición de hasta 4 imágenes"
+    },
+    "hero": {
+      "title": "GPT-Image 2 Imagen a imagen",
+      "description": "La edición de imágenes GPT-Image 2 es especialmente eficaz cuando necesitas revisar imágenes con mucho texto, remodelar diseños similares a documentos, retocar escenas fotográficas o transformar capturas de pantalla al estilo UI. Puede cargar hasta 4 imágenes de origen, describir el cambio en lenguaje sencillo y mantener el resultado alineado con la relación de aspecto correcta.<br/><br/>¿Necesitas generar desde cero? <a href=\"/text-to-image/gpt-image-2\" class=\"text-primary underline\">Try GPT-Image 2 Text to Image</a>.",
+      "button1": "Pruébalo ahora",
+      "button2": "Ver precios"
+    },
+    "features": {
+      "title": "Por qué GPT-Image 2 para la edición de imágenes",
+      "description": "Un flujo de trabajo de edición más sólido para diseños con reconocimiento de texto, refinamientos fotográficos e imágenes con estilo de interfaz.",
+      "references": {
+        "title": "Edita hasta 4 imágenes juntas",
+        "description": "Cargue un lote corto de imágenes de origen cuando desee que una dirección applied consistentemente en un conjunto de carteles, un grupo de recursos de campaña o una serie de maquetas de UI."
+      },
+      "promptLed": {
+        "title": "Ediciones con reconocimiento de texto y diseño",
+        "description": "GPT-Image 2 se adapta mejor al texto de carteles, estructuras de documentos, etiquetas y diseños visuales mixtos, lo que lo hace útil para tareas de revisión que van más allá de simples intercambios de estilo."
+      },
+      "framing": {
+        "title": "Control de salida fotorrealista y compatible con UI",
+        "description": "Elija el fotograma final antes de la generación para que el retoque fotográfico, el rediseño de las capturas de pantalla y los cambios de composición se acerquen más a la ubicación prevista."
+      }
+    },
+    "promptingTips": {
+      "title": "Cómo mejorar las ediciones de GPT-Image 2",
+      "specific": {
+        "title": "Di qué debe cambiar y qué debe permanecer",
+        "description": "Para ediciones de carteles, documentos y UI, sea explícito sobre el bloque de texto, la región de diseño o el elemento visual que desea cambiar manteniendo el resto intacto."
+      },
+      "batch": {
+        "title": "Mantenga una dirección a lo largo del lote",
+        "description": "Al cargar varias imágenes, utilice una instrucción clara para que todo el conjunto permanezca en la misma familia visual y nivel de calidad."
+      },
+      "framing": {
+        "title": "Elija la proporción objetivo con anticipación",
+        "description": "Elija la relación de aspecto final antes de la generación para que el recorte, el espaciado y la composición coincidan mejor con el lugar donde se utilizará el resultado."
+      },
+      "details": {
+        "title": "Destaca el realismo o el estilo de la interfaz.",
+        "description": "Mencione si desea retoque fotorrealista, renderizado similar a una película, superficies UI limpias o un comportamiento de captura de pantalla realista para dirigir el acabado con mayor precisión."
+      }
+    },
+    "useCases": {
+      "title": "Casos de uso",
+      "batchAssets": {
+        "title": "Revisión de cartel y maquetación.",
+        "description": "Actualice carteles chinos, portadas o diseños similares a documentos mientras conserva la estructura central y mejora la claridad, el equilibrio o las secciones con mucho texto."
+      },
+      "productRefresh": {
+        "title": "Producto fotorrealista y retoque de retratos.",
+        "description": "Refine la iluminación, la textura, el ambiente del fondo y la calidad del acabado para fotografías de productos, retratos o fotografías de estilo urbano sin reconstruir toda la escena."
+      },
+      "socialVariants": {
+        "title": "UI y rediseño de captura de pantalla",
+        "description": "Transforme las apps financieras, los diseños de escritorio, los paneles y las capturas de pantalla de software en imágenes de interfaz más limpias, nítidas o cinematográficas."
+      },
+      "lookDev": {
+        "title": "Alineación creativa de lotes pequeños",
+        "description": "Utilice un único mensaje en hasta 4 imágenes para probar una dirección creativa en un conjunto de recursos breve antes de pasar a la producción final."
+      }
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Preguntas comunes sobre la edición de imágenes GPT-Image 2 para carteles, escenas fotográficas y capturas de pantalla UI.",
+      "q1": {
+        "question": "¿Cuántas imágenes puedo subir?",
+        "answer": "Este flujo de trabajo de imagen a imagen GPT-Image 2 admite hasta 4 imágenes cargadas en una sola ejecución."
+      },
+      "q2": {
+        "question": "¿Qué parámetros están disponibles?",
+        "answer": "El editor admite imágenes, mensajes y relaciones de aspecto. La relación de aspecto incluye 1:1, 16:9, 9:16, 4:3, 3:4, 3:2, 2:3, 5:4, 4:5, 2:1, 1:2, 21:9 y 9:21."
+      },
+      "q3": {
+        "question": "¿En qué tipo de ediciones es especialmente bueno GPT-Image 2?",
+        "answer": "Es especialmente útil para ediciones de carteles chinos, diseños de estilo de documentos, retoques fotográficos y transformaciones de UI o capturas de pantalla donde el texto, la estructura y el realismo son importantes."
+      }
+    },
+    "finalCTA": {
+      "title": "¿Listo para editar con GPT-Image 2?",
+      "description": "Cargue sus imágenes, describa la revisión en lenguaje sencillo y convierta carteles, maquetas de UI o escenas fotorrealistas en imágenes finales más limpias.",
+      "button": "Área de juegos abierta"
+    },
+    "breadcrumb": {
+      "home": "Hogar",
+      "imageToImage": "Imagen a imagen",
+      "model": "__MODELO_A__"
+    },
+    "schema": {
+      "softwareName": "joymagic GPT-Image 2 Imagen a imagen",
+      "softwareDescription": "Edite hasta 4 imágenes cargadas con GPT-Image 2 para perfeccionar carteles chinos, retoques fotográficos y transformación de capturas de pantalla UI.",
+      "howToName": "Cómo editar carteles, UI e imágenes fotorrealistas con GPT-Image 2",
+      "howToDescription": "Cargue imágenes, describa las ediciones que desee, elija una relación de aspecto y genere carteles revisados, escenas fotográficas o imágenes de interfaz con GPT-Image 2.",
+      "features": {
+        "multiUpload": "Sube hasta 4 imágenes",
+        "promptEditing": "Edición de imágenes con reconocimiento de texto y diseño",
+        "aspectPresets": "13 ajustes preestablecidos de relación de aspecto"
+      },
+      "steps": {
+        "upload": {
+          "name": "Subir imágenes",
+          "text": "Agregue hasta 4 imágenes de origen para la misma edición de póster, actualización de captura de pantalla o dirección de retoque fotográfico."
+        },
+        "prompt": {
+          "name": "Escribe el mensaje",
+          "text": "Describe qué debería cambiar, qué debería permanecer y si el resultado debería parecer más realista, más limpio o más parecido a una interfaz."
+        },
+        "aspectRatio": {
+          "name": "Elija la relación de aspecto y genere",
+          "text": "Elija el marco de salida que coincida con la ubicación final, luego genere y revise los resultados editados."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "title": "Seedream 4.5 Text to Image",
+  "subtitle": "Generate stunning images from text descriptions",
+  "prompt_label": "Prompt",
+  "prompt_placeholder": "Nighttime outdoor photoshoot: A young man stands inside a public phone booth, holding a blue phone receiver to his ear. One hand is casually tucked into his pocket, and he strikes a relaxed posture. He wears a white T-shirt with a pattern, loose brown pants, and jacket draped over his arm. The booth's glass reflects city streetlights with a bokeh effect, creating a vintage film style.",
+  "prompt_tooltip": "Enter a description of the image you want to generate",
+  "size_label": "Image Size",
+  "size_hint": "Choose the output image size",
+  "width_label": "Width",
+  "height_label": "Height",
+  "buttons": {
+    "generate": "Generate Image"
+  },
+  "errors": {
+    "promptRequired": "Prompt is required"
+  },
+  "image_alt": "Generated image",
+  "download": "Download",
+  "image_placeholder": "Generated image will appear here",
+  "prompt_inspirations_button": "Prompt Inspirations",
+  "prompt_guide_button": "Prompt Guide",
+  "powered_by": "Powered by Seedream 4.5 AI model optimized by joymagic",
+  "page": {
+    "metadata": {
+      "title": "Seedream 4.5 Text to Image - AI Image Generator | joymagic",
+      "description": "Generate images from text with Seedream 4.5 by ByteDance. Create photorealistic scenes, illustrations, and art. Bilingual prompts in English and Chinese.",
+      "keywords": "text to image, ai image generator, seedream v4.5, ai art generator, text to image ai, image generation"
+    },
+    "hero": {
+      "title": "Seedream 4.5 Text to Image",
+      "description": "Seedream 4.5 is ByteDance's AI model that turns text descriptions into images. Describe any scene, character, or concept in English or Chinese. Try Seedream 4.5 for free below!",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "heroDescription": "Create stunning images from simple text descriptions using advanced AI technology.",
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Powerful AI image generation capabilities",
+      "photorealistic": {
+        "title": "Photorealistic Quality",
+        "description": "Generate images that look like professional photography. Accurate skin textures, natural lighting, realistic environments—without the uncanny valley effect common in AI images."
+      },
+      "complexScene": {
+        "title": "Complex Scene Understanding",
+        "description": "Describe detailed scenarios with multiple subjects, spatial relationships, and specific lighting. The model interprets composition, positioning, and atmosphere accurately from your text."
+      },
+      "bilingual": {
+        "title": "Bilingual Prompts",
+        "description": "Write in English, Chinese, or both. The model understands nuanced descriptions in either language equally well—useful for Chinese cultural references or specific terminology."
+      },
+      "fastGeneration": {
+        "title": "Fast Generation",
+        "description": "Generate high-resolution images in seconds. Fast enough for real-time creative exploration and iteration."
+      },
+      "styleFlexibility": {
+        "title": "Style Flexibility",
+        "description": "Create photorealistic images, anime illustrations, oil paintings, watercolors, 3D renders, and more. Specify your desired style in the prompt or let the model match the subject matter."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "Generate images in three simple steps",
+      "step1": {
+        "title": "Enter Your Prompt",
+        "description": "Describe the image you want to generate"
+      },
+      "step2": {
+        "title": "Choose Settings",
+        "description": "Select output format and preferences"
+      },
+      "step3": {
+        "title": "Generate & Download",
+        "description": "Get your AI-generated image and download it"
+      }
+    },
+    "promptingTips": {
+      "title": "Prompting Tips",
+      "lighting": {
+        "title": "Be Specific About Lighting",
+        "description": "\"Golden hour sunlight from the left, soft shadows\" works better than \"good lighting.\""
+      },
+      "camera": {
+        "title": "Include Camera Details",
+        "description": "\"Shot with 85mm lens, shallow depth of field\" adds professional photography quality."
+      },
+      "style": {
+        "title": "Specify Art Style",
+        "description": "\"Digital illustration in Studio Ghibli style\" or \"hyperrealistic 3D render\" gives clear direction."
+      },
+      "mood": {
+        "title": "Describe Mood and Atmosphere",
+        "description": "\"Cozy, warm, nostalgic feeling\" or \"dramatic, cinematic, high contrast\" shapes the overall image."
+      }
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "marketing": {
+        "title": "Marketing Visuals",
+        "description": "Generate product concepts, ad imagery, and social media content without photoshoots."
+      },
+      "character": {
+        "title": "Character Design",
+        "description": "Create original characters for games, comics, or animation projects from text descriptions."
+      },
+      "concept": {
+        "title": "Concept Art",
+        "description": "Visualize scenes, environments, and ideas quickly for creative projects and presentations."
+      },
+      "stock": {
+        "title": "Stock Photo Alternative",
+        "description": "Generate specific images you need instead of searching through generic stock libraries."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Common questions about Seedream 4.5 Text to Image",
+      "q1": {
+        "question": "What is Seedream 4.5?",
+        "answer": "Seedream 4.5 is ByteDance's AI image generation model that creates images from text descriptions. It produces photorealistic and stylized images at high resolution."
+      },
+      "q2": {
+        "question": "How detailed should my prompt be?",
+        "answer": "More detail generally means better results. Include subject, setting, lighting, style, mood, and camera angle. Start with a few sentences and add more if needed."
+      },
+      "q3": {
+        "question": "What styles can it generate?",
+        "answer": "Photorealistic, anime, oil painting, watercolor, 3D render, sketch, and more. Specify style in your prompt or reference specific artists and studios."
+      },
+      "q4": {
+        "question": "Does it support Chinese prompts?",
+        "answer": "Yes, Seedream 4.5 understands both English and Chinese equally well. You can write prompts in either language or mix both."
+      },
+      "q5": {
+        "question": "What's the difference from GPT-Image-1?",
+        "answer": "Seedream 4.5 excels at bilingual prompts and multi-image blending (in Image to Image mode). GPT-Image-1 is better for text rendering within images. Choose based on your primary need."
+      }
+    },
+    "privacySecurity": {
+      "title": "Privacy & Security",
+      "description": "Your privacy and security are our top priorities.",
+      "secureProcessing": "Secure Processing",
+      "autoDelete": "Auto Delete",
+      "neverShared": "Never Shared"
+    },
+    "finalCTA": {
+      "title": "Ready to Create?",
+      "description": "Start generating amazing images from your text descriptions today.",
+      "button": "Try It Now"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "textToImage": "Text to Image",
+      "seedreamV45": "Seedream 4.5"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Seedream 4.5 Text to Image",
+      "howToName": "How to Generate Images with Seedream 4.5",
+      "howToDescription": "Generate images from text descriptions using Seedream 4.5",
+      "features": {
+        "aiTextToImage": "AI Text to Image Generation",
+        "highQuality": "High Quality Images",
+        "fastProcessing": "Fast Processing"
+      }
+    }
+  }
+}
+

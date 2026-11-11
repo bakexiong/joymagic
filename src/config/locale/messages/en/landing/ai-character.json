@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "title": "AI Character Studio | joymagic",
+    "description": "Design consistent AI characters with a dark editorial workspace built for stills, motion, and reusable character systems.",
+    "keywords": "AI character, character creator, AI avatar studio, character design, consistent character generation"
+  },
+  "eyebrow": "AI Character Studio",
+  "title": "Build a character world that stays consistent across images, video, and motion.",
+  "description": "Inspired by editorial creator tools but adapted to joymagic, this page frames character creation as a visual system: start from one identity, explore ready-made directions, then branch into portraits, motion clips, and reusable assets without losing the core look.",
+  "primaryCta": "Create for free",
+  "secondaryCta": "View pricing",
+  "panelTitle": "Character",
+  "panelSubtitle": "Identity-first creation workspace",
+  "createCardTitle": "Create Character",
+  "createCardDescription": "Start from one face, one mood, or one mascot and turn it into a reusable character system.",
+  "browseCardTitle": "Browse Library",
+  "browseCardDescription": "Pick from polished starter directions built for portraits, motion, and branded content.",
+  "quickStartsTitle": "Quick Starts",
+  "quickStartsDescription": "Fast entry points for the most common character production flows in joymagic.",
+  "libraryTitle": "Starter Packs",
+  "libraryDescription": "Mix style locking, expression studies, motion tests, and export presets to shape one recognizable character universe.",
+  "stageBadge": "Creations",
+  "stageTitle": "Create amazing character content in minutes.",
+  "stageDescription": "Use one visual identity as the source of truth, then generate stills, loops, posters, and expressive variants that already feel like they belong together.",
+  "stagePrimaryCta": "Start character build",
+  "stageSecondaryCta": "Open image tools",
+  "spotlightTitle": "Designed for modern character pipelines",
+  "spotlightDescription": "The layout keeps the playful, premium feel of the reference while grounding it in real joymagic use cases.",
+  "workflowTitle": "A tighter workflow",
+  "workflowDescription": "Move from a raw idea to a production-ready character pack without context switching.",
+  "quickStarts": [
+    {
+      "title": "Create Character",
+      "description": "New identity seed",
+      "badge": "New"
+    },
+    {
+      "title": "Character Image",
+      "description": "@fluffy in glasses"
+    },
+    {
+      "title": "Character Video",
+      "description": "@me in Y2K outfit"
+    },
+    {
+      "title": "Talking Video",
+      "description": "Voice + lip sync"
+    },
+    {
+      "title": "Motion Sync",
+      "description": "Gesture rehearsal"
+    }
+  ],
+  "spotlightItems": [
+    {
+      "title": "One identity, many outputs",
+      "description": "Lock the face, palette, styling cues, and silhouette before expanding into posters, social visuals, and short-form motion."
+    },
+    {
+      "title": "Preview-led exploration",
+      "description": "The stage area foregrounds the creative result first, so users understand what they are building before they touch a workflow."
+    },
+    {
+      "title": "Fast handoff to tools",
+      "description": "Primary actions point naturally into image creation flows, making the page feel connected to the rest of the product instead of isolated."
+    }
+  ],
+  "workflowSteps": [
+    {
+      "title": "Seed the identity",
+      "description": "Start with a portrait, mascot, or moodboard and define the non-negotiable traits that make the character recognizable."
+    },
+    {
+      "title": "Choose a starter lane",
+      "description": "Jump into portrait, video, talking avatar, or motion tests using quick starts tuned for common creation paths."
+    },
+    {
+      "title": "Generate consistent variants",
+      "description": "Use the same references and prompts to produce stills and clips that preserve the character system instead of drifting visually."
+    },
+    {
+      "title": "Ship the pack",
+      "description": "Export assets for covers, shorts, product storytelling, or social series from one shared creative source."
+    }
+  ]
+}

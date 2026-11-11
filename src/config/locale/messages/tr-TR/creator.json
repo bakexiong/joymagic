@@ -1,0 +1,336 @@
+{
+  "sidebar": {
+    "subtitle": "Oluşturucu çalışma alanı",
+    "pinned": "Sabitlenenler",
+    "addTools": "Araç ekle",
+    "allTools": "Tüm araçlar",
+    "pin": {
+      "ariaPin": "Sabitle: {label}",
+      "ariaUnpin": "Sabitlemeyi kaldır: {label}"
+    }
+  },
+  "tools": {
+    "untitled": "Adsız araç"
+  },
+  "model": {
+    "untitled": "Adsız model",
+    "fallbackMonogram": "M"
+  },
+  "panels": {
+    "tools": {
+      "titleImage": "Metinden Görsele",
+      "titleVideo": "Metinden Videoya",
+      "empty": "Çalışma alanı araçları burada görünecek.",
+      "formEmpty": "Form içeriği burada görünecek."
+    },
+    "generated": {
+      "titleImages": "Bu oluşturma",
+      "titleVideos": "Oluşturulan Videolar"
+    }
+  },
+  "generated": {
+    "empty": "Henüz hiçbir şey oluşturmadınız."
+  },
+  "errors": {
+    "noWorkspace": "Mevcut seçim için kullanılabilir bir çalışma alanı yok."
+  },
+  "sceneBrowser": {
+    "title": "{category} Sahnelere",
+    "subtitle": "Oluşturmaya başlamak için bir iş akışı seçin.",
+    "tabs": {
+      "creations": "Oluşturmalar",
+      "collections": "Koleksiyonlar",
+      "templates": "Şablonlar"
+    }
+  },
+  "addToolsDialog": {
+    "title": "Araç ekle",
+    "categories": {
+      "image": "Görsel",
+      "video": "Video"
+    }
+  },
+  "toolsDetailPage": {
+    "aliases": {
+      "photoshoot": "Fotoğraf çekimi",
+      "editorCombiner": "Düzenleyici ve Birleştirici",
+      "imageEffects": "Görsel efektler",
+      "variations": "Varyasyonlar",
+      "videoEffects": "Video efektleri"
+    },
+    "workspace": {
+      "library": "Kitaplık",
+      "uploads": "Yüklemeler",
+      "imageEyebrow": "AI Görüntüsü Çalışma Alanı",
+      "videoEyebrow": "AI Video Çalışma Alanı",
+      "descriptionWithLibrary": "Gösterişli bir başlangıç ​​noktası seçin, sonucun nasıl hissettirmesi gerektiğini önizleyin ve daha sıcak bir Mango tarzı iş akışıyla doğrudan üretime geçin.",
+      "descriptionWithoutLibrary": "En son çıktıları inceleyin, koleksiyonları düzenleyin ve daha temiz bir Mango çalışma tezgahında üst düzey iş akışınıza odaklanın.",
+      "emptyLibrary": "Mevcut model için henüz şablon örneği mevcut değil."
+    },
+    "actions": {
+      "useTemplate": "Şablonu dene",
+      "templateFallback": "Şablon",
+      "startGenerating": "Oluşturmaya başla",
+      "closeGeneratorPanel": "Jeneratör panelini kapat",
+      "switchInLibrary": "Kitaplıkta değiştir"
+    },
+    "marketing": {
+      "eyebrow": "Efekt Kılavuzu",
+      "featureTitle": "Neden {effectName} kullanmalısınız?",
+      "stepsTitle": "{effectName} nasıl kullanılır?",
+      "faqTitle": "{effectName} hakkında SSS",
+      "image": {
+        "title": "Yapay zeka ile {effectName} görsel oluşturun",
+        "intro": "Başlangıç ​​noktanız olarak {effectName} kullanın. {sourceText} dosyasını yükleyin, bir sonuç oluşturun ve görünüm doğru oluncaya kadar yakındaki ön ayarları karşılaştırın.",
+        "sourceCountOne": "bir referans görseli",
+        "sourceCountMany": "{count} referans görselleri",
+        "features": {
+          "workflow": {
+            "title": "Efekt öncelikli iş akışı",
+            "description": "Her şeyi sıfırdan yeniden oluşturmak yerine {effectName} ön ayarından başlayın."
+          },
+          "reference": {
+            "title": "Referansa duyarlı sonuçlar",
+            "description": "Seçilen {effectName} görünümünü uygularken önemli konu ipuçlarını yüklemenizden uzak tutun."
+          },
+          "iteration": {
+            "title": "Hızlı yineleme için daha iyi",
+            "description": "Komut isteminin tamamını yeniden yazmaya gerek kalmadan varyasyonları daha hızlı keşfetmek için yakındaki ön ayarları kullanın."
+          }
+        },
+        "steps": {
+          "pick": {
+            "title": "1. Efekti seçin",
+            "description": "{libraryLabel} sekmesinden {effectName} öğesini seçin veya oluşturmadan önce ön ayarları {useTemplateLabel} ile değiştirin."
+          },
+          "upload": {
+            "title": "2. Resminizi yükleyin",
+            "description": "{sourceText} dosyasını yükleyin ve konunun seçilen efekt için yeterince net olduğundan emin olun."
+          },
+          "generate": {
+            "title": "3. Oluşturun ve karşılaştırın",
+            "description": "Sonucu oluşturun, ardından ton ve bitiş doğru hissedilene kadar yakındaki ön ayarları karşılaştırmak için {libraryLabel}'a dönün."
+          }
+        },
+        "faq": {
+          "bestInput": {
+            "question": "{effectName} için en iyi görüntü türü hangisidir?",
+            "answer": "En istikrarlı sonuç için net bir konu ve okunabilir ayrıntılarla {sourceText} kullanın."
+          },
+          "switch": {
+            "question": "{effectName}'dan geçebilir miyim?",
+            "answer": "Evet. Çalışma alanı önizlemesini ve geçerli seçimi güncellemek için {libraryLabel} açın ve başka bir ön ayarda {useTemplateLabel} öğesine tıklayın."
+          },
+          "preset": {
+            "question": "Neden düz bir istem yerine bir ön ayar kullanmalısınız?",
+            "answer": "Ön ayarlar kurulum süresini azaltır ve kompozisyonun, stil yönünün ve çıktının daha tutarlı olmasını sağlar."
+          }
+        }
+      },
+      "video": {
+        "title": "Yapay zeka ile {effectName} video oluşturun",
+        "intro": "{effectName} ön ayarından başlayın, önizleme yönünü gözden geçirin ve daha net bir hareket hedefine sahip kısa bir klip oluşturun.",
+        "features": {
+          "motion": {
+            "title": "Önceden ayarlanmış hareket tasarımı",
+            "description": "{effectName} size hazır bir hareket yönü verir, böylece kullanılabilir bir sonuca daha hızlı ulaşabilirsiniz."
+          },
+          "preview": {
+            "title": "Daha net görsel beklenti",
+            "description": "Çalışma alanı önizlemesi, kredi harcamadan önce seçilen efekt ruh halini gösterir."
+          },
+          "exploration": {
+            "title": "Hızlı efekt keşfi",
+            "description": "Birden fazla hareket fikrini hızla karşılaştırmak için {libraryLabel} ile {useTemplateLabel} arasında ilerleyin."
+          }
+        },
+        "steps": {
+          "pick": {
+            "title": "1. Ön ayarı seçin",
+            "description": "{effectName} seçeneğini seçili tutun veya yüklemeden önce {libraryLabel} efektinden başka bir efekte geçiş yapın."
+          },
+          "upload": {
+            "title": "2. Temiz bir resim yükleyin",
+            "description": "Hareket sonucunun daha kontrollü kalması için okunabilir çerçeveli net bir kaynak görüntü kullanın."
+          },
+          "generate": {
+            "title": "3. Klibi oluşturun",
+            "description": "Farklı bir animasyon stili istiyorsanız videoyu oluşturun, hareketi inceleyin ve diğer hazır ayarları karşılaştırın."
+          }
+        },
+        "faq": {
+          "image": {
+            "question": "{effectName} herhangi bir resimle çalışır mı?",
+            "answer": "Sonuçların çoğu net bir konu, dengeli bir çerçeve ve animasyon için yeterli ayrıntıyla en iyi sonucu verir."
+          },
+          "switch": {
+            "question": "{effectName}'dan başka bir efekte nasıl geçebilirim?",
+            "answer": "{libraryLabel} dosyasını açın ve başka bir ön ayarda {useTemplateLabel} öğesine tıklayın. Önizleme ve aktif efekt birlikte güncellenecektir."
+          },
+          "preset": {
+            "question": "Neden bir video efekti ön ayarından başlamalısınız?",
+            "answer": "Ön ayarlar testi hızlandırır ve animasyonun yönünü boş bir kurulumdan başlamaktan daha öngörülebilir hale getirir."
+          }
+        }
+      }
+    },
+    "errors": {
+      "fetchTaskStatusFailed": "Görev durumu getirilemedi",
+      "resultUrlNotFound": "Sonuç URL'si bulunamadı",
+      "taskFailed": "Görev başarısız oldu",
+      "taskPollingTimeout": "Görev yoklaması zaman aşımına uğradı"
+    },
+    "imageEffectsLanding": {
+      "hero": {
+        "title": "Her vizyona uyan sınırsız fotoğraf efekti",
+        "intro": "Nostaljik görünümlerden trend estetiklere kadar seçilmiş AI fotoğraf efektleriyle fotoğraflarınızı canlandırın. Bir görsel yükleyin, stili saniyeler içinde değiştirin ve basit bir fotoğrafı aynı çalışma alanında dikkat çekici hale getirin.",
+        "highlights": {
+          "upload": "1. Fotoğrafını yükle",
+          "style": "2. Efekt stilini seç",
+          "apply": "3. Efekti uygula"
+        }
+      },
+      "story": {
+        "title": "Zengin AI fotoğraf efektleriyle yaratıcılığını açığa çıkar",
+        "intro": "Hızlı keşif için tasarlanmış efekt kitaplığıyla günlük fotoğrafları cilalı ve dikkat çekici görsellere dönüştürün. Her preset renk, doku ve atmosferi otomatik şekillendirir.",
+        "features": {
+          "styles": {
+            "title": "Tek fotoğraf, sonsuz stil",
+            "description": "Tek referans fotoğrafla yumuşak portrelerden Y2K kolajlara, mevsimsel düzenlemelere veya vintage görünümlere geçin."
+          },
+          "lifelike": {
+            "title": "Doğal duran AI fotoğraf efektleri",
+            "description": "Efekt renk, doku ve atmosferi iyileştirirken konu tanınır kalır."
+          },
+          "trend": {
+            "title": "Trend hazır efektler",
+            "description": "Sosyal trendler, viral estetikler ve mevsimsel ruh halleriyle şekillenen bir kitaplığı keşfedin."
+          },
+          "share": {
+            "title": "Paylaşmaya hazır çıktı",
+            "description": "Sosyal gönderiler, kampanya kreatifleri, moodboardlar ve hızlı kişisel paylaşım için cilalı görseller oluşturun."
+          }
+        }
+      },
+      "steps": {
+        "title": "Fotoğraflara efekt nasıl eklenir",
+        "items": {
+          "upload": {
+            "title": "Fotoğrafını yükle",
+            "description": "Net ve kaliteli bir görselle başlayın. Daha iyi konu detayı ve temiz kadraj daha kararlı sonuç verir."
+          },
+          "select": {
+            "title": "Efekt stilini seç",
+            "description": "İstediğiniz ruh haline, estetiğe veya görsel yöne en uygun preseti seçin."
+          },
+          "apply": {
+            "title": "Efekti uygula ve indir",
+            "description": "Sonucu oluşturun, gerekirse yakın stilleri karşılaştırın ve doğru versiyonu kaydedin."
+          }
+        }
+      },
+      "faq": {
+        "title": "AI fotoğraf efektleri SSS",
+        "items": {
+          "types": {
+            "question": "Hangi efektleri kullanabilirim?",
+            "answer": "Resimsel görünümler, mevsimsel estetikler, kolaj stilleri, retro işlemler, portre odaklı presetler ve başka yönler keşfedebilirsiniz."
+          },
+          "skills": {
+            "question": "Fotoğraf düzenleme becerisi gerekir mi?",
+            "answer": "Hayır. Akış preset tabanlıdır: fotoğraf yükle, stil seç ve oluştur."
+          },
+          "photos": {
+            "question": "Hangi fotoğraflar daha iyi çalışır?",
+            "answer": "Net konuya, okunabilir detaylara ve dengeli ışığa sahip fotoğraflar daha tutarlı sonuç verir."
+          },
+          "share": {
+            "question": "Oluşturulan görselleri sosyal içerikte kullanabilir miyim?",
+            "answer": "Evet. Sosyal gönderiler, moodboardlar, hızlı kampanya taslakları ve paylaşılabilir içerikler için uygundur."
+          },
+          "privacy": {
+            "question": "Yüklediğim fotoğraflar gizli mi?",
+            "answer": "Yüklemeler oluşturma ve karşılaştırma akışı içinde kalır. Paylaşmadan önce hesap ve depolama politikalarınızı kontrol edin."
+          }
+        }
+      },
+      "cta": {
+        "title": "Fotoğraflarını yaratıcı AI efektleriyle dönüştür",
+        "description": "Bir stil seçin, birkaç varyasyon deneyin ve aynı çalışma alanında oluşturun.",
+        "button": "Fotoğraf efektlerini uygula"
+      }
+    },
+    "videoEffectsLanding": {
+      "hero": {
+        "title": "Her harekete uyan sınırsız video efekti",
+        "intro": "Statik görselleri seçilmiş AI video efektleriyle canlandırın. Bir fotoğraf yükleyin, hareket stillerini saniyeler içinde değiştirin ve aynı Mango tarzı çalışma alanında animasyonlu sonuçları önizleyin."
+      }
+    },
+    "genericHero": {
+      "imageToImageTitle": "Görüntüden AI görüntü oluşturucu",
+      "imageToImageIntro": "Herhangi bir görsel yükleyin, yaratıcı bir prompt ekleyin ve AI’ın hızlıca yeni bir görüntü üretmesini izleyin. Tasarım, fotoğraf iyileştirme ve fikir keşfi için uygundur.",
+      "textToImageIntro": "Net bir görsel yön oluşturun, promptunuzu iyileştirin ve fikirleri daha temiz Mango tarzı bir akışla cilalı görsellere dönüştürün.",
+      "videoIntro": "Güçlü bir görsel yönden başlayın, istediğiniz hareketi önizleyin ve daha temiz Mango tarzı {sceneTitle} akışıyla doğrudan üretime geçin.",
+      "imageIntro": "Cilalı bir başlangıç noktası seçin, son görünümü yönlendirin ve daha temiz Mango tarzı {sceneTitle} akışıyla doğrudan üretime geçin."
+    }
+  },
+  "faceGenerator": {
+    "tabs": {
+      "library": "Kitaplık"
+    },
+    "hero": {
+      "eyebrow": "Portre laboratuvarı",
+      "title": "Yüz oluşturucu",
+      "description": "Portre ön ayarlarından başlayın, istediğiniz görünümü önizleyin ve daha parlak bir Mango tarzı çalışma tezgahında oluşturucuya ince ayar yapın."
+    },
+    "actions": {
+      "useTemplate": "Şablonu dene",
+      "surpriseMe": "Beni şaşırt"
+    },
+    "form": {
+      "prompt": "Çabuk",
+      "promptPlaceholder": "Bu yüze ekstra yaratıcı yön ekleyin.",
+      "aspectRatio": "En Boy Oranı",
+      "gender": "Cinsiyet",
+      "age": "Yaş",
+      "ethnos": "Etnos",
+      "bodyType": "Gövde Tipi",
+      "eyeColor": "Göz Rengi",
+      "hairColor": "Saç Rengi",
+      "hairType": "Saç Tipi",
+      "hairStyle": "Saç Stili",
+      "makeup": "Makyaj yapmak",
+      "generatedPromptPreview": "Oluşturulan Bilgi İstemi Önizlemesi",
+      "selectPlaceholder": "Seçme"
+    },
+    "status": {
+      "ready": "Oluşturmaya hazır",
+      "templateApplied": "Uygulanan şablon: {title}",
+      "surpriseApplied": "Sürpriz ayarlar uygulandı",
+      "generating": "Yüz oluşturuluyor",
+      "generated": "Yüz oluşturuldu",
+      "failed": "Oluşturma başarısız oldu"
+    },
+    "errors": {
+      "generateFailed": "Yüz oluşturulamadı"
+    },
+    "empty": {
+      "creations": {
+        "title": "kreasyonlar",
+        "description": "Yüz oluşturucuyu çalıştırdıktan sonra oluşturulan yüzler burada görünecektir.",
+        "chips": {
+          "generator": "Yüz oluşturucu"
+        }
+      },
+      "collections": {
+        "title": "Koleksiyonlar",
+        "description": "Oluşturduğunuz yüzleriniz için koleksiyonlar oluşturun ve yönetin.",
+        "chips": {
+          "generator": "Yüz oluşturucu",
+          "portrait": "Portre",
+          "library": "Kitaplık"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "title": "Seedream 4.5 文字轉圖片",
+  "subtitle": "從文字描述生成精美的圖片",
+  "prompt_label": "提示詞",
+  "prompt_placeholder": "夜間戶外拍攝：一個年輕男子站在公共電話亭內，手持藍色電話聽筒放在耳邊。一隻手隨意地插在口袋裡，他擺出放鬆的姿勢。他穿著一件帶圖案的白色T恤、寬鬆的棕色褲子和搭在手臂上的夾克。電話亭的玻璃反射城市街燈，帶有散景效果，營造出復古膠片風格。",
+  "prompt_tooltip": "輸入您想要生成的圖片描述",
+  "size_label": "圖片尺寸",
+  "size_hint": "選擇輸出圖片的尺寸",
+  "width_label": "寬度",
+  "height_label": "高度",
+  "buttons": {
+    "generate": "生成圖片"
+  },
+  "errors": {
+    "promptRequired": "提示詞是必填項"
+  },
+  "image_alt": "生成的圖片",
+  "download": "下載",
+  "image_placeholder": "生成的圖片將顯示在這裡",
+  "prompt_inspirations_button": "提示詞靈感",
+  "prompt_guide_button": "提示詞指南",
+  "powered_by": "由 joymagic 優化的 Seedream 4.5 AI 模型提供支持",
+  "page": {
+    "metadata": {
+      "title": "Seedream 4.5 文字轉圖片 - AI 圖片生成器 | joymagic",
+      "description": "使用字節跳動的 Seedream 4.5 從文字生成圖片。創建逼真場景、插圖和藝術作品。支援英文和中文雙語提示詞。",
+      "keywords": "文字轉圖片，AI 圖片生成器，seedream v4.5，AI 藝術生成器，文字轉圖片 AI，圖片生成"
+    },
+    "hero": {
+      "title": "Seedream 4.5 文字轉圖片",
+      "description": "Seedream 4.5 是字節跳動的 AI 模型，可將文字描述轉換為圖片。用英文或中文描述任何場景、角色或概念。在下方免費試用 Seedream 4.5！",
+      "button1": "立即試用",
+      "button2": "查看價格"
+    },
+    "heroDescription": "使用先進的 AI 技術從簡單的文字描述創建精美的圖片。",
+    "keyFeatures": {
+      "title": "主要特性",
+      "description": "強大的 AI 圖片生成能力",
+      "photorealistic": {
+        "title": "逼真品質",
+        "description": "生成看起來像專業攝影的圖片。準確的皮膚紋理、自然光照、真實環境—沒有 AI 圖片常見的恐怖谷效應。"
+      },
+      "complexScene": {
+        "title": "複雜場景理解",
+        "description": "描述包含多個主體、空間關係和特定光照的詳細場景。模型能準確理解您文字中的構圖、位置和氛圍。"
+      },
+      "bilingual": {
+        "title": "雙語提示詞",
+        "description": "使用英文、中文或兩者混合編寫。模型對兩種語言的細微描述理解同樣出色—適用於中文文化參考或特定術語。"
+      },
+      "fastGeneration": {
+        "title": "快速生成",
+        "description": "在幾秒鐘內生成高解析度圖片。速度快到足以進行即時創意探索和迭代。"
+      },
+      "styleFlexibility": {
+        "title": "風格靈活性",
+        "description": "創建逼真圖片、動漫插畫、油畫、水彩畫、3D 渲染等。在提示詞中指定您想要的風格，或讓模型匹配主題。"
+      }
+    },
+    "howItWorks": {
+      "title": "使用方法",
+      "description": "三個簡單步驟生成圖片",
+      "step1": {
+        "title": "輸入提示詞",
+        "description": "描述您想要生成的圖片"
+      },
+      "step2": {
+        "title": "選擇設置",
+        "description": "選擇輸出格式和偏好設置"
+      },
+      "step3": {
+        "title": "生成和下載",
+        "description": "獲取您的 AI 生成圖片並下載"
+      }
+    },
+    "promptingTips": {
+      "title": "提示詞技巧",
+      "lighting": {
+        "title": "具體描述光照",
+        "description": "\"左側金色時光陽光，柔和陰影\" 比 \"良好光照\" 效果更好。"
+      },
+      "camera": {
+        "title": "包含相機細節",
+        "description": "\"使用 85mm 鏡頭拍攝，淺景深\" 可增加專業攝影品質。"
+      },
+      "style": {
+        "title": "指定藝術風格",
+        "description": "\"宮崎駿風格的數位插畫\" 或 \"超寫實 3D 渲染\" 可提供清晰方向。"
+      },
+      "mood": {
+        "title": "描述情緒和氛圍",
+        "description": "\"舒適、溫暖、懷舊的感覺\" 或 \"戲劇性、電影感、高對比度\" 塑造整體圖片。"
+      }
+    },
+    "useCases": {
+      "title": "使用場景",
+      "marketing": {
+        "title": "行銷視覺",
+        "description": "無需拍攝即可生成產品概念、廣告圖像和社群媒體內容。"
+      },
+      "character": {
+        "title": "角色設計",
+        "description": "從文字描述為遊戲、漫畫或動畫專案創建原創角色。"
+      },
+      "concept": {
+        "title": "概念藝術",
+        "description": "快速視覺化場景、環境和想法，用於創意專案和簡報。"
+      },
+      "stock": {
+        "title": "圖庫替代",
+        "description": "生成您需要的特定圖片，而不是在通用圖庫中搜尋。"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "description": "關於 Seedream 4.5 文字轉圖片的常見問題",
+      "q1": {
+        "question": "什麼是 Seedream 4.5？",
+        "answer": "Seedream 4.5 是字節跳動的 AI 圖片生成模型，可從文字描述創建圖片。它能夠生成高解析度的逼真和風格化圖片。"
+      },
+      "q2": {
+        "question": "我的提示詞應該有多詳細？",
+        "answer": "更多細節通常意味著更好的結果。包括主體、場景、光照、風格、情緒和相機角度。從幾句話開始，如果需要可以添加更多。"
+      },
+      "q3": {
+        "question": "它可以生成哪些風格？",
+        "answer": "逼真、動漫、油畫、水彩、3D 渲染、素描等。在提示詞中指定風格或參考特定藝術家和工作室。"
+      },
+      "q4": {
+        "question": "它支援中文提示詞嗎？",
+        "answer": "是的，Seedream 4.5 對英文和中文的理解同樣出色。您可以使用任一語言編寫提示詞，或混合使用兩種語言。"
+      },
+      "q5": {
+        "question": "與 GPT-Image-1 有什麼區別？",
+        "answer": "Seedream 4.5 在雙語提示詞和多圖片混合（在圖片轉圖片模式下）方面表現出色。GPT-Image-1 在圖片內文字渲染方面更好。根據您的主要需求選擇。"
+      }
+    },
+    "privacySecurity": {
+      "title": "隱私和安全",
+      "description": "您的隱私和安全是我們的首要任務。",
+      "secureProcessing": "安全處理",
+      "autoDelete": "自動刪除",
+      "neverShared": "絕不共享"
+    },
+    "finalCTA": {
+      "title": "準備開始創作了嗎？",
+      "description": "立即開始從您的文字描述生成精美的圖片。",
+      "button": "立即試用"
+    },
+    "breadcrumb": {
+      "home": "首頁",
+      "textToImage": "文字轉圖片",
+      "seedreamV45": "Seedream 4.5"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Seedream 4.5 文字轉圖片",
+      "howToName": "如何使用 Seedream 4.5 生成圖片",
+      "howToDescription": "使用 Seedream 4.5 從文字描述生成圖片",
+      "features": {
+        "aiTextToImage": "AI 文字轉圖片",
+        "highQuality": "高品質圖片",
+        "fastProcessing": "快速處理"
+      }
+    }
+  }
+}
+

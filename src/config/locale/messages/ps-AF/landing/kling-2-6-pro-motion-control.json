@@ -1,0 +1,92 @@
+{
+  "kling26ProMotionControlPage": {
+    "metadata": {
+      "title": "Kling 2.6 Pro Motion Control | Image to Video with Motion Control | AI Video Generator | joymagic",
+      "description": "Transform images into videos with Kling 2.6 Pro motion control. Upload an image and reference video to create motion-controlled image-to-video content. Free AI-powered motion control image-to-video generator online.",
+      "keywords": "kling-2-6-pro motion-control, kling 2.6 pro motion control, motion-control image-to-video, image-to-video motion control, kling motion control, AI motion control video, image to video with motion control, motion controlled video generator, kling 2.6 pro image to video, AI video motion control, motion control video generator, image to video AI, motion control AI video"
+    },
+    "hero": {
+      "title": "Kling 2.6 Pro Motion Control - Image to Video with AI",
+      "description": "Transform static images into dynamic videos with Kling 2.6 Pro motion control. Upload an image and reference video to create professional image-to-video content with precise motion control. Free AI-powered motion-control image-to-video generator.",
+      "button1": "Start Creating Free",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Why Choose Kling 2.6 Pro Motion Control for Image-to-Video?",
+      "description": "Experience advanced motion control image-to-video generation with Kling 2.6 Pro. Transform images into videos with precise motion control powered by cutting-edge AI technology.",
+      "preciseMotionControl": {
+        "title": "Precise Motion Control Image-to-Video",
+        "description": "Kling 2.6 Pro motion control analyzes both your image and reference video to create motion-controlled image-to-video content with precision. Perfect for transforming static images into dynamic videos."
+      },
+      "dualInput": {
+        "title": "Dual Input: Image + Video for Motion Control",
+        "description": "Upload an image for visual style and a reference video for motion patterns. Kling 2.6 Pro combines both inputs to generate professional motion-control image-to-video content."
+      },
+      "preserveAudio": {
+        "title": "Preserve Original Audio",
+        "description": "Keep the original sound from your reference video when creating motion-control image-to-video content, maintaining authentic audio in your generated videos."
+      },
+      "advancedPrompts": {
+        "title": "Advanced Motion Control Prompts",
+        "description": "Fine-tune your motion-control image-to-video generation with detailed prompts and negative prompts, giving you complete creative control over the motion patterns."
+      }
+    },
+    "howItWorks": {
+      "title": "How to Use Kling 2.6 Pro Motion Control for Image-to-Video",
+      "description": "Transform images into videos with motion control in five simple steps. Create professional motion-control image-to-video content with Kling 2.6 Pro. No technical knowledge required.",
+      "step1": {
+        "title": "Upload Source Image",
+        "description": "Upload an image that will be transformed into video with motion control. This serves as the visual base for your image-to-video conversion."
+      },
+      "step2": {
+        "title": "Upload Reference Video",
+        "description": "Upload a reference video containing motion patterns for Kling 2.6 Pro motion control to analyze and apply to your image-to-video generation."
+      },
+      "step3": {
+        "title": "Enter Motion Control Prompt",
+        "description": "Describe the motion control effect for your image-to-video conversion. Use negative prompts to refine motion patterns in your motion-control video."
+      },
+      "step4": {
+        "title": "Configure Motion Control Settings",
+        "description": "Choose whether to preserve original audio from your reference video in the generated motion-control image-to-video output."
+      },
+      "step5": {
+        "title": "Generate Motion-Control Video",
+        "description": "Click generate and watch Kling 2.6 Pro motion control transform your image into a professional motion-controlled video. Download your image-to-video content when ready."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Everything you need to know about Kling 2.6 Pro motion control for image-to-video generation.",
+      "q1": {
+        "question": "What is Kling 2.6 Pro motion control image-to-video?",
+        "answer": "Kling 2.6 Pro motion control is an AI-powered image-to-video tool that transforms static images into dynamic videos with precise motion control. By providing both an image and a reference video, the AI analyzes both inputs to create motion-controlled image-to-video content with professional quality."
+      },
+      "q2": {
+        "question": "How does Kling 2.6 Pro motion control image-to-video work?",
+        "answer": "Kling 2.6 Pro motion control combines image-to-video technology with motion control capabilities. You upload an image for visual reference and a video for motion patterns. The AI merges the visual style from your image with the motion patterns from your reference video to generate professional motion-control image-to-video content."
+      },
+      "q3": {
+        "question": "What makes Kling 2.6 Pro motion control different from regular image-to-video?",
+        "answer": "Unlike standard image-to-video generators, Kling 2.6 Pro motion control allows you to precisely control the motion patterns in your generated video by providing a reference video. This gives you complete control over how your image animates, making it perfect for creating specific motion-controlled image-to-video content."
+      },
+      "q4": {
+        "question": "Can I keep the original sound when using motion control image-to-video?",
+        "answer": "Yes, Kling 2.6 Pro motion control offers a \"Keep Original Sound\" option that preserves the audio from your reference video in the generated motion-control image-to-video output, maintaining authentic soundscapes."
+      },
+      "q5": {
+        "question": "What file formats does Kling 2.6 Pro motion control support for image-to-video?",
+        "answer": "Kling 2.6 Pro motion control supports common image formats (JPG, PNG, WEBP) for your source image and video formats (MP4, MOV, WEBM) for your reference video when creating motion-control image-to-video content."
+      },
+      "q6": {
+        "question": "Is Kling 2.6 Pro motion control image-to-video free to use?",
+        "answer": "Yes, our Kling 2.6 Pro motion control image-to-video generator offers free access for creating motion-controlled videos from images. Premium plans are available for higher usage limits and priority processing."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Transform Images into Videos with Motion Control?",
+      "description": "Join creators using Kling 2.6 Pro motion control to create professional image-to-video content with precise motion control. Start generating motion-control image-to-video videos today - it's free!",
+      "button": "Start Generating Now — It's Free"
+    }
+  }
+}

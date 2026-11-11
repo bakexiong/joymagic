@@ -1,0 +1,104 @@
+# joymagic - Fast & Free Image Generator
+
+> joymagic is an efficient 6-billion-parameter foundation model for image generation with Single-Stream Diffusion Transformer. Open-source, fast inference, and excellent photorealistic quality.
+
+## Documentation
+
+- [Acceptable Use Policy | joymagic - Fast & Free Image Generator](/acceptable-use-policy): Acceptable Use Policy for joymagic
+- [Acceptable Use Policy | joymagic - Fast & Free Image Generator](/zh-hk/acceptable-use-policy): Acceptable Use Policy for joymagic
+- [Acceptable Use Policy | joymagic - Fast & Free Image Generator](/it-IT/acceptable-use-policy): Acceptable Use Policy for joymagic
+- [AI Görüntü Arka Plan Kaldırıcı Çevrimiçi | Arka Planı Anında Kaldır | joymagic](/tr-TR/image-background-remover): joymagic'ın AI arka plan kaldırıcısı ile herhangi bir görüntüden arka planı anında kaldırın. Tek tık, mükemmel kesim – düzenleme becerisi gerekmez. HD İndirme, Filigran yok, Toplu işlem desteği.
+- [AI Görüntü Büyütücü Çevrimiçi | Görüntüleri 4K 8K 16K'ya Büyüt | joymagic](/tr-TR/image-upscaler): joymagic'ın AI Görüntü Büyütücüsü ile görüntü kalitesini anında iyileştirin ve çözünürlüğü 4K, 8K veya 16K'ya yükseltin. HD indirme, filigran yok, toplu işlem desteği.
+- [AI Görüntü Katman Ayrıştırma Aracı | RGBA Katmanlar | joymagic](/tr-TR/qwen-image-layered): Görüntüleri düzenlenebilir RGBA katmanlarına ayrıştıran AI destekli araç. Sorunsuz fotoğraf düzenleme ve tasarım için alfa kanallarıyla otomatik anlamsal ayrım.
+- [AI Görüntü Silici | Fotoğraflardan Nesneleri Kaldır | joymagic](/tr-TR/image-eraser): İstenmeyen nesneleri, insanları veya metinleri fotoğraflardan anında silin. Basit fırça arayüzlü AI görüntü silicisi. Ücretsiz, filigran yok, HD indirme hazır.
+- [AI Image Background Remover Online | Remove Background Instantly | joymagic](/image-background-remover): Instantly remove background from any image with joymagic's AI background remover. One click, perfect cutout – no editing skills needed. HD Download, No watermark, Batch support.
+- [AI Image Eraser | Remove Objects from Photos | joymagic](/en-IN/image-eraser): Erase unwanted objects, people, or text from photos instantly. AI-powered image eraser with simple brush interface. Free, no watermark, HD download ready.
+- [AI Wrapper Disclaimer | joymagic - Fast & Free Image Generator](/it-IT/ai-wrapper-disclaimer): AI Wrapper Disclaimer for joymagic
+- [AI Wrapper Disclaimer | joymagic - Fast & Free Image Generator](/en-IN/ai-wrapper-disclaimer): AI Wrapper Disclaimer for joymagic
+- [AI Wrapper Disclaimer | joymagic - Fast & Free Image Generator](/ru-RU/ai-wrapper-disclaimer): AI Wrapper Disclaimer for joymagic
+- [AI د انځور لوړولو وسیله آنلاین | انځورونه 4K 8K 16K ته لوړ کړئ | joymagic](/ps-AF/image-upscaler): د joymagic د AI د انځور لوړولو وسیلې سره د انځور کیفیت فوري ښه کړئ او د 4K، 8K یا 16K ته وړاندې کړئ. HD ډاونلوډ، د اوبو نښه نشته، د ګډون ملاتړ.
+- [AI 圖片背景移除工具線上 | 一鍵移除背景 | joymagic](/zh-Hant-TW/image-background-remover): 使用 joymagic 的 AI 背景移除工具一鍵移除任何圖片的背景。無需編輯技能，高清下載，無水印，支援批次處理。
+- [AI包装器免责声明 | joymagic - 高效图像生成模型](/zh/ai-wrapper-disclaimer): joymagic AI包装器免责声明
+- [AI圖片擦除器 | 從照片中移除物件 | joymagic](/zh-hk/image-eraser): 即時擦除照片中不需要的物件、人物或文字。AI驅動的圖片擦除器，簡單的畫筆介面。免費，無水印，支援高清下載。
+- [AI画像消しゴム | 写真からオブジェクトを削除 | joymagic](/ja-JP/image-eraser): 不要なオブジェクト、人物、テキストを写真から即座に消去。シンプルなブラシインターフェースのAI画像消しゴム。無料、透かしなし、HDダウンロード対応。
+- [AI画像背景除去ツールオンライン | 背景を瞬時に除去 | joymagic](/ja-JP/image-background-remover): joymagicのAI背景除去ツールで、あらゆる画像から背景を瞬時に除去。ワンクリックで完璧な切り抜き – 編集スキル不要。HDダウンロード、透かしなし、一括処理対応。
+- [Apagador de Imagem IA | Remover Objetos de Fotos | joymagic](/pt-BR/image-eraser): Apague objetos, pessoas ou texto indesejados de fotos instantaneamente. Apagador de imagem com IA e interface de pincel simples. Grátis, sem marca d'água, download HD pronto.
+- [Bild-zu-Bild KI-Generator | Markenkonforme Visuals in Sekunden – joymagic](/de-DE/image-to-image): Verwandeln Sie jedes Bild in markenkonforme Visuals mit joymagic Bild-zu-Bild KI-Generator. Laden Sie ein Bild hoch und erhalten Sie endlose Variationen in verschiedenen Stilen und Szenen....
+- [Cancella Immagini IA | Rimuovi Oggetti dalle Foto | joymagic](/it-IT/image-eraser): Cancella oggetti, persone o testo indesiderati dalle foto all'istante. Cancellatore di immagini IA con interfaccia pennello semplice. Gratuito, nessuna filigrana, download HD pronto.
+- [Content Moderation Policy | joymagic - Fast & Free Image Generator](/content-moderation-policy): Content moderation policy for joymagic
+- [Content Moderation Policy | joymagic - Fast & Free Image Generator](/content-moderation-policy): Content moderation policy for joymagic
+- [Eliminador de Fondo de Imagen IA Online | Eliminar Fondo al Instante | joymagic](/es-ES/image-background-remover): Elimina el fondo de cualquier imagen al instante con el eliminador de fondo IA de joymagic. Un clic, recorte perfecto – sin necesidad de habilidades de edición. Descarga HD, Sin marca de agua,...
+- [Ferramenta de Decomposição de Camadas de Imagem com IA | Camadas RGBA | joymagic](/pt-BR/qwen-image-layered): Ferramenta alimentada por IA para decompor imagens em camadas RGBA editáveis. Separação semântica automática com canais alfa para edição de fotos e design perfeitos.
+- [Fiyatlandırma](/tr-TR/pricing): Bir planla başla
+- [Görüntüden Görüntüye AI Üretici | Saniyeler İçinde Marka Görselleri – joymagic](/tr-TR/image-to-image): joymagic Görüntüden Görüntüye AI üreteci ile herhangi bir görseli marka varlığınıza dönüştürün. Bir görsel yükleyin, farklı stillerde ve sahnelerde sonsuz varyasyon elde edin. HD çıktı, hızlı...
+- [Image to Image AI Generator | On-Brand Visuals in Seconds – joymagic](/image-to-image): Turn any image into on-brand visuals with joymagic's image to image AI generator. Upload one image, get endless variations in different styles and scenes. HD outputs, fast generation, free to try,...
+- [Introduction](/en-IN/docs): joymagic is an efficient 6-billion-parameter foundation model for image generation with Single-Stream Diffusion Transformer. Open-source, fast inference, and excellent photorealistic quality.
+- [Introduction](/ru-RU/docs): joymagic is an efficient 6-billion-parameter foundation model for image generation with Single-Stream Diffusion Transformer. Open-source, fast inference, and excellent photorealistic quality.
+- [Introduction](/ps-AF/docs): joymagic is an efficient 6-billion-parameter foundation model for image generation with Single-Stream Diffusion Transformer. Open-source, fast inference, and excellent photorealistic quality.
+- [Isenção de Responsabilidade do AI Wrapper | joymagic - Fast & Free Image Generator](/pt-BR/ai-wrapper-disclaimer): Isenção de responsabilidade do AI Wrapper para joymagic
+- [İade Politikası | joymagic - Fast & Free Image Generator](/tr-TR/refund-policy): joymagic İade Politikası
+- [Kabul Edilebilir Kullanım Politikası | joymagic - Fast & Free Image Generator](/tr-TR/acceptable-use-policy): joymagic Kabul Edilebilir Kullanım Politikası
+- [KI-Bild-Ebenen-Zerlegungstool | RGBA-Ebenen | joymagic](/de-DE/qwen-image-layered): KI-gestütztes Tool zur Zerlegung von Bildern in bearbeitbare RGBA-Ebenen. Automatische semantische Trennung mit Alpha-Kanälen für nahtlose Foto-Bearbeitung und Design.
+- [Nutzungsbedingungen | joymagic - Fast & Free Image Generator](/de-DE/terms-of-service): joymagic Nutzungsbedingungen
+- [Open-Source Attribution | joymagic - Fast & Free Image Generator](/tr-TR/open-source-attribution): Open-Source Attribution for joymagic
+- [Open-Source Attribution | joymagic - Fast & Free Image Generator](/ko-KR/open-source-attribution): Open-Source Attribution for joymagic
+- [Open-Source Attribution | joymagic - Fast & Free Image Generator](/zh-Hant-TW/open-source-attribution): Open-Source Attribution for joymagic
+- [Política de Privacidade | joymagic - Fast & Free Image Generator](/pt-BR/privacy-policy): Política de privacidade do joymagic
+- [Política de Reembolso | joymagic - Fast & Free Image Generator](/es-ES/refund-policy): Política de reembolso de joymagic
+- [Política de Reembolso | joymagic - Fast & Free Image Generator](/pt-BR/refund-policy): Política de reembolso do joymagic
+- [Política de Uso Aceitável | joymagic - Fast & Free Image Generator](/pt-BR/acceptable-use-policy): Política de uso aceitável do joymagic
+- [Política de Uso Aceptable | joymagic - Fast & Free Image Generator](/es-ES/acceptable-use-policy): Política de uso aceptable de joymagic
+- [Precios](/es-ES/pricing): Empieza con un plan
+- [Preise](/de-DE/pricing): Starte mit einem passenden Plan
+- [Preços](/pt-BR/pricing): Comece com um plano
+- [Privacy Policy | joymagic - Fast & Free Image Generator](/en-IN/privacy-policy): Privacy policy for joymagic
+- [Privacy Policy | joymagic - Fast & Free Image Generator](/zh-hk/privacy-policy): Privacy policy for joymagic
+- [Removedor de Fundo de Imagem IA Online | Remover Fundo Instantaneamente | joymagic](/pt-BR/image-background-remover): Remova o fundo de qualquer imagem instantaneamente com o removedor de fundo IA da joymagic. Um clique, recorte perfeito – sem necessidade de habilidades de edição. Download HD, Sem marca d'água,...
+- [Terms of Service | joymagic - Fast & Free Image Generator](/en-IN/terms-of-service): Terms of Service for joymagic
+- [Términos de Servicio | joymagic - Fast & Free Image Generator](/es-ES/terms-of-service): Términos de Servicio para joymagic
+- [Wan 2.6 – Image-to-Video & Text-to-Image API | joymagic](/tr-TR/text-to-video/wan-2-6): Wan 2.6 ile image-to-video ve text-to-image üretimi. Basit fiyatlandırma, API desteği ve prodüksiyon iş akışlarıyla HD görselleri hızlı üretin.
+- [Wan 2.6 – Image-to-Video & Text-to-Image API | joymagic](/text-to-video/wan-2-6): Access Wan 2.6 for image-to-video and text-to-image generation. Create HD visuals fast with simple pricing, API support, and production-ready workflows.
+- [joymagic - Fast & Free Image Generator](/): joymagic is an efficient 6-billion-parameter foundation model for image generation with Single-Stream Diffusion Transformer. Open-source, fast inference, and excellent photorealistic quality.
+- [joymagic - Fast & Free Image Generator](/): joymagic is an efficient 6-billion-parameter foundation model for image generation with Single-Stream Diffusion Transformer. Open-source, fast inference, and excellent photorealistic quality.
+- [joymagic - Fast & Free Image Generator](/pt-BR): joymagic is an efficient 6-billion-parameter foundation model for image generation with Single-Stream Diffusion Transformer. Open-source, fast inference, and excellent photorealistic quality.
+- [joymagic - Fast & Free Image Generator](/ja-JP): joymagic is an efficient 6-billion-parameter foundation model for image generation with Single-Stream Diffusion Transformer. Open-source, fast inference, and excellent photorealistic quality.
+- [joymagic - Fast & Free Image Generator](/it-IT): joymagic is an efficient 6-billion-parameter foundation model for image generation with Single-Stream Diffusion Transformer. Open-source, fast inference, and excellent photorealistic quality.
+- [joymagic - Fast & Free Image Generator](/zh-Hant-TW): joymagic is an efficient 6-billion-parameter foundation model for image generation with Single-Stream Diffusion Transformer. Open-source, fast inference, and excellent photorealistic quality.
+- [Инструмент декомпозиции слоев изображений с ИИ | RGBA слои | joymagic](/ru-RU/qwen-image-layered): Инструмент на основе ИИ для разложения изображений на редактируемые RGBA слои. Автоматическое семантическое разделение с альфа-каналами для бесшовного редактирования фотографий и дизайна.
+- [Онлайн Удаление Фона Изображения ИИ | Удалить Фон Мгновенно | joymagic](/ru-RU/image-background-remover): Мгновенно удаляйте фон с любого изображения с помощью удаления фона ИИ от joymagic. Один клик, идеальная обрезка – навыки редактирования не требуются. HD Загрузка, Без водяного знака, Пакетная...
+- [بیه](/ps-AF/pricing): له پلان سره پیل کړئ
+- [コンテンツモデレーションポリシー | joymagic - Fast & Free Image Generator](/ja-JP/content-moderation-policy): joymagic コンテンツモデレーションポリシー
+- [價格](/zh-Hant-TW/pricing): 從方案開始
+- [價格](/zh-hk/pricing): 從方案開始
+- [內容審核政策 | joymagic - Fast & Free Image Generator](/zh-Hant-TW/content-moderation-policy): joymagic 內容審核政策
+- [内容审核政策 | joymagic - 高效图像生成模型](/zh/content-moderation-policy): joymagic 内容审核政策
+- [利用規約 | joymagic - Fast & Free Image Generator](/ja-JP/terms-of-service): joymagic 利用規約
+- [可接受使用政策 | joymagic - Fast & Free Image Generator](/zh-Hant-TW/acceptable-use-policy): joymagic 可接受使用政策
+- [服務條款 | joymagic - Fast & Free Image Generator](/zh-Hant-TW/terms-of-service): joymagic 服務條款
+- [이미지 투 이미지 AI 생성기 | 몇 초 만에 브랜드 비주얼 – joymagic](/ko-KR/image-to-image): joymagic의 이미지 투 이미지 AI 생성기로 모든 이미지를 브랜드 비주얼로 변환하세요. 이미지 하나를 업로드하면 다양한 스타일과 장면의 무한한 변형을 얻을 수 있습니다. HD 출력, 빠른 생성, 무료 체험, 상업적 사용 가능.
+- [환불 정책 | joymagic - Fast & Free Image Generator](/ko-KR/refund-policy): joymagic 환불 정책
+
+## Optional
+
+- [2025 Complete Seedream 4.5 API Guide: Fast & Accurate Text Images | Blog — joymagic](/blog/seedream-4-5-api-guide): Struggling with AI images ruined by gibberish text? Discover Seedream 4.5 API workflows for fast, accurate, production-ready outputs.
+- [ai | Blog — Page 2 — joymagic](/blog/category/ai/2): 🚀
+- [ai | Blog — joymagic](/blog/category/ai): 🚀
+- [Blog — Page 2 — joymagic](/blog/2): 🚀
+- [Blog — joymagic](/blog/): 🚀
+- [Fix Blurry / Dirty Img2Img Results: 12 Debug Checks (joymagic) | Blog — joymagic](/blog/fix-img2img): Img2Img looks blurry or dirty? Use this 12-step debugging checklist to quickly improve clarity, details, and consistency in joymagic.
+- [GPT Image 1.5 vs Nano Banana Pro: My Hands-On Review | Blog — joymagic](/blog/gpt-image-1-5-vs-nano-banana-pro): In-depth hands-on review: OpenAI's GPT Image 1.5 vs Google's Nano Banana Pro in photorealism, text accuracy, precise editing, and world knowledge. Discover which AI image generator wins in 2025...
+- [Guide: Seedream 4.5 for Fashion Catalogs & Try-On | Blog — joymagic](/blog/seedream-4-5-fashion): Unlock pro fashion visuals with Seedream 4.5. This real-world guide shows you how to create virtual models, swap outfits, and scale your catalog. Start creating now
+- [Nano-Banana Pro: Top Guide for Academic Figures | Blog — joymagic](/blog/nano-banana-pro-guide-for-academic-figures): Create journal-ready figures with our Nano-Banana Pro workflow. Master the 3-step method for accurate, compliant scientific art. Upgrade your research visuals today!
+- [New Year 2026 Profile Pictures: Keep Face, Change Outfit & Background (Img2Img) | Blog — joymagic](/blog/new-year-profile-pictures): Create a fresh 2026 profile picture: keep your face, change outfit and background using joymagic Img2Img in minutes.
+- [Privacy Policy — joymagic](/blog/privacy): 🚀
+- [Seedream 4.5 Face Consistency: Preserve Identity in Every Edit | Blog — joymagic](/blog/seedream-4-5-face-consistency): Keep faces consistent in Seedream 4.5 edits with reference images, identity anchors, and preservation techniques.
+- [Seedream 4.5 Guide: Scale E-commerce Photos Fast | Blog — joymagic](/blog/seedream-4-5-ecommerce): Create stunning e-commerce visuals with our 2025 Seedream 4.5 guide. Learn expert workflows for product shots, background swaps, and lifestyle scenes. Streamline your process today!
+- [Seedream 4.5 Image Editing: Add, Remove, Replace Anything with Text | Blog — joymagic](/blog/seedream-4-5-image-editing): Complete guide to Seedream 4.5 natural language image editing: add objects, remove elements, swap backgrounds.
+- [Seedream 4.5 Text Rendering: Create Perfect Typography in AI Images | Blog — joymagic](/blog/seedream-4-5-text-rendering): Generate accurate text, logos, and typography in Seedream 4.5 with proven prompt techniques and examples.
+- [Wan 2.6 Flicker Fix: A Practical Guide to Stabilize Motion in i2v Videos | Blog — joymagic](/blog/wan-2-6-flicker-fix): Stop Wan 2.6 video flickering: prompt tweaks, parameter settings & post-processing tools. Step-by-step flicker elimination guide.
+- [Wan 2.6 i2v Face Stability: How to Stop Face Drift, Melting, and Flicker | Blog — joymagic](/blog/wan-2-6-i2v-face-stability): Fix Wan 2.6 face issues: drift, melting & flicker. Proven prompt techniques, parameter settings & input image tips for stable faces.
+- [Wan 2.6 Multi-shot Storytelling: Shot List + Prompt Formula + Reference Video Workflow | Blog — joymagic](/blog/wan-2-6-multi-shot-storytelling): Master Wan 2.6 multi-shot videos: create shot lists, write connected prompts & use reference videos for consistent storytelling.
+- [Wan 2.6 Pricing & Cost Calculator: How Much Does One Video Cost? | Blog — joymagic](/blog/wan-2-6-pricing-and-cost-calculator): Wan 2.6 pricing breakdown: per-video cost, subscription plans & free tier limits. Calculate your monthly budget with our cost estimator.
+- [Wan 2.6 Prompt Template Library: 30 Copy-Paste Prompts for i2v & Multi-shot | Blog — joymagic](/blog/wan-2-6-prompt-template-library): 30 tested Wan 2.6 prompts: i2v, multi-shot, product ads & more. Copy-paste ready templates with parameter settings. Updated 2025.
+- [Wan 2.6 Vertical Video Best Practices (9:16 for TikTok & Shorts) | Blog — joymagic](/blog/wan-2-6-vertical-video-best-practices): Optimize Wan 2.6 for vertical video: 9:16 settings, safe zones for text, composition tips for TikTok, Shorts & Reels.
+- [joymagic for DP: Generate Unique Profile Pictures with AI | Blog — joymagic](/blog/z-image-for-dp): Create unique profile pictures for social accounts, teams, and creators. Generate unique, personalized profile pictures with joymagic AI in seconds.

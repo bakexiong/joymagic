@@ -1,0 +1,132 @@
+[
+  {
+    "prompt": "Echoed figures, mirrored forms, or repeated poses-surreal symmetry that bends perception",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/335a7e2d0b4216c80eb30a4be6906220.jpg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/335a7e2d0b4216c80eb30a4be6906220.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Echoed figures, mirrored forms, or repeated poses-surreal symmetry that bends perception",
+      "quality": "medium",
+      "size": "1696*960",
+      "strength": 0.5,
+      "style": "Duplicate",
+      "aspectRatio": "53:30"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/2a5ecb839d216a92fcc03669404acb07.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/2a5ecb839d216a92fcc03669404acb07.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/b67b350bd876557a97d43a7395169e54.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/b67b350bd876557a97d43a7395169e54.png"
+    ],
+    "generatedAt": "2026-04-15T03:25:00.258Z"
+  },
+  {
+    "prompt": "Exaggerated depth and playful proportions. Face or object up close, background stretched to infinity",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/a9fa75c48e19ec47cef885efb667a77e.jpg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/a9fa75c48e19ec47cef885efb667a77e.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Exaggerated depth and playful proportions. Face or object up close, background stretched to infinity",
+      "quality": "medium",
+      "size": "1152*2048",
+      "strength": 0.5,
+      "style": "Fisheye",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/a6e6f3039b2f7eb796c86aed29986f51.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/a6e6f3039b2f7eb796c86aed29986f51.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/5aa5f0fc37d32db6db733734788d252e.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/5aa5f0fc37d32db6db733734788d252e.png"
+    ],
+    "generatedAt": "2026-04-15T03:25:29.467Z"
+  },
+  {
+    "prompt": "Harsh flash, timestamp corner, and raw textures. Feels like 2007 captured forever",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/a6fd759d5a699ba54462dc29ebe92b1c.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/a6fd759d5a699ba54462dc29ebe92b1c.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Harsh flash, timestamp corner, and raw textures. Feels like 2007 captured forever",
+      "quality": "medium",
+      "size": "1152*2048",
+      "strength": 0.5,
+      "style": "DigitalCam",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/f38b2288327faaa3baee05d9d87b7d8a.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/f38b2288327faaa3baee05d9d87b7d8a.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/ee869d9c6fdbae2de3eb70e7dcaf818b.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/ee869d9c6fdbae2de3eb70e7dcaf818b.png"
+    ],
+    "generatedAt": "2026-04-15T03:25:58.112Z"
+  },
+  {
+    "prompt": "subway",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/e5773476d05707619b94a5510ba7ed85.jpg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/e5773476d05707619b94a5510ba7ed85.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "subway",
+      "quality": "medium",
+      "size": "2048*1152",
+      "strength": 1,
+      "style": "Subway",
+      "aspectRatio": "16:9"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/08b4293f74e6afeb243e0a38ac15f190.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/08b4293f74e6afeb243e0a38ac15f190.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/2d6984602b598e13e43f4015074ae19c.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/2d6984602b598e13e43f4015074ae19c.png"
+    ],
+    "generatedAt": "2026-04-15T03:26:28.872Z"
+  },
+  {
+    "prompt": "Make the person with Carema become a giant person",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/b2931a03bb910844077e73a91106e588.jpg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/b2931a03bb910844077e73a91106e588.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Make the person with Carema become a giant person",
+      "quality": "medium",
+      "size": "1152*2048",
+      "strength": 0.55,
+      "style": "Giant People",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/fa4e4f5d5c01d6b48065216b8525ae3c.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/fa4e4f5d5c01d6b48065216b8525ae3c.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/7b6b2662a631f07c80fa3aca97be54b4.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/7b6b2662a631f07c80fa3aca97be54b4.png"
+    ],
+    "generatedAt": "2026-04-15T03:27:00.342Z"
+  }
+]

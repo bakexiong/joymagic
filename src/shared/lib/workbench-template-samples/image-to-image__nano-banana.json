@@ -1,0 +1,96 @@
+[
+  {
+    "prompt": "Create a professional e-commerce fashion photo. Select the blue floral dress from the first image and have the woman in the second image wear it. Generate a realistic full-body photo of the woman wearing the dress, with a yellow-tinted background scattered with bananas, and adjust the lighting and shadows to match the background.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/74437b4e13b6799d6cd486638b224b7c.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/74437b4e13b6799d6cd486638b224b7c.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/20260bc5e82a139c038ef6e7c4fb3080.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/20260bc5e82a139c038ef6e7c4fb3080.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Create a professional e-commerce fashion photo. Select the blue floral dress from the first image and have the woman in the second image wear it. Generate a realistic full-body photo of the woman wearing the dress, with a yellow-tinted background scattered with bananas, and adjust the lighting and shadows to match the background.",
+      "aspectRatio": "auto"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/467c4799e5320416ea2277841d99d26b.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/467c4799e5320416ea2277841d99d26b.jpg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/e3c0661927f884fc0a3a279f74298cc3.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/e3c0661927f884fc0a3a279f74298cc3.png"
+    ],
+    "generatedAt": "2026-04-15T03:30:48.463Z"
+  },
+  {
+    "prompt": "A natural spa-inspired skincare ad featuring Skin Formula Vitamin C Serum bottle placed on smooth stacked stones, soft mist in the background, sunlight streaming through tropical leaves, peaceful wellness aesthetic.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/e0a01c0db01e02ff2c4c6172a156d069.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/e0a01c0db01e02ff2c4c6172a156d069.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A natural spa-inspired skincare ad featuring Skin Formula Vitamin C Serum bottle placed on smooth stacked stones, soft mist in the background, sunlight streaming through tropical leaves, peaceful wellness aesthetic.",
+      "aspectRatio": "auto"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/29bbe90c2c23e872945662f48ff1a5b2.jpeg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/29bbe90c2c23e872945662f48ff1a5b2.jpeg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/377ef936321335e22066e4b8ef02d892.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/377ef936321335e22066e4b8ef02d892.png"
+    ],
+    "generatedAt": "2026-04-15T03:31:15.616Z"
+  },
+  {
+    "prompt": "Dress the puppy in an astronaut's suit ",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/bff9abbc0812413cf3300e2f45762040.jpg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/bff9abbc0812413cf3300e2f45762040.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Dress the puppy in an astronaut's suit ",
+      "aspectRatio": "auto"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/ccab585f485cbee993fa6416203cf7aa.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/ccab585f485cbee993fa6416203cf7aa.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/ca4a38b947c6a15ec1f52ab3fa76efa9.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/ca4a38b947c6a15ec1f52ab3fa76efa9.png"
+    ],
+    "generatedAt": "2026-04-15T03:31:44.885Z"
+  },
+  {
+    "prompt": "Change the background to the moon, and the boy is holding a round ball in his hand.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/02816e44fdaf79a3badb774b5dda9c6d.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/02816e44fdaf79a3badb774b5dda9c6d.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Change the background to the moon, and the boy is holding a round ball in his hand.",
+      "aspectRatio": "auto"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/90297bde3421d19f50cb603e4f4a2055.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/90297bde3421d19f50cb603e4f4a2055.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/4943d5685aaf6e3f23a95a78c0bf6e5b.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/4943d5685aaf6e3f23a95a78c0bf6e5b.png"
+    ],
+    "generatedAt": "2026-04-15T03:32:13.844Z"
+  }
+]

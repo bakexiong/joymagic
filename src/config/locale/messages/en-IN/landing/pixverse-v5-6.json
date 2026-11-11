@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "PixVerse v5.6 Text-to-Video | Free AI Video Generator - joymagic",
+    "description": "Use PixVerse v5.6 Text-to-Video on joymagic to turn English or Indian language prompts into HD short-form videos. Choose from multiple resolutions, fixed durations and optional audio, powered by a transparent credit system.",
+    "keywords": "PixVerse v5.6 Text-to-Video,text-to-video,PixVerse text to video,AI video generator,AI short video,HD text to video"
+  },
+  "pixverse56": {
+    "form": {
+      "prompt": {
+        "label": "Prompt",
+        "placeholder": "Describe the video you want: scene, characters, motion, camera movement, lighting, mood…",
+        "tooltip": "Main positive prompt for PixVerse v5.6 text-to-video. Include subject, scene, motion and overall mood where possible."
+      },
+      "negativePrompt": {
+        "label": "Negative Prompt",
+        "placeholder": "Optional: things you don’t want in the video, e.g. blur, distortion, low quality text…",
+        "tooltip": "Describe elements or styles you want to avoid, such as \"blurry, distorted, low resolution, bad text\"."
+      },
+      "resolutionRatio": {
+        "label": "Aspect ratio (resolution_ratio)"
+      },
+      "resolution": {
+        "label": "Resolution"
+      },
+      "duration": {
+        "label": "Duration (seconds)"
+      },
+      "generateAudio": {
+        "label": "Generate audio (generate_audio_switch)",
+        "description": "When enabled, PixVerse generates synchronized audio for the video (music / ambience / simple SFX).",
+        "tooltip": "Turn on to enable PixVerse native audio; this also uses audio-inclusive pricing combinations."
+      },
+      "thinkingType": {
+        "label": "Thinking mode (thinking_type)",
+        "tooltip": "Controls PixVerse reasoning strength: enabled favors quality, disabled favors speed, auto lets the service decide."
+      },
+      "seed": {
+        "label": "Seed"
+      },
+      "image": {
+        "label": "Image (reference)",
+        "tooltip": "Upload a reference image. PixVerse will animate this image according to your prompt.",
+        "hint": "Hint: You can drag and drop a file or click to upload",
+        "dropHere": "Drop image here",
+        "dragDrop": "Drag and drop a file or click to upload"
+      },
+      "imageRequired": "Please upload an image for PixVerse image-to-video.",
+      "buttons": {
+        "reset": "Reset",
+        "run": "Generate",
+        "generating": "Generating..."
+      }
+    },
+    "preview": {
+      "placeholder": "After you enter a prompt and click run, PixVerse v5.6 will generate a video and preview it here."
+    },
+    "status": {
+      "idle": "Idle",
+      "processing": "Processing",
+      "completed": "Completed",
+      "estimating": "Estimating..."
+    },
+    "buttons": {
+      "credits": "credits",
+      "click_to_pay": "Click to Pay"
+    },
+    "actions": {
+      "downloadVideo": "Download video",
+      "downloadFailed": "Download video failed"
+    },
+    "errors": {
+      "promptRequired": "Please enter a prompt",
+      "generationFailed": "Video generation failed",
+      "taskFailed": "Task processing failed",
+      "taskTimeout": "Task processing timeout, please try again later",
+      "taskIdNotFound": "Unable to get task ID, please check API response format",
+      "processingFailed": "Processing failed, please retry",
+      "statusQueryFailed": "Failed to query task status",
+      "apiResponseParseFailed": "Failed to parse PixVerse API response",
+      "unsupportedCombination1080p10s": "1080p with 10 seconds is not supported. Please choose 5s or 8s for 1080p.",
+      "invalidFileType": "Invalid file type.",
+      "uploadFailed": "Upload failed: {error}",
+      "uploadFailedGeneric": "Upload failed",
+      "recordingFailed": "Failed to start recording. Please check microphone permissions.",
+      "estimate_failed": "Failed to estimate credits"
+    }
+  },
+  "pixverse56Page": {
+    "metadata": {
+      "title": "PixVerse v5.6 Text-to-Video | AI Text to Video Generator - joymagic",
+      "description": "PixVerse v5.6 Text-to-Video on joymagic lets you turn text prompts into HD short videos with flexible resolutions, fixed durations and optional audio, all backed by a param-combination credit pricing system for predictable costs.",
+      "keywords": "PixVerse v5.6 Text-to-Video,text-to-video,AI text to video generator,PixVerse video,AI short video,joymagic"
+    },
+    "hero": {
+      "title": "PixVerse v5.6 Text-to-Video Generator",
+      "description": "Use PixVerse v5.6 Text-to-Video on joymagic to convert English or Indian language prompts into high-quality short videos. Flexible controls for resolution, duration and audio make it ideal for creators, brands and teams.",
+      "button1": "Generate video",
+      "button2": "View pricing"
+    },
+    "intro": "PixVerse v5.6 Text-to-Video on joymagic is wired into our param-combination credit pricing system, so you can mix and match resolution, duration and audio settings while keeping text-to-video costs transparent, predictable and production-ready.",
+    "features": {
+      "title": "Why use PixVerse v5.6 Text-to-Video on joymagic?",
+      "items": {
+        "multiResolution": {
+          "title": "Flexible resolution & duration grid",
+          "description": "Supports 360p, 540p, 720p and 1080p with fixed 5 / 8 / 10 second presets. For 1080p, only 5s and 8s are allowed—10s is disabled in the UI and rejected in pricing checks to avoid unsupported combos."
+        },
+        "audio": {
+          "title": "Optional audio generation",
+          "description": "Flip generate_audio_switch to add native audio. Pricing automatically maps to audio-on / audio-off parameter combinations so you always know what you’re paying for."
+        },
+        "thinking": {
+          "title": "Smart thinking modes",
+          "description": "thinking_type supports enabled, disabled and auto. Enabled favors quality, disabled favors speed, and auto lets the backend choose, which is usually the best default."
+        },
+        "safety": {
+          "title": "Integrated safety & pricing controls",
+          "description": "Runs through joymagic’s safety policies and credit estimation. Unsupported combinations like 1080p × 10s are blocked both in the UI and in backend validation so you don’t waste time or credits."
+        }
+      }
+    },
+    "faq": {
+      "title": "PixVerse v5.6 Text-to-Video FAQ",
+      "q1": {
+        "question": "Which resolutions and durations does PixVerse v5.6 support?",
+        "answer": "PixVerse v5.6 currently supports 360p, 540p, 720p and 1080p, with durations of 5, 8 and 10 seconds. For 1080p, only 5s and 8s are available. The 1080p × 10s combination is disabled in the UI and treated as unsupported in pricing and backend validation."
+      },
+      "q2": {
+        "question": "What does generate_audio_switch control?",
+        "answer": "generate_audio_switch toggles native audio generation. When off, you only pay for video; when on, an audio surcharge is added on top of the base video price via the param-combination pricing table."
+      },
+      "q3": {
+        "question": "How do the thinking_type modes differ?",
+        "answer": "enabled turns on stronger reasoning for more stable composition and motion at the cost of some latency; disabled prioritizes speed; auto lets the service choose per request, which is recommended for most users."
+      },
+      "q4": {
+        "question": "How can I get repeatable results?",
+        "answer": "Use the seed parameter. The default -1 uses a random seed each time; if you want similar outputs across runs, set a fixed seed value and reuse it in subsequent generations."
+      }
+    },
+    "finalCTA": {
+      "title": "Start creating with PixVerse v5.6 Text-to-Video",
+      "description": "Write a simple prompt and let PixVerse v5.6 Text-to-Video generate short-form videos for social, ad concepts and storytelling in minutes. The playground below is connected to our credit system and shows estimated text-to-video costs before you run.",
+      "button": "Start generating"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "pageName": "PixVerse v5.6 text-to-video"
+    }
+  }
+}

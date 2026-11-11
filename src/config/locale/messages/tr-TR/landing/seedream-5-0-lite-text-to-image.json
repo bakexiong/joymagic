@@ -1,0 +1,166 @@
+{
+  "title": "Seedream 5.0 Lite Metinden Görüntüye",
+  "subtitle": "Metin açıklamalarından etkileyici görüntüler oluşturun",
+  "prompt_label": "Prompt",
+  "prompt_placeholder": "Gece dış mekan fotoğraf çekimi: Genç bir adam halka açık telefon kulübesinin içinde duruyor, mavi telefon ahizesini kulağına tutuyor. Bir eli cebinde, rahat bir duruş sergiliyor. Desenli beyaz bir tişört, bol kahverengi pantolon giyiyor ve ceketi koluna asmış. Kulübenin camı şehir sokak lambalarını bokeh efektiyle yansıtarak vintage film tarzı yaratıyor.",
+  "prompt_tooltip": "Oluşturmak istediğiniz görüntünün açıklamasını girin",
+  "size_label": "Görüntü boyutu",
+  "size_hint": "Çıktı görüntü boyutunu seçin",
+  "width_label": "Genişlik",
+  "height_label": "Yükseklik",
+  "buttons": {
+    "generate": "Görüntü oluştur"
+  },
+  "errors": {
+    "promptRequired": "Prompt gereklidir"
+  },
+  "image_alt": "Oluşturulan görüntü",
+  "download": "İndir",
+  "image_placeholder": "Oluşturulan görüntü burada görünecek",
+  "prompt_inspirations_button": "Prompt ilhamları",
+  "prompt_guide_button": "Prompt rehberi",
+  "powered_by": "joymagic tarafından optimize edilen Seedream 5.0 Lite AI modeli ile çalışır",
+  "page": {
+    "metadata": {
+      "title": "Seedream 5.0 Lite Metinden Görüntüye - AI Görüntü Oluşturucu | joymagic",
+      "description": "ByteDance'ın Seedream 5.0 Lite modelini kullanarak metinden fotorealistik sahneler, illüstrasyonlar ve sanat eserleri oluşturun. joymagic'de İngilizce ve Çince iki dilli promptlarla AI görüntüleri oluşturun.",
+      "keywords": "Seedream 5.0 Lite, metinden görüntüye, AI görüntü oluşturucu, ByteDance, iki dilli promptlar"
+    },
+    "hero": {
+      "title": "Seedream 5.0 Lite AI Görüntü Oluşturucu",
+      "description": "Seedream 5.0 Lite, ByteDance'ın metin açıklamalarını görüntülere dönüştüren hafif AI modelidir. İngilizce veya Çince olarak herhangi bir sahne, karakter veya konsept tanımlayın ve aşağıda ücretsiz olarak etkileyici görüntüler oluşturun.",
+      "button1": "Şimdi deneyin",
+      "button2": "Fiyatları görün"
+    },
+    "heroDescription": "Seedream 5.0 Lite AI modeli ile basit metin açıklamalarından etkileyici görüntüler oluşturun.",
+    "keyFeatures": {
+      "title": "Temel özellikler",
+      "description": "Güçlü Seedream 5.0 Lite AI görüntü oluşturma yetenekleri",
+      "photorealistic": {
+        "title": "Fotorealistik kalite",
+        "description": "Profesyonel fotoğrafçılık gibi görünen görüntüler oluşturun. Doğru cilt dokuları, doğal aydınlatma, gerçekçi ortamlar — AI görüntülerinde yaygın olan tekinsiz vadi etkisi olmadan."
+      },
+      "complexScene": {
+        "title": "Karmaşık sahne anlayışı",
+        "description": "Birden fazla konu, mekansal ilişkiler ve belirli aydınlatma içeren ayrıntılı senaryolar tanımlayın. Model, metninizden kompozisyon, konumlandırma ve atmosferi doğru şekilde yorumlar."
+      },
+      "bilingual": {
+        "title": "İki dilli promptlar",
+        "description": "İngilizce, Çince veya her ikisinde yazın. Model, her iki dildeki nüanslı açıklamaları eşit derecede anlar — Çin kültürel referansları veya belirli terminoloji için kullanışlıdır."
+      },
+      "fastGeneration": {
+        "title": "Hızlı oluşturma",
+        "description": "Saniyeler içinde yüksek çözünürlüklü görüntüler oluşturun. Lite modeli hız için optimize edilmiştir, gerçek zamanlı yaratıcı keşif ve iterasyon için idealdir."
+      },
+      "styleFlexibility": {
+        "title": "Stil esnekliği",
+        "description": "Fotorealistik görüntüler, anime illüstrasyonları, yağlı boya tablolar, suluboyalar, 3D renderlar ve daha fazlasını oluşturun. Promptta istediğiniz stili belirtin veya modelin konuya uymasını sağlayın."
+      }
+    },
+    "howItWorks": {
+      "title": "Nasıl çalışır",
+      "description": "Üç basit adımda görüntü oluşturun",
+      "step1": {
+        "title": "Promptunuzu girin",
+        "description": "Oluşturmak istediğiniz görüntüyü tanımlayın"
+      },
+      "step2": {
+        "title": "Ayarları seçin",
+        "description": "Çıktı formatını ve tercihlerini seçin"
+      },
+      "step3": {
+        "title": "Oluşturun ve indirin",
+        "description": "AI tarafından oluşturulan görüntünüzü alın ve indirin"
+      }
+    },
+    "promptingTips": {
+      "title": "Prompt ipuçları",
+      "lighting": {
+        "title": "Aydınlatma konusunda spesifik olun",
+        "description": "\"Soldan altın saat güneş ışığı, yumuşak gölgeler\" \"iyi aydınlatma\"dan daha iyi çalışır."
+      },
+      "camera": {
+        "title": "Kamera detaylarını ekleyin",
+        "description": "\"85mm lens ile çekilmiş, sığ alan derinliği\" profesyonel fotoğraf kalitesi ekler."
+      },
+      "style": {
+        "title": "Sanat stilini belirtin",
+        "description": "\"Studio Ghibli tarzında dijital illüstrasyon\" veya \"hiperrealistik 3D render\" net bir yön verir."
+      },
+      "mood": {
+        "title": "Ruh hali ve atmosferi tanımlayın",
+        "description": "\"Rahat, sıcak, nostaljik his\" veya \"dramatik, sinematik, yüksek kontrast\" genel görüntüyü şekillendirir."
+      }
+    },
+    "useCases": {
+      "title": "Kullanım alanları",
+      "marketing": {
+        "title": "Pazarlama görselleri",
+        "description": "Fotoğraf çekimi olmadan ürün konseptleri, reklam görselleri ve sosyal medya içeriği oluşturun."
+      },
+      "character": {
+        "title": "Karakter tasarımı",
+        "description": "Metin açıklamalarından oyunlar, çizgi romanlar veya animasyon projeleri için orijinal karakterler oluşturun."
+      },
+      "concept": {
+        "title": "Konsept sanatı",
+        "description": "Yaratıcı projeler ve sunumlar için sahneleri, ortamları ve fikirleri hızla görselleştirin."
+      },
+      "stock": {
+        "title": "Stok fotoğraf alternatifi",
+        "description": "Genel stok kütüphanelerinde aramak yerine ihtiyacınız olan belirli görüntüleri oluşturun."
+      }
+    },
+    "faq": {
+      "title": "Sıkça sorulan sorular",
+      "description": "Seedream 5.0 Lite Metinden Görüntüye hakkında yaygın sorular",
+      "q1": {
+        "question": "Seedream 5.0 Lite nedir?",
+        "answer": "Seedream 5.0 Lite, ByteDance'ın hafif AI görüntü oluşturma modelidir. Optimize edilmiş performansla metin açıklamalarından hızlı, yüksek kaliteli görüntü oluşturma sunar."
+      },
+      "q2": {
+        "question": "Promptum ne kadar ayrıntılı olmalı?",
+        "answer": "Daha fazla ayrıntı genellikle daha iyi sonuçlar anlamına gelir. Konu, ortam, aydınlatma, stil, ruh hali ve kamera açısını ekleyin. Birkaç cümleyle başlayın ve gerekirse daha fazlasını ekleyin."
+      },
+      "q3": {
+        "question": "Hangi stilleri oluşturabilir?",
+        "answer": "Fotorealistik, anime, yağlı boya, suluboya, 3D render, eskiz ve daha fazlası. Promptta stili belirtin veya belirli sanatçılara ve stüdyolara referans verin."
+      },
+      "q4": {
+        "question": "Çince promptları destekliyor mu?",
+        "answer": "Evet, Seedream 5.0 Lite hem İngilizce hem de Çinceyi eşit derecede anlar. Her iki dilde de prompt yazabilir veya ikisini karıştırabilirsiniz."
+      },
+      "q5": {
+        "question": "Seedream 5'ten farkı nedir?",
+        "answer": "Seedream 5.0 Lite, yüksek görüntü kalitesini korurken daha hızlı oluşturma hızı için optimize edilmiş hafif bir versiyondur. Hızlı iterasyonlar ve uygun maliyetli kullanım için idealdir."
+      }
+    },
+    "privacySecurity": {
+      "title": "Gizlilik ve güvenlik",
+      "description": "Gizliliğiniz ve güvenliğiniz en önemli önceliklerimizdir.",
+      "secureProcessing": "Güvenli işleme",
+      "autoDelete": "Otomatik silme",
+      "neverShared": "Asla paylaşılmaz"
+    },
+    "finalCTA": {
+      "title": "Oluşturmaya hazır mısınız?",
+      "description": "Bugün metin açıklamalarınızdan harika görüntüler oluşturmaya başlayın.",
+      "button": "Şimdi deneyin"
+    },
+    "breadcrumb": {
+      "home": "Ana sayfa",
+      "textToImage": "Metinden Görüntüye",
+      "seedream50Lite": "Seedream 5.0 Lite"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Seedream 5.0 Lite Oluşturucu",
+      "howToName": "Seedream 5.0 Lite ile görüntü nasıl oluşturulur",
+      "howToDescription": "Seedream 5.0 Lite kullanarak metin açıklamalarından görüntü oluşturun",
+      "features": {
+        "aiTextToImage": "AI metinden görüntüye oluşturma",
+        "highQuality": "Yüksek kaliteli görüntüler",
+        "fastProcessing": "Hızlı işleme"
+      }
+    }
+  }
+}

@@ -1,0 +1,408 @@
+[
+  {
+    "title": "Core - Free Pose Remix Reimagined",
+    "prompt": "The final image must clearly and unmistakably fit the template name \"Core - Free Pose Remix Reimagined\". Anchor the visual concept around \"Core - Free Pose Remix\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a relaxed dreamy gaze. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/core-free-pose-remix-reimagined-ref-94440614798c58c8db8897dd9e2d68f0.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/core-free-pose-remix-reimagined-ref-94440614798c58c8db8897dd9e2d68f0.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/core-free-pose-remix-reimagined-face-30eebe8ad9f1744961de0e7bc6320ba8.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/core-free-pose-remix-reimagined-face-30eebe8ad9f1744961de0e7bc6320ba8.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The final image must clearly and unmistakably fit the template name \"Core - Free Pose Remix Reimagined\". Anchor the visual concept around \"Core - Free Pose Remix\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a relaxed dreamy gaze. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/core-free-pose-remix-reimagined-result-a9e8e18c1119ab2abf87feaa6138231a.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/core-free-pose-remix-reimagined-result-a9e8e18c1119ab2abf87feaa6138231a.png",
+    "generatedUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/core-free-pose-remix-reimagined-result-a9e8e18c1119ab2abf87feaa6138231a.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/zencreator/generator-by-ref/core-free-pose-remix-reimagined-result-a9e8e18c1119ab2abf87feaa6138231a.png"
+    ],
+    "generatedAt": "2026-05-02T17:03:10.510Z"
+  },
+  {
+    "title": "Azure Curve-fit Reimagined",
+    "prompt": "The final image must clearly and unmistakably fit the template name \"Azure Curve-fit Reimagined\". Anchor the visual concept around \"Azure Curve-fit\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, and overall scene structure. Do not create a new pose or alter the core posture from the first reference image. Use the second reference image only for face identity guidance. Keep the expression polished and natural with a mischievous grin. If the concept and the pose do not align well, the reference image should be regenerated rather than changing the final pose. Do not output a generic image that loses the recognizable template-name hook. Keep the same style family while preserving the first reference image's pose and replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail and a similar editorial style.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/azure-curve-fit-reimagined-ref-67452d612d2add92debbfd3083d7da4b.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/azure-curve-fit-reimagined-ref-67452d612d2add92debbfd3083d7da4b.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/azure-curve-fit-reimagined-face-67457a9ecfa515dce7ededebf7375bed.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/azure-curve-fit-reimagined-face-67457a9ecfa515dce7ededebf7375bed.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The final image must clearly and unmistakably fit the template name \"Azure Curve-fit Reimagined\". Anchor the visual concept around \"Azure Curve-fit\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, and overall scene structure. Do not create a new pose or alter the core posture from the first reference image. Use the second reference image only for face identity guidance. Keep the expression polished and natural with a mischievous grin. If the concept and the pose do not align well, the reference image should be regenerated rather than changing the final pose. Do not output a generic image that loses the recognizable template-name hook. Keep the same style family while preserving the first reference image's pose and replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail and a similar editorial style.",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/azure-curve-fit-reimagined-result-ddedc2633efa96506603f5229c893f4a.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/azure-curve-fit-reimagined-result-ddedc2633efa96506603f5229c893f4a.png",
+    "generatedUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/azure-curve-fit-reimagined-result-ddedc2633efa96506603f5229c893f4a.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/zencreator/generator-by-ref/azure-curve-fit-reimagined-result-ddedc2633efa96506603f5229c893f4a.png"
+    ],
+    "generatedAt": "2026-05-02T17:03:10.514Z"
+  },
+  {
+    "title": "Styled In Midnight Gown Reimagined",
+    "prompt": "The final image must clearly and unmistakably fit the template name \"Styled In Midnight Gown Reimagined\". Anchor the visual concept around \"Styled In Midnight Gown\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, and overall scene structure. Do not create a new pose or alter the core posture from the first reference image. Use the second reference image only for face identity guidance. Keep the expression polished and natural with a bold self-assured expression. If the concept and the pose do not align well, the reference image should be regenerated rather than changing the final pose. Do not output a generic image that loses the recognizable template-name hook. Keep the same style family while preserving the first reference image's pose and replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail and a similar editorial style.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/styled-in-midnight-gown-reimagined-ref-e55e87b6a15694729c0e7cd1daec8dd8.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/styled-in-midnight-gown-reimagined-ref-e55e87b6a15694729c0e7cd1daec8dd8.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/styled-in-midnight-gown-reimagined-face-569c26a2666f1ebac6b91bb343e64571.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/styled-in-midnight-gown-reimagined-face-569c26a2666f1ebac6b91bb343e64571.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The final image must clearly and unmistakably fit the template name \"Styled In Midnight Gown Reimagined\". Anchor the visual concept around \"Styled In Midnight Gown\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, and overall scene structure. Do not create a new pose or alter the core posture from the first reference image. Use the second reference image only for face identity guidance. Keep the expression polished and natural with a bold self-assured expression. If the concept and the pose do not align well, the reference image should be regenerated rather than changing the final pose. Do not output a generic image that loses the recognizable template-name hook. Keep the same style family while preserving the first reference image's pose and replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail and a similar editorial style.",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/styled-in-midnight-gown-reimagined-result-6e22ed66eca4d67d13218209a933bdef.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/styled-in-midnight-gown-reimagined-result-6e22ed66eca4d67d13218209a933bdef.png",
+    "generatedUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/styled-in-midnight-gown-reimagined-result-6e22ed66eca4d67d13218209a933bdef.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/zencreator/generator-by-ref/styled-in-midnight-gown-reimagined-result-6e22ed66eca4d67d13218209a933bdef.png"
+    ],
+    "generatedAt": "2026-05-02T17:03:10.514Z"
+  },
+  {
+    "title": "Glittering Gown Reimagined",
+    "prompt": "The final image must clearly and unmistakably fit the template name \"Glittering Gown Reimagined\". Anchor the visual concept around \"Glittering Gown\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, and overall scene structure. Do not create a new pose or alter the core posture from the first reference image. Use the second reference image only for face identity guidance. Keep the expression polished and natural with a wide playful smile. If the concept and the pose do not align well, the reference image should be regenerated rather than changing the final pose. Do not output a generic image that loses the recognizable template-name hook. Keep the same style family while preserving the first reference image's pose and replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail and a similar editorial style.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/glittering-gown-reimagined-ref-96f8f7a415488c523270d3bc7284379c.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/glittering-gown-reimagined-ref-96f8f7a415488c523270d3bc7284379c.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/glittering-gown-reimagined-face-4143cdc681177a889199d65f917ba3e1.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/glittering-gown-reimagined-face-4143cdc681177a889199d65f917ba3e1.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The final image must clearly and unmistakably fit the template name \"Glittering Gown Reimagined\". Anchor the visual concept around \"Glittering Gown\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, and overall scene structure. Do not create a new pose or alter the core posture from the first reference image. Use the second reference image only for face identity guidance. Keep the expression polished and natural with a wide playful smile. If the concept and the pose do not align well, the reference image should be regenerated rather than changing the final pose. Do not output a generic image that loses the recognizable template-name hook. Keep the same style family while preserving the first reference image's pose and replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail and a similar editorial style.",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/glittering-gown-reimagined-result-61fb0eefb46de0f5f25d5ff9401cec3d.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/glittering-gown-reimagined-result-61fb0eefb46de0f5f25d5ff9401cec3d.png",
+    "generatedUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/glittering-gown-reimagined-result-61fb0eefb46de0f5f25d5ff9401cec3d.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/zencreator/generator-by-ref/glittering-gown-reimagined-result-61fb0eefb46de0f5f25d5ff9401cec3d.png"
+    ],
+    "generatedAt": "2026-05-02T17:03:10.514Z"
+  },
+  {
+    "title": "Prismatic Chill Reimagined",
+    "prompt": "The final image must clearly and unmistakably fit the template name \"Prismatic Chill Reimagined\". Anchor the visual concept around \"Prismatic Chill\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, and overall scene structure. Do not create a new pose or alter the core posture from the first reference image. Use the second reference image only for face identity guidance. Keep the expression polished and natural with a calm serious editorial expression. If the concept and the pose do not align well, the reference image should be regenerated rather than changing the final pose. Do not output a generic image that loses the recognizable template-name hook. Keep the same style family while preserving the first reference image's pose and replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail and a similar editorial style.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/prismatic-chill-reimagined-ref-6da5a82c4dadb9a047935b1cd8724f66.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/prismatic-chill-reimagined-ref-6da5a82c4dadb9a047935b1cd8724f66.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/prismatic-chill-reimagined-face-6712a4aae4a52bfd0e31732363120609.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/prismatic-chill-reimagined-face-6712a4aae4a52bfd0e31732363120609.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The final image must clearly and unmistakably fit the template name \"Prismatic Chill Reimagined\". Anchor the visual concept around \"Prismatic Chill\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, and overall scene structure. Do not create a new pose or alter the core posture from the first reference image. Use the second reference image only for face identity guidance. Keep the expression polished and natural with a calm serious editorial expression. If the concept and the pose do not align well, the reference image should be regenerated rather than changing the final pose. Do not output a generic image that loses the recognizable template-name hook. Keep the same style family while preserving the first reference image's pose and replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail and a similar editorial style.",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/prismatic-chill-reimagined-result-1b7adb3ee0a6a47ecd603e89daa8f9a9.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/prismatic-chill-reimagined-result-1b7adb3ee0a6a47ecd603e89daa8f9a9.png",
+    "generatedUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/prismatic-chill-reimagined-result-1b7adb3ee0a6a47ecd603e89daa8f9a9.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/zencreator/generator-by-ref/prismatic-chill-reimagined-result-1b7adb3ee0a6a47ecd603e89daa8f9a9.png"
+    ],
+    "generatedAt": "2026-05-02T17:03:10.514Z"
+  },
+  {
+    "title": "Two-Tone Hair Style Reimagined",
+    "prompt": "The final image must clearly and unmistakably fit the template name \"Two-Tone Hair Style Reimagined\". Anchor the visual concept around \"Two-Tone Hair Style\". Make the hairstyle itself the unmistakable hero of the image. Show a true two-tone hairstyle with two clearly different hair colors physically present in the hair, not just colored lighting on normal hair. Use a clean, visible split, block-dye, or strongly separated two-color placement that reads instantly as two-tone hair. Do not rely on pink-and-blue lighting alone to fake the effect. Frame the image so the hair color separation is obvious at first glance. Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, and overall scene structure. Do not create a new pose or alter the core posture from the first reference image. Use the second reference image only for face identity guidance. Keep the expression polished and natural with a soft flirtatious half-smile. If the concept and the pose do not align well, the reference image should be regenerated rather than changing the final pose. Do not output a generic image that loses the recognizable template-name hook. Keep the same style family while preserving the first reference image's pose and replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail and a similar editorial style.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/two-tone-hair-style-reimagined-ref-ea7b585b9181e62ad71f6010393a80af.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/two-tone-hair-style-reimagined-ref-ea7b585b9181e62ad71f6010393a80af.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/two-tone-hair-style-reimagined-face-fe04f19a842f1b2cbf8c557cac291fda.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/two-tone-hair-style-reimagined-face-fe04f19a842f1b2cbf8c557cac291fda.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The final image must clearly and unmistakably fit the template name \"Two-Tone Hair Style Reimagined\". Anchor the visual concept around \"Two-Tone Hair Style\". Make the hairstyle itself the unmistakable hero of the image. Show a true two-tone hairstyle with two clearly different hair colors physically present in the hair, not just colored lighting on normal hair. Use a clean, visible split, block-dye, or strongly separated two-color placement that reads instantly as two-tone hair. Do not rely on pink-and-blue lighting alone to fake the effect. Frame the image so the hair color separation is obvious at first glance. Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, and overall scene structure. Do not create a new pose or alter the core posture from the first reference image. Use the second reference image only for face identity guidance. Keep the expression polished and natural with a soft flirtatious half-smile. If the concept and the pose do not align well, the reference image should be regenerated rather than changing the final pose. Do not output a generic image that loses the recognizable template-name hook. Keep the same style family while preserving the first reference image's pose and replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail and a similar editorial style.",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/two-tone-hair-style-reimagined-result-ef04fdea14ee2f2660b628d2a37c3e5c.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/two-tone-hair-style-reimagined-result-ef04fdea14ee2f2660b628d2a37c3e5c.png",
+    "generatedUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/two-tone-hair-style-reimagined-result-ef04fdea14ee2f2660b628d2a37c3e5c.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/zencreator/generator-by-ref/two-tone-hair-style-reimagined-result-ef04fdea14ee2f2660b628d2a37c3e5c.png"
+    ],
+    "generatedAt": "2026-05-02T17:03:10.514Z"
+  },
+  {
+    "title": "Product Cart Fun Reimagined",
+    "prompt": "The final image must clearly and unmistakably fit the template name \"Product Cart Fun Reimagined\". Anchor the visual concept around \"Product Cart Fun\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with an intense confident stare. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/product-cart-fun-reimagined-ref-d8f255dd01bc96f5e4908a7f36d57fb2.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/product-cart-fun-reimagined-ref-d8f255dd01bc96f5e4908a7f36d57fb2.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/product-cart-fun-reimagined-face-47b7eb464d1452df9dea06bc39cb30ed.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/product-cart-fun-reimagined-face-47b7eb464d1452df9dea06bc39cb30ed.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The final image must clearly and unmistakably fit the template name \"Product Cart Fun Reimagined\". Anchor the visual concept around \"Product Cart Fun\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with an intense confident stare. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/product-cart-fun-reimagined-result-dea950fe50013627f6d36929c3a2195a.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/product-cart-fun-reimagined-result-dea950fe50013627f6d36929c3a2195a.png",
+    "generatedUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/product-cart-fun-reimagined-result-dea950fe50013627f6d36929c3a2195a.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/zencreator/generator-by-ref/product-cart-fun-reimagined-result-dea950fe50013627f6d36929c3a2195a.png"
+    ],
+    "generatedAt": "2026-05-02T17:03:10.514Z"
+  },
+  {
+    "title": "Corset Bubble Elegance Reimagined",
+    "prompt": "The final image must clearly and unmistakably fit the template name \"Corset Bubble Elegance Reimagined\". Anchor the visual concept around \"Corset Bubble Elegance\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. enhance the glamour styling and flattering silhouette Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a surprised bright expression. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/corset-bubble-elegance-reimagined-ref-17837482e1f84c57888490978352bc3b.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/corset-bubble-elegance-reimagined-ref-17837482e1f84c57888490978352bc3b.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/corset-bubble-elegance-reimagined-face-7f6177da3fc8931b188987d4f361635f.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/corset-bubble-elegance-reimagined-face-7f6177da3fc8931b188987d4f361635f.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The final image must clearly and unmistakably fit the template name \"Corset Bubble Elegance Reimagined\". Anchor the visual concept around \"Corset Bubble Elegance\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. enhance the glamour styling and flattering silhouette Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a surprised bright expression. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/corset-bubble-elegance-reimagined-result-8beb02d98b87e6bbfee555483784cb01.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/corset-bubble-elegance-reimagined-result-8beb02d98b87e6bbfee555483784cb01.png",
+    "generatedUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/corset-bubble-elegance-reimagined-result-8beb02d98b87e6bbfee555483784cb01.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/zencreator/generator-by-ref/corset-bubble-elegance-reimagined-result-8beb02d98b87e6bbfee555483784cb01.png"
+    ],
+    "generatedAt": "2026-05-02T17:03:10.514Z"
+  },
+  {
+    "title": "Gray Style Suit Reimagined Reimagined",
+    "prompt": "The final image must clearly and unmistakably fit the template name \"Gray Style Suit Reimagined Reimagined\". Anchor the visual concept around \"Gray Style Suit\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a relaxed dreamy gaze. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/gray-style-suit-reimagined-reimagined-ref-4dae4868bd2f039b5119a20e64c61702.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/gray-style-suit-reimagined-reimagined-ref-4dae4868bd2f039b5119a20e64c61702.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/gray-style-suit-reimagined-reimagined-face-31594b8b78b85ed5d4cf57fa65564e4b.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/gray-style-suit-reimagined-reimagined-face-31594b8b78b85ed5d4cf57fa65564e4b.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The final image must clearly and unmistakably fit the template name \"Gray Style Suit Reimagined Reimagined\". Anchor the visual concept around \"Gray Style Suit\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a relaxed dreamy gaze. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/gray-style-suit-reimagined-reimagined-result-897846f99edbebfed9a6d4fe95ba43ea.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/gray-style-suit-reimagined-reimagined-result-897846f99edbebfed9a6d4fe95ba43ea.png",
+    "generatedUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/gray-style-suit-reimagined-reimagined-result-897846f99edbebfed9a6d4fe95ba43ea.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/zencreator/generator-by-ref/gray-style-suit-reimagined-reimagined-result-897846f99edbebfed9a6d4fe95ba43ea.png"
+    ],
+    "generatedAt": "2026-05-02T17:03:10.514Z"
+  },
+  {
+    "title": "Crosswalk Unicorn Reimagined Reimagined",
+    "prompt": "The final image must clearly and unmistakably fit the template name \"Crosswalk Unicorn Reimagined Reimagined\". Anchor the visual concept around \"Crosswalk Unicorn\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a mischievous grin. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/crosswalk-unicorn-reimagined-reimagined-ref-0297b37a027f1f691e3aad9ad51d0739.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/crosswalk-unicorn-reimagined-reimagined-ref-0297b37a027f1f691e3aad9ad51d0739.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/crosswalk-unicorn-reimagined-reimagined-face-9ef1a42bce3670fa3f6e63fa8a687e19.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/crosswalk-unicorn-reimagined-reimagined-face-9ef1a42bce3670fa3f6e63fa8a687e19.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The final image must clearly and unmistakably fit the template name \"Crosswalk Unicorn Reimagined Reimagined\". Anchor the visual concept around \"Crosswalk Unicorn\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a mischievous grin. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/crosswalk-unicorn-reimagined-reimagined-result-80c231c795d40d73.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/crosswalk-unicorn-reimagined-reimagined-result-80c231c795d40d73.png",
+    "generatedUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/crosswalk-unicorn-reimagined-reimagined-result-80c231c795d40d73.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/zencreator/generator-by-ref/crosswalk-unicorn-reimagined-reimagined-result-80c231c795d40d73.png"
+    ],
+    "generatedAt": "2026-05-02T17:03:10.514Z"
+  },
+  {
+    "title": "Queen Of Fire Reimagined Reimagined Reimagined Reimagined",
+    "prompt": "The final image must clearly and unmistakably fit the template name \"Queen Of Fire Reimagined Reimagined Reimagined Reimagined\". Anchor the visual concept around \"Queen Of Fire\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a bold self-assured expression. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/queen-of-fire-reimagined-reimagined-reimagined-reimagined-ref-c0b264ba0a0638cbca04580de38eba80.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/queen-of-fire-reimagined-reimagined-reimagined-reimagined-ref-c0b264ba0a0638cbca04580de38eba80.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/queen-of-fire-reimagined-reimagined-reimagined-reimagined-face-7d2f7022f44a2accdf25cd51a768add0.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/queen-of-fire-reimagined-reimagined-reimagined-reimagined-face-7d2f7022f44a2accdf25cd51a768add0.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The final image must clearly and unmistakably fit the template name \"Queen Of Fire Reimagined Reimagined Reimagined Reimagined\". Anchor the visual concept around \"Queen Of Fire\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a bold self-assured expression. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/queen-of-fire-reimagined-reimagined-reimagined-reimagined-result-c77c92f33d27ef401a7e593d6544e21f.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/queen-of-fire-reimagined-reimagined-reimagined-reimagined-result-c77c92f33d27ef401a7e593d6544e21f.png",
+    "generatedUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/queen-of-fire-reimagined-reimagined-reimagined-reimagined-result-c77c92f33d27ef401a7e593d6544e21f.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/zencreator/generator-by-ref/queen-of-fire-reimagined-reimagined-reimagined-reimagined-result-c77c92f33d27ef401a7e593d6544e21f.png"
+    ],
+    "generatedAt": "2026-05-02T17:03:10.514Z"
+  },
+  {
+    "title": "Crown Yourself Reimagined Reimagined",
+    "prompt": "The final image must clearly and unmistakably fit the template name \"Crown Yourself Reimagined Reimagined\". Anchor the visual concept around \"Crown Yourself\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a wide playful smile. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/crown-yourself-reimagined-reimagined-ref-8eccb82cb0ecbffe84f0baab0465b923.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/crown-yourself-reimagined-reimagined-ref-8eccb82cb0ecbffe84f0baab0465b923.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/crown-yourself-reimagined-reimagined-face-3a15494bee9732a6845a49439e2f7aed.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/crown-yourself-reimagined-reimagined-face-3a15494bee9732a6845a49439e2f7aed.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The final image must clearly and unmistakably fit the template name \"Crown Yourself Reimagined Reimagined\". Anchor the visual concept around \"Crown Yourself\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a wide playful smile. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/crown-yourself-reimagined-reimagined-result-48fac53a8176e09ddd2b45982fd4c249.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/crown-yourself-reimagined-reimagined-result-48fac53a8176e09ddd2b45982fd4c249.png",
+    "generatedUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/crown-yourself-reimagined-reimagined-result-48fac53a8176e09ddd2b45982fd4c249.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/zencreator/generator-by-ref/crown-yourself-reimagined-reimagined-result-48fac53a8176e09ddd2b45982fd4c249.png"
+    ],
+    "generatedAt": "2026-05-02T17:03:10.514Z"
+  },
+  {
+    "title": "Green Jacket, Leather Pants Reimagined Reimagined",
+    "prompt": "The final image must clearly and unmistakably fit the template name \"Green Jacket, Leather Pants Reimagined Reimagined\". Anchor the visual concept around \"Green Jacket, Leather Pants\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a calm serious editorial expression. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/green-jacket-leather-pants-reimagined-reimagined-ref-4f0580e9e3d6a9a8b0f490fe298dcd13.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/green-jacket-leather-pants-reimagined-reimagined-ref-4f0580e9e3d6a9a8b0f490fe298dcd13.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/green-jacket-leather-pants-reimagined-reimagined-face-3c21580ab234a1c740cc22495baafeae.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/green-jacket-leather-pants-reimagined-reimagined-face-3c21580ab234a1c740cc22495baafeae.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The final image must clearly and unmistakably fit the template name \"Green Jacket, Leather Pants Reimagined Reimagined\". Anchor the visual concept around \"Green Jacket, Leather Pants\".  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a calm serious editorial expression. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/green-jacket-leather-pants-reimagined-reimagined-result-f8ee80e94266c1c3badc243e5431e987.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/green-jacket-leather-pants-reimagined-reimagined-result-f8ee80e94266c1c3badc243e5431e987.png",
+    "generatedUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/green-jacket-leather-pants-reimagined-reimagined-result-f8ee80e94266c1c3badc243e5431e987.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/zencreator/generator-by-ref/green-jacket-leather-pants-reimagined-reimagined-result-f8ee80e94266c1c3badc243e5431e987.png"
+    ],
+    "generatedAt": "2026-05-02T17:11:20.105Z"
+  },
+  {
+    "title": "Broken Mirror Editorial Editorial Editorial Portrait",
+    "prompt": "The final image must clearly and unmistakably fit the template name \"Broken Mirror Editorial Editorial Editorial Portrait\". Anchor the visual concept around \"Broken Mirror Editorial Portrait\" and keep it feeling like a fresh \"Broken Mirror Editorial Editorial Portrait\" variation.  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a soft flirtatious half-smile. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/broken-mirror-editorial-editorial-editorial-portrait-ref-c9256e9b67ffc594907ac95d6d51ffcc.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/broken-mirror-editorial-editorial-editorial-portrait-ref-c9256e9b67ffc594907ac95d6d51ffcc.png",
+          "status": "uploaded"
+        },
+        {
+          "id": "referenceImages-1",
+          "preview": "https://ocdn.10b.ai/zencreator/generator-by-ref/broken-mirror-editorial-editorial-editorial-portrait-face-27bafe865d306d5fa0db71f09fac4db8.png",
+          "url": "https://ocdn.10b.ai/zencreator/generator-by-ref/broken-mirror-editorial-editorial-editorial-portrait-face-27bafe865d306d5fa0db71f09fac4db8.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The final image must clearly and unmistakably fit the template name \"Broken Mirror Editorial Editorial Editorial Portrait\". Anchor the visual concept around \"Broken Mirror Editorial Portrait\" and keep it feeling like a fresh \"Broken Mirror Editorial Editorial Portrait\" variation.  Prioritize template-name semantics first, then pose adherence, then face replacement. The final image should look like a viewer could correctly guess the template name from the picture. Keep the main pose, theme, and color palette of the photo. Replace the face. If you see tattoos in the photo, remove them. Use the first reference image as the strict pose and composition reference. Closely follow the first reference image for pose, body positioning, gesture, framing, camera angle, crop, and scene layout. Do not invent a new pose. Do not significantly change the body posture, limb placement, or camera framing from the first reference image. Use the second reference image only for face identity guidance. Keep the expression and mood polished and natural, with a soft flirtatious half-smile. If the current pose reference does not support the template-name concept well, the concept should be solved in the regenerated reference image rather than by breaking pose adherence in the final image. Do not output a generic image that loses the recognizable template-name hook. The final image should preserve the first reference image's pose structure while replacing the identity with the second reference image's face. Generate one polished photorealistic final result with natural detail.",
+      "aspectRatio": "9:16"
+    },
+    "previewUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/broken-mirror-editorial-editorial-editorial-portrait-result-2be5b03f55b33bc71c0b153343db39e9.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/broken-mirror-editorial-editorial-editorial-portrait-result-2be5b03f55b33bc71c0b153343db39e9.png",
+    "generatedUrl": "https://ocdn.10b.ai/zencreator/generator-by-ref/broken-mirror-editorial-editorial-editorial-portrait-result-2be5b03f55b33bc71c0b153343db39e9.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/zencreator/generator-by-ref/broken-mirror-editorial-editorial-editorial-portrait-result-2be5b03f55b33bc71c0b153343db39e9.png"
+    ],
+    "generatedAt": "2026-05-02T17:03:10.514Z"
+  }
+]

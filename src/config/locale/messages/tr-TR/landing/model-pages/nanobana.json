@@ -1,0 +1,88 @@
+{
+  "title": "Nano Muz",
+  "provider": "Google",
+  "eyebrow": "Modelin ilk açılış sayfası",
+  "description": "Nano Banana ile başlayın, ardından en iyi şekilde yönettiği iş akışlarına dalın: rehberli görüntü düzenleme, hızlı konsept oluşturma ve ürününüzün halihazırda kullandığı çalışma tezgahı davranışının aynısıyla yaratıcı-yerel yineleme.",
+  "seoTitle": "Nano Muz Yapay Zeka Modeli Sayfası | Görüntü Düzenleme + Metinden Görüntüye | joymagic",
+  "seoDescription": "Model öncelikli bir açılış sayfası olarak Nano Banana'yı keşfedin. Sahneleri değiştirin, yaratıcı çalışma tezgahını koruyun ve tek akışta görüntü düzenleme ve metinden görüntüye dönüştürme için Nano Banana'yı kullanın.",
+  "stats": [
+    {
+      "label": "Birincil mod",
+      "value": "Resim Düzenleme"
+    },
+    {
+      "label": "Genişletilmiş sahneler",
+      "value": "2 canlı iş akışı"
+    },
+    {
+      "label": "Panelin yeniden kullanımı",
+      "value": "Yaratıcıyla aynı"
+    }
+  ],
+  "differentiators": [
+    "Genel bir sahne listesi yerine modelle yola çıkın, böylece ücretli trafik daha sıkı bir değer teklifi elde eder.",
+    "Ürün davranışını tutarlı tutmak için mevcut yaratıcı form şemasını ve sağ taraftaki medya panelini yeniden kullanın.",
+    "Tam sayfaları kopyalamak yerine tek bir ön ayarlı kayıt defterini genişleterek gelecek model sayfaları ekleyin."
+  ],
+  "gallery": [
+    {
+      "title": "Ürün Yeniden Stili",
+      "caption": "Tek bir model ve daha sıkı bir revizyon döngüsüyle sade bir e-ticaret paket görüntüsünü birinci sınıf bir lansman görseline dönüştürün.",
+      "prompt": "Yüklenen şişe fotoğrafını fırçalanmış metal yansımaları, yumuşak sisi ve şampanya altın rengi paletiyle lüks bir cilt bakımı reklamına dönüştürün.",
+      "accentClassName": "from-[#f4d38f] via-[#8b6b2b] to-[#161616] text-white"
+    },
+    {
+      "title": "Karakter Yenileme",
+      "caption": "Tekrarlanan düzenlemelerde kimliği korurken pozu, stili ve ışıklandırmayı güncelleyin.",
+      "prompt": "Aynı karakteri ve yüz kimliğini koruyun, dergi portre aydınlatmasına, yumuşak pembe saçlara ve koleksiyonluk figür stiline geçin.",
+      "accentClassName": "from-[#b78cff] via-[#5c38a5] to-[#151515] text-white"
+    },
+    {
+      "title": "Yalnızca Bilgi İstemi Kavramları",
+      "caption": "Düzenlemelere, rötuşlara veya üst düzey geçişlere geçmeden önce yalnızca bilgi istemi konseptleri için aynı modeli kullanın.",
+      "prompt": "Krom tezgahlar, kremsi gün ışığı ve net okunabilir tipte oluşturulmuş eğlenceli tabelalarla fütüristik bir tatlı kafe iç mekanı yaratın.",
+      "accentClassName": "from-[#7ee7f2] via-[#167f8c] to-[#131313] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Neden genel bir araç sayfası yerine /model/nanobana kullanmalısınız?",
+      "answer": "Bu sayfa model odaklı trafik için tasarlanmıştır. Ziyaretçileri öncelikle bir araç ailesi seçmeye zorlamak yerine Nano Banana ile başlıyor ve daha sonra bu modelin en iyi uyduğu iş akışlarına doğru genişliyor."
+    },
+    {
+      "question": "Bu sayfada farklı bir sağ taraftaki medya paneli kullanılıyor mu?",
+      "answer": "Hayır. Çalışma tezgahı alanı yaratıcı tarafındaki aynı medya panelini yeniden kullanır, böylece kaydedilen öğeler, şablonlar, sahne değiştirme ve kullanım kalıpları /creator ile tutarlı kalır."
+    },
+    {
+      "question": "Daha fazla model bu şablonu yeniden kullanabilir mi?",
+      "answer": "Evet. Sayfa bir kayıt defteri tarafından yönetiliyor, bu nedenle yeni bir /model/[slug] sayfası eklemek çoğunlukla bir veri görevinin yanı sıra modele özgü kopya ayarlamalarından ibarettir."
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "Resim Düzenleme",
+      "title": "Sahne 01 · Kılavuzlu görüntü düzenleme",
+      "description": "Rötuşlama, stil aktarımı, ürün geliştirme ve kimliği koruyan revizyonlar için varsayılan düzenleme yüzeyi olarak Nano Banana'yı kullanın.",
+      "spotlight": "Zaten mevcut olan ve daha hızlı ikinci geçişe ihtiyaç duyan varlıklar için en iyisi.",
+      "starterPrompt": "Orijinal kompozisyonu koruyun, arka planı temizleyin, aydınlatmayı sinematik stüdyo görünümüne yükseltin ve tüm marka ayrıntılarını koruyun.",
+      "useCases": [
+        "Ürün görseli temizleme ve birinci sınıf yeniden şekillendirme",
+        "UGC çerçevelerini reklama hazır önemli görsellere dönüştürün",
+        "Karakter veya IP güvenli stil değişiklikleri"
+      ]
+    },
+    {
+      "modeLabel": "Metinden Görüntüye",
+      "title": "Sahne 02 · Hızlı ilk konsept oluşturma",
+      "description": "Konsept taslaklarına, kampanya araştırmalarına veya yeni sanat yönlendirmelerine ihtiyaç duyduğunuzda aynı modelden sıfıra bir görsel oluşturmaya geçin.",
+      "spotlight": "Daha sonra neyin düzenleneceğini veya yükseltileceğini seçmeden önce yeni yol tarifleri oluşturmak için en iyisi.",
+      "starterPrompt": "Bir yaz içeceği lansmanı için parlak bir kampanya anahtarı görseli, parlak öğleden sonra arka ışığı, narenciye tonları, cesur, okunabilir başlık tipografisi oluşturun.",
+      "useCases": [
+        "Kampanya ruh hali panoları ve kahraman konsepti",
+        "Sosyal grafikler ve poster taslakları",
+        "Ambalaj, tabela ve metin ağırlıklı kompozisyonlar"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

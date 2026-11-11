@@ -1,0 +1,376 @@
+[
+  {
+    "prompt": "ultra-realistic, cinematic lighting, soft focus, aesthetic composition, delicate details, beautiful color grading, serene atmosphere, masterpiece photography style, elegant and poetic feeling .",
+    "params": {
+      "prompt": "ultra-realistic, cinematic lighting, soft focus, aesthetic composition, delicate details, beautiful color grading, serene atmosphere, masterpiece photography style, elegant and poetic feeling .",
+      "referenceImage": [],
+      "aspectRatio": "1:1",
+      "quality": "1",
+      "stylize": 0,
+      "chaos": 0,
+      "weird": 0,
+      "version": "7",
+      "niji": "close",
+      "seed": "653195692"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/1f88f67698d8f8e10bffbb9e81858b4b.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/1f88f67698d8f8e10bffbb9e81858b4b.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/84a88bbb9a23d591fc2f09a934736ea8.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/84a88bbb9a23d591fc2f09a934736ea8.png"
+    ],
+    "generatedAt": "2026-04-15T03:15:14.520Z"
+  },
+  {
+    "prompt": "A lone, heavily armored knight made of stained glass, standing guard at the shattered gate of a crystal palace floating in a void of swirling galaxies. Cracks in the glass armor leak faint, colorful light. Dramatic low-angle shot, octane render, volumetric nebula lighting, sense of duty and loss.",
+    "params": {
+      "prompt": "A lone, heavily armored knight made of stained glass, standing guard at the shattered gate of a crystal palace floating in a void of swirling galaxies. Cracks in the glass armor leak faint, colorful light. Dramatic low-angle shot, octane render, volumetric nebula lighting, sense of duty and loss.",
+      "referenceImage": [],
+      "aspectRatio": "1:1",
+      "quality": "1",
+      "stylize": 0,
+      "chaos": 0,
+      "weird": 0,
+      "version": "7",
+      "niji": "close",
+      "seed": "1813715476"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/d721a4dabb5809bea166428970aeca1c.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/d721a4dabb5809bea166428970aeca1c.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/06db98873c868f55f0a5e0b471b9ad05.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/06db98873c868f55f0a5e0b471b9ad05.png"
+    ],
+    "generatedAt": "2026-04-15T03:15:45.950Z"
+  },
+  {
+    "prompt": "ultra-realistic, cinematic lighting, soft focus, aesthetic composition, delicate details, beautiful color grading, serene atmosphere, masterpiece photography style, elegant and poetic feeling — add the text “MJ” subtly in the bottom right corner of the image",
+    "params": {
+      "prompt": "ultra-realistic, cinematic lighting, soft focus, aesthetic composition, delicate details, beautiful color grading, serene atmosphere, masterpiece photography style, elegant and poetic feeling — add the text “MJ” subtly in the bottom right corner of the image",
+      "referenceImage": [],
+      "aspectRatio": "1:1",
+      "quality": "1",
+      "stylize": 0,
+      "chaos": 0,
+      "weird": 0,
+      "version": "7",
+      "niji": "close",
+      "seed": "1194430180"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/f70aadc601b179f76113ce5c70dcb554.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/f70aadc601b179f76113ce5c70dcb554.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/29406c30c782670aec7cf784fa4c1948.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/29406c30c782670aec7cf784fa4c1948.png"
+    ],
+    "generatedAt": "2026-04-15T03:16:18.345Z"
+  },
+  {
+    "prompt": "Dimly lit by bioluminescent green tubes lining concrete walls. Glass tanks hold half-built androids—exposed chrome skeletons, synthetic skin peeling to reveal glowing circuits. A scientist in a tattered lab coat adjusts a neural interface, goggles reflecting a twisting holographic DNA strand. A prosthetic hand twitches on a metal table; centrifuges hum, oozing neon sludge into beakers.",
+    "params": {
+      "prompt": "Dimly lit by bioluminescent green tubes lining concrete walls. Glass tanks hold half-built androids—exposed chrome skeletons, synthetic skin peeling to reveal glowing circuits. A scientist in a tattered lab coat adjusts a neural interface, goggles reflecting a twisting holographic DNA strand. A prosthetic hand twitches on a metal table; centrifuges hum, oozing neon sludge into beakers.",
+      "referenceImage": [],
+      "aspectRatio": "2:3",
+      "quality": "2",
+      "stylize": 300,
+      "chaos": 0,
+      "weird": 20,
+      "version": "7",
+      "niji": "none",
+      "seed": "63164079"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/46dc59eeea5cedbb0d40b3d0e496fc29.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/46dc59eeea5cedbb0d40b3d0e496fc29.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/ca1a6f780cd23ed748d0aed15c36569e.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/ca1a6f780cd23ed748d0aed15c36569e.png"
+    ],
+    "generatedAt": "2026-04-15T03:17:38.971Z"
+  },
+  {
+    "prompt": "Desert under a bruised purple sky, dotted with crashed hovercraft and rusted cyber debris. A scavenger in tattered armor walks, metal prosthetic leg clicking through sand. A derelict communication tower looms (bent antennae); a holographic distress signal flickers (“S.O.S.—CYBORGS HUNTING”). Sandstorms swirl, carrying glowing wire fragments; sun glints off salvaged circuit boards in a backpack.",
+    "params": {
+      "prompt": "Desert under a bruised purple sky, dotted with crashed hovercraft and rusted cyber debris. A scavenger in tattered armor walks, metal prosthetic leg clicking through sand. A derelict communication tower looms (bent antennae); a holographic distress signal flickers (“S.O.S.—CYBORGS HUNTING”). Sandstorms swirl, carrying glowing wire fragments; sun glints off salvaged circuit boards in a backpack.",
+      "referenceImage": [],
+      "aspectRatio": "2:3",
+      "quality": "2",
+      "stylize": 852,
+      "chaos": 49,
+      "weird": 880,
+      "version": "7",
+      "niji": "none",
+      "seed": "1711235969"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/8645539edbf1423d0d6a6ecf9048fb08.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/8645539edbf1423d0d6a6ecf9048fb08.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/2180aee85116e55f9389ef75df1bb00a.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/2180aee85116e55f9389ef75df1bb00a.png"
+    ],
+    "generatedAt": "2026-04-15T03:19:02.600Z"
+  },
+  {
+    "prompt": "Vast domed room with a starry sky ceiling (constellations shaped like computer chips). Rows of floating holographic books hover—pages flip as visitors gesture. A librarian with a cybernetic eye scans a data pad; a book projects a 3D cyberpunk revolution scene. Another hologram shows a rotating neural interface model. Soft blue light emanates from shelves; marble floors reflect glowing book spines.",
+    "params": {
+      "prompt": "Vast domed room with a starry sky ceiling (constellations shaped like computer chips). Rows of floating holographic books hover—pages flip as visitors gesture. A librarian with a cybernetic eye scans a data pad; a book projects a 3D cyberpunk revolution scene. Another hologram shows a rotating neural interface model. Soft blue light emanates from shelves; marble floors reflect glowing book spines.",
+      "referenceImage": [],
+      "aspectRatio": "2:3",
+      "quality": "2",
+      "stylize": 1000,
+      "chaos": 0,
+      "weird": 0,
+      "version": "7",
+      "niji": "none",
+      "seed": "1735430879"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/3909444b91746430dbabdcdf280c0877.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/3909444b91746430dbabdcdf280c0877.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/b78e7f15c4ad85c51a420159bad9bc70.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/b78e7f15c4ad85c51a420159bad9bc70.png"
+    ],
+    "generatedAt": "2026-04-15T03:20:29.880Z"
+  },
+  {
+    "prompt": "Neon rain drips down a cyberpunk skyline, holographic billboards glitching behind her. She’s clad in a black leather jacket with LED strips, cybernetic arm glowing cyan, nails painted electric purple. Her hair is half-shaved, dyed pink at the roots, with a neural interface chip embedded at her temple. She smirks, eyes reflecting a holographic keyboard, while leaning against a rusted pipe—steam hisses nearby, and a stray drone hums past her shoulder.",
+    "params": {
+      "prompt": "Neon rain drips down a cyberpunk skyline, holographic billboards glitching behind her. She’s clad in a black leather jacket with LED strips, cybernetic arm glowing cyan, nails painted electric purple. Her hair is half-shaved, dyed pink at the roots, with a neural interface chip embedded at her temple. She smirks, eyes reflecting a holographic keyboard, while leaning against a rusted pipe—steam hisses nearby, and a stray drone hums past her shoulder.",
+      "referenceImage": [],
+      "aspectRatio": "2:3",
+      "quality": "2",
+      "stylize": 300,
+      "chaos": 0,
+      "weird": 20,
+      "version": "7",
+      "niji": "none",
+      "seed": "1694715491"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/1e264debe078600aff77792b8cb312a1.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/1e264debe078600aff77792b8cb312a1.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/e08c3c5f5a6706366db55d0f2993f316.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/e08c3c5f5a6706366db55d0f2993f316.png"
+    ],
+    "generatedAt": "2026-04-15T03:21:51.725Z"
+  },
+  {
+    "prompt": "Concept art for a female dwarven warrior, clad in ornate, rune-etched obsidian plate armor, wielding a massive glowing warhammer. Standing defiantly on a snowy mountain peak during a blizzard. Dramatic backlighting, detailed character design, fantasy realism, style of Blizzard Entertainment concept art.",
+    "params": {
+      "prompt": "Concept art for a female dwarven warrior, clad in ornate, rune-etched obsidian plate armor, wielding a massive glowing warhammer. Standing defiantly on a snowy mountain peak during a blizzard. Dramatic backlighting, detailed character design, fantasy realism, style of Blizzard Entertainment concept art.",
+      "referenceImage": [],
+      "aspectRatio": "2:3",
+      "quality": "2",
+      "stylize": 300,
+      "chaos": 0,
+      "weird": 20,
+      "version": "7",
+      "niji": "none",
+      "seed": "1471222489"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/96cdb2231c3a16d248c486432bd622f1.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/96cdb2231c3a16d248c486432bd622f1.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/2a44d61ff886034970f9801957fdcfef.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/2a44d61ff886034970f9801957fdcfef.png"
+    ],
+    "generatedAt": "2026-04-15T01:34:10.724Z"
+  },
+  {
+    "prompt": "Cinematic action frame capturing the climax of a wizard duel. Two mages, one cloaked in shadow wielding green necrotic energy, the other in white robes wielding golden divine light, clash their spells in the center of a crumbling cathedral interior. Sparks, debris, and magical particles explode outwards. Dynamic Dutch angle, motion blur, high fantasy art, style of Magic the Gathering illustration.",
+    "params": {
+      "prompt": "Cinematic action frame capturing the climax of a wizard duel. Two mages, one cloaked in shadow wielding green necrotic energy, the other in white robes wielding golden divine light, clash their spells in the center of a crumbling cathedral interior. Sparks, debris, and magical particles explode outwards. Dynamic Dutch angle, motion blur, high fantasy art, style of Magic the Gathering illustration.",
+      "referenceImage": [],
+      "aspectRatio": "16:9",
+      "quality": "1",
+      "stylize": 50,
+      "chaos": 0,
+      "weird": 15,
+      "version": "7",
+      "niji": "5",
+      "seed": "1994503079"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/f57ea998dc91c63d566abc550164a6ad.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/f57ea998dc91c63d566abc550164a6ad.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/b850adde5f595c06ee594200cc18e214.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/b850adde5f595c06ee594200cc18e214.png"
+    ],
+    "generatedAt": "2026-04-15T01:35:17.507Z"
+  },
+  {
+    "prompt": "Cinematic establishing shot for a sci-fi film. Ultra-wide angle view of a colossal, ancient alien derelict spaceship half-buried in the crimson sands of a desolate desert planet under twin suns. Tiny human explorers in white suits stand near its base for scale. Golden hour lighting, atmospheric dust, photorealistic matte painting, style of Denis Villeneuve.",
+    "params": {
+      "prompt": "Cinematic establishing shot for a sci-fi film. Ultra-wide angle view of a colossal, ancient alien derelict spaceship half-buried in the crimson sands of a desolate desert planet under twin suns. Tiny human explorers in white suits stand near its base for scale. Golden hour lighting, atmospheric dust, photorealistic matte painting, style of Denis Villeneuve.",
+      "referenceImage": [],
+      "aspectRatio": "21:9",
+      "quality": "1",
+      "stylize": 200,
+      "chaos": 0,
+      "weird": 40,
+      "version": "7",
+      "niji": "none",
+      "seed": "607202709"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/9fb268fe601c44c58b9a5f0b8a8c38f5.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/9fb268fe601c44c58b9a5f0b8a8c38f5.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/cbf12d9c36a8410442e19dfd89c8fd8c.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/cbf12d9c36a8410442e19dfd89c8fd8c.png"
+    ],
+    "generatedAt": "2026-04-15T12:50:04.984Z"
+  },
+  {
+    "prompt": "A lone, heavily armored knight made of stained glass, standing guard at the shattered gate of a crystal palace floating in a void of swirling galaxies. Cracks in the glass armor leak faint, colorful light. Dramatic low-angle shot, octane render, volumetric nebula lighting, sense of duty and loss.",
+    "params": {
+      "prompt": "A lone, heavily armored knight made of stained glass, standing guard at the shattered gate of a crystal palace floating in a void of swirling galaxies. Cracks in the glass armor leak faint, colorful light. Dramatic low-angle shot, octane render, volumetric nebula lighting, sense of duty and loss.",
+      "referenceImage": [],
+      "aspectRatio": "4:3",
+      "quality": "1",
+      "stylize": 0,
+      "chaos": 0,
+      "weird": 0,
+      "version": "6",
+      "niji": "none",
+      "seed": "1243612102"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/1d29a0a8e26477761e9eccb3cb4ace0a.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/1d29a0a8e26477761e9eccb3cb4ace0a.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/d9f4dbdafad38a7783f3a1c3ec606aa3.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/d9f4dbdafad38a7783f3a1c3ec606aa3.png"
+    ],
+    "generatedAt": "2026-04-15T01:36:11.828Z"
+  },
+  {
+    "prompt": "A magical forest with a hidden door, fantasy watercolor style, glowing fireflies, soft greens and purples, open composition , Portrait (4:3)\nLandscape (16:9), dreamy atmosphere. Brighten the colour a little, and have fairies.",
+    "params": {
+      "prompt": "A magical forest with a hidden door, fantasy watercolor style, glowing fireflies, soft greens and purples, open composition , Portrait (4:3)\nLandscape (16:9), dreamy atmosphere. Brighten the colour a little, and have fairies.",
+      "referenceImage": [],
+      "aspectRatio": "16:9",
+      "quality": "1",
+      "stylize": 159,
+      "chaos": 12,
+      "weird": 265,
+      "version": "7",
+      "niji": "none",
+      "seed": "489343719"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/de4e4d83a93188c2c2d0221006447e3e.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/de4e4d83a93188c2c2d0221006447e3e.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/ecb9c88ca2d05b20bf205488282d1c83.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/ecb9c88ca2d05b20bf205488282d1c83.png"
+    ],
+    "generatedAt": "2026-04-15T03:22:43.807Z"
+  },
+  {
+    "prompt": "Surreal cinematic shot. A fully furnished, vintage living room (armchair, lamp, bookshelf) is completely submerged underwater. Sunlight filters down from the surface, creating rippling caustic patterns on the furniture. A lone figure in a flowing white dress floats peacefully in the center of the room. Ethereal, dreamlike atmosphere, photorealistic, style of Gregory Crewdson.",
+    "params": {
+      "prompt": "Surreal cinematic shot. A fully furnished, vintage living room (armchair, lamp, bookshelf) is completely submerged underwater. Sunlight filters down from the surface, creating rippling caustic patterns on the furniture. A lone figure in a flowing white dress floats peacefully in the center of the room. Ethereal, dreamlike atmosphere, photorealistic, style of Gregory Crewdson.",
+      "referenceImage": [],
+      "aspectRatio": "4:3",
+      "quality": "1",
+      "stylize": 20,
+      "chaos": 10,
+      "weird": 100,
+      "version": "6.1",
+      "niji": "none",
+      "seed": "1203997310"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/c5eb7d39f320ac0545be168f98969538.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/c5eb7d39f320ac0545be168f98969538.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/fca63a093cdd63a4277f246790aeeb24.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/fca63a093cdd63a4277f246790aeeb24.png"
+    ],
+    "generatedAt": "2026-04-15T01:36:43.294Z"
+  },
+  {
+    "prompt": "Adorable creature concept for a fantasy RPG. A small, fluffy, six-legged fox-like creature made of living crystal, with large, curious glowing blue eyes. It's playfully chasing a magical butterfly in an enchanted forest clearing. Whimsical, detailed, Pixar animation style.",
+    "params": {
+      "prompt": "Adorable creature concept for a fantasy RPG. A small, fluffy, six-legged fox-like creature made of living crystal, with large, curious glowing blue eyes. It's playfully chasing a magical butterfly in an enchanted forest clearing. Whimsical, detailed, Pixar animation style.",
+      "referenceImage": [],
+      "aspectRatio": "9:21",
+      "quality": "1",
+      "stylize": 300,
+      "chaos": 0,
+      "weird": 20,
+      "version": "7",
+      "niji": "5",
+      "seed": "519051597"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/b5277bd771164ac0550b713d0d520456.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/b5277bd771164ac0550b713d0d520456.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/6d17b6bf079e49666f0843d5af5fe80b.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/6d17b6bf079e49666f0843d5af5fe80b.png"
+    ],
+    "generatedAt": "2026-04-15T12:50:51.882Z"
+  },
+  {
+    "prompt": "Ethereal portrait of a beautiful wood elf or fairy. She has ash blonde hair in an elegant updo, adorned with butterflies, and pointed ears. Dreamy expression, looking up and away. Enchanted forest background, soft magical lighting, fantasy art, digital painting, highly detailed.",
+    "params": {
+      "prompt": "Ethereal portrait of a beautiful wood elf or fairy. She has ash blonde hair in an elegant updo, adorned with butterflies, and pointed ears. Dreamy expression, looking up and away. Enchanted forest background, soft magical lighting, fantasy art, digital painting, highly detailed.",
+      "referenceImage": [],
+      "aspectRatio": "9:16",
+      "quality": "1",
+      "stylize": 227,
+      "chaos": 10,
+      "weird": 0,
+      "version": "7",
+      "niji": "none",
+      "seed": "1301813857"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/a836e6e82df98a4a19bafc636f9bb668.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/a836e6e82df98a4a19bafc636f9bb668.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/c1afb9004b6e9e276f44eb7ad5364b85.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/c1afb9004b6e9e276f44eb7ad5364b85.png"
+    ],
+    "generatedAt": "2026-04-15T01:37:34.401Z"
+  },
+  {
+    "prompt": "A 1920s Art Deco jazz club scene, but all the patrons and musicians are elegant, anthropomorphic cats dressed in flapper dresses and suits. Dynamic composition, smoky atmosphere, vibrant gold and black color scheme, illustration in the style of Tamara de Lempicka.",
+    "params": {
+      "prompt": "A 1920s Art Deco jazz club scene, but all the patrons and musicians are elegant, anthropomorphic cats dressed in flapper dresses and suits. Dynamic composition, smoky atmosphere, vibrant gold and black color scheme, illustration in the style of Tamara de Lempicka.",
+      "referenceImage": [],
+      "aspectRatio": "3:4",
+      "quality": "1",
+      "stylize": 187,
+      "chaos": 64,
+      "weird": 477,
+      "version": "6.1",
+      "niji": "5",
+      "seed": "2027445781"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/0ba08ac152f68fbf405f6fecfb130653.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/0ba08ac152f68fbf405f6fecfb130653.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/b048d244f8ea7c7a02ba60290539797f.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/b048d244f8ea7c7a02ba60290539797f.png"
+    ],
+    "generatedAt": "2026-04-15T01:38:44.102Z"
+  },
+  {
+    "prompt": "A giant, intricate clockwork heart rusting peacefully in the center of an ancient, overgrown forest clearing. Bioluminescent moss glows softly on its exposed gears. Ethereal morning mist hangs in the air, volumetric lighting filtering through the canopy. Detailed illustration, cinematic composition, style of Hayao Miyazaki meets H.R. Giger.",
+    "params": {
+      "prompt": "A giant, intricate clockwork heart rusting peacefully in the center of an ancient, overgrown forest clearing. Bioluminescent moss glows softly on its exposed gears. Ethereal morning mist hangs in the air, volumetric lighting filtering through the canopy. Detailed illustration, cinematic composition, style of Hayao Miyazaki meets H.R. Giger.",
+      "referenceImage": [],
+      "aspectRatio": "1:1",
+      "quality": "1",
+      "stylize": 180,
+      "chaos": 0,
+      "weird": 500,
+      "version": "7",
+      "niji": "none",
+      "seed": "1298851916"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/2c627b324febadbb96d4bc6e4cddc57a.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/2c627b324febadbb96d4bc6e4cddc57a.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/b6077bb477ba7a4e7a93aea7cb8ae4cd.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/b6077bb477ba7a4e7a93aea7cb8ae4cd.png"
+    ],
+    "generatedAt": "2026-04-15T01:39:21.943Z"
+  }
+]

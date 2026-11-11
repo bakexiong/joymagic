@@ -1,0 +1,174 @@
+{
+  "title": "Midjourney Tarzı Metinden Görüntüye",
+  "subtitle": "Metin açıklamalarından çarpıcı Midjourney tarzı görseller oluşturun",
+  "prompt_label": "İstem",
+  "prompt_placeholder": "Altın saat aydınlatması, empresyonist tarz, yumuşak odak, rüya gibi atmosfer ile eterik orman manzarası.",
+  "prompt_tooltip": "Oluşturmak istediğiniz görselin açıklamasını girin",
+  "aspect_ratio_label": "En-Boy Oranı",
+  "aspect_ratio_hint": "Oluşturulan görsel için en-boy oranını seçin",
+  "aspect_ratio_placeholder": "En-boy oranı seçin (isteğe bağlı)",
+  "aspect_ratio_none": "(Yok)",
+  "resolution_label": "Çözünürlük",
+  "resolution_hint": "Oluşturulan görsel için çözünürlüğü seçin",
+  "output_format_label": "Çıktı Formatı",
+  "output_format_hint": "Çıktı görsel formatını seçin",
+  "sref_label": "Referans Görseli",
+  "sref_placeholder": "Referans görsel URL'si girin (isteğe bağlı)",
+  "sref_hint": "Oluşturma stilini etkilemek için referans görsel yükleyin veya URL sağlayın",
+  "sref_upload_hint": "Referans görsel yükleyin veya aşağıya URL girin",
+  "sref_upload_active": "Yüklenen görsel referans olarak kullanılıyor",
+  "quality_label": "Kalite",
+  "quality_hint": "Görsel kalite seviyesini seçin",
+  "stylize_label": "Stilize",
+  "stylize_hint": "Sanatsal stil yoğunluğunu kontrol edin (0-1000)",
+  "chaos_label": "Kaos",
+  "chaos_hint": "Sonuçlara çeşitlilik ekleyin (0-100)",
+  "weird_label": "Tuhaf",
+  "weird_hint": "Görselleri tuhaf ve alışılmadık yapın (0-3000)",
+  "version_label": "Sürüm",
+  "version_hint": "Midjourney model sürümünü seçin",
+  "niji_label": "Niji Modu",
+  "niji_hint": "Anime estetiği için Niji modeli",
+  "niji_none": "Yok",
+  "seed_label": "Tohum",
+  "seed_hint": "Tekrarlanabilir sonuçlar için tohum değeri (-1 rastgele için)",
+  "estimated_credits": "Tahmini Krediler",
+  "buttons": {
+    "generate": "Görsel Oluştur",
+    "generating": "Oluşturuluyor...",
+    "estimating": "Tahmin ediliyor...",
+    "checking": "Kontrol ediliyor...",
+    "unavailable": "Kullanılamıyor",
+    "credits": "kredi"
+  },
+  "errors": {
+    "promptRequired": "İstem gereklidir",
+    "generate_failed": "Görsel oluşturma başarısız: {status}",
+    "generate_failed_default": "Görsel oluşturma başarısız",
+    "no_request_id": "İstek kimliği alınamadı",
+    "restricted": "Bu hizmet bölgenizde kullanılamıyor"
+  },
+  "image_alt": "Oluşturulan görsel",
+  "download": "İndir",
+  "image_placeholder": "Oluşturulan görsel burada görünecek",
+  "prompt_inspirations_button": "İstem İlhamları",
+  "prompt_guide_button": "İstem Rehberi",
+  "powered_by": "joymagic tarafından optimize edilen Midjourney tarzı AI modeli ile çalışır",
+  "prompt_guides": {
+    "guide1": "En İyi Midjourney Sahne İstemleri",
+    "guide2": "En İyi Midjourney Portre İstemleri",
+    "guide3": "Midjourney Ürün Fotoğrafı İstemleri",
+    "guide4": "Midjourney Görsel İstemleri: 5 Katmanlı Çerçeve",
+    "guide5": "Kopyala-Yapıştır Midjourney Sanat İstemleri",
+    "guide6": "Midjourney İstem Mühendisliği",
+    "guide7": "Midjourney Stil Rehberi",
+    "guide8": "Midjourney Kompozisyon Teknikleri",
+    "guide9": "50 En İyi Midjourney Yaratıcı İstem",
+    "guide10": "50 En İyi Midjourney Sanat Stili İstemi"
+  },
+  "page": {
+    "metadata": {
+      "title": "Midjourney Tarzı AI Metinden Görüntüye Oluşturucu | joymagic",
+      "description": "Metin açıklamalarından çarpıcı Midjourney tarzı görseller oluşturun. Sanatsal kontrol, yüksek çözünürlük çıktısı ve yaratıcı esneklik ile profesyonel AI görsel oluşturma.",
+      "keywords": "midjourney, metinden görüntüye, ai görsel oluşturucu, midjourney alternatifi, ai sanat oluşturucu, yaratıcı görsel oluşturma, sanatsal ai, midjourney tarzı"
+    },
+    "hero": {
+      "title": "Midjourney Tarzı Metinden Görüntüye",
+      "description": "Gelişmiş AI ile metin açıklamalarından çarpıcı Midjourney tarzı görseller oluşturun. Sanatsal kontrol, yaratıcı esneklik ve profesyonel kalitede çıktılar deneyimleyin. Yüksek kaliteli AI tarafından oluşturulan görseller arayan tasarımcılar, sanatçılar ve yaratıcı profesyoneller için mükemmel.<br/><br/>Diğer AI modellerini mi arıyorsunuz? <a href=\"/text-to-image\" class=\"text-primary underline\">Tüm metinden görüntüye araçları keşfedin</a>.",
+      "button1": "Şimdi Deneyin",
+      "button2": "Fiyatları Görüntüle"
+    },
+    "keyFeatures": {
+      "title": "Midjourney Tarzı Özellikler",
+      "description": "Yaratıcı görsel oluşturma için profesyonel sanatsal yetenekler",
+      "artisticControl": {
+        "title": "Sanatsal Kontrol",
+        "description": "Doğal dil istemleri ile sanat stili, ruh hali ve estetik yönü ince ayarlayın. Yaratıcı vizyonunuza ulaşmak için resim stilleri, sanat hareketleri veya belirli görsel nitelikleri tanımlayın."
+      },
+      "highQuality": {
+        "title": "Yüksek Kalite Çıktı",
+        "description": "Olağanüstü detay ve netliğe sahip profesyonel düzeyde görseller oluşturun. Ticari projeler, portföy çalışmaları ve yüksek çözünürlüklü baskı ihtiyaçları için uygundur."
+      },
+      "creativeFlexibility": {
+        "title": "Yaratıcı Esneklik",
+        "description": "Fotorealistik renderlardan soyut sanata kadar sınırsız yaratıcı olasılıkları keşfedin. Stilleri karıştırın, kavramları birleştirin ve benzersiz görsel kombinasyonlarla denemeler yapın."
+      },
+      "compositionControl": {
+        "title": "Kompozisyon Kontrolü",
+        "description": "Açıklayıcı istemler aracılığıyla çerçeveleme, perspektif ve görsel hiyerarşiyi yönlendirin. Teknik fotoğrafçılık bilgisi olmadan profesyonel kompozisyon elde edin."
+      },
+      "styleConsistency": {
+        "title": "Stil Tutarlılığı",
+        "description": "Birden fazla oluşturmada tutarlı görsel stil koruyun. Uyumlu seriler, marka materyalleri veya proje koleksiyonları oluşturmak için mükemmel."
+      }
+    },
+    "standardFeatures": {
+      "title": "Standart Özellikler",
+      "description": "İhtiyacınız olan tüm temel yetenekler",
+      "multipleStyles": {
+        "title": "Çoklu Sanat Stilleri",
+        "description": "Fotorealistik, anime, yağlı boya, suluboya, dijital sanat"
+      },
+      "naturalLanguage": {
+        "title": "Doğal Dil İstemleri",
+        "description": "Vizyonunuzu günlük dilde tanımlayın"
+      },
+      "fastGeneration": {
+        "title": "Hızlı Oluşturma",
+        "description": "Görsel başına 10-20 saniye"
+      },
+      "multipleFormats": {
+        "title": "Çoklu Çıktı Formatları",
+        "description": "JPG, PNG, WebP"
+      }
+    },
+    "useCases": {
+      "title": "Kullanım Durumları",
+      "conceptArt": {
+        "title": "Konsept Sanatı ve Tasarım",
+        "description": "Oyunlar, filmler ve yaratıcı projeler için konsept sanatı oluşturun. Görsel yönleri hızla keşfedin ve geleneksel illüstrasyon süresi olmadan fikirleri yineleyin."
+      },
+      "marketing": {
+        "title": "Pazarlama ve Reklamcılık",
+        "description": "Kampanyalar, sosyal medya ve tanıtım materyalleri için göz alıcı görseller oluşturun. Öne çıkan ve dikkat çeken benzersiz görseller yaratın."
+      },
+      "creative": {
+        "title": "Yaratıcı Keşif",
+        "description": "Sanatsal stiller ve görsel kavramlarla denemeler yapın. İlham arayan veya yeni yönler keşfeden sanatçılar, tasarımcılar ve yaratıcılar için mükemmel."
+      },
+      "portfolio": {
+        "title": "Portföy ve Sunum",
+        "description": "Portföyler, sunumlar ve müşteri teklifleri için profesyonel kalitede görseller oluşturun. Cilalı, yüksek çözünürlüklü görsellerle fikirleri sergileyin."
+      }
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "description": "Midjourney tarzı metinden görüntüye oluşturma hakkında yaygın sorular",
+      "q1": {
+        "question": "Midjourney tarzı oluşturma nasıl çalışır?",
+        "answer": "AI modelimiz, estetik çekicilik, yaratıcı yorum ve profesyonel kalitede çıktılara odaklanarak Midjourney'e benzer sanatsal niteliklere sahip görseller oluşturmak için eğitilmiştir. Vizyonunuzu doğal dilde tanımlamanız yeterlidir."
+      },
+      "q2": {
+        "question": "Bu diğer AI görsel oluşturuculardan ne farkı var?",
+        "answer": "Midjourney tarzı oluşturma, sanatsal kalite, yaratıcı yorum ve estetik çekiciliği vurgular. Güçlü kompozisyon ve sanatsal uyum ile görsel olarak çarpıcı görseller üretmede mükemmeldir."
+      },
+      "q3": {
+        "question": "Oluşturulan görselleri ticari olarak kullanabilir miyim?",
+        "answer": "Evet, platformumuz aracılığıyla oluşturulan görseller ticari amaçlarla kullanılabilir. Belirli kullanım hakları ve atıf gereksinimleri için lütfen hizmet şartlarımızı inceleyin."
+      },
+      "q4": {
+        "question": "İstemlerim ne kadar ayrıntılı olmalı?",
+        "answer": "Daha ayrıntılı istemler genellikle daha iyi sonuçlar üretir. Konu, sanat stili, ruh hali, aydınlatma, kompozisyon ve istediğiniz belirli görsel öğeleri ekleyin. Örneğin: \"altın saat aydınlatması, empresyonist tarz, yumuşak odak, rüya gibi atmosfer ile eterik orman manzarası\"."
+      },
+      "q5": {
+        "question": "Oluşturulan görsellerin çözünürlüğü nedir?",
+        "answer": "Oluşturulan görseller yüksek çözünürlüktedir ve web, baskı ve sunumlar dahil çoğu profesyonel kullanım için uygundur. Daha da yüksek çözünürlük çıktıları için isteğe bağlı ölçeklendirme mevcuttur."
+      }
+    },
+    "finalCTA": {
+      "title": "Oluşturmaya Hazır mısınız?",
+      "description": "Bugün metin açıklamalarınızdan çarpıcı Midjourney tarzı görseller oluşturmaya başlayın.",
+      "button": "Şimdi Deneyin"
+    }
+  }
+}

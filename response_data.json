@@ -1,0 +1,27 @@
+{
+  "assistantMessage": "好的，我为你构思了一张高质感的写实人像：一位年轻的东亚女性，身着简约的白色针织上衣，背景为干净的浅灰色摄影棚，光线柔和且富有质感。正在为你生成中……",
+  "promptGuideOptions": [
+    {
+      "id": "portrait-change-outfit",
+      "title": "更换服装",
+      "description": "尝试不同的服装风格，如职业装或休闲装",
+      "prompt": "保持人物和背景不变，将白色针织上衣更换为深蓝色职业西装。"
+    },
+    {
+      "id": "portrait-change-background",
+      "title": "更换背景",
+      "description": "将背景更换为户外或更具氛围感的场景",
+      "prompt": "保持人物不变，将背景更换为阳光明媚的户外公园，光线更加自然。"
+    },
+    {
+      "id": "portrait-change-expression",
+      "title": "调整表情",
+      "description": "尝试不同的表情，如开怀大笑或深沉思考",
+      "prompt": "保持人物和背景不变，将表情调整为开怀大笑，展现更活泼的氛围。"
+    }
+  ],
+  "uiLabels": {
+    "groupLabel": "肖像调整",
+    "promptTextLabel": "你可以继续调整细节，例如：“换成黑色连衣裙”或“背景改为咖啡馆”"
+  }
+}

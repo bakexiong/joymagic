@@ -1,0 +1,174 @@
+{
+  "header": {
+    "brand": {
+      "title": "Z-IMAGE",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Z-IMAGE"
+      },
+      "url": "/admin"
+    },
+    "show_trigger": false
+  },
+  "main_navs": [
+    {
+      "title": "System",
+      "items": [
+        {
+          "title": "Users & Permissions",
+          "icon": "User",
+          "is_expand": true,
+          "children": [
+            {
+              "title": "Users",
+              "url": "/admin/users",
+              "icon": "User",
+              "permission": "admin.users.read"
+            },
+            {
+              "title": "Roles",
+              "url": "/admin/roles",
+              "icon": "Users",
+              "permission": "admin.roles.read"
+            },
+            {
+              "title": "Permissions",
+              "url": "/admin/permissions",
+              "icon": "ShieldCheck",
+              "permission": "admin.permissions.read"
+            }
+          ]
+        },
+        {
+          "title": "Pages & Content",
+          "icon": "FileText",
+          "children": [
+            {
+              "title": "Categories",
+              "icon": "Folder",
+              "url": "/admin/categories",
+              "permission": "admin.categories.read"
+            },
+            {
+              "title": "Posts",
+              "icon": "FileText",
+              "url": "/admin/posts",
+              "permission": "admin.posts.read"
+            }
+          ]
+        },
+        {
+          "title": "Payments & Credits",
+          "icon": "DollarSign",
+          "children": [
+            {
+              "title": "Payments",
+              "url": "/admin/payments",
+              "icon": "DollarSign",
+              "permission": "admin.payments.read"
+            },
+            {
+              "title": "Subscriptions",
+              "url": "/admin/subscriptions",
+              "icon": "CreditCard",
+              "permission": "admin.subscriptions.read"
+            },
+            {
+              "title": "Credits",
+              "url": "/admin/credits",
+              "icon": "Coins",
+              "permission": "admin.credits.read"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Business",
+      "items": [
+        {
+          "title": "AI Tasks",
+          "url": "/admin/ai-tasks",
+          "icon": "Brain",
+          "permission": "admin.ai-tasks.read"
+        },
+        {
+          "title": "AI Chats",
+          "url": "/admin/chats",
+          "icon": "MessageCircle",
+          "permission": "admin.ai-tasks.read"
+        }
+      ]
+    }
+  ],
+  "bottom_nav": {
+    "items": [
+      {
+        "title": "Settings",
+        "url": "/admin/settings/general",
+        "icon": "Settings",
+        "permission": "admin.settings.write"
+      },
+      {
+        "title": "API Keys",
+        "url": "/admin/apikeys",
+        "icon": "Key",
+        "permission": "admin.apikeys.read"
+      }
+    ]
+  },
+  "user": {
+    "nav": {
+      "items": [
+        {
+          "title": "Profile",
+          "url": "/settings/profile",
+          "icon": "User",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_email": false,
+    "show_signout": true,
+    "signout_callback": "/"
+  },
+  "footer": {
+    "nav": {
+      "items": [
+        {
+          "title": "Home",
+          "url": "/",
+          "icon": "Home",
+          "target": "_blank"
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/your-app-name",
+          "icon": "Github",
+          "target": "_blank"
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/your-app-name",
+          "icon": "RiTwitterXFill",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/your-app-name",
+          "icon": "RiDiscordFill",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "url": "mailto:support@your-domain.com",
+          "icon": "Mail",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  },
+  "variant": "sidebar"
+}

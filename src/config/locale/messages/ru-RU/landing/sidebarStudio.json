@@ -1,0 +1,46 @@
+{
+  "primary": {
+    "home": "Главная",
+    "infiniteCanvas": "Бесконечный холст",
+    "image": "Изображение",
+    "video": "Видео",
+    "effects": "Эффекты"
+  },
+  "imageTools": {
+    "Editor & Combiner": "Редактор и комбайнер",
+    "Image to Image": "Изображение в изображение",
+    "Text to Image": "Текст в изображение",
+    "PhotoShoot": "Фотосъёмка",
+    "Variations": "Вариации",
+    "Face Generator": "Генератор лиц",
+    "Image Upscaler": "Увеличение изображения",
+    "Background Remover": "Удаление фона",
+    "Image Eraser": "Ластик изображения",
+    "Image Effects": "Эффекты изображения"
+  },
+  "videoTools": {
+    "Image to Video": "Изображение в видео",
+    "Text to Video": "Текст в видео",
+    "Longcat Avatar": "Lip-Sync",
+    "Reference To Video": "Reference To Video",
+    "Video Extend": "Video Extend",
+    "Motion Control": "Управление движением",
+    "Video Effects": "Видеоэффекты"
+  },
+  "library": {
+    "title": "Библиотека",
+    "assets": "Материалы",
+    "creations": "Работы",
+    "uploads": "Загрузки",
+    "collections": "Коллекции"
+  },
+  "creationTypes": {
+    "Video": "Видео",
+    "Image": "Изображение",
+    "Audio": "Аудио",
+    "Effect": "Эффект"
+  },
+  "badges": {
+    "beta": "Бета"
+  }
+}

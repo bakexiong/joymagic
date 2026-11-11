@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "joymagic - 輕鬆創作驚豔 AI 圖片與影片",
+    "description": "joymagic 是一款 AI 驅動的圖片與影片生成創意平台。從文字生成高品質視覺作品，更高效地強化內容，為現代創作者提供強大的 AI 工具。",
+    "keywords": "joymagic, 圖片生成, 人工智慧, 擴散 Transformer, 開源, 電腦視覺, 深度學習"
+  },
+  "auth": {
+    "reset_password_email_sent": "如果該郵箱已註冊，我們已寄出重置連結。",
+    "reset_password_email_failed": "發送重置密碼郵件失敗。",
+    "reset_password_no_email": "當前用戶沒有綁定郵箱。",
+    "reset_password_page_title": "設定新密碼",
+    "reset_password_page_description": "請輸入一個更安全的新密碼。",
+    "reset_password_toast_short": "密碼太短，請至少輸入 8 位字符。",
+    "reset_password_toast_long": "密碼太長，請使用更短的密碼。",
+    "reset_password_toast_invalid_token": "重置連結無效或已過期，請重新申請。",
+    "reset_password_toast_success": "密碼重置成功，請使用新密碼登入。",
+    "reset_password_toast_failed": "重置密碼失敗，請稍後重試。",
+    "forgot_password_description": "請輸入您的帳戶郵箱，我們會發送一封重置密碼郵件給您。",
+    "forgot_password_email_required": "郵箱為必填項。",
+    "verify_email_title": "請驗證郵箱",
+    "verify_email_description": "我們已向 {email} 發送驗證連結，請前往郵箱完成驗證後再登入。",
+    "verify_email_go_sign_in": "去登入",
+    "verify_email_resend": "重新發送郵件",
+    "verify_email_resend_countdown": "{seconds} 秒後可再次發送",
+    "verify_email_resend_sent": "驗證郵件已重新發送，請查收郵箱。",
+    "verify_email_resend_failed": "重新發送驗證郵件失敗，請稍後再試。",
+    "verify_email_resend_missing_email": "請先填寫郵箱。",
+    "verify_email_resend_cooldown": "請等待 {seconds} 秒後再試。",
+    "verify_email_already_verified": "該郵箱已完成驗證，可以直接登入。",
+    "sign_up_required_fields": "姓名、郵箱和密碼為必填項。",
+    "sign_up_failed": "註冊失敗，請稍後重試。",
+    "email_not_verified": "您的郵箱尚未完成驗證，請前往郵箱點擊驗證連結後再登入。"
+  },
+  "api": {
+    "nsfw_blocked": "生成結果包含違規內容，已攔截。"
+  }
+}

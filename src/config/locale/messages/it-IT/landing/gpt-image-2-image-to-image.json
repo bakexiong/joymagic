@@ -1,0 +1,120 @@
+{
+  "page": {
+    "metadata": {
+      "title": "GPT-Image 2 Immagine in immagine: modifica poster, UI e immagini fotorealistiche | __MARCA__",
+      "description": "Modifica fino a 4 immagini caricate con GPT-Image 2 per la pulizia dei poster cinesi, layout in stile documento, ritocco fotorealistico e trasformazioni di mockup dell'interfaccia.",
+      "keywords": "GPT-Image 2 immagine per immagine, modifica di poster cinesi, editor di immagini fotorealistiche, UI editor di mockup, AI da immagine a immagine, modifica fino a 4 immagini"
+    },
+    "hero": {
+      "title": "GPT-Image 2 Immagine in immagine",
+      "description": "La modifica delle immagini GPT-Image 2 è particolarmente potente quando è necessario rivedere elementi visivi ricchi di testo, rimodellare layout simili a documenti, ritoccare scene fotorealistiche o trasformare screenshot in stile UI. Puoi caricare fino a 4 immagini sorgente, descrivere il cambiamento in un linguaggio semplice e mantenere il risultato allineato con le giuste proporzioni.<br/><br/>Hai invece bisogno di generare da zero? <a href=\"/text-to-image/gpt-image-2\" class=\"text-primary underline\">Try GPT-Image 2 Text to Image</a>.",
+      "button1": "Prova ora",
+      "button2": "Visualizza i prezzi"
+    },
+    "features": {
+      "title": "Perché GPT-Image 2 per l'editing delle immagini",
+      "description": "Un flusso di lavoro di editing più potente per layout basati sul testo, perfezionamenti fotorealistici e immagini in stile interfaccia.",
+      "references": {
+        "title": "Modifica fino a 4 immagini insieme",
+        "description": "Carica un breve batch di immagini sorgente quando desideri che una direzione app sia coerente in un set di poster, in un gruppo di risorse della campagna o in una serie di mockup UI."
+      },
+      "promptLed": {
+        "title": "Modifiche basate sul testo e sul layout",
+        "description": "GPT-Image 2 è più adatto al testo di poster, alla struttura del documento, alle etichette e ai layout visivi misti, rendendolo utile per attività di revisione che vanno oltre il semplice scambio di stili."
+      },
+      "framing": {
+        "title": "Controllo dell'output fotorealistico e intuitivo per UI",
+        "description": "Scegli il fotogramma finale prima della generazione in modo che il ritocco fotografico, il restyling dello screenshot e le modifiche alla composizione si avvicinino al posizionamento previsto."
+      }
+    },
+    "promptingTips": {
+      "title": "Come ottenere modifiche GPT-Image 2 migliori",
+      "specific": {
+        "title": "Dire cosa deve cambiare e cosa deve restare",
+        "description": "Per le modifiche a poster, documenti e UI, sii esplicito riguardo al blocco di testo, all'area di layout o all'elemento visivo che desideri modificare mantenendo intatto il resto."
+      },
+      "batch": {
+        "title": "Mantenere una direzione attraverso il batch",
+        "description": "Quando carichi più immagini, utilizza un'istruzione chiara in modo che l'intero set rimanga nella stessa famiglia visiva e livello di qualità."
+      },
+      "framing": {
+        "title": "Scegli il rapporto target in anticipo",
+        "description": "Scegli le proporzioni finali prima della generazione in modo che ritaglio, spaziatura e composizione corrispondano meglio al punto in cui verrà utilizzato il risultato."
+      },
+      "details": {
+        "title": "Richiama il realismo o lo stile dell'interfaccia",
+        "description": "Indica se desideri un ritocco fotorealistico, un rendering simile a un film, superfici UI pulite o un comportamento realistico dello screenshot per gestire la finitura in modo più preciso."
+      }
+    },
+    "useCases": {
+      "title": "Casi d'uso",
+      "batchAssets": {
+        "title": "Revisione locandina e impaginazione",
+        "description": "Aggiorna poster cinesi, copertine o design simili a documenti preservando la struttura principale e migliorando la chiarezza, l'equilibrio o le sezioni con testo pesante."
+      },
+      "productRefresh": {
+        "title": "Prodotto fotorealistico e ritocco dei ritratti",
+        "description": "Perfeziona l'illuminazione, la texture, l'atmosfera dello sfondo e la qualità della finitura per scatti di prodotti, ritratti o fotografie di street style senza ricostruire l'intera scena."
+      },
+      "socialVariants": {
+        "title": "UI e restyling degli screenshot",
+        "description": "Trasforma le apps finanziarie, i layout del desktop, i dashboard e gli screenshot del software in immagini dell'interfaccia più pulite, più nitide o più cinematografiche."
+      },
+      "lookDev": {
+        "title": "Allineamento creativo in piccoli lotti",
+        "description": "Utilizza un unico suggerimento su un massimo di 4 immagini per testare una direzione creativa su un breve set di risorse prima di passare alla produzione finale."
+      }
+    },
+    "faq": {
+      "title": "Domande frequenti",
+      "description": "Domande comuni sulla modifica delle immagini GPT-Image 2 per poster, scene fotorealistiche e screenshot UI.",
+      "q1": {
+        "question": "Quante immagini posso caricare?",
+        "answer": "Questo flusso di lavoro da immagine a immagine GPT-Image 2 supporta fino a 4 immagini caricate in una singola esecuzione."
+      },
+      "q2": {
+        "question": "Quali parametri sono disponibili?",
+        "answer": "L'editor supporta immagini, prompt e proporzioni. Le proporzioni includono 1:1, 16:9, 9:16, 4:3, 3:4, 3:2, 2:3, 5:4, 4:5, 2:1, 1:2, 21:9 e 9:21."
+      },
+      "q3": {
+        "question": "In quali tipi di modifiche GPT-Image 2 è particolarmente bravo?",
+        "answer": "È particolarmente utile per le modifiche di poster cinesi, layout in stile documento, ritocco fotorealistico e UI o trasformazioni di screenshot in cui testo, struttura e realismo sono tutti importanti."
+      }
+    },
+    "finalCTA": {
+      "title": "Pronto per la modifica con GPT-Image 2?",
+      "description": "Carica le tue immagini, descrivi la revisione in un linguaggio semplice e trasforma poster, mockup UI o scene fotorealistiche in immagini finali più pulite.",
+      "button": "Parco giochi aperto"
+    },
+    "breadcrumb": {
+      "home": "Casa",
+      "imageToImage": "Immagine in immagine",
+      "model": "__MODELLO_A__"
+    },
+    "schema": {
+      "softwareName": "joymagic GPT-Image 2 Immagine in immagine",
+      "softwareDescription": "Modifica fino a 4 immagini caricate con GPT-Image 2 per il perfezionamento dei poster cinesi, il ritocco fotorealistico e la trasformazione degli screenshot UI.",
+      "howToName": "Come modificare poster, UI e immagini fotorealistiche con GPT-Image 2",
+      "howToDescription": "Carica immagini, descrivi le modifiche che desideri, scegli le proporzioni e genera poster revisionati, scene fotorealistiche o elementi visivi dell'interfaccia con GPT-Image 2.",
+      "features": {
+        "multiUpload": "Carica fino a 4 immagini",
+        "promptEditing": "Modifica delle immagini con riconoscimento del testo e del layout",
+        "aspectPresets": "13 preimpostazioni di proporzioni"
+      },
+      "steps": {
+        "upload": {
+          "name": "Carica immagini",
+          "text": "Aggiungi fino a 4 immagini sorgente per la stessa modifica di poster, aggiornamento di screenshot o direzione di ritocco fotorealistico."
+        },
+        "prompt": {
+          "name": "Scrivi il suggerimento",
+          "text": "Descrivi cosa dovrebbe cambiare, cosa dovrebbe restare e se il risultato dovrebbe sembrare più realistico, più pulito o più simile a un'interfaccia."
+        },
+        "aspectRatio": {
+          "name": "Scegli le proporzioni e genera",
+          "text": "Scegli il fotogramma di output che corrisponde al posizionamento finale, quindi genera e rivedi i risultati modificati."
+        }
+      }
+    }
+  }
+}

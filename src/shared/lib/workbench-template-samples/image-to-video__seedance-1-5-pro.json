@@ -1,0 +1,142 @@
+[
+  {
+    "prompt": "A wide cinematic anime shot in a sunlit, ruined futuristic plaza. A blue-haired girl in a loose white T-shirt and denim shorts stands centered in the foreground, facing camera, while a towering white-and-orange mech looms protectively behind her. Subtle motion: a light breeze gently flutters her hair and shirt; tiny dust motes drift across the frame; faint heat haze shimmers above the cracked concrete. The mech slowly “comes alive” with restrained, realistic movement—soft servo whirs, a small shift of weight, fingers flex slightly, chest vents pulse with a dim glow, and a brief puff of steam from a joint. Camera behavior: slow, steady dolly-in toward the girl with a slight upward tilt, keeping the original composition and scale; gentle parallax on foreground cracks and distant ruined structures; minimal handheld micro-shake for realism. Look/style: high-quality cel-shaded anime illustration, clean linework, soft watercolor textures, bright midday sky with fluffy clouds, cinematic lighting, natural motion blur, no cuts. Avoid identity drift, warping, extra limbs, text, or sudden camera jumps.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/ea0dc529e99225d69ada48762dc9815c.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/ea0dc529e99225d69ada48762dc9815c.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A wide cinematic anime shot in a sunlit, ruined futuristic plaza. A blue-haired girl in a loose white T-shirt and denim shorts stands centered in the foreground, facing camera, while a towering white-and-orange mech looms protectively behind her. Subtle motion: a light breeze gently flutters her hair and shirt; tiny dust motes drift across the frame; faint heat haze shimmers above the cracked concrete. The mech slowly “comes alive” with restrained, realistic movement—soft servo whirs, a small shift of weight, fingers flex slightly, chest vents pulse with a dim glow, and a brief puff of steam from a joint. Camera behavior: slow, steady dolly-in toward the girl with a slight upward tilt, keeping the original composition and scale; gentle parallax on foreground cracks and distant ruined structures; minimal handheld micro-shake for realism. Look/style: high-quality cel-shaded anime illustration, clean linework, soft watercolor textures, bright midday sky with fluffy clouds, cinematic lighting, natural motion blur, no cuts. Avoid identity drift, warping, extra limbs, text, or sudden camera jumps.",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "5",
+      "generateAudio": true,
+      "cameraFixed": false,
+      "seed": "505883302"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/e61d5a727bd674e299df5e5054163003.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/e61d5a727bd674e299df5e5054163003.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/5476c0660f6d7c9bdf8c93349c7e2f10.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/5476c0660f6d7c9bdf8c93349c7e2f10.mp4"
+    ],
+    "generatedAt": "2026-04-15T10:27:28.666Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/efb888c4868989806a5cced6443cd891.mp4"
+  },
+  {
+    "prompt": "The character remains visually consistent with the image, maintaining facial structure, clothing, and lighting.\nThe scene begins with the character standing still, then slowly turning their head toward the camera, followed by a subtle shift in posture and a natural blink.\nAdd gentle camera movement with a slow handheld-style push-in.\nInclude soft environmental sounds such as distant city noise or wind.\nPreserve live-action realism, smooth motion transitions, and stable temporal consistency across the 6–8 second video.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/9c11118dd9639fea8b86efd3d1a2f053.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/9c11118dd9639fea8b86efd3d1a2f053.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The character remains visually consistent with the image, maintaining facial structure, clothing, and lighting.\nThe scene begins with the character standing still, then slowly turning their head toward the camera, followed by a subtle shift in posture and a natural blink.\nAdd gentle camera movement with a slow handheld-style push-in.\nInclude soft environmental sounds such as distant city noise or wind.\nPreserve live-action realism, smooth motion transitions, and stable temporal consistency across the 6–8 second video.",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "6",
+      "generateAudio": true,
+      "cameraFixed": false,
+      "seed": "1388202289"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/dfde7ae75a65755b31f89bf565deae51.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/dfde7ae75a65755b31f89bf565deae51.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/e95a9b6d513ea807b386573377c01339.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/e95a9b6d513ea807b386573377c01339.mp4"
+    ],
+    "generatedAt": "2026-04-15T10:29:14.849Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/f93af2ee4e5788f70dba3a6c1d1c1659.mp4"
+  },
+  {
+    "prompt": "functional winter comforter. light yellow puffy winter comforter floating against a blue sky, the style should be minimalist, sleek, and high-end, suitable for advertising or branding materials.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/bf42a14733c77ba37852d709dfc3a890.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/bf42a14733c77ba37852d709dfc3a890.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "functional winter comforter. light yellow puffy winter comforter floating against a blue sky, the style should be minimalist, sleek, and high-end, suitable for advertising or branding materials.",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "5",
+      "generateAudio": true,
+      "cameraFixed": false,
+      "seed": "2095114371"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/950a6e280e129952c33b83f46270ac3a.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/950a6e280e129952c33b83f46270ac3a.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/af46ba17b0c9930ceba01120900ad615.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/af46ba17b0c9930ceba01120900ad615.mp4"
+    ],
+    "generatedAt": "2026-04-15T10:30:34.807Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/7d8e68797971a586db5adcc7d4a914ec.mp4"
+  },
+  {
+    "prompt": "Generate a cinematic transition shot based on the provided first and final frames. First frame: A drone-eye overhead shot of the entire city skyline, with the camera slowly pushing in. Maintain consistent scene color tones throughout the transition. Design a smooth, narrative animation sequence: the camera continues its slow push-in over the panoramic city view, then seamlessly zooms in further to a speeding train. Incorporate soft ambient city sounds in the background. The 8–12 second clip must ensure natural and fluid motion, clean and crisp visuals, and precise audiovisual synchronization.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/4f5aced22938acdb4a31e1499897442e.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/4f5aced22938acdb4a31e1499897442e.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Generate a cinematic transition shot based on the provided first and final frames. First frame: A drone-eye overhead shot of the entire city skyline, with the camera slowly pushing in. Maintain consistent scene color tones throughout the transition. Design a smooth, narrative animation sequence: the camera continues its slow push-in over the panoramic city view, then seamlessly zooms in further to a speeding train. Incorporate soft ambient city sounds in the background. The 8–12 second clip must ensure natural and fluid motion, clean and crisp visuals, and precise audiovisual synchronization.",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "8",
+      "generateAudio": true,
+      "cameraFixed": false,
+      "seed": "1321431210"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/161390e0aca39b4db10c3562fd58a65e.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/161390e0aca39b4db10c3562fd58a65e.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/af77d9180f5bc597bca027bf20249d4a.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/af77d9180f5bc597bca027bf20249d4a.mp4"
+    ],
+    "generatedAt": "2026-04-15T11:50:09.080Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/cea9c763aa0c29ce6a3c2f5e450a767c.mp4"
+  },
+  {
+    "prompt": "Generate a cinematic transition between the provided first and last frames.\nThe first frame shows the character standing at the edge of a rooftop at sunset, while the final frame shows the character seated, looking out over the city as night falls.\nMaintain consistent character appearance, clothing, and environment throughout the scene.\nAnimate a smooth narrative progression: the character walks forward, pauses, then slowly sits down.\nUse a controlled camera pan combined with a gradual change in lighting from warm sunset tones to cool nighttime hues.\nInclude subtle ambient city sounds and ensure natural motion, clean visuals, and precise audiovisual alignment across the 8–12 second clip.”",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/a0369d8ad31a2461cd640c1881a83e92.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/a0369d8ad31a2461cd640c1881a83e92.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Generate a cinematic transition between the provided first and last frames.\nThe first frame shows the character standing at the edge of a rooftop at sunset, while the final frame shows the character seated, looking out over the city as night falls.\nMaintain consistent character appearance, clothing, and environment throughout the scene.\nAnimate a smooth narrative progression: the character walks forward, pauses, then slowly sits down.\nUse a controlled camera pan combined with a gradual change in lighting from warm sunset tones to cool nighttime hues.\nInclude subtle ambient city sounds and ensure natural motion, clean visuals, and precise audiovisual alignment across the 8–12 second clip.”",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "5",
+      "generateAudio": true,
+      "cameraFixed": false,
+      "seed": "174540678"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/e6c2862eb7374d9ca73ccd105909abc2.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/e6c2862eb7374d9ca73ccd105909abc2.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/7ea99ab46ed86de5db09d8a9630fb9c7.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/7ea99ab46ed86de5db09d8a9630fb9c7.mp4"
+    ],
+    "generatedAt": "2026-04-15T10:36:41.555Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/035c34b692e1bc6243a0812c77366813.mp4"
+  }
+]

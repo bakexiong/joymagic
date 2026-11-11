@@ -1,0 +1,156 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Kaynak görselleri yükleyin",
+      "hint": "En fazla {max} görsel yükleyin (JPG/PNG/WEBP)",
+      "dragDrop": "Sürükleyip bırakın veya yüklemek için tıklayın",
+      "dropHere": "Görselleri buraya bırakın"
+    },
+    "aspectRatio": {
+      "title": "En boy oranı seçin",
+      "placeholder": "En boy oranı seçin",
+      "auto": "Otomatik",
+      "hint": "Nano-banana görselden görsele sonucunuz için çıktı en boy oranını seçin"
+    },
+    "prompt": {
+      "title": "Düzenleme komutunu girin",
+      "placeholder": "Görselleri nasıl düzenlemek istediğinizi açıklayın, örn. 'Anime tarzına dönüştür', 'Yağlı boya efekti uygula', 'Sinematik görünüm ver'",
+      "hint": "İstediğiniz düzenlemeler hakkında net olun — stil, atmosfer, aydınlatma ve detaylar"
+    },
+    "generate": {
+      "title": "Düzenlenmiş görselleri oluştur",
+      "cta": "Oluştur",
+      "generating": "Oluşturuluyor..."
+    },
+    "resolution": {
+      "title": "Çözünürlük seçin",
+      "placeholder": "Çözünürlük seçin",
+      "hint": "Çıktı çözünürlüğünü seçin: 4K veya 8K"
+    }
+  },
+  "preview": {
+    "title": "Önizleme",
+    "original": "Orijinal",
+    "swap": "Değiştir",
+    "placeholder": "Nano-banana görselden görsele sonucunu burada önizlemek için görselleri yükleyin ve bir düzenleme komutu girin."
+  },
+  "common": {
+    "selectedCount": "Seçilen: {count}/{max} görsel",
+    "notSelected": "Seçilmedi"
+  },
+  "errors": {
+    "invalidFileType": "Geçersiz dosya türü. Lütfen bir görsel dosyası yükleyin (JPG, PNG, WEBP).",
+    "uploadFailed": "Yükleme başarısız: {error}",
+    "uploadFailedGeneric": "Yükleme başarısız",
+    "sourceImageRequired": "Lütfen en az bir kaynak görsel yükleyin",
+    "promptRequired": "Lütfen bir düzenleme komutu girin",
+    "generationFailed": "Görsel düzenleme başarısız oldu",
+    "taskFailed": "Görev işleme başarısız oldu",
+    "taskTimeout": "Görev işleme zaman aşımına uğradı, lütfen daha sonra tekrar deneyin",
+    "taskIdNotFound": "Görev kimliği alınamadı, lütfen API yanıt biçimini kontrol edin",
+    "processingFailed": "İşleme başarısız oldu, lütfen tekrar deneyin",
+    "statusQueryFailed": "Görev durumu sorgulanamadı",
+    "apiResponseParseFailed": "API yanıtı ayrıştırılamadı"
+  },
+  "page": {
+    "metadata": {
+      "title": "Nano Banana Görselden Görsele AI Düzenleyici — Görselleri Çevrimiçi Ücretsiz Dönüştürün | joymagic",
+      "description": "Nano Banana görselden görsele AI ile görselleri çevrimiçi düzenleyin ve dönüştürün. En fazla 14 görsel yükleyin, 10'dan fazla en boy oranı arasından seçim yapın ve nano-banana destekli stil aktarımı, iyileştirme ve yaratıcı görselden görsele dönüşümleri saniyeler içinde uygulayın. Supports 4K and 8K resolution.",
+      "keywords": "image-to-image nano-banana-pro-edit, nano-banana-pro-edit-ultra, nano-banana-pro-edit-ultra image-to-image, image-to-image AI, nano-banana image editor, AI image-to-image transformation"
+    },
+    "hero": {
+      "title": "Nano Banana Görselden Görsele — AI Görsel Düzenleyici ve Dönüştürücü",
+      "description": "<strong class=\"text-primary font-semibold\">Nano Banana görselden görsele</strong> AI düzenleyici ile görsellerinizi dönüştürün. En fazla <strong class=\"text-primary font-semibold\">14 görsel</strong> yükleyin, 10'dan fazla en boy oranı arasından seçim yapın ve nano-banana destekli görselden görsele düzenlemeler uygulayın — stil aktarımı, renk derecelendirme, sanatsal efektler ve yaratıcı dönüşümler — hepsi saniyeler içinde.",
+      "button1": "Nano Banana Görselden Görsele'yi Deneyin",
+      "button2": "Fiyatlandırmayı Görüntüle"
+    },
+    "keyFeatures": {
+      "title": "Görselden Görsele Düzenleme İçin Neden Nano Banana'yı Seçmelisiniz?",
+      "description": "Nano-banana teknolojisi ile desteklenen gelişmiş AI görselden görsele düzenleme",
+      "multiImage": {
+        "title": "Nano Banana ile Toplu Görselden Görsele",
+        "description": "Nano-banana ile toplu görselden görsele düzenleme için aynı anda en fazla 14 görsel yükleyin. Tutarlı stil ve kalite ile birden fazla görseli eş zamanlı olarak işleyin."
+      },
+      "aspectRatio": {
+        "title": "Nano Banana En Boy Oranı Kontrolü",
+        "description": "Nano-banana-2 görselden görsele, mükemmel çıktı boyutları için 1:1, 3:2, 2:3, 3:4, 4:3, 4:5, 5:4, 9:16, 16:9 ve 21:9 dahil 10'dan fazla en boy oranını destekler."
+      },
+      "smartEdit": {
+        "title": "Akıllı Görselden Görsele Düzenleme",
+        "description": "Nano Banana, hassas ve doğal görünümlü görselden görsele dönüşümler için görsel bağlamını ve anlamını anlar. Neyi değiştireceğini ve neyi koruyacağını bilen akıllı AI."
+      },
+      "affordable": {
+        "title": "Uygun Fiyatlı Nano Banana",
+        "description": "Her proje boyutu için erişilebilir, profesyonel düzeyde AI düzenleme ile uygun maliyetli nano-banana görselden görsele dönüşümler."
+      },
+      "resolution": {
+        "title": "4K/8K Resolution Options",
+        "description": "Output in 4K or 8K for social, web, and print-ready workflows."
+      }
+    },
+    "promptingTips": {
+      "title": "En İyi Nano Banana Görselden Görsele Sonuçları Nasıl Elde Edilir",
+      "specific": {
+        "title": "Komutlarınızda Spesifik Olun",
+        "description": "Optimum nano-banana görselden görsele sonuçları için tam olarak hangi düzenlemeleri istediğinizi açıklayın. Örnekler: \"Suluboya tarzına dönüştür\" veya \"Sıcak tonlarla sinematik renk derecelendirmesi ekle\"."
+      },
+      "style": {
+        "title": "Sanatsal Stili Belirtin",
+        "description": "Nano Banana görselden görsele kullanırken hedef stili net bir şekilde belirtin: \"anime illüstrasyon\", \"yağlı boya\", \"fotorealistik iyileştirme\", \"vintage film görünümü\" vb."
+      },
+      "color": {
+        "title": "Renk ve Atmosfer Yönlendirmesi",
+        "description": "Nano-banana görselden görsele'yi renk ve atmosfer ipuçlarıyla yönlendirin: \"canlı doygun renkler\", \"yumuşak pastel tonlar\", \"karanlık dramatik atmosfer\", \"altın saat sıcaklığı\" vb."
+      },
+      "details": {
+        "title": "Ayrıntılı Talimatlar Ekleyin",
+        "description": "Aydınlatma, kompozisyon, doku ve hangi öğelerin korunacağını veya dönüştürüleceğini belirterek Nano Banana görselden görsele kalitesini en üst düzeye çıkarın."
+      }
+    },
+    "faq": {
+      "title": "Nano Banana Görselden Görsele SSS",
+      "description": "Nano Banana görselden görsele AI düzenleyici hakkında sık sorulan sorular",
+      "q1": {
+        "question": "Nano Banana görselden görsele ile aynı anda kaç görsel düzenleyebilirim?",
+        "answer": "Nano Banana görselden görsele düzenleyici ile nano-banana-pro-edit-ultra AI destekli toplu görselden görsele düzenleme için aynı anda en fazla 14 görsel yükleyebilirsiniz."
+      },
+      "q2": {
+        "question": "Nano Banana görselden görsele hangi en boy oranlarını destekler?",
+        "answer": "Nano Banana görselden görsele 10'dan fazla en boy oranını destekler: 1:1, 3:2, 2:3, 3:4, 4:3, 4:5, 5:4, 9:16, 16:9 ve 21:9. Nano-banana'nın karar vermesi için Otomatik modu da kullanabilirsiniz. Resolution options: 4K, 8K."
+      },
+      "q3": {
+        "question": "Nano Banana görselden görsele hangi görsel formatlarını destekler?",
+        "answer": "Nano Banana görselden görsele PNG, JPEG, JPG ve WebP formatlarını destekler. En iyi nano-banana sonuçları için net ve iyi aydınlatılmış kaynak görseller kullanın."
+      },
+      "q4": {
+        "question": "Nano Banana görselden görsele için etkili komutlar nasıl yazılır?",
+        "answer": "En iyi nano-banana görselden görsele sonuçları için ayrıntılı açıklamalar ekleyin: hedef stil, atmosfer, aydınlatma, renk paleti ve kompozisyon. Daha fazla ayrıntı genellikle daha iyi Nano Banana dönüşümleri üretir."
+      },
+      "q5": {
+        "question": "Nano Banana görselden görsele'yi diğer AI düzenleyicilerden farklı kılan nedir?",
+        "answer": "Nano Banana, esnek en boy oranı kontrolü ile bağlama duyarlı, anlamsal olarak akıllı görselden görsele dönüşümler için gelişmiş nano-banana-pro-edit-ultra AI teknolojisi kullanır. Görsel içeriğini derinlemesine anlayarak doğal ve hassas görselden görsele düzenlemeler üretir."
+      }
+    },
+    "finalCTA": {
+      "title": "Nano Banana Görselden Görsele'yi Denemeye Hazır mısınız?",
+      "description": "Bugün nano-banana görselden görsele AI ile görsellerinizi dönüştürmeye başlayın. Hızlı, yüksek kaliteli, akıllı görselden görsele dönüşümler parmaklarınızın ucunda.",
+      "button": "Nano Banana Görselden Görsele'yi Şimdi Deneyin"
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "imageToImage": "Görselden Görsele",
+      "nanoBanana": "Nano Banana"
+    },
+    "schema": {
+      "softwareName": "Nano Banana Görselden Görsele AI Düzenleyici — joymagic",
+      "howToName": "Nano Banana Görselden Görsele AI Düzenleyici Nasıl Kullanılır",
+      "howToDescription": "Nano-banana görselden görsele AI teknolojisini kullanarak görselleri nasıl düzenleyeceğinizi ve dönüştüreceğinizi öğrenin. Görselleri yükleyin, en boy oranını seçin ve akıllı AI destekli görselden görsele düzenlemeler uygulayın.",
+      "features": {
+        "aiImageEditing": "Nano Banana Görselden Görsele AI Düzenleme",
+        "multiImage": "Nano Banana ile Toplu Görselden Görsele",
+        "aspectRatio": "Nano Banana En Boy Oranı Kontrolü",
+        "resolution": "4K/8K Resolution Options"
+      }
+    }
+  }
+}

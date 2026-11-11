@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "원본 이미지 업로드",
+      "hint": "최대 {max}장의 이미지를 업로드하세요 (JPG/PNG/WEBP)",
+      "dragDrop": "드래그 앤 드롭 또는 클릭하여 업로드",
+      "dropHere": "여기에 이미지 드롭"
+    },
+    "prompt": {
+      "title": "편집 프롬프트 입력",
+      "placeholder": "이미지를 어떻게 편집하고 싶은지 설명하세요. 예: '애니메이션 스타일로 변경', '유화 효과 적용', '영화 같은 느낌으로'",
+      "hint": "원하는 편집 내용을 구체적으로 설명하세요 — 스타일, 분위기, 조명, 디테일"
+    },
+    "generate": {
+      "title": "편집된 이미지 생성",
+      "cta": "생성",
+      "generating": "생성 중..."
+    }
+  },
+  "preview": {
+    "title": "미리보기",
+    "original": "원본",
+    "swap": "교체",
+    "placeholder": "이미지를 업로드하고 편집 프롬프트를 입력하면 여기에서 결과를 확인할 수 있습니다."
+  },
+  "common": {
+    "selectedCount": "선택됨: {count}/{max}장 이미지",
+    "notSelected": "선택되지 않음"
+  },
+  "errors": {
+    "invalidFileType": "잘못된 파일 형식입니다. 이미지 파일(JPG, PNG, WEBP)을 업로드하세요.",
+    "uploadFailed": "업로드 실패: {error}",
+    "uploadFailedGeneric": "업로드 실패",
+    "sourceImageRequired": "원본 이미지를 최소 1장 업로드하세요",
+    "promptRequired": "편집 프롬프트를 입력하세요",
+    "generationFailed": "이미지 편집 실패",
+    "taskFailed": "작업 처리 실패",
+    "taskTimeout": "작업 처리 시간 초과, 나중에 다시 시도하세요",
+    "taskIdNotFound": "작업 ID를 가져올 수 없습니다. API 응답 형식을 확인하세요",
+    "processingFailed": "처리 실패, 다시 시도하세요",
+    "statusQueryFailed": "작업 상태 조회 실패",
+    "apiResponseParseFailed": "API 응답 구문 분석 실패"
+  },
+  "page": {
+    "metadata": {
+      "title": "Qwen Image Max image-to-image AI 편집기 — 온라인 이미지 편집 및 변환 | joymagic",
+      "description": "Qwen Image Max image-to-image AI 편집기로 이미지를 온라인에서 편집하고 변환하세요. qwen-image-max-edit 기술로 최대 4장의 이미지를 일괄 AI 편집 — 스타일 변환, 보정, 창의적 변환을 몇 초 만에.",
+      "keywords": "qwen image max, qwen-image-max-edit, qwen image max image-to-image, AI 이미지 편집기, image-to-image AI, qwen 이미지 편집, AI 이미지 변환, 일괄 이미지 편집, 온라인 AI 이미지 편집기, qwen image max edit tool"
+    },
+    "hero": {
+      "title": "Qwen Image Max image-to-image — AI 기반 이미지 편집기",
+      "description": "Qwen Image Max image-to-image AI 편집기로 이미지를 편집하고 변환하세요. <strong class=\"text-primary font-semibold\">qwen-image-max-edit</strong> 기술로 최대 4장의 이미지를 업로드하고 지능형 편집 적용 — 스타일 변환, 색보정, 예술적 효과 등을 몇 초 만에.",
+      "button1": "Qwen Image Max 편집기 체험",
+      "button2": "가격 보기"
+    },
+    "keyFeatures": {
+      "title": "왜 Qwen Image Max로 이미지를 편집해야 할까요?",
+      "description": "qwen-image-max-edit 기술 기반의 고급 AI 이미지 편집",
+      "multiImage": {
+        "title": "Qwen Image Max 일괄 이미지 편집",
+        "description": "qwen-image-max-edit로 최대 4장의 이미지를 한 번에 업로드하여 일괄 편집. 일관된 스타일과 품질로 여러 이미지를 동시에 처리. 편집 1회당 2크레딧 고정 비용."
+      },
+      "highQuality": {
+        "title": "뛰어난 Qwen Image Max 편집 품질",
+        "description": "Qwen Image Max는 디테일을 유지하면서 고품질 편집을 제공합니다. qwen-image-max-edit AI로 선명하고 아티팩트 없는 결과를 얻으세요."
+      },
+      "smartEdit": {
+        "title": "지능형 컨텍스트 인식 편집",
+        "description": "qwen-image-max-edit는 이미지의 맥락과 의미를 이해하여 정밀하고 자연스러운 변환을 수행합니다. 무엇을 바꾸고 무엇을 유지할지 아는 스마트 AI."
+      },
+      "affordable": {
+        "title": "합리적인 Qwen Image Max 요금",
+        "description": "편집 1회당 2크레딧의 합리적인 qwen-image-max-edit 변환 비용. 어떤 규모의 프로젝트에도 적합한 전문가급 AI 이미지 편집."
+      }
+    },
+    "promptingTips": {
+      "title": "Qwen Image Max 편집기로 최적의 결과 얻는 방법",
+      "specific": {
+        "title": "프롬프트를 구체적으로 작성",
+        "description": "최적의 qwen-image-max-edit 결과를 위해 원하는 편집을 정확히 설명하세요. 예: \"수채화 스타일로 변환\" 또는 \"따뜻한 톤의 시네마틱 색보정 추가\"."
+      },
+      "style": {
+        "title": "예술 스타일 지정",
+        "description": "qwen-image-max-edit 사용 시 원하는 스타일을 명확히 적어주세요: \"애니메이션 일러스트\", \"유화\", \"사실적 보정\", \"빈티지 필름 느낌\" 등."
+      },
+      "color": {
+        "title": "색상과 분위기 방향",
+        "description": "qwen-image-max-edit에 색상과 분위기를 안내하세요: \"선명하고 채도 높은 색상\", \"부드러운 파스텔 톤\", \"어둡고 무디한 분위기\", \"골든아워 따뜻함\" 등."
+      },
+      "details": {
+        "title": "세부 지시 사항 추가",
+        "description": "조명, 구도, 질감, 유지하거나 변환할 요소를 지정하면 qwen-image-max-edit 품질이 극대화됩니다."
+      }
+    },
+    "useCases": {
+      "title": "Qwen Image Max 이미지 편집 활용 사례",
+      "style": {
+        "title": "예술적 스타일 변환",
+        "description": "qwen-image-max-edit로 사진을 멋진 예술 스타일로 변환 — 애니메이션, 수채화, 유화, 스케치 등. 크리에이티브 프로젝트와 SNS 콘텐츠에 적합."
+      },
+      "batch": {
+        "title": "일괄 사진 편집",
+        "description": "Qwen Image Max로 최대 4장의 이미지를 동시에 편집하여 전체 사진 세트에 일관된 스타일 적용. 제품 카탈로그와 브랜드 자산에 적합."
+      },
+      "product": {
+        "title": "제품 이미지 보정",
+        "description": "qwen-image-max-edit로 이커머스, 마케팅 캠페인, SNS용 제품 사진을 보정하세요. 전문가급 비주얼을 즉시 생성."
+      },
+      "creative": {
+        "title": "크리에이티브 디자인 탐색",
+        "description": "Qwen Image Max 지능형 편집으로 창의적 가능성을 탐색하세요. 다양한 스타일, 효과, 변환을 실험하여 완벽한 비주얼 방향을 찾아보세요."
+      }
+    },
+    "faq": {
+      "title": "Qwen Image Max image-to-image FAQ",
+      "description": "Qwen Image Max AI 이미지 편집기 자주 묻는 질문",
+      "q1": {
+        "question": "Qwen Image Max로 한 번에 몇 장까지 편집할 수 있나요?",
+        "answer": "Qwen Image Max image-to-image 편집기로 최대 4장의 이미지를 한 번에 업로드하여 일괄 편집할 수 있습니다. 각 편집은 qwen-image-max-edit 기술로 처리되며 2크레딧이 소요됩니다."
+      },
+      "q2": {
+        "question": "Qwen Image Max 이미지 편집 비용은 얼마인가요?",
+        "answer": "Qwen Image Max image-to-image 편집은 업로드한 이미지 수에 관계없이 편집 1회당 2크레딧입니다. 이 고정 요금제로 qwen-image-max-edit를 어떤 프로젝트에서도 합리적으로 사용할 수 있습니다."
+      },
+      "q3": {
+        "question": "Qwen Image Max는 어떤 이미지 형식을 지원하나요?",
+        "answer": "Qwen Image Max image-to-image는 PNG, JPEG, JPG, WebP 형식을 지원합니다. 최적의 qwen-image-max-edit 결과를 위해 선명하고 밝은 이미지를 사용하세요."
+      },
+      "q4": {
+        "question": "Qwen Image Max에서 효과적인 편집 프롬프트는 어떻게 작성하나요?",
+        "answer": "최적의 qwen-image-max-edit 결과를 위해 상세한 설명을 포함하세요: 목표 스타일, 분위기, 조명, 색상 팔레트, 구도. 더 자세할수록 Qwen Image Max 변환 결과가 좋아집니다."
+      },
+      "q5": {
+        "question": "Qwen Image Max가 다른 AI 이미지 편집기와 다른 점은 무엇인가요?",
+        "answer": "Qwen Image Max는 고급 qwen-image-max-edit 기술로 컨텍스트 인식, 의미론적 지능형 이미지 변환을 수행합니다. 이미지 내용을 깊이 이해하여 자연스럽고 정밀한 편집을 제공합니다."
+      }
+    },
+    "finalCTA": {
+      "title": "Qwen Image Max로 이미지를 편집할 준비가 되셨나요?",
+      "description": "오늘 qwen-image-max-edit AI로 이미지 편집을 시작하세요. 빠르고 고품질의 지능형 이미지 변환을 경험하세요.",
+      "button": "지금 Qwen Image Max 편집기 체험"
+    },
+    "breadcrumb": {
+      "home": "홈",
+      "imageToImage": "image-to-image",
+      "qwenImageMax": "Qwen Image Max"
+    },
+    "schema": {
+      "softwareName": "Qwen Image Max image-to-image AI 편집기 — joymagic",
+      "howToName": "Qwen Image Max AI로 이미지 편집하는 방법",
+      "howToDescription": "qwen-image-max-edit AI 기술로 이미지를 편집하고 변환하는 방법을 알아보세요. 이미지를 업로드하고 지능형 AI 편집을 적용하세요.",
+      "features": {
+        "aiImageEditing": "Qwen Image Max AI 편집",
+        "multiImage": "Qwen Image Max 일괄 이미지 편집",
+        "highQuality": "고품질 Qwen Image Max 출력"
+      }
+    }
+  }
+}

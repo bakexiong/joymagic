@@ -1,0 +1,253 @@
+{
+  "imageEraser": {
+    "id": "image-eraser",
+    "title": "Image Eraser AI by joymagic",
+    "description": "Remove unwanted objects, watermarks, and backgrounds from images with AI precision.",
+    "steps": {
+      "sourceImage": {
+        "title": "Upload source image",
+        "hint": "Upload image here JPG/PNG/WEBP",
+        "dragDrop": "Drag & drop or click to upload",
+        "dropHere": "Drop image here"
+      },
+      "maskImage": {
+        "title": "Upload mask image (Optional)",
+        "hint": "Upload a mask image to specify areas to erase. White areas will be erased, black areas will be kept.",
+        "dragDrop": "Drag & drop or click to upload",
+        "dropHere": "Drop mask image here"
+      },
+      "prompt": {
+        "title": "Enter prompt (Optional)",
+        "placeholder": "Describe what you want to erase, e.g., 'remove the person in the background', 'erase the watermark', 'remove the text'",
+        "hint": "Optional: Describe what you want to remove from the image"
+      },
+      "outputFormat": {
+        "title": "Output format",
+        "placeholder": "Select output format",
+        "hint": "Choose the format for the output image"
+      },
+      "generate": {
+        "title": "Generate erased image",
+        "cta": "Erase",
+        "generating": "Erasing..."
+      }
+    },
+    "preview": {
+      "title": "Preview",
+      "original": "Original",
+      "erased": "Erased",
+      "placeholder": "Upload an image to see the erased result here."
+    },
+    "common": {
+      "selected": "Selected: {name}",
+      "notSelected": "Not selected"
+    },
+    "errors": {
+      "invalidFileType": "Invalid file type. Please upload an image file (JPG, PNG, WEBP).",
+      "uploadFailed": "Upload failed: {error}",
+      "uploadFailedGeneric": "Upload failed",
+      "sourceImageRequired": "Please upload a source image first",
+      "generationFailed": "Image erasing failed",
+      "taskFailed": "Task processing failed",
+      "taskTimeout": "Task processing timeout, please try again later",
+      "taskIdNotFound": "Unable to get task ID, please check API response format",
+      "processingFailed": "Processing failed, please try again",
+      "statusQueryFailed": "Failed to query task status",
+      "apiResponseParseFailed": "Failed to parse API response",
+      "downloadFailed": "Не удалось загрузить изображение"
+    },
+    "download": {
+      "title": "Загрузить изображение"
+    },
+    "alt": {
+      "sourcePreview": "Предпросмотр исходного изображения",
+      "maskPreview": "Предпросмотр маски",
+      "enlargedPreview": "Увеличенный предпросмотр",
+      "source": "Исходное",
+      "generated": "Сгенерированное"
+    }
+  },
+  "imageEraserPage": {
+    "metadata": {
+      "title": "AI Ластик для изображений | Удаление объектов с фотографий | joymagic",
+      "description": "Мгновенно удаляйте нежелательные объекты, людей или текст с фотографий. AI ластик для изображений с простым интерфейсом кисти. Бесплатно, без водяного знака, готово к HD загрузке.",
+      "keywords": "AI удалитель объектов, ластик для фото, удаление нежелательных объектов, очистка изображений, инпейнтинг, ретушь фотографий"
+    },
+    "hero": {
+      "title": "AI Ластик для изображений",
+      "description": "Удаляйте нежелательные объекты с фотографий онлайн бесплатно с помощью AI ластика для изображений joymagic. Просто проведите кистью по тому, что не нужно – исчезнет за секунды.",
+      "button1": "Удалить объекты сейчас",
+      "button2": "Начать бесплатно · Без карты"
+    },
+    "heroDescription": "✓ HD загрузка ✓ Без водяного знака ✓ Поддержка пакетной обработки",
+    "whatIsAIEraser": {
+      "title": "Что такое AI Ластик для изображений?",
+      "description": "AI Ластик для изображений joymagic (также называемый Magic Eraser или Удалитель объектов) использует мощный AI для интеллектуального обнаружения и удаления нежелательных объектов, людей, текста, водяных знаков или дефектов с ваших фотографий, одновременно бесшовно заполняя область соответствующим фоном.",
+      "unlikeTraditional": "В отличие от традиционных инструментов клонирования или восстановления, требующих точной ручной работы, наш AI:",
+      "understandContext": "Понимает контекст сцены и текстуру",
+      "generateRealistic": "Генерирует реалистичную заливку, которая идеально смешивается",
+      "handleComplex": "Обрабатывает сложные фоны, такие как трава, небо, стены или толпы",
+      "simpleBrush": "Работает простым движением кисти или кликом",
+      "perfectFor": "Идеально подходит для очистки туристических фотографий, изображений продуктов, портретов, фотографий недвижимости, контента для социальных сетей и многого другого."
+    },
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast processing",
+      "commercialReady": "Commercial-use ready"
+    },
+    "interfaceFeatures": {
+      "title": "On a single, clean interface you get:",
+      "uploadArea": "A drag-and-drop upload area for your source image",
+      "maskArea": "An optional mask image upload to specify exact areas to erase",
+      "promptBox": "An optional prompt box to describe what you want to remove",
+      "formatSelect": "Output format selection (JPEG, PNG, WebP)",
+      "generateButton": "A single Erase button to remove unwanted elements from your image"
+    },
+    "whatYouCanDo": {
+      "title": "Что можно делать с AI Ластиком для изображений joymagic",
+      "description": "Один мазок кисти, бесконечные возможности очистки.",
+      "travelPhotos": {
+        "title": "Очистка туристических и отпускных фотографий",
+        "description": "<p class=\"mb-3\">Удалите фото-бомберов, незнакомцев, вывески или мусор с ваших идеальных снимков.</p>"
+      },
+      "productPhotography": {
+        "title": "Идеальная продуктовая фотография",
+        "description": "<p class=\"mb-3\">Удалите пыль, отражения, ценники или нежелательные предметы с изображений электронной коммерции.</p>"
+      },
+      "portraits": {
+        "title": "Улучшение портретов и селфи",
+        "description": "<p class=\"mb-3\">Легко удаляйте дефекты, торчащие волосы, отвлекающие элементы фона или бывших партнеров.</p>"
+      },
+      "realEstate": {
+        "title": "Подготовка фотографий недвижимости и интерьеров",
+        "description": "<p class=\"mb-3\">Удалите мебель, беспорядок или личные вещи для профессиональной постановки объявлений.</p>"
+      },
+      "socialMedia": {
+        "title": "Создание чистого контента для социальных сетей",
+        "description": "<p class=\"mb-3\">Удалите водяные знаки, текстовые наложения или отвлекающие элементы для отполированных постов и историй.</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Основные функции",
+      "description": "Мощные возможности удаления изображений с помощью AI, созданные для скорости и качества.",
+      "smartRemoval": {
+        "title": "Умное удаление одним касанием",
+        "description": "<p class=\"mb-3\">Один мазок кисти – AI понимает, что нужно удалить, и естественно заполняет. Обрабатывает людей, объекты, текст, логотипы и многое другое.</p>"
+      },
+      "realisticInpainting": {
+        "title": "Реалистичная технология восстановления",
+        "description": "<p class=\"mb-3\">Продвинутый генеративный AI идеально воссоздает фоны, даже на сложных узорах, таких как пляжи, города или ткани.</p>"
+      },
+      "fastPrecise": {
+        "title": "Быстрое и точное редактирование",
+        "description": "<p class=\"mb-3\">Результаты за секунды с предпросмотром в реальном времени. Без задержек, без ожидания.</p>"
+      },
+      "batchRemoval": {
+        "title": "Пакетное удаление объектов",
+        "description": "<p class=\"mb-3\">Загрузите несколько изображений и очистите их все сразу – идеально для пакетов фотографий или каталогов продуктов.</p>"
+      },
+      "cleanOutput": {
+        "title": "Чистый профессиональный результат",
+        "description": "<p class=\"mb-3\">Без водяных знаков, без артефактов – полные HD загрузки каждый раз.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "Как удалить нежелательные объекты с фотографий",
+      "description": "Удалите что угодно из ваших изображений с помощью нашего бесплатного AI ластика для изображений всего за несколько простых шагов:",
+      "step1": {
+        "title": "1. Загрузите ваше изображение",
+        "description": "<p class=\"mb-3\">Перетащите или выберите вашу фотографию. Поддерживает форматы JPG, JPEG, PNG, WEBP и HEIC.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Работает с пейзажами, портретами, фотографиями продуктов и многим другим</li></ul>"
+      },
+      "step2": {
+        "title": "2. Проведите кистью или кликните по нежелательным объектам",
+        "description": "<p class=\"mb-3\">Просто проведите кистью по объекту, человеку, тексту или дефекту, который хотите удалить.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Настройте размер кисти для точности</li><li>Наш AI автоматически обнаруживает и выбирает область</li></ul>"
+      },
+      "step3": {
+        "title": "3. Позвольте AI удалить и заполнить",
+        "description": "<p class=\"mb-3\">Нажмите Удалить – AI мгновенно удаляет выделение и интеллектуально заполняет пространство соответствующим окружением.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Предпросмотр результата в реальном времени</li><li>Отменить или повторить при необходимости</li></ul>"
+      },
+      "step4": {
+        "title": "4. Уточните и загрузите",
+        "description": "<p class=\"mb-3\">При необходимости уточните:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Проведите кистью по пропущенным местам снова</li><li>Восстановите случайно удаленные области</li></ul><p class=\"mb-3\">Загрузите ваше чистое, высококачественное изображение – готово к использованию.</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "Why joymagic vs Other Image Eraser Tools",
+      "description": "Built specifically for AI-powered image erasing, not just a basic tool.",
+      "focused": {
+        "title": "Focused on AI Image Erasing",
+        "description": "<p class=\"mb-3\">Many tools offer basic erasing features. joymagic is different—it's built with advanced AI:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Smart detection of what to remove</li><li>Context-aware filling of erased areas</li><li>Results tuned specifically for seamless object removal</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "Made for Fast Daily Workflows",
+        "description": "Designed for creators who need to clean up multiple images per day. Fewer steps, cleaner UI, no maze of menus. Quickly process batches of images."
+      },
+      "pricing": {
+        "title": "Pricing That Scales With You",
+        "description": "A clear free tier so you can test image erasing with no risk. A simple paid plan for power users and teams who need higher limits. Transparent usage — pay for what you actually use."
+      },
+      "commercialUse": {
+        "title": "Safe for Commercial Use",
+        "description": "You own the images you generate with joymagic, as long as you have the rights to the original images you upload. Generated images can be used for commercial projects such as campaigns, client work, and ecommerce listings."
+      }
+    },
+    "perfectFor": {
+      "title": "Who joymagic Is Perfect For",
+      "description": "Built for creators, brands, and designers who need clean, professional images.",
+      "photographers": {
+        "title": "Photographers & Creators",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up photos before publishing</li><li>Remove unwanted elements from shots</li><li>Prepare images for portfolios and galleries</li><li>Remove watermarks from your own work</li></ul><p class=\"text-sm text-muted-foreground italic\">Enhance your photography with AI-powered editing.</p>"
+      },
+      "ecommerce": {
+        "title": "Ecommerce & Small Brands",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up product photos</li><li>Remove distracting backgrounds</li><li>Remove watermarks and logos from stock images (with permission)</li><li>Prepare images for product listings</li></ul><p class=\"text-sm text-muted-foreground italic\">Get professional product photos without expensive editing.</p>"
+      },
+      "designers": {
+        "title": "Designers & Agencies",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Quickly clean up images for client projects</li><li>Remove unwanted elements from mockups</li><li>Prepare images for presentations and proposals</li><li>Save time on manual editing tasks</li></ul><p class=\"text-sm text-muted-foreground italic\">joymagic fits neatly into your existing design workflow.</p>"
+      }
+    },
+    "faq": {
+      "title": "Часто задаваемые вопросы об AI Ластике для изображений",
+      "description": "Распространенные вопросы о нашем AI ластике для изображений.",
+      "q1": {
+        "question": "Какие форматы изображений поддерживаются?",
+        "answer": "Мы поддерживаем JPG, JPEG, PNG, WEBP и HEIC. Лучшие результаты с четкими, высококачественными изображениями."
+      },
+      "q2": {
+        "question": "Будет ли на моих отредактированных изображениях водяной знак?",
+        "answer": "Нет. Все загрузки чистые и без водяных знаков."
+      },
+      "q3": {
+        "question": "Насколько хорошо это работает для сложных удалений?",
+        "answer": "Наш AI превосходно справляется с большими объектами, людьми в толпе и текстурированными фонами. Для сверхтонких деталей используйте более мелкие мазки кисти."
+      },
+      "q4": {
+        "question": "Могу ли я удалить несколько объектов с одного изображения?",
+        "answer": "Да – проведите кистью по стольким областям, сколько необходимо, перед генерацией."
+      },
+      "q5": {
+        "question": "Могу ли я обработать несколько изображений одновременно?",
+        "answer": "Да – пакетный режим позволяет загрузить и удалить объекты с нескольких фотографий за один сеанс."
+      },
+      "q6": {
+        "question": "Безопасны ли мои данные?",
+        "answer": "Да. Загруженные изображения обрабатываются безопасно и автоматически удаляются после обработки. Мы никогда не используем их для обучения."
+      }
+    },
+    "privacySecurity": {
+      "title": "Конфиденциальность и безопасность",
+      "description": "Ваши изображения и конфиденциальность – наш приоритет.",
+      "secureProcessing": "Все загрузки обрабатываются безопасно и зашифрованы",
+      "autoDelete": "Изображения автоматически удаляются после обработки",
+      "neverShared": "Никогда не передаются третьим лицам и не используются для обучения AI"
+    },
+    "finalCTA": {
+      "title": "Превратите беспорядочные фотографии в чистые, потрясающие визуальные эффекты.",
+      "description": "Попробуйте AI Ластик для изображений joymagic прямо сейчас и удалите все нежелательное за секунды.<br/><span class=\"text-muted-foreground\">Навыки дизайна не требуются · Бесплатно попробовать</span>",
+      "button": "Удалить объекты сейчас"
+    }
+  }
+}
+

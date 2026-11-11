@@ -1,0 +1,28 @@
+{
+  "media_detail": {
+    "prompt_title": "ПРОМПТ",
+    "copy_button": "Копировать",
+    "copied_button": "Скопировано!",
+    "show_more": "Показать всё",
+    "show_less": "Свернуть",
+    "information_title": "ИНФОРМАЦИЯ",
+    "model_label": "Модель:",
+    "quality_label": "Качество:",
+    "size_label": "Размер:",
+    "generate_button": "Генерировать Похожее",
+    "video_button": "Видео",
+    "download_button": "Скачать",
+    "upscale_button": "Увеличить",
+    "edit_button": "Редактировать",
+    "no_prompt": "Промпт недоступен",
+    "image_alt": "Сгенерированное изображение"
+  },
+  "mobile_homepage": {
+    "create_image": "Создать Изображение",
+    "create_video": "Создать Видео",
+    "ai_effect": "AI эффект",
+    "new_badge": "Новое",
+    "view_all": "Показать Всё",
+    "view_more": "Показать Ещё"
+  }
+}

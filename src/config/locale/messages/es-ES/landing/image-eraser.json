@@ -1,0 +1,252 @@
+{
+  "imageEraser": {
+    "id": "image-eraser",
+    "title": "Borrador de Imágenes IA de joymagic",
+    "description": "Elimina objetos, marcas de agua y fondos no deseados de imágenes con precisión IA.",
+    "steps": {
+      "sourceImage": {
+        "title": "Subir imagen de origen",
+        "hint": "Sube imagen aquí JPG/PNG/WEBP",
+        "dragDrop": "Arrastra y suelta o haz clic para subir",
+        "dropHere": "Suelta la imagen aquí"
+      },
+      "maskImage": {
+        "title": "Subir imagen de máscara (Opcional)",
+        "hint": "Sube una imagen de máscara para especificar áreas a borrar. Las áreas blancas se borrarán, las áreas negras se mantendrán.",
+        "dragDrop": "Arrastra y suelta o haz clic para subir",
+        "dropHere": "Suelta la imagen de máscara aquí"
+      },
+      "prompt": {
+        "title": "Ingresar indicación (Opcional)",
+        "placeholder": "Describe lo que quieres borrar, ej., 'quitar la persona del fondo', 'borrar la marca de agua', 'quitar el texto'",
+        "hint": "El texto para especificar los objetos o áreas a eliminar de la imagen. Por ejemplo, 'perro' o 'sombrero'."
+      },
+      "outputFormat": {
+        "title": "Formato de salida",
+        "placeholder": "Seleccionar formato de salida",
+        "hint": "Elige el formato para la imagen de salida"
+      },
+      "generate": {
+        "title": "Generar imagen borrada",
+        "cta": "Borrar",
+        "generating": "Borrando..."
+      }
+    },
+    "preview": {
+      "title": "Vista previa",
+      "original": "Original",
+      "erased": "Borrado",
+      "placeholder": "Sube una imagen para ver el resultado borrado aquí."
+    },
+    "common": {
+      "selected": "Seleccionado: {name}",
+      "notSelected": "No seleccionado"
+    },
+    "errors": {
+      "invalidFileType": "Tipo de archivo inválido. Por favor sube un archivo de imagen (JPG, PNG, WEBP).",
+      "uploadFailed": "Error al subir: {error}",
+      "uploadFailedGeneric": "Error al subir",
+      "sourceImageRequired": "Por favor sube primero una imagen de origen",
+      "generationFailed": "Error al borrar la imagen",
+      "taskFailed": "Error al procesar la tarea",
+      "taskTimeout": "Tiempo de espera agotado al procesar la tarea, por favor intenta de nuevo más tarde",
+      "taskIdNotFound": "No se pudo obtener el ID de la tarea, por favor verifica el formato de respuesta de la API",
+      "processingFailed": "Error al procesar, por favor intenta de nuevo",
+      "statusQueryFailed": "Error al consultar el estado de la tarea",
+      "apiResponseParseFailed": "Error al analizar la respuesta de la API",
+      "downloadFailed": "Error al descargar la imagen"
+    },
+    "download": {
+      "title": "Descargar imagen"
+    },
+    "alt": {
+      "sourcePreview": "Vista previa de origen",
+      "maskPreview": "Vista previa de máscara",
+      "enlargedPreview": "Vista previa ampliada",
+      "source": "Origen",
+      "generated": "Generado"
+    }
+  },
+  "imageEraserPage": {
+    "metadata": {
+      "title": "Borrador de Imágenes IA | Eliminar Objetos de Fotos | joymagic",
+      "description": "Borra objetos, personas o texto no deseados de fotos al instante. Borrador de imágenes con IA e interfaz de pincel simple. Gratis, sin marca de agua, descarga HD lista.",
+      "keywords": "eliminador de objetos IA, borrador de fotos, eliminar objetos no deseados, limpieza de imágenes, inpainting, retoque fotográfico"
+    },
+    "hero": {
+      "title": "Borrador de Imágenes IA",
+      "description": "Elimina objetos no deseados de fotos online gratis con el borrador de imágenes IA de joymagic. Solo pinta sobre lo que no quieres – desaparece en segundos.",
+      "button1": "Eliminar Objetos Ahora",
+      "button2": "Empezar gratis · Sin tarjeta"
+    },
+    "heroDescription": "✓ Descarga HD ✓ Sin marca de agua ✓ Soporte por lotes",
+    "whatIsAIEraser": {
+      "title": "¿Qué es el Borrador de Imágenes IA?",
+      "description": "El Borrador de Imágenes IA de joymagic (también llamado Magic Eraser o Eliminador de Objetos) usa IA potente para detectar y eliminar inteligentemente objetos, personas, texto, marcas de agua o imperfecciones no deseadas de tus fotos mientras rellena el área con un fondo coincidente.",
+      "unlikeTraditional": "A diferencia de las herramientas tradicionales de clonación o reparación que requieren trabajo manual preciso, nuestra IA:",
+      "understandContext": "Entiende el contexto de la escena y la textura",
+      "generateRealistic": "Genera relleno realista que se mezcla perfectamente",
+      "handleComplex": "Maneja fondos complejos como césped, cielo, paredes o multitudes",
+      "simpleBrush": "Funciona con un simple pincel o clic",
+      "perfectFor": "Perfecto para limpiar fotos de viajes, imágenes de productos, retratos, fotos inmobiliarias, contenido de redes sociales y más."
+    },
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast processing",
+      "commercialReady": "Commercial-use ready"
+    },
+    "interfaceFeatures": {
+      "title": "On a single, clean interface you get:",
+      "uploadArea": "A drag-and-drop upload area for your source image",
+      "maskArea": "An optional mask image upload to specify exact areas to erase",
+      "promptBox": "An optional prompt box to describe what you want to remove",
+      "formatSelect": "Output format selection (JPEG, PNG, WebP)",
+      "generateButton": "A single Erase button to remove unwanted elements from your image"
+    },
+    "whatYouCanDo": {
+      "title": "Qué Puedes Hacer Con el Borrador de Imágenes IA de joymagic",
+      "description": "Un pincel, infinitas posibilidades de limpieza.",
+      "travelPhotos": {
+        "title": "Limpiar Fotos de Viajes y Vacaciones",
+        "description": "<p class=\"mb-3\">Elimina fotobombers, extraños, señales o basura de tus tomas perfectas.</p>"
+      },
+      "productPhotography": {
+        "title": "Fotografía de Productos Perfecta",
+        "description": "<p class=\"mb-3\">Borra polvo, reflejos, etiquetas de precio o accesorios no deseados de imágenes de comercio electrónico.</p>"
+      },
+      "portraits": {
+        "title": "Mejorar Retratos y Selfies",
+        "description": "<p class=\"mb-3\">Elimina imperfecciones, cabellos sueltos, distracciones de fondo o ex parejas sin esfuerzo.</p>"
+      },
+      "realEstate": {
+        "title": "Preparar Fotos Inmobiliarias e Interiores",
+        "description": "<p class=\"mb-3\">Elimina muebles, desorden o artículos personales para preparar listados profesionalmente.</p>"
+      },
+      "socialMedia": {
+        "title": "Crear Contenido Limpio para Redes Sociales",
+        "description": "<p class=\"mb-3\">Elimina marcas de agua, superposiciones de texto o elementos distractores para publicaciones y historias pulidas.</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Características Principales",
+      "description": "Potentes capacidades de borrado de imágenes IA construidas para velocidad y calidad.",
+      "smartRemoval": {
+        "title": "Eliminación Inteligente de Un Toque",
+        "description": "<p class=\"mb-3\">Pinta una vez – la IA entiende qué eliminar y rellena naturalmente. Maneja personas, objetos, texto, logos y más.</p>"
+      },
+      "realisticInpainting": {
+        "title": "Tecnología de Repintado Realista",
+        "description": "<p class=\"mb-3\">La IA generativa avanzada recrea fondos perfectamente, incluso en patrones complejos como playas, ciudades o telas.</p>"
+      },
+      "fastPrecise": {
+        "title": "Edición Rápida y Precisa",
+        "description": "<p class=\"mb-3\">Resultados en segundos con vista previa en tiempo real. Sin retrasos, sin esperas.</p>"
+      },
+      "batchRemoval": {
+        "title": "Eliminación de Objetos por Lotes",
+        "description": "<p class=\"mb-3\">Sube múltiples imágenes y límpialas todas a la vez – ideal para lotes de fotos o catálogos de productos.</p>"
+      },
+      "cleanOutput": {
+        "title": "Salida Profesional Limpia",
+        "description": "<p class=\"mb-3\">Sin marcas de agua, sin artefactos – descargas HD completas cada vez.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "Cómo Eliminar Objetos No Deseados de Fotos",
+      "description": "Borra cualquier cosa de tus imágenes con nuestro borrador de imágenes IA gratis en solo unos simples pasos:",
+      "step1": {
+        "title": "1. Sube tu imagen",
+        "description": "<p class=\"mb-3\">Arrastra y suelta o selecciona tu foto. Soporta formatos JPG, JPEG, PNG, WEBP y HEIC.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Funciona con paisajes, retratos, fotos de productos y más</li></ul>"
+      },
+      "step2": {
+        "title": "2. Pinta o haz clic en objetos no deseados",
+        "description": "<p class=\"mb-3\">Simplemente pinta sobre el objeto, persona, texto o imperfección que quieres eliminar.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Ajusta el tamaño del pincel para precisión</li><li>Nuestra IA detecta y selecciona el área automáticamente</li></ul>"
+      },
+      "step3": {
+        "title": "3. Deja que la IA borre y rellene",
+        "description": "<p class=\"mb-3\">Haz clic en Eliminar – la IA borra instantáneamente la selección y rellena inteligentemente el espacio con el entorno coincidente.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Vista previa del resultado en tiempo real</li><li>Deshacer o rehacer según sea necesario</li></ul>"
+      },
+      "step4": {
+        "title": "4. Refina y descarga",
+        "description": "<p class=\"mb-3\">Ajusta si lo deseas:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Vuelve a pintar puntos perdidos</li><li>Restaura áreas eliminadas accidentalmente</li></ul><p class=\"mb-3\">Descarga tu imagen limpia y de alta calidad – lista para usar.</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "Why joymagic vs Other Image Eraser Tools",
+      "description": "Built specifically for AI-powered image erasing, not just a basic tool.",
+      "focused": {
+        "title": "Focused on AI Image Erasing",
+        "description": "<p class=\"mb-3\">Many tools offer basic erasing features. joymagic is different—it's built with advanced AI:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Smart detection of what to remove</li><li>Context-aware filling of erased areas</li><li>Results tuned specifically for seamless object removal</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "Made for Fast Daily Workflows",
+        "description": "Designed for creators who need to clean up multiple images per day. Fewer steps, cleaner UI, no maze of menus. Quickly process batches of images."
+      },
+      "pricing": {
+        "title": "Pricing That Scales With You",
+        "description": "A clear free tier so you can test image erasing with no risk. A simple paid plan for power users and teams who need higher limits. Transparent usage — pay for what you actually use."
+      },
+      "commercialUse": {
+        "title": "Safe for Commercial Use",
+        "description": "You own the images you generate with joymagic, as long as you have the rights to the original images you upload. Generated images can be used for commercial projects such as campaigns, client work, and ecommerce listings."
+      }
+    },
+    "perfectFor": {
+      "title": "Who joymagic Is Perfect For",
+      "description": "Built for creators, brands, and designers who need clean, professional images.",
+      "photographers": {
+        "title": "Photographers & Creators",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up photos before publishing</li><li>Remove unwanted elements from shots</li><li>Prepare images for portfolios and galleries</li><li>Remove watermarks from your own work</li></ul><p class=\"text-sm text-muted-foreground italic\">Enhance your photography with AI-powered editing.</p>"
+      },
+      "ecommerce": {
+        "title": "Ecommerce & Small Brands",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up product photos</li><li>Remove distracting backgrounds</li><li>Remove watermarks and logos from stock images (with permission)</li><li>Prepare images for product listings</li></ul><p class=\"text-sm text-muted-foreground italic\">Get professional product photos without expensive editing.</p>"
+      },
+      "designers": {
+        "title": "Designers & Agencies",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Quickly clean up images for client projects</li><li>Remove unwanted elements from mockups</li><li>Prepare images for presentations and proposals</li><li>Save time on manual editing tasks</li></ul><p class=\"text-sm text-muted-foreground italic\">joymagic fits neatly into your existing design workflow.</p>"
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes del Borrador de Imágenes IA",
+      "description": "Preguntas comunes sobre nuestro borrador de imágenes IA.",
+      "q1": {
+        "question": "¿Qué formatos de imagen se admiten?",
+        "answer": "Admitimos JPG, JPEG, PNG, WEBP y HEIC. Mejores resultados con imágenes claras y de alta calidad."
+      },
+      "q2": {
+        "question": "¿Mis imágenes editadas tendrán marca de agua?",
+        "answer": "No. Todas las descargas están limpias y sin marca de agua."
+      },
+      "q3": {
+        "question": "¿Qué tan bueno es para eliminaciones complejas?",
+        "answer": "Nuestra IA sobresale en objetos grandes, personas en multitudes y fondos con textura. Para detalles ultra finos, usa trazos de pincel más pequeños."
+      },
+      "q4": {
+        "question": "¿Puedo eliminar múltiples objetos de una imagen?",
+        "answer": "Sí – pinta sobre tantas áreas como necesites antes de generar."
+      },
+      "q5": {
+        "question": "¿Puedo procesar múltiples imágenes a la vez?",
+        "answer": "Sí – el modo por lotes te permite subir y borrar objetos de varias fotos en una sesión."
+      },
+      "q6": {
+        "question": "¿Mis datos están seguros?",
+        "answer": "Sí. Las imágenes subidas se procesan de forma segura y se eliminan automáticamente después del procesamiento. Nunca las usamos para entrenamiento."
+      }
+    },
+    "privacySecurity": {
+      "title": "Privacidad y Seguridad",
+      "description": "Tus imágenes y privacidad son nuestra prioridad.",
+      "secureProcessing": "Todas las cargas se procesan de forma segura y encriptada",
+      "autoDelete": "Las imágenes se eliminan automáticamente después del procesamiento",
+      "neverShared": "Nunca compartidas con terceros ni usadas para entrenamiento de IA"
+    },
+    "finalCTA": {
+      "title": "Convierte fotos desordenadas en visuales limpios e impresionantes.",
+      "description": "Prueba el Borrador de Imágenes IA de joymagic ahora y elimina cualquier cosa no deseada en segundos.<br/><span class=\"text-muted-foreground\">No se necesitan habilidades de diseño · Gratis para probar</span>",
+      "button": "Eliminar Objetos Ahora"
+    }
+  }
+}

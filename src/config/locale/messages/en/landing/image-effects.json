@@ -1,0 +1,64 @@
+{
+  "titles": {
+    "advanced-photography": "Advanced Photography",
+    "plastic-bubble-figure": "Plastic Bubble Figure",
+    "felt-3d-polaroid": "Felt 3D Polaroid",
+    "glass-ball": "Glass Ball",
+    "micro-landscape-mini-world": "Micro Landscape Mini World",
+    "american-comic-style": "American Comic Style",
+    "futuristic-american-comics": "Futuristic American Comics",
+    "my-world": "My World",
+    "felt-keychain": "Felt Keychain",
+    "lofi-pixel-character-mini-card": "Lofi Pixel Character Mini Card",
+    "blurry-selfie-luffy": "Blurry Selfie Luffy",
+    "cyberpunk": "Cyberpunk",
+    "exotic-charm": "Exotic Charm",
+    "acrylic-ornaments": "Acrylic Ornaments",
+    "furry-dream-doll": "Furry Dream Doll",
+    "in-the-stadium": "In The Stadium",
+    "lying-in-fluffy-belly": "Lying In Fluffy Belly",
+    "angel-figurine": "Angel Figurine"
+  },
+  "gallery": {
+    "metadata": {
+      "title": "Image Effects | joymagic",
+      "description": "Browse trending image effects in a masonry gallery and jump into image creation with one click."
+    },
+    "ctaLabel": "Create Similar Image",
+    "inputLabel": "Input",
+    "outputLabel": "Output",
+    "previewLabel": "Preview"
+  },
+  "workspace": {
+    "metadata": {
+      "title": "Image Effects Workspace | joymagic",
+      "description": "Upload an image, choose an image effect, and manage this creation in a dedicated workspace."
+    },
+    "category": "Image",
+    "pageTitle": "Image Effects",
+    "workspaceLabel": "Workspace",
+    "inputBadge": "1 image input",
+    "selectedEffect": "Selected Effect",
+    "change": "Change",
+    "imageTitle": "Image",
+    "imageHint": "PNG, JPG, WEBP up to 15MB",
+    "uploadHint": "Click to upload an image",
+    "tryExamples": "Try examples",
+    "estimating": "Estimating...",
+    "create": "Create",
+    "creditsUnit": "credits",
+    "estimateError": "Failed to estimate credits:",
+    "emptyState": "Oops! It looks like you haven't created anything yet.",
+    "inputLabel": "Input",
+    "outputLabel": "Output",
+    "exampleAria": "Use example {index}",
+    "dialog": {
+      "title": "Select an image effect",
+      "searchPlaceholder": "Search for the effect you want",
+      "closeAria": "Close effect picker",
+      "description": "Choose an image effect from the same gallery data used on the image effect page.",
+      "emptyTitle": "No matching effects",
+      "emptyDescription": "Try another keyword."
+    }
+  }
+}

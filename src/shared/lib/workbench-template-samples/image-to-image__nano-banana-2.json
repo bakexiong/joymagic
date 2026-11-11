@@ -1,0 +1,25 @@
+[
+  {
+    "prompt": "Keep the dancer exactly as-is. Replace background with a neon-lit Tokyo street at night — wet pavement reflecting pink and blue light, blurred pedestrians, Japanese signage. Same camera angle and perspective.\n\nMaintain dancer pose and clothing. Change environment to an empty rooftop at golden hour, city skyline behind him, warm orange backlight creating a rim light effect around his silhouette.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/aca4ae90a3d45ae7ea0ee0287c172d44.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/aca4ae90a3d45ae7ea0ee0287c172d44.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Keep the dancer exactly as-is. Replace background with a neon-lit Tokyo street at night — wet pavement reflecting pink and blue light, blurred pedestrians, Japanese signage. Same camera angle and perspective.\n\nMaintain dancer pose and clothing. Change environment to an empty rooftop at golden hour, city skyline behind him, warm orange backlight creating a rim light effect around his silhouette.",
+      "aspectRatio": "auto",
+      "resolution": "1k"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/a4458d318b429b73bb636f09574562a7.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/a4458d318b429b73bb636f09574562a7.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/5796564b38c9d07248b5ab4037aec00b.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/5796564b38c9d07248b5ab4037aec00b.png"
+    ],
+    "generatedAt": "2026-04-15T03:33:13.498Z"
+  }
+]

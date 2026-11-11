@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "title": "Vidu Q3 Görüntüden Videoya - Yapay Zeka ile Fotoğrafları Canlandırın | joymagic",
+    "description": "Vidu Q3 ile görüntüleri videoya dönüştürün. Referans fotoğraflar yükleyin, hareket genliğini kontrol edin, isteğe bağlı ses ve arka plan müziği ile video oluşturun.",
+    "keywords": "vidu q3, görüntüden videoya, yapay zeka video oluşturucu, fotoğrafları canlandır, hareket genliği, arka plan müziği, vidu q3 görüntüden videoya"
+  },
+  "viduq3": {
+    "form": {
+      "prompt": {
+        "label": "Prompt",
+        "placeholder": "Şık genç bir erkek sanatçı, güneşli bir şehir ara sokağında tuğla duvara renkli bir çiçek duvar resmi sprey boyuyor...",
+        "tooltip": "Oluşturma için pozitif prompt."
+      },
+      "image": {
+        "label": "Görüntü",
+        "tooltip": "Videoya dönüştürmek için bir görüntü yükleyin",
+        "hint": "İpucu: Bir dosyayı sürükleyip bırakabilir veya yüklemek için tıklayabilirsiniz",
+        "dragDrop": "Bir dosyayı sürükleyip bırakın veya yüklemek için tıklayın",
+        "dropHere": "Görüntüyü buraya bırakın"
+      },
+      "resolution": {
+        "label": "Çözünürlük"
+      },
+      "duration": {
+        "label": "Süre",
+        "tooltip": "Video süresini 1 ile 16 saniye arasında ayarlayın",
+        "unit": "saniye"
+      },
+      "movementAmplitude": {
+        "label": "Hareket Genliği"
+      },
+      "generateAudio": {
+        "label": "Ses Oluştur",
+        "description": "Etkinleştirilirse, video için otomatik olarak ses oluşturulur.",
+        "tooltip": "Video için otomatik olarak ses oluşturmak için bu seçeneği etkinleştirin."
+      },
+      "bgm": {
+        "label": "Arka Plan Müziği",
+        "description": "Etkinleştirilirse, videoya arka plan müziği eklenir.",
+        "tooltip": "Videoya arka plan müziği eklemek için bu seçeneği etkinleştirin."
+      },
+      "seed": {
+        "label": "Seed",
+        "placeholder": "Rastgele için boş bırakın"
+      },
+      "buttons": {
+        "reset": "Sıfırla",
+        "run": "Oluştur",
+        "generating": "Oluşturuluyor..."
+      }
+    },
+    "preview": {
+      "placeholder": "Bir prompt girin ve çalıştır'a tıklayın, oluşturulan video burada görüntülenecektir."
+    },
+    "status": {
+      "idle": "Boşta",
+      "processing": "İşleniyor",
+      "completed": "Tamamlandı"
+    },
+    "actions": {
+      "downloadVideo": "Videoyu İndir",
+      "downloadFailed": "Video indirme başarısız"
+    },
+    "errors": {
+      "promptRequired": "Lütfen bir prompt girin",
+      "imageRequired": "Lütfen bir görüntü yükleyin",
+      "generationFailed": "Video oluşturma başarısız",
+      "taskFailed": "Görev işleme başarısız",
+      "taskTimeout": "İşleme zaman aşımı, lütfen daha sonra tekrar deneyin",
+      "taskIdNotFound": "Görev ID'si alınamadı, lütfen API yanıt formatını kontrol edin",
+      "processingFailed": "İşleme başarısız, lütfen tekrar deneyin",
+      "statusQueryFailed": "Görev durumu sorgusu başarısız",
+      "apiResponseParseFailed": "API yanıtı ayrıştırma başarısız",
+      "invalidFileType": "Geçersiz dosya türü. Lütfen görüntü dosyaları yükleyin (JPG, PNG, vb.).",
+      "uploadFailed": "Yükleme başarısız: {error}",
+      "uploadFailedGeneric": "Yükleme başarısız"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "Vidu Q3 Görüntüden Videoya - Yapay Zeka ile Fotoğrafları Canlandırın | joymagic",
+      "description": "Vidu Q3 ile görüntüleri videoya dönüştürün. Referans fotoğraflar yükleyin, hareket genliğini kontrol edin, isteğe bağlı ses ve arka plan müziği ile video oluşturun.",
+      "keywords": "vidu q3, görüntüden videoya, yapay zeka video oluşturucu, fotoğrafları canlandır, hareket genliği, arka plan müziği, vidu q3 görüntüden videoya"
+    },
+    "hero": {
+      "title": "Vidu Q3 Görüntüden Videoya",
+      "description": "Vidu Q3, görüntülerinizi özelleştirilebilir hareket genliği ile video kliplere dönüştürür. Referans fotoğraflar yükleyin, hareket yoğunluğunu kontrol edin ve isteğe bağlı ses ve arka plan müziği ile video oluşturun. Vidu Q3'ü şimdi ücretsiz deneyin!",
+      "button1": "Şimdi Dene",
+      "button2": "Fiyatları Gör"
+    },
+    "keyFeatures": {
+      "title": "Temel Özellikler",
+      "movementControl": {
+        "title": "Hareket Genliği Kontrolü",
+        "description": "Videolarınızdaki hareket yoğunluğunu kontrol edin. Yaratıcı vizyonunuza uyması için otomatik, küçük, orta veya büyük arasından seçim yapın."
+      },
+      "flexibleDuration": {
+        "title": "Esnek Süre",
+        "description": "1 ile 16 saniye arasında videolar oluşturun. Kısa klipler veya daha uzun diziler oluşturmak için süre kaydırıcısını ayarlayın."
+      },
+      "audioOptions": {
+        "title": "Ses Seçenekleri",
+        "description": "Ses oluşturmayı veya arka plan müziği eklemeyi seçin. İzleme deneyimini geliştirmek için videonuzun sesini özelleştirin."
+      },
+      "multipleResolutions": {
+        "title": "Çoklu Çözünürlükler",
+        "description": "Proje gereksinimlerinize ve kalite ihtiyaçlarınıza uyması için 540p, 720p veya 1080p çözünürlükler arasından seçim yapın."
+      }
+    },
+    "useCases": {
+      "title": "Kullanım Alanları",
+      "productAnimation": {
+        "title": "Ürün Animasyonu",
+        "description": "Ürün fotoğraflarını döndürme, kullanım veya yaşam tarzı bağlamlarını gösteren demo videolara dönüştürün."
+      },
+      "characterAnimation": {
+        "title": "Karakter Animasyonu",
+        "description": "Karakter tasarımlarını ve konsept sanatını hareket ve ifadelerle hayata geçirin."
+      },
+      "portraitVideos": {
+        "title": "Portre Videoları",
+        "description": "Portre fotoğraflarını ince hareketlerle canlandırın—göz kırpma, baş çevirme, hafif gülümsemeler."
+      },
+      "styleMatchedClips": {
+        "title": "Stil Eşleşmeli Klipler",
+        "description": "Belirli bir estetik veya sanat yönüne uyan videolar oluşturmak için stil referansları yükleyin."
+      }
+    },
+    "faq": {
+      "title": "SSS",
+      "q1": {
+        "question": "Vidu Q3 Görüntüden Videoya nedir?",
+        "answer": "Vidu Q3 Görüntüden Videoya, yüklediğiniz görüntüleri özelleştirilebilir hareket genliği, süre ve ses seçenekleri ile video kliplere dönüştürür."
+      },
+      "q2": {
+        "question": "Hareket genliği nedir?",
+        "answer": "Hareket genliği, videonuzda ne kadar hareket görüneceğini kontrol eder. Otomatik algılama için otomatik seçin veya belirli yoğunluk seviyeleri için küçük, orta veya büyük seçin."
+      },
+      "q3": {
+        "question": "Arka plan müziği ekleyebilir miyim?",
+        "answer": "Evet. Oluşturulan videolarınıza müzik eklemek için arka plan müziği seçeneğini etkinleştirebilirsiniz."
+      },
+      "q4": {
+        "question": "Hangi video süreleri destekleniyor?",
+        "answer": "Vidu Q3, 1 ile 16 saniye arasında video sürelerini destekler. İstediğiniz uzunluğu ayarlamak için kaydırıcıyı veya giriş alanını kullanın."
+      },
+      "q5": {
+        "question": "Hangi çözünürlükler mevcut?",
+        "answer": "Kalite ve dosya boyutu tercihlerinize bağlı olarak 540p, 720p veya 1080p çözünürlükler arasından seçim yapabilirsiniz."
+      }
+    },
+    "finalCTA": {
+      "title": "Oluşturmaya Hazır mısınız?",
+      "description": "Bugün görüntülerinizden harika videolar oluşturmaya başlayın.",
+      "button": "Şimdi Dene"
+    }
+  }
+}

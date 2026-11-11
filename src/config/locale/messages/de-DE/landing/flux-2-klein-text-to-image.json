@@ -1,0 +1,143 @@
+{
+  "title": "flux-2-klein text-to-image",
+  "subtitle": "Erzeugen Sie beeindruckende Bilder aus Textbeschreibungen",
+  "prompt_label": "Eingabeaufforderung",
+  "prompt_placeholder": "antike monumentale Teotihuacán-Pyramiden, von rotem Licht beleuchtet, am Himmel ein riesiger Saturn, skulptural und nicht-astronomisch, mit Ringen aus flüssigem Metall, futuristisch und archaisch, evoziert ein heiliges Portal eher als einen Planeten, wenig Lichtnebel, filmische Tiefe und atmosphärische Perspektive, minimale Komposition mit großem sauberem Negativraum für Typografie",
+  "prompt_tooltip": "Geben Sie eine Beschreibung des Bildes ein, das Sie generieren möchten",
+  "size_label": "Bildgröße",
+  "size_hint": "Wählen Sie die Ausgabebildgröße",
+  "width_label": "Breite",
+  "height_label": "Höhe",
+  "seed_label": "Seed",
+  "seed_hint": "-1 für zufälligen Seed",
+  "seed_tooltip": "Legen Sie einen Seed-Wert für reproduzierbare Ergebnisse fest. Verwenden Sie -1 für zufälligen Seed.",
+  "seed_randomize": "Zufälligen Seed generieren",
+  "buttons": {
+    "generate": "Bild generieren"
+  },
+  "errors": {
+    "promptRequired": "Eingabeaufforderung ist erforderlich"
+  },
+  "image_alt": "Generiertes Bild",
+  "download": "Download",
+  "image_placeholder": "Generiertes Bild wird hier angezeigt",
+  "prompt_inspirations_button": "Prompt-Inspirationen",
+  "prompt_guide_button": "Prompt-Anleitung",
+  "powered_by": "Unterstützt von Flux 2 Klein AI-Modell, optimiert von joymagic",
+  "page": {
+    "metadata": {
+      "title": "flux-2-klein text-to-image (4B) - AI Bildgenerator | joymagic",
+      "description": "Erzeugen Sie hochwertige Bilder mit flux-2-klein text-to-image. Erstellen Sie konsistente Ergebnisse mit Seed-Kontrolle und exportieren Sie bis zu 1536×1536.",
+      "keywords": "flux-2-klein text-to-image, flux-2-klein, flux-2-klein-4b, text to image, ai bildgenerator, prompt zu bild"
+    },
+    "hero": {
+      "title": "flux-2-klein text-to-image",
+      "description": "Generieren Sie mit flux-2-klein text-to-image: schnelle, hochwertige Bilder aus Prompts. Verwenden Sie Seed-Kontrolle für konsistente Ergebnisse und exportieren Sie bis zu 1536×1536.",
+      "button1": "Jetzt ausprobieren",
+      "button2": "Preise ansehen"
+    },
+    "heroDescription": "Erstellen Sie beeindruckende Bilder aus einfachen Textbeschreibungen mit fortschrittlicher KI-Technologie.",
+    "keyFeatures": {
+      "title": "Hauptfunktionen",
+      "description": "Leistungsstarke KI-Bildgenerierungsfunktionen",
+      "highQuality": {
+        "title": "Hochwertige Bilder",
+        "description": "Erzeugen Sie hochauflösende Bilder mit außergewöhnlichen Details und Klarheit. Perfekt für professionelle Anwendungsfälle."
+      },
+      "fastGeneration": {
+        "title": "Schnelle Generierung",
+        "description": "Erzeugen Sie Bilder schnell mit effizienter Verarbeitung. Erhalten Sie Ergebnisse in Sekunden."
+      },
+      "styleFlexibility": {
+        "title": "Stilflexibilität",
+        "description": "Erstellen Sie Bilder in verschiedenen Stilen - fotorealistisch, künstlerisch, abstrakt und mehr. Kontrollieren Sie die Ausgabe mit detaillierten Prompts."
+      },
+      "seedControl": {
+        "title": "Seed-Kontrolle",
+        "description": "Kontrollieren Sie die Zufälligkeit mit Seed-Werten. Verwenden Sie denselben Seed, um ähnliche Ergebnisse zu reproduzieren, oder verwenden Sie -1 für zufällige Generierung."
+      }
+    },
+    "promptingTips": {
+      "title": "Prompt-Tipps",
+      "lighting": {
+        "title": "Seien Sie spezifisch bei der Beleuchtung",
+        "description": "\"Goldene Stunde Sonnenlicht von links, weiche Schatten\" funktioniert besser als \"gute Beleuchtung\"."
+      },
+      "camera": {
+        "title": "Kameradetails einbeziehen",
+        "description": "\"Aufnahme mit 85mm Objektiv, geringe Schärfentiefe\" verleiht professionelle Fotografiequalität."
+      },
+      "style": {
+        "title": "Kunststil angeben",
+        "description": "\"Digitale Illustration im Studio Ghibli Stil\" oder \"hyperrealistisches 3D-Rendering\" gibt klare Richtung."
+      },
+      "mood": {
+        "title": "Stimmung und Atmosphäre beschreiben",
+        "description": "\"Gemütliches, warmes, nostalgisches Gefühl\" oder \"dramatisch, filmisch, hoher Kontrast\" prägt das Gesamtbild."
+      }
+    },
+    "useCases": {
+      "title": "Anwendungsfälle",
+      "marketing": {
+        "title": "Marketing-Visuals",
+        "description": "Erzeugen Sie Produktkonzepte, Werbebilder und Social-Media-Inhalte ohne Fotoshootings."
+      },
+      "character": {
+        "title": "Charakterdesign",
+        "description": "Erstellen Sie originelle Charaktere für Spiele, Comics oder Animationsprojekte aus Textbeschreibungen."
+      },
+      "concept": {
+        "title": "Konzeptkunst",
+        "description": "Visualisieren Sie Szenen, Umgebungen und Ideen schnell für kreative Projekte und Präsentationen."
+      },
+      "stock": {
+        "title": "Stockfoto-Alternative",
+        "description": "Erzeugen Sie spezifische Bilder, die Sie benötigen, anstatt durch generische Stock-Bibliotheken zu suchen."
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Häufige Fragen zu flux-2-klein text-to-image",
+      "q1": {
+        "question": "Was ist Flux 2 Klein?",
+        "answer": "Flux 2 Klein ist ein fortschrittliches KI-Bildgenerierungsmodell, das Bilder aus Textbeschreibungen erstellt. Es erzeugt hochwertige Bilder in verschiedenen Auflösungen."
+      },
+      "q2": {
+        "question": "Wie detailliert sollte mein Prompt sein?",
+        "answer": "Mehr Details bedeuten im Allgemeinen bessere Ergebnisse. Beziehen Sie Motiv, Umgebung, Beleuchtung, Stil, Stimmung und Kompositionsdetails ein. Seien Sie spezifisch darüber, was Sie sehen möchten."
+      },
+      "q3": {
+        "question": "Was ist der Seed-Parameter?",
+        "answer": "Der Seed-Parameter kontrolliert die Zufälligkeit. Verwenden Sie -1 für zufällige Generierung oder eine bestimmte Zahl, um ähnliche Ergebnisse zu reproduzieren. Derselbe Seed mit demselben Prompt erzeugt ähnliche Bilder."
+      },
+      "q4": {
+        "question": "Welche Bildgrößen werden unterstützt?",
+        "answer": "Sie können Bilder von 256×256 bis zu 1536×1536 generieren. Die Größe muss ein Vielfaches von 64 sein. Standard ist 1024×1024."
+      },
+      "q5": {
+        "question": "Wie viele Credits kostet es?",
+        "answer": "Jede Bildgenerierung kostet 2 Credits. Dies macht es zu einer erschwinglichen Option für die Erstellung hochwertiger Bilder."
+      }
+    },
+    "finalCTA": {
+      "title": "Bereit zum Erstellen?",
+      "description": "Beginnen Sie noch heute, erstaunliche Bilder aus Ihren Textbeschreibungen zu generieren.",
+      "button": "Jetzt ausprobieren"
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "textToImage": "Text zu Bild",
+      "flux2Klein": "Flux 2 Klein"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Flux 2 Klein Text zu Bild",
+      "howToName": "So generieren Sie Bilder mit Flux 2 Klein",
+      "howToDescription": "Erzeugen Sie Bilder aus Textbeschreibungen mit Flux 2 Klein",
+      "features": {
+        "aiTextToImage": "KI-Text-zu-Bild-Generierung",
+        "highQuality": "Hochwertige Bilder",
+        "fastProcessing": "Schnelle Verarbeitung"
+      }
+    }
+  }
+}

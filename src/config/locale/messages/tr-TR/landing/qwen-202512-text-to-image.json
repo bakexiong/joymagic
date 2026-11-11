@@ -1,0 +1,273 @@
+{
+  "title": "Qwen Image 202512 Metinden Görüntü",
+  "subtitle": "Metin açıklamalarından çarpıcı görüntüler oluşturun",
+  "prompt_label": "İstem",
+  "prompt_placeholder": "venedik panjurları, yüzünde dramatik gölge desenleri oluşturuyor. Hasselblad H6D-100c, 85mm f/1.4 lens, sığ alan derinliği, film taneleri, Kodak Portra 400 renk bilimi ile çekildi. Negatif alanlı sinematik kompozisyon, melankolik atmosfer.",
+  "prompt_tooltip": "Oluşturmak istediğiniz görüntünün açıklamasını girin",
+  "size_label": "Görüntü Boyutu",
+  "size_hint": "Çıktı görüntü boyutunu seçin",
+  "width_label": "Genişlik",
+  "height_label": "Yükseklik",
+  "seed_label": "Tohum",
+  "seed_tooltip": "Yeniden üretilebilir sonuçlar için bir tohum değeri ayarlayın. Rastgele tohum için -1 kullanın.",
+  "seed_randomize": "Rastgele tohum oluştur",
+  "output_format_label": "Çıktı Formatı",
+  "output_format_tooltip": "Çıktı görüntü formatını seçin",
+  "buttons": {
+    "generate": "Görüntü Oluştur"
+  },
+  "errors": {
+    "promptRequired": "İstem gereklidir"
+  },
+  "image_alt": "Oluşturulan görüntü",
+  "download": "İndir",
+  "image_placeholder": "Oluşturulan görüntü burada görünecek",
+  "prompt_inspirations_button": "İstem İlhamları",
+  "prompt_guide_button": "İstem Kılavuzu",
+  "powered_by": "joymagic tarafından optimize edilmiş Qwen Image 202512 AI modeli ile desteklenmektedir",
+  "page": {
+    "metadata": {
+      "title": "Qwen Image 2512: Okunabilir Metin için Alibaba'nın Metinden Görüntü Modeli | joymagic",
+      "description": "Qwen Image 2512, doğru ve okunabilir metinle yüksek kaliteli görüntü oluşturma için optimize edilmiş Alibaba'nın en son metinden görüntü oluşturma modelidir. Posterler, tabelalar, logolar, reklamlar ve marka tasarım varlıkları için mükemmeldir.",
+      "keywords": "Qwen Image 2512, metinden görüntü, ai görüntü oluşturucu, okunabilir metin, posterler, tabelalar, logolar, Alibaba, Qwen AI"
+    },
+    "hero": {
+      "title": "Qwen Image 2512: Okunabilir Metin için Alibaba'nın Metinden Görüntü Modeli",
+      "description": "Qwen Image 2512, Qwen AI ailesinden Alibaba'nın en son metinden görüntü oluşturma modelidir. Doğru ve okunabilir metinle yüksek kaliteli görüntü oluşturma için özellikle optimize edilmiştir, bu da onu metin netliğinin gerçekten önemli olduğu posterler, tabelalar, logolar, reklamlar ve marka tasarım varlıkları için mükemmel bir seçim yapar.<br/><br/>Yalnızca görsel estetiği önceliklendiren birçok görüntü oluşturma modelinin aksine, Qwen Image 2512, güçlü doğal dil anlayışını görüntüler içindeki sektör lideri metin oluşturma ile birleştirerek öne çıkar.",
+      "button1": "Şimdi Dene",
+      "button2": "Fiyatları Görüntüle"
+    },
+    "heroDescription": "Gelişmiş AI teknolojisi kullanarak basit metin açıklamalarından çarpıcı görüntüler oluşturun.",
+    "keyFeatures": {
+      "title": "Neden Qwen Image 2512'yi Seçmelisiniz?",
+      "description": "Qwen Image 2512'yi metin açısından zengin görsel içerik için ideal seçim yapan benzersiz avantajları keşfedin",
+      "superiorTextRendering": {
+        "title": "Üstün Metin Oluşturma",
+        "description": "Qwen Image 2512, görüntüler içinde net, okunabilir metin oluşturmada mükemmeldir, birden fazla dil, yazı tipi ve düzen stili destekler. Bu, onu metin okunabilirliğinin kritik olduğu pazarlama posterleri, promosyon bannerları, ürün etiketleri, logolar ve tabelalar gibi kullanım durumları için ideal yapar."
+      },
+      "advancedPromptUnderstanding": {
+        "title": "Gelişmiş İstem Anlayışı",
+        "description": "Model, karmaşık istemlerin gelişmiş anlayışını gösterir, konu ilişkilerini, uzamsal düzenleri ve kompozisyonu, stilistik niyeti ve görsel hiyerarşiyi doğru bir şekilde yorumlar. Uzun, detaylı istemler bile tutarlı ve güvenilir sonuçlarla işlenir."
+      },
+      "flexibleImageSizing": {
+        "title": "Esnek Görüntü Boyutlandırma",
+        "description": "Qwen Image 2512, özel genişlik ve yükseklik parametrelerini destekler, sosyal medya formatları (1:1, 4:5, 9:16), sunumlar ve web bannerları ve baskıya hazır görseller ve posterler için özel görüntüler oluşturmanıza olanak tanır."
+      },
+      "consistentQuality": {
+        "title": "Tüm Stillerde Tutarlı Kalite",
+        "description": "Fotoğraf gerçekçi görüntüler, illüstrasyonlar veya konsept sanatı veya soyut veya marka odaklı tasarımlar isteyip istemediğinize bakılmaksızın, Qwen Image 2512 tüm çıktılarda yüksek görsel kalite ve stilistik tutarlılığı korur."
+      },
+      "builtInPromptEnhancer": {
+        "title": "Yerleşik İstem Geliştirici",
+        "description": "Entegre İstem Geliştirici, girdinizi otomatik olarak iyileştirir, daha az deneme yanılma ile daha iyi oluşturma sonuçları elde etmenize yardımcı olur."
+      }
+    },
+    "howItWorks": {
+      "title": "Nasıl Çalışır",
+      "description": "Üç basit adımda görüntü oluşturun",
+      "step1": {
+        "title": "İsteminizi Girin",
+        "description": "Oluşturmak istediğiniz görüntüyü açıklayın"
+      },
+      "step2": {
+        "title": "Ayarları Seçin",
+        "description": "Çıktı formatını ve tercihleri seçin"
+      },
+      "step3": {
+        "title": "Oluştur ve İndir",
+        "description": "AI tarafından oluşturulan görüntünüzü alın ve indirin"
+      }
+    },
+    "promptingTips": {
+      "title": "Prompting Tips",
+      "lighting": {
+        "title": "Be Specific About Lighting",
+        "description": "\"Golden hour sunlight from the left, soft shadows\" works better than \"good lighting.\""
+      },
+      "camera": {
+        "title": "Include Camera Details",
+        "description": "\"Shot with 85mm lens, shallow depth of field\" adds professional photography quality."
+      },
+      "style": {
+        "title": "Specify Art Style",
+        "description": "\"Digital illustration in Studio Ghibli style\" or \"hyperrealistic 3D render\" gives clear direction."
+      },
+      "mood": {
+        "title": "Describe Mood and Atmosphere",
+        "description": "\"Cozy, warm, nostalgic feeling\" or \"dramatic, cinematic, high contrast\" shapes the overall image."
+      }
+    },
+    "parameters": {
+      "title": "Qwen Image 2512 Parameters",
+      "description": "Parameter details are available in the playground interface. Adjust width, height, seed, and output format to customize your image generation."
+    },
+    "outputFormats": {
+      "title": "Output Format Options",
+      "jpeg": {
+        "title": "JPEG",
+        "description": "Smaller file size, ideal for photos and web usage"
+      },
+      "png": {
+        "title": "PNG",
+        "description": "Lossless quality with transparency support, best for images containing text"
+      },
+      "webp": {
+        "title": "WebP",
+        "description": "Modern format with better compression and strong browser compatibility"
+      }
+    },
+    "howToUse": {
+      "title": "Qwen Image 2512 Nasıl Kullanılır",
+      "step1": {
+        "title": "İsteminizi yazın",
+        "description": "Konuyu, stili, kompozisyonu, aydınlatmayı ve ruh halini açıklayın."
+      },
+      "step2": {
+        "title": "Görüntü boyutunu ayarlayın",
+        "description": "Hedef platformunuza göre genişlik ve yüksekliği ayarlayın."
+      },
+      "step3": {
+        "title": "Tohumu ayarlayın",
+        "description": "Rastgele çıktılar için -1 kullanın veya yeniden üretilebilirlik için sabit bir değer belirtin."
+      },
+      "step4": {
+        "title": "Çıktı formatını seçin",
+        "description": "İhtiyaçlarınıza göre jpeg, png veya webp seçin."
+      },
+      "step5": {
+        "title": "Çalıştırın ve yineleyin",
+        "description": "Gerektiğinde oluşturun, önizleyin ve isteminizi iyileştirin."
+      }
+    },
+    "pricing": {
+      "title": "Pricing",
+      "description": "Simple flat-rate pricing, independent of image size, making it cost-effective for large-scale and commercial usage. View our pricing page for detailed information.",
+      "link": "View Pricing →"
+    },
+    "bestUseCases": {
+      "title": "Best Use Cases",
+      "marketing": {
+        "title": "Marketing & Advertising",
+        "description": "Create high-impact visuals with readable text for ads, posters, and campaigns."
+      },
+      "socialMedia": {
+        "title": "Social Media Content",
+        "description": "Generate platform-optimized visuals that drive engagement."
+      },
+      "productDesign": {
+        "title": "Product & Packaging Design",
+        "description": "Visualize concepts, mockups, and packaging with integrated typography."
+      },
+      "branding": {
+        "title": "Branding & Visual Identity",
+        "description": "Design logos, signage, and brand assets with clear text elements."
+      },
+      "editorial": {
+        "title": "Editorial & Publishing",
+        "description": "Produce illustrations, cover art, and visual content for articles and media."
+      }
+    },
+    "proTips": {
+      "title": "Pro Tips for Best Results",
+      "specific": {
+        "title": "Be as specific as possible in your prompts",
+        "description": "Include subject details, style, lighting, camera angle, and atmosphere."
+      },
+      "textInImages": {
+        "title": "When generating text inside images, explicitly specify the exact wording, font style, and placement",
+        "example": "Example:",
+        "exampleText": "\"Poster with the text 'SUMMER SALE' in bold red letters at the top.\""
+      },
+      "reproducibility": {
+        "title": "Use the same prompt and seed to reproduce identical outputs",
+        "description": "This model is specifically optimized for readable text generation, so take advantage of that strength."
+      }
+    },
+    "notes": {
+      "title": "Notes",
+      "description": "Please ensure that your prompts comply with applicable content guidelines. If an error occurs, review and refine your prompt before retrying."
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "marketing": {
+        "title": "Marketing Visuals",
+        "description": "Generate product concepts, ad imagery, and social media content without photoshoots."
+      },
+      "character": {
+        "title": "Character Design",
+        "description": "Create original characters for games, comics, or animation projects from text descriptions."
+      },
+      "concept": {
+        "title": "Concept Art",
+        "description": "Visualize scenes, environments, and ideas quickly for creative projects and presentations."
+      },
+      "stock": {
+        "title": "Stock Photo Alternative",
+        "description": "Generate specific images you need instead of searching through generic stock libraries."
+      }
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "description": "Qwen Image 2512 hakkında yaygın sorular",
+      "q1": {
+        "question": "Qwen Image 2512 nedir?",
+        "answer": "Qwen Image 2512, Qwen AI ailesinden Alibaba'nın en son metinden görüntü oluşturma modelidir. Doğru ve okunabilir metinle yüksek kaliteli görüntü oluşturma için özellikle optimize edilmiştir, bu da onu posterler, tabelalar, logolar, reklamlar ve marka tasarım varlıkları için ideal yapar."
+      },
+      "q2": {
+        "question": "Qwen Image 2512'yi diğer modellerden farklı kılan nedir?",
+        "answer": "Qwen Image 2512, güçlü doğal dil anlayışını görüntüler içindeki sektör lideri metin oluşturma ile birleştirerek öne çıkar. Yalnızca görsel estetiği önceliklendiren birçok modelin aksine, görüntüler içinde net, okunabilir metin oluşturmada mükemmeldir."
+      },
+      "q3": {
+        "question": "Hangi çıktı formatları desteklenir?",
+        "answer": "Qwen Image 2512, JPEG (daha küçük dosya boyutu, fotoğraflar ve web için ideal), PNG (şeffaflık desteğiyle kayıpsız kalite, metin içeren görüntüler için en iyi) ve WebP (daha iyi sıkıştırma ve güçlü tarayıcı uyumluluğu ile modern format) destekler."
+      },
+      "q4": {
+        "question": "Görüntü boyutunu özelleştirebilir miyim?",
+        "answer": "Evet, Qwen Image 2512 özel genişlik ve yükseklik parametrelerini destekler, sosyal medya formatları (1:1, 4:5, 9:16), sunumlar, web bannerları ve baskıya hazır görseller için özel görüntüler oluşturmanıza olanak tanır."
+      },
+      "q5": {
+        "question": "Görüntülerdeki metinle en iyi sonuçları nasıl alırım?",
+        "answer": "Görüntüler içinde metin oluştururken, tam ifadeyi, yazı tipi stilini ve yerleşimi açıkça belirtin. Örneğin: \"Üstte kalın kırmızı harflerle 'YAZ İNDİRİMİ' metni olan poster.\" Bu model özellikle okunabilir metin oluşturma için optimize edilmiştir, bu nedenle bu gücünden yararlanın."
+      }
+    },
+    "privacySecurity": {
+      "title": "Gizlilik ve Güvenlik",
+      "description": "Gizliliğiniz ve güvenliğiniz bizim en yüksek önceliğimizdir.",
+      "secureProcessing": "Güvenli İşleme",
+      "autoDelete": "Otomatik Silme",
+      "neverShared": "Asla Paylaşılmaz"
+    },
+    "finalCTA": {
+      "title": "Oluşturmaya Hazır mısınız?",
+      "description": "Qwen Image 2512 sadece başka bir metinden görüntü modeli değil—gerçek dünya tasarım ve pazarlama iş akışları için tasarlanmış üretime hazır bir görsel oluşturma aracıdır. Projeleriniz net tipografi, hassas düzenler ve güçlü görsel anlatım gerektiriyorsa, Qwen Image 2512 bugün mevcut olan en ikna edici seçeneklerden biridir.",
+      "button": "Şimdi Deneyin"
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "textToImage": "Metinden Görüntü",
+      "qwenImage2512": "Qwen Image 2512"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Qwen Image 2512 Text to Image",
+      "howToName": "How to Generate Images with Qwen Image 2512",
+      "howToDescription": "Generate images from text descriptions using Qwen Image 2512 with accurate, readable text",
+      "features": {
+        "superiorTextRendering": "Superior Text Rendering",
+        "advancedPromptUnderstanding": "Advanced Prompt Understanding",
+        "flexibleImageSizing": "Flexible Image Sizing",
+        "consistentQuality": "Consistent Quality Across Styles"
+      }
+    },
+    "showcase": {
+      "image1": {
+        "alt": "Okunabilir metinli Qwen Image 2512 oluşturulmuş poster"
+      },
+      "image2": {
+        "alt": "Qwen Image 2512 oluşturulmuş çok dilli hello tasarımı"
+      },
+      "image3": {
+        "alt": "Qwen Image 2512 oluşturulmuş görüntü kolajı"
+      }
+    }
+  }
+}

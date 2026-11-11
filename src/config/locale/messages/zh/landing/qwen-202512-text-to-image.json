@@ -1,0 +1,273 @@
+{
+  "title": "Qwen Image 202512 文本生成图片",
+  "subtitle": "从文本描述生成精美的图片",
+  "prompt_label": "提示词",
+  "prompt_placeholder": "百叶窗，在她脸上形成戏剧性的阴影图案。使用哈苏 H6D-100c 拍摄，85mm f/1.4 镜头，浅景深，胶片颗粒，Kodak Portra 400 色彩科学。电影构图，留白，忧郁氛围。",
+  "prompt_tooltip": "输入您想要生成的图片描述",
+  "size_label": "图片尺寸",
+  "size_hint": "选择输出图片的尺寸",
+  "width_label": "宽度",
+  "height_label": "高度",
+  "seed_label": "种子值",
+  "seed_tooltip": "设置种子值以获得可重复的结果。使用 -1 表示随机种子。",
+  "seed_randomize": "生成随机种子",
+  "output_format_label": "输出格式",
+  "output_format_tooltip": "选择输出图片格式",
+  "buttons": {
+    "generate": "生成图片"
+  },
+  "errors": {
+    "promptRequired": "提示词是必填项"
+  },
+  "image_alt": "生成的图片",
+  "download": "下载",
+  "image_placeholder": "生成的图片将显示在这里",
+  "prompt_inspirations_button": "提示词灵感",
+  "prompt_guide_button": "提示词指南",
+  "powered_by": "由 joymagic 优化的 Qwen Image 202512 AI 模型提供支持",
+  "page": {
+    "metadata": {
+      "title": "Qwen Image 2512：阿里巴巴专为可读文本打造的文生图模型 | joymagic",
+      "description": "Qwen Image 2512 是阿里巴巴最新的文生图模型，专为生成高质量、准确可读文本的图片而优化。非常适合海报、标牌、标志、广告和品牌设计资产。",
+      "keywords": "Qwen Image 2512，文本生成图片，AI 图片生成器，可读文本，海报，标牌，标志，阿里巴巴，Qwen AI"
+    },
+    "hero": {
+      "title": "Qwen Image 2512：阿里巴巴专为可读文本打造的文生图模型",
+      "description": "Qwen Image 2512 是阿里巴巴 Qwen AI 系列最新的文生图模型。它专门针对生成高质量、准确可读文本的图片进行了优化，是海报、标牌、标志、广告和品牌设计资产等需要文本清晰度的场景的绝佳选择。<br/><br/>与许多仅优先考虑视觉美感的图片生成模型不同，Qwen Image 2512 通过结合强大的自然语言理解和行业领先的图片内文本渲染能力而脱颖而出。",
+      "button1": "立即试用",
+      "button2": "查看价格"
+    },
+    "heroDescription": "使用先进的 AI 技术从简单的文本描述创建精美的图片。",
+    "keyFeatures": {
+      "title": "为什么选择 Qwen Image 2512？",
+      "description": "发现使 Qwen Image 2512 成为文本丰富视觉内容理想选择的独特优势",
+      "superiorTextRendering": {
+        "title": "卓越的文本渲染",
+        "description": "Qwen Image 2512 擅长在图片中生成清晰、易读的文本，支持多种语言、字体和布局样式。这使其成为营销海报、促销横幅、产品标签、标志和标牌等文本可读性至关重要的场景的理想选择。"
+      },
+      "advancedPromptUnderstanding": {
+        "title": "高级提示词理解",
+        "description": "该模型展现出对复杂提示词的增强理解能力，能够准确解释主体关系、空间布局和构图，以及风格意图和视觉层次。即使是冗长、详细的提示词也能得到一致可靠的结果。"
+      },
+      "flexibleImageSizing": {
+        "title": "灵活的图片尺寸",
+        "description": "Qwen Image 2512 支持自定义宽度和高度参数，允许您生成适合社交媒体格式（1:1、4:5、9:16）、演示文稿和网页横幅，以及适合打印的视觉效果和海报的图片。"
+      },
+      "consistentQuality": {
+        "title": "跨风格的一致性质量",
+        "description": "无论您需要逼真图片、插画或概念艺术，还是抽象或品牌驱动的设计，Qwen Image 2512 都能在所有输出中保持高视觉质量和风格一致性。"
+      },
+      "builtInPromptEnhancer": {
+        "title": "内置提示词增强器",
+        "description": "集成的提示词增强器会自动优化您的输入，帮助您以更少的试错获得更好的生成结果。"
+      }
+    },
+    "howItWorks": {
+      "title": "使用方法",
+      "description": "三个简单步骤生成图片",
+      "step1": {
+        "title": "输入提示词",
+        "description": "描述您想要生成的图片"
+      },
+      "step2": {
+        "title": "选择设置",
+        "description": "选择输出格式和偏好设置"
+      },
+      "step3": {
+        "title": "生成和下载",
+        "description": "获取您的 AI 生成图片并下载"
+      }
+    },
+    "promptingTips": {
+      "title": "提示词技巧",
+      "lighting": {
+        "title": "具体描述光照",
+        "description": "\"左侧金色时光阳光，柔和阴影\" 比 \"良好光照\" 效果更好。"
+      },
+      "camera": {
+        "title": "包含相机细节",
+        "description": "\"使用 85mm 镜头拍摄，浅景深\" 可增加专业摄影质量。"
+      },
+      "style": {
+        "title": "指定艺术风格",
+        "description": "\"宫崎骏风格的数字插画\" 或 \"超写实 3D 渲染\" 可提供清晰方向。"
+      },
+      "mood": {
+        "title": "描述情绪和氛围",
+        "description": "\"舒适、温暖、怀旧的感觉\" 或 \"戏剧性、电影感、高对比度\" 塑造整体图片。"
+      }
+    },
+    "parameters": {
+      "title": "Qwen Image 2512 参数",
+      "description": "参数详情可在操作界面中查看。调整宽度、高度、种子值和输出格式以自定义您的图片生成。"
+    },
+    "outputFormats": {
+      "title": "输出格式选项",
+      "jpeg": {
+        "title": "JPEG",
+        "description": "文件体积更小，适合照片和网页使用"
+      },
+      "png": {
+        "title": "PNG",
+        "description": "无损质量，支持透明度，最适合包含文本的图片"
+      },
+      "webp": {
+        "title": "WebP",
+        "description": "现代格式，压缩率更高，浏览器兼容性强"
+      }
+    },
+    "howToUse": {
+      "title": "如何使用 Qwen Image 2512",
+      "step1": {
+        "title": "编写提示词",
+        "description": "描述主体、风格、构图、光照和氛围。"
+      },
+      "step2": {
+        "title": "调整图片尺寸",
+        "description": "根据您的目标平台设置宽度和高度。"
+      },
+      "step3": {
+        "title": "设置种子值",
+        "description": "使用 -1 获得随机输出，或指定固定值以实现可重现性。"
+      },
+      "step4": {
+        "title": "选择输出格式",
+        "description": "根据您的需求选择 jpeg、png 或 webp。"
+      },
+      "step5": {
+        "title": "运行和迭代",
+        "description": "生成、预览并根据需要优化您的提示词。"
+      }
+    },
+    "pricing": {
+      "title": "定价",
+      "description": "简单的统一费率定价，与图片尺寸无关，使其在大规模和商业使用中具有成本效益。查看我们的定价页面了解详细信息。",
+      "link": "查看定价 →"
+    },
+    "bestUseCases": {
+      "title": "最佳使用场景",
+      "marketing": {
+        "title": "营销与广告",
+        "description": "为广告、海报和活动创建具有可读文本的高影响力视觉效果。"
+      },
+      "socialMedia": {
+        "title": "社交媒体内容",
+        "description": "生成针对平台优化的视觉效果，提高参与度。"
+      },
+      "productDesign": {
+        "title": "产品与包装设计",
+        "description": "可视化概念、模型和带有集成字体的包装。"
+      },
+      "branding": {
+        "title": "品牌与视觉识别",
+        "description": "设计带有清晰文本元素的标志、标牌和品牌资产。"
+      },
+      "editorial": {
+        "title": "编辑与出版",
+        "description": "为文章和媒体制作插画、封面艺术和视觉内容。"
+      }
+    },
+    "proTips": {
+      "title": "获得最佳结果的专业技巧",
+      "specific": {
+        "title": "在提示词中尽可能具体",
+        "description": "包括主体细节、风格、光照、相机角度和氛围。"
+      },
+      "textInImages": {
+        "title": "在图片中生成文本时，明确指定确切的措辞、字体样式和位置",
+        "example": "示例：",
+        "exampleText": "\"海报顶部有粗体红色字母的文本 '夏季促销'。\""
+      },
+      "reproducibility": {
+        "title": "使用相同的提示词和种子值来重现相同的输出",
+        "description": "该模型专门针对可读文本生成进行了优化，因此请充分利用这一优势。"
+      }
+    },
+    "notes": {
+      "title": "注意事项",
+      "description": "请确保您的提示词符合适用的内容准则。如果出现错误，请在重试前检查并优化您的提示词。"
+    },
+    "useCases": {
+      "title": "使用场景",
+      "marketing": {
+        "title": "营销视觉",
+        "description": "无需拍摄即可生成产品概念、广告图像和社交媒体内容。"
+      },
+      "character": {
+        "title": "角色设计",
+        "description": "从文本描述为游戏、漫画或动画项目创建原创角色。"
+      },
+      "concept": {
+        "title": "概念艺术",
+        "description": "快速可视化场景、环境和想法，用于创意项目和演示。"
+      },
+      "stock": {
+        "title": "图库替代",
+        "description": "生成您需要的特定图片，而不是在通用图库中搜索。"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "关于 Qwen Image 2512 的常见问题",
+      "q1": {
+        "question": "什么是 Qwen Image 2512？",
+        "answer": "Qwen Image 2512 是阿里巴巴 Qwen AI 系列最新的文生图模型。它专门针对生成高质量、准确可读文本的图片进行了优化，非常适合海报、标牌、标志、广告和品牌设计资产。"
+      },
+      "q2": {
+        "question": "Qwen Image 2512 与其他模型有什么不同？",
+        "answer": "Qwen Image 2512 通过结合强大的自然语言理解和行业领先的图片内文本渲染能力而脱颖而出。与许多仅优先考虑视觉美感的模型不同，它擅长在图片中生成清晰、易读的文本。"
+      },
+      "q3": {
+        "question": "支持哪些输出格式？",
+        "answer": "Qwen Image 2512 支持 JPEG（文件体积更小，适合照片和网页）、PNG（无损质量，支持透明度，最适合包含文本的图片）和 WebP（现代格式，压缩率更高，浏览器兼容性强）。"
+      },
+      "q4": {
+        "question": "我可以自定义图片尺寸吗？",
+        "answer": "是的，Qwen Image 2512 支持自定义宽度和高度参数，允许您生成适合社交媒体格式（1:1、4:5、9:16）、演示文稿、网页横幅和适合打印的视觉效果的图片。"
+      },
+      "q5": {
+        "question": "如何在图片中获得最佳文本效果？",
+        "answer": "在图片中生成文本时，明确指定确切的措辞、字体样式和位置。例如：\"海报顶部有粗体红色字母的文本 '夏季促销'。\" 该模型专门针对可读文本生成进行了优化，因此请充分利用这一优势。"
+      }
+    },
+    "privacySecurity": {
+      "title": "隐私和安全",
+      "description": "您的隐私和安全是我们的首要任务。",
+      "secureProcessing": "安全处理",
+      "autoDelete": "自动删除",
+      "neverShared": "绝不共享"
+    },
+    "finalCTA": {
+      "title": "准备开始创作了吗？",
+      "description": "Qwen Image 2512 不仅仅是另一个文生图模型——它是一个专为现实世界设计和营销工作流程而设计的生产级视觉生成工具。如果您的项目需要清晰的排版、精确的布局和强大的视觉叙事，Qwen Image 2512 是当今最引人注目的选择之一。",
+      "button": "立即试用"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "textToImage": "文本生成图片",
+      "qwenImage2512": "Qwen Image 2512"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Qwen Image 2512 文本生成图片",
+      "howToName": "如何使用 Qwen Image 2512 生成图片",
+      "howToDescription": "使用 Qwen Image 2512 从文本描述生成具有准确可读文本的图片",
+      "features": {
+        "superiorTextRendering": "卓越的文本渲染",
+        "advancedPromptUnderstanding": "高级提示词理解",
+        "flexibleImageSizing": "灵活的图片尺寸",
+        "consistentQuality": "跨风格的一致性质量"
+      }
+    },
+    "showcase": {
+      "image1": {
+        "alt": "Qwen Image 2512 生成的海报，包含可读文本"
+      },
+      "image2": {
+        "alt": "Qwen Image 2512 生成的多语言 hello 设计"
+      },
+      "image3": {
+        "alt": "Qwen Image 2512 生成的图片拼贴"
+      }
+    }
+  }
+}

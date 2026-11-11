@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "title": "Wan 2.6 – API Image-to-Video e Text-to-Image | joymagic",
+    "description": "Accedi a Wan 2.6 per image-to-video e text-to-image. Crea visual HD velocemente con prezzi semplici, supporto API e workflow pronti per la produzione.",
+    "keywords": "Wan 2.6, Wan 2.6 image-to-video, Wan 2.6 I2V, Wan 2.6 text-to-image, Wan 2.6 API, Wan 2.6 prezzo"
+  },
+  "hero": {
+    "kicker": "Un modello, più modalità — su {brand}",
+    "h1": "API Wan 2.6 per Image-to-Video e Text-to-Image",
+    "description": "Usa Wan 2.6 per generare immagini e video di alta qualità da prompt o immagini di riferimento, via UI web o API.",
+    "trust": [
+      "Output HD",
+      "Generazione veloce",
+      "Pronto per la produzione"
+    ],
+    "pricing_from": "Prezzi da",
+    "pricing_link": "$5",
+    "pricing_suffix": "(500 crediti)"
+  },
+  "sections": {
+    "what_is": {
+      "h2": "Che cos’è Wan 2.6?",
+      "paragraphs": [
+        "Wan 2.6 è una famiglia di modelli multimodali (Wan 2.6 model) per text-to-image e image-to-video.",
+        "Trasforma prompt e immagini di riferimento in visual pronti per la produzione, dalla fase di concept fino agli asset marketing e all’iterazione creativa.",
+        "joymagic offre un’integrazione indipendente tramite UI web e (quando disponibile) API."
+      ]
+    },
+    "creations": {
+      "h2": "Cosa puoi creare con Wan 2.6?",
+      "cards": {
+        "t2i": {
+          "h3": "Wan 2.6 Text-to-Image (T2I)",
+          "p": "Trasforma prompt in immagini per concept, illustrazioni e creatività. Sperimenta stili, composizioni e aspect ratio."
+        },
+        "editing": {
+          "h3": "Wan 2.6 Generazione/Editing Immagini",
+          "p": "Crea variazioni, stilizza e affina iterativamente. Un prompt coerente aiuta a convergere più rapidamente."
+        },
+        "i2v": {
+          "h3": "Wan 2.6 Image-to-Video (I2V)",
+          "p": "Anima una singola immagine in clip brevi. Controlla il movimento con il prompt e iterare con varianti."
+        }
+      },
+      "links": {
+        "prefix": "Strumenti correlati:",
+        "i2v": "image-to-video",
+        "and": "e",
+        "t2i": "text-to-image",
+        "suffix": "su {brand}."
+      }
+    },
+    "i2v": {
+      "h2": "Wan 2.6 Image-to-Video (I2V)",
+      "p": "Per annunci e clip di prodotto, Wan 2.6 image-to-video (I2V) parte da un’immagine e genera una sequenza breve guidata dal prompt. Puoi regolare la durata (duration), scegliere preset HD e usare un motion prompt; 1080p compare solo se supportato dall’endpoint.",
+      "cards": {
+        "inputs": {
+          "h3": "Input supportati",
+          "p": "Immagine di riferimento + prompt con scena e movimento. Soggetti chiari e sfondi puliti migliorano spesso la stabilità."
+        },
+        "controls": {
+          "h3": "Controlli output",
+          "p": "Regola preset di risoluzione e durata se disponibili. Descrivi movimenti camera/soggetto e atmosfera per risultati più consistenti."
+        },
+        "use_cases": {
+          "h3": "Casi d’uso",
+          "p": "Video prodotto, ads social, b-roll, shot creativi e storyboard rapidi, ideali per molte varianti."
+        }
+      }
+    },
+    "how_to": {
+      "h2": "Come usare Wan 2.6",
+      "steps": {
+        "1": {
+          "h3": "1. Scegli una modalità (T2I o I2V)",
+          "p": "Text-to-image per immagini statiche; image-to-video per animare una reference."
+        },
+        "2": {
+          "h3": "2. Aggiungi un prompt (e una reference se serve)",
+          "p": "Descrivi soggetto, stile e contesto. Per I2V aggiungi indicazioni di movimento."
+        },
+        "3": {
+          "h3": "3. Imposta opzioni (risoluzione, durata, aspect ratio)",
+          "p": "Scegli preset in base al canale e mantieni coerenza per workflow ripetibili."
+        },
+        "4": {
+          "h3": "4. Genera e rivedi",
+          "p": "Genera una prima versione e controlla consistenza, movimento e composizione."
+        },
+        "5": {
+          "h3": "5. Itera con varianti",
+          "p": "Apporta piccole modifiche e confronta i risultati."
+        },
+        "6": {
+          "h3": "6. Esporta / scarica / integra via API",
+          "p": "Scarica gli asset o integra via API per batch e automazione."
+        }
+      }
+    },
+    "api": {
+      "h2": "Wan 2.6 API",
+      "p": "Integra in produzione con REST/JSON. L’autenticazione è tipicamente con API key, per collegare generazione a pipeline, template e strumenti di team.",
+      "links": {
+        "docs_label": "Docs:",
+        "keys_label": "API key:",
+        "keys_suffix": "(login richiesto)"
+      },
+      "example": {
+        "h3": "Richiesta esempio (illustrativa)",
+        "p": "Solo come pattern: consulta i docs per endpoint, parametri e risposta esatti."
+      }
+    },
+    "pricing": {
+      "h2": "Prezzi Wan 2.6",
+      "p_before": "Prezzi a crediti e variabili per task. Come riferimento, vedi",
+      "p_after": "per i piani attuali.",
+      "table": {
+        "task": "Task",
+        "unit": "Unità",
+        "starting_from": "Da"
+      },
+      "rows": {
+        "t2i": {
+          "task": "Text-to-Image (T2I)",
+          "unit": "Per immagine",
+          "start": "Da 2 crediti"
+        },
+        "editing": {
+          "task": "Generazione/Editing Immagini",
+          "unit": "Per immagine",
+          "start": "Da 4 crediti"
+        },
+        "i2v": {
+          "task": "Image-to-Video (I2V)",
+          "unit": "Per conversione",
+          "start": "Da 250 crediti"
+        }
+      },
+      "note": "I costi possono cambiare con risoluzione, durata e disponibilità. joymagic mostra sempre il costo prima di generare."
+    },
+    "quality": {
+      "h2": "Qualità, sicurezza e diritti d’uso",
+      "p1": "La qualità dipende da modalità e impostazioni. Per video possono esistere preset più alti (HD; 1080p se disponibile). Reference pulite e motion prompt specifici aiutano.",
+      "p2_before": "L’uso commerciale è soggetto ai",
+      "terms_link": "Termini di servizio",
+      "p2_after": "e alle leggi applicabili. Sei responsabile dei diritti sugli input caricati.",
+      "p3_before": "joymagic applica una policy sui contenuti. Vedi",
+      "moderation_link": "Content Moderation Policy",
+      "p3_middle": "e",
+      "aup_link": "Acceptable Use Policy",
+      "p3_after": "per dettagli."
+    }
+  },
+  "faq": {
+    "h2": "FAQ su Wan 2.6",
+    "items": [
+      {
+        "question": "A cosa serve Wan 2.6?",
+        "answer": "Wan 2.6 serve per workflow multimodali come text-to-image e image-to-video. Puoi creare immagini dai prompt, generare varianti/edits o animare una reference in un clip breve."
+      },
+      {
+        "question": "Wan 2.6 è buono per image-to-video?",
+        "answer": "È utile quando vuoi partire da un’immagine statica e controllare il movimento con un prompt. Usato per prodotti, ads e clip creative; i risultati dipendono dalla reference e dalla precisione del motion prompt."
+      },
+      {
+        "question": "Come scrivo i prompt per Wan 2.6?",
+        "answer": "Inizia dal soggetto, aggiungi stile, luce e camera. In I2V descrivi il movimento e cosa deve restare stabile. Itera con piccoli cambi."
+      },
+      {
+        "question": "Supporta 1080p?",
+        "answer": "Dipende dall’endpoint e dai preset disponibili in UI/API. Se supportato, appare come opzione; altrimenti usa il preset più alto e considera l’upscaling."
+      },
+      {
+        "question": "Quanto costa Wan 2.6?",
+        "answer": "joymagic usa crediti. Indicativamente: da 2 crediti per text-to-image e da 250 crediti per conversione image-to-video; varia in base a modello/impostazioni."
+      },
+      {
+        "question": "Posso usare gli output commercialmente?",
+        "answer": "In genere sì, soggetto a Termini e policy. Devi avere i diritti su qualsiasi immagine/logo/materiale caricato."
+      },
+      {
+        "question": "Offrite una Wan 2.6 API?",
+        "answer": "Sì. joymagic offre accesso API per workflow supportati, tipicamente REST/JSON con autenticazione via API key. Vedi i docs per dettagli."
+      },
+      {
+        "question": "Siete affiliati al provider originale?",
+        "answer": "No. joymagic è un servizio indipendente e non è affiliato, sponsorizzato o approvato dai creatori originali di “Wan 2.6”. Marchi e nomi appartengono ai rispettivi proprietari."
+      }
+    ]
+  },
+  "disclaimer": {
+    "h2": "Disclaimer",
+    "p": "{brand} è un servizio indipendente che fornisce workflow di generazione AI. Non siamo affiliati, sponsorizzati o approvati dai creatori originali di “Wan 2.6”. Marchi e nomi appartengono ai rispettivi proprietari."
+  },
+  "wan26": {
+    "form": {
+      "prompt": {
+        "label": "Prompt",
+        "enhancer": "Prompt Enhancer",
+        "placeholder": "Un giovane artista maschile elegante sta dipingendo con spray un murale colorato di fiori su un muro di mattoni in un vicolo soleato della città...",
+        "tooltip": "Il prompt positivo per la generazione."
+      },
+      "negativePrompt": {
+        "label": "Prompt Negativo",
+        "placeholder": "Inserisci il prompt negativo qui",
+        "tooltip": "Il prompt negativo per la generazione."
+      },
+      "audio": {
+        "label": "Audio",
+        "hint": "Supporta file audio (MP3, WAV, ecc.)",
+        "tooltip": "L'URL del file audio per la generazione.",
+        "dragDrop": "Trascina e rilascia o fai clic per caricare",
+        "dropHere": "Rilascia il file audio qui",
+        "record": "Registra Audio",
+        "recordDialog": {
+          "title": "Registra Audio",
+          "instruction": "Usa il microfono per registrare l'audio.",
+          "noRecording": "Nessuna registrazione ancora.",
+          "hint": "Puoi fare clic sul pulsante \"Inizia registrazione\" per registrare.",
+          "recording": "Registrazione...",
+          "startRecording": "Inizia registrazione",
+          "stopRecording": "Interrompi registrazione",
+          "retake": "Rifai",
+          "useAudio": "Usa Audio",
+          "uploading": "Caricamento..."
+        }
+      },
+      "size": {
+        "label": "Dimensione"
+      },
+      "duration": {
+        "label": "Durata"
+      },
+      "shotType": {
+        "label": "Tipo di Inquadratura",
+        "single": "Singola",
+        "multiple": "Multipla"
+      },
+      "enablePromptExpansion": {
+        "label": "Abilita Espansione Prompt",
+        "description": "Se impostato su true, verrà abilitato l'ottimizzatore di prompt.",
+        "tooltip": "Abilita l'espansione del prompt per ottimizzare automaticamente il tuo prompt."
+      },
+      "seed": {
+        "label": "Seed"
+      },
+      "buttons": {
+        "reset": "Reimposta",
+        "run": "Genera",
+        "generating": "Generazione..."
+      }
+    },
+    "preview": {
+      "placeholder": "Inserisci un prompt e fai clic su Esegui per generare un video qui.",
+      "costInfo": "La tua richiesta costerà {cost} per esecuzione.",
+      "oneMoreThing": "Ancora una cosa::",
+      "actions": {
+        "addSound": "Aggiungi Suono",
+        "videoUpscaler": "Miglioratore Video",
+        "videoUpscalerPro": "Miglioratore Video Pro",
+        "videoExtend": "Estendi Video"
+      }
+    },
+    "common": {
+      "selected": "Selezionato: {name}",
+      "notSelected": "Non selezionato"
+    },
+    "status": {
+      "idle": "Inattivo",
+      "processing": "Elaborazione",
+      "completed": "Completato"
+    },
+    "actions": {
+      "downloadVideo": "Scarica video",
+      "downloadFailed": "Download video non riuscito",
+      "playAudioFailed": "Riproduzione audio non riuscita. Si prega di controllare le impostazioni del browser."
+    },
+    "errors": {
+      "promptRequired": "Si prega di inserire un prompt",
+      "generationFailed": "Generazione video non riuscita",
+      "taskFailed": "Elaborazione attività non riuscita",
+      "taskTimeout": "Timeout elaborazione attività, si prega di riprovare più tardi",
+      "taskIdNotFound": "Impossibile ottenere l'ID dell'attività, si prega di controllare il formato della risposta API",
+      "processingFailed": "Elaborazione non riuscita, si prega di riprovare",
+      "statusQueryFailed": "Query stato attività non riuscita",
+      "apiResponseParseFailed": "Analisi risposta API non riuscita",
+      "invalidFileType": "Tipo di file non valido. Si prega di caricare un file audio (MP3, WAV, ecc.).",
+      "uploadFailed": "Caricamento non riuscito: {error}",
+      "uploadFailedGeneric": "Caricamento non riuscito",
+      "recordingFailed": "Impossibile avviare la registrazione. Si prega di controllare i permessi del microfono."
+    }
+  },
+  "wan26Page": {
+    "metadata": {
+      "title": "Text to Video AI Generator (WAN-2.6) | Create Videos from Text – joymagic",
+      "description": "Transform text prompts into stunning videos with joymagic's text-to-video AI generator. Powered by WAN-2.6, create high-quality videos in seconds. HD outputs, fast generation, free to try."
+    },
+    "hero": {
+      "title": "Text to Video AI Generator – WAN-2.6",
+      "description": "Transform text prompts into stunning videos in seconds. No video editing skills needed.",
+      "button1": "Generate Video",
+      "button2": "Start free · No credit card"
+    },
+    "heroDescription": "Enter a text prompt and watch as AI transforms your words into a beautiful video. Perfect for content creators, marketers, and storytellers.",
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast generation",
+      "commercialReady": "Commercial-use ready"
+    },
+    "whatYouCanDo": {
+      "title": "What You Can Do With Text to Video",
+      "description": "Turn your ideas into motion with AI-powered video generation.",
+      "contentCreation": {
+        "title": "Content Creation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create engaging video content for social media</li><li>Generate video thumbnails and previews</li><li>Produce short-form video content quickly</li></ul>"
+      },
+      "marketing": {
+        "title": "Marketing & Advertising",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create promotional videos from text descriptions</li><li>Generate video ads and campaigns</li><li>Produce marketing content at scale</li></ul>"
+      },
+      "entertainment": {
+        "title": "Entertainment & Storytelling",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Bring stories to life with AI-generated videos</li><li>Create animated scenes from text</li><li>Produce creative video content</li></ul>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Everything you need to create videos from text with AI.",
+      "textToVideo": {
+        "title": "Text to Video Generation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Transform text prompts into high-quality videos</li><li>Support for various video durations and sizes</li><li>Advanced prompt optimization</li></ul>"
+      },
+      "highQuality": {
+        "title": "High-Quality Outputs",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>HD video outputs up to 1920x1080</li><li>Smooth motion and transitions</li><li>Professional-grade video quality</li></ul>"
+      },
+      "flexibleControl": {
+        "title": "Flexible Control",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Customize video size, duration, and shot type</li><li>Negative prompts for fine-tuning</li><li>Seed control for reproducible results</li></ul>"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "From text to video in four simple steps.",
+      "step1": {
+        "title": "Step 1 – Enter Your Prompt",
+        "description": "<p class=\"mb-3\">Describe the video you want to create. Be specific about the scene, characters, actions, and mood.</p>"
+      },
+      "step2": {
+        "title": "Step 2 – Configure Settings",
+        "description": "<p class=\"mb-3\">Choose video size, duration, shot type, and other parameters to match your needs.</p>"
+      },
+      "step3": {
+        "title": "Step 3 – Generate Video",
+        "description": "<p class=\"mb-3\">Click the generate button and let AI create your video. Processing typically takes a few minutes.</p>"
+      },
+      "step4": {
+        "title": "Step 4 – Download & Use",
+        "description": "<p class=\"mb-3\">Preview your video, download it, and use it in your projects immediately.</p>"
+      }
+    },
+    "faq": {
+      "title": "FAQs",
+      "description": "Common questions about text-to-video generation.",
+      "q1": {
+        "question": "How long does it take to generate a video?",
+        "answer": "Video generation typically takes 2-5 minutes depending on the duration and complexity of your prompt."
+      },
+      "q2": {
+        "question": "What video formats are supported?",
+        "answer": "We support standard video formats including MP4. Videos can be generated in various sizes from 720p to 1080p."
+      },
+      "q3": {
+        "question": "Can I use the generated videos commercially?",
+        "answer": "Yes, you can use the generated videos for commercial purposes. Please refer to our Terms of Service for complete details."
+      }
+    },
+    "finalCTA": {
+      "title": "Turn your text into stunning videos.",
+      "description": "Try the joymagic text-to-video AI generator and start creating videos in seconds.<br/><span class=\"text-muted-foreground\">No video editing skills needed · Free to try</span>",
+      "button": "Start generating videos"
+    }
+  }
+}

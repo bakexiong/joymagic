@@ -1,0 +1,28 @@
+{
+  "media_detail": {
+    "prompt_title": "提示詞",
+    "copy_button": "複製",
+    "copied_button": "已複製！",
+    "show_more": "查看全部",
+    "show_less": "收起",
+    "information_title": "資訊",
+    "model_label": "模型：",
+    "quality_label": "品質：",
+    "size_label": "尺寸：",
+    "generate_button": "生成相似",
+    "video_button": "影片",
+    "download_button": "下載",
+    "upscale_button": "放大",
+    "edit_button": "編輯",
+    "no_prompt": "無提示詞",
+    "image_alt": "生成的圖片"
+  },
+  "mobile_homepage": {
+    "create_image": "建立圖片",
+    "create_video": "建立影片",
+    "ai_effect": "AI 特效",
+    "new_badge": "新",
+    "view_all": "查看全部",
+    "view_more": "查看更多"
+  }
+}

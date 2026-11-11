@@ -1,0 +1,120 @@
+{
+  "title": "推广中心",
+  "description": "申请成为推广者、查看推广链接、追踪佣金与提现。",
+  "dashboard": {
+    "back": "返回我的空间",
+    "heading": "我的 Affiliate",
+    "intro": "你已成为我们的推广联盟成员。在这个页面里，你可以查看与推广活动相关的数据和信息。",
+    "link_title": "Affiliate 链接",
+    "link_description": "把邀请链接分享给你的朋友、同事或社区成员。分享越多，获得的收益越多。",
+    "copy": "复制链接",
+    "copied": "已复制",
+    "metrics": {
+      "total": "累计收益",
+      "pending": "待确认收益",
+      "available": "可提现收益",
+      "paid": "已结算收益",
+      "referrals": "累计邀请用户"
+    },
+    "tabs": {
+      "dashboard": "Dashboard",
+      "commissions": "Commissions",
+      "payouts": "Payouts"
+    },
+    "table": {
+      "date": "日期",
+      "visitors": "访问人数",
+      "registers": "注册人数",
+      "payments": "支付数",
+      "earnings": "收益",
+      "empty": "先分享上面的链接，拿到你的第一笔佣金。"
+    },
+    "copy_discount_code": "复制折扣码"
+  },
+  "summary": {
+    "code": "推广码",
+    "pending_commission": "待确认佣金",
+    "available_commission": "可提现佣金",
+    "paid_commission": "已结算佣金",
+    "referred_users": "推广用户数",
+    "converted_orders": "成交订单数"
+  },
+  "status": {
+    "pending": "待审核",
+    "approved": "已通过",
+    "rejected": "已拒绝",
+    "canceled": "已取消",
+    "active": "生效中",
+    "suspended": "已暂停",
+    "blacklisted": "已拉黑",
+    "closed": "已关闭",
+    "requested": "待处理",
+    "paid": "已打款"
+  },
+  "application": {
+    "title": "申请成为推广者",
+    "description": "填写你的收款和渠道信息，审核通过后即可获得专属推广链接。",
+    "desired_tier": "申请等级",
+    "standard": "普通推广者",
+    "kol": "KOL / 大渠道",
+    "paypal_email": "PayPal 邮箱",
+    "social_platform": "平台",
+    "social_account": "账号 / 链接",
+    "channel_summary": "渠道说明",
+    "application_note": "补充说明",
+    "submit": "提交申请",
+    "pending_title": "申请审核中",
+    "pending_description": "你的申请已经提交，我们会尽快完成审核。",
+    "latest_status": "最近一次申请状态",
+    "reject_reason": "拒绝原因"
+  },
+  "profile": {
+    "title": "推广资料",
+    "description": "这是你的专属推广入口和当前分成状态。",
+    "referral_link": "推广链接",
+    "tier": "等级",
+    "payout_email": "收款邮箱",
+    "copy_hint": "将此链接投放到社媒、社区或内容站点，访客访问后会自动记录归因。"
+  },
+  "payout": {
+    "title": "申请提现",
+    "description": "达到最低提现门槛后即可提交申请。",
+    "minimum": "最低提现门槛",
+    "in_progress": "当前已有提现申请在处理中，暂时不能重复提交。",
+    "paypal_email": "PayPal 邮箱",
+    "note": "备注",
+    "submit": "发起提现申请",
+    "placeholder": "例如：请按账号邮箱打款"
+  },
+  "agreement": {
+    "title": "推广计划说明",
+    "cookie_ttl": "归因有效期",
+    "confirm_days": "佣金确认期",
+    "rates": "默认佣金比例",
+    "minimum_payout": "最低提现金额"
+  },
+  "lists": {
+    "commissions": "最近佣金",
+    "payouts": "最近提现",
+    "empty_commissions": "还没有佣金记录",
+    "empty_payouts": "还没有提现记录",
+    "first_order": "首单",
+    "renewal": "续费",
+    "occurred_at": "发生时间",
+    "requested_at": "申请时间",
+    "amount": "金额",
+    "status": "状态",
+    "type": "类型"
+  },
+  "unit": {
+    "days": "天"
+  },
+  "auth": {
+    "empty": "请先登录后查看推广中心。"
+  },
+  "errors": {
+    "load_dashboard": "加载推广中心失败",
+    "submit_application": "提交推广申请失败",
+    "request_payout": "发起提现申请失败"
+  }
+}

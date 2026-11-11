@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "PixVerse v5.6 テキストから動画へ | 無料AI動画ジェネレーター - joymagic",
+    "description": "joymagic の PixVerse v5.6 テキストから動画へ機能で、日本語・英語のプロンプトからHDショート動画を生成します。360p〜1080pの解像度、複数の秒数プリセット、オプションの音声生成を備えたクレジット制AI動画ツールです。",
+    "keywords": "PixVerse v5.6 テキストから動画,text-to-video,AI動画生成,AIショート動画,テキスト動画変換"
+  },
+  "pixverse56": {
+    "form": {
+      "prompt": {
+        "label": "プロンプト",
+        "placeholder": "生成したい動画のシーン・キャラクター・動き・カメラワーク・照明・雰囲気などを詳しく入力してください。",
+        "tooltip": "PixVerse v5.6 テキストから動画用のメインプロンプトです。可能であれば被写体・背景・動き・全体の雰囲気を含めて記述してください。"
+      },
+      "negativePrompt": {
+        "label": "ネガティブプロンプト",
+        "placeholder": "任意：動画に入れたくない要素（例：ぼやけ、歪み、低品質な文字など）",
+        "tooltip": "「ぼやけ、歪み、低解像度、読みにくい文字」など、避けたい要素やスタイルを記述してください。"
+      },
+      "resolutionRatio": {
+        "label": "アスペクト比（resolution_ratio）"
+      },
+      "resolution": {
+        "label": "解像度"
+      },
+      "duration": {
+        "label": "動画の長さ（秒）"
+      },
+      "generateAudio": {
+        "label": "音声を生成（generate_audio_switch）",
+        "description": "有効にすると、動画に合わせた音楽・環境音・簡単な効果音が自動生成されます。",
+        "tooltip": "PixVerse ネイティブオーディオを有効化します。料金は音声あり／なしのパラメータ組み合わせに応じて自動計算されます。"
+      },
+      "thinkingType": {
+        "label": "Thinking モード（thinking_type）",
+        "tooltip": "PixVerse の「思考」強度を制御します。enabled は品質重視、disabled は速度重視、auto はサービス側で自動選択します。"
+      },
+      "seed": {
+        "label": "シード値（seed）"
+      },
+      "image": {
+        "label": "参照画像",
+        "tooltip": "参照画像をアップロードしてください。PixVerseがプロンプトに従ってこの画像をアニメーション化します。",
+        "hint": "ファイルをドラッグ＆ドロップするか、クリックしてアップロードしてください。",
+        "dropHere": "ここに画像をドロップ",
+        "dragDrop": "ファイルをドラッグ＆ドロップするか、クリックしてアップロード"
+      },
+      "imageRequired": "PixVerse画像から動画を作成するには画像をアップロードしてください。",
+      "buttons": {
+        "reset": "リセット",
+        "run": "生成",
+        "generating": "生成中..."
+      }
+    },
+    "preview": {
+      "placeholder": "プロンプトを入力して実行をクリックすると、PixVerse v5.6 が動画を生成し、ここにプレビューを表示します。"
+    },
+    "status": {
+      "idle": "待機中",
+      "processing": "処理中",
+      "completed": "完了",
+      "estimating": "クレジット見積もり中..."
+    },
+    "buttons": {
+      "credits": "クレジット",
+      "click_to_pay": "支払いに進む"
+    },
+    "actions": {
+      "downloadVideo": "動画をダウンロード",
+      "downloadFailed": "動画のダウンロードに失敗しました"
+    },
+    "errors": {
+      "promptRequired": "プロンプトを入力してください。",
+      "generationFailed": "動画の生成に失敗しました。",
+      "taskFailed": "タスク処理に失敗しました。",
+      "taskTimeout": "タスク処理がタイムアウトしました。しばらくしてから再度お試しください。",
+      "taskIdNotFound": "タスクIDを取得できません。APIレスポンス形式を確認してください。",
+      "processingFailed": "処理に失敗しました。再度お試しください。",
+      "statusQueryFailed": "タスク状態の取得に失敗しました。",
+      "apiResponseParseFailed": "PixVerse API レスポンスの解析に失敗しました。",
+      "unsupportedCombination1080p10s": "1080p で 10 秒の組み合わせはサポートされていません。5 秒または 8 秒を選択してください。",
+      "invalidFileType": "無効なファイル形式です。",
+      "uploadFailed": "アップロードに失敗しました: {error}",
+      "uploadFailedGeneric": "アップロードに失敗しました。",
+      "recordingFailed": "録音を開始できませんでした。マイクの権限を確認してください。",
+      "estimate_failed": "クレジットの見積もりに失敗しました。"
+    }
+  },
+  "pixverse56Page": {
+    "metadata": {
+      "title": "PixVerse v5.6 テキストから動画へ | AI テキスト動画ジェネレーター - joymagic",
+      "description": "joymagic の PixVerse v5.6 テキストから動画へ機能を使えば、テキストプロンプトからHDショート動画を生成できます。柔軟な解像度と秒数プリセット、オプションの音声生成に加え、パラメータ組み合わせに基づくクレジット課金でコストを予測しやすく管理できます。",
+      "keywords": "PixVerse v5.6 テキストから動画,text-to-video,AI テキスト動画ジェネレーター,PixVerse 動画,AI ショート動画,joymagic"
+    },
+    "hero": {
+      "title": "PixVerse v5.6 テキストから動画ジェネレーター",
+      "description": "joymagic の PixVerse v5.6 テキストから動画へを使って、日本語・英語・中国語のプロンプトを高品質なショート動画に変換しましょう。解像度・長さ・音声を柔軟にコントロールでき、クリエイターやブランド、チームのワークフローに最適です。",
+      "button1": "動画を生成",
+      "button2": "料金を見る"
+    },
+    "intro": "PixVerse v5.6 テキストから動画へは joymagic のパラメータ組み合わせ型クレジット課金システムと連携しており、解像度・長さ・音声設定を自由に組み合わせながら、テキストから動画へのコストを透明かつ予測可能な形で管理できます。",
+    "features": {
+      "title": "joymagic で PixVerse v5.6 テキストから動画を使う理由",
+      "items": {
+        "multiResolution": {
+          "title": "柔軟な解像度 & 長さグリッド",
+          "description": "360p・540p・720p・1080p に対応し、5 / 8 / 10 秒の固定プリセットを提供します。1080p では 5 秒と 8 秒のみ利用可能で、10 秒はUI上で無効化され、料金計算でも非対応として扱われます。"
+        },
+        "audio": {
+          "title": "任意の音声生成",
+          "description": "generate_audio_switch をオンにするとネイティブ音声が追加されます。料金は自動的に音声あり／なしのパラメータ組み合わせにマッピングされるため、支払い内容が常に明確です。"
+        },
+        "thinking": {
+          "title": "スマート Thinking モード",
+          "description": "thinking_type は enabled / disabled / auto をサポートします。enabled は品質重視、disabled は速度重視、auto はバックエンド側で自動選択し、多くのケースで最適なデフォルトとなります。"
+        },
+        "safety": {
+          "title": "統合された安全性と料金コントロール",
+          "description": "joymagic の安全ポリシーとクレジット見積もりを通して動作します。1080p × 10 秒のような非対応の組み合わせは、UI とバックエンド検証の両方でブロックされ、時間とクレジットの無駄を防ぎます。"
+        }
+      }
+    },
+    "faq": {
+      "title": "PixVerse v5.6 テキストから動画へ よくある質問",
+      "q1": {
+        "question": "PixVerse v5.6 はどの解像度と長さをサポートしていますか？",
+        "answer": "PixVerse v5.6 は現在、360p・540p・720p・1080p の解像度と、5・8・10 秒の長さに対応しています。1080p では 5 秒と 8 秒のみ利用でき、1080p × 10 秒の組み合わせはUIで無効化され、料金設定およびバックエンド検証でも非対応として扱われます。"
+      },
+      "q2": {
+        "question": "generate_audio_switch は何を制御しますか？",
+        "answer": "generate_audio_switch はネイティブ音声生成のオン／オフを切り替えます。オフのときは動画のみの料金が請求され、オンにするとパラメータ組み合わせテーブルに基づいてベース価格に音声分の料金が加算されます。"
+      },
+      "q3": {
+        "question": "thinking_type モードの違いは何ですか？",
+        "answer": "enabled はより強い推論を有効にし、構図や動きを安定させる代わりにレイテンシーがやや増えます。disabled は速度を優先し、auto はリクエストごとにサービスが自動的に最適なバランスを選択します。多くのユーザーには auto を推奨します。"
+      },
+      "q4": {
+        "question": "同じような結果を再現するにはどうすればよいですか？",
+        "answer": "seed パラメータを使用してください。デフォルトの -1 は毎回ランダムなシードを使用します。似た結果を複数回得たい場合は、固定のシード値を設定し、後続の生成でも同じ値を再利用します。"
+      }
+    },
+    "finalCTA": {
+      "title": "PixVerse v5.6 テキストから動画でクリエイティブを始めましょう",
+      "description": "シンプルなテキストプロンプトを書くことで、数分でSNS・広告コンセプト・ストーリーテリング向けショート動画を生成できます。下の Playground はクレジットシステムと連動しており、実行前に推定コストを表示します。",
+      "button": "今すぐ生成する"
+    },
+    "breadcrumb": {
+      "home": "ホーム",
+      "pageName": "PixVerse v5.6 テキストから動画へ"
+    }
+  }
+}

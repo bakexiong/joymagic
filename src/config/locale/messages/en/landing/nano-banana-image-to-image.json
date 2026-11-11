@@ -1,0 +1,146 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Upload source images",
+      "hint": "Upload up to {max} images (JPG/PNG/WEBP)",
+      "dragDrop": "Drag & drop or click to upload",
+      "dropHere": "Drop images here"
+    },
+    "aspectRatio": {
+      "title": "Select aspect ratio",
+      "placeholder": "Select aspect ratio",
+      "auto": "Auto",
+      "hint": "Choose the output aspect ratio for your nano-banana image-to-image result"
+    },
+    "prompt": {
+      "title": "Enter edit prompt",
+      "placeholder": "Describe how you want to edit the images, e.g., 'Change to anime style', 'Apply oil painting effect', 'Make it look cinematic'",
+      "hint": "Be specific about the edits you want — style, mood, lighting, and details"
+    },
+    "generate": {
+      "title": "Generate edited images",
+      "cta": "Generate",
+      "generating": "Generating..."
+    }
+  },
+  "preview": {
+    "title": "Preview",
+    "original": "Original",
+    "swap": "Swap",
+    "placeholder": "Upload images and enter an edit prompt to preview the nano-banana image-to-image result here."
+  },
+  "common": {
+    "selectedCount": "Selected: {count}/{max} images",
+    "notSelected": "Not selected"
+  },
+  "errors": {
+    "invalidFileType": "Invalid file type. Please upload an image file (JPG, PNG, WEBP).",
+    "uploadFailed": "Upload failed: {error}",
+    "uploadFailedGeneric": "Upload failed",
+    "sourceImageRequired": "Please upload at least one source image",
+    "promptRequired": "Please enter an edit prompt",
+    "generationFailed": "Image editing failed",
+    "taskFailed": "Task processing failed",
+    "taskTimeout": "Task processing timeout, please try again later",
+    "taskIdNotFound": "Unable to get task ID, please check API response format",
+    "processingFailed": "Processing failed, please try again",
+    "statusQueryFailed": "Failed to query task status",
+    "apiResponseParseFailed": "Failed to parse API response"
+  },
+  "page": {
+    "metadata": {
+      "title": "Nano Banana Image-to-Image AI Editor — Transform Images Online Free | joymagic",
+      "description": "Use Nano Banana image-to-image AI to edit and transform images online. Upload up to 10 images, choose from 10+ aspect ratios, and apply nano-banana powered style transfer, enhancement, and creative image-to-image transformations in seconds.",
+      "keywords": "nano banana 2, nano-banana, nano banana 2 image-to-image, image-to-image AI, nano-banana image editor, AI image-to-image transformation, batch image-to-image editing, nano banana 2 AI, online image-to-image editor, nano-banana aspect ratio"
+    },
+    "hero": {
+      "title": "Nano Banana Image-to-Image — AI Image Editor & Transformer",
+      "description": "Transform your images with <strong class=\"text-primary font-semibold\">Nano Banana image-to-image</strong> AI editor. Upload up to <strong class=\"text-primary font-semibold\">10 images</strong>, select from 10+ aspect ratios, and apply nano-banana powered image-to-image edits — style transfer, color grading, artistic effects, and creative transformations — all in seconds.",
+      "button1": "Try Nano Banana Image-to-Image",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Why Choose Nano Banana for Image-to-Image Editing?",
+      "description": "Advanced AI image-to-image editing powered by nano-banana technology",
+      "multiImage": {
+        "title": "Batch Image-to-Image with Nano Banana",
+        "description": "Upload up to 10 images at once for batch image-to-image editing with nano-banana. Process multiple images simultaneously with consistent style and quality."
+      },
+      "aspectRatio": {
+        "title": "Nano Banana Aspect Ratio Control",
+        "description": "Nano-banana-2 image-to-image supports 10+ aspect ratios including 1:1, 3:2, 2:3, 3:4, 4:3, 4:5, 5:4, 9:16, 16:9, and 21:9 for perfect output dimensions."
+      },
+      "smartEdit": {
+        "title": "Intelligent Image-to-Image Editing",
+        "description": "Nano Banana understands image context and semantics for precise, natural-looking image-to-image transformations. Smart AI that knows what to change and what to preserve."
+      },
+      "affordable": {
+        "title": "Affordable Nano Banana Pricing",
+        "description": "Cost-effective nano-banana image-to-image transformations with professional-grade AI editing accessible for any project size."
+      }
+    },
+    "promptingTips": {
+      "title": "How to Get Best Nano Banana Image-to-Image Results",
+      "specific": {
+        "title": "Be Specific in Your Prompts",
+        "description": "For optimal nano-banana image-to-image results, describe exactly what edits you want. Examples: \"Transform to watercolor style\" or \"Add cinematic color grading with warm tones\"."
+      },
+      "style": {
+        "title": "Specify Artistic Style",
+        "description": "When using Nano Banana image-to-image, mention the target style clearly: \"anime illustration\", \"oil painting\", \"photorealistic enhancement\", \"vintage film look\", etc."
+      },
+      "color": {
+        "title": "Color and Mood Direction",
+        "description": "Guide nano-banana image-to-image with color and mood cues: \"vibrant saturated colors\", \"soft pastel tones\", \"dark moody atmosphere\", \"golden hour warmth\", etc."
+      },
+      "details": {
+        "title": "Add Detailed Instructions",
+        "description": "Maximize Nano Banana image-to-image quality by specifying lighting, composition, texture, and which elements to preserve or transform."
+      }
+    },
+    "faq": {
+      "title": "Nano Banana Image-to-Image FAQ",
+      "description": "Frequently asked questions about Nano Banana image-to-image AI editor",
+      "q1": {
+        "question": "How many images can I edit at once with Nano Banana image-to-image?",
+        "answer": "With Nano Banana image-to-image editor, you can upload up to 10 images at once for batch image-to-image editing powered by nano-banana AI."
+      },
+      "q2": {
+        "question": "What aspect ratios does Nano Banana image-to-image support?",
+        "answer": "Nano Banana image-to-image supports 10+ aspect ratios: 1:1, 3:2, 2:3, 3:4, 4:3, 4:5, 5:4, 9:16, 16:9, and 21:9. You can also use Auto mode for nano-banana to decide."
+      },
+      "q3": {
+        "question": "What image formats does Nano Banana image-to-image support?",
+        "answer": "Nano Banana image-to-image supports PNG, JPEG, JPG, and WebP formats. For best nano-banana results, use clear, well-lit source images."
+      },
+      "q4": {
+        "question": "How do I write effective prompts for Nano Banana image-to-image?",
+        "answer": "For best nano-banana image-to-image results, include detailed descriptions: target style, mood, lighting, color palette, and composition. More detail typically produces better Nano Banana transformations."
+      },
+      "q5": {
+        "question": "What makes Nano Banana image-to-image different from other AI editors?",
+        "answer": "Nano Banana uses advanced nano-banana AI technology for context-aware, semantically intelligent image-to-image transformations with flexible aspect ratio control. It understands image content deeply, producing natural and precise image-to-image edits."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Try Nano Banana Image-to-Image?",
+      "description": "Start transforming your images with nano-banana image-to-image AI today. Fast, high-quality, intelligent image-to-image transformations at your fingertips.",
+      "button": "Try Nano Banana Image-to-Image Now"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "imageToImage": "Image to Image",
+      "nanoBanana": "Nano Banana"
+    },
+    "schema": {
+      "softwareName": "Nano Banana Image-to-Image AI Editor — joymagic",
+      "howToName": "How to Use Nano Banana Image-to-Image AI Editor",
+      "howToDescription": "Learn how to edit and transform images using nano-banana image-to-image AI technology. Upload images, select aspect ratio, and apply intelligent AI-powered image-to-image edits.",
+      "features": {
+        "aiImageEditing": "Nano Banana Image-to-Image AI Editing",
+        "multiImage": "Batch Image-to-Image with Nano Banana",
+        "aspectRatio": "Nano Banana Aspect Ratio Control"
+      }
+    }
+  }
+}

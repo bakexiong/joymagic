@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Subir imágenes de origen",
+      "hint": "Sube hasta {max} imágenes (JPG/PNG/WEBP)",
+      "dragDrop": "Arrastra y suelta o haz clic para subir",
+      "dropHere": "Suelta las imágenes aquí"
+    },
+    "prompt": {
+      "title": "Introducir prompt de edición",
+      "placeholder": "Describe cómo quieres editar las imágenes, ej.: 'Cambiar a estilo anime', 'Aplicar efecto de óleo', 'Darle un aspecto cinematográfico'",
+      "hint": "Sé específico sobre las ediciones que quieres: estilo, atmósfera, iluminación y detalles"
+    },
+    "generate": {
+      "title": "Generar imágenes editadas",
+      "cta": "Generar",
+      "generating": "Generando..."
+    }
+  },
+  "preview": {
+    "title": "Vista previa",
+    "original": "Original",
+    "swap": "Intercambiar",
+    "placeholder": "Sube imágenes e introduce un prompt de edición para ver el resultado aquí."
+  },
+  "common": {
+    "selectedCount": "Seleccionadas: {count}/{max} imágenes",
+    "notSelected": "No seleccionada"
+  },
+  "errors": {
+    "invalidFileType": "Tipo de archivo no válido. Sube una imagen (JPG, PNG, WEBP).",
+    "uploadFailed": "Error al subir: {error}",
+    "uploadFailedGeneric": "Error al subir",
+    "sourceImageRequired": "Por favor sube al menos una imagen de origen",
+    "promptRequired": "Por favor introduce un prompt de edición",
+    "generationFailed": "Error al editar la imagen",
+    "taskFailed": "Error al procesar la tarea",
+    "taskTimeout": "Tiempo de espera agotado. Inténtalo más tarde",
+    "taskIdNotFound": "No se pudo obtener el ID de tarea. Revisa el formato de respuesta de la API",
+    "processingFailed": "Error de procesamiento. Inténtalo de nuevo",
+    "statusQueryFailed": "Error al consultar el estado de la tarea",
+    "apiResponseParseFailed": "Error al analizar la respuesta de la API"
+  },
+  "page": {
+    "metadata": {
+      "title": "Qwen Image Max image-to-image Editor IA — Edita y transforma imágenes en línea | joymagic",
+      "description": "Edita y transforma imágenes en línea con el editor IA qwen image max image-to-image. Con tecnología qwen-image-max-edit, sube hasta 4 imágenes para edición por lotes con IA — transferencia de estilo, mejora y transformaciones creativas en segundos.",
+      "keywords": "qwen image max, qwen-image-max-edit, qwen image max image-to-image, editor de imágenes IA, image-to-image IA, edición de imágenes qwen, transformación de imágenes IA, edición por lotes de imágenes, editor de imágenes en línea IA, herramienta qwen image max edit"
+    },
+    "hero": {
+      "title": "Qwen Image Max image-to-image — Editor de imágenes con IA",
+      "description": "Edita y transforma tus imágenes con el editor IA qwen image max image-to-image. Con tecnología <strong class=\"text-primary font-semibold\">qwen-image-max-edit</strong>, sube hasta 4 imágenes y aplica ediciones inteligentes — transferencia de estilo, gradación de color, efectos artísticos y más — todo en segundos.",
+      "button1": "Probar el editor Qwen Image Max",
+      "button2": "Ver precios"
+    },
+    "keyFeatures": {
+      "title": "¿Por qué elegir Qwen Image Max para edición de imágenes?",
+      "description": "Edición avanzada de imágenes con IA impulsada por tecnología qwen-image-max-edit",
+      "multiImage": {
+        "title": "Edición por lotes con Qwen Image Max",
+        "description": "Sube hasta 4 imágenes a la vez para edición por lotes con qwen-image-max-edit. Procesa múltiples imágenes simultáneamente con estilo y calidad consistentes. Coste fijo de 2 créditos por edición."
+      },
+      "highQuality": {
+        "title": "Calidad superior de edición Qwen Image Max",
+        "description": "Qwen Image Max ofrece ediciones de alta fidelidad con excepcional preservación de detalles. Obtén resultados nítidos y sin artefactos con la IA qwen-image-max-edit."
+      },
+      "smartEdit": {
+        "title": "Edición inteligente con reconocimiento de contexto",
+        "description": "qwen-image-max-edit comprende el contexto y la semántica de la imagen para transformaciones precisas y naturales. IA inteligente que sabe qué cambiar y qué preservar."
+      },
+      "affordable": {
+        "title": "Precios asequibles de Qwen Image Max",
+        "description": "Transformaciones asequibles con qwen-image-max-edit a solo 2 créditos por edición. Edición de imágenes con IA de nivel profesional accesible para cualquier proyecto."
+      }
+    },
+    "promptingTips": {
+      "title": "Cómo obtener los mejores resultados con el editor Qwen Image Max",
+      "specific": {
+        "title": "Sé específico en tus prompts",
+        "description": "Para resultados óptimos con qwen-image-max-edit, describe exactamente las ediciones que quieres. Ejemplos: \"Transformar a estilo acuarela\" o \"Añadir gradación de color cinematográfica con tonos cálidos\"."
+      },
+      "style": {
+        "title": "Especifica el estilo artístico",
+        "description": "Al usar qwen-image-max-edit, menciona el estilo objetivo claramente: \"ilustración anime\", \"óleo\", \"mejora fotorrealista\", \"aspecto de película vintage\", etc."
+      },
+      "color": {
+        "title": "Dirección de color y atmósfera",
+        "description": "Guía a qwen-image-max-edit con indicaciones de color y atmósfera: \"colores vibrantes y saturados\", \"tonos pastel suaves\", \"atmósfera oscura y dramática\", \"calidez de hora dorada\", etc."
+      },
+      "details": {
+        "title": "Añade instrucciones detalladas",
+        "description": "Maximiza la calidad de qwen-image-max-edit especificando iluminación, composición, textura y qué elementos preservar o transformar."
+      }
+    },
+    "useCases": {
+      "title": "Casos de uso de edición de imágenes con Qwen Image Max",
+      "style": {
+        "title": "Transferencia de estilo artístico",
+        "description": "Usa qwen-image-max-edit para transformar fotos en estilos artísticos impresionantes — anime, acuarela, óleo, boceto y más. Ideal para proyectos creativos y contenido para redes sociales."
+      },
+      "batch": {
+        "title": "Edición de fotos por lotes",
+        "description": "Edita hasta 4 imágenes simultáneamente con Qwen Image Max para un estilo consistente en todo tu conjunto de fotos. Perfecto para catálogos de productos y recursos de marca."
+      },
+      "product": {
+        "title": "Mejora de imágenes de producto",
+        "description": "Mejora fotos de producto con qwen-image-max-edit para tiendas en línea, campañas de marketing y redes sociales. Crea imágenes de calidad profesional al instante."
+      },
+      "creative": {
+        "title": "Exploración de diseño creativo",
+        "description": "Explora posibilidades creativas con la edición inteligente de Qwen Image Max. Experimenta con estilos, efectos y transformaciones para descubrir la dirección visual perfecta."
+      }
+    },
+    "faq": {
+      "title": "FAQ Qwen Image Max image-to-image",
+      "description": "Preguntas frecuentes sobre el editor de imágenes IA Qwen Image Max",
+      "q1": {
+        "question": "¿Cuántas imágenes puedo editar a la vez con Qwen Image Max?",
+        "answer": "Con el editor image-to-image de Qwen Image Max, puedes subir hasta 4 imágenes a la vez para edición por lotes. Cada edición se procesa con tecnología qwen-image-max-edit y cuesta 2 créditos."
+      },
+      "q2": {
+        "question": "¿Cuánto cuesta la edición de imágenes con Qwen Image Max?",
+        "answer": "La edición image-to-image de Qwen Image Max cuesta 2 créditos por edición, independientemente del número de imágenes subidas. Este precio fijo hace que qwen-image-max-edit sea asequible para cualquier proyecto."
+      },
+      "q3": {
+        "question": "¿Qué formatos de imagen soporta Qwen Image Max?",
+        "answer": "Qwen Image Max image-to-image soporta formatos PNG, JPEG, JPG y WebP. Para mejores resultados con qwen-image-max-edit, usa imágenes claras y bien iluminadas."
+      },
+      "q4": {
+        "question": "¿Cómo escribir prompts de edición efectivos para Qwen Image Max?",
+        "answer": "Para mejores resultados con qwen-image-max-edit, incluye descripciones detalladas: estilo objetivo, atmósfera, iluminación, paleta de colores y composición. Más detalle generalmente produce mejores transformaciones con Qwen Image Max."
+      },
+      "q5": {
+        "question": "¿Qué diferencia a Qwen Image Max de otros editores de imágenes con IA?",
+        "answer": "Qwen Image Max utiliza tecnología avanzada qwen-image-max-edit para transformaciones de imágenes inteligentes y con reconocimiento de contexto. Comprende el contenido de la imagen en profundidad, produciendo ediciones naturales y precisas."
+      }
+    },
+    "finalCTA": {
+      "title": "¿Listo para editar imágenes con Qwen Image Max?",
+      "description": "Empieza a editar tus imágenes con la IA qwen-image-max-edit hoy. Transformaciones de imágenes rápidas, de alta calidad e inteligentes a tu alcance.",
+      "button": "Probar el editor Qwen Image Max ahora"
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "imageToImage": "Image to Image",
+      "qwenImageMax": "Qwen Image Max"
+    },
+    "schema": {
+      "softwareName": "Editor IA Qwen Image Max image-to-image — joymagic",
+      "howToName": "Cómo editar imágenes con la IA Qwen Image Max",
+      "howToDescription": "Aprende a editar y transformar imágenes usando la tecnología IA qwen-image-max-edit. Sube imágenes y aplica ediciones inteligentes con IA.",
+      "features": {
+        "aiImageEditing": "Edición IA con Qwen Image Max",
+        "multiImage": "Edición por lotes con Qwen Image Max",
+        "highQuality": "Salida de alta calidad de Qwen Image Max"
+      }
+    }
+  }
+}

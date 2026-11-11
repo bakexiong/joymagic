@@ -1,0 +1,277 @@
+{
+  "ltx2FastPage": {
+    "metadata": {
+      "title": "LTX-2 影片生成器 | 免費AI文本生成影片及圖片生成影片工具在線 | joymagic",
+      "description": "使用 LTX-2 生成令人驚嘆的 4K AI 影片。免費在線文本生成影片及圖片生成影片工具，由開源 LTX 2 模型驅動。無需下載，在瀏覽器中即可使用。",
+      "keywords": "LTX-2, LTX 2 AI, LTX 2 影片生成器, 文本生成影片, 圖片生成影片, AI 影片生成器, LTX 2 免費, LTX 2 在線, 4K 影片生成器, 開源影片 AI"
+    },
+    "hero": {
+      "title": "LTX-2 AI 影片生成器",
+      "description": "將您的想法轉換為具有同步音頻的專業級影片。由 Lightricks 的 LTX 2 AI 模型驅動的免費在線文本生成影片工具。在一個統一的流程中生成令人驚嘆的 4K 影片，並帶有同步音頻。<br/><br/>有參考圖片？<a href=\"/image-to-video/ltx2-fast\" class=\"text-primary underline\">試試 LTX-2 圖片生成影片</a>進行角色動畫。",
+      "button1": "免費開始創作",
+      "button2": "查看價格"
+    },
+    "keyFeatures": {
+      "title": "為什麼選擇 LTX-2 影片生成器？",
+      "description": "體驗專為專業人士和創作者打造的下一代 AI 影片創作功能。",
+      "native4K": {
+        "title": "原生 4K 解析度",
+        "description": "生成真正的 4K (3840×2160) 解析度影片。非常適合專業內容、營銷活動和廣播級製作。"
+      },
+      "synchronizedAudio": {
+        "title": "同步音頻",
+        "description": "LTX-2 在一個統一的流程中同時生成影片和音頻。動作、對話、環境音和音樂自然對齊，無需手動同步。"
+      },
+      "lightningFast": {
+        "title": "閃電般快速生成",
+        "description": "僅需 5 秒計算時間即可生成 6 秒高清影片。與競爭 AI 影片模型相比，計算成本降低高達 50%。"
+      },
+      "imageToVideo": {
+        "title": "圖片生成影片",
+        "description": "將任何靜態圖片轉換為動態影片內容。非常適合動畫藝術作品、照片、產品拍攝和概念設計。"
+      },
+      "creativeControl": {
+        "title": "精確的創作控制",
+        "description": "多關鍵幀條件、3D 鏡頭邏輯和 LoRA 微調支持，讓您完全控制影片的每個方面。"
+      },
+      "openSource": {
+        "title": "開源基礎",
+        "description": "基於 Lightricks 的開源 LTX 2 模型構建。完全透明，模型權重可在 GitHub 和 Hugging Face 上獲取，便於定制。"
+      }
+    },
+    "specs": {
+      "title": "LTX-2 技術規格",
+      "description": "行業領先的性能指標，為 AI 影片生成設定標準。",
+      "maxResolution": "最大解析度",
+      "fps": "FPS 幀率",
+      "maxLength": "最大影片長度",
+      "lowerCost": "更低計算成本"
+    },
+    "howItWorks": {
+      "title": "如何使用 LTX-2 生成影片",
+      "description": "通過三個簡單步驟創建專業 AI 影片。無需技術知識。",
+      "step1": {
+        "title": "輸入您的提示",
+        "description": "描述您想要創建的影片。包含場景、動作、鏡頭運動和情緒的詳細信息，以獲得最佳效果。"
+      },
+      "step2": {
+        "title": "選擇設置",
+        "description": "選擇您喜歡的時長（最多 20 秒）並啟用音頻同步。"
+      },
+      "step3": {
+        "title": "生成和下載",
+        "description": "點擊生成，觀看 LTX-2 AI 創建帶有同步音頻的影片。下載高質量影片，立即使用。"
+      }
+    },
+    "useCases": {
+      "title": "適合每位創作者",
+      "description": "LTX-2 為各行各業的多樣化創意工作流程提供支持。",
+      "socialMedia": "社交媒體內容",
+      "filmTV": "電影和電視製作",
+      "marketing": "營銷和廣告",
+      "gameDev": "遊戲開發",
+      "educational": "教育內容",
+      "artAnimation": "藝術和動畫",
+      "corporate": "企業影片",
+      "musicVideos": "音樂影片"
+    },
+    "faq": {
+      "title": "常見問題",
+      "description": "關於 LTX-2 AI 影片生成器您需要了解的一切。",
+      "q1": {
+        "question": "什麼是 LTX-2，它是如何工作的？",
+        "answer": "LTX-2 是 Lightricks 的下一代開源 AI 影片基礎模型。它使用 DiT（擴散-Transformer）混合架構和時空建模，從文本提示或圖片生成高保真影片。該模型在單次處理中創建同步音頻和影片，無需單獨的音頻拼接或手動同步。LTX-2 支持原生 4K 解析度，最高 50 FPS，影片片段最長 20 秒。"
+      },
+      "q2": {
+        "question": "LTX-2 影片生成器是否免費使用？",
+        "answer": "是的，我們的 LTX-2 影片生成器為基本影片生成提供免費訪問。底層 LTX 2 模型完全開源，完整的模型權重可在 GitHub 和 Hugging Face 上獲取。對於更高解析度（4K）、更長時長和商業用途，提供具有附加功能和優先處理的高級計劃。"
+      },
+      "q3": {
+        "question": "LTX-2 可以生成什麼解析度和質量？",
+        "answer": "LTX-2 支持多種解析度，包括 720p HD、1080p Full HD、1440p QHD 和原生 4K Ultra HD (3840×2160)。該模型可以生成最高 50 FPS 的影片，提供流暢的電影級運動。最大影片時長為 20 秒的連續同步音視頻生成。"
+      },
+      "q4": {
+        "question": "我可以在本地使用 ComfyUI 運行 LTX-2 嗎？",
+        "answer": "可以！LTX-2 具有原生 ComfyUI 集成。您可以從 Hugging Face 下載模型權重，並使用 ComfyUI-LTXVideo 節點進行本地生成。為了獲得最佳性能，NVIDIA 建議 720p/1080p 需要 12GB+ VRAM，4K 生成需要 24GB+。該模型支持 NVFP8 量化，可減少內存使用並在 RTX GPU 上實現更快的推理。"
+      },
+      "q5": {
+        "question": "運行 LTX-2 本地需要什麼 GPU 和 VRAM？",
+        "answer": "最低要求：720p-1080p 在 24-30 FPS 需要 12GB VRAM。推薦：16-24GB VRAM（RTX 4080、RTX 3090）用於舒適的 1080p-1440p 生成。理想：24GB+ VRAM（RTX 4090、RTX 5090）用於原生 4K 50 FPS。NVIDIA 已優化 NVFP8 權重，可將 VRAM 減少 40%，並在 RTX 40/50 系列 GPU 上將性能提高 2 倍。"
+      },
+      "q6": {
+        "question": "LTX-2 與其他 AI 影片生成器相比如何？",
+        "answer": "LTX-2 是第一個將同步音視頻生成、原生 4K 解析度和 50 FPS 結合在一個系統中的開源模型。與 Runway、Pika 和 Kling 相比，LTX-2 提供高達 50% 的更低計算成本和完全開源透明度。它在視覺保真度方面表現出色，並在消費級 GPU 上高效運行，使獨立創作者能夠進行專業影片創作。"
+      },
+      "q7": {
+        "question": "我可以使用 LTX-2 訓練自定義 LoRA 模型嗎？",
+        "answer": "可以！LTX-2 支持 LoRA 微調，用於自定義風格、運動模式和角色相似度。在許多設置中，運動、風格或相似度的訓練可能不到一小時。LTX-2 Trainer 提供全面的文檔，涵蓋完整微調、LoRA 訓練和 IC-LoRA（身份一致 LoRA）工作流程。"
+      }
+    },
+    "finalCTA": {
+      "title": "準備好創作精彩的影片了嗎？",
+      "description": "加入數千名使用 LTX-2 將願景變為現實的創作者。",
+      "button": "立即開始生成 — 免費"
+    }
+  },
+  "ltx2FastImageToVideoPage": {
+    "metadata": {
+      "title": "LTX-2 圖片生成影片 | 免費AI圖片轉影片工具線上 | 4K圖片生成影片 | joymagic",
+      "description": "使用 LTX-2 圖片生成影片 AI 將圖片轉換為令人驚嘆的 4K 影片。免費線上 LTX-2 圖片生成影片工具，支援同步音頻。幾秒鐘內將靜態圖片轉換為動態影片。無需下載。",
+      "keywords": "ltx-2 圖片生成影片, ltx-2 圖片轉影片, ltx-2 圖片生成影片工具, ltx-2 圖片生成影片 AI, ltx-2 圖片生成影片線上, ltx-2 圖片生成影片免費, LTX-2 圖片生成影片, LTX 2 圖片生成影片, 圖片生成影片 ltx-2, AI 圖片生成影片, 4K 圖片生成影片, 免費圖片生成影片, 圖片轉影片工具, 圖片轉影片生成器"
+    },
+    "hero": {
+      "title": "LTX-2 圖片生成影片 AI 生成器",
+      "description": "使用 LTX-2 圖片生成影片技術，將您的圖片轉換為具有同步音頻的專業級 4K 影片。我們的免費 LTX-2 圖片生成影片工具可在幾秒鐘內從靜態圖片創建令人驚嘆的影片。體驗 LTX-2 圖片生成影片 AI 的強大功能，支援原生 4K 解像度和高達 50 FPS。<br/><br/>沒有參考圖片？<a href=\"/text-to-video/ltx2-fast\" class=\"text-primary underline\">試試 LTX-2 文字生成影片</a>從頭開始生成。",
+      "button1": "免費開始創作",
+      "button2": "查看價格"
+    },
+    "keyFeatures": {
+      "title": "為什麼選擇 LTX-2 圖片生成影片？",
+      "description": "體驗最佳的 LTX-2 圖片生成影片 AI，擁有前沿功能。在一個統一的流程中從圖片創建具有同步音頻的專業影片。",
+      "native4K": {
+        "title": "原生 4K 解像度",
+        "description": "使用 LTX-2 圖片生成影片生成真正的 4K (3840×2160) 解像度影片。非常適合專業內容、營銷活動和廣播級製作。"
+      },
+      "synchronizedAudio": {
+        "title": "同步音頻",
+        "description": "LTX-2 圖片生成影片在一個統一的流程中同時生成影片和音頻。動作、對話、環境音和音樂自然對齊，無需手動同步。"
+      },
+      "lightningFast": {
+        "title": "閃電般快速生成",
+        "description": "使用 LTX-2 圖片生成影片，僅需 5 秒計算時間即可生成 6 秒高清影片。與競爭 AI 影片模型相比，計算成本降低高達 50%。"
+      },
+      "imageToVideo": {
+        "title": "圖片生成影片動畫",
+        "description": "使用 LTX-2 圖片生成影片將任何靜態圖片轉換為動態影片內容。非常適合動畫藝術作品、照片、產品拍攝和概念設計。"
+      },
+      "creativeControl": {
+        "title": "精確的創作控制",
+        "description": "LTX-2 圖片生成影片提供多關鍵幀條件、3D 鏡頭邏輯和 LoRA 微調支援，讓您完全控制影片的每個方面。"
+      },
+      "openSource": {
+        "title": "開源基礎",
+        "description": "LTX-2 圖片生成影片基於 Lightricks 的開源 LTX 2 模型構建。完全透明，模型權重可在 GitHub 和 Hugging Face 上獲取，便於定制。"
+      }
+    },
+    "specs": {
+      "title": "LTX-2 圖片生成影片技術規格",
+      "description": "行業領先的性能指標，為 LTX-2 圖片生成影片設定標準。",
+      "maxResolution": "最大解像度",
+      "fps": "FPS 幀率",
+      "maxLength": "最大影片長度",
+      "lowerCost": "更低計算成本"
+    },
+    "howItWorks": {
+      "title": "如何使用 LTX-2 圖片生成影片",
+      "description": "通過四個簡單步驟使用 LTX-2 圖片生成影片從圖片創建專業影片。無需技術知識。",
+      "step1": {
+        "title": "上傳您的圖片",
+        "description": "上傳您想要使用 LTX-2 圖片生成影片進行動畫的靜態圖片。適用於照片、插圖、藝術作品等。"
+      },
+      "step2": {
+        "title": "輸入您的提示",
+        "description": "描述您希望如何使用 LTX-2 圖片生成影片對圖片進行動畫處理。包含動作、鏡頭運動和情緒的詳細信息，以獲得最佳效果。"
+      },
+      "step3": {
+        "title": "選擇設置",
+        "description": "選擇您喜歡的時長（最多 20 秒）並為您的 LTX-2 圖片生成影片生成啟用音頻同步。"
+      },
+      "step4": {
+        "title": "生成和下載",
+        "description": "點擊生成並觀看 LTX-2 圖片生成影片 AI 創建帶有同步音頻的影片。下載高質量 4K 影片，立即使用。"
+      }
+    },
+    "useCases": {
+      "title": "適合每位創作者",
+      "description": "LTX-2 圖片生成影片為各行各業的多元化創意工作流程提供支援。",
+      "socialMedia": "社交媒體內容",
+      "filmTV": "電影和電視製作",
+      "marketing": "營銷和廣告",
+      "gameDev": "遊戲開發",
+      "educational": "教育內容",
+      "artAnimation": "藝術和動畫",
+      "corporate": "企業影片",
+      "musicVideos": "音樂影片"
+    },
+    "faq": {
+      "title": "常見問題",
+      "description": "關於 LTX-2 圖片生成影片生成器您需要了解的一切。",
+      "q1": {
+        "question": "什麼是 LTX-2 圖片生成影片，它是如何工作的？",
+        "answer": "LTX-2 圖片生成影片是 Lightricks 的下一代開源 AI 影片基礎模型，可將靜態圖片轉換為動態影片。它使用 DiT（擴散-Transformer）混合架構和時空建模，從您上傳的圖片生成高保真影片。LTX-2 圖片生成影片模型在單次處理中創建同步音頻和影片，無需單獨的音頻拼接或手動同步。LTX-2 圖片生成影片支援原生 4K 解像度，最高 50 FPS，影片片段最長 20 秒。"
+      },
+      "q2": {
+        "question": "LTX-2 圖片生成影片工具是否免費使用？",
+        "answer": "是的，我們的 LTX-2 圖片生成影片工具為基本影片生成提供免費訪問。底層 LTX 2 模型完全開源，完整的模型權重可在 GitHub 和 Hugging Face 上獲取。對於更高解像度（4K）、更長時長和商業用途，提供具有附加功能和優先處理的高級計劃。"
+      },
+      "q3": {
+        "question": "LTX-2 圖片生成影片可以生成什麼解像度和質量？",
+        "answer": "LTX-2 圖片生成影片支援多種解像度，包括 720p HD、1080p Full HD、1440p QHD 和原生 4K Ultra HD (3840×2160)。LTX-2 圖片生成影片模型可以生成最高 50 FPS 的影片，提供流暢的電影級運動。最大影片時長為 20 秒的連續同步音頻-影片生成。"
+      },
+      "q4": {
+        "question": "哪些類型的圖片最適合 LTX-2 圖片生成影片？",
+        "answer": "LTX-2 圖片生成影片適用於各種類型的圖片，包括照片、插圖、藝術作品、產品拍攝和概念設計。清晰、光線良好、對比度高的圖片往往能產生最佳效果。LTX-2 圖片生成影片模型可以動畫化寫實和風格化的圖片，保持源材料的視覺風格。"
+      },
+      "q5": {
+        "question": "LTX-2 圖片生成影片與文字生成影片相比如何？",
+        "answer": "LTX-2 圖片生成影片使用您上傳的圖片作為起點，讓您精確控制視覺外觀和風格。文字生成影片根據您的文字描述從頭開始生成所有內容。當您有想要動畫化的特定圖片時，LTX-2 圖片生成影片是理想選擇，而文字生成影片更適合從想像中創建全新的場景。"
+      },
+      "q6": {
+        "question": "我可以在本地使用 ComfyUI 運行 LTX-2 圖片生成影片嗎？",
+        "answer": "可以！LTX-2 具有原生 ComfyUI 集成。您可以從 Hugging Face 下載模型權重，並使用 ComfyUI-LTXVideo 節點進行本地 LTX-2 圖片生成影片生成。為了獲得最佳性能，NVIDIA 建議 720p/1080p 需要 12GB+ VRAM，4K 生成需要 24GB+。該模型支援 NVFP8 量化，可減少內存使用並在 RTX GPU 上實現更快的推理。"
+      },
+      "q7": {
+        "question": "我可以使用 LTX-2 圖片生成影片訓練自定義 LoRA 模型嗎？",
+        "answer": "可以！LTX-2 支援 LoRA 微調，用於自定義風格、運動模式和角色相似度。在許多設置中，運動、風格或相似度的訓練可能不到一小時。LTX-2 Trainer 提供全面的文檔，涵蓋完整微調、LoRA 訓練和 IC-LoRA（身份一致 LoRA）工作流程。"
+      }
+    },
+    "finalCTA": {
+      "title": "準備好使用 LTX-2 圖片生成影片創作精彩的影片了嗎？",
+      "description": "加入數千名使用 LTX-2 圖片生成影片 AI 將圖片變為現實的創作者。立即開始從圖片生成影片。",
+      "button": "立即開始生成 — 免費"
+    }
+  },
+  "ltx2Fast": {
+    "form": {
+      "prompt": {
+        "label": "提示詞",
+        "placeholder": "描述您想要創建的影片...\n\n示例：黃金時分的山脈航拍鏡頭。雪峰捕捉到溫暖的橙色光線，雲朵在下方山谷中飄過。鏡頭緩慢平移過壯麗的景觀。"
+      },
+      "duration": {
+        "label": "時長"
+      },
+      "generateAudio": {
+        "label": "音頻同步",
+        "description": "生成與影片同步的音頻"
+      },
+      "buttons": {
+        "reset": "重置",
+        "run": "生成",
+        "generating": "生成中..."
+      }
+    },
+    "status": {
+      "idle": "空閒",
+      "processing": "處理中...",
+      "completed": "已完成"
+    },
+    "preview": {
+      "placeholder": "您生成的影片將顯示在這裡"
+    },
+    "actions": {
+      "downloadVideo": "下載影片",
+      "downloadFailed": "下載失敗"
+    },
+    "errors": {
+      "promptRequired": "提示詞是必需的",
+      "generationFailed": "生成失敗",
+      "apiResponseParseFailed": "解析 API 響應失敗",
+      "taskIdNotFound": "未找到任務 ID",
+      "taskTimeout": "任務超時",
+      "statusQueryFailed": "狀態查詢失敗",
+      "taskFailed": "任務失敗",
+      "processingFailed": "處理失敗"
+    }
+  }
+}
+

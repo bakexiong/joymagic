@@ -1,0 +1,146 @@
+[
+  {
+    "prompt": "Premium skincare bottle on a polished marble pedestal, soft natural window light moving across the glass surface, subtle water droplets, elegant macro product shots, slow orbital camera move, shallow depth of field, luxury beauty commercial, crisp label readability, high-end ecommerce ad finish, clean background, gentle reflected highlights, final shot ends with centered hero product.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://happyhorses.co/videos/posters/showcase-1.jpg",
+          "url": "https://happyhorses.co/videos/posters/showcase-1.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Premium skincare bottle on a polished marble pedestal, soft natural window light moving across the glass surface, subtle water droplets, elegant macro product shots, slow orbital camera move, shallow depth of field, luxury beauty commercial, crisp label readability, high-end ecommerce ad finish, clean background, gentle reflected highlights, final shot ends with centered hero product.",
+      "resolution": "1080p",
+      "duration": "5"
+    },
+    "previewUrl": "https://happyhorses.co/videos/posters/showcase-1.jpg",
+    "thumbnailUrl": "https://happyhorses.co/videos/posters/showcase-1.jpg",
+    "generatedUrl": "https://happyhorses.co/videos/showcase-1.webm",
+    "generatedUrls": [
+      "https://happyhorses.co/videos/showcase-1.webm"
+    ],
+    "generatedAt": "2026-04-27T00:00:00.000Z",
+    "previewClipUrl": "https://happyhorses.co/videos/showcase-1.webm"
+  },
+  {
+    "prompt": "Cinematic b-roll of a flashlight beam moving through a damp cave passage, glittering mineral surfaces, shallow pools reflecting the light, drifting atmosphere particles, slow reveal pacing, editorial camera movement, rich shadow contrast, immersive suspense mood, realistic ambient audio.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://happyhorses.co/videos/posters/cave-flashlight.jpg",
+          "url": "https://happyhorses.co/videos/posters/cave-flashlight.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Cinematic b-roll of a flashlight beam moving through a damp cave passage, glittering mineral surfaces, shallow pools reflecting the light, drifting atmosphere particles, slow reveal pacing, editorial camera movement, rich shadow contrast, immersive suspense mood, realistic ambient audio.",
+      "resolution": "1080p",
+      "duration": "5"
+    },
+    "previewUrl": "https://happyhorses.co/videos/posters/cave-flashlight.jpg",
+    "thumbnailUrl": "https://happyhorses.co/videos/posters/cave-flashlight.jpg",
+    "generatedUrl": "https://happyhorses.co/videos/prompts/cave-flashlight.mp4",
+    "generatedUrls": [
+      "https://happyhorses.co/videos/prompts/cave-flashlight.mp4"
+    ],
+    "generatedAt": "2026-04-27T00:00:00.000Z",
+    "previewClipUrl": "https://happyhorses.co/videos/prompts/cave-flashlight.mp4"
+  },
+  {
+    "prompt": "A confident presenter speaking directly to camera in a clean studio setup, medium close-up framing, natural eye contact, subtle hand gestures, clear mouth movement, calm expressive delivery, neutral background, soft key light with gentle fill, realistic facial motion, polished talking avatar explainer style.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://happyhorses.co/videos/posters/2041640782197875097_1.jpg",
+          "url": "https://happyhorses.co/videos/posters/2041640782197875097_1.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A confident presenter speaking directly to camera in a clean studio setup, medium close-up framing, natural eye contact, subtle hand gestures, clear mouth movement, calm expressive delivery, neutral background, soft key light with gentle fill, realistic facial motion, polished talking avatar explainer style.",
+      "resolution": "1080p",
+      "duration": "5"
+    },
+    "previewUrl": "https://happyhorses.co/videos/posters/2041640782197875097_1.jpg",
+    "thumbnailUrl": "https://happyhorses.co/videos/posters/2041640782197875097_1.jpg",
+    "generatedUrl": "https://happyhorses.co/videos/community/2041640782197875097_1.mp4",
+    "generatedUrls": [
+      "https://happyhorses.co/videos/community/2041640782197875097_1.mp4"
+    ],
+    "generatedAt": "2026-04-27T00:00:00.000Z",
+    "previewClipUrl": "https://happyhorses.co/videos/community/2041640782197875097_1.mp4"
+  },
+  {
+    "prompt": "Chinese presenter speaking directly to camera in Mandarin, clear lip sync, precise mouth articulation, natural facial movement, confident but warm delivery, medium close-up framing, clean studio lighting, localized product explainer style, spoken line: 你好，今天我们快速看看这款产品为什么更适合电商广告投放。",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://happyhorses.co/videos/posters/2041952066873221288_1.jpg",
+          "url": "https://happyhorses.co/videos/posters/2041952066873221288_1.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Chinese presenter speaking directly to camera in Mandarin, clear lip sync, precise mouth articulation, natural facial movement, confident but warm delivery, medium close-up framing, clean studio lighting, localized product explainer style, spoken line: 你好，今天我们快速看看这款产品为什么更适合电商广告投放。",
+      "resolution": "1080p",
+      "duration": "5"
+    },
+    "previewUrl": "https://happyhorses.co/videos/posters/2041952066873221288_1.jpg",
+    "thumbnailUrl": "https://happyhorses.co/videos/posters/2041952066873221288_1.jpg",
+    "generatedUrl": "https://happyhorses.co/videos/community/2041952066873221288_1.mp4",
+    "generatedUrls": [
+      "https://happyhorses.co/videos/community/2041952066873221288_1.mp4"
+    ],
+    "generatedAt": "2026-04-27T00:00:00.000Z",
+    "previewClipUrl": "https://happyhorses.co/videos/community/2041952066873221288_1.mp4"
+  },
+  {
+    "prompt": "A flashlight beam exploring a cave system, illuminating wet limestone formations. The light catches crystalline calcite deposits that glitter and flash. Where the beam passes through shallow standing water, it creates bright caustic patterns on the submerged floor. Stalactites cast long, swinging shadows as the flashlight moves. Audio: Dripping water echoing, footsteps on wet rock, breathing in enclosed space.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://happyhorses.co/videos/posters/cave-flashlight.jpg",
+          "url": "https://happyhorses.co/videos/posters/cave-flashlight.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A flashlight beam exploring a cave system, illuminating wet limestone formations. The light catches crystalline calcite deposits that glitter and flash. Where the beam passes through shallow standing water, it creates bright caustic patterns on the submerged floor. Stalactites cast long, swinging shadows as the flashlight moves. Audio: Dripping water echoing, footsteps on wet rock, breathing in enclosed space.",
+      "resolution": "1080p",
+      "duration": "5"
+    },
+    "previewUrl": "https://happyhorses.co/videos/posters/cave-flashlight.jpg",
+    "thumbnailUrl": "https://happyhorses.co/videos/posters/cave-flashlight.jpg",
+    "generatedUrl": "https://happyhorses.co/videos/prompts/cave-flashlight.mp4",
+    "generatedUrls": [
+      "https://happyhorses.co/videos/prompts/cave-flashlight.mp4"
+    ],
+    "generatedAt": "2026-04-27T00:00:00.000Z",
+    "previewClipUrl": "https://happyhorses.co/videos/prompts/cave-flashlight.mp4"
+  },
+  {
+    "prompt": "A massive \"CONGRATULATIONS GRADUATES\" banner being unfurled across a university building by maintenance workers on the roof. The wind catches it mid-unfurl, turning it into a sail that nearly lifts one worker off their feet. Coworkers grab him, everyone laughs, and the banner finally drops into place. Below, students start taking selfies immediately. Audio: Wind gusting, workers shouting and laughing, distant cheering.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://happyhorses.co/videos/posters/graduation-banner.jpg",
+          "url": "https://happyhorses.co/videos/posters/graduation-banner.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A massive \"CONGRATULATIONS GRADUATES\" banner being unfurled across a university building by maintenance workers on the roof. The wind catches it mid-unfurl, turning it into a sail that nearly lifts one worker off their feet. Coworkers grab him, everyone laughs, and the banner finally drops into place. Below, students start taking selfies immediately. Audio: Wind gusting, workers shouting and laughing, distant cheering.",
+      "resolution": "1080p",
+      "duration": "5"
+    },
+    "previewUrl": "https://happyhorses.co/videos/posters/graduation-banner.jpg",
+    "thumbnailUrl": "https://happyhorses.co/videos/posters/graduation-banner.jpg",
+    "generatedUrl": "https://happyhorses.co/videos/prompts/graduation-banner.mp4",
+    "generatedUrls": [
+      "https://happyhorses.co/videos/prompts/graduation-banner.mp4"
+    ],
+    "generatedAt": "2026-04-27T00:00:00.000Z",
+    "previewClipUrl": "https://happyhorses.co/videos/prompts/graduation-banner.mp4"
+  }
+]

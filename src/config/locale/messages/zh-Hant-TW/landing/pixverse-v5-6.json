@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "PixVerse v5.6 Text-to-Video 文字轉影片 | 免費 AI 影片產生器 joymagic",
+    "description": "使用 PixVerse v5.6 Text-to-Video 在 joymagic 上，將中文或英文提示詞一鍵生成高畫質短影片，支援 360p/540p/720p/1080p、多種長度與音訊開關，適合社群短影片、廣告預演與創作者工作流程。",
+    "keywords": "PixVerse v5.6 Text-to-Video,PixVerse 文字轉影片,AI 影片生成,AI 短影片,文字轉影片,text-to-video"
+  },
+  "pixverse56": {
+    "form": {
+      "prompt": {
+        "label": "提示詞",
+        "placeholder": "詳細描述你想要生成的影片場景、角色、動作與鏡頭運動……",
+        "tooltip": "用於生成影片的正向提示詞，建議包含主體、場景、鏡頭運動與氛圍等要素。"
+      },
+      "negativePrompt": {
+        "label": "負面提示詞",
+        "placeholder": "選填：不希望出現在畫面中的元素，例如：模糊、扭曲、文字錯誤等",
+        "tooltip": "用來排除不希望出現的元素或風格，例如「模糊、畸形、低解析度」等。"
+      },
+      "resolutionRatio": {
+        "label": "畫面比例（resolution_ratio）"
+      },
+      "resolution": {
+        "label": "解析度（resolution）"
+      },
+      "duration": {
+        "label": "長度（duration，秒）"
+      },
+      "generateAudio": {
+        "label": "生成音訊（generate_audio_switch）",
+        "description": "勾選後，會為影片同步生成音訊內容（音樂／環境音／簡單音效）。",
+        "tooltip": "開啟後會啟用 PixVerse 的音訊生成功能，並依照「是否含音訊」使用對應的價格組合。"
+      },
+      "thinkingType": {
+        "label": "思考模式（thinking_type）",
+        "tooltip": "控制 PixVerse 的「思考」強度：enabled 偏重品質，disabled 偏重速度，auto 由後端自動選擇。"
+      },
+      "seed": {
+        "label": "隨機種子（seed）"
+      },
+      "image": {
+        "label": "參考圖片",
+        "tooltip": "上傳一張參考圖，PixVerse 將根據你的提示詞對該圖進行動畫化。",
+        "hint": "可將檔案拖放到此處，或點擊上傳。",
+        "dropHere": "將圖片放到此處",
+        "dragDrop": "拖放檔案或點擊上傳"
+      },
+      "imageRequired": "請上傳一張圖片以使用 PixVerse 圖生影片。",
+      "buttons": {
+        "reset": "重設",
+        "run": "產生",
+        "generating": "生成中..."
+      }
+    },
+    "preview": {
+      "placeholder": "輸入提示詞並點擊執行後，這裡會顯示 PixVerse v5.6 生成的影片預覽。"
+    },
+    "status": {
+      "idle": "待機",
+      "processing": "處理中",
+      "completed": "已完成",
+      "estimating": "估算中..."
+    },
+    "buttons": {
+      "credits": "點數",
+      "click_to_pay": "前往付款"
+    },
+    "actions": {
+      "downloadVideo": "下載影片",
+      "downloadFailed": "下載影片失敗"
+    },
+    "errors": {
+      "promptRequired": "請輸入提示詞",
+      "generationFailed": "影片生成失敗",
+      "taskFailed": "任務處理失敗",
+      "taskTimeout": "任務處理逾時，請稍後再試",
+      "taskIdNotFound": "無法取得任務 ID，請檢查 API 回應格式",
+      "processingFailed": "處理失敗，請重試",
+      "statusQueryFailed": "查詢任務狀態失敗",
+      "apiResponseParseFailed": "解析 PixVerse 回應失敗",
+      "unsupportedCombination1080p10s": "1080p 解析度暫不支援 10 秒，請選擇 5 秒或 8 秒。",
+      "invalidFileType": "無效的檔案類型。",
+      "uploadFailed": "上傳失敗：{error}",
+      "uploadFailedGeneric": "上傳失敗",
+      "recordingFailed": "無法開始錄音，請檢查麥克風權限。",
+      "estimate_failed": "點數估算失敗"
+    }
+  },
+  "pixverse56Page": {
+    "metadata": {
+      "title": "PixVerse v5.6 Text-to-Video 文字轉影片 | 免費 AI 影片產生器 joymagic",
+      "description": "PixVerse v5.6 Text-to-Video 幫你把文字提示快速轉換成高畫質短影片，支援多種解析度、影片長度與可選音訊生成，並接入 joymagic 通用點數系統，適合社群內容、廣告預演與電商影片製作。",
+      "keywords": "PixVerse v5.6 Text-to-Video,PixVerse 文字轉影片,AI 影片生成,text-to-video,AI 短影片,joymagic"
+    },
+    "hero": {
+      "title": "PixVerse v5.6 Text-to-Video 文字轉影片",
+      "description": "在 joymagic 上使用 PixVerse v5.6 Text-to-Video，將中文或英文提示詞一鍵生成高品質短影片。彈性設定解析度、長度與音訊開關，適合創作者、品牌與團隊工作流程。",
+      "button1": "立即生成影片",
+      "button2": "查看價格"
+    },
+    "intro": "PixVerse v5.6 Text-to-Video 深度整合 joymagic 通用點數與參數組合定價系統，你可以在可控預算下自由搭配解析度、長度與音訊開關，一鍵生成適合社群曝光、廣告預演、電商頁面與內容創作的高品質短影片。",
+    "features": {
+      "title": "為什麼選擇 PixVerse v5.6 Text-to-Video 文字轉影片？",
+      "items": {
+        "multiResolution": {
+          "title": "多解析度與長度組合",
+          "description": "支援 360p、540p、720p、1080p 多檔解析度，搭配 5／8／10 秒固定長度；前端會自動限制 1080p 僅能選擇 5 秒或 8 秒，避免不支援的組合。"
+        },
+        "audio": {
+          "title": "可選音訊生成",
+          "description": "透過 generate_audio_switch 一鍵開關音訊生成，定價系統會依「是否含音訊」自動選擇對應的參數組合價格。"
+        },
+        "thinking": {
+          "title": "智慧思考模式",
+          "description": "thinking_type 支援 enabled／disabled／auto，協助你在畫面品質與生成速度之間取得平衡；auto 會依場景自動選擇合適策略。"
+        },
+        "safety": {
+          "title": "整合安全與定價控管",
+          "description": "依託 joymagic 的內容安全策略與通用點數系統，在生成前清楚顯示預估點數消耗，並針對 1080p × 10 秒等不支援組合做前後端雙重檢查。"
+        }
+      }
+    },
+    "faq": {
+      "title": "PixVerse v5.6 Text-to-Video 文字轉影片常見問題",
+      "q1": {
+        "question": "PixVerse v5.6 支援哪些解析度與影片長度？",
+        "answer": "目前支援解析度 360p、540p、720p、1080p，長度支援 5／8／10 秒。其中 1080p 僅支援 5 秒與 8 秒，10 秒在前端會被停用，同時在定價與後端驗證中也會視為不支援組合。"
+      },
+      "q2": {
+        "question": "generate_audio_switch 有什麼作用？",
+        "answer": "generate_audio_switch 用來控制是否生成同步音訊。關閉時僅以「純影片」價格計費；開啟後會在基礎價格上加上音訊附加費，對應到參數組合定價中的 generate_audio=true。"
+      },
+      "q3": {
+        "question": "thinking_type 三種模式有什麼差異？",
+        "answer": "enabled 會啟用更強的「思考」過程，一般畫面與鏡頭邏輯更穩定但耗時稍長；disabled 較偏向追求速度；auto 則由後端依場景自動選擇，多數情況建議使用。"
+      },
+      "q4": {
+        "question": "如何控制生成結果的一致性？",
+        "answer": "可以透過 seed 參數控制隨機性。預設值 -1 代表每次使用隨機種子；如果你希望多次生成得到相似影片，可以固定一個 seed 值並在後續請求中重複使用。"
+      }
+    },
+    "finalCTA": {
+      "title": "立即體驗 PixVerse v5.6 Text-to-Video 文字轉影片",
+      "description": "現在就用自然直覺的提示詞，交給 PixVerse v5.6 Text-to-Video，在幾分鐘內生成可用於社群媒體、廣告預演、電商與內容創作的短影片。下方 Playground 已接入通用點數系統，執行前會清楚顯示預估消耗。",
+      "button": "開始生成"
+    },
+    "breadcrumb": {
+      "home": "首頁",
+      "pageName": "PixVerse v5.6 文字轉影片"
+    }
+  }
+}

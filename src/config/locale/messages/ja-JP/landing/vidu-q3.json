@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "title": "Vidu Q3 画像から動画へ - AIで写真をアニメーション化 | joymagic",
+    "description": "Vidu Q3で画像を動画に変換。参照写真をアップロードし、動きの振幅を制御し、オプションのオーディオとBGM付きの動画を生成します。",
+    "keywords": "vidu q3, 画像から動画, ai動画生成, 写真アニメーション, 動きの振幅, BGM, vidu q3 画像から動画"
+  },
+  "viduq3": {
+    "form": {
+      "prompt": {
+        "label": "プロンプト",
+        "placeholder": "スタイリッシュな若い男性アーティストが、日当たりの良い都市の路地でレンガの壁にカラフルな花の壁画をスプレーペイントしています...",
+        "tooltip": "生成用のポジティブプロンプト。"
+      },
+      "image": {
+        "label": "画像",
+        "tooltip": "動画に変換する画像をアップロード",
+        "hint": "ヒント：ファイルをドラッグ＆ドロップするか、クリックしてアップロードできます",
+        "dragDrop": "ファイルをドラッグ＆ドロップまたはクリックしてアップロード",
+        "dropHere": "ここに画像をドロップ"
+      },
+      "resolution": {
+        "label": "解像度"
+      },
+      "duration": {
+        "label": "長さ",
+        "tooltip": "動画の長さを1〜16秒に設定",
+        "unit": "秒"
+      },
+      "movementAmplitude": {
+        "label": "動きの振幅"
+      },
+      "generateAudio": {
+        "label": "オーディオ生成",
+        "description": "有効にすると、動画に自動的にオーディオが生成されます。",
+        "tooltip": "このオプションを有効にすると、動画に自動的にオーディオが生成されます。"
+      },
+      "bgm": {
+        "label": "BGM",
+        "description": "有効にすると、動画にBGMが追加されます。",
+        "tooltip": "このオプションを有効にすると、動画にBGMが追加されます。"
+      },
+      "seed": {
+        "label": "シード",
+        "placeholder": "空欄でランダム"
+      },
+      "buttons": {
+        "reset": "リセット",
+        "run": "生成",
+        "generating": "生成中..."
+      }
+    },
+    "preview": {
+      "placeholder": "プロンプトを入力して実行をクリックすると、生成された動画がここに表示されます。"
+    },
+    "status": {
+      "idle": "待機中",
+      "processing": "処理中",
+      "completed": "完了"
+    },
+    "actions": {
+      "downloadVideo": "動画をダウンロード",
+      "downloadFailed": "動画のダウンロードに失敗しました"
+    },
+    "errors": {
+      "promptRequired": "プロンプトを入力してください",
+      "imageRequired": "画像をアップロードしてください",
+      "generationFailed": "動画生成に失敗しました",
+      "taskFailed": "タスク処理に失敗しました",
+      "taskTimeout": "タスク処理がタイムアウトしました。後でもう一度お試しください",
+      "taskIdNotFound": "タスクIDを取得できません。APIレスポンス形式を確認してください",
+      "processingFailed": "処理に失敗しました。再試行してください",
+      "statusQueryFailed": "タスクステータスの照会に失敗しました",
+      "apiResponseParseFailed": "APIレスポンスの解析に失敗しました",
+      "invalidFileType": "無効なファイル形式です。画像ファイル（JPG、PNGなど）をアップロードしてください。",
+      "uploadFailed": "アップロードに失敗しました：{error}",
+      "uploadFailedGeneric": "アップロードに失敗しました"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "Vidu Q3 画像から動画へ - AIで写真をアニメーション化 | joymagic",
+      "description": "Vidu Q3で画像を動画に変換。参照写真をアップロードし、動きの振幅を制御し、オプションのオーディオとBGM付きの動画を生成します。",
+      "keywords": "vidu q3, 画像から動画, ai動画生成, 写真アニメーション, 動きの振幅, BGM, vidu q3 画像から動画"
+    },
+    "hero": {
+      "title": "Vidu Q3 画像から動画へ",
+      "description": "Vidu Q3は、カスタマイズ可能な動きの振幅で画像を動画クリップに変換します。参照写真をアップロードし、動きの強度を制御し、オプションのオーディオとBGM付きの動画を生成します。今すぐVidu Q3を無料でお試しください！",
+      "button1": "今すぐ試す",
+      "button2": "料金を見る"
+    },
+    "keyFeatures": {
+      "title": "主な機能",
+      "movementControl": {
+        "title": "動きの振幅制御",
+        "description": "動画の動きの強度を制御します。自動、小、中、大の動きの振幅から選択して、クリエイティブなビジョンに合わせます。"
+      },
+      "flexibleDuration": {
+        "title": "柔軟な長さ",
+        "description": "1〜16秒の動画を生成します。長さスライダーを調整して、短いクリップや長いシーケンスを作成します。"
+      },
+      "audioOptions": {
+        "title": "オーディオオプション",
+        "description": "オーディオ生成またはBGM追加を選択します。動画のサウンドをカスタマイズして視聴体験を向上させます。"
+      },
+      "multipleResolutions": {
+        "title": "複数の解像度",
+        "description": "プロジェクトの要件と品質ニーズに合わせて、540p、720p、または1080pの解像度から選択します。"
+      }
+    },
+    "useCases": {
+      "title": "ユースケース",
+      "productAnimation": {
+        "title": "製品アニメーション",
+        "description": "製品写真を回転、使用法、またはライフスタイルコンテキストを示すデモ動画に変換します。"
+      },
+      "characterAnimation": {
+        "title": "キャラクターアニメーション",
+        "description": "キャラクターデザインやコンセプトアートに動きと表情を与えて命を吹き込みます。"
+      },
+      "portraitVideos": {
+        "title": "ポートレート動画",
+        "description": "ポートレート写真に微妙な動きを追加します—まばたき、頭の回転、穏やかな笑顔。"
+      },
+      "styleMatchedClips": {
+        "title": "スタイルマッチクリップ",
+        "description": "スタイル参照をアップロードして、特定の美学やアートディレクションに合った動画を生成します。"
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "Vidu Q3 画像から動画へとは何ですか？",
+        "answer": "Vidu Q3 画像から動画へは、アップロードした画像をカスタマイズ可能な動きの振幅、長さ、オーディオオプション付きの動画クリップに変換します。"
+      },
+      "q2": {
+        "question": "動きの振幅とは何ですか？",
+        "answer": "動きの振幅は、動画に表示される動きの量を制御します。自動検出には自動を選択するか、特定の強度レベルには小、中、大を選択します。"
+      },
+      "q3": {
+        "question": "BGMを追加できますか？",
+        "answer": "はい。BGMオプションを有効にして、生成された動画に音楽を追加できます。"
+      },
+      "q4": {
+        "question": "どの動画の長さがサポートされていますか？",
+        "answer": "Vidu Q3は1〜16秒の動画の長さをサポートしています。スライダーまたは入力フィールドを使用して、希望の長さを設定します。"
+      },
+      "q5": {
+        "question": "どの解像度が利用可能ですか？",
+        "answer": "品質とファイルサイズの好みに応じて、540p、720p、または1080pの解像度から選択できます。"
+      }
+    },
+    "finalCTA": {
+      "title": "作成する準備はできましたか？",
+      "description": "今日から画像から素晴らしい動画を生成し始めましょう。",
+      "button": "今すぐ試す"
+    }
+  }
+}

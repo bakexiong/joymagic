@@ -1,0 +1,367 @@
+{
+  "template": {
+    "whyModelTitle": "Why this model",
+    "whyModelDescription": "A focused model page should explain where this model is strongest, when to use it, and why it deserves its own workflow entry point.",
+    "howItWorksTitle": "How it works",
+    "howItWorksDescription": "The page is structured to help users move from model understanding into action without leaving the main creation flow.",
+    "howItWorksSteps": [
+      {
+        "step": "01",
+        "title": "Choose a mode",
+        "copy": "Switch between the model's main creation modes and land in the workflow that matches your intent."
+      },
+      {
+        "step": "02",
+        "title": "Add prompt or references",
+        "copy": "Start from text, references, or both, depending on whether you are generating from scratch or refining assets."
+      },
+      {
+        "step": "03",
+        "title": "Generate and compare",
+        "copy": "Use the workbench to iterate quickly, compare directions, and keep the strongest candidates moving forward."
+      },
+      {
+        "step": "04",
+        "title": "Continue in creator",
+        "copy": "Once you have a strong direction, jump into the creator flow to keep working without rebuilding context."
+      }
+    ],
+    "workflowsTitle": "One model surface, multiple vertical workflows",
+    "workflowsDescription": "Instead of presenting feature cards first, the page flows through actual scene intent. Each mode explains what it is for, how to steer it, and how to start with a working prompt.",
+    "bestForTitle": "Best for",
+    "bestForDescription": "Use-case framing helps users understand not just what the model can do, but where it fits best in real production work.",
+    "galleryTitle": "A premium model page should explain the output, not bury it behind modules",
+    "galleryDescription": "The overall rhythm follows a vertical editorial layout: hero first, workbench second, then scene logic, product rationale, and real output proof. That keeps the page dense without collapsing into a card wall.",
+    "galleryLead": "Real outputs should carry the proof. The surrounding copy stays compact, readable, and secondary.",
+    "faqTitle": "Product framing, not just page styling",
+    "faqDescription": "Answers stay in the same vertical rhythm so the page still reads like one continuous product narrative instead of a set of detached modules.",
+    "openWithPrompt": "Open with prompt",
+    "openInCreator": "Open in creator",
+    "sampleLabel": "Sample",
+    "fallbackSampleTitle": "Model Sample",
+    "fallbackSampleCaption": "A real output sample selected from this model's own generation set.",
+    "controls": {
+      "promptWorkflow": "Prompt workflow",
+      "creatorSync": "Creator sync",
+      "uploadUpToRefs": "Upload up to {count} refs",
+      "referenceUploads": "Reference uploads",
+      "aspectRatios": "{count}+ aspect ratios",
+      "resolutionPresets": "{count} resolution presets"
+    }
+  },
+  "nanobana": {
+    "title": "Nano Banana",
+    "provider": "Google",
+    "eyebrow": "Model-first landing page",
+    "description": "Start with Nano Banana, then branch into the exact workflows it handles best: guided image editing, fast concept generation, and creator-native iteration with the same workbench behavior your product already uses.",
+    "seoTitle": "Nano Banana AI Model Page | Image Edit + Text to Image | joymagic",
+    "seoDescription": "Explore Nano Banana as a model-first landing page. Switch scenes, keep the creator workbench, and use Nano Banana for image editing and text-to-image generation in one flow.",
+    "stats": [
+      {
+        "label": "Primary mode",
+        "value": "Image Edit"
+      },
+      {
+        "label": "Expanded scenes",
+        "value": "2 live workflows"
+      },
+      {
+        "label": "Panel reuse",
+        "value": "Same as creator"
+      }
+    ],
+    "differentiators": [
+      "Lead with the model instead of a generic scene list, so paid traffic lands on a tighter value proposition.",
+      "Reuse the existing creator form schema and right-hand media panel to keep product behavior consistent.",
+      "Add future model pages by extending a single preset registry instead of copying full pages."
+    ],
+    "gallery": [
+      {
+        "title": "Product Restyle",
+        "caption": "Turn a plain ecommerce packshot into a premium launch visual with one model and a tighter revision loop.",
+        "prompt": "Transform the uploaded bottle shot into a luxury skincare ad with brushed metal reflections, soft fog, and a champagne gold palette.",
+        "accentClassName": "from-[#f4d38f] via-[#8b6b2b] to-[#161616] text-white"
+      },
+      {
+        "title": "Character Refresh",
+        "caption": "Update pose, styling, and lighting while keeping identity intact across repeated edits.",
+        "prompt": "Keep the same character and facial identity, switch to magazine portrait lighting, soft pink hair, and a collectible-figure styling.",
+        "accentClassName": "from-[#b78cff] via-[#5c38a5] to-[#151515] text-white"
+      },
+      {
+        "title": "Prompt-Only Concepts",
+        "caption": "Use the same model for prompt-only concepts before moving into edits, retouches, or upscale passes.",
+        "prompt": "Generate a futuristic dessert cafe interior with chrome counters, creamy daylight, and playful signage rendered in clear readable type.",
+        "accentClassName": "from-[#7ee7f2] via-[#167f8c] to-[#131313] text-white"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Why use /model/nanobana instead of a generic tool page?",
+        "answer": "This page is designed for model-led traffic. Instead of forcing visitors to choose a tool family first, it starts with Nano Banana and then expands into the workflows where that model fits best."
+      },
+      {
+        "question": "Does this page use a different right-side media panel?",
+        "answer": "No. The workbench area reuses the same creator-side media panel, so saved items, templates, scene switching, and usage patterns stay consistent with /creator."
+      },
+      {
+        "question": "Can more models reuse this template?",
+        "answer": "Yes. The page is driven by a registry, so adding a new /model/[slug] page is mostly a data task plus any model-specific copy tweaks."
+      }
+    ],
+    "scenes": [
+      {
+        "modeLabel": "Image Edit",
+        "title": "Scene 01 · Guided image editing",
+        "description": "Use Nano Banana as the default editing surface for retouching, style transfer, product refinement, and identity-preserving revisions.",
+        "spotlight": "Best for assets that already exist and need a faster second pass.",
+        "starterPrompt": "Keep the original composition, clean the background, upgrade the lighting to a cinematic studio look, and preserve all brand details.",
+        "useCases": [
+          "Product image cleanup and premium restyling",
+          "UGC frames into ad-ready key visuals",
+          "Character or IP-safe styling changes"
+        ]
+      },
+      {
+        "modeLabel": "Text to Image",
+        "title": "Scene 02 · Prompt-first concept generation",
+        "description": "Branch from the same model into zero-to-one image generation when you need concept drafts, campaign exploration, or new art directions.",
+        "spotlight": "Best for creating new directions before choosing what to edit or upscale later.",
+        "starterPrompt": "Create a polished campaign key visual for a summer drink launch, bright afternoon backlight, citrus tones, bold readable headline typography.",
+        "useCases": [
+          "Campaign moodboards and hero concepting",
+          "Social graphics and poster drafts",
+          "Packaging, signage, and text-heavy compositions"
+        ]
+      }
+    ]
+  },
+  "nanobanana-2": {
+    "title": "Nano Banana 2",
+    "provider": "Google",
+    "eyebrow": "Model-first landing page",
+    "description": "Start with Nano Banana 2 when you need a more production-oriented workflow: more references, stronger output controls, clearer text rendering, and sharper first-pass campaign visuals.",
+    "seoTitle": "Nano Banana 2 AI Model Page | Advanced Image Edit + Text to Image | joymagic",
+    "seoDescription": "Explore Nano Banana 2 as a model-first landing page. Switch scenes, reuse the creator workbench, and use Nano Banana 2 for multi-image editing and higher-control text-to-image generation.",
+    "stats": [
+      {
+        "label": "Primary mode",
+        "value": "Advanced Edit"
+      },
+      {
+        "label": "Expanded scenes",
+        "value": "2 live workflows"
+      },
+      {
+        "label": "Output focus",
+        "value": "More control"
+      }
+    ],
+    "differentiators": [
+      "Position Nano Banana 2 as the step-up option for users who need more production control than the base model.",
+      "Keep the same creator-side workbench behavior while changing the model story, starter prompts, and scene framing.",
+      "Make it easy to compare sibling model pages without rebuilding forms, scene routing, or the right-hand media panel."
+    ],
+    "gallery": [
+      {
+        "title": "Campaign Packshot Upgrade",
+        "caption": "Use multiple references and tighter output controls to turn raw product assets into more polished ad-ready visuals.",
+        "prompt": "Use the uploaded references to create a premium skincare campaign visual with crisp reflections, elevated lighting, and a clean luxury retail finish.",
+        "accentClassName": "from-[#f8e08a] via-[#9c7c35] to-[#171717] text-white"
+      },
+      {
+        "title": "Typography-Forward Posters",
+        "caption": "Create poster comps where layout, hierarchy, and readable type matter from the first pass.",
+        "prompt": "Design a premium launch poster for a summer beverage brand with clear readable headline typography, cinematic golden-hour light, and a glossy product hero composition.",
+        "accentClassName": "from-[#8cd3ff] via-[#2b75b6] to-[#121416] text-white"
+      },
+      {
+        "title": "Controlled Brand Concepts",
+        "caption": "Generate concept frames that feel closer to final campaign comps instead of loose moodboards.",
+        "prompt": "Create a polished brand concept visual for a luxury fragrance release, frontal hero composition, soft atmospheric haze, clear product labeling, and premium editorial lighting.",
+        "accentClassName": "from-[#d7b7ff] via-[#6f47a8] to-[#17131d] text-white"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between /model/nanobana and /model/nanobanana-2?",
+        "answer": "Nano Banana 2 is framed here as the more production-oriented sibling: better for heavier reference-driven edits, stronger output controls, and premium concept generation with clearer layout intent."
+      },
+      {
+        "question": "Does Nano Banana 2 still use the same creator workbench?",
+        "answer": "Yes. The left form flow and the right media panel are still reused from creator, so the page changes the model context without changing the core creation workflow."
+      },
+      {
+        "question": "Why make a separate model page for Nano Banana 2?",
+        "answer": "Because the user intent is different. This page helps position Nano Banana 2 as an upgrade path and lets you explain its best-fit scenarios without mixing it into a generic tools page."
+      }
+    ],
+    "scenes": [
+      {
+        "modeLabel": "Image Edit",
+        "title": "Scene 01 · Multi-image precision editing",
+        "description": "Use Nano Banana 2 for heavier edit workflows that need more references, clearer control over output size, and a more production-oriented setup.",
+        "spotlight": "Best for batches, reference-rich edits, and higher-resolution deliverables.",
+        "starterPrompt": "Use the uploaded references to restyle the product into a premium launch campaign, keep branding intact, add controlled studio reflections, and output a polished commercial visual.",
+        "useCases": [
+          "Multi-reference product image refinement",
+          "Campaign variations with stricter output control",
+          "Art direction passes with consistent visual identity"
+        ]
+      },
+      {
+        "modeLabel": "Text to Image",
+        "title": "Scene 02 · High-control concept generation",
+        "description": "Move into prompt-led generation when you need stronger camera direction, cleaner text rendering, and outputs that feel closer to production-ready comps.",
+        "spotlight": "Best for premium concepting before handing assets into campaign production.",
+        "starterPrompt": "Create a premium beverage campaign poster with strong camera composition, warm sunset key light, clear headline typography, and a glossy hero-product finish.",
+        "useCases": [
+          "Ad concept comps with clearer layout intent",
+          "Poster and packaging drafts with readable typography",
+          "Brand visuals that need more polished first-pass output"
+        ]
+      }
+    ]
+  },
+  "wan-2-7": {
+    "title": "Wan 2.7",
+    "provider": "Alibaba",
+    "eyebrow": "Model-first landing page",
+    "description": "Start with Wan 2.7 when you want more cinematic image generation and motion-led storytelling: stronger atmosphere, more editorial framing, and outputs that feel closer to premium campaign visuals.",
+    "seoTitle": "Wan 2.7 AI Model Page | Text to Image + Text to Video | joymagic",
+    "seoDescription": "Explore Wan 2.7 as a model-first landing page. Switch between text-to-image and text-to-video, reuse the creator workbench, and move from cinematic stills into motion in one flow.",
+    "stats": [
+      {
+        "label": "Primary mode",
+        "value": "Text to Image"
+      },
+      {
+        "label": "Expanded scenes",
+        "value": "6 live workflows"
+      },
+      {
+        "label": "Output focus",
+        "value": "Cinematic direction"
+      }
+    ],
+    "differentiators": [
+      "Position Wan 2.7 as the premium storytelling option for teams who care about atmosphere, beauty rendering, and editorial composition.",
+      "Use one model page to bridge still-image concepting, controlled editing, motion generation, and sequence extension without changing the core workbench behavior.",
+      "Give Wan 2.7 its own narrative so users understand when to choose it instead of a more utility-driven editing model."
+    ],
+    "gallery": [
+      {
+        "title": "Cinematic Beauty Portraits",
+        "caption": "Generate premium editorial frames with stronger mood, cleaner character rendering, and a more polished fashion-campaign finish.",
+        "prompt": "Create a cinematic beauty portrait in a rain-lit street at blue hour with premium styling, refined reflections, and elegant editorial lighting.",
+        "accentClassName": "from-[#9f7bff] via-[#3d3276] to-[#121212] text-white"
+      },
+      {
+        "title": "Luxury Fashion Atmosphere",
+        "caption": "Push still-image outputs toward richer filmic light, premium textures, and more elevated visual storytelling.",
+        "prompt": "Generate a luxury fashion campaign still of a model walking through a neon city after rain, glossy reflections, premium wardrobe, and moody cinematic framing.",
+        "accentClassName": "from-[#5ec8ff] via-[#1e567b] to-[#101216] text-white"
+      },
+      {
+        "title": "Motion-Led Campaign Concepts",
+        "caption": "Move from still concepts into short cinematic motion ideas when the story needs camera movement and continuity.",
+        "prompt": "Create a short campaign motion concept of a model exiting a taxi at night, wet pavement reflections, slow camera push, and luxury beauty close-ups.",
+        "accentClassName": "from-[#f7c875] via-[#88612f] to-[#161616] text-white"
+      },
+      {
+        "title": "Premium Editorial Loops",
+        "caption": "Use Wan 2.7 to test short beauty and fashion film directions before full production planning begins.",
+        "prompt": "Generate a fashion-film style loop with subtle wind movement, cinematic close-up transitions, premium makeup detail, and dramatic city-night ambience.",
+        "accentClassName": "from-[#f19dc2] via-[#75405e] to-[#171216] text-white"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Why give Wan 2.7 its own model page?",
+        "answer": "Because Wan 2.7 carries a different user intent from utility-oriented image tools. This page helps explain when to use it for cinematic stills, editorial concepts, and short motion-first story development."
+      },
+      {
+        "question": "Does Wan 2.7 still reuse the same creator workbench?",
+        "answer": "Yes. The page keeps the same creator-side workflow surface, so users can switch between image and video generation without relearning the product structure."
+      },
+      {
+        "question": "Is Wan 2.7 better for stills or motion?",
+        "answer": "This page positions Wan 2.7 for both. Text-to-image works well for premium concept frames, while text-to-video helps carry the same aesthetic direction into short cinematic clips."
+      }
+    ],
+    "scenes": [
+      {
+        "modeLabel": "Text to Image",
+        "title": "Scene 01 · Cinematic image generation",
+        "description": "Use Wan 2.7 when you want polished prompt-led visuals with stronger editorial mood, refined character rendering, and more premium first-pass composition.",
+        "spotlight": "Best for beauty editorials, fashion campaigns, and cinematic visual concepts.",
+        "starterPrompt": "Generate a cinematic beauty editorial portrait in a rain-lit city at blue hour, polished skin detail, premium fashion styling, and refined reflections.",
+        "useCases": [
+          "High-end portrait and beauty campaigns",
+          "Fashion editorials with stronger atmosphere",
+          "Luxury concept frames with richer lighting"
+        ]
+      },
+      {
+        "modeLabel": "Image Edit",
+        "title": "Scene 02 · Reference-led image editing",
+        "description": "Switch Wan 2.7 into image editing when you need to preserve subject identity, steer composition from references, and push stills toward a more cinematic finish.",
+        "spotlight": "Best for editorial retouching, image restyling, and atmosphere upgrades from existing assets.",
+        "starterPrompt": "Keep the original subject and framing, deepen the night-time cinematic mood, improve reflections and skin detail, and elevate the image into a premium editorial still.",
+        "useCases": [
+          "Fashion stills with stronger lighting direction",
+          "Beauty edits that preserve subject identity",
+          "Reference-based scene and mood refinement"
+        ]
+      },
+      {
+        "modeLabel": "Image Edit Pro",
+        "title": "Scene 03 · High-control image edit",
+        "description": "Use the pro edit path when the job needs tighter visual control, heavier art direction, and more deliberate refinement across multiple reference inputs.",
+        "spotlight": "Best for premium campaign polishing, stricter edit control, and higher-fidelity image refinement.",
+        "starterPrompt": "Using the uploaded references, refine the frame into a premium campaign visual with tighter contrast control, richer atmosphere, and a cleaner luxury finish.",
+        "useCases": [
+          "Campaign-ready product or portrait refinements",
+          "Heavier reference-driven art direction passes",
+          "Polished stills for premium launch visuals"
+        ]
+      },
+      {
+        "modeLabel": "Text to Video",
+        "title": "Scene 04 · Motion-first fashion storytelling",
+        "description": "Move into Wan 2.7 video generation when the idea needs camera movement, mood continuity, and a more film-like beauty or fashion narrative.",
+        "spotlight": "Best for short cinematic clips, campaign motion loops, and premium model-focused shots.",
+        "starterPrompt": "Create a short luxury fashion-film clip of a model stepping out of a taxi at night, wet reflections, slow camera push, premium beauty close-up.",
+        "useCases": [
+          "Beauty-film style motion clips",
+          "Short fashion campaign sequences",
+          "Luxury editorial motion concepts"
+        ]
+      },
+      {
+        "modeLabel": "Image to Video",
+        "title": "Scene 05 · Still-to-motion continuation",
+        "description": "Turn a strong still frame into motion when you want to preserve the original composition but introduce subtle camera movement, ambient motion, and cinematic continuity.",
+        "spotlight": "Best for animating key visuals, poster frames, and editorial stills into short motion loops.",
+        "starterPrompt": "Animate the uploaded key visual into a short cinematic clip with subtle wind, reflective light movement, and a slow editorial camera drift.",
+        "useCases": [
+          "Animate poster frames into short promo clips",
+          "Bring beauty stills into subtle cinematic motion",
+          "Test motion direction from an approved key visual"
+        ]
+      },
+      {
+        "modeLabel": "Video Extend",
+        "title": "Scene 06 · Sequence extension",
+        "description": "Extend an existing Wan 2.7 clip when the concept is working and you need more runtime, smoother narrative continuation, or an extra beat before the cut.",
+        "spotlight": "Best for extending approved clips, building longer loops, and carrying motion style across a sequence.",
+        "starterPrompt": "Extend the uploaded clip by continuing the same cinematic mood, camera language, and subject motion without breaking continuity.",
+        "useCases": [
+          "Extend short clips into fuller campaign loops",
+          "Add an extra beat to approved fashion-film shots",
+          "Preserve motion language across a longer sequence"
+        ]
+      }
+    ]
+  }
+}

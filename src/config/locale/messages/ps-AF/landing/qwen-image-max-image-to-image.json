@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "سرچینه انځورونه پورته کړئ",
+      "hint": "تر {max} پورې انځورونه پورته کړئ (JPG/PNG/WEBP)",
+      "dragDrop": "کش کړئ او پریږدئ یا د پورته کولو لپاره کلیک وکړئ",
+      "dropHere": "انځورونه دلته پریږدئ"
+    },
+    "prompt": {
+      "title": "د سمون لارښود دننه کړئ",
+      "placeholder": "تشریح کړئ چې تاسو څنګه غواړئ انځورونه سم کړئ، لکه 'د انیمي سټایل ته بدل کړئ'، 'د تیلو رنګ اغیز پلي کړئ'، 'سینماتیک بڼه ورکړئ'",
+      "hint": "د هغو سمونونو په اړه مشخص اوسئ چې تاسو یې غواړئ — سټایل، فضا، رڼا، او توضیحات"
+    },
+    "generate": {
+      "title": "سم شوي انځورونه جوړ کړئ",
+      "cta": "جوړول",
+      "generating": "جوړیږي..."
+    }
+  },
+  "preview": {
+    "title": "مخکتنه",
+    "original": "اصلي",
+    "swap": "بدلول",
+    "placeholder": "د پایلې مخکتنې لپاره انځورونه پورته کړئ او د سمون لارښود دننه کړئ."
+  },
+  "common": {
+    "selectedCount": "ټاکل شوي: {count}/{max} انځورونه",
+    "notSelected": "نه دی ټاکل شوی"
+  },
+  "errors": {
+    "invalidFileType": "ناسم فایل ډول. مهرباني وکړئ د انځور فایل پورته کړئ (JPG, PNG, WEBP).",
+    "uploadFailed": "پورته کول ناکام شول: {error}",
+    "uploadFailedGeneric": "پورته کول ناکام شول",
+    "sourceImageRequired": "مهرباني وکړئ لږ تر لږه یو سرچینه انځور پورته کړئ",
+    "promptRequired": "مهرباني وکړئ د سمون لارښود دننه کړئ",
+    "generationFailed": "د انځور سمون ناکام شو",
+    "taskFailed": "د دندې پروسس ناکام شو",
+    "taskTimeout": "د دندې پروسس وخت پای ته ورسید، مهرباني وکړئ وروسته بیا هڅه وکړئ",
+    "taskIdNotFound": "د دندې پیژندنه ترلاسه نشوه، مهرباني وکړئ د API ځواب بڼه وګورئ",
+    "processingFailed": "پروسس ناکام شو، مهرباني وکړئ بیا هڅه وکړئ",
+    "statusQueryFailed": "د دندې حالت پوښتنه ناکامه شوه",
+    "apiResponseParseFailed": "د API ځواب تحلیل ناکام شو"
+  },
+  "page": {
+    "metadata": {
+      "title": "Qwen Image Max Image-to-Image AI سمونګر — انځورونه آنلاین سم او بدل کړئ | joymagic",
+      "description": "د Qwen Image Max image-to-image AI سمونګر سره انځورونه آنلاین سم او بدل کړئ. د qwen-image-max-edit په واسطه، تر 4 پورې انځورونه د ډله ایز AI سمون لپاره پورته کړئ — د سټایل لیږد، ښه والی، او خلاقه بدلونونه په ثانیو کې.",
+      "keywords": "qwen image max, qwen-image-max-edit, qwen image max image-to-image, AI انځور سمونګر, image-to-image AI, qwen انځور سمون, AI انځور بدلون, ډله ایز انځور سمون, آنلاین AI انځور سمونګر, qwen image max edit tool"
+    },
+    "hero": {
+      "title": "Qwen Image Max Image-to-Image — د AI په واسطه د انځور سمونګر",
+      "description": "د Qwen Image Max image-to-image AI سمونګر سره خپل انځورونه سم او بدل کړئ. د <strong class=\"text-primary font-semibold\">qwen-image-max-edit</strong> ټیکنالوژۍ په واسطه، تر 4 پورې انځورونه پورته کړئ او هوښیار سمونونه پلي کړئ — د سټایل لیږد، رنګ سمون، هنري اغیزې، او نور — ټول په ثانیو کې.",
+      "button1": "د Qwen Image Max سمونګر هڅه وکړئ",
+      "button2": "نرخونه وګورئ"
+    },
+    "keyFeatures": {
+      "title": "د انځور سمون لپاره ولې Qwen Image Max غوره کړئ؟",
+      "description": "د qwen-image-max-edit ټیکنالوژۍ په واسطه پرمختللی AI انځور سمون",
+      "multiImage": {
+        "title": "د Qwen Image Max سره ډله ایز انځور سمون",
+        "description": "د qwen-image-max-edit سره د ډله ایز سمون لپاره یو وخت تر 4 پورې انځورونه پورته کړئ. د ثابت سټایل او کیفیت سره ګڼ انځورونه په یو وخت کې پروسس کړئ. د هرې سمون لپاره ثابت 2 کریډیټ."
+      },
+      "highQuality": {
+        "title": "غوره Qwen Image Max سمون کیفیت",
+        "description": "Qwen Image Max د غوره توضیحاتو ساتنې سره لوړ کیفیت سمونونه وړاندې کوي. د qwen-image-max-edit AI سره تیز او بې نیمګړتیا پایلې ترلاسه کړئ."
+      },
+      "smartEdit": {
+        "title": "هوښیار متن پوه سمون",
+        "description": "qwen-image-max-edit د دقیقو او طبیعي بدلونونو لپاره د انځور متن او معنا پوهیږي. هوښیار AI چې پوهیږي څه بدل کړي او څه وساتي."
+      },
+      "affordable": {
+        "title": "د مناسب بیې Qwen Image Max",
+        "description": "د هرې سمون لپاره یوازې 2 کریډیټ سره مناسب qwen-image-max-edit بدلونونه. د هر پروژې اندازې لپاره د مسلکي کچې AI انځور سمون."
+      }
+    },
+    "promptingTips": {
+      "title": "د Qwen Image Max سمونګر سره غوره پایلې څنګه ترلاسه کړئ",
+      "specific": {
+        "title": "په خپلو لارښودونو کې مشخص اوسئ",
+        "description": "د غوره qwen-image-max-edit پایلو لپاره، دقیقا تشریح کړئ چې کوم سمونونه غواړئ. بیلګې: \"د اوبو رنګ سټایل ته بدل کړئ\" یا \"د تودو رنګونو سره سینماتیک رنګ سمون اضافه کړئ\"."
+      },
+      "style": {
+        "title": "هنري سټایل مشخص کړئ",
+        "description": "کله چې qwen-image-max-edit کاروئ، هدف سټایل په روښانه توګه یادونه وکړئ: \"انیمي انځورګري\"، \"د تیلو رنګ\"، \"فوټوریالیستیک ښه والی\"، \"پخوانی فلم بڼه\"، او نور."
+      },
+      "color": {
+        "title": "رنګ او فضا لارښوونه",
+        "description": "qwen-image-max-edit د رنګ او فضا اشارو سره لارښوونه وکړئ: \"ژوندي ډک رنګونه\"، \"نرم پاسټل رنګونه\"، \"تیاره فضا\"، \"د سرو وختونو تودوخه\"، او نور."
+      },
+      "details": {
+        "title": "تفصیلي لارښوونې اضافه کړئ",
+        "description": "د رڼا، جوړښت، بافت، او کوم عناصر ساتل یا بدلول مشخص کولو سره د qwen-image-max-edit کیفیت اعظمي کړئ."
+      }
+    },
+    "useCases": {
+      "title": "د Qwen Image Max انځور سمون کارونې",
+      "style": {
+        "title": "هنري سټایل لیږد",
+        "description": "د qwen-image-max-edit سره عکسونه په زړه پورې هنري سټایلونو ته بدل کړئ — انیمي، اوبو رنګ، تیلو رنګ، سکیچ، او نور. د خلاقو پروژو او ټولنیزو رسنیو منځپانګې لپاره غوره."
+      },
+      "batch": {
+        "title": "ډله ایز عکس سمون",
+        "description": "د خپل ټول عکس سیټ کې د ثابت سټایل لپاره د Qwen Image Max سره یو وخت تر 4 پورې انځورونه سم کړئ. د محصول کتلاګونو او برانډ شتمنیو لپاره غوره."
+      },
+      "product": {
+        "title": "د محصول انځور ښه والی",
+        "description": "د بریښنایي سوداګرۍ لیستونو، بازارموندنې کمپاینونو، او ټولنیزو رسنیو لپاره د qwen-image-max-edit سره د محصول عکسونه ښه کړئ. سمدلاسه مسلکي کیفیت لرونکي لیدنې جوړ کړئ."
+      },
+      "creative": {
+        "title": "خلاقه ډیزاین لټون",
+        "description": "د Qwen Image Max هوښیار سمون سره خلاقه امکانات وپلټئ. د غوره لیدنیز لوري موندلو لپاره د سټایلونو، اغیزو، او بدلونونو سره تجربه وکړئ."
+      }
+    },
+    "faq": {
+      "title": "د Qwen Image Max Image-to-Image پوښتنې",
+      "description": "د Qwen Image Max AI انځور سمونګر په اړه مکرر پوښتل شوې پوښتنې",
+      "q1": {
+        "question": "زه د Qwen Image Max سره یو وخت څو انځورونه سم کولی شم؟",
+        "answer": "د Qwen Image Max image-to-image سمونګر سره، تاسو کولی شئ د ډله ایز سمون لپاره یو وخت تر 4 پورې انځورونه پورته کړئ. هره سمون د qwen-image-max-edit ټیکنالوژۍ په کارولو سره پروسس کیږي او 2 کریډیټ لګښت لري."
+      },
+      "q2": {
+        "question": "د Qwen Image Max انځور سمون څومره لګښت لري؟",
+        "answer": "د Qwen Image Max image-to-image سمون د پورته شویو انځورونو شمیر ته پرته د هرې سمون لپاره 2 کریډیټ لګښت لري. دا ثابت نرخ qwen-image-max-edit د هرې پروژې لپاره مناسب کوي."
+      },
+      "q3": {
+        "question": "Qwen Image Max کوم انځور فارمیټونه ملاتړ کوي؟",
+        "answer": "Qwen Image Max image-to-image د PNG، JPEG، JPG، او WebP فارمیټونو ملاتړ کوي. د غوره qwen-image-max-edit پایلو لپاره، روښانه او ښه رڼا لرونکي انځورونه وکاروئ."
+      },
+      "q4": {
+        "question": "د Qwen Image Max لپاره اغیزمن سمون لارښودونه څنګه ولیکم؟",
+        "answer": "د غوره qwen-image-max-edit پایلو لپاره، تفصیلي توضیحات شامل کړئ: هدف سټایل، فضا، رڼا، رنګ پالیټ، او جوړښت. ډیر توضیحات عموما غوره Qwen Image Max بدلونونه تولیدوي."
+      },
+      "q5": {
+        "question": "Qwen Image Max د نورو AI انځور سمونګرو څخه څه توپیر لري؟",
+        "answer": "Qwen Image Max د متن پوه، معنایي هوښیار انځور بدلونونو لپاره پرمختللی qwen-image-max-edit ټیکنالوژي کاروي. دا د انځور منځپانګه په ژوره توګه پوهیږي، طبیعي او دقیق سمونونه تولیدوي."
+      }
+    },
+    "finalCTA": {
+      "title": "د Qwen Image Max سره د انځورونو سمون لپاره چمتو یاست؟",
+      "description": "نن ورځ د qwen-image-max-edit AI سره د خپلو انځورونو سمول پیل کړئ. چټک، لوړ کیفیت، هوښیار انځور بدلونونه ستاسو د ګوتو په سر کې.",
+      "button": "اوس د Qwen Image Max سمونګر هڅه وکړئ"
+    },
+    "breadcrumb": {
+      "home": "کور",
+      "imageToImage": "Image to Image",
+      "qwenImageMax": "Qwen Image Max"
+    },
+    "schema": {
+      "softwareName": "Qwen Image Max Image-to-Image AI سمونګر — joymagic",
+      "howToName": "د Qwen Image Max AI سره انځورونه څنګه سم کړئ",
+      "howToDescription": "د qwen-image-max-edit AI ټیکنالوژۍ په کارولو سره د انځورونو سمول او بدلول زده کړئ. انځورونه پورته کړئ او هوښیار AI سمونونه پلي کړئ.",
+      "features": {
+        "aiImageEditing": "د Qwen Image Max AI سمون",
+        "multiImage": "د Qwen Image Max سره ډله ایز انځور سمون",
+        "highQuality": "لوړ کیفیت Qwen Image Max پایله"
+      }
+    }
+  }
+}

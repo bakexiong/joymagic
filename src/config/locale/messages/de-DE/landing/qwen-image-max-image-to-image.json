@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Quellbilder hochladen",
+      "hint": "Laden Sie bis zu {max} Bilder hoch (JPG/PNG/WEBP)",
+      "dragDrop": "Ziehen & Ablegen oder Klick zum Hochladen",
+      "dropHere": "Bilder hier ablegen"
+    },
+    "prompt": {
+      "title": "Bearbeitungs-Prompt eingeben",
+      "placeholder": "Beschreiben Sie, wie Sie die Bilder bearbeiten möchten, z. B. 'In Anime-Stil ändern', 'Ölgemälde-Effekt anwenden', 'Filmisch aussehen lassen'",
+      "hint": "Seien Sie spezifisch bezüglich der gewünschten Änderungen — Stil, Stimmung, Beleuchtung und Details"
+    },
+    "generate": {
+      "title": "Bearbeitete Bilder generieren",
+      "cta": "Generieren",
+      "generating": "Generiere..."
+    }
+  },
+  "preview": {
+    "title": "Vorschau",
+    "original": "Original",
+    "swap": "Tauschen",
+    "placeholder": "Laden Sie Bilder hoch und geben Sie einen Bearbeitungs-Prompt ein, um das Ergebnis hier zu sehen."
+  },
+  "common": {
+    "selectedCount": "Ausgewählt: {count}/{max} Bilder",
+    "notSelected": "Nicht ausgewählt"
+  },
+  "errors": {
+    "invalidFileType": "Ungültiger Dateityp. Bitte laden Sie eine Bilddatei hoch (JPG, PNG, WEBP).",
+    "uploadFailed": "Upload fehlgeschlagen: {error}",
+    "uploadFailedGeneric": "Upload fehlgeschlagen",
+    "sourceImageRequired": "Bitte laden Sie mindestens ein Quellbild hoch",
+    "promptRequired": "Bitte geben Sie einen Bearbeitungs-Prompt ein",
+    "generationFailed": "Bildbearbeitung fehlgeschlagen",
+    "taskFailed": "Aufgabenverarbeitung fehlgeschlagen",
+    "taskTimeout": "Zeitüberschreitung bei der Verarbeitung. Bitte versuchen Sie es später erneut",
+    "taskIdNotFound": "Aufgaben-ID konnte nicht abgerufen werden. Bitte API-Antwortformat prüfen",
+    "processingFailed": "Verarbeitung fehlgeschlagen. Bitte erneut versuchen",
+    "statusQueryFailed": "Aufgabenstatus konnte nicht abgefragt werden",
+    "apiResponseParseFailed": "API-Antwort konnte nicht analysiert werden"
+  },
+  "page": {
+    "metadata": {
+      "title": "Qwen Image Max Image-to-Image KI-Editor — Bilder online bearbeiten & transformieren | joymagic",
+      "description": "Bearbeiten und transformieren Sie Bilder online mit dem Qwen Image Max image-to-image KI-Editor. Angetrieben von qwen-image-max-edit, laden Sie bis zu 4 Bilder für KI-Stapelbearbeitung hoch — Stiltransfer, Verbesserung und kreative Transformationen in Sekunden.",
+      "keywords": "qwen image max, qwen-image-max-edit, qwen image max image-to-image, KI Bildeditor, image-to-image KI, qwen Bildbearbeitung, KI Bildtransformation, Stapel-Bildbearbeitung, Online-Bildeditor KI, qwen image max edit Tool"
+    },
+    "hero": {
+      "title": "Qwen Image Max Image-to-Image — KI-gestützter Bildeditor",
+      "description": "Bearbeiten und transformieren Sie Ihre Bilder mit dem Qwen Image Max image-to-image KI-Editor. Angetrieben von <strong class=\"text-primary font-semibold\">qwen-image-max-edit</strong>-Technologie, laden Sie bis zu 4 Bilder hoch und wenden Sie intelligente Bearbeitungen an — Stiltransfer, Farbkorrektur, künstlerische Effekte und mehr — alles in Sekunden.",
+      "button1": "Qwen Image Max Editor ausprobieren",
+      "button2": "Preise ansehen"
+    },
+    "keyFeatures": {
+      "title": "Warum Qwen Image Max für Bildbearbeitung wählen?",
+      "description": "Fortschrittliche KI-Bildbearbeitung angetrieben von qwen-image-max-edit-Technologie",
+      "multiImage": {
+        "title": "Stapel-Bildbearbeitung mit Qwen Image Max",
+        "description": "Laden Sie bis zu 4 Bilder gleichzeitig für Stapelbearbeitung mit qwen-image-max-edit hoch. Verarbeiten Sie mehrere Bilder gleichzeitig mit einheitlichem Stil und Qualität. Feste Kosten von 2 Credits pro Bearbeitung."
+      },
+      "highQuality": {
+        "title": "Überlegene Qwen Image Max Bearbeitungsqualität",
+        "description": "Qwen Image Max liefert hochpräzise Bearbeitungen mit außergewöhnlicher Detailtreue. Erhalten Sie scharfe, artefaktfreie Ergebnisse angetrieben von qwen-image-max-edit KI."
+      },
+      "smartEdit": {
+        "title": "Intelligente kontextbewusste Bearbeitung",
+        "description": "qwen-image-max-edit versteht Bildkontext und Semantik für präzise, natürlich wirkende Transformationen. Intelligente KI, die weiß, was geändert und was beibehalten werden soll."
+      },
+      "affordable": {
+        "title": "Kostengünstige Qwen Image Max Preise",
+        "description": "Erschwingliche qwen-image-max-edit-Transformationen für nur 2 Credits pro Bearbeitung. Professionelle KI-Bildbearbeitung zugänglich für jede Projektgröße."
+      }
+    },
+    "promptingTips": {
+      "title": "So erzielen Sie die besten Ergebnisse mit dem Qwen Image Max Editor",
+      "specific": {
+        "title": "Seien Sie spezifisch in Ihren Prompts",
+        "description": "Für optimale qwen-image-max-edit-Ergebnisse beschreiben Sie genau, welche Bearbeitungen Sie wünschen. Beispiele: 'In Aquarellstil transformieren' oder 'Filmische Farbkorrektur mit warmen Tönen hinzufügen'."
+      },
+      "style": {
+        "title": "Künstlerischen Stil angeben",
+        "description": "Nennen Sie bei der Verwendung von qwen-image-max-edit den Zielstil klar: 'Anime-Illustration', 'Ölgemälde', 'Fotorealistische Verbesserung', 'Vintage-Film-Look' usw."
+      },
+      "color": {
+        "title": "Farb- und Stimmungsrichtung",
+        "description": "Leiten Sie qwen-image-max-edit mit Farb- und Stimmungshinweisen: 'lebhaft gesättigte Farben', 'sanfte Pastelltöne', 'dunkle stimmungsvolle Atmosphäre', 'Goldene-Stunde-Wärme' usw."
+      },
+      "details": {
+        "title": "Detaillierte Anweisungen hinzufügen",
+        "description": "Maximieren Sie die qwen-image-max-edit-Qualität durch Angabe von Beleuchtung, Komposition, Textur und welche Elemente beibehalten oder transformiert werden sollen."
+      }
+    },
+    "useCases": {
+      "title": "Qwen Image Max Bildbearbeitungs-Anwendungsfälle",
+      "style": {
+        "title": "Künstlerischer Stiltransfer",
+        "description": "Verwenden Sie qwen-image-max-edit, um Fotos in beeindruckende künstlerische Stile zu transformieren — Anime, Aquarell, Ölgemälde, Skizze und mehr. Ideal für kreative Projekte und Social-Media-Inhalte."
+      },
+      "batch": {
+        "title": "Stapel-Fotobearbeitung",
+        "description": "Bearbeiten Sie bis zu 4 Bilder gleichzeitig mit Qwen Image Max für einheitlichen Stil über Ihr gesamtes Fotoset. Perfekt für Produktkataloge und Marken-Assets."
+      },
+      "product": {
+        "title": "Produktbild-Verbesserung",
+        "description": "Verbessern Sie Produktfotos mit qwen-image-max-edit für E-Commerce-Angebote, Marketingkampagnen und Social Media. Erstellen Sie sofort professionelle Visuals."
+      },
+      "creative": {
+        "title": "Kreative Design-Erkundung",
+        "description": "Erkunden Sie kreative Möglichkeiten mit der intelligenten Bearbeitung von Qwen Image Max. Experimentieren Sie mit Stilen, Effekten und Transformationen, um die perfekte visuelle Richtung zu finden."
+      }
+    },
+    "faq": {
+      "title": "Qwen Image Max Image-to-Image FAQ",
+      "description": "Häufig gestellte Fragen zum Qwen Image Max KI-Bildeditor",
+      "q1": {
+        "question": "Wie viele Bilder kann ich gleichzeitig mit Qwen Image Max bearbeiten?",
+        "answer": "Mit dem Qwen Image Max image-to-image Editor können Sie bis zu 4 Bilder gleichzeitig für Stapelbearbeitung hochladen. Jede Bearbeitung wird mit qwen-image-max-edit-Technologie verarbeitet und kostet 2 Credits."
+      },
+      "q2": {
+        "question": "Was kostet die Qwen Image Max Bildbearbeitung?",
+        "answer": "Qwen Image Max image-to-image Bearbeitung kostet 2 Credits pro Bearbeitung, unabhängig von der Anzahl der hochgeladenen Bilder. Diese Festpreisgestaltung macht qwen-image-max-edit erschwinglich für jedes Projekt."
+      },
+      "q3": {
+        "question": "Welche Bildformate unterstützt Qwen Image Max?",
+        "answer": "Qwen Image Max image-to-image unterstützt PNG, JPEG, JPG und WebP-Formate. Für beste qwen-image-max-edit-Ergebnisse verwenden Sie klare, gut beleuchtete Bilder."
+      },
+      "q4": {
+        "question": "Wie schreibe ich effektive Bearbeitungs-Prompts für Qwen Image Max?",
+        "answer": "Für beste qwen-image-max-edit-Ergebnisse fügen Sie detaillierte Beschreibungen hinzu: Zielstil, Stimmung, Beleuchtung, Farbpalette und Komposition. Mehr Details führen in der Regel zu besseren Qwen Image Max Transformationen."
+      },
+      "q5": {
+        "question": "Was unterscheidet Qwen Image Max von anderen KI-Bildeditoren?",
+        "answer": "Qwen Image Max verwendet fortschrittliche qwen-image-max-edit-Technologie für kontextbewusste, semantisch intelligente Bildtransformationen. Es versteht Bildinhalte tiefgreifend und erzeugt natürliche und präzise Bearbeitungen."
+      }
+    },
+    "finalCTA": {
+      "title": "Bereit, Bilder mit Qwen Image Max zu bearbeiten?",
+      "description": "Beginnen Sie noch heute mit der Bearbeitung Ihrer Bilder mit qwen-image-max-edit KI. Schnelle, hochwertige, intelligente Bildtransformationen auf Knopfdruck.",
+      "button": "Qwen Image Max Editor jetzt ausprobieren"
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "imageToImage": "Bild zu Bild",
+      "qwenImageMax": "Qwen Image Max"
+    },
+    "schema": {
+      "softwareName": "Qwen Image Max Image-to-Image KI-Editor — joymagic",
+      "howToName": "So bearbeiten Sie Bilder mit Qwen Image Max KI",
+      "howToDescription": "Erfahren Sie, wie Sie Bilder mit qwen-image-max-edit KI-Technologie bearbeiten und transformieren. Laden Sie Bilder hoch und wenden Sie intelligente KI-gestützte Bearbeitungen an.",
+      "features": {
+        "aiImageEditing": "Qwen Image Max KI-Bearbeitung",
+        "multiImage": "Stapel-Bildbearbeitung mit Qwen Image Max",
+        "highQuality": "Hochwertige Qwen Image Max Ausgabe"
+      }
+    }
+  }
+}

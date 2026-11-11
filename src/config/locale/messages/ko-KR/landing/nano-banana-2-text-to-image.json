@@ -1,0 +1,147 @@
+{
+  "title": "Nano Banana 2 텍스트를 이미지로",
+  "subtitle": "텍스트 설명으로 멋진 이미지 생성",
+  "prompt_label": "프롬프트",
+  "prompt_placeholder": "뒷마당에서 비눗방울을 불고 있는 어린 소녀, 비눗방울에 무지개 색을 만드는 햇빛, 캔디드 사진 스타일.",
+  "prompt_tooltip": "생성하려는 이미지의 설명을 입력하세요",
+  "aspect_ratio_label": "종횡비",
+  "aspect_ratio_hint": "생성할 이미지의 종횡비 선택",
+  "aspect_ratio_placeholder": "종횡비 선택 (선택사항)",
+  "aspect_ratio_none": "(없음)",
+  "resolution_label": "해상도",
+  "resolution_hint": "생성할 이미지의 해상도 선택",
+  "output_format_label": "출력 형식",
+  "output_format_hint": "출력 이미지 형식 선택",
+  "buttons": {
+    "generate": "이미지 생성"
+  },
+  "errors": {
+    "promptRequired": "프롬프트는 필수입니다",
+    "generate_failed": "이미지 생성 실패: {status}",
+    "generate_failed_default": "이미지 생성 실패",
+    "no_request_id": "요청 ID를 가져오지 못했습니다"
+  },
+  "image_alt": "생성된 이미지",
+  "download": "다운로드",
+  "image_placeholder": "생성된 이미지가 여기에 표시됩니다",
+  "prompt_inspirations_button": "프롬프트 영감",
+  "prompt_guide_button": "프롬프트 가이드",
+  "powered_by": "joymagic에서 최적화한 Nano Banana 2 AI 모델로 구동",
+  "prompt_guides": {
+    "guide1": "최고의 Nano Banana 장면 프롬프트",
+    "guide2": "최고의 Nano Banana 초상화 프롬프트",
+    "guide3": "전자상거래용 Flux 1.1 제품 사진 프롬프트",
+    "guide4": "Nano Banana 이미지 프롬프트: 5계층 프레임워크",
+    "guide5": "복사-붙여넣기 Nano Banana 제품 프롬프트",
+    "guide6": "Midjourney 프롬프트 엔지니어링",
+    "guide7": "Midjourney 제품 프롬프트",
+    "guide8": "Midjourney 초상화 프롬프트",
+    "guide9": "최고의 Flux 1.1 제품 사진 프롬프트 50개",
+    "guide10": "최고의 Flux 1.1 초상화 프롬프트 50개"
+  },
+  "page": {
+    "metadata": {
+      "title": "Nano Banana 2 - 명확한 타이포그래피를 지원하는 AI 텍스트를 이미지로 | joymagic",
+      "description": "Nano Banana 2로 텍스트에서 전문 이미지를 생성합니다. 카메라 제어, 중국어/영어 명확한 텍스트, 고해상도 출력. 사진 및 디자인 생성.",
+      "keywords": "nano banana pro, 텍스트를 이미지로, ai 이미지 생성기, 명확한 텍스트 렌더링, 카메라 제어, 전문 이미지 생성, 중국어 텍스트 ai, 이중 언어 텍스트 ai"
+    },
+    "hero": {
+      "title": "Nano Banana 2 텍스트를 이미지로",
+      "description": "Nano Banana 2는 카메라 수준의 제어 기능을 갖춘 텍스트 설명에서 전문 이미지를 생성합니다. 심도, 조명 설정, 색상 그레이딩을 간단한 언어로 설명하세요. 중국어와 영어 텍스트를 명확하게 렌더링—포스터, 로고, 브랜드 자료에 유용합니다. 아래에서 Nano Banana 2를 시도해보세요!<br/><br/>프로 제어 없이 기본 이미지 생성을 찾고 계신가요? <a href=\"/text-to-image/nano-banana\" class=\"text-primary underline\">표준 Nano Banana를 시도해보세요</a>.",
+      "button1": "지금 시도",
+      "button2": "가격 보기"
+    },
+    "proFeatures": {
+      "title": "프로 전용 기능",
+      "description": "고급 이미지 생성을 위한 전문가급 기능",
+      "cameraControls": {
+        "title": "텍스트를 통한 카메라 제어",
+        "description": "간단한 언어로 전문 사진 설정을 설명하세요. \"보케 배경의 얕은 심도\" 또는 \"고대비 필름 누아르 조명\"—모델은 일반적으로 비싼 장비와 전문 지식이 필요한 기술을 적용합니다."
+      },
+      "clearTextRendering": {
+        "title": "명확한 텍스트 렌더링",
+        "description": "여러 언어로 읽기 쉬운 타이포그래피를 생성합니다. 로고, 간판, 포스터, 제품 라벨—텍스트는 선명하고 전문적으로 유지됩니다. 특히 한자에 강하며, 이중 언어 마케팅 자료에 유용합니다."
+      },
+      "highResolution": {
+        "title": "고해상도 출력",
+        "description": "인쇄 자료 및 대형 디스플레이에 적합한 고해상도 이미지를 출력합니다. 선택적 업스케일링은 세부 사항—직물 질감, 건축 요소, 제품 표면—을 보존합니다."
+      },
+      "complexScene": {
+        "title": "복잡한 장면 이해",
+        "description": "상세한 공간 지시를 처리합니다. \"꽃병을 테이블 왼쪽에 놓고, 오른쪽 창문에서 햇빛이 들어오도록\"—모델은 위치, 조명 방향, 객체 관계를 올바르게 해석합니다."
+      },
+      "professionalComposition": {
+        "title": "전문 구성 제어",
+        "description": "특정 프레이밍, 각도 및 관점을 설명하세요. \"건물을 올려다보는 낮은 각도 샷\" 또는 \"배경에 리딩 라인이 있는 클로즈업 초상화\"—모델은 영화 촬영 및 사진 용어를 이해합니다."
+      }
+    },
+    "standardFeatures": {
+      "title": "표준 기능 (또한 포함됨)",
+      "description": "필요한 모든 필수 기능",
+      "styleFlexibility": {
+        "title": "스타일 유연성",
+        "description": "사진, 애니메, 디지털 아트, 일러스트"
+      },
+      "naturalLanguage": {
+        "title": "자연어 입력",
+        "description": "일상 언어로 장면 설명"
+      },
+      "fastGeneration": {
+        "title": "빠른 생성",
+        "description": "이미지당 10-15초"
+      },
+      "multipleFormats": {
+        "title": "다중 출력 형식",
+        "description": "JPG, PNG, WebP"
+      }
+    },
+    "useCases": {
+      "title": "사용 사례",
+      "eventPosters": {
+        "title": "텍스트가 포함된 이벤트 포스터",
+        "description": "이벤트 세부 정보, 날짜 및 장소 정보가 포함된 프로모션 포스터를 생성합니다. 프로는 중국어와 영어 모두에서 텍스트를 명확하게 렌더링—인쇄 또는 디지털 사용을 위해 모든 크기에서 읽을 수 있습니다."
+      },
+      "productVisualization": {
+        "title": "제품 시각화",
+        "description": "프레젠테이션용 제품 목업이 필요하지만 사진이 없으신가요? 제품, 설정 및 조명을 설명하세요. 프로는 현실적인 그림자와 반사를 가진 전문적인 장면을 생성합니다."
+      },
+      "conceptPresentations": {
+        "title": "컨셉 프레젠테이션",
+        "description": "완성된 작업을 만들지 않고 클라이언트에게 디자인 방향을 제안합니다. 카메라 제어를 사용하여 여러 시각적 스타일을 생성하여 다양한 분위기와 접근 방식을 보여줍니다."
+      },
+      "bilingualMarketing": {
+        "title": "이중 언어 마케팅 자료",
+        "description": "중국어와 영어 텍스트가 포함된 광고 및 프로모션 그래픽을 만듭니다. 프로는 두 언어의 타이포그래피를 잘 처리합니다—여러 시장을 대상으로 하는 소매 간판 및 제품 포장에 중요합니다."
+      }
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "Nano Banana 2 텍스트를 이미지로에 대한 일반적인 질문",
+      "q1": {
+        "question": "프로와 표준 Nano Banana의 차이점은 무엇인가요?",
+        "answer": "프로는 카메라 제어(심도, 조명, 색상 그레이딩), 명확한 다국어 텍스트 렌더링 및 더 높은 해상도 출력을 추가합니다. 표준은 다양한 스타일에서 이미지를 빠르게 생성하지만 전문 사진 제어나 보장된 텍스트 품질은 없습니다."
+      },
+      "q2": {
+        "question": "텍스트 렌더링은 어떻게 작동하나요?",
+        "answer": "프롬프트에서 텍스트의 내용, 스타일 및 위치를 포함하여 설명하세요. 프로는 모든 크기에서 읽을 수 있는 타이포그래피를 생성합니다—AI 모델 간에 렌더링 품질이 다른 한자에 특히 효과적입니다."
+      },
+      "q3": {
+        "question": "어떤 해상도를 출력할 수 있나요?",
+        "answer": "프로는 표준보다 더 높은 해상도를 출력하며, 선택적 업스케일링으로 인쇄 품질 결과를 얻을 수 있습니다. 대형 인쇄, 전시회 자료 및 잡지 광고에 적합합니다."
+      },
+      "q4": {
+        "question": "프롬프트는 얼마나 상세해야 하나요?",
+        "answer": "더 자세할수록 좋습니다. \"테이블 위의 제품\" 대신 \"나무 테이블 위의 스마트폰, 왼쪽에서 오는 오후 햇빛, 얕은 심도, 전문 제품 사진 스타일\"을 시도하세요. 피사체, 조명, 카메라 설정 및 시각적 스타일을 포함하세요."
+      },
+      "q5": {
+        "question": "기본 이미지에 프로가 가치가 있나요?",
+        "answer": "표준 Nano Banana는 소셜 미디어 그래픽, 빠른 컨셉 및 텍스트 품질이 중요하지 않은 이미지에 적합합니다. 전문 사진 제어, 이미지의 명확한 타이포그래피 또는 인쇄 품질 해상도가 필요할 때 프로를 사용하세요."
+      }
+    },
+    "finalCTA": {
+      "title": "만들 준비가 되셨나요?",
+      "description": "오늘부터 텍스트 설명으로 멋진 이미지 생성을 시작하세요.",
+      "button": "지금 시도"
+    }
+  }
+}

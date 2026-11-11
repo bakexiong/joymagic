@@ -1,0 +1,68 @@
+[
+  {
+    "prompt": "Remove the distracting paddle from the sports portrait and reconstruct the court background naturally.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "/generated/homepage-variations/variations-input.png",
+          "url": "/generated/homepage-variations/variations-input.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Remove the distracting paddle from the sports portrait and reconstruct the court background naturally.",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "/generated/homepage-variations/variations-input.png",
+    "thumbnailUrl": "/generated/homepage-variations/variations-output-1.png",
+    "generatedUrl": "/generated/homepage-variations/variations-output-1.png",
+    "generatedUrls": [
+      "/generated/homepage-variations/variations-output-1.png"
+    ],
+    "generatedAt": "2026-05-23T11:30:00.000Z"
+  },
+  {
+    "prompt": "Clean up the street portrait by removing the background bicycle and visual clutter while keeping the lifestyle mood.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "/generated/homepage-variations/photoshoot-input.png",
+          "url": "/generated/homepage-variations/photoshoot-input.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Clean up the street portrait by removing the background bicycle and visual clutter while keeping the lifestyle mood.",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "/generated/homepage-variations/photoshoot-input.png",
+    "thumbnailUrl": "/generated/homepage-variations/photoshoot-output-1.png",
+    "generatedUrl": "/generated/homepage-variations/photoshoot-output-1.png",
+    "generatedUrls": [
+      "/generated/homepage-variations/photoshoot-output-1.png"
+    ],
+    "generatedAt": "2026-05-23T11:31:00.000Z"
+  },
+  {
+    "prompt": "Remove the foreground racket from the court image and keep the warm rooftop lighting and clean fashion composition.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "/generated/homepage-variations/variations-output-2.png",
+          "url": "/generated/homepage-variations/variations-output-2.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Remove the foreground racket from the court image and keep the warm rooftop lighting and clean fashion composition.",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "/generated/homepage-variations/variations-output-2.png",
+    "thumbnailUrl": "/generated/homepage-variations/variations-output-3.png",
+    "generatedUrl": "/generated/homepage-variations/variations-output-3.png",
+    "generatedUrls": [
+      "/generated/homepage-variations/variations-output-3.png"
+    ],
+    "generatedAt": "2026-05-23T11:32:00.000Z"
+  }
+]

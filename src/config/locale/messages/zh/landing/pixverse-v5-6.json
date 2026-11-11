@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "title": "PixVerse v5.6 Text-to-Video 文本生成视频 | 免费 AI 视频生成器 joymagic",
+    "description": "使用 PixVerse v5.6 Text-to-Video 在 joymagic 上将中文或英文提示词一键生成高清短视频，支持 360p/540p/720p/1080p、多种时长与音频开关，适合社媒短视频、广告预演与创作者工作流。",
+    "keywords": "PixVerse v5.6 Text-to-Video,PixVerse 文本生成视频,AI 视频生成,AI 短视频,文本生成视频,text-to-video"
+  },
+  "pixverse56": {
+    "form": {
+      "prompt": {
+        "label": "提示词",
+        "placeholder": "详细描述你想要生成的视频场景、角色、动作和镜头运动……",
+        "tooltip": "用于生成视频的正向提示词。建议包含主体、场景、镜头运动和氛围等要素。"
+      },
+      "negativePrompt": {
+        "label": "负面提示词",
+        "placeholder": "可选：不想出现在画面中的元素，例如：模糊、扭曲、文字错误等",
+        "tooltip": "用于排除不希望出现的元素或风格，例如“模糊、畸形、低分辨率”等。"
+      },
+      "resolutionRatio": {
+        "label": "画面比例（resolution_ratio）"
+      },
+      "resolution": {
+        "label": "分辨率（resolution）"
+      },
+      "duration": {
+        "label": "时长（duration，秒）"
+      },
+      "generateAudio": {
+        "label": "生成音频（generate_audio_switch）",
+        "description": "勾选后，将为视频同步生成音频内容（音乐 / 环境音 / 简单效果音）。",
+        "tooltip": "开启后会启用 PixVerse 的音频生成功能，并按带音频的组合计费。"
+      },
+      "thinkingType": {
+        "label": "思考模式（thinking_type）",
+        "tooltip": "控制 PixVerse 的“思考”强度：enabled 更偏质量，disabled 更偏速度，auto 由服务端自动选择。"
+      },
+      "seed": {
+        "label": "随机种子（seed）"
+      },
+      "image": {
+        "label": "参考图片",
+        "tooltip": "上传一张参考图，PixVerse 将根据你的提示词对该图进行动画化。",
+        "hint": "可将文件拖放到此处，或点击上传",
+        "dropHere": "将图片放到此处",
+        "dragDrop": "拖放文件或点击上传"
+      },
+      "imageRequired": "请上传一张图片以使用 PixVerse 图生视频。",
+      "buttons": {
+        "reset": "重置",
+        "run": "生成",
+        "generating": "生成中..."
+      }
+    },
+    "preview": {
+      "placeholder": "输入提示词并点击运行后，这里会显示 PixVerse v5.6 生成的视频预览。"
+    },
+    "status": {
+      "idle": "空闲",
+      "processing": "处理中",
+      "completed": "已完成",
+      "estimating": "估算中..."
+    },
+    "buttons": {
+      "credits": "积分",
+      "click_to_pay": "点击支付"
+    },
+    "actions": {
+      "downloadVideo": "下载视频",
+      "downloadFailed": "下载视频失败"
+    },
+    "errors": {
+      "promptRequired": "请输入提示词",
+      "generationFailed": "视频生成失败",
+      "taskFailed": "任务处理失败",
+      "taskTimeout": "任务处理超时，请稍后重试",
+      "taskIdNotFound": "无法获取任务 ID，请检查 API 响应格式",
+      "processingFailed": "处理失败，请重试",
+      "statusQueryFailed": "查询任务状态失败",
+      "apiResponseParseFailed": "解析 PixVerse 响应失败",
+      "unsupportedCombination1080p10s": "1080p 分辨率下暂不支持 10 秒，请选择 5 秒或 8 秒。",
+      "invalidFileType": "无效的文件类型。",
+      "uploadFailed": "上传失败：{error}",
+      "uploadFailedGeneric": "上传失败",
+      "recordingFailed": "开始录制失败，请检查麦克风权限。",
+      "estimate_failed": "积分估算失败"
+    }
+  },
+  "pixverse56Page": {
+    "metadata": {
+      "title": "PixVerse v5.6 Text-to-Video 文本生成视频 | 免费 AI 视频生成器 joymagic",
+      "description": "PixVerse v5.6 Text-to-Video 帮你把文本提示词快速变成高清短视频，支持多分辨率、多时长和可选音频生成，并接入 joymagic 通用积分系统，适合社媒内容、广告预演和电商视频制作。",
+      "keywords": "PixVerse v5.6 Text-to-Video,PixVerse 文本生成视频,AI 视频生成,text-to-video,AI 短视频生成,joymagic"
+    },
+    "hero": {
+      "title": "PixVerse v5.6 Text-to-Video 文本生成视频",
+      "description": "在 joymagic 上使用 PixVerse v5.6 Text-to-Video，将中文或英文提示词一键生成高质量短视频。灵活控制分辨率、时长和音频开关，适合创作者、品牌方与团队工作流场景。",
+      "button1": "立即生成视频",
+      "button2": "查看价格"
+    },
+    "intro": "PixVerse v5.6 Text-to-Video 深度接入 joymagic 通用积分和参数组合定价系统，你可以在可控预算下自由组合分辨率、时长和音频开关，一键生成适合社媒传播、广告预演、电商详情页和内容创作的高质量短视频。",
+    "features": {
+      "title": "为什么选择 PixVerse v5.6 Text-to-Video 文本生成视频？",
+      "items": {
+        "multiResolution": {
+          "title": "多分辨率与时长组合",
+          "description": "支持 360p、540p、720p、1080p 多档分辨率，配合 5 / 8 / 10 秒固定时长，前端会自动约束 1080p 仅可选择 5 秒或 8 秒，避免不支持的组合。"
+        },
+        "audio": {
+          "title": "可选音频生成",
+          "description": "通过 generate_audio_switch 一键开启或关闭音频生成，定价系统会自动根据“是否带音频”选择对应的参数组合价格。"
+        },
+        "thinking": {
+          "title": "智能思考模式",
+          "description": "thinking_type 支持 enabled / disabled / auto，帮助你在画面质量与生成速度之间做平衡，auto 模式会根据场景自动选择合适策略。"
+        },
+        "safety": {
+          "title": "集成安全与定价控制",
+          "description": "依托 joymagic 的内容安全策略与通用积分系统，在生成前清晰展示消耗积分，并对 1080p × 10 秒等不支持的组合做前后端双重校验。"
+        }
+      }
+    },
+    "faq": {
+      "title": "PixVerse v5.6 Text-to-Video 文本生成视频常见问题",
+      "q1": {
+        "question": "PixVerse v5.6 支持哪些分辨率和时长？",
+        "answer": "当前支持分辨率 360p、540p、720p、1080p，时长支持 5 / 8 / 10 秒。其中 1080p 仅支持 5 秒和 8 秒，10 秒在前端会被禁用，同时在定价与后端校验中也会被视为不支持的组合。"
+      },
+      "q2": {
+        "question": "generate_audio_switch 有什么作用？",
+        "answer": "generate_audio_switch 控制是否生成同步音频。关闭时只按“纯视频”价格计费，开启后会在基础价格上叠加音频附加费，对应到参数组合定价中的 generate_audio=true 组合。"
+      },
+      "q3": {
+        "question": "thinking_type 三种模式有什么区别？",
+        "answer": "enabled 会启用更强的“思考”过程，一般画面和镜头逻辑更稳定但耗时略长；disabled 更偏向追求速度；auto 则由服务端根据场景自动选择，一般推荐优先使用。"
+      },
+      "q4": {
+        "question": "如何控制生成结果的一致性？",
+        "answer": "可以通过 seed 参数控制随机性。默认值为 -1 表示每次随机采样，如果你希望多次生成得到相似的视频，可以固定一个 seed 并在后续请求中复用该值。"
+      }
+    },
+    "finalCTA": {
+      "title": "立即体验 PixVerse v5.6 Text-to-Video 文本生成视频",
+      "description": "现在就用简洁自然的提示词，交给 PixVerse v5.6 Text-to-Video 在几分钟内生成可用于社交媒体、广告预演、电商与内容创作的短视频。下方 Playground 已接入通用积分系统，运行前会清晰展示预估消耗。",
+      "button": "开始生成"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "pageName": "PixVerse v5.6 文本生成视频"
+    }
+  },
+  "pixverse56ImagePage": {
+    "metadata": {
+      "title": "PixVerse v5.6 图片生成视频 | AI 图生视频生成器 - joymagic",
+      "description": "PixVerse v5.6 图片生成视频（Image-to-Video）在 joymagic 上支持上传参考图片 + 文本提示词，使用与文本生成视频相同的分辨率 / 时长 / 音频组合网格，并接入参数组合积分定价系统，便于可控成本下批量生产短视频。",
+      "keywords": "PixVerse v5.6 Image-to-Video,PixVerse 图片生成视频,AI 图生视频,图片转视频,AI 短视频,joymagic"
+    },
+    "hero": {
+      "title": "PixVerse v5.6 图片生成视频（Image-to-Video）",
+      "description": "在 joymagic 上使用 PixVerse v5.6 图片生成视频，将你的参考图片与提示词组合成高质量短视频。支持多种画幅比例、分辨率、时长和可选音频开关，适合创作者、品牌方与团队批量生产内容。",
+      "button1": "生成图片视频",
+      "button2": "查看价格"
+    },
+    "intro": "PixVerse v5.6 图片生成视频深度复用文本生成视频同一套参数组合积分定价系统，你可以在同样的 360p–1080p、多时长（5 / 8 / 10 秒）与音频开关配置下，直接基于品牌物料、角色立绘或分镜草图做图生视频创作，在成本透明的前提下快速试错。",
+    "features": {
+      "title": "为什么选择在 joymagic 上使用 PixVerse v5.6 图片生成视频？",
+      "items": {
+        "imagePrompt": {
+          "title": "图片 + 提示词双重控制",
+          "description": "先上传参考图片锁定人物、风格或构图，再通过提示词描述运动、镜头和情绪变化。相比纯文本生成，图生视频更容易保持品牌视觉统一和角色一致性。"
+        },
+        "sharedPricing": {
+          "title": "与文本生成视频共享价格网格",
+          "description": "图片生成视频沿用 PixVerse v5.6 文本生成视频同一套分辨率 / 时长 / 音频组合网格，与参数组合定价打通，方便你在两个工作流之间复用经验和成本预估。"
+        },
+        "formats": {
+          "title": "灵活的输出规格",
+          "description": "支持多种画面比例，从 360p 到 1080p 多档分辨率，以及 5 / 8 / 10 秒固定时长；1080p 仅开放 5 秒和 8 秒，前后端会统一拦截 1080p × 10 秒等不支持组合。"
+        },
+        "audio": {
+          "title": "可选原生音频生成",
+          "description": "通过 generate_audio_switch 一键开启或关闭 PixVerse 原生音频，可为视频自动生成环境音、音乐或简单音效；关闭时仅生成静音视频，方便后期手动配音。"
+        }
+      }
+    },
+    "faq": {
+      "title": "PixVerse v5.6 图片生成视频常见问题",
+      "q1": {
+        "question": "PixVerse 图片生成视频与文本生成视频有什么区别？",
+        "answer": "文本生成视频完全依赖提示词从零生成画面；图片生成视频则允许你先上传参考图片，锁定角色、风格或构图，再由提示词驱动运动与镜头更迭，更适合基于既有素材做扩展。"
+      },
+      "q2": {
+        "question": "图片生成视频支持哪些分辨率和时长？",
+        "answer": "图片生成视频沿用文本生成视频的组合：支持 360p、540p、720p、1080p，时长支持 5 / 8 / 10 秒。其中 1080p 仅开放 5 秒和 8 秒，1080p × 10 秒会在前端被禁用，并在价格和后端校验中视为不支持组合。"
+      },
+      "q3": {
+        "question": "可以同时生成音频吗？",
+        "answer": "可以。勾选 generate_audio_switch 后，PixVerse 会为视频生成同步音频，积分定价会自动切换到“带音频”的参数组合；关闭时则只按纯视频计费。"
+      },
+      "q4": {
+        "question": "必须同时提供图片和提示词吗？",
+        "answer": "是的。图片用于锚定画面主体与风格，提示词用于描述动作和镜头。前端会在提交前校验这两项是否都已填写，避免因参数缺失导致请求失败和积分浪费。"
+      }
+    },
+    "finalCTA": {
+      "title": "开始使用 PixVerse v5.6 图片生成视频",
+      "description": "上传一张参考图片，写几句简单的提示词，让 PixVerse v5.6 图片生成视频在几分钟内为社媒、广告创意和电商场景生成可直接使用的短视频。下方 Playground 已接入通用积分系统，运行前会展示预估消耗。",
+      "button": "立即开始生成"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "pageName": "PixVerse v5.6 图片生成视频"
+    }
+  }
+}
+

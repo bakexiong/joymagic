@@ -1,0 +1,140 @@
+[
+  {
+    "prompt": "Become a figure style.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/f7c856bff70675b62f2c13304ecccca9.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/f7c856bff70675b62f2c13304ecccca9.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Become a figure style.",
+      "aspectRatio": "auto",
+      "resolution": "4k"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/fe5ff56a5d1fa89fd69751d41284c84a.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/fe5ff56a5d1fa89fd69751d41284c84a.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/f028a17035054f859dd5a299e3642c42.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/f028a17035054f859dd5a299e3642c42.png"
+    ],
+    "generatedAt": "2026-04-15T03:35:42.556Z"
+  },
+  {
+    "prompt": "Replace text with WaveSpeedAI.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/adca9dffb7001ca4f732ba0e76313488.webp",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/adca9dffb7001ca4f732ba0e76313488.webp",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Replace text with WaveSpeedAI.",
+      "aspectRatio": "16:9",
+      "resolution": "4k"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/f76d56a67e85e897a489d6ec381799b2.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/f76d56a67e85e897a489d6ec381799b2.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/7983e121b7550290a5f3803f0db63354.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/7983e121b7550290a5f3803f0db63354.png"
+    ],
+    "generatedAt": "2026-04-15T09:00:47.662Z"
+  },
+  {
+    "prompt": "Create a mythological story comic with Japanese text",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/b2e089f06792d19952c6901fe262664d.jpg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/b2e089f06792d19952c6901fe262664d.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Create a mythological story comic with Japanese text",
+      "aspectRatio": "16:9",
+      "resolution": "4k"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/bb1ff245c73fdee0e7ff1a669349bbf6.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/bb1ff245c73fdee0e7ff1a669349bbf6.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/089bffc882c2de505487e9add3c05622.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/089bffc882c2de505487e9add3c05622.png"
+    ],
+    "generatedAt": "2026-04-15T03:41:48.656Z"
+  },
+  {
+    "prompt": "3D modeling design drawing of a room",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/6bcf8aabb9917ac2bdc403174b504901.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/6bcf8aabb9917ac2bdc403174b504901.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "3D modeling design drawing of a room",
+      "aspectRatio": "16:9",
+      "resolution": "4k"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/15cac84235f27a7f396e9fde30c0c3be.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/15cac84235f27a7f396e9fde30c0c3be.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/e9f442ea738d79864cb922ff0195e9d1.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/e9f442ea738d79864cb922ff0195e9d1.png"
+    ],
+    "generatedAt": "2026-04-15T03:43:26.431Z"
+  },
+  {
+    "prompt": "Color the comic book",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/b31dcdc2857b76021f292c85f455aae9.jpg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/b31dcdc2857b76021f292c85f455aae9.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Color the comic book",
+      "aspectRatio": "auto",
+      "resolution": "4k"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/99febd7c2457bee687a6fb2861bb08e6.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/99febd7c2457bee687a6fb2861bb08e6.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/742012915851dd629aebd322969cc334.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/742012915851dd629aebd322969cc334.png"
+    ],
+    "generatedAt": "2026-04-15T03:44:56.519Z"
+  },
+  {
+    "prompt": "Swap the fries for green onions.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/94efc2612ff272eecca848697d8a588f.jpg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/94efc2612ff272eecca848697d8a588f.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Swap the fries for green onions.",
+      "aspectRatio": "auto",
+      "resolution": "4k"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/ba24b571711fc070ac66b0c6b7f28631.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/ba24b571711fc070ac66b0c6b7f28631.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/3f68bc9efb10361c7de60aadb69be802.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/3f68bc9efb10361c7de60aadb69be802.png"
+    ],
+    "generatedAt": "2026-04-15T03:46:25.003Z"
+  }
+]

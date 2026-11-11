@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "title": "Wan 2.6 – 图生视频 & 文生图 API | joymagic",
+    "description": "在 joymagic 访问 Wan 2.6 的图生视频与文生图能力。用更清晰的画质、更快的生成速度与简单的计费方式，快速落地到生产工作流。",
+    "keywords": "Wan 2.6, Wan 2.6 图生视频, Wan 2.6 I2V, Wan 2.6 文生图, Wan 2.6 API, Wan 2.6 价格"
+  },
+  "hero": {
+    "kicker": "一套模型，多种模态 — 来自 {brand}",
+    "h1": "Wan 2.6 图生视频与文生图 API",
+    "description": "使用 Wan 2.6 将提示词或参考图转为高质量图像与视频，可通过网页 UI 或 API 调用。",
+    "trust": [
+      "高清输出",
+      "快速生成",
+      "面向生产"
+    ],
+    "pricing_from": "价格起步",
+    "pricing_link": "$5",
+    "pricing_suffix": "（500 积分）"
+  },
+  "sections": {
+    "what_is": {
+      "h2": "什么是 Wan 2.6？",
+      "paragraphs": [
+        "Wan 2.6 是一个多模态生成模型家族（Wan 2.6 model），可用于文生图（text-to-image）与图生视频（image-to-video）等任务。",
+        "它可以将提示词与参考图转换为可用于生产的视觉内容，覆盖从概念草图到营销素材，再到持续迭代的创作流程。",
+        "joymagic 提供独立的集成与工作流能力，通过网页 UI 与（启用时的）API 访问，将试验更顺滑地推进到自动化。"
+      ]
+    },
+    "creations": {
+      "h2": "Wan 2.6 可以创作什么？",
+      "cards": {
+        "t2i": {
+          "h3": "Wan 2.6 文生图（T2I）",
+          "p": "用提示词生成图片，适用于产品概念、插画与营销创意；可在风格、构图与比例上快速试验。"
+        },
+        "editing": {
+          "h3": "Wan 2.6 图像生成 / 图像编辑",
+          "p": "生成变体、进行风格化与逐步精修；用一致的提示词框架更快收敛到最终效果。"
+        },
+        "i2v": {
+          "h3": "Wan 2.6 图生视频（I2V）",
+          "p": "把单张图片转成短视频片段；通过提示词引导运动，保持关键元素一致，并用变体迭代到理想质感。"
+        }
+      },
+      "links": {
+        "prefix": "相关工具可参考",
+        "i2v": "图生视频",
+        "and": "以及",
+        "t2i": "文生图",
+        "suffix": "（{brand}）。"
+      }
+    },
+    "i2v": {
+      "h2": "Wan 2.6 图生视频（I2V）",
+      "p": "面向广告、产品短片等高意图场景，Wan 2.6 图生视频（I2V）从一张输入图片出发，按你的提示词生成带运动的短序列。你可以根据可用能力调整时长（duration）、选择高清预设，并用运动提示词（motion prompt）控制运动；若端点支持更高预设如 1080p，会在选项中显示。",
+      "cards": {
+        "inputs": {
+          "h3": "支持的输入",
+          "p": "提供参考图 + 描述场景与运动的提示词。主体清晰、背景干净通常更稳定。"
+        },
+        "controls": {
+          "h3": "输出控制",
+          "p": "在可用时调整分辨率预设与时长；用镜头运动、主体动作与氛围等描述，使结果更可复现。"
+        },
+        "use_cases": {
+          "h3": "常见用途",
+          "p": "产品视频、社媒广告、B-roll 风格动效、创意镜头与快速分镜，适合需要大量变体迭代的场景。"
+        }
+      }
+    },
+    "how_to": {
+      "h2": "如何使用 Wan 2.6",
+      "steps": {
+        "1": {
+          "h3": "1. 选择模式（T2I 或 I2V）",
+          "p": "生成静态图选文生图；想让图片动起来则选图生视频。"
+        },
+        "2": {
+          "h3": "2. 输入提示词（需要时上传参考图）",
+          "p": "描述主体、风格与环境；I2V 可加入“慢推镜头”“轻微风动”等运动引导。"
+        },
+        "3": {
+          "h3": "3. 设置输出选项（分辨率、时长、比例）",
+          "p": "按投放渠道选择预设（社媒/网页/广告）；保持参数一致便于复现与批量化。"
+        },
+        "4": {
+          "h3": "4. 生成并检查",
+          "p": "先快速出一版，再检查主体一致性、运动质量与构图。"
+        },
+        "5": {
+          "h3": "5. 用变体迭代",
+          "p": "小幅修改提示词对比效果，保留最好的结果作为下一轮参考。"
+        },
+        "6": {
+          "h3": "6. 导出 / 下载 / 通过 API 集成",
+          "p": "下载素材进入你的流程，或通过 API 做批量生成与自动化集成。"
+        }
+      }
+    },
+    "api": {
+      "h2": "Wan 2.6 API",
+      "p": "用 REST/JSON 以生产方式接入 Wan 2.6 API。认证通常使用 API Key，你可以把生成能力接到现有产品与流程中，用于批量任务、模板化与团队工具。",
+      "links": {
+        "docs_label": "文档：",
+        "keys_label": "API Key：",
+        "keys_suffix": "（需要登录）"
+      },
+      "example": {
+        "h3": "请求示例（示意）",
+        "p": "仅作为占位示例，具体端点、参数与响应结构以文档为准。"
+      }
+    },
+    "pricing": {
+      "h2": "Wan 2.6 价格",
+      "p_before": "采用积分计费，按任务消耗不同积分。以下为常见起步参考，具体以",
+      "p_after": "页面的最新信息为准。",
+      "table": {
+        "task": "任务",
+        "unit": "计费单位",
+        "starting_from": "起步消耗"
+      },
+      "rows": {
+        "t2i": {
+          "task": "文生图（T2I）",
+          "unit": "每张",
+          "start": "2 积分起"
+        },
+        "editing": {
+          "task": "图像生成 / 编辑",
+          "unit": "每张",
+          "start": "4 积分起"
+        },
+        "i2v": {
+          "task": "图生视频（I2V）",
+          "unit": "每次转换",
+          "start": "250 积分起"
+        }
+      },
+      "note": "消耗可能随分辨率、时长与可用提供方而变化。joymagic 会在生成前清晰展示本次消耗。"
+    },
+    "quality": {
+      "h2": "质量、安全与使用权",
+      "p1": "输出质量取决于模式与设置。对视频而言，可能提供更高预设（如 HD；在支持时包含 1080p）；使用更干净的参考图与更明确的运动提示词通常效果更好。",
+      "p2_before": "商业用途受",
+      "terms_link": "服务条款",
+      "p2_after": "与适用法律约束。你需要确保上传素材与输入内容拥有相应权利。",
+      "p3_before": "joymagic 通过内容政策限制违规使用。详情见",
+      "moderation_link": "内容审核政策",
+      "p3_middle": "与",
+      "aup_link": "可接受使用政策",
+      "p3_after": "。"
+    }
+  },
+  "faq": {
+    "h2": "Wan 2.6 常见问题",
+    "items": [
+      {
+        "question": "Wan 2.6 可以用来做什么？",
+        "answer": "Wan 2.6 可用于文生图与图生视频等多模态生成工作流。你可以用提示词生成图片、做变体和编辑，或将参考图生成短视频。在 joymagic 上，它适用于从原型探索到营销素材与生产资产的端到端流程。"
+      },
+      {
+        "question": "Wan 2.6 适合图生视频吗？",
+        "answer": "当你希望从静态图出发并用提示词控制运动时，Wan 2.6 图生视频（I2V）很合适。常见场景包括产品镜头、广告创意、B-roll 风格短片与概念镜头。效果与参考图质量以及运动提示词的具体程度密切相关。"
+      },
+      {
+        "question": "Wan 2.6 的提示词怎么写？",
+        "answer": "先写清主体，再补充风格、光线与镜头语言。I2V 建议增加运动提示词，描述运动方式（如“慢推”“微风”“向左平移”）以及需要保持稳定的元素。通过小幅迭代对比更容易收敛到理想结果。"
+      },
+      {
+        "question": "Wan 2.6 支持 1080p 吗？",
+        "answer": "是否支持 1080p 取决于你当前使用的 UI/API 端点与可用预设。如果支持，会以可选项呈现；若不可用，可先用最高可用预设生成，再在下游进行放大与后期处理。建议以 joymagic 当前选项为准。"
+      },
+      {
+        "question": "Wan 2.6 怎么收费？",
+        "answer": "joymagic 采用积分计费。常见起步为：文生图 2 积分/张、图生视频 250 积分/次（实际会随模型、分辨率与时长变化）。最新套餐与说明请查看价格页。"
+      },
+      {
+        "question": "生成结果可以商用吗？",
+        "answer": "一般可以商用，但需遵守服务条款与内容政策。你需要确保上传的图片、商标或品牌素材拥有相应权利。如有严格合规需求，建议在上线前先完整阅读相关条款与政策页面。"
+      },
+      {
+        "question": "你们提供 Wan 2.6 的 API 吗？",
+        "answer": "是的。joymagic 为已支持的工作流提供 API 访问，便于集成到你的产品与流水线。API 通常使用 REST/JSON，并通过控制台生成的 API Key 进行认证。具体端点与参数以文档为准。"
+      },
+      {
+        "question": "你们与原始模型提供方有关联吗？",
+        "answer": "没有。joymagic 是提供 AI 生成工作流的独立服务，与 “Wan 2.6” 的原始创建者不存在隶属、背书或赞助关系。相关商标与模型名称归其各自权利人所有。"
+      }
+    ]
+  },
+  "disclaimer": {
+    "h2": "免责声明",
+    "p": "{brand} 是提供 AI 生成工作流的独立服务。我们与 “Wan 2.6” 的原始创建者不存在关联、背书或赞助关系。相关商标与模型名称归其各自权利人所有。"
+  },
+  "wan26": {
+    "form": {
+      "prompt": {
+        "label": "提示词",
+        "enhancer": "Prompt Enhancer",
+        "placeholder": "一个时尚的年轻男性艺术家正在阳光明媚的城市小巷中的砖墙上喷涂一幅色彩缤纷的花朵壁画...",
+        "tooltip": "用于生成的正向提示词。"
+      },
+      "negativePrompt": {
+        "label": "负面提示词",
+        "placeholder": "请输入负面提示词",
+        "tooltip": "用于生成的负面提示词。"
+      },
+      "audio": {
+        "label": "音频",
+        "hint": "支持音频文件（MP3、WAV 等）",
+        "tooltip": "用于生成的音频文件 URL。",
+        "dragDrop": "拖拽或点击上传",
+        "dropHere": "将音频文件拖放到此处",
+        "record": "录制音频",
+        "recordDialog": {
+          "title": "录制音频",
+          "instruction": "使用您的麦克风录制音频。",
+          "noRecording": "尚未录制。",
+          "hint": "您可以点击下面的\"开始录制\"按钮进行录制。",
+          "recording": "正在录制...",
+          "startRecording": "开始录制",
+          "stopRecording": "停止录制",
+          "retake": "重新录制",
+          "useAudio": "使用音频",
+          "uploading": "上传中..."
+        }
+      },
+      "size": {
+        "label": "尺寸"
+      },
+      "duration": {
+        "label": "时长"
+      },
+      "shotType": {
+        "label": "镜头类型",
+        "single": "单镜头",
+        "multiple": "多镜头"
+      },
+      "enablePromptExpansion": {
+        "label": "启用提示词扩展",
+        "description": "如果设置为 true，将启用提示词优化器。",
+        "tooltip": "启用提示词扩展以自动优化您的提示词。"
+      },
+      "seed": {
+        "label": "种子"
+      },
+      "buttons": {
+        "reset": "重置",
+        "run": "生成",
+        "generating": "生成中..."
+      }
+    },
+    "preview": {
+      "placeholder": "输入提示词并点击运行，这里将显示生成的视频。",
+      "costInfo": "您的请求每次运行将花费 {cost}。",
+      "oneMoreThing": "还有一件事：",
+      "actions": {
+        "addSound": "添加声音",
+        "videoUpscaler": "视频放大",
+        "videoUpscalerPro": "视频放大 Pro",
+        "videoExtend": "视频延长"
+      }
+    },
+    "common": {
+      "selected": "已选择：{name}",
+      "notSelected": "未选择文件"
+    },
+    "status": {
+      "idle": "空闲",
+      "processing": "处理中",
+      "completed": "已完成"
+    },
+    "actions": {
+      "downloadVideo": "下载视频",
+      "downloadFailed": "下载视频失败",
+      "playAudioFailed": "播放音频失败。请检查您的浏览器设置。"
+    },
+    "errors": {
+      "promptRequired": "请输入提示词",
+      "generationFailed": "视频生成失败",
+      "taskFailed": "任务处理失败",
+      "taskTimeout": "任务处理超时，请稍后重试",
+      "taskIdNotFound": "无法获取任务 ID，请检查 API 响应格式",
+      "processingFailed": "处理失败，请重试",
+      "statusQueryFailed": "查询任务状态失败",
+      "apiResponseParseFailed": "解析 API 响应失败",
+      "invalidFileType": "无效的文件类型。请上传音频文件（MP3、WAV 等）。",
+      "uploadFailed": "上传失败：{error}",
+      "uploadFailedGeneric": "上传失败",
+      "recordingFailed": "开始录制失败。请检查麦克风权限。"
+    }
+  },
+  "wan26Page": {
+    "metadata": {
+      "title": "文本生成视频 AI 生成器 (WAN-2.6) | 从文本创建视频 – joymagic",
+      "description": "使用 joymagic 的文本生成视频 AI 生成器，将文本提示词转换为令人惊叹的视频。由 WAN-2.6 驱动，几秒钟内创建高质量视频。高清输出，快速生成，免费试用。"
+    },
+    "hero": {
+      "title": "文本生成视频 AI 生成器 – WAN-2.6",
+      "description": "几秒钟内将文本提示词转换为令人惊叹的视频。无需视频编辑技能。",
+      "button1": "生成视频",
+      "button2": "免费开始 · 无需信用卡"
+    },
+    "heroDescription": "输入文本提示词，观看 AI 将您的文字转换为精美的视频。非常适合内容创作者、营销人员和故事讲述者。",
+    "builtFor": {
+      "title": "为现代创作者打造：",
+      "hdOutputs": "高清输出",
+      "fastGeneration": "快速生成",
+      "commercialReady": "商业可用"
+    },
+    "whatYouCanDo": {
+      "title": "您可以用文本生成视频做什么",
+      "description": "使用 AI 驱动的视频生成将您的想法转化为动态视频。",
+      "contentCreation": {
+        "title": "内容创作",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>为社交媒体创建引人入胜的视频内容</li><li>生成视频缩略图和预览</li><li>快速制作短视频内容</li></ul>"
+      },
+      "marketing": {
+        "title": "营销与广告",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>从文本描述创建宣传视频</li><li>生成视频广告和活动</li><li>大规模制作营销内容</li></ul>"
+      },
+      "entertainment": {
+        "title": "娱乐与故事讲述",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>使用 AI 生成的视频让故事栩栩如生</li><li>从文本创建动画场景</li><li>制作创意视频内容</li></ul>"
+      }
+    },
+    "keyFeatures": {
+      "title": "主要功能",
+      "description": "使用 AI 从文本创建视频所需的一切。",
+      "textToVideo": {
+        "title": "文本生成视频",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>将文本提示词转换为高质量视频</li><li>支持各种视频时长和尺寸</li><li>高级提示词优化</li></ul>"
+      },
+      "highQuality": {
+        "title": "高质量输出",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>高清视频输出，最高 1920x1080</li><li>流畅的运动和过渡</li><li>专业级视频质量</li></ul>"
+      },
+      "flexibleControl": {
+        "title": "灵活控制",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>自定义视频尺寸、时长和镜头类型</li><li>负面提示词用于微调</li><li>种子控制以获得可重现的结果</li></ul>"
+      }
+    },
+    "howItWorks": {
+      "title": "工作原理",
+      "description": "从文本到视频，只需四个简单步骤。",
+      "step1": {
+        "title": "步骤 1 – 输入您的提示词",
+        "description": "<p class=\"mb-3\">描述您想要创建的视频。具体说明场景、角色、动作和氛围。</p>"
+      },
+      "step2": {
+        "title": "步骤 2 – 配置设置",
+        "description": "<p class=\"mb-3\">选择视频尺寸、时长、镜头类型和其他参数以匹配您的需求。</p>"
+      },
+      "step3": {
+        "title": "步骤 3 – 生成视频",
+        "description": "<p class=\"mb-3\">点击生成按钮，让 AI 创建您的视频。处理通常需要几分钟。</p>"
+      },
+      "step4": {
+        "title": "步骤 4 – 下载和使用",
+        "description": "<p class=\"mb-3\">预览您的视频，下载它，并立即在您的项目中使用。</p>"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "关于文本生成视频的常见问题。",
+      "q1": {
+        "question": "生成视频需要多长时间？",
+        "answer": "视频生成通常需要 2-5 分钟，具体取决于提示词的时长和复杂性。"
+      },
+      "q2": {
+        "question": "支持哪些视频格式？",
+        "answer": "我们支持标准视频格式，包括 MP4。可以生成从 720p 到 1080p 的各种尺寸的视频。"
+      },
+      "q3": {
+        "question": "我可以将生成的视频用于商业用途吗？",
+        "answer": "是的，您可以将生成的视频用于商业目的。请参阅我们的服务条款以获取完整详情。"
+      }
+    },
+    "finalCTA": {
+      "title": "将您的文本转换为令人惊叹的视频。",
+      "description": "尝试 joymagic 文本生成视频 AI 生成器，几秒钟内开始创建视频。<br/><span class=\"text-muted-foreground\">无需视频编辑技能 · 免费试用</span>",
+      "button": "开始生成视频"
+    }
+  }
+}

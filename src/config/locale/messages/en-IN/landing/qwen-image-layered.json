@@ -1,0 +1,195 @@
+{
+  "qwenImageLayered": {
+    "steps": {
+      "image": {
+        "title": "Image*",
+        "hint": "Hint: You can drag and drop a file or click to upload",
+        "dragDrop": "Drag & drop or click to upload",
+        "dropHere": "Drop image here",
+        "urlPlaceholder": "Or enter image URL",
+        "urlEntered": "URL entered"
+      },
+      "numLayers": {
+        "title": "Num Layers",
+        "hint": "Number of layers to decompose (1-8)"
+      },
+      "generate": {
+        "title": "Generate",
+        "cta": "Generate",
+        "generating": "Generating..."
+      }
+    },
+    "preview": {
+      "title": "Preview",
+      "original": "Original",
+      "swap": "Swap",
+      "placeholder": "Upload an image to see the layered decomposition here.",
+      "layers": "Layers",
+      "noLayers": "No layers generated yet",
+      "downloadAll": "Download All"
+    },
+    "common": {
+      "selected": "Selected: {name}",
+      "notSelected": "Not selected",
+      "clear": "Clear"
+    },
+    "errors": {
+      "invalidFileType": "Invalid file type. Please upload an image file (JPG, PNG, WEBP).",
+      "uploadFailed": "Upload failed: {error}",
+      "uploadFailedGeneric": "Upload failed",
+      "imageRequired": "Please upload an image or enter an image URL",
+      "generationFailed": "Image generation failed",
+      "taskFailed": "Task processing failed",
+      "taskTimeout": "Task processing timeout, please try again later",
+      "taskIdNotFound": "Unable to get task ID, please check API response format",
+      "processingFailed": "Processing failed, please try again",
+      "statusQueryFailed": "Failed to query task status",
+      "apiResponseParseFailed": "Failed to parse API response"
+    }
+  },
+  "qwenImageLayeredPage": {
+    "metadata": {
+      "title": "AI Image Layer Decomposition Tool | RGBA Layers | joymagic",
+      "description": "AI-powered tool to decompose images into editable RGBA layers. Automatic semantic separation with alpha channels for seamless photo editing and design."
+    },
+    "hero": {
+      "title": "AI Image Layered Decomposition",
+      "description": "Automatically decompose any image into editable RGBA layers with joymagic's AI layered tool. Perfect semantic separation – clean alpha channels, soft edges, and correct occlusion order.",
+      "button1": "Decompose into Layers Now",
+      "button2": "Start free · No credit card"
+    },
+    "heroDescription": "✓ HD Download ✓ No watermark ✓ Multiple layers",
+    "whatIs": {
+      "title": "What is AI Image Layered Decomposition?",
+      "description": "joymagic's AI Image Layered tool, powered by advanced Qwen-Image-Layered technology, automatically analyzes a single image and decomposes it into multiple semantically independent RGBA layers (red, green, blue + alpha transparency).",
+      "paragraph1": "Unlike traditional segmentation that only gives masks, our AI:",
+      "points": [
+        "Understands depth, occlusion, and scene structure",
+        "Generates clean, soft-edged alpha channels for each layer",
+        "Preserves correct layering order (foreground to background)",
+        "Outputs ready-to-use compositing layers"
+      ],
+      "paragraph2": "Ideal for designers, illustrators, game developers, photo editors, and anyone who needs non-destructive, layer-based control over complex images."
+    },
+    "howTo": {
+      "title": "How to Decompose an Image into Layers",
+      "description": "Create editable layered compositions with our AI layered decomposition tool in just a few simple steps:",
+      "step1": {
+        "title": "Upload your image",
+        "description": "Drag and drop or select your photo or artwork.<br/>Supports JPG, JPEG, PNG, WEBP formats.<br/><br/><strong>Works with photos, AI-generated art, illustrations, and scenes</strong>"
+      },
+      "step2": {
+        "title": "Set decomposition options",
+        "description": "Customize the output:<br/><br/><strong>Number of layers:</strong> Choose from 2 to 8 layers (default: 4)<br/><strong>Optional prompt:</strong> Add guidance like \"separate person, furniture, background\" for more precise control"
+      },
+      "step3": {
+        "title": "Generate layers",
+        "description": "Click Decompose – our AI instantly analyzes and splits the image into layered RGBA outputs.<br/><br/><strong>Real-time preview of each layer</strong>"
+      },
+      "step4": {
+        "title": "Preview and download",
+        "description": "View individual layers with transparency.<br/><br/><strong>Download as separate PNG files (with alpha)</strong><br/><strong>Or get a layered PSD file (coming soon)</strong><br/><strong>HD quality, ready for Photoshop, Procreate, or any editor</strong>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Professional-grade AI layered decomposition with intelligent semantic separation.",
+      "semantic": {
+        "title": "Semantic Layer Separation",
+        "description": "Intelligent decomposition into meaningful objects and regions – people, furniture, sky, foreground, background, and more."
+      },
+      "alpha": {
+        "title": "Clean Alpha Channels & Soft Edges",
+        "description": "Professional-grade transparency with feathered, natural edges – no hard cutouts or halos."
+      },
+      "occlusion": {
+        "title": "Correct Occlusion Order",
+        "description": "Layers automatically sorted from front to back for seamless recomposition."
+      },
+      "adjustable": {
+        "title": "Adjustable Layer Count",
+        "description": "Control depth: 2–8 layers depending on image complexity and your needs."
+      },
+      "prompt": {
+        "title": "Prompt-Guided Control",
+        "description": "Optional text prompt to focus separation on specific elements or regions."
+      },
+      "quality": {
+        "title": "High-Quality Layered Output",
+        "description": "Download individual transparent PNGs or prepare for advanced editing – full HD with preserved details."
+      }
+    },
+    "useCases": {
+      "title": "What You Can Do With joymagic AI Layered Decomposition",
+      "description": "Unlock infinite layered possibilities from a single image.",
+      "editing": {
+        "title": "Non-Destructive Photo Editing",
+        "description": "Isolate and edit individual elements (person, objects, background) without affecting the rest."
+      },
+      "compositing": {
+        "title": "Advanced Compositing",
+        "description": "Rearrange, recolor, or replace layers to create new scenes from a single source image."
+      },
+      "gameAssets": {
+        "title": "Game & UI Asset Creation",
+        "description": "Extract clean sprites, characters, or environmental layers from concept art or photos."
+      },
+      "illustration": {
+        "title": "Illustration & Digital Art Workflow",
+        "description": "Turn flat images into fully layered projects for further painting or animation."
+      },
+      "sceneReconstruction": {
+        "title": "Scene Reconstruction & Remixing",
+        "description": "Swap backgrounds, move objects, or build variations by manipulating separated layers."
+      },
+      "tagline": "One image, infinite layered possibilities."
+    },
+    "faq": {
+      "title": "AI Image Layered Decomposition FAQs",
+      "description": "Everything you need to know about our AI layered decomposition tool.",
+      "q1": {
+        "question": "What image formats are supported?",
+        "answer": "We support JPG, JPEG, PNG, and WEBP. Best results with clear, high-resolution images."
+      },
+      "q2": {
+        "question": "How many layers can I generate?",
+        "answer": "You can select from 2 to 8 layers. More layers provide finer separation on complex scenes."
+      },
+      "q3": {
+        "question": "Will my layers have clean transparency?",
+        "answer": "Yes. Each layer includes a professional soft-edged alpha channel for natural blending."
+      },
+      "q4": {
+        "question": "Can I guide the decomposition with text?",
+        "answer": "Yes – add an optional prompt to prioritize certain objects or regions (e.g., \"focus on person and table\")."
+      },
+      "q5": {
+        "question": "What output formats are available?",
+        "answer": "Each layer is downloaded as a separate transparent PNG. Layered PSD export coming soon."
+      },
+      "q6": {
+        "question": "Is my data safe?",
+        "answer": "Yes. Uploaded images are processed securely and automatically deleted after processing. We never use your images for training."
+      },
+      "q7": {
+        "question": "Does it work on AI-generated or illustrated images?",
+        "answer": "Yes – excellent results on both photographic and artistic styles, including AI art."
+      }
+    },
+    "privacy": {
+      "title": "Privacy & Security",
+      "description": "Your images and privacy are our priority.",
+      "points": [
+        "All uploads are processed securely and encrypted",
+        "Images are automatically deleted after processing",
+        "Never shared with third parties or used for AI training"
+      ]
+    },
+    "finalCTA": {
+      "title": "Turn any image into fully editable, professional layers.",
+      "description": "Try joymagic's AI Layered Decomposition now and unlock true compositing control in seconds.",
+      "button": "Decompose into Layers Now",
+      "helperText": "No sign-up needed · Free to start · Watermark-free downloads"
+    }
+  }
+}

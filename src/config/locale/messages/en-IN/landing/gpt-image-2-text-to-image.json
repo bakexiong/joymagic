@@ -1,0 +1,101 @@
+{
+  "page": {
+    "metadata": {
+      "title": "GPT-Image 2 Text to Image - Chinese Text, Photoreal AI Images | joymagic",
+      "description": "Create Chinese posters, exam papers, calligraphy, photoreal street photography, UI screenshots, and product visuals with GPT-Image 2. Strong text rendering, world knowledge, and realistic image quality.",
+      "keywords": "GPT-Image 2, GPT Image 2, chinese text rendering, AI poster generator, photoreal AI images, UI screenshot generator, text to image, OpenAI image model"
+    },
+    "hero": {
+      "title": "GPT-Image 2 Text to Image",
+      "description": "GPT Image 2 is OpenAI's newer image model in limited rollout, built around three standout strengths: highly accurate text rendering, stronger world knowledge, and photoreal image quality. You no longer need extremely long prompts to get strong results. It can produce Chinese posters, exam papers, calligraphy, realistic documentary-style photos, and convincing UI screenshots from short natural instructions.<br/><br/>Need to transform uploaded images instead? <a href=\"/image-to-image/gpt-image-2\" class=\"text-primary underline\">Try GPT-Image 2 Image to Image</a>.",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "features": {
+      "title": "Why GPT-Image 2",
+      "description": "Designed for text-heavy visuals, photoreal scenes, and believable product-style image generation.",
+      "promptFirst": {
+        "title": "Short prompts, strong results",
+        "description": "GPT Image 2 does not need overloaded instructions for common tasks. Direct prompts often produce polished first-pass images faster."
+      },
+      "aspectCoverage": {
+        "title": "Accurate text and layout rendering",
+        "description": "Generate Chinese text inside posters, documents, book-style pages, packaging, and interface surfaces with much stronger legibility than older image models."
+      },
+      "creatorReady": {
+        "title": "Photoreal and interface-aware",
+        "description": "The model understands optics, materials, camera feel, and software UI structure well enough for product mockups, screenshots, and realistic photography prompts."
+      }
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "socialCampaigns": {
+        "title": "Chinese Posters & Mixed Typography",
+        "description": "Create covers, promotional posters, and gaming key art with readable Chinese titles, subtitles, and supporting layout text."
+      },
+      "coverArt": {
+        "title": "Documents, Papers & Calligraphy",
+        "description": "Generate exam sheets, printed page simulations, calligraphy works, and traditional-art style compositions with more believable text placement."
+      },
+      "productVisuals": {
+        "title": "Photoreal Editorial & Street Photography",
+        "description": "Prompt for camera bodies, lenses, film stocks, ambient lighting, and candid framing to get more convincing photography-style images."
+      },
+      "cinematicBoards": {
+        "title": "App UI & Desktop Screenshot Concepts",
+        "description": "Generate near-screenshot style app interfaces, financial dashboards, macOS desktops, and product demo scenes with clear interface structure."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Common questions about GPT Image 2 text rendering and photoreal generation.",
+      "q1": {
+        "question": "What is GPT Image 2 especially good at?",
+        "answer": "Its strongest use cases are text-heavy image generation, Chinese typography, photoreal scenes, professional photography prompts, and UI or screenshot-style compositions."
+      },
+      "q2": {
+        "question": "Can GPT Image 2 render Chinese text accurately?",
+        "answer": "It is much better than previous models for Chinese text, posters, exam sheets, labels, and other structured layouts, though you should still review details before production use."
+      },
+      "q3": {
+        "question": "Do I need long prompts for good results?",
+        "answer": "Not usually. One of the model's advantages is that simple, direct prompts can already produce excellent images, especially for common visual requests."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to try GPT Image 2?",
+      "description": "Start with a short prompt and generate posters, realistic photos, UI screenshots, or document-style visuals in seconds.",
+      "button": "Open Playground"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "textToImage": "Text to Image",
+      "model": "GPT-Image 2"
+    },
+    "schema": {
+      "softwareName": "joymagic AI GPT-Image 2 Text to Image",
+      "softwareDescription": "Generate Chinese posters, exam papers, calligraphy, realistic photography, and UI screenshots with GPT Image 2.",
+      "howToName": "How to generate images with GPT Image 2",
+      "howToDescription": "Write a short prompt, choose an aspect ratio, and generate text-heavy or photoreal images with GPT Image 2.",
+      "features": {
+        "promptFirst": "Short-prompt image generation",
+        "aspectPresets": "Chinese text and layout rendering",
+        "outputCoverage": "Photoreal photography and UI screenshot generation"
+      },
+      "steps": {
+        "prompt": {
+          "name": "Write your prompt",
+          "text": "Describe the subject, style, lighting, and composition you want to create."
+        },
+        "aspectRatio": {
+          "name": "Choose aspect ratio",
+          "text": "Pick the output shape that matches your target canvas, from square to portrait or ultra-wide."
+        },
+        "generate": {
+          "name": "Generate and download",
+          "text": "Run the model and download the result that best fits your creative workflow."
+        }
+      }
+    }
+  }
+}

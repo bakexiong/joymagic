@@ -1,0 +1,193 @@
+{
+  "imageUpscaler": {
+    "id": "image-upscaler",
+    "title": "AI 图片放大工具",
+    "description": "使用 AI 即时提升图片质量，将分辨率提升至 4K、8K 或 16K。上传图片即可自动增强。",
+    "steps": {
+      "sourceImage": {
+        "title": "上传图片",
+        "hint": "拖拽或点击上传 · 支持 JPG/PNG/WEBP/HEIC",
+        "dragDrop": "拖拽或点击上传",
+        "dropHere": "将图片拖放到此处"
+      },
+      "settings": {
+        "title": "选择放大设置",
+        "targetResolution": "放大倍数 / 输出分辨率",
+        "outputFormat": "输出格式"
+      },
+      "generate": {
+        "title": "生成并下载",
+        "cta": "开始放大",
+        "generating": "正在放大..."
+      }
+    },
+    "preview": {
+      "title": "预览",
+      "original": "原图",
+      "upscaled": "放大后",
+      "placeholder": "上传图片以查看放大结果。"
+    },
+    "common": {
+      "selected": "已选择：{name}",
+      "notSelected": "未选择文件"
+    },
+    "errors": {
+      "invalidFileType": "无效的文件类型。请上传图片文件（JPG、PNG、WEBP、HEIC）。",
+      "uploadFailed": "上传失败：{error}",
+      "uploadFailedGeneric": "上传失败",
+      "sourceImageRequired": "请先上传源图片",
+      "generationFailed": "图片放大失败",
+      "taskFailed": "任务处理失败",
+      "taskTimeout": "任务处理超时，请稍后重试",
+      "taskIdNotFound": "无法获取任务 ID，请检查 API 响应格式",
+      "processingFailed": "处理失败，请重试",
+      "statusQueryFailed": "查询任务状态失败",
+      "apiResponseParseFailed": "解析 API 响应失败",
+      "downloadFailed": "下载图片失败"
+    },
+    "download": {
+      "title": "下载图片"
+    },
+    "alt": {
+      "sourcePreview": "源图片预览",
+      "enlargedPreview": "放大预览",
+      "source": "源图片",
+      "original": "原图",
+      "upscaled": "放大后"
+    }
+  },
+  "imageUpscalerPage": {
+    "metadata": {
+      "title": "AI 图片放大工具在线 | 将图片放大至 4K 8K 16K | joymagic",
+      "description": "使用 joymagic 的 AI 图片放大工具即时提升图片质量，将分辨率提升至 4K、8K 或 16K。高清下载，无水印，支持批量处理。",
+      "keywords": "AI 图片放大工具，图片放大，放大图片，4K 放大，8K 放大，16K 放大，AI 图片增强，图片分辨率增强，照片放大，图片质量增强，快速放大，创意放大"
+    },
+    "hero": {
+      "title": "AI 图片放大工具在线",
+      "description": "使用 joymagic 的 AI 图片放大工具即时提升图片质量，将分辨率提升至 4K、8K 或 16K。上传图片即可自动增强。",
+      "button1": "立即开始放大",
+      "button2": "免费开始 · 无水印"
+    },
+    "heroDescription": "✓ 高清下载  ✓ 无水印  ✓ 批量支持",
+    "whatIsAIUpscaler": {
+      "title": "什么是 AI 图片放大工具？",
+      "description": "AI 图片放大工具使用深度学习技术放大图片，同时添加逼真的细节和锐度。与传统的拉伸像素导致模糊的调整大小不同，我们的 AI：",
+      "features": [
+        "分析图片内容和结构",
+        "智能生成新像素",
+        "保留纹理、边缘和颜色",
+        "输出清晰、自然的结果"
+      ],
+      "perfectFor": "适用于产品照片、旧照片、AI 生成的艺术作品、社交媒体内容和印刷级图片。"
+    },
+    "keyFeatures": {
+      "title": "核心功能",
+      "description": "快速、高质量的 AI 图片放大，最高支持 16K。",
+      "fastProcessing": {
+        "title": "快速处理",
+        "description": "<p class=\"mb-3\">几秒钟内获得结果。优化的 AI 快速处理复杂图片。</p>"
+      },
+      "highQuality": {
+        "title": "最高 16K 输出",
+        "description": "<p class=\"mb-3\">将图片放大至 4K、8K 或 16K，同时保持清晰度和细节。</p>"
+      },
+      "twoModes": {
+        "title": "两种放大模式",
+        "description": "<p class=\"mb-3\">快速模式忠实放大；创意模式添加 AI 增强细节。</p>"
+      },
+      "batch": {
+        "title": "批量处理",
+        "description": "<p class=\"mb-3\">一次上传并处理多张图片。批量任务节省时间。</p>"
+      },
+      "cleanOutput": {
+        "title": "干净输出",
+        "description": "<p class=\"mb-3\">下载高质量、无水印的结果，可直接使用。</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "joymagic AI 放大工具的用途",
+      "description": "一次上传，无限可能。",
+      "photography": {
+        "title": "增强摄影作品",
+        "description": "<p class=\"mb-3\">放大旧照片或人像，达到印刷级质量。</p>"
+      },
+      "design": {
+        "title": "设计与 AI 艺术",
+        "description": "<p class=\"mb-3\">增强 AI 生成的艺术作品或图形，获得更清晰的细节。</p>"
+      },
+      "ecommerce": {
+        "title": "电商与产品",
+        "description": "<p class=\"mb-3\">让产品图片清晰锐利，适用于商品列表和广告。</p>"
+      },
+      "socialMedia": {
+        "title": "社交媒体",
+        "description": "<p class=\"mb-3\">在各平台分享清晰、高分辨率的视觉内容。</p>"
+      },
+      "print": {
+        "title": "大幅面与印刷",
+        "description": "<p class=\"mb-3\">放大至 16K，适用于海报、横幅和印刷材料。</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "如何放大图片",
+      "description": "三个简单步骤，使用 AI 放大图片：",
+      "step1": {
+        "title": "1. 上传您的图片",
+        "description": "<p class=\"mb-3\">拖拽或选择您的图片文件。</p><p class=\"mb-3\">支持 JPG、PNG、WEBP 和 HEIC 格式。</p>"
+      },
+      "step2": {
+        "title": "2. 选择放大设置",
+        "description": "<p class=\"mb-3\">选择您喜欢的放大倍数：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>2x – 分辨率翻倍</li><li>4x – 分辨率四倍</li><li>8x – 最大增强（最高 16K 输出）</li></ul><p class=\"mb-3\">选择模式：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>快速放大 – 保留原始细节</li><li>创意放大 – 添加 AI 生成的细节</li></ul>"
+      },
+      "step3": {
+        "title": "3. 生成并下载",
+        "description": "<p class=\"mb-3\">点击开始，几秒钟内获得放大后的图片。</p><p class=\"mb-1\">下载高分辨率版本，可直接使用。</p>"
+      }
+    },
+    "faq": {
+      "title": "AI 图片放大工具常见问题",
+      "description": "关于 AI 放大的快速解答。",
+      "q1": {
+        "question": "支持哪些图片格式？",
+        "answer": "我们支持 JPG、JPEG、PNG、WEBP 和 HEIC。如果上传失败，请尝试转换为 JPG 或 PNG。"
+      },
+      "q2": {
+        "question": "最大输出分辨率是多少？",
+        "answer": "根据输入大小和选择的放大倍数，您可以放大至 16K（16384 × 16384 像素）。"
+      },
+      "q3": {
+        "question": "快速模式和创意模式有什么区别？",
+        "answer": "快速模式忠实放大——最适合产品照片或截图。创意模式添加 AI 细节——最适合 AI 艺术或旧照片。"
+      },
+      "q4": {
+        "question": "可以一次放大多张图片吗？",
+        "answer": "可以。批量处理功能允许您在一次会话中上传并放大多张图片。"
+      },
+      "q5": {
+        "question": "放大后的图片会有水印吗？",
+        "answer": "不会。所有下载都是无水印的，可直接使用。"
+      },
+      "q6": {
+        "question": "我的数据安全私密吗？",
+        "answer": "是的。图片在隔离的加密会话中处理，处理完成后自动删除。我们从不存储或使用您的上传内容进行训练。"
+      },
+      "q7": {
+        "question": "什么样的图片效果最好？",
+        "answer": "清晰、光线良好的图片效果最好。非常低质量的输入在放大后可能仍会出现一些伪影。"
+      }
+    },
+    "privacySecurity": {
+      "title": "隐私与安全",
+      "description": "您的图片和隐私是我们的首要任务。",
+      "secureProcessing": "所有上传都在安全加密的环境中处理",
+      "autoDelete": "图片处理完成后自动删除",
+      "neverShared": "绝不与第三方共享或用于 AI 训练"
+    },
+    "finalCTA": {
+      "title": "将低分辨率图片转换为高清杰作。",
+      "description": "立即试用 joymagic 的 AI 图片放大工具，几秒钟内将您的照片提升至 4K、8K 或 16K 清晰度。<br/><span class=\"text-muted-foreground\">无需编辑技能 · 免费开始 · 无水印下载</span>",
+      "button": "立即开始放大"
+    }
+  }
+}
+

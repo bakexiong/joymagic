@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "title": "AI 视频生成器",
+    "description": "使用 AI 模型生成视频，支持文本生成视频和图片生成视频。"
+  },
+  "page": {
+    "title": "AI 视频生成器",
+    "description": "使用 AI 模型生成视频，支持文本生成视频和图片生成视频。"
+  },
+  "generator": {
+    "title": "视频生成器",
+    "description": "使用 AI 模型生成视频，支持文本生成视频和图片生成视频。",
+    "tabs": {
+      "text-to-video": "文本生成视频",
+      "image-to-video": "图片生成视频",
+      "reference-to-video": "参考图/视频生成视频",
+      "motion-control": "运动控制",
+      "longcat-avatar": "Longcat 头像",
+      "video-face-swap": "视频换脸"
+    },
+    "form": {
+      "provider": "提供商",
+      "model": "模型",
+      "select_provider": "选择提供商",
+      "select_model": "选择模型",
+      "prompt": "提示词",
+      "prompt_placeholder": "描述视频的细节，如场景、动作、风格等。",
+      "reference_image": "参考图片",
+      "reference_image_placeholder": "上传参考图片，支持多张图片",
+      "some_images_failed_to_upload": "部分图片上传失败，请删除后重新上传",
+      "prompt_too_long": "提示词过长，请删除部分内容"
+    },
+    "generate": "生成视频",
+    "checking_account": "检查账户中...",
+    "loading": "加载中...",
+    "generating": "生成中...",
+    "sign_in_to_generate": "登录以生成视频",
+    "credits_cost": "消耗 {credits} 积分",
+    "credits_remaining": "剩余 {credits} 积分",
+    "buy_credits": "购买积分",
+    "progress": "进度",
+    "generated_videos": "视频预览",
+    "ready_to_generate": "准备生成",
+    "ready_for_generating": "准备生成中",
+    "no_videos_generated": "未生成视频",
+    "click_to_pay": "点击购买更多积分"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "qwenImageLayered": {
+    "steps": {
+      "image": {
+        "title": "Immagine*",
+        "hint": "Suggerimento: Puoi trascinare e rilasciare un file o fare clic per caricare",
+        "dragDrop": "Trascina e rilascia o fai clic per caricare",
+        "dropHere": "Rilascia l'immagine qui",
+        "urlPlaceholder": "Oppure inserisci l'URL dell'immagine",
+        "urlEntered": "URL inserito"
+      },
+      "numLayers": {
+        "title": "Numero di Livelli",
+        "hint": "Numero di livelli da scomporre (1-8)"
+      },
+      "generate": {
+        "title": "Genera",
+        "cta": "Genera",
+        "generating": "Generazione in corso..."
+      }
+    },
+    "preview": {
+      "title": "Anteprima",
+      "original": "Originale",
+      "swap": "Scambia",
+      "placeholder": "Carica un'immagine per vedere la scomposizione a livelli qui.",
+      "layers": "Livelli",
+      "noLayers": "Nessun livello generato ancora",
+      "downloadAll": "Scarica Tutto"
+    },
+    "common": {
+      "selected": "Selezionato: {name}",
+      "notSelected": "Non selezionato",
+      "clear": "Cancella"
+    },
+    "errors": {
+      "invalidFileType": "Tipo di file non valido. Si prega di caricare un file immagine (JPG, PNG, WEBP).",
+      "uploadFailed": "Caricamento fallito: {error}",
+      "uploadFailedGeneric": "Caricamento fallito",
+      "imageRequired": "Si prega di caricare un'immagine o inserire un URL immagine",
+      "generationFailed": "Generazione immagine fallita",
+      "taskFailed": "Elaborazione attività fallita",
+      "taskTimeout": "Timeout elaborazione attività, si prega di riprovare più tardi",
+      "taskIdNotFound": "Impossibile ottenere l'ID dell'attività, si prega di controllare il formato della risposta API",
+      "processingFailed": "Elaborazione fallita, si prega di riprovare",
+      "statusQueryFailed": "Query stato attività fallita",
+      "apiResponseParseFailed": "Analisi risposta API fallita"
+    }
+  },
+  "qwenImageLayeredPage": {
+    "metadata": {
+      "title": "Strumento di Scomposizione Livelli Immagine con IA | Livelli RGBA | joymagic",
+      "description": "Strumento basato su IA per scomporre immagini in livelli RGBA modificabili. Separazione semantica automatica con canali alfa per editing fotografico e design senza interruzioni."
+    },
+    "hero": {
+      "title": "Scomposizione Immagine a Livelli con IA",
+      "description": "Scomponi automaticamente qualsiasi immagine in livelli RGBA modificabili con lo strumento a livelli con IA di joymagic. Separazione semantica perfetta – canali alfa puliti, bordi morbidi e ordine di occlusione corretto.",
+      "button1": "Scomponi in Livelli Ora",
+      "button2": "Inizia gratis · Nessuna carta di credito"
+    },
+    "heroDescription": "✓ Download HD ✓ Senza filigrana ✓ Più livelli",
+    "whatIs": {
+      "title": "Cos'è la Scomposizione Immagine a Livelli con IA?",
+      "description": "Lo strumento Immagine a Livelli con IA di joymagic, alimentato dalla tecnologia avanzata Qwen-Image-Layered, analizza automaticamente una singola immagine e la scompone in più livelli RGBA semanticamente indipendenti (rosso, verde, blu + trasparenza alfa).",
+      "paragraph1": "A differenza della segmentazione tradizionale che fornisce solo maschere, la nostra IA:",
+      "points": [
+        "Comprende profondità, occlusione e struttura della scena",
+        "Genera canali alfa puliti con bordi morbidi per ogni livello",
+        "Preserva l'ordine corretto dei livelli (primo piano a sfondo)",
+        "Produce livelli di composizione pronti all'uso"
+      ],
+      "paragraph2": "Ideale per designer, illustratori, sviluppatori di giochi, editor di foto e chiunque abbia bisogno di controllo non distruttivo basato su livelli su immagini complesse."
+    },
+    "howTo": {
+      "title": "Come Scomporre un'Immagine in Livelli",
+      "description": "Crea composizioni a livelli modificabili con il nostro strumento di scomposizione a livelli con IA in pochi semplici passaggi:",
+      "step1": {
+        "title": "Carica la tua immagine",
+        "description": "Trascina e rilascia o seleziona la tua foto o opera d'arte.<br/>Supporta formati JPG, JPEG, PNG, WEBP.<br/><br/><strong>Funziona con foto, arte generata da IA, illustrazioni e scene</strong>"
+      },
+      "step2": {
+        "title": "Imposta le opzioni di scomposizione",
+        "description": "Personalizza l'output:<br/><br/><strong>Numero di livelli:</strong> Scegli tra 2 e 8 livelli (predefinito: 4)<br/><strong>Prompt opzionale:</strong> Aggiungi indicazioni come \"separare persona, mobili, sfondo\" per un controllo più preciso"
+      },
+      "step3": {
+        "title": "Genera livelli",
+        "description": "Fai clic su Scomponi – la nostra IA analizza istantaneamente e divide l'immagine in output RGBA a livelli.<br/><br/><strong>Anteprima in tempo reale di ogni livello</strong>"
+      },
+      "step4": {
+        "title": "Anteprima e download",
+        "description": "Visualizza singoli livelli con trasparenza.<br/><br/><strong>Scarica come file PNG separati (con alfa)</strong><br/><strong>Oppure ottieni un file PSD a livelli (in arrivo)</strong><br/><strong>Qualità HD, pronto per Photoshop, Procreate o qualsiasi editor</strong>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Caratteristiche Principali",
+      "description": "Scomposizione a livelli con IA di livello professionale con separazione semantica intelligente.",
+      "semantic": {
+        "title": "Separazione Semantica dei Livelli",
+        "description": "Scomposizione intelligente in oggetti e regioni significativi – persone, mobili, cielo, primo piano, sfondo e altro ancora."
+      },
+      "alpha": {
+        "title": "Canali Alfa Puliti e Bordi Morbidi",
+        "description": "Trasparenza di livello professionale con bordi naturali e sfumati – nessun taglio duro o aloni."
+      },
+      "occlusion": {
+        "title": "Ordine di Occlusione Corretto",
+        "description": "Livelli ordinati automaticamente dal davanti al dietro per una ricomposizione perfetta."
+      },
+      "adjustable": {
+        "title": "Numero di Livelli Regolabile",
+        "description": "Controllo della profondità: 2-8 livelli a seconda della complessità dell'immagine e delle tue esigenze."
+      },
+      "prompt": {
+        "title": "Controllo Guidato da Prompt",
+        "description": "Prompt di testo opzionale per concentrare la separazione su elementi o regioni specifici."
+      },
+      "quality": {
+        "title": "Output a Livelli di Alta Qualità",
+        "description": "Scarica PNG trasparenti individuali o preparati per l'editing avanzato – HD completo con dettagli preservati."
+      }
+    },
+    "useCases": {
+      "title": "Cosa Puoi Fare con la Scomposizione a Livelli con IA di joymagic",
+      "description": "Sblocca infinite possibilità a livelli da una singola immagine.",
+      "editing": {
+        "title": "Editing Fotografico Non Distruttivo",
+        "description": "Isola e modifica elementi individuali (persona, oggetti, sfondo) senza influenzare il resto."
+      },
+      "compositing": {
+        "title": "Composizione Avanzata",
+        "description": "Riorganizza, ricolorizza o sostituisci livelli per creare nuove scene da una singola immagine sorgente."
+      },
+      "gameAssets": {
+        "title": "Creazione di Asset per Giochi e UI",
+        "description": "Estrai sprite puliti, personaggi o livelli ambientali da concept art o foto."
+      },
+      "illustration": {
+        "title": "Workflow di Illustrazione e Arte Digitale",
+        "description": "Trasforma immagini piatte in progetti completamente a livelli per ulteriore pittura o animazione."
+      },
+      "sceneReconstruction": {
+        "title": "Ricostruzione e Remix di Scene",
+        "description": "Scambia sfondi, sposta oggetti o costruisci variazioni manipolando livelli separati."
+      },
+      "tagline": "Un'immagine, infinite possibilità a livelli."
+    },
+    "faq": {
+      "title": "Domande Frequenti sulla Scomposizione Immagine a Livelli con IA",
+      "description": "Tutto ciò che devi sapere sul nostro strumento di scomposizione a livelli con IA.",
+      "q1": {
+        "question": "Quali formati di immagine sono supportati?",
+        "answer": "Supportiamo JPG, JPEG, PNG e WEBP. Migliori risultati con immagini chiare e ad alta risoluzione."
+      },
+      "q2": {
+        "question": "Quanti livelli posso generare?",
+        "answer": "Puoi selezionare tra 2 e 8 livelli. Più livelli forniscono una separazione più fine su scene complesse."
+      },
+      "q3": {
+        "question": "I miei livelli avranno trasparenza pulita?",
+        "answer": "Sì. Ogni livello include un canale alfa professionale con bordi morbidi per una fusione naturale."
+      },
+      "q4": {
+        "question": "Posso guidare la scomposizione con testo?",
+        "answer": "Sì – aggiungi un prompt opzionale per dare priorità a determinati oggetti o regioni (ad esempio, \"concentrarsi su persona e tavolo\")."
+      },
+      "q5": {
+        "question": "Quali formati di output sono disponibili?",
+        "answer": "Ogni livello viene scaricato come PNG trasparente separato. Esportazione PSD a livelli in arrivo."
+      },
+      "q6": {
+        "question": "I miei dati sono al sicuro?",
+        "answer": "Sì. Le immagini caricate vengono elaborate in modo sicuro e eliminate automaticamente dopo l'elaborazione. Non usiamo mai le tue immagini per l'addestramento."
+      },
+      "q7": {
+        "question": "Funziona con immagini generate da IA o illustrate?",
+        "answer": "Sì – risultati eccellenti sia su stili fotografici che artistici, inclusa l'arte con IA."
+      }
+    },
+    "privacy": {
+      "title": "Privacy e Sicurezza",
+      "description": "Le tue immagini e la tua privacy sono la nostra priorità.",
+      "points": [
+        "Tutti i caricamenti vengono elaborati in modo sicuro e crittografati",
+        "Le immagini vengono eliminate automaticamente dopo l'elaborazione",
+        "Mai condivise con terze parti o utilizzate per l'addestramento IA"
+      ]
+    },
+    "finalCTA": {
+      "title": "Trasforma qualsiasi immagine in livelli professionali completamente modificabili.",
+      "description": "Prova la Scomposizione a Livelli con IA di joymagic ora e sblocca il vero controllo della composizione in secondi.",
+      "button": "Scomponi in Livelli Ora",
+      "helperText": "Nessuna registrazione richiesta · Inizia gratis · Download senza filigrana"
+    }
+  }
+}

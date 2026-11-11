@@ -1,0 +1,120 @@
+{
+  "page": {
+    "metadata": {
+      "title": "GPT-Image 2 Görüntüden Görüntüye - Posterleri, UI ve Fotogerçekçi Görüntüleri Düzenleme | __MARKA__",
+      "description": "Çince poster temizliği, belge stili düzenler, fotoğraf gerçekliğinde rötuşlama ve arayüz maketi dönüşümleri için GPT-Image 2 ile yüklenen en fazla 4 resmi düzenleyin.",
+      "keywords": "GPT-Image 2 resimden resme, Çince poster düzenleme, fotogerçekçi resim düzenleyici, UI maket düzenleyici, resimden resme AI, 4 resme kadar düzenleme"
+    },
+    "hero": {
+      "title": "GPT-Image 2 Resimden Resme",
+      "description": "GPT-Image 2 resim düzenleme özellikle metin ağırlıklı görselleri gözden geçirmeniz, belge benzeri düzenleri yeniden şekillendirmeniz, fotogerçekçi sahneleri rötuşlamanız veya UI tarzı ekran görüntülerini dönüştürmeniz gerektiğinde güçlüdür. En fazla 4 kaynak görsel yükleyebilir, değişikliği sade bir dille açıklayabilir ve sonucun doğru en boy oranıyla uyumlu olmasını sağlayabilirsiniz.<br/><br/>Bunun yerine sıfırdan oluşturmanız mı gerekiyor? <a href=\"/text-to-image/gpt-image-2\" class=\"text-primary underline\">Try GPT-Image 2 Text to Image</a>.",
+      "button1": "Şimdi Deneyin",
+      "button2": "Fiyatlandırmayı Görüntüle"
+    },
+    "features": {
+      "title": "Resim düzenleme için neden GPT-Image 2",
+      "description": "Metne duyarlı düzenler, fotoğraf gerçekliğinde iyileştirmeler ve arayüz stili görüntüler için daha güçlü bir düzenleme iş akışı.",
+      "references": {
+        "title": "En fazla 4 görüntüyü birlikte düzenleyin",
+        "description": "Bir poster seti, kampanya varlık grubu veya UI maket serisi boyunca tek bir yönün tutarlı bir şekilde __uygulanmasını__istiyorsanız, kaynak görsellerden oluşan kısa bir toplu yükleme yapın."
+      },
+      "promptLed": {
+        "title": "Metne duyarlı ve düzene duyarlı düzenlemeler",
+        "description": "GPT-Image 2 poster metnine, belge yapısına, etiketlere ve karma görsel düzenlere daha uygun olduğundan, basit stil değişimlerinin ötesine geçen revizyon görevleri için kullanışlıdır."
+      },
+      "framing": {
+        "title": "Fotogerçekçi ve UI dostu çıktı kontrolü",
+        "description": "Fotoğraf rötuşlama, ekran görüntüsünü yeniden şekillendirme ve kompozisyon değişikliklerinin amaçlanan yerleşime yaklaşması için oluşturmadan önce son kareyi seçin."
+      }
+    },
+    "promptingTips": {
+      "title": "GPT-Image 2 düzenlemelerini nasıl daha iyi hale getirebilirim?",
+      "specific": {
+        "title": "Neyin değişmesi gerektiğini ve neyin kalması gerektiğini söyleyin",
+        "description": "Poster, belge ve UI düzenlemeleri için, geri kalanını olduğu gibi korurken, değiştirilmesini istediğiniz metin bloğu, düzen bölgesi veya görsel öğe hakkında açık olun."
+      },
+      "batch": {
+        "title": "Toplu iş boyunca tek yön tutun",
+        "description": "Birden fazla görsel yüklerken, tüm setin aynı görsel ailede ve kalite seviyesinde kalması için tek bir net talimat kullanın."
+      },
+      "framing": {
+        "title": "Hedef oranı erken seçin",
+        "description": "Oluşturmadan önce son en boy oranını seçin; böylece kırpma, aralık ve kompozisyon, sonucun kullanılacağı yere daha iyi uyum sağlar."
+      },
+      "details": {
+        "title": "Gerçekçiliği veya arayüz stilini vurgulayın",
+        "description": "Bitirmeyi daha hassas bir şekilde yönlendirmek için fotogerçekçi rötuş, film benzeri görüntü oluşturma, temiz UI yüzeyler veya gerçekçi ekran görüntüsü davranışı isteyip istemediğinizi belirtin."
+      }
+    },
+    "useCases": {
+      "title": "Kullanım Durumları",
+      "batchAssets": {
+        "title": "Poster ve düzen revizyonu",
+        "description": "Ana yapıyı koruyarak ve netliği, dengeyi veya metin ağırlıklı bölümleri iyileştirirken Çince posterleri, kapak resimlerini veya belge benzeri tasarımları yenileyin."
+      },
+      "productRefresh": {
+        "title": "Fotogerçekçi ürün ve portre rötuşlama",
+        "description": "Tüm sahneyi yeniden oluşturmadan ürün çekimleri, portreler veya sokak tarzı fotoğrafçılık için aydınlatmayı, dokuyu, arka plan havasını ve sonlandırma kalitesini iyileştirin."
+      },
+      "socialVariants": {
+        "title": "UI ve ekran görüntüsünün yeniden şekillendirilmesi",
+        "description": "Finans apps, masaüstü düzenlerini, kontrol panellerini ve yazılım ekran görüntülerini daha temiz, daha keskin veya daha sinematik arayüz görsellerine dönüştürün."
+      },
+      "lookDev": {
+        "title": "Küçük toplu reklam öğesi hizalaması",
+        "description": "Nihai üretime geçmeden önce kısa bir varlık kümesinde tek bir yaratıcı yönü test etmek için en fazla 4 görüntüde tek bir istem kullanın."
+      }
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "description": "Posterler, fotogerçekçi sahneler ve UI ekran görüntüleri için GPT-Image 2 resim düzenlemeyle ilgili sık sorulan sorular.",
+      "q1": {
+        "question": "Kaç adet resim yükleyebilirim?",
+        "answer": "Bu GPT-Image 2 görüntüden görüntüye iş akışı, tek bir çalıştırmada en fazla 4 adet yüklenen görüntüyü destekler."
+      },
+      "q2": {
+        "question": "Hangi parametreler mevcut?",
+        "answer": "Düzenleyici görüntüleri, istemi ve en boy oranını destekler. En boy oranı 1:1, 16:9, 9:16, 4:3, 3:4, 3:2, 2:3, 5:4, 4:5, 2:1, 1:2, 21:9 ve 9:21'i içerir."
+      },
+      "q3": {
+        "question": "GPT-Image 2 özellikle ne tür düzenlemelerde iyidir?",
+        "answer": "Özellikle Çince poster düzenlemeleri, belge stili mizanpajlar, fotoğraf gerçekliğinde rötuşlama ve metin, yapı ve gerçekçiliğin önemli olduğu UI veya ekran görüntüsü dönüştürmeleri için kullanışlıdır."
+      }
+    },
+    "finalCTA": {
+      "title": "GPT-Image 2 ile düzenlemeye hazır mısınız?",
+      "description": "Resimlerinizi yükleyin, revizyonu sade bir dille tanımlayın ve posterleri, UI maketlerini veya fotogerçekçi sahneleri daha temiz nihai görsellere dönüştürün.",
+      "button": "Açık Oyun Alanı"
+    },
+    "breadcrumb": {
+      "home": "Ev",
+      "imageToImage": "Resimden Resme",
+      "model": "GPT-Image 2"
+    },
+    "schema": {
+      "softwareName": "joymagic GPT-Image 2 Resimden Resme",
+      "softwareDescription": "Çince poster iyileştirme, fotogerçekçi rötuşlama ve UI ekran görüntüsü dönüştürme için GPT-Image 2 ile yüklenen en fazla 4 resmi düzenleyin.",
+      "howToName": "GPT-Image 2 ile posterler, UI ve fotogerçekçi görüntüler nasıl düzenlenir?",
+      "howToDescription": "GPT-Image 2 ile görüntüleri yükleyin, istediğiniz düzenlemeleri tanımlayın, bir en boy oranı seçin ve revize edilmiş posterler, fotogerçekçi sahneler veya arayüz görselleri oluşturun.",
+      "features": {
+        "multiUpload": "En fazla 4 resim yükleyin",
+        "promptEditing": "Metne duyarlı ve düzene duyarlı görüntü düzenleme",
+        "aspectPresets": "13 en boy oranı ön ayarı"
+      },
+      "steps": {
+        "upload": {
+          "name": "Resimleri yükle",
+          "text": "Aynı poster düzenlemesi, ekran görüntüsü güncellemesi veya fotogerçekçi rötuşlama yönü için 4 adede kadar kaynak görüntü ekleyin."
+        },
+        "prompt": {
+          "name": "İstemi yaz",
+          "text": "Neyin değişmesi gerektiğini, nelerin kalması gerektiğini ve sonucun daha gerçekçi, daha temiz veya daha arayüz benzeri olup olmayacağını açıklayın."
+        },
+        "aspectRatio": {
+          "name": "En boy oranını seçin ve oluşturun",
+          "text": "Son yerleşimle eşleşen çıktı çerçevesini seçin, ardından düzenlenen sonuçları oluşturun ve inceleyin."
+        }
+      }
+    }
+  }
+}

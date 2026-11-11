@@ -1,0 +1,46 @@
+{
+  "primary": {
+    "home": "کور",
+    "infiniteCanvas": "بې پای کينوس",
+    "image": "انځور",
+    "video": "ویډیو",
+    "effects": "اغېزې"
+  },
+  "imageTools": {
+    "Editor & Combiner": "اېډيټر او يوځای کوونکی",
+    "Image to Image": "انځور څخه انځور",
+    "Text to Image": "متن څخه انځور",
+    "PhotoShoot": "عکس اخيستنه",
+    "Variations": "بېلابېلې بڼې",
+    "Face Generator": "د مخ جوړوونکی",
+    "Image Upscaler": "انځور لوړوونکی",
+    "Background Remover": "شالید لرې کوونکی",
+    "Image Eraser": "انځور پاکوونکی",
+    "Image Effects": "د انځور اغېزې"
+  },
+  "videoTools": {
+    "Image to Video": "انځور څخه ويډيو",
+    "Text to Video": "متن څخه ويډيو",
+    "Longcat Avatar": "Lip-Sync",
+    "Reference To Video": "Reference To Video",
+    "Video Extend": "Video Extend",
+    "Motion Control": "د حرکت کنټرول",
+    "Video Effects": "د ويډيو اغېزې"
+  },
+  "library": {
+    "title": "کتابتون",
+    "assets": "شتمنۍ",
+    "creations": "جوړونې",
+    "uploads": "پورته شوي",
+    "collections": "مجموعې"
+  },
+  "creationTypes": {
+    "Video": "ویډیو",
+    "Image": "انځور",
+    "Audio": "غږ",
+    "Effect": "اغېز"
+  },
+  "badges": {
+    "beta": "بېټا"
+  }
+}

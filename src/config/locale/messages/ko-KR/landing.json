@@ -1,0 +1,1544 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "joymagic",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "joymagic"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "특징",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "가격",
+          "url": "/pricing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "제휴",
+          "url": "/affiliate",
+          "icon": "Handshake"
+        },
+        {
+          "title": "AI 효과",
+          "icon": "Sparkles",
+          "children": [
+            {
+              "title": "이미지 효과",
+              "url": "/image-effect",
+              "icon": "Image"
+            },
+            {
+              "title": "비디오 효과",
+              "url": "/video-effect",
+              "icon": "Clapperboard"
+            }
+          ]
+        },
+        {
+          "title": "이미지 AI",
+          "icon": "Image",
+          "children": [
+            {
+              "title": "텍스트에서 이미지",
+              "icon": "Image",
+              "children": [
+                {
+                  "title": "GPT Image 2",
+                  "url": "/text-to-image/gpt-image-2",
+                  "icon": "Image",
+                  "description": "GPT Image 2로 중국어 포스터, 포토리얼 이미지, UI 스크린샷, 제품 비주얼 생성",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "일반",
+                  "url": "/text-to-image/z-image-turbo",
+                  "icon": "Image",
+                  "description": "일반 AI 모델로 텍스트에서 이미지 생성",
+                  "badge": "무료",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana",
+                  "url": "/text-to-image/nano-banana",
+                  "icon": "Image",
+                  "description": "Nano Banana AI 모델로 텍스트에서 이미지 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana Pro",
+                  "url": "/text-to-image/nano-banana-pro",
+                  "icon": "Image",
+                  "description": "Nano Banana Pro AI 모델로 텍스트에서 고품질 이미지 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana 2",
+                  "url": "/text-to-image/nano-banana-2",
+                  "icon": "Image",
+                  "description": "카메라 제어, 선명한 텍스트 렌더링, 최대 4K 출력을 지원하는 차세대 텍스트-이미지 모델",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream V4.5",
+                  "url": "/text-to-image/seedream-4-5",
+                  "icon": "Image",
+                  "description": "Seedream V4.5 AI 모델로 텍스트에서 멋진 이미지 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream 5.0 Lite",
+                  "url": "/text-to-image/seedream-5-0-lite",
+                  "icon": "Image",
+                  "description": "Seedream 5.0 Lite AI 모델로 텍스트에서 멋진 이미지 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Flux 2 Klein",
+                  "url": "/text-to-image/flux-2-klein",
+                  "icon": "Image",
+                  "description": "Flux 2 Klein AI 모델로 텍스트에서 멋진 이미지 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "GPT Image 1",
+                  "url": "/text-to-image/gpt-image-1",
+                  "icon": "Image",
+                  "description": "GPT Image 1 AI 모델로 텍스트에서 이미지 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Qwen Image 202512",
+                  "url": "/text-to-image/qwen-image-202512",
+                  "icon": "Image",
+                  "description": "Qwen Image 202512 AI 모델로 텍스트에서 멋진 이미지 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/text-to-image/wan-2-7",
+                  "icon": "Image",
+                  "description": "Wan 2.7로 텍스트에서 고품질 이미지를 생성하세요. Thinking Mode와 최대 4096 해상도를 지원합니다",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Midjourney",
+                  "url": "/text-to-image/midjourney",
+                  "icon": "Image",
+                  "description": "Midjourney 스타일 AI 모델로 예술적 이미지 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "이미지에서 이미지",
+              "icon": "Images",
+              "badge": "무료",
+              "children": [
+                {
+                  "title": "GPT Image 2",
+                  "url": "/image-to-image/gpt-image-2",
+                  "icon": "Images",
+                  "description": "GPT Image 2로 최대 4장의 이미지를 편집해 중국어 포스터, 포토리얼 보정, 문서형 레이아웃, UI 스크린샷 변환을 처리합니다.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "일반",
+                  "url": "/image-to-image",
+                  "icon": "Images",
+                  "description": "기존 이미지를 기반으로 새 이미지 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Flux 2 Klein",
+                  "url": "/image-to-image/flux-2-klein",
+                  "icon": "Images",
+                  "description": "Flux 2 Klein로 이미지 변환 및 편집. 최대 4개의 이미지 업로드, 이미지당 2 크레딧.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Soul",
+                  "url": "/image-to-image/soul",
+                  "icon": "Images",
+                  "description": "Soul로 이미지 변환. 품질, 크기, 강도 및 스타일 제어.",
+                  "badge": "Hot",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Z Image Turbo",
+                  "url": "/image-to-image/z-image-turbo",
+                  "icon": "Images",
+                  "description": "Z Image Turbo로 이미지 변환. 크기, 강도 및 출력 형식 제어.",
+                  "badge": "무료",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Grok Imagine",
+                  "url": "/image-to-image/grok-imagine-image",
+                  "icon": "Images",
+                  "description": "Grok Imagine으로 이미지 변환. 이미지 한 장을 업로드하고 변환 내용을 설명하세요.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream 5.0 Lite",
+                  "url": "/image-to-image/seedream-5-0-lite",
+                  "icon": "Images",
+                  "description": "Seedream 5.0 Lite로 이미지를 변환하세요. 이미지를 업로드하고 원하는 변환을 설명하세요.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Qwen Image Max",
+                  "url": "/image-to-image/qwen-image-max",
+                  "icon": "Images",
+                  "description": "Qwen Image Max AI로 이미지 편집 및 변환. qwen-image-max-edit 기술 기반 지능형 이미지 편집.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/image-to-image/wan-2-7",
+                  "icon": "Images",
+                  "description": "Wan 2.7로 이미지를 편집하고 변환하세요. 이미지를 업로드하고 최대 4096 크기를 제어하며 seed로 결과를 다듬을 수 있습니다",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7 Image Edit Pro",
+                  "url": "/image-to-image/wan-2-7-image-edit-pro",
+                  "icon": "Images",
+                  "description": "최대 9장 입력, 4096까지의 사용자 지정 크기, seed 제어를 지원하는 고급 Wan 2.7 이미지 편집.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana",
+                  "url": "/image-to-image/nano-banana",
+                  "icon": "Images",
+                  "description": "Nano Banana 이미지 변환 AI 편집기. 최대 10장 업로드, 종횡비 선택, 지능형 이미지 변환.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana 2",
+                  "url": "/image-to-image/nano-banana-2",
+                  "icon": "Images",
+                  "description": "Nano Banana 2 image-to-image AI editor. Upload up to 14 images with aspect ratio and 1K/2K/4K resolution controls. Powered by nano-banana-2-edit.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana Pro Edit Ultra",
+                  "url": "/image-to-image/nano-banana-pro-edit-ultra",
+                  "icon": "Images",
+                  "description": "Nano Banana Pro Edit Ultra image-to-image AI editor. Upload up to 14 images with aspect ratio and 4K/8K resolution controls. Powered by nano-banana-pro-edit-ultra.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Qwen 이미지 레이어",
+              "url": "/qwen-image-layered",
+              "icon": "Layers",
+              "description": "이미지를 편집 가능한 RGBA 레이어로 분해",
+              "icon_url": "https://ocdn.10b.ai/icon/qwen_image_layered.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "이미지 지우기",
+              "url": "/image-eraser",
+              "icon": "Eraser",
+              "description": "이미지에서 원하지 않는 객체, 워터마크 및 배경 제거",
+              "icon_url": "https://ocdn.10b.ai/icon/%20image_eraser.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "배경 제거",
+              "url": "/image-background-remover",
+              "icon": "Scissors",
+              "description": "AI로 이미지 배경을 즉시 제거",
+              "badge": "Free",
+              "icon_url": "https://ocdn.10b.ai/icon/background_remove.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "이미지 확대",
+              "url": "/image-upscaler",
+              "icon": "Maximize2",
+              "description": "AI 정밀도로 이미지를 4K, 8K 또는 16K로 확대",
+              "icon_url": "https://ocdn.10b.ai/icon/image_upscaler.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            }
+          ]
+        },
+        {
+          "title": "비디오 AI",
+          "icon": "Video",
+          "children": [
+            {
+              "title": "텍스트에서 비디오",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "HappyHorse 1.0",
+                  "url": "/text-to-video/happyhorse-1-0",
+                  "icon": "Video",
+                  "description": "HappyHorse 1.0으로 텍스트를 비디오로 생성 - 16:9, 5초, 720p 시네마틱 AI 비디오",
+                  "badge": "신규",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/text-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Wan 2.7로 텍스트에서 영상을 생성하고, 1080p, 화면비, 최대 15초 길이, 프롬프트 확장, seed 제어를 지원합니다.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.6",
+                  "url": "/text-to-video/wan-2-6",
+                  "icon": "Video",
+                  "description": "Wan 2.6로 텍스트에서 비디오 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Veo 3.1",
+                  "url": "/text-to-video/veo-3-1",
+                  "icon": "Video",
+                  "description": "Veo 3.1로 텍스트에서 비디오 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 1.5 Pro",
+                  "url": "/text-to-video/seedance-1-5-pro",
+                  "icon": "Video",
+                  "description": "Seedance 1.5 Pro로 텍스트에서 비디오 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 2.0",
+                  "url": "/text-to-video/seedance-2-0",
+                  "icon": "Video",
+                  "description": "Text to video generation with Seedance 2.0",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "PixVerse v5.6",
+                  "url": "/text-to-video/pixverse-5-6",
+                  "icon": "Video",
+                  "description": "PixVerse v5.6로 텍스트에서 비디오 생성",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "LTX-2",
+                  "url": "/text-to-video/ltx2-fast",
+                  "icon": "Video",
+                  "description": "LTX-2로 텍스트에서 비디오 생성 - 동기화된 오디오가 있는 4K AI 비디오 생성기",
+                  "badge": "Hot",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "이미지에서 비디오",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "HappyHorse 1.0",
+                  "url": "/image-to-video/happyhorse-1-0",
+                  "icon": "Video",
+                  "description": "HappyHorse 1.0으로 이미지 한 장을 5초 720p 시네마틱 비디오로 애니메이션화",
+                  "badge": "신규",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/image-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Wan 2.7로 이미지에서 영상을 만들고, 시작 프레임, 선택형 마지막 프레임, 선택형 오디오, 해상도, 길이, 프롬프트 확장, seed를 제어할 수 있습니다.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Vidu Q3",
+                  "url": "/image-to-video/vidu-q3",
+                  "icon": "Video",
+                  "description": "Vidu Q3로 이미지에서 비디오 생성 - 움직임 강도를 제어하고, 선택적으로 오디오와 배경 음악을 추가",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Midjourney",
+                  "url": "/image-to-video/midjourney",
+                  "icon": "Video",
+                  "description": "Midjourney로 이미지에서 비디오 생성 - 모션, 품질 및 스타일 매개변수 제어",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Veo 3.1",
+                  "url": "/image-to-video/veo-3-1",
+                  "icon": "Video",
+                  "description": "Veo 3.1로 이미지에서 비디오 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 1.5 Pro",
+                  "url": "/image-to-video/seedance-1-5-pro",
+                  "icon": "Video",
+                  "description": "Seedance 1.5 Pro로 이미지에서 비디오 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 2.0",
+                  "url": "/image-to-video/seedance-2-0",
+                  "icon": "Video",
+                  "description": "Seedance 2.0로 이미지에서 비디오 생성",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500",
+                  "badge": "New"
+                },
+                {
+                  "title": "PixVerse v5.6",
+                  "url": "/image-to-video/pixverse-5-6",
+                  "icon": "Video",
+                  "description": "PixVerse v5.6로 이미지에서 비디오 생성",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "LTX-2",
+                  "url": "/image-to-video/ltx2-fast",
+                  "icon": "Video",
+                  "description": "LTX-2로 이미지에서 비디오 생성 - 동기화된 오디오가 있는 4K AI 비디오 생성기",
+                  "badge": "Hot",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Reference To Video",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "Wan 2.7",
+                  "url": "/reference-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Wan 2.7 using multi-image and multi-video identity guidance.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 4K",
+                  "url": "/reference-to-video/kling-video-o3-4k",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 4K for high-fidelity subject-consistent shots.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O1 Std",
+                  "url": "/reference-to-video/kling-video-o1-std",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O1 Std using image and optional video references.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 Pro",
+                  "url": "/reference-to-video/kling-video-o3-pro",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 Pro, with optional audio generation and motion guidance.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 Std",
+                  "url": "/reference-to-video/kling-video-o3-std",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 Std for subject-consistent cinematic clips.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Grok Imagine Video",
+                  "url": "/reference-to-video/grok-imagine-video",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Grok Imagine Video from multiple reference images.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Video Extend",
+              "url": "/video-extend/wan-2-7",
+              "icon": "Video",
+              "description": "Extend existing videos with Wan 2.7, with optional audio, prompt expansion, and 720p/1080p output.",
+              "badge": "신규",
+              "icon_url": "https://ocdn.10b.ai/icon/video_extend.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "모션 컨트롤",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "Kling 2.6 Pro",
+                  "url": "/motion-control/kling-2-6-pro",
+                  "icon": "Video",
+                  "description": "Kling 2.6 Pro를 사용한 모션 컨트롤 비디오 생성 - 이미지 및 비디오 입력으로 비디오 움직임 제어",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Longcat Avatar",
+              "url": "/longcat-avatar",
+              "icon": "Video",
+              "description": "오디오 및 이미지 동기화로 AI 아바타 비디오 생성 - 최대 2분 길이의 말하는 아바타 비디오 생성",
+              "icon_url": "https://ocdn.10b.ai/icon/longcat_avatar.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            }
+          ]
+        },
+        {
+          "title": "블로그",
+          "url": "/blog",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": []
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "disclaimer": "joymagic is an independent AI image-generation service and is not affiliated with, endorsed by, or connected to Alibaba Group or any of its AI models. All references to \"joymagic\" relate solely to our own product and technology."
+  },
+  "hero": {
+    "id": "hero",
+    "title": "joymagic",
+    "highlight_text": "효율적인 이미지 생성",
+    "description": "단일 스트림 디퓨전 트랜스포머<br/>60억 파라미터의 효율적인 이미지 생성 모델",
+    "announcement": null,
+    "buttons": [
+      {
+        "title": "Join Discord for Secred Prompt!",
+        "url": "https://discord.gg/bVCk5PHb8d",
+        "icon_url": "https://pub.wanai.pro/%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90/discord-logo-discord-icon-transparent-free-png.png",
+        "target": "_blank"
+      }
+    ],
+    "show_avatars": true,
+    "show_award": true,
+    "image": {
+      "src": "/imgs/features/hero-zimage.webp",
+      "alt": "joymagic"
+    },
+    "image_invert": {
+      "src": "/imgs/features/hero-zimage-dark.webp",
+      "alt": "joymagic"
+    }
+  },
+  "logos": {
+    "title": "주요 AI 플랫폼에서 이용 가능",
+    "items": [
+      {
+        "title": "GitHub",
+        "image": {
+          "src": "/imgs/logos/github.svg",
+          "alt": "GitHub"
+        }
+      },
+      {
+        "title": "ModelScope",
+        "image": {
+          "src": "/imgs/logos/modelscope.svg",
+          "alt": "ModelScope"
+        }
+      },
+      {
+        "title": "HuggingFace",
+        "image": {
+          "src": "/imgs/logos/huggingface.svg",
+          "alt": "HuggingFace"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "id": "introduce",
+    "title": "joymagic란 무엇인가요?",
+    "label": "소개",
+    "description": "joymagic는 이미지 생성을 위한 효율적인 60억 파라미터 기반 모델입니다. 체계적인 최적화를 통해 거대한 모델 크기에 의존하지 않고도 최상급 성능이 달성 가능함을 입증하며, 사진 현실적 생성 및 이중언어 텍스트 렌더링에서 강력한 결과를 제공합니다.",
+    "image": {
+      "src": "/imgs/features/zimage-intro.webp",
+      "alt": "introduce"
+    },
+    "items": [
+      {
+        "title": "사진 현실적 품질",
+        "description": "디테일, 조명, 텍스처에 대한 세부 제어가 가능한写真급 사실성. 구도 및 전체적 분위기에서 탁월한 미학적 품질을 달성합니다.",
+        "icon": "Camera",
+        "image": {
+          "src": "/imgs/features/photorealistic.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "초고속 추론",
+        "description": "기업용 H800 GPU에서 1초 미만 추론 지연시간 달성. 생성을 위해 단 8단계만 필요.",
+        "icon": "Zap",
+        "image": {
+          "src": "/imgs/features/fast-inference.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "이중언어 텍스트 렌더링",
+        "description": "얼굴 사실성과 전체적 미학적 구도를 유지하면서 중국어와 영어 텍스트를 정확하게 렌더링합니다.",
+        "icon": "Languages",
+        "image": {
+          "src": "/imgs/features/bilingual-text.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "효율적인 VRAM 사용",
+        "description": "16GB 미만의 VRAM으로 일반 소비자용 그래픽 카드에서도 원활하게 실행되어 고급 이미지 생성에 대한 접근성을 제공합니다.",
+        "icon": "MemoryStick",
+        "image": {
+          "src": "/imgs/features/vram.webp",
+          "alt": "introduce"
+        }
+      }
+    ]
+  },
+  "benefits": {
+    "id": "benefits",
+    "title": "핵심 기능",
+    "label": "특징",
+    "description": "joymagic 모델의 강력한 능력 한눈에 보기.",
+    "items": [
+      {
+        "title": "사진 현실적",
+        "description": "写真급 사실성",
+        "icon": "Camera",
+        "image": {
+          "src": "/imgs/features/benefit-1.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "1초",
+        "description": "초고속 추론 속도",
+        "icon": "Timer",
+        "image": {
+          "src": "/imgs/features/benefit-2.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "6B+ 파라미터",
+        "description": "단일 스트림 디퓨전",
+        "icon": "Layers",
+        "image": {
+          "src": "/imgs/features/benefit-3.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "이중언어 텍스트",
+        "description": "정확한 텍스트 렌더링",
+        "icon": "Languages",
+        "image": {
+          "src": "/imgs/features/benefit-4.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "16 GB VRAM",
+        "description": "효율적인 메모리 사용",
+        "icon": "MemoryStick",
+        "image": {
+          "src": "/imgs/features/benefit-5.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "세계 지식",
+        "description": "깊은 의미론적 이해",
+        "icon": "Brain",
+        "image": {
+          "src": "/imgs/features/benefit-6.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "이미지 편집",
+        "description": "창의적인 단일 이미지 편집",
+        "icon": "Edit",
+        "image": {
+          "src": "/imgs/features/benefit-7.webp",
+          "alt": "benefits"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "id": "usage",
+    "title": "모델 변형",
+    "description": "joymagic는 다양한 사용 사례를 위한 전문 모델을 제공합니다:",
+    "image": {
+      "src": "/imgs/features/models.webp",
+      "alt": "usage"
+    },
+    "image_position": "left",
+    "text_align": "left",
+    "items": [
+      {
+        "title": "🚀 Z Image Turbo",
+        "description": "사진 현실적 이미지 생성, 중국어와 영어 텍스트의 정확한 렌더링, 이중언어 명령에 대한 강력한 준수 능력을 갖춘 joymagic의 증류 버전. 단 8단계로 선도 경쟁업체와 유사하거나 이를 초과하는 성능을 달성합니다.",
+        "image": {
+          "src": "/imgs/features/turbo-model.webp",
+          "alt": "usage"
+        }
+      },
+      {
+        "title": "✍️ joymagic Edit",
+        "description": "이미지 편집에 전문화된 joymagic의 연속 학습 변형. 정확한 로컬 수정부터 글로벌 스타일 변환까지 다양한 작업을 수행하고 높은 편집 일관성을 유지하며 복잡한 명령을 따르는 데 탁월합니다.",
+        "image": {
+          "src": "/imgs/features/edit-model.webp",
+          "alt": "usage"
+        }
+      }
+    ]
+  },
+  "features": {
+    "id": "features",
+    "title": "능력 쇼케이스",
+    "description": "다양한 영역에서 joymagic의 고급 기능을 발견하세요.",
+    "items": [
+      {
+        "title": "사진 현실적 생성",
+        "description": "탁월한 미학적 품질을 유지하면서 강력한 사진 현실적 이미지 생성을 제공합니다.",
+        "icon": "Camera"
+      },
+      {
+        "title": "이중언어 텍스트 렌더링",
+        "description": "다양한 시나리오에서 복잡한 중국어와 영어 텍스트를 정확하게 렌더링합니다.",
+        "icon": "Languages"
+      },
+      {
+        "title": "세계 지식",
+        "description": "광범위한 세계 지식과 다양한 문화적 개념에 대한 이해를 보유하고 있습니다.",
+        "icon": "Globe"
+      },
+      {
+        "title": "의미론적 이해",
+        "description": "구조화된 추론 체인을 사용하여 논리와 상식을 주입합니다.",
+        "icon": "Brain"
+      },
+      {
+        "title": "창의적 편집",
+        "description": "이미지 변환을 위한 복잡한 명령을 정확하게 실행합니다.",
+        "icon": "Edit"
+      },
+      {
+        "title": "명령 준수",
+        "description": "이미지 요소와 변환에 대한 세부 제어를 보여줍니다.",
+        "icon": "CheckCircle"
+      }
+    ]
+  },
+  "models": {
+    "id": "models",
+    "title": "모델 아키텍처",
+    "description": "단 60억 파라미터로, 수배 큰 모델에서 생성된 이미지와 견줄 만한 사진 현실적 이미지를 생성합니다. 16GB 미만의 VRAM으로 일반 소비자용 그래픽 카드에서도 원활하게 실행될 수 있습니다.",
+    "items": [
+      {
+        "title": "단일 스트림 디퓨전",
+        "description": "joymagic 모델은 단일 스트림 디퓨전 트랜스포머 아키텍처를 채택합니다. 이 디자인은 텍스트 및 이미지 임베딩과 같은 다양한 조건부 입력과 잡음이 있는 이미지 잠재벡터를 단일 시퀀스로 통합한 후 Transformer 백본에 공급합니다.",
+        "image": {
+          "src": "/imgs/features/architecture.webp",
+          "alt": "architecture"
+        }
+      }
+    ]
+  },
+  "architecture": {
+    "id": "architecture",
+    "title": "기술 심층 분석",
+    "description": "joymagic의 혁신적인 아키텍처와 훈련 기법에 대해 알아보세요.",
+    "items": [
+      {
+        "title": "디커플드-DMD",
+        "description": "8단계 joymagic 모델을 가능하게 하는 핵심 소수 단계 증류 알고리즘. CFG 증강과 분포 정렬을 인식하고 분리함으로써 개선된 증류 과정을 개발했습니다.",
+        "icon": "Layers"
+      },
+      {
+        "title": "DMDR",
+        "description": "의미론적 정렬, 미학적 품질, 구조적 일관성의進一步 개선을 달성하기 위해 DMD와 강화학습을 융합합니다.",
+        "icon": "GitBranch"
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "자주 묻는 질문",
+    "description": "joymagic와 그 능력에 대한 일반적인 질문들.",
+    "items": [
+      {
+        "question": "joymagic란 무엇인가요?",
+        "answer": "joymagic는 이미지 생성을 위한 효율적인 60억 파라미터 기반 모델입니다. 거대한 모델 크기에 의존하지 않고도 최상급 성능이 달성 가능함을 입증하며, 사진 현실적 생성 및 이중언어 텍스트 렌더링에서 강력한 결과를 제공합니다."
+      },
+      {
+        "question": "joymagic의 주요 특징은 무엇인가요?",
+        "answer": "joymagic는 사진 현실적 이미지 생성, 이중언어 텍스트 렌더링 (영어 & 중국어), 초고속 추론 (8단계), 효율적인 VRAM 사용 (16GB), 풍부한 세계 지식 이해, 그리고 창조적인 이미지 편집 능력에서 탁월합니다."
+      },
+      {
+        "question": "어떤 모델을 사용할 수 있나요?",
+        "answer": "joymagic는 고품질 출력과 안정적인 지시 준수를 지원하는 최적화된 이미지 생성 및 이미지 편집 워크플로를 제공합니다."
+      },
+      {
+        "question": "어떤 하드웨어가 필요하나요?",
+        "answer": "joymagic는 16GB 미만의 VRAM으로 일반 소비자용 그래픽 카드에서도 원활하게 실행될 수 있습니다. 기업용 H800 GPU에서는 1초 미만 추론 지연시간을 달성합니다."
+      },
+      {
+        "question": "joymagic는 오픈소스인가요?",
+        "answer": "네! 모델 코드, 가중치, 온라인 데모가 GitHub, ModelScope, HuggingFace에서 커뮤니티의 탐색과 사용을 위해 공개적으로 제공됩니다."
+      },
+      {
+        "question": "joymagic의 독특한 점은 무엇인가요?",
+        "answer": "joymagic는 조건부 입력과 이미지 잠재벡터를 통합하는 단일 스트림 디퓨전 트랜스포머 아키텍처를 채택합니다. 최적의 성능을 위해 혁신적인 디커플드-DMD 증류 및 DMDR 강화학습 기법을 사용합니다."
+      }
+    ]
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "joymagic",
+      "description": "단일 스트림 디퓨전 트랜스포머를 통한 효율적인 이미지 생성 기반 모델. ",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "joymagic"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "프로젝트",
+          "children": [
+            {
+              "title": "특징",
+              "url": "/#features",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "리소스",
+          "children": [
+            {
+              "title": "문서화",
+              "url": "/docs",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "support@joymagic.fun",
+          "url": "mailto:support@joymagic.fun"
+        },
+        {
+          "title": "개인정보 보호정책",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "서비스 약관",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "콘텐츠 모더레이션 정책",
+          "url": "/content-moderation-policy"
+        },
+        {
+          "title": "허용 가능한 사용 정책",
+          "url": "/acceptable-use-policy"
+        },
+        {
+          "title": "환불 정책",
+          "url": "/refund-policy"
+        },
+        {
+          "title": "AI 래퍼 면책 조항",
+          "url": "/ai-wrapper-disclaimer"
+        },
+        {
+          "title": "오픈소스 출처 표기",
+          "url": "/open-source-attribution"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "disclaimer": "joymagic is an independent AI image-generation service and is not affiliated with, endorsed by, or connected to Alibaba Group or any of its AI models. All references to \"joymagic\" relate solely to our own product and technology."
+  },
+  "heroImageWall": {
+    "label": "큐레이션 갤러리",
+    "title": "몇 초 만에 완성되는 영감 보드",
+    "description": "최신 결과 25장을 지연 로딩으로 표시합니다. 타일을 누르면 확대해 자세히 볼 수 있습니다.",
+    "hint": "클릭하여 확대",
+    "view": "보기",
+    "alt": "갤러리 이미지 {index}"
+  },
+  "wavespeed": {
+    "prompt_label": "프롬프트",
+    "prompt_placeholder": "생성하고 싶은 이미지를 설명하세요. 예: 왕가위 영화 스타일, 좁은 홍콩 복도에서 담배를 피우는 외로운 남자, 1990년대…",
+    "buttons": {
+      "generating": "생성 중...",
+      "checking": "사용 가능 여부 확인 중...",
+      "unavailable": "서비스를 사용할 수 없습니다",
+      "generate": "생성",
+      "share_to_generate": "공유 후 생성",
+      "click_to_pay": "크레딧 구매"
+    },
+    "share_hint": "SNS에 공유하면 무료 생성을 이용할 수 있습니다",
+    "prompt_inspirations": "프롬프트 영감",
+    "image_area": {
+      "alt": "생성된 이미지",
+      "loading": "이미지를 생성하는 중...",
+      "placeholder": "여기에 생성된 이미지가 표시됩니다"
+    },
+    "links": {
+      "open_in_new_tab": "새 탭에서 열기"
+    },
+    "status": {
+      "unknown_error": "알 수 없는 오류",
+      "submitting": "요청을 보내는 중...",
+      "task_submitted": "작업이 전송되었습니다. ID: {id}",
+      "processing": "처리 중... 상태: {status}",
+      "image_success": "이미지 생성 완료!",
+      "video_submitting": "영상 생성 요청 중...",
+      "video_task_submitted": "영상 작업이 전송되었습니다. ID: {id}",
+      "video_processing": "영상 생성 중... 상태: {status}",
+      "video_success": "영상 생성 완료!",
+      "estimating": "예상 중..."
+    },
+    "errors": {
+      "restricted": "현재 트래픽이 많아 서비스가 제한됩니다. 잠시 후 다시 시도해주세요.",
+      "prompt_required": "프롬프트를 입력하세요",
+      "task_failed": "작업 실패: {error}",
+      "request_timeout": "요청 시간이 초과되었습니다. 다시 시도하세요.",
+      "http_error": "오류: {code}",
+      "http_error_with_text": "오류: {code} - {text}",
+      "request_failed": "요청 실패: {error}",
+      "estimate_failed": "크레딧 예상 실패"
+    },
+    "video": {
+      "cta_pay": "지금 영상 생성하기 ($5로 영상 2개)",
+      "cta_ready": "이 이미지로 영상 생성",
+      "title": "영상 생성",
+      "creating": "영상을 만드는 중...",
+      "unsupported": "브라우저가 video 태그를 지원하지 않습니다.",
+      "download": "영상 다운로드",
+      "credit_description": "영상 생성",
+      "errors": {
+        "insufficient_credits": "크레딧이 부족합니다. 영상 생성에는 최소 250 크레딧이 필요합니다.",
+        "image_required": "먼저 이미지를 생성하세요",
+        "task_failed": "작업 실패: {error}",
+        "timeout": "영상 생성 시간이 초과되었습니다. 다시 시도하세요."
+      }
+    },
+    "payment": {
+      "title": "크레딧 구매",
+      "description_checking": "새 탭에서 결제를 완료해주세요. 상태는 자동으로 확인합니다.",
+      "description_idle": "영상 생성용 크레딧 받기",
+      "pricing": "$5 = 500 크레딧",
+      "pricing_note": "영상 1회 생성당 250 크레딧",
+      "waiting_confirmation": "결제 확인을 기다리는 중...",
+      "checkout_url_missing": "결제 링크를 찾을 수 없습니다",
+      "success_toast": "결제가 완료되었습니다! 크레딧이 추가되었습니다.",
+      "failure_toast": "결제 실패: {error}",
+      "processing": "처리 중...",
+      "waiting": "결제 대기 중...",
+      "pay_button": "$5 결제하기"
+    },
+    "payment_image": {
+      "title": "크레딧 구매",
+      "description_checking": "새 탭에서 결제를 완료해주세요. 상태는 자동으로 확인합니다.",
+      "description_idle": "하루에 2장의 이미지를 무료로 생성할 수 있습니다. 오늘의 무료 할당량이 모두 소진되었습니다. 크레딧을 구매하여 지금 바로 이미지를 생성하거나, 내일의 무료 할당량을 기다릴 수 있습니다.",
+      "pricing": "$5 = 500 크레딧",
+      "pricing_note": "이미지 1회 생성당 2 크레딧",
+      "waiting_confirmation": "결제 확인을 기다리는 중...",
+      "checkout_url_missing": "결제 링크를 찾을 수 없습니다",
+      "success_toast": "결제가 완료되었습니다! 크레딧이 추가되었습니다.",
+      "failure_toast": "결제 실패: {error}",
+      "processing": "처리 중...",
+      "waiting": "결제 대기 중...",
+      "pay_button": "$5 결제하기"
+    },
+    "featureCards": {
+      "image": {
+        "title": "이미지",
+        "description": "룩을 생성, 편집 및 탐색합니다."
+      },
+      "video": {
+        "title": "비디오",
+        "description": "프롬프트와 비주얼을 클립으로 변환합니다."
+      },
+      "audio": {
+        "title": "오디오",
+        "description": "곧 출시",
+        "badge": "곧 출시"
+      },
+      "viewAll": "모두 보기"
+    },
+    "aiTools": {
+      "title": "AI Tools",
+      "subtitle": "Jump into the right tools from existing scenes."
+    },
+    "freeTools": {
+      "title": "Hot Tools",
+      "subtitle": "사용 가능한 장면에서 무료 도구를 사용하세요.",
+      "badges": ["무료", "Free"]
+    },
+    "aiModels": {
+      "title": "AI 모델",
+      "subtitle": "기존 장면에서 적합한 도구로 빠르게 이동하세요."
+    },
+    "desktopPlayground": {
+      "credits": "크레딧",
+      "model": {
+        "label": "모델",
+        "choose": "모델 선택",
+        "untitled": "이름 없는 모델",
+        "fallbackTitle": "AI",
+        "fallbackMonogram": "M"
+      },
+      "scene": {
+        "untitled": "이름 없는 장면"
+      },
+      "sceneGroups": {
+        "image": "이미지",
+        "video": "비디오"
+      },
+      "sceneMeta": {
+        "imageDescription": "비주얼을 만들고, 편집하고, 향상합니다",
+        "videoDescription": "클립과 모션 워크플로를 애니메이션으로 만듭니다"
+      },
+      "scenePicker": {
+        "title": "장면 선택",
+        "close": "닫기",
+        "currentSelection": "현재 선택",
+        "current": "현재",
+        "switch": "전환",
+        "currentSceneFallback": "선택된 장면 없음",
+        "empty": "지금 사용할 수 있는 장면이 없습니다.",
+        "tabs": {
+          "video": "비디오",
+          "image": "이미지"
+        },
+        "trigger": {
+          "open": "장면 전환",
+          "change": "변경"
+        }
+      },
+      "sceneNames": {
+        "textToImage": "텍스트 투 이미지",
+        "imageToImage": "이미지 투 이미지",
+        "qwenImageLayered": "Qwen 레이어드 이미지",
+        "imageEraser": "이미지 지우개",
+        "backgroundRemover": "배경 제거",
+        "imageUpscaler": "이미지 업스케일러",
+        "textToVideo": "텍스트 투 비디오",
+        "imageToVideo": "이미지 투 비디오",
+        "motionControl": "모션 컨트롤",
+        "longcatAvatar": "롱캣 아바타",
+        "videoFaceSwap": "비디오 얼굴 바꾸기",
+        "aiClothesRemover": "AI 의상 제거",
+        "videoExtend": "Video Extend"
+      },
+      "prompt": {
+        "placeholder": "이미지를 설명해 주세요...",
+        "referencePlaceholder": "이미지를 어떻게 변환할지 설명해 주세요..."
+      },
+      "aspectRatio": {
+        "auto": "자동"
+      },
+      "uploads": {
+        "uploading": "파일이 아직 업로드 중입니다. 잠시만 기다려 주세요.",
+        "defaultHint": "계속하려면 미디어를 업로드하세요.",
+        "referenceHint": "시작하려면 참조 미디어를 업로드하세요."
+      },
+      "actions": {
+        "generateImage": "이미지 생성",
+        "generateVideo": "비디오 생성",
+        "generating": "생성 중..."
+      },
+      "errors": {
+        "generationFailed": "생성에 실패했습니다",
+        "generateImageFailed": "이미지 생성에 실패했습니다",
+        "insufficientCredits": "크레딧이 부족합니다: 현재 {remaining}크레딧이며, 최소 {required}크레딧이 필요합니다."
+      },
+      "generatedPanel": {
+        "empty": "아직 생성한 항목이 없습니다.",
+        "titleImages": "이번 생성 기록",
+        "titleVideos": "이번 생성 기록(동영상)",
+        "title": "생성된 {mediaLabel}",
+        "count": "{count}개의 {label}",
+        "image": "이미지",
+        "images": "이미지",
+        "video": "비디오",
+        "videos": "비디오",
+        "itemAlt": "생성 결과 {index}",
+        "itemLabel": "생성된 {mediaItemLabel} {index}",
+        "preview": {
+          "close": "닫기",
+          "openPreview": "미리보기 열기"
+        },
+        "deleteConfirm": {
+          "title": "삭제 확인",
+          "description": "이 이미지를 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+          "cancel": "취소",
+          "confirm": "삭제"
+        },
+        "defaults": {
+          "imageTitle": "이미지가 여기에 표시됩니다",
+          "videoTitle": "비디오가 여기에 표시됩니다",
+          "imageDescription": "생성을 시작하거나 장면을 선택해 첫 이미지를 만들어 보세요.",
+          "videoDescription": "생성을 시작하거나 장면을 선택해 첫 비디오를 만들어 보세요.",
+          "featuredImage": "대표 이미지",
+          "featuredVideo": "대표 비디오"
+        },
+        "selection": {
+          "clear": "선택 해제",
+          "download": "다운로드",
+          "delete": "선택한 항목 삭제",
+          "selectItem": "항목 선택",
+          "selectedItem": "선택된 항목",
+          "count": "{count}개 선택됨"
+        },
+        "actions": {
+          "imageToVideo": "이미지를 비디오로",
+          "regenerate": "다시 생성",
+          "upscaleImage": "이미지 업스케일"
+        }
+      },
+      "videoWorkbench": {
+        "title": "생성된 비디오",
+        "subtitle": "생성한 비디오는 여기에 표시됩니다.",
+        "emptyHint": "왼쪽에서 생성을 시작하면 여기에서 비디오 결과를 미리 보고 관리할 수 있습니다."
+      },
+      "fields": {
+        "prompt": "프롬프트",
+        "negativePrompt": "네거티브 프롬프트",
+        "referenceImage": "참조 이미지",
+        "referenceImages": "참조 이미지",
+        "referenceVideo": "참조 비디오",
+        "audioTrack": "오디오 트랙",
+        "maskImage": "마스크 이미지",
+        "aspectRatio": "종횡비",
+        "resolution": "해상도",
+        "outputFormat": "출력 형식",
+        "seed": "시드",
+        "width": "너비",
+        "height": "높이",
+        "size": "크기",
+        "duration": "길이",
+        "shotType": "샷 유형",
+        "promptExpansion": "프롬프트 확장",
+        "generateAudio": "오디오 생성",
+        "fixedCamera": "고정 카메라",
+        "thinkingType": "사고 모드",
+        "movementAmplitude": "움직임 강도",
+        "numberOfLayers": "레이어 수",
+        "quality": "품질",
+        "stylize": "스타일화",
+        "chaos": "카오스",
+        "weird": "기괴함",
+        "version": "버전",
+        "niji": "Niji",
+        "strength": "강도",
+        "style": "스타일",
+        "targetResolution": "목표 해상도",
+        "referenceAudio": "Reference Audio",
+        "firstFrame": "시작 프레임",
+        "lastFrame": "마지막 프레임(선택)"
+      },
+      "options": {
+        "auto": "자동",
+        "enabled": "사용",
+        "disabled": "사용 안 함",
+        "low": "낮음",
+        "medium": "중간",
+        "high": "높음",
+        "small": "작음",
+        "large": "큼",
+        "singleShot": "단일 샷",
+        "multipleShots": "다중 샷",
+        "none": "없음",
+        "close": "클로즈업"
+      },
+      "placeholders": {
+        "describeImage": "생성할 이미지를 설명해 주세요",
+        "transformImage": "업로드한 이미지를 어떻게 변환할지 설명해 주세요",
+        "describeVideo": "생성할 비디오를 설명해 주세요",
+        "animateImage": "업로드한 이미지가 어떻게 움직여야 하는지 설명해 주세요",
+        "negativePrompt": "피하고 싶은 내용을 설명해 주세요",
+        "randomSeed": "랜덤 시드는 -1을 사용하세요",
+        "randomSeedOrEmpty": "비워 두거나 -1을 사용하면 랜덤 시드가 됩니다",
+        "fillErasedArea": "지운 영역을 무엇으로 채울지 설명해 주세요"
+      },
+      "descriptions": {
+        "describeImage": "생성할 이미지를 설명해 주세요",
+        "widthPixels": "이미지 너비(픽셀, 256-1536, 64의 배수여야 함)",
+        "heightPixels": "이미지 높이(픽셀, 256-1536, 64의 배수여야 함)",
+        "seedHelp": "재현 가능한 결과를 위해 시드 값을 설정합니다. 랜덤 시드는 -1을 사용하세요.",
+        "optionalReferenceImage": "스타일에 영향을 주기 위한 선택적 참조 이미지를 업로드하세요.",
+        "numberOfLayers": "원본 이미지에서 분리할 의미 레이어 수를 선택하세요.",
+        "promptExpansion": "짧은 프롬프트를 모델이 자동으로 확장하도록 합니다.",
+        "generateAudioSynced": "비디오와 동기화된 오디오를 생성합니다.",
+        "generateAudioNative": "출력 비디오에 네이티브 동기화 오디오를 생성합니다.",
+        "fixedCamera": "생성 중 카메라를 더 안정적으로 유지합니다.",
+        "generateAudioIncluded": "결과에 모델 생성 오디오를 포함합니다.",
+        "generateAudioOutput": "비디오 출력용 동기화 오디오를 생성합니다.",
+        "referenceVideoMotion": "움직임 패턴을 전달할 비디오를 업로드하세요.",
+        "audioTrackLimit": "최대 120초 길이의 오디오 트랙을 업로드하세요.",
+        "faceImage": "비디오에 교체할 얼굴 이미지를 업로드하세요.",
+        "targetVideo": "얼굴 교체용 대상 비디오를 업로드하세요.",
+        "maskImage": "선택 사항입니다. 삭제할 영역을 제어할 마스크 이미지를 업로드하세요.",
+        "uploadUpToImages": "최대 {count}장의 이미지를 업로드",
+        "uploadImageToAnimate": "애니메이션할 이미지를 업로드",
+        "referenceVideoLimit": "MP4, WebM, MOV (max 50MB, up to 3 videos, duration ≤ 15s)",
+        "referenceAudioLimit": "WAV, MP3 (max 20MB, up to 3 audios, duration ≤ 15s)",
+        "uploadLastFrameImageOptional": "선택 사항: 마지막 프레임 이미지를 업로드하면 시작 프레임에서 마지막 프레임으로의 전환이 자동으로 적용됩니다.",
+        "uploadFirstFrameImage": "시작 프레임 이미지를 업로드하세요."
+      },
+      "mediaPanel": {
+        "common": {
+          "all": "전체"
+        },
+        "tabs": {
+          "assets": "에셋",
+          "creations": "창작물",
+          "uploads": "업로드",
+          "collections": "컬렉션",
+          "templates": "템플릿"
+        },
+        "filters": {
+          "open": "필터 열기",
+          "title": "필터",
+          "subtitle": "창작물 보기를 세부 조정하세요",
+          "dateRange": "날짜 범위",
+          "pickDateRange": "날짜 범위 선택",
+          "keyword": "키워드",
+          "searchPlaceholder": "업로드 검색",
+          "type": "유형",
+          "tool": "도구",
+          "model": "모델",
+          "clear": "지우기",
+          "cancel": "취소",
+          "apply": "적용",
+          "done": "완료"
+        },
+        "mediaTypes": {
+          "image": "이미지",
+          "video": "비디오",
+          "audio": "오디오"
+        },
+        "weekdays": {
+          "su": "일",
+          "mo": "월",
+          "tu": "화",
+          "we": "수",
+          "th": "목",
+          "fr": "금",
+          "sa": "토"
+        },
+        "collections": {
+          "heading": "Collections",
+          "createCardLabel": "Create New Collections",
+          "createTitle": "Create collection",
+          "createDescription": "Group related assets so you can organise your workspace faster.",
+          "renameTitle": "Rename collection",
+          "renameDescription": "Choose a clearer name for this collection.",
+          "deleteTitle": "Delete collection",
+          "deleteDescription": "Delete \"{name}\"? This only removes the collection itself for now.",
+          "renameAction": "Rename",
+          "deleteAction": "Delete",
+          "createAction": "Create",
+          "cancelAction": "Cancel",
+          "nameLabel": "Collection name",
+          "namePlaceholder": "Enter a collection name",
+          "assetsCount": "{count} assets",
+          "emptyTitle": "No collections yet",
+          "emptyDescription": "Create your first collection to start organising assets.",
+          "createSuccess": "Collection created",
+          "renameSuccess": "Collection renamed",
+          "deleteSuccess": "Collection deleted",
+          "createError": "Failed to create collection",
+          "renameError": "Failed to rename collection",
+          "deleteError": "Failed to delete collection"
+        },
+        "states": {
+          "noMatchingTitle": "일치하는 항목이 없습니다",
+          "noMatchingDescription": "날짜, 모델, 도구 또는 미디어 유형 필터를 조정해 보세요.",
+          "clearFilters": "필터 지우기",
+          "creationsDescription": "최근 생성한 작업을 둘러보고 관리하세요."
+        },
+        "viewMode": {
+          "title": "보기 모드",
+          "previewLayout": "미리보기 레이아웃",
+          "overlays": "오버레이",
+          "metadata": "메타데이터",
+          "originalRatio": "원본 비율",
+          "cropToFill": "채우기에 맞게 자르기",
+          "mixedGrid": "혼합 그리드"
+        },
+        "collectionActions": {
+          "remove": "컬렉션에서 제거",
+          "error": "컬렉션에서 항목을 제거하지 못했습니다"
+        },
+        "collectionPicker": {
+          "loadError": "컬렉션을 불러오지 못했습니다",
+          "addError": "항목을 컬렉션에 추가하지 못했습니다",
+          "addSuccess": "컬렉션에 추가되었습니다",
+          "addButton": "컬렉션에 추가",
+          "newCollection": "새 컬렉션"
+        },
+        "hints": {
+          "recent7Days": "Creations, Uploads 및 Collection items는 최근 7일만 지원합니다. 생성한 에셋은 7일 이내에 다운로드해 주세요."
+        }
+      }
+    },
+    "homepageAnnouncement": {
+      "badge": "What's New - April 2026",
+      "title": "SEEDANCE 2.0 IS HERE",
+      "description": "The most powerful video generation model yet. Create faster, longer and more cinematic clips in one click.",
+      "cta": "Try Now",
+      "closeLabel": "Close announcement",
+      "videoLabel": "Seedance 2.0 announcement video"
+    }
+  },
+  "faceSwap": {
+    "title": "AI 영상 페이스스왑 온라인",
+    "description": "우리의 <strong class=\"text-primary font-semibold\">AI 영상 페이스스왑 온라인</strong> 도구로 몇 초 만에 재미있고 사실적인 페이스스왑 영상을 만들어 보세요. 편집 실력은 전혀 필요 없습니다; 영상을 업로드하고 얼굴을 선택하면 나머지는 AI가 마법처럼 처리합니다.",
+    "tabs": {
+      "single": "단일 얼굴",
+      "multiple": "여러 얼굴"
+    },
+    "steps": {
+      "video": {
+        "title": "영상 업로드",
+        "cta": "드래그/클릭하여 업로드",
+        "hint": "지원: M4V/MP4/MOV/WEBM",
+        "dragDrop": "드래그 앤 드롭 또는 클릭하여 업로드",
+        "dropHere": "여기에 영상을 드롭하세요"
+      },
+      "face": {
+        "title": "얼굴 이미지 업로드",
+        "cta": "드래그/클릭하여 업로드",
+        "hint": "지원: JPG/PNG/WEBP",
+        "dragDrop": "드래그 앤 드롭 또는 클릭하여 업로드",
+        "dropHere": "여기에 이미지를 드롭하세요"
+      },
+      "render": {
+        "title": "'렌더' 버튼을 눌러 시작",
+        "cta": "렌더",
+        "rendering": "렌더링 중..."
+      },
+      "multiple": {
+        "face": {
+          "title": "얼굴 교체 지정",
+          "cta": "얼굴 추출({count}/{max})"
+        }
+      }
+    },
+    "badges": {
+      "free": "하루 5회 무료 실행",
+      "clean": "워터마크 없음",
+      "resolution": "2K 해상도 지원"
+    },
+    "preview": {
+      "title": "미리보기",
+      "cta": "페이스스왑 시도",
+      "original": "원본",
+      "swapped": "교체 후",
+      "faceAlt": "얼굴 미리보기",
+      "usingFace": "사용 중 얼굴: {name}",
+      "placeholder": "영상을 업로드하면 여기에서 미리볼 수 있습니다."
+    },
+    "common": {
+      "selected": "선택됨: {name}",
+      "notSelected": "미선택"
+    },
+    "errors": {
+      "videoDurationExceeded": "동영상 길이는 {max}분을 초과할 수 없습니다. 현재 길이: {current}분",
+      "videoDurationReadFailed": "동영상 길이를 읽지 못했습니다. 동영상 파일 형식이 올바른지 확인해주세요",
+      "uploadFailed": "업로드 실패: {error}",
+      "uploadFailedGeneric": "업로드 실패",
+      "videoRequired": "먼저 동영상을 업로드해주세요",
+      "faceImageRequired": "먼저 얼굴 이미지를 업로드해주세요",
+      "faceSwapFailed": "페이스 스왑 처리에 실패했습니다",
+      "taskFailed": "작업 처리에 실패했습니다",
+      "taskTimeout": "작업 처리 시간이 초과되었습니다. 나중에 다시 시도해주세요",
+      "taskIdNotFound": "작업 ID를 가져올 수 없습니다. API 응답 형식을 확인해주세요",
+      "apiResponseParseFailed": "페이스 스왑 처리 실패: API 응답을 파싱할 수 없습니다",
+      "processingFailed": "처리에 실패했습니다. 다시 시도해주세요",
+      "statusQueryFailed": "작업 상태 조회 실패: 응답 데이터를 파싱할 수 없습니다",
+      "videoFileNotFound": "동영상 파일을 찾을 수 없습니다. 동영상을 다시 업로드해주세요"
+    },
+    "footer": "로그인해 더 많은 기능을 해제 · 매일 무료 크레딧 · 2K 해상도 지원",
+    "uploadConfirm": {
+      "title": "업로드 확인",
+      "description": "업로드하기 전에 다음을 확인해주세요:",
+      "permission": "업로드한 콘텐츠의 모든 얼굴을 사용할 권한이 있음을 확인합니다",
+      "legal": "이 도구를 속임수, 사기 또는 불법 목적으로 사용하지 않겠습니다",
+      "synthetic": "이것이 AI 생성 합성 미디어를 만든다는 것을 이해합니다",
+      "cancel": "취소",
+      "confirm": "확인"
+    }
+  },
+  "clothesRemover": {
+    "id": "clothes-remover",
+    "title": "AI 의상 체인저 플레이그라운드",
+    "description": "사진을 업로드하고 원하는 의상을 적으면, 몇 단계로 새로운 룩을 렌더링합니다.",
+    "tabs": {
+      "auto": "자동",
+      "manual": "수동"
+    },
+    "steps": {
+      "type": {
+        "title": "의상 유형 선택"
+      },
+      "upload": {
+        "title": "사진 업로드 (정면 전신이면 더 좋아요)",
+        "cta": "업로드하기",
+        "hint": "(JPG, PNG, WEBP) ≤ 20MB"
+      },
+      "describe": {
+        "title": "원하는 의상 설명",
+        "placeholder": "원하는 착장을 적어주세요. 예: “빨간 비키니”, “캐주얼 수트”, “여름 스커트” 등"
+      }
+    },
+    "actions": {
+      "remove": "의상 제거 실행"
+    }
+  },
+  "common": {
+    "fields": {
+      "firstFrame": "시작 프레임",
+      "lastFrame": "마지막 프레임(선택)",
+      "referenceAudio": "Reference Audio"
+    },
+    "descriptions": {
+      "uploadFirstFrameImage": "시작 프레임 이미지를 업로드하세요.",
+      "uploadLastFrameImageOptional": "선택 사항: 마지막 프레임 이미지를 업로드하면 시작 프레임에서 마지막 프레임으로의 전환이 자동으로 적용됩니다.",
+      "referenceVideoLimit": "MP4, WebM, MOV (max 50MB, up to 3 videos, duration ≤ 15s)",
+      "referenceAudioLimit": "WAV, MP3 (max 20MB, up to 3 audios, duration ≤ 15s)"
+    }
+  },
+  "canvasWorkspace": {
+    "nav": {
+      "canvas": "Canvas",
+      "creations": "Creations",
+      "collections": "Collections"
+    },
+    "page": {
+      "creationsEyebrow": "CREATIONS",
+      "creationsTitle": "Creations",
+      "creationsDescription": "All of your generated images, videos, and outputs live here so they are easy to review, filter, and organize.",
+      "collectionsEyebrow": "COLLECTIONS",
+      "collectionsTitle": "Collections",
+      "collectionsDescription": "Turn your strongest outputs into curated sets so pitching, reviewing, and reuse feel much faster.",
+      "projectsEyebrow": "CANVAS",
+      "projectsTitle": "Recent Projects",
+      "projectsDescription": "Jump back into your advanced-mode projects and keep shaping the canvas.",
+      "newCanvas": "New Canvas",
+      "emptyProjectsTitle": "No Canvas projects yet",
+      "emptyProjectsDescription": "Open Canvas from the homepage, or start a new advanced-mode project here.",
+      "emptyProjectsAction": "Create project",
+      "creationsEmptyText": "No creations yet",
+      "creationsEmptyTitle": "Your library is waiting for the first result",
+      "creationsEmptyDescription": "Generate from the homepage or run a workflow in Canvas and every new output will appear here.",
+      "collectionDetailDescription": "Review everything saved into this collection, then keep curating or return to Canvas to create more.",
+      "collectionDetailBack": "Back to Collections",
+      "collectionDetailEmptyText": "This collection is empty",
+      "collectionDetailEmptyTitle": "Nothing has been saved here yet",
+      "collectionDetailEmptyDescription": "Pick a few strong results from Creations and this collection will start to take shape."
+    },
+    "projectsGrid": {
+      "deleteConfirm": "Delete project \"{name}\"? This action cannot be undone.",
+      "deleteSuccess": "Project deleted",
+      "deleteError": "Failed to delete project",
+      "duplicateSuccess": "Project duplicated",
+      "duplicateError": "Failed to duplicate project",
+      "updatedAtPrefix": "Updated",
+      "duplicateAria": "Duplicate project",
+      "deleteAria": "Delete project"
+    },
+    "collectionsGrid": {
+      "heading": "Collections",
+      "createCardLabel": "New Collection",
+      "createTitle": "Create Collection",
+      "createDescription": "Give this curated set a clear name.",
+      "renameTitle": "Rename Collection",
+      "renameDescription": "Update how this collection appears in your library.",
+      "deleteTitle": "Delete Collection",
+      "deleteDescription": "Deleting a collection removes the group, but keeps every creation.",
+      "renameAction": "Save name",
+      "deleteAction": "Delete Collection",
+      "createAction": "Create Collection",
+      "cancelAction": "Cancel",
+      "nameLabel": "Name",
+      "namePlaceholder": "For example: Brand visual directions",
+      "emptyTitle": "No collections yet",
+      "emptyDescription": "Group strong outputs into collections so it is easier to revisit and present them later.",
+      "createSuccess": "Collection created",
+      "renameSuccess": "Collection updated",
+      "deleteSuccess": "Collection deleted",
+      "createError": "Failed to create collection",
+      "renameError": "Failed to rename collection",
+      "deleteError": "Failed to delete collection"
+    },
+    "projectsHub": {
+      "heroTitle": "아이디어는 무한하게, 창작은 경계 없이",
+      "heroPlaceholder": "아이디어를 입력하고 바로 Canvas 제작을 시작하세요",
+      "heroSubmit": "생성 시작",
+      "sectionTitle": "내 프로젝트",
+      "sectionAction": "모두 보기",
+      "createCardTitle": "새 프로젝트",
+      "createCardSubtitle": "새 프롬프트로 시작",
+      "submitError": "프로젝트를 만들기 전에 프롬프트를 입력하세요",
+      "autoLabel": "AUTO",
+      "plusMenuTitle": "이 노드로 생성",
+      "uploadReferenceAria": "참고 이미지 업로드",
+      "closeDirectionAria": "닫기",
+      "virtualReferenceLabel": "참고 이미지",
+      "virtualPromptLabel": "프롬프트"
+    }
+  }
+}

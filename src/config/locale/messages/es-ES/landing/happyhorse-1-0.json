@@ -1,0 +1,122 @@
+{
+  "textToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 Texto a Video - Generador de Video AI Cinematográfico | joymagic",
+      "description": "Crea clips cinematográficos de 3-15 segundos en 720p con HappyHorse 1.0. Convierte prompts en videos AI 16:9 de alta calidad con control opcional de seed.",
+      "keywords": "happyhorse 1.0, texto a video, generador de video ai, alibaba happyhorse, video ai cinematográfico, 720p texto a video, 16:9 ai video"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 Texto a Video",
+      "description": "HappyHorse 1.0 convierte un prompt sencillo en un clip cinematográfico pulido de 3-15 segundos. El flujo se mantiene simple con formato 16:9 nativo, salida 720p y control opcional de seed para borradores repetibles. <br/><br/>¿Prefieres animar una imagen fija? Prueba <a href=\"/image-to-video/happyhorse-1-0\" class=\"text-primary underline\">HappyHorse 1.0 Imagen a Video</a>.",
+      "button1": "Pruébalo ahora",
+      "button2": "Ver precios"
+    },
+    "keyFeatures": {
+      "title": "Funciones clave",
+      "cinematicPreset": {
+        "title": "Cinematográfico por defecto",
+        "description": "Genera clips cortos pensados para storytelling visual, pitch decks y avances para redes."
+      },
+      "fastStoryboard": {
+        "title": "Borradores flexibles de 3-15 segundos",
+        "description": "La duración fija facilita comparar ideas rápidamente y ajustar la dirección del prompt."
+      },
+      "reproducibleSeed": {
+        "title": "Control de seed reproducible",
+        "description": "Usa un seed cuando quieras mantener resultados más consistentes entre distintas versiones."
+      },
+      "nativeWideframe": {
+        "title": "Salida 16:9 nativa",
+        "description": "Genera clips panorámicos listos para compartir sin trabajo extra de reencuadre."
+      }
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "q1": {
+        "question": "¿Qué es HappyHorse 1.0 Texto a Video?",
+        "answer": "Es un flujo de video AI que convierte un prompt de texto en un clip de 3-15 segundos y 720p usando Alibaba HappyHorse 1.0."
+      },
+      "q2": {
+        "question": "¿Qué relación de aspecto admite?",
+        "answer": "El flujo actual de texto a video está optimizado para salida 16:9."
+      },
+      "q3": {
+        "question": "¿Puedo elegir la duración?",
+        "answer": "Esta versión admite generación ajustable de 3-15 segundos para iteración rápida y previsualizaciones más largas."
+      },
+      "q4": {
+        "question": "¿Para qué sirve el seed?",
+        "answer": "El seed ayuda a reproducir o estabilizar resultados cuando quieres salidas similares en varias ejecuciones."
+      },
+      "q5": {
+        "question": "¿Para quién es útil este modelo?",
+        "answer": "Es ideal para creadores, equipos de marketing y producto que necesitan clips conceptuales cortos con look cinematográfico."
+      }
+    },
+    "finalCTA": {
+      "title": "¿Listo para generar con HappyHorse 1.0?",
+      "description": "Convierte tus prompts en clips cinematográficos cortos en segundos.",
+      "button": "Generar video"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 Imagen a Video - Anima imágenes fijas con AI | joymagic",
+      "description": "Anima una imagen fija en un clip de 3-15 segundos y 720p con HappyHorse 1.0. Sube una imagen y genera movimiento limpio rápidamente.",
+      "keywords": "happyhorse 1.0, imagen a video, animar imagen, animación ai de imagen, alibaba happyhorse, 720p imagen a video, video ai de 3-15 segundos"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 Imagen a Video",
+      "description": "HappyHorse 1.0 convierte una sola imagen en un clip animado corto de 3-15 segundos en 720p. Sube una imagen de referencia, añade opcionalmente un prompt de movimiento y genera un resultado panorámico limpio en poco tiempo. <br/><br/>¿Quieres empezar desde texto? Prueba <a href=\"/text-to-video/happyhorse-1-0\" class=\"text-primary underline\">HappyHorse 1.0 Texto a Video</a>.",
+      "button1": "Pruébalo ahora",
+      "button2": "Ver precios"
+    },
+    "keyFeatures": {
+      "title": "Funciones clave",
+      "singleImageMotion": {
+        "title": "Animación desde una sola imagen",
+        "description": "Sube una imagen fija y conviértela en movimiento sin preparar una escena compleja."
+      },
+      "fastFiveSecond": {
+        "title": "Salida flexible de 3-15 segundos",
+        "description": "La duración corta y fija facilita probar ideas ligeras y compararlas rápido."
+      },
+      "cleanOutput": {
+        "title": "Entrega limpia en 720p",
+        "description": "Genera clips HD para demos conceptuales, redes sociales y mockups de campaña."
+      },
+      "simpleWorkflow": {
+        "title": "Flujo simple",
+        "description": "Concéntrate en lo esencial: imagen, duración y resolución, con prompt opcional para guiar el movimiento."
+      }
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "q1": {
+        "question": "¿Qué hace HappyHorse 1.0 Imagen a Video?",
+        "answer": "Anima una imagen subida y la convierte en un clip de video AI corto."
+      },
+      "q2": {
+        "question": "¿Necesito escribir un prompt?",
+        "answer": "No. El prompt es opcional, aunque puede ayudar a orientar el movimiento o el tono."
+      },
+      "q3": {
+        "question": "¿Qué calidad de salida ofrece?",
+        "answer": "La configuración actual genera videos en 720p y 1080p."
+      },
+      "q4": {
+        "question": "¿Cuánto dura cada clip generado?",
+        "answer": "Este flujo está ajustado actualmente para clips de 3-15 segundos."
+      },
+      "q5": {
+        "question": "¿Cuándo debería usar Imagen a Video en lugar de Texto a Video?",
+        "answer": "Usa imagen a video cuando ya tengas un fotograma de referencia, un personaje, una foto de producto o una composición que quieras conservar."
+      }
+    },
+    "finalCTA": {
+      "title": "Anima tu imagen con HappyHorse 1.0",
+      "description": "Sube una imagen fija y conviértela rápidamente en movimiento.",
+      "button": "Animar imagen"
+    }
+  }
+}

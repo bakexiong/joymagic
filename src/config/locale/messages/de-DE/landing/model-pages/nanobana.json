@@ -1,0 +1,88 @@
+{
+  "title": "Nano Banana",
+  "provider": "Google",
+  "eyebrow": "Modellzentrierte Landingpage",
+  "description": "Starte mit Nano Banana und verzweige dann in genau die Workflows, die dieses Modell am besten beherrscht: geführte Bildbearbeitung, schnelle Konzeptentwicklung und native Creator-Iteration mit demselben Workbench-Verhalten wie im Produkt.",
+  "seoTitle": "Nano Banana KI-Modellseite | Bildbearbeitung + Text zu Bild | joymagic",
+  "seoDescription": "Entdecke Nano Banana als modellzentrierte Landingpage. Wechsle zwischen Szenen, nutze dieselbe Creator-Workbench und setze Nano Banana in einem durchgängigen Ablauf für Bildbearbeitung und Text-zu-Bild ein.",
+  "stats": [
+    {
+      "label": "Primärer Modus",
+      "value": "Bildbearbeitung"
+    },
+    {
+      "label": "Erweiterte Szenen",
+      "value": "2 aktive Workflows"
+    },
+    {
+      "label": "Panel-Wiederverwendung",
+      "value": "Wie im Creator"
+    }
+  ],
+  "differentiators": [
+    "Stelle das Modell in den Mittelpunkt statt einer generischen Szenenliste, damit bezahlter Traffic auf einem klareren Nutzenversprechen landet.",
+    "Verwende das bestehende Creator-Formschema und das rechte Medienpanel erneut, damit das Produktverhalten konsistent bleibt.",
+    "Erweitere künftig eine einzige Preset-Registry, statt für jedes Modell eine komplette Seite zu kopieren."
+  ],
+  "gallery": [
+    {
+      "title": "Produkt-Restyling",
+      "caption": "Verwandle ein schlichtes E-Commerce-Packshot mit nur einem Modell und engeren Revisionsschleifen in ein hochwertiges Launch-Visual.",
+      "prompt": "Verwandle das hochgeladene Flaschenfoto in eine luxuriöse Hautpflege-Anzeige mit gebürsteten Metallreflexen, weichem Nebel und einer champagnergoldenen Farbpalette.",
+      "accentClassName": "from-[#f4d38f] via-[#8b6b2b] to-[#161616] text-white"
+    },
+    {
+      "title": "Charakter-Refresh",
+      "caption": "Passe Pose, Styling und Licht an, ohne die Identität über mehrere Bearbeitungen hinweg zu verlieren.",
+      "prompt": "Behalte dieselbe Figur und Gesichtserkennung bei, wechsle zu Magazin-Porträtlicht, weichem rosa Haar und einem Sammlerfiguren-Styling.",
+      "accentClassName": "from-[#b78cff] via-[#5c38a5] to-[#151515] text-white"
+    },
+    {
+      "title": "Prompt-basierte Konzepte",
+      "caption": "Nutze dasselbe Modell für reine Prompt-Konzepte, bevor du in Bearbeitung, Retusche oder Upscaling gehst.",
+      "prompt": "Erzeuge das Interieur eines futuristischen Dessert-Cafés mit Chromtheken, cremigem Tageslicht und verspielter Beschilderung in gut lesbarer Typografie.",
+      "accentClassName": "from-[#7ee7f2] via-[#167f8c] to-[#131313] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Warum /model/nanobana statt einer generischen Tool-Seite nutzen?",
+      "answer": "Diese Seite ist für modellgetriebenen Traffic gedacht. Besucher müssen nicht zuerst eine Tool-Kategorie wählen, sondern starten direkt bei Nano Banana und sehen anschließend die Workflows, zu denen das Modell am besten passt."
+    },
+    {
+      "question": "Verwendet diese Seite ein anderes Medienpanel auf der rechten Seite?",
+      "answer": "Nein. Der Workbench-Bereich nutzt dasselbe creator-seitige Medienpanel erneut, sodass gespeicherte Inhalte, Templates, Szenenwechsel und Arbeitsmuster mit /creator konsistent bleiben."
+    },
+    {
+      "question": "Können weitere Modelle diese Vorlage wiederverwenden?",
+      "answer": "Ja. Die Seite wird über eine Registry gesteuert, daher ist eine neue /model/[slug]-Seite vor allem eine Datenaufgabe plus ein paar modellspezifische Textanpassungen."
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "Bildbearbeitung",
+      "title": "Szene 01 · Geführte Bildbearbeitung",
+      "description": "Nutze Nano Banana als Standardfläche für Retusche, Stilübertragung, Produktveredelung und identitätserhaltende Überarbeitungen.",
+      "spotlight": "Ideal für Assets, die bereits existieren und einen schnelleren zweiten Durchlauf brauchen.",
+      "starterPrompt": "Behalte die ursprüngliche Komposition bei, bereinige den Hintergrund, hebe das Licht auf einen cineastischen Studio-Look an und bewahre alle Markendetails.",
+      "useCases": [
+        "Produktbild-Bereinigung und hochwertiges Restyling",
+        "UGC-Frames in werbetaugliche Key Visuals verwandeln",
+        "Charakter- oder IP-sichere Stiländerungen"
+      ]
+    },
+    {
+      "modeLabel": "Text zu Bild",
+      "title": "Szene 02 · Prompt-zentrierte Konzeptgenerierung",
+      "description": "Gehe mit demselben Modell in die Generierung von Null auf Eins, wenn du Konzeptentwürfe, Kampagnen-Exploration oder neue Art Directions brauchst.",
+      "spotlight": "Ideal, um neue Richtungen zu erzeugen, bevor du entscheidest, was später bearbeitet oder hochskaliert wird.",
+      "starterPrompt": "Erstelle ein hochwertiges Kampagnen-Key-Visual für den Launch eines Sommergetränks mit hellem Nachmittags-Gegenlicht, Zitrustönen und gut lesbarer Headline-Typografie.",
+      "useCases": [
+        "Kampagnen-Moodboards und Hero-Konzeption",
+        "Social-Grafiken und Posterentwürfe",
+        "Verpackung, Beschilderung und textlastige Kompositionen"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

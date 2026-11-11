@@ -1,0 +1,147 @@
+[
+  {
+    "prompt": "A cinematic editorial portrait of a confident young woman, soft studio rim light, rich skin texture, shallow depth of field, premium fashion magazine styling, ultra-detailed realism",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/71b2688145068ad3d4d179a815108c79.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/71b2688145068ad3d4d179a815108c79.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A cinematic editorial portrait of a confident young woman, soft studio rim light, rich skin texture, shallow depth of field, premium fashion magazine styling, ultra-detailed realism",
+      "numLayers": 8
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/202ea03ff92cae316999692f16ad73e4.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/202ea03ff92cae316999692f16ad73e4.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/7532a9abb3acdc58199ff15ae203e77d.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/7532a9abb3acdc58199ff15ae203e77d.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/49af12521db4727377a56cfc07e845b4.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/c11a708299c36d4d9ab69a96ac12e3f2.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/133a2b6e8ac93ef38d06c0ad98e1c86b.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/2cf6978de1d7eb3716de9cc44c3b00e9.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/2a3f904b6c4d18136b0f9265ab4dedd0.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/dd34a6cf80d42a81cf2a481ce7e6f61f.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/5a4c7e7ea27a96531e943a80021dab71.png"
+    ],
+    "generatedAt": "2026-04-15T03:46:51.426Z"
+  },
+  {
+    "prompt": "Street fashion photo of a stylish model walking through a neon city crosswalk at night, candid motion, realistic fabric details, reflective pavement, luxury streetwear campaign",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/2020b586a5e31e70b415287f01420310.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/2020b586a5e31e70b415287f01420310.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Street fashion photo of a stylish model walking through a neon city crosswalk at night, candid motion, realistic fabric details, reflective pavement, luxury streetwear campaign",
+      "numLayers": 8
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/15d14cf7be4fbb40d2eaf15efc9c1cf5.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/15d14cf7be4fbb40d2eaf15efc9c1cf5.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/bc1c6f4686ae4dbcb70533e2bfd1aa8b.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/bc1c6f4686ae4dbcb70533e2bfd1aa8b.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/9699dad5e972717ad73027adf28e1389.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/073c692ec3872dfea42204a1205dd5eb.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/56dcc1beac6043912b95355245b74532.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/e7f9b0df3fff1c7d55fcdca8f477605e.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/0e1d1f6b10c6079827a6b96d8297bbeb.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/a186345b7905b83da553b9731c124444.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/670dc94404869ff68bffe72393567130.png"
+    ],
+    "generatedAt": "2026-04-15T03:47:17.229Z"
+  },
+  {
+    "prompt": "Golden hour mountain landscape with a winding lake, volumetric sunlight, layered clouds, crisp alpine atmosphere, National Geographic photography, highly detailed",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/bc6fd1a5b46b222da544c3af063c4d67.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/bc6fd1a5b46b222da544c3af063c4d67.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Golden hour mountain landscape with a winding lake, volumetric sunlight, layered clouds, crisp alpine atmosphere, National Geographic photography, highly detailed",
+      "numLayers": 8
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/92e5e7d83b03f51c2431487928aebfb9.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/92e5e7d83b03f51c2431487928aebfb9.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/373a64142288d25c7341f28c2bb5abb8.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/373a64142288d25c7341f28c2bb5abb8.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/d1161be5737fb57cff2f45b2e7627fdd.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/0ff4896352d4f3f51981645e0248fff3.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/aa4cba2398ae8bbcb4214f97cb6fcf9e.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/ff1753f021aae7aac5afdfebf1e58ad0.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/1872bfe1e0f2a4908c640bfa29cd4112.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/feaf349519860c62917de5d40b31c1eb.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/80256551767799f71a1674f4d28ea1e4.png"
+    ],
+    "generatedAt": "2026-04-15T03:47:48.724Z"
+  },
+  {
+    "prompt": "Travel postcard scene of a colorful Mediterranean coastal town, bright midday sun, vivid facades, sparkling sea, postcard-perfect composition, crisp tourist photography",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/3f8483a6463b7f2c2da1e3480ae95e64.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/3f8483a6463b7f2c2da1e3480ae95e64.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Travel postcard scene of a colorful Mediterranean coastal town, bright midday sun, vivid facades, sparkling sea, postcard-perfect composition, crisp tourist photography",
+      "numLayers": 8
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/a2e444277d64b3c3987f65c776e20698.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/a2e444277d64b3c3987f65c776e20698.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/c292f247ac0c9f2804804e1c45a354df.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/c292f247ac0c9f2804804e1c45a354df.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/be5bc11d94f1a68a3671ccb8a0dbb286.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/5ceaef15a440b2aa318b03d69928f053.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/89a7a9b52ca30b1eb610b870593179ba.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/1238ac6c9610faedd6e822417b10c651.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/ce0668b8c68aae08d2524badd8c0bb59.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/67123296e7a222d3f556812dd2f1c3f0.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/1f24f4905486d46624ecdb95c776f415.png"
+    ],
+    "generatedAt": "2026-04-15T03:48:14.731Z"
+  },
+  {
+    "prompt": "Epic fantasy game key art with an armored hero facing a colossal dragon above ruined cliffs, dramatic atmosphere, volumetric fog, AAA concept art, high contrast lighting",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/5fa1749e39c5742021a699ebc32f4d76.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/5fa1749e39c5742021a699ebc32f4d76.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Epic fantasy game key art with an armored hero facing a colossal dragon above ruined cliffs, dramatic atmosphere, volumetric fog, AAA concept art, high contrast lighting",
+      "numLayers": 8
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/345ac532b75331ea3243bf9cebe81a0d.png",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/345ac532b75331ea3243bf9cebe81a0d.png",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/3563a06ff4e3f2894b85b5430407cf78.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/3563a06ff4e3f2894b85b5430407cf78.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/561768231d32b4aaf0b219d69667877e.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/64c41608541dd43ddd32acc5216af76e.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/b9128420141679913839451f5d0d9d26.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/b80eb2c48e07b60f65ff0f05d4bb4165.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/687cd45acf3ff2e860ad72b38d9502c4.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/d937f9e950695b0c819f7321ed5e1f08.png",
+      "https://ocdn.10b.ai/workbench-template-samples/images/9c93438dcba37249c56c2b6dd56ac617.png"
+    ],
+    "generatedAt": "2026-04-15T03:48:40.599Z"
+  }
+]

@@ -1,0 +1,167 @@
+{
+  "title": "Seedream 4.5 Text to Image",
+  "subtitle": "Generate stunning images from text descriptions",
+  "prompt_label": "Промпт",
+  "prompt_placeholder": "Nighttime outdoor photoshoot: A young man stands inside a public phone booth, holding a blue phone receiver to his ear. One hand is casually tucked into his pocket, and he strikes a relaxed posture. He wears a white T-shirt with a pattern, loose brown pants, and jacket draped over his arm. The booth's glass reflects city streetlights with a bokeh effect, creating a vintage film style.",
+  "prompt_tooltip": "Enter a description of the image you want to generate",
+  "size_label": "Размер изображения",
+  "size_hint": "Выберите размер выходного изображения",
+  "width_label": "Ширина",
+  "height_label": "Высота",
+  "buttons": {
+    "generate": "Создать Изображение"
+  },
+  "errors": {
+    "promptRequired": "Prompt is required"
+  },
+  "image_alt": "Generated image",
+  "download": "Download",
+  "image_placeholder": "Сгенерированное изображение появится здесь",
+  "prompt_inspirations_button": "Вдохновение для промптов",
+  "prompt_guide_button": "Руководство по промптам",
+  "powered_by": "Работает на модели AI Seedream 4.5, оптимизированной joymagic",
+  "page": {
+    "metadata": {
+      "title": "Seedream 4.5 Text to Image - AI Image Generator | joymagic",
+      "description": "Создавайте изображения из текста с Seedream 4.5 от ByteDance. Создавайте фотореалистичные сцены, иллюстрации и искусство. Двуязычные промпты на английском и китайском языках.",
+      "keywords": "text to image, ai image generator, seedream v4.5, ai art generator, text to image ai, image generation"
+    },
+    "hero": {
+      "title": "Seedream 4.5 Text to Image",
+      "description": "Seedream 4.5 — это модель ИИ от ByteDance, которая превращает текстовые описания в изображения. Опишите любую сцену, персонажа или концепцию на английском или китайском языке. Попробуйте Seedream 4.5 бесплатно ниже!",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "heroDescription": "Create stunning images from simple text descriptions using advanced AI technology.",
+    "keyFeatures": {
+      "title": "Ключевые Особенности",
+      "description": "Мощные возможности генерации изображений с ИИ",
+      "photorealistic": {
+        "title": "Фотореалистичное Качество",
+        "description": "Создавайте изображения, которые выглядят как профессиональная фотография. Точные текстуры кожи, естественное освещение, реалистичные окружения—без эффекта зловещей долины, характерного для ИИ-изображений."
+      },
+      "complexScene": {
+        "title": "Понимание Сложных Сцен",
+        "description": "Описывайте детальные сценарии с несколькими объектами, пространственными отношениями и специфическим освещением. Модель точно интерпретирует композицию, позиционирование и атмосферу из вашего текста."
+      },
+      "bilingual": {
+        "title": "Двуязычные Промпты",
+        "description": "Пишите на английском, китайском или обоих языках. Модель одинаково хорошо понимает тонкие описания на любом языке—полезно для китайских культурных ссылок или специфической терминологии."
+      },
+      "fastGeneration": {
+        "title": "Быстрая Генерация",
+        "description": "Создавайте изображения высокого разрешения за секунды. Достаточно быстро для творческого исследования в реальном времени и итерации."
+      },
+      "styleFlexibility": {
+        "title": "Гибкость Стиля",
+        "description": "Создавайте фотореалистичные изображения, аниме-иллюстрации, масляные картины, акварели, 3D-рендеры и многое другое. Укажите желаемый стиль в промпте или позвольте модели соответствовать предмету."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "Generate images in three simple steps",
+      "step1": {
+        "title": "Enter Your Prompt",
+        "description": "Describe the image you want to generate"
+      },
+      "step2": {
+        "title": "Choose Settings",
+        "description": "Select output format and preferences"
+      },
+      "step3": {
+        "title": "Generate & Download",
+        "description": "Get your AI-generated image and download it"
+      }
+    },
+    "promptingTips": {
+      "title": "Советы по Промптам",
+      "lighting": {
+        "title": "Будьте Конкретны в Освещении",
+        "description": "\"Золотой час солнечного света слева, мягкие тени\" работает лучше, чем \"хорошее освещение\"."
+      },
+      "camera": {
+        "title": "Включите Детали Камеры",
+        "description": "\"Снято объективом 85mm, малая глубина резкости\" добавляет качество профессиональной фотографии."
+      },
+      "style": {
+        "title": "Укажите Художественный Стиль",
+        "description": "\"Цифровая иллюстрация в стиле Studio Ghibli\" или \"гиперреалистичный 3D-рендер\" дает четкое направление."
+      },
+      "mood": {
+        "title": "Опишите Настроение и Атмосферу",
+        "description": "\"Уютное, теплое, ностальгическое чувство\" или \"драматическое, кинематографическое, высокий контраст\" формирует общее изображение."
+      }
+    },
+    "useCases": {
+      "title": "Варианты Использования",
+      "marketing": {
+        "title": "Маркетинговые Визуалы",
+        "description": "Создавайте концепции продуктов, рекламные изображения и контент для социальных сетей без фотосессий."
+      },
+      "character": {
+        "title": "Дизайн Персонажей",
+        "description": "Создавайте оригинальных персонажей для игр, комиксов или анимационных проектов из текстовых описаний."
+      },
+      "concept": {
+        "title": "Концепт-Арт",
+        "description": "Быстро визуализируйте сцены, окружения и идеи для творческих проектов и презентаций."
+      },
+      "stock": {
+        "title": "Альтернатива Стоковым Фото",
+        "description": "Создавайте нужные вам конкретные изображения вместо поиска в общих стоковых библиотеках."
+      }
+    },
+    "faq": {
+      "title": "Часто Задаваемые Вопросы",
+      "description": "Общие вопросы о Seedream 4.5 Text to Image",
+      "q1": {
+        "question": "Что такое Seedream 4.5?",
+        "answer": "Seedream 4.5 — это модель генерации изображений с ИИ от ByteDance, которая создает изображения из текстовых описаний. Производит фотореалистичные и стилизованные изображения высокого разрешения."
+      },
+      "q2": {
+        "question": "Насколько детальным должен быть мой промпт?",
+        "answer": "Больше деталей обычно означает лучшие результаты. Включите объект, обстановку, освещение, стиль, настроение и угол камеры. Начните с нескольких предложений и добавьте больше при необходимости."
+      },
+      "q3": {
+        "question": "Какие стили он может генерировать?",
+        "answer": "Фотореалистичный, аниме, масляная живопись, акварель, 3D-рендер, эскиз и многое другое. Укажите стиль в промпте или ссылайтесь на конкретных художников и студии."
+      },
+      "q4": {
+        "question": "Поддерживает ли он китайские промпты?",
+        "answer": "Да, Seedream 4.5 одинаково хорошо понимает английский и китайский языки. Вы можете писать промпты на любом языке или смешивать оба."
+      },
+      "q5": {
+        "question": "В чем разница с GPT-Image-1?",
+        "answer": "Seedream 4.5 превосходит в двуязычных промптах и смешивании нескольких изображений (в режиме Image to Image). GPT-Image-1 лучше для рендеринга текста внутри изображений. Выбирайте в зависимости от вашей основной потребности."
+      }
+    },
+    "privacySecurity": {
+      "title": "Privacy & Security",
+      "description": "Your privacy and security are our top priorities.",
+      "secureProcessing": "Secure Processing",
+      "autoDelete": "Auto Delete",
+      "neverShared": "Never Shared"
+    },
+    "finalCTA": {
+      "title": "Ready to Create?",
+      "description": "Start generating amazing images from your text descriptions today.",
+      "button": "Попробовать сейчас"
+    },
+    "breadcrumb": {
+      "home": "Главная",
+      "textToImage": "Текст в Изображение",
+      "seedreamV45": "Seedream 4.5"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Seedream 4.5 Текст в Изображение",
+      "howToName": "Как Создать Изображения с Seedream 4.5",
+      "howToDescription": "Создавайте изображения из текстовых описаний с помощью Seedream 4.5",
+      "features": {
+        "aiTextToImage": "Генерация Изображений AI из Текста",
+        "highQuality": "Высококачественные Изображения",
+        "fastProcessing": "Быстрая Обработка"
+      }
+    }
+  }
+}
+

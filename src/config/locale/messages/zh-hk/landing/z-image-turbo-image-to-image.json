@@ -1,0 +1,158 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "上傳源圖片",
+      "hint": "上傳一張圖片（JPG/PNG/WEBP）。",
+      "dragDrop": "拖放或點擊上傳",
+      "dropHere": "將圖片拖放到此處"
+    },
+    "prompt": {
+      "title": "輸入轉換提示詞",
+      "placeholder": "描述您想要如何轉換圖片，例如：「改為漫畫風格」「做成水彩畫效果」",
+      "hint": "請具體描述您想要的改動"
+    },
+    "options": {
+      "size": "尺寸（比例）",
+      "strength": "強度",
+      "outputFormat": "輸出格式"
+    },
+    "generate": {
+      "title": "生成轉換圖片",
+      "cta": "生成",
+      "generating": "生成中..."
+    }
+  },
+  "preview": {
+    "title": "預覽",
+    "placeholder": "上傳圖片並輸入提示詞後，在此查看轉換結果。"
+  },
+  "errors": {
+    "invalidFileType": "無效文件類型，請上傳圖片（JPG、PNG、WEBP）。",
+    "uploadFailed": "上傳失敗：{error}",
+    "uploadFailedGeneric": "上傳失敗",
+    "sourceImageRequired": "請上傳一張源圖片",
+    "promptRequired": "請輸入轉換提示詞",
+    "generationFailed": "圖片生成失敗",
+    "taskFailed": "任務處理失敗",
+    "taskTimeout": "任務處理超時，請稍後再試",
+    "taskIdNotFound": "無法獲取任務 ID，請檢查 API 響應格式",
+    "processingFailed": "處理失敗，請重試",
+    "statusQueryFailed": "查詢任務狀態失敗",
+    "apiResponseParseFailed": "解析 API 響應失敗"
+  },
+  "page": {
+    "metadata": {
+      "title": "Z Image Turbo 圖片轉換 - AI 圖片編輯 | joymagic",
+      "description": "使用 Z Image Turbo 轉換圖片。單圖上傳，支持尺寸、強度與輸出格式控制。",
+      "keywords": "joymagic turbo 圖片轉換, joymagic turbo, 圖片編輯, ai 圖片編輯, 圖片轉換"
+    },
+    "hero": {
+      "title": "Z Image Turbo 圖片轉換",
+      "description": "使用 Z Image Turbo 圖生圖。上傳一張圖片，可控制尺寸（1:1、16:9、9:16 等）、強度與輸出格式。",
+      "button1": "立即試用",
+      "button2": "查看價格"
+    },
+    "keyFeatures": {
+      "title": "核心功能",
+      "description": "強大的 Z Image Turbo 圖生圖能力",
+      "singleImage": {
+        "title": "單圖上傳",
+        "description": "上傳一張圖片，並可完整控制尺寸、強度與輸出格式。"
+      },
+      "sizeControl": {
+        "title": "尺寸與比例",
+        "description": "可選 1:1、16:9、9:16、4:3、3:4、3:2、2:3。寬高 256–1536，默認 1024。"
+      },
+      "strength": {
+        "title": "強度控制",
+        "description": "強度 0–1 可控制圖片被轉換的程度。"
+      },
+      "outputFormat": {
+        "title": "輸出格式",
+        "description": "可導出 JPEG、PNG 或 WebP，適配不同工作流。"
+      }
+    },
+    "promptingTips": {
+      "title": "如何獲得最佳 Z Image Turbo 圖生圖效果",
+      "specific": {
+        "title": "描述具體",
+        "description": "準確描述您想要的轉換效果。例如：「改為漫畫風格」或「做成水彩畫效果」。"
+      },
+      "style": {
+        "title": "指定風格",
+        "description": "說明藝術風格：「漫畫風格」「油畫」「數字藝術」等。"
+      },
+      "color": {
+        "title": "色彩與氛圍",
+        "description": "描述色彩與氛圍：「鮮豔色彩」「柔和色調」「暗調」等。"
+      },
+      "details": {
+        "title": "補充細節",
+        "description": "包含光線、構圖以及希望保留或改動的具體元素。"
+      }
+    },
+    "useCases": {
+      "title": "Z Image Turbo 圖生圖應用場景",
+      "style": {
+        "title": "風格轉換",
+        "description": "將照片轉為漫畫、水彩、油畫等不同藝術風格。"
+      },
+      "aspectRatio": {
+        "title": "比例與尺寸",
+        "description": "輸出 1:1、16:9、9:16、4:3、3:4、3:2、2:3，並可控制尺寸。"
+      },
+      "product": {
+        "title": "產品攝影",
+        "description": "轉換產品圖用於營銷與社交媒體，可調強度與格式。"
+      },
+      "creative": {
+        "title": "創意項目",
+        "description": "通過強度與比例嘗試創意圖片轉換。"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "description": "關於 Z Image Turbo 圖生圖的常見問題",
+      "q1": {
+        "question": "可以上傳幾張圖片？",
+        "answer": "Z Image Turbo 每次處理一張圖片。上傳圖片、設置尺寸與強度後即可生成。"
+      },
+      "q2": {
+        "question": "如何計費？",
+        "answer": "每次轉換消耗固定積分，具體以生成按鈕顯示為準。"
+      },
+      "q3": {
+        "question": "支持哪些圖片格式？",
+        "answer": "輸入支持 PNG、JPEG、JPG、WebP；輸出可選 JPEG、PNG 或 WebP。"
+      },
+      "q4": {
+        "question": "提示詞要寫多詳細？",
+        "answer": "越詳細效果越好。可包含主體、場景、光線、風格以及希望保留或改動的內容。"
+      },
+      "q5": {
+        "question": "強度是什麼？",
+        "answer": "強度（0–1）控制轉換程度。較低值保留更多原圖；較高值允許更大改動。"
+      }
+    },
+    "finalCTA": {
+      "title": "準備好轉換您的圖片了嗎？",
+      "description": "立即使用 Z Image Turbo 開始轉換。",
+      "button": "立即試用"
+    },
+    "breadcrumb": {
+      "home": "首頁",
+      "imageToImage": "圖生圖",
+      "zImageTurbo": "Z Image Turbo"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Z Image Turbo 圖生圖",
+      "howToName": "如何使用 Z Image Turbo 轉換圖片",
+      "howToDescription": "使用 Z Image Turbo 圖生圖轉換圖片",
+      "features": {
+        "aiImageEditing": "AI 圖片編輯",
+        "sizeControl": "尺寸與比例控制",
+        "highQuality": "高質量輸出"
+      }
+    }
+  }
+}

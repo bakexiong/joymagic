@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "PixVerse v5.6 텍스트 투 비디오 | 무료 AI 영상 생성기 - joymagic",
+    "description": "joymagic의 PixVerse v5.6 텍스트 투 비디오로 한국어·영어 프롬프트를 HD 짧은 영상으로 변환하세요. 360p~1080p 해상도, 여러 길이, 선택 가능한 오디오 생성과 투명한 크레딧 시스템을 제공합니다.",
+    "keywords": "PixVerse v5.6 텍스트 투 비디오,text-to-video,AI 영상 생성,AI 숏폼,텍스트 영상 변환"
+  },
+  "pixverse56": {
+    "form": {
+      "prompt": {
+        "label": "프롬프트",
+        "placeholder": "원하는 영상의 장면, 인물, 동작, 카메라 무빙, 조명, 분위기 등을 자세히 적어주세요.",
+        "tooltip": "PixVerse v5.6 텍스트 투 비디오를 위한 기본 프롬프트입니다. 가능하면 피사체, 배경, 동작, 분위기 정보를 함께 적어 주세요."
+      },
+      "negativePrompt": {
+        "label": "네거티브 프롬프트",
+        "placeholder": "선택 사항: 영상에 나오지 않았으면 하는 요소 (예: 흐림, 왜곡, 저화질 텍스트 등)",
+        "tooltip": "\"흐릿함, 왜곡, 저해상도, 품질이 낮은 텍스트\"처럼 피하고 싶은 요소나 스타일을 적어 주세요."
+      },
+      "resolutionRatio": {
+        "label": "화면 비율 (resolution_ratio)"
+      },
+      "resolution": {
+        "label": "해상도"
+      },
+      "duration": {
+        "label": "영상 길이 (초)"
+      },
+      "generateAudio": {
+        "label": "오디오 생성 (generate_audio_switch)",
+        "description": "활성화하면 영상에 맞는 음악·환경음·간단한 효과음을 자동으로 생성합니다.",
+        "tooltip": "PixVerse 기본 오디오 생성을 켜려면 활성화하세요. 이 경우 오디오 포함 조합에 맞는 가격이 적용됩니다."
+      },
+      "thinkingType": {
+        "label": "Thinking 모드 (thinking_type)",
+        "tooltip": "PixVerse의 추론 강도를 조절합니다. enabled는 품질 우선, disabled는 속도 우선, auto는 서비스가 자동 선택합니다."
+      },
+      "seed": {
+        "label": "시드 (seed)"
+      },
+      "image": {
+        "label": "참조 이미지",
+        "tooltip": "참조 이미지를 업로드하세요. PixVerse가 프롬프트에 따라 해당 이미지를 애니메이션화합니다.",
+        "hint": "파일을 끌어다 놓거나 클릭하여 업로드하세요.",
+        "dropHere": "이미지를 여기에 놓으세요",
+        "dragDrop": "파일을 끌어다 놓거나 클릭하여 업로드"
+      },
+      "imageRequired": "PixVerse 이미지-비디오를 위해 이미지를 업로드해 주세요.",
+      "buttons": {
+        "reset": "초기화",
+        "run": "생성",
+        "generating": "생성 중..."
+      }
+    },
+    "preview": {
+      "placeholder": "프롬프트를 입력하고 실행을 누르면, PixVerse v5.6이 영상을 생성하고 이곳에 미리보기를 표시합니다."
+    },
+    "status": {
+      "idle": "대기 중",
+      "processing": "처리 중",
+      "completed": "완료됨",
+      "estimating": "크레딧 계산 중..."
+    },
+    "buttons": {
+      "credits": "크레딧",
+      "click_to_pay": "결제하기"
+    },
+    "actions": {
+      "downloadVideo": "영상 다운로드",
+      "downloadFailed": "영상 다운로드 실패"
+    },
+    "errors": {
+      "promptRequired": "프롬프트를 입력해 주세요.",
+      "generationFailed": "영상 생성에 실패했습니다.",
+      "taskFailed": "작업 처리에 실패했습니다.",
+      "taskTimeout": "작업 처리 시간이 초과되었습니다. 잠시 후 다시 시도해 주세요.",
+      "taskIdNotFound": "작업 ID를 가져올 수 없습니다. API 응답 형식을 확인해 주세요.",
+      "processingFailed": "처리에 실패했습니다. 다시 시도해 주세요.",
+      "statusQueryFailed": "작업 상태 조회에 실패했습니다.",
+      "apiResponseParseFailed": "PixVerse API 응답을 해석하지 못했습니다.",
+      "unsupportedCombination1080p10s": "1080p에서 10초 조합은 지원되지 않습니다. 5초 또는 8초를 선택해 주세요.",
+      "invalidFileType": "잘못된 파일 형식입니다.",
+      "uploadFailed": "업로드 실패: {error}",
+      "uploadFailedGeneric": "업로드에 실패했습니다.",
+      "recordingFailed": "녹음을 시작하지 못했습니다. 마이크 권한을 확인해 주세요.",
+      "estimate_failed": "크레딧 추정에 실패했습니다."
+    }
+  },
+  "pixverse56Page": {
+    "metadata": {
+      "title": "PixVerse v5.6 텍스트 투 비디오 | AI 텍스트 영상 생성기 - joymagic",
+      "description": "joymagic의 PixVerse v5.6 텍스트 투 비디오로 텍스트 프롬프트를 HD 짧은 영상으로 변환하세요. 해상도·길이·오디오를 유연하게 설정하고, 파라미터 조합 기반 크레딧 과금으로 비용을 예측 가능하게 관리할 수 있습니다.",
+      "keywords": "PixVerse v5.6 텍스트 투 비디오,text-to-video,AI 텍스트 영상 생성기,PixVerse 영상,AI 숏폼,joymagic"
+    },
+    "hero": {
+      "title": "PixVerse v5.6 텍스트 투 비디오 생성기",
+      "description": "joymagic의 PixVerse v5.6 텍스트 투 비디오를 사용해 한국어·영어 텍스트를 고품질 짧은 영상으로 바꿔 보세요. 해상도, 길이, 오디오를 손쉽게 조절할 수 있어 크리에이터, 브랜드, 팀에게 모두 적합합니다.",
+      "button1": "영상 생성하기",
+      "button2": "요금 보기"
+    },
+    "intro": "PixVerse v5.6 텍스트 투 비디오는 joymagic의 파라미터 조합 크레딧 과금 시스템과 연결되어 있어, 해상도·길이·오디오 설정을 자유롭게 조합하면서도 예측 가능한 비용 구조를 유지할 수 있습니다.",
+    "features": {
+      "title": "왜 joymagic에서 PixVerse v5.6 텍스트 투 비디오를 사용해야 할까요?",
+      "items": {
+        "multiResolution": {
+          "title": "유연한 해상도 & 길이 그리드",
+          "description": "360p, 540p, 720p, 1080p를 지원하며 5 / 8 / 10초 고정 프리셋을 제공합니다. 1080p에서는 5초와 8초만 허용되며, 10초 조합은 UI에서 비활성화되고 가격 검증에서도 거부됩니다."
+        },
+        "audio": {
+          "title": "선택 가능한 오디오 생성",
+          "description": "generate_audio_switch를 켜서 PixVerse 기본 오디오를 추가할 수 있습니다. 요금은 자동으로 오디오 ON/OFF 파라미터 조합에 매핑되어, 어떤 비용이 청구되는지 항상 명확합니다."
+        },
+        "thinking": {
+          "title": "스마트 Thinking 모드",
+          "description": "thinking_type은 enabled, disabled, auto를 지원합니다. enabled는 품질을, disabled는 속도를 우선하며, auto는 백엔드가 자동으로 선택해 대부분의 상황에서 좋은 기본값을 제공합니다."
+        },
+        "safety": {
+          "title": "통합 안전 & 요금 제어",
+          "description": "joymagic의 콘텐츠 안전 정책과 크레딧 추정 로직을 그대로 사용합니다. 1080p × 10초와 같은 미지원 조합은 UI와 백엔드 검증 모두에서 차단되어 크레딧과 시간을 낭비하지 않도록 합니다."
+        }
+      }
+    },
+    "faq": {
+      "title": "PixVerse v5.6 텍스트 투 비디오 자주 묻는 질문",
+      "q1": {
+        "question": "PixVerse v5.6은 어떤 해상도와 길이를 지원하나요?",
+        "answer": "PixVerse v5.6은 360p, 540p, 720p, 1080p 해상도와 5, 8, 10초 길이를 지원합니다. 단, 1080p에서는 5초와 8초만 사용할 수 있으며 1080p × 10초 조합은 UI에서 비활성화되고 가격 및 백엔드 검증에서도 미지원으로 처리됩니다."
+      },
+      "q2": {
+        "question": "generate_audio_switch는 무엇을 제어하나요?",
+        "answer": "generate_audio_switch는 기본 오디오 생성 기능을 켜고 끕니다. 꺼져 있을 때는 영상 요금만 청구되며, 켜면 파라미터 조합 테이블에 따라 영상 가격 위에 오디오 요금이 추가됩니다."
+      },
+      "q3": {
+        "question": "thinking_type 모드별 차이는 무엇인가요?",
+        "answer": "enabled는 더 강한 추론을 사용해 구도와 움직임을 안정적으로 만드는 대신 약간의 지연이 발생할 수 있습니다. disabled는 최대한 빠른 응답을 목표로 하고, auto는 요청마다 서비스가 자동으로 판단해 대부분의 사용자에게 권장됩니다."
+      },
+      "q4": {
+        "question": "어떻게 하면 비슷한 결과를 반복해서 얻을 수 있나요?",
+        "answer": "seed 파라미터를 사용하면 됩니다. 기본값 -1은 매번 랜덤 시드를 사용하며, 비슷한 결과를 반복해서 얻고 싶다면 고정된 시드 값을 지정하고 이후 요청에서도 동일하게 사용하세요."
+      }
+    },
+    "finalCTA": {
+      "title": "지금 바로 PixVerse v5.6 텍스트 투 비디오로 시작하세요",
+      "description": "간단한 프롬프트만 작성하면 몇 분 안에 소셜, 광고 콘셉트, 스토리텔링에 활용할 수 있는 짧은 영상을 만들 수 있습니다. 아래 Playground는 크레딧 시스템과 연결되어 실행 전 예상 비용을 보여 줍니다.",
+      "button": "지금 생성하기"
+    },
+    "breadcrumb": {
+      "home": "홈",
+      "pageName": "PixVerse v5.6 텍스트 투 비디오"
+    }
+  }
+}

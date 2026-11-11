@@ -1,0 +1,280 @@
+{
+  "header": {
+    "title": "探索创意分类",
+    "subtitle": "创作、编辑与想象所需的工具都在这里。"
+  },
+  "common": {
+    "prompt": "提示词",
+    "before": "之前",
+    "after": "之后",
+    "image": "图像",
+    "video": "视频",
+    "freeTrial": "免费试用"
+  },
+  "cards": {
+    "imageToVideo": {
+      "title": "图生视频",
+      "description": "将图片转成视频动画",
+      "inputAlt": "图生视频输入",
+      "outputTitle": "图生视频输出"
+    },
+    "textToVideo": {
+      "title": "文生视频",
+      "description": "用文本提示生成视频"
+    },
+    "longcatAvatar": {
+      "title": "Lip-Sync",
+      "description": "通过图片和音频生成说话头像视频",
+      "inputAlt": "Longcat Avatar 图片输入",
+      "outputAlt": "Longcat Avatar 视频输出"
+    },
+    "editorCombiner": {
+      "title": "编辑与合成",
+      "description": "编辑、组合并创作",
+      "referencePortraitAlt": "编辑参考人像",
+      "referenceProductAlt": "编辑参考商品",
+      "outputAlt": "编辑合成结果"
+    },
+    "imageToImage": {
+      "title": "图生图",
+      "description": "用 AI 转换图片"
+    },
+    "textToImage": {
+      "title": "文生图",
+      "description": "通过文本提示生成图片"
+    },
+    "photoShoot": {
+      "title": "写真",
+      "description": "任意风格的 AI 写真拍摄",
+      "coverAlt": "写真封面",
+      "coverBadge": "封面",
+      "scenesBadge": "场景"
+    },
+    "variations": {
+      "title": "变体",
+      "description": "基于任意图片生成多种变体",
+      "inputAlt": "变体输入",
+      "inputBadge": "输入",
+      "outputBadge": "输出"
+    },
+    "faceGenerator": {
+      "title": "人脸生成",
+      "description": "生成逼真的人脸"
+    },
+    "imageUpscaler": {
+      "title": "图像放大",
+      "description": "提升图片分辨率",
+      "beforeAlt": "放大前",
+      "afterAlt": "放大后",
+      "lowRes": "低清",
+      "enhanced": "增强"
+    },
+    "videoUpscaler": {
+      "title": "视频放大",
+      "description": "提升视频画质",
+      "hd": "高清",
+      "ultraHd": "超高清"
+    },
+    "imageEffects": {
+      "title": "图像特效",
+      "description": "为图片应用惊艳特效",
+      "chips": {
+        "original": "原图",
+        "filmLook": "胶片感",
+        "goldenHour": "黄金时刻",
+        "blackWhite": "黑白"
+      }
+    },
+    "videoEffects": {
+      "title": "视频特效",
+      "description": "为视频添加电影感特效",
+      "chips": {
+        "cinematic": "电影感",
+        "slowMotion": "慢动作",
+        "lightLeak": "漏光",
+        "vintage": "复古"
+      }
+    },
+    "backgroundRemove": {
+      "title": "背景移除",
+      "description": "一键移除图片背景",
+      "beforeAlt": "背景移除前",
+      "afterAlt": "背景移除后"
+    },
+    "imageEraser": {
+      "title": "图像擦除",
+      "description": "用 AI 擦除不需要的内容",
+      "beforeAlt": "图像擦除前",
+      "afterAlt": "图像擦除后",
+      "eraseBadge": "智能擦除"
+    },
+    "referenceToVideo": {
+      "title": "参考图生视频",
+      "description": "基于参考图生成视频",
+      "referenceAlt": "参考图生视频输入",
+      "outputAlt": "参考图生视频输出",
+      "referenceBadge": "参考"
+    },
+    "videoExtend": {
+      "title": "视频延长",
+      "description": "自然延展视频片段",
+      "beforeBadge": "原始",
+      "afterBadge": "延长",
+      "shortDuration": "5秒",
+      "longDuration": "10秒"
+    },
+    "motionControl": {
+      "title": "运动控制",
+      "description": "通过参考动作精准控动",
+      "inputAlt": "运动控制输入",
+      "outputAlt": "运动控制输出",
+      "badge": "控动"
+    }
+  },
+  "mangoHomepage": {
+    "eyebrow": "AI 图片、视频与视觉特效创作平台",
+    "heroDescription": "从灵感生成、照片重绘到视频动态化，joymagic 为创作者、品牌与内容团队提供一套高质量 AI 视觉生产工作流。",
+    "tabs": {
+      "video-tools": {
+        "label": "视频工具",
+        "description": "面向短视频、广告创意与人物动态演示，快速完成从创意描述到成片镜头的生成。"
+      },
+      "image-tools": {
+        "label": "图片工具",
+        "description": "覆盖人像写真、商品视觉、海报概念与图片精修等高频创作场景。"
+      },
+      "image-effects": {
+        "label": "图片特效",
+        "description": "精选可直接应用的风格模板，为照片快速建立统一、专业的视觉表达。"
+      }
+    },
+    "sections": {
+      "imageEffects": {
+        "eyebrow": "图片特效",
+        "title": "精选图片特效案例，快速塑造高级视觉风格"
+      },
+      "videoEffects": {
+        "eyebrow": "视频特效",
+        "title": "热门视频特效案例，提升短片表现力"
+      },
+      "popularPaths": {
+        "eyebrow": "热门入口",
+        "title": "从常用创作入口开始你的下一次生成"
+      }
+    },
+    "cta": {
+      "title": "进入专业工作台，完成从灵感到成品的创作流程",
+      "description": "选择图片生成、视频生成或特效模板，即可在统一工作台中继续编辑、预览并导出结果。",
+      "openImageWorkspace": "打开图片工作台",
+      "openVideoWorkspace": "打开视频工作台"
+    },
+    "cards": {
+      "openTool": "打开工具",
+      "aiVideoGenerator": {
+        "title": "AI 视频生成器",
+        "description": "根据文本描述生成高质感视频镜头，适用于广告概念、短剧分镜、氛围短片与角色动态展示。"
+      },
+      "imageToVideo": {
+        "title": "图像转视频",
+        "description": "将静态图片转化为自然动态镜头，适用于人像开场、产品展示、社媒短片与品牌视觉延展。"
+      },
+      "videoEffects": {
+        "title": "视频特效",
+        "description": "精选可复用的视频特效模板，为人物、产品和社媒内容快速增加镜头表现力。"
+      },
+      "fashionStride": {
+        "title": "时尚大步",
+        "description": "面向人像与时尚内容的走秀动态效果，将静态照片快速转化为更具商业质感的短片。"
+      },
+      "dreamyWedding": {
+        "title": "梦幻婚礼",
+        "description": "营造柔和浪漫的婚礼影像氛围，适用于纪念短片、告白内容与情感化视觉表达。"
+      },
+      "walkForward": {
+        "title": "向前走",
+        "description": "为人物添加自然前进动作，适用于角色出场、封面动效与镜头推进类视频。"
+      },
+      "aiImageGenerator": {
+        "title": "AI 图像生成器",
+        "description": "用文字生成高质量图片，适用于成人女性写真、广告海报、角色设定、商品视觉与社媒封面。"
+      },
+      "imageToImage": {
+        "title": "图生图创作",
+        "description": "基于参考图进行重绘、换装、换景与风格升级，帮助现有素材获得更稳定的商业级呈现。"
+      },
+      "imageUpscaler": {
+        "title": "图像高清放大",
+        "description": "提升图片分辨率、纹理与细节清晰度，适用于人像写真、商品图和低清素材修复。"
+      },
+      "backgroundRemover": {
+        "title": "背景移除",
+        "description": "自动识别主体并去除背景，适用于电商主图、头像素材、模特抠图与透明 PNG 输出。"
+      },
+      "imageEraser": {
+        "title": "智能图像擦除",
+        "description": "精准移除画面中的干扰元素、瑕疵或多余物体，并自动补全自然、干净的背景。"
+      },
+      "imageEffects": {
+        "title": "图像特效",
+        "description": "通过预设风格快速统一照片调性，适合写真包装、社媒内容、活动视觉和主题海报。"
+      },
+      "aiGhibliEffect": {
+        "title": "AI吉卜力效应",
+        "description": "把人物照片转换成温柔的吉卜力动画质感，适合做头像和故事感插画。"
+      },
+      "springBarbiecore": {
+        "title": "春季芭比核",
+        "description": "以高饱和粉色和甜美元素重塑人像，适合时尚感和少女系内容包装。"
+      },
+      "softSpringHaze": {
+        "title": "柔和的春雾",
+        "description": "给照片加上柔雾春日气氛，适合生活方式、人像写真和封面配图。"
+      },
+      "provenceSummerGirl": {
+        "title": "普罗旺斯夏日女孩",
+        "description": "生成法式夏日氛围的人像风格，适合旅行感、写真感和轻杂志视觉。"
+      },
+      "roseBokeh": {
+        "title": "玫瑰散景",
+        "description": "加入玫瑰虚化与浪漫焦外效果，适合节日贺图和情绪感人像创作。"
+      },
+      "ccdStyleSnow": {
+        "title": "CCD风格雪景",
+        "description": "模拟复古 CCD 雪景相机质感，适合怀旧主题和季节氛围照片。"
+      },
+      "y2kTrendCollage": {
+        "title": "Y2K 趋势拼贴",
+        "description": "把人像包装成 Y2K 拼贴海报风，适合做社媒卡片和潮流主题封面。"
+      },
+      "y2kCyberCollage": {
+        "title": "Y2K 网络拼贴",
+        "description": "融合赛博元素和拼贴版式，适合强调潮流感与未来感的人像内容。"
+      },
+      "miniMe": {
+        "title": "迷你我",
+        "description": "把人物变成迷你玩偶风格，适合头像、周边感视觉和轻松趣味内容。"
+      },
+      "ghibliMotion": {
+        "title": "吉卜力动作",
+        "description": "把人物做成吉卜力感动态镜头，适合故事化短视频和氛围感演绎。"
+      },
+      "starCarpet": {
+        "title": "星毯",
+        "description": "打造红毯和舞台登场感，适合做高光时刻和明星化表达。"
+      },
+      "blueprintSupreme": {
+        "title": "至尊蓝图",
+        "description": "偏概念视觉和设计感的视频效果，适合做创意展示和风格化演绎。"
+      },
+      "createImage": {
+        "title": "创建图片"
+      },
+      "createVideo": {
+        "title": "创建视频"
+      },
+      "showcases": {
+        "title": "案例展示"
+      }
+    }
+  }
+}

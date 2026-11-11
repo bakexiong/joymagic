@@ -1,0 +1,18 @@
+{
+  "edit": {
+    "title": "Explore Configuration",
+    "crumbs": {
+      "admin": "Admin",
+      "explore": "Explore"
+    },
+    "buttons": {
+      "submit": "Save Configuration"
+    }
+  },
+  "fields": {
+    "title": "Page Title",
+    "subtitle": "Page Subtitle",
+    "sections": "Sections Configuration (JSON)",
+    "sections_tip": "Configure explore sections in JSON format. Each section should include: id, modelName, subtitle, generateUrl, and items array."
+  }
+}

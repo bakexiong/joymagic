@@ -1,0 +1,77 @@
+[
+  {
+    "prompt": "An old lady sit on the floor",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/f459f97098438d64c34a0ce8060c3cb3.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/f459f97098438d64c34a0ce8060c3cb3.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "An old lady sit on the floor",
+      "size": "1024*1024",
+      "strength": 0.6,
+      "outputFormat": "jpeg",
+      "aspectRatio": "1:1"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/494a8b795092cc94ff2281498a2c0234.jpeg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/494a8b795092cc94ff2281498a2c0234.jpeg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/b042fa0d45b6ce2732431fbac8e43e5e.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/b042fa0d45b6ce2732431fbac8e43e5e.jpeg"
+    ],
+    "generatedAt": "2026-04-15T03:27:09.744Z"
+  },
+  {
+    "prompt": "A realistic, high-resolution photograph of an American woman, captured in natural daylight with soft, diffused lighting that enhances her features gently. She is positioned in a candid, relaxed pose—standing outdoors near a park bench, wearing casual, contemporary clothing: a light blue denim jacket, a white t-shirt, and dark jeans. Her long, wavy brown hair falls loosely over her shoulders, and she has a subtle, thoughtful expression as she looks slightly off-camera. The background is softly blurred (shallow depth of field), with hints of greenery, a distant streetlamp, and a few passing pedestrians. Shot on a full-frame DSLR with a 50mm prime lens, emphasizing natural textures, skin tones, and environmental detail. Cinematic composition, eye-level shot, natural color grading, and a subtle film grain texture for authentic photographic realism.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/95e5e78632d458dced6c847a15d9f2c1.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/95e5e78632d458dced6c847a15d9f2c1.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A realistic, high-resolution photograph of an American woman, captured in natural daylight with soft, diffused lighting that enhances her features gently. She is positioned in a candid, relaxed pose—standing outdoors near a park bench, wearing casual, contemporary clothing: a light blue denim jacket, a white t-shirt, and dark jeans. Her long, wavy brown hair falls loosely over her shoulders, and she has a subtle, thoughtful expression as she looks slightly off-camera. The background is softly blurred (shallow depth of field), with hints of greenery, a distant streetlamp, and a few passing pedestrians. Shot on a full-frame DSLR with a 50mm prime lens, emphasizing natural textures, skin tones, and environmental detail. Cinematic composition, eye-level shot, natural color grading, and a subtle film grain texture for authentic photographic realism.",
+      "size": "1024*1024",
+      "strength": 0.8,
+      "outputFormat": "jpeg",
+      "aspectRatio": "1:1"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/96e88ed939420df7f27d292e5a63bd5f.jpeg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/96e88ed939420df7f27d292e5a63bd5f.jpeg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/974e5b3db9a4fb243558a123319cdc25.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/974e5b3db9a4fb243558a123319cdc25.jpeg"
+    ],
+    "generatedAt": "2026-04-15T03:27:18.926Z"
+  },
+  {
+    "prompt": "Transform into a long-haired woman wearing glasses, dressed in the same clothes, posing in the same way.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/49043e3f492d824c547140d332e71576.jpg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/49043e3f492d824c547140d332e71576.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Transform into a long-haired woman wearing glasses, dressed in the same clothes, posing in the same way.",
+      "size": "1024*1024",
+      "strength": 0.8,
+      "outputFormat": "jpeg",
+      "aspectRatio": "1:1"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/images/7bc942f783b690774be0f9bba0891460.jpeg",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/images/7bc942f783b690774be0f9bba0891460.jpeg",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/images/55dfb516569a72e997724a08a7a34761.jpeg",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/images/55dfb516569a72e997724a08a7a34761.jpeg"
+    ],
+    "generatedAt": "2026-04-15T03:27:28.002Z"
+  }
+]

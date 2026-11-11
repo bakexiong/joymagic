@@ -1,0 +1,559 @@
+{
+  "metadata": {
+    "title": "Veo 3.1 – Image-to-Video & Text-to-Image API | joymagic",
+    "description": "Access Veo 3.1 for image-to-video and text-to-image generation. Create HD visuals fast with simple pricing, API support, and production-ready workflows.",
+    "keywords": "Veo 3.1, Veo 3.1 image-to-video, Veo 3.1 I2V, Veo 3.1 text-to-image, Veo 3.1 API, Veo 3.1 pricing"
+  },
+  "hero": {
+    "kicker": "One model, multiple modalities — on {brand}",
+    "h1": "Veo 3.1 for Image-to-Video and Text-to-Image",
+    "description": "Use Veo 3.1 to generate high-quality images and videos from prompts or reference images—via web UI or API.",
+    "trust": [
+      "HD outputs",
+      "Fast generation",
+      "Built for production"
+    ],
+    "pricing_from": "Pricing from",
+    "pricing_link": "$5",
+    "pricing_suffix": "(500 credits)"
+  },
+  "sections": {
+    "what_is": {
+      "h2": "What is Veo 3.1?",
+      "paragraphs": [
+        "Veo 3.1 is a multimodal generative Veo 3.1 model family used for tasks like text-to-image creation and image-to-video generation.",
+        "In practice, it can transform prompts and reference images into production-ready visuals—supporting workflows from early concepting to marketing assets and iterative creative exploration.",
+        "joymagic provides an integration layer to run these workflows via a web UI and (when enabled) API access, so you can move from experimentation to automation with fewer steps."
+      ]
+    },
+    "creations": {
+      "h2": "What can you create with Veo 3.1?",
+      "cards": {
+        "t2i": {
+          "h3": "Veo 3.1 Text-to-Image (T2I)",
+          "p": "Turn prompts into images for product concepts, illustrations, and marketing creatives. Experiment with styles, compositions, and aspect ratios without changing tools."
+        },
+        "editing": {
+          "h3": "Veo 3.1 Image Generation / Image Editing",
+          "p": "Create variations, stylize references, and iterate through refinements. Use the same prompt framework to converge on a final look faster."
+        },
+        "i2v": {
+          "h3": "Veo 3.1 Image-to-Video (I2V)",
+          "p": "Animate a single image into a short video clip. Guide motion with a prompt, keep key elements consistent, and iterate with variations to dial in the exact feel you want."
+        }
+      },
+      "links": {
+        "prefix": "For related tools, see",
+        "i2v": "image-to-video",
+        "and": "and",
+        "t2i": "text-to-image",
+        "suffix": "on {brand}."
+      }
+    },
+    "i2v": {
+      "h2": "Veo 3.1 Image-to-Video (I2V)",
+      "p": "For high-intent workflows like ads and product clips, Veo 3.1 image-to-video (or I2V) starts from an input image and generates a short sequence with motion guided by your prompt. You can tune output duration, pick an HD preset, and use a motion prompt to control movement—if your endpoint supports higher presets like 1080p, you’ll see it as an option.",
+      "cards": {
+        "inputs": {
+          "h3": "Supported inputs",
+          "p": "Provide a reference image plus a prompt describing the scene and desired motion. Clear subjects and clean backgrounds generally improve stability."
+        },
+        "controls": {
+          "h3": "Output controls",
+          "p": "Adjust resolution presets and duration where available. Add motion language (camera moves, subject motion, ambience) to steer results in a repeatable way."
+        },
+        "use_cases": {
+          "h3": "Common use cases",
+          "p": "Product videos, social ads, b-roll style motion, cinematic shots, and quick storyboards—especially when you need rapid iteration across many variants."
+        }
+      }
+    },
+    "how_to": {
+      "h2": "How to use Veo 3.1",
+      "steps": {
+        "1": {
+          "h3": "1. Choose a mode (T2I or I2V)",
+          "p": "Pick text-to-image for stills, or image-to-video when you want motion from a reference image."
+        },
+        "2": {
+          "h3": "2. Add a prompt (and reference image if needed)",
+          "p": "Describe the subject, style, and context. For I2V, add motion guidance like “slow push-in” or “subtle drifting smoke”."
+        },
+        "3": {
+          "h3": "3. Set output options (resolution, duration, aspect ratio)",
+          "p": "Choose the output preset that matches your channel (social, web, ads). Keep options consistent for repeatable workflows."
+        },
+        "4": {
+          "h3": "4. Generate and review",
+          "p": "Generate a first pass quickly, then review for subject consistency, motion quality, and composition."
+        },
+        "5": {
+          "h3": "5. Iterate with variations",
+          "p": "Make small prompt changes and compare outputs. Save the best results as references for the next iteration."
+        },
+        "6": {
+          "h3": "6. Export / download / integrate via API",
+          "p": "Download assets for your pipeline or integrate generation via API for batch and automation use cases."
+        }
+      }
+    },
+    "api": {
+      "h2": "Veo 3.1 API",
+      "p": "Build production integrations for Veo 3.1 API access using simple REST/JSON requests. Authentication is typically handled with an API key, and you can connect generation to your existing product workflow for batch runs, templates, and team tools.",
+      "links": {
+        "docs_label": "Docs:",
+        "keys_label": "API keys:",
+        "keys_suffix": "(sign-in required)"
+      },
+      "example": {
+        "h3": "Example request (illustrative)",
+        "p": "Use this as a placeholder pattern and refer to the docs for the exact endpoint, parameters, and response schema."
+      }
+    },
+    "pricing": {
+      "h2": "Pricing for Veo 3.1",
+      "p_before": "Pricing is credit-based. Refer to",
+      "p_after": "for current packs and plan details.",
+      "table": {
+        "task": "Task",
+        "unit": "Unit",
+        "starting_from": "Credits"
+      },
+      "rows": {
+        "video": {
+          "task": "Video only",
+          "unit": "Per second",
+          "start": "80 credits/s"
+        },
+        "video_audio": {
+          "task": "Video + Audio",
+          "unit": "Per second",
+          "start": "160 credits/s"
+        }
+      },
+      "note": "joymagic will always show the credit cost before you confirm a generation."
+    },
+    "quality": {
+      "h2": "Quality, Safety, and Usage Rights",
+      "p1": "Output quality depends on the mode and chosen settings. For video, higher presets may be available (e.g., HD; including 1080p where supported), and results improve with clean reference images and specific motion prompts.",
+      "p2_before": "Commercial usage is subject to",
+      "terms_link": "Terms of Service",
+      "p2_after": "and applicable laws. You are responsible for the rights to any inputs you upload.",
+      "p3_before": "joymagic enforces a content policy to prevent prohibited use. See",
+      "moderation_link": "Content Moderation Policy",
+      "p3_middle": "and",
+      "aup_link": "Acceptable Use Policy",
+      "p3_after": "for details."
+    }
+  },
+  "faq": {
+    "h2": "FAQ about Veo 3.1",
+    "items": [
+      {
+        "question": "What is Veo 3.1 used for?",
+        "answer": "Veo 3.1 is used for multimodal generation workflows such as text-to-image and image-to-video. You can turn prompts into images, create variations and edits, or animate a reference image into a short clip. On joymagic, Veo 3.1 fits into end-to-end workflows for prototyping, marketing creatives, and production asset generation."
+      },
+      {
+        "question": "Is Veo 3.1 good for image-to-video?",
+        "answer": "Veo 3.1 image-to-video (I2V) is a strong fit when you want to start from a still image and add controlled motion with a prompt. It’s commonly used for product shots, ad creatives, b-roll style clips, and concept visuals. Results depend on the reference image quality and how specific your motion prompt is."
+      },
+      {
+        "question": "How do I write prompts for Veo 3.1?",
+        "answer": "Start with a clear subject, then add style, lighting, and camera details. For I2V, include a motion prompt that describes the movement (e.g., “slow push-in”, “subtle wind”, “camera pan left”) and what should stay stable. Iterate with small changes and keep a short “negative” list of things you want to avoid if your workflow supports it."
+      },
+      {
+        "question": "Does Veo 3.1 support 1080p output?",
+        "answer": "Output resolution (including 1080p) depends on the specific endpoint and presets available in the UI or API at the time you generate. If 1080p is supported for your mode, you’ll see it as a selectable option; otherwise generate at the highest available preset and upscale downstream. Check the current presets on joymagic before standardizing a production workflow."
+      },
+      {
+        "question": "How much does Veo 3.1 cost?",
+        "answer": "joymagic uses a credit-based pricing model. Typical starting points are from 2 credits per text-to-image generation and from 250 credits per image-to-video conversion, with totals varying by model, resolution, and duration. For up-to-date packs and plan details, see the pricing page—credit costs may change as features and providers evolve."
+      },
+      {
+        "question": "Can I use outputs commercially?",
+        "answer": "Commercial use is generally allowed on joymagic, as long as you follow our Terms of Service and content policies. You’re responsible for ensuring you have the rights to any input images, logos, or brand assets you upload. If you need strict compliance requirements, review the Terms and policies linked on this page before launching."
+      },
+      {
+        "question": "Do you provide a Veo 3.1 API?",
+        "answer": "Yes—joymagic offers API access for supported generation workflows so you can integrate Veo 3.1 into your product or pipeline. The API is typically REST/JSON and authenticated with an API key from your dashboard. For the latest endpoints, parameters, and examples, follow the API docs link on this page."
+      },
+      {
+        "question": "Are you affiliated with the original model provider?",
+        "answer": "No. joymagic is an independent service that provides access to AI generation workflows. We are not affiliated with, endorsed by, or sponsored by the original creators of “Veo 3.1.” Trademarks and model names belong to their respective owners."
+      }
+    ]
+  },
+  "disclaimer": {
+    "h2": "Disclaimer",
+    "p": "{brand} is an independent service that provides access to AI generation workflows. We are not affiliated with, endorsed by, or sponsored by the original creators of \"Veo 3.1.\" Trademarks and model names belong to their respective owners."
+  },
+  "veo31": {
+    "form": {
+      "prompt": {
+        "label": "Prompt",
+        "enhancer": "Prompt Enhancer",
+        "placeholder": "A stylish young male artist is spray-painting a colorful mural of flowers on a brick wall in a sunny city alleyway...",
+        "tooltip": "The positive prompt for generation."
+      },
+      "negativePrompt": {
+        "label": "Negative Prompt",
+        "placeholder": "Please enter negative prompt",
+        "tooltip": "The negative prompt for generation."
+      },
+      "audio": {
+        "label": "Audio",
+        "hint": "Supports audio files (MP3, WAV, etc.)",
+        "tooltip": "The audio file URL for generation.",
+        "dragDrop": "Drag or click to upload",
+        "dropHere": "Drop audio file here",
+        "record": "Record Audio",
+        "recordDialog": {
+          "title": "Record Audio",
+          "instruction": "Record audio using your microphone.",
+          "noRecording": "No recording yet.",
+          "hint": "You can click the \"Start Recording\" button below to record.",
+          "recording": "Recording...",
+          "startRecording": "Start Recording",
+          "stopRecording": "Stop Recording",
+          "retake": "Retake",
+          "useAudio": "Use Audio",
+          "uploading": "Uploading..."
+        }
+      },
+      "aspectRatio": {
+        "label": "Aspect Ratio"
+      },
+      "resolution": {
+        "label": "Resolution"
+      },
+      "duration": {
+        "label": "Duration (seconds)"
+      },
+      "generateAudio": {
+        "label": "Generate Audio",
+        "description": "If enabled, audio will be automatically generated for the video.",
+        "tooltip": "Enable this option to automatically generate audio for the video."
+      },
+      "image": {
+        "label": "Image",
+        "tooltip": "Upload an image to convert to video",
+        "hint": "Hint: You can drag and drop a file or click to upload",
+        "dragDrop": "Drag and drop a file or click to upload",
+        "dropHere": "Drop image here"
+      },
+      "lastImage": {
+        "label": "Last Image",
+        "tooltip": "Optional last image for video generation",
+        "hint": "Hint: You can drag and drop a file or click to upload",
+        "dragDrop": "Drag and drop a file or click to upload",
+        "dropHere": "Drop image here"
+      },
+      "seed": {
+        "label": "Seed",
+        "placeholder": "Leave empty for random"
+      },
+      "buttons": {
+        "reset": "Reset",
+        "run": "Generate",
+        "generating": "Generating..."
+      }
+    },
+    "preview": {
+      "placeholder": "Enter a prompt and click run, and the generated video will be displayed here.",
+      "costInfo": "Your request will cost {cost} per run.",
+      "oneMoreThing": "One more thing:",
+      "actions": {
+        "addSound": "Add Sound",
+        "videoUpscaler": "Video Upscaler",
+        "videoUpscalerPro": "Video Upscaler Pro",
+        "videoExtend": "Video Extend"
+      }
+    },
+    "common": {
+      "selected": "Selected: {name}",
+      "notSelected": "No file selected"
+    },
+    "status": {
+      "idle": "Idle",
+      "processing": "Processing",
+      "completed": "Completed"
+    },
+    "actions": {
+      "downloadVideo": "Download Video",
+      "downloadFailed": "Download video failed",
+      "playAudioFailed": "Failed to play audio. Please check your browser settings."
+    },
+    "errors": {
+      "promptRequired": "Please enter a prompt",
+      "imageRequired": "Please upload an image",
+      "generationFailed": "Video generation failed",
+      "taskFailed": "Task processing failed",
+      "taskTimeout": "Task processing timeout, please try again later",
+      "taskIdNotFound": "Unable to get task ID, please check API response format",
+      "processingFailed": "Processing failed, please retry",
+      "statusQueryFailed": "Failed to query task status",
+      "apiResponseParseFailed": "Failed to parse API response",
+      "invalidFileType": "Invalid file type. Please upload image files (JPG, PNG, etc.).",
+      "uploadFailed": "Upload failed: {error}",
+      "uploadFailedGeneric": "Upload failed",
+      "recordingFailed": "Failed to start recording. Please check microphone permissions."
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "Veo 3.1 Image to Video - Animate Photos with AI | joymagic",
+      "description": "Turn images into video with Google Veo 3.1. Upload reference photos, maintain character consistency, generate cinematic video with native audio.",
+      "keywords": "veo 3.1, image to video, ai video generator, animate photos, character consistency, cinematic video, native audio, google veo"
+    },
+    "hero": {
+      "title": "Veo 3.1 Image to Video",
+      "description": "Google Veo 3.1 turns your images into video clips with synchronized audio. Upload reference photos to control character identity, scene composition, or visual style—then describe the motion you want. Try Veo 3.1 for free below!<br/><br/>No reference images? <a href=\"/text-to-video/veo-3-1\" class=\"text-primary underline\">Try Veo 3.1 Text to Video</a> to generate from scratch.",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "multiImageReference": {
+        "title": "Multi-Image Reference",
+        "description": "Upload multiple images to guide your video's visual direction. Use one for character reference, another for style, a third for scene composition—the model combines them intelligently."
+      },
+      "characterConsistency": {
+        "title": "Character Consistency",
+        "description": "Your character looks identical throughout the video. Upload a clear reference—facial features, proportions, clothing details stay locked across all frames, poses, and camera angles."
+      },
+      "realisticMotion": {
+        "title": "Realistic Motion",
+        "description": "Static images come alive with natural movement. Hair flows, fabric shifts, expressions change—all while maintaining visual identity from your reference photos."
+      },
+      "nativeAudioSync": {
+        "title": "Native Audio Sync",
+        "description": "Generated video includes synchronized audio—footsteps, ambient sounds, dialogue. Audio matches the motion and scene automatically based on your prompt."
+      }
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "productAnimation": {
+        "title": "Product Animation",
+        "description": "Turn product photos into demo videos showing rotation, usage, or lifestyle contexts."
+      },
+      "characterAnimation": {
+        "title": "Character Animation",
+        "description": "Bring character designs and concept art to life with movement and expressions."
+      },
+      "portraitVideos": {
+        "title": "Portrait Videos",
+        "description": "Animate portrait photos with subtle movements—blinking, head turns, gentle smiles."
+      },
+      "styleMatchedClips": {
+        "title": "Style-Matched Clips",
+        "description": "Upload style references to generate videos matching a specific aesthetic or art direction."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "What is Image to Video?",
+        "answer": "Image to Video uses your uploaded photos to control the visual output. The model generates motion and audio while preserving character identity, style, or composition from your references."
+      },
+      "q2": {
+        "question": "How many images can I upload?",
+        "answer": "Multiple reference images are supported. Use different images to control different aspects—character, style, scene."
+      },
+      "q3": {
+        "question": "Will my character stay consistent?",
+        "answer": "Yes. Veo 3.1 preserves character identity across all frames. Upload a clear front-facing reference for best results."
+      },
+      "q4": {
+        "question": "Does it include audio?",
+        "answer": "Yes. Generated videos include synchronized ambient sounds, effects, and dialogue based on your prompt."
+      },
+      "q5": {
+        "question": "How is this different from Text to Video?",
+        "answer": "Text to Video generates everything from scratch. Image to Video uses your photos to control visual identity while generating motion."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Create?",
+      "description": "Start generating amazing videos from your images today.",
+      "button": "Try It Now"
+    }
+  },
+  "veo31Page": {
+    "metadata": {
+      "title": "Text to Video AI Generator (VEO-3.1) | Create Videos from Text – joymagic",
+      "description": "Transform text prompts into stunning videos with joymagic's text-to-video AI generator. Powered by VEO-3.1, create high-quality videos in seconds. HD outputs, fast generation, free to try."
+    },
+    "hero": {
+      "title": "Text to Video AI Generator – VEO-3.1",
+      "description": "Transform text prompts into stunning videos in seconds. No video editing skills needed.",
+      "button1": "Generate Video",
+      "button2": "Start free · No credit card"
+    },
+    "heroDescription": "Enter a text prompt and watch as AI transforms your words into a beautiful video. Perfect for content creators, marketers, and storytellers.",
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast generation",
+      "commercialReady": "Commercial-use ready"
+    },
+    "whatYouCanDo": {
+      "title": "What You Can Do With Text to Video",
+      "description": "Turn your ideas into motion with AI-powered video generation.",
+      "contentCreation": {
+        "title": "Content Creation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create engaging video content for social media</li><li>Generate video thumbnails and previews</li><li>Produce short-form video content quickly</li></ul>"
+      },
+      "marketing": {
+        "title": "Marketing & Advertising",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create promotional videos from text descriptions</li><li>Generate video ads and campaigns</li><li>Produce marketing content at scale</li></ul>"
+      },
+      "entertainment": {
+        "title": "Entertainment & Storytelling",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Bring stories to life with AI-generated videos</li><li>Create animated scenes from text</li><li>Produce creative video content</li></ul>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Everything you need to create videos from text with AI.",
+      "textToVideo": {
+        "title": "Text to Video Generation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Transform text prompts into high-quality videos</li><li>Support for various video durations and sizes</li><li>Advanced prompt optimization</li></ul>"
+      },
+      "highQuality": {
+        "title": "High-Quality Outputs",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>HD video outputs up to 1920x1080</li><li>Smooth motion and transitions</li><li>Professional-grade video quality</li></ul>"
+      },
+      "flexibleControl": {
+        "title": "Flexible Control",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Customize video size, duration, and shot type</li><li>Negative prompts for fine-tuning</li><li>Seed control for reproducible results</li></ul>"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "From text to video in four simple steps.",
+      "step1": {
+        "title": "Step 1 – Enter Your Prompt",
+        "description": "<p class=\"mb-3\">Describe the video you want to create. Be specific about the scene, characters, actions, and mood.</p>"
+      },
+      "step2": {
+        "title": "Step 2 – Configure Settings",
+        "description": "<p class=\"mb-3\">Choose video size, duration, shot type, and other parameters to match your needs.</p>"
+      },
+      "step3": {
+        "title": "Step 3 – Generate Video",
+        "description": "<p class=\"mb-3\">Click the generate button and let AI create your video. Processing typically takes a few minutes.</p>"
+      },
+      "step4": {
+        "title": "Step 4 – Download & Use",
+        "description": "<p class=\"mb-3\">Preview your video, download it, and use it in your projects immediately.</p>"
+      }
+    },
+    "faq": {
+      "title": "FAQs",
+      "description": "Common questions about text-to-video generation.",
+      "q1": {
+        "question": "How long does it take to generate a video?",
+        "answer": "Video generation typically takes 2-5 minutes depending on the duration and complexity of your prompt."
+      },
+      "q2": {
+        "question": "What video formats are supported?",
+        "answer": "We support standard video formats including MP4. Videos can be generated in various sizes from 720p to 1080p."
+      },
+      "q3": {
+        "question": "Can I use the generated videos commercially?",
+        "answer": "Yes, you can use the generated videos for commercial purposes. Please refer to our Terms of Service for complete details."
+      }
+    },
+    "finalCTA": {
+      "title": "Turn your text into stunning videos.",
+      "description": "Try the joymagic text-to-video AI generator and start creating videos in seconds.<br/><span class=\"text-muted-foreground\">No video editing skills needed · Free to try</span>",
+      "button": "Start generating videos"
+    }
+  },
+  "textToVideo": {
+    "metadata": {
+      "title": "Veo 3.1 Text to Video - AI Video Generator | joymagic",
+      "description": "Generate videos from text with Google Veo 3.1. Create cinematic clips with dialogue, sound effects, and camera moves. Native audio included. No footage needed."
+    },
+    "hero": {
+      "title": "Veo 3.1 Text to Video",
+      "description": "Google Veo 3.1 turns text descriptions into video clips with synchronized audio. Describe your scene, camera movement, and dialogue—the model generates video with native sound. Try Veo 3.1 for free below!<br/><br/>Have reference images? <a href=\"/image-to-video/veo-3-1\" class=\"text-primary underline\">Try Veo 3.1 Image to Video</a> for visual control."
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "nativeAudio": {
+        "title": "Native Audio Generation",
+        "description": "The model creates synchronized audio automatically. Write dialogue in your prompt and characters speak it. Describe a café scene and hear ambient chatter and clinking cups. Footsteps match walking, doors sound when they close."
+      },
+      "cinematicCamera": {
+        "title": "Cinematic Camera Control",
+        "description": "Describe camera movements in plain language: \"slow dolly forward,\" \"aerial tracking shot,\" \"handheld shaky cam.\" The model interprets cinematography terms and executes them in the generated video."
+      },
+      "frameControl": {
+        "title": "First & Last Frame Control",
+        "description": "Specify exactly how your video begins and ends. Create precise transitions that connect with other clips, or lock the opening and closing shots for storyboard accuracy."
+      },
+      "videoExtension": {
+        "title": "Video Extension",
+        "description": "Need longer content? Extend any generated video from its final frame. Build longer sequences by connecting multiple clips that flow naturally together."
+      }
+    },
+    "promptingTips": {
+      "title": "Prompting Tips",
+      "cameraMovement": {
+        "title": "Describe Camera Movement",
+        "description": "\"Slow dolly forward toward the subject\" or \"crane shot rising above the cityscape\" produces cinematic results."
+      },
+      "audioDetails": {
+        "title": "Include Audio Details",
+        "description": "\"Ambient café noise with soft jazz\" or \"character whispers: follow me\" helps generate matching sound."
+      },
+      "lighting": {
+        "title": "Specify Lighting",
+        "description": "\"Golden hour, long shadows\" or \"neon-lit rain, reflections on wet pavement\" sets the visual mood."
+      }
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "socialMedia": {
+        "title": "Social Media Content",
+        "description": "Create TikToks, Reels, and Shorts from text. No filming required."
+      },
+      "adPrevisualization": {
+        "title": "Ad Previsualization",
+        "description": "Test commercial concepts before production. Generate variations for client review."
+      },
+      "storyboard": {
+        "title": "Storyboard Animation",
+        "description": "Bring written scenes to life for pitch decks and planning."
+      },
+      "educational": {
+        "title": "Educational Videos",
+        "description": "Generate visual demonstrations and explainers from scripts."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "What is Veo 3.1 Text to Video?",
+        "answer": "Veo 3.1 is Google DeepMind's AI that generates video clips with native audio from text descriptions. Describe a scene and get cinematic video without filming or editing."
+      },
+      "q2": {
+        "question": "Does it generate audio automatically?",
+        "answer": "Yes. The model creates synchronized dialogue, ambient sounds, and sound effects based on your prompt. Audio and visuals stay aligned."
+      },
+      "q3": {
+        "question": "Can I control camera movement?",
+        "answer": "Yes. Describe camera moves in your prompt—dolly, tracking, crane, zoom—and the model executes them."
+      },
+      "q4": {
+        "question": "Can I extend videos?",
+        "answer": "Yes. Use video extension to continue from the last frame and build longer sequences."
+      },
+      "q5": {
+        "question": "What's the difference from Image to Video?",
+        "answer": "Text to Video generates everything from your text description. Image to Video uses uploaded photos to control character identity, style, or composition while generating motion."
+      }
+    }
+  }
+}

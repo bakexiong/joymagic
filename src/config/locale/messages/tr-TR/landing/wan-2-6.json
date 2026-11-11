@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "title": "Wan 2.6 – Image-to-Video & Text-to-Image API | joymagic",
+    "description": "Wan 2.6 ile image-to-video ve text-to-image üretimi. Basit fiyatlandırma, API desteği ve prodüksiyon iş akışlarıyla HD görselleri hızlı üretin.",
+    "keywords": "Wan 2.6, Wan 2.6 image-to-video, Wan 2.6 I2V, Wan 2.6 text-to-image, Wan 2.6 API, Wan 2.6 fiyat"
+  },
+  "hero": {
+    "kicker": "Tek model, birden çok mod — {brand}",
+    "h1": "Image-to-Video ve Text-to-Image için Wan 2.6 API",
+    "description": "Wan 2.6 ile prompt veya referans görselden yüksek kaliteli görseller ve videolar üretin — web UI veya API ile.",
+    "trust": [
+      "HD çıktılar",
+      "Hızlı üretim",
+      "Prodüksiyon için"
+    ],
+    "pricing_from": "Fiyatlar",
+    "pricing_link": "$5",
+    "pricing_suffix": "(500 kredi) ile başlar"
+  },
+  "sections": {
+    "what_is": {
+      "h2": "Wan 2.6 nedir?",
+      "paragraphs": [
+        "Wan 2.6, text-to-image ve image-to-video gibi görevlerde kullanılan çok modlu bir Wan 2.6 model ailesidir.",
+        "Promptları ve referans görselleri prodüksiyona uygun çıktılara dönüştürür; fikirden pazarlama içeriklerine ve iteratif üretime kadar destekler.",
+        "joymagic, bu iş akışlarını web UI ve (etkinse) API üzerinden sağlayan bağımsız bir entegrasyon katmanı sunar."
+      ]
+    },
+    "creations": {
+      "h2": "Wan 2.6 ile neler üretebilirsiniz?",
+      "cards": {
+        "t2i": {
+          "h3": "Wan 2.6 Text-to-Image (T2I)",
+          "p": "Promptlardan görseller üretin; konsept, illüstrasyon ve pazarlama kreatifleri için. Stil/kompozisyon/oranları hızlı deneyin."
+        },
+        "editing": {
+          "h3": "Wan 2.6 Görsel Üretimi / Düzenleme",
+          "p": "Varyasyonlar, stilizasyon ve adım adım iyileştirme. Tutarlı prompt yapısıyla daha hızlı sonuca ulaşın."
+        },
+        "i2v": {
+          "h3": "Wan 2.6 Image-to-Video (I2V)",
+          "p": "Tek bir görseli kısa kliplere dönüştürün. Hareketi prompt ile yönetin ve varyasyonlarla iterasyon yapın."
+        }
+      },
+      "links": {
+        "prefix": "İlgili araçlar:",
+        "i2v": "image-to-video",
+        "and": "ve",
+        "t2i": "text-to-image",
+        "suffix": "{brand} üzerinde."
+      }
+    },
+    "i2v": {
+      "h2": "Wan 2.6 Image-to-Video (I2V)",
+      "p": "Reklamlar ve ürün klipleri gibi yüksek niyetli işlerde Wan 2.6 image-to-video (I2V), bir giriş görselinden başlar ve prompt ile yönlendirilen kısa bir sekans üretir. Duration, HD preset ve motion prompt (destek varsa) ile kontrol edebilirsiniz; 1080p yalnızca endpoint destekliyorsa görünür.",
+      "cards": {
+        "inputs": {
+          "h3": "Desteklenen girdiler",
+          "p": "Referans görsel + sahne/hareket promptu. Net konu ve temiz arka plan genellikle daha stabil sonuç verir."
+        },
+        "controls": {
+          "h3": "Çıktı kontrolleri",
+          "p": "Mümkünse çözünürlük ve süre presetlerini ayarlayın. Kamera/konu hareketi ve atmosferi tarif ederek tutarlılığı artırın."
+        },
+        "use_cases": {
+          "h3": "Kullanım alanları",
+          "p": "Ürün videoları, sosyal reklamlar, b-roll, yaratıcı çekimler ve hızlı storyboardlar."
+        }
+      }
+    },
+    "how_to": {
+      "h2": "Wan 2.6 nasıl kullanılır?",
+      "steps": {
+        "1": {
+          "h3": "1. Mod seçin (T2I veya I2V)",
+          "p": "Durağan görsel için text-to-image; hareket için image-to-video."
+        },
+        "2": {
+          "h3": "2. Prompt ekleyin (gerekirse referans görsel)",
+          "p": "Konu/stil/bağlamı yazın. I2V için hareket yönlendirmesi ekleyin."
+        },
+        "3": {
+          "h3": "3. Ayarları seçin (çözünürlük, süre, oran)",
+          "p": "Kanalınıza uygun preset seçin ve tekrarlanabilirlik için tutarlı kalın."
+        },
+        "4": {
+          "h3": "4. Üretin ve gözden geçirin",
+          "p": "İlk sonucu üretip tutarlılık, hareket ve kompozisyonu kontrol edin."
+        },
+        "5": {
+          "h3": "5. Varyasyonlarla iterasyon",
+          "p": "Küçük prompt değişiklikleriyle karşılaştırarak iyileştirin."
+        },
+        "6": {
+          "h3": "6. Dışa aktarın / indirin / API ile entegre edin",
+          "p": "Çıktıları indirin veya API ile toplu ve otomatik kullanın."
+        }
+      }
+    },
+    "api": {
+      "h2": "Wan 2.6 API",
+      "p": "REST/JSON ile prodüksiyon entegrasyonları kurun. Kimlik doğrulama genellikle API anahtarıyladır; pipeline, şablon ve ekip araçlarına bağlayın.",
+      "links": {
+        "docs_label": "Doküman:",
+        "keys_label": "API anahtarları:",
+        "keys_suffix": "(giriş gerekli)"
+      },
+      "example": {
+        "h3": "Örnek istek (temsili)",
+        "p": "Sadece örnek kalıp; kesin endpoint/parametre/yanıt için dokümana bakın."
+      }
+    },
+    "pricing": {
+      "h2": "Wan 2.6 fiyatlandırma",
+      "p_before": "Kredi bazlıdır ve göreve göre değişir. Güncel planlar için",
+      "p_after": "sayfasına bakın.",
+      "table": {
+        "task": "Görev",
+        "unit": "Birim",
+        "starting_from": "Başlangıç"
+      },
+      "rows": {
+        "t2i": {
+          "task": "Text-to-Image (T2I)",
+          "unit": "Görsel başına",
+          "start": "2 kredi'den"
+        },
+        "editing": {
+          "task": "Görsel Üretimi / Düzenleme",
+          "unit": "Görsel başına",
+          "start": "4 kredi'den"
+        },
+        "i2v": {
+          "task": "Image-to-Video (I2V)",
+          "unit": "Dönüşüm başına",
+          "start": "250 kredi'den"
+        }
+      },
+      "note": "Maliyetler çözünürlük, süre ve sağlayıcı durumuna göre değişebilir. joymagic, üretim öncesi kredi maliyetini gösterir."
+    },
+    "quality": {
+      "h2": "Kalite, güvenlik ve kullanım hakları",
+      "p1": "Kalite mod ve ayarlara bağlıdır. Video için daha yüksek presetler (HD; destek varsa 1080p) olabilir. Temiz referanslar ve net motion promptlar yardımcı olur.",
+      "p2_before": "Ticari kullanım",
+      "terms_link": "Hizmet Koşulları",
+      "p2_after": "ve yürürlükteki yasalara tabidir. Girdiler üzerindeki haklardan siz sorumlusunuz.",
+      "p3_before": "joymagic içerik politikasını uygular. Detaylar için",
+      "moderation_link": "Content Moderation Policy",
+      "p3_middle": "ve",
+      "aup_link": "Acceptable Use Policy",
+      "p3_after": "sayfalarına bakın."
+    }
+  },
+  "faq": {
+    "h2": "Wan 2.6 SSS",
+    "items": [
+      {
+        "question": "Wan 2.6 ne için kullanılır?",
+        "answer": "Wan 2.6, text-to-image ve image-to-video gibi çok modlu üretim işlerinde kullanılır. Prompt ile görsel üretip varyasyonlar oluşturabilir veya bir referans görseli kısa klibe dönüştürebilirsiniz."
+      },
+      {
+        "question": "Wan 2.6 image-to-video için iyi mi?",
+        "answer": "Durağan bir görselden başlayıp hareketi prompt ile kontrol etmek istediğinizde kullanışlıdır. Ürün çekimleri, reklamlar ve yaratıcı kliplerde yaygındır; sonuçlar referans kalitesine bağlıdır."
+      },
+      {
+        "question": "Wan 2.6 promptları nasıl yazılır?",
+        "answer": "Önce konuyu net yazın, ardından stil/ışık/kamera ekleyin. I2V’de hareketi ve sabit kalması gereken öğeleri belirtin. Küçük değişikliklerle iterasyon yapın."
+      },
+      {
+        "question": "1080p destekliyor mu?",
+        "answer": "UI/API endpoint ve presetlere bağlıdır. Destek varsa seçenek olarak görünür; değilse en yüksek mevcut presetle üretip sonradan yükseltmeyi düşünebilirsiniz."
+      },
+      {
+        "question": "Maliyeti nedir?",
+        "answer": "joymagic kredi bazlıdır. Referans olarak: text-to-image 2 kredi/görselden, image-to-video 250 kredi/dönüşümden başlayabilir; ayarlara göre değişir."
+      },
+      {
+        "question": "Ticari kullanım mümkün mü?",
+        "answer": "Genelde evet, ancak Koşullar ve politikalara uymanız gerekir. Yüklediğiniz tüm içeriklerin haklarından siz sorumlusunuz."
+      },
+      {
+        "question": "Wan 2.6 API var mı?",
+        "answer": "Evet. joymagic desteklenen iş akışları için REST/JSON API erişimi sunar ve genellikle API anahtarıyla doğrular."
+      },
+      {
+        "question": "Orijinal sağlayıcıyla bağlantınız var mı?",
+        "answer": "Hayır. joymagic bağımsız bir servistir; “Wan 2.6” yaratıcılarıyla bağlı/endorse/sponsor değildir. Marka ve isimler sahiplerine aittir."
+      }
+    ]
+  },
+  "disclaimer": {
+    "h2": "Yasal Uyarı",
+    "p": "{brand} AI üretim iş akışları sunan bağımsız bir servistir. “Wan 2.6” yaratıcılarıyla bağlantılı, onaylı veya sponsorlu değildir. Marka ve model adları sahiplerine aittir."
+  },
+  "wan26": {
+    "form": {
+      "prompt": {
+        "label": "İstem",
+        "enhancer": "Prompt Enhancer",
+        "placeholder": "Şık bir genç erkek sanatçı, güneşli bir şehir sokağındaki tuğla duvara renkli çiçek duvar resmi sprey boyuyor...",
+        "tooltip": "Oluşturma için pozitif istem."
+      },
+      "negativePrompt": {
+        "label": "Negatif İstem",
+        "placeholder": "Negatif istemi buraya girin",
+        "tooltip": "Oluşturma için negatif istem."
+      },
+      "audio": {
+        "label": "Ses",
+        "hint": "Ses dosyalarını destekler (MP3, WAV vb.)",
+        "tooltip": "Oluşturma için ses dosyası URL'si.",
+        "dragDrop": "Sürükle ve bırak veya yüklemek için tıkla",
+        "dropHere": "Ses dosyasını buraya bırak",
+        "record": "Ses Kaydet",
+        "recordDialog": {
+          "title": "Ses Kaydet",
+          "instruction": "Sesi kaydetmek için mikrofonunuzu kullanın.",
+          "noRecording": "Henüz kayıt yok.",
+          "hint": "Kaydetmek için \"Kaydı Başlat\" düğmesine tıklayabilirsiniz.",
+          "recording": "Kaydediliyor...",
+          "startRecording": "Kaydı Başlat",
+          "stopRecording": "Kaydı Durdur",
+          "retake": "Yeniden Kaydet",
+          "useAudio": "Sesi Kullan",
+          "uploading": "Yükleniyor..."
+        }
+      },
+      "size": {
+        "label": "Boyut"
+      },
+      "duration": {
+        "label": "Süre"
+      },
+      "shotType": {
+        "label": "Çekim Türü",
+        "single": "Tek",
+        "multiple": "Çoklu"
+      },
+      "enablePromptExpansion": {
+        "label": "İstem Genişletmeyi Etkinleştir",
+        "description": "true olarak ayarlanırsa, istem optimize edici etkinleştirilir.",
+        "tooltip": "İsteminizi otomatik olarak optimize etmek için istem genişletmeyi etkinleştirin."
+      },
+      "seed": {
+        "label": "Tohum"
+      },
+      "buttons": {
+        "reset": "Sıfırla",
+        "run": "Oluştur",
+        "generating": "Oluşturuluyor..."
+      }
+    },
+    "preview": {
+      "placeholder": "Bir istem girin ve burada bir video oluşturmak için Çalıştır'a tıklayın.",
+      "costInfo": "İsteğiniz çalıştırma başına {cost} maliyetinde olacaktır.",
+      "oneMoreThing": "Bir şey daha::",
+      "actions": {
+        "addSound": "Ses Ekle",
+        "videoUpscaler": "Video Yükseltici",
+        "videoUpscalerPro": "Video Yükseltici Pro",
+        "videoExtend": "Video Uzat"
+      }
+    },
+    "common": {
+      "selected": "Seçildi: {name}",
+      "notSelected": "Seçilmedi"
+    },
+    "status": {
+      "idle": "Beklemede",
+      "processing": "İşleniyor",
+      "completed": "Tamamlandı"
+    },
+    "actions": {
+      "downloadVideo": "Videoyu İndir",
+      "downloadFailed": "Video indirme başarısız",
+      "playAudioFailed": "Ses çalma başarısız. Lütfen tarayıcı ayarlarınızı kontrol edin."
+    },
+    "errors": {
+      "promptRequired": "Lütfen bir istem girin",
+      "generationFailed": "Video oluşturma başarısız",
+      "taskFailed": "Görev işleme başarısız",
+      "taskTimeout": "Görev işleme zaman aşımı, lütfen daha sonra tekrar deneyin",
+      "taskIdNotFound": "Görev ID'si alınamadı, lütfen API yanıt formatını kontrol edin",
+      "processingFailed": "İşleme başarısız, lütfen tekrar deneyin",
+      "statusQueryFailed": "Görev durumu sorgusu başarısız",
+      "apiResponseParseFailed": "API yanıtı ayrıştırılamadı",
+      "invalidFileType": "Geçersiz dosya türü. Lütfen bir ses dosyası (MP3, WAV vb.) yükleyin.",
+      "uploadFailed": "Yükleme başarısız: {error}",
+      "uploadFailedGeneric": "Yükleme başarısız",
+      "recordingFailed": "Kayıt başlatılamadı. Lütfen mikrofon izinlerini kontrol edin."
+    }
+  },
+  "wan26Page": {
+    "metadata": {
+      "title": "Text to Video AI Generator (WAN-2.6) | Create Videos from Text – joymagic",
+      "description": "Transform text prompts into stunning videos with joymagic's text-to-video AI generator. Powered by WAN-2.6, create high-quality videos in seconds. HD outputs, fast generation, free to try."
+    },
+    "hero": {
+      "title": "Text to Video AI Generator – WAN-2.6",
+      "description": "Transform text prompts into stunning videos in seconds. No video editing skills needed.",
+      "button1": "Generate Video",
+      "button2": "Start free · No credit card"
+    },
+    "heroDescription": "Enter a text prompt and watch as AI transforms your words into a beautiful video. Perfect for content creators, marketers, and storytellers.",
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast generation",
+      "commercialReady": "Commercial-use ready"
+    },
+    "whatYouCanDo": {
+      "title": "What You Can Do With Text to Video",
+      "description": "Turn your ideas into motion with AI-powered video generation.",
+      "contentCreation": {
+        "title": "Content Creation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create engaging video content for social media</li><li>Generate video thumbnails and previews</li><li>Produce short-form video content quickly</li></ul>"
+      },
+      "marketing": {
+        "title": "Marketing & Advertising",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create promotional videos from text descriptions</li><li>Generate video ads and campaigns</li><li>Produce marketing content at scale</li></ul>"
+      },
+      "entertainment": {
+        "title": "Entertainment & Storytelling",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Bring stories to life with AI-generated videos</li><li>Create animated scenes from text</li><li>Produce creative video content</li></ul>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Everything you need to create videos from text with AI.",
+      "textToVideo": {
+        "title": "Text to Video Generation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Transform text prompts into high-quality videos</li><li>Support for various video durations and sizes</li><li>Advanced prompt optimization</li></ul>"
+      },
+      "highQuality": {
+        "title": "High-Quality Outputs",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>HD video outputs up to 1920x1080</li><li>Smooth motion and transitions</li><li>Professional-grade video quality</li></ul>"
+      },
+      "flexibleControl": {
+        "title": "Flexible Control",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Customize video size, duration, and shot type</li><li>Negative prompts for fine-tuning</li><li>Seed control for reproducible results</li></ul>"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "From text to video in four simple steps.",
+      "step1": {
+        "title": "Step 1 – Enter Your Prompt",
+        "description": "<p class=\"mb-3\">Describe the video you want to create. Be specific about the scene, characters, actions, and mood.</p>"
+      },
+      "step2": {
+        "title": "Step 2 – Configure Settings",
+        "description": "<p class=\"mb-3\">Choose video size, duration, shot type, and other parameters to match your needs.</p>"
+      },
+      "step3": {
+        "title": "Step 3 – Generate Video",
+        "description": "<p class=\"mb-3\">Click the generate button and let AI create your video. Processing typically takes a few minutes.</p>"
+      },
+      "step4": {
+        "title": "Step 4 – Download & Use",
+        "description": "<p class=\"mb-3\">Preview your video, download it, and use it in your projects immediately.</p>"
+      }
+    },
+    "faq": {
+      "title": "FAQs",
+      "description": "Common questions about text-to-video generation.",
+      "q1": {
+        "question": "How long does it take to generate a video?",
+        "answer": "Video generation typically takes 2-5 minutes depending on the duration and complexity of your prompt."
+      },
+      "q2": {
+        "question": "What video formats are supported?",
+        "answer": "We support standard video formats including MP4. Videos can be generated in various sizes from 720p to 1080p."
+      },
+      "q3": {
+        "question": "Can I use the generated videos commercially?",
+        "answer": "Yes, you can use the generated videos for commercial purposes. Please refer to our Terms of Service for complete details."
+      }
+    },
+    "finalCTA": {
+      "title": "Turn your text into stunning videos.",
+      "description": "Try the joymagic text-to-video AI generator and start creating videos in seconds.<br/><span class=\"text-muted-foreground\">No video editing skills needed · Free to try</span>",
+      "button": "Start generating videos"
+    }
+  }
+}

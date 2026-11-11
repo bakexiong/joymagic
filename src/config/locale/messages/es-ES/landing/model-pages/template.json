@@ -1,0 +1,50 @@
+{
+  "whyModelTitle": "Por qué este modelo",
+  "whyModelDescription": "Una página de modelo enfocada debe explicar dónde es más fuerte este modelo, cuándo usarlo y por qué merece su propio punto de entrada al flujo de trabajo.",
+  "howItWorksTitle": "como funciona",
+  "howItWorksDescription": "La página está estructurada para ayudar a los usuarios a pasar de la comprensión del modelo a la acción sin abandonar el flujo de creación principal.",
+  "howItWorksSteps": [
+    {
+      "step": "01",
+      "title": "Elige un modo",
+      "copy": "Cambie entre los modos de creación principales del modelo y acceda al flujo de trabajo que coincida con su intención."
+    },
+    {
+      "step": "02",
+      "title": "Agregar mensajes o referencias",
+      "copy": "Comience a partir de texto, referencias o ambos, dependiendo de si está generando desde cero o refinando activos."
+    },
+    {
+      "step": "03",
+      "title": "Generar y comparar",
+      "copy": "Utilice el banco de trabajo para iterar rápidamente, comparar direcciones y hacer que los candidatos más fuertes sigan avanzando."
+    },
+    {
+      "step": "04",
+      "title": "Continuar en creador",
+      "copy": "Una vez que tengas una dirección sólida, salta al flujo del creador para seguir trabajando sin reconstruir el contexto."
+    }
+  ],
+  "workflowsTitle": "Una superficie de modelo, múltiples flujos de trabajo verticales",
+  "workflowsDescription": "En lugar de presentar tarjetas de características primero, la página fluye a través de la intención de la escena real. Cada modo explica para qué sirve, cómo dirigirlo y cómo comenzar con un mensaje de trabajo.",
+  "bestForTitle": "Lo mejor para",
+  "bestForDescription": "El encuadre de casos de uso ayuda a los usuarios a comprender no solo qué puede hacer el modelo, sino también dónde encaja mejor en el trabajo de producción real.",
+  "galleryTitle": "Una página de modelo premium debe explicar el resultado, no esconderlo detrás de módulos.",
+  "galleryDescription": "El ritmo general sigue un diseño editorial vertical: primero el héroe, luego el banco de trabajo, luego la lógica de la escena, la justificación del producto y la prueba del resultado real. Eso mantiene la página densa sin colapsar en una pared de tarjetas.",
+  "galleryLead": "Los resultados reales deben llevar la prueba. La copia circundante permanece compacta, legible y secundaria.",
+  "faqTitle": "Encuadre del producto, no solo estilo de página",
+  "faqDescription": "Las respuestas mantienen el mismo ritmo vertical, por lo que la página aún se lee como una narrativa continua del producto en lugar de un conjunto de módulos separados.",
+  "openWithPrompt": "Abrir con aviso",
+  "openInCreator": "Abrir en creador",
+  "sampleLabel": "Muestra",
+  "fallbackSampleTitle": "Muestra de modelo",
+  "fallbackSampleCaption": "Una muestra de salida real seleccionada del conjunto generacional propio de este modelo.",
+  "controls": {
+    "promptWorkflow": "Flujo de trabajo rápido",
+    "creatorSync": "Sincronización del creador",
+    "uploadUpToRefs": "Sube hasta {count} referencias",
+    "referenceUploads": "Cargas de referencia",
+    "aspectRatios": "{count}+ relaciones de aspecto",
+    "resolutionPresets": "{count} ajustes preestablecidos de resolución"
+  }
+}

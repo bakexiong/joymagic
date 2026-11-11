@@ -1,0 +1,336 @@
+{
+  "sidebar": {
+    "subtitle": "Creator-Arbeitsbereich",
+    "pinned": "Angepinnt",
+    "addTools": "Tools hinzufügen",
+    "allTools": "Alle Tools",
+    "pin": {
+      "ariaPin": "Anpinnen: {label}",
+      "ariaUnpin": "Lösen: {label}"
+    }
+  },
+  "tools": {
+    "untitled": "Unbenanntes Tool"
+  },
+  "model": {
+    "untitled": "Unbenanntes Modell",
+    "fallbackMonogram": "M"
+  },
+  "panels": {
+    "tools": {
+      "titleImage": "Text zu Bild",
+      "titleVideo": "Text zu Video",
+      "empty": "Workspace-Tools werden hier angezeigt.",
+      "formEmpty": "Formularinhalte werden hier angezeigt."
+    },
+    "generated": {
+      "titleImages": "Diese Erstellung",
+      "titleVideos": "Generierte Videos"
+    }
+  },
+  "generated": {
+    "empty": "Ups! Es sieht so aus, als hättest du noch nichts erstellt."
+  },
+  "errors": {
+    "noWorkspace": "Für die aktuelle Auswahl ist kein Workspace verfügbar."
+  },
+  "sceneBrowser": {
+    "title": "{category}-Szenen",
+    "subtitle": "Wähle einen Workflow aus, um mit dem Erstellen zu beginnen.",
+    "tabs": {
+      "creations": "Kreationen",
+      "collections": "Sammlungen",
+      "templates": "Vorlagen"
+    }
+  },
+  "addToolsDialog": {
+    "title": "Tools hinzufügen",
+    "categories": {
+      "image": "Bild",
+      "video": "Video"
+    }
+  },
+  "toolsDetailPage": {
+    "aliases": {
+      "photoshoot": "Fotoshooting",
+      "editorCombiner": "Editor und Kombinierer",
+      "imageEffects": "Bildeffekte",
+      "variations": "Variationen",
+      "videoEffects": "Videoeffekte"
+    },
+    "workspace": {
+      "library": "Bibliothek",
+      "uploads": "Uploads und Dateien",
+      "imageEyebrow": "AI-Bild-Arbeitsbereich",
+      "videoEyebrow": "AI-Video-Arbeitsbereich",
+      "descriptionWithLibrary": "Wählen Sie einen ausgefeilten Ausgangspunkt, zeigen Sie in der Vorschau an, wie sich das Ergebnis anfühlen soll, und beginnen Sie direkt mit der Generierung mit einem wärmeren Workflow im Mango-Stil.",
+      "descriptionWithoutLibrary": "Überprüfen Sie aktuelle Ausgaben, organisieren Sie Sammlungen und konzentrieren Sie Ihren anspruchsvollen Workflow in einer übersichtlicheren Mango-Workbench.",
+      "emptyLibrary": "Für das aktuelle Modell sind noch keine Vorlagenbeispiele verfügbar."
+    },
+    "actions": {
+      "useTemplate": "Vorlage ausprobieren",
+      "templateFallback": "Vorlage",
+      "startGenerating": "Generierung starten",
+      "closeGeneratorPanel": "Generatorfenster schließen",
+      "switchInLibrary": "In der Bibliothek wechseln"
+    },
+    "marketing": {
+      "eyebrow": "Effektanleitung",
+      "featureTitle": "Warum {effectName} verwenden?",
+      "stepsTitle": "So verwenden Sie {effectName}",
+      "faqTitle": "FAQs zu {effectName}",
+      "image": {
+        "title": "Erstellen Sie {effectName}-Bilder mit KI",
+        "intro": "Verwenden Sie {effectName} als Ausgangspunkt. Laden Sie {sourceText} hoch, generieren Sie ein Ergebnis und vergleichen Sie benachbarte Voreinstellungen, bis sich das Aussehen richtig anfühlt.",
+        "sourceCountOne": "ein Referenzbild",
+        "sourceCountMany": "{count} Referenzbilder",
+        "features": {
+          "workflow": {
+            "title": "Effekt-First-Workflow",
+            "description": "Beginnen Sie mit der Voreinstellung {effectName}, anstatt alles von Grund auf neu zu erstellen."
+          },
+          "reference": {
+            "title": "Referenzbezogene Ergebnisse",
+            "description": "Behalten Sie wichtige Themenhinweise aus Ihrem Upload bei, während Sie den ausgewählten {effectName}-Look anwenden."
+          },
+          "iteration": {
+            "title": "Besser für schnelle Iteration",
+            "description": "Verwenden Sie Voreinstellungen in der Nähe, um Variationen schneller zu erkunden, ohne die gesamte Eingabeaufforderung neu schreiben zu müssen."
+          }
+        },
+        "steps": {
+          "pick": {
+            "title": "1. Wählen Sie den Effekt",
+            "description": "Wählen Sie {effectName} auf der Registerkarte {libraryLabel} oder wechseln Sie die Voreinstellungen mit {useTemplateLabel}, bevor Sie generieren."
+          },
+          "upload": {
+            "title": "2. Laden Sie Ihr Bild hoch",
+            "description": "Laden Sie {sourceText} hoch und stellen Sie sicher, dass das Motiv klar genug für den ausgewählten Effekt ist."
+          },
+          "generate": {
+            "title": "3. Generieren und vergleichen",
+            "description": "Erstellen Sie das Ergebnis und kehren Sie dann zu {libraryLabel} zurück, um benachbarte Voreinstellungen zu vergleichen, bis sich Ton und Finish richtig anfühlen."
+          }
+        },
+        "faq": {
+          "bestInput": {
+            "question": "Welche Art von Bild eignet sich am besten für {effectName}?",
+            "answer": "Verwenden Sie {sourceText} mit einem klaren Betreff und lesbaren Details, um das stabilste Ergebnis zu erzielen."
+          },
+          "switch": {
+            "question": "Kann ich von {effectName} wechseln?",
+            "answer": "Ja. Öffnen Sie {libraryLabel} und klicken Sie bei einer anderen Voreinstellung auf {useTemplateLabel}, um die Arbeitsbereichsvorschau und die aktuelle Auswahl zu aktualisieren."
+          },
+          "preset": {
+            "question": "Warum eine Voreinstellung anstelle einer einfachen Eingabeaufforderung verwenden?",
+            "answer": "Voreinstellungen reduzieren die Einrichtungszeit und sorgen dafür, dass Komposition, Stilrichtung und Ausgabe konsistenter wirken."
+          }
+        }
+      },
+      "video": {
+        "title": "Erstellen Sie {effectName}-Videos mit KI.",
+        "intro": "Beginnen Sie mit der Voreinstellung {effectName}, überprüfen Sie die Vorschaurichtung und erstellen Sie einen kurzen Clip mit einem klareren Bewegungsziel.",
+        "features": {
+          "motion": {
+            "title": "Voreingestelltes Bewegungsdesign",
+            "description": "{effectName} gibt Ihnen eine vorgefertigte Bewegungsrichtung, sodass Sie schneller zu einem brauchbaren Ergebnis gelangen."
+          },
+          "preview": {
+            "title": "Klarere visuelle Erwartung",
+            "description": "Die Arbeitsbereichsvorschau zeigt die ausgewählte Effektstimmung im Voraus an, bevor Sie Credits ausgeben."
+          },
+          "exploration": {
+            "title": "Schnelle Effekterkundung",
+            "description": "Bewegen Sie sich mit {useTemplateLabel} durch {libraryLabel}, um mehrere Bewegungsideen schnell zu vergleichen."
+          }
+        },
+        "steps": {
+          "pick": {
+            "title": "1. Wählen Sie die Voreinstellung",
+            "description": ". Lassen Sie {effectName} ausgewählt oder wechseln Sie vor dem Hochladen von {libraryLabel} zu einem anderen Effekt."
+          },
+          "upload": {
+            "title": "2. Laden Sie ein sauberes Bild hoch.",
+            "description": "Verwenden Sie ein klares Quellbild mit lesbarem Rahmen, damit das Bewegungsergebnis kontrollierter bleibt."
+          },
+          "generate": {
+            "title": "3. Erzeugen Sie den Clip",
+            "description": "Erstellen Sie das Video, überprüfen Sie die Bewegung und vergleichen Sie andere Voreinstellungen, wenn Sie einen anderen Animationsstil wünschen."
+          }
+        },
+        "faq": {
+          "image": {
+            "question": "Funktioniert {effectName} mit jedem Bild?",
+            "answer": "Die meisten Ergebnisse gelingen am besten mit einem klaren Motiv, einem ausgewogenen Bildausschnitt und genügend Details für die Animation."
+          },
+          "switch": {
+            "question": "Wie wechsle ich von {effectName} zu einem anderen Effekt?",
+            "answer": "Öffnen Sie {libraryLabel} und klicken Sie auf {useTemplateLabel} in einer anderen Voreinstellung. Die Vorschau und der aktive Effekt werden zusammen aktualisiert."
+          },
+          "preset": {
+            "question": "Warum mit einer Videoeffektvorgabe beginnen?",
+            "answer": "Voreinstellungen beschleunigen das Testen und machen die Animationsrichtung vorhersehbarer, als wenn man mit einem leeren Setup beginnt."
+          }
+        }
+      }
+    },
+    "errors": {
+      "fetchTaskStatusFailed": "Fehler beim Abrufen des Aufgabenstatus",
+      "resultUrlNotFound": "Ergebnis-URL nicht gefunden",
+      "taskFailed": "Aufgabe fehlgeschlagen",
+      "taskPollingTimeout": "Zeitüberschreitung bei der Aufgabenabfrage"
+    },
+    "imageEffectsLanding": {
+      "hero": {
+        "title": "Endlose Fotoeffekte für jede Idee",
+        "intro": "Erwecke deine Fotos mit einer kuratierten Sammlung von KI-Fotoeffekten zum Leben, von nostalgischen Looks bis zu trendnahen Ästhetiken. Lade ein Bild hoch, wechsle den Stil in Sekunden und verwandle ein einfaches Foto direkt im Arbeitsbereich in ein starkes Ergebnis.",
+        "highlights": {
+          "upload": "1. Foto hochladen",
+          "style": "2. Effektstil wählen",
+          "apply": "3. Fotoeffekt anwenden"
+        }
+      },
+      "story": {
+        "title": "Entfalte deine Kreativität mit starken KI-Fotoeffekten",
+        "intro": "Verwandle Alltagsfotos schnell in ausgearbeitete, auffällige Visuals. Jede Vorlage formt Farbe, Textur und Stimmung automatisch, damit du in wenigen Klicks ein professionelleres Ergebnis erreichst.",
+        "features": {
+          "styles": {
+            "title": "Ein Foto, unzählige Stile",
+            "description": "Wechsle mit einem Referenzfoto von weichen Porträts zu Y2K-Collagen, saisonalen Looks oder Vintage-Stimmungen."
+          },
+          "lifelike": {
+            "title": "KI-Fotoeffekte mit natürlicher Wirkung",
+            "description": "Das Motiv bleibt erkennbar, während Farbe, Textur und Atmosphäre verfeinert werden."
+          },
+          "trend": {
+            "title": "Trendfähige Effekte, regelmäßig erweitert",
+            "description": "Entdecke eine Bibliothek mit Social-Trends, viralen Ästhetiken und saisonalen Stimmungen."
+          },
+          "share": {
+            "title": "Ausgaben bereit zum Teilen",
+            "description": "Erstelle polierte Visuals für Social Posts, Kampagnen, Moodboards und schnelle persönliche Shares."
+          }
+        }
+      },
+      "steps": {
+        "title": "So fügst du Fotos Effekte hinzu",
+        "items": {
+          "upload": {
+            "title": "Foto hochladen",
+            "description": "Starte mit einem klaren, hochwertigen Bild. Mehr Motivdetails und saubere Bildränder führen meist zu stabileren Effekten."
+          },
+          "select": {
+            "title": "Effektstil auswählen",
+            "description": "Durchsuche die Vorlagen und wähle den Effekt, der Stimmung, Ästhetik oder Richtung am besten trifft."
+          },
+          "apply": {
+            "title": "Effekt anwenden und herunterladen",
+            "description": "Generiere das Ergebnis, vergleiche bei Bedarf ähnliche Stile und speichere die passende Version."
+          }
+        }
+      },
+      "faq": {
+        "title": "Häufige Fragen zu KI-Fotoeffekten",
+        "items": {
+          "types": {
+            "question": "Welche Effekte kann ich hier nutzen?",
+            "answer": "Du kannst malerische Looks, saisonale Ästhetiken, Collagen, Retro-Behandlungen, Porträtvorlagen und weitere Richtungen nutzen."
+          },
+          "skills": {
+            "question": "Brauche ich Bildbearbeitungserfahrung?",
+            "answer": "Nein. Der Ablauf basiert auf Vorlagen: Foto hochladen, Stil wählen und generieren."
+          },
+          "photos": {
+            "question": "Welche Fotos funktionieren am besten?",
+            "answer": "Fotos mit klarem Motiv, lesbaren Details und ausgewogener Beleuchtung liefern meist die stabilsten Ergebnisse."
+          },
+          "share": {
+            "question": "Kann ich die Bilder für Social Content nutzen?",
+            "answer": "Ja. Der Workflow eignet sich für Social Posts, Moodboards, Kampagnenentwürfe und teilbare Visuals."
+          },
+          "privacy": {
+            "question": "Sind meine Uploads privat?",
+            "answer": "Uploads bleiben im Erstellungsworkflow für Generierung und Vergleich. Beachte vor dem Teilen die passenden Konto- und Speicherregeln."
+          }
+        }
+      },
+      "cta": {
+        "title": "Verwandle deine Fotos mit kreativen KI-Effekten",
+        "description": "Wähle einen Stil, teste Varianten und generiere direkt im selben Arbeitsbereich.",
+        "button": "Fotoeffekte jetzt anwenden"
+      }
+    },
+    "videoEffectsLanding": {
+      "hero": {
+        "title": "Endlose Videoeffekte für jede Bewegungsidee",
+        "intro": "Erwecke Standbilder mit kuratierten KI-Videoeffekten zum Leben. Lade ein Foto hoch, wechsle Bewegungsstile in Sekunden und sieh animierte Ergebnisse im selben Mango-ähnlichen Arbeitsbereich."
+      }
+    },
+    "genericHero": {
+      "imageToImageTitle": "AI-Bildgenerator aus Bild",
+      "imageToImageIntro": "Lade ein beliebiges Bild hoch, ergänze einen kreativen Prompt und lasse die KI sofort ein neues Bild erzeugen. Ideal für Designs, Fotobearbeitung und visuelle Ideen.",
+      "textToImageIntro": "Forme eine klare visuelle Richtung, verfeinere deinen Prompt und verwandle Ideen in polierte Bilder mit einem klareren Mango-Workflow.",
+      "videoIntro": "Starte mit einer starken visuellen Richtung, prüfe die gewünschte Bewegung und gehe direkt in einen klareren Mango-Workflow für {sceneTitle}.",
+      "imageIntro": "Wähle einen guten Ausgangspunkt, führe den gewünschten Look und starte direkt die Generierung mit einem klareren Mango-Workflow für {sceneTitle}."
+    }
+  },
+  "faceGenerator": {
+    "tabs": {
+      "library": "Bibliothek"
+    },
+    "hero": {
+      "eyebrow": "Porträtlabor",
+      "title": "Gesichtsgenerator",
+      "description": "Beginnen Sie mit Porträtvoreinstellungen, zeigen Sie eine Vorschau des gewünschten Aussehens an und optimieren Sie den Generator in einer helleren Workbench im Mango-Stil."
+    },
+    "actions": {
+      "useTemplate": "Vorlage ausprobieren",
+      "surpriseMe": "Überrasche mich"
+    },
+    "form": {
+      "prompt": "Eingabeaufforderung",
+      "promptPlaceholder": "Fügen Sie diesem Gesicht eine zusätzliche kreative Richtung hinzu.",
+      "aspectRatio": "Seitenverhältnis",
+      "gender": "Geschlecht",
+      "age": "Alter",
+      "ethnos": "Ethnie",
+      "bodyType": "Körpertyp",
+      "eyeColor": "Augenfarbe",
+      "hairColor": "Haarfarbe",
+      "hairType": "Haartyp",
+      "hairStyle": "Frisur",
+      "makeup": "Make-up",
+      "generatedPromptPreview": "Generierte Eingabeaufforderungsvorschau",
+      "selectPlaceholder": "Auswählen"
+    },
+    "status": {
+      "ready": "Bereit zum Generieren",
+      "templateApplied": "Angewendete Vorlage: {title}",
+      "surpriseApplied": "Überraschungseinstellungen angewendet",
+      "generating": "Gesicht wird generiert",
+      "generated": "Gesicht generiert",
+      "failed": "Generierung fehlgeschlagen"
+    },
+    "errors": {
+      "generateFailed": "Gesicht konnte nicht generiert werden"
+    },
+    "empty": {
+      "creations": {
+        "title": "Kreationen",
+        "description": "Generierte Gesichter werden hier angezeigt, nachdem Sie den Gesichtsgenerator ausgeführt haben.",
+        "chips": {
+          "generator": "Gesichtsgenerator"
+        }
+      },
+      "collections": {
+        "title": "Sammlungen",
+        "description": "Erstellen und verwalten Sie Sammlungen für Ihre generierten Gesichter.",
+        "chips": {
+          "generator": "Gesichtsgenerator",
+          "portrait": "Porträt",
+          "library": "Bibliothek"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MeiGen 美女写真 80 条</title>
+    <style>
+      :root {
+        --bg: #f3efe7;
+        --panel: rgba(255, 252, 247, 0.88);
+        --card: rgba(255, 255, 255, 0.9);
+        --text: #1f1a17;
+        --muted: #6e625a;
+        --line: rgba(69, 48, 34, 0.12);
+        --accent: #a64b2a;
+        --accent-soft: #f3d9c8;
+        --shadow: 0 16px 40px rgba(74, 46, 28, 0.12);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "PingFang SC", "Noto Sans SC", "Helvetica Neue", sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top left, rgba(255, 214, 170, 0.6), transparent 30%),
+          radial-gradient(circle at top right, rgba(214, 160, 151, 0.45), transparent 28%),
+          linear-gradient(180deg, #f8f1e8 0%, var(--bg) 45%, #efe7dc 100%);
+      }
+
+      .page {
+        width: min(1400px, calc(100% - 32px));
+        margin: 24px auto 40px;
+      }
+
+      .hero {
+        padding: 28px;
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        background: var(--panel);
+        backdrop-filter: blur(10px);
+        box-shadow: var(--shadow);
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+      }
+
+      h1 {
+        margin: 16px 0 8px;
+        font-size: clamp(32px, 5vw, 56px);
+        line-height: 1;
+      }
+
+      .summary {
+        max-width: 820px;
+        margin: 0;
+        color: var(--muted);
+        font-size: 16px;
+        line-height: 1.7;
+      }
+
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 18px;
+      }
+
+      .meta span {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.65);
+        font-size: 13px;
+        color: var(--muted);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 18px;
+        margin-top: 24px;
+      }
+
+      .toolbar {
+        display: grid;
+        grid-template-columns: 1.4fr 0.8fr 0.8fr auto auto;
+        gap: 12px;
+        margin-top: 20px;
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.72);
+        box-shadow: 0 10px 26px rgba(70, 48, 33, 0.08);
+      }
+
+      .toolbar input,
+      .toolbar select,
+      .toolbar button {
+        width: 100%;
+        min-height: 46px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.88);
+        color: var(--text);
+        font: inherit;
+      }
+
+      .toolbar input,
+      .toolbar select {
+        padding: 0 14px;
+      }
+
+      .toolbar button {
+        padding: 0 16px;
+        cursor: pointer;
+        font-weight: 700;
+      }
+
+      .toolbar button.secondary-btn {
+        background: #fff7f1;
+      }
+
+      .toolbar button.danger-btn {
+        color: #fff8f2;
+        background: #2b1e18;
+      }
+
+      .statsbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 14px;
+      }
+
+      .statsbar span {
+        padding: 9px 12px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.72);
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: var(--card);
+        box-shadow: 0 12px 32px rgba(70, 48, 33, 0.1);
+      }
+
+      .poster {
+        aspect-ratio: 4 / 5;
+        width: 100%;
+        object-fit: cover;
+        background: #eadfd5;
+      }
+
+      .content {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px;
+      }
+
+      .rank {
+        display: inline-flex;
+        width: fit-content;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: #201917;
+        color: #fff6ef;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .title {
+        margin: 0;
+        font-size: 17px;
+        line-height: 1.45;
+      }
+
+      .score {
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .prompt {
+        margin: 0;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.7;
+      }
+
+      .actions {
+        display: flex;
+        gap: 10px;
+        margin-top: auto;
+        padding-top: 6px;
+      }
+
+      .actions a {
+        flex: 1;
+        padding: 11px 14px;
+        border-radius: 14px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .actions a.primary {
+        background: #201917;
+        color: #fff8f2;
+      }
+
+      .actions a.secondary {
+        border: 1px solid var(--line);
+        color: var(--text);
+        background: rgba(255, 255, 255, 0.7);
+      }
+
+      .actions button {
+        flex: 1;
+        padding: 11px 14px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: #fff4ec;
+        color: var(--accent);
+        font: inherit;
+        font-size: 14px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .card.is-hidden {
+        display: none;
+      }
+
+      .card.is-filtered {
+        display: none;
+      }
+
+      @media (max-width: 720px) {
+        .page {
+          width: min(100% - 20px, 1400px);
+        }
+
+        .hero {
+          padding: 22px 18px;
+          border-radius: 22px;
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+          gap: 16px;
+        }
+
+        .toolbar {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <span class="eyebrow">MeiGen / Photography</span>
+        <h1>美女写真 80 条</h1>
+        <p class="summary">
+          这里展示的是我从 MeiGen 里筛出来的 80 条偏女性写真、女性人像摄影风格的候选。
+          每张卡片都带有图片、详情页和提示词摘要，方便你继续二筛。
+        </p>
+        <div class="meta">
+          <span>总数：80</span>
+          <span>已按相关度排序</span>
+          <span>包含图片 + 详情链接 + 提示词摘要</span>
+        </div>
+
+        <section class="toolbar">
+          <input id="keywordInput" type="text" placeholder="输入关键词筛选，比如 Korean / editorial / 自拍 / woman" />
+          <select id="minScoreSelect">
+            <option value="0">最低分：不限</option>
+            <option value="10">最低分：10</option>
+            <option value="20">最低分：20</option>
+            <option value="30">最低分：30</option>
+            <option value="40">最低分：40</option>
+            <option value="50">最低分：50</option>
+          </select>
+          <select id="sortSelect">
+            <option value="rank">排序：原始顺序</option>
+            <option value="score-desc">排序：分数从高到低</option>
+            <option value="score-asc">排序：分数从低到高</option>
+            <option value="title">排序：标题 A-Z</option>
+          </select>
+          <button id="resetFiltersBtn" class="secondary-btn">重置筛选</button>
+          <button id="restoreDeletedBtn" class="danger-btn">恢复已删除</button>
+        </section>
+
+        <div class="statsbar">
+          <span id="visibleCount">当前显示：0</span>
+          <span id="deletedCount">已删除：0</span>
+          <span>删除只作用于这个本地展示页</span>
+        </div>
+      </section>
+
+      <section class="grid" id="galleryGrid">
+        
+        <article class="card" data-rank="1" data-score="64" data-title="NanoBanana Pro Prompt by @me_Aarvi">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011444759605510287/0.jpg" alt="NanoBanana Pro Prompt by @me_Aarvi" loading="lazy" />
+          <div class="content">
+            <span class="rank">#1</span>
+            <h2 class="title">NanoBanana Pro Prompt by @me_Aarvi</h2>
+            <div class="score">相关度 64</div>
+            <p class="prompt">Using the uploaded reference image STRICTLY, preserve the same woman’s face, identity, age, facial structure, skin tone, and natural expression with 100% accuracy. No facial alteration, beautification, or identity change.\n\nGenerate a highly realistic cinemat...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011444759605510287" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011444759605510287/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+              <button type="button" class="delete-btn">删除</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-rank="2" data-score="63" data-title="NanoBanana Pro Prompt by @AmirMushich">
+          <img class="poster" src="https://images.meigen.ai/tweets/2019779947020026325/0.jpg" alt="NanoBanana Pro Prompt by @AmirMushich" loading="lazy" />
+          <div class="content">
+            <span class="rank">#2</span>
+            <h2 class="title">NanoBanana Pro Prompt by @AmirMushich</h2>
+            <div class="score">相关度 63</div>
+            <p class="prompt">[BRAND NAME]. Act as a Fashion Photographer and Graphic Designer specializing in luxury brand campaign visuals with integrated typography and surreal spatial design. PHASE 1: SPATIAL CONCEPT Create a high-fashion editorial image where architecture and graphic ...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2019779947020026325" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2019779947020026325/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+              <button type="button" class="delete-btn">删除</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2038319037248114957/0.jpg" alt="NanoBanana Pro Prompt by @AmirMushich" loading="lazy" />
+          <div class="content">
+            <span class="rank">#3</span>
+            <h2 class="title">NanoBanana Pro Prompt by @AmirMushich</h2>
+            <div class="score">相关度 63</div>
+            <p class="prompt">[BRAND NAME] + [HERO COLOR] Act as a Mixed-Media Campaign Art Director. Your specialty: combining studio photography cutouts with hand-drawn 2D illustration where the real human and the drawn object physically interact — touching, holding, standing on, leaning...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2038319037248114957" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2038319037248114957/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011393430442717194/0.jpg" alt="NanoBanana Pro Prompt by @xmliisu" loading="lazy" />
+          <div class="content">
+            <span class="rank">#4</span>
+            <h2 class="title">NanoBanana Pro Prompt by @xmliisu</h2>
+            <div class="score">相关度 54</div>
+            <p class="prompt">{ &quot;title&quot;: &quot;LA Rooftop Poolside Selfie&quot;, &quot;style_attributes&quot;: [ &quot;Ultra-realistic cinematic lifestyle photography&quot;, &quot;8K resolution&quot;, &quot;Hyper-detailed&quot;, &quot;Photorealistic&quot;, &quot;iPhone-style casu...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011393430442717194" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011393430442717194/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011740093531217933/0.jpg" alt="NanoBanana Pro Prompt by @lexx_aura" loading="lazy" />
+          <div class="content">
+            <span class="rank">#5</span>
+            <h2 class="title">NanoBanana Pro Prompt by @lexx_aura</h2>
+            <div class="score">相关度 54</div>
+            <p class="prompt">{ &quot;title&quot;: &quot;LA Rooftop Poolside Selfie&quot;, &quot;style_attributes&quot;: [ &quot;Ultra-realistic cinematic lifestyle photography&quot;, &quot;8K resolution&quot;, &quot;Hyper-detailed&quot;, &quot;Photorealistic&quot;, &quot;iPhone-style casu...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011740093531217933" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011740093531217933/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2046151898621993364/0.jpg" alt="GPT Image 1 Prompt by @BubbleBrain" loading="lazy" />
+          <div class="content">
+            <span class="rank">#6</span>
+            <h2 class="title">GPT Image 1 Prompt by @BubbleBrain</h2>
+            <div class="score">相关度 54</div>
+            <p class="prompt">9:16 vertical — a 3x3 grid collage (nine images) forming a Korean idol portrait photoshoot series. Each frame features the same young Korean female idol, maintaining 100% consistency in facial features, proportions, hairstyle, and identity across all nine shot...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2046151898621993364" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2046151898621993364/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2020895358126002197/0.jpg" alt="NanoBanana Pro Prompt by @AmirMushich" loading="lazy" />
+          <div class="content">
+            <span class="rank">#7</span>
+            <h2 class="title">NanoBanana Pro Prompt by @AmirMushich</h2>
+            <div class="score">相关度 50</div>
+            <p class="prompt">[BRAND NAME]. Act as a Social Media Art Director and Digital Collage Artist specializing in bold, youth-oriented brand content for Instagram and digital campaigns. PHASE 1: CONCEPTUAL FRAMEWORK Create a dynamic digital collage that merges fashion photography w...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2020895358126002197" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2020895358126002197/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2009834337043394622/0.jpg" alt="GPT Image 1 Prompt by @saniaspeaks_" loading="lazy" />
+          <div class="content">
+            <span class="rank">#8</span>
+            <h2 class="title">GPT Image 1 Prompt by @saniaspeaks_</h2>
+            <div class="score">相关度 49</div>
+            <p class="prompt">{ &quot;type&quot;: &quot;image_generation_prompt&quot;, &quot;language&quot;: &quot;en&quot;, &quot;style&quot;: &quot;hyper-realistic cinematic selfie photography&quot;, &quot;aspect_ratio&quot;: &quot;9:16&quot;, &quot;identity_preservation&quot;: { &quot;u...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2009834337043394622" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2009834337043394622/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2025860480615456898/0.jpg" alt="NanoBanana Pro Prompt by @underwoodxie96" loading="lazy" />
+          <div class="content">
+            <span class="rank">#9</span>
+            <h2 class="title">NanoBanana Pro Prompt by @underwoodxie96</h2>
+            <div class="score">相关度 49</div>
+            <p class="prompt">{ &quot;subject&quot;: { &quot;description&quot;: &quot;Two stylish young adult women sitting close together on a gray leather sectional sofa in a modern lounge, dressed in sleek black going-out outfits and sheer stockings; left woman looks down at a smartphon...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2025860480615456898" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2025860480615456898/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011120752481665286/0.jpg" alt="NanoBanana Pro Prompt by @xmliisu" loading="lazy" />
+          <div class="content">
+            <span class="rank">#10</span>
+            <h2 class="title">NanoBanana Pro Prompt by @xmliisu</h2>
+            <div class="score">相关度 48</div>
+            <p class="prompt">{ &quot;shot&quot;: { &quot;composition&quot;: &quot;full body dual shot, 50mm lens, static angle, high fashion composition&quot;, &quot;camera_motion&quot;: &quot;static studio setup&quot;, &quot;frame_rate&quot;: &quot;still photography&quot;, &quot;film_gra...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011120752481665286" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011120752481665286/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011133595042398575/0.jpg" alt="NanoBanana Pro Prompt by @NameIsSudee" loading="lazy" />
+          <div class="content">
+            <span class="rank">#11</span>
+            <h2 class="title">NanoBanana Pro Prompt by @NameIsSudee</h2>
+            <div class="score">相关度 48</div>
+            <p class="prompt">{ &quot;shot&quot;: { &quot;composition&quot;: &quot;full body dual shot, 50mm lens, static angle, high fashion composition&quot;, &quot;camera_motion&quot;: &quot;static studio setup&quot;, &quot;frame_rate&quot;: &quot;still photography&quot;, &quot;film_gra...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011133595042398575" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011133595042398575/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2028685149005873444/0.jpg" alt="NanoBanana Pro Prompt by @underwoodxie96" loading="lazy" />
+          <div class="content">
+            <span class="rank">#12</span>
+            <h2 class="title">NanoBanana Pro Prompt by @underwoodxie96</h2>
+            <div class="score">相关度 44</div>
+            <p class="prompt">{ &quot;subject&quot;: { &quot;description&quot;: &quot;A confident and glamorous woman posing sensually in a high-fashion studio setting, heavily oiled skin, wearing branded strap lingerie.&quot;, &quot;mirror_rules&quot;: null, &quot;age&quot;: &quot;20s, &q...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2028685149005873444" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2028685149005873444/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2008441233816109505/0.jpg" alt="NanoBanana Pro Prompt by @kingofdairyque" loading="lazy" />
+          <div class="content">
+            <span class="rank">#13</span>
+            <h2 class="title">NanoBanana Pro Prompt by @kingofdairyque</h2>
+            <div class="score">相关度 43</div>
+            <p class="prompt">Use this photo attached to create an ultra-realistic printed portrait with authentic photo-print shine. A straight-on, centered head-and-shoulders portrait of a young woman, neutral confident expression, eyes looking directly at the camera. Composition is perf...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2008441233816109505" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2008441233816109505/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2012343139793621126/0.jpg" alt="NanoBanana Pro Prompt by @lilzula_009_me" loading="lazy" />
+          <div class="content">
+            <span class="rank">#14</span>
+            <h2 class="title">NanoBanana Pro Prompt by @lilzula_009_me</h2>
+            <div class="score">相关度 43</div>
+            <p class="prompt">{ &quot;image_request&quot;: { &quot;style&quot;: { &quot;genre&quot;: &quot;High-fashion editorial portrait&quot;, &quot;vibe&quot;: &quot;Luxury magazine aesthetic&quot;, &quot;mood&quot;: &quot;Elegant, bold, confident&quot;, &quot;aspect_ratio&quot;: &quot...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2012343139793621126" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2012343139793621126/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2015474841499975872/0.jpg" alt="NanoBanana Pro Prompt by @lexx_aura" loading="lazy" />
+          <div class="content">
+            <span class="rank">#15</span>
+            <h2 class="title">NanoBanana Pro Prompt by @lexx_aura</h2>
+            <div class="score">相关度 43</div>
+            <p class="prompt">{ &quot;subject&quot;: { &quot;appearance&quot;: { “character”: “Margaret Qualley”, &quot;gender&quot;: &quot;Female&quot;, &quot;age_range&quot;: &quot;Young adult&quot;, &quot;hair&quot;: &quot;Long, dark brown, wavy, parted slightly off-center, with individ...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2015474841499975872" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2015474841499975872/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2009665973058515294/0.jpg" alt="NanoBanana Pro Prompt by @craftian_keskin" loading="lazy" />
+          <div class="content">
+            <span class="rank">#16</span>
+            <h2 class="title">NanoBanana Pro Prompt by @craftian_keskin</h2>
+            <div class="score">相关度 42</div>
+            <p class="prompt">A refined fashion editorial image with a 3:4 aspect ratio, split into two clear sections. Right side: A fashionable, confident, sensual woman standing and walking casually in a modern architectural space with red luxurious walls and soft natural light. She wea...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2009665973058515294" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2009665973058515294/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011148742913900843/0.jpg" alt="NanoBanana Pro Prompt by @craftian_keskin" loading="lazy" />
+          <div class="content">
+            <span class="rank">#17</span>
+            <h2 class="title">NanoBanana Pro Prompt by @craftian_keskin</h2>
+            <div class="score">相关度 42</div>
+            <p class="prompt">Before-and-after upper-body portrait photo of Sydney Sweeney, smiling in both images, split vertically down the center into two equal halves for a direct visual comparison. Clear text labels appear at the top of each half. Left side – “Day” (label at top): Nat...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011148742913900843" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011148742913900843/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011257477275468178/0.jpg" alt="NanoBanana Pro Prompt by @saniaspeaks_" loading="lazy" />
+          <div class="content">
+            <span class="rank">#18</span>
+            <h2 class="title">NanoBanana Pro Prompt by @saniaspeaks_</h2>
+            <div class="score">相关度 41</div>
+            <p class="prompt">{ &quot;prompt_type&quot;: &quot;descriptive_portrait&quot;, &quot;subject_details&quot;: { &quot;demographics&quot;: &quot;Young female, sun-kissed skin, fit and athletic build, strictly matching the reference photo.&quot;, &quot;facial_features&quot;: { &quo...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011257477275468178" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011257477275468178/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2021118417227657409/0.jpg" alt="NanoBanana Pro Prompt by @Strength04_X" loading="lazy" />
+          <div class="content">
+            <span class="rank">#19</span>
+            <h2 class="title">NanoBanana Pro Prompt by @Strength04_X</h2>
+            <div class="score">相关度 38</div>
+            <p class="prompt">{ &quot;image_generation_prompt&quot;: { &quot;style&quot;: &quot;Ultra-realistic cinematic fashion photography&quot;, &quot;subject&quot;: { &quot;type&quot;: &quot;Female model&quot;, &quot;pose&quot;: &quot;Standing confidently, slight body angle, direct ey...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2021118417227657409" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2021118417227657409/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011913223964852336/0.jpg" alt="NanoBanana Pro Prompt by @xmliisu" loading="lazy" />
+          <div class="content">
+            <span class="rank">#20</span>
+            <h2 class="title">NanoBanana Pro Prompt by @xmliisu</h2>
+            <div class="score">相关度 36</div>
+            <p class="prompt">{ &quot;style&quot;: &quot;ultra-realistic studio portrait&quot;, &quot;subject&quot;: { &quot;gender&quot;: &quot;female&quot;, &quot;age&quot;: &quot;young adult&quot;, &quot;pose&quot;: &quot;leaning slightly forward toward the camera&quot;, &quot;expressio...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011913223964852336" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011913223964852336/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2012148686831206421/0.jpg" alt="NanoBanana Pro Prompt by @lexx_aura" loading="lazy" />
+          <div class="content">
+            <span class="rank">#21</span>
+            <h2 class="title">NanoBanana Pro Prompt by @lexx_aura</h2>
+            <div class="score">相关度 36</div>
+            <p class="prompt">{ &quot;style&quot;: &quot;ultra-realistic studio portrait&quot;, &quot;subject&quot;: { &quot;gender&quot;: &quot;female&quot;, &quot;age&quot;: &quot;young adult&quot;, &quot;pose&quot;: &quot;leaning slightly forward toward the camera&quot;, &quot;expressio...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2012148686831206421" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2012148686831206421/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2044495725053284467/0.jpg" alt="NanoBanana Pro Prompt by @youngcatwoman" loading="lazy" />
+          <div class="content">
+            <span class="rank">#22</span>
+            <h2 class="title">NanoBanana Pro Prompt by @youngcatwoman</h2>
+            <div class="score">相关度 36</div>
+            <p class="prompt">{ &quot;raw_prompt&quot;: &quot;Ultra-realistic high-end smartphone photo of aespa's Ningning in a minimalist luxury studio. She has a distinct feline-like eye shape, soft cheeks, and long dark espresso brown hair styled in soft waves. She is wearing a deep ru...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2044495725053284467" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2044495725053284467/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2013218438341394581/0.jpg" alt="NanoBanana Pro Prompt by @Just_sharon7" loading="lazy" />
+          <div class="content">
+            <span class="rank">#23</span>
+            <h2 class="title">NanoBanana Pro Prompt by @Just_sharon7</h2>
+            <div class="score">相关度 35</div>
+            <p class="prompt">{ &quot;meta_data&quot;: { &quot;prompt_version&quot;: &quot;2.0&quot;, &quot;use_case&quot;: &quot;High-Fashion Photorealistic Image Generation&quot;, &quot;main_subject_count&quot;: 1, &quot;reference_image&quot;: { &quot;face_consistency&quot;: true, &quot;...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2013218438341394581" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2013218438341394581/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2010083845761314964/0.jpg" alt="NanoBanana Pro Prompt by @IqraSaifiii" loading="lazy" />
+          <div class="content">
+            <span class="rank">#24</span>
+            <h2 class="title">NanoBanana Pro Prompt by @IqraSaifiii</h2>
+            <div class="score">相关度 35</div>
+            <p class="prompt">3x3 Photo Collage / 9-Panel Grid.&quot;, &quot;layout&quot;: &quot;Nine vertical portrait images arranged in a square grid.&quot;, &quot;consistency&quot;: &quot;Same subject, same outfit, and same lighting across all 9 panels.&quot; }, &quot;aesthetic_style&q...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2010083845761314964" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2010083845761314964/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2012936215176073501/0.jpg" alt="NanoBanana Pro Prompt by @xmliisu" loading="lazy" />
+          <div class="content">
+            <span class="rank">#25</span>
+            <h2 class="title">NanoBanana Pro Prompt by @xmliisu</h2>
+            <div class="score">相关度 34</div>
+            <p class="prompt">{ &quot;image_generation_prompt&quot;: { &quot;style&quot;: &quot;Hyper-realistic photograph&quot;, &quot;subject&quot;: { &quot;demographic&quot;: &quot;Young woman&quot;, &quot;pose&quot;: { &quot;angle&quot;: &quot;Slightly rear three-quarter angle&quot;, &...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2012936215176073501" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2012936215176073501/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2034002331340320770/0.jpg" alt="NanoBanana Pro Prompt by @youngcatwoman" loading="lazy" />
+          <div class="content">
+            <span class="rank">#26</span>
+            <h2 class="title">NanoBanana Pro Prompt by @youngcatwoman</h2>
+            <div class="score">相关度 34</div>
+            <p class="prompt">Create a 3-image vertical collage (aspect ratio 9:16) featuring Le Sserafim's Kim Chaewon, showcasing her distinct features and short black bob with bangs, wearing a vibrant cherry-red strapless latex dress with a glossy finish. She is posing with a red lollip...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2034002331340320770" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2034002331340320770/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2031169815927468186/0.jpg" alt="NanoBanana Pro Prompt by @Naiknelofar788" loading="lazy" />
+          <div class="content">
+            <span class="rank">#27</span>
+            <h2 class="title">NanoBanana Pro Prompt by @Naiknelofar788</h2>
+            <div class="score">相关度 33</div>
+            <p class="prompt">{ &quot;generation_request&quot;: { &quot;meta_data&quot;: { &quot;task_type&quot;: &quot;black_and_white_photobooth_expression_grid_4x4&quot;, &quot;language&quot;: &quot;en&quot;, &quot;priority&quot;: &quot;highest&quot;, &quot;version&quot;: &quot;v1.0_BW_...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2031169815927468186" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2031169815927468186/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2019126008268403085/0.jpg" alt="NanoBanana Pro Prompt by @JustBethanyai" loading="lazy" />
+          <div class="content">
+            <span class="rank">#28</span>
+            <h2 class="title">NanoBanana Pro Prompt by @JustBethanyai</h2>
+            <div class="score">相关度 32</div>
+            <p class="prompt">{ &quot;subject&quot;: { &quot;character&quot;: &quot;Sadie Sink&quot;, &quot;age_range&quot;: &quot;early to mid 20s&quot;, &quot;skin_texture&quot;: &quot;smooth, natural skin texture, soft porcelain tone&quot;, &quot;expression&quot;: &quot;calm, distant, i...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2019126008268403085" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2019126008268403085/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2010661146349756814/0.jpg" alt="NanoBanana Pro Prompt by @ZaraIrahh" loading="lazy" />
+          <div class="content">
+            <span class="rank">#29</span>
+            <h2 class="title">NanoBanana Pro Prompt by @ZaraIrahh</h2>
+            <div class="score">相关度 32</div>
+            <p class="prompt">A high-resolution, close-up editorial-style portrait of a young woman standing against a textured gray concrete wall, captured with direct on-camera flash that creates a raw, moody, high-contrast aesthetic. She is positioned slightly angled to the side with he...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2010661146349756814" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2010661146349756814/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011729938991497671/0.jpg" alt="NanoBanana Pro Prompt by @Ankit_patel211" loading="lazy" />
+          <div class="content">
+            <span class="rank">#30</span>
+            <h2 class="title">NanoBanana Pro Prompt by @Ankit_patel211</h2>
+            <div class="score">相关度 31</div>
+            <p class="prompt">{ &quot;project&quot;: &quot;Nano Banana – Maximalist Editorial Americana Scene&quot;, &quot;version&quot;: &quot;2.4&quot;, &quot;engine_optimization&quot;: &quot;Nano Banana (maximalist cinematic photorealism, high detail density, controlled imperfection)&qu...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011729938991497671" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011729938991497671/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2009884343917818157/0.jpg" alt="NanoBanana Pro Prompt by @lexx_aura" loading="lazy" />
+          <div class="content">
+            <span class="rank">#31</span>
+            <h2 class="title">NanoBanana Pro Prompt by @lexx_aura</h2>
+            <div class="score">相关度 31</div>
+            <p class="prompt">{ &quot;project_meta&quot;: { &quot;title&quot;: &quot;Monochromatic Orange High-Fashion Editorial&quot;, &quot;style&quot;: &quot;Ultra-photorealistic, 8K, luxury magazine aesthetic&quot;, &quot;mood&quot;: &quot;Bold, glamorous, confident, seductive&quot; },...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2009884343917818157" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2009884343917818157/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2010367571951001784/0.jpg" alt="NanoBanana Pro Prompt by @NameIsSudee" loading="lazy" />
+          <div class="content">
+            <span class="rank">#32</span>
+            <h2 class="title">NanoBanana Pro Prompt by @NameIsSudee</h2>
+            <div class="score">相关度 30</div>
+            <p class="prompt">{ &quot;task&quot;: &quot;photo_editing&quot;, &quot;instruction&quot;: &quot;Edit the photo according to the description without changing the face in the slightest. The face must remain 100% authentic and identical to the original.&quot;, &quot;photo_style&qu...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2010367571951001784" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2010367571951001784/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2012264538234564772/0.jpg" alt="NanoBanana Pro Prompt by @Passionai0" loading="lazy" />
+          <div class="content">
+            <span class="rank">#33</span>
+            <h2 class="title">NanoBanana Pro Prompt by @Passionai0</h2>
+            <div class="score">相关度 30</div>
+            <p class="prompt">{ &quot;meta&quot;: { &quot;aspect_ratio&quot;: &quot;4:5&quot;, &quot;quality&quot;: &quot;ultra_photorealistic, raw, professional fashion photography&quot;, &quot;resolution&quot;: &quot;8k&quot;, &quot;camera&quot;: &quot;Mirrorless camera (e.g., Sony A7R I...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2012264538234564772" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2012264538234564772/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2008687707946709129/0.jpg" alt="NanoBanana Pro Prompt by @me_Aarvi" loading="lazy" />
+          <div class="content">
+            <span class="rank">#34</span>
+            <h2 class="title">NanoBanana Pro Prompt by @me_Aarvi</h2>
+            <div class="score">相关度 30</div>
+            <p class="prompt">A cinematic 1970s-inspired fashion portrait of a graceful young woman seated on worn stone steps outside a cozy street café. She holds an ornate deep-green ceramic coffee cup with delicate gold rim accents, gently resting it in her hands as she gazes softly to...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2008687707946709129" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2008687707946709129/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2012893873866145840/0.jpg" alt="NanoBanana Pro Prompt by @Ankit_patel211" loading="lazy" />
+          <div class="content">
+            <span class="rank">#35</span>
+            <h2 class="title">NanoBanana Pro Prompt by @Ankit_patel211</h2>
+            <div class="score">相关度 30</div>
+            <p class="prompt">{ &quot;image_prompt_data&quot;: { &quot;subject&quot;: { &quot;appearance&quot;: &quot;Young Sadie Sink woman with long, straight, dark brown hair parted in the middle. Tan complexion. Resembles Charli D'Amelio.&quot;, &quot;expression&quot;: &quot;Neutral to...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2012893873866145840" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2012893873866145840/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2004854685438804012/0.jpg" alt="GPT Image 1 Prompt by @saniaspeaks_" loading="lazy" />
+          <div class="content">
+            <span class="rank">#36</span>
+            <h2 class="title">GPT Image 1 Prompt by @saniaspeaks_</h2>
+            <div class="score">相关度 29</div>
+            <p class="prompt">{ &quot;type&quot;: &quot;image_generation_prompt&quot;, &quot;style&quot;: &quot;ultra-wide angle, aerial portrait, contemporary studio photography&quot;, &quot;identity_preservation&quot;: { &quot;use_reference_image&quot;: true, &quot;strict_identity_lock&q...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2004854685438804012" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2004854685438804012/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2013248633748050216/0.jpg" alt="NanoBanana Pro Prompt by @YaseenK7212" loading="lazy" />
+          <div class="content">
+            <span class="rank">#37</span>
+            <h2 class="title">NanoBanana Pro Prompt by @YaseenK7212</h2>
+            <div class="score">相关度 29</div>
+            <p class="prompt">{ &quot;image_generation_request&quot;: { &quot;meta_settings&quot;: { &quot;aspect_ratio&quot;: &quot;9:16&quot;, &quot;model_version&quot;: &quot;v6.0&quot;, &quot;stylize_value&quot;: 250, &quot;quality&quot;: &quot;High&quot; }, &quot;subject_definition&qu...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2013248633748050216" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2013248633748050216/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011084512617246917/0.jpg" alt="NanoBanana Pro Prompt by @xmliisu" loading="lazy" />
+          <div class="content">
+            <span class="rank">#38</span>
+            <h2 class="title">NanoBanana Pro Prompt by @xmliisu</h2>
+            <div class="score">相关度 28</div>
+            <p class="prompt">{ &quot;subject&quot;: { &quot;type&quot;: &quot;Woman&quot;, &quot;age&quot;: &quot;Young adult&quot;, &quot;appearance&quot;: { &quot;hair&quot;: { &quot;color&quot;: &quot;Dark brown&quot;, &quot;style&quot;: &quot;Medium length, with messy bangs&quot;, &qu...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011084512617246917" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011084512617246917/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2009728383911866778/0.jpg" alt="NanoBanana Pro Prompt by @craftian_keskin" loading="lazy" />
+          <div class="content">
+            <span class="rank">#39</span>
+            <h2 class="title">NanoBanana Pro Prompt by @craftian_keskin</h2>
+            <div class="score">相关度 27</div>
+            <p class="prompt">A mirror selfie taken inside a commercial gym, photographed with a smartphone front camera. The subject is an attractive, athletic woman with a curvy, feminine build, strong thighs and hips, toned legs, and a confident stance. She is wearing a black tank top w...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2009728383911866778" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2009728383911866778/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2033917202567446610/0.jpg" alt="NanoBanana Pro Prompt by @underwoodxie96" loading="lazy" />
+          <div class="content">
+            <span class="rank">#40</span>
+            <h2 class="title">NanoBanana Pro Prompt by @underwoodxie96</h2>
+            <div class="score">相关度 27</div>
+            <p class="prompt">{ &quot;subject&quot;: { &quot;description&quot;: &quot;A young adult woman with soft refined features, thin metal glasses, and shoulder-length dark hair, leaning across a couch at night while holding a smartphone, captured in a quiet low-light candid moment.&...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2033917202567446610" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2033917202567446610/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011810184612757973/0.jpg" alt="NanoBanana Pro Prompt by @xIrissy" loading="lazy" />
+          <div class="content">
+            <span class="rank">#41</span>
+            <h2 class="title">NanoBanana Pro Prompt by @xIrissy</h2>
+            <div class="score">相关度 27</div>
+            <p class="prompt">{ &quot;task&quot;: &quot;image_generation&quot;, &quot;style&quot;: { &quot;resolution&quot;: &quot;8K&quot;, &quot;look&quot;: &quot;hyper-realistic, cinematic&quot;, &quot;photorealism&quot;: true }, &quot;subject&quot;: { &quot;identity&quot;: &quot;fictio...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011810184612757973" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011810184612757973/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011714932211908616/0.jpg" alt="NanoBanana Pro Prompt by @YaseenK7212" loading="lazy" />
+          <div class="content">
+            <span class="rank">#42</span>
+            <h2 class="title">NanoBanana Pro Prompt by @YaseenK7212</h2>
+            <div class="score">相关度 27</div>
+            <p class="prompt">{ &quot;task&quot;: &quot;image_generation&quot;, &quot;style&quot;: { &quot;resolution&quot;: &quot;8K&quot;, &quot;look&quot;: &quot;hyper-realistic, cinematic&quot;, &quot;photorealism&quot;: true }, &quot;subject&quot;: { &quot;identity&quot;: &quot;fictio...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011714932211908616" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011714932211908616/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2043423593850368468/0.jpg" alt="NanoBanana Pro Prompt by @GlenaJenne" loading="lazy" />
+          <div class="content">
+            <span class="rank">#43</span>
+            <h2 class="title">NanoBanana Pro Prompt by @GlenaJenne</h2>
+            <div class="score">相关度 27</div>
+            <p class="prompt">{ &quot;scene&quot;: { &quot;setting&quot;: &quot;aircraft staircase exterior&quot;, &quot;background&quot;: &quot;realistic United States presidential aircraft design with blue and white fuselage, visible aircraft windows and structure, open sky above with vi...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2043423593850368468" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2043423593850368468/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2008537400083939763/0.jpg" alt="NanoBanana Pro Prompt by @2abhisheknaks" loading="lazy" />
+          <div class="content">
+            <span class="rank">#44</span>
+            <h2 class="title">NanoBanana Pro Prompt by @2abhisheknaks</h2>
+            <div class="score">相关度 27</div>
+            <p class="prompt">Aesthetic 1970s-inspired fashion portrait of a stylish young woman sitting on outdoor cafe steps, holding a premium ornate green coffee cup with gold rim detailing, gazing softly at the camera. Her hair is styled in soft loose strands framing her face with vin...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2008537400083939763" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2008537400083939763/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2041379629668446277/0.jpg" alt="NanoBanana Pro Prompt by @Ciri_ai" loading="lazy" />
+          <div class="content">
+            <span class="rank">#45</span>
+            <h2 class="title">NanoBanana Pro Prompt by @Ciri_ai</h2>
+            <div class="score">相关度 27</div>
+            <p class="prompt">Create a moody, ethereal cinematic portrait of a woman with a dramatic over-the-shoulder pose. 1. Pose and Expression • Perspective: subject positioned with her back facing the camera, torso elegantly twisted, looking back over her shoulder, creating a gracefu...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2041379629668446277" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2041379629668446277/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2041043824697590152/0.jpg" alt="NanoBanana Pro Prompt by @underwoodxie96" loading="lazy" />
+          <div class="content">
+            <span class="rank">#46</span>
+            <h2 class="title">NanoBanana Pro Prompt by @underwoodxie96</h2>
+            <div class="score">相关度 27</div>
+            <p class="prompt">{ &quot;subject&quot;: { &quot;description&quot;: &quot;Young woman, athletic gravure idol aesthetic.&quot;, &quot;mirror_rules&quot;: &quot;none&quot;, &quot;age&quot;: &quot;early 20s&quot;, &quot;expression&quot;: { &quot;eyes&quot;: { &quot;look&quot;: &qu...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2041043824697590152" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2041043824697590152/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011027241371590981/0.jpg" alt="NanoBanana Pro Prompt by @xmliisu" loading="lazy" />
+          <div class="content">
+            <span class="rank">#47</span>
+            <h2 class="title">NanoBanana Pro Prompt by @xmliisu</h2>
+            <div class="score">相关度 27</div>
+            <p class="prompt">{ &quot;shot&quot;: { &quot;composition&quot;: &quot;Cinematic close-up, 50mm lens, shot on ARRI Alexa LF, center-framed, symmetrical head-on angle&quot;, &quot;camera_motion&quot;: &quot;static camera&quot;, &quot;frame_rate&quot;: &quot;24fps&quot;, &quot;fi...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011027241371590981" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011027241371590981/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2043449707314487616/0.jpg" alt="NanoBanana Pro Prompt by @GlenaJenne" loading="lazy" />
+          <div class="content">
+            <span class="rank">#48</span>
+            <h2 class="title">NanoBanana Pro Prompt by @GlenaJenne</h2>
+            <div class="score">相关度 27</div>
+            <p class="prompt">{ &quot;scene&quot;: { &quot;setting&quot;: &quot;modern bathroom vanity&quot;, &quot;background&quot;: &quot;large mirror with warm-toned walls, marble countertop, built-in sink, soft ambient lighting from ceiling fixtures, minimal decor including skincare it...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2043449707314487616" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2043449707314487616/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2033430945877930237/0.jpg" alt="NanoBanana Pro Prompt by @JustBethanyai" loading="lazy" />
+          <div class="content">
+            <span class="rank">#49</span>
+            <h2 class="title">NanoBanana Pro Prompt by @JustBethanyai</h2>
+            <div class="score">相关度 26</div>
+            <p class="prompt">{ &quot;character_identity&quot;: { &quot;name_placeholder&quot;: &quot;YOUR_CHARACTER&quot;, &quot;gender_presentation&quot;: &quot;female&quot;, &quot;age_range&quot;: &quot;custom based on reference image&quot;, &quot;ethnicity_placeholder&quot;: &quot;auto...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2033430945877930237" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2033430945877930237/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2027393294469128313/0.jpg" alt="NanoBanana Pro Prompt by @AmirMushich" loading="lazy" />
+          <div class="content">
+            <span class="rank">#50</span>
+            <h2 class="title">NanoBanana Pro Prompt by @AmirMushich</h2>
+            <div class="score">相关度 26</div>
+            <p class="prompt">[BRAND NAME]. Act as a fashion photographer and creative director shooting a high-end editorial lookbook for a bespoke football jersey designed by this brand. THE SUBJECT &amp; COMPOSITION (FLOATING &amp; ANGLED): A single, premium custom football jersey is fl...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2027393294469128313" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2027393294469128313/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2009206297737007306/0.jpg" alt="NanoBanana Pro Prompt by @xmliisu" loading="lazy" />
+          <div class="content">
+            <span class="rank">#51</span>
+            <h2 class="title">NanoBanana Pro Prompt by @xmliisu</h2>
+            <div class="score">相关度 26</div>
+            <p class="prompt">{ &quot;photograph&quot;: { &quot;style&quot;: &quot;ultra-realistic portrait&quot;, &quot;camera&quot;: &quot;full-frame DSLR&quot;, &quot;lens&quot;: &quot;85mm prime&quot;, &quot;resolution&quot;: &quot;high&quot;, &quot;lighting&quot;: { &quot;type&quot;: ...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2009206297737007306" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2009206297737007306/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2008486850378293427/0.jpg" alt="NanoBanana Pro Prompt by @xmliisu" loading="lazy" />
+          <div class="content">
+            <span class="rank">#52</span>
+            <h2 class="title">NanoBanana Pro Prompt by @xmliisu</h2>
+            <div class="score">相关度 26</div>
+            <p class="prompt">{ &quot;overall_theme&quot;: { &quot;description&quot;: &quot;A curated series of four ultra-photorealistic vignettes showcasing a luxurious, wellness-focused lifestyle.&quot;, &quot;mood&quot;: &quot;Calm, serene, balanced, sophisticated, peaceful, rejuvenati...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2008486850378293427" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2008486850378293427/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2016237325639155913/0.jpg" alt="NanoBanana Pro Prompt by @Arminn_Ai" loading="lazy" />
+          <div class="content">
+            <span class="rank">#53</span>
+            <h2 class="title">NanoBanana Pro Prompt by @Arminn_Ai</h2>
+            <div class="score">相关度 25</div>
+            <p class="prompt">A photorealistic fashion upper body shot of [Character Description and expression] wearing [Detailed Outfit Description]. The subject is framed inside a central white Instagram-style post border. Composition &amp; Spacing: The white frame is perfectly centered...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2016237325639155913" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2016237325639155913/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2012212911637217522/0.jpg" alt="NanoBanana Pro Prompt by @YaseenK7212" loading="lazy" />
+          <div class="content">
+            <span class="rank">#54</span>
+            <h2 class="title">NanoBanana Pro Prompt by @YaseenK7212</h2>
+            <div class="score">相关度 25</div>
+            <p class="prompt">{ &quot;prompt_details&quot;: { &quot;subject&quot;: { &quot;type&quot;: &quot;Young woman Ana de Armas &quot;, &quot;appearance&quot;: { &quot;hair&quot;: &quot;Long, dark chestnut brown, loose waves, falling over face, messy aesthetic&quot;, &quot;skin&quot;...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2012212911637217522" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2012212911637217522/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011866699075895370/0.jpg" alt="NanoBanana Pro Prompt by @xIrissy" loading="lazy" />
+          <div class="content">
+            <span class="rank">#55</span>
+            <h2 class="title">NanoBanana Pro Prompt by @xIrissy</h2>
+            <div class="score">相关度 25</div>
+            <p class="prompt">{ &quot;prompt_details&quot;: { &quot;subject&quot;: { &quot;type&quot;: &quot;Young woman&quot;, &quot;appearance&quot;: { &quot;hair&quot;: &quot;Long, dark chestnut brown, loose waves, falling over face, messy aesthetic&quot;, &quot;skin&quot;: &quot;Fair c...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011866699075895370" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011866699075895370/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2030920695660806227/0.jpg" alt="NanoBanana Pro Prompt by @underwoodxie96" loading="lazy" />
+          <div class="content">
+            <span class="rank">#56</span>
+            <h2 class="title">NanoBanana Pro Prompt by @underwoodxie96</h2>
+            <div class="score">相关度 25</div>
+            <p class="prompt">{ &quot;subject&quot;: { &quot;description&quot;: &quot;Beautiful young Korean female celebrity in early 20s lying on bed, close-up focus on fully exposed outer lateral hip skin&quot;, &quot;mirror_rules&quot;: &quot;N/A - direct overhead phone selfie, not mir...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2030920695660806227" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2030920695660806227/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011304086847832089/0.jpg" alt="NanoBanana Pro Prompt by @oggii_0" loading="lazy" />
+          <div class="content">
+            <span class="rank">#57</span>
+            <h2 class="title">NanoBanana Pro Prompt by @oggii_0</h2>
+            <div class="score">相关度 24</div>
+            <p class="prompt">Paparazzi-style extreme close-up photo of a woman with striking facial features, caught off-guard while turning toward the camera. Face and shoulders only, shot from a low angle. Strong harsh on-camera flash, grainy high-ISO, raw candid street-photography feel...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011304086847832089" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011304086847832089/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2042288316868149748/0.jpg" alt="NanoBanana Pro Prompt by @oggii_0" loading="lazy" />
+          <div class="content">
+            <span class="rank">#58</span>
+            <h2 class="title">NanoBanana Pro Prompt by @oggii_0</h2>
+            <div class="score">相关度 24</div>
+            <p class="prompt">3×3 storyboard grid, nine panels, same subject and outfit, consistent teal studio background, soft diffused lighting, clean editorial lifestyle photography young East Asian woman, natural makeup, black hair tied back, wearing white fitted top, blue/cream color...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2042288316868149748" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2042288316868149748/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2040553750755172616/0.jpg" alt="NanoBanana Pro Prompt by @youngcatwoman" loading="lazy" />
+          <div class="content">
+            <span class="rank">#59</span>
+            <h2 class="title">NanoBanana Pro Prompt by @youngcatwoman</h2>
+            <div class="score">相关度 24</div>
+            <p class="prompt">(Masterpiece, Best Quality, 8K UHD, RAW photo), photorealistic portrait, the K-pop idol Nayeon from TWICE, iconic &quot;bunny&quot; smile with bright white teeth, full cheeks, large round doe eyes with prominent aegyosal, soft facial contours, gradient glossy ...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2040553750755172616" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2040553750755172616/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011435742375948739/0.jpg" alt="NanoBanana Pro Prompt by @Passionai0" loading="lazy" />
+          <div class="content">
+            <span class="rank">#60</span>
+            <h2 class="title">NanoBanana Pro Prompt by @Passionai0</h2>
+            <div class="score">相关度 24</div>
+            <p class="prompt">{ &quot;meta&quot;: { &quot;aspect_ratio&quot;: &quot;9:16&quot;, &quot;quality&quot;: &quot;photorealistic, raw, unedited smartphone photograph&quot;, &quot;resolution&quot;: &quot;8k&quot;, &quot;camera&quot;: &quot;Smartphone camera (e.g., iPhone 14 Pro)&qu...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011435742375948739" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011435742375948739/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2012901998060831020/0.jpg" alt="NanoBanana Pro Prompt by @YaseenK7212" loading="lazy" />
+          <div class="content">
+            <span class="rank">#61</span>
+            <h2 class="title">NanoBanana Pro Prompt by @YaseenK7212</h2>
+            <div class="score">相关度 23</div>
+            <p class="prompt">{ &quot;image_request&quot;: { &quot;identity_lock&quot;: { &quot;face_reference&quot;: &quot;Use the uploaded reference image&quot;, &quot;constraints&quot;: [ &quot;Preserve exact facial features&quot;, &quot;No face alteration&quot;, &quot;No morphing or be...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2012901998060831020" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2012901998060831020/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011077396263317952/0.jpg" alt="NanoBanana Pro Prompt by @astronomerozge1" loading="lazy" />
+          <div class="content">
+            <span class="rank">#62</span>
+            <h2 class="title">NanoBanana Pro Prompt by @astronomerozge1</h2>
+            <div class="score">相关度 23</div>
+            <p class="prompt">{ &quot;generation_request&quot;: { &quot;meta_data&quot;: { &quot;tool&quot;: &quot;NanoBanana Pro&quot;, &quot;task_type&quot;: &quot;photoreal_candid_street_romance&quot;, &quot;version&quot;: &quot;v1.0_ISTANBUL_UNIVERSITY_FIRST_MEET_LOVE_EN&quot;, &quot;p...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011077396263317952" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011077396263317952/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2050044222041124979/0.jpg" alt="GPT Image 1 Prompt by @Diplomeme" loading="lazy" />
+          <div class="content">
+            <span class="rank">#63</span>
+            <h2 class="title">GPT Image 1 Prompt by @Diplomeme</h2>
+            <div class="score">相关度 22</div>
+            <p class="prompt">FORMAT: 4:5 vertical premium smartphone campaign poster, ultra-high resolution (8K), global OOH + digital + social ready Style: Apple-level minimalism × bold Gen-Z composition × hyper-real commercial photography 🧠 CORE INTENT: “PRO, WITHOUT TRYING.” Effortles...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2050044222041124979" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2050044222041124979/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2021560192530354188/0.jpg" alt="NanoBanana Pro Prompt by @manolyaai" loading="lazy" />
+          <div class="content">
+            <span class="rank">#64</span>
+            <h2 class="title">NanoBanana Pro Prompt by @manolyaai</h2>
+            <div class="score">相关度 22</div>
+            <p class="prompt">{ &quot;visual_style&quot;: { &quot;pose&quot;: { &quot;position&quot;: &quot;Kneeling seated on heels&quot;, &quot;body_orientation&quot;: &quot;Side profile torso with slight twist toward camera&quot;, &quot;spine_posture&quot;: &quot;Upright with gentle cur...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2021560192530354188" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2021560192530354188/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011768378969481414/0.jpg" alt="NanoBanana Pro Prompt by @xIrissy" loading="lazy" />
+          <div class="content">
+            <span class="rank">#65</span>
+            <h2 class="title">NanoBanana Pro Prompt by @xIrissy</h2>
+            <div class="score">相关度 22</div>
+            <p class="prompt">{ &quot;prompt_type&quot;: &quot;Ultra Photorealistic Image Generation&quot;, &quot;subject&quot;: { &quot;description&quot;: &quot;Young woman with long, straight dark brown hair cascading down her back&quot;, &quot;skin_tone&quot;: &quot;Sun-kissed, glowing ...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011768378969481414" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011768378969481414/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2013525972524712055/0.jpg" alt="NanoBanana Pro Prompt by @john_my07" loading="lazy" />
+          <div class="content">
+            <span class="rank">#66</span>
+            <h2 class="title">NanoBanana Pro Prompt by @john_my07</h2>
+            <div class="score">相关度 22</div>
+            <p class="prompt">{ &quot;scene_type&quot;: &quot;editorial beauty collage&quot;, &quot;subject&quot;: { &quot;identity_lock&quot;: true, &quot;face_consistency&quot;: &quot;perfectly matched across all frames&quot;, &quot;expression&quot;: &quot;unchanged, neutral and relaxed&...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2013525972524712055" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2013525972524712055/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2012944621815386617/0.jpg" alt="NanoBanana Pro Prompt by @YaseenK7212" loading="lazy" />
+          <div class="content">
+            <span class="rank">#67</span>
+            <h2 class="title">NanoBanana Pro Prompt by @YaseenK7212</h2>
+            <div class="score">相关度 21</div>
+            <p class="prompt">{ &quot;generation_parameters&quot;: { &quot;type&quot;: &quot;photorealistic_cinematic_portrait&quot;, &quot;aspect_ratio&quot;: &quot;3:4&quot;, &quot;quality_preset&quot;: &quot;ultra_high_definition&quot;, &quot;model_reference&quot;: &quot;Ana de Armas&qu...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2012944621815386617" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2012944621815386617/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2013228149975265413/0.jpg" alt="NanoBanana Pro Prompt by @chatgptpaglu" loading="lazy" />
+          <div class="content">
+            <span class="rank">#68</span>
+            <h2 class="title">NanoBanana Pro Prompt by @chatgptpaglu</h2>
+            <div class="score">相关度 21</div>
+            <p class="prompt">{ &quot;generation_parameters&quot;: { &quot;type&quot;: &quot;photorealistic_cinematic_portrait&quot;, &quot;aspect_ratio&quot;: &quot;3:4&quot;, &quot;quality_preset&quot;: &quot;ultra_high_definition&quot;, &quot;model_reference&quot;: &quot;Ana de Armas&qu...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2013228149975265413" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2013228149975265413/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2008484790287430022/0.jpg" alt="NanoBanana Pro Prompt by @harboriis" loading="lazy" />
+          <div class="content">
+            <span class="rank">#69</span>
+            <h2 class="title">NanoBanana Pro Prompt by @harboriis</h2>
+            <div class="score">相关度 21</div>
+            <p class="prompt">{ &quot;image_generation&quot;: { &quot;face&quot;: { &quot;preserve_original&quot;: true, &quot;reference_match&quot;: true, &quot;description&quot;: &quot;Maintain the same facial structure, skin tone, eye shape, and natural expressions across all frames, wi...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2008484790287430022" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2008484790287430022/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2009539375307076025/0.jpg" alt="NanoBanana Pro Prompt by @kaanakz" loading="lazy" />
+          <div class="content">
+            <span class="rank">#70</span>
+            <h2 class="title">NanoBanana Pro Prompt by @kaanakz</h2>
+            <div class="score">相关度 21</div>
+            <p class="prompt">{ &quot;subject_and_scene&quot;: { &quot;main_subject&quot;: &quot;A beautiful young woman with blonde hair tied back, striking blue eyes, and natural makeup with glossy lips. She is wearing a black long-sleeve button-down shirt unbuttoned at the waist and cla...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2009539375307076025" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2009539375307076025/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011413808481525888/0.jpg" alt="NanoBanana Pro Prompt by @xIrissy" loading="lazy" />
+          <div class="content">
+            <span class="rank">#71</span>
+            <h2 class="title">NanoBanana Pro Prompt by @xIrissy</h2>
+            <div class="score">相关度 20</div>
+            <p class="prompt">{ &quot;prompt_details&quot;: { &quot;subject&quot;: { &quot;description&quot;: &quot;Young woman with a faired complexion and voluminous, layered brunette hair featuring honey-blonde highlights styled in loose, glamorous waves.&quot;, &quot;features&quot;: &q...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011413808481525888" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011413808481525888/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2012264344998838279/0.jpg" alt="NanoBanana Pro Prompt by @bananababydoll" loading="lazy" />
+          <div class="content">
+            <span class="rank">#72</span>
+            <h2 class="title">NanoBanana Pro Prompt by @bananababydoll</h2>
+            <div class="score">相关度 20</div>
+            <p class="prompt">{ &quot;meta&quot;: { &quot;aspect_ratio&quot;: &quot;9:16&quot;, &quot;camera&quot;: &quot;iPhone rear camera&quot;, &quot;lens&quot;: &quot;35mm&quot;, &quot;quality&quot;: &quot;ultra photorealistic&quot;, &quot;style&quot;: &quot;cold editorial mirror refl...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2012264344998838279" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2012264344998838279/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2032829615828283545/0.jpg" alt="NanoBanana Pro Prompt by @Artist04048661" loading="lazy" />
+          <div class="content">
+            <span class="rank">#73</span>
+            <h2 class="title">NanoBanana Pro Prompt by @Artist04048661</h2>
+            <div class="score">相关度 20</div>
+            <p class="prompt">{ &quot;image_generation_prompt&quot;: { &quot;subject&quot;: { &quot;description&quot;: &quot;Young woman with a strong resemblance to Sabrina Carpenter.&quot;, &quot;hair&quot;: &quot;Extra-long, straight, and sleek hair cascading down the shoulders and back...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2032829615828283545" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2032829615828283545/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2009672926522397130/0.jpg" alt="NanoBanana Pro Prompt by @YaseenK7212" loading="lazy" />
+          <div class="content">
+            <span class="rank">#74</span>
+            <h2 class="title">NanoBanana Pro Prompt by @YaseenK7212</h2>
+            <div class="score">相关度 20</div>
+            <p class="prompt">{ &quot;prompt_metadata&quot;: { &quot;title&quot;: &quot;Cinematic Royal Portrait: Ana de Armas&quot;, &quot;version&quot;: &quot;2.0&quot;, &quot;generation_type&quot;: &quot;Photorealistic Cinematic&quot;, &quot;aspect_ratio&quot;: &quot;3:4&quot;, &quot;qu...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2009672926522397130" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2009672926522397130/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2009580453083201822/0.jpg" alt="NanoBanana Pro Prompt by @oggii_0" loading="lazy" />
+          <div class="content">
+            <span class="rank">#75</span>
+            <h2 class="title">NanoBanana Pro Prompt by @oggii_0</h2>
+            <div class="score">相关度 20</div>
+            <p class="prompt">{ &quot;subject&quot;: { &quot;person&quot;: &quot;Woman, appears to be in her 20s or 30s&quot;, &quot;pose_and_expression&quot;: [ &quot;Standing by window, looking out, relaxed&quot;, &quot;Reaching for bottle on counter, hand focus&quot;, &quot;Looking in m...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2009580453083201822" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2009580453083201822/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2010098987735671074/0.jpg" alt="NanoBanana Pro Prompt by @bananababydoll" loading="lazy" />
+          <div class="content">
+            <span class="rank">#76</span>
+            <h2 class="title">NanoBanana Pro Prompt by @bananababydoll</h2>
+            <div class="score">相关度 19</div>
+            <p class="prompt">{ &quot;image_prompt&quot;: { &quot;meta&quot;: { &quot;aspect_ratio&quot;: &quot;9:16 vertical&quot;, &quot;camera&quot;: &quot;iPhone 15 Pro Max (rear camera)&quot;, &quot;lens_feel&quot;: &quot;24mm wide, slight wide-angle realism without face distortion&qu...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2010098987735671074" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2010098987735671074/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2020480621026705858/0.jpg" alt="NanoBanana Pro Prompt by @r4jjesh" loading="lazy" />
+          <div class="content">
+            <span class="rank">#77</span>
+            <h2 class="title">NanoBanana Pro Prompt by @r4jjesh</h2>
+            <div class="score">相关度 19</div>
+            <p class="prompt">{ &quot;prompt&quot;: &quot;Cinematic full-body studio portrait of a subject using the uploaded face as exact reference (preserve identity, facial structure, and proportions). Slightly low-angle perspective with a 35mm lens for a commanding, sophisticated pres...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2020480621026705858" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2020480621026705858/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2008431151505879458/0.jpg" alt="NanoBanana Pro Prompt by @xmliisu" loading="lazy" />
+          <div class="content">
+            <span class="rank">#78</span>
+            <h2 class="title">NanoBanana Pro Prompt by @xmliisu</h2>
+            <div class="score">相关度 19</div>
+            <p class="prompt">{ &quot;title&quot;: &quot;Winter Lifestyle Fashion Photograph&quot;, &quot;description&quot;: &quot;An ultra-realistic winter lifestyle fashion photograph taken outdoors in a modern residential area under an overcast sky. A young woman, in a relaxed side prof...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2008431151505879458" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2008431151505879458/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2040510465504158165/0.jpg" alt="NanoBanana Pro Prompt by @youngcatwoman" loading="lazy" />
+          <div class="content">
+            <span class="rank">#79</span>
+            <h2 class="title">NanoBanana Pro Prompt by @youngcatwoman</h2>
+            <div class="score">相关度 19</div>
+            <p class="prompt">{ &quot;meta&quot;: { &quot;quality&quot;: &quot;ultra-photorealistic, 8k, raw style, highly detailed&quot;, &quot;camera_model&quot;: &quot;iPhone 15 Pro Max, mobile photography aesthetic&quot;, &quot;lens_spec&quot;: &quot;24mm wide angle, f/1.8 aperture&quo...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2040510465504158165" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2040510465504158165/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://images.meigen.ai/tweets/2011261271946187209/0.jpg" alt="NanoBanana Pro Prompt by @Just_sharon7" loading="lazy" />
+          <div class="content">
+            <span class="rank">#80</span>
+            <h2 class="title">NanoBanana Pro Prompt by @Just_sharon7</h2>
+            <div class="score">相关度 18</div>
+            <p class="prompt">{ &quot;model&quot;: &quot;Nano Banana / Gemini-style&quot;, &quot;aspect_ratio&quot;: &quot;3:4&quot;, &quot;render_mode&quot;: &quot;raw&quot;, &quot;series&quot;: [ { &quot;index&quot;: &quot;1/5&quot;, &quot;prompt&quot;: &quot;two hands pulling apart a gr...</p>
+            <div class="actions">
+              <a class="primary" href="https://www.meigen.ai/prompt/2011261271946187209" target="_blank" rel="noreferrer">打开详情</a>
+              <a class="secondary" href="https://images.meigen.ai/tweets/2011261271946187209/0.jpg" target="_blank" rel="noreferrer">查看大图</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script>
+      (() => {
+        const STORAGE_KEY = "meigen-female-80-hidden";
+        const grid = document.getElementById("galleryGrid");
+        const keywordInput = document.getElementById("keywordInput");
+        const minScoreSelect = document.getElementById("minScoreSelect");
+        const sortSelect = document.getElementById("sortSelect");
+        const resetFiltersBtn = document.getElementById("resetFiltersBtn");
+        const restoreDeletedBtn = document.getElementById("restoreDeletedBtn");
+        const visibleCount = document.getElementById("visibleCount");
+        const deletedCount = document.getElementById("deletedCount");
+        const cards = Array.from(grid.querySelectorAll(".card"));
+
+        const hiddenSet = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]"));
+
+        cards.forEach((card, index) => {
+          const title = card.querySelector(".title")?.textContent?.trim() || "";
+          const scoreText = card.querySelector(".score")?.textContent || "0";
+          const prompt = card.querySelector(".prompt")?.textContent?.trim() || "";
+          const rank = String(index + 1);
+          const score = String(Number(scoreText.replace(/[^\d]/g, "")) || 0);
+
+          if (!card.dataset.rank) card.dataset.rank = rank;
+          if (!card.dataset.score) card.dataset.score = score;
+          if (!card.dataset.title) card.dataset.title = title;
+          card.dataset.search = `${title} ${prompt}`.toLowerCase();
+
+          const actions = card.querySelector(".actions");
+          if (actions && !actions.querySelector(".delete-btn")) {
+            const btn = document.createElement("button");
+            btn.type = "button";
+            btn.className = "delete-btn";
+            btn.textContent = "删除";
+            actions.appendChild(btn);
+          }
+
+          if (hiddenSet.has(card.dataset.rank)) {
+            card.classList.add("is-hidden");
+          }
+        });
+
+        function persistHidden() {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify([...hiddenSet]));
+        }
+
+        function applyFilters() {
+          const keyword = keywordInput.value.trim().toLowerCase();
+          const minScore = Number(minScoreSelect.value || "0");
+
+          cards.forEach((card) => {
+            const score = Number(card.dataset.score || "0");
+            const text = card.dataset.search || "";
+            const matchesKeyword = !keyword || text.includes(keyword);
+            const matchesScore = score >= minScore;
+            card.classList.toggle("is-filtered", !(matchesKeyword && matchesScore));
+          });
+
+          const orderMode = sortSelect.value;
+          const sorted = [...cards].sort((a, b) => {
+            const rankA = Number(a.dataset.rank || "0");
+            const rankB = Number(b.dataset.rank || "0");
+            const scoreA = Number(a.dataset.score || "0");
+            const scoreB = Number(b.dataset.score || "0");
+            const titleA = a.dataset.title || "";
+            const titleB = b.dataset.title || "";
+
+            if (orderMode === "score-desc") return scoreB - scoreA || rankA - rankB;
+            if (orderMode === "score-asc") return scoreA - scoreB || rankA - rankB;
+            if (orderMode === "title") return titleA.localeCompare(titleB) || rankA - rankB;
+            return rankA - rankB;
+          });
+
+          sorted.forEach((card) => grid.appendChild(card));
+
+          const visible = cards.filter(
+            (card) => !card.classList.contains("is-hidden") && !card.classList.contains("is-filtered")
+          ).length;
+          visibleCount.textContent = `当前显示：${visible}`;
+          deletedCount.textContent = `已删除：${hiddenSet.size}`;
+        }
+
+        grid.addEventListener("click", (event) => {
+          const btn = event.target.closest(".delete-btn");
+          if (!btn) return;
+          const card = btn.closest(".card");
+          if (!card) return;
+          hiddenSet.add(card.dataset.rank);
+          card.classList.add("is-hidden");
+          persistHidden();
+          applyFilters();
+        });
+
+        keywordInput.addEventListener("input", applyFilters);
+        minScoreSelect.addEventListener("change", applyFilters);
+        sortSelect.addEventListener("change", applyFilters);
+
+        resetFiltersBtn.addEventListener("click", () => {
+          keywordInput.value = "";
+          minScoreSelect.value = "0";
+          sortSelect.value = "rank";
+          applyFilters();
+        });
+
+        restoreDeletedBtn.addEventListener("click", () => {
+          hiddenSet.clear();
+          cards.forEach((card) => card.classList.remove("is-hidden"));
+          persistHidden();
+          applyFilters();
+        });
+
+        applyFilters();
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,254 @@
+{
+  "imageToImage": {
+    "id": "image-to-image",
+    "title": "joymagicによる画像変換AIジェネレーター",
+    "description": "数秒で任意の画像をブランドビジュアルに変換。デザインスキルは不要です。",
+    "steps": {
+      "sourceImage": {
+        "title": "ソース画像をアップロード",
+        "cta": "ドラッグ/クリックしてアップロード",
+        "hint": "対応形式: JPG/PNG/WEBP",
+        "dragDrop": "ドラッグ&ドロップまたはクリックしてアップロード",
+        "dropHere": "ここに画像をドロップ"
+      },
+      "prompt": {
+        "title": "変換プロンプトを入力",
+        "placeholder": "画像をどのように変換したいか説明してください。例：「絵画のように見せる」「背景をビーチに変更」「夕日の空を追加」",
+        "hint": "行いたい変更について具体的に記述してください"
+      },
+      "generate": {
+        "title": "変換された画像を生成",
+        "cta": "生成",
+        "generating": "生成中..."
+      }
+    },
+    "preview": {
+      "title": "プレビュー",
+      "original": "元の画像",
+      "generated": "生成された画像",
+      "placeholder": "画像をアップロードしてプロンプトを入力すると、ここに変換結果が表示されます。"
+    },
+    "templates": {
+      "title": "プロンプトテンプレート",
+      "all": "すべて",
+      "noItems": "このカテゴリにはテンプレートがありません"
+    },
+    "common": {
+      "selected": "選択済み: {name}",
+      "notSelected": "未選択"
+    },
+    "errors": {
+      "invalidFileType": "無効なファイルタイプです。画像ファイル（JPG、PNG、WEBP）をアップロードしてください。",
+      "uploadFailed": "アップロードに失敗しました: {error}",
+      "uploadFailedGeneric": "アップロードに失敗しました",
+      "sourceImageRequired": "まずソース画像をアップロードしてください",
+      "promptRequired": "変換プロンプトを入力してください",
+      "generationFailed": "画像生成に失敗しました",
+      "taskFailed": "タスク処理に失敗しました",
+      "taskTimeout": "タスク処理がタイムアウトしました。後でもう一度お試しください",
+      "taskIdNotFound": "タスクIDを取得できませんでした。API応答形式を確認してください",
+      "processingFailed": "処理に失敗しました。もう一度お試しください",
+      "statusQueryFailed": "タスクステータスの照会に失敗しました"
+    }
+  },
+  "imageToImagePage": {
+    "metadata": {
+      "title": "画像から画像へのAI生成器 | 数秒でブランドに合ったビジュアル – joymagic",
+      "description": "joymagicの画像から画像へのAI生成器で、あらゆる画像をブランドに合ったビジュアルに変換。1枚の画像をアップロードするだけで、異なるスタイルやシーンの無限のバリエーションを取得。HD出力、高速生成、無料トライアル、商用利用可能。"
+    },
+    "hero": {
+      "title": "画像から画像へのAI生成器 – joymagic",
+      "description": "数秒であらゆる画像をブランドに合ったビジュアルに変換。デザインスキル不要。",
+      "button1": "画像から生成",
+      "button2": "無料で開始 · クレジットカード不要"
+    },
+    "heroDescription": "1枚の画像をアップロードするだけで、無限のバリエーションを取得 – 新しいスタイル、シーン、ムードを、コアとなる被写体を一貫して保ちながら。",
+    "builtFor": {
+      "title": "現代のクリエイター向けに構築：",
+      "hdOutputs": "HD出力",
+      "fastGeneration": "高速生成",
+      "commercialReady": "商用利用可能"
+    },
+    "interfaceFeatures": {
+      "title": "シンプルでクリーンなインターフェースで、以下を取得：",
+      "uploadArea": "参照画像用のドラッグ&ドロップアップロードエリア",
+      "promptBox": "希望する変更を記述するプロンプトボックス",
+      "styleDropdown": "スタイルドロップダウン（リアル、アニメ、イラスト、3D、ピクセル、ヴィンテージなど）",
+      "strengthSlider": "微調整から完全なリスタイルまで、変更強度スライダー",
+      "generateButton": "1枚の画像から複数のバリエーションを作成する単一の生成ボタン"
+    },
+    "whatYouCanDo": {
+      "title": "joymagic画像から画像でできること",
+      "description": "ゼロから始めるのではなく、1枚の画像から始めて – joymagicに残りを任せましょう。",
+      "styleTransformations": {
+        "title": "スタイルとムードの変換",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>写真をイラスト、アニメ、絵画、3Dレンダリング、ピクセルアートなどに変換</li><li>コアレイアウトを維持しながら、照明、色、ムードを変更</li><li>同じビジュアルアイデアの異なるアート方向を迅速にテスト</li></ul><p class=\"text-sm text-muted-foreground italic\">何を表示したいかは分かっているが、見た目を探求したい場合に最適です。</p>"
+      },
+      "characterConsistency": {
+        "title": "キャラクターとアイデンティティの一貫性",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>複数の画像で同じ顔やキャラクターを維持</li><li>ポーズ、シーン、スタイルを変更しながら、一貫した髪型、服装、主要な特徴を維持</li><li>VTuber、ストーリーテラー、コミッククリエイター、マスコットに最適</li></ul><p class=\"text-sm text-muted-foreground italic\">すべてを手動で描き直すことなく、認識可能なビジュアルアイデンティティを構築。</p>"
+      },
+      "productBrand": {
+        "title": "製品とブランドのビジュアル",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>単一のベース画像から複数の製品ショットを生成</li><li>同じ製品を異なるシーン、季節、キャンペーンコンセプトに即座に配置</li><li>ロゴ、色、主要な形状をブランドに合わせて維持</li></ul><p class=\"text-sm text-muted-foreground italic\">1回の撮影で1年間のキャンペーンを支えることができます。</p>"
+      },
+      "socialContent": {
+        "title": "ソーシャルメディアとコンテンツアセット",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>1枚の参照画像を、YouTube/TikTok/Bilibiliのサムネイル、チャンネルバナー、ソーシャル投稿、ブログヘッダーの完全なセットに変換</li><li>各プラットフォームのフォーマットと雰囲気に合わせてビジュアルを迅速にマッチング</li></ul><p class=\"text-sm text-muted-foreground italic\">ストック画像を探す時間を減らし、コンテンツ作成に時間を費やしましょう。</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "joymagic画像から画像の主要機能",
+      "description": "AIで画像を変換するために必要なすべて、速度と品質のために構築。",
+      "uploadPromptTransform": {
+        "title": "アップロード、プロンプト、変換",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>JPG、PNG、WEBPなどのサポート</li><li>スタイル、シーン、ムードを細かく制御するオプションのテキストプロンプト</li><li>ソーシャルフィード、サムネイル、カバーなどのアスペクト比と解像度のプリセット</li></ul><p class=\"text-sm text-muted-foreground italic\">お好みの方法で使用：アップロードして生成するだけ、またはアートディレクターレベルの制御のために詳細なプロンプトを追加。</p>"
+      },
+      "flexibleControl": {
+        "title": "変更の柔軟な制御",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>微調整から大胆なリスタイルまで、変更強度スライダー</li><li>構図、キャラクター、またはスタイルを優先するオプション</li></ul><p class=\"text-sm text-muted-foreground italic\">これにより、結果が予測可能で再現可能になり、ランダムではありません。</p>"
+      },
+      "highQuality": {
+        "title": "高品質な出力",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>シャープでクリーンなディテールに最適化されたHDエクスポート</li><li>テキスト、ロゴ、製品のエッジを鮮明に保つスマート生成</li><li>ウェブサイトのヒーロー画像、プレゼンテーション、印刷可能なアセット用のオプションのアップスケーリング</li></ul><p class=\"text-sm text-muted-foreground italic\">クイックドラフトから最終アセットまで、joymagicは品質を管理します。</p>"
+      },
+      "nonDesigners": {
+        "title": "非デザイナー向けに構築",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>既成のスタイルプリセット：リアル、アニメ、イラスト、3D、ヴィンテージ、ピクセルなど</li><li>ワンクリックで再生成して新しいルックを試す</li><li>アップロード → スタイル選択 → 強度調整 → エクスポートのためのクリーンで集中したUI</li></ul><p class=\"text-sm text-muted-foreground italic\">ファイルをアップロードできれば、joymagicでブランドに合ったビジュアルを作成できます。</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "joymagic画像から画像の仕組み",
+      "description": "アップロードからダウンロードまで、4つの簡単なステップ。",
+      "step1": {
+        "title": "ステップ1 – 画像をアップロード",
+        "description": "<p class=\"mb-3\">明確なベース画像から始めます：製品ショット、キャラクター、ロゴ、UIモックアップ、またはイラスト。ドラッグ&ドロップ、またはデバイスから選択。joymagicはこれを参照として使用して、被写体を認識可能に保ちます。</p>"
+      },
+      "step2": {
+        "title": "ステップ2 – 変更を記述",
+        "description": "<p class=\"mb-3\">AIを導くためのオプションの短いプロンプトを追加します。</p><p class=\"mb-2\">例：</p><ul class=\"list-disc list-inside space-y-1 mb-3 ml-4\"><li>「これを夜の居心地の良いアニメシーンに変換」</li><li>「これを高級スタジオの製品写真のように見せる」</li><li>「このスケッチをクリーンなフラットイラストに変換」</li><li>「このキャラクターを夕日のサイバーパンク都市に配置」</li></ul><p class=\"text-sm text-muted-foreground italic\">短くシンプルな指示で十分です。または、プロンプトをスキップして、スタイルプリセットのみに依存します。</p>"
+      },
+      "step3": {
+        "title": "ステップ3 – スタイルと強度を選択",
+        "description": "<p class=\"mb-3\">joymagicにどの程度進めるかを伝えます。</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>スタイルプリセットを選択（リアル、アニメ、3D、イラストなど）</li><li>軽いタッチアップから完全なリスタイルまで、変更強度を調整</li><li>（オプション）構図、キャラクター、またはスタイルを一貫して保つための設定</li></ul><p class=\"text-sm text-muted-foreground italic\">クリエイティブな方向性をコントロールできます – joymagicが重い作業を処理します。</p>"
+      },
+      "step4": {
+        "title": "ステップ4 – 生成とダウンロード",
+        "description": "<p class=\"mb-3\">モデルに作業させてから、お気に入りを選択します。</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>1つの入力から複数のバリエーションを生成</li><li>プレビューでオプションを並べて比較</li><li>お気に入りをマークしてHDでダウンロード</li><li>ソーシャル、製品ページ、広告、プレゼンテーションにすぐに使用</li></ul><p class=\"text-sm text-muted-foreground italic\">わずか数分で1枚の画像を完全なビジュアルセットに変換。</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "joymagic vs 他の画像から画像へのAIツール",
+      "description": "画像から画像へのワークフロー専用に構築、単なるアドオン機能ではありません。",
+      "focused": {
+        "title": "画像から画像に焦点を当てた、単なるアドオンではない",
+        "description": "<p class=\"mb-3\">多くのプラットフォームは、画像から画像を大きな雑然としたツールボックス内の小さな機能として扱います。joymagicは異なります – 画像から画像へのAIを中心にゼロから構築されています：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>余分な混乱や無関係なツールなし</li><li>学習が速く、使用が速い</li><li>参照ベースの生成に特化して調整された結果</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "高速な日常ワークフロー向けに構築",
+        "description": "1日に数十のバリエーションが必要なクリエイター向けに設計。ステップが少なく、UIがクリーン、メニューの迷路なし。異なるスタイルとプロンプトで同じベース画像を迅速に再利用。"
+      },
+      "pricing": {
+        "title": "あなたと一緒にスケールする価格",
+        "description": "リスクなく画像から画像へのAIをテストできる明確な無料プラン。より高い制限が必要なパワーユーザーやチーム向けのシンプルな有料プラン。透明な使用量 – 実際に使用した分だけ支払い。"
+      },
+      "commercialUse": {
+        "title": "商用利用に安全",
+        "description": "アップロードする元の画像の権利を持っている限り、joymagicで生成した画像を所有します。生成された画像は、キャンペーン、クライアント作業、Eコマースリストなどの商用プロジェクトに使用できます。"
+      }
+    },
+    "perfectFor": {
+      "title": "joymagicが最適な人",
+      "description": "一貫した高品質なビジュアルが必要なクリエイター、ブランド、デザイナー向けに構築。",
+      "creators": {
+        "title": "クリエイターとインフルエンサー",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>コンテンツ周りに一貫したビジュアル世界を作成</li><li>目を引くYouTube/TikTok/Bilibiliのサムネイル、マッチングシリーズカバー、繰り返し出現するキャラクターアート</li><li>異なるスタイルとムードの迅速なA/Bテスト</li><li>顔、アバター、またはマスコットを無限のバリエーションで再利用</li></ul><p class=\"text-sm text-muted-foreground italic\">各画像のデザインに何時間も費やすことなく、フィードで目立ちます。</p>"
+      },
+      "ecommerce": {
+        "title": "Eコマースと小規模ブランド",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>1枚の製品ショットを完全なキャンペーンに変換</li><li>単一のベース写真から異なる背景、シーン、季節</li><li>ブランドの個性に合うスタイル（ミニマル、大胆、遊び心、プレミアム）</li><li>製品ページ、広告、プロモーション、ソーシャルキャンペーン全体でビジュアルの一貫性</li></ul><p class=\"text-sm text-muted-foreground italic\">常に再撮影することなく、スタジオのような多様性を取得。</p>"
+      },
+      "designers": {
+        "title": "デザイナーと代理店",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>joymagicを高速な探索と反復ツールとして使用</li><li>いくつかの参照から迅速にスタイルボードとムードボードを生成</li><li>数分でクライアント向けに複数のコンセプトバリエーションを作成</li><li>大まかな探索に時間を節約し、最終的な仕上げに集中</li></ul><p class=\"text-sm text-muted-foreground italic\">joymagicは既存のデザインワークフローにきれいに適合し、置き換えません。</p>"
+      }
+    },
+    "faq": {
+      "title": "joymagic画像から画像に関するよくある質問",
+      "description": "画像から画像へのAI生成器に関するよくある質問。",
+      "q1": {
+        "question": "画像から画像へのAI生成器とは何ですか？",
+        "answer": "画像から画像へのAI生成器は、既存の画像を受け取り、それを参照として使用して新しい画像を作成します。joymagicでは、ベース画像をアップロードし、オプションでテキストプロンプトを追加し、スタイルと変更強度を選択すると、AIが元の被写体にリンクされた新しいビジュアルを生成します。"
+      },
+      "q2": {
+        "question": "プロンプトを書く必要がありますか、それとも画像をアップロードするだけですか？",
+        "answer": "どちらでも可能です。画像をアップロードしてスタイルを選択するだけの場合、joymagicは自動的にバリエーションを作成します。短いプロンプトを追加すると、ムード、シーン、色、ディテールをより細かく制御できます。プロンプトはオプションです – 追加の精度が必要な場合に使用できます。"
+      },
+      "q3": {
+        "question": "joymagicは無料で使用できますか？制限はありますか？",
+        "answer": "はい、joymagicは無料プランを提供しているため、コミットメントなしで画像から画像へのAIを試すことができます。無料プランには限られた数の生成が含まれるため、ワークフローと品質をテストできます。スケールする準備ができたら、より高い制限とより多くの機能を備えた有料プランにアップグレードできます。最新の詳細については、アプリ内の価格ページを確認してください。"
+      },
+      "q4": {
+        "question": "画像を商用利用できますか？",
+        "answer": "ほとんどの場合、はい – joymagicで生成した画像を商用目的で使用できます。以下を含みます：<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>クライアントプロジェクト</li><li>広告とキャンペーン</li><li>製品ページとブランドコンテンツ</li></ul><p class=\"mt-3 mb-2\">2つの重要な注意事項：</p><ol class=\"list-decimal list-inside space-y-1 ml-4\"><li>入力としてアップロードするすべての画像の権利を持っていることを確認してください。</li><li>最も正確で最新のルールについては、常に公式の利用規約とライセンスを確認してください。</li></ol><p class=\"mt-3 text-sm\">短いバージョン：joymagicは実際のビジネス使用に安全に設計されています。</p>"
+      },
+      "q5": {
+        "question": "どの画像形式とサイズをサポートしていますか？",
+        "answer": "joymagicは現在、以下のような一般的な形式をサポートしています：<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>JPG</li><li>PNG</li><li>WEBP</li></ul><p class=\"mt-3\">標準的なWebおよびカメラ解像度をアップロードできます。出力については、以下から選択できます：</p><ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>プリセットアスペクト比（正方形、縦、横、サムネイルなど）</li><li>Web、ソーシャル、軽印刷に適したHD解像度</li><li>より大きなバナーとプレゼンテーション用のオプションのアップスケーリング</li></ul>"
+      },
+      "q6": {
+        "question": "複数の画像で同じキャラクターを維持できますか？",
+        "answer": "はい。これはjoymagicの画像から画像の主要な強みの1つです。<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>同じ参照画像をベースとして使用</li><li>変更強度を適度に保ち、キャラクターを優先するオプションを有効化</li><li>認識可能なアイデンティティを維持しながら、そのキャラクターを異なる服装、シーン、アートスタイルに配置できます</li></ul><p class=\"mt-3 text-sm\">VTuber、ストーリー駆動のクリエイター、マスコットを持つブランドに最適です。</p>"
+      },
+      "q7": {
+        "question": "アップロードしたコンテンツはプライベートで安全ですか？",
+        "answer": "joymagicはプライバシーを考慮して設計されています。<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>アップロードした画像は出力の生成に使用され、他のユーザーと共有されません</li><li>プライベートプロジェクトを公開テンプレートとして使用しません</li><li>アカウントとアセットを保護するための基本的なセキュリティ慣行が適用されます</li></ul><p class=\"mt-3 text-sm\">データ処理と保持の正確な詳細については、製品内のプライバシーポリシーと利用規約を参照してください。</p>"
+      }
+    },
+    "finalCTA": {
+      "title": "1枚の画像を無限のビジュアルに変換。",
+      "description": "joymagicの画像から画像へのAI生成器を試して、数秒でブランドに合ったコンテンツの作成を開始。<br/><span class=\"text-muted-foreground\">デザインスキル不要 · 無料トライアル</span>",
+      "button": "画像から生成を開始"
+    },
+    "responsibleUse": {
+      "title": "責任ある使用とコンテンツガイドライン",
+      "intro": "joymagicは創造的および商業的目的のために構築されており、責任あるAI慣行に取り組んでいます。",
+      "note": "以下の使用制限に注意してください：",
+      "identity": {
+        "title": "アイデンティティと肖像",
+        "items": [
+          "自分自身または明示的な承認を得た個人の画像のみを使用できます",
+          "他の人の顔、肖像、またはアイデンティティの無許可使用は厳禁です",
+          "キャラクター一貫性機能を自分のコンテンツ、承認されたペルソナ、または権利を持つ架空のキャラクターに限定してください"
+        ]
+      },
+      "prohibited": {
+        "title": "禁止される使用",
+        "intro": "joymagicは以下に使用できません：",
+        "items": [
+          "詐欺や欺瞞のためのディープフェイク、誤解を招くコンテンツ、またはなりすましを作成する",
+          "他の人の権利、プライバシー、または尊厳を侵害するコンテンツを生成する",
+          "有害、違法、または悪意のある資料を制作する"
+        ]
+      },
+      "responsibility": {
+        "title": "あなたの責任",
+        "intro": "joymagicを使用することで、以下に同意します：",
+        "items": [
+          "アップロードするすべての画像の適切な権利を持っていることを確認する",
+          "サービスを倫理的に、適用される法律に準拠して使用する",
+          "文脈が開示を要求する場合、AI生成コンテンツを本物の写真として誤って表示しない"
+        ]
+      },
+      "safety": {
+        "title": "安全対策",
+        "description": "joymagicは、誤用を防ぐために自動コンテンツモデレーションと安全フィルターを実装しています。これらのガイドラインに違反するアカウントは、停止または終了される場合があります。"
+      },
+      "termsLink": "完全な詳細については、以下を参照してください",
+      "termsOfService": "利用規約",
+      "and": "および",
+      "acceptableUsePolicy": "許容可能な使用ポリシー",
+      "period": "。"
+    }
+  }
+}

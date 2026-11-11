@@ -1,0 +1,143 @@
+{
+  "title": "flux-2-klein text-to-image",
+  "subtitle": "Generate stunning images from text descriptions",
+  "prompt_label": "Prompt",
+  "prompt_placeholder": "ancient monumental Teotihuacán pyramids illuminated by red lights, in the sky a giant Saturn suspended in the sky, sculptural and non-astronomical, with rings of liquid metal, futuristic yet archaic, evoking a sacred portal rather than a planet, little light fog, cinematic depth and atmospheric perspective, minimal composition with large clean negative space for typography",
+  "prompt_tooltip": "Enter a description of the image you want to generate",
+  "size_label": "Image Size",
+  "size_hint": "Choose the output image size",
+  "width_label": "Width",
+  "height_label": "Height",
+  "seed_label": "Seed",
+  "seed_hint": "-1 for random seed",
+  "seed_tooltip": "Set a seed value for reproducible results. Use -1 for random seed.",
+  "seed_randomize": "Generate random seed",
+  "buttons": {
+    "generate": "Generate Image"
+  },
+  "errors": {
+    "promptRequired": "Prompt is required"
+  },
+  "image_alt": "Generated image",
+  "download": "Download",
+  "image_placeholder": "Generated image will appear here",
+  "prompt_inspirations_button": "Prompt Inspirations",
+  "prompt_guide_button": "Prompt Guide",
+  "powered_by": "Powered by Flux 2 Klein AI model optimized by joymagic",
+  "page": {
+    "metadata": {
+      "title": "flux-2-klein text-to-image (4B) - AI Image Generator | joymagic",
+      "description": "Generate high-quality images with flux-2-klein text-to-image. Create consistent results with seed control and export up to 1536×1536.",
+      "keywords": "flux-2-klein text-to-image, flux-2-klein, flux-2-klein-4b, text-to-image, ai image generator, prompt to image"
+    },
+    "hero": {
+      "title": "flux-2-klein text-to-image",
+      "description": "Generate with flux-2-klein text-to-image: fast, high-quality images from prompts. Use seed control for consistent results and export up to 1536×1536.",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "heroDescription": "Create stunning images from simple text descriptions using advanced AI technology.",
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Powerful AI image generation capabilities",
+      "highQuality": {
+        "title": "High Quality Images",
+        "description": "Generate high-resolution images with exceptional detail and clarity. Perfect for professional use cases."
+      },
+      "fastGeneration": {
+        "title": "Fast Generation",
+        "description": "Generate images quickly with efficient processing. Get results in seconds."
+      },
+      "styleFlexibility": {
+        "title": "Style Flexibility",
+        "description": "Create images in various styles - photorealistic, artistic, abstract, and more. Control the output with detailed prompts."
+      },
+      "seedControl": {
+        "title": "Seed Control",
+        "description": "Control randomness with seed values. Use the same seed to reproduce similar results or use -1 for random generation."
+      }
+    },
+    "promptingTips": {
+      "title": "Prompting Tips",
+      "lighting": {
+        "title": "Be Specific About Lighting",
+        "description": "\"Golden hour sunlight from the left, soft shadows\" works better than \"good lighting.\""
+      },
+      "camera": {
+        "title": "Include Camera Details",
+        "description": "\"Shot with 85mm lens, shallow depth of field\" adds professional photography quality."
+      },
+      "style": {
+        "title": "Specify Art Style",
+        "description": "\"Digital illustration in Studio Ghibli style\" or \"hyperrealistic 3D render\" gives clear direction."
+      },
+      "mood": {
+        "title": "Describe Mood and Atmosphere",
+        "description": "\"Cozy, warm, nostalgic feeling\" or \"dramatic, cinematic, high contrast\" shapes the overall image."
+      }
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "marketing": {
+        "title": "Marketing Visuals",
+        "description": "Generate product concepts, ad imagery, and social media content without photoshoots."
+      },
+      "character": {
+        "title": "Character Design",
+        "description": "Create original characters for games, comics, or animation projects from text descriptions."
+      },
+      "concept": {
+        "title": "Concept Art",
+        "description": "Visualize scenes, environments, and ideas quickly for creative projects and presentations."
+      },
+      "stock": {
+        "title": "Stock Photo Alternative",
+        "description": "Generate specific images you need instead of searching through generic stock libraries."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Common questions about flux-2-klein text-to-image",
+      "q1": {
+        "question": "What is Flux 2 Klein?",
+        "answer": "Flux 2 Klein is an advanced AI image generation model that creates images from text descriptions. It produces high-quality images at various resolutions."
+      },
+      "q2": {
+        "question": "How detailed should my prompt be?",
+        "answer": "More detail generally means better results. Include subject, setting, lighting, style, mood, and composition details. Be specific about what you want to see."
+      },
+      "q3": {
+        "question": "What is the seed parameter?",
+        "answer": "The seed parameter controls randomness. Use -1 for random generation, or use a specific number to reproduce similar results. Same seed with same prompt will produce similar images."
+      },
+      "q4": {
+        "question": "What image sizes are supported?",
+        "answer": "You can generate images from 256×256 up to 1536×1536. The size must be a multiple of 64. Default is 1024×1024."
+      },
+      "q5": {
+        "question": "How many credits does it cost?",
+        "answer": "Each image generation costs 2 credits. This makes it an affordable option for creating high-quality images."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Create?",
+      "description": "Start generating amazing images from your text descriptions today.",
+      "button": "Try It Now"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "textToImage": "Text to Image",
+      "flux2Klein": "Flux 2 Klein"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Flux 2 Klein Text to Image",
+      "howToName": "How to Generate Images with Flux 2 Klein",
+      "howToDescription": "Generate images from text descriptions using Flux 2 Klein",
+      "features": {
+        "aiTextToImage": "AI Text to Image Generation",
+        "highQuality": "High Quality Images",
+        "fastProcessing": "Fast Processing"
+      }
+    }
+  }
+}

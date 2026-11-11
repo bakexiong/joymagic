@@ -1,0 +1,176 @@
+{
+  "title": "Midjourney Stile Testo in Immagine",
+  "subtitle": "Genera immagini straordinarie in stile Midjourney da descrizioni di testo",
+  "prompt_label": "Prompt",
+  "prompt_placeholder": "Paesaggio forestale etereo, illuminazione dell'ora dorata, stile impressionista, messa a fuoco morbida, atmosfera da sogno.",
+  "prompt_tooltip": "Inserisci una descrizione dell'immagine che vuoi generare",
+  "aspect_ratio_label": "Rapporto d'aspetto",
+  "aspect_ratio_hint": "Scegli il rapporto d'aspetto per l'immagine generata",
+  "aspect_ratio_placeholder": "Seleziona rapporto d'aspetto (facoltativo)",
+  "aspect_ratio_none": "(Nessuno)",
+  "resolution_label": "Risoluzione",
+  "resolution_hint": "Scegli la risoluzione per l'immagine generata",
+  "output_format_label": "Formato di Output",
+  "output_format_hint": "Scegli il formato dell'immagine di output",
+  "sref_label": "Immagine di riferimento",
+  "sref_placeholder": "Inserisci URL immagine di riferimento (facoltativo)",
+  "sref_hint": "Carica un'immagine di riferimento o fornisci URL per influenzare lo stile di generazione",
+  "sref_upload_hint": "Carica un'immagine di riferimento o inserisci URL qui sotto",
+  "sref_upload_active": "Utilizzo dell'immagine caricata come riferimento",
+  "quality_label": "Qualità",
+  "quality_hint": "Scegli il livello di qualità dell'immagine",
+  "stylize_label": "Stilizzazione",
+  "stylize_hint": "Controlla l'intensità dello stile artistico (0-1000)",
+  "chaos_label": "Caos",
+  "chaos_hint": "Aggiungi varietà ai risultati (0-100)",
+  "weird_label": "Strano",
+  "weird_hint": "Rendi le immagini bizzarre e non convenzionali (0-3000)",
+  "version_label": "Versione",
+  "version_hint": "Seleziona versione del modello Midjourney",
+  "niji_label": "Modalità Niji",
+  "niji_hint": "Modello Niji per estetica anime",
+  "niji_none": "Nessuno",
+  "seed_label": "Seed",
+  "seed_hint": "Valore seed per risultati riproducibili (-1 per casuale)",
+  "estimated_credits": "Crediti stimati",
+  "buttons": {
+    "generate": "Genera Immagine",
+    "generating": "Generazione...",
+    "estimating": "Stima...",
+    "checking": "Verifica...",
+    "unavailable": "Non disponibile",
+    "credits": "crediti"
+  },
+  "errors": {
+    "promptRequired": "Il prompt è obbligatorio",
+    "generate_failed": "Generazione immagine fallita: {status}",
+    "generate_failed_default": "Generazione immagine fallita",
+    "no_request_id": "Impossibile ottenere l'ID della richiesta",
+    "restricted": "Questo servizio non è disponibile nella tua regione"
+  },
+  "image_alt": "Immagine generata",
+  "download": "Scarica",
+  "download_success": "Download riuscito",
+  "download_error": "Download fallito",
+  "image_placeholder": "L'immagine generata apparirà qui",
+  "prompt_inspirations_button": "Ispirazioni per Prompt",
+  "prompt_guide_button": "Guida ai Prompt",
+  "powered_by": "Alimentato dal modello AI in stile Midjourney ottimizzato da joymagic",
+  "prompt_guides": {
+    "guide1": "Migliori Prompt di Scena Midjourney",
+    "guide2": "Migliori Prompt di Ritratto Midjourney",
+    "guide3": "Prompt di Foto Prodotto Midjourney",
+    "guide4": "Prompt di Immagine Midjourney: Il Framework a 5 Livelli",
+    "guide5": "Prompt d'Arte Midjourney Copia-Incolla",
+    "guide6": "Ingegneria dei Prompt Midjourney",
+    "guide7": "Guida allo Stile Midjourney",
+    "guide8": "Tecniche di Composizione Midjourney",
+    "guide9": "50 Migliori Prompt Creativi Midjourney",
+    "guide10": "50 Migliori Prompt di Stile Artistico Midjourney"
+  },
+  "page": {
+    "metadata": {
+      "title": "Generatore di Immagini AI Stile Midjourney Testo in Immagine | joymagic",
+      "description": "Genera immagini straordinarie in stile Midjourney da descrizioni di testo. Generazione professionale di immagini AI con controllo artistico, output ad alta risoluzione e flessibilità creativa.",
+      "keywords": "midjourney, testo in immagine, generatore di immagini ai, alternativa midjourney, generatore d'arte ai, generazione di immagini creative, ai artistica, stile midjourney"
+    },
+    "hero": {
+      "title": "Midjourney Stile Testo in Immagine",
+      "description": "Crea immagini straordinarie in stile Midjourney da descrizioni di testo con AI avanzata. Sperimenta controllo artistico, flessibilità creativa e output di qualità professionale. Perfetto per designer, artisti e professionisti creativi che cercano immagini generate da AI di alta qualità.<br/><br/>Cerchi altri modelli AI? <a href=\"/text-to-image\" class=\"text-primary underline\">Esplora tutti gli strumenti di testo in immagine</a>.",
+      "button1": "Prova Ora",
+      "button2": "Vedi Prezzi"
+    },
+    "keyFeatures": {
+      "title": "Funzionalità Stile Midjourney",
+      "description": "Capacità artistiche professionali per la generazione di immagini creative",
+      "artisticControl": {
+        "title": "Controllo Artistico",
+        "description": "Regola finemente lo stile artistico, l'atmosfera e la direzione estetica con prompt in linguaggio naturale. Descrivi stili pittorici, movimenti artistici o qualità visive specifiche per realizzare la tua visione creativa."
+      },
+      "highQuality": {
+        "title": "Output di Alta Qualità",
+        "description": "Genera immagini di livello professionale con dettagli e chiarezza eccezionali. Adatto per progetti commerciali, lavori di portfolio e esigenze di stampa ad alta risoluzione."
+      },
+      "creativeFlexibility": {
+        "title": "Flessibilità Creativa",
+        "description": "Esplora possibilità creative illimitate da rendering fotorealistici ad arte astratta. Mescola stili, combina concetti e sperimenta con combinazioni visive uniche."
+      },
+      "compositionControl": {
+        "title": "Controllo della Composizione",
+        "description": "Dirigi inquadratura, prospettiva e gerarchia visiva attraverso prompt descrittivi. Ottieni composizione professionale senza conoscenze tecniche di fotografia."
+      },
+      "styleConsistency": {
+        "title": "Coerenza di Stile",
+        "description": "Mantieni uno stile visivo coerente attraverso più generazioni. Perfetto per creare serie coese, materiali di brand o collezioni di progetti."
+      }
+    },
+    "standardFeatures": {
+      "title": "Funzionalità Standard",
+      "description": "Tutte le capacità essenziali di cui hai bisogno",
+      "multipleStyles": {
+        "title": "Stili d'Arte Multipli",
+        "description": "Fotorealistico, anime, pittura a olio, acquerello, arte digitale"
+      },
+      "naturalLanguage": {
+        "title": "Prompt in Linguaggio Naturale",
+        "description": "Descrivi la tua visione in linguaggio quotidiano"
+      },
+      "fastGeneration": {
+        "title": "Generazione Veloce",
+        "description": "10-20 secondi per immagine"
+      },
+      "multipleFormats": {
+        "title": "Formati di Output Multipli",
+        "description": "JPG, PNG, WebP"
+      }
+    },
+    "useCases": {
+      "title": "Casi d'Uso",
+      "conceptArt": {
+        "title": "Arte Concettuale e Design",
+        "description": "Crea arte concettuale per giochi, film e progetti creativi. Esplora direzioni visive rapidamente e itera idee senza tempo di illustrazione tradizionale."
+      },
+      "marketing": {
+        "title": "Marketing e Pubblicità",
+        "description": "Genera visual accattivanti per campagne, social media e materiali promozionali. Crea immagini uniche che si distinguono e catturano l'attenzione."
+      },
+      "creative": {
+        "title": "Esplorazione Creativa",
+        "description": "Sperimenta con stili artistici e concetti visivi. Perfetto per artisti, designer e creativi che cercano ispirazione o esplorano nuove direzioni."
+      },
+      "portfolio": {
+        "title": "Portfolio e Presentazione",
+        "description": "Crea immagini di qualità professionale per portfolio, presentazioni e proposte ai clienti. Mostra idee con visual raffinati ad alta risoluzione."
+      }
+    },
+    "faq": {
+      "title": "Domande Frequenti",
+      "description": "Domande comuni sulla generazione di testo in immagine in stile Midjourney",
+      "q1": {
+        "question": "Come funziona la generazione in stile Midjourney?",
+        "answer": "Il nostro modello AI è addestrato per generare immagini con qualità artistiche simili a Midjourney, concentrandosi su appeal estetico, interpretazione creativa e output di qualità professionale. Descrivi semplicemente la tua visione in linguaggio naturale."
+      },
+      "q2": {
+        "question": "Cosa rende questo diverso da altri generatori di immagini AI?",
+        "answer": "La generazione in stile Midjourney enfatizza qualità artistica, interpretazione creativa e appeal estetico. Eccelle nella produzione di immagini visivamente sorprendenti con forte composizione e coerenza artistica."
+      },
+      "q3": {
+        "question": "Posso usare le immagini generate commercialmente?",
+        "answer": "Sì, le immagini generate attraverso la nostra piattaforma possono essere utilizzate per scopi commerciali. Si prega di rivedere i nostri termini di servizio per diritti d'uso specifici e requisiti di attribuzione."
+      },
+      "q4": {
+        "question": "Quanto dettagliati dovrebbero essere i miei prompt?",
+        "answer": "Prompt più dettagliati generalmente producono risultati migliori. Includi soggetto, stile artistico, atmosfera, illuminazione, composizione e qualsiasi elemento visivo specifico che desideri. Ad esempio: \"paesaggio forestale etereo, illuminazione dell'ora dorata, stile impressionista, messa a fuoco morbida, atmosfera da sogno\"."
+      },
+      "q5": {
+        "question": "Qual è la risoluzione delle immagini generate?",
+        "answer": "Le immagini generate sono ad alta risoluzione e adatte per la maggior parte degli usi professionali inclusi web, stampa e presentazioni. L'upscaling opzionale è disponibile per output a risoluzione ancora più elevata."
+      }
+    },
+    "finalCTA": {
+      "title": "Pronto a Creare?",
+      "description": "Inizia a generare immagini straordinarie in stile Midjourney dalle tue descrizioni di testo oggi.",
+      "button": "Prova Ora"
+    }
+  }
+}

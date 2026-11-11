@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Kaynak görsel yükle",
+      "hint": "Bir görsel yükleyin (JPG/PNG/WEBP).",
+      "dragDrop": "Sürükleyip bırakın veya yüklemek için tıklayın",
+      "dropHere": "Görseli buraya bırakın"
+    },
+    "prompt": {
+      "title": "Dönüşüm istemini girin",
+      "placeholder": "Görseli nasıl dönüştürmek istediğinizi açıklayın, örn: 'Çizgi roman stiline çevir', 'Suluboya gibi görünsün'",
+      "hint": "Yapmak istediğiniz değişiklikleri net belirtin"
+    },
+    "generate": {
+      "title": "Dönüştürülmüş görsel oluştur",
+      "cta": "Oluştur",
+      "generating": "Oluşturuluyor..."
+    }
+  },
+  "preview": {
+    "title": "Önizleme",
+    "original": "Orijinal",
+    "swap": "Değiştir",
+    "placeholder": "Dönüşümü burada görmek için bir görsel yükleyin ve istem girin."
+  },
+  "common": {
+    "selectedCount": "Seçilen: 1 görsel",
+    "notSelected": "Seçilmedi"
+  },
+  "errors": {
+    "invalidFileType": "Geçersiz dosya türü. Bir görsel yükleyin (JPG, PNG, WEBP).",
+    "uploadFailed": "Yükleme başarısız: {error}",
+    "uploadFailedGeneric": "Yükleme başarısız",
+    "sourceImageRequired": "Lütfen bir kaynak görsel yükleyin",
+    "promptRequired": "Lütfen bir dönüşüm istemi girin",
+    "generationFailed": "Görsel oluşturma başarısız",
+    "taskFailed": "Görev işlenemedi",
+    "taskTimeout": "Zaman aşımı. Daha sonra tekrar deneyin",
+    "taskIdNotFound": "Görev kimliği alınamadı. API yanıt formatını kontrol edin",
+    "processingFailed": "İşlem başarısız. Tekrar deneyin",
+    "statusQueryFailed": "Görev durumu sorgulanamadı",
+    "apiResponseParseFailed": "API yanıtı ayrıştırılamadı"
+  },
+  "page": {
+    "metadata": {
+      "title": "Grok Imagine görselden görsele AI aracı - Görselleri AI ile dönüştürün | joymagic",
+      "description": "Görsellerinizi dönüştürmek ve düzenlemek için Grok Imagine görselden görsele AI kullanın. Bir görsel yükleyin, gelişmiş AI düzenlemesiyle dönüştürün. Grok Imagine ile hızlı, yüksek kaliteli sonuçlar.",
+      "keywords": "grok imagine görselden görsele, grok imagine, görsel dönüşüm AI, AI görsel düzenleyici, görsel düzenleme, görselden görsele AI aracı, AI görsel dönüştürücü"
+    },
+    "hero": {
+      "title": "Grok Imagine görselden görsele AI - Görsellerinizi AI ile dönüştürün",
+      "description": "Grok Imagine görselden görsele AI ile görselleri dönüştürün ve düzenleyin. Bir görsel yükleyin, gelişmiş AI düzenlemesiyle dönüştürün. Hızlı, yüksek kaliteli dönüşümler.",
+      "button1": "Grok Imagine görselden görsele deneyin",
+      "button2": "Fiyatları görün"
+    },
+    "keyFeatures": {
+      "title": "Neden Grok Imagine görselden görsele?",
+      "description": "Grok Imagine görselden görsele AI özelliklerini keşfedin",
+      "singleImage": {
+        "title": "Tek görsel yükleme",
+        "description": "Bir görsel yükleyin ve nasıl dönüştürmek istediğinizi açıklayın. Basit ve hızlı."
+      },
+      "highQuality": {
+        "title": "Yüksek kaliteli Grok Imagine sonuçları",
+        "description": "Grok Imagine AI ile üstün kalite. Yüksek çözünürlükte, detaylı ve net dönüştürülmüş görseller oluşturun."
+      },
+      "styleFlexibility": {
+        "title": "Çok yönlü stil dönüşümü",
+        "description": "Grok Imagine ile görselleri fotoğraf gerçekçi, sanatsal, soyut ve daha fazlasına dönüştürün. Ayrıntılı istemlerle tam kontrol."
+      },
+      "affordable": {
+        "title": "Uygun fiyatlı Grok Imagine",
+        "description": "Uygun maliyetli görsel dönüşümleri. Kullanım başına ödeme, her proje için uygun."
+      }
+    },
+    "promptingTips": {
+      "title": "Grok Imagine görselden görsele en iyi sonuçlar için",
+      "specific": {
+        "title": "İstemlerde net olun",
+        "description": "İstediğiniz dönüşümü tam olarak açıklayın. Örnekler: \"Çizgi roman stiline çevir\" veya \"Suluboya gibi görünsün\"."
+      },
+      "style": {
+        "title": "Sanatsal stili belirtin",
+        "description": "İstediğiniz stili yazın: \"çizgi roman stili\", \"yağlı boya\", \"dijital sanat\" vb."
+      },
+      "color": {
+        "title": "Renk ve atmosfer",
+        "description": "Renk paleti ve atmosferi açıklayarak dönüşümleri güçlendirin: \"canlı renkler\", \"soluk tonlar\", \"karanlık ve kasvetli\" vb."
+      },
+      "details": {
+        "title": "Ayrıntı ekleyin",
+        "description": "Işık, kompozisyon ve korumak veya değiştirmek istediğiniz öğeleri ekleyerek kaliteyi artırın."
+      }
+    },
+    "useCases": {
+      "title": "Grok Imagine görselden görsele kullanım alanları",
+      "style": {
+        "title": "Sanatsal stil dönüşümü",
+        "description": "Fotoğrafları çizgi roman, suluboya, yağlı boya ve daha fazlasına dönüştürün. Yaratıcı projeler için ideal."
+      },
+      "product": {
+        "title": "Ürün fotoğrafçılığı",
+        "description": "Pazarlama ve sosyal medya için ürün fotoğraflarını dönüştürün. Hızlıca birden fazla stil varyasyonu oluşturun."
+      },
+      "creative": {
+        "title": "Yaratıcı tasarım projeleri",
+        "description": "Yaratıcı projeler için farklı stiller ve dönüşümler deneyin. Mükemmel sonucu bulun."
+      },
+      "personal": {
+        "title": "Kişisel kullanım",
+        "description": "Fotoğraflarınızı AI ile yeniden hayal edin — tek bir istemle atmosfer, stil veya sahneyi değiştirin."
+      }
+    },
+    "faq": {
+      "title": "Grok Imagine görselden görsele SSS",
+      "description": "Grok Imagine görselden görsele AI aracı hakkında sık sorulan sorular",
+      "q1": {
+        "question": "Kaç görsel yükleyebilirim?",
+        "answer": "Her seferde bir görsel. İsteminizde dönüşümü açıklayın ve oluşturun."
+      },
+      "q2": {
+        "question": "Maliyeti ne kadar?",
+        "answer": "Her dönüşüm sabit kredi tüketir. Fiyat sayfasına bakın."
+      },
+      "q3": {
+        "question": "Grok Imagine hangi görsel formatlarını destekliyor?",
+        "answer": "Grok Imagine PNG, JPEG, JPG ve WebP destekler. En iyi sonuç için net ve iyi aydınlatılmış görseller kullanın."
+      },
+      "q4": {
+        "question": "Grok Imagine için istemleri nasıl yazmalıyım?",
+        "answer": "En iyi sonuç için konu, ortam, ışık, stil, atmosfer ve kompozisyon gibi ayrıntılı açıklamalar ekleyin."
+      },
+      "q5": {
+        "question": "Aynı görseli birden fazla kez dönüştürebilir miyim?",
+        "answer": "Evet. Aynı görsele farklı istemlerle farklı dönüşümler uygulayabilirsiniz."
+      }
+    },
+    "finalCTA": {
+      "title": "Grok Imagine görselden görsele denemeye hazır mısınız?",
+      "description": "Görsellerinizi bugün Grok Imagine AI ile dönüştürmeye başlayın. Hızlı, yüksek kaliteli dönüşümler.",
+      "button": "Şimdi Grok Imagine görselden görsele deneyin"
+    },
+    "breadcrumb": {
+      "home": "Ana sayfa",
+      "imageToImage": "Görselden görsele",
+      "grokImagine": "Grok Imagine"
+    },
+    "schema": {
+      "softwareName": "Grok Imagine görselden görsele AI aracı - joymagic",
+      "howToName": "Grok Imagine görselden görsele AI nasıl kullanılır",
+      "howToDescription": "Grok Imagine görselden görsele AI ile görselleri dönüştürmeyi öğrenin. Görsel yükleyin ve AI ile düzenleyin.",
+      "features": {
+        "aiImageEditing": "Grok Imagine görselden görsele AI düzenleme",
+        "singleImage": "Grok Imagine ile tek görsel dönüşümü",
+        "highQuality": "Yüksek kaliteli Grok Imagine çıktısı"
+      }
+    }
+  }
+}

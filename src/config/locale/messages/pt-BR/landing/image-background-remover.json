@@ -1,0 +1,195 @@
+{
+  "imageBackgroundRemover": {
+    "id": "image-background-remover",
+    "title": "Removedor de Fundo IA por joymagic",
+    "description": "Remova fundos de imagens instantaneamente com precisão IA. Perfeito para fotos de produtos, retratos e mais.",
+    "steps": {
+      "sourceImage": {
+        "title": "Enviar imagem fonte",
+        "hint": "Enviar imagem aqui JPG/PNG/WEBP",
+        "dragDrop": "Arrastar e soltar ou clicar para enviar",
+        "dropHere": "Soltar imagem aqui"
+      },
+      "generate": {
+        "title": "Remover fundo",
+        "cta": "Remover Fundo",
+        "generating": "Removendo fundo..."
+      }
+    },
+    "preview": {
+      "title": "Visualização",
+      "original": "Original",
+      "backgroundRemoved": "Fundo Removido",
+      "placeholder": "Envie uma imagem para ver o resultado da remoção de fundo aqui."
+    },
+    "common": {
+      "selected": "Selecionado: {name}",
+      "notSelected": "Não selecionado"
+    },
+    "errors": {
+      "invalidFileType": "Tipo de arquivo inválido. Por favor, envie um arquivo de imagem (JPG, PNG, WEBP).",
+      "uploadFailed": "Falha no envio: {error}",
+      "uploadFailedGeneric": "Falha no envio",
+      "sourceImageRequired": "Por favor, envie primeiro uma imagem fonte",
+      "generationFailed": "Falha na remoção de fundo",
+      "taskFailed": "Falha no processamento da tarefa",
+      "taskTimeout": "Tempo limite de processamento da tarefa, por favor tente novamente mais tarde",
+      "taskIdNotFound": "Não foi possível obter o ID da tarefa, por favor verifique o formato de resposta da API",
+      "processingFailed": "Falha no processamento, por favor tente novamente",
+      "statusQueryFailed": "Falha ao consultar o status da tarefa",
+      "apiResponseParseFailed": "Falha ao analisar a resposta da API",
+      "downloadFailed": "Falha ao baixar a imagem"
+    },
+    "download": {
+      "title": "Baixar imagem"
+    },
+    "alt": {
+      "sourcePreview": "Visualização da fonte",
+      "enlargedPreview": "Visualização ampliada",
+      "source": "Fonte",
+      "generated": "Gerado"
+    }
+  },
+  "imageBackgroundRemoverPage": {
+    "metadata": {
+      "title": "Removedor de Fundo de Imagem IA Online | Remover Fundo Instantaneamente | joymagic",
+      "description": "Remova o fundo de qualquer imagem instantaneamente com o removedor de fundo IA da joymagic. Um clique, recorte perfeito – sem necessidade de habilidades de edição. Download HD, Sem marca d'água, Suporte em lote.",
+      "keywords": "Removedor de Fundo de Imagem IA, remover fundo, fundo transparente, removedor de fundo online, remoção de fundo IA, editor de fotos de produtos, removedor de fundo de retratos, remoção de fundo em lote"
+    },
+    "hero": {
+      "title": "Removedor de Fundo de Imagem IA Online",
+      "description": "Remova o fundo de qualquer imagem instantaneamente com o removedor de fundo IA da joymagic. Um clique, recorte perfeito – sem necessidade de habilidades de edição.",
+      "button1": "Remover Fundo Agora",
+      "button2": "Começar grátis · Sem cartão de crédito"
+    },
+    "heroDescription": "✓ Download HD  ✓ Sem marca d'água  ✓ Suporte em lote",
+    "whatIsAIBackgroundRemover": {
+      "title": "O que é Removedor de Fundo de Imagem IA?",
+      "description": "O Removedor de Fundo de Imagem IA da joymagic usa aprendizado profundo avançado para detectar automaticamente o assunto principal em sua foto e remover o fundo com precisão em segundos. Diferente de ferramentas manuais ou editores básicos que requerem mascaramento e pincel, nossa IA:",
+      "features": [
+        "Identifica inteligentemente pessoas, produtos, animais, carros e objetos",
+        "Lida com bordas complexas como cabelo, pelos e detalhes finos",
+        "Cria recortes limpos e transparentes (PNG) ou substitui por qualquer cor",
+        "Fornece resultados profissionais sempre"
+      ],
+      "perfectFor": "Perfeito para fotos de produtos, retratos, fotos de perfil, conteúdo de mídia social, listagens de e-commerce e projetos de design."
+    },
+    "keyFeatures": {
+      "title": "Recursos Principais",
+      "description": "Recursos poderosos de remoção de fundo IA construídos para velocidade e qualidade.",
+      "oneClickPrecision": {
+        "title": "Remoção de Precisão com Um Clique",
+        "description": "<p class=\"mb-3\">IA de última geração lida até com detalhes complicados como cabelo, pelos e objetos transparentes – resultados em segundos.</p>"
+      },
+      "highQualityTransparent": {
+        "title": "Saídas Transparentes de Alta Qualidade",
+        "description": "<p class=\"mb-3\">Baixe recortes nítidos e profissionais em HD completo com bordas suaves e sem artefatos.</p>"
+      },
+      "batchRemoval": {
+        "title": "Remoção de Fundo em Lote",
+        "description": "<p class=\"mb-3\">Envie e processe várias imagens de uma vez – perfeito para catálogos de produtos ou edição em massa.</p>"
+      },
+      "cleanProfessional": {
+        "title": "Resultados Limpos e Profissionais",
+        "description": "<p class=\"mb-3\">Sem marcas d'água, sem bordas desfocadas – pronto para e-commerce, apresentações ou design.</p>"
+      },
+      "replaceBackground": {
+        "title": "Substituir Fundo",
+        "description": "<p class=\"mb-3\">Troque facilmente para fundos brancos, coloridos ou personalizados com um clique.</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "O que Você Pode Fazer com o Removedor de Fundo IA da joymagic",
+      "description": "Um envio, infinitas possibilidades criativas.",
+      "productPhotos": {
+        "title": "Criar Fotos de Produtos Impressionantes",
+        "description": "<p class=\"mb-3\">Remova fundos distraentes de fotos de produtos e coloque itens em branco limpo ou transparente para Amazon, Shopify ou listagens.</p>"
+      },
+      "profilePictures": {
+        "title": "Fazer Fotos de Perfil Profissionais",
+        "description": "<p class=\"mb-3\">Isole instantaneamente retratos para LinkedIn, currículos, fotos de identidade ou perfis de namoro.</p>"
+      },
+      "graphicsMemes": {
+        "title": "Criar Gráficos e Memes",
+        "description": "<p class=\"mb-3\">Extraia pessoas, objetos ou animais para sobrepor em novos fundos, pôsteres ou visuais de mídia social.</p>"
+      },
+      "ecommerce": {
+        "title": "Preparar Imagens para E-Commerce",
+        "description": "<p class=\"mb-3\">Processe rapidamente centenas de imagens de produtos com remoção em lote – economize horas de edição manual.</p>"
+      },
+      "socialMedia": {
+        "title": "Melhorar Conteúdo de Mídia Social",
+        "description": "<p class=\"mb-3\">Crie histórias, posts e reels chamativos com adesivos transparentes ou recortes limpos.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "Como Remover o Fundo de uma Imagem",
+      "description": "Remova fundos com nosso removedor de fundo IA em apenas alguns passos simples:",
+      "step1": {
+        "title": "1. Envie sua imagem",
+        "description": "<p class=\"mb-3\">Arraste e solte ou selecione sua foto.</p><p class=\"mb-3\">Suporta formatos JPG, JPEG, PNG, WEBP e HEIC.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Funciona com retratos, fotos de produtos, logos e mais</li><li>Melhores resultados com assuntos claros</li></ul>"
+      },
+      "step2": {
+        "title": "2. Deixe a IA fazer a mágica",
+        "description": "<p class=\"mb-3\">Nossa IA detecta e remove o fundo automaticamente em segundos.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Sem necessidade de pincel ou seleção manual</li><li>Visualize o resultado transparente instantaneamente</li></ul>"
+      },
+      "step3": {
+        "title": "3. Refinar (opcional)",
+        "description": "<p class=\"mb-3\">Ajuste se necessário:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Restaurar partes do assunto</li><li>Apagar manchas de fundo restantes</li><li>Suavizar bordas para recortes perfeitos</li></ul>"
+      },
+      "step4": {
+        "title": "4. Baixe seu resultado",
+        "description": "<p class=\"mb-3\">Obtenha sua imagem sem fundo instantaneamente:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>PNG transparente (ideal para sobreposições)</li><li>Ou escolha um fundo sólido/branco</li><li>Qualidade HD, pronto para usar</li></ul>"
+      }
+    },
+    "faq": {
+      "title": "Perguntas Frequentes sobre Removedor de Fundo de Imagem IA",
+      "description": "Perguntas comuns sobre nosso Removedor de Fundo de Imagem IA.",
+      "q1": {
+        "question": "Quais formatos de imagem são suportados?",
+        "answer": "Suportamos JPG, JPEG, PNG, WEBP e HEIC. Para melhores resultados, use imagens de alta qualidade."
+      },
+      "q2": {
+        "question": "Minhas imagens terão marca d'água?",
+        "answer": "Não. Todos os downloads estão limpos e sem marca d'água."
+      },
+      "q3": {
+        "question": "Quão precisa é a IA?",
+        "answer": "Nossa IA se destaca em cabelo, pelos e bordas complexas. Para casos muito intrincados, use as ferramentas de refinamento simples para aperfeiçoar o resultado."
+      },
+      "q4": {
+        "question": "Posso remover fundos de várias imagens?",
+        "answer": "Sim – o processamento em lote permite que você envie e remova fundos de várias imagens de uma vez."
+      },
+      "q5": {
+        "question": "Meus dados estão seguros?",
+        "answer": "Sim. As imagens enviadas são processadas com segurança e excluídas automaticamente após o processamento. Nunca usamos suas imagens para treinamento."
+      },
+      "q6": {
+        "question": "Posso mudar a cor do fundo?",
+        "answer": "Sim – baixe com fundo transparente ou escolha um fundo branco/sólido."
+      },
+      "q7": {
+        "question": "Que tipos de imagens funcionam melhor?",
+        "answer": "Imagens com um assunto principal claro (pessoa, produto, objeto, animal) contra um fundo contrastante ou desordenado produzem os melhores resultados automáticos. Retratos, fotos de produtos e logos funcionam excepcionalmente bem."
+      },
+      "q8": {
+        "question": "Posso refinar ou editar o resultado após a remoção IA?",
+        "answer": "Sim – ferramentas de pincel simples permitem que você restaure manualmente quaisquer partes removidas acidentalmente ou apague manchas de fundo restantes para controle perfeito em nível de pixel."
+      }
+    },
+    "privacySecurity": {
+      "title": "Privacidade e Segurança",
+      "description": "Suas imagens e privacidade são nossa prioridade.",
+      "secureProcessing": "Todos os envios são processados com segurança e criptografados",
+      "autoDelete": "As imagens são excluídas automaticamente após o processamento",
+      "neverShared": "Nunca compartilhadas com terceiros ou usadas para treinamento IA"
+    },
+    "finalCTA": {
+      "title": "Transforme qualquer foto em um recorte limpo e profissional.",
+      "description": "Experimente o Removedor de Fundo IA da joymagic agora e obtenha resultados transparentes perfeitos em segundos.<br/><span class=\"text-muted-foreground\">Sem habilidades de design necessárias · Grátis para experimentar</span>",
+      "button": "Remover Fundo Agora"
+    }
+  }
+}
+

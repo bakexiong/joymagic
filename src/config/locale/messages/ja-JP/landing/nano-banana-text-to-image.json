@@ -1,0 +1,114 @@
+{
+  "title": "Nano Banana テキストから画像",
+  "subtitle": "テキストの説明から素晴らしい画像を生成",
+  "prompt_label": "プロンプト",
+  "prompt_placeholder": "裏庭でシャボン玉を吹く小さな女の子、泡に虹色を作る日光、スナップ写真スタイル。",
+  "prompt_tooltip": "生成したい画像の説明を入力してください",
+  "prompt_enhancer": "プロンプトエンハンサー",
+  "enhancing": "強化中...",
+  "aspect_ratio_label": "アスペクト比",
+  "aspect_ratio_hint": "生成する画像のアスペクト比を選択",
+  "aspect_ratio_placeholder": "アスペクト比を選択（オプション）",
+  "aspect_ratio_none": "（なし）",
+  "output_format_label": "出力形式",
+  "output_format_hint": "出力画像の形式を選択",
+  "buttons": {
+    "generate": "画像を生成"
+  },
+  "errors": {
+    "promptRequired": "プロンプトは必須です"
+  },
+  "image_alt": "生成された画像",
+  "download": "ダウンロード",
+  "image_placeholder": "生成された画像がここに表示されます",
+  "page": {
+    "metadata": {
+      "title": "Nano Banana テキストから画像 - AI画像生成 | joymagic",
+      "description": "Google Nano Banana AIでテキストから画像を生成。写真、イラスト、デザインを作成し、明確なテキストレンダリングを実現。Nano Bananaを無料でお試しください。",
+      "keywords": "nano banana テキストから画像、AI画像ジェネレーター、google nano banana、gemini 2.5 flash image、テキストから画像AI"
+    },
+    "hero": {
+      "title": "Nano Banana テキストから画像",
+      "description": "Google Nano Banana（Gemini 2.5 Flash Image）は、テキストの説明から画像を生成します。欲しいものを入力すると、数秒で写真、イラスト、またはコンセプトアートが得られます。さまざまな視覚スタイルを自然に処理します。下記でNano Bananaを無料でお試しください！<br/><br/>プロフェッショナルなコントロールと明確なテキストレンダリングが必要ですか？<a href=\"/text-to-image/nano-banana-pro\" class=\"text-primary underline\">Nano Banana Proをお試しください</a>。",
+      "button1": "今すぐ試す",
+      "button2": "価格を見る"
+    },
+    "keyFeatures": {
+      "title": "主な機能",
+      "description": "強力なAI画像生成機能",
+      "createFromScratch": {
+        "title": "ゼロから作成",
+        "description": "任意のシーンを説明すると、モデルが生成します。参照画像は不要—見たいものを書くだけで、モデルが説明から構築します。"
+      },
+      "differentStyles": {
+        "title": "異なるスタイルの処理",
+        "description": "視覚スタイルを自然に処理します。プロンプトでスタイルを説明することで、フォトリアリスティックなシーン、アニメキャラクター、デジタルイラスト、コンセプトアート、またはスケッチを生成できます。"
+      },
+      "plainTextInput": {
+        "title": "プレーンテキスト入力",
+        "description": "日常的な言語で説明を書きます。「日没時のビーチでサングラスをかけた猫」や「ネオンサインのあるサイバーパンクの街のシーン」—モデルは自然な表現を理解します。"
+      },
+      "fastGeneration": {
+        "title": "高速生成",
+        "description": "ほとんどの画像は5-10秒で生成されます。異なるアイデアをすばやくテスト—照明、構図、被写体のバリエーションを試すことができ、長時間待つ必要はありません。"
+      },
+      "clearTextPro": {
+        "title": "画像内の明確なテキスト（Pro）",
+        "description": "Proバージョンは、複数の言語で読み取り可能なテキストをレンダリングします。タイポグラフィが鮮明で読みやすいロゴ、ポスター、看板、製品ラベルを生成します。特に中国語文字に優れています。"
+      }
+    },
+    "useCases": {
+      "title": "使用例",
+      "conceptVisualization": {
+        "title": "コンセプトの可視化",
+        "description": "クライアントにアイデアを示す必要があるが、参照写真がない場合？コンセプトを説明し、プレゼンテーションやピッチ用のビジュアルを生成します。"
+      },
+      "socialMedia": {
+        "title": "ソーシャルメディアグラフィック",
+        "description": "投稿や広告用のオリジナル画像を作成します。ストック写真やデザイナーを雇うことなく、背景、製品モックアップ、またはイラストを生成します。"
+      },
+      "marketing": {
+        "title": "マーケティング資料",
+        "description": "テキスト要素を含むポスター、広告、プロモーショングラフィックをデザインします。Proバージョンはタイポグラフィを明確でプロフェッショナルに保ちます—イベントポスターや製品パッケージに便利です。"
+      },
+      "creativeExploration": {
+        "title": "創造的な探索",
+        "description": "詳細な作業に着手する前に、異なる視覚的方向性をテストします。複数のスタイルバリエーションを生成して、機能するものを見つけます。"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "Nano Banana テキストから画像に関するよくある質問",
+      "q1": {
+        "question": "Nano Banana テキストから画像とは何ですか？",
+        "answer": "Nano Bananaは、Google DeepMindのAI画像ジェネレーターです。テキストの説明から画像を作成します—見たいものを入力すると、数秒で生成された画像が得られます。"
+      },
+      "q2": {
+        "question": "プロンプトはどの程度詳細にすべきですか？",
+        "answer": "より詳細な方が通常は役立ちます。「犬」ではなく、「公園に座っているゴールデンレトリバー、朝の日光、写真スタイル」を試してください。被写体、設定、照明、視覚スタイルを含めてください。"
+      },
+      "q3": {
+        "question": "どの形式がサポートされていますか？",
+        "answer": "JPG、PNG、WebPを出力します。透明度サポートが必要な場合は、PNGを選択してください。"
+      },
+      "q4": {
+        "question": "Nano Banana Proとの違いは何ですか？",
+        "answer": "標準のNano Bananaは、異なるスタイルで画像をすばやく生成します。Proはカメラスタイルのコントロール（被写界深度、照明）、複数言語での明確なテキストレンダリング、およびより高解像度の出力を追加します。<a href=\"/text-to-image/nano-banana-pro\" class=\"text-primary underline\">バージョンを比較 →</a>"
+      },
+      "q5": {
+        "question": "生成にはどのくらい時間がかかりますか？",
+        "answer": "標準：画像あたり5-10秒。Pro：複雑なプロンプトやより高解像度の出力には10-15秒。"
+      }
+    },
+    "finalCTA": {
+      "title": "作成する準備はできましたか？",
+      "description": "今日からテキストの説明から素晴らしい画像を生成し始めましょう。",
+      "button": "今すぐ試す"
+    },
+    "breadcrumb": {
+      "home": "ホーム",
+      "textToImage": "テキストから画像",
+      "nanoBanana": "Nano Banana"
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "title": "Nano Banana Pro 文本生成图片",
+  "subtitle": "从文本描述生成精美的图片",
+  "prompt_label": "提示词",
+  "prompt_placeholder": "一个小女孩在后院吹肥皂泡，阳光在泡泡中形成彩虹色，抓拍风格。",
+  "prompt_tooltip": "输入您想要生成的图片描述",
+  "aspect_ratio_label": "宽高比",
+  "aspect_ratio_hint": "选择生成图片的宽高比",
+  "aspect_ratio_placeholder": "选择宽高比（可选）",
+  "aspect_ratio_none": "（无）",
+  "resolution_label": "分辨率",
+  "resolution_hint": "选择生成图片的分辨率",
+  "output_format_label": "输出格式",
+  "output_format_hint": "选择输出图片格式",
+  "buttons": {
+    "generate": "生成图片"
+  },
+  "errors": {
+    "promptRequired": "提示词是必填项",
+    "generate_failed": "生成图片失败：{status}",
+    "generate_failed_default": "生成图片失败",
+    "no_request_id": "获取请求 ID 失败"
+  },
+  "image_alt": "生成的图片",
+  "download": "下载",
+  "image_placeholder": "生成的图片将显示在这里",
+  "prompt_inspirations_button": "提示词灵感",
+  "prompt_guide_button": "提示词指南",
+  "powered_by": "由 joymagic 优化的 Nano Banana Pro AI 模型提供支持",
+  "prompt_guides": {
+    "guide1": "最佳 Nano Banana 场景提示词",
+    "guide2": "最佳 Nano Banana 肖像提示词",
+    "guide3": "Flux 1.1 电商产品照片提示词",
+    "guide4": "Nano Banana 图片提示词：5 层框架",
+    "guide5": "复制粘贴 Nano Banana 产品提示词",
+    "guide6": "Midjourney 提示词工程",
+    "guide7": "Midjourney 产品提示词",
+    "guide8": "Midjourney 肖像提示词",
+    "guide9": "50 个最佳 Flux 1.1 产品照片提示词",
+    "guide10": "50 个最佳 Flux 1.1 肖像提示词"
+  },
+  "page": {
+    "metadata": {
+      "title": "Nano Banana Pro - 支持清晰字体的 AI 文本生成图片 | joymagic",
+      "description": "使用 Nano Banana Pro 从文本生成专业图片。相机控制、中英文清晰文本渲染、高分辨率输出。创建照片和设计。",
+      "keywords": "nano banana pro, 文本生成图片, ai 图片生成器, 清晰文本渲染, 相机控制, 专业图片生成, 中文文本 ai, 双语文本 ai"
+    },
+    "hero": {
+      "title": "Nano Banana Pro 文本生成图片",
+      "description": "Nano Banana Pro 通过文本描述生成专业图片，具备相机级控制功能。用简单语言描述景深、灯光设置和色彩分级。清晰渲染中英文文本——适用于海报、标志和品牌材料。立即试用 Nano Banana Pro！<br/><br/>需要基础图片生成功能，无需专业控制？<a href=\"/text-to-image/nano-banana\" class=\"text-primary underline\">试试标准版 Nano Banana</a>。",
+      "button1": "立即试用",
+      "button2": "查看价格"
+    },
+    "proFeatures": {
+      "title": "专业版专属功能",
+      "description": "专业级功能，用于高级图片生成",
+      "cameraControls": {
+        "title": "通过文本控制相机",
+        "description": "用简单语言描述专业摄影设置。\"浅景深配虚化背景\"或\"高对比度黑色电影风格灯光\"——模型会应用通常需要昂贵设备和专业知识的技术。"
+      },
+      "clearTextRendering": {
+        "title": "清晰文本渲染",
+        "description": "生成多语言可读字体。标志、标牌、海报、产品标签——文本保持清晰专业。特别擅长中文字符，适用于双语营销材料。"
+      },
+      "highResolution": {
+        "title": "高分辨率输出",
+        "description": "输出适合印刷材料和大尺寸展示的高分辨率图片。可选放大功能保留精细细节——织物纹理、建筑元素、产品表面。"
+      },
+      "complexScene": {
+        "title": "复杂场景理解",
+        "description": "处理详细的空间指令。\"将花瓶放在桌子左侧，阳光从右侧窗户照入\"——模型能正确理解位置、光线方向和物体关系。"
+      },
+      "professionalComposition": {
+        "title": "专业构图控制",
+        "description": "描述特定的取景、角度和视角。\"低角度仰拍建筑\"或\"背景有引导线的特写肖像\"——模型理解电影和摄影术语。"
+      }
+    },
+    "standardFeatures": {
+      "title": "标准功能（同样包含）",
+      "description": "您需要的所有基本功能",
+      "styleFlexibility": {
+        "title": "风格灵活性",
+        "description": "照片、动漫、数字艺术、插画"
+      },
+      "naturalLanguage": {
+        "title": "自然语言输入",
+        "description": "用日常语言描述场景"
+      },
+      "fastGeneration": {
+        "title": "快速生成",
+        "description": "每张图片 10-15 秒"
+      },
+      "multipleFormats": {
+        "title": "多种输出格式",
+        "description": "JPG、PNG、WebP"
+      }
+    },
+    "useCases": {
+      "title": "使用场景",
+      "eventPosters": {
+        "title": "带文本的活动海报",
+        "description": "生成包含活动详情、日期和场地信息的海报。专业版能清晰渲染中英文文本——在任何尺寸下都清晰可读，适用于印刷或数字用途。"
+      },
+      "productVisualization": {
+        "title": "产品可视化",
+        "description": "需要产品效果图用于演示但没有照片？描述产品、场景和灯光。专业版生成具有真实阴影和反射的专业场景。"
+      },
+      "conceptPresentations": {
+        "title": "概念演示",
+        "description": "向客户展示设计方向，无需完成最终作品。使用相机控制生成多种视觉风格，展示不同的情绪和方式。"
+      },
+      "bilingualMarketing": {
+        "title": "双语营销材料",
+        "description": "创建包含中英文文本的广告和宣传图形。专业版能很好地处理两种语言的字体——对于面向多个市场的零售标牌和产品包装很重要。"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "关于 Nano Banana Pro 文本生成图片的常见问题",
+      "q1": {
+        "question": "专业版与标准版 Nano Banana 有什么区别？",
+        "answer": "专业版增加了相机控制（景深、灯光、色彩分级）、清晰的多语言文本渲染和更高分辨率输出。标准版可以快速生成各种风格的图片，但没有专业摄影控制或保证的文本质量。"
+      },
+      "q2": {
+        "question": "文本渲染是如何工作的？",
+        "answer": "在提示词中描述您想要的文本，包括内容、样式和位置。专业版生成的字体在任何尺寸下都清晰可读——对于中文字符特别有效，因为不同 AI 模型的渲染质量差异很大。"
+      },
+      "q3": {
+        "question": "可以输出什么分辨率？",
+        "answer": "专业版输出比标准版更高的分辨率，可选放大功能可获得印刷质量效果。适用于大幅面印刷、展会材料和杂志广告。"
+      },
+      "q4": {
+        "question": "提示词应该多详细？",
+        "answer": "越详细越好。不要只说\"桌子上的产品\"，试试\"智能手机放在木桌上，下午阳光从左侧照入，浅景深，专业产品摄影风格\"。包括主体、灯光、相机设置和视觉风格。"
+      },
+      "q5": {
+        "question": "对于基础图片，专业版值得吗？",
+        "answer": "标准版 Nano Banana 适用于社交媒体图形、快速概念和文本质量不重要的图片。当您需要专业摄影控制、图片中清晰的字体或印刷质量分辨率时，使用专业版。"
+      }
+    },
+    "finalCTA": {
+      "title": "准备开始创作了吗？",
+      "description": "立即开始从您的文本描述生成精美的图片。",
+      "button": "立即试用"
+    }
+  }
+}

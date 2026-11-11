@@ -1,0 +1,101 @@
+{
+  "page": {
+    "metadata": {
+      "title": "GPT Image 2 文本生成图片 - 中文文字渲染与照片级写实 | joymagic",
+      "description": "使用 GPT Image 2 生成中文海报、试卷、书法、照片级街拍、UI 截图和产品视觉。模型擅长精准文字渲染、世界知识理解和高真实感图像生成。",
+      "keywords": "GPT Image 2, GPT-Image 2, 中文文字渲染, 海报生成, 试卷生成, 书法图片, 照片级写实, UI 截图生成, 文本生成图片, OpenAI 图像模型"
+    },
+    "hero": {
+      "title": "GPT-Image 2 文本生成图片",
+      "description": "GPT Image 2 是 OpenAI 近期内测的新一代图像模型，核心优势在于精准的文字渲染、更强的世界知识理解以及照片级真实感。相比前代，它不再需要极其复杂的长指令，简单直接的描述就能得到很强的结果。它尤其适合生成中文海报、试卷、书法、街头摄影、专业摄影风格画面以及高仿真 UI 截图。<br/><br/>如果你想编辑已上传图片？<a href=\"/image-to-image/gpt-image-2\" class=\"text-primary underline\">试试 GPT-Image 2 图生图</a>。",
+      "button1": "立即试用",
+      "button2": "查看价格"
+    },
+    "features": {
+      "title": "为什么选择 GPT-Image 2",
+      "description": "更适合文字密集型视觉、照片级写实场景和高仿真界面生成的新一代图像模型。",
+      "promptFirst": {
+        "title": "短提示词也能出好图",
+        "description": "GPT Image 2 不再依赖过长过复杂的描述。对于很多常见任务，直给需求就能得到很强的首版结果。"
+      },
+      "aspectCoverage": {
+        "title": "中文文字与排版更准确",
+        "description": "模型更擅长生成中文标题、试卷版式、海报混排、书法作品和带文字的封面设计，文字可读性明显提升。"
+      },
+      "creatorReady": {
+        "title": "写实摄影与界面理解更强",
+        "description": "它对摄影器材、胶片、镜头质感、光学效果以及软件界面结构都有更好的理解，适合做照片级图像和高仿真截图。"
+      }
+    },
+    "useCases": {
+      "title": "使用场景",
+      "socialCampaigns": {
+        "title": "中文海报与图文混排",
+        "description": "适合生成包含中文标题、副标题和说明文案的海报、游戏封面、营销图和品牌 KV。"
+      },
+      "coverArt": {
+        "title": "试卷、文档与书法",
+        "description": "可以生成更像真实拍摄的试卷页面、说明文档、古风字帖、书法真迹风格画面和纸张肌理效果。"
+      },
+      "productVisuals": {
+        "title": "照片级写实与专业摄影",
+        "description": "适合街拍、胶片摄影、镜头焦外、黄昏环境光、纪实抓拍等照片级真实感场景。"
+      },
+      "cinematicBoards": {
+        "title": "APP 界面与桌面截图",
+        "description": "可以生成高仿真的理财 App 首页、macOS 桌面、产品演示界面和近似真实的软件截图效果。"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "关于 GPT Image 2 中文渲染、写实摄影和截图生成的常见问题。",
+      "q1": {
+        "question": "GPT Image 2 最适合哪些任务？",
+        "answer": "它非常适合中文文字渲染、海报设计、试卷文档模拟、书法风格图片、照片级写实场景，以及高仿真 UI 和截图生成。"
+      },
+      "q2": {
+        "question": "它真的更擅长中文文字吗？",
+        "answer": "相比前代和很多通用图像模型，GPT Image 2 在中文标题、试卷版式、海报文案、标签和混排布局上的表现更稳定，但正式投产前仍建议逐项检查文字细节。"
+      },
+      "q3": {
+        "question": "还需要写很长很复杂的提示词吗？",
+        "answer": "通常不需要。GPT Image 2 的优势之一就是对简单直接的需求理解更好，很多任务只用一句话就能得到很不错的结果。"
+      }
+    },
+    "finalCTA": {
+      "title": "准备试试 GPT Image 2 吗？",
+      "description": "从一句简单提示词开始，快速生成中文海报、真实照片、UI 截图或文档风格视觉。",
+      "button": "打开工作台"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "textToImage": "文本生成图片",
+      "model": "GPT-Image 2"
+    },
+    "schema": {
+      "softwareName": "joymagic GPT-Image 2 文本生成图片",
+      "softwareDescription": "使用 GPT Image 2 生成中文海报、试卷、书法、真实摄影和 UI 截图。",
+      "howToName": "如何使用 GPT Image 2 生成图片",
+      "howToDescription": "输入简单提示词、选择宽高比，并使用 GPT Image 2 生成中文文字图、写实照片或界面截图。",
+      "features": {
+        "promptFirst": "短提示词高质量生成",
+        "aspectPresets": "中文文字与排版渲染",
+        "outputCoverage": "照片级写实与 UI 截图生成"
+      },
+      "steps": {
+        "prompt": {
+          "name": "编写提示词",
+          "text": "描述你想创建的主体、风格、光线和构图。"
+        },
+        "aspectRatio": {
+          "name": "选择宽高比",
+          "text": "选择最适合目标画布的输出比例，从方形到竖版或超宽版都可以。"
+        },
+        "generate": {
+          "name": "生成并下载",
+          "text": "运行模型并下载最适合你创作流程的结果。"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "title": "Seedream 5.0 Lite Texto a Imagen",
+  "subtitle": "Genera imágenes impresionantes a partir de descripciones de texto",
+  "prompt_label": "Prompt",
+  "prompt_placeholder": "Sesión fotográfica nocturna al aire libre: Un joven está de pie dentro de una cabina telefónica pública, sosteniendo un auricular azul en su oído. Una mano está casualmente metida en el bolsillo, y adopta una postura relajada. Lleva una camiseta blanca con un patrón, pantalones marrones holgados y una chaqueta sobre el brazo. El cristal de la cabina refleja las farolas de la ciudad con efecto bokeh, creando un estilo de película vintage.",
+  "prompt_tooltip": "Ingrese una descripción de la imagen que desea generar",
+  "size_label": "Tamaño de imagen",
+  "size_hint": "Elija el tamaño de la imagen de salida",
+  "width_label": "Ancho",
+  "height_label": "Alto",
+  "buttons": {
+    "generate": "Generar imagen"
+  },
+  "errors": {
+    "promptRequired": "El prompt es obligatorio"
+  },
+  "image_alt": "Imagen generada",
+  "download": "Descargar",
+  "image_placeholder": "La imagen generada aparecerá aquí",
+  "prompt_inspirations_button": "Inspiraciones de prompts",
+  "prompt_guide_button": "Guía de prompts",
+  "powered_by": "Impulsado por el modelo AI Seedream 5.0 Lite optimizado por joymagic",
+  "page": {
+    "metadata": {
+      "title": "Seedream 5.0 Lite Texto a Imagen - Generador de Imágenes AI | joymagic",
+      "description": "Usa el modelo Seedream 5.0 Lite de ByteDance para generar escenas fotorrealistas, ilustraciones y obras de arte a partir de texto. Crea imágenes AI con prompts bilingües en inglés y chino en joymagic.",
+      "keywords": "Seedream 5.0 Lite, texto a imagen, generador de imágenes AI, ByteDance, prompts bilingües"
+    },
+    "hero": {
+      "title": "Generador de Imágenes AI Seedream 5.0 Lite",
+      "description": "Seedream 5.0 Lite es el modelo AI ligero de ByteDance que convierte descripciones de texto en imágenes. Describe cualquier escena, personaje o concepto en inglés o chino y genera imágenes impresionantes gratis a continuación.",
+      "button1": "Probar ahora",
+      "button2": "Ver precios"
+    },
+    "heroDescription": "Crea imágenes impresionantes a partir de simples descripciones de texto usando el modelo AI Seedream 5.0 Lite.",
+    "keyFeatures": {
+      "title": "Características principales",
+      "description": "Potentes capacidades de generación de imágenes AI con Seedream 5.0 Lite",
+      "photorealistic": {
+        "title": "Calidad fotorrealista",
+        "description": "Genera imágenes que parecen fotografía profesional. Texturas de piel precisas, iluminación natural, entornos realistas, sin el efecto valle inquietante común en imágenes AI."
+      },
+      "complexScene": {
+        "title": "Comprensión de escenas complejas",
+        "description": "Describe escenarios detallados con múltiples sujetos, relaciones espaciales e iluminación específica. El modelo interpreta composición, posicionamiento y atmósfera con precisión desde tu texto."
+      },
+      "bilingual": {
+        "title": "Prompts bilingües",
+        "description": "Escribe en inglés, chino o ambos. El modelo comprende descripciones matizadas en ambos idiomas por igual, útil para referencias culturales chinas o terminología específica."
+      },
+      "fastGeneration": {
+        "title": "Generación rápida",
+        "description": "Genera imágenes de alta resolución en segundos. El modelo Lite está optimizado para velocidad, ideal para exploración creativa en tiempo real e iteración."
+      },
+      "styleFlexibility": {
+        "title": "Flexibilidad de estilo",
+        "description": "Crea imágenes fotorrealistas, ilustraciones anime, pinturas al óleo, acuarelas, renderizados 3D y más. Especifica tu estilo deseado en el prompt o deja que el modelo se adapte al tema."
+      }
+    },
+    "howItWorks": {
+      "title": "Cómo funciona",
+      "description": "Genera imágenes en tres simples pasos",
+      "step1": {
+        "title": "Ingresa tu prompt",
+        "description": "Describe la imagen que deseas generar"
+      },
+      "step2": {
+        "title": "Elige configuración",
+        "description": "Selecciona formato de salida y preferencias"
+      },
+      "step3": {
+        "title": "Genera y descarga",
+        "description": "Obtén tu imagen generada por AI y descárgala"
+      }
+    },
+    "promptingTips": {
+      "title": "Consejos para prompts",
+      "lighting": {
+        "title": "Sé específico con la iluminación",
+        "description": "\"Luz dorada del atardecer desde la izquierda, sombras suaves\" funciona mejor que \"buena iluminación\"."
+      },
+      "camera": {
+        "title": "Incluye detalles de cámara",
+        "description": "\"Tomada con lente de 85mm, poca profundidad de campo\" añade calidad de fotografía profesional."
+      },
+      "style": {
+        "title": "Especifica el estilo artístico",
+        "description": "\"Ilustración digital estilo Studio Ghibli\" o \"renderizado 3D hiperrealista\" da una dirección clara."
+      },
+      "mood": {
+        "title": "Describe el ambiente y la atmósfera",
+        "description": "\"Acogedor, cálido, sensación nostálgica\" o \"dramático, cinematográfico, alto contraste\" moldea la imagen general."
+      }
+    },
+    "useCases": {
+      "title": "Casos de uso",
+      "marketing": {
+        "title": "Visuales de marketing",
+        "description": "Genera conceptos de productos, imágenes publicitarias y contenido para redes sociales sin sesiones fotográficas."
+      },
+      "character": {
+        "title": "Diseño de personajes",
+        "description": "Crea personajes originales para juegos, cómics o proyectos de animación a partir de descripciones de texto."
+      },
+      "concept": {
+        "title": "Arte conceptual",
+        "description": "Visualiza escenas, entornos e ideas rápidamente para proyectos creativos y presentaciones."
+      },
+      "stock": {
+        "title": "Alternativa a fotos de stock",
+        "description": "Genera las imágenes específicas que necesitas en lugar de buscar en bibliotecas de stock genéricas."
+      }
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Preguntas comunes sobre Seedream 5.0 Lite Texto a Imagen",
+      "q1": {
+        "question": "¿Qué es Seedream 5.0 Lite?",
+        "answer": "Seedream 5.0 Lite es el modelo ligero de generación de imágenes AI de ByteDance. Ofrece generación de imágenes rápida y de alta calidad a partir de descripciones de texto con rendimiento optimizado."
+      },
+      "q2": {
+        "question": "¿Qué tan detallado debe ser mi prompt?",
+        "answer": "Más detalle generalmente significa mejores resultados. Incluye sujeto, escenario, iluminación, estilo, ambiente y ángulo de cámara. Comienza con unas pocas oraciones y añade más si es necesario."
+      },
+      "q3": {
+        "question": "¿Qué estilos puede generar?",
+        "answer": "Fotorrealista, anime, pintura al óleo, acuarela, renderizado 3D, boceto y más. Especifica el estilo en tu prompt o referencia artistas y estudios específicos."
+      },
+      "q4": {
+        "question": "¿Soporta prompts en chino?",
+        "answer": "Sí, Seedream 5.0 Lite comprende tanto inglés como chino por igual. Puedes escribir prompts en cualquier idioma o mezclar ambos."
+      },
+      "q5": {
+        "question": "¿Cuál es la diferencia con Seedream 5?",
+        "answer": "Seedream 5.0 Lite es una versión ligera optimizada para mayor velocidad de generación manteniendo alta calidad de imagen. Es ideal para iteraciones rápidas y uso rentable."
+      }
+    },
+    "privacySecurity": {
+      "title": "Privacidad y seguridad",
+      "description": "Tu privacidad y seguridad son nuestras principales prioridades.",
+      "secureProcessing": "Procesamiento seguro",
+      "autoDelete": "Eliminación automática",
+      "neverShared": "Nunca compartido"
+    },
+    "finalCTA": {
+      "title": "¿Listo para crear?",
+      "description": "Comienza a generar imágenes increíbles a partir de tus descripciones de texto hoy.",
+      "button": "Pruébalo ahora"
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "textToImage": "Texto a Imagen",
+      "seedream50Lite": "Seedream 5.0 Lite"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Seedream 5.0 Lite Generador",
+      "howToName": "Cómo generar imágenes con Seedream 5.0 Lite",
+      "howToDescription": "Genera imágenes a partir de descripciones de texto usando Seedream 5.0 Lite",
+      "features": {
+        "aiTextToImage": "Generación AI de texto a imagen",
+        "highQuality": "Imágenes de alta calidad",
+        "fastProcessing": "Procesamiento rápido"
+      }
+    }
+  }
+}

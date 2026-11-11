@@ -1,0 +1,254 @@
+{
+  "imageToImage": {
+    "id": "image-to-image",
+    "title": "د joymagic لخوا د انځور څخه انځور ته AI تولیدونکی",
+    "description": "په ثانیو کې هر انځور د برانډ بصریاتو ته بدل کړئ. د ډیزاین مهارتونو ته اړتیا نشته.",
+    "steps": {
+      "sourceImage": {
+        "title": "سرچینه انځور پورته کړئ",
+        "cta": "ښکته کړئ/کلیک وکړئ ترڅو پورته کړئ",
+        "hint": "فارمیټونه: JPG/PNG/WEBP",
+        "dragDrop": "ښکته کړئ او پرېږدئ یا کلیک وکړئ ترڅو پورته کړئ",
+        "dropHere": "انځور دلته پرېږدئ"
+      },
+      "prompt": {
+        "title": "د بدلون غوښتنه دننه کړئ",
+        "placeholder": "تشریح کړئ چې تاسو غواړئ انځور څنګه بدل کړئ، د بیلګې په توګه، 'دا د یو انځور په څیر کړئ'، 'شالید د ساحل ته بدل کړئ'، 'د لمر د غروب اسمان اضافه کړئ'",
+        "hint": "د بدلونونو په اړه مشخص اوسئ چې تاسو یې غواړئ"
+      },
+      "generate": {
+        "title": "بدل شوی انځور تولید کړئ",
+        "cta": "تولید کړئ",
+        "generating": "تولید کې..."
+      }
+    },
+    "preview": {
+      "title": "مخکتنه",
+      "original": "اصلي",
+      "generated": "تولید شوی",
+      "placeholder": "یو انځور پورته کړئ او یو غوښتنه دننه کړئ ترڅو بدلون دلته وګورئ."
+    },
+    "templates": {
+      "title": "د غوښتنې کښلۍ",
+      "all": "ټول",
+      "noItems": "په دې کټګورۍ کې کښلۍ نشته"
+    },
+    "common": {
+      "selected": "غوره شوی: {name}",
+      "notSelected": "نه دی غوره شوی"
+    },
+    "errors": {
+      "invalidFileType": "ناسم دوتنه ډول. مهرباني وکړئ د انځور دوتنه (JPG, PNG, WEBP) پورته کړئ.",
+      "uploadFailed": "پورته کول ناکام شول: {error}",
+      "uploadFailedGeneric": "پورته کول ناکام شول",
+      "sourceImageRequired": "مهرباني وکړئ لومړی یو سرچینه انځور پورته کړئ",
+      "promptRequired": "مهرباني وکړئ د بدلون غوښتنه دننه کړئ",
+      "generationFailed": "د انځور تولید ناکام شو",
+      "taskFailed": "د دندې پروسس ناکام شو",
+      "taskTimeout": "د دندې پروسس وخت پای، مهرباني وکړئ وروسته بیا هڅه وکړئ",
+      "taskIdNotFound": "د دندې ID ترلاسه کول ناشونی، مهرباني وکړئ د API ځواب بڼه وګورئ",
+      "processingFailed": "پروسس ناکام شو، مهرباني وکړئ بیا هڅه وکړئ",
+      "statusQueryFailed": "د دندې حالت پوښتنه ناکامه شوه"
+    }
+  },
+  "imageToImagePage": {
+    "metadata": {
+      "title": "Image to Image AI Generator | On-Brand Visuals in Seconds – joymagic",
+      "description": "Turn any image into on-brand visuals with joymagic's image to image AI generator. Upload one image, get endless variations in different styles and scenes. HD outputs, fast generation, free to try, commercial-use ready."
+    },
+    "hero": {
+      "title": "Image to Image AI Generator – joymagic",
+      "description": "Turn any image into on-brand visuals in seconds. No design skills needed.",
+      "button1": "Generate from Image",
+      "button2": "Start free · No credit card"
+    },
+    "heroDescription": "Upload one image, get endless variations — new styles, scenes, and moods while keeping your core subject consistent.",
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast generation",
+      "commercialReady": "Commercial-use ready"
+    },
+    "interfaceFeatures": {
+      "title": "On a single, clean interface you get:",
+      "uploadArea": "A drag-and-drop upload area for your reference image",
+      "promptBox": "A prompt box where you describe the change you want",
+      "styleDropdown": "A style dropdown (Realistic, Anime, Illustration, 3D, Pixel, Vintage, etc.)",
+      "strengthSlider": "A change strength slider from subtle tweak to full restyle",
+      "generateButton": "A single Generate button to create multiple variations from one image"
+    },
+    "whatYouCanDo": {
+      "title": "What You Can Do With joymagic Image to Image",
+      "description": "Instead of starting from scratch, start from one image — and let joymagic do the rest.",
+      "styleTransformations": {
+        "title": "Style & Mood Transformations",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Turn photos into illustrations, anime, paintings, 3D renders, pixel art, and more</li><li>Change lighting, colors, and mood while keeping the core layout intact</li><li>Quickly test different art directions for the same visual idea</li></ul><p class=\"text-sm text-muted-foreground italic\">Perfect when you know what you want to show, but want to explore how it looks.</p>"
+      },
+      "characterConsistency": {
+        "title": "Character & Identity Consistency",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Keep the same face or character across multiple images</li><li>Maintain consistent hair, outfit, and key traits while changing poses, scenes, or styles</li><li>Ideal for VTubers, storytellers, comic creators, and mascots</li></ul><p class=\"text-sm text-muted-foreground italic\">Build a recognizable visual identity without manually redrawing everything.</p>"
+      },
+      "productBrand": {
+        "title": "Product & Brand Visuals",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Generate multiple product shots from a single base image</li><li>Instantly place the same product into different scenes, seasons, and campaign concepts</li><li>Keep logos, colors, and key shapes on-brand</li></ul><p class=\"text-sm text-muted-foreground italic\">One photo shoot can now power a whole year of campaigns.</p>"
+      },
+      "socialContent": {
+        "title": "Social & Content Assets",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Turn one reference image into a full set of YouTube/TikTok/Bilibili thumbnails, channel banners, social posts, and blog headers</li><li>Quickly match visuals to each platform's format and vibe</li></ul><p class=\"text-sm text-muted-foreground italic\">Spend less time hunting for stock images, and more time creating content.</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Key Features of joymagic Image to Image",
+      "description": "Everything you need to transform images with AI, built for speed and quality.",
+      "uploadPromptTransform": {
+        "title": "Upload, Prompt, Transform",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Support for JPG, PNG, WEBP, and more</li><li>Optional text prompt for fine control over style, scene, and mood</li><li>Aspect ratio and resolution presets for social feeds, thumbnails, covers, and more</li></ul><p class=\"text-sm text-muted-foreground italic\">Use it your way: just upload and generate, or add detailed prompts for art-director level control.</p>"
+      },
+      "flexibleControl": {
+        "title": "Flexible Control Over Changes",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Change Strength slider from subtle retouch to bold restyle</li><li>Options to prioritize composition, character, or style</li></ul><p class=\"text-sm text-muted-foreground italic\">This keeps results predictable and repeatable, not random.</p>"
+      },
+      "highQuality": {
+        "title": "High-Quality Outputs",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>HD exports optimized for sharp, clean details</li><li>Smart generation to keep text, logos, and product edges crisp</li><li>Optional upscaling for website hero images, presentations, and print-ready assets</li></ul><p class=\"text-sm text-muted-foreground italic\">From quick drafts to final assets, joymagic keeps quality under control.</p>"
+      },
+      "nonDesigners": {
+        "title": "Built for Non-Designers",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Ready-made style presets: Realistic, Anime, Illustration, 3D, Vintage, Pixel and more</li><li>One-click re-generate to try new looks</li><li>Clean, focused UI for upload → pick style → adjust strength → export</li></ul><p class=\"text-sm text-muted-foreground italic\">If you can upload a file, you can create on-brand visuals with joymagic.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "How joymagic Image to Image Works",
+      "description": "From upload to download in four simple steps.",
+      "step1": {
+        "title": "Step 1 – Upload Your Image",
+        "description": "<p class=\"mb-3\">Start with any clear base image: a product shot, character, logo, UI mockup, or illustration. Drag and drop, or select from your device. joymagic uses this as the reference to keep your subject recognizable.</p>"
+      },
+      "step2": {
+        "title": "Step 2 – Describe the Change",
+        "description": "<p class=\"mb-3\">Add an optional short prompt to guide the AI.</p><p class=\"mb-2\">Examples:</p><ul class=\"list-disc list-inside space-y-1 mb-3 ml-4\"><li>\"turn this into a cozy anime scene at night\"</li><li>\"make this look like a high-end studio product photo\"</li><li>\"convert this sketch into clean flat illustration\"</li><li>\"put this character in a cyberpunk city at sunset\"</li></ul><p class=\"text-sm text-muted-foreground italic\">Short, simple instructions are enough. Or skip the prompt and rely only on style presets.</p>"
+      },
+      "step3": {
+        "title": "Step 3 – Choose Style & Strength",
+        "description": "<p class=\"mb-3\">Tell joymagic how far to go.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Select a style preset (realistic, anime, 3D, illustration, etc.)</li><li>Adjust the Change Strength from light touch-up to full restyle</li><li>(Optional) Set preferences to keep composition, character, or style consistent</li></ul><p class=\"text-sm text-muted-foreground italic\">You stay in control of the creative direction—joymagic handles the heavy lifting.</p>"
+      },
+      "step4": {
+        "title": "Step 4 – Generate & Download",
+        "description": "<p class=\"mb-3\">Let the model work, then choose what you like.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Generate multiple variations from one input</li><li>Compare options side by side in the preview</li><li>Mark your favorites and download them in HD</li><li>Use them immediately for social, product pages, ads, and presentations</li></ul><p class=\"text-sm text-muted-foreground italic\">Turn one image into an entire visual set in just a few minutes.</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "Why joymagic vs Other Image to Image AI Tools",
+      "description": "Built specifically for image-to-image workflows, not just an add-on feature.",
+      "focused": {
+        "title": "Focused on Image to Image, Not Just an Add-On",
+        "description": "<p class=\"mb-3\">Many platforms treat image-to-image as a small feature inside a big, noisy toolbox. joymagic is different—it's built from the ground up around image to image AI:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>No extra clutter or unrelated tools</li><li>Faster to learn, faster to use</li><li>Results tuned specifically for reference-based generation</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "Made for Fast Daily Workflows",
+        "description": "Designed for creators who need dozens of variations per day. Fewer steps, cleaner UI, no maze of menus. Quickly reuse the same base image with different styles and prompts."
+      },
+      "pricing": {
+        "title": "Pricing That Scales With You",
+        "description": "A clear free tier so you can test image to image AI with no risk. A simple paid plan for power users and teams who need higher limits. Transparent usage — pay for what you actually use."
+      },
+      "commercialUse": {
+        "title": "Safe for Commercial Use",
+        "description": "You own the images you generate with joymagic, as long as you have the rights to the original images you upload. Generated images can be used for commercial projects such as campaigns, client work, and ecommerce listings."
+      }
+    },
+    "perfectFor": {
+      "title": "Who joymagic Is Perfect For",
+      "description": "Built for creators, brands, and designers who need consistent, high-quality visuals.",
+      "creators": {
+        "title": "Creators & Influencers",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create a consistent visual world around your content</li><li>Eye-catching YouTube/TikTok/Bilibili thumbnails, matching series covers, and recurring character art</li><li>Fast A/B testing of different styles and moods</li><li>Reuse your face, avatar, or mascot in endless variations</li></ul><p class=\"text-sm text-muted-foreground italic\">Stand out in feeds without spending hours designing each image.</p>"
+      },
+      "ecommerce": {
+        "title": "Ecommerce & Small Brands",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Turn one product shot into a full campaign</li><li>Different backgrounds, scenes, and seasons from a single base photo</li><li>Styles that match your brand personality (minimal, bold, playful, premium)</li><li>Visual consistency across product pages, ads, promos, and social campaigns</li></ul><p class=\"text-sm text-muted-foreground italic\">Get studio-like variety without constant reshoots.</p>"
+      },
+      "designers": {
+        "title": "Designers & Agencies",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Use joymagic as a fast exploration and iteration tool</li><li>Quickly generate style boards and moodboards from a few references</li><li>Create multiple concept variations for clients in minutes</li><li>Save time on rough exploration so you can focus on final polishing</li></ul><p class=\"text-sm text-muted-foreground italic\">joymagic fits neatly into your existing design workflow, not replace it.</p>"
+      }
+    },
+    "faq": {
+      "title": "FAQs About joymagic Image to Image",
+      "description": "Common questions about our image to image AI generator.",
+      "q1": {
+        "question": "What is an image to image AI generator?",
+        "answer": "An image to image AI generator takes an existing image and uses it as a reference to create new images. With joymagic, you upload a base image, optionally add a text prompt, choose a style and change strength, and the AI generates new visuals that stay linked to your original subject."
+      },
+      "q2": {
+        "question": "Do I need to write a prompt, or can I just upload an image?",
+        "answer": "You can do both. If you just upload an image and pick a style, joymagic will create variations automatically. If you add a short prompt, you get more control over mood, scene, colors, and details. Prompts are optional — they're there when you want extra precision."
+      },
+      "q3": {
+        "question": "Is joymagic free to use? What are the limits?",
+        "answer": "Yes, joymagic offers a free tier so you can try image to image AI with no commitment. The free tier includes a limited number of generations so you can test workflows and quality. When you're ready to scale, you can upgrade to a paid plan with higher limits and more features. Check the pricing page inside the app for the latest details."
+      },
+      "q4": {
+        "question": "Can I use the images commercially?",
+        "answer": "In most cases, yes — you can use images generated with joymagic for commercial purposes, including:<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>Client projects</li><li>Ads and campaigns</li><li>Product pages and brand content</li></ul><p class=\"mt-3 mb-2\">Two important notes:</p><ol class=\"list-decimal list-inside space-y-1 ml-4\"><li>Make sure you have the rights to any images you upload as input.</li><li>Always review our official Terms of Use and License for the most accurate, up-to-date rules.</li></ol><p class=\"mt-3 text-sm\">The short version: joymagic is designed to be safe for real business use.</p>"
+      },
+      "q5": {
+        "question": "What image formats and sizes do you support?",
+        "answer": "joymagic currently supports popular formats like:<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>JPG</li><li>PNG</li><li>WEBP</li></ul><p class=\"mt-3\">You can upload standard web and camera resolutions. For outputs, you can choose from:</p><ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>Preset aspect ratios (square, vertical, horizontal, thumbnail, etc.)</li><li>HD resolutions suitable for web, social, and light print use</li><li>Optional upscaling for larger banners and presentations</li></ul>"
+      },
+      "q6": {
+        "question": "Can I keep the same character across multiple images?",
+        "answer": "Yes. This is one of the main strengths of image to image with joymagic.<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>Use the same reference image as a base</li><li>Keep Change Strength moderate and enable options that prioritize the character</li><li>You can then place that character in different outfits, scenes, and art styles while maintaining recognizable identity</li></ul><p class=\"mt-3 text-sm\">Great for VTubers, story-driven creators, and brands with mascots.</p>"
+      },
+      "q7": {
+        "question": "Is my uploaded content private and secure?",
+        "answer": "joymagic is designed with privacy in mind.<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>Your uploaded images are used to generate your outputs and are not shared with other users</li><li>We do not use your private projects as public templates</li><li>Basic security practices are applied to protect your account and assets</li></ul><p class=\"mt-3 text-sm\">For exact details on data handling and retention, please refer to the Privacy Policy and Terms inside the product.</p>"
+      }
+    },
+    "finalCTA": {
+      "title": "Turn one image into endless visuals.",
+      "description": "Try the joymagic image to image AI generator and start creating on-brand content in seconds.<br/><span class=\"text-muted-foreground\">No design skills needed · Free to try</span>",
+      "button": "Start generating from image"
+    },
+    "responsibleUse": {
+      "title": "Responsible Use & Content Guidelines",
+      "intro": "joymagic is built for creative and commercial purposes, and we're committed to responsible AI practices.",
+      "note": "Please note the following usage restrictions:",
+      "identity": {
+        "title": "Identity & Likeness",
+        "items": [
+          "You may only use images of yourself or individuals for whom you have explicit authorization",
+          "Unauthorized use of another person's face, likeness, or identity is strictly prohibited",
+          "Keep character consistency features limited to your own content, authorized personas, or fictional characters you have rights to"
+        ]
+      },
+      "prohibited": {
+        "title": "Prohibited Uses",
+        "intro": "joymagic may not be used to:",
+        "items": [
+          "Create deepfakes, misleading content, or impersonation for fraud or deception",
+          "Generate content that violates others' rights, privacy, or dignity",
+          "Produce harmful, illegal, or malicious material"
+        ]
+      },
+      "responsibility": {
+        "title": "Your Responsibility",
+        "intro": "By using joymagic, you agree to:",
+        "items": [
+          "Ensure you have proper rights to all images you upload",
+          "Use the service ethically and in compliance with applicable laws",
+          "Not misrepresent AI-generated content as authentic photography when context requires disclosure"
+        ]
+      },
+      "safety": {
+        "title": "Safety Measures",
+        "description": "joymagic implements automated content moderation and safety filters to prevent misuse. Accounts found violating these guidelines may be suspended or terminated."
+      },
+      "termsLink": "For complete details, please refer to our",
+      "termsOfService": "Terms of Service",
+      "and": "and",
+      "acceptableUsePolicy": "Acceptable Use Policy",
+      "period": "."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "primary": {
+    "home": "Startseite",
+    "infiniteCanvas": "Unendliche Leinwand",
+    "image": "Bild",
+    "video": "Video",
+    "effects": "Effekte"
+  },
+  "imageTools": {
+    "Editor & Combiner": "Editor & Kombinierer",
+    "Image to Image": "Bild zu Bild",
+    "Text to Image": "Text zu Bild",
+    "PhotoShoot": "Fotoshooting",
+    "Variations": "Variationen",
+    "Face Generator": "Gesichtsgenerator",
+    "Image Upscaler": "Bild hochskalieren",
+    "Background Remover": "Hintergrund entfernen",
+    "Image Eraser": "Bildradierer",
+    "Image Effects": "Bildeffekte"
+  },
+  "videoTools": {
+    "Image to Video": "Bild zu Video",
+    "Text to Video": "Text zu Video",
+    "Longcat Avatar": "Lip-Sync",
+    "Reference To Video": "Reference To Video",
+    "Video Extend": "Video Extend",
+    "Motion Control": "Bewegungssteuerung",
+    "Video Effects": "Videoeffekte"
+  },
+  "library": {
+    "title": "Bibliothek",
+    "assets": "Assets",
+    "creations": "Erstellungen",
+    "uploads": "Uploads",
+    "collections": "Sammlungen"
+  },
+  "creationTypes": {
+    "Video": "Video",
+    "Image": "Bild",
+    "Audio": "Audio",
+    "Effect": "Effekt"
+  },
+  "badges": {
+    "beta": "Beta"
+  }
+}

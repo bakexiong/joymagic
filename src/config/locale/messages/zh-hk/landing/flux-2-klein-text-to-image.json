@@ -1,0 +1,143 @@
+{
+  "title": "flux-2-klein text-to-image",
+  "subtitle": "從文字描述生成精美的圖片",
+  "prompt_label": "提示詞",
+  "prompt_placeholder": "古老的紀念性特奧蒂瓦坎金字塔，被紅光照亮，天空中懸掛著一個巨大的土星，雕塑般且非天文學的，帶有液態金屬環，既未來又古老，喚起神聖門戶而非行星的感覺，少量光霧，電影深度和大氣透視，極簡構圖，帶有大片乾淨的負空間用於排版",
+  "prompt_tooltip": "輸入您想要生成的圖片描述",
+  "size_label": "圖片尺寸",
+  "size_hint": "選擇輸出圖片的尺寸",
+  "width_label": "寬度",
+  "height_label": "高度",
+  "seed_label": "種子值",
+  "seed_hint": "-1 表示隨機種子",
+  "seed_tooltip": "設定種子值以便重現結果。使用 -1 代表隨機種子。",
+  "seed_randomize": "生成隨機種子",
+  "buttons": {
+    "generate": "生成圖片"
+  },
+  "errors": {
+    "promptRequired": "提示詞是必填項"
+  },
+  "image_alt": "生成的圖片",
+  "download": "下載",
+  "image_placeholder": "生成的圖片將顯示在這裡",
+  "prompt_inspirations_button": "提示詞靈感",
+  "prompt_guide_button": "提示詞指南",
+  "powered_by": "由 joymagic 優化的 Flux 2 Klein AI 模型提供支持",
+  "page": {
+    "metadata": {
+      "title": "flux-2-klein text-to-image（4B）- AI 圖片生成器 | joymagic",
+      "description": "使用 flux-2-klein text-to-image 從文字生成高品質圖片。支援 seed 以便重現結果，最大輸出 1536×1536。",
+      "keywords": "flux-2-klein text-to-image，flux-2-klein，flux-2-klein-4b，文字轉圖片，AI 圖片生成器，提示詞生成圖片"
+    },
+    "hero": {
+      "title": "flux-2-klein text-to-image",
+      "description": "使用 flux-2-klein text-to-image：從提示詞快速生成高品質圖片。支援 seed 控制以重現結果，最大輸出 1536×1536。",
+      "button1": "立即試用",
+      "button2": "查看價格"
+    },
+    "heroDescription": "使用先進的 AI 技術從簡單的文字描述創建精美的圖片。",
+    "keyFeatures": {
+      "title": "主要特性",
+      "description": "強大的 AI 圖片生成能力",
+      "highQuality": {
+        "title": "高品質圖片",
+        "description": "生成具有卓越細節和清晰度的高解析度圖片。非常適合專業用途。"
+      },
+      "fastGeneration": {
+        "title": "快速生成",
+        "description": "通過高效處理快速生成圖片。幾秒鐘內獲得結果。"
+      },
+      "styleFlexibility": {
+        "title": "風格靈活性",
+        "description": "創建各種風格的圖片 - 逼真、藝術、抽象等。通過詳細的提示詞控制輸出。"
+      },
+      "seedControl": {
+        "title": "種子值控制",
+        "description": "使用種子值控制隨機性。使用相同的種子值可以重現相似的結果，或使用 -1 進行隨機生成。"
+      }
+    },
+    "promptingTips": {
+      "title": "提示詞技巧",
+      "lighting": {
+        "title": "具體描述光照",
+        "description": "\"左側金色時光陽光，柔和陰影\" 比 \"良好光照\" 效果更好。"
+      },
+      "camera": {
+        "title": "包含相機細節",
+        "description": "\"使用 85mm 鏡頭拍攝，淺景深\" 可增加專業攝影品質。"
+      },
+      "style": {
+        "title": "指定藝術風格",
+        "description": "\"宮崎駿風格的數位插畫\" 或 \"超寫實 3D 渲染\" 可提供清晰方向。"
+      },
+      "mood": {
+        "title": "描述情緒和氛圍",
+        "description": "\"舒適、溫暖、懷舊的感覺\" 或 \"戲劇性、電影感、高對比度\" 塑造整體圖片。"
+      }
+    },
+    "useCases": {
+      "title": "使用場景",
+      "marketing": {
+        "title": "行銷視覺",
+        "description": "無需拍攝即可生成產品概念、廣告圖像和社群媒體內容。"
+      },
+      "character": {
+        "title": "角色設計",
+        "description": "從文字描述為遊戲、漫畫或動畫專案創建原創角色。"
+      },
+      "concept": {
+        "title": "概念藝術",
+        "description": "快速視覺化場景、環境和想法，用於創意專案和簡報。"
+      },
+      "stock": {
+        "title": "圖庫替代",
+        "description": "生成您需要的特定圖片，而不是在通用圖庫中搜尋。"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "description": "關於 flux-2-klein text-to-image 的常見問題",
+      "q1": {
+        "question": "什麼是 Flux 2 Klein？",
+        "answer": "Flux 2 Klein 是一個先進的 AI 圖片生成模型，可從文字描述創建圖片。它能夠生成各種解析度的高品質圖片。"
+      },
+      "q2": {
+        "question": "我的提示詞應該有多詳細？",
+        "answer": "更多細節通常意味著更好的結果。包括主體、場景、光照、風格、情緒和構圖細節。具體說明您想要看到的內容。"
+      },
+      "q3": {
+        "question": "種子參數是什麼？",
+        "answer": "種子參數控制隨機性。使用 -1 進行隨機生成，或使用特定數字來重現相似的結果。相同的種子值和相同的提示詞將產生相似的圖片。"
+      },
+      "q4": {
+        "question": "支援哪些圖片尺寸？",
+        "answer": "您可以生成從 256×256 到最大 1536×1536 的圖片。尺寸必須是 64 的倍數。預設為 1024×1024。"
+      },
+      "q5": {
+        "question": "需要多少積分？",
+        "answer": "每次圖片生成需要 2 積分。這使得它成為創建高品質圖片的經濟實惠選擇。"
+      }
+    },
+    "finalCTA": {
+      "title": "準備開始創作了嗎？",
+      "description": "立即開始從您的文字描述生成精美的圖片。",
+      "button": "立即試用"
+    },
+    "breadcrumb": {
+      "home": "首頁",
+      "textToImage": "文字轉圖片",
+      "flux2Klein": "Flux 2 Klein"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Flux 2 Klein 文字轉圖片",
+      "howToName": "如何使用 Flux 2 Klein 生成圖片",
+      "howToDescription": "使用 Flux 2 Klein 從文字描述生成圖片",
+      "features": {
+        "aiTextToImage": "AI 文字轉圖片",
+        "highQuality": "高品質圖片",
+        "fastProcessing": "快速處理"
+      }
+    }
+  }
+}

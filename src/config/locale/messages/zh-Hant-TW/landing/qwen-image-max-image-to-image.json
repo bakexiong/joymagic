@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "上傳源圖片",
+      "hint": "上傳最多 {max} 張圖片（JPG/PNG/WEBP）",
+      "dragDrop": "拖放或點擊上傳",
+      "dropHere": "將圖片拖放到此處"
+    },
+    "prompt": {
+      "title": "輸入編輯提示詞",
+      "placeholder": "描述您想要如何編輯圖片，例如：「改為動漫風格」、「套用油畫效果」、「讓它看起來像電影畫面」",
+      "hint": "請具體說明您想要的編輯效果——風格、氛圍、光線和細節"
+    },
+    "generate": {
+      "title": "生成編輯後的圖片",
+      "cta": "生成",
+      "generating": "生成中..."
+    }
+  },
+  "preview": {
+    "title": "預覽",
+    "original": "原始",
+    "swap": "交換",
+    "placeholder": "上傳圖片並輸入編輯提示詞以在此處預覽結果。"
+  },
+  "common": {
+    "selectedCount": "已選擇：{count}/{max} 張圖片",
+    "notSelected": "未選擇"
+  },
+  "errors": {
+    "invalidFileType": "無效的檔案類型。請上傳圖片檔案（JPG、PNG、WEBP）。",
+    "uploadFailed": "上傳失敗：{error}",
+    "uploadFailedGeneric": "上傳失敗",
+    "sourceImageRequired": "請上傳至少一張源圖片",
+    "promptRequired": "請輸入編輯提示詞",
+    "generationFailed": "圖片編輯失敗",
+    "taskFailed": "任務處理失敗",
+    "taskTimeout": "任務處理逾時，請稍後再試",
+    "taskIdNotFound": "無法取得任務 ID，請檢查 API 回應格式",
+    "processingFailed": "處理失敗，請重試",
+    "statusQueryFailed": "查詢任務狀態失敗",
+    "apiResponseParseFailed": "解析 API 回應失敗"
+  },
+  "page": {
+    "metadata": {
+      "title": "Qwen Image Max image-to-image AI 編輯器 — 線上編輯與轉換圖片 | joymagic",
+      "description": "使用 Qwen Image Max image-to-image AI 編輯器線上編輯和轉換圖片。採用 qwen-image-max-edit 技術，上傳最多 4 張圖片進行批次 AI 編輯——風格轉換、增強和創意變換，數秒完成。",
+      "keywords": "qwen image max, qwen-image-max-edit, qwen image max image-to-image, AI 圖片編輯器, image-to-image AI, qwen 圖片編輯, AI 圖片轉換, 批次圖片編輯, 線上 AI 圖片編輯器, qwen image max 編輯工具"
+    },
+    "hero": {
+      "title": "Qwen Image Max Image-to-Image — AI 智慧圖片編輯器",
+      "description": "使用 Qwen Image Max image-to-image AI 編輯器編輯和轉換您的圖片。採用 <strong class=\"text-primary font-semibold\">qwen-image-max-edit</strong> 技術，上傳最多 4 張圖片並套用智慧編輯——風格轉換、色彩調整、藝術效果等——數秒即可完成。",
+      "button1": "試用 Qwen Image Max 編輯器",
+      "button2": "查看價格"
+    },
+    "keyFeatures": {
+      "title": "為什麼選擇 Qwen Image Max 進行圖片編輯？",
+      "description": "採用 qwen-image-max-edit 技術的先進 AI 圖片編輯",
+      "multiImage": {
+        "title": "使用 Qwen Image Max 批次編輯圖片",
+        "description": "使用 qwen-image-max-edit 一次上傳最多 4 張圖片進行批次編輯。同時處理多張圖片，確保風格和品質一致。每次編輯固定消耗 2 積分。"
+      },
+      "highQuality": {
+        "title": "卓越的 Qwen Image Max 編輯品質",
+        "description": "Qwen Image Max 提供高保真編輯，出色保留細節。採用 qwen-image-max-edit AI 技術，獲得清晰、無瑕疵的結果。"
+      },
+      "smartEdit": {
+        "title": "智慧上下文感知編輯",
+        "description": "qwen-image-max-edit 能理解圖片上下文和語義，實現精確、自然的轉換效果。智慧 AI 知道該改變什麼、該保留什麼。"
+      },
+      "affordable": {
+        "title": "實惠的 Qwen Image Max 價格",
+        "description": "qwen-image-max-edit 轉換僅需 2 積分。專業級 AI 圖片編輯，適合任何規模的專案。"
+      }
+    },
+    "promptingTips": {
+      "title": "如何使用 Qwen Image Max 編輯器獲得最佳效果",
+      "specific": {
+        "title": "提示詞要具體",
+        "description": "為獲得最佳 qwen-image-max-edit 效果，請準確描述您想要的編輯。例如：「轉換為水彩風格」或「添加電影色調，暖色調」。"
+      },
+      "style": {
+        "title": "指定藝術風格",
+        "description": "使用 qwen-image-max-edit 時，請明確說明目標風格：「動漫插畫」、「油畫」、「寫實增強」、「復古膠片風格」等。"
+      },
+      "color": {
+        "title": "色彩與氛圍指引",
+        "description": "透過色彩和氛圍提示引導 qwen-image-max-edit：「鮮豔飽和色彩」、「柔和粉彩色調」、「暗黑氛圍」、「金色時光溫暖感」等。"
+      },
+      "details": {
+        "title": "新增詳細說明",
+        "description": "透過指定光線、構圖、質感以及要保留或轉換的元素，最大化 qwen-image-max-edit 的品質。"
+      }
+    },
+    "useCases": {
+      "title": "Qwen Image Max 圖片編輯應用場景",
+      "style": {
+        "title": "藝術風格轉換",
+        "description": "使用 qwen-image-max-edit 將照片轉換為令人驚豔的藝術風格——動漫、水彩、油畫、素描等。適合創意專案和社群媒體內容。"
+      },
+      "batch": {
+        "title": "批次照片編輯",
+        "description": "使用 Qwen Image Max 同時編輯最多 4 張圖片，確保整組照片風格一致。適合產品目錄和品牌素材。"
+      },
+      "product": {
+        "title": "產品圖片增強",
+        "description": "使用 qwen-image-max-edit 增強產品照片，適用於電商上架、行銷活動和社群媒體。即時建立專業品質的視覺素材。"
+      },
+      "creative": {
+        "title": "創意設計探索",
+        "description": "使用 Qwen Image Max 智慧編輯探索創意可能性。嘗試不同風格、效果和轉換，找到完美的視覺方向。"
+      }
+    },
+    "faq": {
+      "title": "Qwen Image Max Image-to-Image 常見問題",
+      "description": "關於 Qwen Image Max AI 圖片編輯器的常見問題",
+      "q1": {
+        "question": "使用 Qwen Image Max 一次可以編輯多少張圖片？",
+        "answer": "使用 Qwen Image Max image-to-image 編輯器，您可以一次上傳最多 4 張圖片進行批次編輯。每次編輯使用 qwen-image-max-edit 技術處理，消耗 2 積分。"
+      },
+      "q2": {
+        "question": "Qwen Image Max 圖片編輯費用是多少？",
+        "answer": "Qwen Image Max image-to-image 編輯每次消耗 2 積分，不論上傳圖片數量。這種固定定價讓 qwen-image-max-edit 適合任何專案。"
+      },
+      "q3": {
+        "question": "Qwen Image Max 支援哪些圖片格式？",
+        "answer": "Qwen Image Max image-to-image 支援 PNG、JPEG、JPG 和 WebP 格式。為獲得最佳 qwen-image-max-edit 效果，請使用清晰、光線充足的圖片。"
+      },
+      "q4": {
+        "question": "如何為 Qwen Image Max 撰寫有效的編輯提示詞？",
+        "answer": "為獲得最佳 qwen-image-max-edit 效果，請包含詳細描述：目標風格、氛圍、光線、色彩方案和構圖。描述越詳細，Qwen Image Max 的轉換效果通常越好。"
+      },
+      "q5": {
+        "question": "Qwen Image Max 與其他 AI 圖片編輯器有何不同？",
+        "answer": "Qwen Image Max 採用先進的 qwen-image-max-edit 技術，實現上下文感知、語義智慧的圖片轉換。它能深入理解圖片內容，產生自然且精確的編輯效果。"
+      }
+    },
+    "finalCTA": {
+      "title": "準備好使用 Qwen Image Max 編輯圖片了嗎？",
+      "description": "立即使用 qwen-image-max-edit AI 開始編輯您的圖片。快速、高品質、智慧的圖片轉換，盡在指尖。",
+      "button": "立即試用 Qwen Image Max 編輯器"
+    },
+    "breadcrumb": {
+      "home": "首頁",
+      "imageToImage": "圖生圖",
+      "qwenImageMax": "Qwen Image Max"
+    },
+    "schema": {
+      "softwareName": "Qwen Image Max Image-to-Image AI 編輯器 — joymagic",
+      "howToName": "如何使用 Qwen Image Max AI 編輯圖片",
+      "howToDescription": "了解如何使用 qwen-image-max-edit AI 技術編輯和轉換圖片。上傳圖片並套用智慧 AI 編輯。",
+      "features": {
+        "aiImageEditing": "Qwen Image Max AI 編輯",
+        "multiImage": "使用 Qwen Image Max 批次圖片編輯",
+        "highQuality": "高品質 Qwen Image Max 輸出"
+      }
+    }
+  }
+}

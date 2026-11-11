@@ -1,0 +1,253 @@
+{
+  "imageEraser": {
+    "id": "image-eraser",
+    "title": "KI-Bildradierer von joymagic",
+    "description": "Entfernen Sie unerwünschte Objekte, Wasserzeichen und Hintergründe aus Bildern mit KI-Präzision.",
+    "steps": {
+      "sourceImage": {
+        "title": "Quellbild hochladen",
+        "hint": "Hier Bild hochladen JPG/PNG/WEBP",
+        "dragDrop": "Ziehen und ablegen oder klicken zum Hochladen",
+        "dropHere": "Bild hier ablegen"
+      },
+      "maskImage": {
+        "title": "Maskenbild hochladen (Optional)",
+        "hint": "Laden Sie ein Maskenbild hoch, um zu löschende Bereiche anzugeben. Weiße Bereiche werden gelöscht, schwarze Bereiche bleiben erhalten.",
+        "dragDrop": "Ziehen und ablegen oder klicken zum Hochladen",
+        "dropHere": "Maskenbild hier ablegen"
+      },
+      "prompt": {
+        "title": "Eingabeaufforderung eingeben (Optional)",
+        "placeholder": "Beschreiben Sie, was Sie löschen möchten, z. B. 'Person im Hintergrund entfernen', 'Wasserzeichen löschen', 'Text entfernen'",
+        "hint": "Der Text zur Angabe der Objekte oder Bereiche, die aus dem Bild entfernt werden sollen. Zum Beispiel 'Hund' oder 'Hut'."
+      },
+      "outputFormat": {
+        "title": "Ausgabeformat",
+        "placeholder": "Ausgabeformat auswählen",
+        "hint": "Wählen Sie das Format für das Ausgabebild"
+      },
+      "generate": {
+        "title": "Gelöschtes Bild generieren",
+        "cta": "Löschen",
+        "generating": "Löschen..."
+      }
+    },
+    "preview": {
+      "title": "Vorschau",
+      "original": "Original",
+      "erased": "Gelöscht",
+      "placeholder": "Laden Sie ein Bild hoch, um hier das gelöschte Ergebnis zu sehen."
+    },
+    "common": {
+      "selected": "Ausgewählt: {name}",
+      "notSelected": "Nicht ausgewählt"
+    },
+    "errors": {
+      "invalidFileType": "Ungültiger Dateityp. Bitte laden Sie eine Bilddatei (JPG, PNG, WEBP) hoch.",
+      "uploadFailed": "Upload fehlgeschlagen: {error}",
+      "uploadFailedGeneric": "Upload fehlgeschlagen",
+      "sourceImageRequired": "Bitte laden Sie zuerst ein Quellbild hoch",
+      "generationFailed": "Bildlöschung fehlgeschlagen",
+      "taskFailed": "Aufgabenverarbeitung fehlgeschlagen",
+      "taskTimeout": "Aufgabenverarbeitung Zeitüberschreitung, bitte versuchen Sie es später erneut",
+      "taskIdNotFound": "Aufgaben-ID konnte nicht abgerufen werden, bitte überprüfen Sie das API-Antwortformat",
+      "processingFailed": "Verarbeitung fehlgeschlagen, bitte versuchen Sie es erneut",
+      "statusQueryFailed": "Abfrage des Aufgabenstatus fehlgeschlagen",
+      "apiResponseParseFailed": "API-Antwort konnte nicht analysiert werden",
+      "downloadFailed": "Bild konnte nicht heruntergeladen werden"
+    },
+    "download": {
+      "title": "Bild herunterladen"
+    },
+    "alt": {
+      "sourcePreview": "Quellbild-Vorschau",
+      "maskPreview": "Maskenbild-Vorschau",
+      "enlargedPreview": "Vergrößerte Vorschau",
+      "source": "Quelle",
+      "generated": "Generiert"
+    }
+  },
+  "imageEraserPage": {
+    "metadata": {
+      "title": "KI-Bildradierer | Objekte aus Fotos entfernen | joymagic",
+      "description": "Entfernen Sie unerwünschte Objekte, Personen oder Text aus Fotos sofort. KI-gestützter Bildradierer mit einfacher Pinseloberfläche. Kostenlos, kein Wasserzeichen, HD-Download bereit.",
+      "keywords": "KI-Objektentferner, Fotoradierer, unerwünschte Objekte entfernen, Bildbereinigung, Inpainting, Fotoretusche"
+    },
+    "hero": {
+      "title": "KI-Bildradierer",
+      "description": "Entfernen Sie unerwünschte Objekte aus Fotos online kostenlos mit joymagic KI-Bildradierer. Einfach über das Unerwünschte streichen – in Sekunden verschwunden.",
+      "button1": "Objekte jetzt entfernen",
+      "button2": "Kostenlos starten · Keine Kreditkarte"
+    },
+    "heroDescription": "✓ HD-Download ✓ Kein Wasserzeichen ✓ Stapelverarbeitung",
+    "whatIsAIEraser": {
+      "title": "Was ist ein KI-Bildradierer?",
+      "description": "joymagic KI-Bildradierer (auch Magic Eraser oder Objektentferner genannt) nutzt leistungsstarke KI, um unerwünschte Objekte, Personen, Text, Wasserzeichen oder Makel intelligent zu erkennen und aus Ihren Fotos zu entfernen, während der Bereich nahtlos mit passendem Hintergrund gefüllt wird.",
+      "unlikeTraditional": "Im Gegensatz zu traditionellen Klon- oder Reparaturwerkzeugen, die präzise manuelle Arbeit erfordern, kann unsere KI:",
+      "understandContext": "Szenenkontext und Textur verstehen",
+      "generateRealistic": "Realistische Füllung generieren, die perfekt passt",
+      "handleComplex": "Komplexe Hintergründe wie Gras, Himmel, Wände oder Menschenmengen verarbeiten",
+      "simpleBrush": "Mit einfachem Pinsel oder Klick funktionieren",
+      "perfectFor": "Perfekt zum Aufräumen von Reisefotos, Produktbildern, Porträts, Immobilienaufnahmen, Social-Media-Inhalten und mehr."
+    },
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast processing",
+      "commercialReady": "Commercial-use ready"
+    },
+    "interfaceFeatures": {
+      "title": "On a single, clean interface you get:",
+      "uploadArea": "A drag-and-drop upload area for your source image",
+      "maskArea": "An optional mask image upload to specify exact areas to erase",
+      "promptBox": "An optional prompt box to describe what you want to remove",
+      "formatSelect": "Output format selection (JPEG, PNG, WebP)",
+      "generateButton": "A single Erase button to remove unwanted elements from your image"
+    },
+    "whatYouCanDo": {
+      "title": "Was Sie mit joymagic KI-Bildradierer tun können",
+      "description": "Ein Pinselstrich, unendliche Aufräummöglichkeiten.",
+      "travelPhotos": {
+        "title": "Reise- und Urlaubsfotos aufräumen",
+        "description": "<p class=\"mb-3\">Entfernen Sie Foto-Bomber, Fremde, Schilder oder Müll aus Ihren perfekten Aufnahmen.</p>"
+      },
+      "productPhotography": {
+        "title": "Perfekte Produktfotografie",
+        "description": "<p class=\"mb-3\">Löschen Sie Staub, Reflexionen, Preisschilder oder unerwünschte Requisiten aus E-Commerce-Bildern.</p>"
+      },
+      "portraits": {
+        "title": "Porträts und Selfies verbessern",
+        "description": "<p class=\"mb-3\">Entfernen Sie mühelos Makel, störende Haare, Hintergrundablenkungen oder Ex-Partner.</p>"
+      },
+      "realEstate": {
+        "title": "Immobilien- und Innenraumfotos vorbereiten",
+        "description": "<p class=\"mb-3\">Löschen Sie Möbel, Unordnung oder persönliche Gegenstände, um Listings professionell zu inszenieren.</p>"
+      },
+      "socialMedia": {
+        "title": "Saubere Social-Media-Inhalte erstellen",
+        "description": "<p class=\"mb-3\">Entfernen Sie Wasserzeichen, Textüberlagerungen oder ablenkende Elemente für polierte Posts und Stories.</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Hauptfunktionen",
+      "description": "Leistungsstarke KI-Bildradierfunktionen, entwickelt für Geschwindigkeit und Qualität.",
+      "smartRemoval": {
+        "title": "Intelligente Ein-Tipp-Entfernung",
+        "description": "<p class=\"mb-3\">Einmal streichen – die KI versteht, was entfernt werden soll, und füllt natürlich auf. Verarbeitet Personen, Objekte, Text, Logos und mehr.</p>"
+      },
+      "realisticInpainting": {
+        "title": "Realistische Reparaturtechnologie",
+        "description": "<p class=\"mb-3\">Fortschrittliche generative KI rekonstruiert Hintergründe perfekt, auch bei komplexen Mustern wie Stränden, Städten oder Stoffen.</p>"
+      },
+      "fastPrecise": {
+        "title": "Schnelle und präzise Bearbeitung",
+        "description": "<p class=\"mb-3\">Ergebnisse in Sekunden mit Echtzeitvorschau. Keine Verzögerung, kein Warten.</p>"
+      },
+      "batchRemoval": {
+        "title": "Stapel-Objekterfernung",
+        "description": "<p class=\"mb-3\">Laden Sie mehrere Bilder hoch und räumen Sie sie alle auf einmal auf – ideal für Foto-Stapel oder Produktkataloge.</p>"
+      },
+      "cleanOutput": {
+        "title": "Saubere professionelle Ausgabe",
+        "description": "<p class=\"mb-3\">Keine Wasserzeichen, keine Artefakte – jedes Mal volle HD-Downloads.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "So entfernen Sie unerwünschte Objekte aus Fotos",
+      "description": "Löschen Sie alles aus Ihren Bildern mit unserem kostenlosen KI-Bildradierer in nur wenigen einfachen Schritten:",
+      "step1": {
+        "title": "1. Laden Sie Ihr Bild hoch",
+        "description": "<p class=\"mb-3\">Ziehen Sie Ihr Foto per Drag & Drop oder wählen Sie es aus. Unterstützt JPG, JPEG, PNG, WEBP und HEIC Formate.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Funktioniert mit Landschaften, Porträts, Produktaufnahmen und mehr</li></ul>"
+      },
+      "step2": {
+        "title": "2. Streichen Sie über unerwünschte Objekte oder klicken Sie darauf",
+        "description": "<p class=\"mb-3\">Streichen Sie einfach über das Objekt, die Person, den Text oder den Makel, den Sie entfernen möchten.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Pinselgröße für Präzision anpassen</li><li>Unsere KI erkennt und wählt den Bereich automatisch aus</li></ul>"
+      },
+      "step3": {
+        "title": "3. KI löschen und füllen lassen",
+        "description": "<p class=\"mb-3\">Klicken Sie auf Entfernen – die KI löscht die Auswahl sofort und füllt den Raum intelligent mit passender Umgebung.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Ergebnis in Echtzeit anzeigen</li><li>Bei Bedarf rückgängig machen oder wiederholen</li></ul>"
+      },
+      "step4": {
+        "title": "4. Verfeinern und herunterladen",
+        "description": "<p class=\"mb-3\">Bei Bedarf verfeinern:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Übersehene Stellen erneut streichen</li><li>Versehentlich entfernte Bereiche wiederherstellen</li></ul><p class=\"mb-3\">Laden Sie Ihr sauberes, hochwertiges Bild herunter – einsatzbereit.</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "Why joymagic vs Other Image Eraser Tools",
+      "description": "Built specifically for AI-powered image erasing, not just a basic tool.",
+      "focused": {
+        "title": "Focused on AI Image Erasing",
+        "description": "<p class=\"mb-3\">Many tools offer basic erasing features. joymagic is different—it's built with advanced AI:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Smart detection of what to remove</li><li>Context-aware filling of erased areas</li><li>Results tuned specifically for seamless object removal</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "Made for Fast Daily Workflows",
+        "description": "Designed for creators who need to clean up multiple images per day. Fewer steps, cleaner UI, no maze of menus. Quickly process batches of images."
+      },
+      "pricing": {
+        "title": "Pricing That Scales With You",
+        "description": "A clear free tier so you can test image erasing with no risk. A simple paid plan for power users and teams who need higher limits. Transparent usage — pay for what you actually use."
+      },
+      "commercialUse": {
+        "title": "Safe for Commercial Use",
+        "description": "You own the images you generate with joymagic, as long as you have the rights to the original images you upload. Generated images can be used for commercial projects such as campaigns, client work, and ecommerce listings."
+      }
+    },
+    "perfectFor": {
+      "title": "Who joymagic Is Perfect For",
+      "description": "Built for creators, brands, and designers who need clean, professional images.",
+      "photographers": {
+        "title": "Photographers & Creators",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up photos before publishing</li><li>Remove unwanted elements from shots</li><li>Prepare images for portfolios and galleries</li><li>Remove watermarks from your own work</li></ul><p class=\"text-sm text-muted-foreground italic\">Enhance your photography with AI-powered editing.</p>"
+      },
+      "ecommerce": {
+        "title": "Ecommerce & Small Brands",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up product photos</li><li>Remove distracting backgrounds</li><li>Remove watermarks and logos from stock images (with permission)</li><li>Prepare images for product listings</li></ul><p class=\"text-sm text-muted-foreground italic\">Get professional product photos without expensive editing.</p>"
+      },
+      "designers": {
+        "title": "Designers & Agencies",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Quickly clean up images for client projects</li><li>Remove unwanted elements from mockups</li><li>Prepare images for presentations and proposals</li><li>Save time on manual editing tasks</li></ul><p class=\"text-sm text-muted-foreground italic\">joymagic fits neatly into your existing design workflow.</p>"
+      }
+    },
+    "faq": {
+      "title": "KI-Bildradierer FAQs",
+      "description": "Häufige Fragen zu unserem KI-Bildradierer.",
+      "q1": {
+        "question": "Welche Bildformate werden unterstützt?",
+        "answer": "Wir unterstützen JPG, JPEG, PNG, WEBP und HEIC. Beste Ergebnisse mit klaren, hochwertigen Bildern."
+      },
+      "q2": {
+        "question": "Haben meine bearbeiteten Bilder ein Wasserzeichen?",
+        "answer": "Nein. Alle Downloads sind sauber und ohne Wasserzeichen."
+      },
+      "q3": {
+        "question": "Wie gut ist es bei komplexen Entfernungen?",
+        "answer": "Unsere KI ist hervorragend bei großen Objekten, Personen in Menschenmengen und strukturierten Hintergründen. Für ultrafeine Details verwenden Sie kleinere Pinselstriche."
+      },
+      "q4": {
+        "question": "Kann ich mehrere Objekte aus einem Bild entfernen?",
+        "answer": "Ja – streichen Sie über so viele Bereiche wie nötig, bevor Sie generieren."
+      },
+      "q5": {
+        "question": "Kann ich mehrere Bilder gleichzeitig verarbeiten?",
+        "answer": "Ja – der Stapelmodus ermöglicht es Ihnen, mehrere Fotos in einer Sitzung hochzuladen und Objekte daraus zu löschen."
+      },
+      "q6": {
+        "question": "Sind meine Daten sicher?",
+        "answer": "Ja. Hochgeladene Bilder werden sicher verarbeitet und nach der Verarbeitung automatisch gelöscht. Wir verwenden sie niemals für das Training."
+      }
+    },
+    "privacySecurity": {
+      "title": "Datenschutz & Sicherheit",
+      "description": "Ihre Bilder und Ihre Privatsphäre haben für uns Priorität.",
+      "secureProcessing": "Alle Uploads werden sicher verarbeitet und verschlüsselt",
+      "autoDelete": "Bilder werden nach der Verarbeitung automatisch gelöscht",
+      "neverShared": "Niemals an Dritte weitergegeben oder für KI-Training verwendet"
+    },
+    "finalCTA": {
+      "title": "Verwandeln Sie unordentliche Fotos in saubere, atemberaubende Visuals.",
+      "description": "Probieren Sie joymagic KI-Bildradierer jetzt aus und entfernen Sie alles Unerwünschte in Sekunden.<br/><span class=\"text-muted-foreground\">Keine Designkenntnisse erforderlich · Kostenlos testen</span>",
+      "button": "Objekte jetzt entfernen"
+    }
+  }
+}
+

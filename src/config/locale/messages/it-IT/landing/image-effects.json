@@ -1,0 +1,64 @@
+{
+  "titles": {
+    "advanced-photography": "Fotografia Avanzata",
+    "plastic-bubble-figure": "Figura di Bolla di Plastica",
+    "felt-3d-polaroid": "Polaroid 3D in Feltro",
+    "glass-ball": "Sfera di Vetro",
+    "micro-landscape-mini-world": "Mini Mondo di Micro Paesaggio",
+    "american-comic-style": "Stile Fumetto Americano",
+    "futuristic-american-comics": "Fumetti Americani Futuristici",
+    "my-world": "Il Mio Mondo",
+    "felt-keychain": "Portachiavi in Feltro",
+    "lofi-pixel-character-mini-card": "Mini Card Personaggio Pixel Lo-Fi",
+    "blurry-selfie-luffy": "Selfie Sfocato di Luffy",
+    "cyberpunk": "Cyberpunk",
+    "exotic-charm": "Fascino Esotico",
+    "acrylic-ornaments": "Decorazioni in Acrilico",
+    "furry-dream-doll": "Bambola dei Sogni Pelosa",
+    "in-the-stadium": "Allo Stadio",
+    "lying-in-fluffy-belly": "Disteso in un Pancione Morbido",
+    "angel-figurine": "Statuetta d'Angelo"
+  },
+  "gallery": {
+    "metadata": {
+      "title": "Effetti Immagine | joymagic",
+      "description": "Sfoglia gli effetti immagine di tendenza in una galleria masonry e passa alla creazione con un clic."
+    },
+    "ctaLabel": "Crea un'Immagine Simile",
+    "inputLabel": "Input",
+    "outputLabel": "Output",
+    "previewLabel": "Anteprima"
+  },
+  "workspace": {
+    "metadata": {
+      "title": "Workspace Effetti Immagine | joymagic",
+      "description": "Carica un'immagine, scegli un effetto immagine e gestisci questa creazione in un workspace dedicato."
+    },
+    "category": "Immagine",
+    "pageTitle": "Effetti Immagine",
+    "workspaceLabel": "Workspace",
+    "inputBadge": "1 immagine in input",
+    "selectedEffect": "Effetto selezionato",
+    "change": "Cambia",
+    "imageTitle": "Immagine",
+    "imageHint": "PNG, JPG, WEBP fino a 15 MB",
+    "uploadHint": "Clicca per caricare un'immagine",
+    "tryExamples": "Prova esempi",
+    "estimating": "Calcolo in corso...",
+    "create": "Crea",
+    "creditsUnit": "crediti",
+    "estimateError": "Impossibile stimare i crediti:",
+    "emptyState": "Ops! Sembra che tu non abbia ancora creato nulla.",
+    "inputLabel": "Input",
+    "outputLabel": "Output",
+    "exampleAria": "Usa esempio {index}",
+    "dialog": {
+      "title": "Seleziona un effetto immagine",
+      "searchPlaceholder": "Cerca l'effetto che vuoi",
+      "closeAria": "Chiudi selettore effetti",
+      "description": "Scegli un effetto immagine dagli stessi dati della galleria usata nella pagina effetti immagine.",
+      "emptyTitle": "Nessun effetto corrispondente",
+      "emptyDescription": "Prova un'altra parola chiave."
+    }
+  }
+}

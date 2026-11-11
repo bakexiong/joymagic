@@ -1,0 +1,114 @@
+{
+  "title": "Nano Banana Text zu Bild",
+  "subtitle": "Erstellen Sie atemberaubende Bilder aus Textbeschreibungen",
+  "prompt_label": "Eingabeaufforderung",
+  "prompt_placeholder": "Ein kleines Mädchen bläst Seifenblasen in einem Hinterhof, Sonnenlicht erzeugt Regenbogenfarben in den Blasen, Schnappschuss-Stil.",
+  "prompt_tooltip": "Geben Sie eine Beschreibung des Bildes ein, das Sie erstellen möchten",
+  "prompt_enhancer": "Eingabeaufforderungs-Verbesserer",
+  "enhancing": "Verbessern...",
+  "aspect_ratio_label": "Seitenverhältnis",
+  "aspect_ratio_hint": "Wählen Sie das Seitenverhältnis für das generierte Bild",
+  "aspect_ratio_placeholder": "Seitenverhältnis auswählen (optional)",
+  "aspect_ratio_none": "(Keines)",
+  "output_format_label": "Ausgabeformat",
+  "output_format_hint": "Wählen Sie das Ausgabeformat für das Bild",
+  "buttons": {
+    "generate": "Bild generieren"
+  },
+  "errors": {
+    "promptRequired": "Eingabeaufforderung ist erforderlich"
+  },
+  "image_alt": "Generiertes Bild",
+  "download": "Herunterladen",
+  "image_placeholder": "Generiertes Bild wird hier angezeigt",
+  "page": {
+    "metadata": {
+      "title": "Nano Banana Text zu Bild - KI-Bildgenerierung | joymagic",
+      "description": "Erzeugen Sie Bilder aus Text mit Google Nano Banana KI. Erstellen Sie Fotos, Illustrationen und Designs mit klarer Textdarstellung. Nano Banana kostenlos testen.",
+      "keywords": "nano banana text zu bild, ki bildgenerator, google nano banana, gemini 2.5 flash image, text zu bild ki"
+    },
+    "hero": {
+      "title": "Nano Banana Text zu Bild",
+      "description": "Google Nano Banana (Gemini 2.5 Flash Image) erzeugt Bilder aus Textbeschreibungen. Geben Sie ein, was Sie möchten, erhalten Sie Fotos, Illustrationen oder Konzeptkunst in Sekunden. Verarbeitet verschiedene visuelle Stile natürlich. Testen Sie Nano Banana unten kostenlos!<br/><br/>Benötigen Sie professionelle Steuerung und klare Textdarstellung? <a href=\"/text-to-image/nano-banana-pro\" class=\"text-primary underline\">Nano Banana Pro testen</a>.",
+      "button1": "Jetzt testen",
+      "button2": "Preise ansehen"
+    },
+    "keyFeatures": {
+      "title": "Hauptfunktionen",
+      "description": "Leistungsstarke KI-Bildgenerierungsfunktionen",
+      "createFromScratch": {
+        "title": "Von Grund auf erstellen",
+        "description": "Beschreiben Sie jede Szene und das Modell generiert sie. Keine Referenzbilder erforderlich—schreiben Sie einfach, was Sie sehen möchten, und das Modell baut es aus Ihrer Beschreibung."
+      },
+      "differentStyles": {
+        "title": "Verarbeitet verschiedene Stile",
+        "description": "Funktioniert natürlich über verschiedene visuelle Stile hinweg. Erzeugen Sie fotorealistische Szenen, Anime-Charaktere, digitale Illustrationen, Konzeptkunst oder Skizzen, indem Sie den Stil in Ihrem Prompt beschreiben."
+      },
+      "plainTextInput": {
+        "title": "Einfache Texteingabe",
+        "description": "Schreiben Sie Beschreibungen in Alltagssprache. \"Eine Katze mit Sonnenbrille am Strand bei Sonnenuntergang\" oder \"Cyberpunk-Straßenszene mit Neonzeichen\"—das Modell versteht natürliche Formulierungen."
+      },
+      "fastGeneration": {
+        "title": "Schnelle Generierung",
+        "description": "Die meisten Bilder werden in 5-10 Sekunden generiert. Testen Sie schnell verschiedene Ideen—probieren Sie Variationen von Beleuchtung, Komposition und Motiven ohne lange Wartezeiten."
+      },
+      "clearTextPro": {
+        "title": "Klarer Text in Bildern (Pro)",
+        "description": "Die Pro-Version rendert lesbaren Text in mehreren Sprachen. Generieren Sie Logos, Poster, Beschilderungen und Produktetiketten, bei denen die Typografie scharf und lesbar bleibt. Besonders gut bei chinesischen Zeichen."
+      }
+    },
+    "useCases": {
+      "title": "Anwendungsfälle",
+      "conceptVisualization": {
+        "title": "Konzeptvisualisierung",
+        "description": "Müssen Sie Kunden eine Idee zeigen, haben aber keine Referenzfotos? Beschreiben Sie das Konzept und generieren Sie Visuals für Präsentationen und Pitches."
+      },
+      "socialMedia": {
+        "title": "Social-Media-Grafiken",
+        "description": "Erstellen Sie Originalbilder für Posts und Anzeigen. Generieren Sie Hintergründe, Produkt-Mockups oder Illustrationen ohne Stockfotos oder Designer."
+      },
+      "marketing": {
+        "title": "Marketingmaterialien",
+        "description": "Entwerfen Sie Poster, Anzeigen und Werbegrafiken mit Textelementen. Die Pro-Version hält die Typografie klar und professionell—nützlich für Event-Poster und Produktverpackungen."
+      },
+      "creativeExploration": {
+        "title": "Kreative Erkundung",
+        "description": "Testen Sie verschiedene visuelle Richtungen, bevor Sie sich für detaillierte Arbeiten entscheiden. Generieren Sie mehrere Stilvariationen, um herauszufinden, was funktioniert."
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Häufige Fragen zu Nano Banana Text zu Bild",
+      "q1": {
+        "question": "Was ist Nano Banana Text zu Bild?",
+        "answer": "Nano Banana ist Google DeepMinds KI-Bildgenerator. Es erstellt Bilder aus Textbeschreibungen—geben Sie ein, was Sie sehen möchten, erhalten Sie in Sekunden ein generiertes Bild."
+      },
+      "q2": {
+        "question": "Wie detailliert sollten meine Prompts sein?",
+        "answer": "Mehr Details helfen normalerweise. Anstatt \"ein Hund\" versuchen Sie \"ein Golden Retriever, der in einem Park sitzt, Morgenlicht, fotografischer Stil\". Fügen Sie Motiv, Umgebung, Beleuchtung und visuellen Stil hinzu."
+      },
+      "q3": {
+        "question": "Welche Formate werden unterstützt?",
+        "answer": "Gibt JPG, PNG und WebP aus. Wählen Sie PNG, wenn Sie Transparenzunterstützung benötigen."
+      },
+      "q4": {
+        "question": "Was ist der Unterschied zu Nano Banana Pro?",
+        "answer": "Standard Nano Banana generiert Bilder schnell in verschiedenen Stilen. Pro fügt kamerastilartige Steuerungen (Schärfentiefe, Beleuchtung), klare Textdarstellung in mehreren Sprachen und höhere Auflösungsausgabe hinzu. <a href=\"/text-to-image/nano-banana-pro\" class=\"text-primary underline\">Versionen vergleichen →</a>"
+      },
+      "q5": {
+        "question": "Wie lange dauert die Generierung?",
+        "answer": "Standard: 5-10 Sekunden pro Bild. Pro: 10-15 Sekunden für komplexe Prompts oder höhere Auflösungsausgaben."
+      }
+    },
+    "finalCTA": {
+      "title": "Bereit zum Erstellen?",
+      "description": "Beginnen Sie heute mit der Generierung erstaunlicher Bilder aus Ihren Textbeschreibungen.",
+      "button": "Jetzt testen"
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "textToImage": "Text zu Bild",
+      "nanoBanana": "Nano Banana"
+    }
+  }
+}

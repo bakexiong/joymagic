@@ -1,0 +1,102 @@
+{
+  "title": "GPT Image 1 Metinden Görüntü",
+  "subtitle": "Metin açıklamalarından çarpıcı görüntüler oluşturun",
+  "prompt_label": "İstem",
+  "prompt_placeholder": "\"Urban Pulse\" adlı bir yaşam tarzı dergisi için profesyonel ve görsel olarak çekici bir dergi kapağı oluşturun.",
+  "prompt_tooltip": "Oluşturmak istediğiniz görüntünün açıklamasını girin",
+  "size_label": "Boyut",
+  "size_tooltip": "Görüntü boyutunu seçin",
+  "quality_label": "Kalite",
+  "quality_tooltip": "Görüntü kalitesini seçin. Daha yüksek kalite daha fazla kredi kullanır.",
+  "credits_required": "Gerekli Krediler",
+  "buttons": {
+    "generate": "Görüntü Oluştur"
+  },
+  "errors": {
+    "promptRequired": "İstem gereklidir"
+  },
+  "image_alt": "Oluşturulan görüntü",
+  "download": "İndir",
+  "image_placeholder": "Oluşturulan görüntü burada görünecek",
+  "page": {
+    "metadata": {
+      "title": "GPT-Image-1 Metinden Görüntü - AI Görüntü Oluşturucu | joymagic",
+      "description": "OpenAI GPT-Image-1 ile metinden görüntü oluşturun. Posterler ve tabelalar için üstün metin oluşturma. Kesin talimat takibi, çoklu stil. Şimdi ücretsiz deneyin.",
+      "keywords": "GPT-Image-1, metinden görüntü, ai görüntü oluşturucu, openai, metin oluşturma, posterler, tabelalar, talimat takibi"
+    },
+    "hero": {
+      "title": "GPT-Image-1 Metinden Görüntü",
+      "description": "GPT-Image-1, kesin talimat takibi ve doğru metin oluşturma için oluşturulmuş OpenAI'nin görüntü oluşturma modelidir. Başlıklar, tabelalar ve etiketler gibi metin öğeleri dahil olmak üzere herhangi bir sahne, stil veya tasarımı açıklayın. Aşağıda GPT-Image-1'i ücretsiz deneyin!<br/><br/>İki dilli istemler veya karakter tutarlılığı mı gerekiyor? <a href=\"/text-to-image/seedream-4-5\" class=\"text-primary underline\">Seedream 4.5 Metinden Görüntü'yü deneyin</a>.",
+      "button1": "Şimdi Dene",
+      "button2": "Fiyatları Gör"
+    },
+    "keyFeatures": {
+      "title": "Temel Özellikler",
+      "description": "Kesin görüntü oluşturma için güçlü yetenekler",
+      "superiorTextRendering": {
+        "title": "Üstün Metin Oluşturma",
+        "description": "Görüntülerin içinde net, okunabilir metin oluşturun—posterler, tabelalar, kitap kapakları, ürün etiketleri, sosyal medya grafikleri. Çoğu oluşturma modelinden daha iyi şekilde birden fazla metin öğesini ve yoğun tipografiyi işler."
+      },
+      "preciseInstructionFollowing": {
+        "title": "Kesin Talimat Takibi",
+        "description": "Model, detaylı istemleri doğru bir şekilde yorumlar. Kompozisyon, aydınlatma, renk paleti, ruh hali, stil ve konu yerleşimini belirtin—GPT-Image-1, sapma olmadan küçük öğelere kadar talimatlarınızı takip eder."
+      },
+      "styleVersatility": {
+        "title": "Stil Çeşitliliği",
+        "description": "Fotoğraf gerçekçiliği görüntüleri, illüstrasyonlar, kavramsal sanat, vintage fotoğrafçılık, minimalist tasarımlar ve daha fazlasını oluşturun. Hedeflenen sonuçlar için isteminizde belirli sanatsal stilleri veya hareketleri referans alın."
+      },
+      "transparentBackground": {
+        "title": "Şeffaf Arka Plan Desteği",
+        "description": "PNG çıktı formatını kullanarak şeffaflığa sahip görüntüler oluşturun. Manuel kesme olmadan tasarımlara kompozisyon için hazır varlıklar için isteminizde \"şeffaf arka plan\" belirtin."
+      }
+    },
+    "useCases": {
+      "title": "Kullanım Durumları",
+      "marketingGraphics": {
+        "title": "Pazarlama Grafikleri",
+        "description": "Yerleşik metin öğeleriyle sosyal medya gönderileri, banner reklamlar ve promosyon materyalleri oluşturun. Başlıklar, CTA'lar ve fiyatlar temiz bir şekilde oluşturulur."
+      },
+      "signagePosters": {
+        "title": "Tabelalar ve Posterler",
+        "description": "Tipografinin görselin merkezi olduğu etkinlik posterleri, mağaza tabelaları ve duyurular tasarlayın."
+      },
+      "bookAlbumCovers": {
+        "title": "Kitap ve Albüm Kapakları",
+        "description": "Başlık ve yazar metni entegre edilmiş kapak konseptleri oluşturun. Nihai tasarıma bağlanmadan önce yönleri keşfedin."
+      },
+      "productMockups": {
+        "title": "Ürün Maketleri",
+        "description": "Okunabilir ürün adları, bileşenler ve markalama içeren ambalaj konseptleri ve etiket tasarımları oluşturun."
+      }
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "description": "GPT-Image-1 Metinden Görüntü hakkında yaygın sorular",
+      "q1": {
+        "question": "GPT-Image-1 nedir?",
+        "answer": "GPT-Image-1, metin açıklamalarından görüntü oluşturan OpenAI'nin AI görüntü oluşturma modelidir. Görüntüler içindeki okunabilir metin oluşturmada özellikle güçlüdür."
+      },
+      "q2": {
+        "question": "Metin oluşturma ne kadar doğru?",
+        "answer": "GPT-Image-1, çoğu AI modelinden daha iyi okunabilir metin oluşturur. Birden fazla metin öğesini ve yoğun tipografiyi işler. Kritik uygulamalarda piksel mükemmel metin için burada temel görüntüyü oluşturun ve tasarım yazılımında nihai metni ekleyin."
+      },
+      "q3": {
+        "question": "Şeffaf arka planlar alabilir miyim?",
+        "answer": "Evet. PNG çıktı formatını seçin ve isteminize \"şeffaf arka plan\" ekleyin. Logolar, çıkartmalar ve kompozit varlıklar için yararlıdır."
+      },
+      "q4": {
+        "question": "Hangi stilleri oluşturabilir?",
+        "answer": "Fotoğraf gerçekçiliği, illüstrasyon, kavramsal sanat, dijital resim, vintage estetiği, minimalist tasarım ve daha fazlası. İsteminizde belirli stilleri referans alın."
+      },
+      "q5": {
+        "question": "Bunun yerine ne zaman Seedream 4.5 kullanmalıyım?",
+        "answer": "İki dilli istem desteği (Çince) gerektiğinde veya nesiller arasında karakter tutarlılığını korumak istediğinizde Seedream 4.5'i kullanın. Metin oluşturma kalitesi öncelik olduğunda GPT-Image-1'i kullanın."
+      }
+    },
+    "finalCTA": {
+      "title": "Oluşturmaya Hazır mısınız?",
+      "description": "Bugünden itibaren metin açıklamalarınızdan harika görüntüler oluşturmaya başlayın.",
+      "button": "Şimdi Dene"
+    }
+  }
+}

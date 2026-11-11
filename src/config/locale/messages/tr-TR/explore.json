@@ -1,0 +1,28 @@
+{
+  "media_detail": {
+    "prompt_title": "İSTEM",
+    "copy_button": "Kopyala",
+    "copied_button": "Kopyalandı!",
+    "show_more": "Tümünü gör",
+    "show_less": "Daha az göster",
+    "information_title": "BİLGİ",
+    "model_label": "Model:",
+    "quality_label": "Kalite:",
+    "size_label": "Boyut:",
+    "generate_button": "Benzer Oluştur",
+    "video_button": "Video",
+    "download_button": "İndir",
+    "upscale_button": "Büyüt",
+    "edit_button": "Düzenle",
+    "no_prompt": "İstem mevcut değil",
+    "image_alt": "Oluşturulan görsel"
+  },
+  "mobile_homepage": {
+    "create_image": "Görsel Oluştur",
+    "create_video": "Video Oluştur",
+    "ai_effect": "YZ Efekt",
+    "new_badge": "Yeni",
+    "view_all": "Tümünü Gör",
+    "view_more": "Daha Fazla Gör"
+  }
+}

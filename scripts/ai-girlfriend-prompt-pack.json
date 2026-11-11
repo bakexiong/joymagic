@@ -1,0 +1,779 @@
+{
+  "defaultBaseProfileId": "white-classic",
+  "baseProfiles": [
+    {
+      "id": "asian-soft",
+      "title": "Asian Base",
+      "basePrompt": "Create a highly realistic studio beauty portrait of a young East Asian woman. Use the exact same master photoshoot style for all base images: vertical portrait composition, approximately three-quarter body framing, the character should appear large in the frame and occupy most of the image height, facing camera, centered composition, elegant natural posture, soft confident expression, slim feminine silhouette, realistic skin texture, realistic facial anatomy, detailed eyes, detailed lips, long smooth dark brown hair, a minimal fitted white knit top, clean light gray studio background, flattering soft diffused beauty lighting, polished commercial fashion photography look, photorealistic, refined, glamorous. Keep the pose stable and symmetrical. Keep the camera angle front-facing. Keep the framing clean and consistent. Keep wardrobe, lighting, background, lens feel, and composition identical to the other base images. Only the ethnicity-specific facial characteristics and skin tone should vary subtly. Refined East Asian facial features, luminous natural light skin."
+    },
+    {
+      "id": "black-glam",
+      "title": "Black Base",
+      "basePrompt": "Create a highly realistic studio beauty portrait of a young Black woman. Use the exact same master photoshoot style for all base images: vertical portrait composition, approximately three-quarter body framing, the character should appear large in the frame and occupy most of the image height, facing camera, centered composition, elegant natural posture, soft confident expression, slim feminine silhouette, realistic skin texture, realistic facial anatomy, detailed eyes, detailed lips, long smooth dark brown hair, a minimal fitted white knit top, clean light gray studio background, flattering soft diffused beauty lighting, polished commercial fashion photography look, photorealistic, refined, glamorous. Keep the pose stable and symmetrical. Keep the camera angle front-facing. Keep the framing clean and consistent. Keep wardrobe, lighting, background, lens feel, and composition identical to the other base images. Only the ethnicity-specific facial characteristics and skin tone should vary subtly. Confident radiant beauty, rich deep glowing skin."
+    },
+    {
+      "id": "white-classic",
+      "title": "White Base",
+      "basePrompt": "Create a highly realistic studio beauty portrait of a young white woman. Use the exact same master photoshoot style for all base images: vertical portrait composition, approximately three-quarter body framing, the character should appear large in the frame and occupy most of the image height, facing camera, centered composition, elegant natural posture, soft confident expression, slim feminine silhouette, realistic skin texture, realistic facial anatomy, detailed eyes, detailed lips, long smooth dark brown hair, a minimal fitted white knit top, clean light gray studio background, flattering soft diffused beauty lighting, polished commercial fashion photography look, photorealistic, refined, glamorous. Keep the pose stable and symmetrical. Keep the camera angle front-facing. Keep the framing clean and consistent. Keep wardrobe, lighting, background, lens feel, and composition identical to the other base images. Only the ethnicity-specific facial characteristics and skin tone should vary subtly. Classic balanced European facial features, smooth satin light skin."
+    },
+    {
+      "id": "latina-warm",
+      "title": "Latina Base",
+      "basePrompt": "Create a highly realistic studio beauty portrait of a young Latina woman. Use the exact same master photoshoot style for all base images: vertical portrait composition, approximately three-quarter body framing, the character should appear large in the frame and occupy most of the image height, facing camera, centered composition, elegant natural posture, soft confident expression, slim feminine silhouette, realistic skin texture, realistic facial anatomy, detailed eyes, detailed lips, long smooth dark brown hair, a minimal fitted white knit top, clean light gray studio background, flattering soft diffused beauty lighting, polished commercial fashion photography look, photorealistic, refined, glamorous. Keep the pose stable and symmetrical. Keep the camera angle front-facing. Keep the framing clean and consistent. Keep wardrobe, lighting, background, lens feel, and composition identical to the other base images. Only the ethnicity-specific facial characteristics and skin tone should vary subtly. Warm sensual elegance, sun-kissed luminous tan skin."
+    },
+    {
+      "id": "arab-lux",
+      "title": "Arab Base",
+      "basePrompt": "Create a highly realistic studio beauty portrait of a young Arab woman. Use the exact same master photoshoot style for all base images: vertical portrait composition, approximately three-quarter body framing, the character should appear large in the frame and occupy most of the image height, facing camera, centered composition, elegant natural posture, soft confident expression, slim feminine silhouette, realistic skin texture, realistic facial anatomy, detailed eyes, detailed lips, long smooth dark brown hair, a minimal fitted white knit top, clean light gray studio background, flattering soft diffused beauty lighting, polished commercial fashion photography look, photorealistic, refined, glamorous. Keep the pose stable and symmetrical. Keep the camera angle front-facing. Keep the framing clean and consistent. Keep wardrobe, lighting, background, lens feel, and composition identical to the other base images. Only the ethnicity-specific facial characteristics and skin tone should vary subtly. Striking almond eyes, sculpted elegant features, luminous olive skin."
+    },
+    {
+      "id": "indian-glow",
+      "title": "Indian Base",
+      "basePrompt": "Create a highly realistic studio beauty portrait of a young Indian woman. Use the exact same master photoshoot style for all base images: vertical portrait composition, approximately three-quarter body framing, the character should appear large in the frame and occupy most of the image height, facing camera, centered composition, elegant natural posture, soft confident expression, slim feminine silhouette, realistic skin texture, realistic facial anatomy, detailed eyes, detailed lips, long smooth dark brown hair, a minimal fitted white knit top, clean light gray studio background, flattering soft diffused beauty lighting, polished commercial fashion photography look, photorealistic, refined, glamorous. Keep the pose stable and symmetrical. Keep the camera angle front-facing. Keep the framing clean and consistent. Keep wardrobe, lighting, background, lens feel, and composition identical to the other base images. Only the ethnicity-specific facial characteristics and skin tone should vary subtly. Graceful refined features, warm golden brown skin."
+    }
+  ],
+  "baseProfile": {
+    "id": "girlfriend-base-01",
+    "title": "AI Girlfriend Base 01",
+    "basePrompt": "Create a highly realistic studio fashion portrait of a young woman. Vertical portrait composition, approximately three-quarter body framing, the character should appear large in the frame and occupy most of the image height, facing camera, centered composition, elegant natural posture, slim feminine silhouette, neutral to soft smile expression, realistic skin texture, realistic facial anatomy, detailed eyes, detailed lips, soft pastel blonde hair, premium beauty campaign style, soft pastel studio background, clean lavender or light pink backdrop, flattering softbox lighting, polished fashion photography look, photorealistic, refined, glamorous, similar to a high-end beauty portrait. Keep the pose stable and symmetrical. Keep the camera angle front-facing. Keep the framing clean and consistent. The image should feel photorealistic, elegant, and suitable as a master base image for later character variations."
+  },
+  "consistencyRule": "Important consistency rule: this must remain the same person as the base image. Keep the same identity. Keep the same framing. Keep the same camera angle. Keep the same lighting. Keep the same pose. Only change the requested attribute.",
+  "sections": [
+    {
+      "id": "ethnicity",
+      "title": "Ethnicity",
+      "promptPrefix": "Use the same woman, same face, same pose, same framing, same lighting, same background, and same camera angle as the base portrait. Only adjust the ethnicity styling and facial vibe subtly.",
+      "preserve": "Preserve the same identity anchor, face proportions, eye placement, nose bridge length, lip proportion, body position, and composition. Keep this as the same recognizable woman.",
+      "resultLine": "The result should look like the same real person with a subtle ethnicity styling variation, not a different person.",
+      "variants": [
+        {
+          "id": "asian-soft",
+          "label": "Asian Soft",
+          "details": [
+            "Target ethnicity vibe: East Asian beauty campaign styling",
+            "Facial vibe: soft refined features",
+            "Skin finish: luminous natural skin",
+            "Overall styling: elegant, polished, contemporary"
+          ]
+        },
+        {
+          "id": "black-glam",
+          "label": "Black Glam",
+          "details": [
+            "Target ethnicity vibe: Black beauty campaign styling",
+            "Facial vibe: confident, radiant, sculpted elegance",
+            "Skin finish: rich glowing skin",
+            "Overall styling: premium editorial glamour"
+          ]
+        },
+        {
+          "id": "white-classic",
+          "label": "White Classic",
+          "details": [
+            "Target ethnicity vibe: European beauty campaign styling",
+            "Facial vibe: classic balanced features",
+            "Skin finish: smooth satin skin",
+            "Overall styling: clean luxury beauty portrait"
+          ]
+        },
+        {
+          "id": "latina-warm",
+          "label": "Latina Warm",
+          "details": [
+            "Target ethnicity vibe: Latina beauty campaign styling",
+            "Facial vibe: warm sensual elegance",
+            "Skin finish: sun-kissed luminous skin",
+            "Overall styling: glamorous and vibrant"
+          ]
+        },
+        {
+          "id": "arab-lux",
+          "label": "Arab Lux",
+          "details": [
+            "Target ethnicity vibe: Arab beauty campaign styling",
+            "Facial vibe: sculpted elegant features",
+            "Skin finish: luminous olive satin skin",
+            "Overall styling: luxurious polished glamour"
+          ]
+        },
+        {
+          "id": "indian-glow",
+          "label": "Indian Glow",
+          "details": [
+            "Target ethnicity vibe: Indian beauty campaign styling",
+            "Facial vibe: graceful refined features",
+            "Skin finish: warm glowing golden-brown skin",
+            "Overall styling: elegant modern beauty portrait"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hair",
+      "title": "Hair",
+      "promptPrefix": "Use the same woman, same face, same pose, same framing, same lighting, same background, and same camera angle as the base portrait. Only modify the hair.",
+      "preserve": "Preserve the exact same identity, facial structure, eye position, nose shape, lip shape, skin tone, shoulder position, and composition.",
+      "resultLine": "The result should look like the same real person in the same photoshoot, with only the hair changed.",
+      "variants": [
+        {
+          "id": "braided-blonde",
+          "label": "Braided",
+          "details": [
+            "Hairstyle: twin braids",
+            "Hair length: shoulder length",
+            "Hair texture: softly woven and airy",
+            "Hair color: creamy blonde",
+            "Bangs: face-framing front pieces"
+          ]
+        },
+        {
+          "id": "long-silky-blonde",
+          "label": "Long",
+          "details": [
+            "Hairstyle: long flowing hair",
+            "Hair length: long below chest",
+            "Hair texture: silky smooth",
+            "Hair color: light champagne blonde",
+            "Bangs: none"
+          ]
+        },
+        {
+          "id": "blonde-see-through-bangs",
+          "label": "Bangs",
+          "details": [
+            "Hairstyle: straight layered hair",
+            "Hair length: shoulder length",
+            "Hair texture: silky smooth",
+            "Hair color: honey blonde",
+            "Bangs: see-through bangs"
+          ]
+        },
+        {
+          "id": "high-ponytail-blonde",
+          "label": "Ponytail",
+          "details": [
+            "Hairstyle: high ponytail",
+            "Hair length: shoulder length",
+            "Hair texture: sleek lifted texture",
+            "Hair color: warm blonde",
+            "Bangs: swept back"
+          ]
+        },
+        {
+          "id": "glass-black-bob",
+          "label": "Short",
+          "details": [
+            "Hairstyle: sleek short bob cut",
+            "Hair length: jaw-length",
+            "Hair texture: glass straight",
+            "Hair color: deep black",
+            "Bangs: none"
+          ]
+        },
+        {
+          "id": "soft-bun-blonde",
+          "label": "Bun",
+          "details": [
+            "Hairstyle: soft bun updo",
+            "Hair length: pinned up",
+            "Hair texture: airy elegant strands",
+            "Hair color: warm golden blonde",
+            "Bangs: loose front tendrils"
+          ]
+        },
+        {
+          "id": "double-buns-blonde",
+          "label": "Buns",
+          "details": [
+            "Hairstyle: double buns",
+            "Hair length: styled up",
+            "Hair texture: playful soft strands",
+            "Hair color: creamy blonde",
+            "Bangs: wispy front pieces"
+          ]
+        },
+        {
+          "id": "soft-wavy-dark-brown",
+          "label": "Wavy",
+          "details": [
+            "Hairstyle: soft wavy hair",
+            "Hair length: shoulder length",
+            "Hair texture: silky and airy",
+            "Hair color: chestnut dark brown",
+            "Bangs: none"
+          ]
+        },
+        {
+          "id": "gradient-pixie",
+          "label": "Pixie",
+          "details": [
+            "Hairstyle: pixie cut",
+            "Hair length: very short",
+            "Hair texture: soft feathered texture",
+            "Hair color: violet to rose gradient",
+            "Bangs: side-swept"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eyes",
+      "title": "Eyes",
+      "promptPrefix": "Use the same woman, same face, same pose, same framing, same lighting, same background, and same camera angle as the base portrait. Only modify the eyes.",
+      "preserve": "Preserve the exact same identity, skin texture, nose, lips, jawline, hairstyle, shoulders, and overall composition.",
+      "resultLine": "The result should look like the same real person, with only the eye area updated.",
+      "variants": [
+        {
+          "id": "black",
+          "label": "Black",
+          "details": [
+            "Eye shape: soft almond eyes",
+            "Iris color: deep black-brown",
+            "Pupil style: natural pupils",
+            "Eyelashes: refined long lashes",
+            "Eye makeup: clean eyeliner with subtle depth"
+          ]
+        },
+        {
+          "id": "brown",
+          "label": "Brown",
+          "details": [
+            "Eye shape: slightly droopy soft eyes",
+            "Iris color: warm chestnut brown",
+            "Pupil style: natural pupils",
+            "Eyelashes: soft natural lashes",
+            "Eye makeup: soft taupe eyeshadow"
+          ]
+        },
+        {
+          "id": "red",
+          "label": "Red",
+          "details": [
+            "Eye shape: almond eyes",
+            "Iris color: muted ruby red",
+            "Pupil style: natural pupils with a subtle fantasy glow",
+            "Eyelashes: long refined lashes",
+            "Eye makeup: soft shimmer with editorial fantasy styling"
+          ]
+        },
+        {
+          "id": "yellow",
+          "label": "Yellow",
+          "details": [
+            "Eye shape: almond eyes",
+            "Iris color: luminous amber yellow",
+            "Pupil style: natural pupils",
+            "Eyelashes: lifted long lashes",
+            "Eye makeup: soft golden highlight"
+          ]
+        },
+        {
+          "id": "green",
+          "label": "Green",
+          "details": [
+            "Eye shape: fox eyes",
+            "Iris color: emerald green",
+            "Pupil style: natural pupils",
+            "Eyelashes: lifted long lashes",
+            "Eye makeup: winged eyeliner"
+          ]
+        },
+        {
+          "id": "blue",
+          "label": "Blue",
+          "details": [
+            "Eye shape: almond eyes",
+            "Iris color: vivid blue",
+            "Pupil style: natural pupils",
+            "Eyelashes: long lashes",
+            "Eye makeup: subtle eyeliner and champagne shimmer"
+          ]
+        },
+        {
+          "id": "purple",
+          "label": "Purple",
+          "details": [
+            "Eye shape: almond eyes",
+            "Iris color: luminous purple",
+            "Pupil style: subtle star-shaped pupils",
+            "Eyelashes: long dramatic lashes",
+            "Eye makeup: soft glitter highlight"
+          ]
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
+          "details": [
+            "Eye shape: rounded soft eyes",
+            "Iris color: soft rose pink",
+            "Pupil style: natural pupils with glossy catchlight",
+            "Eyelashes: delicate long lashes",
+            "Eye makeup: dreamy pink shimmer"
+          ]
+        },
+        {
+          "id": "white",
+          "label": "White",
+          "details": [
+            "Eye shape: almond eyes",
+            "Iris color: icy white pearl",
+            "Pupil style: soft natural pupils",
+            "Eyelashes: refined long lashes",
+            "Eye makeup: silver highlight"
+          ]
+        },
+        {
+          "id": "gray",
+          "label": "Gray",
+          "details": [
+            "Eye shape: elegant almond eyes",
+            "Iris color: cool gray",
+            "Pupil style: natural pupils",
+            "Eyelashes: soft lifted lashes",
+            "Eye makeup: cool taupe editorial shading"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lips",
+      "title": "Lips",
+      "promptPrefix": "Use the same woman, same face, same pose, same framing, same lighting, same background, and same camera angle as the base portrait. Only modify the lips.",
+      "preserve": "Preserve the exact same identity, eyes, nose, skin, hairstyle, facial proportions, and composition.",
+      "resultLine": "The result should look like the same real person, with only the lips updated.",
+      "variants": [
+        {
+          "id": "glossy-rose-full",
+          "label": "Glossy Rose Full Lips",
+          "details": [
+            "Lip shape: full lips",
+            "Lip color: soft rose pink",
+            "Lip finish: glossy",
+            "Lip makeup style: polished glass lip"
+          ]
+        },
+        {
+          "id": "matte-nude-thin",
+          "label": "Matte Nude Thin Lips",
+          "details": [
+            "Lip shape: thin lips",
+            "Lip color: muted nude beige",
+            "Lip finish: matte",
+            "Lip makeup style: soft blurred edge"
+          ]
+        },
+        {
+          "id": "m-shape-berry",
+          "label": "M-shaped Berry",
+          "details": [
+            "Lip shape: softly defined cupid's bow lips",
+            "Lip color: muted berry pink",
+            "Lip finish: satin sheen",
+            "Lip makeup style: polished natural definition"
+          ]
+        },
+        {
+          "id": "bitten-cherry",
+          "label": "Bitten Cherry",
+          "details": [
+            "Lip shape: soft full lips",
+            "Lip color: cherry red gradient",
+            "Lip finish: natural sheen",
+            "Lip makeup style: bitten lips makeup"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "title": "Body Physicals",
+      "promptPrefix": "Use the same woman, same face, same pose, same framing, same lighting, same background, and same camera angle as the base portrait. Only adjust the body silhouette and proportion styling.",
+      "preserve": "Preserve the same identity, face, hairstyle silhouette, skin tone family, shoulder position, and overall photographic composition.",
+      "resultLine": "The result should look like the same real person with a subtly adjusted body silhouette and proportion styling.",
+      "variants": [
+        {
+          "id": "slender-soft",
+          "label": "Slender Soft",
+          "details": [
+            "Height and proportion: seven-head standard proportion",
+            "Body build: slender and soft",
+            "Muscle tone: minimal visible definition",
+            "Overall silhouette: delicate and elegant"
+          ]
+        },
+        {
+          "id": "balanced-curvy",
+          "label": "Balanced Curvy",
+          "details": [
+            "Height and proportion: seven-head standard proportion",
+            "Body build: balanced curvy figure",
+            "Muscle tone: soft athletic balance",
+            "Overall silhouette: feminine and polished"
+          ]
+        },
+        {
+          "id": "athletic-toned",
+          "label": "Athletic Toned",
+          "details": [
+            "Height and proportion: seven-head standard proportion",
+            "Body build: athletic and toned",
+            "Muscle tone: visible refined definition",
+            "Overall silhouette: fit and confident"
+          ]
+        },
+        {
+          "id": "model-nine-head",
+          "label": "Model Nine-head",
+          "details": [
+            "Height and proportion: nine-head model proportion",
+            "Body build: elongated slim figure",
+            "Muscle tone: clean sculpted lines",
+            "Overall silhouette: editorial fashion model"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skin",
+      "title": "Skin Details",
+      "promptPrefix": "Use the same woman, same face, same pose, same framing, same lighting, same background, and same camera angle as the base portrait. Only modify subtle skin details.",
+      "preserve": "Preserve the exact same identity, hairstyle, eyes, lips, facial proportions, and overall composition.",
+      "resultLine": "The result should look like the same real person, with only subtle skin detail changes.",
+      "variants": [
+        {
+          "id": "pale",
+          "label": "Pale",
+          "details": [
+            "Skin tone: pale cool porcelain",
+            "Skin texture: matte and refined",
+            "Skin detail: none"
+          ]
+        },
+        {
+          "id": "light",
+          "label": "Light",
+          "details": [
+            "Skin tone: light ivory",
+            "Skin texture: soft natural skin",
+            "Skin detail: light freckles across cheeks and nose"
+          ]
+        },
+        {
+          "id": "medium",
+          "label": "Medium",
+          "details": [
+            "Skin tone: medium beige",
+            "Skin texture: balanced satin skin",
+            "Skin detail: subtle healthy warmth"
+          ]
+        },
+        {
+          "id": "tan",
+          "label": "Tan",
+          "details": [
+            "Skin tone: warm tan bronze",
+            "Skin texture: luminous glossy skin",
+            "Skin detail: subtle healthy highlight"
+          ]
+        },
+        {
+          "id": "olive",
+          "label": "Olive",
+          "details": [
+            "Skin tone: luminous olive",
+            "Skin texture: satin natural skin",
+            "Skin detail: subtle beauty mole near the cheek"
+          ]
+        },
+        {
+          "id": "dark",
+          "label": "Dark",
+          "details": [
+            "Skin tone: deep rich brown",
+            "Skin texture: satin matte skin",
+            "Skin detail: a subtle beauty mole near the cheek"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hairColor",
+      "title": "Hair Color",
+      "promptPrefix": "Use the same woman, same face, same pose, same framing, same lighting, same background, and same camera angle as the base portrait. Only modify the hair color.",
+      "preserve": "Preserve the exact same identity, hairstyle silhouette, facial proportions, eyes, lips, shoulders, and overall composition.",
+      "resultLine": "The result should look like the same real person, with only the hair color updated.",
+      "variants": [
+        {
+          "id": "black",
+          "label": "Black",
+          "details": [
+            "Hair color: rich natural black",
+            "Hair finish: glossy and healthy",
+            "Keep hairstyle unchanged"
+          ]
+        },
+        {
+          "id": "brown",
+          "label": "Brown",
+          "details": [
+            "Hair color: chestnut brown",
+            "Hair finish: soft natural shine",
+            "Keep hairstyle unchanged"
+          ]
+        },
+        {
+          "id": "red",
+          "label": "Red",
+          "details": [
+            "Hair color: elegant muted crimson red",
+            "Hair finish: glossy editorial shine",
+            "Keep hairstyle unchanged"
+          ]
+        },
+        {
+          "id": "yellow",
+          "label": "Yellow",
+          "details": [
+            "Hair color: light blonde yellow tone",
+            "Hair finish: silky reflective shine",
+            "Keep hairstyle unchanged"
+          ]
+        },
+        {
+          "id": "green",
+          "label": "Green",
+          "details": [
+            "Hair color: soft emerald green fantasy tone",
+            "Hair finish: smooth refined shine",
+            "Keep hairstyle unchanged"
+          ]
+        },
+        {
+          "id": "blue",
+          "label": "Blue",
+          "details": [
+            "Hair color: cool sapphire blue",
+            "Hair finish: polished luminous shine",
+            "Keep hairstyle unchanged"
+          ]
+        },
+        {
+          "id": "purple",
+          "label": "Purple",
+          "details": [
+            "Hair color: luminous violet purple",
+            "Hair finish: glossy premium shine",
+            "Keep hairstyle unchanged"
+          ]
+        },
+        {
+          "id": "pink",
+          "label": "Pink",
+          "details": [
+            "Hair color: soft rose pink",
+            "Hair finish: glossy beauty-campaign shine",
+            "Keep hairstyle unchanged"
+          ]
+        },
+        {
+          "id": "white",
+          "label": "White",
+          "details": [
+            "Hair color: pearl white platinum",
+            "Hair finish: silky cool shine",
+            "Keep hairstyle unchanged"
+          ]
+        },
+        {
+          "id": "gray",
+          "label": "Gray",
+          "details": [
+            "Hair color: smoky silver gray",
+            "Hair finish: soft satin shine",
+            "Keep hairstyle unchanged"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "makeup",
+      "title": "Makeup",
+      "promptPrefix": "Use the same woman, same face, same pose, same framing, same lighting, same background, and same camera angle as the base portrait. Only modify the makeup look.",
+      "preserve": "Preserve the exact same identity, hairstyle, face proportions, skin tone family, shoulders, and composition.",
+      "resultLine": "The result should look like the same real person with only the makeup styling changed.",
+      "variants": [
+        {
+          "id": "clean-glam",
+          "label": "Clean Glam",
+          "details": [
+            "Eye makeup: soft eyeliner and champagne eyeshadow",
+            "Lip makeup: glossy nude rose lips",
+            "Complexion: clean glam highlight",
+            "Overall makeup style: polished beauty campaign"
+          ]
+        },
+        {
+          "id": "matte-editorial",
+          "label": "Matte Editorial",
+          "details": [
+            "Eye makeup: defined eyeliner and matte taupe shadow",
+            "Lip makeup: matte nude lips",
+            "Complexion: softly sculpted matte finish",
+            "Overall makeup style: editorial and sophisticated"
+          ]
+        },
+        {
+          "id": "glitter-pop",
+          "label": "Glitter Pop",
+          "details": [
+            "Eye makeup: reflective glitter highlight and colored shimmer",
+            "Lip makeup: glossy pink lips",
+            "Complexion: radiant dewy highlight",
+            "Overall makeup style: playful premium beauty shoot"
+          ]
+        },
+        {
+          "id": "bitten-romance",
+          "label": "Bitten Romance",
+          "details": [
+            "Eye makeup: soft rosy shadow and subtle lashes",
+            "Lip makeup: bitten cherry lips",
+            "Complexion: romantic blush and soft glow",
+            "Overall makeup style: dreamy romantic portrait"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "age",
+      "title": "Age Range",
+      "promptPrefix": "Use the same woman, same face, same pose, same framing, same lighting, same background, and same camera angle as the base portrait. Only adjust the age impression slightly.",
+      "preserve": "Keep the same identity and the same person. Preserve the same bone structure, face proportions, eye position, nose shape, lip shape, hairstyle silhouette, shoulders, and composition.",
+      "resultLine": "The result should look like the same real person with a subtle age styling shift, not a different person.",
+      "variants": [
+        {
+          "id": "teen",
+          "label": "Teen",
+          "details": [
+            "Target age vibe: teen",
+            "Adjustments allowed: softer facial fullness, fresher skin, lighter styling"
+          ]
+        },
+        {
+          "id": "young-adult",
+          "label": "Young Adult",
+          "details": [
+            "Target age vibe: young adult",
+            "Adjustments allowed: balanced mature youthfulness, polished skin, stable beauty campaign styling"
+          ]
+        },
+        {
+          "id": "middle-aged",
+          "label": "Middle-aged",
+          "details": [
+            "Target age vibe: middle-aged",
+            "Adjustments allowed: slightly more mature softness, more poised styling, subtle skin maturity"
+          ]
+        },
+        {
+          "id": "senior",
+          "label": "Senior",
+          "details": [
+            "Target age vibe: senior elegance",
+            "Adjustments allowed: graceful age refinement, subtle mature skin texture, elegant polished styling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accessories",
+      "title": "Accessories and Markings",
+      "promptPrefix": "Use the same woman, same face, same pose, same framing, same lighting, same background, and same camera angle as the base portrait. Only add subtle accessories or markings.",
+      "preserve": "Preserve the exact same identity, hairstyle silhouette, skin tone, facial proportions, body position, and composition.",
+      "resultLine": "The result should look like the same real person with only the requested accessory or marking added.",
+      "variants": [
+        {
+          "id": "none-clean",
+          "label": "None Clean",
+          "details": [
+            "Accessory state: none",
+            "Markings: none",
+            "Overall look: clean premium portrait"
+          ]
+        },
+        {
+          "id": "freckles-light",
+          "label": "Light Freckles",
+          "details": [
+            "Accessory state: none",
+            "Markings: light natural freckles across cheeks and nose",
+            "Overall look: fresh youthful realism"
+          ]
+        },
+        {
+          "id": "beauty-mole",
+          "label": "Beauty Mole",
+          "details": [
+            "Accessory state: none",
+            "Markings: a subtle beauty mole near the cheek or lip line",
+            "Overall look: elegant signature detail"
+          ]
+        },
+        {
+          "id": "elf-ears",
+          "label": "Elf Ears",
+          "details": [
+            "Accessory state: subtle elegant elf ears",
+            "Markings: none",
+            "Overall look: fantasy beauty editorial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibe",
+      "title": "Expression and Vibe",
+      "promptPrefix": "Use the same woman, same face, same pose, same framing, same lighting, same background, and same camera angle as the base portrait. Only modify the expression and mood.",
+      "preserve": "Preserve the exact same identity, bone structure, hair, skin tone, styling direction, shoulders, and composition.",
+      "resultLine": "The result should look like the same real person in the same shoot, with only the expression and vibe updated.",
+      "variants": [
+        {
+          "id": "smile",
+          "label": "Smile",
+          "details": [
+            "Expression: soft smile",
+            "Gaze: looking at viewer",
+            "Overall vibe: warm and inviting"
+          ]
+        },
+        {
+          "id": "sultry",
+          "label": "Sultry",
+          "details": [
+            "Expression: sultry and slightly dreamy",
+            "Gaze: looking at viewer",
+            "Overall vibe: magnetic and glamorous"
+          ]
+        },
+        {
+          "id": "smirk",
+          "label": "Smirk",
+          "details": [
+            "Expression: subtle smirk",
+            "Gaze: looking slightly away",
+            "Overall vibe: playful and confident"
+          ]
+        },
+        {
+          "id": "blush",
+          "label": "Blush",
+          "details": [
+            "Expression: shy blush",
+            "Gaze: looking down slightly",
+            "Overall vibe: soft and romantic"
+          ]
+        }
+      ]
+    }
+  ]
+}

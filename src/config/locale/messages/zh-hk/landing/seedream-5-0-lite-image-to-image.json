@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "上傳來源圖片",
+      "hint": "最多上傳 {max} 張圖片（JPG/PNG/WEBP）。",
+      "dragDrop": "拖放或點擊上載",
+      "dropHere": "將圖片拖放到此處"
+    },
+    "prompt": {
+      "title": "輸入轉換提示詞",
+      "placeholder": "描述您想如何轉換圖片，例如「改為動漫風格」、「使其看起來像油畫」",
+      "hint": "請具體描述您想要進行嘅更改"
+    },
+    "generate": {
+      "title": "生成轉換後的圖片",
+      "cta": "生成",
+      "generating": "生成中..."
+    }
+  },
+  "preview": {
+    "title": "預覽",
+    "original": "原圖",
+    "swap": "切換",
+    "placeholder": "上傳圖片並輸入提示詞，即可在此查看轉換效果。"
+  },
+  "common": {
+    "selectedCount": "已選擇：{count}/{max} 張圖片",
+    "notSelected": "未選擇"
+  },
+  "errors": {
+    "invalidFileType": "檔案類型無效。請上載圖片檔案（JPG、PNG、WEBP）。",
+    "uploadFailed": "上載失敗：{error}",
+    "uploadFailedGeneric": "上載失敗",
+    "sourceImageRequired": "請上載來源圖片",
+    "promptRequired": "請輸入轉換提示詞",
+    "generationFailed": "圖片生成失敗",
+    "taskFailed": "任務處理失敗",
+    "taskTimeout": "任務處理逾時，請稍後重試",
+    "taskIdNotFound": "無法取得任務 ID，請檢查 API 回應格式",
+    "processingFailed": "處理失敗，請重試",
+    "statusQueryFailed": "查詢任務狀態失敗",
+    "apiResponseParseFailed": "解析 API 回應失敗"
+  },
+  "page": {
+    "metadata": {
+      "title": "Seedream 5.0 Lite 圖生圖 AI 工具 - 用 AI 轉換圖片 | joymagic",
+      "description": "使用 Seedream 5.0 Lite 圖生圖 AI 轉換同編輯您嘅圖片。上載圖片並透過先進嘅 AI 編輯進行轉換。快速、高質素嘅結果。",
+      "keywords": "seedream 5.0 lite 圖生圖, seedream 圖片轉換, AI 圖片編輯器, 圖片編輯, 圖生圖 AI 工具, AI 圖片轉換器"
+    },
+    "hero": {
+      "title": "Seedream 5.0 Lite 圖生圖 AI - 用 AI 轉換您嘅圖片",
+      "description": "使用 Seedream 5.0 Lite 圖生圖 AI 轉換同編輯圖片。上載圖片並透過先進嘅 AI 編輯進行轉換。體驗快速、高質素嘅圖片轉換。",
+      "button1": "試用 Seedream 5.0 Lite 圖生圖",
+      "button2": "查看價格"
+    },
+    "keyFeatures": {
+      "title": "點解揀 Seedream 5.0 Lite 圖生圖？",
+      "description": "探索 Seedream 5.0 Lite 圖生圖 AI 嘅強大功能",
+      "singleImage": {
+        "title": "單張圖片上載",
+        "description": "上載一張圖片並描述您想要嘅轉換方式。簡單快捷。"
+      },
+      "highQuality": {
+        "title": "高質素 Seedream 效果",
+        "description": "使用 Seedream 5.0 Lite AI 獲得卓越嘅圖片質素。生成具有出色細節同清晰度嘅高解像度轉換圖片。"
+      },
+      "styleFlexibility": {
+        "title": "多樣化風格轉換",
+        "description": "使用 Seedream 5.0 Lite 以各種風格轉換圖片——寫實、藝術、抽象等。透過詳細提示詞完全控制。"
+      },
+      "affordable": {
+        "title": "價格實惠",
+        "description": "經濟實惠嘅圖片轉換。按使用量付費，適合任何規模嘅項目。"
+      }
+    },
+    "promptingTips": {
+      "title": "如何使用 Seedream 5.0 Lite 圖生圖獲得最佳效果",
+      "specific": {
+        "title": "提示詞要具體",
+        "description": "為獲得最佳效果，請準確描述您想要嘅轉換。例如：「轉換為動漫風格」或「令其看起來像油畫」。"
+      },
+      "style": {
+        "title": "指定藝術風格",
+        "description": "提及您想要嘅藝術風格：「動漫風格」、「油畫」、「數碼藝術」等。"
+      },
+      "color": {
+        "title": "色彩同氛圍設定",
+        "description": "透過描述色彩方案同氛圍嚟增強轉換效果：「鮮豔色彩」、「柔和色調」、「暗色調」等。"
+      },
+      "details": {
+        "title": "添加詳細說明",
+        "description": "透過包含光照、構圖以及您想要保留或更改嘅特定元素嘅詳細資訊嚟最大化質素。"
+      }
+    },
+    "useCases": {
+      "title": "Seedream 5.0 Lite 圖生圖使用場景",
+      "style": {
+        "title": "藝術風格轉換",
+        "description": "將相片轉換為唔同嘅藝術風格——動漫、水彩、油畫等。非常適合創意項目。"
+      },
+      "product": {
+        "title": "產品攝影增強",
+        "description": "為營銷素材同社交媒體轉換產品相片。快速建立多種風格變體。"
+      },
+      "creative": {
+        "title": "創意設計項目",
+        "description": "為創意項目嘗試唔同嘅藝術風格同轉換。搵到完美嘅外觀。"
+      },
+      "personal": {
+        "title": "個人使用",
+        "description": "用 AI 重新想像您嘅相片——透過一個提示詞改變情緒、風格或場景。"
+      }
+    },
+    "faq": {
+      "title": "Seedream 5.0 Lite 圖生圖常見問題",
+      "description": "關於 Seedream 5.0 Lite 圖生圖 AI 工具嘅常見問題",
+      "q1": {
+        "question": "我可以上載幾多張圖片？",
+        "answer": "每次上載一張圖片。喺提示詞中描述您嘅轉換需求並生成。"
+      },
+      "q2": {
+        "question": "費用係幾多？",
+        "answer": "每次圖片轉換消耗固定數量嘅積分。請查看定價頁面了解目前費率。"
+      },
+      "q3": {
+        "question": "Seedream 5.0 Lite 支援邊啲圖片格式？",
+        "answer": "Seedream 5.0 Lite 支援 PNG、JPEG、JPG 同 WebP 格式。請確保您嘅圖片清晰且光線充足以獲得最佳效果。"
+      },
+      "q4": {
+        "question": "點樣為 Seedream 5.0 Lite 撰寫提示詞？",
+        "answer": "為獲得最佳效果，請包含詳細描述：主題、場景、光照、風格、情緒同構圖。更多細節通常會產生更好嘅轉換效果。"
+      },
+      "q5": {
+        "question": "我可以多次轉換同一張圖片嗎？",
+        "answer": "係嘅，您可以對同一張圖片使用唔同嘅提示詞嚟獲得唔同嘅轉換效果。"
+      }
+    },
+    "finalCTA": {
+      "title": "準備試用 Seedream 5.0 Lite 圖生圖了嗎？",
+      "description": "立即開始使用 Seedream 5.0 Lite AI 轉換您嘅圖片。體驗快速、高質素嘅圖片轉換。",
+      "button": "立即試用 Seedream 5.0 Lite 圖生圖"
+    },
+    "breadcrumb": {
+      "home": "首頁",
+      "imageToImage": "圖生圖",
+      "seedreamLite": "Seedream 5.0 Lite"
+    },
+    "schema": {
+      "softwareName": "joymagic 嘅 Seedream 5.0 Lite 圖生圖 AI 工具",
+      "howToName": "如何使用 Seedream 5.0 Lite 圖生圖 AI",
+      "howToDescription": "了解如何使用 Seedream 5.0 Lite 圖生圖 AI 轉換圖片。上載圖片並透過 AI 編輯進行轉換。",
+      "features": {
+        "aiImageEditing": "Seedream 5.0 Lite 圖生圖 AI 編輯",
+        "singleImage": "使用 Seedream 5.0 Lite 進行單張圖片轉換",
+        "highQuality": "高質素 Seedream 5.0 Lite 輸出"
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "prompt": "A confident young woman in a cinematic editorial portrait slowly turns toward camera, subtle breathing, soft studio rim light, premium fashion magazine styling, natural eye movement, shallow depth of field",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/dcff53ee98164b677f8b7493a7e981ef.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/dcff53ee98164b677f8b7493a7e981ef.png",
+          "status": "uploaded"
+        }
+      ],
+      "audioTrack": [
+        {
+          "id": "audioTrack-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/audios/4407803c6c2e1bc22f688214e705abcf.mp3",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/audios/4407803c6c2e1bc22f688214e705abcf.mp3",
+          "status": "uploaded",
+          "duration": 5
+        }
+      ],
+      "prompt": "A confident young woman in a cinematic editorial portrait slowly turns toward camera, subtle breathing, soft studio rim light, premium fashion magazine styling, natural eye movement, shallow depth of field",
+      "resolution": "480p",
+      "seed": "62872993"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/c809efcacbb19f899c9c0ef7163d9abf.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/c809efcacbb19f899c9c0ef7163d9abf.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/a08f87e265e303179328b9409dc83f31.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/a08f87e265e303179328b9409dc83f31.mp4"
+    ],
+    "generatedAt": "2026-04-15T08:12:14.996Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/6bc39137d68e24149443c8c52cae9844.mp4"
+  },
+  {
+    "prompt": "A stylish model walks through a neon city crosswalk at night, candid street fashion motion, subtle camera follow, reflective pavement, luxury streetwear campaign energy",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/466fce3aafe9e7b2fac665a9fe3b4bd0.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/466fce3aafe9e7b2fac665a9fe3b4bd0.png",
+          "status": "uploaded"
+        }
+      ],
+      "audioTrack": [
+        {
+          "id": "audioTrack-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/audios/386416cad6c06b356bdbc348bce0435a.wav",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/audios/386416cad6c06b356bdbc348bce0435a.wav",
+          "status": "uploaded",
+          "duration": 5
+        }
+      ],
+      "prompt": "A stylish model walks through a neon city crosswalk at night, candid street fashion motion, subtle camera follow, reflective pavement, luxury streetwear campaign energy",
+      "resolution": "720p",
+      "seed": "1344666630"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/48556b1f915e87b826aa6ebbb5e0a388.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/48556b1f915e87b826aa6ebbb5e0a388.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/717ec5531a68900d08131987bc198eeb.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/717ec5531a68900d08131987bc198eeb.mp4"
+    ],
+    "generatedAt": "2026-04-15T08:33:37.031Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/7379d12490a912dc1ef8c437d1dd04fd.mp4"
+  },
+  {
+    "prompt": "Golden hour mountain landscape with a winding lake, clouds drifting slowly, gentle push-in camera, volumetric sunlight, crisp alpine atmosphere, cinematic nature documentary",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/81b608d21a0d544bdc9276d651a6ba92.jpg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/81b608d21a0d544bdc9276d651a6ba92.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "audioTrack": [
+        {
+          "id": "audioTrack-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/audios/ecf7bbbe73b7f0a7233159c9cbe69a61.wav",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/audios/ecf7bbbe73b7f0a7233159c9cbe69a61.wav",
+          "status": "uploaded",
+          "duration": 5
+        }
+      ],
+      "prompt": "Golden hour mountain landscape with a winding lake, clouds drifting slowly, gentle push-in camera, volumetric sunlight, crisp alpine atmosphere, cinematic nature documentary",
+      "resolution": "480p",
+      "seed": "656986496"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/70a4baf61782202f01ed36d61158312d.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/70a4baf61782202f01ed36d61158312d.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/4444cb1b17dba11f97781e457931b62a.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/4444cb1b17dba11f97781e457931b62a.mp4"
+    ],
+    "generatedAt": "2026-04-15T11:11:48.127Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/709b6944ead8f529bae0e45d5f18bb8f.mp4"
+  },
+  {
+    "prompt": "A colorful Mediterranean coastal town under bright midday sun, sea shimmering softly, light breeze in hanging flags, postcard-perfect travel shot, slow crane movement",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/3056caf7a15b12011c241888b7e919bf.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/3056caf7a15b12011c241888b7e919bf.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "audioTrack": [
+        {
+          "id": "audioTrack-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/audios/6cb5f80b02034fde7f78e330359b69ec.mp3",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/audios/6cb5f80b02034fde7f78e330359b69ec.mp3",
+          "status": "uploaded",
+          "duration": 5
+        }
+      ],
+      "prompt": "A colorful Mediterranean coastal town under bright midday sun, sea shimmering softly, light breeze in hanging flags, postcard-perfect travel shot, slow crane movement",
+      "resolution": "480p",
+      "seed": "1250538848"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/92005ccb63049a4727c5f090c597abd3.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/92005ccb63049a4727c5f090c597abd3.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/d6831ca8cfcdd29d449a9d214e6a9ac4.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/d6831ca8cfcdd29d449a9d214e6a9ac4.mp4"
+    ],
+    "generatedAt": "2026-04-15T08:38:39.972Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/031661e55c6f33505c7af919b37ffac9.mp4"
+  },
+  {
+    "prompt": "An armored hero faces a colossal dragon above ruined cliffs, cape fluttering, dragon breathing smoke, dramatic atmosphere, AAA fantasy game cinematic, slow epic camera move",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/fded63d1da64c3079339706f9d1d0cdc.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/fded63d1da64c3079339706f9d1d0cdc.png",
+          "status": "uploaded"
+        }
+      ],
+      "audioTrack": [
+        {
+          "id": "audioTrack-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/audios/c49d8a734cc3ef5ac3fb2f3ee6a9bd54.mp3",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/audios/c49d8a734cc3ef5ac3fb2f3ee6a9bd54.mp3",
+          "status": "uploaded",
+          "duration": 5
+        }
+      ],
+      "prompt": "An armored hero faces a colossal dragon above ruined cliffs, cape fluttering, dragon breathing smoke, dramatic atmosphere, AAA fantasy game cinematic, slow epic camera move",
+      "resolution": "480p",
+      "seed": "2129705593"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/7accabbbca0f339f426e5488e25a96ee.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/7accabbbca0f339f426e5488e25a96ee.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/d932014631b8c4e598764ab0a1983795.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/d932014631b8c4e598764ab0a1983795.mp4"
+    ],
+    "generatedAt": "2026-04-15T08:39:35.186Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/c9b58727c95190412aa394de590912ce.mp4"
+  }
+]

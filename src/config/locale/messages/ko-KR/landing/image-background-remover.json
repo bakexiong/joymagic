@@ -1,0 +1,195 @@
+{
+  "imageBackgroundRemover": {
+    "id": "image-background-remover",
+    "title": "joymagic 배경 제거 AI",
+    "description": "AI 정밀도로 이미지에서 배경을 즉시 제거. 제품 사진, 인물 사진 등에 완벽합니다.",
+    "steps": {
+      "sourceImage": {
+        "title": "원본 이미지 업로드",
+        "hint": "여기에 이미지 업로드 JPG/PNG/WEBP",
+        "dragDrop": "드래그 앤 드롭 또는 클릭하여 업로드",
+        "dropHere": "여기에 이미지 드롭"
+      },
+      "generate": {
+        "title": "배경 제거",
+        "cta": "배경 제거",
+        "generating": "배경 제거 중..."
+      }
+    },
+    "preview": {
+      "title": "미리보기",
+      "original": "원본",
+      "backgroundRemoved": "배경 제거됨",
+      "placeholder": "이미지를 업로드하여 배경 제거 결과를 여기서 확인하세요."
+    },
+    "common": {
+      "selected": "선택됨: {name}",
+      "notSelected": "선택되지 않음"
+    },
+    "errors": {
+      "invalidFileType": "잘못된 파일 형식입니다. 이미지 파일(JPG, PNG, WEBP)을 업로드해 주세요.",
+      "uploadFailed": "업로드 실패: {error}",
+      "uploadFailedGeneric": "업로드 실패",
+      "sourceImageRequired": "먼저 원본 이미지를 업로드해 주세요",
+      "generationFailed": "배경 제거 실패",
+      "taskFailed": "작업 처리 실패",
+      "taskTimeout": "작업 처리 시간 초과, 나중에 다시 시도해 주세요",
+      "taskIdNotFound": "작업 ID를 가져올 수 없습니다. API 응답 형식을 확인해 주세요",
+      "processingFailed": "처리 실패, 다시 시도해 주세요",
+      "statusQueryFailed": "작업 상태 조회 실패",
+      "apiResponseParseFailed": "API 응답 구문 분석 실패",
+      "downloadFailed": "이미지 다운로드 실패"
+    },
+    "download": {
+      "title": "이미지 다운로드"
+    },
+    "alt": {
+      "sourcePreview": "원본 미리보기",
+      "enlargedPreview": "확대된 미리보기",
+      "source": "원본",
+      "generated": "생성됨"
+    }
+  },
+  "imageBackgroundRemoverPage": {
+    "metadata": {
+      "title": "AI 이미지 배경 제거 온라인 | 배경 즉시 제거 | joymagic",
+      "description": "joymagic의 AI 배경 제거 도구로 모든 이미지에서 배경을 즉시 제거. 원클릭, 완벽한 잘라내기 – 편집 기술 불필요. HD 다운로드, 워터마크 없음, 일괄 처리 지원.",
+      "keywords": "AI 이미지 배경 제거, 배경 제거, 투명 배경, 온라인 배경 제거, AI 배경 제거, 제품 사진 편집기, 인물 배경 제거, 일괄 배경 제거"
+    },
+    "hero": {
+      "title": "AI 이미지 배경 제거 온라인",
+      "description": "joymagic의 AI 배경 제거 도구로 모든 이미지에서 배경을 즉시 제거. 원클릭, 완벽한 잘라내기 – 편집 기술 불필요.",
+      "button1": "지금 배경 제거",
+      "button2": "무료로 시작 · 신용카드 불필요"
+    },
+    "heroDescription": "✓ HD 다운로드  ✓ 워터마크 없음  ✓ 일괄 처리 지원",
+    "whatIsAIBackgroundRemover": {
+      "title": "AI 이미지 배경 제거란?",
+      "description": "joymagic의 AI 이미지 배경 제거는 고급 딥러닝을 사용하여 사진의 주요 피사체를 자동으로 감지하고 몇 초 만에 배경을 정확하게 제거합니다. 마스킹과 브러싱이 필요한 수동 도구나 기본 편집기와 달리, 저희 AI는:",
+      "features": [
+        "사람, 제품, 동물, 자동차, 물체를 지능적으로 식별",
+        "머리카락, 털, 세부 사항과 같은 복잡한 가장자리 처리",
+        "깨끗하고 투명한 잘라내기(PNG) 생성 또는 모든 색상으로 교체",
+        "매번 전문적인 결과 제공"
+      ],
+      "perfectFor": "제품 사진, 인물 사진, 프로필 사진, 소셜 미디어 콘텐츠, 전자상거래 목록, 디자인 프로젝트에 완벽합니다."
+    },
+    "keyFeatures": {
+      "title": "주요 기능",
+      "description": "속도와 품질을 위해 구축된 강력한 AI 배경 제거 기능.",
+      "oneClickPrecision": {
+        "title": "원클릭 정밀 제거",
+        "description": "<p class=\"mb-3\">최첨단 AI가 머리카락, 털, 투명한 물체와 같은 까다로운 세부 사항도 처리 – 몇 초 만에 결과 제공.</p>"
+      },
+      "highQualityTransparent": {
+        "title": "고품질 투명 출력",
+        "description": "<p class=\"mb-3\">부드러운 가장자리와 아티팩트 없는 전체 HD의 선명하고 전문적인 잘라내기를 다운로드.</p>"
+      },
+      "batchRemoval": {
+        "title": "일괄 배경 제거",
+        "description": "<p class=\"mb-3\">여러 이미지를 한 번에 업로드하고 처리 – 제품 카탈로그 또는 대량 편집에 완벽합니다.</p>"
+      },
+      "cleanProfessional": {
+        "title": "깨끗하고 전문적인 결과",
+        "description": "<p class=\"mb-3\">워터마크 없음, 흐릿한 가장자리 없음 – 전자상거래, 프레젠테이션 또는 디자인에 바로 사용 가능.</p>"
+      },
+      "replaceBackground": {
+        "title": "배경 교체",
+        "description": "<p class=\"mb-3\">원클릭으로 흰색, 컬러 또는 사용자 정의 배경으로 쉽게 전환.</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "joymagic AI 배경 제거로 할 수 있는 것",
+      "description": "한 번의 업로드, 끝없는 창의적 가능성.",
+      "productPhotos": {
+        "title": "멋진 제품 사진 만들기",
+        "description": "<p class=\"mb-3\">제품 사진에서 산만한 배경을 제거하고 Amazon, Shopify 또는 목록용으로 깨끗한 흰색 또는 투명 배경에 항목 배치.</p>"
+      },
+      "profilePictures": {
+        "title": "전문적인 프로필 사진 만들기",
+        "description": "<p class=\"mb-3\">LinkedIn, 이력서, 신분증 사진 또는 데이팅 프로필용 인물 사진을 즉시 분리.</p>"
+      },
+      "graphicsMemes": {
+        "title": "그래픽 및 밈 디자인",
+        "description": "<p class=\"mb-3\">사람, 물체 또는 동물을 추출하여 새로운 배경, 포스터 또는 소셜 미디어 비주얼에 레이어링.</p>"
+      },
+      "ecommerce": {
+        "title": "전자상거래용 이미지 준비",
+        "description": "<p class=\"mb-3\">일괄 제거로 수백 개의 제품 이미지를 빠르게 처리 – 수동 편집 시간 절약.</p>"
+      },
+      "socialMedia": {
+        "title": "소셜 미디어 콘텐츠 향상",
+        "description": "<p class=\"mb-3\">투명한 스티커 또는 깨끗한 잘라내기로 눈에 띄는 스토리, 게시물 및 릴 만들기.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "이미지에서 배경 제거하는 방법",
+      "description": "AI 배경 제거 도구로 몇 가지 간단한 단계만으로 배경 제거:",
+      "step1": {
+        "title": "1. 이미지 업로드",
+        "description": "<p class=\"mb-3\">사진을 드래그 앤 드롭하거나 선택.</p><p class=\"mb-3\">JPG, JPEG, PNG, WEBP 및 HEIC 형식 지원.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>인물 사진, 제품 사진, 로고 등에 작동</li><li>명확한 피사체로 최상의 결과</li></ul>"
+      },
+      "step2": {
+        "title": "2. AI가 마법을 부리도록",
+        "description": "<p class=\"mb-3\">저희 AI가 자동으로 감지하고 몇 초 만에 배경을 제거합니다.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>수동 브러싱 또는 선택 불필요</li><li>투명한 결과 즉시 미리보기</li></ul>"
+      },
+      "step3": {
+        "title": "3. 정제(선택 사항)",
+        "description": "<p class=\"mb-3\">필요한 경우 미세 조정:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>피사체의 일부 복원</li><li>남은 배경 지점 지우기</li><li>완벽한 잘라내기를 위한 가장자리 부드럽게</li></ul>"
+      },
+      "step4": {
+        "title": "4. 결과 다운로드",
+        "description": "<p class=\"mb-3\">배경 없는 이미지를 즉시 받으세요:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>투명 PNG(오버레이에 이상적)</li><li>또는 단색/흰색 배경 선택</li><li>HD 품질, 바로 사용 가능</li></ul>"
+      }
+    },
+    "faq": {
+      "title": "AI 이미지 배경 제거 FAQ",
+      "description": "AI 이미지 배경 제거에 대한 일반적인 질문.",
+      "q1": {
+        "question": "어떤 이미지 형식이 지원되나요?",
+        "answer": "JPG, JPEG, PNG, WEBP 및 HEIC를 지원합니다. 최상의 결과를 위해 고품질 이미지를 사용하세요."
+      },
+      "q2": {
+        "question": "내 이미지에 워터마크가 있나요?",
+        "answer": "아니요. 모든 다운로드는 깨끗하고 워터마크가 없습니다."
+      },
+      "q3": {
+        "question": "AI의 정확도는 어느 정도인가요?",
+        "answer": "저희 AI는 머리카락, 털, 복잡한 가장자리에서 뛰어납니다. 매우 복잡한 경우에는 간단한 정제 도구를 사용하여 결과를 완벽하게 만드세요."
+      },
+      "q4": {
+        "question": "여러 이미지에서 배경을 제거할 수 있나요?",
+        "answer": "예 – 일괄 처리를 통해 여러 이미지를 한 번에 업로드하고 배경을 제거할 수 있습니다."
+      },
+      "q5": {
+        "question": "내 데이터가 안전한가요?",
+        "answer": "예. 업로드된 이미지는 안전하게 처리되며 처리 후 자동으로 삭제됩니다. 저희는 귀하의 이미지를 훈련에 사용하지 않습니다."
+      },
+      "q6": {
+        "question": "배경 색상을 변경할 수 있나요?",
+        "answer": "예 – 투명 배경으로 다운로드하거나 흰색/단색 배경을 선택할 수 있습니다."
+      },
+      "q7": {
+        "question": "어떤 종류의 이미지가 가장 잘 작동하나요?",
+        "answer": "대조적이거나 어수선한 배경에 대해 명확한 주요 피사체(사람, 제품, 물체, 동물)가 있는 이미지가 최상의 자동 결과를 제공합니다. 인물 사진, 제품 사진 및 로고가 특히 잘 작동합니다."
+      },
+      "q8": {
+        "question": "AI 제거 후 결과를 정제하거나 편집할 수 있나요?",
+        "answer": "예 – 간단한 브러시 도구를 사용하면 실수로 제거된 부분을 수동으로 복원하거나 남은 배경 지점을 지워 픽셀 단위의 완벽한 제어가 가능합니다."
+      }
+    },
+    "privacySecurity": {
+      "title": "개인정보 보호 및 보안",
+      "description": "귀하의 이미지와 개인정보 보호가 최우선입니다.",
+      "secureProcessing": "모든 업로드는 안전하게 암호화되어 처리됩니다",
+      "autoDelete": "이미지는 처리 후 자동으로 삭제됩니다",
+      "neverShared": "제3자와 공유되지 않으며 AI 훈련에도 사용되지 않습니다"
+    },
+    "finalCTA": {
+      "title": "모든 사진을 깨끗하고 전문적인 잘라내기로 변환하세요.",
+      "description": "joymagic의 AI 배경 제거를 지금 시도하고 몇 초 만에 완벽한 투명 결과를 얻으세요.<br/><span class=\"text-muted-foreground\">디자인 기술 불필요 · 무료로 시도</span>",
+      "button": "지금 배경 제거"
+    }
+  }
+}
+

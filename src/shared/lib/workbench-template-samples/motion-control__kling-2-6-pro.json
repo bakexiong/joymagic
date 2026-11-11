@@ -1,0 +1,134 @@
+[
+  {
+    "prompt": "A confident young woman in a cinematic editorial portrait slowly turns toward camera, subtle breathing, soft studio rim light, premium fashion magazine styling, natural eye movement, shallow depth of field",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/6911f04f50233e7d31f26c9a681f2a8d.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/6911f04f50233e7d31f26c9a681f2a8d.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "referenceVideo": [
+        {
+          "id": "referenceVideo-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/videos/435494a6e35ee82249d579fb40932109.mp4",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/videos/435494a6e35ee82249d579fb40932109.mp4",
+          "status": "uploaded",
+          "duration": 5
+        }
+      ],
+      "prompt": "A confident young woman in a cinematic editorial portrait slowly turns toward camera, subtle breathing, soft studio rim light, premium fashion magazine styling, natural eye movement, shallow depth of field",
+      "negativePrompt": "",
+      "keepOriginalSound": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/af66d9a6b920fb411b0f227ea013fb17.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/af66d9a6b920fb411b0f227ea013fb17.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/3084e09a276213df423041511ecdb816.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/3084e09a276213df423041511ecdb816.mp4"
+    ],
+    "generatedAt": "2026-04-15T08:17:58.028Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/66399c594a6bb904e31928396635fa45.mp4"
+  },
+  {
+    "prompt": "A stylish model walks through a neon city crosswalk at night, candid street fashion motion, subtle camera follow, reflective pavement, luxury streetwear campaign energy",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/bbf3c729cb325cc919573a909b064cb3.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/bbf3c729cb325cc919573a909b064cb3.png",
+          "status": "uploaded"
+        }
+      ],
+      "referenceVideo": [
+        {
+          "id": "referenceVideo-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/videos/abb05c2e90b11ba2d609933f8a52ac97.mp4",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/videos/abb05c2e90b11ba2d609933f8a52ac97.mp4",
+          "status": "uploaded",
+          "duration": 5
+        }
+      ],
+      "prompt": "A stylish model walks through a neon city crosswalk at night, candid street fashion motion, subtle camera follow, reflective pavement, luxury streetwear campaign energy",
+      "negativePrompt": "",
+      "keepOriginalSound": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/3587363fa684d47a04dc70ab0b2466ee.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/3587363fa684d47a04dc70ab0b2466ee.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/1e7f4cc939d860e2f1079128ab604c8f.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/1e7f4cc939d860e2f1079128ab604c8f.mp4"
+    ],
+    "generatedAt": "2026-04-15T08:20:43.898Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/6d15deabc69af1715c967652c3a9a2ee.mp4"
+  },
+  {
+    "prompt": "Golden hour mountain landscape with a winding lake, clouds drifting slowly, gentle push-in camera, volumetric sunlight, crisp alpine atmosphere, cinematic nature documentary",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/19a086666482039e5e24641ecc9499ec.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/19a086666482039e5e24641ecc9499ec.png",
+          "status": "uploaded"
+        }
+      ],
+      "referenceVideo": [
+        {
+          "id": "referenceVideo-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/videos/535b6a2b888c0d3fb9980fdfee9fb410.mp4",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/videos/535b6a2b888c0d3fb9980fdfee9fb410.mp4",
+          "status": "uploaded",
+          "duration": 5
+        }
+      ],
+      "prompt": "Golden hour mountain landscape with a winding lake, clouds drifting slowly, gentle push-in camera, volumetric sunlight, crisp alpine atmosphere, cinematic nature documentary",
+      "negativePrompt": "",
+      "keepOriginalSound": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/da49288ef87a9f6ce37a63c4b35f1573.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/da49288ef87a9f6ce37a63c4b35f1573.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/fe6eb99ae4f3b2b602df4aa4f601630b.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/fe6eb99ae4f3b2b602df4aa4f601630b.mp4"
+    ],
+    "generatedAt": "2026-04-15T08:23:50.302Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/9f00c5a8ffc58a9c1246372692ad3398.mp4"
+  },
+  {
+    "prompt": "A colorful Mediterranean coastal town under bright midday sun, sea shimmering softly, light breeze in hanging flags, postcard-perfect travel shot, slow crane movement",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/feacf8a8eddcf8d28c925ebb996a2875.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/feacf8a8eddcf8d28c925ebb996a2875.png",
+          "status": "uploaded"
+        }
+      ],
+      "referenceVideo": [
+        {
+          "id": "referenceVideo-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/videos/0a8d60646906410badae17ae35415e71.mp4",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/videos/0a8d60646906410badae17ae35415e71.mp4",
+          "status": "uploaded",
+          "duration": 5
+        }
+      ],
+      "prompt": "A colorful Mediterranean coastal town under bright midday sun, sea shimmering softly, light breeze in hanging flags, postcard-perfect travel shot, slow crane movement",
+      "negativePrompt": "",
+      "keepOriginalSound": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/d134b7cbe897fa9f6c6777f635c17a7f.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/d134b7cbe897fa9f6c6777f635c17a7f.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/ed95bd2bada495c2c6b306cff5026707.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/ed95bd2bada495c2c6b306cff5026707.mp4"
+    ],
+    "generatedAt": "2026-04-15T08:26:55.048Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/11a9676ae72cf4d28c13b6f084839a26.mp4"
+  }
+]

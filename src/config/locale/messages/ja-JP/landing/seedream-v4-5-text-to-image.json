@@ -1,0 +1,167 @@
+{
+  "title": "Seedream V4.5 Text to Image",
+  "subtitle": "Generate stunning images from text descriptions",
+  "prompt_label": "プロンプト",
+  "prompt_placeholder": "Nighttime outdoor photoshoot: A young man stands inside a public phone booth, holding a blue phone receiver to his ear. One hand is casually tucked into his pocket, and he strikes a relaxed posture. He wears a white T-shirt with a pattern, loose brown pants, and jacket draped over his arm. The booth's glass reflects city streetlights with a bokeh effect, creating a vintage film style.",
+  "prompt_tooltip": "Enter a description of the image you want to generate",
+  "size_label": "画像サイズ",
+  "size_hint": "出力画像のサイズを選択",
+  "width_label": "幅",
+  "height_label": "高さ",
+  "buttons": {
+    "generate": "画像を生成"
+  },
+  "errors": {
+    "promptRequired": "Prompt is required"
+  },
+  "image_alt": "Generated image",
+  "download": "Download",
+  "image_placeholder": "生成された画像がここに表示されます",
+  "prompt_inspirations_button": "プロンプトのインスピレーション",
+  "prompt_guide_button": "プロンプトガイド",
+  "powered_by": "joymagicによって最適化されたSeedream V4.5 AIモデルによって提供",
+  "page": {
+    "metadata": {
+      "title": "Seedream 4.5 Text to Image - AI Image Generator | joymagic",
+      "description": "ByteDanceのSeedream 4.5を使用してテキストから画像を生成。写真のようなシーン、イラスト、アートを作成。英語と中国語のバイリンガルプロンプト。",
+      "keywords": "text to image, ai image generator, seedream v4.5, ai art generator, text to image ai, image generation"
+    },
+    "hero": {
+      "title": "Seedream 4.5 Text to Image",
+      "description": "Seedream 4.5は、テキストの説明を画像に変換するByteDanceのAIモデルです。英語または中国語で任意のシーン、キャラクター、コンセプトを記述してください。以下でSeedream 4.5を無料でお試しください！",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "heroDescription": "Create stunning images from simple text descriptions using advanced AI technology.",
+    "keyFeatures": {
+      "title": "主な機能",
+      "description": "強力なAI画像生成機能",
+      "photorealistic": {
+        "title": "写真のような品質",
+        "description": "プロの写真のような画像を生成。正確な肌の質感、自然な照明、リアルな環境—AI画像によくある不気味の谷効果なし。"
+      },
+      "complexScene": {
+        "title": "複雑なシーンの理解",
+        "description": "複数の被写体、空間関係、特定の照明を含む詳細なシナリオを記述。モデルはテキストから構図、配置、雰囲気を正確に解釈します。"
+      },
+      "bilingual": {
+        "title": "バイリンガルプロンプト",
+        "description": "英語、中国語、または両方で記述。モデルはどちらの言語の微妙な説明も同等に理解します—中国の文化的参照や特定の専門用語に便利です。"
+      },
+      "fastGeneration": {
+        "title": "高速生成",
+        "description": "数秒で高解像度画像を生成。リアルタイムの創造的な探索と反復に十分な速さです。"
+      },
+      "styleFlexibility": {
+        "title": "スタイルの柔軟性",
+        "description": "写真のような画像、アニメイラスト、油絵、水彩画、3Dレンダリングなどを作成。プロンプトで希望のスタイルを指定するか、モデルに被写体に合わせさせます。"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "Generate images in three simple steps",
+      "step1": {
+        "title": "Enter Your Prompt",
+        "description": "Describe the image you want to generate"
+      },
+      "step2": {
+        "title": "Choose Settings",
+        "description": "Select output format and preferences"
+      },
+      "step3": {
+        "title": "Generate & Download",
+        "description": "Get your AI-generated image and download it"
+      }
+    },
+    "promptingTips": {
+      "title": "プロンプトのコツ",
+      "lighting": {
+        "title": "照明を具体的に指定",
+        "description": "\"左からのゴールデンアワーの陽光、柔らかな影\"は\"良い照明\"よりも効果的です。"
+      },
+      "camera": {
+        "title": "カメラの詳細を含める",
+        "description": "\"85mmレンズで撮影、浅い被写界深度\"はプロの写真品質を追加します。"
+      },
+      "style": {
+        "title": "アートスタイルを指定",
+        "description": "\"スタジオジブリスタイルのデジタルイラスト\"や\"超リアルな3Dレンダリング\"は明確な方向性を与えます。"
+      },
+      "mood": {
+        "title": "ムードと雰囲気を記述",
+        "description": "\"居心地の良い、温かい、懐かしい感じ\"や\"ドラマチック、映画的、高コントラスト\"が全体の画像を形作ります。"
+      }
+    },
+    "useCases": {
+      "title": "使用例",
+      "marketing": {
+        "title": "マーケティングビジュアル",
+        "description": "写真撮影なしで製品コンセプト、広告画像、ソーシャルメディアコンテンツを生成。"
+      },
+      "character": {
+        "title": "キャラクターデザイン",
+        "description": "テキストの説明からゲーム、漫画、アニメーションプロジェクトのオリジナルキャラクターを作成。"
+      },
+      "concept": {
+        "title": "コンセプトアート",
+        "description": "創造的なプロジェクトやプレゼンテーションのために、シーン、環境、アイデアを迅速に視覚化。"
+      },
+      "stock": {
+        "title": "ストック写真の代替",
+        "description": "一般的なストックライブラリを検索する代わりに、必要な特定の画像を生成。"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "Seedream 4.5 Text to Imageに関するよくある質問",
+      "q1": {
+        "question": "Seedream 4.5とは何ですか？",
+        "answer": "Seedream 4.5は、テキストの説明から画像を作成するByteDanceのAI画像生成モデルです。高解像度の写真のような画像とスタイライズされた画像を生成します。"
+      },
+      "q2": {
+        "question": "プロンプトはどの程度詳細にすべきですか？",
+        "answer": "より詳細なほど、一般的に良い結果が得られます。被写体、設定、照明、スタイル、ムード、カメラアングルを含めてください。数文から始めて、必要に応じて追加してください。"
+      },
+      "q3": {
+        "question": "どのようなスタイルを生成できますか？",
+        "answer": "写真のような、アニメ、油絵、水彩、3Dレンダリング、スケッチなど。プロンプトでスタイルを指定するか、特定のアーティストやスタジオを参照してください。"
+      },
+      "q4": {
+        "question": "中国語のプロンプトをサポートしていますか？",
+        "answer": "はい、Seedream 4.5は英語と中国語の両方を同等に理解します。どちらの言語でもプロンプトを書くことができ、両方を混在させることもできます。"
+      },
+      "q5": {
+        "question": "GPT-Image-1との違いは何ですか？",
+        "answer": "Seedream 4.5はバイリンガルプロンプトとマルチ画像ブレンディング（画像から画像モード）に優れています。GPT-Image-1は画像内のテキストレンダリングにより適しています。主なニーズに基づいて選択してください。"
+      }
+    },
+    "privacySecurity": {
+      "title": "Privacy & Security",
+      "description": "Your privacy and security are our top priorities.",
+      "secureProcessing": "Secure Processing",
+      "autoDelete": "Auto Delete",
+      "neverShared": "Never Shared"
+    },
+    "finalCTA": {
+      "title": "Ready to Create?",
+      "description": "Start generating amazing images from your text descriptions today.",
+      "button": "今すぐ試す"
+    },
+    "breadcrumb": {
+      "home": "ホーム",
+      "textToImage": "テキストから画像",
+      "seedreamV45": "Seedream 4.5"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Seedream 4.5 テキストから画像",
+      "howToName": "Seedream 4.5で画像を生成する方法",
+      "howToDescription": "Seedream 4.5を使用してテキストの説明から画像を生成",
+      "features": {
+        "aiTextToImage": "AIテキストから画像生成",
+        "highQuality": "高品質画像",
+        "fastProcessing": "高速処理"
+      }
+    }
+  }
+}
+

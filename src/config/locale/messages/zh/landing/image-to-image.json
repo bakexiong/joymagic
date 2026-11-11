@@ -1,0 +1,255 @@
+{
+  "imageToImage": {
+    "id": "image-to-image",
+    "title": "joymagic 图生图 AI 生成器",
+    "description": "几秒钟内将任何图片转换为品牌视觉。无需设计技能。",
+    "steps": {
+      "sourceImage": {
+        "title": "上传源图片",
+        "cta": "拖拽/点击上传",
+        "hint": "支持 JPG/PNG/WEBP",
+        "dragDrop": "拖拽或点击上传",
+        "dropHere": "将图片拖放到此处"
+      },
+      "prompt": {
+        "title": "输入转换提示词",
+        "placeholder": "描述您想要如何转换图片，例如「让它看起来像一幅画」「将背景改为海滩」「添加日落天空」",
+        "hint": "请具体描述您想要做的更改"
+      },
+      "generate": {
+        "title": "生成转换后的图片",
+        "cta": "生成",
+        "generating": "生成中..."
+      }
+    },
+    "preview": {
+      "title": "预览",
+      "original": "原图",
+      "generated": "生成图",
+      "swap": "切换",
+      "placeholder": "上传图片并输入提示词，这里将显示转换效果。"
+    },
+    "templates": {
+      "title": "提示词模板",
+      "all": "全部",
+      "noItems": "此分类暂无模板"
+    },
+    "common": {
+      "selected": "已选择：{name}",
+      "notSelected": "未选择文件"
+    },
+    "errors": {
+      "invalidFileType": "无效的文件类型。请上传图片文件（JPG、PNG、WEBP）。",
+      "uploadFailed": "上传失败：{error}",
+      "uploadFailedGeneric": "上传失败",
+      "sourceImageRequired": "请先上传源图片",
+      "promptRequired": "请输入转换提示词",
+      "generationFailed": "图片生成失败",
+      "taskFailed": "任务处理失败",
+      "taskTimeout": "任务处理超时，请稍后重试",
+      "taskIdNotFound": "无法获取任务 ID，请检查 API 响应格式",
+      "processingFailed": "处理失败，请重试",
+      "statusQueryFailed": "查询任务状态失败"
+    }
+  },
+  "imageToImagePage": {
+    "metadata": {
+      "title": "图生图 AI 生成器 | 秒速生成品牌视觉 – joymagic",
+      "description": "使用 joymagic 的图生图 AI 生成器，将任何图片转换为品牌视觉。上传一张图片，获得不同风格和场景的无限变化。高清输出，快速生成，免费试用，商业可用。"
+    },
+    "hero": {
+      "title": "图生图 AI 生成器 – joymagic",
+      "description": "几秒钟内将任何图片转换为品牌视觉。无需设计技能。",
+      "button1": "从图片生成",
+      "button2": "免费开始 · 无需信用卡"
+    },
+    "heroDescription": "上传一张图片，获得无限变化——新风格、新场景、新氛围，同时保持核心主题一致。",
+    "builtFor": {
+      "title": "为现代创作者打造：",
+      "hdOutputs": "高清输出",
+      "fastGeneration": "快速生成",
+      "commercialReady": "商业可用"
+    },
+    "interfaceFeatures": {
+      "title": "在单一、简洁的界面上，您可以获得：",
+      "uploadArea": "用于上传参考图片的拖放区域",
+      "promptBox": "用于描述您想要的变化的提示框",
+      "styleDropdown": "风格下拉菜单（写实、动漫、插画、3D、像素、复古等）",
+      "strengthSlider": "变化强度滑块，从细微调整到完全重塑",
+      "generateButton": "单个生成按钮，从一张图片创建多个变化"
+    },
+    "whatYouCanDo": {
+      "title": "您可以用 joymagic 图生图做什么",
+      "description": "与其从零开始，不如从一张图片开始——让 joymagic 完成其余工作。",
+      "styleTransformations": {
+        "title": "风格与氛围转换",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>将照片转换为插画、动漫、绘画、3D 渲染、像素艺术等</li><li>改变光线、色彩和氛围，同时保持核心布局完整</li><li>快速测试同一视觉想法的不同艺术方向</li></ul><p class=\"text-sm text-muted-foreground italic\">当您知道想要展示什么，但想探索它的外观时，这是完美的选择。</p>"
+      },
+      "characterConsistency": {
+        "title": "角色与身份一致性",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>在多张图片中保持相同的面孔或角色</li><li>在改变姿势、场景或风格时，保持一致的头发、服装和关键特征</li><li>非常适合 VTuber、故事创作者、漫画创作者和吉祥物</li></ul><p class=\"text-sm text-muted-foreground italic\">无需手动重绘一切，即可建立可识别的视觉身份。</p>"
+      },
+      "productBrand": {
+        "title": "产品与品牌视觉",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>从单一基础图片生成多个产品照片</li><li>立即将同一产品放置到不同的场景、季节和活动概念中</li><li>保持标志、色彩和关键形状符合品牌</li></ul><p class=\"text-sm text-muted-foreground italic\">一次拍摄现在可以为整年的活动提供素材。</p>"
+      },
+      "socialContent": {
+        "title": "社交媒体与内容素材",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>将一张参考图片转换为完整的 YouTube/TikTok/Bilibili 缩略图、频道横幅、社交媒体帖子和博客标题</li><li>快速匹配每个平台的格式和氛围</li></ul><p class=\"text-sm text-muted-foreground italic\">减少寻找素材图片的时间，增加创作内容的时间。</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "joymagic 图生图的主要功能",
+      "description": "使用 AI 转换图片所需的一切，为速度和品质而打造。",
+      "uploadPromptTransform": {
+        "title": "上传、提示、转换",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>支持 JPG、PNG、WEBP 等格式</li><li>可选的文本提示，用于精细控制风格、场景和氛围</li><li>适用于社交媒体、缩略图、封面等的宽高比和分辨率预设</li></ul><p class=\"text-sm text-muted-foreground italic\">按您的方式使用：只需上传并生成，或添加详细提示以获得艺术总监级别的控制。</p>"
+      },
+      "flexibleControl": {
+        "title": "灵活的变化控制",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>变化强度滑块，从细微修饰到大胆重塑</li><li>优先考虑构图、角色或风格的选项</li></ul><p class=\"text-sm text-muted-foreground italic\">这使结果可预测且可重复，而不是随机的。</p>"
+      },
+      "highQuality": {
+        "title": "高质量输出",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>针对清晰、干净细节优化的高清导出</li><li>智能生成，保持文字、标志和产品边缘清晰</li><li>可选放大，适用于网站横幅、演示文稿和印刷就绪素材</li></ul><p class=\"text-sm text-muted-foreground italic\">从快速草稿到最终素材，joymagic 始终控制质量。</p>"
+      },
+      "nonDesigners": {
+        "title": "为非设计师打造",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>现成的风格预设：写实、动漫、插画、3D、复古、像素等</li><li>一键重新生成，尝试新外观</li><li>简洁、专注的界面：上传 → 选择风格 → 调整强度 → 导出</li></ul><p class=\"text-sm text-muted-foreground italic\">如果您可以上传文件，就可以使用 joymagic 创建品牌视觉。</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "joymagic 图生图的工作原理",
+      "description": "从上传到下载，只需四个简单步骤。",
+      "step1": {
+        "title": "步骤 1 – 上传您的图片",
+        "description": "<p class=\"mb-3\">从任何清晰的基础图片开始：产品照片、角色、标志、UI 模型或插画。拖放或从设备中选择。joymagic 使用此作为参考，保持您的主题可识别。</p>"
+      },
+      "step2": {
+        "title": "步骤 2 – 描述变化",
+        "description": "<p class=\"mb-3\">添加可选的简短提示来指导 AI。</p><p class=\"mb-2\">示例：</p><ul class=\"list-disc list-inside space-y-1 mb-3 ml-4\"><li>\"将其转换为夜晚的温馨动漫场景\"</li><li>\"使其看起来像高端工作室产品照片\"</li><li>\"将此草图转换为干净的扁平插画\"</li><li>\"将这个角色放在日落时的赛博朋克城市中\"</li></ul><p class=\"text-sm text-muted-foreground italic\">简短、简单的说明就足够了。或者跳过提示，仅依赖风格预设。</p>"
+      },
+      "step3": {
+        "title": "步骤 3 – 选择风格和强度",
+        "description": "<p class=\"mb-3\">告诉 joymagic 要走多远。</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>选择风格预设（写实、动漫、3D、插画等）</li><li>调整变化强度，从轻微修饰到完全重塑</li><li>（可选）设置偏好，保持构图、角色或风格一致</li></ul><p class=\"text-sm text-muted-foreground italic\">您保持对创意方向的控制——joymagic 处理繁重的工作。</p>"
+      },
+      "step4": {
+        "title": "步骤 4 – 生成和下载",
+        "description": "<p class=\"mb-3\">让模型工作，然后选择您喜欢的。</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>从一个输入生成多个变化</li><li>在预览中并排比较选项</li><li>标记您的最爱并以高清下载</li><li>立即用于社交媒体、产品页面、广告和演示文稿</li></ul><p class=\"text-sm text-muted-foreground italic\">在几分钟内将一张图片转换为整个视觉集。</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "为什么选择 joymagic 与其他图生图 AI 工具",
+      "description": "专门为图生图工作流程打造，不仅仅是附加功能。",
+      "focused": {
+        "title": "专注于图生图，不仅仅是附加功能",
+        "description": "<p class=\"mb-3\">许多平台将图生图视为大型、嘈杂工具箱中的一个小功能。joymagic 不同——它从头开始围绕图生图 AI 构建：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>没有额外的杂乱或无关的工具</li><li>学习更快，使用更快</li><li>结果专门针对基于参考的生成进行调整</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "为快速日常工作流程打造",
+        "description": "为每天需要数十个变化的创作者设计。更少的步骤，更简洁的界面，没有菜单迷宫。快速使用相同的基础图片，搭配不同的风格和提示。"
+      },
+      "pricing": {
+        "title": "随您扩展的定价",
+        "description": "清晰的免费层级，让您可以无风险地尝试图生图 AI。免费层级包括有限数量的生成，以便您可以测试工作流程和质量。当您准备好扩展时，可以升级到具有更高限制和更多功能的付费计划。查看应用内的定价页面以获取最新详情。"
+      },
+      "commercialUse": {
+        "title": "商业使用安全",
+        "description": "您拥有使用 joymagic 生成的图片，只要您拥有上传的原始图片的权利。生成的图片可用于商业项目，如活动、客户工作和电商列表。"
+      }
+    },
+    "perfectFor": {
+      "title": "joymagic 适合谁",
+      "description": "为需要一致、高质量视觉的创作者、品牌和设计师打造。",
+      "creators": {
+        "title": "创作者和影响者",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>围绕您的内容创建一致的视觉世界</li><li>吸引眼球的 YouTube/TikTok/Bilibili 缩略图、匹配的系列封面和重复出现的角色艺术</li><li>快速 A/B 测试不同的风格和氛围</li><li>以无限变化重复使用您的面孔、头像或吉祥物</li></ul><p class=\"text-sm text-muted-foreground italic\">在信息流中脱颖而出，无需花费数小时设计每张图片。</p>"
+      },
+      "ecommerce": {
+        "title": "电商和小品牌",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>将一张产品照片转换为完整的活动</li><li>从单一基础照片获得不同的背景、场景和季节</li><li>匹配您品牌个性的风格（简约、大胆、有趣、高端）</li><li>在产品页面、广告、促销和社交媒体活动中保持视觉一致性</li></ul><p class=\"text-sm text-muted-foreground italic\">获得工作室般的多样性，无需不断重新拍摄。</p>"
+      },
+      "designers": {
+        "title": "设计师和机构",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>使用 joymagic 作为快速探索和迭代工具</li><li>从几个参考快速生成风格板和情绪板</li><li>在几分钟内为客户创建多个概念变化</li><li>节省粗略探索的时间，专注于最终打磨</li></ul><p class=\"text-sm text-muted-foreground italic\">joymagic 完美融入您现有的设计工作流程，而不是取代它。</p>"
+      }
+    },
+    "faq": {
+      "title": "关于 joymagic 图生图的常见问题",
+      "description": "关于我们的图生图 AI 生成器的常见问题。",
+      "q1": {
+        "question": "什么是图生图 AI 生成器？",
+        "answer": "图生图 AI 生成器接受现有图片并将其用作参考来创建新图片。使用 joymagic，您上传基础图片，可选择添加文本提示，选择风格和变化强度，AI 会生成与您原始主题保持联系的新视觉。"
+      },
+      "q2": {
+        "question": "我需要写提示吗，还是只上传图片？",
+        "answer": "两者都可以。如果您只上传图片并选择风格，joymagic 会自动创建变化。如果您添加简短提示，您可以更好地控制氛围、场景、色彩和细节。提示是可选的——当您需要额外精度时可以使用。"
+      },
+      "q3": {
+        "question": "joymagic 免费使用吗？有什么限制？",
+        "answer": "是的，joymagic 提供免费层级，让您可以无承诺地尝试图生图 AI。免费层级包括有限数量的生成，以便您可以测试工作流程和质量。当您准备好扩展时，可以升级到具有更高限制和更多功能的付费计划。查看应用内的定价页面以获取最新详情。"
+      },
+      "q4": {
+        "question": "我可以商业使用这些图片吗？",
+        "answer": "在大多数情况下，可以——您可以将使用 joymagic 生成的图片用于商业目的，包括：<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>客户项目</li><li>广告和活动</li><li>产品页面和品牌内容</li></ul><p class=\"mt-3 mb-2\">两个重要注意事项：</p><ol class=\"list-decimal list-inside space-y-1 ml-4\"><li>确保您拥有上传作为输入的任何图片的权利。</li><li>始终查看我们的官方使用条款和许可，以获取最准确、最新的规则。</li></ol><p class=\"mt-3 text-sm\">简而言之：joymagic 设计为可安全用于实际商业用途。</p>"
+      },
+      "q5": {
+        "question": "您支持哪些图片格式和尺寸？",
+        "answer": "joymagic 目前支持流行格式，如：<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>JPG</li><li>PNG</li><li>WEBP</li></ul><p class=\"mt-3\">您可以上传标准网络和相机分辨率。对于输出，您可以选择：</p><ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>预设宽高比（方形、垂直、水平、缩略图等）</li><li>适用于网络、社交媒体和轻量印刷的高清分辨率</li><li>可选放大，适用于更大的横幅和演示文稿</li></ul>"
+      },
+      "q6": {
+        "question": "我可以在多张图片中保持相同的角色吗？",
+        "answer": "可以。这是 joymagic 图生图的主要优势之一。<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>使用相同的参考图片作为基础</li><li>保持变化强度适中，并启用优先考虑角色的选项</li><li>然后您可以将该角色放置在不同的服装、场景和艺术风格中，同时保持可识别的身份</li></ul><p class=\"mt-3 text-sm\">非常适合 VTuber、故事驱动的创作者和拥有吉祥物的品牌。</p>"
+      },
+      "q7": {
+        "question": "我上传的内容是私密和安全的吗？",
+        "answer": "joymagic 在设计时考虑了隐私。<ul class=\"list-disc list-inside space-y-1 my-2 ml-4\"><li>您上传的图片用于生成您的输出，不会与其他用户共享</li><li>我们不会将您的私人项目用作公共模板</li><li>应用基本安全实践来保护您的账户和资产</li></ul><p class=\"mt-3 text-sm\">有关数据处理和保留的确切详情，请参阅产品内的隐私政策和使用条款。</p>"
+      }
+    },
+    "finalCTA": {
+      "title": "将一张图片转换为无限视觉。",
+      "description": "尝试 joymagic 图生图 AI 生成器，在几秒钟内开始创建品牌内容。<br/><span class=\"text-muted-foreground\">无需设计技能 · 免费试用</span>",
+      "button": "开始从图片生成"
+    },
+    "responsibleUse": {
+      "title": "负责任使用和内容指南",
+      "intro": "joymagic 为创意和商业目的而打造，我们致力于负责任的 AI 实践。",
+      "note": "请注意以下使用限制：",
+      "identity": {
+        "title": "身份和肖像",
+        "items": [
+          "您只能使用您自己或您已获得明确授权的个人的图片",
+          "严格禁止未经授权使用他人的面孔、肖像或身份",
+          "将角色一致性功能限制在您自己的内容、授权角色或您拥有权利的虚构角色"
+        ]
+      },
+      "prohibited": {
+        "title": "禁止用途",
+        "intro": "joymagic 不得用于：",
+        "items": [
+          "创建深度伪造、误导性内容或用于欺诈或欺骗的冒充",
+          "生成侵犯他人权利、隐私或尊严的内容",
+          "制作有害、非法或恶意材料"
+        ]
+      },
+      "responsibility": {
+        "title": "您的责任",
+        "intro": "使用 joymagic，您同意：",
+        "items": [
+          "确保您拥有上传的所有图片的适当权利",
+          "以道德方式使用服务，并遵守适用法律",
+          "在需要披露的情况下，不将 AI 生成的内容歪曲为真实摄影"
+        ]
+      },
+      "safety": {
+        "title": "安全措施",
+        "description": "joymagic 实施自动内容审核和安全过滤器以防止滥用。发现违反这些指南的账户可能会被暂停或终止。"
+      },
+      "termsLink": "有关完整详情，请参阅我们的",
+      "termsOfService": "服务条款",
+      "and": "和",
+      "acceptableUsePolicy": "可接受使用政策",
+      "period": "。"
+    }
+  }
+}

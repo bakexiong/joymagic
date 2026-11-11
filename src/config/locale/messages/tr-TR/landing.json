@@ -1,0 +1,1549 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "joymagic",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "joymagic"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Özellikler",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "Price",
+          "url": "/pricing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Ortaklık",
+          "url": "/affiliate",
+          "icon": "Handshake"
+        },
+        {
+          "title": "YZ Efekt",
+          "icon": "Sparkles",
+          "children": [
+            {
+              "title": "Gorsel Efektleri",
+              "url": "/image-effect",
+              "icon": "Image"
+            },
+            {
+              "title": "Video Efektleri",
+              "url": "/video-effect",
+              "icon": "Clapperboard"
+            }
+          ]
+        },
+        {
+          "title": "Görüntü AI",
+          "icon": "Image",
+          "children": [
+            {
+              "title": "Metinden Görüntü",
+              "icon": "Image",
+              "children": [
+                {
+                  "title": "GPT Image 2",
+                  "url": "/text-to-image/gpt-image-2",
+                  "icon": "Image",
+                  "description": "GPT Image 2 ile Çince afişler, fotogerçekçi sahneler, UI ekran görüntüleri ve ürün görselleri oluşturun",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Genel",
+                  "url": "/text-to-image/z-image-turbo",
+                  "icon": "Image",
+                  "description": "Genel AI modeli ile metinden görüntü oluşturun",
+                  "badge": "Ücretsiz",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana",
+                  "url": "/text-to-image/nano-banana",
+                  "icon": "Image",
+                  "description": "Nano Banana AI modeli ile metinden görüntü oluşturun",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana Pro",
+                  "url": "/text-to-image/nano-banana-pro",
+                  "icon": "Image",
+                  "description": "Nano Banana Pro AI modeli ile metinden yüksek kaliteli görüntü oluşturun",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana 2",
+                  "url": "/text-to-image/nano-banana-2",
+                  "icon": "Image",
+                  "description": "Kamera kontrolleri, net metin oluşturma ve 4K çıktı ile yeni nesil metinden görüntü",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream V4.5",
+                  "url": "/text-to-image/seedream-4-5",
+                  "icon": "Image",
+                  "description": "Seedream V4.5 AI modeli ile metinden etkileyici görüntü oluşturun",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream 5.0 Lite",
+                  "url": "/text-to-image/seedream-5-0-lite",
+                  "icon": "Image",
+                  "description": "Seedream 5.0 Lite AI modeli ile metinden etkileyici görüntü oluşturun",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Flux 2 Klein",
+                  "url": "/text-to-image/flux-2-klein",
+                  "icon": "Image",
+                  "description": "Flux 2 Klein AI modeli ile metinden etkileyici görüntü oluşturun",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "GPT Image 1",
+                  "url": "/text-to-image/gpt-image-1",
+                  "icon": "Image",
+                  "description": "GPT Image 1 AI modeli ile metinden görüntü oluşturun",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Qwen Image 202512",
+                  "url": "/text-to-image/qwen-image-202512",
+                  "icon": "Image",
+                  "description": "Qwen Image 202512 AI modeli ile metinden etkileyici görüntü oluşturun",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/text-to-image/wan-2-7",
+                  "icon": "Image",
+                  "description": "Wan 2.7 ile metinden yüksek kaliteli görseller üretin; Thinking Mode ve 4096'ya kadar çözünürlük desteğiyle",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Midjourney",
+                  "url": "/text-to-image/midjourney",
+                  "icon": "Image",
+                  "description": "Midjourney tarzı AI modeliyle sanatsal görüntüler oluşturun",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Görüntüden Görüntü",
+              "icon": "Images",
+              "badge": "Ücretsiz",
+              "children": [
+                {
+                  "title": "GPT Image 2",
+                  "url": "/image-to-image/gpt-image-2",
+                  "icon": "Images",
+                  "description": "GPT Image 2 ile en fazla 4 görseli düzenleyerek Çince afişler, fotogerçekçi rötuşlar, belge yerleşimleri ve UI ekran görüntüleri üzerinde çalışın.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Genel",
+                  "url": "/image-to-image",
+                  "icon": "Images",
+                  "description": "Mevcut görüntülere dayalı yeni görüntüler oluştur",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Flux 2 Klein",
+                  "url": "/image-to-image/flux-2-klein",
+                  "icon": "Images",
+                  "description": "Flux 2 Klein ile görüntüleri dönüştürün ve düzenleyin. En fazla 4 görüntü yükleyin, görüntü başına 2 kredi.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Soul",
+                  "url": "/image-to-image/soul",
+                  "icon": "Images",
+                  "description": "Soul ile görüntüleri dönüştürün. Kalite, boyut, güç ve stil kontrolleri.",
+                  "badge": "Hot",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Z Image Turbo",
+                  "url": "/image-to-image/z-image-turbo",
+                  "icon": "Images",
+                  "description": "Z Image Turbo ile görüntüleri dönüştürün. Boyut, güç ve çıktı formatı.",
+                  "badge": "Ücretsiz",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Grok Imagine",
+                  "url": "/image-to-image/grok-imagine-image",
+                  "icon": "Images",
+                  "description": "Grok Imagine ile görüntüleri dönüştürün. Bir görüntü yükleyin ve dönüşümü açıklayın.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream 5.0 Lite",
+                  "url": "/image-to-image/seedream-5-0-lite",
+                  "icon": "Images",
+                  "description": "Seedream 5.0 Lite ile görselleri dönüştürün. Bir görsel yükleyin ve dönüşümünüzü tanımlayın.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Qwen Image Max",
+                  "url": "/image-to-image/qwen-image-max",
+                  "icon": "Images",
+                  "description": "Qwen Image Max AI ile görüntüleri düzenleyin ve dönüştürün. qwen-image-max-edit ile akıllı görüntü düzenleme.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/image-to-image/wan-2-7",
+                  "icon": "Images",
+                  "description": "Wan 2.7 ile görselleri düzenleyin ve dönüştürün. Görseller yükleyin, boyutu 4096'ya kadar kontrol edin ve sonucu seed ile iyileştirin.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7 Image Edit Pro",
+                  "url": "/image-to-image/wan-2-7-image-edit-pro",
+                  "icon": "Images",
+                  "description": "9 görsele kadar destek, 4096'ya kadar özel boyut ve seed kontrolü sunan gelişmiş Wan 2.7 düzenleme modeli.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana",
+                  "url": "/image-to-image/nano-banana",
+                  "icon": "Images",
+                  "description": "Nano Banana görüntüden görüntüye AI editörü. En fazla 10 görüntü yükleyin, en-boy oranı kontrolü ile akıllı dönüşümler yapın.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana 2",
+                  "url": "/image-to-image/nano-banana-2",
+                  "icon": "Images",
+                  "description": "Nano Banana 2 image-to-image AI editor. Upload up to 14 images with aspect ratio and 1K/2K/4K resolution controls. Powered by nano-banana-2-edit.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana Pro Edit Ultra",
+                  "url": "/image-to-image/nano-banana-pro-edit-ultra",
+                  "icon": "Images",
+                  "description": "Nano Banana Pro Edit Ultra image-to-image AI editor. Upload up to 14 images with aspect ratio and 4K/8K resolution controls. Powered by nano-banana-pro-edit-ultra.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Qwen Katmanlı Görüntü",
+              "url": "/qwen-image-layered",
+              "icon": "Layers",
+              "description": "Görüntüleri düzenlenebilir RGBA katmanlarına ayır",
+              "icon_url": "https://ocdn.10b.ai/icon/qwen_image_layered.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Görüntü Silici",
+              "url": "/image-eraser",
+              "icon": "Eraser",
+              "description": "Görüntülerden istenmeyen nesneleri, filigranları ve arka planları kaldır",
+              "icon_url": "https://ocdn.10b.ai/icon/%20image_eraser.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Arka Plan Kaldırıcı",
+              "url": "/image-background-remover",
+              "icon": "Scissors",
+              "description": "AI ile görüntülerden arka planları anında kaldır",
+              "badge": "Free",
+              "icon_url": "https://ocdn.10b.ai/icon/background_remove.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Görüntü Büyütücü",
+              "url": "/image-upscaler",
+              "icon": "Maximize2",
+              "description": "Görüntüleri AI hassasiyeti ile 4K, 8K veya 16K'ya büyüt",
+              "icon_url": "https://ocdn.10b.ai/icon/image_upscaler.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            }
+          ]
+        },
+        {
+          "title": "Video AI",
+          "icon": "Video",
+          "children": [
+            {
+              "title": "Metinden Videoya",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "HappyHorse 1.0",
+                  "url": "/text-to-video/happyhorse-1-0",
+                  "icon": "Video",
+                  "description": "HappyHorse 1.0 ile metinden videoya üretim - 16:9 çıktı ve isteğe bağlı seed ile 5 saniyelik 720p sinematik video",
+                  "badge": "Yeni",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/text-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Wan 2.7 ile metinden video oluşturun; 1080p, en-boy oranı, 15 saniyeye kadar süre, prompt genişletme ve seed kontrolüyle.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.6",
+                  "url": "/text-to-video/wan-2-6",
+                  "icon": "Video",
+                  "description": "Wan 2.6 ile metinden videoya oluşturma",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Veo 3.1",
+                  "url": "/text-to-video/veo-3-1",
+                  "icon": "Video",
+                  "description": "Veo 3.1 ile metinden videoya oluşturma",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 1.5 Pro",
+                  "url": "/text-to-video/seedance-1-5-pro",
+                  "icon": "Video",
+                  "description": "Seedance 1.5 Pro ile metinden video oluşturma",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 2.0",
+                  "url": "/text-to-video/seedance-2-0",
+                  "icon": "Video",
+                  "description": "Text to video generation with Seedance 2.0",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "PixVerse v5.6",
+                  "url": "/text-to-video/pixverse-5-6",
+                  "icon": "Video",
+                  "description": "PixVerse v5.6 ile metinden video oluşturma",
+                  "badge": "Yeni",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "LTX-2",
+                  "url": "/text-to-video/ltx2-fast",
+                  "icon": "Video",
+                  "description": "LTX-2 ile metinden video oluşturma - Senkronize sesli 4K AI video oluşturucu",
+                  "badge": "Hot",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Görüntüden Videoya",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "HappyHorse 1.0",
+                  "url": "/image-to-video/happyhorse-1-0",
+                  "icon": "Video",
+                  "description": "HappyHorse 1.0 ile görselden videoya üretim - tek bir görseli 5 saniyelik 720p sinematik klibe dönüştürür",
+                  "badge": "Yeni",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/image-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Wan 2.7 ile görselleri; başlangıç karesi, isteğe bağlı son kare, isteğe bağlı ses, çözünürlük, süre, prompt genişletme ve seed ile canlandırın.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Vidu Q3",
+                  "url": "/image-to-video/vidu-q3",
+                  "icon": "Video",
+                  "description": "Vidu Q3 ile görüntüden video oluşturma - Hareket genliğini kontrol edin ve isteğe bağlı ses ile arka plan müziği ekleyin",
+                  "badge": "Yeni",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Veo 3.1",
+                  "url": "/image-to-video/veo-3-1",
+                  "icon": "Video",
+                  "description": "Veo 3.1 ile görüntüden video oluşturma",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 1.5 Pro",
+                  "url": "/image-to-video/seedance-1-5-pro",
+                  "icon": "Video",
+                  "description": "Seedance 1.5 Pro ile görüntüden video oluşturma",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 2.0",
+                  "url": "/image-to-video/seedance-2-0",
+                  "icon": "Video",
+                  "description": "Seedance 2.0 ile görüntüden video oluşturma",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500",
+                  "badge": "New"
+                },
+                {
+                  "title": "PixVerse v5.6",
+                  "url": "/image-to-video/pixverse-5-6",
+                  "icon": "Video",
+                  "description": "PixVerse v5.6 ile görüntüden video oluşturma",
+                  "badge": "Yeni",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "LTX-2",
+                  "url": "/image-to-video/ltx2-fast",
+                  "icon": "Video",
+                  "description": "LTX-2 ile görüntüden video oluşturma - Senkronize sesli 4K AI video oluşturucu",
+                  "badge": "Hot",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Reference To Video",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "Wan 2.7",
+                  "url": "/reference-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Wan 2.7 using multi-image and multi-video identity guidance.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 4K",
+                  "url": "/reference-to-video/kling-video-o3-4k",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 4K for high-fidelity subject-consistent shots.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O1 Std",
+                  "url": "/reference-to-video/kling-video-o1-std",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O1 Std using image and optional video references.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 Pro",
+                  "url": "/reference-to-video/kling-video-o3-pro",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 Pro, with optional audio generation and motion guidance.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 Std",
+                  "url": "/reference-to-video/kling-video-o3-std",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 Std for subject-consistent cinematic clips.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Grok Imagine Video",
+                  "url": "/reference-to-video/grok-imagine-video",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Grok Imagine Video from multiple reference images.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Video Extend",
+              "url": "/video-extend/wan-2-7",
+              "icon": "Video",
+              "description": "Extend existing videos with Wan 2.7, with optional audio, prompt expansion, and 720p/1080p output.",
+              "badge": "Yeni",
+              "icon_url": "https://ocdn.10b.ai/icon/video_extend.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Hareket Kontrolü",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "Kling 2.6 Pro",
+                  "url": "/motion-control/kling-2-6-pro",
+                  "icon": "Video",
+                  "description": "Kling 2.6 Pro ile hareket kontrolü video oluşturma - Görüntü ve video girişleriyle video hareketini kontrol edin",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Longcat Avatar",
+              "url": "/longcat-avatar",
+              "icon": "Video",
+              "description": "Ses ve görüntü senkronizasyonu ile AI avatar videoları oluşturun - 2 dakikaya kadar konuşan avatar videoları oluşturun",
+              "icon_url": "https://ocdn.10b.ai/icon/longcat_avatar.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            }
+          ]
+        },
+        {
+          "title": "Blog",
+          "url": "/blog",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": []
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "disclaimer": "joymagic is an independent AI image-generation service and is not affiliated with, endorsed by, or connected to Alibaba Group or any of its AI models. All references to \"joymagic\" relate solely to our own product and technology."
+  },
+  "hero": {
+    "id": "hero",
+    "title": "joymagic",
+    "highlight_text": "Verimli Görüntü Üretimi",
+    "description": "Tek Akışlı Difüzyon Transformer<br/>6 Milyar Parametreli Verimli Görüntü Üretim Modeli",
+    "announcement": null,
+    "buttons": [
+      {
+        "title": "Join Discord for Secred Prompt!",
+        "url": "https://discord.gg/bVCk5PHb8d",
+        "icon_url": "https://pub.wanai.pro/%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90/discord-logo-discord-icon-transparent-free-png.png",
+        "target": "_blank"
+      }
+    ],
+    "show_avatars": true,
+    "show_award": true,
+    "image": {
+      "src": "/imgs/features/hero-zimage.webp",
+      "alt": "joymagic"
+    },
+    "image_invert": {
+      "src": "/imgs/features/hero-zimage-dark.webp",
+      "alt": "joymagic"
+    }
+  },
+  "logos": {
+    "title": "Önde Gelen AI Platformlarında Mevcut",
+    "items": [
+      {
+        "title": "GitHub",
+        "image": {
+          "src": "/imgs/logos/github.svg",
+          "alt": "GitHub"
+        }
+      },
+      {
+        "title": "ModelScope",
+        "image": {
+          "src": "/imgs/logos/modelscope.svg",
+          "alt": "ModelScope"
+        }
+      },
+      {
+        "title": "HuggingFace",
+        "image": {
+          "src": "/imgs/logos/huggingface.svg",
+          "alt": "HuggingFace"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "id": "introduce",
+    "title": "joymagic Nedir?",
+    "label": "Tanıtım",
+    "description": "joymagic, görüntü üretimi için verimli 6 milyar parametreli bir temel modeldir. Sistematik optimizasyon sayesinde, üst düzey performansın muazzam model boyutlarına güvenmeden başarılabileceğini kanıtlayarak, fotogerçekçi üretim ve iki dilli metin oluşturma alanlarında güçlü sonuçlar sunar.",
+    "image": {
+      "src": "/imgs/features/zimage-intro.webp",
+      "alt": "introduce"
+    },
+    "items": [
+      {
+        "title": "Fotoğraf Kalitesinde Gerçekçilik",
+        "description": "Detaylar, ışıklandırma ve dokular üzerinde hassas kontrol ile fotoğraf seviyesinde gerçekçilik. Kompozisyon ve genel ruh halinde mükemmel estetik kaliteye ulaşır.",
+        "icon": "Camera",
+        "image": {
+          "src": "/imgs/features/photorealistic.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "Ultra Hızlı Çıkarım",
+        "description": "Kurumsal sınıf H800 GPU'larda saniyenin altında çıkarım gecikmesi sağlar. Üretim için sadece 8 adım gerekir.",
+        "icon": "Zap",
+        "image": {
+          "src": "/imgs/features/fast-inference.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "İki Dilli Metin Oluşturma",
+        "description": "Çin ve İngilizce metnin her ikisini de doğru şekilde oluştururken yüz gerçekçiliğini ve genel estetik kompozisyonu korur.",
+        "icon": "Languages",
+        "image": {
+          "src": "/imgs/features/bilingual-text.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "Verimli VRAM Kullanımı",
+        "description": "16GB'dan az VRAM'e sahip tüketici sınıfı ekran kartlarında sorunsuz çalışabilir, bu da gelişmiş görüntü üretimini erişilebilir kılar.",
+        "icon": "MemoryStick",
+        "image": {
+          "src": "/imgs/features/vram.webp",
+          "alt": "introduce"
+        }
+      }
+    ]
+  },
+  "benefits": {
+    "id": "benefits",
+    "title": "Temel Özellikler",
+    "label": "Özellikler",
+    "description": "joymagic modelinin güçlü yeteneklerine bir bakış.",
+    "items": [
+      {
+        "title": "Foto Gerçekçi",
+        "description": "Fotoğraf Seviyesinde Gerçekçilik",
+        "icon": "Camera",
+        "image": {
+          "src": "/imgs/features/benefit-1.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "1 Saniye",
+        "description": "Ultra Hızlı Çıkarım Hızı",
+        "icon": "Timer",
+        "image": {
+          "src": "/imgs/features/benefit-2.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "6B+ Parametre",
+        "description": "Tek Akışlı Difüzyon",
+        "icon": "Layers",
+        "image": {
+          "src": "/imgs/features/benefit-3.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "İki Dilli Metin",
+        "description": "Doğru Metin Oluşturma",
+        "icon": "Languages",
+        "image": {
+          "src": "/imgs/features/benefit-4.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "16 GB VRAM",
+        "description": "Verimli Bellek Kullanımı",
+        "icon": "MemoryStick",
+        "image": {
+          "src": "/imgs/features/benefit-5.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "Dünya Bilgisi",
+        "description": "Derin Anlamsal Anlayış",
+        "icon": "Brain",
+        "image": {
+          "src": "/imgs/features/benefit-6.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "Görüntü Düzenleme",
+        "description": "Yaratıcı Tek Görüntü Düzenlemeleri",
+        "icon": "Edit",
+        "image": {
+          "src": "/imgs/features/benefit-7.webp",
+          "alt": "benefits"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "id": "usage",
+    "title": "Model Varyantları",
+    "description": "joymagic, farklı kullanım durumları için özelleştirilmiş modeller sunar:",
+    "image": {
+      "src": "/imgs/features/models.webp",
+      "alt": "usage"
+    },
+    "image_position": "left",
+    "text_align": "left",
+    "items": [
+      {
+        "title": "🚀 Z Image Turbo",
+        "description": "Foto gerçekçi görüntü üretiminde, hem Çince hem İngilizce metni doğru şekilde oluşturma ve iki dilli talimatlara sağlam uyum ile güçlü yeteneklere sahip joymagic'ın damıtılmış versiyonu. Sadece 8 adımla önde gelen rakiplerle eşit veya daha iyi performans elde eder.",
+        "image": {
+          "src": "/imgs/features/turbo-model.webp",
+          "alt": "usage"
+        }
+      },
+      {
+        "title": "✍️ joymagic Edit",
+        "description": "Görüntü düzenleme konusunda uzmanlaşmış joymagic'ın eğitime devam eden varyantı. Hassas yerel değişikliklerden küresel stil dönüşümlerine kadar geniş bir görev yelpazesinde karmaşık talimatları takip etmekte ve yüksek düzenleme tutarlılığını korumakta mükemmeldir.",
+        "image": {
+          "src": "/imgs/features/edit-model.webp",
+          "alt": "usage"
+        }
+      }
+    ]
+  },
+  "features": {
+    "id": "features",
+    "title": "Yetenek Gösterimi",
+    "description": "joymagic'ın çeşitli alanlardaki gelişmiş yeteneklerini keşfedin.",
+    "items": [
+      {
+        "title": "Foto Gerçekçi Üretim",
+        "description": "Mükemmel estetik kaliteyi korurken güçlü foto gerçekçi görüntü üretimi sunar.",
+        "icon": "Camera"
+      },
+      {
+        "title": "İki Dilli Metin Oluşturma",
+        "description": "Çeşitli senaryolarda karmaşık Çince ve İngilizce metni doğru şekilde oluşturur.",
+        "icon": "Languages"
+      },
+      {
+        "title": "Dünya Bilgisi",
+        "description": "Dünya bilgisi ve çeşitli kültürel kavramlara dair geniş bir anlayışa sahiptir.",
+        "icon": "Globe"
+      },
+      {
+        "title": "Anlamsal Anlayış",
+        "description": "Mantık ve sağduyu enjekte etmek için yapılandırılmış akıl yürütme zinciri kullanır.",
+        "icon": "Brain"
+      },
+      {
+        "title": "Yaratıcı Düzenleme",
+        "description": "Görüntü dönüşümleri için karmaşık talimatları hassas bir şekilde uygular.",
+        "icon": "Edit"
+      },
+      {
+        "title": "Talimat Takibi",
+        "description": "Görüntü öğeleri ve dönüşümler üzerinde hassas kontrol sergiler.",
+        "icon": "CheckCircle"
+      }
+    ]
+  },
+  "models": {
+    "id": "models",
+    "title": "Model Mimarisi",
+    "description": "Sadece 6 milyar parametre ile model, bir büyüklük derecesi daha büyük modellerden üretilenlerle eşdeğer foto gerçekçi görüntüler üretir. 16GB'dan az VRAM'e sahip tüketici sınıfı ekran kartlarında sorunsuz çalışabilir.",
+    "items": [
+      {
+        "title": "Single-Stream Diffusion",
+        "description": "joymagic modeli, Tek Akışlı Difüzyon Transformer mimarisini benimser. Bu tasarım, çeşitli koşullu girdilerin (metin ve görüntü gömüleri gibi) gürültülü görüntü latentları ile tek bir dizide birleştirilmesini sağlar ve bu dizi daha sonra Transformer omurgasına beslenir.",
+        "image": {
+          "src": "/imgs/features/architecture.webp",
+          "alt": "architecture"
+        }
+      }
+    ]
+  },
+  "architecture": {
+    "id": "architecture",
+    "title": "Teknik Derin İnceleme",
+    "description": "joymagic'ın arkasındaki yenilikçi mimari ve eğitim teknikleri hakkında bilgi edinin.",
+    "items": [
+      {
+        "title": "Decoupled-DMD",
+        "description": "8 adımlı joymagic modelini güçlendiren temel birkaç adımlı damıtma algoritması. CFG Augmentation ve Dağılım Eşleştirmesini tanıyarak ve ayrıştırarak, geliştirilmiş bir damıtma süreci geliştirdik.",
+        "icon": "Layers"
+      },
+      {
+        "title": "DMDR",
+        "description": "Anlamsal hizalama, estetik kalite ve yapısal tutarlılıkta daha fazla iyileştirme elde etmek için DMD'yi Pekiştirmeli Öğrenme ile birleştirir.",
+        "icon": "GitBranch"
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "Sıkça Sorulan Sorular",
+    "description": "joymagic ve yetenekleri hakkında yaygın sorular.",
+    "items": [
+      {
+        "question": "joymagic nedir?",
+        "answer": "joymagic, görüntü üretimi için verimli 6 milyar parametreli bir temel modeldir. Üst düzey performansın muazzam model boyutlarına güvenmeden başarılabileceğini kanıtlayarak, fotogerçekçi üretim ve iki dilli metin oluşturma alanlarında güçlü sonuçlar sunar."
+      },
+      {
+        "question": "joymagic'ın ana özellikleri nelerdir?",
+        "answer": "joymagic, foto gerçekçi görüntü üretimi, iki dilli metin oluşturma (İngilizce ve Çince), ultra hızlı çıkarım (8 adım), verimli VRAM kullanımı (16GB), zengin dünya bilgisi anlayışı ve yaratıcı görüntü düzenleme yeteneklerinde mükemmeldir."
+      },
+      {
+        "question": "Hangi modeller mevcut?",
+        "answer": "joymagic, yüksek kaliteli çıktı ve güvenilir talimat takibi sağlayan optimize edilmiş görüntü oluşturma ve görüntü düzenleme iş akışları sunar."
+      },
+      {
+        "question": "Ne tür donanım gerekir?",
+        "answer": "joymagic, 16GB'dan az VRAM'e sahip tüketici sınıfı ekran kartlarında sorunsuz çalışabilir. Kurumsal sınıf H800 GPU'larda saniyenin altında çıkarım gecikmesi sağlar."
+      },
+      {
+        "question": "joymagic açık kaynak mı?",
+        "answer": "Evet! Model kodu, ağırlıkları ve çevrimiçi demo, topluluk keşfi ve kullanımını teşvik etmek için GitHub, ModelScope ve HuggingFace'de herkese açık şekilde mevcuttur."
+      },
+      {
+        "question": "joymagic'ı ne benzersiz kılar?",
+        "answer": "joymagic, koşullu girdileri görüntü latentları ile birleştiren Tek Akışlı Difüzyon Transformer mimarisini benimser. Optimum performans için yenilikçi Decoupled-DMD damıtma ve DMDR pekiştirmeli öğrenme teknikleri kullanır."
+      }
+    ]
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "joymagic",
+      "description": "Tek Akışlı Difüzyon Transformer ile Verimli Görüntü Üretim Temel Modeli. ",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "joymagic"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Proje",
+          "children": [
+            {
+              "title": "Özellikler",
+              "url": "/#features",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Kaynaklar",
+          "children": [
+            {
+              "title": "Dokümantasyon",
+              "url": "/docs",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "support@joymagic.fun",
+          "url": "mailto:support@joymagic.fun"
+        },
+        {
+          "title": "Gizlilik Politikası",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Hizmet Şartları",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "İçerik Moderasyon Politikası",
+          "url": "/content-moderation-policy"
+        },
+        {
+          "title": "Kabul Edilebilir Kullanım Politikası",
+          "url": "/acceptable-use-policy"
+        },
+        {
+          "title": "İade Politikası",
+          "url": "/refund-policy"
+        },
+        {
+          "title": "AI Wrapper Sorumluluk Reddi",
+          "url": "/ai-wrapper-disclaimer"
+        },
+        {
+          "title": "Açık Kaynak Atıfları",
+          "url": "/open-source-attribution"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "disclaimer": "joymagic is an independent AI image-generation service and is not affiliated with, endorsed by, or connected to Alibaba Group or any of its AI models. All references to \"joymagic\" relate solely to our own product and technology."
+  },
+  "heroImageWall": {
+    "label": "Küratörlü galeri",
+    "title": "Saniyeler içinde ilham duvarı",
+    "description": "Son 25 çıktı, tembel yüklemeyle. Herhangi bir karo üzerine dokunarak ayrıntılara zum yapın.",
+    "hint": "Büyütmek için tıkla",
+    "view": "Görüntüle",
+    "alt": "Galeri görseli {index}"
+  },
+  "wavespeed": {
+    "prompt_label": "Promptun",
+    "prompt_placeholder": "Oluşturmak istediğin görseli anlat... örn: Wong Kar-wai film stili, dar bir Hong Kong koridorunda sigara içen yalnız adam, 1990'lar...",
+    "buttons": {
+      "generating": "Oluşturuluyor...",
+      "checking": "Uygunluk kontrol ediliyor...",
+      "unavailable": "Hizmet kullanılamıyor",
+      "generate": "Oluştur",
+      "share_to_generate": "Paylaş ve oluştur",
+      "click_to_pay": "Daha fazla kredi almak için tıkla"
+    },
+    "share_hint": "Ücretsiz oluşturmayı açmak için sosyal medyada paylaş",
+    "prompt_inspirations": "Prompt ilhamları",
+    "image_area": {
+      "alt": "Oluşturulan görsel",
+      "loading": "Görselin oluşturuluyor...",
+      "placeholder": "Oluşturulan görsel burada görünecek"
+    },
+    "links": {
+      "open_in_new_tab": "Yeni sekmede aç"
+    },
+    "status": {
+      "unknown_error": "Bilinmeyen hata",
+      "submitting": "İstek gönderiliyor...",
+      "task_submitted": "Görev gönderildi. ID: {id}",
+      "processing": "İşleniyor... Durum: {status}",
+      "image_success": "Görsel başarıyla oluşturuldu!",
+      "video_submitting": "Video isteği gönderiliyor...",
+      "video_task_submitted": "Video görevi gönderildi. ID: {id}",
+      "video_processing": "Video oluşturuluyor... Durum: {status}",
+      "video_success": "Video başarıyla oluşturuldu!",
+      "estimating": "Hesaplanıyor..."
+    },
+    "errors": {
+      "restricted": "Yoğun talep nedeniyle hizmet geçici olarak kullanılamıyor. Lütfen daha sonra tekrar deneyin.",
+      "prompt_required": "Lütfen bir prompt girin",
+      "task_failed": "Görev başarısız: {error}",
+      "request_timeout": "İstek zaman aşımına uğradı. Tekrar deneyin.",
+      "http_error": "Hata: {code}",
+      "http_error_with_text": "Hata: {code} - {text}",
+      "request_failed": "İstek başarısız: {error}",
+      "estimate_failed": "Kredi tahmini başarısız oldu"
+    },
+    "video": {
+      "cta_pay": "Hemen video oluştur (5 $ karşılığında iki video)",
+      "cta_ready": "Bu görselden video oluştur",
+      "title": "Video oluşturma",
+      "creating": "Videon hazırlanıyor...",
+      "unsupported": "Tarayıcın video etiketini desteklemiyor.",
+      "download": "Videoyu indir",
+      "credit_description": "Video oluşturma",
+      "errors": {
+        "insufficient_credits": "Yetersiz kredi. Video oluşturmak için en az 250 kredi gerekir.",
+        "image_required": "Önce bir görsel oluştur",
+        "task_failed": "Görev başarısız: {error}",
+        "timeout": "Video oluşturma zaman aşımına uğradı. Tekrar dene."
+      }
+    },
+    "payment": {
+      "title": "Upgrade for video generation",
+      "line1": "Video generation is available for paid users only.",
+      "line2": "Your current credits are insufficient — please purchase more credits to continue.",
+      "line3": "Top up now to unlock video creation.",
+      "cta_note": "Choose a plan to continue generating videos.",
+      "buy_now": "Buy Credits",
+      "view_later": "Maybe Later",
+      "description_checking": "Please complete the payment in the new tab. We will check the payment status automatically.",
+      "description_idle": "Pay $5 to unlock 500 credits for joymagic - enough for 250 images or 2 image-to-video conversions.",
+      "pricing": "Pay $5, get 500 credits",
+      "pricing_note": "Use credits for 250 AI image generations (2 credits each) or 2 image-to-video conversions (250 credits each).",
+      "waiting_confirmation": "Waiting for payment confirmation...",
+      "checkout_url_missing": "Checkout URL not found",
+      "success_toast": "Payment successful! Credits have been added to your account.",
+      "failure_toast": "Payment checkout failed: {error}",
+      "processing": "Processing...",
+      "waiting": "Waiting for payment...",
+      "pay_button": "Click To Pay $5"
+    },
+    "payment_image": {
+      "title": "Free daily images used up",
+      "line1": "You can generate 2 images for free every day.",
+      "line2": "Your free quota for today has been used.",
+      "line3": "To continue creating images now, please upgrade or purchase credits.",
+      "line4": "Or, if you prefer, simply come back tomorrow when your free quota resets.",
+      "cta_note": "Pick a plan to keep creating, or return tomorrow.",
+      "buy_now": "Buy Credits",
+      "wait_tomorrow": "Try Again Tomorrow",
+      "description_checking": "Please complete the payment in the new tab. We will check the payment status automatically.",
+      "description_idle": "You can generate 2 images for free daily. Your free quota for today has been used up. Pay $5 to get 500 credits - enough for 250 more images or 2 image-to-video conversions.",
+      "pricing": "Pay $5, get 500 credits",
+      "pricing_note": "2 credits per AI image generation or 250 credits per image-to-video conversion.",
+      "waiting_confirmation": "Waiting for payment confirmation...",
+      "checkout_url_missing": "Checkout URL not found",
+      "success_toast": "Payment successful! Credits have been added to your account.",
+      "failure_toast": "Payment checkout failed: {error}",
+      "processing": "Processing...",
+      "waiting": "Waiting for payment...",
+      "pay_button": "Click To Pay $5"
+    },
+    "featureCards": {
+      "image": {
+        "title": "Görsel",
+        "description": "Görünümler oluşturun, düzenleyin ve keşfedin."
+      },
+      "video": {
+        "title": "Video",
+        "description": "İstemleri ve görselleri kliplere dönüştürün."
+      },
+      "audio": {
+        "title": "Ses",
+        "description": "Yakında",
+        "badge": "Yakında"
+      },
+      "viewAll": "Tümünü Gör"
+    },
+    "aiTools": {
+      "title": "AI Tools",
+      "subtitle": "Jump into the right tools from existing scenes."
+    },
+    "freeTools": {
+      "title": "Hot Tools",
+      "subtitle": "Mevcut sahnelerden ücretsiz araçları kullanın.",
+      "badges": ["Ücretsiz", "Free"]
+    },
+    "aiModels": {
+      "title": "AI Modelleri",
+      "subtitle": "Mevcut sahnelerden doğru araçlara hızlıca geçin."
+    },
+    "desktopPlayground": {
+      "credits": "kredi",
+      "model": {
+        "label": "Model",
+        "choose": "Model seç",
+        "untitled": "Adsız model",
+        "fallbackTitle": "YZ",
+        "fallbackMonogram": "M"
+      },
+      "scene": {
+        "untitled": "Adsız sahne"
+      },
+      "sceneGroups": {
+        "image": "Görsel",
+        "video": "Video"
+      },
+      "sceneMeta": {
+        "imageDescription": "Görseller oluşturun, düzenleyin ve geliştirin",
+        "videoDescription": "Klipleri ve hareket akışlarını canlandırın"
+      },
+      "scenePicker": {
+        "title": "Sahne seç",
+        "close": "Kapat",
+        "currentSelection": "Geçerli seçim",
+        "current": "Geçerli",
+        "switch": "Değiştir",
+        "currentSceneFallback": "Seçili sahne yok",
+        "empty": "Şu anda kullanılabilir sahne yok.",
+        "tabs": {
+          "video": "Video",
+          "image": "Görsel"
+        },
+        "trigger": {
+          "open": "Sahneyi değiştir",
+          "change": "Değiştir"
+        }
+      },
+      "sceneNames": {
+        "textToImage": "Metinden görsele",
+        "imageToImage": "Görselden görsele",
+        "qwenImageLayered": "Qwen katmanlı görsel",
+        "imageEraser": "Görsel silici",
+        "backgroundRemover": "Arka plan kaldırıcı",
+        "imageUpscaler": "Görsel büyütücü",
+        "textToVideo": "Metinden videoya",
+        "imageToVideo": "Görselden videoya",
+        "motionControl": "Hareket kontrolü",
+        "longcatAvatar": "Longcat avatar",
+        "videoFaceSwap": "Videoda yüz değiştirme",
+        "aiClothesRemover": "AI kıyafet kaldırıcı",
+        "videoExtend": "Video Extend"
+      },
+      "prompt": {
+        "placeholder": "Görselinizi açıklayın...",
+        "referencePlaceholder": "Görselin nasıl dönüştürüleceğini açıklayın..."
+      },
+      "aspectRatio": {
+        "auto": "Otomatik"
+      },
+      "uploads": {
+        "uploading": "Dosyalar hâlâ yükleniyor. Lütfen biraz bekleyin.",
+        "defaultHint": "Devam etmek için medya yükleyin.",
+        "referenceHint": "Başlamak için referans medya yükleyin."
+      },
+      "actions": {
+        "generateImage": "Görsel oluştur",
+        "generateVideo": "Video oluştur",
+        "generating": "Oluşturuluyor..."
+      },
+      "errors": {
+        "generationFailed": "Oluşturma başarısız oldu",
+        "generateImageFailed": "Görsel oluşturulamadı",
+        "insufficientCredits": "Yetersiz kredi: {remaining} krediniz var, ancak en az {required} kredi gerekiyor."
+      },
+      "generatedPanel": {
+        "empty": "Henüz hiçbir şey oluşturmadın gibi görünüyor.",
+        "titleImages": "Bu oluşturma",
+        "titleVideos": "Bu oluşturma (videolar)",
+        "title": "Oluşturulan {mediaLabel}",
+        "count": "{count} {label}",
+        "image": "görsel",
+        "images": "Görseller",
+        "video": "video",
+        "videos": "Videolar",
+        "itemAlt": "Oluşturulan {index}",
+        "itemLabel": "Oluşturulan {mediaItemLabel} {index}",
+        "preview": {
+          "close": "Kapat",
+          "openPreview": "Önizlemeyi aç"
+        },
+        "deleteConfirm": {
+          "title": "Silmeyi onayla",
+          "description": "Bu görseli silmek istediğine emin misin? Bu işlem geri alınamaz.",
+          "cancel": "İptal",
+          "confirm": "Sil"
+        },
+        "defaults": {
+          "imageTitle": "Görseliniz burada görünecek",
+          "videoTitle": "Videonuz burada görünecek",
+          "imageDescription": "Oluşturmaya başlayın veya ilk görselinizi üretmek için bir sahne seçin.",
+          "videoDescription": "Oluşturmaya başlayın veya ilk videonuzu üretmek için bir sahne seçin.",
+          "featuredImage": "Öne çıkan görsel",
+          "featuredVideo": "Öne çıkan video"
+        },
+        "selection": {
+          "clear": "Seçimi temizle",
+          "download": "İndir",
+          "delete": "Seçili öğeyi sil",
+          "selectItem": "Öğe seç",
+          "selectedItem": "Seçili öğe",
+          "count": "{count} seçildi"
+        },
+        "actions": {
+          "imageToVideo": "Görselden videoya",
+          "regenerate": "Yeniden oluştur",
+          "upscaleImage": "Görseli büyüt"
+        }
+      },
+      "videoWorkbench": {
+        "title": "Oluşturulan videolar",
+        "subtitle": "Oluşturduğun videolar burada görünecek.",
+        "emptyHint": "Video çıktılarını burada önizlemek ve yönetmek için soldan bir üretim başlat."
+      },
+      "fields": {
+        "prompt": "İstem",
+        "negativePrompt": "Negatif istem",
+        "referenceImage": "Referans görsel",
+        "referenceImages": "Referans görseller",
+        "referenceVideo": "Referans video",
+        "audioTrack": "Ses parçası",
+        "maskImage": "Maske görseli",
+        "aspectRatio": "En-boy oranı",
+        "resolution": "Çözünürlük",
+        "outputFormat": "Çıktı formatı",
+        "seed": "Seed",
+        "width": "Genişlik",
+        "height": "Yükseklik",
+        "size": "Boyut",
+        "duration": "Süre",
+        "shotType": "Çekim türü",
+        "promptExpansion": "İstem genişletme",
+        "generateAudio": "Ses oluştur",
+        "fixedCamera": "Sabit kamera",
+        "thinkingType": "Düşünme modu",
+        "movementAmplitude": "Hareket genliği",
+        "numberOfLayers": "Katman sayısı",
+        "quality": "Kalite",
+        "stylize": "Stilize et",
+        "chaos": "Kaos",
+        "weird": "Tuhaflık",
+        "version": "Sürüm",
+        "niji": "Niji",
+        "strength": "Güç",
+        "style": "Stil",
+        "targetResolution": "Hedef çözünürlük",
+        "referenceAudio": "Reference Audio",
+        "firstFrame": "İlk kare",
+        "lastFrame": "Son kare (isteğe bağlı)"
+      },
+      "options": {
+        "auto": "Otomatik",
+        "enabled": "Etkin",
+        "disabled": "Devre dışı",
+        "low": "Düşük",
+        "medium": "Orta",
+        "high": "Yüksek",
+        "small": "Küçük",
+        "large": "Büyük",
+        "singleShot": "Tek çekim",
+        "multipleShots": "Çoklu çekim",
+        "none": "Yok",
+        "close": "Yakın"
+      },
+      "placeholders": {
+        "describeImage": "Oluşturmak istediğiniz görseli açıklayın",
+        "transformImage": "Yüklenen görselin nasıl dönüştürüleceğini açıklayın",
+        "describeVideo": "Oluşturmak istediğiniz videoyu açıklayın",
+        "animateImage": "Yüklenen görselin nasıl hareket etmesi gerektiğini açıklayın",
+        "negativePrompt": "Kaçınmak istediğiniz şeyleri açıklayın",
+        "randomSeed": "Rastgele seed için -1 kullanın",
+        "randomSeedOrEmpty": "Boş bırakın veya rastgele seed için -1 kullanın",
+        "fillErasedArea": "Silinen alanın neyle doldurulacağını açıklayın"
+      },
+      "descriptions": {
+        "describeImage": "Oluşturmak istediğiniz görseli açıklayın",
+        "widthPixels": "Görsel genişliği piksel cinsinden (256-1536, 64'ün katı olmalı)",
+        "heightPixels": "Görsel yüksekliği piksel cinsinden (256-1536, 64'ün katı olmalı)",
+        "seedHelp": "Tekrarlanabilir sonuçlar için bir seed değeri ayarlayın. Rastgele seed için -1 kullanın.",
+        "optionalReferenceImage": "Stili etkilemek için isteğe bağlı bir referans görsel yükleyin.",
+        "numberOfLayers": "Kaynak görselden kaç semantik katmanın ayrılacağını seçin.",
+        "promptExpansion": "Modelin kısa istemleri otomatik genişletmesini sağlar.",
+        "generateAudioSynced": "Videoyla senkron ses üretir.",
+        "generateAudioNative": "Çıktı videosunda yerel senkron ses üretir.",
+        "fixedCamera": "Üretim sırasında kamerayı daha sabit tutar.",
+        "generateAudioIncluded": "Sonuca model tarafından üretilen sesi ekler.",
+        "generateAudioOutput": "Video çıktısı için senkron ses oluşturur.",
+        "referenceVideoMotion": "Hareket desenini aktarmak için bir video yükleyin.",
+        "audioTrackLimit": "En fazla 120 saniyelik bir ses parçası yükleyin.",
+        "faceImage": "Videoya yerleştirmek istediğiniz yüz görselini yükleyin.",
+        "targetVideo": "Yüz değiştirme için hedef videoyu yükleyin.",
+        "maskImage": "İsteğe bağlı. Neyin silineceğini kontrol etmek için maske görseli yükleyin.",
+        "uploadUpToImages": "En fazla {count} görsel yükleyin",
+        "uploadImageToAnimate": "Canlandırmak için bir görsel yükleyin",
+        "referenceVideoLimit": "MP4, WebM, MOV (max 50MB, up to 3 videos, duration ≤ 15s)",
+        "referenceAudioLimit": "WAV, MP3 (max 20MB, up to 3 audios, duration ≤ 15s)",
+        "uploadLastFrameImageOptional": "İsteğe bağlı: Son kare görseli yüklerseniz ilk kareden son kareye geçiş otomatik etkinleşir.",
+        "uploadFirstFrameImage": "İlk kare görselini yükleyin."
+      },
+      "mediaPanel": {
+        "common": {
+          "all": "Tümü"
+        },
+        "tabs": {
+          "assets": "Varlıklar",
+          "creations": "Oluşturmalar",
+          "uploads": "Yüklemeler",
+          "collections": "Koleksiyonlar",
+          "templates": "Şablonlar"
+        },
+        "filters": {
+          "open": "Filtreleri aç",
+          "title": "Filtreler",
+          "subtitle": "Üretim görünümünü daralt",
+          "dateRange": "Tarih aralığı",
+          "pickDateRange": "Bir tarih aralığı seçin",
+          "keyword": "Anahtar kelime",
+          "searchPlaceholder": "Yüklemelerde ara",
+          "type": "Tür",
+          "tool": "Araç",
+          "model": "Model",
+          "clear": "Temizle",
+          "cancel": "İptal",
+          "apply": "Uygula",
+          "done": "Bitti"
+        },
+        "mediaTypes": {
+          "image": "Görsel",
+          "video": "Video",
+          "audio": "Ses"
+        },
+        "weekdays": {
+          "su": "Paz",
+          "mo": "Pzt",
+          "tu": "Sal",
+          "we": "Çar",
+          "th": "Per",
+          "fr": "Cum",
+          "sa": "Cts"
+        },
+        "collections": {
+          "heading": "Collections",
+          "createCardLabel": "Create New Collections",
+          "createTitle": "Create collection",
+          "createDescription": "Group related assets so you can organise your workspace faster.",
+          "renameTitle": "Rename collection",
+          "renameDescription": "Choose a clearer name for this collection.",
+          "deleteTitle": "Delete collection",
+          "deleteDescription": "Delete \"{name}\"? This only removes the collection itself for now.",
+          "renameAction": "Rename",
+          "deleteAction": "Delete",
+          "createAction": "Create",
+          "cancelAction": "Cancel",
+          "nameLabel": "Collection name",
+          "namePlaceholder": "Enter a collection name",
+          "assetsCount": "{count} assets",
+          "emptyTitle": "No collections yet",
+          "emptyDescription": "Create your first collection to start organising assets.",
+          "createSuccess": "Collection created",
+          "renameSuccess": "Collection renamed",
+          "deleteSuccess": "Collection deleted",
+          "createError": "Failed to create collection",
+          "renameError": "Failed to rename collection",
+          "deleteError": "Failed to delete collection"
+        },
+        "states": {
+          "noMatchingTitle": "Eşleşen öğe yok",
+          "noMatchingDescription": "Tarih, model, araç veya medya türü filtrelerini ayarlamayı deneyin.",
+          "clearFilters": "Filtreleri temizle",
+          "creationsDescription": "Son oluşturduklarını gözden geçir ve yönet."
+        },
+        "viewMode": {
+          "title": "Görünüm modu",
+          "previewLayout": "Önizleme düzeni",
+          "overlays": "Katmanlar",
+          "metadata": "Meta veriler",
+          "originalRatio": "Orijinal oran",
+          "cropToFill": "Dolduracak şekilde kırp",
+          "mixedGrid": "Karma ızgara"
+        },
+        "collectionActions": {
+          "remove": "Koleksiyondan kaldır",
+          "error": "Öğeler koleksiyondan kaldırılamadı"
+        },
+        "collectionPicker": {
+          "loadError": "Koleksiyonlar yüklenemedi",
+          "addError": "Öğeler koleksiyona eklenemedi",
+          "addSuccess": "Koleksiyona eklendi",
+          "addButton": "Koleksiyona ekle",
+          "newCollection": "Yeni koleksiyon"
+        },
+        "hints": {
+          "recent7Days": "Creations, Uploads ve Collection öğeleri yalnızca son 7 günü destekler. Oluşturduğunuz içerikleri 7 gün içinde indirin."
+        }
+      }
+    },
+    "homepageAnnouncement": {
+      "badge": "What's New - April 2026",
+      "title": "SEEDANCE 2.0 IS HERE",
+      "description": "The most powerful video generation model yet. Create faster, longer and more cinematic clips in one click.",
+      "cta": "Try Now",
+      "closeLabel": "Close announcement",
+      "videoLabel": "Seedance 2.0 announcement video"
+    }
+  },
+  "faceSwap": {
+    "title": "Yapay Zekâ Video Face Swap Online",
+    "description": "Eğlenceli ve gerçekçi face swap videolarını saniyeler içinde <strong class=\"text-primary font-semibold\">Yapay Zekâ Video Face Swap Online</strong> aracımızla oluştur. Düzenleme becerisi gerekmez; videonu yükle, bir yüz seç ve gerisini yapay zekânın sihrine bırak.",
+    "tabs": {
+      "single": "Tek yüz",
+      "multiple": "Birden çok yüz"
+    },
+    "steps": {
+      "video": {
+        "title": "Video yükle",
+        "cta": "Sürükle/Tıkla ve yükle",
+        "hint": "Desteklenen: M4V/MP4/MOV/WEBM",
+        "dragDrop": "Sürükle ve bırak veya tıkla ile yükle",
+        "dropHere": "Videoyu buraya bırak"
+      },
+      "face": {
+        "title": "Yüz görseli yükle",
+        "cta": "Sürükle/Tıkla ve yükle",
+        "hint": "Desteklenen: JPG/PNG/WEBP",
+        "dragDrop": "Sürükle ve bırak veya tıkla ile yükle",
+        "dropHere": "Görüntüyü buraya bırak"
+      },
+      "render": {
+        "title": "Başlamak için \"Render\"a tıkla",
+        "cta": "Render",
+        "rendering": "Render ediliyor..."
+      },
+      "multiple": {
+        "face": {
+          "title": "Yüz değiştirmeyi belirt",
+          "cta": "Yüz çıkar({count}/{max})"
+        }
+      }
+    },
+    "badges": {
+      "free": "Günde 5 ücretsiz çalıştırma",
+      "clean": "Filigran yok",
+      "resolution": "2K çözünürlük desteği"
+    },
+    "preview": {
+      "title": "Önizleme",
+      "cta": "Face swap dene",
+      "original": "Orijinal",
+      "swapped": "Değiştirildi",
+      "faceAlt": "Yüz önizlemesi",
+      "usingFace": "Kullanılan yüz: {name}",
+      "placeholder": "Bir video yüklersen önizleme burada görünecek."
+    },
+    "common": {
+      "selected": "Seçildi: {name}",
+      "notSelected": "Seçilmedi"
+    },
+    "errors": {
+      "videoDurationExceeded": "Video süresi {max} dakikayı aşamaz; mevcut video süresi {current} dakikadır",
+      "videoDurationReadFailed": "Video süresi okunamadı, lütfen video dosya formatının doğru olduğundan emin olun",
+      "uploadFailed": "Yükleme başarısız: {error}",
+      "uploadFailedGeneric": "Yükleme başarısız",
+      "videoRequired": "Lütfen önce bir video yükleyin",
+      "faceImageRequired": "Lütfen önce bir yüz görseli yükleyin",
+      "faceSwapFailed": "Yüz değiştirme işlemi başarısız oldu",
+      "taskFailed": "Görev işleme başarısız oldu",
+      "taskTimeout": "Görev işleme zaman aşımına uğradı, lütfen daha sonra tekrar deneyin",
+      "taskIdNotFound": "Görev kimliği alınamadı, lütfen API yanıt formatını kontrol edin",
+      "apiResponseParseFailed": "Yüz değiştirme işlemi başarısız: API yanıtı ayrıştırılamadı",
+      "processingFailed": "İşlem başarısız, lütfen tekrar deneyin",
+      "statusQueryFailed": "Görev durumu sorgulanamadı: yanıt verileri ayrıştırılamadı",
+      "videoFileNotFound": "Video dosyası bulunamadı, lütfen videoyu yeniden yükleyin"
+    },
+    "footer": "Daha fazla özelliğin kilidini açmak için giriş yap · Günlük ücretsiz krediler · 2K desteği",
+    "uploadConfirm": {
+      "title": "Yükleme Onayı",
+      "description": "Yüklemeden önce lütfen aşağıdakileri onaylayın:",
+      "permission": "Yüklenen içerikteki tüm yüzleri kullanma iznim olduğunu onaylıyorum",
+      "legal": "Bu aracı aldatma, dolandırıcılık veya yasa dışı amaçlar için kullanmayacağım",
+      "synthetic": "Bunun yapay zekâ tarafından üretilmiş sentetik medya oluşturduğunu anlıyorum",
+      "cancel": "İptal",
+      "confirm": "Onayla"
+    }
+  },
+  "clothesRemover": {
+    "id": "clothes-remover",
+    "title": "Yapay Zekâ Kıyafet Değiştirme Playground",
+    "description": "Bir fotoğraf yükleyin, istediğiniz kıyafeti tarif edin, birkaç adımda yeni görünümler oluşturun.",
+    "tabs": {
+      "auto": "Oto",
+      "manual": "Manuel"
+    },
+    "steps": {
+      "type": {
+        "title": "Kıyafet türü seçin"
+      },
+      "upload": {
+        "title": "Fotoğraf yükle (tercihen önden, tam boy)",
+        "cta": "Yüklemek için tıkla",
+        "hint": "(JPG, PNG, WEBP) ≤ 20MB"
+      },
+      "describe": {
+        "title": "İstenen kıyafeti açıkla",
+        "placeholder": "İstediğin kombini yaz: “kırmızı bikini”, “casual takım” veya “yazlık etek” gibi."
+      }
+    },
+    "actions": {
+      "remove": "Kıyafeti değiştir"
+    }
+  },
+  "common": {
+    "fields": {
+      "firstFrame": "İlk kare",
+      "lastFrame": "Son kare (isteğe bağlı)",
+      "referenceAudio": "Reference Audio"
+    },
+    "descriptions": {
+      "uploadFirstFrameImage": "İlk kare görselini yükleyin.",
+      "uploadLastFrameImageOptional": "İsteğe bağlı: Son kare görseli yüklerseniz ilk kareden son kareye geçiş otomatik etkinleşir.",
+      "referenceVideoLimit": "MP4, WebM, MOV (max 50MB, up to 3 videos, duration ≤ 15s)",
+      "referenceAudioLimit": "WAV, MP3 (max 20MB, up to 3 audios, duration ≤ 15s)"
+    }
+  },
+  "canvasWorkspace": {
+    "nav": {
+      "canvas": "Canvas",
+      "creations": "Creations",
+      "collections": "Collections"
+    },
+    "page": {
+      "creationsEyebrow": "CREATIONS",
+      "creationsTitle": "Creations",
+      "creationsDescription": "All of your generated images, videos, and outputs live here so they are easy to review, filter, and organize.",
+      "collectionsEyebrow": "COLLECTIONS",
+      "collectionsTitle": "Collections",
+      "collectionsDescription": "Turn your strongest outputs into curated sets so pitching, reviewing, and reuse feel much faster.",
+      "projectsEyebrow": "CANVAS",
+      "projectsTitle": "Recent Projects",
+      "projectsDescription": "Jump back into your advanced-mode projects and keep shaping the canvas.",
+      "newCanvas": "New Canvas",
+      "emptyProjectsTitle": "No Canvas projects yet",
+      "emptyProjectsDescription": "Open Canvas from the homepage, or start a new advanced-mode project here.",
+      "emptyProjectsAction": "Create project",
+      "creationsEmptyText": "No creations yet",
+      "creationsEmptyTitle": "Your library is waiting for the first result",
+      "creationsEmptyDescription": "Generate from the homepage or run a workflow in Canvas and every new output will appear here.",
+      "collectionDetailDescription": "Review everything saved into this collection, then keep curating or return to Canvas to create more.",
+      "collectionDetailBack": "Back to Collections",
+      "collectionDetailEmptyText": "This collection is empty",
+      "collectionDetailEmptyTitle": "Nothing has been saved here yet",
+      "collectionDetailEmptyDescription": "Pick a few strong results from Creations and this collection will start to take shape."
+    },
+    "projectsGrid": {
+      "deleteConfirm": "Delete project \"{name}\"? This action cannot be undone.",
+      "deleteSuccess": "Project deleted",
+      "deleteError": "Failed to delete project",
+      "duplicateSuccess": "Project duplicated",
+      "duplicateError": "Failed to duplicate project",
+      "updatedAtPrefix": "Updated",
+      "duplicateAria": "Duplicate project",
+      "deleteAria": "Delete project"
+    },
+    "collectionsGrid": {
+      "heading": "Collections",
+      "createCardLabel": "New Collection",
+      "createTitle": "Create Collection",
+      "createDescription": "Give this curated set a clear name.",
+      "renameTitle": "Rename Collection",
+      "renameDescription": "Update how this collection appears in your library.",
+      "deleteTitle": "Delete Collection",
+      "deleteDescription": "Deleting a collection removes the group, but keeps every creation.",
+      "renameAction": "Save name",
+      "deleteAction": "Delete Collection",
+      "createAction": "Create Collection",
+      "cancelAction": "Cancel",
+      "nameLabel": "Name",
+      "namePlaceholder": "For example: Brand visual directions",
+      "emptyTitle": "No collections yet",
+      "emptyDescription": "Group strong outputs into collections so it is easier to revisit and present them later.",
+      "createSuccess": "Collection created",
+      "renameSuccess": "Collection updated",
+      "deleteSuccess": "Collection deleted",
+      "createError": "Failed to create collection",
+      "renameError": "Failed to rename collection",
+      "deleteError": "Failed to delete collection"
+    },
+    "projectsHub": {
+      "heroTitle": "Sınırsız fikirler, sınırsız üretim",
+      "heroPlaceholder": "Bir fikirle başlayın ve doğrudan Canvas üretimine geçin",
+      "heroSubmit": "Oluştur ve üret",
+      "sectionTitle": "Projelerim",
+      "sectionAction": "Tümünü gör",
+      "createCardTitle": "Yeni proje",
+      "createCardSubtitle": "Yeni bir istemle başla",
+      "submitError": "Bir proje oluşturmadan önce bir istem girin",
+      "autoLabel": "AUTO",
+      "plusMenuTitle": "Bu düğümden üret",
+      "uploadReferenceAria": "Referans yükle",
+      "closeDirectionAria": "Kapat",
+      "virtualReferenceLabel": "Referans görseli",
+      "virtualPromptLabel": "İstem"
+    }
+  }
+}

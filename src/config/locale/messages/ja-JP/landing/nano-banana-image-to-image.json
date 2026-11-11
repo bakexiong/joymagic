@@ -1,0 +1,146 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "ソース画像をアップロード",
+      "hint": "最大{max}枚の画像をアップロード（JPG/PNG/WEBP）",
+      "dragDrop": "ドラッグ＆ドロップまたはクリックしてアップロード",
+      "dropHere": "ここに画像をドロップ"
+    },
+    "aspectRatio": {
+      "title": "アスペクト比を選択",
+      "placeholder": "アスペクト比を選択",
+      "auto": "自動",
+      "hint": "Nano Banana画像変換の出力アスペクト比を選択してください"
+    },
+    "prompt": {
+      "title": "編集プロンプトを入力",
+      "placeholder": "画像の編集方法を記述してください。例：「アニメスタイルに変更」「油絵効果を適用」「映画風にする」",
+      "hint": "スタイル、雰囲気、照明、ディテールなど、希望する編集内容を具体的に記述してください"
+    },
+    "generate": {
+      "title": "編集画像を生成",
+      "cta": "生成",
+      "generating": "生成中..."
+    }
+  },
+  "preview": {
+    "title": "プレビュー",
+    "original": "オリジナル",
+    "swap": "切替",
+    "placeholder": "画像をアップロードし、編集プロンプトを入力すると、Nano Banana画像変換の結果がここにプレビューされます。"
+  },
+  "common": {
+    "selectedCount": "選択済み：{count}/{max}枚",
+    "notSelected": "未選択"
+  },
+  "errors": {
+    "invalidFileType": "無効なファイル形式です。画像ファイル（JPG、PNG、WEBP）をアップロードしてください。",
+    "uploadFailed": "アップロード失敗：{error}",
+    "uploadFailedGeneric": "アップロードに失敗しました",
+    "sourceImageRequired": "ソース画像を少なくとも1枚アップロードしてください",
+    "promptRequired": "編集プロンプトを入力してください",
+    "generationFailed": "画像編集に失敗しました",
+    "taskFailed": "タスク処理に失敗しました",
+    "taskTimeout": "タスク処理がタイムアウトしました。後でもう一度お試しください",
+    "taskIdNotFound": "タスクIDを取得できません。APIレスポンス形式を確認してください",
+    "processingFailed": "処理に失敗しました。もう一度お試しください",
+    "statusQueryFailed": "タスクステータスの照会に失敗しました",
+    "apiResponseParseFailed": "APIレスポンスの解析に失敗しました"
+  },
+  "page": {
+    "metadata": {
+      "title": "Nano Banana画像変換AIエディター — オンラインで無料で画像を変換 | joymagic",
+      "description": "Nano Banana画像変換AIを使用して、オンラインで画像を編集・変換。最大10枚の画像をアップロードし、10以上のアスペクト比から選択、Nano Bananaによるスタイル変換、画質向上、クリエイティブな画像変換を数秒で実行。",
+      "keywords": "nano banana 2, nano-banana, nano banana 2 画像変換, 画像変換AI, nano-banana画像エディター, AI画像変換, バッチ画像編集, nano banana 2 AI, オンライン画像変換エディター, nano-bananaアスペクト比"
+    },
+    "hero": {
+      "title": "Nano Banana画像変換 — AI画像エディター＆トランスフォーマー",
+      "description": "<strong class=\"text-primary font-semibold\">Nano Banana画像変換</strong>AIエディターで画像を変換。最大<strong class=\"text-primary font-semibold\">10枚の画像</strong>をアップロードし、10以上のアスペクト比から選択、Nano Bananaによる画像変換編集 — スタイル変換、カラーグレーディング、アーティスティック効果、クリエイティブな変換 — すべて数秒で完了。",
+      "button1": "Nano Banana画像変換を試す",
+      "button2": "料金プランを見る"
+    },
+    "keyFeatures": {
+      "title": "なぜNano Bananaで画像変換するのか？",
+      "description": "Nano Bananaテクノロジーによる高度なAI画像変換編集",
+      "multiImage": {
+        "title": "Nano Bananaによるバッチ画像変換",
+        "description": "Nano Bananaで一度に最大10枚の画像をアップロードしてバッチ画像変換。一貫したスタイルと品質で複数の画像を同時に処理します。"
+      },
+      "aspectRatio": {
+        "title": "Nano Bananaアスペクト比コントロール",
+        "description": "Nano-banana-2画像変換は、1:1、3:2、2:3、3:4、4:3、4:5、5:4、9:16、16:9、21:9を含む10以上のアスペクト比に対応し、最適な出力サイズを実現します。"
+      },
+      "smartEdit": {
+        "title": "インテリジェント画像変換編集",
+        "description": "Nano Bananaは画像のコンテキストとセマンティクスを理解し、正確で自然な画像変換を実現。何を変更し何を保持するかを判断するスマートAIです。"
+      },
+      "affordable": {
+        "title": "手頃なNano Banana料金",
+        "description": "プロフェッショナルグレードのAI編集を、あらゆるプロジェクト規模で利用可能な、コスト効率の高いNano Banana画像変換。"
+      }
+    },
+    "promptingTips": {
+      "title": "Nano Banana画像変換で最高の結果を得る方法",
+      "specific": {
+        "title": "プロンプトを具体的に記述する",
+        "description": "Nano Banana画像変換で最適な結果を得るには、希望する編集内容を正確に記述してください。例：「水彩画スタイルに変換」「暖色系のシネマティックカラーグレーディングを追加」。"
+      },
+      "style": {
+        "title": "アーティスティックスタイルを指定する",
+        "description": "Nano Banana画像変換を使用する際は、ターゲットスタイルを明確に指定してください：「アニメイラスト」「油絵」「フォトリアリスティック強化」「ヴィンテージフィルム風」など。"
+      },
+      "color": {
+        "title": "カラーとムードの方向性",
+        "description": "Nano Banana画像変換にカラーとムードのヒントを与えてください：「鮮やかな彩度の高い色」「柔らかいパステルトーン」「ダークでムーディーな雰囲気」「ゴールデンアワーの暖かさ」など。"
+      },
+      "details": {
+        "title": "詳細な指示を追加する",
+        "description": "Nano Banana画像変換の品質を最大化するには、照明、構図、テクスチャ、保持または変換する要素を指定してください。"
+      }
+    },
+    "faq": {
+      "title": "Nano Banana画像変換FAQ",
+      "description": "Nano Banana画像変換AIエディターに関するよくある質問",
+      "q1": {
+        "question": "Nano Banana画像変換で一度に何枚の画像を編集できますか？",
+        "answer": "Nano Banana画像変換エディターでは、Nano Banana AIによるバッチ画像変換で一度に最大10枚の画像をアップロードできます。"
+      },
+      "q2": {
+        "question": "Nano Banana画像変換はどのアスペクト比に対応していますか？",
+        "answer": "Nano Banana画像変換は10以上のアスペクト比に対応：1:1、3:2、2:3、3:4、4:3、4:5、5:4、9:16、16:9、21:9。Nano Bananaに自動判定させる自動モードも使用できます。"
+      },
+      "q3": {
+        "question": "Nano Banana画像変換はどの画像形式に対応していますか？",
+        "answer": "Nano Banana画像変換はPNG、JPEG、JPG、WebP形式に対応しています。Nano Bananaで最高の結果を得るには、鮮明で明るいソース画像を使用してください。"
+      },
+      "q4": {
+        "question": "Nano Banana画像変換で効果的なプロンプトを書くには？",
+        "answer": "Nano Banana画像変換で最高の結果を得るには、ターゲットスタイル、ムード、照明、カラーパレット、構図などの詳細な説明を含めてください。より詳細な記述がより良いNano Banana変換を生み出します。"
+      },
+      "q5": {
+        "question": "Nano Banana画像変換は他のAIエディターと何が違いますか？",
+        "answer": "Nano Bananaは高度なNano Banana AIテクノロジーを使用し、柔軟なアスペクト比コントロールによるコンテキスト認識型のセマンティックインテリジェント画像変換を実現。画像コンテンツを深く理解し、自然で正確な画像変換編集を生成します。"
+      }
+    },
+    "finalCTA": {
+      "title": "Nano Banana画像変換を試す準備はできましたか？",
+      "description": "今すぐNano Banana画像変換AIで画像の変換を始めましょう。高速、高品質、インテリジェントな画像変換をすぐにご利用いただけます。",
+      "button": "今すぐNano Banana画像変換を試す"
+    },
+    "breadcrumb": {
+      "home": "ホーム",
+      "imageToImage": "画像変換",
+      "nanoBanana": "Nano Banana"
+    },
+    "schema": {
+      "softwareName": "Nano Banana画像変換AIエディター — joymagic",
+      "howToName": "Nano Banana画像変換AIエディターの使い方",
+      "howToDescription": "Nano Banana画像変換AIテクノロジーを使用して画像を編集・変換する方法を学びましょう。画像をアップロードし、アスペクト比を選択し、インテリジェントなAI画像変換編集を適用します。",
+      "features": {
+        "aiImageEditing": "Nano Banana画像変換AI編集",
+        "multiImage": "Nano Bananaによるバッチ画像変換",
+        "aspectRatio": "Nano Bananaアスペクト比コントロール"
+      }
+    }
+  }
+}

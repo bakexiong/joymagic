@@ -1,0 +1,28 @@
+{
+  "media_detail": {
+    "prompt_title": "PROMPT",
+    "copy_button": "Copy",
+    "copied_button": "Copied!",
+    "show_more": "See all",
+    "show_less": "Show less",
+    "information_title": "INFORMATION",
+    "model_label": "Model:",
+    "quality_label": "Quality:",
+    "size_label": "Size:",
+    "generate_button": "Generate Similar",
+    "video_button": "Video",
+    "download_button": "Download",
+    "upscale_button": "Upscale",
+    "edit_button": "Edit",
+    "no_prompt": "No prompt available",
+    "image_alt": "Generated image"
+  },
+  "mobile_homepage": {
+    "create_image": "Create Image",
+    "create_video": "Create Video",
+    "ai_effect": "AI Effect",
+    "new_badge": "New",
+    "view_all": "View All",
+    "view_more": "View More"
+  }
+}

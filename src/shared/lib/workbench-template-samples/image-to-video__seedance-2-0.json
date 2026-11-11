@@ -1,0 +1,83 @@
+[
+  {
+    "prompt": "The wind picks up, pressing his jacket flat against his chest, hair whipping sideways. He adjusts the camera angle, tilts it slightly downward — below, the city traffic crawls in golden silence. A flock of pigeons erupts from a ledge below him and wheels out over the skyline in a wide arc. He tracks them through the viewfinder, turning slowly. The sun drops another degree — the light shifts from amber to deep copper across his face. He lowers the camera. Looks out at the city with naked eyes for a long moment. Then raises the camera again. Camera slowly drifts forward, closing the distance behind him.",
+    "params": {
+      "firstFrameImage": [
+        {
+          "id": "firstFrameImage-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/af9425624809cccf8ef1e5b02fe73ca3.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/af9425624809cccf8ef1e5b02fe73ca3.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "lastFrameImage": [],
+      "prompt": "The wind picks up, pressing his jacket flat against his chest, hair whipping sideways. He adjusts the camera angle, tilts it slightly downward — below, the city traffic crawls in golden silence. A flock of pigeons erupts from a ledge below him and wheels out over the skyline in a wide arc. He tracks them through the viewfinder, turning slowly. The sun drops another degree — the light shifts from amber to deep copper across his face. He lowers the camera. Looks out at the city with naked eyes for a long moment. Then raises the camera again. Camera slowly drifts forward, closing the distance behind him.",
+      "referenceVideos": [],
+      "referenceAudios": [],
+      "resolution": "720p",
+      "duration": "5"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/1b8623b9e7f745cb1abe4958173efd42.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/1b8623b9e7f745cb1abe4958173efd42.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/334e42517a0d44024a521fa8ff1f7d68.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/334e42517a0d44024a521fa8ff1f7d68.mp4"
+    ],
+    "generatedAt": "2026-04-15T12:37:53.879Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/a90f369bf751fea6c47348405084ae09.mp4"
+  },
+  {
+    "prompt": "The cat slowly adjusts its glasses with one paw, then sighs deeply and slams a tiny folder on the table in frustration, papers flying everywhere, realistic fur physics",
+    "params": {
+      "firstFrameImage": [
+        {
+          "id": "firstFrameImage-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/5090cf5f3022110882106ba46be11c7a.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/5090cf5f3022110882106ba46be11c7a.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "lastFrameImage": [],
+      "prompt": "The cat slowly adjusts its glasses with one paw, then sighs deeply and slams a tiny folder on the table in frustration, papers flying everywhere, realistic fur physics",
+      "referenceVideos": [],
+      "referenceAudios": [],
+      "resolution": "720p",
+      "duration": "5"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/9cca8ef5acb1b6ce7c72c4372e87553f.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/9cca8ef5acb1b6ce7c72c4372e87553f.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/b6db2eaa6eb4c97768d85a3d2f1ec690.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/b6db2eaa6eb4c97768d85a3d2f1ec690.mp4"
+    ],
+    "generatedAt": "2026-04-15T12:46:19.546Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/36de52cbfceadfc42316513f08e7d0e6.mp4"
+  },
+  {
+    "prompt": "Both accelerate hard out of a corner together — grandmother's wheelchair wobbles at the limit, she counter-steers with pure instinct, knuckles white on the joystick, her reading glasses flying off her face into the slipstream. The F1 driver glances over through his visor, visibly shaken. She doesn't look back. They hit the straight — the F1 car pulls away slowly, but she tucks into its wake and drafts, inching back up. Cut to the grandstands erupting.",
+    "params": {
+      "firstFrameImage": [
+        {
+          "id": "firstFrameImage-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/fb404e433734b10fdc5de19f8a270896.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/fb404e433734b10fdc5de19f8a270896.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "lastFrameImage": [],
+      "prompt": "Both accelerate hard out of a corner together — grandmother's wheelchair wobbles at the limit, she counter-steers with pure instinct, knuckles white on the joystick, her reading glasses flying off her face into the slipstream. The F1 driver glances over through his visor, visibly shaken. She doesn't look back. They hit the straight — the F1 car pulls away slowly, but she tucks into its wake and drafts, inching back up. Cut to the grandstands erupting.",
+      "referenceVideos": [],
+      "referenceAudios": [],
+      "resolution": "720p",
+      "duration": "5"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/8079b328f85e208b484c8d101643710c.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/8079b328f85e208b484c8d101643710c.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/f10c259a52fd14bcb7cca42d248edf1a.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/f10c259a52fd14bcb7cca42d248edf1a.mp4"
+    ],
+    "generatedAt": "2026-04-15T11:05:36.249Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/ddc92234685474a20d7b9b802fbceaaa.mp4"
+  }
+]

@@ -1,0 +1,273 @@
+{
+  "title": "Qwen Image 202512 Текст в Изображение",
+  "subtitle": "Создавайте потрясающие изображения из текстовых описаний",
+  "prompt_label": "Промпт",
+  "prompt_placeholder": "венецианские жалюзи, создающие драматические тени на её лице. Снято на Hasselblad H6D-100c, объектив 85mm f/1.4, малая глубина резкости, зерно плёнки, цветовая наука Kodak Portra 400. Кинематографическая композиция с негативным пространством, меланхоличная атмосфера.",
+  "prompt_tooltip": "Введите описание изображения, которое вы хотите создать",
+  "size_label": "Размер изображения",
+  "size_hint": "Выберите размер выходного изображения",
+  "width_label": "Ширина",
+  "height_label": "Высота",
+  "seed_label": "Семя",
+  "seed_tooltip": "Установите значение семени для воспроизводимых результатов. Используйте -1 для случайного семени.",
+  "seed_randomize": "Сгенерировать случайное семя",
+  "output_format_label": "Формат вывода",
+  "output_format_tooltip": "Выберите формат выходного изображения",
+  "buttons": {
+    "generate": "Создать Изображение"
+  },
+  "errors": {
+    "promptRequired": "Промпт обязателен"
+  },
+  "image_alt": "Сгенерированное изображение",
+  "download": "Скачать",
+  "image_placeholder": "Сгенерированное изображение появится здесь",
+  "prompt_inspirations_button": "Вдохновение для промптов",
+  "prompt_guide_button": "Руководство по промптам",
+  "powered_by": "Работает на модели AI Qwen Image 202512, оптимизированной joymagic",
+  "page": {
+    "metadata": {
+      "title": "Qwen Image 2512: Модель Текст-в-Изображение от Alibaba для Читаемого Текста | joymagic",
+      "description": "Qwen Image 2512 — это последняя модель генерации текст-в-изображение от Alibaba, оптимизированная для создания высококачественных изображений с точным, читаемым текстом. Идеально подходит для плакатов, вывесок, логотипов, рекламы и активов брендинга.",
+      "keywords": "Qwen Image 2512, текст в изображение, генератор изображений ai, читаемый текст, плакаты, вывески, логотипы, Alibaba, Qwen AI"
+    },
+    "hero": {
+      "title": "Qwen Image 2512: Модель Текст-в-Изображение от Alibaba для Читаемого Текста",
+      "description": "Qwen Image 2512 — это последняя модель генерации текст-в-изображение от Alibaba из семейства Qwen AI. Она специально оптимизирована для создания высококачественных изображений с точным, читаемым текстом, что делает её отличным выбором для плакатов, вывесок, логотипов, рекламы и активов брендинга, где важна ясность текста.<br/><br/>В отличие от многих моделей генерации изображений, которые приоритизируют только визуальную эстетику, Qwen Image 2512 выделяется, сочетая сильное понимание естественного языка с ведущим в отрасли рендерингом текста внутри изображений.",
+      "button1": "Попробовать Сейчас",
+      "button2": "Посмотреть Цены"
+    },
+    "heroDescription": "Создавайте потрясающие изображения из простых текстовых описаний, используя передовые технологии AI.",
+    "keyFeatures": {
+      "title": "Почему Выбрать Qwen Image 2512?",
+      "description": "Откройте для себя уникальные преимущества, которые делают Qwen Image 2512 идеальным выбором для визуального контента, богатого текстом",
+      "superiorTextRendering": {
+        "title": "Превосходный Рендеринг Текста",
+        "description": "Qwen Image 2512 превосходно генерирует чёткий, читаемый текст внутри изображений, поддерживая несколько языков, шрифтов и стилей макета. Это делает её идеальной для таких случаев использования, как маркетинговые плакаты, рекламные баннеры, этикетки продуктов, логотипы и вывески—сценарии, где критически важна читаемость текста."
+      },
+      "advancedPromptUnderstanding": {
+        "title": "Продвинутое Понимание Промптов",
+        "description": "Модель демонстрирует улучшенное понимание сложных промптов, точно интерпретируя отношения объектов, пространственные макеты и композицию, а также стилистические намерения и визуальную иерархию. Даже длинные, детальные промпты обрабатываются с последовательными и надёжными результатами."
+      },
+      "flexibleImageSizing": {
+        "title": "Гибкий Размер Изображения",
+        "description": "Qwen Image 2512 поддерживает пользовательские параметры ширины и высоты, позволяя вам создавать изображения, адаптированные для форматов социальных сетей (1:1, 4:5, 9:16), презентаций и веб-баннеров, а также готовых к печати визуалов и плакатов."
+      },
+      "consistentQuality": {
+        "title": "Последовательное Качество Во Всех Стилях",
+        "description": "Независимо от того, нужны ли вам фотореалистичные изображения, иллюстрации или концепт-арт, или абстрактные или бренд-ориентированные дизайны, Qwen Image 2512 поддерживает высокое визуальное качество и стилистическую последовательность во всех выходных данных."
+      },
+      "builtInPromptEnhancer": {
+        "title": "Встроенный Улучшитель Промптов",
+        "description": "Интегрированный Улучшитель Промптов автоматически улучшает ваш ввод, помогая вам достичь лучших результатов генерации с меньшим количеством проб и ошибок."
+      }
+    },
+    "howItWorks": {
+      "title": "Как Это Работает",
+      "description": "Создавайте изображения в три простых шага",
+      "step1": {
+        "title": "Введите Ваш Промпт",
+        "description": "Опишите изображение, которое вы хотите создать"
+      },
+      "step2": {
+        "title": "Выберите Настройки",
+        "description": "Выберите формат вывода и предпочтения"
+      },
+      "step3": {
+        "title": "Создать и Скачать",
+        "description": "Получите ваше изображение, созданное AI, и скачайте его"
+      }
+    },
+    "promptingTips": {
+      "title": "Prompting Tips",
+      "lighting": {
+        "title": "Be Specific About Lighting",
+        "description": "\"Golden hour sunlight from the left, soft shadows\" works better than \"good lighting.\""
+      },
+      "camera": {
+        "title": "Include Camera Details",
+        "description": "\"Shot with 85mm lens, shallow depth of field\" adds professional photography quality."
+      },
+      "style": {
+        "title": "Specify Art Style",
+        "description": "\"Digital illustration in Studio Ghibli style\" or \"hyperrealistic 3D render\" gives clear direction."
+      },
+      "mood": {
+        "title": "Describe Mood and Atmosphere",
+        "description": "\"Cozy, warm, nostalgic feeling\" or \"dramatic, cinematic, high contrast\" shapes the overall image."
+      }
+    },
+    "parameters": {
+      "title": "Qwen Image 2512 Parameters",
+      "description": "Parameter details are available in the playground interface. Adjust width, height, seed, and output format to customize your image generation."
+    },
+    "outputFormats": {
+      "title": "Output Format Options",
+      "jpeg": {
+        "title": "JPEG",
+        "description": "Smaller file size, ideal for photos and web usage"
+      },
+      "png": {
+        "title": "PNG",
+        "description": "Lossless quality with transparency support, best for images containing text"
+      },
+      "webp": {
+        "title": "WebP",
+        "description": "Modern format with better compression and strong browser compatibility"
+      }
+    },
+    "howToUse": {
+      "title": "Как Использовать Qwen Image 2512",
+      "step1": {
+        "title": "Напишите ваш промпт",
+        "description": "Опишите объект, стиль, композицию, освещение и настроение."
+      },
+      "step2": {
+        "title": "Настройте размер изображения",
+        "description": "Установите ширину и высоту в соответствии с вашей целевой платформой."
+      },
+      "step3": {
+        "title": "Установите семя",
+        "description": "Используйте -1 для случайных выходных данных или укажите фиксированное значение для воспроизводимости."
+      },
+      "step4": {
+        "title": "Выберите формат вывода",
+        "description": "Выберите jpeg, png или webp в зависимости от ваших потребностей."
+      },
+      "step5": {
+        "title": "Запустите и итерируйте",
+        "description": "Создавайте, просматривайте и улучшайте ваш промпт по мере необходимости."
+      }
+    },
+    "pricing": {
+      "title": "Pricing",
+      "description": "Simple flat-rate pricing, independent of image size, making it cost-effective for large-scale and commercial usage. View our pricing page for detailed information.",
+      "link": "View Pricing →"
+    },
+    "bestUseCases": {
+      "title": "Best Use Cases",
+      "marketing": {
+        "title": "Marketing & Advertising",
+        "description": "Create high-impact visuals with readable text for ads, posters, and campaigns."
+      },
+      "socialMedia": {
+        "title": "Social Media Content",
+        "description": "Generate platform-optimized visuals that drive engagement."
+      },
+      "productDesign": {
+        "title": "Product & Packaging Design",
+        "description": "Visualize concepts, mockups, and packaging with integrated typography."
+      },
+      "branding": {
+        "title": "Branding & Visual Identity",
+        "description": "Design logos, signage, and brand assets with clear text elements."
+      },
+      "editorial": {
+        "title": "Editorial & Publishing",
+        "description": "Produce illustrations, cover art, and visual content for articles and media."
+      }
+    },
+    "proTips": {
+      "title": "Pro Tips for Best Results",
+      "specific": {
+        "title": "Be as specific as possible in your prompts",
+        "description": "Include subject details, style, lighting, camera angle, and atmosphere."
+      },
+      "textInImages": {
+        "title": "When generating text inside images, explicitly specify the exact wording, font style, and placement",
+        "example": "Example:",
+        "exampleText": "\"Poster with the text 'SUMMER SALE' in bold red letters at the top.\""
+      },
+      "reproducibility": {
+        "title": "Use the same prompt and seed to reproduce identical outputs",
+        "description": "This model is specifically optimized for readable text generation, so take advantage of that strength."
+      }
+    },
+    "notes": {
+      "title": "Notes",
+      "description": "Please ensure that your prompts comply with applicable content guidelines. If an error occurs, review and refine your prompt before retrying."
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "marketing": {
+        "title": "Marketing Visuals",
+        "description": "Generate product concepts, ad imagery, and social media content without photoshoots."
+      },
+      "character": {
+        "title": "Character Design",
+        "description": "Create original characters for games, comics, or animation projects from text descriptions."
+      },
+      "concept": {
+        "title": "Concept Art",
+        "description": "Visualize scenes, environments, and ideas quickly for creative projects and presentations."
+      },
+      "stock": {
+        "title": "Stock Photo Alternative",
+        "description": "Generate specific images you need instead of searching through generic stock libraries."
+      }
+    },
+    "faq": {
+      "title": "Часто Задаваемые Вопросы",
+      "description": "Общие вопросы о Qwen Image 2512",
+      "q1": {
+        "question": "Что такое Qwen Image 2512?",
+        "answer": "Qwen Image 2512 — это последняя модель генерации текст-в-изображение от Alibaba из семейства Qwen AI. Она специально оптимизирована для создания высококачественных изображений с точным, читаемым текстом, что делает её идеальной для плакатов, вывесок, логотипов, рекламы и активов брендинга."
+      },
+      "q2": {
+        "question": "Что отличает Qwen Image 2512 от других моделей?",
+        "answer": "Qwen Image 2512 выделяется, сочетая сильное понимание естественного языка с ведущим в отрасли рендерингом текста внутри изображений. В отличие от многих моделей, которые приоритизируют только визуальную эстетику, она превосходно генерирует чёткий, читаемый текст внутри изображений."
+      },
+      "q3": {
+        "question": "Какие форматы вывода поддерживаются?",
+        "answer": "Qwen Image 2512 поддерживает JPEG (меньший размер файла, идеально для фотографий и веб), PNG (качество без потерь с прозрачностью, лучше всего для изображений, содержащих текст) и WebP (современный формат с лучшим сжатием и сильной совместимостью с браузерами)."
+      },
+      "q4": {
+        "question": "Могу ли я настроить размер изображения?",
+        "answer": "Да, Qwen Image 2512 поддерживает пользовательские параметры ширины и высоты, позволяя вам создавать изображения, адаптированные для форматов социальных сетей (1:1, 4:5, 9:16), презентаций, веб-баннеров и готовых к печати визуалов."
+      },
+      "q5": {
+        "question": "Как получить лучшие результаты с текстом в изображениях?",
+        "answer": "При создании текста внутри изображений явно укажите точную формулировку, стиль шрифта и размещение. Например: \"Плакат с текстом 'ЛЕТНЯЯ РАСПРОДАЖА' жирными красными буквами вверху.\" Эта модель специально оптимизирована для генерации читаемого текста, поэтому используйте эту силу."
+      }
+    },
+    "privacySecurity": {
+      "title": "Конфиденциальность и Безопасность",
+      "description": "Ваша конфиденциальность и безопасность — наши главные приоритеты.",
+      "secureProcessing": "Безопасная Обработка",
+      "autoDelete": "Автоматическое Удаление",
+      "neverShared": "Никогда Не Передаётся"
+    },
+    "finalCTA": {
+      "title": "Готовы Создавать?",
+      "description": "Qwen Image 2512 — это не просто ещё одна модель текст-в-изображение—это готовый к продакшену инструмент визуальной генерации, разработанный для реальных рабочих процессов дизайна и маркетинга. Если ваши проекты требуют чёткой типографики, точных макетов и сильной визуальной повествовательности, Qwen Image 2512 — один из самых убедительных выборов, доступных сегодня.",
+      "button": "Попробовать Сейчас"
+    },
+    "breadcrumb": {
+      "home": "Главная",
+      "textToImage": "Текст в Изображение",
+      "qwenImage2512": "Qwen Image 2512"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Qwen Image 2512 Text to Image",
+      "howToName": "How to Generate Images with Qwen Image 2512",
+      "howToDescription": "Generate images from text descriptions using Qwen Image 2512 with accurate, readable text",
+      "features": {
+        "superiorTextRendering": "Superior Text Rendering",
+        "advancedPromptUnderstanding": "Advanced Prompt Understanding",
+        "flexibleImageSizing": "Flexible Image Sizing",
+        "consistentQuality": "Consistent Quality Across Styles"
+      }
+    },
+    "showcase": {
+      "image1": {
+        "alt": "Плакат, созданный Qwen Image 2512, с читаемым текстом"
+      },
+      "image2": {
+        "alt": "Многоязычный дизайн hello, созданный Qwen Image 2512"
+      },
+      "image3": {
+        "alt": "Коллаж изображений, созданный Qwen Image 2512"
+      }
+    }
+  }
+}

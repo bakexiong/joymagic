@@ -1,0 +1,88 @@
+{
+  "title": "Nano Banana 2",
+  "provider": "Google",
+  "eyebrow": "Modellzentrierte Landingpage",
+  "description": "Starte mit Nano Banana 2, wenn du einen produktionsnäheren Workflow brauchst: mehr Referenzen, stärkere Ausgabekontrolle, klareres Text-Rendering und schärfere Kampagnen-Visuals schon im ersten Durchlauf.",
+  "seoTitle": "Nano Banana 2 KI-Modellseite | Erweiterte Bildbearbeitung + Text zu Bild | joymagic",
+  "seoDescription": "Entdecke Nano Banana 2 als modellzentrierte Landingpage. Wechsle zwischen Szenen, nutze dieselbe Creator-Workbench erneut und setze Nano Banana 2 für Multi-Bild-Bearbeitung und stärker kontrollierte Text-zu-Bild-Generierung ein.",
+  "stats": [
+    {
+      "label": "Primärer Modus",
+      "value": "Erweiterte Bearbeitung"
+    },
+    {
+      "label": "Erweiterte Szenen",
+      "value": "2 aktive Workflows"
+    },
+    {
+      "label": "Ausgabefokus",
+      "value": "Mehr Kontrolle"
+    }
+  ],
+  "differentiators": [
+    "Positioniere Nano Banana 2 als Upgrade für Nutzer, die mehr Produktionskontrolle als beim Basismodell brauchen.",
+    "Behalte dasselbe creator-seitige Workbench-Verhalten bei und ändere nur Modellstory, Startprompts und Szenenrahmung.",
+    "Mache den Vergleich zwischen verwandten Modellseiten einfach, ohne Formulare, Szenenrouting oder das rechte Medienpanel neu aufzubauen."
+  ],
+  "gallery": [
+    {
+      "title": "Kampagnen-Packshot-Upgrade",
+      "caption": "Nutze mehrere Referenzen und engere Ausgabekontrollen, um rohe Produkt-Assets in ausgereiftere, werbefertige Visuals zu verwandeln.",
+      "prompt": "Nutze die hochgeladenen Referenzen, um ein hochwertiges Hautpflege-Kampagnenmotiv mit klaren Reflexen, veredeltem Licht und einem sauberen Luxus-Retail-Finish zu erzeugen.",
+      "accentClassName": "from-[#f8e08a] via-[#9c7c35] to-[#171717] text-white"
+    },
+    {
+      "title": "Plakate mit Typografie-Fokus",
+      "caption": "Erstelle Poster-Kompositionen, bei denen Layout, Hierarchie und lesbare Typografie schon im ersten Durchlauf stimmen müssen.",
+      "prompt": "Entwirf ein hochwertiges Launch-Poster für eine Sommergetränkemarke mit klar lesbarer Headline-Typografie, filmischem Golden-Hour-Licht und einer glänzenden Hero-Produkt-Komposition.",
+      "accentClassName": "from-[#8cd3ff] via-[#2b75b6] to-[#121416] text-white"
+    },
+    {
+      "title": "Kontrollierte Markenkonzepte",
+      "caption": "Erzeuge Konzept-Frames, die sich näher an finalen Kampagnen-Comps anfühlen als an lockeren Moodboards.",
+      "prompt": "Erstelle ein ausgereiftes Marken-Konzeptvisual für den Launch eines Luxusdufts mit frontaler Hero-Komposition, weichem atmosphärischem Dunst, klarer Produktkennzeichnung und hochwertigem Editorial-Licht.",
+      "accentClassName": "from-[#d7b7ff] via-[#6f47a8] to-[#17131d] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was ist der Unterschied zwischen /model/nanobana und /model/nanobanana-2?",
+      "answer": "Nano Banana 2 wird hier als produktionsnäheres Schwester-Modell positioniert: besser für schwerere referenzgetriebene Bearbeitungen, stärkere Ausgabekontrolle und hochwertigere Konzeptgenerierung mit klarerer Layout-Absicht."
+    },
+    {
+      "question": "Verwendet Nano Banana 2 weiterhin dieselbe Creator-Workbench?",
+      "answer": "Ja. Der Formularfluss links und das Medienpanel rechts werden weiterhin aus dem Creator wiederverwendet, sodass sich nur der Modellkontext ändert, nicht aber der Kern des Erstellungsworkflows."
+    },
+    {
+      "question": "Warum eine eigene Modellseite für Nano Banana 2 anlegen?",
+      "answer": "Weil die Nutzerabsicht eine andere ist. Diese Seite hilft dabei, Nano Banana 2 als Upgrade-Pfad zu positionieren und passende Einsatzszenarien zu erklären, ohne es in einer generischen Tool-Seite zu verwässern."
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "Bildbearbeitung",
+      "title": "Szene 01 · Präzisionsbearbeitung mit mehreren Bildern",
+      "description": "Nutze Nano Banana 2 für schwerere Bearbeitungs-Workflows, die mehr Referenzen, klarere Kontrolle über Ausgabegrößen und eine produktionsnähere Arbeitsweise verlangen.",
+      "spotlight": "Ideal für Batches, referenzreiche Bearbeitungen und hochauflösende Deliverables.",
+      "starterPrompt": "Nutze die hochgeladenen Referenzen, um das Produkt in eine hochwertige Launch-Kampagne umzuwandeln, das Branding beizubehalten, kontrollierte Studio-Reflexe hinzuzufügen und ein poliertes kommerzielles Visual auszugeben.",
+      "useCases": [
+        "Produktbild-Veredelung mit mehreren Referenzen",
+        "Kampagnenvarianten mit strengerer Ausgabekontrolle",
+        "Art-Direction-Durchgänge mit konsistenter visueller Identität"
+      ]
+    },
+    {
+      "modeLabel": "Text zu Bild",
+      "title": "Szene 02 · Konzeptgenerierung mit hoher Kontrolle",
+      "description": "Wechsle in die promptgesteuerte Generierung, wenn du stärkere Kameraführung, saubereres Text-Rendering und Ergebnisse brauchst, die näher an produktionsreifen Comps liegen.",
+      "spotlight": "Ideal für hochwertige Konzeptentwicklung, bevor Assets in die Kampagnenproduktion übergehen.",
+      "starterPrompt": "Erstelle ein hochwertiges Kampagnenposter für ein Getränk mit starker Kamerakomposition, warmem Sonnenuntergangs-Key-Light, klarer Headline-Typografie und einem glänzenden Hero-Produkt-Finish.",
+      "useCases": [
+        "Werbekonzepte mit klarerer Layout-Absicht",
+        "Poster- und Verpackungsentwürfe mit lesbarer Typografie",
+        "Markenvisuals mit stärker poliertem Erstresultat"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

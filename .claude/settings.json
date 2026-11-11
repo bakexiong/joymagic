@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add src/config/locale/messages/en/explore.json src/config/locale/messages/zh/explore.json src/config/locale/messages/pt-BR/explore.json src/config/locale/messages/ps-AF/explore.json src/config/locale/index.ts src/shared/blocks/explore/media-detail-modal.tsx)",
+      "Bash(git add src/config/locale/messages/*/explore.json)",
+      "Bash(echo \"请在浏览器中打开 http://localhost:3002/ai-image-generator 并查看浏览器控制台的日志输出。:*)",
+      "Read(//Users/admin/.claude/skills/playwright-skill/**)",
+      "Bash(/tmp/ui-alignment-summary.md:*)",
+      "Bash(git add src/shared/lib/workbench-form-overrides.ts)"
+    ],
+    "additionalDirectories": [
+      "/Users/admin/project/10bai/z-image.ai/src/shared/blocks",
+      "/Users/admin/project/10bai/z-image.ai/src/config/locale/messages/$locale/ai",
+      "/Users/admin/project/10bai/z-image.ai/src/config/locale/messages/$locale",
+      "/tmp"
+    ]
+  }
+}

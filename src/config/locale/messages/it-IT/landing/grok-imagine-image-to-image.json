@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Carica immagine sorgente",
+      "hint": "Carica un'immagine (JPG/PNG/WEBP).",
+      "dragDrop": "Trascina e rilascia o clicca per caricare",
+      "dropHere": "Rilascia l'immagine qui"
+    },
+    "prompt": {
+      "title": "Inserisci prompt di trasformazione",
+      "placeholder": "Descrivi come vuoi trasformare l'immagine, es. 'Cambia in stile fumetto', 'Falla sembrare un acquerello'",
+      "hint": "Sii specifico sui cambiamenti che vuoi fare"
+    },
+    "generate": {
+      "title": "Genera immagine trasformata",
+      "cta": "Genera",
+      "generating": "Generazione..."
+    }
+  },
+  "preview": {
+    "title": "Anteprima",
+    "original": "Originale",
+    "swap": "Scambia",
+    "placeholder": "Carica un'immagine e inserisci un prompt per vedere la trasformazione qui."
+  },
+  "common": {
+    "selectedCount": "Selezionata: 1 immagine",
+    "notSelected": "Non selezionata"
+  },
+  "errors": {
+    "invalidFileType": "Tipo di file non valido. Carica un'immagine (JPG, PNG, WEBP).",
+    "uploadFailed": "Caricamento fallito: {error}",
+    "uploadFailedGeneric": "Caricamento fallito",
+    "sourceImageRequired": "Carica un'immagine sorgente",
+    "promptRequired": "Inserisci un prompt di trasformazione",
+    "generationFailed": "Generazione immagine fallita",
+    "taskFailed": "Elaborazione attività fallita",
+    "taskTimeout": "Timeout. Riprova più tardi",
+    "taskIdNotFound": "Impossibile ottenere l'ID attività. Verifica il formato di risposta API",
+    "processingFailed": "Elaborazione fallita. Riprova",
+    "statusQueryFailed": "Impossibile interrogare lo stato dell'attività",
+    "apiResponseParseFailed": "Impossibile analizzare la risposta API"
+  },
+  "page": {
+    "metadata": {
+      "title": "Grok Imagine immagine a immagine - Trasforma immagini con IA | joymagic",
+      "description": "Usa Grok Imagine immagine a immagine IA per trasformare e modificare le tue immagini. Carica un'immagine e trasformala con editing avanzato basato su IA. Risultati rapidi e di qualità con Grok Imagine.",
+      "keywords": "grok imagine immagine a immagine, grok imagine, trasformazione immagini IA, editor immagini IA, editing immagini, strumento IA immagine a immagine, convertitore immagini IA"
+    },
+    "hero": {
+      "title": "Grok Imagine immagine a immagine IA - Trasforma le tue immagini con IA",
+      "description": "Trasforma e modifica immagini con Grok Imagine immagine a immagine IA. Carica un'immagine e trasformala con editing avanzato. Trasformazioni rapide e di alta qualità.",
+      "button1": "Prova Grok Imagine immagine a immagine",
+      "button2": "Vedi prezzi"
+    },
+    "keyFeatures": {
+      "title": "Perché Grok Imagine immagine a immagine?",
+      "description": "Scopri le funzionalità di Grok Imagine immagine a immagine IA",
+      "singleImage": {
+        "title": "Caricamento singola immagine",
+        "description": "Carica un'immagine e descrivi come vuoi trasformarla. Semplice e veloce."
+      },
+      "highQuality": {
+        "title": "Risultati Grok Imagine di alta qualità",
+        "description": "Ottieni qualità eccezionale con Grok Imagine IA. Genera immagini trasformate ad alta risoluzione con dettaglio e chiarezza."
+      },
+      "styleFlexibility": {
+        "title": "Trasformazione di stile versatile",
+        "description": "Trasforma immagini in vari stili con Grok Imagine: fotorealistico, artistico, astratto e altro. Controllo completo con prompt dettagliati."
+      },
+      "affordable": {
+        "title": "Prezzi Grok Imagine accessibili",
+        "description": "Trasformazioni immagini convenienti. Pagamento a consumo, adatto a qualsiasi progetto."
+      }
+    },
+    "promptingTips": {
+      "title": "Come ottenere i migliori risultati con Grok Imagine immagine a immagine",
+      "specific": {
+        "title": "Sii specifico nei prompt",
+        "description": "Per risultati ottimali descrivi esattamente la trasformazione desiderata. Esempi: \"Cambia in stile fumetto\" o \"Falla sembrare un acquerello\"."
+      },
+      "style": {
+        "title": "Specifica lo stile artistico",
+        "description": "Indica lo stile che vuoi: \"stile fumetto\", \"pittura a olio\", \"arte digitale\", ecc."
+      },
+      "color": {
+        "title": "Colore e atmosfera",
+        "description": "Migliora le trasformazioni descrivendo palette e atmosfera: \"colori vivaci\", \"toni tenui\", \"scuro e drammatico\", ecc."
+      },
+      "details": {
+        "title": "Aggiungi dettagli",
+        "description": "Includi illuminazione, composizione ed elementi da conservare o modificare per massimizzare la qualità."
+      }
+    },
+    "useCases": {
+      "title": "Casi d'uso Grok Imagine immagine a immagine",
+      "style": {
+        "title": "Trasformazione di stile artistico",
+        "description": "Trasforma foto in stili diversi: fumetto, acquerello, olio e altro. Ideale per progetti creativi."
+      },
+      "product": {
+        "title": "Miglioramento fotografia prodotto",
+        "description": "Trasforma foto di prodotti per marketing e social. Crea rapidamente più varianti di stile."
+      },
+      "creative": {
+        "title": "Progetti di design creativo",
+        "description": "Sperimenta stili e trasformazioni per progetti creativi. Trova il risultato perfetto."
+      },
+      "personal": {
+        "title": "Uso personale",
+        "description": "Reimmagina le tue foto con l'IA: cambia atmosfera, stile o scena con un solo prompt."
+      }
+    },
+    "faq": {
+      "title": "FAQ Grok Imagine immagine a immagine",
+      "description": "Domande frequenti sullo strumento Grok Imagine immagine a immagine IA",
+      "q1": {
+        "question": "Quante immagini posso caricare?",
+        "answer": "Un'immagine alla volta. Descrivi la trasformazione nel prompt e genera."
+      },
+      "q2": {
+        "question": "Quanto costa?",
+        "answer": "Ogni trasformazione costa un numero fisso di crediti. Controlla la pagina prezzi."
+      },
+      "q3": {
+        "question": "Quali formati immagine supporta Grok Imagine?",
+        "answer": "Grok Imagine supporta PNG, JPEG, JPG e WebP. Usa immagini nitide e ben illuminate per risultati migliori."
+      },
+      "q4": {
+        "question": "Come scrivere i prompt per Grok Imagine?",
+        "answer": "Per migliori risultati includi descrizioni dettagliate: soggetto, ambiente, illuminazione, stile, atmosfera e composizione."
+      },
+      "q5": {
+        "question": "Posso trasformare la stessa immagine più volte?",
+        "answer": "Sì. Puoi usare prompt diversi sulla stessa immagine per ottenere trasformazioni diverse."
+      }
+    },
+    "finalCTA": {
+      "title": "Pronto a provare Grok Imagine immagine a immagine?",
+      "description": "Inizia a trasformare le tue immagini con Grok Imagine IA oggi. Trasformazioni rapide e di alta qualità.",
+      "button": "Prova ora Grok Imagine immagine a immagine"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "imageToImage": "Immagine a immagine",
+      "grokImagine": "Grok Imagine"
+    },
+    "schema": {
+      "softwareName": "Strumento Grok Imagine immagine a immagine IA di joymagic",
+      "howToName": "Come usare Grok Imagine immagine a immagine IA",
+      "howToDescription": "Impara a trasformare immagini con Grok Imagine immagine a immagine IA. Carica un'immagine e trasformala con editing IA.",
+      "features": {
+        "aiImageEditing": "Editing Grok Imagine immagine a immagine IA",
+        "singleImage": "Trasformazione singola immagine con Grok Imagine",
+        "highQuality": "Output Grok Imagine di alta qualità"
+      }
+    }
+  }
+}

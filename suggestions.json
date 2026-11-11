@@ -1,0 +1,30 @@
+{
+  "title": "Portrait Options",
+  "description": "Here are some ways to refine your portrait request.",
+  "suggestions": [
+    {
+      "id": "golden-hour",
+      "title": "Golden Hour Glow",
+      "description": "Add warm, sunset lighting for a dreamy, soft effect.",
+      "prompt": "A high-quality, realistic portrait of a woman during golden hour, warm natural lighting, detailed skin texture, soft blurred background."
+    },
+    {
+      "id": "studio-lighting",
+      "title": "Professional Studio",
+      "description": "Use clean, professional studio lighting for a sharp, high-fashion look.",
+      "prompt": "A high-quality, realistic portrait of a woman with professional studio lighting, sharp focus on facial features, detailed skin texture, clean neutral background."
+    },
+    {
+      "id": "candid-outdoor",
+      "title": "Candid Outdoor",
+      "description": "A natural, candid shot in an outdoor setting.",
+      "prompt": "A high-quality, realistic candid portrait of a woman in a park, natural daylight, detailed skin texture, soft blurred greenery background."
+    },
+    {
+      "id": "dramatic-mood",
+      "title": "Dramatic Mood",
+      "description": "Use moody, low-key lighting for a more intense and artistic portrait.",
+      "prompt": "A high-quality, realistic portrait of a woman with dramatic low-key lighting, deep shadows, detailed skin texture, soft blurred dark background."
+    }
+  ]
+}

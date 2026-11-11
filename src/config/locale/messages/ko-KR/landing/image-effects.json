@@ -1,0 +1,64 @@
+{
+  "titles": {
+    "advanced-photography": "고급 사진 효과",
+    "plastic-bubble-figure": "플라스틱 버블 피규어",
+    "felt-3d-polaroid": "펠트 3D 폴라로이드",
+    "glass-ball": "유리 구슬",
+    "micro-landscape-mini-world": "마이크로 랜드스케이프 미니 월드",
+    "american-comic-style": "아메리칸 코믹 스타일",
+    "futuristic-american-comics": "미래형 아메리칸 코믹",
+    "my-world": "나의 세계",
+    "felt-keychain": "펠트 키링",
+    "lofi-pixel-character-mini-card": "로파이 픽셀 캐릭터 미니 카드",
+    "blurry-selfie-luffy": "흐릿한 루피 셀피",
+    "cyberpunk": "사이버펑크",
+    "exotic-charm": "이국적인 매력",
+    "acrylic-ornaments": "아크릴 장식",
+    "furry-dream-doll": "복슬복슬 드림 인형",
+    "in-the-stadium": "경기장 안에서",
+    "lying-in-fluffy-belly": "폭신한 배 속에 누워서",
+    "angel-figurine": "천사 피규어"
+  },
+  "gallery": {
+    "metadata": {
+      "title": "이미지 효과 | joymagic",
+      "description": "메이슨리 갤러리에서 인기 이미지 효과를 둘러보고 한 번의 클릭으로 이미지 생성을 시작하세요."
+    },
+    "ctaLabel": "비슷한 이미지 만들기",
+    "inputLabel": "입력",
+    "outputLabel": "출력",
+    "previewLabel": "미리보기"
+  },
+  "workspace": {
+    "metadata": {
+      "title": "이미지 효과 작업 공간 | joymagic",
+      "description": "이미지를 업로드하고 이미지 효과를 선택한 뒤 전용 작업 공간에서 이 작업을 관리하세요."
+    },
+    "category": "이미지",
+    "pageTitle": "이미지 효과",
+    "workspaceLabel": "작업 공간",
+    "inputBadge": "이미지 입력 1장",
+    "selectedEffect": "선택된 효과",
+    "change": "변경",
+    "imageTitle": "이미지",
+    "imageHint": "PNG, JPG, WEBP 최대 15MB",
+    "uploadHint": "클릭하여 이미지를 업로드하세요",
+    "tryExamples": "예제 사용",
+    "estimating": "예상 계산 중...",
+    "create": "생성",
+    "creditsUnit": "크레딧",
+    "estimateError": "크레딧 예상 실패:",
+    "emptyState": "아직 생성한 내용이 없습니다.",
+    "inputLabel": "입력",
+    "outputLabel": "출력",
+    "exampleAria": "예제 {index} 사용",
+    "dialog": {
+      "title": "이미지 효과 선택",
+      "searchPlaceholder": "원하는 효과 검색",
+      "closeAria": "효과 선택기 닫기",
+      "description": "이미지 효과 페이지와 같은 갤러리 데이터에서 이미지 효과를 선택하세요.",
+      "emptyTitle": "일치하는 효과가 없습니다",
+      "emptyDescription": "다른 키워드를 시도해 보세요."
+    }
+  }
+}

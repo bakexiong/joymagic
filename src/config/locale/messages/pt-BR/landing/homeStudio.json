@@ -1,0 +1,245 @@
+{
+  "header": {
+    "title": "Explore categorias criativas",
+    "subtitle": "Todas as ferramentas de que voce precisa para criar, editar e imaginar."
+  },
+  "common": {
+    "prompt": "Prompt",
+    "before": "Antes",
+    "after": "Depois",
+    "image": "Imagem",
+    "video": "Video",
+    "freeTrial": "Teste gratis"
+  },
+  "cards": {
+    "imageToVideo": {
+      "title": "Imagem para video",
+      "description": "Anime suas imagens em videos",
+      "inputAlt": "Entrada de imagem para video",
+      "outputTitle": "Saida de imagem para video"
+    },
+    "textToVideo": {
+      "title": "Texto para video",
+      "description": "Crie videos a partir de prompts de texto"
+    },
+    "longcatAvatar": {
+      "title": "Lip-Sync",
+      "description": "Crie videos de avatar falante a partir de imagem e audio",
+      "inputAlt": "Entrada de imagem do Longcat Avatar",
+      "outputAlt": "Saida de video do Longcat Avatar"
+    },
+    "editorCombiner": {
+      "title": "Editor e combinador",
+      "description": "Edite, combine e crie",
+      "referencePortraitAlt": "Retrato de referencia do editor",
+      "referenceProductAlt": "Produto de referencia do editor",
+      "outputAlt": "Saida combinada do editor"
+    },
+    "imageToImage": {
+      "title": "Imagem para imagem",
+      "description": "Transforme imagens com IA"
+    },
+    "textToImage": {
+      "title": "Texto para imagem",
+      "description": "Gere imagens a partir de prompts de texto"
+    },
+    "photoShoot": {
+      "title": "Ensaio fotografico",
+      "description": "Ensaios fotograficos com IA em qualquer estilo",
+      "coverAlt": "Capa do ensaio",
+      "coverBadge": "Capa",
+      "scenesBadge": "Cenas"
+    },
+    "variations": {
+      "title": "Variacoes",
+      "description": "Crie variacoes a partir de qualquer imagem",
+      "inputAlt": "Entrada de variacao",
+      "inputBadge": "Entrada",
+      "outputBadge": "Saida"
+    },
+    "faceGenerator": {
+      "title": "Gerador de rostos",
+      "description": "Gere rostos realistas"
+    },
+    "imageUpscaler": {
+      "title": "Ampliar imagem",
+      "description": "Melhore a resolucao da imagem",
+      "beforeAlt": "Antes da ampliacao",
+      "afterAlt": "Depois da ampliacao",
+      "lowRes": "Baixa resolucao",
+      "enhanced": "Aprimorada"
+    },
+    "videoUpscaler": {
+      "title": "Aprimorador de video",
+      "description": "Melhore a qualidade do video",
+      "hd": "HD",
+      "ultraHd": "Ultra HD"
+    },
+    "imageEffects": {
+      "title": "Efeitos de imagem",
+      "description": "Aplique efeitos incriveis nas imagens",
+      "chips": {
+        "original": "Original",
+        "filmLook": "Visual de filme",
+        "goldenHour": "Hora dourada",
+        "blackWhite": "P&B"
+      }
+    },
+    "videoEffects": {
+      "title": "Efeitos de video",
+      "description": "Adicione efeitos cinematograficos aos videos",
+      "chips": {
+        "cinematic": "Cinematografico",
+        "slowMotion": "Camera lenta",
+        "lightLeak": "Vazamento de luz",
+        "vintage": "Vintage"
+      }
+    }
+  },
+  "mangoHomepage": {
+    "eyebrow": "Imagem, vídeo e efeitos de IA em um sistema de criação",
+    "heroDescription": "Navegue pelas ferramentas reais já instaladas no projeto. Cada cartão abaixo aponta diretamente para uma entrada de ferramenta de trabalho, com mídia proveniente de bibliotecas de produtos atuais ou vitrines da página inicial.",
+    "tabs": {
+      "video-tools": {
+        "label": "Ferramentas de vídeo",
+        "description": "Visualize os principais fluxos de trabalho de vídeo do projeto, desde a geração baseada em prompts até a animação de imagens e modelos de efeitos reutilizáveis."
+      },
+      "image-tools": {
+        "label": "Ferramentas de imagem",
+        "description": "Comece com os principais fluxos de trabalho de imagem que os usuários precisam com mais frequência: gerar, remodelar, aprimorar, remover planos de fundo e apagar distrações."
+      },
+      "image-effects": {
+        "label": "Efeitos de imagem",
+        "description": "Explore estilos visuais prontos para uso que podem transformar retratos e fotos em obras de arte temáticas em uma única etapa."
+      }
+    },
+    "sections": {
+      "imageEffects": {
+        "eyebrow": "Efeitos de imagem",
+        "title": "Mais exemplos de efeitos de imagem da biblioteca atual"
+      },
+      "videoEffects": {
+        "eyebrow": "Efeitos de vídeo",
+        "title": "Mais exemplos de efeitos de vídeo da biblioteca atual"
+      },
+      "popularPaths": {
+        "eyebrow": "Caminhos populares",
+        "title": "Procure mais superfícies de ferramentas que os usuários podem acessar hoje"
+      }
+    },
+    "cta": {
+      "title": "Comece na página inicial e continue nas bancadas reais",
+      "description": "Passe da descoberta para a geração de imagens, geração de vídeos ou fluxos de trabalho de efeitos sem sair da estrutura atual do produto.",
+      "openImageWorkspace": "Abrir espaço de trabalho de imagem",
+      "openVideoWorkspace": "Abra o espaço de trabalho de vídeo"
+    },
+    "cards": {
+      "openTool": "Ferramenta aberta",
+      "aiVideoGenerator": {
+        "title": "Gerador de vídeo de IA",
+        "description": "Gere vídeos a partir de um prompt de texto para cenas curtas, conceitos de anúncios, momentos de humor e ideias de movimentos de personagens."
+      },
+      "imageToVideo": {
+        "title": "Imagem para vídeo",
+        "description": "Transforme uma única imagem em uma foto em movimento para retratos, revelações de produtos e clipes com atmosfera."
+      },
+      "videoEffects": {
+        "title": "Efeitos de vídeo",
+        "description": "Abra a biblioteca de efeitos de vídeo para aplicar modelos de movimento prontos e ações cinematográficas estilizadas."
+      },
+      "fashionStride": {
+        "title": "Passo da moda",
+        "description": "Um efeito de movimento estilo passarela que ajuda a transformar retratos estáticos em clipes confiantes e focados na moda."
+      },
+      "dreamyWedding": {
+        "title": "Casamento de sonho",
+        "description": "Um estilo de movimento romântico criado para imagens de casamento, momentos de casal e edições baseadas na memória."
+      },
+      "walkForward": {
+        "title": "Caminhe em frente",
+        "description": "Adicione um movimento natural de avanço que funciona bem para entradas, revelações e fotos de capa dinâmicas."
+      },
+      "aiImageGenerator": {
+        "title": "Gerador de imagens de IA",
+        "description": "Gere imagens de texto para pôsteres, conceitos de personagens, visuais de produtos e capas sociais."
+      },
+      "imageToImage": {
+        "title": "Imagem a imagem",
+        "description": "Reestilize ou redesenhe uma imagem enviada para mudanças de roupa, atualizações de cena e atualizações visuais sofisticadas."
+      },
+      "imageUpscaler": {
+        "title": "Upscaler de imagem",
+        "description": "Aumente a resolução e recupere mais detalhes de retratos, fotos de produtos e imagens originais de baixa qualidade."
+      },
+      "backgroundRemover": {
+        "title": "Removedor de fundo",
+        "description": "Remova o plano de fundo com um clique para recortes de produtos, ativos de perfil e exportações de PNG transparentes."
+      },
+      "imageEraser": {
+        "title": "Apagador de imagem",
+        "description": "Apague pessoas, objetos ou manchas indesejadas e deixe a IA preencher a área limpa naturalmente."
+      },
+      "imageEffects": {
+        "title": "Efeitos de imagem",
+        "description": "Navegue pela coleção de efeitos de imagem para transformar rapidamente fotos em diferentes estilos e temas visuais."
+      },
+      "aiGhibliEffect": {
+        "title": "Efeito AI Ghibli",
+        "description": "Converta retratos em obras de arte de anime suaves, semelhantes a livros de histórias, com uma atmosfera calorosa inspirada em Ghibli."
+      },
+      "springBarbiecore": {
+        "title": "Primavera Barbiecore",
+        "description": "Reformule retratos com estilo rosa brilhante e energia de moda divertida para um visual ousado e moderno."
+      },
+      "softSpringHaze": {
+        "title": "Névoa Suave de Primavera",
+        "description": "Adicione uma névoa suave de primavera que funciona bem para retratos de estilo de vida, editoriais suaves e imagens de capa."
+      },
+      "provenceSummerGirl": {
+        "title": "Garota de verão da Provença",
+        "description": "Crie um clima de retrato de verão francês que pareça arejado, inspirado em viagens e levemente editorial."
+      },
+      "roseBokeh": {
+        "title": "Bokeh Rosa",
+        "description": "Coloque bokeh floral romântico em retratos para obter visuais festivos, imagens de saudação e edições ricas em humor."
+      },
+      "ccdStyleSnow": {
+        "title": "Neve estilo CCD",
+        "description": "Simule uma aparência nostálgica de câmera CCD de cena de neve para fotos sazonais e narrativa visual retrô."
+      },
+      "y2kTrendCollage": {
+        "title": "Colagem de tendências Y2K",
+        "description": "Embrulhe retratos em uma estética de colagem de pôster Y2K para cartões sociais, campanhas de tendências e capas divertidas."
+      },
+      "y2kCyberCollage": {
+        "title": "Colagem cibernética Y2K",
+        "description": "Combine estilo cibernético e enquadramento de colagem para retratos que precisam de mais energia de tendência voltada para o futuro."
+      },
+      "miniMe": {
+        "title": "Mini eu",
+        "description": "Transforme uma pessoa em uma versão em miniatura de brinquedo para avatares, gráficos estilo merchandising e conteúdo lúdico."
+      },
+      "ghibliMotion": {
+        "title": "Movimento Ghibli",
+        "description": "Aplique um tratamento de movimento animado semelhante ao Ghibli para clipes baseados em histórias e sequências cinematográficas."
+      },
+      "starCarpet": {
+        "title": "Tapete Estrela",
+        "description": "Crie uma sensação de chegada no tapete vermelho para momentos de destaque, entradas no palco e apresentações no estilo de celebridades."
+      },
+      "blueprintSupreme": {
+        "title": "Projeto Supremo",
+        "description": "Use um efeito de vídeo mais conceitual para apresentações baseadas em design, revelações abstratas e peças de movimento estilizadas."
+      },
+      "createImage": {
+        "title": "Criar imagem"
+      },
+      "createVideo": {
+        "title": "Criar vídeo"
+      },
+      "showcases": {
+        "title": "Vitrines"
+      }
+    }
+  }
+}

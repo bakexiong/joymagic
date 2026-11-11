@@ -1,0 +1,88 @@
+{
+  "title": "Nano Banana 2",
+  "provider": "Google",
+  "eyebrow": "按模型組織的落地頁",
+  "description": "當你需要更偏生產級的工作流時，可以從 Nano Banana 2 開始：支持更多參考圖、更強的輸出控制、更清晰的文字渲染，以及更接近正式提案稿的首輪視覺結果。",
+  "seoTitle": "Nano Banana 2 模型頁 | 高級圖像編輯 + 文生圖 | joymagic",
+  "seoDescription": "以模型維度瀏覽 Nano Banana 2。支持切換場景，複用 creator 工作臺，並用 Nano Banana 2 完成多參考圖編輯和更高控制度的文生圖創作。",
+  "stats": [
+    {
+      "label": "主打模式",
+      "value": "高級編輯"
+    },
+    {
+      "label": "擴展場景",
+      "value": "2 個可用工作流"
+    },
+    {
+      "label": "輸出特點",
+      "value": "控制更強"
+    }
+  ],
+  "differentiators": [
+    "把 Nano Banana 2 定位成基礎版之上的進階選擇，更適合需要生產控制力的用戶。",
+    "保持 creator 工作臺交互不變，只替換模型敘事、starter prompt 和場景 framing。",
+    "便於在兄弟模型頁之間直接對比，而不需要重新實現表單、場景路由和右側媒體面板。"
+  ],
+  "gallery": [
+    {
+      "title": "廣告級產品升級",
+      "caption": "利用多參考圖和更細的輸出控制，把原始產品素材改造成更接近廣告成片的視覺。",
+      "prompt": "Use the uploaded references to create a premium skincare campaign visual with crisp reflections, elevated lighting, and a clean luxury retail finish.",
+      "accentClassName": "from-[#f8e08a] via-[#9c7c35] to-[#171717] text-white"
+    },
+    {
+      "title": "強調排版的海報草案",
+      "caption": "更適合首輪就需要兼顧構圖、信息層級和可讀文字的海報概念稿。",
+      "prompt": "Design a premium launch poster for a summer beverage brand with clear readable headline typography, cinematic golden-hour light, and a glossy product hero composition.",
+      "accentClassName": "from-[#8cd3ff] via-[#2b75b6] to-[#121416] text-white"
+    },
+    {
+      "title": "更可控的品牌概念圖",
+      "caption": "生成更接近正式 campaign comp 的視覺，而不是隻停留在鬆散 moodboard。",
+      "prompt": "Create a polished brand concept visual for a luxury fragrance release, frontal hero composition, soft atmospheric haze, clear product labeling, and premium editorial lighting.",
+      "accentClassName": "from-[#d7b7ff] via-[#6f47a8] to-[#17131d] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "/model/nanobana 和 /model/nanobanana-2 有什麼區別？",
+      "answer": "在這套頁面裡，Nano Banana 2 被定義為更偏生產級的升級版本：更適合多參考圖編輯、更強輸出控制，以及更接近正式提案稿的概念生成。"
+    },
+    {
+      "question": "Nano Banana 2 還是複用同一套 creator 工作臺嗎？",
+      "answer": "是的。左側表單流和右側結果面板仍然直接複用 creator，這個頁面改變的是模型語境，而不是核心創作流程。"
+    },
+    {
+      "question": "為什麼要給 Nano Banana 2 單獨做一個模型頁？",
+      "answer": "因為它承接的用戶意圖不同。這個頁面可以更清楚地把 Nano Banana 2 講成“升級路徑”，而不是把它混在一個通用工具列表裡。"
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "圖像編輯",
+      "title": "場景 01 · 多參考圖精細編輯",
+      "description": "當你需要更多參考圖、更清晰的輸出尺寸控制，以及更偏生產向的改圖流程時，可以讓 Nano Banana 2 作為主工作面。",
+      "spotlight": "適合批量處理、參考圖較多，以及更高分辨率交付的場景。",
+      "starterPrompt": "Use the uploaded references to restyle the product into a premium launch campaign, keep branding intact, add controlled studio reflections, and output a polished commercial visual.",
+      "useCases": [
+        "多參考圖商品精修",
+        "對輸出控制要求更高的 campaign 變體",
+        "需要統一視覺身份的藝術指導迭代"
+      ]
+    },
+    {
+      "modeLabel": "文生圖",
+      "title": "場景 02 · 更高控制度的概念生成",
+      "description": "當你需要更強的鏡頭感、更清晰的文字渲染，以及更接近正式提案稿的生成效果時，可以切到這一條 prompt 驅動工作流。",
+      "spotlight": "適合在進入正式 campaign 製作前，先產出更高級的概念稿。",
+      "starterPrompt": "Create a premium beverage campaign poster with strong camera composition, warm sunset key light, clear headline typography, and a glossy hero-product finish.",
+      "useCases": [
+        "構圖意圖更明確的廣告 concept comp",
+        "帶可讀文字的海報和包裝草案",
+        "首輪就要求更完整完成度的品牌視覺"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

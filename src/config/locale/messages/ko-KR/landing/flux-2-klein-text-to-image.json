@@ -1,0 +1,143 @@
+{
+  "title": "flux-2-klein text-to-image",
+  "subtitle": "텍스트 설명에서 멋진 이미지 생성",
+  "prompt_label": "프롬프트",
+  "prompt_placeholder": "빨간 빛으로 조명된 고대 기념비적인 테오티우아칸 피라미드, 하늘에 거대한 토성이 매달려 있고, 조각적이며 비천문학적이며, 액체 금속 고리가 있는, 미래적이지만 고대적인, 행성보다는 신성한 포털을 연상시키는, 약간의 빛 안개, 영화적 깊이와 대기 원근법, 타이포그래피를 위한 큰 깨끗한 네거티브 공간이 있는 미니멀한 구성",
+  "prompt_tooltip": "생성하려는 이미지의 설명을 입력하세요",
+  "size_label": "이미지 크기",
+  "size_hint": "출력 이미지 크기 선택",
+  "width_label": "너비",
+  "height_label": "높이",
+  "seed_label": "시드",
+  "seed_hint": "-1은 랜덤 시드",
+  "seed_tooltip": "재현 가능한 결과를 위해 시드 값을 설정하세요. 랜덤 시드에는 -1을 사용하세요.",
+  "seed_randomize": "랜덤 시드 생성",
+  "buttons": {
+    "generate": "이미지 생성"
+  },
+  "errors": {
+    "promptRequired": "프롬프트는 필수입니다"
+  },
+  "image_alt": "생성된 이미지",
+  "download": "다운로드",
+  "image_placeholder": "생성된 이미지가 여기에 표시됩니다",
+  "prompt_inspirations_button": "프롬프트 영감",
+  "prompt_guide_button": "프롬프트 가이드",
+  "powered_by": "joymagic에서 최적화한 Flux 2 Klein AI 모델로 구동",
+  "page": {
+    "metadata": {
+      "title": "flux-2-klein text-to-image (4B) - AI 이미지 생성기 | joymagic",
+      "description": "flux-2-klein text-to-image로 고품질 이미지를 생성하세요. 시드 제어로 일관된 결과를 만들고 최대 1536×1536까지 내보냅니다.",
+      "keywords": "flux-2-klein text-to-image, flux-2-klein, flux-2-klein-4b, text to image, ai 이미지 생성기, 프롬프트에서 이미지"
+    },
+    "hero": {
+      "title": "flux-2-klein text-to-image",
+      "description": "flux-2-klein text-to-image로 생성: 프롬프트에서 빠르고 고품질의 이미지. 시드 제어로 일관된 결과를 만들고 최대 1536×1536까지 내보냅니다.",
+      "button1": "지금 시도",
+      "button2": "가격 보기"
+    },
+    "heroDescription": "고급 AI 기술을 사용하여 간단한 텍스트 설명에서 멋진 이미지를 만듭니다.",
+    "keyFeatures": {
+      "title": "주요 기능",
+      "description": "강력한 AI 이미지 생성 기능",
+      "highQuality": {
+        "title": "고품질 이미지",
+        "description": "탁월한 세부 사항과 선명도로 고해상도 이미지를 생성합니다. 전문적인 용도에 완벽합니다."
+      },
+      "fastGeneration": {
+        "title": "빠른 생성",
+        "description": "효율적인 처리로 이미지를 빠르게 생성합니다. 몇 초 안에 결과를 얻습니다."
+      },
+      "styleFlexibility": {
+        "title": "스타일 유연성",
+        "description": "다양한 스타일의 이미지를 만듭니다 - 사진 같은, 예술적, 추상적 등. 자세한 프롬프트로 출력을 제어합니다."
+      },
+      "seedControl": {
+        "title": "시드 제어",
+        "description": "시드 값으로 무작위성을 제어합니다. 같은 시드를 사용하여 유사한 결과를 재현하거나 -1을 사용하여 무작위 생성을 합니다."
+      }
+    },
+    "promptingTips": {
+      "title": "프롬프트 팁",
+      "lighting": {
+        "title": "조명에 대해 구체적으로 설명",
+        "description": "\"왼쪽에서 온 골든 아워 햇빛, 부드러운 그림자\"가 \"좋은 조명\"보다 더 효과적입니다."
+      },
+      "camera": {
+        "title": "카메라 세부 사항 포함",
+        "description": "\"85mm 렌즈로 촬영, 얕은 심도\"는 전문 사진 품질을 추가합니다."
+      },
+      "style": {
+        "title": "예술 스타일 지정",
+        "description": "\"스튜디오 지브리 스타일의 디지털 일러스트\" 또는 \"초현실적인 3D 렌더\"는 명확한 방향을 제공합니다."
+      },
+      "mood": {
+        "title": "분위기와 대기 설명",
+        "description": "\"아늑하고 따뜻하고 향수를 불러일으키는 느낌\" 또는 \"드라마틱하고 영화적이며 높은 대비\"가 전체 이미지를 형성합니다."
+      }
+    },
+    "useCases": {
+      "title": "사용 사례",
+      "marketing": {
+        "title": "마케팅 비주얼",
+        "description": "사진 촬영 없이 제품 개념, 광고 이미지 및 소셜 미디어 콘텐츠를 생성합니다."
+      },
+      "character": {
+        "title": "캐릭터 디자인",
+        "description": "텍스트 설명에서 게임, 만화 또는 애니메이션 프로젝트를 위한 독창적인 캐릭터를 만듭니다."
+      },
+      "concept": {
+        "title": "컨셉 아트",
+        "description": "창의적인 프로젝트와 프레젠테이션을 위해 장면, 환경 및 아이디어를 빠르게 시각화합니다."
+      },
+      "stock": {
+        "title": "스톡 사진 대안",
+        "description": "일반 스톡 라이브러리를 검색하는 대신 필요한 특정 이미지를 생성합니다."
+      }
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "flux-2-klein text-to-image에 대한 일반적인 질문",
+      "q1": {
+        "question": "Flux 2 Klein이란 무엇입니까?",
+        "answer": "Flux 2 Klein은 텍스트 설명에서 이미지를 생성하는 고급 AI 이미지 생성 모델입니다. 다양한 해상도에서 고품질 이미지를 생성합니다."
+      },
+      "q2": {
+        "question": "프롬프트는 얼마나 자세해야 합니까?",
+        "answer": "더 많은 세부 사항은 일반적으로 더 나은 결과를 의미합니다. 주제, 설정, 조명, 스타일, 분위기 및 구성 세부 사항을 포함하세요. 보고 싶은 것에 대해 구체적으로 설명하세요."
+      },
+      "q3": {
+        "question": "시드 매개변수는 무엇입니까?",
+        "answer": "시드 매개변수는 무작위성을 제어합니다. 무작위 생성을 위해 -1을 사용하거나 유사한 결과를 재현하기 위해 특정 숫자를 사용하세요. 같은 시드와 같은 프롬프트는 유사한 이미지를 생성합니다."
+      },
+      "q4": {
+        "question": "어떤 이미지 크기가 지원됩니까?",
+        "answer": "256×256에서 최대 1536×1536까지 이미지를 생성할 수 있습니다. 크기는 64의 배수여야 합니다. 기본값은 1024×1024입니다."
+      },
+      "q5": {
+        "question": "얼마나 많은 크레딧이 필요합니까?",
+        "answer": "각 이미지 생성에는 2 크레딧이 필요합니다. 이는 고품질 이미지를 만드는 경제적인 옵션입니다."
+      }
+    },
+    "finalCTA": {
+      "title": "만들 준비가 되셨나요?",
+      "description": "오늘부터 텍스트 설명에서 놀라운 이미지를 생성하기 시작하세요.",
+      "button": "지금 시도"
+    },
+    "breadcrumb": {
+      "home": "홈",
+      "textToImage": "텍스트에서 이미지",
+      "flux2Klein": "Flux 2 Klein"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Flux 2 Klein 텍스트에서 이미지",
+      "howToName": "Flux 2 Klein으로 이미지 생성하는 방법",
+      "howToDescription": "Flux 2 Klein을 사용하여 텍스트 설명에서 이미지 생성",
+      "features": {
+        "aiTextToImage": "AI 텍스트에서 이미지 생성",
+        "highQuality": "고품질 이미지",
+        "fastProcessing": "빠른 처리"
+      }
+    }
+  }
+}

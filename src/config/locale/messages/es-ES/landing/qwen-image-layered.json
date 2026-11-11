@@ -1,0 +1,195 @@
+{
+  "qwenImageLayered": {
+    "steps": {
+      "image": {
+        "title": "Imagen*",
+        "hint": "Sugerencia: Puede arrastrar y soltar un archivo o hacer clic para cargar",
+        "dragDrop": "Arrastrar y soltar o hacer clic para cargar",
+        "dropHere": "Soltar imagen aquí",
+        "urlPlaceholder": "O ingresar URL de imagen",
+        "urlEntered": "URL ingresada"
+      },
+      "numLayers": {
+        "title": "Número de Capas",
+        "hint": "Número de capas para descomponer (1-8)"
+      },
+      "generate": {
+        "title": "Generar",
+        "cta": "Generar",
+        "generating": "Generando..."
+      }
+    },
+    "preview": {
+      "title": "Vista Previa",
+      "original": "Original",
+      "swap": "Intercambiar",
+      "placeholder": "Cargue una imagen para ver la descomposición en capas aquí.",
+      "layers": "Capas",
+      "noLayers": "Aún no se han generado capas",
+      "downloadAll": "Descargar Todo"
+    },
+    "common": {
+      "selected": "Seleccionado: {name}",
+      "notSelected": "No seleccionado",
+      "clear": "Limpiar"
+    },
+    "errors": {
+      "invalidFileType": "Tipo de archivo no válido. Por favor, cargue un archivo de imagen (JPG, PNG, WEBP).",
+      "uploadFailed": "Error al cargar: {error}",
+      "uploadFailedGeneric": "Error al cargar",
+      "imageRequired": "Por favor, cargue una imagen o ingrese una URL de imagen",
+      "generationFailed": "Error al generar la imagen",
+      "taskFailed": "Error al procesar la tarea",
+      "taskTimeout": "Tiempo de espera del procesamiento de la tarea, por favor intente más tarde",
+      "taskIdNotFound": "No se pudo obtener el ID de la tarea, por favor verifique el formato de respuesta de la API",
+      "processingFailed": "Error en el procesamiento, por favor intente nuevamente",
+      "statusQueryFailed": "Error al consultar el estado de la tarea",
+      "apiResponseParseFailed": "Error al analizar la respuesta de la API"
+    }
+  },
+  "qwenImageLayeredPage": {
+    "metadata": {
+      "title": "Herramienta de Descomposición de Capas de Imagen con IA | Capas RGBA | joymagic",
+      "description": "Herramienta impulsada por IA para descomponer imágenes en capas RGBA editables. Separación semántica automática con canales alfa para edición de fotos y diseño sin interrupciones."
+    },
+    "hero": {
+      "title": "Descomposición de Imagen en Capas con IA",
+      "description": "Descompone automáticamente cualquier imagen en capas RGBA editables con la herramienta de capas con IA de joymagic. Separación semántica perfecta – canales alfa limpios, bordes suaves y orden de oclusión correcto.",
+      "button1": "Descomponer en Capas Ahora",
+      "button2": "Comenzar gratis · Sin tarjeta de crédito"
+    },
+    "heroDescription": "✓ Descarga HD ✓ Sin marca de agua ✓ Múltiples capas",
+    "whatIs": {
+      "title": "¿Qué es la Descomposición de Imagen en Capas con IA?",
+      "description": "La herramienta de Imagen en Capas con IA de joymagic, impulsada por la tecnología avanzada Qwen-Image-Layered, analiza automáticamente una sola imagen y la descompone en múltiples capas RGBA semánticamente independientes (rojo, verde, azul + transparencia alfa).",
+      "paragraph1": "A diferencia de la segmentación tradicional que solo proporciona máscaras, nuestra IA:",
+      "points": [
+        "Comprende la profundidad, oclusión y estructura de la escena",
+        "Genera canales alfa limpios con bordes suaves para cada capa",
+        "Preserva el orden correcto de capas (primer plano a fondo)",
+        "Genera capas de composición listas para usar"
+      ],
+      "paragraph2": "Ideal para diseñadores, ilustradores, desarrolladores de juegos, editores de fotos y cualquiera que necesite control no destructivo basado en capas sobre imágenes complejas."
+    },
+    "howTo": {
+      "title": "Cómo Descomponer una Imagen en Capas",
+      "description": "Crea composiciones en capas editables con nuestra herramienta de descomposición en capas con IA en solo unos pocos pasos simples:",
+      "step1": {
+        "title": "Cargue su imagen",
+        "description": "Arrastre y suelte o seleccione su foto u obra de arte.<br/>Admite formatos JPG, JPEG, PNG, WEBP.<br/><br/><strong>Funciona con fotos, arte generado por IA, ilustraciones y escenas</strong>"
+      },
+      "step2": {
+        "title": "Configure las opciones de descomposición",
+        "description": "Personalice la salida:<br/><br/><strong>Número de capas:</strong> Elija entre 2 y 8 capas (predeterminado: 4)<br/><strong>Prompt opcional:</strong> Agregue orientación como \"separar persona, muebles, fondo\" para un control más preciso"
+      },
+      "step3": {
+        "title": "Genere capas",
+        "description": "Haga clic en Descomponer – nuestra IA analiza instantáneamente y divide la imagen en salidas RGBA en capas.<br/><br/><strong>Vista previa en tiempo real de cada capa</strong>"
+      },
+      "step4": {
+        "title": "Vista previa y descarga",
+        "description": "Vea capas individuales con transparencia.<br/><br/><strong>Descargue como archivos PNG separados (con alfa)</strong><br/><strong>O obtenga un archivo PSD en capas (próximamente)</strong><br/><strong>Calidad HD, listo para Photoshop, Procreate o cualquier editor</strong>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Características Clave",
+      "description": "Descomposición en capas con IA de nivel profesional con separación semántica inteligente.",
+      "semantic": {
+        "title": "Separación Semántica de Capas",
+        "description": "Descomposición inteligente en objetos y regiones significativos – personas, muebles, cielo, primer plano, fondo y más."
+      },
+      "alpha": {
+        "title": "Canales Alfa Limpios y Bordes Suaves",
+        "description": "Transparencia de nivel profesional con bordes naturales y difuminados – sin recortes duros o halos."
+      },
+      "occlusion": {
+        "title": "Orden de Oclusión Correcto",
+        "description": "Capas ordenadas automáticamente de adelante hacia atrás para una recomposición perfecta."
+      },
+      "adjustable": {
+        "title": "Cantidad de Capas Ajustable",
+        "description": "Control de profundidad: 2-8 capas dependiendo de la complejidad de la imagen y sus necesidades."
+      },
+      "prompt": {
+        "title": "Control Guiado por Prompt",
+        "description": "Prompt de texto opcional para enfocar la separación en elementos o regiones específicos."
+      },
+      "quality": {
+        "title": "Salida en Capas de Alta Calidad",
+        "description": "Descargue PNGs transparentes individuales o prepárese para edición avanzada – HD completo con detalles preservados."
+      }
+    },
+    "useCases": {
+      "title": "Qué Puede Hacer con la Descomposición en Capas con IA de joymagic",
+      "description": "Desbloquee infinitas posibilidades en capas a partir de una sola imagen.",
+      "editing": {
+        "title": "Edición de Fotos No Destructiva",
+        "description": "Aísle y edite elementos individuales (persona, objetos, fondo) sin afectar el resto."
+      },
+      "compositing": {
+        "title": "Composición Avanzada",
+        "description": "Reorganice, recoloque o reemplace capas para crear nuevas escenas a partir de una sola imagen fuente."
+      },
+      "gameAssets": {
+        "title": "Creación de Activos para Juegos y UI",
+        "description": "Extraiga sprites limpios, personajes o capas ambientales de arte conceptual o fotos."
+      },
+      "illustration": {
+        "title": "Flujo de Trabajo de Ilustración y Arte Digital",
+        "description": "Convierta imágenes planas en proyectos completamente en capas para pintura o animación adicional."
+      },
+      "sceneReconstruction": {
+        "title": "Reconstrucción y Remezcla de Escenas",
+        "description": "Intercambie fondos, mueva objetos o construya variaciones manipulando capas separadas."
+      },
+      "tagline": "Una imagen, infinitas posibilidades en capas."
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes sobre Descomposición de Imagen en Capas con IA",
+      "description": "Todo lo que necesita saber sobre nuestra herramienta de descomposición en capas con IA.",
+      "q1": {
+        "question": "¿Qué formatos de imagen son compatibles?",
+        "answer": "Admitimos JPG, JPEG, PNG y WEBP. Mejores resultados con imágenes claras y de alta resolución."
+      },
+      "q2": {
+        "question": "¿Cuántas capas puedo generar?",
+        "answer": "Puede seleccionar entre 2 y 8 capas. Más capas proporcionan una separación más fina en escenas complejas."
+      },
+      "q3": {
+        "question": "¿Mis capas tendrán transparencia limpia?",
+        "answer": "Sí. Cada capa incluye un canal alfa profesional con bordes suaves para una mezcla natural."
+      },
+      "q4": {
+        "question": "¿Puedo guiar la descomposición con texto?",
+        "answer": "Sí – agregue un prompt opcional para priorizar ciertos objetos o regiones (por ejemplo, \"enfocarse en persona y mesa\")."
+      },
+      "q5": {
+        "question": "¿Qué formatos de salida están disponibles?",
+        "answer": "Cada capa se descarga como un PNG transparente separado. La exportación PSD en capas próximamente."
+      },
+      "q6": {
+        "question": "¿Mis datos están seguros?",
+        "answer": "Sí. Las imágenes cargadas se procesan de forma segura y se eliminan automáticamente después del procesamiento. Nunca usamos sus imágenes para entrenamiento."
+      },
+      "q7": {
+        "question": "¿Funciona con imágenes generadas por IA o ilustradas?",
+        "answer": "Sí – excelentes resultados tanto en estilos fotográficos como artísticos, incluido el arte con IA."
+      }
+    },
+    "privacy": {
+      "title": "Privacidad y Seguridad",
+      "description": "Sus imágenes y privacidad son nuestra prioridad.",
+      "points": [
+        "Todas las cargas se procesan de forma segura y encriptada",
+        "Las imágenes se eliminan automáticamente después del procesamiento",
+        "Nunca se comparten con terceros ni se usan para entrenamiento de IA"
+      ]
+    },
+    "finalCTA": {
+      "title": "Convierta cualquier imagen en capas profesionales completamente editables.",
+      "description": "Pruebe la Descomposición en Capas con IA de joymagic ahora y desbloquee el control verdadero de composición en segundos.",
+      "button": "Descomponer en Capas Ahora",
+      "helperText": "No se requiere registro · Gratis para comenzar · Descargas sin marca de agua"
+    }
+  }
+}

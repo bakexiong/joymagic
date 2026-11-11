@@ -1,0 +1,50 @@
+{
+  "whyModelTitle": "Warum dieses Modell",
+  "whyModelDescription": "Eine fokussierte Modellseite sollte erklären, wo dieses Modell am stärksten ist, wann man es einsetzen sollte und warum es einen eigenen Einstieg in den Workflow verdient.",
+  "howItWorksTitle": "So startest du",
+  "howItWorksDescription": "Die Seite ist so aufgebaut, dass Nutzer vom Modellverständnis direkt in die Umsetzung wechseln können, ohne den eigentlichen Erstellungsfluss zu verlassen.",
+  "howItWorksSteps": [
+    {
+      "step": "01",
+      "title": "Modus wählen",
+      "copy": "Wechsle zwischen den wichtigsten Erstellungsmodi des Modells und lande direkt im Workflow, der zu deiner aktuellen Absicht passt."
+    },
+    {
+      "step": "02",
+      "title": "Prompt oder Referenzen hinzufügen",
+      "copy": "Starte mit Text, Referenzbildern oder beidem, je nachdem, ob du von Grund auf generierst oder vorhandenes Material weiter verfeinerst."
+    },
+    {
+      "step": "03",
+      "title": "Erzeugen und vergleichen",
+      "copy": "Nutze die Workbench für schnelle Iterationen, vergleiche verschiedene Richtungen und führe die stärksten Ergebnisse weiter."
+    },
+    {
+      "step": "04",
+      "title": "Im Creator fortsetzen",
+      "copy": "Sobald die Richtung klar ist, kannst du direkt in den Creator wechseln und weiterarbeiten, ohne den Kontext neu aufzubauen."
+    }
+  ],
+  "workflowsTitle": "Eine Modellseite, mehrere vertikale Workflows",
+  "workflowsDescription": "Statt zuerst Feature-Karten zu stapeln, führt die Seite direkt durch echte Szenarien. Jeder Modus erklärt, wofür er geeignet ist, wie du ihn steuerst und wie du sinnvoll einsteigst.",
+  "bestForTitle": "Ideal für",
+  "bestForDescription": "Eine szenariobasierte Struktur hilft Nutzern nicht nur zu verstehen, was das Modell kann, sondern auch, an welcher Stelle es im echten Produktionsablauf am besten passt.",
+  "galleryTitle": "Eine hochwertige Modellseite sollte Ergebnisse erklären, statt sie hinter Modulen zu verstecken",
+  "galleryDescription": "Der Seitenrhythmus folgt einem vertikalen Editorial-Aufbau: zuerst der Hero, dann die Workbench, danach Szenenlogik, Produktargumentation und zum Schluss echte Ergebnisbelege. So bleibt die Seite dicht, ohne zu einer Kartenwand zu werden.",
+  "galleryLead": "Die eigentliche Überzeugungskraft sollte von den Ergebnissen selbst kommen. Der umgebende Text bleibt bewusst knapp, klar und unterstützend.",
+  "faqTitle": "Nicht nur anderes Seitendesign, sondern eine neue Produktgeschichte",
+  "faqDescription": "Auch die FAQ folgen demselben vertikalen Lesefluss, damit die Seite wie eine zusammenhängende Produkterzählung wirkt und nicht wie lose aneinandergereihte Module.",
+  "openWithPrompt": "Mit Prompt öffnen",
+  "openInCreator": "Im Creator öffnen",
+  "sampleLabel": "Beispiel",
+  "fallbackSampleTitle": "Modellbeispiel",
+  "fallbackSampleCaption": "Ein echtes Beispiel, ausgewählt aus den tatsächlichen Ergebnissen dieses Modells.",
+  "controls": {
+    "promptWorkflow": "Prompt-Workflow",
+    "creatorSync": "Mit Creator synchron",
+    "uploadUpToRefs": "Bis zu {count} Referenzen hochladen",
+    "referenceUploads": "Referenz-Uploads",
+    "aspectRatios": "{count}+ Seitenverhältnisse",
+    "resolutionPresets": "{count} Auflösungsvorgaben"
+  }
+}

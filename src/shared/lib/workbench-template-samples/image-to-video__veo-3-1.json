@@ -1,0 +1,114 @@
+[
+  {
+    "prompt": "The paper ball becomes a flyable paper airplane under a series of changes.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/1ef88ff23979bd344a63b01e1354bfa7.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/1ef88ff23979bd344a63b01e1354bfa7.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The paper ball becomes a flyable paper airplane under a series of changes.",
+      "aspectRatio": "16:9",
+      "resolution": "1080p",
+      "duration": "8",
+      "generateAudio": true,
+      "negativePrompt": "",
+      "seed": ""
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/3df5b53c318774e0b848f62ad8baa853.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/3df5b53c318774e0b848f62ad8baa853.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/c2ba05ba7313a23e93bf05ae621b6b90.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/c2ba05ba7313a23e93bf05ae621b6b90.mp4"
+    ],
+    "generatedAt": "2026-04-15T10:17:35.349Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/5adda712db52e1e6907a5567e82f01ce.mp4"
+  },
+  {
+    "prompt": "An Olympic sprinter is neck-and-neck with a towering ostrich wearing a racing bib, running a 100-meter dash on a blue track, low angle shot, intense competition.\t",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/cc174f3c1d2e7013669a603e6244ea25.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/cc174f3c1d2e7013669a603e6244ea25.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "An Olympic sprinter is neck-and-neck with a towering ostrich wearing a racing bib, running a 100-meter dash on a blue track, low angle shot, intense competition.\t",
+      "aspectRatio": "16:9",
+      "resolution": "1080p",
+      "duration": "8",
+      "generateAudio": true,
+      "negativePrompt": "",
+      "seed": ""
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/0b8d231075d25cacf069bcafe6f16568.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/0b8d231075d25cacf069bcafe6f16568.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/3d376443ffbef29804776284a39535a0.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/3d376443ffbef29804776284a39535a0.mp4"
+    ],
+    "generatedAt": "2026-04-15T10:20:28.781Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/93150a1e2c0b98ec185f6281728b23dd.mp4"
+  },
+  {
+    "prompt": "The agent suddenly breaks into a full-speed, desperate sprint, immediately joined by a team of chasing figures. The editing is fast-paced, high-octane action movie montage. Rapid succession of quick cuts, low-angle tracking shots, intense focus pull, bright, sun-drenched lighting creating harsh shadows.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/6f729d2ad9c8da8b7139ecda734273a2.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/6f729d2ad9c8da8b7139ecda734273a2.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "The agent suddenly breaks into a full-speed, desperate sprint, immediately joined by a team of chasing figures. The editing is fast-paced, high-octane action movie montage. Rapid succession of quick cuts, low-angle tracking shots, intense focus pull, bright, sun-drenched lighting creating harsh shadows.",
+      "aspectRatio": "16:9",
+      "resolution": "1080p",
+      "duration": "8",
+      "generateAudio": true,
+      "negativePrompt": "",
+      "seed": ""
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/e1bcd64b7b23a7021bd6143e4cdee046.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/e1bcd64b7b23a7021bd6143e4cdee046.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/637a424c5861857e1b9ecf7fd9e9790c.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/637a424c5861857e1b9ecf7fd9e9790c.mp4"
+    ],
+    "generatedAt": "2026-04-15T10:22:56.201Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/f4686fe936f66315ecca75d12d008a7f.mp4"
+  },
+  {
+    "prompt": "A young man in a sharp grey suit, carrying a brown leather briefcase, is confidently walking down a sunlit city street with classic architecture. The ambient city sounds – distant traffic hum, a faint murmur of conversations – are present. Suddenly, a comical 'THWACK' sound is heard as he slips dramatically on a discarded banana peel on the pavement, his expression shifting instantaneously from calm to wide-eyed surprise and alarm. A sharp, audible gasp escapes his lips. In the next moment, he falls through a shimmering, unexpected portal that opens up beneath him with a soft, ethereal 'WHOOSH,' transitioning from the bright city scene into a surreal, entirely black, void-like space. As he flails in mid-air within this dark dimension, letting out a startled 'AAAAHHH!' numerous ripe yellow bananas rain down from above, comically pelting him with soft thuds and splats. The lighting in the void is stark, highlighting the bright yellow bananas against the deep black. The scene should capture both the initial comedic slip and the abrupt, fantastical shift into the banana-filled alternate reality, with a strong sense of dynamic movement and the character's heightened fear and shock.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/ac49e70628c1170f506627e42fc378b8.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/ac49e70628c1170f506627e42fc378b8.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A young man in a sharp grey suit, carrying a brown leather briefcase, is confidently walking down a sunlit city street with classic architecture. The ambient city sounds – distant traffic hum, a faint murmur of conversations – are present. Suddenly, a comical 'THWACK' sound is heard as he slips dramatically on a discarded banana peel on the pavement, his expression shifting instantaneously from calm to wide-eyed surprise and alarm. A sharp, audible gasp escapes his lips. In the next moment, he falls through a shimmering, unexpected portal that opens up beneath him with a soft, ethereal 'WHOOSH,' transitioning from the bright city scene into a surreal, entirely black, void-like space. As he flails in mid-air within this dark dimension, letting out a startled 'AAAAHHH!' numerous ripe yellow bananas rain down from above, comically pelting him with soft thuds and splats. The lighting in the void is stark, highlighting the bright yellow bananas against the deep black. The scene should capture both the initial comedic slip and the abrupt, fantastical shift into the banana-filled alternate reality, with a strong sense of dynamic movement and the character's heightened fear and shock.",
+      "aspectRatio": "16:9",
+      "resolution": "1080p",
+      "duration": "8",
+      "generateAudio": true,
+      "negativePrompt": "",
+      "seed": ""
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/ba66f2711da27e0b3d35590e2361da16.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/ba66f2711da27e0b3d35590e2361da16.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/5506701c67ca18a5d5a7f5787c6ea457.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/5506701c67ca18a5d5a7f5787c6ea457.mp4"
+    ],
+    "generatedAt": "2026-04-15T10:25:28.834Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/093dead634752087d09f572b7579e925.mp4"
+  }
+]

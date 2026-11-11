@@ -1,0 +1,60 @@
+[
+  {
+    "prompt": "A warm, intimate portrait of two young men in dark navy suits and white dress shirts, smiling at each other across a polished marble bar. The man on the right holds a pink cocktail garnished with a lime wedge, their expressions conveying genuine joy and connection. Behind them, a dimly lit bar with numerous liquor bottles and warm golden lighting creates a sophisticated, upscale ambiance. The camera captures them in a medium shot, emphasizing their camaraderie and the refined atmosphere of the establishment.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/2e6b7d858d4351ac84351f41d600e986.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/2e6b7d858d4351ac84351f41d600e986.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A warm, intimate portrait of two young men in dark navy suits and white dress shirts, smiling at each other across a polished marble bar. The man on the right holds a pink cocktail garnished with a lime wedge, their expressions conveying genuine joy and connection. Behind them, a dimly lit bar with numerous liquor bottles and warm golden lighting creates a sophisticated, upscale ambiance. The camera captures them in a medium shot, emphasizing their camaraderie and the refined atmosphere of the establishment.",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "540p",
+      "duration": "5",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/d4f4e8ecdd7c927f3fe99649a579e802.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/d4f4e8ecdd7c927f3fe99649a579e802.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/4e6389738830323fe25901051f834abf.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/4e6389738830323fe25901051f834abf.mp4"
+    ],
+    "generatedAt": "2026-04-15T11:06:13.233Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/2706e4b3142fe366f50222217591b56f.mp4"
+  },
+  {
+    "prompt": "Animate the portrait with subtle natural human micro-movements.\nMotion: gentle breathing in shoulders, one slow blink, tiny eye micro-movements, slight hair flutter from a soft breeze.\nCamera: very slow push-in, stabilized, preserve shallow depth of field.\nLighting: keep the same soft key light, minimal exposure change.\nPreserve facial identity and composition from the input image, no warping.\nStyle: cinematic realism, smooth motion, no jitter.\n",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/b70cc10b34e889258b8e8f10402bb5db.png",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/b70cc10b34e889258b8e8f10402bb5db.png",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Animate the portrait with subtle natural human micro-movements.\nMotion: gentle breathing in shoulders, one slow blink, tiny eye micro-movements, slight hair flutter from a soft breeze.\nCamera: very slow push-in, stabilized, preserve shallow depth of field.\nLighting: keep the same soft key light, minimal exposure change.\nPreserve facial identity and composition from the input image, no warping.\nStyle: cinematic realism, smooth motion, no jitter.\n",
+      "negativePrompt": "",
+      "aspectRatio": "1:1",
+      "resolution": "540p",
+      "duration": "5",
+      "generateAudio": false,
+      "thinkingType": "auto",
+      "seed": "-1"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/b61c3dd6927f4234092f0b3e43dca2c1.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/b61c3dd6927f4234092f0b3e43dca2c1.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/725b431760498f51e135887b2a249e15.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/725b431760498f51e135887b2a249e15.mp4"
+    ],
+    "generatedAt": "2026-04-15T11:06:49.973Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/313b58b584b37d14c6cbeabd4655f4ab.mp4"
+  }
+]

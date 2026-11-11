@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "title": "Longcat Avatar - AI Talking Avatar Video Generator with Lip-Sync | joymagic",
+    "description": "Create professional AI avatar videos with Longcat Avatar. Generate synchronized talking avatar videos from audio and images with perfect lip-sync. Support up to 2 minutes, 480p/720p HD quality. Free trial available.",
+    "keywords": "longcat avatar, longcat-avatar, ai avatar video generator, talking avatar, ai talking avatar, avatar video maker, lip-sync avatar, ai avatar generator, animated avatar video, avatar video creator, ai video avatar, digital avatar video, virtual avatar generator"
+  },
+  "hero": {
+    "title": "Longcat Avatar - AI Talking Avatar Video Generator",
+    "description": "Transform your audio and images into professional AI avatar videos with Longcat Avatar. Generate synchronized talking avatar videos with perfect lip-sync and natural facial expressions. Create engaging content up to 2 minutes long in HD quality.",
+    "button1": "Try Longcat Avatar Now",
+    "button2": "View Pricing"
+  },
+  "keyFeatures": {
+    "title": "Why Choose Longcat Avatar?",
+    "audioSync": {
+      "title": "Perfect Lip-Sync with Longcat Avatar",
+      "description": "Longcat Avatar delivers flawless audio synchronization. Upload your audio files and watch as Longcat Avatar generates avatar videos with perfect lip-sync and realistic facial expressions that match every word and tone."
+    },
+    "imageControl": {
+      "title": "Custom Avatar Creation with Longcat Avatar",
+      "description": "Longcat Avatar lets you use any image as your avatar base. Simply upload your image, and Longcat Avatar's AI will animate facial features and expressions based on your audio input, creating personalized avatar videos."
+    },
+    "highQuality": {
+      "title": "HD Quality Output from Longcat Avatar",
+      "description": "Longcat Avatar generates high-definition avatar videos in 480p or 720p resolution. Experience smooth animations and natural movements that bring your avatars to life with professional quality."
+    },
+    "longDuration": {
+      "title": "Extended Video Length with Longcat Avatar",
+      "description": "Longcat Avatar supports creating avatar videos up to 2 minutes long, making it perfect for presentations, tutorials, marketing content, and comprehensive storytelling projects."
+    }
+  },
+  "useCases": {
+    "title": "What Can You Create with Longcat Avatar?",
+    "presentations": {
+      "title": "Professional Presentations with Longcat Avatar",
+      "description": "Use Longcat Avatar to create engaging presentation videos with animated avatars that explain your content professionally. Longcat Avatar makes your presentations more interactive and memorable."
+    },
+    "tutorials": {
+      "title": "Educational Tutorials with Longcat Avatar",
+      "description": "Produce high-quality tutorial videos using Longcat Avatar. Your animated avatar guides viewers through complex topics, making learning more accessible and engaging with Longcat Avatar's natural animations."
+    },
+    "contentCreation": {
+      "title": "Social Media Content with Longcat Avatar",
+      "description": "Generate viral social media content with Longcat Avatar. Create talking avatar videos that speak your script, perfect for Instagram, TikTok, YouTube, and other platforms using Longcat Avatar technology."
+    },
+    "personalization": {
+      "title": "Personalized Videos with Longcat Avatar",
+      "description": "Create unique personalized avatar videos with Longcat Avatar using your own image and voice. Longcat Avatar transforms your content into professional avatar videos that represent you authentically."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions About Longcat Avatar",
+    "q1": {
+      "question": "What is Longcat Avatar?",
+      "answer": "Longcat Avatar is an advanced AI-powered avatar video generator that creates synchronized talking avatar videos from audio and image inputs. Longcat Avatar uses cutting-edge AI technology to generate realistic lip-sync and facial expressions, making it the perfect tool for creating professional avatar videos."
+    },
+    "q2": {
+      "question": "What audio formats does Longcat Avatar support?",
+      "answer": "Longcat Avatar supports all common audio formats including MP3, WAV, M4A, and other standard audio formats. With Longcat Avatar, you can create avatar videos from audio files up to 2 minutes long."
+    },
+    "q3": {
+      "question": "What image formats can I use with Longcat Avatar?",
+      "answer": "Longcat Avatar accepts any standard image format including JPG, PNG, WEBP, and more. For the best Longcat Avatar results, we recommend using clear, front-facing portrait photos with good lighting."
+    },
+    "q4": {
+      "question": "What video resolutions does Longcat Avatar support?",
+      "answer": "Longcat Avatar offers two resolution options: 480p (standard) and 720p (HD). Choose the resolution that fits your needs. Higher resolution Longcat Avatar videos require more credits but deliver superior quality."
+    },
+    "q5": {
+      "question": "How long can Longcat Avatar videos be?",
+      "answer": "Longcat Avatar can generate avatar videos up to 2 minutes (120 seconds) long. Longcat Avatar calculates credits in 5-second blocks, ensuring fair and transparent pricing for your avatar video projects."
+    },
+    "q6": {
+      "question": "How does Longcat Avatar create lip-sync?",
+      "answer": "Longcat Avatar uses advanced AI technology to analyze your audio and automatically synchronize lip movements and facial expressions. Longcat Avatar ensures natural, realistic animations that match your audio perfectly."
+    },
+    "q7": {
+      "question": "Is Longcat Avatar free to use?",
+      "answer": "Longcat Avatar offers flexible pricing with credits. You can try Longcat Avatar and see the quality for yourself. Check our pricing page for detailed Longcat Avatar credit packages and plans."
+    }
+  },
+  "finalCTA": {
+    "title": "Ready to Create with Longcat Avatar?",
+    "description": "Start generating professional AI avatar videos with Longcat Avatar today. Experience the power of synchronized talking avatars.",
+    "button": "Try Longcat Avatar Now"
+  },
+  "form": {
+    "audio": {
+      "label": "Audio",
+      "tooltip": "Upload an audio file (MP3, WAV, etc.) up to 2 minutes long",
+      "dragDrop": "Drag and drop a file or click to upload",
+      "dropHere": "Drop audio here",
+      "hint": "Supported formats: MP3, WAV, etc. Max duration: 2 minutes",
+      "duration": "Duration: {duration} seconds (billed: {billedDuration} seconds minimum)"
+    },
+    "image": {
+      "label": "Image",
+      "tooltip": "Upload an image to use as your avatar base",
+      "dragDrop": "Drag and drop a file or click to upload",
+      "dropHere": "Drop image here",
+      "hint": "Supported formats: JPG, PNG, etc."
+    },
+    "resolution": {
+      "label": "Resolution",
+      "hint": "Estimated credits: {credits} credits (billed in 5-second blocks, minimum 5 seconds, capped at 120 seconds)"
+    },
+    "seed": {
+      "label": "Seed",
+      "placeholder": "Leave empty for random"
+    },
+    "buttons": {
+      "reset": "Reset",
+      "run": "Generate",
+      "generating": "Generating..."
+    }
+  },
+  "status": {
+    "idle": "Idle",
+    "processing": "Processing",
+    "completed": "Completed"
+  },
+  "preview": {
+    "placeholder": "Generated video will appear here"
+  },
+  "actions": {
+    "downloadVideo": "Download video",
+    "downloadFailed": "Download failed"
+  },
+  "errors": {
+    "uploadFailed": "Upload failed: {error}",
+    "uploadFailedGeneric": "Upload failed",
+    "invalidAudioFileType": "Invalid audio file type",
+    "invalidFileType": "Invalid file type",
+    "audioRequired": "Audio is required",
+    "imageRequired": "Image is required",
+    "audioDurationTooShort": "Audio duration must be at least {min} second",
+    "audioDurationExceeded": "Audio duration cannot exceed {max} seconds (billing cap)",
+    "audioDurationInvalid": "Invalid audio duration (must be between 1 and 120 seconds)",
+    "generationFailed": "Generation failed",
+    "statusQueryFailed": "Status query failed",
+    "apiResponseParseFailed": "Failed to parse API response",
+    "taskIdNotFound": "Task ID not found",
+    "taskTimeout": "Task timeout",
+    "taskFailed": "Task failed",
+    "processingFailed": "Processing failed"
+  }
+}

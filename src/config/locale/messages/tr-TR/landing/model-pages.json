@@ -1,0 +1,367 @@
+{
+  "template": {
+    "whyModelTitle": "Neden bu model",
+    "whyModelDescription": "Odaklanmış bir model sayfası, bu modelin nerede en güçlü olduğunu, ne zaman kullanılacağını ve neden kendi iş akışı giriş noktasını hak ettiğini açıklamalıdır.",
+    "howItWorksTitle": "Nasıl çalışır?",
+    "howItWorksDescription": "Sayfa, kullanıcıların ana oluşturma akışından ayrılmadan model anlayışından eyleme geçmelerine yardımcı olacak şekilde yapılandırılmıştır.",
+    "howItWorksSteps": [
+      {
+        "step": "01",
+        "title": "Bir mod seçin",
+        "copy": "Modelin ana oluşturma modları arasında geçiş yapın ve amacınıza uygun iş akışına ulaşın."
+      },
+      {
+        "step": "02",
+        "title": "Bilgi istemi veya referans ekleyin",
+        "copy": "Varlıkları sıfırdan oluşturmanıza veya varlıkları iyileştirmenize bağlı olarak metinden, referanslardan veya her ikisinden başlayın."
+      },
+      {
+        "step": "03",
+        "title": "Oluşturun ve karşılaştırın",
+        "copy": "Hızlı bir şekilde yinelemek, yönleri karşılaştırmak ve en güçlü adayların ilerlemesini sağlamak için çalışma tezgahını kullanın."
+      },
+      {
+        "step": "04",
+        "title": "Yaratıcıda devam et",
+        "copy": "Güçlü bir yön belirledikten sonra bağlamı yeniden inşa etmeden çalışmaya devam etmek için yaratıcı akışına geçin."
+      }
+    ],
+    "workflowsTitle": "Tek model yüzeyi, birden fazla dikey iş akışı",
+    "workflowsDescription": "Sayfa, önce özellik kartlarını sunmak yerine gerçek sahne amacı üzerinden akıyor. Her mod ne işe yaradığını, nasıl yönlendirileceğini ve çalışan bir komut istemiyle nasıl başlanacağını açıklar.",
+    "bestForTitle": "Şunun için en iyisi:",
+    "bestForDescription": "Kullanım senaryosu çerçevelemesi, kullanıcıların yalnızca modelin ne yapabileceğini değil, aynı zamanda gerçek üretim çalışmasında en iyi nereye uyduğunu anlamalarına da yardımcı olur.",
+    "galleryTitle": "Premium model sayfası çıktıyı açıklamalı, modüllerin arkasına gömmemelidir",
+    "galleryDescription": "Genel ritim dikey bir editoryal düzeni takip ediyor: önce kahraman, sonra tezgah, sonra sahne mantığı, ürün mantığı ve gerçek çıktı kanıtı. Bu, kartın duvarına çökmeden sayfayı yoğun tutar.",
+    "galleryLead": "Gerçek çıktılar kanıtı taşımalıdır. Çevreleyen kopya kompakt, okunabilir ve ikincil kalır.",
+    "faqTitle": "Yalnızca sayfa stili değil, ürün çerçeveleme",
+    "faqDescription": "Cevaplar aynı dikey ritimde kaldığından sayfa, bir dizi bağımsız modül yerine sürekli bir ürün anlatımı gibi okunmaya devam eder.",
+    "openWithPrompt": "İstemle aç",
+    "openInCreator": "Yaratıcıda aç",
+    "sampleLabel": "Örnek",
+    "fallbackSampleTitle": "Model Örneği",
+    "fallbackSampleCaption": "Bu modelin kendi nesil kümesinden seçilen gerçek bir çıktı örneği.",
+    "controls": {
+      "promptWorkflow": "Hızlı iş akışı",
+      "creatorSync": "Yaratıcı senkronizasyonu",
+      "uploadUpToRefs": "En fazla {count} referans yükleyin",
+      "referenceUploads": "Referans yüklemeleri",
+      "aspectRatios": "{count}+ en boy oranları",
+      "resolutionPresets": "{count} çözünürlük ön ayarı"
+    }
+  },
+  "nanobana": {
+    "title": "Nano Muz",
+    "provider": "Google",
+    "eyebrow": "Modelin ilk açılış sayfası",
+    "description": "Nano Banana ile başlayın, ardından en iyi şekilde yönettiği iş akışlarına dalın: rehberli görüntü düzenleme, hızlı konsept oluşturma ve ürününüzün halihazırda kullandığı çalışma tezgahı davranışının aynısıyla yaratıcı-yerel yineleme.",
+    "seoTitle": "Nano Muz Yapay Zeka Modeli Sayfası | Görüntü Düzenleme + Metinden Görüntüye | joymagic",
+    "seoDescription": "Model öncelikli bir açılış sayfası olarak Nano Banana'yı keşfedin. Sahneleri değiştirin, yaratıcı çalışma tezgahını koruyun ve tek akışta görüntü düzenleme ve metinden görüntüye dönüştürme için Nano Banana'yı kullanın.",
+    "stats": [
+      {
+        "label": "Birincil mod",
+        "value": "Resim Düzenleme"
+      },
+      {
+        "label": "Genişletilmiş sahneler",
+        "value": "2 canlı iş akışı"
+      },
+      {
+        "label": "Panelin yeniden kullanımı",
+        "value": "Yaratıcıyla aynı"
+      }
+    ],
+    "differentiators": [
+      "Genel bir sahne listesi yerine modelle yola çıkın, böylece ücretli trafik daha sıkı bir değer teklifi elde eder.",
+      "Ürün davranışını tutarlı tutmak için mevcut yaratıcı form şemasını ve sağ taraftaki medya panelini yeniden kullanın.",
+      "Tam sayfaları kopyalamak yerine tek bir ön ayarlı kayıt defterini genişleterek gelecek model sayfaları ekleyin."
+    ],
+    "gallery": [
+      {
+        "title": "Ürün Yeniden Stili",
+        "caption": "Tek bir model ve daha sıkı bir revizyon döngüsüyle sade bir e-ticaret paket görüntüsünü birinci sınıf bir lansman görseline dönüştürün.",
+        "prompt": "Yüklenen şişe fotoğrafını fırçalanmış metal yansımaları, yumuşak sisi ve şampanya altın rengi paletiyle lüks bir cilt bakımı reklamına dönüştürün.",
+        "accentClassName": "from-[#f4d38f] via-[#8b6b2b] to-[#161616] text-white"
+      },
+      {
+        "title": "Karakter Yenileme",
+        "caption": "Tekrarlanan düzenlemelerde kimliği korurken pozu, stili ve ışıklandırmayı güncelleyin.",
+        "prompt": "Aynı karakteri ve yüz kimliğini koruyun, dergi portre aydınlatmasına, yumuşak pembe saçlara ve koleksiyonluk figür stiline geçin.",
+        "accentClassName": "from-[#b78cff] via-[#5c38a5] to-[#151515] text-white"
+      },
+      {
+        "title": "Yalnızca Bilgi İstemi Kavramları",
+        "caption": "Düzenlemelere, rötuşlara veya üst düzey geçişlere geçmeden önce yalnızca bilgi istemi konseptleri için aynı modeli kullanın.",
+        "prompt": "Krom tezgahlar, kremsi gün ışığı ve net okunabilir tipte oluşturulmuş eğlenceli tabelalarla fütüristik bir tatlı kafe iç mekanı yaratın.",
+        "accentClassName": "from-[#7ee7f2] via-[#167f8c] to-[#131313] text-white"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Neden genel bir araç sayfası yerine /model/nanobana kullanmalısınız?",
+        "answer": "Bu sayfa model odaklı trafik için tasarlanmıştır. Ziyaretçileri öncelikle bir araç ailesi seçmeye zorlamak yerine Nano Banana ile başlıyor ve daha sonra bu modelin en iyi uyduğu iş akışlarına doğru genişliyor."
+      },
+      {
+        "question": "Bu sayfada farklı bir sağ taraftaki medya paneli kullanılıyor mu?",
+        "answer": "Hayır. Çalışma tezgahı alanı yaratıcı tarafındaki aynı medya panelini yeniden kullanır, böylece kaydedilen öğeler, şablonlar, sahne değiştirme ve kullanım kalıpları /creator ile tutarlı kalır."
+      },
+      {
+        "question": "Daha fazla model bu şablonu yeniden kullanabilir mi?",
+        "answer": "Evet. Sayfa bir kayıt defteri tarafından yönetiliyor, bu nedenle yeni bir /model/[slug] sayfası eklemek çoğunlukla bir veri görevinin yanı sıra modele özgü kopya ayarlamalarından ibarettir."
+      }
+    ],
+    "scenes": [
+      {
+        "modeLabel": "Resim Düzenleme",
+        "title": "Sahne 01 · Kılavuzlu görüntü düzenleme",
+        "description": "Rötuşlama, stil aktarımı, ürün geliştirme ve kimliği koruyan revizyonlar için varsayılan düzenleme yüzeyi olarak Nano Banana'yı kullanın.",
+        "spotlight": "Zaten mevcut olan ve daha hızlı ikinci geçişe ihtiyaç duyan varlıklar için en iyisi.",
+        "starterPrompt": "Orijinal kompozisyonu koruyun, arka planı temizleyin, aydınlatmayı sinematik stüdyo görünümüne yükseltin ve tüm marka ayrıntılarını koruyun.",
+        "useCases": [
+          "Ürün görseli temizleme ve birinci sınıf yeniden şekillendirme",
+          "UGC çerçevelerini reklama hazır önemli görsellere dönüştürün",
+          "Karakter veya IP güvenli stil değişiklikleri"
+        ]
+      },
+      {
+        "modeLabel": "Metinden Görüntüye",
+        "title": "Sahne 02 · Hızlı ilk konsept oluşturma",
+        "description": "Konsept taslaklarına, kampanya araştırmalarına veya yeni sanat yönlendirmelerine ihtiyaç duyduğunuzda aynı modelden sıfıra bir görsel oluşturmaya geçin.",
+        "spotlight": "Daha sonra neyin düzenleneceğini veya yükseltileceğini seçmeden önce yeni yol tarifleri oluşturmak için en iyisi.",
+        "starterPrompt": "Bir yaz içeceği lansmanı için parlak bir kampanya anahtarı görseli, parlak öğleden sonra arka ışığı, narenciye tonları, cesur, okunabilir başlık tipografisi oluşturun.",
+        "useCases": [
+          "Kampanya ruh hali panoları ve kahraman konsepti",
+          "Sosyal grafikler ve poster taslakları",
+          "Ambalaj, tabela ve metin ağırlıklı kompozisyonlar"
+        ]
+      }
+    ]
+  },
+  "nanobanana-2": {
+    "title": "Nano Muz 2",
+    "provider": "Google",
+    "eyebrow": "Modelin ilk açılış sayfası",
+    "description": "Daha üretim odaklı bir iş akışına ihtiyaç duyduğunuzda Nano Banana 2 ile başlayın: daha fazla referans, daha güçlü çıktı kontrolleri, daha net metin oluşturma ve daha keskin ilk geçiş kampanya görselleri.",
+    "seoTitle": "Nano Banana 2 Yapay Zeka Modeli Sayfası | Gelişmiş Görüntü Düzenleme + Metinden Görüntüye | joymagic",
+    "seoDescription": "Model öncelikli açılış sayfası olarak Nano Banana 2'yi keşfedin. Sahneleri değiştirin, yaratıcı çalışma tezgahını yeniden kullanın ve çoklu görüntü düzenleme ve daha yüksek kontrollü metinden görüntüye dönüştürme için Nano Banana 2'yi kullanın.",
+    "stats": [
+      {
+        "label": "Birincil mod",
+        "value": "Gelişmiş Düzenleme"
+      },
+      {
+        "label": "Genişletilmiş sahneler",
+        "value": "2 canlı iş akışı"
+      },
+      {
+        "label": "Çıkış odağı",
+        "value": "Daha fazla kontrol"
+      }
+    ],
+    "differentiators": [
+      "Temel modelden daha fazla üretim kontrolüne ihtiyaç duyan kullanıcılar için Nano Banana 2'yi yükseltme seçeneği olarak konumlandırın.",
+      "Model öyküsünü, başlangıç ​​istemlerini ve sahne çerçevesini değiştirirken aynı yaratıcı tarafındaki çalışma tezgahı davranışını koruyun.",
+      "Formları yeniden oluşturmaya, sahne yönlendirmeye veya sağdaki medya paneline gerek kalmadan kardeş model sayfalarını karşılaştırmayı kolaylaştırın."
+    ],
+    "gallery": [
+      {
+        "title": "Kampanya Paket Görüntüsü Yükseltmesi",
+        "caption": "Ham ürün varlıklarını reklama hazır daha gösterişli görsellere dönüştürmek için birden fazla referans ve daha sıkı çıktı kontrolleri kullanın.",
+        "prompt": "Canlı yansımalar, yükseltilmiş aydınlatma ve temiz, lüks perakende görünümüyle birinci sınıf bir cilt bakımı kampanyası görseli oluşturmak için yüklenen referansları kullanın.",
+        "accentClassName": "from-[#f8e08a] via-[#9c7c35] to-[#171717] text-white"
+      },
+      {
+        "title": "Tipografi-İleri Posterler",
+        "caption": "İlk geçişte düzen, hiyerarşi ve okunabilir yazı tipinin önemli olduğu poster kompozisyonları oluşturun.",
+        "prompt": "Bir yaz içeceği markası için net okunabilir başlık tipografisi, sinematik altın saat ışığı ve parlak ürün kahramanı kompozisyonu içeren birinci sınıf bir lansman posteri tasarlayın.",
+        "accentClassName": "from-[#8cd3ff] via-[#2b75b6] to-[#121416] text-white"
+      },
+      {
+        "title": "Kontrollü Marka Konseptleri",
+        "caption": "Gevşek ruh hali panoları yerine nihai kampanya kompozisyonlarına daha yakın hissettiren konsept çerçeveleri oluşturun.",
+        "prompt": "Lüks bir koku sürümü, ön cephede kahraman kompozisyonu, yumuşak atmosferik bulanıklık, net ürün etiketi ve birinci sınıf editoryal aydınlatma için gösterişli bir marka konsepti görseli oluşturun.",
+        "accentClassName": "from-[#d7b7ff] via-[#6f47a8] to-[#17131d] text-white"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "/model/nanobana ve /model/nanobanana-2 arasındaki fark nedir?",
+        "answer": "Nano Banana 2 burada daha üretim odaklı kardeş olarak çerçeveleniyor: daha ağır referans odaklı düzenlemeler, daha güçlü çıktı kontrolleri ve daha net düzen amacına sahip birinci sınıf konsept üretimi için daha iyi."
+      },
+      {
+        "question": "Nano Banana 2 hâlâ aynı yaratıcı çalışma tezgahını mı kullanıyor?",
+        "answer": "Evet. Soldaki form akışı ve sağ medya paneli, oluşturucu tarafından hâlâ yeniden kullanılıyor, dolayısıyla sayfa, temel oluşturma iş akışını değiştirmeden model bağlamını değiştiriyor."
+      },
+      {
+        "question": "Nano Banana 2 için neden ayrı bir model sayfası hazırlamalısınız?",
+        "answer": "Çünkü kullanıcının amacı farklıdır. Bu sayfa Nano Banana 2'yi bir yükseltme yolu olarak konumlandırmanıza yardımcı olur ve genel araçlar sayfasına karıştırmadan en uygun senaryoları açıklamanıza olanak tanır."
+      }
+    ],
+    "scenes": [
+      {
+        "modeLabel": "Resim Düzenleme",
+        "title": "Sahne 01 · Çoklu görüntü hassas düzenleme",
+        "description": "Daha fazla referans gerektiren daha ağır düzenleme iş akışları, çıktı boyutu üzerinde daha net kontrol ve daha üretim odaklı kurulum için Nano Banana 2'yi kullanın.",
+        "spotlight": "Toplu işler, referans açısından zengin düzenlemeler ve daha yüksek çözünürlüklü çıktılar için en iyisi.",
+        "starterPrompt": "Ürünü birinci sınıf bir lansman kampanyasına dönüştürmek, markayı olduğu gibi korumak, kontrollü stüdyo yansımaları eklemek ve gösterişli bir ticari görsel oluşturmak için yüklenen referansları kullanın.",
+        "useCases": [
+          "Çoklu referanslı ürün görselinin iyileştirilmesi",
+          "Daha sıkı çıktı kontrolüne sahip kampanya varyasyonları",
+          "Sanat yönetimi tutarlı görsel kimlikle geçer"
+        ]
+      },
+      {
+        "modeLabel": "Metinden Görüntüye",
+        "title": "Sahne 02 · Yüksek kontrollü konsept oluşturma",
+        "description": "Daha güçlü kamera yönüne, daha temiz metin oluşturmaya ve üretime hazır kompozisyonlara daha yakın hissettiren çıktılara ihtiyaç duyduğunuzda, istem odaklı üretime geçin.",
+        "spotlight": "Varlıkları kampanya prodüksiyonuna aktarmadan önce premium konsept oluşturmak için en iyisi.",
+        "starterPrompt": "Güçlü kamera kompozisyonu, sıcak gün batımı ana ışığı, net başlık tipografisi ve parlak kahraman ürünü kaplamasıyla birinci sınıf bir içecek kampanyası posteri oluşturun.",
+        "useCases": [
+          "Reklam konsepti, daha net düzen amacına uygundur",
+          "Okunabilir tipografiye sahip poster ve ambalaj taslakları",
+          "Daha parlak ilk geçiş çıktısına ihtiyaç duyan marka görselleri"
+        ]
+      }
+    ]
+  },
+  "wan-2-7": {
+    "title": "Wan 2.7",
+    "provider": "Alibaba'nın",
+    "eyebrow": "Modelin ilk açılış sayfası",
+    "description": "Daha fazla sinematik görüntü oluşturma ve hareket odaklı hikaye anlatımı istediğinizde Wan 2.7 ile başlayın: daha güçlü bir atmosfer, daha fazla editoryal çerçeve ve birinci sınıf kampanya görsellerine daha yakın hissettiren çıktılar.",
+    "seoTitle": "Wan 2.7 Yapay Zeka Modeli Sayfası | Metinden Görüntüye + Metinden Videoya | joymagic",
+    "seoDescription": "Wan 2.7'yi model odaklı bir açılış sayfası olarak keşfedin. Metinden görüntüye ve metinden videoya geçiş yapın, yaratıcı çalışma tezgahını yeniden kullanın ve tek bir akışla sinematik hareketsiz görüntülerden harekete geçin.",
+    "stats": [
+      {
+        "label": "Birincil mod",
+        "value": "Metinden Görüntüye"
+      },
+      {
+        "label": "Genişletilmiş sahneler",
+        "value": "6 canlı iş akışı"
+      },
+      {
+        "label": "Çıkış odağı",
+        "value": "Sinematik yön"
+      }
+    ],
+    "differentiators": [
+      "Wan 2.7'yi atmosfere, güzelliğe ve editoryal kompozisyona önem veren ekipler için birinci sınıf hikaye anlatımı seçeneği olarak konumlandırın.",
+      "Temel çalışma tezgahı davranışını değiştirmeden hareketsiz görüntü konsepti, kontrollü düzenleme, hareket oluşturma ve dizi genişletme arasında köprü kurmak için tek bir model sayfası kullanın.",
+      "Wan 2.7'ye kendi anlatımını verin, böylece kullanıcılar daha fazla yardımcı programa dayalı bir düzenleme modeli yerine onu ne zaman seçeceklerini anlayabilirler."
+    ],
+    "gallery": [
+      {
+        "title": "Sinematik Güzellik Portreleri",
+        "caption": "Daha güçlü bir ruh hali, daha net karakter oluşturma ve daha gösterişli bir moda kampanyası bitişi ile birinci sınıf editoryal çerçeveler oluşturun.",
+        "prompt": "Üstün stil, rafine yansımalar ve zarif editoryal aydınlatma ile mavi saatte yağmurla aydınlatılmış bir sokakta sinematik güzellikte bir portre oluşturun.",
+        "accentClassName": "from-[#9f7bff] via-[#3d3276] to-[#121212] text-white"
+      },
+      {
+        "title": "Lüks Moda Atmosferi",
+        "caption": "Hareketsiz görüntü çıktılarını daha zengin film ışığına, birinci sınıf dokulara ve daha gelişmiş görsel hikaye anlatımına doğru itin.",
+        "prompt": "Yağmurdan sonra neon bir şehirde yürüyen bir modelin, parlak yansımaların, birinci sınıf gardırobun ve karamsar sinematik çerçevenin yer aldığı lüks bir moda kampanyası oluşturun.",
+        "accentClassName": "from-[#5ec8ff] via-[#1e567b] to-[#101216] text-white"
+      },
+      {
+        "title": "Harekete Dayalı Kampanya Konseptleri",
+        "caption": "Hikayenin kamera hareketine ve sürekliliğe ihtiyacı olduğunda hareketsiz konseptlerden kısa sinematik hareket fikirlerine geçin.",
+        "prompt": "Geceleri taksiden inen bir model, ıslak kaldırım yansımaları, yavaş kamera hareketi ve lüks yakın çekimlerden oluşan kısa bir kampanya hareket konsepti oluşturun.",
+        "accentClassName": "from-[#f7c875] via-[#88612f] to-[#161616] text-white"
+      },
+      {
+        "title": "Premium Editoryal Döngüler",
+        "caption": "Tam prodüksiyon planlaması başlamadan önce kısa güzellik ve moda filmi yönlerini test etmek için Wan 2.7'yi kullanın.",
+        "prompt": "Hafif rüzgar hareketi, sinematik yakın çekim geçişleri, birinci sınıf makyaj ayrıntıları ve dramatik şehir gecesi ambiyansı ile moda filmi tarzı bir döngü oluşturun.",
+        "accentClassName": "from-[#f19dc2] via-[#75405e] to-[#171216] text-white"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Neden Wan 2.7'ye kendi model sayfasını verelim ki?",
+        "answer": "Çünkü Wan 2.7, fayda odaklı görüntü araçlarından farklı bir kullanıcı amacı taşıyor. Bu sayfa, sinematik fotoğraflar, editoryal konseptler ve kısa çekim öncelikli hikaye geliştirme için ne zaman kullanılacağını açıklamaya yardımcı olur."
+      },
+      {
+        "question": "Wan 2.7 hala aynı yaratıcı çalışma tezgahını yeniden mi kullanıyor?",
+        "answer": "Evet. Sayfa, içerik oluşturucu tarafındaki iş akışı yüzeyini koruyor; böylece kullanıcılar, ürün yapısını yeniden öğrenmeden görüntü ve video oluşturma arasında geçiş yapabiliyor."
+      },
+      {
+        "question": "Wan 2.7 fotoğraf için mi yoksa hareket için mi daha iyi?",
+        "answer": "Bu sayfa her ikisi için de Wan 2.7'yi konumlandırıyor. Metinden görüntüye, birinci sınıf konsept kareler için iyi çalışır; metinden videoya ise aynı estetik yönü kısa sinema kliplerine taşımaya yardımcı olur."
+      }
+    ],
+    "scenes": [
+      {
+        "modeLabel": "Metinden Görüntüye",
+        "title": "Sahne 01 · Sinematik görüntü oluşturma",
+        "description": "Daha güçlü editoryal ruh hali, iyileştirilmiş karakter oluşturma ve daha kaliteli ilk geçiş kompozisyonu ile gösterişli, istem odaklı görseller istediğinizde Wan 2.7'yi kullanın.",
+        "spotlight": "Güzellik başyazıları, moda kampanyaları ve sinematik görsel konseptler için en iyisi.",
+        "starterPrompt": "Mavi saatlerde yağmurla aydınlanan bir şehirde, cilalı cilt detaylarıyla, birinci sınıf moda stiliyle ve zarif yansımalarla sinematik güzellikte bir editoryal portre oluşturun.",
+        "useCases": [
+          "Üst düzey portre ve güzellik kampanyaları",
+          "Daha güçlü bir atmosfere sahip moda başyazıları",
+          "Daha zengin aydınlatmaya sahip lüks konsept çerçeveler"
+        ]
+      },
+      {
+        "modeLabel": "Resim Düzenleme",
+        "title": "Sahne 02 · Referans odaklı görüntü düzenleme",
+        "description": "Konu kimliğini korumanız, kompozisyonu referanslardan yönlendirmeniz ve fotoğrafları daha sinematik bir sona doğru itmeniz gerektiğinde Wan 2.7'yi görüntü düzenlemeye geçirin.",
+        "spotlight": "Editoryal rötuşlama, görsellerin yeniden şekillendirilmesi ve mevcut varlıklardan atmosfer yükseltmeleri için en iyisi.",
+        "starterPrompt": "Orijinal konuyu ve çerçeveyi koruyun, gece sinematik havasını derinleştirin, yansımaları ve cilt ayrıntılarını iyileştirin ve görüntüyü premium editoryal sabit bir fotoğrafa yükseltin.",
+        "useCases": [
+          "Daha güçlü aydınlatma yönüne sahip moda fotoğrafları",
+          "Konu kimliğini koruyan güzellik düzenlemeleri",
+          "Referans bazlı sahne ve ruh hali iyileştirmesi"
+        ]
+      },
+      {
+        "modeLabel": "Resim Düzenleme Pro",
+        "title": "Sahne 03 · Yüksek kontrollü görüntü düzenleme",
+        "description": "İşin daha sıkı görsel kontrole, daha ağır sanat yönetimine ve birden fazla referans girişi arasında daha bilinçli iyileştirmeye ihtiyacı olduğunda profesyonel düzenleme yolunu kullanın.",
+        "spotlight": "Birinci sınıf kampanya cilalama, daha sıkı düzenleme kontrolü ve daha yüksek kalitede görüntü iyileştirme için en iyisi.",
+        "starterPrompt": "Yüklenen referansları kullanarak çerçeveyi daha sıkı kontrast kontrolü, daha zengin atmosfer ve daha temiz lüks kaplamayla birinci sınıf bir kampanya görseline dönüştürün.",
+        "useCases": [
+          "Kampanyaya hazır ürün veya portre iyileştirmeleri",
+          "Daha ağır referans odaklı sanat yönetmenliği geçişleri",
+          "Birinci sınıf lansman görselleri için parlak fotoğraflar"
+        ]
+      },
+      {
+        "modeLabel": "Metinden Videoya",
+        "title": "Sahne 04 · Hareket öncelikli moda hikayesi anlatımı",
+        "description": "Fikrin kamera hareketine, ruh hali sürekliliğine ve daha film benzeri bir güzellik veya moda anlatımına ihtiyacı olduğunda Wan 2.7 video üretimine geçin.",
+        "spotlight": "Kısa sinematik klipler, kampanya hareket döngüleri ve birinci sınıf model odaklı çekimler için en iyisi.",
+        "starterPrompt": "Geceleri taksiden inen bir modelin, ıslak yansımaların, yavaş kamera hareketinin, birinci sınıf güzelliğe sahip yakın çekimin kısa, lüks bir moda filmi klibi oluşturun.",
+        "useCases": [
+          "Güzellik filmi tarzı hareketli klipler",
+          "Kısa moda kampanyası dizileri",
+          "Lüks editoryal hareket konseptleri"
+        ]
+      },
+      {
+        "modeLabel": "Resimden Videoya",
+        "title": "Sahne 05 · Hareketsiz hareketin devamı",
+        "description": "Orijinal kompozisyonu korurken aynı zamanda incelikli kamera hareketi, ortam hareketi ve sinematik süreklilik eklemek istediğinizde, güçlü bir sabit kareyi harekete dönüştürün.",
+        "spotlight": "Önemli görselleri, poster çerçevelerini ve editoryal fotoğrafları kısa hareketli döngüler halinde canlandırmak için en iyisi.",
+        "starterPrompt": "Yüklenen ana görseli hafif rüzgar, yansıtıcı ışık hareketi ve yavaş editoryal kamera kaymasıyla kısa bir sinematik klip halinde canlandırın.",
+        "useCases": [
+          "Poster çerçevelerini kısa tanıtım kliplerine dönüştürün",
+          "Güzellik fotoğraflarını zarif sinematik hareketlere dönüştürün",
+          "Onaylanmış bir anahtar görselden hareket yönünü test edin"
+        ]
+      },
+      {
+        "modeLabel": "Video Uzatma",
+        "title": "Sahne 06 · Dizi uzantısı",
+        "description": "Konsept işe yaradığında ve daha fazla çalışma süresine, daha akıcı anlatıma veya kesmeden önce ekstra bir tempoya ihtiyaç duyduğunuzda mevcut bir Wan 2.7 klibini uzatın.",
+        "spotlight": "Onaylanmış klipleri uzatmak, daha uzun döngüler oluşturmak ve hareket tarzını bir sekans boyunca taşımak için en iyisi.",
+        "starterPrompt": "Sürekliliği bozmadan aynı sinema havasını, kamera dilini ve konu hareketini sürdürerek yüklenen klibi genişletin.",
+        "useCases": [
+          "Kısa klipleri daha kapsamlı kampanya döngülerine genişletin",
+          "Onaylanmış moda filmi çekimlerine ekstra bir ritim katın",
+          "Daha uzun bir sekans boyunca hareket dilini koruyun"
+        ]
+      }
+    ]
+  }
+}

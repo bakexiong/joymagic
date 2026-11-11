@@ -1,0 +1,203 @@
+{
+  "videoFaceSwapPage": {
+    "whatIs": {
+      "title": "Was ist KI Video Face Swap?",
+      "description": "<strong>KI Video Face Swap</strong> ist ein KI-gestütztes Tool, mit dem Sie Gesichter in Videos durch jedes gewünschte Gesicht ersetzen können.",
+      "uses": "Es nutzt modernes maschinelles Lernen, um:",
+      "detect": "Gesichter in Ihrem Video zu erkennen",
+      "track": "Ihre Bewegung Frame für Frame zu verfolgen",
+      "swap": "Sie nahtlos durch ein neues Gesicht zu ersetzen",
+      "keep": "Natürliche Ausdrücke, Beleuchtung und Winkel beizubehalten",
+      "canDo": "Mit unserem Online-Face-Swap-Video-KI können Sie:",
+      "movieScenes": "Ihr Gesicht in Filmszenen einfügen",
+      "memeStars": "Freunde zu Meme-Stars machen",
+      "cosplay": "Cosplay- oder Reaktions-Clips erstellen",
+      "socialMedia": "Personalisierte Inhalte für soziale Medien erstellen",
+      "cloud": "Alles läuft in der Cloud, daher benötigen Sie keine leistungsstarke Hardware oder komplexe Software. Einfach hochladen und tauschen."
+    },
+    "howTo": {
+      "title": "Wie man Gesichter in Videos mit KI tauscht",
+      "description": "Erstellen Sie realistische, hochwertige Face-Swap-Videos mit unserer <strong>kostenlosen Video-Face-Swap-KI</strong> in wenigen einfachen Schritten:",
+      "step1": {
+        "title": "1. Laden Sie das Video hoch, in dem Sie das Gesicht tauschen möchten",
+        "description": "Laden Sie das Originalvideo hoch, in dem Sie ein Gesicht (oder mehrere Gesichter) ersetzen möchten.",
+        "supportFormats": "Wir unterstützen alle gängigen Videoformate",
+        "clearFaces": "Stellen Sie sicher, dass die Gesichter im Video klar und sichtbar sind",
+        "quality": "Höhere Videoqualität führt normalerweise zu besseren Ergebnissen"
+      },
+      "step2": {
+        "title": "2. Laden Sie das Video hoch, mit dem Sie das Gesicht tauschen möchten (optional)",
+        "description": "Wenn Sie Gesichter zwischen <strong>zwei Videos</strong> tauschen möchten (z. B. Ihr eigenes Video und ein Filmclip):",
+        "secondVideo": "Laden Sie das zweite Video hoch, das das Gesicht enthält, das Sie verwenden möchten",
+        "detectBoth": "Unsere KI erkennt Gesichter in beiden Videos",
+        "chooseFace": "Sie können wählen, welches Gesicht gemappt und ersetzt werden soll",
+        "singleImage": "Wenn Sie nur ein <strong>einzelnes Gesichtsbild</strong> verwenden möchten, können Sie diesen Schritt überspringen und zum nächsten Schritt gehen."
+      },
+      "step3": {
+        "title": "3. Laden Sie ein Gesichtsbild zum Tauschen hoch",
+        "description": "Laden Sie ein Foto des Gesichts hoch, das Sie in das Video einfügen möchten.",
+        "bestResults": "Für beste Ergebnisse:",
+        "clearPhoto": "Verwenden Sie ein klares, frontales Foto",
+        "wellLit": "Stellen Sie sicher, dass das Gesicht gut beleuchtet ist",
+        "avoidFilters": "Vermeiden Sie starke Filter oder Gesichtsbedeckungen (wie Sonnenbrillen oder Masken)",
+        "autoAlign": "Die KI richtet das Gesicht automatisch aus, um den Winkel, die Beleuchtung und den Ausdruck im Video anzupassen."
+      },
+      "step4": {
+        "title": "4. Beschneiden Sie den Videoclip (optional)",
+        "description": "Sie können das hochgeladene Video beschneiden, um sich nur auf den Teil zu konzentrieren, in dem Sie das Gesicht tauschen möchten.",
+        "trim": "Kürzen Sie Start- und Endzeit",
+        "focus": "Konzentrieren Sie sich auf die Hauptszene, in der das Gesicht sichtbar ist",
+        "improve": "Dies kann Geschwindigkeit und Ausgabequalität verbessern",
+        "generate": "Wenn Sie mit dem Clip zufrieden sind, klicken Sie auf <strong>Generieren</strong> und lassen Sie die KI Ihr neues Video erstellen."
+      }
+    },
+    "features": {
+      "title": "Hauptfunktionen unserer KI Video Face Swap Online",
+      "speed": {
+        "title": "Der schnellste Video-Face-Swap mit Blitzgeschwindigkeit",
+        "description": "Unsere neu optimierte KI-Engine liefert <strong>Face Swaps in Sekunden statt Minuten</strong>.",
+        "faster": "Bis zu <strong>2× schneller</strong> als viele andere Tools",
+        "complex": "Verarbeitet sogar <strong>komplexe, mehrgesichtige Videos</strong>",
+        "sixFaces": "Unterstützt bis zu <strong>6 Gesichter</strong> in einem einzigen Video",
+        "quick": "Entwickelt für schnelle Vorschauen und schnelle finale Exporte",
+        "watermarkFree": "Sie erhalten <strong>wasserzeichenfreie, professionelle Ergebnisse</strong> ohne lange Wartezeiten."
+      },
+      "templates": {
+        "title": "Trending Video-Vorlagen für Face Swap",
+        "description": "Wissen Sie nicht, wo Sie anfangen sollen? Verwenden Sie unsere <strong>fertigen Video-Vorlagen</strong>, die für Face Swapping entwickelt wurden:",
+        "memeFormats": "Virale Meme-Formate",
+        "movieScenes": "Berühmte Filmszenen",
+        "reaction": "Reaktions- und Duett-Clips",
+        "cosplay": "Cosplay- und Charakter-Bearbeitungen",
+        "shortForm": "Kurzform-Inhalte für TikTok, Reels und YouTube Shorts",
+        "simple": "Wählen Sie einfach eine Vorlage, laden Sie Ihr Gesicht hoch und generieren Sie mit wenigen Klicks ein teilbares Video."
+      },
+      "viral": {
+        "title": "Verwandeln Sie jeden Clip mit Video Face Swap KI in einen viralen Hit",
+        "description": "Mit unserer leistungsstarken <strong>Video-Face-Swap-KI</strong> können Sie gewöhnliche Clips in unterhaltsame, auffällige Inhalte verwandeln:",
+        "movieMoment": "Erstellen Sie einen ikonischen Film-Moment neu, in dem Sie die Hauptrolle spielen",
+        "memes": "Erstellen Sie lustige Memes mit Gesichtern von Freunden",
+        "team": "Setzen Sie Ihr Team, Ihre Familie oder Kunden in thematische Videos",
+        "standOut": "Heben Sie sich in sozialen Medien mit einzigartigen, personalisierten Bearbeitungen hervor",
+        "easy": "Es war noch nie einfacher, Videos zu erstellen, die Menschen <strong>anschauen, teilen und sich merken</strong>."
+      }
+    },
+    "legal": {
+      "title": "Verantwortungsvolle Nutzung & Rechtliche Anforderungen",
+      "intro": "Unser KI Video Face Swap Tool ist für kreative und Unterhaltungszwecke konzipiert. Um eine rechtmäßige und ethische Nutzung sicherzustellen, lesen Sie bitte diese Richtlinien sorgfältig durch und befolgen Sie sie.",
+      "whoCanSwap": {
+        "title": "Wen können Sie tauschen?",
+        "mayUse": "Sie dürfen NUR verwenden:",
+        "ownFace": "Ihr eigenes Gesicht",
+        "consent": "Gesichter von Personen, die Ihnen ausdrückliche, informierte Zustimmung gegeben haben",
+        "fictional": "Fiktive Charaktere oder gemeinfreie Inhalte, für die Sie die Rechte besitzen",
+        "mayNotUse": "Sie dürfen NICHT verwenden:",
+        "noPermission": "Das Gesicht einer Person ohne deren ausdrückliche Erlaubnis",
+        "celebrity": "Prominente Gesichter für kommerzielle Zwecke oder Täuschung",
+        "minors": "Gesichter von Minderjährigen (unter 18) ohne Zustimmung der Eltern/Erziehungsberechtigten",
+        "deceive": "Jeden Inhalt, der darauf abzielt, zu täuschen, zu betrügen oder falsch darzustellen"
+      },
+      "prohibited": {
+        "title": "Strengstens verbotene Verwendungen",
+        "description": "KI Video Face Swap darf NICHT verwendet werden, um:",
+        "impersonation": "<strong>Täuschung & Betrug</strong>: Deepfakes erstellen, um andere zu täuschen, Personen nachzuahmen oder Fehlinformationen zu verbreiten",
+        "nonConsensual": "<strong>Nicht einvernehmliche Inhalte</strong>: Gesichter ohne Erlaubnis in sensible, private oder unangemessene Szenarien tauschen",
+        "harassment": "<strong>Belästigung & Missbrauch</strong>: Inhalte erstellen, die einer Person schaden, sie belästigen oder ihre Würde verletzen",
+        "copyright": "<strong>Urheberrechtsverletzung</strong>: Urheberrechtlich geschützte Videoinhalte (Filme, TV-Shows, Musikvideos) ohne ordnungsgemäße Autorisierung verwenden",
+        "political": "<strong>Politische Manipulation</strong>: Irreführende politische Inhalte oder falsche Empfehlungen erstellen",
+        "identityTheft": "<strong>Identitätsdiebstahl</strong>: Face Swaps verwenden, um sich betrügerisch als andere Person auszugeben"
+      },
+      "disclosure": {
+        "title": "Offenlegung von KI-generierten Inhalten",
+        "important": "Wichtig",
+        "description": "Mit unserem Face-Swap-Tool erstellte Videos sind KI-generierte synthetische Medien.",
+        "disclose": "Beim öffentlichen Teilen von Face-Swap-Videos sollten Sie offenlegen, dass der Inhalt KI-modifiziert ist",
+        "jurisdictions": "In vielen Rechtsordnungen kann das Versäumnis, Deepfake-Inhalte offenzulegen, gegen Gesetze zu synthetischen Medien verstoßen",
+        "watermarks": "Unser Tool kann je nach den rechtlichen Anforderungen Ihrer Region sichtbare oder unsichtbare Wasserzeichen hinzufügen, um KI-Manipulationen anzuzeigen"
+      },
+      "responsibilities": {
+        "title": "Ihre rechtlichen Verantwortlichkeiten",
+        "description": "Durch die Nutzung dieses Tools stimmen Sie zu:",
+        "verify": "<strong>Autorisierung überprüfen</strong>: Stellen Sie sicher, dass Sie ordnungsgemäße Rechte und Genehmigungen für alle Gesichter und Videoinhalte haben, die Sie hochladen",
+        "comply": "<strong>Gesetze einhalten</strong>: Befolgen Sie alle geltenden Gesetze zu Deepfakes, synthetischen Medien, Datenschutz und Datenschutz in Ihrer Rechtsordnung",
+        "respect": "<strong>Rechte respektieren</strong>: Respektieren Sie geistige Eigentumsrechte, Persönlichkeitsrechte und Datenschutzrechte aller Personen",
+        "ethical": "<strong>Ethisch nutzen</strong>: Verwenden Sie das Tool nur für rechtmäßige, ethische und nicht schädliche Zwecke"
+      },
+      "enforcement": {
+        "title": "Plattform-Durchsetzung",
+        "description": "Wir überwachen Missbrauch aktiv und implementieren:",
+        "moderation": "Automatisierte Content-Moderation-Systeme",
+        "reporting": "Benutzer-Meldemechanismen",
+        "suspension": "Kontosperrung oder -kündigung bei Verstößen",
+        "cooperation": "Zusammenarbeit mit Strafverfolgungsbehörden, wenn gesetzlich erforderlich",
+        "violation": "Verstöße gegen diese Richtlinien können zur sofortigen Kontokündigung und möglichen rechtlichen Schritten führen."
+      },
+      "compliance": {
+        "title": "Regionale Compliance",
+        "description": "Dieses Tool entspricht:",
+        "china": "Chinas \"Deep Synthesis\"-Vorschriften, die Content-Kennzeichnung und Benutzerverifizierung erfordern",
+        "eu": "EU-KI-Gesetz-Anforderungen für Transparenz bei KI-generierten Inhalten",
+        "us": "US-Bundesstaatsgesetze zu Deepfakes und synthetischen Medien",
+        "consult": "Bei Fragen zur rechtmäßigen Nutzung konsultieren Sie einen Rechtsberater in Ihrer Rechtsordnung."
+      }
+    },
+    "faq": {
+      "title": "Video Face Swap FAQs",
+      "q1": {
+        "question": "1. Ist KI Video Face Swap kostenlos nutzbar?",
+        "answer1": "Ja, Sie können Face-Swap-Videos mit unserer <strong>kostenlosen Video-Face-Swap-KI</strong> erstellen.",
+        "answer2": "Einige erweiterte Optionen (wie höhere Auflösung oder längere Clips) können je nach gewähltem Plan ein Upgrade erfordern."
+      },
+      "q2": {
+        "question": "2. Benötige ich Videobearbeitungserfahrung?",
+        "answer1": "Nein. Das Tool ist für alle gemacht:",
+        "simple": "Einfacher, schrittweiser Workflow",
+        "aiHandles": "KI übernimmt Erkennung, Verfolgung und Mischung automatisch",
+        "answer2": "Wenn Sie ein Video und ein Gesichtsfoto hochladen können, können Sie einen Face Swap erstellen."
+      },
+      "q3": {
+        "question": "3. Welche Videoformate unterstützen Sie?",
+        "answer1": "Wir unterstützen die meisten gängigen Formate, einschließlich:",
+        "mp4": "MP4",
+        "answer2": "Wenn Ihre Datei nicht hochgeladen wird, versuchen Sie, sie als MP4 zu exportieren und erneut hochzuladen."
+      },
+      "q4": {
+        "question": "4. Wird mein Video ein Wasserzeichen haben?",
+        "answer1": "<strong>Ja, zur rechtlichen Compliance und Transparenz.</strong>",
+        "answer2": "Unser Tool fügt sichtbare oder unsichtbare Marker hinzu, um KI-generierte Inhalte gemäß den Vorschriften zu synthetischen Medien in verschiedenen Rechtsordnungen anzugeben.",
+        "visible": "<strong>Sichtbare Wasserzeichen</strong>: Können je nach den rechtlichen Anforderungen Ihrer Region in Vorschau- oder Endversionen erscheinen",
+        "invisible": "<strong>Unsichtbare Marker</strong>: Digitale Fingerabdrücke, die im Video für die Inhaltsauthentifizierung eingebettet sind",
+        "purpose": "<strong>Zweck</strong>: Einhaltung der Deepfake-Offenlegungsgesetze sicherstellen und Missbrauch verhindern",
+        "answer3": "Diese Marker schützen Sie und andere, indem sie den Inhalt klar als KI-modifiziert identifizieren."
+      },
+      "q5": {
+        "question": "5. Sind meine Daten und Inhalte sicher?",
+        "answer1": "Wir nehmen Datenschutz und Sicherheit ernst:",
+        "secure": "Ihre Videos und Bilder werden sicher verarbeitet und während der Übertragung verschlüsselt",
+        "only": "Inhalte werden <strong>nur</strong> verwendet, um Ihre angeforderten Ergebnisse zu generieren",
+        "notTrain": "Wir verwenden Ihre Uploads <strong>nicht</strong>, um unsere Modelle zu trainieren oder sie mit Dritten zu teilen",
+        "delete": "Sie können Ihre Dateien nach dem Export löschen",
+        "privacyRules": "Wichtige Datenschutzregeln:",
+        "neverUpload1": "<strong>Laden Sie niemals</strong> Inhalte hoch, die das Gesicht einer anderen Person ohne deren ausdrückliche Erlaubnis enthalten",
+        "neverUpload2": "<strong>Laden Sie niemals</strong> sensible, private oder intime Inhalte hoch",
+        "neverUpload3": "<strong>Laden Sie niemals</strong> Gesichter von Minderjährigen ohne ordnungsgemäße Zustimmung der Eltern/Erziehungsberechtigten hoch",
+        "unauthorized": "Die unbefugte Verwendung des Abbilds einer anderen Person kann gegen Datenschutzgesetze und unsere Nutzungsbedingungen verstoßen",
+        "responsible": "Sie sind allein verantwortlich dafür, sicherzustellen, dass Sie Rechte an allen hochgeladenen Inhalten haben."
+      },
+      "q6": {
+        "question": "6. Kann ich mehrere Gesichter in einem Video tauschen?",
+        "answer1": "Ja. Unsere KI kann <strong>bis zu 6 Gesichter</strong> in einem einzigen Video verarbeiten:",
+        "swapOne": "Ein Gesicht oder mehrere gleichzeitig tauschen",
+        "mapDifferent": "Verschiedene Gesichter verschiedenen Personen im Clip zuordnen",
+        "great": "Großartig für Gruppenvideos, Team-Intros oder Familien-Memes"
+      },
+      "q7": {
+        "question": "7. Ändert KI Video Face Swap auch die Stimme?",
+        "answer1": "Nein. Der Face Swap ändert nur das <strong>visuelle Gesicht</strong> im Video.",
+        "audioStays": "Original-Audio (Stimme, Musik, Effekte) bleibt gleich",
+        "editLater": "Sie können das Audio später bei Bedarf mit anderen Tools bearbeiten"
+      },
+      "cta": "Beginnen Sie noch heute mit der Nutzung von <strong>KI Video Face Swap online</strong> und verwandeln Sie Ihre Ideen, Witze und Geschichten mit nur wenigen Klicks in aufmerksamkeitsstarke Videos."
+    }
+  }
+}

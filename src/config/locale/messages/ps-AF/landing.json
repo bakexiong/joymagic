@@ -1,0 +1,1551 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "joymagic",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "joymagic"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "ځانګړتیاوې",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "بیه",
+          "url": "/pricing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "افیلیت",
+          "url": "/affiliate",
+          "icon": "Handshake"
+        },
+        {
+          "title": "د AI اغېز",
+          "icon": "Sparkles",
+          "children": [
+            {
+              "title": "د انځور اغېزونه",
+              "url": "/image-effect",
+              "icon": "Image"
+            },
+            {
+              "title": "د ويډيو اغېزونه",
+              "url": "/video-effect",
+              "icon": "Clapperboard"
+            }
+          ]
+        },
+        {
+          "title": "د انځور AI",
+          "icon": "Image",
+          "children": [
+            {
+              "title": "متن نه انځور ته",
+              "icon": "Image",
+              "badge": "وړیا",
+              "children": [
+                {
+                  "title": "GPT Image 2",
+                  "url": "/text-to-image/gpt-image-2",
+                  "icon": "Image",
+                  "description": "د GPT Image 2 په مرسته چينايي پوسټرونه، فوتوريال انځورونه، UI سکرين شاټونه او د محصول ليديز مواد جوړ کړئ",
+                  "badge": "نوی",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "عمومي",
+                  "url": "/text-to-image/z-image-turbo",
+                  "icon": "Image",
+                  "description": "د عمومي AI ماډل په مرسته له متن څخه انځورونه جوړ کړئ",
+                  "badge": "وړیا",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana",
+                  "url": "/text-to-image/nano-banana",
+                  "icon": "Image",
+                  "description": "د Nano Banana AI ماډل په مرسته له متن څخه انځورونه جوړ کړئ",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana Pro",
+                  "url": "/text-to-image/nano-banana-pro",
+                  "icon": "Image",
+                  "description": "د Nano Banana Pro AI ماډل په مرسته له متن څخه لوړ کیفیت انځورونه جوړ کړئ",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana 2",
+                  "url": "/text-to-image/nano-banana-2",
+                  "icon": "Image",
+                  "description": "راتلونکی نسل متن-تر-انځور د کمرې کنټرول، روښانه متن رینډر او تر 4K وتۍ سره",
+                  "badge": "نوی",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream V4.5",
+                  "url": "/text-to-image/seedream-4-5",
+                  "icon": "Image",
+                  "description": "د Seedream V4.5 AI ماډل په مرسته له متن څخه زړه راښکونکي انځورونه جوړ کړئ",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream 5.0 Lite",
+                  "url": "/text-to-image/seedream-5-0-lite",
+                  "icon": "Image",
+                  "description": "د Seedream 5.0 Lite AI ماډل په مرسته له متن څخه زړه راښکونکي انځورونه جوړ کړئ",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Flux 2 Klein",
+                  "url": "/text-to-image/flux-2-klein",
+                  "icon": "Image",
+                  "description": "د Flux 2 Klein AI ماډل په مرسته له متن څخه زړه راښکونکي انځورونه جوړ کړئ",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "GPT Image 1",
+                  "url": "/text-to-image/gpt-image-1",
+                  "icon": "Image",
+                  "description": "د GPT Image 1 AI ماډل په مرسته له متن څخه انځورونه جوړ کړئ",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Qwen Image 202512",
+                  "url": "/text-to-image/qwen-image-202512",
+                  "icon": "Image",
+                  "description": "د Qwen Image 202512 AI ماډل په مرسته له متن څخه زړه راښکونکي انځورونه جوړ کړئ",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/text-to-image/wan-2-7",
+                  "icon": "Image",
+                  "description": "د Wan 2.7 په مرسته له متن څخه لوړ کیفیت انځورونه جوړ کړئ، له Thinking Mode او تر 4096 ریزولوشن پورې ملاتړ سره",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Midjourney",
+                  "url": "/text-to-image/midjourney",
+                  "icon": "Image",
+                  "description": "د Midjourney طرز AI ماډل په مرسته هنري انځورونه جوړ کړئ",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "انځور نه انځور ته",
+              "icon": "Images",
+              "badge": "وړیا",
+              "children": [
+                {
+                  "title": "GPT Image 2",
+                  "url": "/image-to-image/gpt-image-2",
+                  "icon": "Images",
+                  "description": "تر 4 انځورونو پورې د GPT Image 2 په مرسته د چينايي پوسټرونو، فوتوريال ريتاچ، د سند لي آوټ او UI سکرين شاټ بدلونونه سم کړئ.",
+                  "badge": "نوی",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "عمومي",
+                  "url": "/image-to-image",
+                  "icon": "Images",
+                  "description": "د شته انځورونو پر بنسټ نوي انځورونه جوړ کړئ",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Flux 2 Klein",
+                  "url": "/image-to-image/flux-2-klein",
+                  "icon": "Images",
+                  "description": "انځورونه د Flux 2 Klein په وسیله بدل او سم کړئ. تر ۴ انځورونو پورې پورته کړئ؛ هر انځور ۲ کریډیټ لګوي.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Soul",
+                  "url": "/image-to-image/soul",
+                  "icon": "Images",
+                  "description": "انځورونه د Soul په وسیله بدل کړئ؛ د کیفیت، اندازې، ځواک او سټایل کنټرولونه لري.",
+                  "badge": "ګرم",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Z Image Turbo",
+                  "url": "/image-to-image/z-image-turbo",
+                  "icon": "Images",
+                  "description": "انځورونه د Z Image Turbo په وسیله بدل کړئ؛ د اندازې، ځواک او وتۍ بڼې کنټرولونه لري.",
+                  "badge": "وړیا",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Grok Imagine",
+                  "url": "/image-to-image/grok-imagine-image",
+                  "icon": "Images",
+                  "description": "انځورونه د Grok Imagine په وسیله بدل کړئ؛ یو انځور پورته کړئ او خپل بدلون تشریح کړئ.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream 5.0 Lite",
+                  "url": "/image-to-image/seedream-5-0-lite",
+                  "icon": "Images",
+                  "description": "د Seedream 5.0 Lite سره انځورونه بدل کړئ. یو انځور پورته کړئ او خپل بدلون تشریح کړئ.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Qwen Image Max",
+                  "url": "/image-to-image/qwen-image-max",
+                  "icon": "Images",
+                  "description": "انځورونه د Qwen Image Max AI په مرسته سم او بدل کړئ؛ د هوښیار سمون لپاره د qwen-image-max-edit پر بنسټ.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/image-to-image/wan-2-7",
+                  "icon": "Images",
+                  "description": "انځورونه د Wan 2.7 په مرسته سم او بدل کړئ. انځورونه پورته کړئ، اندازه تر 4096 پورې کنټرول کړئ او پایلې د seed په وسیله اصلاح کړئ.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7 Image Edit Pro",
+                  "url": "/image-to-image/wan-2-7-image-edit-pro",
+                  "icon": "Images",
+                  "description": "د Wan 2.7 پرمختللی سمون ماډل چې تر 9 انځورونو، تر 4096 دودیزې اندازې او seed کنټرول ملاتړ کوي.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana",
+                  "url": "/image-to-image/nano-banana",
+                  "icon": "Images",
+                  "description": "Nano Banana د انځور-تر-انځور AI اېډېټر دی. تر ۱۰ انځورونو پورې پورته کړئ او د اړخ نسبت کنټرول سره هوښیار بدلونونه ترسره کړئ.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana 2",
+                  "url": "/image-to-image/nano-banana-2",
+                  "icon": "Images",
+                  "description": "Nano Banana 2 د انځور-تر-انځور AI اېډېټر دی. تر ۱۴ انځورونو پورې پورته کول، د اړخ نسبت او 1K/2K/4K ریزولوشن ملاتړ، د nano-banana-2-edit پر بنسټ.",
+                  "badge": "نوی",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana Pro Edit Ultra",
+                  "url": "/image-to-image/nano-banana-pro-edit-ultra",
+                  "icon": "Images",
+                  "description": "Nano Banana Pro Edit Ultra د انځور-تر-انځور AI اېډېټر دی. تر ۱۴ انځورونو پورې پورته کول، د اړخ نسبت او 4K/8K ریزولوشن ملاتړ، د nano-banana-pro-edit-ultra پر بنسټ.",
+                  "badge": "نوی",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Qwen Image Layered",
+              "url": "/qwen-image-layered",
+              "icon": "Layers",
+              "description": "انځورونه د سمون وړ RGBA پوړونو ته تجزیه کړئ",
+              "icon_url": "https://ocdn.10b.ai/icon/qwen_image_layered.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "د انځور پاکوونکی",
+              "url": "/image-eraser",
+              "icon": "Eraser",
+              "description": "له انځورونو څخه نا غوښتل شوي شیان، واټرمارکونه او شالیدونه لرې کړئ",
+              "icon_url": "https://ocdn.10b.ai/icon/%20image_eraser.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "شالید پاکوونکی",
+              "url": "/image-background-remover",
+              "icon": "Scissors",
+              "description": "د AI په مرسته سمدستي د انځورونو شالید لرې کړئ",
+              "badge": "وړیا",
+              "icon_url": "https://ocdn.10b.ai/icon/background_remove.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "د انځور لوړ ریزولوشن",
+              "url": "/image-upscaler",
+              "icon": "Maximize2",
+              "description": "انځورونه د AI دقت سره 4K، 8K یا 16K ته لوړ کړئ",
+              "icon_url": "https://ocdn.10b.ai/icon/image_upscaler.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            }
+          ]
+        },
+        {
+          "title": "د ویډیو AI",
+          "icon": "Video",
+          "children": [
+            {
+              "title": "متن نه ویډیو ته",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "HappyHorse 1.0",
+                  "url": "/text-to-video/happyhorse-1-0",
+                  "icon": "Video",
+                  "description": "د HappyHorse 1.0 په مرسته له متن څخه 16:9، 5 ثانیې، 720p سینمایي ویډیو جوړول",
+                  "badge": "نوی",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/text-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "د Wan 2.7 په مرسته له متن څخه ویډیو جوړه کړئ، د 1080p، اړخ تناسب، تر 15 ثانیو موده، prompt پراخولو او seed کنټرول سره",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.6",
+                  "url": "/text-to-video/wan-2-6",
+                  "icon": "Video",
+                  "description": "د Wan 2.6 په مرسته له متن څخه ویډیو جوړول",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Veo 3.1",
+                  "url": "/text-to-video/veo-3-1",
+                  "icon": "Video",
+                  "description": "د Veo 3.1 په مرسته له متن څخه ویډیو جوړول",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 1.5 Pro",
+                  "url": "/text-to-video/seedance-1-5-pro",
+                  "icon": "Video",
+                  "description": "د Seedance 1.5 Pro په مرسته له متن څخه ویډیو جوړول",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 2.0",
+                  "url": "/text-to-video/seedance-2-0",
+                  "icon": "Video",
+                  "description": "Text to video generation with Seedance 2.0",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "PixVerse v5.6",
+                  "url": "/text-to-video/pixverse-5-6",
+                  "icon": "Video",
+                  "description": "د PixVerse v5.6 په مرسته له متن څخه ویډیو جوړول",
+                  "badge": "نوی",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "LTX-2",
+                  "url": "/text-to-video/ltx2-fast",
+                  "icon": "Video",
+                  "description": "د LTX-2 په مرسته له متن څخه ویډیو جوړول — د همغږي غږ سره 4K AI ویډیو جوړوونکی",
+                  "badge": "ګرم",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "انځور نه ویډیو ته",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "HappyHorse 1.0",
+                  "url": "/image-to-video/happyhorse-1-0",
+                  "icon": "Video",
+                  "description": "د HappyHorse 1.0 په مرسته یوه انځور په 5 ثانیه 720p سینمایي ویډیو بدلول",
+                  "badge": "نوی",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/image-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "انځورونه د Wan 2.7 په مرسته متحرک کړئ، د پیل فریم، اختیاري وروستي فریم، اختیاري غږ، ریزولوشن، مودې، prompt پراخولو او seed کنټرول سره.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Vidu Q3",
+                  "url": "/image-to-video/vidu-q3",
+                  "icon": "Video",
+                  "description": "د Vidu Q3 په مرسته انځور-تر-ویډیو جوړول — د حرکت اندازه کنټرول کړئ او د اختیاري غږ او شالید موسیقۍ سره ویډیو جوړ کړئ",
+                  "badge": "نوی",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Veo 3.1",
+                  "url": "/image-to-video/veo-3-1",
+                  "icon": "Video",
+                  "description": "د Veo 3.1 په مرسته انځور-تر-ویډیو جوړول",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 1.5 Pro",
+                  "url": "/image-to-video/seedance-1-5-pro",
+                  "icon": "Video",
+                  "description": "د Seedance 1.5 Pro په مرسته انځور-تر-ویډیو جوړول",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 2.0",
+                  "url": "/image-to-video/seedance-2-0",
+                  "icon": "Video",
+                  "description": "د Seedance 2.0 په مرسته انځور-تر-ویډیو جوړول",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500",
+                  "badge": "New"
+                },
+                {
+                  "title": "PixVerse v5.6",
+                  "url": "/image-to-video/pixverse-5-6",
+                  "icon": "Video",
+                  "description": "د PixVerse v5.6 په مرسته انځور-تر-ویډیو جوړول",
+                  "badge": "نوی",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "LTX-2",
+                  "url": "/image-to-video/ltx2-fast",
+                  "icon": "Video",
+                  "description": "د LTX-2 په مرسته انځور-تر-ویډیو جوړول — د همغږي غږ سره 4K AI ویډیو جوړوونکی",
+                  "badge": "ګرم",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "حرکت کنټرول",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "Kling 2.6 Pro",
+                  "url": "/motion-control/kling-2-6-pro",
+                  "icon": "Video",
+                  "description": "د Kling 2.6 Pro سره د حرکت کنټرول ویډیو جوړول — د انځور او ویډیو داخلونو په مرسته د ویډیو حرکت کنټرول کړئ",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "لونګ‌کېټ اوتار",
+              "url": "/longcat-avatar",
+              "icon": "Video",
+              "description": "د غږ او انځور همغږۍ سره د AI اوتار ویډیوګانې جوړې کړئ — تر ۲ دقیقو پورې خبرې کوونکي اوتار ویډیوګانې تولید کړئ",
+              "icon_url": "https://ocdn.10b.ai/icon/longcat_avatar.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Reference To Video",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "Wan 2.7",
+                  "url": "/reference-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Wan 2.7 using multi-image and multi-video identity guidance.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 4K",
+                  "url": "/reference-to-video/kling-video-o3-4k",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 4K for high-fidelity subject-consistent shots.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O1 Std",
+                  "url": "/reference-to-video/kling-video-o1-std",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O1 Std using image and optional video references.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 Pro",
+                  "url": "/reference-to-video/kling-video-o3-pro",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 Pro, with optional audio generation and motion guidance.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 Std",
+                  "url": "/reference-to-video/kling-video-o3-std",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 Std for subject-consistent cinematic clips.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Grok Imagine Video",
+                  "url": "/reference-to-video/grok-imagine-video",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Grok Imagine Video from multiple reference images.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Video Extend",
+              "url": "/video-extend/wan-2-7",
+              "icon": "Video",
+              "description": "Extend existing videos with Wan 2.7, with optional audio, prompt expansion, and 720p/1080p output.",
+              "badge": "New",
+              "icon_url": "https://ocdn.10b.ai/icon/video_extend.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            }
+          ]
+        },
+        {
+          "title": "بلاګ",
+          "url": "/blog",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": []
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "disclaimer": "joymagic د AI انځور جوړونې یو خپلواک خدمت دی او له Alibaba Group یا د هغوی له AI ماډلونو سره هېڅ تړاو، تایید یا شراکت نه لري. د \"joymagic\" ټول یادونې یوازې زموږ خپل محصول او ټیکنالوژۍ ته اشاره کوي."
+  },
+  "hero": {
+    "id": "hero",
+    "title": "joymagic",
+    "highlight_text": "د انځور اغېزمن تولید",
+    "description": "Single-Stream Diffusion Transformer<br/>د ۶ میلیاردو پارامېټرو لرونکی اغېزمن انځور جوړونې ماډل",
+    "announcement": null,
+    "buttons": [
+      {
+        "title": "د پټ پرامپټ لپاره Discord ته یوځای شئ!",
+        "url": "https://discord.gg/bVCk5PHb8d",
+        "icon_url": "https://pub.wanai.pro/%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90/discord-logo-discord-icon-transparent-free-png.png",
+        "target": "_blank"
+      }
+    ],
+    "show_avatars": true,
+    "show_award": true,
+    "image": {
+      "src": "/imgs/features/hero-zimage.webp",
+      "alt": "joymagic"
+    },
+    "image_invert": {
+      "src": "/imgs/features/hero-zimage-dark.webp",
+      "alt": "joymagic"
+    }
+  },
+  "logos": {
+    "title": "په مخکښو د هوښیارې مصنوعي پلاتفورمونو کې موجود",
+    "items": [
+      {
+        "title": "ګېټ‌هاب",
+        "image": {
+          "src": "/imgs/logos/github.svg",
+          "alt": "ګېټ‌هاب"
+        }
+      },
+      {
+        "title": "ماډل‌سکوپ",
+        "image": {
+          "src": "/imgs/logos/modelscope.svg",
+          "alt": "ماډل‌سکوپ"
+        }
+      },
+      {
+        "title": "هاګنګ‌فېس",
+        "image": {
+          "src": "/imgs/logos/huggingface.svg",
+          "alt": "هاګنګ‌فېس"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "id": "introduce",
+    "title": "joymagic څه شی دی؟",
+    "label": "پېژندنه",
+    "description": "joymagic د انځور د تولید لپاره یو اغېزمن بنسټیز ماډل دی چې ۶ میلیارده پارامېټرونه لري. د سیسټماټیک ښه‌والي له لارې دا ښيي چې پرته له دې چې په ډېر لویو ماډلونو تکیه وشي، هم د لوړې کچې کړنې ته رسېدل ممکن دي، او په فټو ریالسټیک تولید او دوه‌ژبي لیک متن رینډر کې قوي پایلې وړاندې کوي.",
+    "image": {
+      "src": "/imgs/features/zimage-intro.webp",
+      "alt": "introduce"
+    },
+    "items": [
+      {
+        "title": "فټو-ریالسټیک کیفیت",
+        "description": "د عکاسۍ کچې واقعي پایله، د جزیاتو، رڼا او جوړښت پر دقیق کنټرول سره. په جوړښت او عمومي فضا کې لوړه هنري ښکلا وړاندې کوي.",
+        "icon": "Camera",
+        "image": {
+          "src": "/imgs/features/photorealistic.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "ډېر چټک انفرینس",
+        "description": "د تصدۍ کچې H800 GPU ګانو کې تر یوې ثانیې کم ځنډ لري. د تولید لپاره یوازې ۸ ګامونه ته اړتیا ده.",
+        "icon": "Zap",
+        "image": {
+          "src": "/imgs/features/fast-inference.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "دوه‌ژبي متن رینډر",
+        "description": "د چینایي او انګلیسي متن دقیق رینډر، په داسې حال کې چې د څېرې واقعیت او عمومي هنري جوړښت ساتي.",
+        "icon": "Languages",
+        "image": {
+          "src": "/imgs/features/bilingual-text.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "اغېزمن VRAM کارونه",
+        "description": "د 16GB څخه کم VRAM لرونکو مصرفي ګرافیک کارتونو باندې هم روان چلېږي، او پرمختللی انځور تولید د لاسرسي وړ کوي.",
+        "icon": "MemoryStick",
+        "image": {
+          "src": "/imgs/features/vram.webp",
+          "alt": "introduce"
+        }
+      }
+    ]
+  },
+  "benefits": {
+    "id": "benefits",
+    "title": "اصلي ځانګړتیاوې",
+    "label": "ځانګړتیاوې",
+    "description": "د joymagic ماډل پیاوړو وړتیاوو ته لنډه کتنه.",
+    "items": [
+      {
+        "title": "فټو-ریالسټیک",
+        "description": "د عکاسۍ کچې واقعیت",
+        "icon": "Camera",
+        "image": {
+          "src": "/imgs/features/benefit-1.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "۱ ثانیه",
+        "description": "ډېر چټک انفرینس سرعت",
+        "icon": "Timer",
+        "image": {
+          "src": "/imgs/features/benefit-2.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "۶B+ پارامېټرونه",
+        "description": "Single-Stream Diffusion",
+        "icon": "Layers",
+        "image": {
+          "src": "/imgs/features/benefit-3.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "دوه‌ژبی متن",
+        "description": "د متن دقیق رینډر",
+        "icon": "Languages",
+        "image": {
+          "src": "/imgs/features/benefit-4.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "۱۶ GB VRAM",
+        "description": "اغېزمن د حافظې کارونه",
+        "icon": "MemoryStick",
+        "image": {
+          "src": "/imgs/features/benefit-5.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "د نړۍ پوهه",
+        "description": "ژوره معنايي پوهه",
+        "icon": "Brain",
+        "image": {
+          "src": "/imgs/features/benefit-6.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "Image Editing",
+        "description": "Creative Single-image Edits",
+        "icon": "Edit",
+        "image": {
+          "src": "/imgs/features/benefit-7.webp",
+          "alt": "benefits"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "id": "usage",
+    "title": "Model Variants",
+    "description": "joymagic offers specialized models for different use cases:",
+    "image": {
+      "src": "/imgs/features/models.webp",
+      "alt": "usage"
+    },
+    "image_position": "left",
+    "text_align": "left",
+    "items": [
+      {
+        "title": "🚀 Z Image Turbo",
+        "description": "A distilled version of joymagic with strong capabilities in photorealistic image generation, accurate rendering of both Chinese and English text, and robust adherence to bilingual instructions. It achieves performance comparable to or exceeding leading competitors with only 8 steps.",
+        "image": {
+          "src": "/imgs/features/turbo-model.webp",
+          "alt": "usage"
+        }
+      },
+      {
+        "title": "✍️ joymagic Edit",
+        "description": "A continued-training variant of joymagic specialized for image editing. It excels at following complex instructions to perform a wide range of tasks, from precise local modifications to global style transformations, while maintaining high edit consistency.",
+        "image": {
+          "src": "/imgs/features/edit-model.webp",
+          "alt": "usage"
+        }
+      }
+    ]
+  },
+  "features": {
+    "id": "features",
+    "title": "Capabilities Showcase",
+    "description": "Discover the advanced capabilities of joymagic across various domains.",
+    "items": [
+      {
+        "title": "Photorealistic Generation",
+        "description": "Delivers strong photorealistic image generation while maintaining excellent aesthetic quality.",
+        "icon": "Camera"
+      },
+      {
+        "title": "دوه‌ژبي متن رینډر",
+        "description": "Accurately renders complex Chinese and English text in various scenarios.",
+        "icon": "Languages"
+      },
+      {
+        "title": "د نړۍ پوهه",
+        "description": "Possesses vast understanding of world knowledge and diverse cultural concepts.",
+        "icon": "Globe"
+      },
+      {
+        "title": "Semantic Understanding",
+        "description": "Uses structured reasoning chain to inject logic and common sense.",
+        "icon": "Brain"
+      },
+      {
+        "title": "Creative Editing",
+        "description": "Precisely executes complex instructions for image transformations.",
+        "icon": "Edit"
+      },
+      {
+        "title": "Instruction Following",
+        "description": "Demonstrates fine-grained control over image elements and transformations.",
+        "icon": "CheckCircle"
+      }
+    ]
+  },
+  "models": {
+    "id": "models",
+    "title": "Model Architecture",
+    "description": "At just 6 billion parameters, the model produces photorealistic images on par with those from models an order of magnitude larger. It can run smoothly on consumer-grade graphics cards with less than 16GB of VRAM.",
+    "items": [
+      {
+        "title": "Single-Stream Diffusion",
+        "description": "The joymagic model adopts a Single-Stream Diffusion Transformer architecture. This design unifies the processing of various conditional inputs (like text and image embeddings) with the noisy image latents into a single sequence, which is then fed into the Transformer backbone.",
+        "image": {
+          "src": "/imgs/features/architecture.webp",
+          "alt": "architecture"
+        }
+      }
+    ]
+  },
+  "architecture": {
+    "id": "architecture",
+    "title": "Technical Deep Dive",
+    "description": "Learn about the innovative architecture and training techniques behind joymagic.",
+    "items": [
+      {
+        "title": "Decoupled-DMD",
+        "description": "The core few-step distillation algorithm that empowers the 8-step joymagic model. By recognizing and decoupling CFG Augmentation and Distribution Matching, we developed an improved distillation process.",
+        "icon": "Layers"
+      },
+      {
+        "title": "DMDR",
+        "description": "Fusing DMD with Reinforcement Learning to achieve further improvements in semantic alignment, aesthetic quality, and structural coherence.",
+        "icon": "GitBranch"
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "Frequently Asked Questions",
+    "description": "Common questions about joymagic and its capabilities.",
+    "items": [
+      {
+        "question": "What is joymagic?",
+        "answer": "joymagic is an efficient 6-billion-parameter foundation model for image generation. It proves that top-tier performance is achievable without relying on enormous model sizes, delivering strong results in photorealistic generation and bilingual text rendering."
+      },
+      {
+        "question": "What are the main features of joymagic?",
+        "answer": "joymagic excels in photorealistic image generation, bilingual text rendering (English & Chinese), ultra-fast inference (8 steps), efficient VRAM usage (16GB), rich world knowledge understanding, and creative image editing capabilities."
+      },
+      {
+        "question": "What models are available?",
+        "answer": "joymagic offers optimized workflows for image generation and image editing, with high-quality output and reliable instruction following."
+      },
+      {
+        "question": "What hardware is required?",
+        "answer": "joymagic can run smoothly on consumer-grade graphics cards with less than 16GB of VRAM. It achieves sub-second inference latency on enterprise-grade H800 GPUs."
+      },
+      {
+        "question": "Is joymagic open source?",
+        "answer": "Yes! The model code, weights, and online demo are publicly available on GitHub, ModelScope, and HuggingFace to encourage community exploration and use."
+      },
+      {
+        "question": "What makes joymagic unique?",
+        "answer": "joymagic adopts a Single-Stream Diffusion Transformer architecture that unifies conditional inputs with image latents. It uses innovative Decoupled-DMD distillation and DMDR reinforcement learning techniques for optimal performance."
+      }
+    ]
+  },
+  "share_dialog": {
+    "title": "🎁 Share to Unlock Free Generation",
+    "description": "🚀 Help us grow! Share joymagic on social media to unlock FREE image generation. Your support makes this possible!",
+    "share_button": "✅ I've Shared, Continue Generating",
+    "share_tip": "Click any share button above, complete sharing in the new window, then click the button below to continue",
+    "platforms": {
+      "twitter": "Share on X",
+      "reddit": "Share on Reddit",
+      "facebook": "Share on Facebook",
+      "instagram": "Copy Link to Share"
+    },
+    "share_message": "Experience Z Image Turbo - Generate photorealistic images in just 8 steps!",
+    "share_url": "https://10b.ai"
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "joymagic",
+      "description": "joymagic - Fastest & Free Image generator",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "joymagic"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Project",
+          "children": [
+            {
+              "title": "ځانګړتیاوې",
+              "url": "/#features",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "children": [
+            {
+              "title": "Documentation",
+              "url": "/docs",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "support@joymagic.fun",
+          "url": "mailto:support@joymagic.fun"
+        },
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Content Moderation Policy",
+          "url": "/content-moderation-policy"
+        },
+        {
+          "title": "Acceptable Use Policy",
+          "url": "/acceptable-use-policy"
+        },
+        {
+          "title": "Refund Policy",
+          "url": "/refund-policy"
+        },
+        {
+          "title": "AI Wrapper Disclaimer",
+          "url": "/ai-wrapper-disclaimer"
+        },
+        {
+          "title": "د پرانیستې سرچینې منسوبونه",
+          "url": "/open-source-attribution"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "disclaimer": "joymagic د AI انځور جوړونې یو خپلواک خدمت دی او له Alibaba Group یا د هغوی له AI ماډلونو سره هېڅ تړاو، تایید یا شراکت نه لري. د \"joymagic\" ټول یادونې یوازې زموږ خپل محصول او ټیکنالوژۍ ته اشاره کوي."
+  },
+  "heroImageWall": {
+    "label": "Curated Gallery",
+    "title": "joymagic Inspiration wall, generated in seconds",
+    "description": "25 recent outputs, lazy loaded. Tap any tile to zoom to full detail.",
+    "hint": "Click to enlarge",
+    "view": "View",
+    "alt": "Gallery image {index}"
+  },
+  "wavespeed": {
+    "prompt_label": "Your Prompt",
+    "prompt_placeholder": "Describe the image you want to generate... e.g., Wong Kar-wai film style, a lonely man smoking a cigarette in a narrow Hong Kong hallway, 1990s...",
+    "buttons": {
+      "generating": "Generating...",
+      "checking": "Checking availability...",
+      "unavailable": "Service Unavailable",
+      "generate": "Generate",
+      "share_to_generate": "Share to Generate",
+      "click_to_pay": "د نورو کریډیټونو د پیرلو لپاره کلیک وکړئ"
+    },
+    "share_hint": "",
+    "prompt_inspirations": "Prompt Inspirations",
+    "image_area": {
+      "alt": "Generated image",
+      "loading": "Generating your image...",
+      "placeholder": "Your generated image will appear here"
+    },
+    "links": {
+      "open_in_new_tab": "Open in new tab"
+    },
+    "status": {
+      "unknown_error": "Unknown error",
+      "submitting": "Submitting request...",
+      "task_submitted": "Task submitted. Request ID: {id}",
+      "processing": "Processing... Status: {status}",
+      "image_success": "Image generated successfully!",
+      "video_submitting": "Submitting video generation request...",
+      "video_task_submitted": "Video task submitted. Request ID: {id}",
+      "video_processing": "Processing video... Status: {status}",
+      "video_success": "Video generated successfully!",
+      "estimating": "Estimating..."
+    },
+    "errors": {
+      "restricted": "Service is temporarily unavailable due to high demand. Please try again later.",
+      "prompt_required": "Please enter a prompt",
+      "task_failed": "Task failed: {error}",
+      "request_timeout": "Request timed out. Please try again.",
+      "http_error": "Error: {code}",
+      "http_error_with_text": "Error: {code} - {text}",
+      "request_failed": "Request failed: {error}",
+      "estimate_failed": "Failed to estimate credits"
+    },
+    "video": {
+      "cta_pay": "Generate video now (pay $5 for two videos)",
+      "cta_ready": "Generate Video from this Image",
+      "title": "Video Generation",
+      "creating": "Creating your video...",
+      "unsupported": "Your browser does not support the video tag.",
+      "download": "Download Video",
+      "credit_description": "Video generation",
+      "errors": {
+        "insufficient_credits": "Insufficient credits. You need at least 250 credits to generate video.",
+        "image_required": "Please generate an image first",
+        "task_failed": "Task failed: {error}",
+        "timeout": "Video generation timed out. Please try again."
+      }
+    },
+    "payment": {
+      "title": "Purchase Credits",
+      "description_checking": "Please complete the payment in the new tab. We will check the payment status automatically.",
+      "description_idle": "Get credits to generate videos",
+      "pricing": "$5 = 500 credits",
+      "pricing_note": "250 credits per video generation",
+      "waiting_confirmation": "Waiting for payment confirmation...",
+      "checkout_url_missing": "Checkout URL not found",
+      "success_toast": "Payment successful! Credits have been added to your account.",
+      "failure_toast": "Payment checkout failed: {error}",
+      "processing": "Processing...",
+      "waiting": "Waiting for payment...",
+      "pay_button": "Click To Pay $5"
+    },
+    "payment_image": {
+      "title": "Purchase Credits",
+      "description_checking": "Please complete the payment in the new tab. We will check the payment status automatically.",
+      "description_idle": "You can generate 2 images for free daily. Your free quota for today has been used up. You can purchase credits to generate images now, or wait for tomorrow's free quota.",
+      "pricing": "$5 = 500 credits",
+      "pricing_note": "2 credits per image generation",
+      "waiting_confirmation": "Waiting for payment confirmation...",
+      "checkout_url_missing": "Checkout URL not found",
+      "success_toast": "Payment successful! Credits have been added to your account.",
+      "failure_toast": "Payment checkout failed: {error}",
+      "processing": "Processing...",
+      "waiting": "Waiting for payment...",
+      "pay_button": "Click To Pay $5"
+    },
+    "featureCards": {
+      "image": {
+        "title": "Image",
+        "description": "Create, edit, and explore looks."
+      },
+      "video": {
+        "title": "Video",
+        "description": "Turn prompts and visuals into clips."
+      },
+      "audio": {
+        "title": "Audio",
+        "description": "Coming Soon",
+        "badge": "Coming Soon"
+      },
+      "viewAll": "ټول وګورئ"
+    },
+    "aiTools": {
+      "title": "AI Tools",
+      "subtitle": "Jump into the right tools from existing scenes."
+    },
+    "freeTools": {
+      "title": "Hot Tools",
+      "subtitle": "له موجودو صحنو څخه وړیا وسیلې وکاروئ.",
+      "badges": ["وړیا", "وړیا"]
+    },
+    "aiModels": {
+      "title": "د AI ماډلونه",
+      "subtitle": "له موجودو صحنو څخه سمو وسیلو ته ژر لاړ شئ."
+    },
+    "desktopPlayground": {
+      "credits": "کریډیټونه",
+      "model": {
+        "label": "ماډل",
+        "choose": "ماډل وټاکئ",
+        "untitled": "بې نومه ماډل",
+        "fallbackTitle": "AI",
+        "fallbackMonogram": "M"
+      },
+      "scene": {
+        "untitled": "بې نومه صحنه"
+      },
+      "sceneGroups": {
+        "image": "انځور",
+        "video": "وېډیو"
+      },
+      "sceneMeta": {
+        "imageDescription": "انځوریز مواد جوړ، سمبال او پیاوړي کړئ",
+        "videoDescription": "کلیپونه او د حرکت کاري بهیرونه متحرک کړئ"
+      },
+      "scenePicker": {
+        "title": "Select Scene",
+        "close": "Close",
+        "currentSelection": "Current Selection",
+        "current": "Current",
+        "switch": "Switch",
+        "currentSceneFallback": "No scene selected",
+        "empty": "No scenes available right now.",
+        "tabs": {
+          "video": "ويډيو",
+          "image": "انځور"
+        },
+        "trigger": {
+          "open": "صحنه بدله کړئ",
+          "change": "بدلون"
+        }
+      },
+      "sceneNames": {
+        "textToImage": "له متن څخه انځور",
+        "imageToImage": "له انځور څخه انځور",
+        "qwenImageLayered": "Qwen پوړیز انځور",
+        "imageEraser": "انځور پاکوونکی",
+        "backgroundRemover": "شاليد لرې کوونکی",
+        "imageUpscaler": "انځور لوړول",
+        "textToVideo": "له متن څخه ويډيو",
+        "imageToVideo": "له انځور څخه ويډيو",
+        "motionControl": "د حرکت کنټرول",
+        "longcatAvatar": "Longcat اوتار",
+        "videoFaceSwap": "په ويډيو کې د مخ بدلول",
+        "aiClothesRemover": "د AI جامو لرې کوونکی",
+        "videoExtend": "Video Extend"
+      },
+      "prompt": {
+        "placeholder": "خپل انځور تشریح کړئ...",
+        "referencePlaceholder": "تشریح کړئ چې انځور څنګه بدل شي..."
+      },
+      "aspectRatio": {
+        "auto": "اتومات"
+      },
+      "uploads": {
+        "uploading": "فایلونه لا هم پورته کېږي. مهرباني وکړئ لږ انتظار وکړئ.",
+        "defaultHint": "د دوام لپاره رسنۍ پورته کړئ.",
+        "referenceHint": "د پیل لپاره د مرجع رسنۍ پورته کړئ."
+      },
+      "actions": {
+        "generateImage": "انځور جوړ کړئ",
+        "generateVideo": "وېډیو جوړه کړئ",
+        "generating": "د جوړېدو په حال کې..."
+      },
+      "errors": {
+        "generationFailed": "جوړونه ناکامه شوه",
+        "generateImageFailed": "انځور جوړ نه شو",
+        "insufficientCredits": "کریډیټونه بسنه نه کوي: تاسو {remaining} لرئ، خو لږ تر لږه {required} کریډیټونو ته اړتیا ده."
+      },
+      "generatedPanel": {
+        "empty": "اوه! داسې ښکاري چې تاسو لا تر اوسه څه نه دي جوړ کړي.",
+        "titleImages": "دا ځل جوړونه",
+        "titleVideos": "دا ځل جوړونه (وېډیوګانې)",
+        "title": "جوړ شوي {mediaLabel}",
+        "count": "{count} {label}",
+        "image": "انځور",
+        "images": "انځورونه",
+        "video": "وېډیو",
+        "videos": "وېډیوګانې",
+        "itemAlt": "جوړ شوی {index}",
+        "itemLabel": "جوړه شوې {mediaItemLabel} {index}",
+        "preview": {
+          "close": "بندول",
+          "openPreview": "مخکتنه پرانیزئ"
+        },
+        "deleteConfirm": {
+          "title": "د ړنګولو تایید",
+          "description": "ایا ته باوري یې چې دا انځور ړنګول غواړې؟ دا عمل بېرته نه راګرځي.",
+          "cancel": "لغوه",
+          "confirm": "ړنګول"
+        },
+        "defaults": {
+          "imageTitle": "ستاسو انځور به دلته ښکاره شي",
+          "videoTitle": "ستاسو ویډیو به دلته ښکاره شي",
+          "imageDescription": "جوړول پیل کړئ یا یوه صحنه وټاکئ څو خپل لومړی انځور جوړ کړئ.",
+          "videoDescription": "جوړول پیل کړئ یا یوه صحنه وټاکئ څو خپله لومړۍ ویډیو جوړه کړئ.",
+          "featuredImage": "ځانګړی انځور",
+          "featuredVideo": "ځانګړې ویډیو"
+        },
+        "selection": {
+          "clear": "ټاکنه پاکه کړه",
+          "download": "ښکته کول",
+          "delete": "ټاکل شوی توکی ړنګول",
+          "selectItem": "توکی وټاکئ",
+          "selectedItem": "ټاکل شوی توکی",
+          "count": "{count} ټاکل شوي"
+        },
+        "actions": {
+          "imageToVideo": "انځور څخه ویډیو",
+          "regenerate": "بیا جوړول",
+          "upscaleImage": "انځور لوړول"
+        }
+      },
+      "videoWorkbench": {
+        "title": "جوړې شوې وېډیوګانې",
+        "subtitle": "ستاسو جوړې شوې وېډیوګانې به دلته ښکاره شي.",
+        "emptyHint": "په چپ لور کې جوړونه پیل کړئ څو خپلې وېډیو پایلې دلته ووینئ او اداره یې کړئ."
+      },
+      "fields": {
+        "prompt": "پرامپټ",
+        "negativePrompt": "منفي پرامپټ",
+        "referenceImage": "مرجع انځور",
+        "referenceImages": "مرجع انځورونه",
+        "referenceVideo": "مرجع ویډیو",
+        "audioTrack": "غږیز ټرېک",
+        "maskImage": "ماسک انځور",
+        "aspectRatio": "د اړخونو تناسب",
+        "resolution": "ریزولوشن",
+        "outputFormat": "د وتنې بڼه",
+        "seed": "سیډ",
+        "width": "پلنوالی",
+        "height": "لوړوالی",
+        "size": "اندازه",
+        "duration": "موده",
+        "shotType": "د شاټ ډول",
+        "promptExpansion": "د پرامپټ پراخول",
+        "generateAudio": "غږ جوړول",
+        "fixedCamera": "ثابته کمره",
+        "thinkingType": "د فکر ډول",
+        "movementAmplitude": "د حرکت کچه",
+        "numberOfLayers": "د طبقو شمېر",
+        "quality": "کیفیت",
+        "stylize": "سټایل ورکول",
+        "chaos": "ګډوډي",
+        "weird": "عجیبوالی",
+        "version": "نسخه",
+        "niji": "Niji",
+        "strength": "ځواک",
+        "style": "سټایل",
+        "targetResolution": "هدف ریزولوشن",
+        "referenceAudio": "Reference Audio",
+        "firstFrame": "لومړی فریم",
+        "lastFrame": "وروستی فریم (اختیاري)"
+      },
+      "options": {
+        "auto": "اتومات",
+        "enabled": "فعال",
+        "disabled": "غیرفعال",
+        "low": "ټیټ",
+        "medium": "منځنی",
+        "high": "لوړ",
+        "small": "کوچنی",
+        "large": "لوی",
+        "singleShot": "یوه شاټ",
+        "multipleShots": "څو شاټونه",
+        "none": "هیڅ",
+        "close": "نږدې"
+      },
+      "placeholders": {
+        "describeImage": "هغه انځور تشریح کړئ چې جوړول یې غواړئ",
+        "transformImage": "تشریح کړئ چې پورته شوی انځور څنګه بدل شي",
+        "describeVideo": "هغه ویډیو تشریح کړئ چې جوړول یې غواړئ",
+        "animateImage": "تشریح کړئ چې پورته شوی انځور څنګه وخوځېږي",
+        "negativePrompt": "هغه څه تشریح کړئ چې نه یې غواړئ",
+        "randomSeed": "د تصادفي سیډ لپاره -1 وکاروئ",
+        "randomSeedOrEmpty": "تش یې پرېږدئ یا -1 وکاروئ څو تصادفي سیډ شي",
+        "fillErasedArea": "تشریح کړئ چې پاکه شوې برخه په څه ډکه شي"
+      },
+      "descriptions": {
+        "describeImage": "هغه انځور تشریح کړئ چې جوړول یې غواړئ",
+        "widthPixels": "د انځور پلنوالی په پکسلونو کې (256-1536، باید د 64 څو برابره وي)",
+        "heightPixels": "د انځور لوړوالی په پکسلونو کې (256-1536، باید د 64 څو برابره وي)",
+        "seedHelp": "د تکرارېدونکو پایلو لپاره سیډ وټاکئ. د تصادفي سیډ لپاره -1 وکاروئ.",
+        "optionalReferenceImage": "اختیاري مرجع انځور پورته کړئ څو په سټایل اغېز وکړي.",
+        "numberOfLayers": "وټاکئ چې له اصلي انځور څخه څو مانیزې طبقې جلا شي.",
+        "promptExpansion": "پرېږدئ چې ماډل لنډ پرامپټونه په اوتومات ډول پراخ کړي.",
+        "generateAudioSynced": "له ویډیو سره همغږی غږ جوړوي.",
+        "generateAudioNative": "په وتونکې ویډیو کې اصلي همغږی غږ جوړوي.",
+        "fixedCamera": "د جوړونې پر مهال کمره لا ثابته ساتي.",
+        "generateAudioIncluded": "د پایلې په منځ کې د ماډل جوړ کړی غږ شاملوي.",
+        "generateAudioOutput": "د ویډیو د وتنې لپاره همغږی غږ جوړوي.",
+        "referenceVideoMotion": "یوه ویډیو پورته کړئ څو د هغې د حرکت بڼه انتقال شي.",
+        "audioTrackLimit": "تر 120 ثانیو پورې غږیز ټرېک پورته کړئ.",
+        "faceImage": "هغه د مخ انځور پورته کړئ چې غواړئ ویډیو ته یې واړوئ.",
+        "targetVideo": "د مخ بدلون لپاره هدف ویډیو پورته کړئ.",
+        "maskImage": "اختیاري. ماسک انځور پورته کړئ څو کنټرول شي چې څه پاکېږي.",
+        "uploadUpToImages": "تر {count} انځورونو پورې پورته کړئ",
+        "uploadImageToAnimate": "یو انځور پورته کړئ څو متحرک شي",
+        "referenceVideoLimit": "MP4, WebM, MOV (max 50MB, up to 3 videos, duration ≤ 15s)",
+        "referenceAudioLimit": "WAV, MP3 (max 20MB, up to 3 audios, duration ≤ 15s)",
+        "uploadLastFrameImageOptional": "اختیاري: د وروستي فریم انځور پورته کړئ ترڅو له لومړي نه وروستي فریم ته انتقال په اوتومات ډول فعال شي.",
+        "uploadFirstFrameImage": "د لومړي فریم انځور پورته کړئ."
+      },
+      "mediaPanel": {
+        "common": {
+          "all": "ټول"
+        },
+        "tabs": {
+          "assets": "شتمنۍ",
+          "creations": "جوړونې",
+          "uploads": "پورته شوي",
+          "collections": "ټولګې",
+          "templates": "نمونې"
+        },
+        "filters": {
+          "open": "فلټرونه پرانیزئ",
+          "title": "فلټرونه",
+          "subtitle": "د خپلو جوړونو لید لا دقیق کړئ",
+          "dateRange": "د نېټې موده",
+          "pickDateRange": "د نېټې موده وټاکئ",
+          "keyword": "کليمه",
+          "searchPlaceholder": "پورته شوي توکي ولټوئ",
+          "type": "ډول",
+          "tool": "وسیله",
+          "model": "ماډل",
+          "clear": "پاکول",
+          "cancel": "لغوه",
+          "apply": "پلي کول",
+          "done": "بشپړ"
+        },
+        "mediaTypes": {
+          "image": "انځور",
+          "video": "ویډیو",
+          "audio": "غږ"
+        },
+        "weekdays": {
+          "su": "ی",
+          "mo": "د",
+          "tu": "س",
+          "we": "چ",
+          "th": "پ",
+          "fr": "ج",
+          "sa": "ش"
+        },
+        "collections": {
+          "heading": "Collections",
+          "createCardLabel": "Create New Collections",
+          "createTitle": "Create collection",
+          "createDescription": "Group related assets so you can organise your workspace faster.",
+          "renameTitle": "Rename collection",
+          "renameDescription": "Choose a clearer name for this collection.",
+          "deleteTitle": "Delete collection",
+          "deleteDescription": "Delete \"{name}\"? This only removes the collection itself for now.",
+          "renameAction": "Rename",
+          "deleteAction": "Delete",
+          "createAction": "Create",
+          "cancelAction": "Cancel",
+          "nameLabel": "Collection name",
+          "namePlaceholder": "Enter a collection name",
+          "assetsCount": "{count} assets",
+          "emptyTitle": "No collections yet",
+          "emptyDescription": "Create your first collection to start organising assets.",
+          "createSuccess": "Collection created",
+          "renameSuccess": "Collection renamed",
+          "deleteSuccess": "Collection deleted",
+          "createError": "Failed to create collection",
+          "renameError": "Failed to rename collection",
+          "deleteError": "Failed to delete collection"
+        },
+        "states": {
+          "noMatchingTitle": "برابر توکي ونه موندل شول",
+          "noMatchingDescription": "هڅه وکړئ د نېټې، ماډل، وسیلې یا رسنۍ ډول فلټرونه بدل کړئ.",
+          "clearFilters": "فلټرونه پاک کړئ",
+          "creationsDescription": "خپلې وروستۍ جوړونې وپلټئ او مدیریت یې کړئ."
+        },
+        "viewMode": {
+          "title": "د لید حالت",
+          "previewLayout": "د مخکتنې بڼه",
+          "overlays": "اوورلې",
+          "metadata": "مېټاډاټا",
+          "originalRatio": "اصلي نسبت",
+          "cropToFill": "د ډکولو لپاره پرې کول",
+          "mixedGrid": "ګډ جال"
+        },
+        "collectionActions": {
+          "remove": "له ټولګې لرې کړئ",
+          "error": "له ټولګې څخه د توکو لرې کول ناکام شول"
+        },
+        "collectionPicker": {
+          "loadError": "ټولګې پورته نه شوې",
+          "addError": "توکي ټولګې ته زیات نه شول",
+          "addSuccess": "ټولګې ته اضافه شول",
+          "addButton": "ټولګې ته اضافه کړئ",
+          "newCollection": "نوې ټولګه"
+        },
+        "hints": {
+          "recent7Days": "Creations، Uploads او Collection items یوازې د وروستیو ۷ ورځو لپاره ملاتړ لري. مهرباني وکړئ خپل تولید شوي مواد په ۷ ورځو کې ډاونلوډ کړئ."
+        }
+      }
+    },
+    "homepageAnnouncement": {
+      "badge": "What's New - April 2026",
+      "title": "SEEDANCE 2.0 IS HERE",
+      "description": "The most powerful video generation model yet. Create faster, longer and more cinematic clips in one click.",
+      "cta": "Try Now",
+      "closeLabel": "Close announcement",
+      "videoLabel": "Seedance 2.0 announcement video"
+    }
+  },
+  "faceSwap": {
+    "title": "د AI وېډیو فېس سواپ آنلاین",
+    "description": "په څو ثانیو کې خوندور او ریښتیني face swap ویډیوګانې د خپل <strong class=\"text-primary font-semibold\">AI Video Face Swap آنلاین</strong> له وسیلې سره جوړ کړئ. د ایډیټ کولو مهارت ته اړتیا نشته؛ یوازې ویډیو پورته کړئ، یو مخ وټاکئ او پاتې برخه AI ته پرېږدئ.",
+    "tabs": {
+      "single": "یو مخ",
+      "multiple": "څو مخونه"
+    },
+    "steps": {
+      "video": {
+        "title": "وېډیو پورته کړئ",
+        "cta": "راښکته/کلیک او پورته کړئ",
+        "hint": "مستند: M4V/MP4/MOV/WEBM",
+        "dragDrop": "ښکته کړئ او پرېږدئ یا کلیک وکړئ ترڅو پورته کړئ",
+        "dropHere": "ویډیو دلته پرېږدئ"
+      },
+      "face": {
+        "title": "د مخ انځور پورته کړئ",
+        "cta": "راښکته/کلیک او پورته کړئ",
+        "hint": "مستند: JPG/PNG/WEBP",
+        "dragDrop": "ښکته کړئ او پرېږدئ یا کلیک وکړئ ترڅو پورته کړئ",
+        "dropHere": "انځور دلته پرېږدئ"
+      },
+      "render": {
+        "title": "د «رینډر» په کلیک کولو پیل کړئ",
+        "cta": "رینډر",
+        "rendering": "رینډر کېدو کې..."
+      },
+      "multiple": {
+        "face": {
+          "title": "د مخ بدلولو مشخصول",
+          "cta": "مخ استخراج({count}/{max})"
+        }
+      }
+    },
+    "badges": {
+      "free": "هره ورځ ۵ وړیا ځغلونې",
+      "clean": "بې واټرمارک",
+      "resolution": "۲K ریزولوشن ملاتړ"
+    },
+    "preview": {
+      "title": "مخکتنه",
+      "cta": "فېس سواپ وازمویئ",
+      "original": "اصلي",
+      "swapped": "بدل شوی",
+      "faceAlt": "د مخ مخکتنه",
+      "usingFace": "کارېدونکی مخ: {name}",
+      "placeholder": "وېډیو پورته کړئ، مخکتنه به دلته ښکاره شي."
+    },
+    "common": {
+      "selected": "ټاکل شوی: {name}",
+      "notSelected": "نه دی ټاکل شوی"
+    },
+    "errors": {
+      "videoDurationExceeded": "د ویډیو موده له {max} دقیقو څخه زیاتېدای نشي، اوسنۍ موده {current} دقیقې ده",
+      "videoDurationReadFailed": "د ویډیو موده لوستل ناکام شول، مهرباني وکړئ ډاډ ترلاسه کړئ چې د ویډیو فایل بڼه سمه ده",
+      "uploadFailed": "پورته کول ناکام شول: {error}",
+      "uploadFailedGeneric": "پورته کول ناکام شول",
+      "videoRequired": "مهرباني وکړئ لومړی یوه ویډیو پورته کړئ",
+      "faceImageRequired": "مهرباني وکړئ لومړی د مخ انځور پورته کړئ",
+      "faceSwapFailed": "د مخ بدلولو پروسه ناکامه شوه",
+      "taskFailed": "د دندې پروسه ناکامه شوه",
+      "taskTimeout": "د دندې پروسه وخت ونیو، مهرباني وکړئ وروسته بیا هڅه وکړئ",
+      "taskIdNotFound": "د دندې ID ترلاسه نه شو، مهرباني وکړئ د API ځواب بڼه وګورئ",
+      "apiResponseParseFailed": "د مخ بدلولو پروسه ناکامه شوه: د API ځواب نه شو لوستل کېدای",
+      "processingFailed": "پروسس ناکام شو، مهرباني وکړئ بیا هڅه وکړئ",
+      "statusQueryFailed": "د دندې حالت پوښتنه ناکامه شوه: د ځواب معلومات نه شو لوستل کېدای",
+      "videoFileNotFound": "د ویډیو فایل ونه موندل شو، مهرباني وکړئ ویډیو بیا پورته کړئ"
+    },
+    "footer": "لاګ اېن وکړئ نورې ځانګړتیاوې خلاصې کړئ · هره ورځ وړیا کریډیټ · ۲K ملاتړ",
+    "uploadConfirm": {
+      "title": "د پورته کولو تایید",
+      "description": "مهرباني وکړئ د پورته کولو مخکې لاندې ټکي تایید کړئ:",
+      "permission": "زه تاییدوم چې د پورته شوي محتوا په ټولو څېرو د کارولو اجازه لرم",
+      "legal": "زه به دا وسیله د دوکې، درغلۍ یا غیرقانوني موخو لپاره نه کاروم",
+      "synthetic": "زه پوهېږم چې دا د AI لخوا تولید شوې مصنوعي رسنۍ جوړوي",
+      "cancel": "لغوه",
+      "confirm": "تایید"
+    }
+  },
+  "clothesRemover": {
+    "id": "clothes-remover",
+    "title": "د AI کالي بدلولو لوبغالی",
+    "description": "عکس پورته کړئ، غوښتل شوی لباس تشریح کړئ، او په څو پړاوونو کې نوي ښکاره لیدونه جوړ کړئ.",
+    "tabs": {
+      "auto": "اتومات",
+      "manual": "لاسنی"
+    },
+    "steps": {
+      "type": {
+        "title": "د کالیو ډول وټاکئ"
+      },
+      "upload": {
+        "title": "یو عکس پورته کړئ (مخکینی بشپړ بدن غوره دی)",
+        "cta": "پورته کولو لپاره کلیک وکړئ",
+        "hint": "(JPG, PNG, WEBP) ≤ 20MB"
+      },
+      "describe": {
+        "title": "غوښتل شوی لباس تشریح کړئ",
+        "placeholder": "هغه لباس ولیکئ چې غواړئ، لکه: \"سره بیکني\"، \"کاجول سوټ\" یا \"د اوړي لمن\"."
+      }
+    },
+    "actions": {
+      "remove": "لباس لرې/بدل کړئ"
+    }
+  },
+  "common": {
+    "fields": {
+      "firstFrame": "لومړی فریم",
+      "lastFrame": "وروستی فریم (اختیاري)",
+      "referenceAudio": "Reference Audio"
+    },
+    "descriptions": {
+      "uploadFirstFrameImage": "د لومړي فریم انځور پورته کړئ.",
+      "uploadLastFrameImageOptional": "اختیاري: د وروستي فریم انځور پورته کړئ ترڅو له لومړي نه وروستي فریم ته انتقال په اوتومات ډول فعال شي.",
+      "referenceVideoLimit": "MP4, WebM, MOV (max 50MB, up to 3 videos, duration ≤ 15s)",
+      "referenceAudioLimit": "WAV, MP3 (max 20MB, up to 3 audios, duration ≤ 15s)"
+    }
+  },
+  "canvasWorkspace": {
+    "nav": {
+      "canvas": "Canvas",
+      "creations": "Creations",
+      "collections": "Collections"
+    },
+    "page": {
+      "creationsEyebrow": "CREATIONS",
+      "creationsTitle": "Creations",
+      "creationsDescription": "All of your generated images, videos, and outputs live here so they are easy to review, filter, and organize.",
+      "collectionsEyebrow": "COLLECTIONS",
+      "collectionsTitle": "Collections",
+      "collectionsDescription": "Turn your strongest outputs into curated sets so pitching, reviewing, and reuse feel much faster.",
+      "projectsEyebrow": "CANVAS",
+      "projectsTitle": "Recent Projects",
+      "projectsDescription": "Jump back into your advanced-mode projects and keep shaping the canvas.",
+      "newCanvas": "New Canvas",
+      "emptyProjectsTitle": "No Canvas projects yet",
+      "emptyProjectsDescription": "Open Canvas from the homepage, or start a new advanced-mode project here.",
+      "emptyProjectsAction": "Create project",
+      "creationsEmptyText": "No creations yet",
+      "creationsEmptyTitle": "Your library is waiting for the first result",
+      "creationsEmptyDescription": "Generate from the homepage or run a workflow in Canvas and every new output will appear here.",
+      "collectionDetailDescription": "Review everything saved into this collection, then keep curating or return to Canvas to create more.",
+      "collectionDetailBack": "Back to Collections",
+      "collectionDetailEmptyText": "This collection is empty",
+      "collectionDetailEmptyTitle": "Nothing has been saved here yet",
+      "collectionDetailEmptyDescription": "Pick a few strong results from Creations and this collection will start to take shape."
+    },
+    "projectsGrid": {
+      "deleteConfirm": "Delete project \"{name}\"? This action cannot be undone.",
+      "deleteSuccess": "Project deleted",
+      "deleteError": "Failed to delete project",
+      "duplicateSuccess": "Project duplicated",
+      "duplicateError": "Failed to duplicate project",
+      "updatedAtPrefix": "Updated",
+      "duplicateAria": "Duplicate project",
+      "deleteAria": "Delete project"
+    },
+    "collectionsGrid": {
+      "heading": "Collections",
+      "createCardLabel": "New Collection",
+      "createTitle": "Create Collection",
+      "createDescription": "Give this curated set a clear name.",
+      "renameTitle": "Rename Collection",
+      "renameDescription": "Update how this collection appears in your library.",
+      "deleteTitle": "Delete Collection",
+      "deleteDescription": "Deleting a collection removes the group, but keeps every creation.",
+      "renameAction": "Save name",
+      "deleteAction": "Delete Collection",
+      "createAction": "Create Collection",
+      "cancelAction": "Cancel",
+      "nameLabel": "Name",
+      "namePlaceholder": "For example: Brand visual directions",
+      "emptyTitle": "No collections yet",
+      "emptyDescription": "Group strong outputs into collections so it is easier to revisit and present them later.",
+      "createSuccess": "Collection created",
+      "renameSuccess": "Collection updated",
+      "deleteSuccess": "Collection deleted",
+      "createError": "Failed to create collection",
+      "renameError": "Failed to rename collection",
+      "deleteError": "Failed to delete collection"
+    },
+    "projectsHub": {
+      "heroTitle": "بې پایه نظرونه، بې سرحده جوړونه",
+      "heroPlaceholder": "له یوې مفکورې پیل وکړئ او سمدستي Canvas جوړولو ته ننوځئ",
+      "heroSubmit": "جوړ او تولید کړه",
+      "sectionTitle": "زما پروژې",
+      "sectionAction": "ټولې وګوره",
+      "createCardTitle": "نوې پروژه",
+      "createCardSubtitle": "له نوي پرامپټ څخه پیل",
+      "submitError": "د پروژې له جوړولو مخکې یو پرامپټ دننه کړئ",
+      "autoLabel": "AUTO",
+      "plusMenuTitle": "له دې نوډ څخه تولید",
+      "uploadReferenceAria": "مرجع پورته کړئ",
+      "closeDirectionAria": "بندول",
+      "virtualReferenceLabel": "مرجع انځور",
+      "virtualPromptLabel": "پرامپټ"
+    }
+  }
+}

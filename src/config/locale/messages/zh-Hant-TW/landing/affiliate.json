@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "title": "Affiliate Program | joymagic",
+    "description": "加入 joymagic 推廣計畫，獲得專屬推廣連結，按首訂與續費賺取佣金。"
+  },
+  "hero": {
+    "eyebrow": "Affiliate Program",
+    "title": "把你的流量，變成長期複利收入",
+    "description": "加入 joymagic 推廣計畫。使用者在 7 天有效期內透過你的推廣連結註冊並完成首訂後，即綁定到該帳號；後續該帳號的續費也會繼續歸屬於你。",
+    "primary": "立即申請",
+    "secondary": "查看佣金規則",
+    "trust": [
+      "7 天首擊鎖定",
+      "首訂 + 續費雙佣金",
+      "帳號綁定後支援跨裝置購買歸因"
+    ]
+  },
+  "stats": {
+    "first_order": {
+      "label": "首訂佣金",
+      "suffix": ""
+    },
+    "renewal": {
+      "label": "續費佣金",
+      "suffix": ""
+    },
+    "cookie": {
+      "label": "Cookie 有效期",
+      "suffix": "天"
+    },
+    "payout": {
+      "label": "最低提領",
+      "suffix": ""
+    }
+  },
+  "sections": {
+    "why": {
+      "title": "為什麼要做這個計畫",
+      "description": "適合內容創作者、教學部落客、設計社群經營者、AI 工具導航站與 KOL，把你已經擁有的受眾轉成穩定分潤。"
+    },
+    "how": {
+      "title": "如何獲得佣金",
+      "description": "規則透明、路徑清晰。你只需要分享專屬連結，剩下交給系統自動追蹤。"
+    },
+    "faq": {
+      "title": "常見問題"
+    },
+    "apply": {
+      "title": "申請成為推廣者",
+      "description": "填寫你的推廣資料，我們會人工審核。審核通過後系統會自動生成專屬推廣連結。",
+      "signed_in": "你已登入，可以直接提交申請。",
+      "signed_out": "需要先登入帳號，登入後會返回當前頁面繼續申請。",
+      "signin": "登入後申請",
+      "open_modal": "立即申請",
+      "already_member": "你已經是推廣者了，可直接進入推廣中心查看連結與佣金。",
+      "pending": "你的申請正在審核中，請耐心等候。",
+      "go_dashboard": "進入推廣中心",
+      "modal_title": "joymagic Affiliate Program",
+      "modal_subtitle": "申請成為推廣者",
+      "email_placeholder": "*電子郵件",
+      "full_name_placeholder": "*姓名",
+      "payout_method": "PayPal",
+      "paypal_placeholder": "*你的 PayPal 收款帳號",
+      "channel_placeholder": "*請描述你的推廣方式，例如 YouTube 影片、社群內容、社群分發等。",
+      "required_hint": "* 為必填欄位",
+      "cancel": "取消",
+      "desired_tier": "申請等級",
+      "standard": "一般推廣者",
+      "kol": "KOL / 大型渠道",
+      "paypal_email": "PayPal 收款信箱",
+      "social_platform": "社群平台",
+      "social_account": "社群帳號 / 主頁連結",
+      "channel_summary": "推廣渠道說明",
+      "application_note": "補充說明",
+      "agreement": "我已閱讀並同意推廣協議與佣金結算規則",
+      "submit": "提交申請",
+      "agreement_hint": "提交申請即表示你同意：禁止作弊流量；佣金基於有效首訂與續費結算；提領透過 PayPal 發放。"
+    }
+  },
+  "cards": {
+    "audience": {
+      "title": "適合誰",
+      "items": [
+        "AI 工具測評與教學創作者",
+        "設計師社群與資源站經營者",
+        "YouTube / TikTok / 小紅書 / X 帳號",
+        "導航站、模板站、流量聯盟渠道"
+      ]
+    },
+    "benefits": {
+      "title": "你會得到",
+      "items": [
+        "專屬推廣連結與推廣碼",
+        "首訂和續費分潤",
+        "後台查看申請、佣金與提領狀態",
+        "KOL 可升級並使用獨立佣金比例"
+      ]
+    }
+  },
+  "how": {
+    "steps": [
+      {
+        "title": "1. 提交申請",
+        "description": "填寫你的渠道、社群資訊與 PayPal 收款資訊。"
+      },
+      {
+        "title": "2. 審核通過",
+        "description": "審核通過後會生成唯一推廣碼，並透過電子郵件通知你。"
+      },
+      {
+        "title": "3. 分享連結",
+        "description": "訪客點擊你的專屬連結後，7 天內首擊歸因會鎖定到你。"
+      },
+      {
+        "title": "4. 獲得佣金",
+        "description": "使用者在有效窗口內註冊並完成購買後，該帳號後續購買也會繼續歸屬於你。"
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "如果使用者 7 天內先點了我的連結，又點了別人的連結怎麼辦？",
+        "answer": "仍然歸你。我們採用 7 天窗口內首擊鎖定規則，在 Cookie 有效期內後續點擊不會覆蓋最初的推廣者。"
+      },
+      {
+        "question": "使用者註冊後換裝置購買，還算我的佣金嗎？",
+        "answer": "算。只要使用者在有效窗口內透過你的推廣鏈路完成註冊，推廣關係就會綁定到帳號，後續跨裝置購買也會繼續歸屬於你。"
+      },
+      {
+        "question": "支援首訂和續費佣金嗎？",
+        "answer": "支援。首訂和續費分別按獨立比例計算，KOL 還可配置單獨比例。"
+      },
+      {
+        "question": "多久可以提領？",
+        "answer": "訂單支付後佣金會先進入待確認，預設 3 天後轉為可提領；累計達到最低提領門檻後可發起 PayPal 提領。"
+      }
+    ]
+  }
+}

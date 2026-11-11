@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Upload source images",
+      "hint": "Upload up to {max} images (JPG/PNG/WEBP).",
+      "dragDrop": "Drag & drop or click to upload",
+      "dropHere": "Drop images here"
+    },
+    "prompt": {
+      "title": "Enter transformation prompt",
+      "placeholder": "Describe how you want to transform the images, e.g. 'Change to anime style', 'Make it look like an oil painting'",
+      "hint": "Be specific about the changes you want to make"
+    },
+    "generate": {
+      "title": "Generate transformed images",
+      "cta": "Generate",
+      "generating": "Generating..."
+    }
+  },
+  "preview": {
+    "title": "Preview",
+    "original": "Original",
+    "swap": "Swap",
+    "placeholder": "Upload images and enter a prompt to see the transformation here."
+  },
+  "common": {
+    "selectedCount": "Selected: {count}/{max} images",
+    "notSelected": "Not selected"
+  },
+  "errors": {
+    "invalidFileType": "Invalid file type. Please upload an image file (JPG, PNG, WEBP).",
+    "uploadFailed": "Upload failed: {error}",
+    "uploadFailedGeneric": "Upload failed",
+    "sourceImageRequired": "Please upload a source image",
+    "promptRequired": "Please enter a transformation prompt",
+    "generationFailed": "Image generation failed",
+    "taskFailed": "Task processing failed",
+    "taskTimeout": "Task processing timeout, please try again later",
+    "taskIdNotFound": "Unable to get task ID, please check API response format",
+    "processingFailed": "Processing failed, please try again",
+    "statusQueryFailed": "Failed to query task status",
+    "apiResponseParseFailed": "Failed to parse API response"
+  },
+  "page": {
+    "metadata": {
+      "title": "Seedream 5.0 Lite Image-to-Image AI Tool - Transform Images with AI | joymagic",
+      "description": "Use Seedream 5.0 Lite image-to-image AI to transform and edit your images. Upload an image and transform it with advanced AI-powered editing. Fast, high-quality results.",
+      "keywords": "seedream 5.0 lite image-to-image, seedream image transformation, AI image editor, image editing, image-to-image AI tool, AI image converter"
+    },
+    "hero": {
+      "title": "Seedream 5.0 Lite Image-to-Image AI - Transform Your Images with AI",
+      "description": "Transform and edit images using Seedream 5.0 Lite image-to-image AI. Upload an image and transform it with advanced AI-powered editing. Experience fast, high-quality image transformations.",
+      "button1": "Try Seedream 5.0 Lite Image-to-Image",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Why Choose Seedream 5.0 Lite Image-to-Image?",
+      "description": "Discover the powerful features of Seedream 5.0 Lite image-to-image AI",
+      "singleImage": {
+        "title": "Single Image Upload",
+        "description": "Upload one image and describe how you want to transform it. Simple and fast."
+      },
+      "highQuality": {
+        "title": "High-Quality Seedream Results",
+        "description": "Get exceptional image quality with Seedream 5.0 Lite AI. Generate high-resolution transformed images with outstanding detail and clarity."
+      },
+      "styleFlexibility": {
+        "title": "Versatile Style Transformation",
+        "description": "Transform images in various styles using Seedream 5.0 Lite - photorealistic, artistic, abstract, and more. Full control with detailed prompts."
+      },
+      "affordable": {
+        "title": "Affordable Pricing",
+        "description": "Cost-effective image transformations. Pay per use, making it affordable for any project size."
+      }
+    },
+    "promptingTips": {
+      "title": "How to Get Best Results with Seedream 5.0 Lite Image-to-Image",
+      "specific": {
+        "title": "Be Specific in Your Prompts",
+        "description": "For optimal results, describe exactly what transformation you want. Examples: \"Change to anime style\" or \"Make it look like an oil painting\"."
+      },
+      "style": {
+        "title": "Specify Artistic Style",
+        "description": "Mention the artistic style you want: \"anime style\", \"oil painting\", \"digital art\", etc."
+      },
+      "color": {
+        "title": "Colour and Mood Settings",
+        "description": "Enhance your transformations by describing colour schemes and mood: \"vibrant colours\", \"muted tones\", \"dark and moody\", etc."
+      },
+      "details": {
+        "title": "Add Detailed Instructions",
+        "description": "Maximise quality by including details about lighting, composition, and specific elements you want to preserve or change."
+      }
+    },
+    "useCases": {
+      "title": "Seedream 5.0 Lite Image-to-Image Use Cases",
+      "style": {
+        "title": "Artistic Style Transformation",
+        "description": "Transform photos into different artistic styles - anime, watercolour, oil painting, and more. Perfect for creative projects."
+      },
+      "product": {
+        "title": "Product Photography Enhancement",
+        "description": "Transform product photos for marketing materials and social media. Create multiple style variations quickly."
+      },
+      "creative": {
+        "title": "Creative Design Projects",
+        "description": "Experiment with different artistic styles and transformations for creative projects. Find the perfect look."
+      },
+      "personal": {
+        "title": "Personal Use",
+        "description": "Reimagine your photos with AI - change mood, style, or setting with a single prompt."
+      }
+    },
+    "faq": {
+      "title": "Seedream 5.0 Lite Image-to-Image FAQ",
+      "description": "Frequently asked questions about Seedream 5.0 Lite image-to-image AI tool",
+      "q1": {
+        "question": "How many images can I upload?",
+        "answer": "You upload one image at a time. Describe your transformation in the prompt and generate."
+      },
+      "q2": {
+        "question": "How much does it cost?",
+        "answer": "Each image transformation costs a fixed number of credits. Check the pricing page for current rates."
+      },
+      "q3": {
+        "question": "What image formats does Seedream 5.0 Lite support?",
+        "answer": "Seedream 5.0 Lite supports PNG, JPEG, JPG, and WebP formats. Ensure your image is clear and well-lit for optimal results."
+      },
+      "q4": {
+        "question": "How should I write prompts for Seedream 5.0 Lite?",
+        "answer": "For best results, include detailed descriptions: subject, setting, lighting, style, mood, and composition. More detail typically produces better transformations."
+      },
+      "q5": {
+        "question": "Can I transform the same image multiple times?",
+        "answer": "Yes, you can use different prompts on the same image to get different transformations."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Try Seedream 5.0 Lite Image-to-Image?",
+      "description": "Start transforming your images with Seedream 5.0 Lite AI today. Experience fast, high-quality image transformations.",
+      "button": "Try Seedream 5.0 Lite Image-to-Image Now"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "imageToImage": "Image to Image",
+      "seedreamLite": "Seedream 5.0 Lite"
+    },
+    "schema": {
+      "softwareName": "Seedream 5.0 Lite Image-to-Image AI Tool by joymagic",
+      "howToName": "How to Use Seedream 5.0 Lite Image-to-Image AI",
+      "howToDescription": "Learn how to transform images using Seedream 5.0 Lite image-to-image AI. Upload an image and transform it with AI-powered editing.",
+      "features": {
+        "aiImageEditing": "Seedream 5.0 Lite Image-to-Image AI Editing",
+        "singleImage": "Single Image Transform with Seedream 5.0 Lite",
+        "highQuality": "High-Quality Seedream 5.0 Lite Output"
+      }
+    }
+  }
+}

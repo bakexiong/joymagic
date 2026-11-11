@@ -1,0 +1,88 @@
+{
+  "title": "Nano Banana",
+  "provider": "Google",
+  "eyebrow": "ماډل-محوره لینډینګ پاڼه",
+  "description": "له Nano Banana څخه پیل وکړئ، بیا هغو دقیقو کاري بهیرونو ته لاړ شئ چې دا پکې غوره دی: لارښوود انځور ایډیټ، چټک مفهومي تولید، او په creator کې اصلي تکرار له هماغه ورک‌بنچ چلند سره چې محصول یې کاروي.",
+  "seoTitle": "د Nano Banana AI ماډل پاڼه | Image Edit + Text to Image | joymagic",
+  "seoDescription": "Nano Banana د یوې model-first پاڼې په توګه وپلټئ. صحنې بدلې کړئ، د creator ورک‌بنچ وساتئ، او Nano Banana د image editing او text-to-image لپاره په یوه واحد بهیر کې وکاروئ.",
+  "stats": [
+    {
+      "label": "اصلي حالت",
+      "value": "Image Edit"
+    },
+    {
+      "label": "پراخې صحنې",
+      "value": "۲ فعال کاري بهیرونه"
+    },
+    {
+      "label": "د پینل بیاکارونه",
+      "value": "د creator په شان"
+    }
+  ],
+  "differentiators": [
+    "ماډل مخکې راولئ، نه دا چې له یوې عمومي صحنه-لست څخه پیل وکړئ، څو تادیه شوی ټرافیک یوې ډېرې متمرکزې ارزښتناکې وړاندیز ته راورسېږي.",
+    "د creator د فورم موجود schema او ښي لوري media panel بیا وکاروئ، څو د محصول چلند یو شان پاتې شي.",
+    "راتلونکې ماډل پاڼې د یوه واحد preset registry په غځولو سره ورزیاتې کړئ، نه دا چې ټولې پاڼې کاپي کړئ."
+  ],
+  "gallery": [
+    {
+      "title": "د محصول بیاسټایل",
+      "caption": "یو عادي ecommerce packshot د یو ماډل او لنډ تکراري بهیر په مرسته په پریمیم لانچ visual بدل کړئ.",
+      "prompt": "Transform the uploaded bottle shot into a luxury skincare ad with brushed metal reflections, soft fog, and a champagne gold palette.",
+      "accentClassName": "from-[#f4d38f] via-[#8b6b2b] to-[#161616] text-white"
+    },
+    {
+      "title": "د کرکټر تازه کول",
+      "caption": "پوز، سټایل او روښانتیا بدل کړئ، خو هویت د تکراري ایډیټونو په اوږدو کې خوندي وساتئ.",
+      "prompt": "Keep the same character and facial identity, switch to magazine portrait lighting, soft pink hair, and a collectible-figure styling.",
+      "accentClassName": "from-[#b78cff] via-[#5c38a5] to-[#151515] text-white"
+    },
+    {
+      "title": "یوازې د پرومپټ مفاهیم",
+      "caption": "همدا ماډل د prompt-only مفاهیمو لپاره وکاروئ مخکې له دې چې ایډیټ، ریتاچ یا upscale ته لاړ شئ.",
+      "prompt": "Generate a futuristic dessert cafe interior with chrome counters, creamy daylight, and playful signage rendered in clear readable type.",
+      "accentClassName": "from-[#7ee7f2] via-[#167f8c] to-[#131313] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "ولې /model/nanobana وکاروو، نه یوه عمومي tool page؟",
+      "answer": "دا پاڼه د ماډل-محور ټرافیک لپاره جوړه شوې ده. د دې پر ځای چې لیدونکي لومړی د وسیلو کورنۍ وټاکي، پاڼه له Nano Banana څخه پیلېږي او بیا هغو کاري بهیرونو ته غځېږي چې دا ماډل پکې تر ټولو ښه مناسب دی."
+    },
+    {
+      "question": "ایا دا پاڼه یو بېل ښي‌لوري media panel کاروي؟",
+      "answer": "نه. د ورک‌بنچ برخه د creator هماغه media panel بیا کاروي، نو خوندي شوي توکي، ټیمپلېټونه، scene switching او د کار طرز له /creator سره یو شان پاتې کېږي."
+    },
+    {
+      "question": "ایا نور ماډلونه هم دا template بیا کارولی شي؟",
+      "answer": "هو. دا پاڼه د registry له لارې چلېږي، نو د نوې /model/[slug] پاڼې زیاتول تر ډېره د معلوماتو کار دی، له لږو ماډل-ځانګړو copy بدلونونو سره."
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "انځور سمون",
+      "title": "صحنه 01 · لارښوود انځور ایډیټ",
+      "description": "Nano Banana د ریتاچ، style transfer، د محصول refinement، او د هویت ساتونکو بدلونونو لپاره د ایډیټ اصلي سطحه وکاروئ.",
+      "spotlight": "د هغو شتمنیو لپاره غوره چې لا دمخه شته او یوې چټکې دویمې تېرېدنې ته اړتیا لري.",
+      "starterPrompt": "Keep the original composition, clean the background, upgrade the lighting to a cinematic studio look, and preserve all brand details.",
+      "useCases": [
+        "د محصول انځور پاکول او پریمیم بیاسټایل",
+        "UGC فریمونه په ad-ready key visuals بدلول",
+        "د کرکټر یا IP لپاره خوندي سټایلي بدلونونه"
+      ]
+    },
+    {
+      "modeLabel": "متن نه انځور",
+      "title": "صحنه 02 · د پرومپټ-لومړي مفهومي تولید",
+      "description": "له همدې ماډل څخه صفر-تر-یو image generation ته لاړ شئ کله چې تاسو ته د concept drafts، campaign exploration، یا نوو art directions اړتیا وي.",
+      "spotlight": "د نوو جهتونو د جوړولو لپاره غوره، مخکې له دې چې وټاکئ څه ایډیټ یا upscale شي.",
+      "starterPrompt": "Create a polished campaign key visual for a summer drink launch, bright afternoon backlight, citrus tones, bold readable headline typography.",
+      "useCases": [
+        "د کمپاین moodboards او hero concepting",
+        "ټولنیزو graphics او poster drafts",
+        "Packaging، signage، او د متن لرونکي کمپوزېشنونه"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

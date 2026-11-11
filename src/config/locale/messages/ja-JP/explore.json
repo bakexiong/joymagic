@@ -1,0 +1,28 @@
+{
+  "media_detail": {
+    "prompt_title": "プロンプト",
+    "copy_button": "コピー",
+    "copied_button": "コピーしました！",
+    "show_more": "すべて表示",
+    "show_less": "折りたたむ",
+    "information_title": "情報",
+    "model_label": "モデル：",
+    "quality_label": "品質：",
+    "size_label": "サイズ：",
+    "generate_button": "類似生成",
+    "video_button": "動画",
+    "download_button": "ダウンロード",
+    "upscale_button": "拡大",
+    "edit_button": "編集",
+    "no_prompt": "プロンプトがありません",
+    "image_alt": "生成された画像"
+  },
+  "mobile_homepage": {
+    "create_image": "画像を作成",
+    "create_video": "動画を作成",
+    "ai_effect": "AIエフェクト",
+    "new_badge": "新着",
+    "view_all": "すべて表示",
+    "view_more": "もっと見る"
+  }
+}

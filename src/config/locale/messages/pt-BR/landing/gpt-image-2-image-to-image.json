@@ -1,0 +1,120 @@
+{
+  "page": {
+    "metadata": {
+      "title": "GPT-Image 2 Imagem para Imagem - Edite pôsteres, UI e imagens fotorrealistas | __MARCA__",
+      "description": "Edite até 4 imagens enviadas com GPT-Image 2 para limpeza de pôsteres chineses, layouts em estilo de documento, retoque fotográfico e transformações de maquete de interface.",
+      "keywords": "GPT-Image 2 imagem para imagem, edição de pôster chinês, editor de imagens fotorrealistas, editor de maquete UI, imagem para imagem AI, edição de até 4 imagens"
+    },
+    "hero": {
+      "title": "GPT-Image 2 Imagem a Imagem",
+      "description": "A edição de imagens GPT-Image 2 é especialmente forte quando você precisa revisar visuais com muito texto, remodelar layouts semelhantes a documentos, retocar cenas fotorrealistas ou transformar capturas de tela no estilo UI. Você pode fazer upload de até 4 imagens de origem, descrever a alteração em linguagem simples e manter o resultado alinhado com a proporção correta.<br/><br/>Precisa gerar do zero? <a href=\"/text-to-image/gpt-image-2\" class=\"text-primary underline\">Try GPT-Image 2 Text to Image</a>.",
+      "button1": "Experimente agora",
+      "button2": "Ver preços"
+    },
+    "features": {
+      "title": "Por que GPT-Image 2 para edição de imagens",
+      "description": "Um fluxo de trabalho de edição mais robusto para layouts com reconhecimento de texto, refinamentos fotorrealistas e imagens com estilo de interface.",
+      "references": {
+        "title": "Edite até 4 imagens juntas",
+        "description": "Carregue um pequeno lote de imagens de origem quando desejar que uma direção applied de forma consistente em um conjunto de pôsteres, grupo de recursos de campanha ou série de maquetes UI."
+      },
+      "promptLed": {
+        "title": "Edições com reconhecimento de texto e layout",
+        "description": "GPT-Image 2 é mais adequado para texto de pôster, estrutura de documento, rótulos e layouts visuais mistos, tornando-o útil para tarefas de revisão que vão além de simples trocas de estilo."
+      },
+      "framing": {
+        "title": "Controle de saída fotorreal e compatível com UI",
+        "description": "Escolha o quadro final antes da geração para que o retoque da foto, o restyling da captura de tela e as alterações na composição fiquem mais próximos do posicionamento pretendido."
+      }
+    },
+    "promptingTips": {
+      "title": "Como obter edições melhores do GPT-Image 2",
+      "specific": {
+        "title": "Diga o que deve mudar e o que deve permanecer",
+        "description": "Para edições de pôster, documento e UI, seja explícito sobre o bloco de texto, região de layout ou elemento visual que deseja alterar, mantendo o resto intacto."
+      },
+      "batch": {
+        "title": "Mantenha uma direção em todo o lote",
+        "description": "Ao enviar várias imagens, use uma instrução clara para que todo o conjunto permaneça na mesma família visual e no mesmo nível de qualidade."
+      },
+      "framing": {
+        "title": "Escolha a proporção desejada antecipadamente",
+        "description": "Escolha a proporção final antes da geração para que o corte, o espaçamento e a composição correspondam melhor ao local onde o resultado será usado."
+      },
+      "details": {
+        "title": "Destaque o realismo ou o estilo da interface",
+        "description": "Mencione se você deseja retoque fotorreal, renderização semelhante a um filme, superfícies UI limpas ou comportamento realista de captura de tela para orientar o acabamento com mais precisão."
+      }
+    },
+    "useCases": {
+      "title": "Casos de uso",
+      "batchAssets": {
+        "title": "Revisão de pôster e layout",
+        "description": "Atualize pôsteres chineses, capas ou designs semelhantes a documentos, preservando a estrutura central e melhorando a clareza, o equilíbrio ou seções com muito texto."
+      },
+      "productRefresh": {
+        "title": "Produto fotorreal e retoque de retratos",
+        "description": "Refine a iluminação, a textura, o ambiente de fundo e a qualidade do acabamento para fotos de produtos, retratos ou fotografia de estilo de rua sem reconstruir toda a cena."
+      },
+      "socialVariants": {
+        "title": "UI e restyling de captura de tela",
+        "description": "Transforme apps financeiros, layouts de desktop, painéis e capturas de tela de software em interfaces visuais mais limpas, nítidas ou cinematográficas."
+      },
+      "lookDev": {
+        "title": "Alinhamento de criativos de pequenos lotes",
+        "description": "Use um único prompt em até quatro imagens para testar uma direção criativa em um conjunto curto de recursos antes de passar para a produção final."
+      }
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "description": "Perguntas comuns sobre edição de imagens GPT-Image 2 para pôsteres, cenas fotorrealistas e capturas de tela UI.",
+      "q1": {
+        "question": "Quantas imagens posso enviar?",
+        "answer": "Este fluxo de trabalho imagem a imagem GPT-Image 2 suporta até 4 imagens carregadas em uma única execução."
+      },
+      "q2": {
+        "question": "Quais parâmetros estão disponíveis?",
+        "answer": "O editor oferece suporte a imagens, prompt e proporção de aspecto. A proporção de aspecto inclui 1:1, 16:9, 9:16, 4:3, 3:4, 3:2, 2:3, 5:4, 4:5, 2:1, 1:2, 21:9 e 9:21."
+      },
+      "q3": {
+        "question": "Em quais tipos de edição GPT-Image 2 é especialmente bom?",
+        "answer": "É especialmente útil para edições de pôsteres chineses, layouts de estilo de documento, retoques fotorrealistas e transformações de UI ou capturas de tela onde texto, estrutura e realismo são importantes."
+      }
+    },
+    "finalCTA": {
+      "title": "Pronto para editar com GPT-Image 2?",
+      "description": "Faça upload de suas imagens, descreva a revisão em linguagem simples e transforme pôsteres, maquetes UI ou cenas fotorrealistas em visuais finais mais limpos.",
+      "button": "Parque aberto"
+    },
+    "breadcrumb": {
+      "home": "Lar",
+      "imageToImage": "Imagem a imagem",
+      "model": "__MODELO_A__"
+    },
+    "schema": {
+      "softwareName": "joymagic GPT-Image 2 Imagem para Imagem",
+      "softwareDescription": "Edite até 4 imagens enviadas com GPT-Image 2 para refinamento de pôster chinês, retoque fotográfico e transformação de captura de tela UI.",
+      "howToName": "Como editar pôsteres, UI e imagens fotorrealistas com GPT-Image 2",
+      "howToDescription": "Faça upload de imagens, descreva as edições desejadas, escolha uma proporção e gere pôsteres revisados, cenas fotorrealistas ou recursos visuais de interface com GPT-Image 2.",
+      "features": {
+        "multiUpload": "Carregue até 4 imagens",
+        "promptEditing": "Edição de imagens com reconhecimento de texto e layout",
+        "aspectPresets": "13 predefinições de proporção de aspecto"
+      },
+      "steps": {
+        "upload": {
+          "name": "Carregar imagens",
+          "text": "Adicione até 4 imagens de origem para a mesma edição de pôster, atualização de captura de tela ou direção de retoque fotorreal."
+        },
+        "prompt": {
+          "name": "Escreva o prompt",
+          "text": "Descreva o que deve mudar, o que deve permanecer e se o resultado deve parecer mais realista, mais limpo ou mais parecido com a interface."
+        },
+        "aspectRatio": {
+          "name": "Escolha a proporção e gere",
+          "text": "Escolha o quadro de saída que corresponde ao posicionamento final e, em seguida, gere e revise os resultados editados."
+        }
+      }
+    }
+  }
+}

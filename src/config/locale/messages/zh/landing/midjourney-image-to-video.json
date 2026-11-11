@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "title": "Midjourney 图片生成视频 - AI 视频生成器 | joymagic",
+    "description": "使用 Midjourney AI 将图片转换为精彩视频。控制运动、质量和风格参数，创建专业视频内容。",
+    "keywords": "图片生成视频 midjourney, midjourney 视频生成器, ai 图片转视频, midjourney 动画, 图片动画 ai"
+  },
+  "midjourney": {
+    "form": {
+      "prompt": {
+        "label": "提示词",
+        "placeholder": "描述您想要在视频中看到的动作和运动...",
+        "tooltip": "描述您想要生成的视频动作的文本提示词。"
+      },
+      "image": {
+        "label": "图片",
+        "tooltip": "上传要转换为视频的图片",
+        "hint": "提示：您可以拖放文件或点击上传",
+        "dragDrop": "拖放文件或点击上传",
+        "dropHere": "将图片放在这里"
+      },
+      "lastImage": {
+        "label": "最后一帧图片（可选）",
+        "tooltip": "上传视频的最后一帧图片",
+        "hint": "提示：您可以拖放文件或点击上传",
+        "dragDrop": "拖放文件或点击上传",
+        "dropHere": "将图片放在这里"
+      },
+      "resolution": {
+        "label": "分辨率"
+      },
+      "aspectRatio": {
+        "label": "宽高比"
+      },
+      "motion": {
+        "label": "运动"
+      },
+      "quality": {
+        "label": "质量",
+        "tooltip": "控制图像细节和处理时间（0.25 到 2）"
+      },
+      "stylize": {
+        "label": "风格化",
+        "tooltip": "控制图像中的艺术风格（0-1000）"
+      },
+      "chaos": {
+        "label": "混沌",
+        "tooltip": "为图像结果添加多样性（0-100）"
+      },
+      "weird": {
+        "label": "怪异",
+        "tooltip": "使图像更加古怪和非常规（0-3000）"
+      },
+      "seed": {
+        "label": "种子",
+        "placeholder": "-1 表示随机",
+        "tooltip": "使用相同的种子和提示词获得相似的结果"
+      },
+      "enableBase64Output": {
+        "label": "启用 Base64 输出",
+        "description": "将视频作为 base64 编码数据返回",
+        "tooltip": "启用此选项以接收 base64 编码的视频数据"
+      },
+      "buttons": {
+        "reset": "重置",
+        "run": "生成",
+        "generating": "生成中..."
+      }
+    },
+    "preview": {
+      "placeholder": "输入提示词并点击运行，生成的视频将显示在这里。",
+      "title": "预览"
+    },
+    "status": {
+      "idle": "空闲",
+      "processing": "处理中",
+      "completed": "已完成"
+    },
+    "actions": {
+      "downloadVideo": "下载视频",
+      "downloadFailed": "下载视频失败"
+    },
+    "errors": {
+      "promptRequired": "请输入提示词",
+      "imageRequired": "请上传图片",
+      "generationFailed": "视频生成失败",
+      "taskFailed": "任务处理失败",
+      "taskTimeout": "任务处理超时，请稍后重试",
+      "taskIdNotFound": "无法获取任务 ID，请检查 API 响应格式",
+      "processingFailed": "处理失败，请重试",
+      "statusQueryFailed": "查询任务状态失败",
+      "apiResponseParseFailed": "解析 API 响应失败",
+      "invalidFileType": "无效的文件类型。请上传图片文件（JPG、PNG 等）。",
+      "uploadFailed": "上传失败：{error}",
+      "uploadFailedGeneric": "上传失败"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "Midjourney 图片生成视频 - AI 视频生成器 | joymagic",
+      "description": "使用 Midjourney AI 将图片转换为精彩视频。控制运动、质量和风格参数，创建专业视频内容。",
+      "keywords": "图片生成视频 midjourney, midjourney 视频生成器, ai 图片转视频, midjourney 动画, 图片动画 ai"
+    },
+    "hero": {
+      "title": "Midjourney 图片生成视频",
+      "description": "使用 Midjourney AI 将您的图片转换为引人入胜的视频。上传图片，添加提示词，控制运动参数，并使用先进的 AI 技术生成高质量视频。立即免费试用 Midjourney 图片生成视频！",
+      "button1": "立即试用",
+      "button2": "查看价格"
+    },
+    "keyFeatures": {
+      "title": "主要功能",
+      "advancedMotion": {
+        "title": "高级运动控制",
+        "description": "使用低或高设置控制运动强度。微调视频中的运动以匹配您的创意愿景。"
+      },
+      "qualityControl": {
+        "title": "质量控制",
+        "description": "将质量从 0.25 调整到 2，以平衡细节和处理时间。更高的质量会产生更详细和精致的视频。"
+      },
+      "styleParameters": {
+        "title": "风格参数",
+        "description": "使用风格化（0-1000）、混沌（0-100）和怪异（0-3000）参数来控制艺术风格、多样性和非常规结果。"
+      },
+      "multipleResolutions": {
+        "title": "多种分辨率",
+        "description": "从 480p 或 720p 分辨率中选择。选择最适合您项目需求的分辨率。"
+      }
+    },
+    "useCases": {
+      "title": "使用场景",
+      "productShowcase": {
+        "title": "产品展示",
+        "description": "将产品图片转换为具有可控运动和专业质量的引人入胜的视频演示。"
+      },
+      "artisticAnimation": {
+        "title": "艺术动画",
+        "description": "使用可自定义的风格参数和运动控制将艺术作品和插图变为现实。"
+      },
+      "contentCreation": {
+        "title": "内容创作",
+        "description": "使用 AI 驱动的动画从静态图片创建引人入胜的社交媒体内容和营销视频。"
+      },
+      "creativeExperiments": {
+        "title": "创意实验",
+        "description": "尝试混沌和怪异参数，创建独特、非常规的视频效果和艺术风格。"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "q1": {
+        "question": "什么是 Midjourney 图片生成视频？",
+        "answer": "Midjourney 图片生成视频使用先进的 AI 技术将您上传的图片转换为具有可自定义运动、质量和风格参数的视频片段。"
+      },
+      "q2": {
+        "question": "有哪些运动设置可用？",
+        "answer": "您可以在低和高运动设置之间选择，以控制生成视频中的运动强度。"
+      },
+      "q3": {
+        "question": "什么是质量参数？",
+        "answer": "质量参数范围从 0.25 到 2，控制图像细节和处理时间。更高的值会产生更详细的结果，但处理时间更长。"
+      },
+      "q4": {
+        "question": "什么是风格化、混沌和怪异参数？",
+        "answer": "风格化（0-1000）控制艺术风格，混沌（0-100）为结果添加多样性，怪异（0-3000）使图像更加古怪和非常规。"
+      },
+      "q5": {
+        "question": "支持哪些分辨率？",
+        "answer": "Midjourney 图片生成视频支持 480p 和 720p 分辨率。选择最符合您项目要求的分辨率。"
+      }
+    },
+    "finalCTA": {
+      "title": "准备好创作了吗？",
+      "description": "立即开始使用 Midjourney AI 从您的图片生成精彩视频。",
+      "button": "立即试用"
+    }
+  }
+}

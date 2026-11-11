@@ -1,0 +1,603 @@
+{
+  "metadata": {
+    "title": "Veo 3.1 – Image-to-Video & Text-to-Image API | joymagic",
+    "description": "Veo 3.1 ile image-to-video ve text-to-image üretimi. Basit fiyatlandırma, API desteği ve prodüksiyon iş akışlarıyla HD görselleri hızlı üretin.",
+    "keywords": "Veo 3.1, Veo 3.1 image-to-video, Veo 3.1 I2V, Veo 3.1 text-to-image, Veo 3.1 API, Veo 3.1 fiyat"
+  },
+  "hero": {
+    "kicker": "Tek model, birden çok mod — {brand}",
+    "h1": "Image-to-Video ve Text-to-Image için Veo 3.1 API",
+    "description": "Veo 3.1 ile prompt veya referans görselden yüksek kaliteli görseller ve videolar üretin — web UI veya API ile.",
+    "trust": [
+      "HD çıktılar",
+      "Hızlı üretim",
+      "Prodüksiyon için"
+    ],
+    "pricing_from": "Fiyatlar",
+    "pricing_link": "$5",
+    "pricing_suffix": "(500 kredi) ile başlar"
+  },
+  "sections": {
+    "what_is": {
+      "h2": "Veo 3.1 nedir?",
+      "paragraphs": [
+        "Veo 3.1, text-to-image ve image-to-video gibi görevlerde kullanılan çok modlu bir Veo 3.1 model ailesidir.",
+        "Promptları ve referans görselleri prodüksiyona uygun çıktılara dönüştürür; fikirden pazarlama içeriklerine ve iteratif üretime kadar destekler.",
+        "joymagic, bu iş akışlarını web UI ve (etkinse) API üzerinden sağlayan bağımsız bir entegrasyon katmanı sunar."
+      ]
+    },
+    "creations": {
+      "h2": "Veo 3.1 ile neler üretebilirsiniz?",
+      "cards": {
+        "t2i": {
+          "h3": "Veo 3.1 Text-to-Image (T2I)",
+          "p": "Promptlardan görseller üretin; konsept, illüstrasyon ve pazarlama kreatifleri için. Stil/kompozisyon/oranları hızlı deneyin."
+        },
+        "editing": {
+          "h3": "Veo 3.1 Görsel Üretimi / Düzenleme",
+          "p": "Varyasyonlar, stilizasyon ve adım adım iyileştirme. Tutarlı prompt yapısıyla daha hızlı sonuca ulaşın."
+        },
+        "i2v": {
+          "h3": "Veo 3.1 Image-to-Video (I2V)",
+          "p": "Tek bir görseli kısa kliplere dönüştürün. Hareketi prompt ile yönetin ve varyasyonlarla iterasyon yapın."
+        }
+      },
+      "links": {
+        "prefix": "İlgili araçlar:",
+        "i2v": "image-to-video",
+        "and": "ve",
+        "t2i": "text-to-image",
+        "suffix": "{brand} üzerinde."
+      }
+    },
+    "i2v": {
+      "h2": "Veo 3.1 Image-to-Video (I2V)",
+      "p": "Reklamlar ve ürün klipleri gibi yüksek niyetli işlerde Veo 3.1 image-to-video (I2V), bir giriş görselinden başlar ve prompt ile yönlendirilen kısa bir sekans üretir. Duration, HD preset ve motion prompt (destek varsa) ile kontrol edebilirsiniz; 1080p yalnızca endpoint destekliyorsa görünür.",
+      "cards": {
+        "inputs": {
+          "h3": "Desteklenen girdiler",
+          "p": "Referans görsel + sahne/hareket promptu. Net konu ve temiz arka plan genellikle daha stabil sonuç verir."
+        },
+        "controls": {
+          "h3": "Çıktı kontrolleri",
+          "p": "Mümkünse çözünürlük ve süre presetlerini ayarlayın. Kamera/konu hareketi ve atmosferi tarif ederek tutarlılığı artırın."
+        },
+        "use_cases": {
+          "h3": "Kullanım alanları",
+          "p": "Ürün videoları, sosyal reklamlar, b-roll, yaratıcı çekimler ve hızlı storyboardlar."
+        }
+      }
+    },
+    "how_to": {
+      "h2": "Veo 3.1 nasıl kullanılır?",
+      "steps": {
+        "1": {
+          "h3": "1. Mod seçin (T2I veya I2V)",
+          "p": "Durağan görsel için text-to-image; hareket için image-to-video."
+        },
+        "2": {
+          "h3": "2. Prompt ekleyin (gerekirse referans görsel)",
+          "p": "Konu/stil/bağlamı yazın. I2V için hareket yönlendirmesi ekleyin."
+        },
+        "3": {
+          "h3": "3. Ayarları seçin (çözünürlük, süre, oran)",
+          "p": "Kanalınıza uygun preset seçin ve tekrarlanabilirlik için tutarlı kalın."
+        },
+        "4": {
+          "h3": "4. Üretin ve gözden geçirin",
+          "p": "İlk sonucu üretip tutarlılık, hareket ve kompozisyonu kontrol edin."
+        },
+        "5": {
+          "h3": "5. Varyasyonlarla iterasyon",
+          "p": "Küçük prompt değişiklikleriyle karşılaştırarak iyileştirin."
+        },
+        "6": {
+          "h3": "6. Dışa aktarın / indirin / API ile entegre edin",
+          "p": "Çıktıları indirin veya API ile toplu ve otomatik kullanın."
+        }
+      }
+    },
+    "api": {
+      "h2": "Veo 3.1 API",
+      "p": "REST/JSON ile prodüksiyon entegrasyonları kurun. Kimlik doğrulama genellikle API anahtarıyladır; pipeline, şablon ve ekip araçlarına bağlayın.",
+      "links": {
+        "docs_label": "Doküman:",
+        "keys_label": "API anahtarları:",
+        "keys_suffix": "(giriş gerekli)"
+      },
+      "example": {
+        "h3": "Örnek istek (temsili)",
+        "p": "Sadece örnek kalıp; kesin endpoint/parametre/yanıt için dokümana bakın."
+      }
+    },
+    "pricing": {
+      "h2": "Veo 3.1 fiyatlandırma",
+      "p_before": "Kredi bazlıdır ve göreve göre değişir. Güncel planlar için",
+      "p_after": "sayfasına bakın.",
+      "table": {
+        "task": "Görev",
+        "unit": "Birim",
+        "starting_from": "Başlangıç"
+      },
+      "rows": {
+        "t2i": {
+          "task": "Text-to-Image (T2I)",
+          "unit": "Görsel başına",
+          "start": "2 kredi'den"
+        },
+        "editing": {
+          "task": "Görsel Üretimi / Düzenleme",
+          "unit": "Görsel başına",
+          "start": "4 kredi'den"
+        },
+        "i2v": {
+          "task": "Image-to-Video (I2V)",
+          "unit": "Dönüşüm başına",
+          "start": "250 kredi'den"
+        },
+        "video": {
+          "task": "Sadece video",
+          "unit": "Saniye başına",
+          "start": "80 kredi/s"
+        },
+        "video_audio": {
+          "task": "Video + Ses",
+          "unit": "Saniye başına",
+          "start": "160 kredi/s"
+        }
+      },
+      "note": "Maliyetler çözünürlük, süre ve sağlayıcı durumuna göre değişebilir. joymagic, üretim öncesi kredi maliyetini gösterir."
+    },
+    "quality": {
+      "h2": "Kalite, güvenlik ve kullanım hakları",
+      "p1": "Kalite mod ve ayarlara bağlıdır. Video için daha yüksek presetler (HD; destek varsa 1080p) olabilir. Temiz referanslar ve net motion promptlar yardımcı olur.",
+      "p2_before": "Ticari kullanım",
+      "terms_link": "Hizmet Koşulları",
+      "p2_after": "ve yürürlükteki yasalara tabidir. Girdiler üzerindeki haklardan siz sorumlusunuz.",
+      "p3_before": "joymagic içerik politikasını uygular. Detaylar için",
+      "moderation_link": "Content Moderation Policy",
+      "p3_middle": "ve",
+      "aup_link": "Acceptable Use Policy",
+      "p3_after": "sayfalarına bakın."
+    }
+  },
+  "faq": {
+    "h2": "Veo 3.1 SSS",
+    "items": [
+      {
+        "question": "Veo 3.1 ne için kullanılır?",
+        "answer": "Veo 3.1, text-to-image ve image-to-video gibi çok modlu üretim işlerinde kullanılır. Prompt ile görsel üretip varyasyonlar oluşturabilir veya bir referans görseli kısa klibe dönüştürebilirsiniz."
+      },
+      {
+        "question": "Veo 3.1 image-to-video için iyi mi?",
+        "answer": "Durağan bir görselden başlayıp hareketi prompt ile kontrol etmek istediğinizde kullanışlıdır. Ürün çekimleri, reklamlar ve yaratıcı kliplerde yaygındır; sonuçlar referans kalitesine bağlıdır."
+      },
+      {
+        "question": "Veo 3.1 promptları nasıl yazılır?",
+        "answer": "Önce konuyu net yazın, ardından stil/ışık/kamera ekleyin. I2V’de hareketi ve sabit kalması gereken öğeleri belirtin. Küçük değişikliklerle iterasyon yapın."
+      },
+      {
+        "question": "1080p destekliyor mu?",
+        "answer": "UI/API endpoint ve presetlere bağlıdır. Destek varsa seçenek olarak görünür; değilse en yüksek mevcut presetle üretip sonradan yükseltmeyi düşünebilirsiniz."
+      },
+      {
+        "question": "Maliyeti nedir?",
+        "answer": "joymagic kredi bazlıdır. Referans olarak: text-to-image 2 kredi/görselden, image-to-video 250 kredi/dönüşümden başlayabilir; ayarlara göre değişir."
+      },
+      {
+        "question": "Ticari kullanım mümkün mü?",
+        "answer": "Genelde evet, ancak Koşullar ve politikalara uymanız gerekir. Yüklediğiniz tüm içeriklerin haklarından siz sorumlusunuz."
+      },
+      {
+        "question": "Veo 3.1 API var mı?",
+        "answer": "Evet. joymagic desteklenen iş akışları için REST/JSON API erişimi sunar ve genellikle API anahtarıyla doğrular."
+      },
+      {
+        "question": "Orijinal sağlayıcıyla bağlantınız var mı?",
+        "answer": "Hayır. joymagic bağımsız bir servistir; “Veo 3.1” yaratıcılarıyla bağlı/endorse/sponsor değildir. Marka ve isimler sahiplerine aittir."
+      }
+    ]
+  },
+  "disclaimer": {
+    "h2": "Yasal Uyarı",
+    "p": "{brand} AI üretim iş akışları sunan bağımsız bir servistir. “Veo 3.1” yaratıcılarıyla bağlantılı, onaylı veya sponsorlu değildir. Marka ve model adları sahiplerine aittir."
+  },
+  "veo31": {
+    "form": {
+      "prompt": {
+        "label": "İstem",
+        "enhancer": "Prompt Enhancer",
+        "placeholder": "Şık bir genç erkek sanatçı, güneşli bir şehir sokağındaki tuğla duvara renkli çiçek duvar resmi sprey boyuyor...",
+        "tooltip": "Oluşturma için pozitif istem."
+      },
+      "negativePrompt": {
+        "label": "Negatif İstem",
+        "placeholder": "Negatif istemi buraya girin",
+        "tooltip": "Oluşturma için negatif istem."
+      },
+      "audio": {
+        "label": "Ses",
+        "hint": "Ses dosyalarını destekler (MP3, WAV vb.)",
+        "tooltip": "Oluşturma için ses dosyası URL'si.",
+        "dragDrop": "Sürükle ve bırak veya yüklemek için tıkla",
+        "dropHere": "Ses dosyasını buraya bırak",
+        "record": "Ses Kaydet",
+        "recordDialog": {
+          "title": "Ses Kaydet",
+          "instruction": "Mikrofonunuzu kullanarak ses kaydedin.",
+          "noRecording": "Henüz kayıt yok.",
+          "hint": "Kaydetmek için aşağıdaki \"Kaydı Başlat\" düğmesine tıklayabilirsiniz.",
+          "recording": "Kaydediliyor...",
+          "startRecording": "Kaydı Başlat",
+          "stopRecording": "Kaydı Durdur",
+          "retake": "Yeniden Kaydet",
+          "useAudio": "Sesi Kullan",
+          "uploading": "Yükleniyor..."
+        }
+      },
+      "aspectRatio": {
+        "label": "En-Boy Oranı"
+      },
+      "resolution": {
+        "label": "Çözünürlük"
+      },
+      "duration": {
+        "label": "Süre (saniye)"
+      },
+      "generateAudio": {
+        "label": "Ses Oluştur",
+        "description": "Etkinleştirilirse, video için ses otomatik olarak oluşturulur.",
+        "tooltip": "Video için sesi otomatik olarak oluşturmak için bu seçeneği etkinleştirin."
+      },
+      "image": {
+        "label": "Görüntü",
+        "tooltip": "Videoya dönüştürmek için bir görüntü yükleyin",
+        "hint": "İpucu: Bir dosyayı sürükleyip bırakabilir veya yüklemek için tıklayabilirsiniz",
+        "dragDrop": "Bir dosyayı sürükleyip bırakın veya yüklemek için tıklayın",
+        "dropHere": "Görüntüyü buraya bırakın"
+      },
+      "lastImage": {
+        "label": "Son Görüntü",
+        "tooltip": "Video oluşturma için isteğe bağlı son görüntü",
+        "hint": "İpucu: Bir dosyayı sürükleyip bırakabilir veya yüklemek için tıklayabilirsiniz",
+        "dragDrop": "Bir dosyayı sürükleyip bırakın veya yüklemek için tıklayın",
+        "dropHere": "Görüntüyü buraya bırakın"
+      },
+      "seed": {
+        "label": "Tohum",
+        "placeholder": "Rastgele için boş bırakın"
+      },
+      "buttons": {
+        "reset": "Sıfırla",
+        "run": "Oluştur",
+        "generating": "Oluşturuluyor..."
+      }
+    },
+    "preview": {
+      "placeholder": "Bir istem girin ve çalıştır'a tıklayın, oluşturulan video burada görüntülenecektir.",
+      "costInfo": "İsteğiniz çalıştırma başına {cost} maliyetinde olacaktır.",
+      "oneMoreThing": "Bir şey daha:",
+      "actions": {
+        "addSound": "Ses Ekle",
+        "videoUpscaler": "Video Yükseltici",
+        "videoUpscalerPro": "Video Yükseltici Pro",
+        "videoExtend": "Video Uzat"
+      }
+    },
+    "common": {
+      "selected": "Seçildi: {name}",
+      "notSelected": "Dosya seçilmedi"
+    },
+    "status": {
+      "idle": "Beklemede",
+      "processing": "İşleniyor",
+      "completed": "Tamamlandı"
+    },
+    "actions": {
+      "downloadVideo": "Videoyu İndir",
+      "downloadFailed": "Video indirme başarısız",
+      "playAudioFailed": "Ses çalma başarısız. Lütfen tarayıcı ayarlarınızı kontrol edin."
+    },
+    "errors": {
+      "promptRequired": "Lütfen bir istem girin",
+      "imageRequired": "Lütfen bir görüntü yükleyin",
+      "generationFailed": "Video oluşturma başarısız",
+      "taskFailed": "Görev işleme başarısız",
+      "taskTimeout": "Görev işleme zaman aşımı, lütfen daha sonra tekrar deneyin",
+      "taskIdNotFound": "Görev ID'si alınamadı, lütfen API yanıt formatını kontrol edin",
+      "processingFailed": "İşleme başarısız, lütfen tekrar deneyin",
+      "statusQueryFailed": "Görev durumu sorgusu başarısız",
+      "apiResponseParseFailed": "API yanıtı ayrıştırılamadı",
+      "invalidFileType": "Geçersiz dosya türü. Lütfen görüntü dosyaları (JPG, PNG vb.) yükleyin.",
+      "uploadFailed": "Yükleme başarısız: {error}",
+      "uploadFailedGeneric": "Yükleme başarısız",
+      "recordingFailed": "Kayıt başlatılamadı. Lütfen mikrofon izinlerini kontrol edin."
+    }
+  },
+  "veo31Page": {
+    "metadata": {
+      "title": "Veo 3.1 Görüntüden Videoya - AI ile Fotoğrafları Canlandırın | joymagic",
+      "description": "Google Veo 3.1 ile görüntüleri videoya dönüştürün. Referans fotoğrafları yükleyin, karakter tutarlılığını koruyun, yerel sesli sinematik video oluşturun."
+    },
+    "hero": {
+      "title": "Veo 3.1 Görüntüden Videoya",
+      "description": "Google Veo 3.1, görüntülerinizi senkronize sesli video kliplere dönüştürür. Karakter kimliğini, sahne kompozisyonunu veya görsel stili kontrol etmek için referans fotoğrafları yükleyin—sonra istediğiniz hareketi açıklayın. Aşağıda Veo 3.1'i ücretsiz deneyin!<br/><br/>Referans görüntüleriniz yok mu? <a href=\"/text-to-video/veo-3-1\" class=\"text-primary underline\">Veo 3.1 Metinden Videoya</a> ile sıfırdan oluşturmayı deneyin.",
+      "button1": "Şimdi dene",
+      "button2": "Fiyatları gör"
+    },
+    "heroDescription": "Enter a text prompt and watch as AI transforms your words into a beautiful video. Perfect for content creators, marketers, and storytellers.",
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast generation",
+      "commercialReady": "Commercial-use ready"
+    },
+    "whatYouCanDo": {
+      "title": "What You Can Do With Text to Video",
+      "description": "Turn your ideas into motion with AI-powered video generation.",
+      "contentCreation": {
+        "title": "Content Creation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create engaging video content for social media</li><li>Generate video thumbnails and previews</li><li>Produce short-form video content quickly</li></ul>"
+      },
+      "marketing": {
+        "title": "Marketing & Advertising",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create promotional videos from text descriptions</li><li>Generate video ads and campaigns</li><li>Produce marketing content at scale</li></ul>"
+      },
+      "entertainment": {
+        "title": "Entertainment & Storytelling",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Bring stories to life with AI-generated videos</li><li>Create animated scenes from text</li><li>Produce creative video content</li></ul>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Temel Özellikler",
+      "multiImageReference": {
+        "title": "Çoklu Görüntü Referansı",
+        "description": "Videonuzun görsel yönünü yönlendirmek için birden fazla görüntü yükleyin. Birini karakter referansı için, diğerini stil için, üçüncüsünü sahne kompozisyonu için kullanın—model bunları akıllıca birleştirir."
+      },
+      "characterConsistency": {
+        "title": "Karakter Tutarlılığı",
+        "description": "Karakteriniz videonun tamamında aynı görünür. Net bir referans yükleyin—yüz özellikleri, oranlar, kıyafet detayları tüm karelerde, pozlarda ve kamera açılarında kilitli kalır."
+      },
+      "realisticMotion": {
+        "title": "Gerçekçi Hareket",
+        "description": "Statik görüntüler doğal hareketle canlanır. Saçlar akar, kumaşlar hareket eder, ifadeler değişir—referans fotoğraflarınızın görsel kimliğini korurken."
+      },
+      "nativeAudioSync": {
+        "title": "Yerel Ses Senkronizasyonu",
+        "description": "Üretilen video senkronize ses içerir—adımlar, ortam sesleri, diyalog. Ses, isteğinize göre hareket ve sahne ile otomatik olarak eşleşir."
+      }
+    },
+    "useCases": {
+      "title": "Kullanım Senaryoları",
+      "productAnimation": {
+        "title": "Ürün Animasyonu",
+        "description": "Ürün fotoğraflarını döndürme, kullanım veya yaşam tarzı bağlamlarını gösteren demo videolara dönüştürün."
+      },
+      "characterAnimation": {
+        "title": "Karakter Animasyonu",
+        "description": "Karakter tasarımlarını ve konsept sanatını hareket ve ifadelerle hayata geçirin."
+      },
+      "portraitVideos": {
+        "title": "Portre Videoları",
+        "description": "Portre fotoğraflarını ince hareketlerle canlandırın—göz kırpma, kafa dönüşleri, nazik gülümsemeler."
+      },
+      "styleMatchedClips": {
+        "title": "Stil Eşleşen Klipler",
+        "description": "Belirli bir estetik veya sanat yönüyle eşleşen videolar oluşturmak için stil referansları yükleyin."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "From text to video in four simple steps.",
+      "step1": {
+        "title": "Step 1 – Enter Your Prompt",
+        "description": "<p class=\"mb-3\">Describe the video you want to create. Be specific about the scene, characters, actions, and mood.</p>"
+      },
+      "step2": {
+        "title": "Step 2 – Configure Settings",
+        "description": "<p class=\"mb-3\">Choose video size, duration, shot type, and other parameters to match your needs.</p>"
+      },
+      "step3": {
+        "title": "Step 3 – Generate Video",
+        "description": "<p class=\"mb-3\">Click the generate button and let AI create your video. Processing typically takes a few minutes.</p>"
+      },
+      "step4": {
+        "title": "Step 4 – Download & Use",
+        "description": "<p class=\"mb-3\">Preview your video, download it, and use it in your projects immediately.</p>"
+      }
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "q1": {
+        "question": "Görüntüden Videoya nedir?",
+        "answer": "Görüntüden Videoya, yüklediğiniz fotoğrafları görsel çıktıyı kontrol etmek için kullanır. Model, referanslarınızdan karakter kimliğini, stilini veya kompozisyonunu korurken hareket ve ses üretir."
+      },
+      "q2": {
+        "question": "Kaç görüntü yükleyebilirim?",
+        "answer": "Birden fazla referans görüntüsü desteklenir. Farklı yönleri kontrol etmek için farklı görüntüler kullanın—karakter, stil, sahne."
+      },
+      "q3": {
+        "question": "Karakterim tutarlı kalacak mı?",
+        "answer": "Evet. Veo 3.1 tüm karelerde karakter kimliğini korur. En iyi sonuçlar için net bir önden referans yükleyin."
+      },
+      "q4": {
+        "question": "Ses dahil mi?",
+        "answer": "Evet. Üretilen videolar, isteğinize göre senkronize ortam sesleri, efektler ve diyalog içerir."
+      },
+      "q5": {
+        "question": "Metinden Videoya'dan nasıl farklı?",
+        "answer": "Metinden Videoya her şeyi sıfırdan üretir. Görüntüden Videoya, hareket üretirken görsel kimliği kontrol etmek için fotoğraflarınızı kullanır."
+      }
+    },
+    "finalCTA": {
+      "title": "Oluşturmaya hazır mısınız?",
+      "description": "Bugün görüntülerinizden harika videolar oluşturmaya başlayın.",
+      "button": "Şimdi dene"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "Veo 3.1 Görüntüden Videoya - AI ile Fotoğrafları Canlandırın | joymagic",
+      "description": "Google Veo 3.1 ile görüntüleri videoya dönüştürün. Referans fotoğrafları yükleyin, karakter tutarlılığını koruyun, yerel sesli sinematik video oluşturun.",
+      "keywords": "veo 3.1, görüntüden videoya, ai video oluşturucu, fotoğraf animasyonu, karakter tutarlılığı, sinematik video, yerel ses, google veo"
+    },
+    "hero": {
+      "title": "Veo 3.1 Görüntüden Videoya",
+      "description": "Google Veo 3.1, görüntülerinizi senkronize sesli video kliplere dönüştürür. Karakter kimliğini, sahne kompozisyonunu veya görsel stili kontrol etmek için referans fotoğrafları yükleyin—sonra istediğiniz hareketi açıklayın. Aşağıda Veo 3.1'i ücretsiz deneyin!<br/><br/>Referans görüntüleriniz yok mu? <a href=\"/text-to-video/veo-3-1\" class=\"text-primary underline\">Veo 3.1 Metinden Videoya</a> ile sıfırdan oluşturmayı deneyin.",
+      "button1": "Şimdi dene",
+      "button2": "Fiyatları gör"
+    },
+    "keyFeatures": {
+      "title": "Temel Özellikler",
+      "multiImageReference": {
+        "title": "Çoklu Görüntü Referansı",
+        "description": "Videonuzun görsel yönünü yönlendirmek için birden fazla görüntü yükleyin. Birini karakter referansı için, diğerini stil için, üçüncüsünü sahne kompozisyonu için kullanın—model bunları akıllıca birleştirir."
+      },
+      "characterConsistency": {
+        "title": "Karakter Tutarlılığı",
+        "description": "Karakteriniz videonun tamamında aynı görünür. Net bir referans yükleyin—yüz özellikleri, oranlar, kıyafet detayları tüm karelerde, pozlarda ve kamera açılarında kilitli kalır."
+      },
+      "realisticMotion": {
+        "title": "Gerçekçi Hareket",
+        "description": "Statik görüntüler doğal hareketle canlanır. Saçlar akar, kumaşlar hareket eder, ifadeler değişir—referans fotoğraflarınızın görsel kimliğini korurken."
+      },
+      "nativeAudioSync": {
+        "title": "Yerel Ses Senkronizasyonu",
+        "description": "Üretilen video senkronize ses içerir—adımlar, ortam sesleri, diyalog. Ses, isteğinize göre hareket ve sahne ile otomatik olarak eşleşir."
+      }
+    },
+    "useCases": {
+      "title": "Kullanım Senaryoları",
+      "productAnimation": {
+        "title": "Ürün Animasyonu",
+        "description": "Ürün fotoğraflarını döndürme, kullanım veya yaşam tarzı bağlamlarını gösteren demo videolara dönüştürün."
+      },
+      "characterAnimation": {
+        "title": "Karakter Animasyonu",
+        "description": "Karakter tasarımlarını ve konsept sanatını hareket ve ifadelerle hayata geçirin."
+      },
+      "portraitVideos": {
+        "title": "Portre Videoları",
+        "description": "Portre fotoğraflarını ince hareketlerle canlandırın—göz kırpma, kafa dönüşleri, nazik gülümsemeler."
+      },
+      "styleMatchedClips": {
+        "title": "Stil Eşleşen Klipler",
+        "description": "Belirli bir estetik veya sanat yönüyle eşleşen videolar oluşturmak için stil referansları yükleyin."
+      }
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "q1": {
+        "question": "Görüntüden Videoya nedir?",
+        "answer": "Görüntüden Videoya, yüklediğiniz fotoğrafları görsel çıktıyı kontrol etmek için kullanır. Model, referanslarınızdan karakter kimliğini, stilini veya kompozisyonunu korurken hareket ve ses üretir."
+      },
+      "q2": {
+        "question": "Kaç görüntü yükleyebilirim?",
+        "answer": "Birden fazla referans görüntüsü desteklenir. Farklı yönleri kontrol etmek için farklı görüntüler kullanın—karakter, stil, sahne."
+      },
+      "q3": {
+        "question": "Karakterim tutarlı kalacak mı?",
+        "answer": "Evet. Veo 3.1 tüm karelerde karakter kimliğini korur. En iyi sonuçlar için net bir önden referans yükleyin."
+      },
+      "q4": {
+        "question": "Ses dahil mi?",
+        "answer": "Evet. Üretilen videolar, isteğinize göre senkronize ortam sesleri, efektler ve diyalog içerir."
+      },
+      "q5": {
+        "question": "Metinden Videoya'dan nasıl farklı?",
+        "answer": "Metinden Videoya her şeyi sıfırdan üretir. Görüntüden Videoya, hareket üretirken görsel kimliği kontrol etmek için fotoğraflarınızı kullanır."
+      }
+    },
+    "finalCTA": {
+      "title": "Oluşturmaya hazır mısınız?",
+      "description": "Bugün görüntülerinizden harika videolar oluşturmaya başlayın.",
+      "button": "Şimdi dene"
+    }
+  },
+  "textToVideo": {
+    "metadata": {
+      "title": "Veo 3.1 Metinden Videoya - AI Video Oluşturucu | joymagic",
+      "description": "Google Veo 3.1 ile metinden video oluşturun. Diyalog, ses efektleri ve kamera hareketleriyle sinematik klipler oluşturun. Yerel ses dahil. Görüntü materyali gerekmez."
+    },
+    "hero": {
+      "title": "Veo 3.1 Metinden Videoya",
+      "description": "Google Veo 3.1 metin açıklamalarını senkronize sesli video kliplerine dönüştürür. Sahnenizi, kamera hareketinizi ve diyaloğunuzu açıklayın—model yerel sesle video üretir. Aşağıda Veo 3.1'i ücretsiz deneyin！<br/><br/>Referans görselleriniz var mı？<a href=\"/image-to-video/veo-3-1\" class=\"text-primary underline\">Veo 3.1 Görüntüden Videoya</a> ile görsel kontrol deneyin."
+    },
+    "keyFeatures": {
+      "title": "Temel Özellikler",
+      "nativeAudio": {
+        "title": "Yerel Ses Üretimi",
+        "description": "Model otomatik olarak senkronize ses oluşturur. İsteğinize diyalog yazın ve karakterler onu konuşur. Bir kafe sahnesi açıklayın ve ortam sohbeti ve fincan şıkırtılarını duyun. Adımlar yürümeyle eşleşir, kapılar kapandığında ses çıkarır."
+      },
+      "cinematicCamera": {
+        "title": "Sinematik Kamera Kontrolü",
+        "description": "Kamera hareketlerini sade dille açıklayın: \"yavaş dolly ileri\", \"havadan takip çekimi\", \"el kamerası titrek\". Model sinematografi terimlerini yorumlar ve üretilen videoda uygular."
+      },
+      "frameControl": {
+        "title": "İlk ve Son Kare Kontrolü",
+        "description": "Videonuzun nasıl başlayıp bittiğini tam olarak belirtin. Diğer kliplerle bağlanan hassas geçişler oluşturun veya storyboard doğruluğu için açılış ve kapanış çekimlerini kilitleyin."
+      },
+      "videoExtension": {
+        "title": "Video Uzatma",
+        "description": "Daha uzun içerik mi gerekiyor？Üretilen herhangi bir videoyu son karesinden uzatın. Doğal olarak birlikte akan birden fazla klibi bağlayarak daha uzun diziler oluşturun."
+      }
+    },
+    "promptingTips": {
+      "title": "İstek İpuçları",
+      "cameraMovement": {
+        "title": "Kamera Hareketini Açıklayın",
+        "description": "\"Özneye doğru yavaş dolly ileri\" veya \"şehir manzarasının üzerinde yükselen vinç çekimi\" sinematik sonuçlar üretir."
+      },
+      "audioDetails": {
+        "title": "Ses Detaylarını Ekleyin",
+        "description": "\"Yumuşak cazlı kafe ortam gürültüsü\" veya \"karakter fısıldar: beni takip et\" eşleşen ses üretmeye yardımcı olur."
+      },
+      "lighting": {
+        "title": "Işığı Belirtin",
+        "description": "\"Altın saat, uzun gölgeler\" veya \"neon ışıklı yağmur, ıslak kaldırımdaki yansımalar\" görsel ruh halini ayarlar."
+      }
+    },
+    "useCases": {
+      "title": "Kullanım Durumları",
+      "socialMedia": {
+        "title": "Sosyal Medya İçeriği",
+        "description": "Metinden TikTok, Reels ve Shorts oluşturun. Çekim gerekmez."
+      },
+      "adPrevisualization": {
+        "title": "Reklam Ön Görselleştirme",
+        "description": "Üretimden önce ticari konseptleri test edin. Müşteri incelemesi için varyasyonlar üretin."
+      },
+      "storyboard": {
+        "title": "Storyboard Animasyonu",
+        "description": "Sunum ve planlama için yazılı sahneleri hayata geçirin."
+      },
+      "educational": {
+        "title": "Eğitim Videoları",
+        "description": "Senaryolardan görsel gösterimler ve açıklayıcılar üretin."
+      }
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "q1": {
+        "question": "Veo 3.1 Metinden Videoya nedir？",
+        "answer": "Veo 3.1, metin açıklamalarından yerel sesli video klipleri üreten Google DeepMind'ın AI'sıdır. Bir sahne açıklayın ve çekim veya düzenleme olmadan sinematik video alın."
+      },
+      "q2": {
+        "question": "Ses otomatik olarak üretilir mi？",
+        "answer": "Evet. Model, isteğinize göre senkronize diyalog, ortam sesleri ve ses efektleri oluşturur. Ses ve görseller hizalı kalır."
+      },
+      "q3": {
+        "question": "Kamera hareketini kontrol edebilir miyim？",
+        "answer": "Evet. İsteğinizde kamera hareketlerini açıklayın—dolly, takip, vinç, zoom—ve model bunları uygular."
+      },
+      "q4": {
+        "question": "Videoları uzatabilir miyim？",
+        "answer": "Evet. Son kareden devam etmek ve daha uzun diziler oluşturmak için video uzatmayı kullanın."
+      },
+      "q5": {
+        "question": "Görüntüden Videoya'dan farkı nedir？",
+        "answer": "Metinden Video, metin açıklamanızdan her şeyi üretir. Görüntüden Video, hareket üretirken karakter kimliğini, stilini veya kompozisyonunu kontrol etmek için yüklenen fotoğrafları kullanır."
+      }
+    }
+  }
+}

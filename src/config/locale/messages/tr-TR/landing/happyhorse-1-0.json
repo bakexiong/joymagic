@@ -1,0 +1,122 @@
+{
+  "textToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 Metinden Videoya - Sinematik AI Video Oluşturucu | joymagic",
+      "description": "HappyHorse 1.0 ile 3-15 saniyelik 720p sinematik klipler oluşturun. Prompt'ları yüksek kaliteli 16:9 AI videolara dönüştürün ve isterseniz seed ile sonucu tekrar üretin.",
+      "keywords": "happyhorse 1.0, metinden videoya, ai video oluşturucu, alibaba happyhorse, sinematik ai video, 720p metinden videoya, 16:9 ai video"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 Metinden Videoya",
+      "description": "HappyHorse 1.0 basit bir prompt'u cilalı 3-15 saniyelik sinematik bir klibe dönüştürür. Akış sade tutulur: yerel 16:9 kadraj, 720p çıktı ve tekrar üretilebilir taslaklar için isteğe bağlı seed kontrolü. <br/><br/>Sabit bir görseli canlandırmak mı istiyorsunuz? <a href=\"/image-to-video/happyhorse-1-0\" class=\"text-primary underline\">HappyHorse 1.0 Görselden Videoya</a> deneyin.",
+      "button1": "Şimdi dene",
+      "button2": "Fiyatları gör"
+    },
+    "keyFeatures": {
+      "title": "Öne çıkan özellikler",
+      "cinematicPreset": {
+        "title": "Varsayılan sinematik görünüm",
+        "description": "Görsel hikâye anlatımı, sunumlar ve sosyal medya teaser'ları için kısa klipler üretir."
+      },
+      "fastStoryboard": {
+        "title": "Esnek 3-15 saniyelik taslaklar",
+        "description": "Sabit süre, fikirleri hızlıca karşılaştırmayı ve prompt yönünü netleştirmeyi kolaylaştırır."
+      },
+      "reproducibleSeed": {
+        "title": "Tekrarlanabilir seed kontrolü",
+        "description": "Farklı denemelerde benzer sonuçlar istiyorsanız seed kullanabilirsiniz."
+      },
+      "nativeWideframe": {
+        "title": "Doğal 16:9 çıktı",
+        "description": "Ek yeniden kadrajlama olmadan paylaşılabilir geniş ekran klipler üretin."
+      }
+    },
+    "faq": {
+      "title": "SSS",
+      "q1": {
+        "question": "HappyHorse 1.0 Metinden Videoya nedir?",
+        "answer": "Alibaba HappyHorse 1.0 kullanarak metin prompt'unu 3-15 saniyelik 720p video klibe dönüştüren bir AI video akışıdır."
+      },
+      "q2": {
+        "question": "Hangi en-boy oranını destekliyor?",
+        "answer": "Mevcut metinden videoya akışı 16:9 çıktı için optimize edilmiştir."
+      },
+      "q3": {
+        "question": "Süreyi seçebilir miyim?",
+        "answer": "Bu sürüm hızlı yineleme ve daha uzun önizlemeler için seçilebilir 3-15 saniyelik üretimi destekler."
+      },
+      "q4": {
+        "question": "Seed ne işe yarar?",
+        "answer": "Seed, birden fazla çalıştırmada sonucu tekrar üretmeye veya daha tutarlı hale getirmeye yardımcı olur."
+      },
+      "q5": {
+        "question": "Bu model kimler için uygundur?",
+        "answer": "Kısa sinematik konsept kliplerine ihtiyaç duyan içerik üreticileri, pazarlama ekipleri ve ürün ekipleri için uygundur."
+      }
+    },
+    "finalCTA": {
+      "title": "HappyHorse 1.0 ile üretmeye hazır mısınız?",
+      "description": "Prompt'larınızı saniyeler içinde kısa sinematik kliplere dönüştürün.",
+      "button": "Video oluştur"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 Görselden Videoya - Durağan görselleri AI ile canlandırın | joymagic",
+      "description": "HappyHorse 1.0 ile durağan bir görseli 3-15 saniyelik 720p klibe dönüştürün. Tek bir görsel yükleyin ve hızlıca temiz hareket üretin.",
+      "keywords": "happyhorse 1.0, görselden videoya, görsel animasyonu, ai görsel animasyonu, alibaba happyhorse, 720p görselden videoya, 3-15 saniyelik ai video"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 Görselden Videoya",
+      "description": "HappyHorse 1.0 tek bir görseli 3-15 saniyelik 720p animasyon klibine dönüştürür. Bir referans görsel yükleyin, isterseniz hareket prompt'u ekleyin ve kısa sürede temiz bir geniş ekran sonuç alın. <br/><br/>Metinden başlamak isterseniz <a href=\"/text-to-video/happyhorse-1-0\" class=\"text-primary underline\">HappyHorse 1.0 Metinden Videoya</a> deneyin.",
+      "button1": "Şimdi dene",
+      "button2": "Fiyatları gör"
+    },
+    "keyFeatures": {
+      "title": "Öne çıkan özellikler",
+      "singleImageMotion": {
+        "title": "Tek görselle animasyon",
+        "description": "Karmaşık sahne kurmadan bir durağan görseli harekete dönüştürün."
+      },
+      "fastFiveSecond": {
+        "title": "Hızlı 3-15 saniyelik çıktı",
+        "description": "Kısa ve sabit süre, hafif testler yapmayı ve sonuçları hızlı karşılaştırmayı kolaylaştırır."
+      },
+      "cleanOutput": {
+        "title": "Temiz 720p çıktı",
+        "description": "Konsept demoları, sosyal medya içerikleri ve kampanya mockup'ları için HD klipler üretin."
+      },
+      "simpleWorkflow": {
+        "title": "Basit iş akışı",
+        "description": "Görsel, süre ve çözünürlük gibi temel kontrollere odaklanın; hareket yönlendirmesi için prompt'u isteğe bağlı kullanın."
+      }
+    },
+    "faq": {
+      "title": "SSS",
+      "q1": {
+        "question": "HappyHorse 1.0 Görselden Videoya ne yapar?",
+        "answer": "Yüklediğiniz tek bir görseli kısa bir AI video klibine dönüştürür."
+      },
+      "q2": {
+        "question": "Prompt yazmak zorunda mıyım?",
+        "answer": "Hayır. Prompt isteğe bağlıdır ancak hareketi ve atmosferi yönlendirmeye yardımcı olabilir."
+      },
+      "q3": {
+        "question": "Hangi çıktı kalitesi mevcut?",
+        "answer": "Mevcut kurulum 720p ve 1080p videolar üretir."
+      },
+      "q4": {
+        "question": "Her klip ne kadar uzun?",
+        "answer": "Bu akış şu anda 3-15 saniyelik klipler için ayarlanmıştır."
+      },
+      "q5": {
+        "question": "Ne zaman Metinden Videoya yerine Görselden Videoya kullanmalıyım?",
+        "answer": "Korunmasını istediğiniz bir referans kare, karakter, ürün fotoğrafı veya kompozisyonunuz varsa görselden videoya daha uygundur."
+      }
+    },
+    "finalCTA": {
+      "title": "Görselinizi HappyHorse 1.0 ile hareketlendirin",
+      "description": "Durağan bir kare yükleyin ve onu hızlıca harekete dönüştürün.",
+      "button": "Görseli canlandır"
+    }
+  }
+}

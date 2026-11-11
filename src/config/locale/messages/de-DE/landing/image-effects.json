@@ -1,0 +1,64 @@
+{
+  "titles": {
+    "advanced-photography": "Fortgeschrittene Fotografie",
+    "plastic-bubble-figure": "Plastikblasen-Figur",
+    "felt-3d-polaroid": "Filz-3D-Polaroid",
+    "glass-ball": "Glaskugel",
+    "micro-landscape-mini-world": "Mikro-Landschaft Mini-Welt",
+    "american-comic-style": "Amerikanischer Comic-Stil",
+    "futuristic-american-comics": "Futuristische amerikanische Comics",
+    "my-world": "Meine Welt",
+    "felt-keychain": "Filz-Schlüsselanhänger",
+    "lofi-pixel-character-mini-card": "Lo-Fi-Pixelcharakter-Minikarte",
+    "blurry-selfie-luffy": "Verschwommenes Luffy-Selfie",
+    "cyberpunk": "Cyberpunk",
+    "exotic-charm": "Exotischer Charme",
+    "acrylic-ornaments": "Acryl-Schmuckstücke",
+    "furry-dream-doll": "Flauschige Traum-Puppe",
+    "in-the-stadium": "Im Stadion",
+    "lying-in-fluffy-belly": "Im flauschigen Bauch liegen",
+    "angel-figurine": "Engelsfigur"
+  },
+  "gallery": {
+    "metadata": {
+      "title": "Bildeffekte | joymagic",
+      "description": "Durchstöbere angesagte Bildeffekte in einer Masonry-Galerie und springe mit einem Klick direkt in die Bild-Erstellung."
+    },
+    "ctaLabel": "Ähnliches Bild erstellen",
+    "inputLabel": "Eingabe",
+    "outputLabel": "Ausgabe",
+    "previewLabel": "Vorschau"
+  },
+  "workspace": {
+    "metadata": {
+      "title": "Bildeffekte-Arbeitsbereich | joymagic",
+      "description": "Lade ein Bild hoch, wähle einen Bildeffekt und verwalte diese Erstellung in einem speziellen Arbeitsbereich."
+    },
+    "category": "Bild",
+    "pageTitle": "Bildeffekte",
+    "workspaceLabel": "Arbeitsbereich",
+    "inputBadge": "1 Bildeingabe",
+    "selectedEffect": "Ausgewählter Effekt",
+    "change": "Ändern",
+    "imageTitle": "Bild",
+    "imageHint": "PNG, JPG, WEBP bis zu 15 MB",
+    "uploadHint": "Klicke, um ein Bild hochzuladen",
+    "tryExamples": "Beispiele ausprobieren",
+    "estimating": "Wird berechnet...",
+    "create": "Erstellen",
+    "creditsUnit": "Credits",
+    "estimateError": "Credit-Schätzung fehlgeschlagen:",
+    "emptyState": "Ups! Es sieht so aus, als hättest du noch nichts erstellt.",
+    "inputLabel": "Eingabe",
+    "outputLabel": "Ausgabe",
+    "exampleAria": "Beispiel {index} verwenden",
+    "dialog": {
+      "title": "Einen Bildeffekt auswählen",
+      "searchPlaceholder": "Nach dem gewünschten Effekt suchen",
+      "closeAria": "Effektauswahl schließen",
+      "description": "Wähle einen Bildeffekt aus denselben Galeriedaten wie auf der Bildeffekt-Seite.",
+      "emptyTitle": "Keine passenden Effekte",
+      "emptyDescription": "Versuche ein anderes Stichwort."
+    }
+  }
+}

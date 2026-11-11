@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "上传源图片",
+      "hint": "上传一张图片（JPG/PNG/WEBP）。",
+      "dragDrop": "拖放或点击上传",
+      "dropHere": "将图片拖放到此处"
+    },
+    "prompt": {
+      "title": "输入转换提示词",
+      "placeholder": "描述您想要如何转换图片，例如：「改为漫画风格」、「让它看起来像水彩画」",
+      "hint": "请具体说明您想要进行的更改"
+    },
+    "generate": {
+      "title": "生成转换后的图片",
+      "cta": "生成",
+      "generating": "生成中..."
+    }
+  },
+  "preview": {
+    "title": "预览",
+    "original": "原始",
+    "swap": "交换",
+    "placeholder": "上传图片并输入提示词以在此处查看转换效果。"
+  },
+  "common": {
+    "selectedCount": "已选择：1 张图片",
+    "notSelected": "未选择"
+  },
+  "errors": {
+    "invalidFileType": "无效的文件类型。请上传图片文件（JPG、PNG、WEBP）。",
+    "uploadFailed": "上传失败：{error}",
+    "uploadFailedGeneric": "上传失败",
+    "sourceImageRequired": "请上传一张源图片",
+    "promptRequired": "请输入转换提示词",
+    "generationFailed": "图片生成失败",
+    "taskFailed": "任务处理失败",
+    "taskTimeout": "任务处理超时，请稍后再试",
+    "taskIdNotFound": "无法获取任务 ID，请检查 API 响应格式",
+    "processingFailed": "处理失败，请重试",
+    "statusQueryFailed": "查询任务状态失败",
+    "apiResponseParseFailed": "解析 API 响应失败"
+  },
+  "page": {
+    "metadata": {
+      "title": "Grok Imagine 图片转换 AI 工具 - 使用 AI 转换图片 | joymagic",
+      "description": "使用 Grok Imagine 图片转换 AI 来转换和编辑您的图片。上传一张图片，使用先进的 AI 图片编辑技术进行转换。Grok Imagine 提供快速、高质量的结果。",
+      "keywords": "grok imagine 图片转换, grok imagine, 图片转换 AI, AI 图片编辑器, 图片编辑, 图片转换 AI 工具, AI 图片转换器"
+    },
+    "hero": {
+      "title": "Grok Imagine 图片转换 AI - 使用 AI 转换您的图片",
+      "description": "使用 Grok Imagine 图片转换 AI 来转换和编辑图片。上传一张图片，使用先进的 AI 图片编辑技术进行转换。体验快速、高质量的图片转换效果。",
+      "button1": "试用 Grok Imagine 图片转换",
+      "button2": "查看价格"
+    },
+    "keyFeatures": {
+      "title": "为什么选择 Grok Imagine 图片转换？",
+      "description": "了解 Grok Imagine 图片转换 AI 的强大功能",
+      "singleImage": {
+        "title": "单图上传",
+        "description": "上传一张图片并描述您想要的转换效果。简单快捷。"
+      },
+      "highQuality": {
+        "title": "高质量 Grok Imagine 结果",
+        "description": "使用 Grok Imagine AI 获得卓越的图片质量。生成细节清晰、质量出众的高分辨率转换图片。"
+      },
+      "styleFlexibility": {
+        "title": "多样化风格转换",
+        "description": "使用 Grok Imagine 将图片转换为各种风格 - 写实、艺术、抽象等。通过详细的提示词完全控制输出效果。"
+      },
+      "affordable": {
+        "title": "实惠的 Grok Imagine 价格",
+        "description": "经济实惠的图片转换服务。按次计费，适合任何规模的项目。"
+      }
+    },
+    "promptingTips": {
+      "title": "如何获得最佳的 Grok Imagine 图片转换效果",
+      "specific": {
+        "title": "提示词要具体",
+        "description": "为了获得最佳效果，请准确描述您想要的转换。例如：「改为漫画风格」或「让它看起来像水彩画」。"
+      },
+      "style": {
+        "title": "指定艺术风格",
+        "description": "说明您想要的艺术风格：「漫画风格」、「油画」、「数字艺术」等。"
+      },
+      "color": {
+        "title": "色彩与氛围",
+        "description": "通过描述色彩方案和氛围来增强转换效果：「鲜艳色彩」、「柔和色调」、「阴郁氛围」等。"
+      },
+      "details": {
+        "title": "添加细节说明",
+        "description": "包含光线、构图以及您希望保留或改变的具体元素，以获得最佳质量。"
+      }
+    },
+    "useCases": {
+      "title": "Grok Imagine 图片转换应用场景",
+      "style": {
+        "title": "艺术风格转换",
+        "description": "将照片转换为不同的艺术风格 - 漫画、水彩、油画等。适合创意项目。"
+      },
+      "product": {
+        "title": "产品摄影增强",
+        "description": "为营销材料和社交媒体转换产品照片。快速创建多种风格变体。"
+      },
+      "creative": {
+        "title": "创意设计项目",
+        "description": "尝试不同的艺术风格和转换效果，为创意项目找到理想效果。"
+      },
+      "personal": {
+        "title": "个人使用",
+        "description": "用 AI 重新构想您的照片 - 用一句提示词改变氛围、风格或场景。"
+      }
+    },
+    "faq": {
+      "title": "Grok Imagine 图片转换常见问题",
+      "description": "关于 Grok Imagine 图片转换 AI 工具的常见问题",
+      "q1": {
+        "question": "可以上传多少张图片？",
+        "answer": "每次上传一张图片。在提示词中描述您的转换需求后即可生成。"
+      },
+      "q2": {
+        "question": "如何收费？",
+        "answer": "每次图片转换消耗固定积分。请查看价格页面了解当前费率。"
+      },
+      "q3": {
+        "question": "Grok Imagine 支持哪些图片格式？",
+        "answer": "Grok Imagine 支持 PNG、JPEG、JPG 和 WebP 格式。请确保图片清晰、光线充足以获得最佳效果。"
+      },
+      "q4": {
+        "question": "如何撰写 Grok Imagine 的提示词？",
+        "answer": "为获得最佳效果，请包含详细描述：主体、场景、光线、风格、氛围和构图。描述越详细，转换效果通常越好。"
+      },
+      "q5": {
+        "question": "可以对同一张图片多次转换吗？",
+        "answer": "可以。您可以使用不同的提示词对同一张图片进行多次转换，获得不同效果。"
+      }
+    },
+    "finalCTA": {
+      "title": "准备好试用 Grok Imagine 图片转换了吗？",
+      "description": "立即使用 Grok Imagine AI 开始转换您的图片。体验快速、高质量的图片转换。",
+      "button": "立即试用 Grok Imagine 图片转换"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "imageToImage": "图生图",
+      "grokImagine": "Grok Imagine"
+    },
+    "schema": {
+      "softwareName": "Grok Imagine 图片转换 AI 工具 by joymagic",
+      "howToName": "如何使用 Grok Imagine 图片转换 AI",
+      "howToDescription": "了解如何使用 Grok Imagine 图片转换 AI 转换图片。上传图片并使用 AI 进行编辑转换。",
+      "features": {
+        "aiImageEditing": "Grok Imagine 图片转换 AI 编辑",
+        "singleImage": "Grok Imagine 单图转换",
+        "highQuality": "高质量 Grok Imagine 输出"
+      }
+    }
+  }
+}

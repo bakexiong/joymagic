@@ -1,0 +1,208 @@
+{
+  "module_title": "分销管理后台",
+  "module_description": "集中管理分销运营、审核、佣金和提现流程。",
+  "crumbs": {
+    "admin": "管理后台",
+    "module": "分销管理"
+  },
+  "tabs": {
+    "overview": "数据概览",
+    "affiliates": "推广者管理",
+    "applications": "申请审核",
+    "commissions": "佣金管理",
+    "payouts": "提现管理",
+    "settings": "全局配置"
+  },
+  "sections": {
+    "overview": {
+      "title": "数据概览",
+      "description": "Affiliate 系统运营总览"
+    },
+    "affiliates": {
+      "title": "推广者管理",
+      "description": "查看、管理所有推广者"
+    },
+    "applications": {
+      "title": "申请审核",
+      "description": "处理待审核的推广者申请"
+    },
+    "commissions": {
+      "title": "佣金管理",
+      "description": "查看所有佣金记录"
+    },
+    "payouts": {
+      "title": "提现管理",
+      "description": "审核并处理提现申请"
+    },
+    "settings": {
+      "title": "全局配置",
+      "description": "设置系统参数与规则"
+    }
+  },
+  "search": {
+    "button": "搜索",
+    "affiliates": "搜索姓名 / 邮箱...",
+    "commissions": "搜索推广者 / 用户...",
+    "payouts": "搜索推广者 / PayPal..."
+  },
+  "status": {
+    "normal": "正常",
+    "pending": "待审核",
+    "suspended": "停用",
+    "blacklisted": "拉黑",
+    "withdrawable": "可提现",
+    "confirming": "待确认",
+    "requesting": "申请中",
+    "approved": "审核通过",
+    "paid": "已打款",
+    "rejected": "已拒绝",
+    "canceled": "已取消"
+  },
+  "overview": {
+    "stats": {
+      "total_affiliates": "总推广者",
+      "pending_applications": "待审核申请",
+      "monthly_commission": "本月佣金发放",
+      "pending_payout_amount": "待结算金额",
+      "clicks": "本月点击",
+      "signups": "注册转化",
+      "first_orders": "首订转化",
+      "recent_commissions": "最近佣金记录",
+      "latest_activity": "最新动态",
+      "view_all": "查看全部"
+    },
+    "table": {
+      "affiliate": "推广者",
+      "type": "类型",
+      "amount": "金额",
+      "status": "状态"
+    }
+  },
+  "affiliates": {
+    "filters": {
+      "all": "全部",
+      "normal": "正常",
+      "pending": "待审核",
+      "suspended": "停用",
+      "blacklisted": "拉黑"
+    },
+    "create": {
+      "title": "管理员直接添加推广者",
+      "description": "可绑定已有站内用户，也可直接创建一个新账号并开通推广者身份。",
+      "email": "用户邮箱",
+      "name": "姓名（可选）",
+      "password": "新用户初始密码",
+      "paypal": "PayPal 邮箱",
+      "platform": "社媒平台",
+      "account": "社媒账号 / 链接",
+      "channel": "推广渠道说明",
+      "note": "推广备注",
+      "standard": "普通推广者",
+      "kol": "KOL",
+      "submit": "创建推广者"
+    },
+    "empty": "暂无推广者数据",
+    "table": {
+      "affiliate": "推广者",
+      "email": "邮箱",
+      "tier": "类型",
+      "referrals": "推广关系",
+      "confirming": "待确认",
+      "withdrawable": "可提现",
+      "status": "状态",
+      "actions": "操作",
+      "set_rate": "佣金比例",
+      "upgrade": "升级 KOL",
+      "suspend": "停用",
+      "resume": "恢复",
+      "blacklist": "拉黑",
+      "banned": "已永久封禁"
+    }
+  },
+  "applications": {
+    "summary": "条申请",
+    "total": "共 {count} 条申请",
+    "pending_badge": "待审核",
+    "social_account": "社媒账号",
+    "channels": "推广渠道",
+    "paypal": "PayPal 账号",
+    "bio": "推广说明",
+    "empty": "未填写",
+    "approve": "审核通过",
+    "approve_kol": "通过并设为 KOL",
+    "reject": "拒绝",
+    "reject_suggested": "拒绝（建议）",
+    "reviewed_hint": "该申请已处理，如需调整请到数据层或补充对应操作入口。"
+  },
+  "commissions": {
+    "filters": {
+      "all": "全部",
+      "confirming": "待确认",
+      "withdrawable": "可提现",
+      "first_order": "首订 + 续订",
+      "renewal_only": "仅续订"
+    },
+    "table": {
+      "affiliate": "推广者",
+      "referred_user": "被推广用户",
+      "type": "类型",
+      "order_amount": "订单金额",
+      "ratio": "比例",
+      "commission": "佣金",
+      "status": "状态",
+      "time": "时间"
+    }
+  },
+  "payouts": {
+    "filters": {
+      "all": "全部",
+      "requesting": "申请中",
+      "approved": "审核通过",
+      "paid": "已打款",
+      "rejected": "已拒绝"
+    },
+    "table": {
+      "affiliate": "推广者",
+      "paypal": "PayPal 账号",
+      "amount": "申请金额",
+      "requested_at": "申请时间",
+      "available": "可用余额",
+      "status": "状态",
+      "actions": "操作",
+      "approve": "审核通过",
+      "mark_paid": "标记已打款",
+      "reject": "拒绝",
+      "note": "备注"
+    }
+  },
+  "settings": {
+    "commission": {
+      "title": "普通推广者佣金比例",
+      "description": "统一比例（适用所有普通推广者）",
+      "first_order": "首订佣金比例",
+      "renewal": "续订佣金比例",
+      "save": "保存"
+    },
+    "tracking": {
+      "title": "追踪与归因",
+      "cookie_days": "点击链接后有效天数",
+      "confirm_days": "佣金确认时效",
+      "save": "保存"
+    },
+    "withdrawal": {
+      "title": "提现规则",
+      "minimum": "最低提现金额",
+      "save": "保存"
+    },
+    "risk": {
+      "title": "反作弊规则",
+      "window_minutes": "时间窗口",
+      "max_clicks": "最大有效点击数",
+      "save": "保存"
+    },
+    "agreement": {
+      "title": "推广协议",
+      "save": "保存协议"
+    }
+  }
+}

@@ -1,0 +1,1511 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "joymagic",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "joymagic"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Функции",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "Цена",
+          "url": "/pricing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Партнерка",
+          "url": "/affiliate",
+          "icon": "Handshake"
+        },
+        {
+          "title": "AI эффект",
+          "icon": "Sparkles",
+          "children": [
+            {
+              "title": "Эффекты изображений",
+              "url": "/image-effect",
+              "icon": "Image"
+            },
+            {
+              "title": "Видеоэффекты",
+              "url": "/video-effect",
+              "icon": "Clapperboard"
+            }
+          ]
+        },
+        {
+          "title": "Изображение ИИ",
+          "icon": "Image",
+          "children": [
+            {
+              "title": "Текст в изображение",
+              "icon": "Image",
+              "children": [
+                {
+                  "title": "GPT Image 2",
+                  "url": "/text-to-image/gpt-image-2",
+                  "icon": "Image",
+                  "description": "Создавайте с GPT Image 2 китайские постеры, фотореалистичные сцены, UI-скриншоты и продуктовые визуалы",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Общее",
+                  "url": "/text-to-image/z-image-turbo",
+                  "icon": "Image",
+                  "description": "Создавайте изображения из текста с помощью модели AI Общее",
+                  "badge": "Бесплатно",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana",
+                  "url": "/text-to-image/nano-banana",
+                  "icon": "Image",
+                  "description": "Создавайте изображения из текста с помощью модели AI Nano Banana",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana Pro",
+                  "url": "/text-to-image/nano-banana-pro",
+                  "icon": "Image",
+                  "description": "Создавайте высококачественные изображения из текста с помощью модели AI Nano Banana Pro",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana 2",
+                  "url": "/text-to-image/nano-banana-2",
+                  "icon": "Image",
+                  "description": "Текст в изображение нового поколения с управлением камерой, чётким рендерингом текста и разрешением до 4K",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream V4.5",
+                  "url": "/text-to-image/seedream-4-5",
+                  "icon": "Image",
+                  "description": "Создавайте потрясающие изображения из текста с помощью модели AI Seedream V4.5",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream 5.0 Lite",
+                  "url": "/text-to-image/seedream-5-0-lite",
+                  "icon": "Image",
+                  "description": "Создавайте потрясающие изображения из текста с помощью модели AI Seedream 5.0 Lite",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Flux 2 Klein",
+                  "url": "/text-to-image/flux-2-klein",
+                  "icon": "Image",
+                  "description": "Создавайте потрясающие изображения из текста с помощью модели AI Flux 2 Klein",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "GPT Image 1",
+                  "url": "/text-to-image/gpt-image-1",
+                  "icon": "Image",
+                  "description": "Создавайте изображения из текста с помощью модели AI GPT Image 1",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Qwen Image 202512",
+                  "url": "/text-to-image/qwen-image-202512",
+                  "icon": "Image",
+                  "description": "Создавайте потрясающие изображения из текста с помощью модели AI Qwen Image 202512",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/text-to-image/wan-2-7",
+                  "icon": "Image",
+                  "description": "Создавайте качественные изображения из текста с Wan 2.7, с Thinking Mode и разрешением до 4096",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Midjourney",
+                  "url": "/text-to-image/midjourney",
+                  "icon": "Image",
+                  "description": "Создавайте художественные изображения с помощью AI-модели в стиле Midjourney",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/text_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Изображение в изображение",
+              "icon": "Images",
+              "badge": "Бесплатно",
+              "children": [
+                {
+                  "title": "GPT Image 2",
+                  "url": "/image-to-image/gpt-image-2",
+                  "icon": "Images",
+                  "description": "Редактируйте до 4 изображений с GPT Image 2 для китайских постеров, фотореалистичной ретуши, макетов документов и UI-скриншотов.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Общее",
+                  "url": "/image-to-image",
+                  "icon": "Images",
+                  "description": "Создание новых изображений на основе существующих",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Flux 2 Klein",
+                  "url": "/image-to-image/flux-2-klein",
+                  "icon": "Images",
+                  "description": "Преобразуйте и редактируйте изображения с Flux 2 Klein. Загрузите до 4 изображений, 2 кредита за изображение.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Soul",
+                  "url": "/image-to-image/soul",
+                  "icon": "Images",
+                  "description": "Преобразуйте изображения с Soul. Контроль качества, размера, силы и стиля.",
+                  "badge": "Hot",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Z Image Turbo",
+                  "url": "/image-to-image/z-image-turbo",
+                  "icon": "Images",
+                  "description": "Преобразуйте изображения с Z Image Turbo. Размер, сила и формат вывода.",
+                  "badge": "Бесплатно",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Grok Imagine",
+                  "url": "/image-to-image/grok-imagine-image",
+                  "icon": "Images",
+                  "description": "Преобразуйте изображения с Grok Imagine. Загрузите одно изображение и опишите преобразование.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedream 5.0 Lite",
+                  "url": "/image-to-image/seedream-5-0-lite",
+                  "icon": "Images",
+                  "description": "Преобразуйте изображения с помощью Seedream 5.0 Lite. Загрузите изображение и опишите желаемое преобразование.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Qwen Image Max",
+                  "url": "/image-to-image/qwen-image-max",
+                  "icon": "Images",
+                  "description": "Редактируйте и преобразуйте изображения с Qwen Image Max AI. Интеллектуальное редактирование на базе qwen-image-max-edit.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/image-to-image/wan-2-7",
+                  "icon": "Images",
+                  "description": "Редактируйте и трансформируйте изображения с Wan 2.7. Загружайте изображения, управляйте размером до 4096 и уточняйте результат через seed.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7 Image Edit Pro",
+                  "url": "/image-to-image/wan-2-7-image-edit-pro",
+                  "icon": "Images",
+                  "description": "Продвинутое редактирование Wan 2.7 с поддержкой до 9 изображений, пользовательским размером до 4096 и seed-контролем.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana",
+                  "url": "/image-to-image/nano-banana",
+                  "icon": "Images",
+                  "description": "Nano Banana AI-редактор изображений. Загрузите до 10 изображений с выбором соотношения сторон для интеллектуальных преобразований.",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana 2",
+                  "url": "/image-to-image/nano-banana-2",
+                  "icon": "Images",
+                  "description": "Nano Banana 2 image-to-image AI editor. Upload up to 14 images with aspect ratio and 1K/2K/4K resolution controls. Powered by nano-banana-2-edit.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Nano Banana Pro Edit Ultra",
+                  "url": "/image-to-image/nano-banana-pro-edit-ultra",
+                  "icon": "Images",
+                  "description": "Nano Banana Pro Edit Ultra image-to-image AI editor. Upload up to 14 images with aspect ratio and 4K/8K resolution controls. Powered by nano-banana-pro-edit-ultra.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_to_image.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Qwen Слои Изображений",
+              "url": "/qwen-image-layered",
+              "icon": "Layers",
+              "description": "Разложение изображений на редактируемые RGBA слои",
+              "icon_url": "https://ocdn.10b.ai/icon/qwen_image_layered.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Стиратель Изображений",
+              "url": "/image-eraser",
+              "icon": "Eraser",
+              "description": "Удаление нежелательных объектов, водяных знаков и фонов с изображений",
+              "icon_url": "https://ocdn.10b.ai/icon/%20image_eraser.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Удаление Фона",
+              "url": "/image-background-remover",
+              "icon": "Scissors",
+              "description": "Мгновенное удаление фона с изображений с помощью ИИ",
+              "badge": "Free",
+              "icon_url": "https://ocdn.10b.ai/icon/background_remove.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Увеличение Изображений",
+              "url": "/image-upscaler",
+              "icon": "Maximize2",
+              "description": "Увеличить изображения до 4K, 8K или 16K с точностью ИИ",
+              "icon_url": "https://ocdn.10b.ai/icon/image_upscaler.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            }
+          ]
+        },
+        {
+          "title": "Видео ИИ",
+          "icon": "Video",
+          "children": [
+            {
+              "title": "Текст в видео",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "HappyHorse 1.0",
+                  "url": "/text-to-video/happyhorse-1-0",
+                  "icon": "Video",
+                  "description": "Генерация видео из текста с HappyHorse 1.0 - кинематографичное 5-секундное 720p видео 16:9 с опциональным seed",
+                  "badge": "Новое",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/text-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Создавайте видео из текста с Wan 2.7: 1080p, выбор соотношения сторон, до 15 секунд, расширение промпта и seed-контроль.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.6",
+                  "url": "/text-to-video/wan-2-6",
+                  "icon": "Video",
+                  "description": "Генерация видео из текста с Wan 2.6",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Veo 3.1",
+                  "url": "/text-to-video/veo-3-1",
+                  "icon": "Video",
+                  "description": "Генерация видео из текста с Veo 3.1",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 1.5 Pro",
+                  "url": "/text-to-video/seedance-1-5-pro",
+                  "icon": "Video",
+                  "description": "Генерация видео из текста с помощью Seedance 1.5 Pro",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 2.0",
+                  "url": "/text-to-video/seedance-2-0",
+                  "icon": "Video",
+                  "description": "Text to video generation with Seedance 2.0",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "PixVerse v5.6",
+                  "url": "/text-to-video/pixverse-5-6",
+                  "icon": "Video",
+                  "description": "Генерация видео из текста с PixVerse v5.6",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "LTX-2",
+                  "url": "/text-to-video/ltx2-fast",
+                  "icon": "Video",
+                  "description": "Генерация видео из текста с LTX-2 - Генератор видео AI 4K с синхронизированным аудио",
+                  "badge": "Hot",
+                  "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/text_to_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Изображение в видео",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "HappyHorse 1.0",
+                  "url": "/image-to-video/happyhorse-1-0",
+                  "icon": "Video",
+                  "description": "Генерация видео из изображения с HappyHorse 1.0 - анимация одного изображения в 5-секундный 720p кинематографичный клип",
+                  "badge": "Новое",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Wan 2.7",
+                  "url": "/image-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Анимируйте изображения с Wan 2.7, используя стартовый кадр, опциональный финальный кадр, опциональный звук, разрешение, длительность, расширение промпта и seed.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Vidu Q3",
+                  "url": "/image-to-video/vidu-q3",
+                  "icon": "Video",
+                  "description": "Генерация видео из изображения с Vidu Q3 — управляйте амплитудой движения и при желании добавляйте аудио и фоновую музыку",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Veo 3.1",
+                  "url": "/image-to-video/veo-3-1",
+                  "icon": "Video",
+                  "description": "Генерация видео из изображения с Veo 3.1",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 1.5 Pro",
+                  "url": "/image-to-video/seedance-1-5-pro",
+                  "icon": "Video",
+                  "description": "Генерация видео из изображения с Seedance 1.5 Pro",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Seedance 2.0",
+                  "url": "/image-to-video/seedance-2-0",
+                  "icon": "Video",
+                  "description": "Генерация видео из изображения с Seedance 2.0",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500",
+                  "badge": "New"
+                },
+                {
+                  "title": "PixVerse v5.6",
+                  "url": "/image-to-video/pixverse-5-6",
+                  "icon": "Video",
+                  "description": "Генерация видео из изображения с PixVerse v5.6",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "LTX-2",
+                  "url": "/image-to-video/ltx2-fast",
+                  "icon": "Video",
+                  "description": "Генерация видео из изображения с LTX-2 - Генератор видео AI 4K с синхронизированным аудио",
+                  "badge": "Hot",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Управление движением",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "Kling 2.6 Pro",
+                  "url": "/motion-control/kling-2-6-pro",
+                  "icon": "Video",
+                  "description": "Генерация видео с управлением движением с помощью Kling 2.6 Pro - Управляйте движением видео с помощью изображений и видео",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Longcat Avatar",
+              "url": "/longcat-avatar",
+              "icon": "Video",
+              "description": "Создавайте видео с AI-аватарами с синхронизацией аудио и изображений - Генерируйте говорящие видео-аватары до 2 минут",
+              "icon_url": "https://ocdn.10b.ai/icon/longcat_avatar.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Reference To Video",
+              "icon": "Video",
+              "children": [
+                {
+                  "title": "Wan 2.7",
+                  "url": "/reference-to-video/wan-2-7",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Wan 2.7 using multi-image and multi-video identity guidance.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 4K",
+                  "url": "/reference-to-video/kling-video-o3-4k",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 4K for high-fidelity subject-consistent shots.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O1 Std",
+                  "url": "/reference-to-video/kling-video-o1-std",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O1 Std using image and optional video references.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 Pro",
+                  "url": "/reference-to-video/kling-video-o3-pro",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 Pro, with optional audio generation and motion guidance.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Kling Video O3 Std",
+                  "url": "/reference-to-video/kling-video-o3-std",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Kling Video O3 Std for subject-consistent cinematic clips.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/motion_control.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                },
+                {
+                  "title": "Grok Imagine Video",
+                  "url": "/reference-to-video/grok-imagine-video",
+                  "icon": "Video",
+                  "description": "Reference to video generation with Grok Imagine Video from multiple reference images.",
+                  "badge": "New",
+                  "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+                }
+              ],
+              "icon_url": "https://ocdn.10b.ai/icon/image_video.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            },
+            {
+              "title": "Video Extend",
+              "url": "/video-extend/wan-2-7",
+              "icon": "Video",
+              "description": "Extend existing videos with Wan 2.7, with optional audio, prompt expansion, and 720p/1080p output.",
+              "badge": "Новое",
+              "icon_url": "https://ocdn.10b.ai/icon/video_extend.png?x-oss-process=image/resize,m_fill,w_500,h_500"
+            }
+          ]
+        },
+        {
+          "title": "Блог",
+          "url": "/blog",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": []
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "disclaimer": "joymagic — независимый сервис генерации изображений с ИИ и не связан, не одобрен и не аффилирован с Alibaba Group или любыми их ИИ‑моделями. Любые упоминания \"joymagic\" относятся исключительно к нашему продукту и технологии."
+  },
+  "hero": {
+    "id": "hero",
+    "title": "joymagic — быстрый и бесплатный генератор изображений",
+    "highlight_text": "Быстро и бесплатно",
+    "description": "Z-image развёрнут и оптимизирован joymagic на базе open-source ИИ‑моделей для быстрого и качественного создания изображений.",
+    "announcement": null,
+    "buttons": [
+      {
+        "title": "Присоединяйтесь к Discord за секретными промптами!",
+        "url": "https://discord.gg/bVCk5PHb8d",
+        "icon_url": "https://pub.wanai.pro/%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90/discord-logo-discord-icon-transparent-free-png.png",
+        "target": "_blank"
+      }
+    ],
+    "show_avatars": true,
+    "show_award": true,
+    "image": {
+      "src": "/imgs/features/hero-zimage.webp",
+      "alt": "joymagic"
+    },
+    "image_invert": {
+      "src": "/imgs/features/hero-zimage-dark.webp",
+      "alt": "joymagic"
+    }
+  },
+  "logos": {
+    "title": "Доступно на ведущих AI‑платформах",
+    "items": [
+      {
+        "title": "GitHub",
+        "image": {
+          "src": "/imgs/logos/github.svg",
+          "alt": "GitHub"
+        }
+      },
+      {
+        "title": "ModelScope",
+        "image": {
+          "src": "/imgs/logos/modelscope.svg",
+          "alt": "ModelScope"
+        }
+      },
+      {
+        "title": "HuggingFace",
+        "image": {
+          "src": "/imgs/logos/huggingface.svg",
+          "alt": "HuggingFace"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "id": "introduce",
+    "title": "Какие ИИ‑модели использует joymagic?",
+    "label": "Введение",
+    "description": "joymagic развёртывает и оптимизирует open-source diffusion transformer модели на 6B параметров, такие как joymagic, выпущенные под лицензией Apache-2.0. Мы предоставляем улучшенную inference‑платформу, систему безопасности и UI для более удобного использования.",
+    "image": {
+      "src": "/imgs/features/zimage-intro.webp",
+      "alt": "introduce"
+    },
+    "items": [
+      {
+        "title": "Фотореалистичное качество",
+        "description": "Реализм уровня фотографии с тонким контролем деталей, освещения и текстур. Отличная эстетика в композиции и настроении кадра.",
+        "icon": "Camera",
+        "image": {
+          "src": "/imgs/features/photorealistic.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "Сверхбыстрый вывод",
+        "description": "Субсекундная задержка на корпоративных GPU H800. Для генерации нужно всего 8 шагов.",
+        "icon": "Zap",
+        "image": {
+          "src": "/imgs/features/fast-inference.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "Двуязычный рендер текста",
+        "description": "Точное отображение китайского и английского текста при сохранении реалистичности лиц и общей эстетики композиции.",
+        "icon": "Languages",
+        "image": {
+          "src": "/imgs/features/bilingual-text.webp",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "Эффективное использование VRAM",
+        "description": "Стабильная работа на потребительских видеокартах с VRAM менее 16GB, делая продвинутую генерацию изображений доступнее.",
+        "icon": "MemoryStick",
+        "image": {
+          "src": "/imgs/features/vram.webp",
+          "alt": "introduce"
+        }
+      }
+    ]
+  },
+  "benefits": {
+    "id": "benefits",
+    "title": "Ключевые возможности",
+    "label": "Функции",
+    "description": "Краткий обзор возможностей ИИ‑моделей, развёрнутых на joymagic",
+    "items": [
+      {
+        "title": "Фотореализм",
+        "description": "Реализм уровня фотографии",
+        "icon": "Camera",
+        "image": {
+          "src": "/imgs/features/benefit-1.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "Двуязычный текст",
+        "description": "Точный рендер текста",
+        "icon": "Languages",
+        "image": {
+          "src": "/imgs/features/benefit-4.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "Знания о мире",
+        "description": "Глубокое семантическое понимание",
+        "icon": "Brain",
+        "image": {
+          "src": "/imgs/features/benefit-6.webp",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "Редактирование",
+        "description": "Креативные правки одного изображения",
+        "icon": "Edit",
+        "image": {
+          "src": "/imgs/features/benefit-7.webp",
+          "alt": "benefits"
+        }
+      }
+    ]
+  },
+  "features": {
+    "id": "features",
+    "title": "Демонстрация возможностей",
+    "description": "Откройте возможности ИИ‑моделей, развёрнутых на joymagic.",
+    "items": [
+      {
+        "title": "Фотореалистичная генерация",
+        "description": "Сильная фотореалистичная генерация изображений при сохранении отличной эстетики.",
+        "icon": "Camera"
+      },
+      {
+        "title": "Двуязычный рендер текста",
+        "description": "Точно отображает сложный китайский и английский текст в разных сценариях.",
+        "icon": "Languages"
+      },
+      {
+        "title": "Знания о мире",
+        "description": "Большой объём знаний о мире и понимание разных культурных концептов.",
+        "icon": "Globe"
+      },
+      {
+        "title": "Семантическое понимание",
+        "description": "Использует структурированную цепочку рассуждений, добавляя логику и здравый смысл.",
+        "icon": "Brain"
+      },
+      {
+        "title": "Креативное редактирование",
+        "description": "Точно выполняет сложные инструкции для трансформации изображения.",
+        "icon": "Edit"
+      },
+      {
+        "title": "Следование инструкциям",
+        "description": "Тонкий контроль над элементами и преобразованиями изображения.",
+        "icon": "CheckCircle"
+      }
+    ]
+  },
+  "models": {
+    "id": "models",
+    "title": "Архитектура модели",
+    "description": "При всего 6 миллиардах параметров модель создаёт фотореалистичные изображения на уровне моделей на порядок больше. Она работает стабильно на потребительских GPU с VRAM менее 16GB.",
+    "items": [
+      {
+        "title": "Single-Stream Diffusion",
+        "description": "Модель joymagic использует архитектуру Single-Stream Diffusion Transformer. Этот дизайн объединяет обработку разных условных входов (например, эмбеддинги текста и изображения) с шумными латентами изображения в одну последовательность, которая затем подаётся в Transformer‑backbone.",
+        "image": {
+          "src": "/imgs/features/architecture.webp",
+          "alt": "architecture"
+        }
+      }
+    ]
+  },
+  "architecture": {
+    "id": "architecture",
+    "title": "Техническое погружение",
+    "description": "Узнайте об инновационной архитектуре и подходах к обучению, лежащих в основе joymagic.",
+    "items": [
+      {
+        "title": "Decoupled-DMD",
+        "description": "Ключевой алгоритм дистилляции в несколько шагов, который делает возможной 8‑шаговую модель joymagic. Выявив и разделив CFG Augmentation и Distribution Matching, мы разработали улучшенный процесс дистилляции.",
+        "icon": "Layers"
+      },
+      {
+        "title": "DMDR",
+        "description": "Совмещает DMD с Reinforcement Learning для дополнительных улучшений семантического соответствия, эстетики и структурной согласованности.",
+        "icon": "GitBranch"
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "Часто задаваемые вопросы",
+    "description": "Популярные вопросы о joymagic и его возможностях.",
+    "items": [
+      {
+        "question": "Как joymagic генерирует изображения?",
+        "answer": "joymagic генерирует изображения с помощью продвинутых ИИ‑моделей, выпущенных под open-source лицензией Apache-2.0 и развёрнутых на нашей оптимизированной инфраструктуре инференса. Когда вы вводите текстовый промпт, он проходит через наши системы безопасности и модерации, чтобы соответствовать правилам платформы. Затем промпт отправляется в inference‑pipeline, где модель создаёт изображение по вашему описанию. Итоговый результат мгновенно отображается в браузере. joymagic — независимый сервис, который предоставляет собственный интерфейс, слои безопасности и оптимизации производительности поверх лицензированных компонентов open-source моделей."
+      },
+      {
+        "question": "Является ли joymagic официальным продуктом Alibaba или какого-либо провайдера ИИ‑моделей?",
+        "answer": "Нет. joymagic — независимый сервис генерации изображений с ИИ и не аффилирован, не одобрен и не спонсируется Alibaba Group или любым другим провайдером ИИ‑моделей. Мы развёртываем и оптимизируем ИИ‑модели, выпущенные под open-source лицензией Apache-2.0, на нашей инфраструктуре и добавляем собственные системы безопасности, ограничения использования и интерфейс. Все товарные знаки, названия моделей и продуктов, упомянутые в документации или маркетинговых материалах, принадлежат их владельцам. Подробности см. на страницах AI Wrapper Disclaimer и Open-Source Attribution."
+      },
+      {
+        "question": "Что происходит после ввода промпта?",
+        "answer": "Ваш промпт проходит обязательную проверку безопасности и модерации. Если он одобрен, система обрабатывает его и генерирует изображение. Если он нарушает правила, он будет заблокирован, и может быть предложена альтернативная формулировка."
+      },
+      {
+        "question": "Разрешает ли joymagic генерацию NSFW или контента для взрослых?",
+        "answer": "Нет. joymagic строго запрещает генерировать: сексуальный/порнографический контент, графическое насилие, незаконные или вредные действия, материалы, нарушающие авторские права. Все промпты проверяются перед обработкой."
+      },
+      {
+        "question": "Какие технологии использует joymagic для генерации результатов?",
+        "answer": "joymagic использует оптимизированные diffusion‑transformer модели генерации изображений, поддерживающие быстрый инференс, фотореалистичный вывод и двуязычный рендер текста (китайский и английский). Наш интерфейс делает эти возможности доступными всем пользователям."
+      },
+      {
+        "question": "За что я плачу, когда покупаю кредиты?",
+        "answer": "Кредиты отражают вычислительные затраты. Каждая генерация расходует фиксированное число кредитов, и вы платите только за использование. Подписка не требуется, если вы сами её не выбираете. Скрытых платежей нет."
+      },
+      {
+        "question": "Используются ли мои изображения или промпты для обучения ваших моделей?",
+        "answer": "Нет, если вы явно не дадите разрешение. Промпты обрабатываются только для генерации запрошенного изображения и по умолчанию не сохраняются и не используются для обучения."
+      },
+      {
+        "question": "Хранит ли joymagic какие-либо данные пользователей?",
+        "answer": "Нет. joymagic не хранит промпты, сгенерированные изображения или персональные данные, если вы явно не решите сохранить их в аккаунте."
+      },
+      {
+        "question": "Могу ли я удалить сгенерированные изображения или данные аккаунта?",
+        "answer": "Да. Если вы добровольно сохраняете изображения или данные аккаунта, вы можете удалить их в любое время. Также можно запросить полное удаление данных, написав на support@joymagic.fun."
+      },
+      {
+        "question": "Что означает блокировка промпта модерацией?",
+        "answer": "Это означает, что промпт нарушил правила безопасности. Вы можете отредактировать промпт, чтобы избежать небезопасного или ограниченного контента. Система подскажет, если промпт будет заблокирован."
+      },
+      {
+        "question": "Поддерживает ли joymagic редактирование существующих изображений?",
+        "answer": "Пока нет. joymagic сейчас не поддерживает редактирование загруженных изображений. Однако наша модель редактирования (joymagic Edit) активно разрабатывается и будет выпущена в будущих обновлениях после полного тестирования."
+      },
+      {
+        "question": "Как joymagic защищает приватность пользователей?",
+        "answer": "Мы придерживаемся строгих стандартов приватности: не собираем биометрические данные, не передаём данные третьим сторонам, шифруем данные при передаче и хранении, предоставляем возможность удалить сохранённые данные и информацию аккаунта."
+      },
+      {
+        "question": "Доступна ли служба поддержки?",
+        "answer": "Да. Наша команда поддержки доступна по адресу support@joymagic.fun, обычно мы отвечаем в течение 24–48 рабочих часов."
+      }
+    ]
+  },
+  "share_dialog": {
+    "title": "🎁 Поделитесь, чтобы разблокировать бесплатную генерацию",
+    "description": "🚀 Помогите нам расти! Поделитесь joymagic в соцсетях, чтобы разблокировать БЕСПЛАТНУЮ генерацию изображений. Ваша поддержка делает это возможным!",
+    "share_button": "✅ Я поделился(лась), продолжить генерацию",
+    "share_tip": "Нажмите любую кнопку «Поделиться» выше, завершите публикацию в новом окне, затем нажмите кнопку ниже, чтобы продолжить",
+    "platforms": {
+      "twitter": "Поделиться в X",
+      "reddit": "Поделиться в Reddit",
+      "facebook": "Поделиться в Facebook",
+      "instagram": "Скопировать ссылку"
+    },
+    "share_message": "Попробуйте Z Image Turbo — фотореалистичные изображения всего за 8 шагов!",
+    "share_url": "https://10b.ai"
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "joymagic",
+      "description": "joymagic — быстрый и бесплатный генератор изображений",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "joymagic"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Проект",
+          "children": [
+            {
+              "title": "Функции",
+              "url": "/#features",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Ресурсы",
+          "children": [
+            {
+              "title": "Документация",
+              "url": "/docs",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "support@joymagic.fun",
+          "url": "mailto:support@joymagic.fun"
+        },
+        {
+          "title": "Политика конфиденциальности",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Условия использования",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Политика модерации контента",
+          "url": "/content-moderation-policy"
+        },
+        {
+          "title": "Политика допустимого использования",
+          "url": "/acceptable-use-policy"
+        },
+        {
+          "title": "Политика возврата средств",
+          "url": "/refund-policy"
+        },
+        {
+          "title": "AI Wrapper Disclaimer",
+          "url": "/ai-wrapper-disclaimer"
+        },
+        {
+          "title": "Open-Source Attribution",
+          "url": "/open-source-attribution"
+        }
+      ]
+    },
+    "disclaimer": "joymagic — независимый сервис генерации изображений с ИИ и не связан, не одобрен и не аффилирован с Alibaba Group или любыми их ИИ‑моделями. Любые упоминания \"joymagic\" относятся исключительно к нашему продукту и технологии. joymagic предоставляет пользовательский интерфейс и улучшения рабочего процесса для моделей генерации изображений. Мы — независимая платформа и не связаны с какими-либо сторонними провайдерами моделей.",
+    "show_theme": true,
+    "show_locale": true
+  },
+  "heroImageWall": {
+    "label": "Подборка работ",
+    "title": "Стена вдохновения joymagic — генерация за секунды",
+    "description": "25 последних результатов, ленивная загрузка. Нажмите на любую плитку, чтобы увеличить и рассмотреть детали.",
+    "hint": "Нажмите для увеличения",
+    "view": "Смотреть",
+    "alt": "Изображение галереи {index}"
+  },
+  "wavespeed": {
+    "title": "",
+    "subtitle": "",
+    "prompt_label": "Ваш промпт",
+    "prompt_placeholder": "Опишите изображение, которое хотите сгенерировать... например: стиль фильмов Вонга Кар-вая, одинокий мужчина курит сигарету в узком коридоре Гонконга, 1990-е...",
+    "buttons": {
+      "generating": "Генерация...",
+      "checking": "Проверка доступности...",
+      "unavailable": "Сервис недоступен",
+      "generate": "Создать",
+      "share_to_generate": "Поделиться, чтобы сгенерировать",
+      "click_to_pay": "Нажмите, чтобы оплатить и получить больше кредитов"
+    },
+    "share_hint": "",
+    "prompt_inspirations": "Идеи для промптов",
+    "image_area": {
+      "alt": "Сгенерированное изображение",
+      "loading": "Генерируем ваше изображение...",
+      "placeholder": "Ваше сгенерированное изображение появится здесь"
+    },
+    "links": {
+      "open_in_new_tab": "Открыть в новой вкладке"
+    },
+    "status": {
+      "unknown_error": "Неизвестная ошибка",
+      "submitting": "Отправляем запрос...",
+      "task_submitted": "Задача отправлена. ID запроса: {id}",
+      "processing": "Обработка... Статус: {status}",
+      "image_success": "Изображение успешно создано!",
+      "video_submitting": "Отправляем запрос на генерацию видео...",
+      "video_task_submitted": "Задача на видео отправлена. ID запроса: {id}",
+      "video_processing": "Обработка видео... Статус: {status}",
+      "video_success": "Видео успешно создано!",
+      "estimating": "Оцениваем..."
+    },
+    "errors": {
+      "restricted": "Сервис временно недоступен из-за высокой нагрузки. Пожалуйста, попробуйте позже.",
+      "prompt_required": "Введите промпт",
+      "task_failed": "Задача не выполнена: {error}",
+      "request_timeout": "Время ожидания истекло. Попробуйте ещё раз.",
+      "http_error": "Ошибка: {code}",
+      "http_error_with_text": "Ошибка: {code} - {text}",
+      "request_failed": "Запрос не выполнен: {error}",
+      "estimate_failed": "Не удалось оценить кредиты"
+    },
+    "video": {
+      "cta_pay": "Сгенерировать видео сейчас (оплатите $5 за два видео)",
+      "cta_ready": "Сгенерировать видео из этого изображения",
+      "title": "Генерация видео",
+      "creating": "Создаём ваше видео...",
+      "unsupported": "Ваш браузер не поддерживает тег video.",
+      "download": "Скачать видео",
+      "credit_description": "Генерация видео",
+      "errors": {
+        "insufficient_credits": "Недостаточно кредитов. Для генерации видео нужно минимум 250 кредитов.",
+        "image_required": "Сначала сгенерируйте изображение",
+        "task_failed": "Задача не выполнена: {error}",
+        "timeout": "Время генерации видео истекло. Попробуйте ещё раз."
+      }
+    },
+    "payment": {
+      "title": "Обновитесь для генерации видео",
+      "line1": "Генерация видео доступна только платным пользователям.",
+      "line2": "Текущих кредитов недостаточно — приобретите больше, чтобы продолжить.",
+      "line3": "Пополните баланс сейчас, чтобы разблокировать создание видео.",
+      "cta_note": "Выберите план, чтобы продолжить генерацию видео.",
+      "buy_now": "Купить кредиты",
+      "view_later": "Позже",
+      "description_checking": "Пожалуйста, завершите оплату в новой вкладке. Мы автоматически проверим статус оплаты.",
+      "description_idle": "Оплатите $5 и получите 500 кредитов для joymagic — этого хватит на 250 изображений или 2 конвертации изображение→видео.",
+      "pricing": "Оплатите $5 и получите 500 кредитов",
+      "pricing_note": "Используйте кредиты для 250 генераций изображений (по 2 кредита) или 2 конвертаций изображение→видео (по 250 кредитов).",
+      "waiting_confirmation": "Ожидаем подтверждения оплаты...",
+      "checkout_url_missing": "Ссылка на оплату не найдена",
+      "success_toast": "Оплата прошла успешно! Кредиты добавлены на ваш аккаунт.",
+      "failure_toast": "Ошибка оплаты: {error}",
+      "processing": "Обработка...",
+      "waiting": "Ожидаем оплату...",
+      "pay_button": "Нажмите, чтобы оплатить $5"
+    },
+    "payment_image": {
+      "title": "Бесплатная дневная квота исчерпана",
+      "line1": "Каждый день можно бесплатно сгенерировать 2 изображения.",
+      "line2": "Сегодня ваша бесплатная квота уже использована.",
+      "line3": "Чтобы продолжить прямо сейчас, обновитесь или купите кредиты.",
+      "line4": "Или возвращайтесь завтра — бесплатная квота обновится.",
+      "cta_note": "Выберите план, чтобы продолжить, или возвращайтесь завтра.",
+      "buy_now": "Купить кредиты",
+      "wait_tomorrow": "Попробовать завтра",
+      "description_checking": "Пожалуйста, завершите оплату в новой вкладке. Мы автоматически проверим статус оплаты.",
+      "description_idle": "Вы можете бесплатно генерировать 2 изображения в день. Сегодняшняя бесплатная квота исчерпана. Оплатите $5 и получите 500 кредитов — этого хватит ещё на 250 изображений или 2 конвертации изображение→видео.",
+      "pricing": "Оплатите $5 и получите 500 кредитов",
+      "pricing_note": "2 кредита за генерацию изображения или 250 кредитов за конвертацию изображение→видео.",
+      "waiting_confirmation": "Ожидаем подтверждения оплаты...",
+      "checkout_url_missing": "Ссылка на оплату не найдена",
+      "success_toast": "Оплата прошла успешно! Кредиты добавлены на ваш аккаунт.",
+      "failure_toast": "Ошибка оплаты: {error}",
+      "processing": "Обработка...",
+      "waiting": "Ожидаем оплату...",
+      "pay_button": "Нажмите, чтобы оплатить $5"
+    },
+    "featureCards": {
+      "image": {
+        "title": "Изображение",
+        "description": "Создавайте, редактируйте и исследуйте образы."
+      },
+      "video": {
+        "title": "Видео",
+        "description": "Превращайте промпты и визуалы в клипы."
+      },
+      "audio": {
+        "title": "Аудио",
+        "description": "Скоро",
+        "badge": "Скоро"
+      },
+      "viewAll": "Посмотреть все"
+    },
+    "aiTools": {
+      "title": "AI Tools",
+      "subtitle": "Jump into the right tools from existing scenes."
+    },
+    "freeTools": {
+      "title": "Hot Tools",
+      "subtitle": "Используйте бесплатные инструменты из доступных сцен.",
+      "badges": ["Бесплатно", "Free"]
+    },
+    "aiModels": {
+      "title": "Модели ИИ",
+      "subtitle": "Быстро переходите к нужным инструментам из существующих сцен."
+    },
+    "desktopPlayground": {
+      "credits": "кредиты",
+      "model": {
+        "label": "Модель",
+        "choose": "Выбрать модель",
+        "untitled": "Модель без названия",
+        "fallbackTitle": "ИИ",
+        "fallbackMonogram": "M"
+      },
+      "scene": {
+        "untitled": "Сцена без названия"
+      },
+      "sceneGroups": {
+        "image": "Изображение",
+        "video": "Видео"
+      },
+      "sceneMeta": {
+        "imageDescription": "Создавайте, редактируйте и улучшайте визуалы",
+        "videoDescription": "Анимируйте клипы и сценарии движения"
+      },
+      "scenePicker": {
+        "title": "Выбрать сцену",
+        "close": "Закрыть",
+        "currentSelection": "Текущий выбор",
+        "current": "Текущая",
+        "switch": "Переключить",
+        "currentSceneFallback": "Сцена не выбрана",
+        "empty": "Сейчас нет доступных сцен.",
+        "tabs": {
+          "video": "Видео",
+          "image": "Изображение"
+        },
+        "trigger": {
+          "open": "Сменить сцену",
+          "change": "Изменить"
+        }
+      },
+      "sceneNames": {
+        "textToImage": "Текст в изображение",
+        "imageToImage": "Изображение в изображение",
+        "qwenImageLayered": "Многослойное изображение Qwen",
+        "imageEraser": "Ластик для изображений",
+        "backgroundRemover": "Удаление фона",
+        "imageUpscaler": "Апскейлер изображений",
+        "textToVideo": "Текст в видео",
+        "imageToVideo": "Изображение в видео",
+        "motionControl": "Управление движением",
+        "longcatAvatar": "Аватар Longcat",
+        "videoFaceSwap": "Замена лица в видео",
+        "aiClothesRemover": "Удаление одежды ИИ",
+        "videoExtend": "Video Extend"
+      },
+      "prompt": {
+        "placeholder": "Опишите изображение...",
+        "referencePlaceholder": "Опишите, как преобразовать изображение..."
+      },
+      "aspectRatio": {
+        "auto": "Авто"
+      },
+      "uploads": {
+        "uploading": "Файлы все еще загружаются. Пожалуйста, подождите немного.",
+        "defaultHint": "Загрузите медиа, чтобы продолжить.",
+        "referenceHint": "Загрузите референсные материалы, чтобы начать."
+      },
+      "actions": {
+        "generateImage": "Сгенерировать изображение",
+        "generateVideo": "Сгенерировать видео",
+        "generating": "Генерация..."
+      },
+      "errors": {
+        "generationFailed": "Не удалось выполнить генерацию",
+        "generateImageFailed": "Не удалось сгенерировать изображение",
+        "insufficientCredits": "Недостаточно кредитов: у вас {remaining}, но требуется минимум {required}."
+      },
+      "generatedPanel": {
+        "empty": "Похоже, вы еще ничего не создали.",
+        "titleImages": "Это создание",
+        "titleVideos": "Это создание (видео)",
+        "title": "Сгенерированные {mediaLabel}",
+        "count": "{count} {label}",
+        "image": "изображение",
+        "images": "Изображения",
+        "video": "видео",
+        "videos": "Видео",
+        "itemAlt": "Сгенерировано {index}",
+        "itemLabel": "Сгенерированное {mediaItemLabel} {index}",
+        "preview": {
+          "close": "Закрыть",
+          "openPreview": "Открыть предпросмотр"
+        },
+        "deleteConfirm": {
+          "title": "Подтвердить удаление",
+          "description": "Вы уверены, что хотите удалить это изображение? Это действие нельзя отменить.",
+          "cancel": "Отмена",
+          "confirm": "Удалить"
+        },
+        "defaults": {
+          "imageTitle": "Ваше изображение появится здесь",
+          "videoTitle": "Ваше видео появится здесь",
+          "imageDescription": "Начните создавать или выберите сцену, чтобы сгенерировать первое изображение.",
+          "videoDescription": "Начните создавать или выберите сцену, чтобы сгенерировать первое видео.",
+          "featuredImage": "Избранное изображение",
+          "featuredVideo": "Избранное видео"
+        },
+        "selection": {
+          "clear": "Снять выделение",
+          "download": "Скачать",
+          "delete": "Удалить выбранный элемент",
+          "selectItem": "Выбрать элемент",
+          "selectedItem": "Выбранный элемент",
+          "count": "Выбрано: {count}"
+        },
+        "actions": {
+          "imageToVideo": "Изображение в видео",
+          "regenerate": "Сгенерировать заново",
+          "upscaleImage": "Увеличить изображение"
+        }
+      },
+      "videoWorkbench": {
+        "title": "Сгенерированные видео",
+        "subtitle": "Ваши сгенерированные видео появятся здесь.",
+        "emptyHint": "Запустите генерацию слева, чтобы просматривать и управлять результатами видео здесь."
+      },
+      "fields": {
+        "prompt": "Промпт",
+        "negativePrompt": "Негативный промпт",
+        "referenceImage": "Референсное изображение",
+        "referenceImages": "Референсные изображения",
+        "referenceVideo": "Референсное видео",
+        "audioTrack": "Аудиодорожка",
+        "maskImage": "Маска",
+        "aspectRatio": "Соотношение сторон",
+        "resolution": "Разрешение",
+        "outputFormat": "Формат вывода",
+        "seed": "Сид",
+        "width": "Ширина",
+        "height": "Высота",
+        "size": "Размер",
+        "duration": "Длительность",
+        "shotType": "Тип кадра",
+        "promptExpansion": "Расширение промпта",
+        "generateAudio": "Сгенерировать аудио",
+        "fixedCamera": "Фиксированная камера",
+        "thinkingType": "Режим мышления",
+        "movementAmplitude": "Амплитуда движения",
+        "numberOfLayers": "Количество слоев",
+        "quality": "Качество",
+        "stylize": "Стилизация",
+        "chaos": "Хаос",
+        "weird": "Странность",
+        "version": "Версия",
+        "niji": "Niji",
+        "strength": "Сила",
+        "style": "Стиль",
+        "targetResolution": "Целевое разрешение",
+        "referenceAudio": "Reference Audio",
+        "firstFrame": "Первый кадр",
+        "lastFrame": "Последний кадр (необязательно)"
+      },
+      "options": {
+        "auto": "Авто",
+        "enabled": "Включено",
+        "disabled": "Отключено",
+        "low": "Низкое",
+        "medium": "Среднее",
+        "high": "Высокое",
+        "small": "Малая",
+        "large": "Большая",
+        "singleShot": "Один кадр",
+        "multipleShots": "Несколько кадров",
+        "none": "Нет",
+        "close": "Крупный план"
+      },
+      "placeholders": {
+        "describeImage": "Опишите изображение, которое хотите создать",
+        "transformImage": "Опишите, как нужно преобразовать загруженное изображение",
+        "describeVideo": "Опишите видео, которое хотите создать",
+        "animateImage": "Опишите, как должно двигаться загруженное изображение",
+        "negativePrompt": "Опишите, чего вы хотите избежать",
+        "randomSeed": "Используйте -1 для случайного сидa",
+        "randomSeedOrEmpty": "Оставьте пустым или используйте -1 для случайного сидa",
+        "fillErasedArea": "Опишите, чем нужно заполнить стертый участок"
+      },
+      "descriptions": {
+        "describeImage": "Опишите изображение, которое хотите создать",
+        "widthPixels": "Ширина изображения в пикселях (256-1536, должно быть кратно 64)",
+        "heightPixels": "Высота изображения в пикселях (256-1536, должно быть кратно 64)",
+        "seedHelp": "Задайте сид для воспроизводимых результатов. Используйте -1 для случайного сида.",
+        "optionalReferenceImage": "Загрузите необязательное референсное изображение, чтобы повлиять на стиль.",
+        "numberOfLayers": "Выберите, на сколько семантических слоев разделить исходное изображение.",
+        "promptExpansion": "Позволяет модели автоматически расширять короткие промпты.",
+        "generateAudioSynced": "Генерирует синхронизированный звук для видео.",
+        "generateAudioNative": "Создает нативный синхронизированный звук в выходном видео.",
+        "fixedCamera": "Делает камеру более стабильной во время генерации.",
+        "generateAudioIncluded": "Добавляет сгенерированный моделью звук в результат.",
+        "generateAudioOutput": "Создает синхронизированный звук для видео на выходе.",
+        "referenceVideoMotion": "Загрузите видео, чтобы перенести его паттерн движения.",
+        "audioTrackLimit": "Загрузите аудиодорожку длительностью до 120 секунд.",
+        "faceImage": "Загрузите изображение лица, которое хотите вставить в видео.",
+        "targetVideo": "Загрузите целевое видео для замены лица.",
+        "maskImage": "Необязательно. Загрузите маску, чтобы указать, что нужно удалить.",
+        "uploadUpToImages": "Загрузите до {count} изображений",
+        "uploadImageToAnimate": "Загрузите изображение для анимации",
+        "referenceVideoLimit": "MP4, WebM, MOV (max 50MB, up to 3 videos, duration ≤ 15s)",
+        "referenceAudioLimit": "WAV, MP3 (max 20MB, up to 3 audios, duration ≤ 15s)",
+        "uploadLastFrameImageOptional": "Необязательно: загрузите изображение последнего кадра, чтобы автоматически включить переход от первого кадра к последнему.",
+        "uploadFirstFrameImage": "Загрузите изображение первого кадра."
+      },
+      "mediaPanel": {
+        "common": {
+          "all": "Все"
+        },
+        "tabs": {
+          "assets": "Ресурсы",
+          "creations": "Работы",
+          "uploads": "Загрузки",
+          "collections": "Коллекции",
+          "templates": "Шаблоны"
+        },
+        "filters": {
+          "open": "Открыть фильтры",
+          "title": "Фильтры",
+          "subtitle": "Уточните отображение ваших работ",
+          "dateRange": "Диапазон дат",
+          "pickDateRange": "Выберите диапазон дат",
+          "keyword": "Ключевое слово",
+          "searchPlaceholder": "Искать в загрузках",
+          "type": "Тип",
+          "tool": "Инструмент",
+          "model": "Модель",
+          "clear": "Очистить",
+          "cancel": "Отмена",
+          "apply": "Применить",
+          "done": "Готово"
+        },
+        "mediaTypes": {
+          "image": "Изображение",
+          "video": "Видео",
+          "audio": "Аудио"
+        },
+        "weekdays": {
+          "su": "Вс",
+          "mo": "Пн",
+          "tu": "Вт",
+          "we": "Ср",
+          "th": "Чт",
+          "fr": "Пт",
+          "sa": "Сб"
+        },
+        "collections": {
+          "heading": "Collections",
+          "createCardLabel": "Create New Collections",
+          "createTitle": "Create collection",
+          "createDescription": "Group related assets so you can organise your workspace faster.",
+          "renameTitle": "Rename collection",
+          "renameDescription": "Choose a clearer name for this collection.",
+          "deleteTitle": "Delete collection",
+          "deleteDescription": "Delete \"{name}\"? This only removes the collection itself for now.",
+          "renameAction": "Rename",
+          "deleteAction": "Delete",
+          "createAction": "Create",
+          "cancelAction": "Cancel",
+          "nameLabel": "Collection name",
+          "namePlaceholder": "Enter a collection name",
+          "assetsCount": "{count} assets",
+          "emptyTitle": "No collections yet",
+          "emptyDescription": "Create your first collection to start organising assets.",
+          "createSuccess": "Collection created",
+          "renameSuccess": "Collection renamed",
+          "deleteSuccess": "Collection deleted",
+          "createError": "Failed to create collection",
+          "renameError": "Failed to rename collection",
+          "deleteError": "Failed to delete collection"
+        },
+        "states": {
+          "noMatchingTitle": "Ничего не найдено",
+          "noMatchingDescription": "Попробуйте изменить фильтры даты, модели, инструмента или типа медиа.",
+          "clearFilters": "Сбросить фильтры",
+          "creationsDescription": "Просматривайте и управляйте своими недавними работами."
+        },
+        "viewMode": {
+          "title": "Режим просмотра",
+          "previewLayout": "Макет предпросмотра",
+          "overlays": "Наложения",
+          "metadata": "Метаданные",
+          "originalRatio": "Исходное соотношение",
+          "cropToFill": "Обрезать до заполнения",
+          "mixedGrid": "Смешанная сетка"
+        },
+        "collectionActions": {
+          "remove": "Удалить из коллекции",
+          "error": "Не удалось удалить элементы из коллекции"
+        },
+        "collectionPicker": {
+          "loadError": "Не удалось загрузить коллекции",
+          "addError": "Не удалось добавить элементы в коллекцию",
+          "addSuccess": "Добавлено в коллекцию",
+          "addButton": "Добавить в коллекцию",
+          "newCollection": "Новая коллекция"
+        },
+        "hints": {
+          "recent7Days": "Для Creations, Uploads и элементов Collection доступны только последние 7 дней. Пожалуйста, скачайте сгенерированные материалы в течение 7 дней."
+        }
+      }
+    },
+    "homepageAnnouncement": {
+      "badge": "What's New - April 2026",
+      "title": "SEEDANCE 2.0 IS HERE",
+      "description": "The most powerful video generation model yet. Create faster, longer and more cinematic clips in one click.",
+      "cta": "Try Now",
+      "closeLabel": "Close announcement",
+      "videoLabel": "Seedance 2.0 announcement video"
+    }
+  },
+  "faceSwap": {
+    "title": "AI Video Face Swap Online",
+    "description": "Создавайте веселые, реалистичные видео с заменой лица за секунды с нашим <strong class=\"text-primary font-semibold\">AI Video Face Swap online</strong> инструментом. Навыки монтажа не нужны. Просто загрузите видео, выберите лицо — и пусть ИИ сделает магию.",
+    "tabs": {
+      "single": "Одно лицо",
+      "multiple": "Несколько лиц"
+    },
+    "steps": {
+      "video": {
+        "title": "Загрузите видео",
+        "cta": "Перетащите/кликните для загрузки",
+        "hint": "Загрузите видео M4V/MP4/MOV/WEBM",
+        "dragDrop": "Перетащите и отпустите или нажмите для загрузки",
+        "dropHere": "Отпустите видео здесь"
+      },
+      "face": {
+        "title": "Загрузите изображение лица",
+        "cta": "Перетащите/кликните для загрузки",
+        "hint": "Загрузите изображение JPG/PNG/WEBP",
+        "dragDrop": "Перетащите и отпустите или нажмите для загрузки",
+        "dropHere": "Отпустите изображение здесь"
+      },
+      "render": {
+        "title": "Нажмите «Render», чтобы начать",
+        "cta": "Render",
+        "rendering": "Рендеринг..."
+      },
+      "multiple": {
+        "face": {
+          "title": "Укажите замену лица",
+          "cta": "Извлечь лицо({count}/{max})"
+        }
+      }
+    },
+    "badges": {
+      "free": "5 бесплатных запусков в день",
+      "clean": "Без водяного знака",
+      "resolution": "Поддержка 2K"
+    },
+    "preview": {
+      "title": "Предпросмотр",
+      "cta": "Попробовать замену лица",
+      "original": "Оригинал",
+      "swapped": "Заменено",
+      "faceAlt": "Предпросмотр лица",
+      "usingFace": "Используется лицо: {name}",
+      "placeholder": "Загрузите видео, чтобы увидеть предпросмотр здесь."
+    },
+    "common": {
+      "selected": "Выбрано: {name}",
+      "notSelected": "Не выбрано"
+    },
+    "errors": {
+      "videoDurationExceeded": "Длительность видео не может превышать {max} минут, текущая длительность — {current} минут",
+      "videoDurationReadFailed": "Не удалось прочитать длительность видео, убедитесь, что формат файла видео правильный",
+      "uploadFailed": "Загрузка не удалась: {error}",
+      "uploadFailedGeneric": "Загрузка не удалась",
+      "videoRequired": "Сначала загрузите видео",
+      "faceImageRequired": "Сначала загрузите изображение лица",
+      "faceSwapFailed": "Обработка замены лица не удалась",
+      "taskFailed": "Обработка задачи не удалась",
+      "taskTimeout": "Время обработки задачи истекло, попробуйте позже",
+      "taskIdNotFound": "Не удалось получить ID задачи, проверьте формат ответа API",
+      "apiResponseParseFailed": "Обработка замены лица не удалась: не удалось разобрать ответ API",
+      "processingFailed": "Обработка не удалась, попробуйте снова",
+      "statusQueryFailed": "Не удалось запросить статус задачи: не удалось разобрать данные ответа",
+      "videoFileNotFound": "Файл видео не найден, пожалуйста, загрузите видео повторно"
+    },
+    "footer": "Войдите, чтобы открыть больше функций · Бесплатные кредиты каждый день · Поддержка 2K",
+    "uploadConfirm": {
+      "title": "Подтверждение загрузки",
+      "description": "Перед загрузкой подтвердите следующее:",
+      "permission": "Я подтверждаю, что у меня есть разрешение использовать все лица в загруженном контенте",
+      "legal": "Я не буду использовать этот инструмент для обмана, мошенничества или незаконных целей",
+      "synthetic": "Я понимаю, что это создает синтетические медиа, сгенерированные ИИ",
+      "cancel": "Отмена",
+      "confirm": "Подтвердить"
+    }
+  },
+  "common": {
+    "fields": {
+      "firstFrame": "Первый кадр",
+      "lastFrame": "Последний кадр (необязательно)",
+      "referenceAudio": "Reference Audio"
+    },
+    "descriptions": {
+      "uploadFirstFrameImage": "Загрузите изображение первого кадра.",
+      "uploadLastFrameImageOptional": "Необязательно: загрузите изображение последнего кадра, чтобы автоматически включить переход от первого кадра к последнему.",
+      "referenceVideoLimit": "MP4, WebM, MOV (max 50MB, up to 3 videos, duration ≤ 15s)",
+      "referenceAudioLimit": "WAV, MP3 (max 20MB, up to 3 audios, duration ≤ 15s)"
+    }
+  },
+  "canvasWorkspace": {
+    "nav": {
+      "canvas": "Canvas",
+      "creations": "Creations",
+      "collections": "Collections"
+    },
+    "page": {
+      "creationsEyebrow": "CREATIONS",
+      "creationsTitle": "Creations",
+      "creationsDescription": "All of your generated images, videos, and outputs live here so they are easy to review, filter, and organize.",
+      "collectionsEyebrow": "COLLECTIONS",
+      "collectionsTitle": "Collections",
+      "collectionsDescription": "Turn your strongest outputs into curated sets so pitching, reviewing, and reuse feel much faster.",
+      "projectsEyebrow": "CANVAS",
+      "projectsTitle": "Recent Projects",
+      "projectsDescription": "Jump back into your advanced-mode projects and keep shaping the canvas.",
+      "newCanvas": "New Canvas",
+      "emptyProjectsTitle": "No Canvas projects yet",
+      "emptyProjectsDescription": "Open Canvas from the homepage, or start a new advanced-mode project here.",
+      "emptyProjectsAction": "Create project",
+      "creationsEmptyText": "No creations yet",
+      "creationsEmptyTitle": "Your library is waiting for the first result",
+      "creationsEmptyDescription": "Generate from the homepage or run a workflow in Canvas and every new output will appear here.",
+      "collectionDetailDescription": "Review everything saved into this collection, then keep curating or return to Canvas to create more.",
+      "collectionDetailBack": "Back to Collections",
+      "collectionDetailEmptyText": "This collection is empty",
+      "collectionDetailEmptyTitle": "Nothing has been saved here yet",
+      "collectionDetailEmptyDescription": "Pick a few strong results from Creations and this collection will start to take shape."
+    },
+    "projectsGrid": {
+      "deleteConfirm": "Delete project \"{name}\"? This action cannot be undone.",
+      "deleteSuccess": "Project deleted",
+      "deleteError": "Failed to delete project",
+      "duplicateSuccess": "Project duplicated",
+      "duplicateError": "Failed to duplicate project",
+      "updatedAtPrefix": "Updated",
+      "duplicateAria": "Duplicate project",
+      "deleteAria": "Delete project"
+    },
+    "collectionsGrid": {
+      "heading": "Collections",
+      "createCardLabel": "New Collection",
+      "createTitle": "Create Collection",
+      "createDescription": "Give this curated set a clear name.",
+      "renameTitle": "Rename Collection",
+      "renameDescription": "Update how this collection appears in your library.",
+      "deleteTitle": "Delete Collection",
+      "deleteDescription": "Deleting a collection removes the group, but keeps every creation.",
+      "renameAction": "Save name",
+      "deleteAction": "Delete Collection",
+      "createAction": "Create Collection",
+      "cancelAction": "Cancel",
+      "nameLabel": "Name",
+      "namePlaceholder": "For example: Brand visual directions",
+      "emptyTitle": "No collections yet",
+      "emptyDescription": "Group strong outputs into collections so it is easier to revisit and present them later.",
+      "createSuccess": "Collection created",
+      "renameSuccess": "Collection updated",
+      "deleteSuccess": "Collection deleted",
+      "createError": "Failed to create collection",
+      "renameError": "Failed to rename collection",
+      "deleteError": "Failed to delete collection"
+    },
+    "projectsHub": {
+      "heroTitle": "Безграничные идеи, безграничное творчество",
+      "heroPlaceholder": "Начните с идеи и сразу переходите к созданию в Canvas",
+      "heroSubmit": "Создать и сгенерировать",
+      "sectionTitle": "Мои проекты",
+      "sectionAction": "Показать все",
+      "createCardTitle": "Новый проект",
+      "createCardSubtitle": "Начать с нового запроса",
+      "submitError": "Введите запрос перед созданием проекта",
+      "autoLabel": "AUTO",
+      "plusMenuTitle": "Создать из этого узла",
+      "uploadReferenceAria": "Загрузить референс",
+      "closeDirectionAria": "Закрыть",
+      "virtualReferenceLabel": "Референсное изображение",
+      "virtualPromptLabel": "Запрос"
+    }
+  }
+}

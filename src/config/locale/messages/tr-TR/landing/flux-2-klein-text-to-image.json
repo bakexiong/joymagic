@@ -1,0 +1,143 @@
+{
+  "title": "flux-2-klein text-to-image",
+  "subtitle": "Metin açıklamalarından etkileyici görüntüler oluşturun",
+  "prompt_label": "İstem",
+  "prompt_placeholder": "kırmızı ışıklarla aydınlatılmış antik anıtsal Teotihuacán piramitleri, gökyüzünde asılı dev bir Satürn, heykelsel ve astronomik olmayan, sıvı metal halkalı, fütüristik ama arkaik, bir gezegenden ziyade kutsal bir portal çağrıştıran, az ışık sisi, sinematik derinlik ve atmosferik perspektif, tipografi için büyük temiz negatif alanlı minimal kompozisyon",
+  "prompt_tooltip": "Oluşturmak istediğiniz görüntünün açıklamasını girin",
+  "size_label": "Görüntü Boyutu",
+  "size_hint": "Çıktı görüntü boyutunu seçin",
+  "width_label": "Genişlik",
+  "height_label": "Yükseklik",
+  "seed_label": "Tohum",
+  "seed_hint": "-1 rastgele tohum için",
+  "seed_tooltip": "Yeniden üretilebilir sonuçlar için bir tohum değeri ayarlayın. Rastgele tohum için -1 kullanın.",
+  "seed_randomize": "Rastgele tohum oluştur",
+  "buttons": {
+    "generate": "Görüntü Oluştur"
+  },
+  "errors": {
+    "promptRequired": "İstem zorunludur"
+  },
+  "image_alt": "Oluşturulan görüntü",
+  "download": "İndir",
+  "image_placeholder": "Oluşturulan görüntü burada görünecek",
+  "prompt_inspirations_button": "Prompt İlhamları",
+  "prompt_guide_button": "Prompt Kılavuzu",
+  "powered_by": "joymagic tarafından optimize edilmiş Flux 2 Klein AI modeli ile desteklenmektedir",
+  "page": {
+    "metadata": {
+      "title": "flux-2-klein text-to-image (4B) - AI Görüntü Oluşturucu | joymagic",
+      "description": "flux-2-klein text-to-image ile yüksek kaliteli görüntüler oluşturun. Tohum kontrolü ile tutarlı sonuçlar oluşturun ve 1536×1536'ya kadar dışa aktarın.",
+      "keywords": "flux-2-klein text-to-image, flux-2-klein, flux-2-klein-4b, text to image, ai görüntü oluşturucu, prompt'tan görüntü"
+    },
+    "hero": {
+      "title": "flux-2-klein text-to-image",
+      "description": "flux-2-klein text-to-image ile oluşturun: prompt'lardan hızlı, yüksek kaliteli görüntüler. Tutarlı sonuçlar için tohum kontrolü kullanın ve 1536×1536'ya kadar dışa aktarın.",
+      "button1": "Şimdi Dene",
+      "button2": "Fiyatları Görüntüle"
+    },
+    "heroDescription": "Gelişmiş AI teknolojisi kullanarak basit metin açıklamalarından etkileyici görüntüler oluşturun.",
+    "keyFeatures": {
+      "title": "Temel Özellikler",
+      "description": "Güçlü AI görüntü oluşturma yetenekleri",
+      "highQuality": {
+        "title": "Yüksek Kaliteli Görüntüler",
+        "description": "Olağanüstü detay ve netlikle yüksek çözünürlüklü görüntüler oluşturun. Profesyonel kullanım durumları için mükemmel."
+      },
+      "fastGeneration": {
+        "title": "Hızlı Oluşturma",
+        "description": "Verimli işleme ile görüntüleri hızlıca oluşturun. Saniyeler içinde sonuç alın."
+      },
+      "styleFlexibility": {
+        "title": "Stil Esnekliği",
+        "description": "Çeşitli stillerde görüntüler oluşturun - fotoğraf gerçekçi, sanatsal, soyut ve daha fazlası. Detaylı prompt'larla çıktıyı kontrol edin."
+      },
+      "seedControl": {
+        "title": "Tohum Kontrolü",
+        "description": "Tohum değerleriyle rastgeleliği kontrol edin. Benzer sonuçları yeniden üretmek için aynı tohumu kullanın veya rastgele oluşturma için -1 kullanın."
+      }
+    },
+    "promptingTips": {
+      "title": "Prompt İpuçları",
+      "lighting": {
+        "title": "Aydınlatma Hakkında Spesifik Olun",
+        "description": "\"Soldan altın saat güneş ışığı, yumuşak gölgeler\" \"iyi aydınlatma\"dan daha iyi çalışır."
+      },
+      "camera": {
+        "title": "Kamera Detaylarını Dahil Edin",
+        "description": "\"85mm lens ile çekilmiş, sığ alan derinliği\" profesyonel fotoğraf kalitesi ekler."
+      },
+      "style": {
+        "title": "Sanat Stilini Belirtin",
+        "description": "\"Studio Ghibli tarzında dijital illüstrasyon\" veya \"hiper gerçekçi 3D render\" net bir yön verir."
+      },
+      "mood": {
+        "title": "Ruh Halini ve Atmosferi Tanımlayın",
+        "description": "\"Rahat, sıcak, nostaljik his\" veya \"dramatik, sinematik, yüksek kontrast\" genel görüntüyü şekillendirir."
+      }
+    },
+    "useCases": {
+      "title": "Kullanım Durumları",
+      "marketing": {
+        "title": "Pazarlama Görselleri",
+        "description": "Fotoğraf çekimi olmadan ürün konseptleri, reklam görselleri ve sosyal medya içeriği oluşturun."
+      },
+      "character": {
+        "title": "Karakter Tasarımı",
+        "description": "Metin açıklamalarından oyunlar, çizgi romanlar veya animasyon projeleri için özgün karakterler oluşturun."
+      },
+      "concept": {
+        "title": "Konsept Sanatı",
+        "description": "Yaratıcı projeler ve sunumlar için sahneleri, ortamları ve fikirleri hızlıca görselleştirin."
+      },
+      "stock": {
+        "title": "Stok Fotoğraf Alternatifi",
+        "description": "Genel stok kütüphanelerinde arama yapmak yerine ihtiyacınız olan belirli görüntüleri oluşturun."
+      }
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "description": "flux-2-klein text-to-image hakkında yaygın sorular",
+      "q1": {
+        "question": "Flux 2 Klein nedir?",
+        "answer": "Flux 2 Klein, metin açıklamalarından görüntüler oluşturan gelişmiş bir AI görüntü oluşturma modelidir. Çeşitli çözünürlüklerde yüksek kaliteli görüntüler üretir."
+      },
+      "q2": {
+        "question": "İstemim ne kadar detaylı olmalı?",
+        "answer": "Daha fazla detay genellikle daha iyi sonuçlar anlamına gelir. Konu, ortam, aydınlatma, stil, ruh hali ve kompozisyon detaylarını dahil edin. Görmek istediğiniz şey hakkında spesifik olun."
+      },
+      "q3": {
+        "question": "Tohum parametresi nedir?",
+        "answer": "Tohum parametresi rastgeleliği kontrol eder. Rastgele oluşturma için -1 kullanın veya benzer sonuçları yeniden üretmek için belirli bir sayı kullanın. Aynı tohum ve aynı istem benzer görüntüler üretecektir."
+      },
+      "q4": {
+        "question": "Hangi görüntü boyutları destekleniyor?",
+        "answer": "256×256'dan 1536×1536'ya kadar görüntüler oluşturabilirsiniz. Boyut 64'ün katı olmalıdır. Varsayılan 1024×1024'tür."
+      },
+      "q5": {
+        "question": "Kaç kredi maliyeti var?",
+        "answer": "Her görüntü oluşturma 2 kredi maliyetindedir. Bu, yüksek kaliteli görüntüler oluşturmak için uygun fiyatlı bir seçenek haline getirir."
+      }
+    },
+    "finalCTA": {
+      "title": "Oluşturmaya Hazır mısınız?",
+      "description": "Bugünden itibaren metin açıklamalarınızdan harika görüntüler oluşturmaya başlayın.",
+      "button": "Şimdi Dene"
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "textToImage": "Metinden Görüntü",
+      "flux2Klein": "Flux 2 Klein"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Flux 2 Klein Metinden Görüntü",
+      "howToName": "Flux 2 Klein ile Görüntü Oluşturma",
+      "howToDescription": "Flux 2 Klein kullanarak metin açıklamalarından görüntüler oluşturun",
+      "features": {
+        "aiTextToImage": "AI Metinden Görüntü Oluşturma",
+        "highQuality": "Yüksek Kaliteli Görüntüler",
+        "fastProcessing": "Hızlı İşleme"
+      }
+    }
+  }
+}

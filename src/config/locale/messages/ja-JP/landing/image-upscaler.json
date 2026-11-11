@@ -1,0 +1,193 @@
+{
+  "imageUpscaler": {
+    "id": "image-upscaler",
+    "title": "AI画像拡大ツール",
+    "description": "AIを使用して画像品質を即座に向上させ、解像度を4K、8K、または16Kに引き上げます。画像をアップロードして自動的に強化します。",
+    "steps": {
+      "sourceImage": {
+        "title": "画像をアップロード",
+        "hint": "ドラッグ&ドロップまたはクリックしてアップロード · JPG/PNG/WEBP/HEIC",
+        "dragDrop": "ドラッグ&ドロップまたはクリックしてアップロード",
+        "dropHere": "ここに画像をドロップ"
+      },
+      "settings": {
+        "title": "拡大設定を選択",
+        "targetResolution": "拡大倍率 / 出力",
+        "outputFormat": "出力形式"
+      },
+      "generate": {
+        "title": "生成してダウンロード",
+        "cta": "拡大を開始",
+        "generating": "拡大中..."
+      }
+    },
+    "preview": {
+      "title": "プレビュー",
+      "original": "オリジナル",
+      "upscaled": "拡大後",
+      "placeholder": "画像をアップロードして、拡大結果をここで確認してください。"
+    },
+    "common": {
+      "selected": "選択済み: {name}",
+      "notSelected": "未選択"
+    },
+    "errors": {
+      "invalidFileType": "無効なファイルタイプです。画像ファイル（JPG、PNG、WEBP、HEIC）をアップロードしてください。",
+      "uploadFailed": "アップロード失敗: {error}",
+      "uploadFailedGeneric": "アップロード失敗",
+      "sourceImageRequired": "まずソース画像をアップロードしてください",
+      "generationFailed": "画像拡大に失敗しました",
+      "taskFailed": "タスク処理に失敗しました",
+      "taskTimeout": "タスク処理がタイムアウトしました。後でもう一度お試しください",
+      "taskIdNotFound": "タスクIDを取得できませんでした。API応答形式を確認してください",
+      "processingFailed": "処理に失敗しました。もう一度お試しください",
+      "statusQueryFailed": "タスクステータスの照会に失敗しました",
+      "apiResponseParseFailed": "API応答の解析に失敗しました",
+      "downloadFailed": "画像のダウンロードに失敗しました"
+    },
+    "download": {
+      "title": "画像をダウンロード"
+    },
+    "alt": {
+      "sourcePreview": "ソースプレビュー",
+      "enlargedPreview": "拡大プレビュー",
+      "source": "ソース",
+      "original": "オリジナル",
+      "upscaled": "拡大後"
+    }
+  },
+  "imageUpscalerPage": {
+    "metadata": {
+      "title": "AI画像拡大ツールオンライン | 画像を4K 8K 16Kに拡大 | joymagic",
+      "description": "joymagicのAI画像拡大ツールで画像品質を即座に向上させ、解像度を4K、8K、または16Kに引き上げます。HDダウンロード、透かしなし、一括処理対応。",
+      "keywords": "AI画像拡大ツール, 画像拡大, 画像を拡大, 4K拡大, 8K拡大, 16K拡大, AI画像強化, 画像解像度強化, 写真拡大, 画像品質強化, 高速拡大, クリエイティブ拡大"
+    },
+    "hero": {
+      "title": "AI画像拡大ツールオンライン",
+      "description": "joymagicのAI画像拡大ツールで画像品質を即座に向上させ、解像度を4K、8K、または16Kに引き上げます。画像をアップロードして自動的に強化します。",
+      "button1": "今すぐ拡大を開始",
+      "button2": "無料で開始 · 透かしなし"
+    },
+    "heroDescription": "✓ HDダウンロード  ✓ 透かしなし  ✓ 一括処理対応",
+    "whatIsAIUpscaler": {
+      "title": "AI画像拡大ツールとは？",
+      "description": "AI画像拡大ツールは、深層学習を使用して画像を拡大しながら、リアルな詳細とシャープネスを追加します。ピクセルを引き伸ばしてぼやけを引き起こす従来のリサイズとは異なり、当社のAIは：",
+      "features": [
+        "画像の内容と構造を分析",
+        "新しいピクセルをインテリジェントに生成",
+        "テクスチャ、エッジ、色を保持",
+        "鮮明で自然な結果を出力"
+      ],
+      "perfectFor": "商品写真、古い写真、AI生成アート、ソーシャルメディアコンテンツ、印刷準備済み画像に使用できます。"
+    },
+    "keyFeatures": {
+      "title": "主な機能",
+      "description": "最大16Kまでの高速、高品質なAI画像拡大。",
+      "fastProcessing": {
+        "title": "高速処理",
+        "description": "<p class=\"mb-3\">数秒で結果を取得。最適化されたAIが複雑な画像を迅速に処理します。</p>"
+      },
+      "highQuality": {
+        "title": "最大16K出力",
+        "description": "<p class=\"mb-3\">鮮明さと詳細を保ちながら、画像を4K、8K、または16Kに拡大します。</p>"
+      },
+      "twoModes": {
+        "title": "2つの拡大モード",
+        "description": "<p class=\"mb-3\">忠実な拡大のための高速モード；AI強化詳細のためのクリエイティブモード。</p>"
+      },
+      "batch": {
+        "title": "一括処理",
+        "description": "<p class=\"mb-3\">複数の画像を一度にアップロードして処理。一括タスクで時間を節約します。</p>"
+      },
+      "cleanOutput": {
+        "title": "クリーンな出力",
+        "description": "<p class=\"mb-3\">すぐに使用できる高品質で透かしのない結果をダウンロードします。</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "joymagic AI拡大ツールでできること",
+      "description": "1回のアップロードで、無限の可能性。",
+      "photography": {
+        "title": "写真を強化",
+        "description": "<p class=\"mb-3\">古い写真やポートレートを印刷品質に拡大します。</p>"
+      },
+      "design": {
+        "title": "デザインとAIアート",
+        "description": "<p class=\"mb-3\">AI生成アートやグラフィックをより鮮明な詳細で強化します。</p>"
+      },
+      "ecommerce": {
+        "title": "Eコマースと商品",
+        "description": "<p class=\"mb-3\">商品画像をリストや広告用に鮮明にします。</p>"
+      },
+      "socialMedia": {
+        "title": "ソーシャルメディア",
+        "description": "<p class=\"mb-3\">すべてのプラットフォームで鮮明で高解像度のビジュアルを共有します。</p>"
+      },
+      "print": {
+        "title": "大判と印刷",
+        "description": "<p class=\"mb-3\">ポスター、バナー、印刷材料用に最大16Kまで拡大します。</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "画像を拡大する方法",
+      "description": "3つの簡単なステップでAIを使用して拡大：",
+      "step1": {
+        "title": "1. 画像をアップロード",
+        "description": "<p class=\"mb-3\">画像ファイルをドラッグ&ドロップまたは選択します。</p><p class=\"mb-3\">JPG、PNG、WEBP、HEIC形式をサポートします。</p>"
+      },
+      "step2": {
+        "title": "2. 拡大設定を選択",
+        "description": "<p class=\"mb-3\">希望する拡大倍率を選択：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>2x – 解像度を2倍に</li><li>4x – 解像度を4倍に</li><li>8x – 最大強化（最大16K出力）</li></ul><p class=\"mb-3\">モードを選択：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>高速拡大 – 元の詳細を保持</li><li>クリエイティブ拡大 – AI生成の詳細を追加</li></ul>"
+      },
+      "step3": {
+        "title": "3. 生成してダウンロード",
+        "description": "<p class=\"mb-3\">開始をクリックして、数秒で拡大された画像を取得します。</p><p class=\"mb-1\">すぐに使用できる高解像度でダウンロードします。</p>"
+      }
+    },
+    "faq": {
+      "title": "AI画像拡大ツールのよくある質問",
+      "description": "AI拡大に関する簡単な回答。",
+      "q1": {
+        "question": "どの画像形式がサポートされていますか？",
+        "answer": "JPG、JPEG、PNG、WEBP、HEICをサポートしています。アップロードに失敗した場合は、JPGまたはPNGに変換してみてください。"
+      },
+      "q2": {
+        "question": "最大出力解像度は？",
+        "answer": "入力サイズと拡大倍率に応じて、最大16K（16384 × 16384）まで拡大できます。"
+      },
+      "q3": {
+        "question": "高速モードとクリエイティブモードの違いは？",
+        "answer": "高速は忠実に拡大—商品/スクリーンショットに最適。クリエイティブはAI詳細を追加—AIアートや古い写真に最適。"
+      },
+      "q4": {
+        "question": "複数の画像を一度に拡大できますか？",
+        "answer": "はい。一括処理により、1回のセッションで複数の画像をアップロードして拡大できます。"
+      },
+      "q5": {
+        "question": "拡大された画像に透かしはありますか？",
+        "answer": "いいえ。すべてのダウンロードは透かしなしで、すぐに使用できます。"
+      },
+      "q6": {
+        "question": "データは安全でプライベートですか？",
+        "answer": "はい。画像は分離された暗号化セッションで処理され、処理後に削除されます。アップロードを保存したり、トレーニングに使用することはありません。"
+      },
+      "q7": {
+        "question": "どのような画像が最も効果的ですか？",
+        "answer": "鮮明で適切に照明された画像が最良の結果を生み出します。非常に低品質の入力は、拡大後も一部のアーティファクトが表示される場合があります。"
+      }
+    },
+    "privacySecurity": {
+      "title": "プライバシーとセキュリティ",
+      "description": "お客様の画像とプライバシーが私たちの優先事項です。",
+      "secureProcessing": "すべてのアップロードは安全に暗号化されて処理されます",
+      "autoDelete": "画像は処理後に自動的に削除されます",
+      "neverShared": "第三者と共有したり、AIトレーニングに使用することはありません"
+    },
+    "finalCTA": {
+      "title": "低解像度画像を高解像度の傑作に変換します。",
+      "description": "今すぐjoymagicのAI画像拡大ツールをお試しください。数秒で写真を4K、8K、または16Kの鮮明さに引き上げます。<br/><span class=\"text-muted-foreground\">編集スキル不要 · 無料で開始 · 透かしなしダウンロード</span>",
+      "button": "今すぐ拡大を開始"
+    }
+  }
+}
+

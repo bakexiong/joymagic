@@ -1,0 +1,114 @@
+{
+  "title": "Nano Banana Testo in Immagine",
+  "subtitle": "Genera immagini straordinarie da descrizioni testuali",
+  "prompt_label": "Prompt",
+  "prompt_placeholder": "Una bambina che soffia bolle di sapone in un cortile, la luce del sole crea colori arcobaleno nelle bolle, stile fotografia spontanea.",
+  "prompt_tooltip": "Inserisci una descrizione dell'immagine che desideri generare",
+  "prompt_enhancer": "Miglioratore Prompt",
+  "enhancing": "Miglioramento...",
+  "aspect_ratio_label": "Proporzioni",
+  "aspect_ratio_hint": "Scegli le proporzioni per l'immagine generata",
+  "aspect_ratio_placeholder": "Seleziona proporzioni (opzionale)",
+  "aspect_ratio_none": "(Nessuna)",
+  "output_format_label": "Formato di Output",
+  "output_format_hint": "Scegli il formato dell'immagine di output",
+  "buttons": {
+    "generate": "Genera Immagine"
+  },
+  "errors": {
+    "promptRequired": "Il prompt è obbligatorio"
+  },
+  "image_alt": "Immagine generata",
+  "download": "Scarica",
+  "image_placeholder": "L'immagine generata apparirà qui",
+  "page": {
+    "metadata": {
+      "title": "Nano Banana Testo in Immagine - Generazione Immagini AI | joymagic",
+      "description": "Genera immagini da testo con Google Nano Banana AI. Crea foto, illustrazioni e design con rendering del testo chiaro. Prova Nano Banana gratuitamente.",
+      "keywords": "nano banana testo in immagine, generatore immagini ai, google nano banana, gemini 2.5 flash image, testo in immagine ai"
+    },
+    "hero": {
+      "title": "Nano Banana Testo in Immagine",
+      "description": "Google Nano Banana (Gemini 2.5 Flash Image) genera immagini da descrizioni testuali. Digita ciò che vuoi, ottieni foto, illustrazioni o arte concettuale in secondi. Gestisce naturalmente diversi stili visivi. Prova Nano Banana gratuitamente qui sotto!<br/><br/>Hai bisogno di controlli professionali e rendering del testo chiaro? <a href=\"/text-to-image/nano-banana-pro\" class=\"text-primary underline\">Prova Nano Banana Pro</a>.",
+      "button1": "Prova Ora",
+      "button2": "Visualizza Prezzi"
+    },
+    "keyFeatures": {
+      "title": "Caratteristiche Principali",
+      "description": "Potenti capacità di generazione immagini AI",
+      "createFromScratch": {
+        "title": "Crea da Zero",
+        "description": "Descrivi qualsiasi scena e il modello la genera. Nessuna immagine di riferimento necessaria—scrivi semplicemente ciò che vuoi vedere e il modello lo costruisce dalla tua descrizione."
+      },
+      "differentStyles": {
+        "title": "Gestisce Diversi Stili",
+        "description": "Funziona naturalmente attraverso diversi stili visivi. Genera scene fotorealistiche, personaggi anime, illustrazioni digitali, arte concettuale o schizzi descrivendo lo stile nel tuo prompt."
+      },
+      "plainTextInput": {
+        "title": "Input di Testo Semplice",
+        "description": "Scrivi descrizioni in linguaggio quotidiano. \"Un gatto con gli occhiali da sole su una spiaggia al tramonto\" o \"scena di strada cyberpunk con insegne al neon\"—il modello comprende frasi naturali."
+      },
+      "fastGeneration": {
+        "title": "Generazione Veloce",
+        "description": "La maggior parte delle immagini viene generata in 5-10 secondi. Testa rapidamente diverse idee—prova variazioni di illuminazione, composizione e soggetti senza lunghe attese."
+      },
+      "clearTextPro": {
+        "title": "Testo Chiaro nelle Immagini (Pro)",
+        "description": "La versione Pro renderizza testo leggibile in più lingue. Genera loghi, poster, segnaletica ed etichette di prodotti dove la tipografia rimane nitida e leggibile. Particolarmente bravo con i caratteri cinesi."
+      }
+    },
+    "useCases": {
+      "title": "Casi d'Uso",
+      "conceptVisualization": {
+        "title": "Visualizzazione di Concetti",
+        "description": "Devi mostrare un'idea ai clienti ma non hai foto di riferimento? Descrivi il concetto e genera visual per presentazioni e pitch."
+      },
+      "socialMedia": {
+        "title": "Grafica per Social Media",
+        "description": "Crea immagini originali per post e annunci. Genera sfondi, mockup di prodotti o illustrazioni senza foto stock o assumere designer."
+      },
+      "marketing": {
+        "title": "Materiali di Marketing",
+        "description": "Progetta poster, annunci e grafiche promozionali con elementi di testo. La versione Pro mantiene la tipografia chiara e professionale—utile per poster di eventi e confezioni di prodotti."
+      },
+      "creativeExploration": {
+        "title": "Esplorazione Creativa",
+        "description": "Testa diverse direzioni visive prima di impegnarti in lavori dettagliati. Genera multiple variazioni di stile per trovare ciò che funziona."
+      }
+    },
+    "faq": {
+      "title": "Domande Frequenti",
+      "description": "Domande comuni su Nano Banana Testo in Immagine",
+      "q1": {
+        "question": "Cos'è Nano Banana Testo in Immagine?",
+        "answer": "Nano Banana è il generatore di immagini AI di Google DeepMind. Crea immagini da descrizioni testuali—digita ciò che vuoi vedere, ottieni un'immagine generata in secondi."
+      },
+      "q2": {
+        "question": "Quanto dettagliati dovrebbero essere i miei prompt?",
+        "answer": "Più dettagli di solito aiutano. Invece di \"un cane\", prova \"un golden retriever seduto in un parco, luce del mattino, stile fotografico\". Includi soggetto, ambiente, illuminazione e stile visivo."
+      },
+      "q3": {
+        "question": "Quali formati sono supportati?",
+        "answer": "Genera JPG, PNG e WebP. Scegli PNG se hai bisogno del supporto per la trasparenza."
+      },
+      "q4": {
+        "question": "Qual è la differenza con Nano Banana Pro?",
+        "answer": "Nano Banana standard genera immagini rapidamente in diversi stili. Pro aggiunge controlli stile fotocamera (profondità di campo, illuminazione), rendering del testo chiaro in più lingue e output a risoluzione più alta. <a href=\"/text-to-image/nano-banana-pro\" class=\"text-primary underline\">Confronta versioni →</a>"
+      },
+      "q5": {
+        "question": "Quanto tempo richiede la generazione?",
+        "answer": "Standard: 5-10 secondi per immagine. Pro: 10-15 secondi per prompt complessi o output a risoluzione più alta."
+      }
+    },
+    "finalCTA": {
+      "title": "Pronto a Creare?",
+      "description": "Inizia a generare immagini straordinarie dalle tue descrizioni testuali oggi.",
+      "button": "Prova Ora"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "textToImage": "Testo in Immagine",
+      "nanoBanana": "Nano Banana"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "page": {
+    "metadata": {
+      "title": "GPT-Image 2 Image to Image - Edit Posters, UI, and Photoreal Images | joymagic",
+      "description": "Edit up to 4 uploaded images with GPT-Image 2 for Chinese poster cleanup, document-style layouts, photoreal retouching, and interface mockup transformations.",
+      "keywords": "GPT-Image 2 image to image, chinese poster editing, photoreal image editor, UI mockup editor, image to image AI, edit up to 4 images"
+    },
+    "hero": {
+      "title": "GPT-Image 2 Image to Image",
+      "description": "GPT-Image 2 image editing is especially strong when you need to revise text-heavy visuals, reshape document-like layouts, retouch photoreal scenes, or transform UI-style screenshots. You can upload up to 4 source images, describe the change in plain language, and keep the result aligned with the right aspect ratio.<br/><br/>Need to generate from scratch instead? <a href=\"/text-to-image/gpt-image-2\" class=\"text-primary underline\">Try GPT-Image 2 Text to Image</a>.",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "features": {
+      "title": "Why GPT-Image 2 for image editing",
+      "description": "A stronger editing workflow for text-aware layouts, photoreal refinements, and interface-style images.",
+      "references": {
+        "title": "Edit up to 4 images together",
+        "description": "Upload a short batch of source images when you want one direction applied consistently across a poster set, campaign asset group, or UI mockup series."
+      },
+      "promptLed": {
+        "title": "Text-aware and layout-aware edits",
+        "description": "GPT-Image 2 is better suited to poster text, document structure, labels, and mixed visual layouts, making it useful for revision tasks that go beyond simple style swaps."
+      },
+      "framing": {
+        "title": "Photoreal and UI-friendly output control",
+        "description": "Choose the final frame before generation so photo retouching, screenshot restyling, and composition changes land closer to the intended placement."
+      }
+    },
+    "promptingTips": {
+      "title": "How to get better GPT-Image 2 edits",
+      "specific": {
+        "title": "Say what must change and what must stay",
+        "description": "For poster, document, and UI edits, be explicit about the text block, layout region, or visual element you want changed while keeping the rest intact."
+      },
+      "batch": {
+        "title": "Keep one direction across the batch",
+        "description": "When uploading multiple images, use one clear instruction so the whole set stays in the same visual family and quality level."
+      },
+      "framing": {
+        "title": "Choose the target ratio early",
+        "description": "Pick the final aspect ratio before generation so crop, spacing, and composition better match where the result will be used."
+      },
+      "details": {
+        "title": "Call out realism or interface style",
+        "description": "Mention whether you want photoreal retouching, film-like rendering, clean UI surfaces, or realistic screenshot behavior to steer the finish more precisely."
+      }
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "batchAssets": {
+        "title": "Poster and layout revision",
+        "description": "Refresh Chinese posters, cover art, or document-like designs while preserving the core structure and improving clarity, balance, or text-heavy sections."
+      },
+      "productRefresh": {
+        "title": "Photoreal product and portrait retouching",
+        "description": "Refine lighting, texture, background mood, and finishing quality for product shots, portraits, or street-style photography without rebuilding the whole scene."
+      },
+      "socialVariants": {
+        "title": "UI and screenshot restyling",
+        "description": "Transform finance apps, desktop layouts, dashboards, and software screenshots into cleaner, sharper, or more cinematic interface visuals."
+      },
+      "lookDev": {
+        "title": "Small-batch creative alignment",
+        "description": "Use a single prompt across up to 4 images to test one creative direction on a short asset set before moving into final production."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Common questions about GPT-Image 2 image editing for posters, photoreal scenes, and UI screenshots.",
+      "q1": {
+        "question": "How many images can I upload?",
+        "answer": "This GPT-Image 2 image-to-image workflow supports up to 4 uploaded images in a single run."
+      },
+      "q2": {
+        "question": "What parameters are available?",
+        "answer": "The editor supports images, prompt, and aspect ratio. Aspect ratio includes 1:1, 16:9, 9:16, 4:3, 3:4, 3:2, 2:3, 5:4, 4:5, 2:1, 1:2, 21:9, and 9:21."
+      },
+      "q3": {
+        "question": "What kinds of edits is GPT-Image 2 especially good at?",
+        "answer": "It is especially useful for Chinese poster edits, document-style layouts, photoreal retouching, and UI or screenshot transformations where text, structure, and realism all matter."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to edit with GPT-Image 2?",
+      "description": "Upload your images, describe the revision in plain language, and turn posters, UI mockups, or photoreal scenes into cleaner final visuals.",
+      "button": "Open Playground"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "imageToImage": "Image to Image",
+      "model": "GPT-Image 2"
+    },
+    "schema": {
+      "softwareName": "joymagic GPT-Image 2 Image to Image",
+      "softwareDescription": "Edit up to 4 uploaded images with GPT-Image 2 for Chinese poster refinement, photoreal retouching, and UI screenshot transformation.",
+      "howToName": "How to edit posters, UI, and photoreal images with GPT-Image 2",
+      "howToDescription": "Upload images, describe the edits you want, choose an aspect ratio, and generate revised posters, photoreal scenes, or interface visuals with GPT-Image 2.",
+      "features": {
+        "multiUpload": "Upload up to 4 images",
+        "promptEditing": "Text-aware and layout-aware image editing",
+        "aspectPresets": "13 aspect ratio presets"
+      },
+      "steps": {
+        "upload": {
+          "name": "Upload images",
+          "text": "Add up to 4 source images for the same poster edit, screenshot update, or photoreal retouching direction."
+        },
+        "prompt": {
+          "name": "Write the prompt",
+          "text": "Describe what should change, what should stay, and whether the result should feel more realistic, cleaner, or more interface-like."
+        },
+        "aspectRatio": {
+          "name": "Choose aspect ratio and generate",
+          "text": "Pick the output frame that matches the final placement, then generate and review the edited results."
+        }
+      }
+    }
+  }
+}

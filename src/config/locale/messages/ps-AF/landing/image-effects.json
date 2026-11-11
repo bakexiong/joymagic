@@ -1,0 +1,64 @@
+{
+  "titles": {
+    "advanced-photography": "پرمختللې عکاسي",
+    "plastic-bubble-figure": "د پلاستيکي بلبلې مجسمه",
+    "felt-3d-polaroid": "د فیلټ 3D پولاروید",
+    "glass-ball": "ښیښه یي ګوله",
+    "micro-landscape-mini-world": "کوچنۍ مایکرو منظره نړۍ",
+    "american-comic-style": "امریکايي کمیک سټایل",
+    "futuristic-american-comics": "راتلونکيز امریکايي کمیکونه",
+    "my-world": "زما نړۍ",
+    "felt-keychain": "د فیلټ کیلي ځوړند",
+    "lofi-pixel-character-mini-card": "لو فای پیکسل کرکټر میني کارت",
+    "blurry-selfie-luffy": "د لفي تت سیلفي",
+    "cyberpunk": "سایبرپنک",
+    "exotic-charm": "نااشنا ښکلا",
+    "acrylic-ornaments": "اکرېلیک سينګارونه",
+    "furry-dream-doll": "وړۍداره د خوب نانځکه",
+    "in-the-stadium": "په لوبغالي کې",
+    "lying-in-fluffy-belly": "په نرمه خېټه کې پراته",
+    "angel-figurine": "د پرښتې مجسمه"
+  },
+  "gallery": {
+    "metadata": {
+      "title": "د انځور اغېزې | joymagic",
+      "description": "په masonry ګالري کې مشهورې د انځور اغېزې وګورئ او په يو کلیک د انځور جوړولو ته لاړ شئ."
+    },
+    "ctaLabel": "ورته انځور جوړ کړئ",
+    "inputLabel": "ننوت",
+    "outputLabel": "وتۍ",
+    "previewLabel": "مخکتنه"
+  },
+  "workspace": {
+    "metadata": {
+      "title": "د انځور اغېزو کاري ځای | joymagic",
+      "description": "انځور پورته کړئ، د انځور اغېز وټاکئ، او دا جوړونه په ځانګړي کاري ځای کې اداره کړئ."
+    },
+    "category": "انځور",
+    "pageTitle": "د انځور اغېزې",
+    "workspaceLabel": "کاري ځای",
+    "inputBadge": "1 د انځور ننوت",
+    "selectedEffect": "ټاکل شوې اغېزه",
+    "change": "بدلول",
+    "imageTitle": "انځور",
+    "imageHint": "PNG، JPG، WEBP تر 15MB پورې",
+    "uploadHint": "د انځور پورته کولو لپاره کلیک وکړئ",
+    "tryExamples": "بېلګې وازموئ",
+    "estimating": "اټکل روان دی...",
+    "create": "جوړول",
+    "creditsUnit": "کریډیټونه",
+    "estimateError": "د کریډیټ اټکل ناکام شو:",
+    "emptyState": "اوسمهال داسې ښکاري چې تاسو لا څه نه دي جوړ کړي.",
+    "inputLabel": "ننوت",
+    "outputLabel": "وتۍ",
+    "exampleAria": "بېلګه {index} وکاروئ",
+    "dialog": {
+      "title": "يو د انځور اغېز وټاکئ",
+      "searchPlaceholder": "هغه اغېز ولټوئ چې غواړئ",
+      "closeAria": "د اغېز ټاکونکی وتړئ",
+      "description": "له هماغې ګالرۍ ډاټا څخه يو د انځور اغېز وټاکئ چې د انځور اغېزو پاڼه يې کاروي.",
+      "emptyTitle": "برابر اغېز ونه موندل شو",
+      "emptyDescription": "بل کليدي ټکی وازموئ."
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "title": "Wan 2.7",
+  "provider": "Alibaba",
+  "eyebrow": "ماډل-محوره لینډینګ پاڼه",
+  "description": "له Wan 2.7 څخه پیل وکړئ کله چې تاسو ډېر cinematic image generation او motion-led storytelling غواړئ: قوي فضا، ډېر editorial framing، او داسې outputs چې premium campaign visuals ته نږدې ښکاري.",
+  "seoTitle": "د Wan 2.7 AI ماډل پاڼه | Text to Image + Text to Video | joymagic",
+  "seoDescription": "Wan 2.7 د یوې model-first پاڼې په توګه وپلټئ. د text-to-image او text-to-video ترمنځ بدل شئ، د creator ورک‌بنچ بیا وکاروئ، او له cinematic stills څخه motion ته په یوه بهیر کې لاړ شئ.",
+  "stats": [
+    {
+      "label": "اصلي حالت",
+      "value": "Text to Image"
+    },
+    {
+      "label": "پراخې صحنې",
+      "value": "۶ فعال کاري بهیرونه"
+    },
+    {
+      "label": "د output تمرکز",
+      "value": "سینمایي جهت"
+    }
+  ],
+  "differentiators": [
+    "Wan 2.7 د هغه پریمیم storytelling انتخاب په توګه وړاندې کړئ چې ټیمونه پکې فضا، beauty rendering او editorial composition ته اهمیت ورکوي.",
+    "یوه ماډل پاڼه د still-image concepting، controlled editing، motion generation او sequence extension ترمنځ پل کړي، پرته له دې چې د workbench اصلي چلند بدل شي.",
+    "Wan 2.7 ته خپله کیسه ورکړئ څو کاروونکي وپوهېږي چې کله یې وکاروي، نه دا چې یوازې یې د utilitarian editing model په توګه وګوري."
+  ],
+  "gallery": [
+    {
+      "title": "سینمایي beauty portraits",
+      "caption": "پریمیم editorial frameونه تولید کړئ چې پکې mood قوي وي، character rendering پاک وي، او fashion-campaign finish ډېر polished وي.",
+      "prompt": "Create a cinematic beauty portrait in a rain-lit street at blue hour with premium styling, refined reflections, and elegant editorial lighting.",
+      "accentClassName": "from-[#9f7bff] via-[#3d3276] to-[#121212] text-white"
+    },
+    {
+      "title": "Luxury fashion atmosphere",
+      "caption": "ثابت outputs د ډېرې filmic light، پیاوړو textureونو او لوړې بصري کیسې لور ته بوځئ.",
+      "prompt": "Generate a luxury fashion campaign still of a model walking through a neon city after rain, glossy reflections, premium wardrobe, and moody cinematic framing.",
+      "accentClassName": "from-[#5ec8ff] via-[#1e567b] to-[#101216] text-white"
+    },
+    {
+      "title": "Motion-led campaign concepts",
+      "caption": "له still concepts څخه لنډ cinematic motion ideas ته لاړ شئ کله چې کیسه د camera movement او continuity غوښتنه کوي.",
+      "prompt": "Create a short campaign motion concept of a model exiting a taxi at night, wet pavement reflections, slow camera push, and luxury beauty close-ups.",
+      "accentClassName": "from-[#f7c875] via-[#88612f] to-[#161616] text-white"
+    },
+    {
+      "title": "Premium editorial loops",
+      "caption": "Wan 2.7 وکاروئ څو د بشپړ تولید تر پلان مخکې لنډ beauty او fashion film directions وازمویئ.",
+      "prompt": "Generate a fashion-film style loop with subtle wind movement, cinematic close-up transitions, premium makeup detail, and dramatic city-night ambience.",
+      "accentClassName": "from-[#f19dc2] via-[#75405e] to-[#171216] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "ولې Wan 2.7 خپل جلا ماډل پاڼه ولري؟",
+      "answer": "ځکه چې Wan 2.7 د utilitarian image tools په پرتله بل ډول user intent لري. دا پاڼه ښيي چې کله یې د cinematic stills، editorial concepts، او لنډ motion-first story development لپاره وکاروئ."
+    },
+    {
+      "question": "ایا Wan 2.7 لا هم هماغه creator workbench بیا کاروي؟",
+      "answer": "هو. پاڼه د creator هماغه workflow surface ساتي، نو کاروونکي کولای شي د image او video generation ترمنځ بدلون وکړي، پرته له دې چې د محصول جوړښت له سره زده کړي."
+    },
+    {
+      "question": "ایا Wan 2.7 د still لپاره ښه دی که motion لپاره؟",
+      "answer": "دا پاڼه هغه د دواړو لپاره مناسب بولي. Text-to-image د premium concept frameونو لپاره ښه دی، او text-to-video هماغه aesthetic direction په لنډو cinematic clipونو کې غځوي."
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "متن نه انځور",
+      "title": "صحنه 01 · سینمایي image generation",
+      "description": "Wan 2.7 وکاروئ کله چې تاسو polished prompt-led visuals غواړئ چې قوي editorial mood، refined character rendering، او premium first-pass composition ولري.",
+      "spotlight": "د beauty editorials، fashion campaigns او cinematic visual concepts لپاره غوره.",
+      "starterPrompt": "Generate a cinematic beauty editorial portrait in a rain-lit city at blue hour, polished skin detail, premium fashion styling, and refined reflections.",
+      "useCases": [
+        "لوړ-کچې portrait او beauty campaigns",
+        "Fashion editorials له ډېرې فضا سره",
+        "Luxury concept frames له بډایې رڼا سره"
+      ]
+    },
+    {
+      "modeLabel": "انځور سمون",
+      "title": "صحنه 02 · د مراجعو پر بنسټ image editing",
+      "description": "Wan 2.7 image editing ته واړوئ کله چې تاسو د subject identity ساتلو، د composition د مراجعو له مخې هدایت، او stills د ډېر cinematic finish لور ته د وړلو اړتیا لرئ.",
+      "spotlight": "د editorial retouching، image restyling او د موجودو assetونو لپاره د atmosphere upgrades لپاره غوره.",
+      "starterPrompt": "Keep the original subject and framing, deepen the night-time cinematic mood, improve reflections and skin detail, and elevate the image into a premium editorial still.",
+      "useCases": [
+        "Fashion stills له قوي lighting direction سره",
+        "Beauty edits چې د subject identity ساتي",
+        "د صحنې او mood refinement د references پر بنسټ"
+      ]
+    },
+    {
+      "modeLabel": "پرو انځور سمون",
+      "title": "صحنه 03 · د لوړ کنټرول image edit",
+      "description": "Pro edit path هغه وخت وکاروئ کله چې کار کلک visual control، درنه art direction، او پر څو reference inputونو deliberate refinement ته اړتیا ولري.",
+      "spotlight": "د premium campaign polishing، سخت edit control، او د لوړ-وفادارۍ image refinement لپاره غوره.",
+      "starterPrompt": "Using the uploaded references, refine the frame into a premium campaign visual with tighter contrast control, richer atmosphere, and a cleaner luxury finish.",
+      "useCases": [
+        "Campaign-ready product یا portrait refinements",
+        "درنې reference-driven art direction passes",
+        "Polished stills د premium launch visuals لپاره"
+      ]
+    },
+    {
+      "modeLabel": "متن نه ویډیو",
+      "title": "صحنه 04 · motion-first fashion storytelling",
+      "description": "Wan 2.7 video generation ته هغه وخت لاړ شئ چې نظر د camera movement، mood continuity، او ډېره film-like beauty یا fashion narrative ته اړتیا ولري.",
+      "spotlight": "د لنډو cinematic clipونو، campaign motion loopونو، او premium model-focused shotونو لپاره غوره.",
+      "starterPrompt": "Create a short luxury fashion-film clip of a model stepping out of a taxi at night, wet reflections, slow camera push, premium beauty close-up.",
+      "useCases": [
+        "Beauty-film style motion clips",
+        "لنډ fashion campaign sequences",
+        "Luxury editorial motion concepts"
+      ]
+    },
+    {
+      "modeLabel": "انځور نه ویډیو",
+      "title": "صحنه 05 · له still څخه motion ته دوام",
+      "description": "یو قوي still frame په motion بدل کړئ کله چې تاسو غواړئ اصلي composition وساتئ، خو subtle camera movement، ambient motion او cinematic continuity ورزیاته کړئ.",
+      "spotlight": "د key visuals، poster frameونو او editorial stills د لنډو motion loopونو لپاره غوره.",
+      "starterPrompt": "Animate the uploaded key visual into a short cinematic clip with subtle wind, reflective light movement, and a slow editorial camera drift.",
+      "useCases": [
+        "Poster frames په لنډو promo clipونو animate کول",
+        "Beauty stills په subtle cinematic motion بدلول",
+        "له یوه approved key visual څخه motion direction ازمويل"
+      ]
+    },
+    {
+      "modeLabel": "ویډیو غځول",
+      "title": "صحنه 06 · د sequence غځول",
+      "description": "یو موجود Wan 2.7 clip هغه وخت وغځوئ چې concept کار کوي او تاسو ته ډېره موده، نرمه narrative continuation، یا تر cut مخکې یو اضافي beat ته اړتیا وي.",
+      "spotlight": "د approved clipونو غځولو، د اوږدو loopونو جوړولو، او د sequence په اوږدو کې د motion style ساتلو لپاره غوره.",
+      "starterPrompt": "Extend the uploaded clip by continuing the same cinematic mood, camera language, and subject motion without breaking continuity.",
+      "useCases": [
+        "لنډ clips په بشپړو campaign loopونو غځول",
+        "Approved fashion-film shotونو ته یو اضافي beat ورکول",
+        "په اوږده sequence کې د motion language ساتل"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

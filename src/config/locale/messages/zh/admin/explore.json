@@ -1,0 +1,18 @@
+{
+  "edit": {
+    "title": "探索页面配置",
+    "crumbs": {
+      "admin": "管理后台",
+      "explore": "探索页面"
+    },
+    "buttons": {
+      "submit": "保存配置"
+    }
+  },
+  "fields": {
+    "title": "页面标题",
+    "subtitle": "页面副标题",
+    "sections": "分区配置 (JSON)",
+    "sections_tip": "以 JSON 格式配置探索页面的分区。每个分区应包含：id、modelName、subtitle、generateUrl 和 items 数组。"
+  }
+}

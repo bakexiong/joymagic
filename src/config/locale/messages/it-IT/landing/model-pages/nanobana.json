@@ -1,0 +1,88 @@
+{
+  "title": "Nano Banana",
+  "provider": "Google",
+  "eyebrow": "Landing page model-first",
+  "description": "Inizia da Nano Banana, poi passa ai workflow in cui rende meglio: image editing guidato, concept generation rapida e iterazione nativa nel creator con lo stesso comportamento del workbench che il prodotto usa già.",
+  "seoTitle": "Pagina modello AI Nano Banana | Image Edit + Text to Image | joymagic",
+  "seoDescription": "Esplora Nano Banana come pagina modello model-first. Cambia scena, mantieni il creator workbench e usa Nano Banana per image editing e text-to-image in un unico flusso.",
+  "stats": [
+    {
+      "label": "Modalità principale",
+      "value": "Image Edit"
+    },
+    {
+      "label": "Scene estese",
+      "value": "2 workflow attivi"
+    },
+    {
+      "label": "Riuso pannello",
+      "value": "Uguale al creator"
+    }
+  ],
+  "differentiators": [
+    "Metti il modello al centro invece di partire da una lista generica di scene, così il traffico a pagamento atterra su una proposta di valore più precisa.",
+    "Riusa lo schema del form del creator e il pannello media a destra per mantenere coerente il comportamento del prodotto.",
+    "Aggiungi nuove pagine modello estendendo un unico registro di preset invece di duplicare pagine intere."
+  ],
+  "gallery": [
+    {
+      "title": "Restyling prodotto",
+      "caption": "Trasforma un semplice packshot ecommerce in una visual premium da lancio con un unico modello e un ciclo di revisione più stretto.",
+      "prompt": "Transform the uploaded bottle shot into a luxury skincare ad with brushed metal reflections, soft fog, and a champagne gold palette.",
+      "accentClassName": "from-[#f4d38f] via-[#8b6b2b] to-[#161616] text-white"
+    },
+    {
+      "title": "Refresh personaggio",
+      "caption": "Aggiorna posa, styling e luce mantenendo intatta l'identità attraverso revisioni ripetute.",
+      "prompt": "Keep the same character and facial identity, switch to magazine portrait lighting, soft pink hair, and a collectible-figure styling.",
+      "accentClassName": "from-[#b78cff] via-[#5c38a5] to-[#151515] text-white"
+    },
+    {
+      "title": "Concept solo prompt",
+      "caption": "Usa lo stesso modello per concept prompt-only prima di passare a edit, ritocchi o upscale.",
+      "prompt": "Generate a futuristic dessert cafe interior with chrome counters, creamy daylight, and playful signage rendered in clear readable type.",
+      "accentClassName": "from-[#7ee7f2] via-[#167f8c] to-[#131313] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Perché usare /model/nanobana invece di una pagina tool generica?",
+      "answer": "Questa pagina è progettata per traffico guidato dal modello. Invece di costringere i visitatori a scegliere prima una famiglia di strumenti, parte da Nano Banana e poi si apre ai workflow in cui questo modello rende meglio."
+    },
+    {
+      "question": "Questa pagina usa un pannello media a destra diverso?",
+      "answer": "No. L'area workbench riusa lo stesso pannello media del creator, quindi elementi salvati, template, scene switching e abitudini d'uso restano coerenti con /creator."
+    },
+    {
+      "question": "Altri modelli possono riutilizzare questo template?",
+      "answer": "Sì. La pagina è guidata da un registro, quindi aggiungere una nuova pagina /model/[slug] è soprattutto un lavoro di dati più qualche ritocco di copy specifico del modello."
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "Modifica immagine",
+      "title": "Scena 01 · Image editing guidato",
+      "description": "Usa Nano Banana come superficie di editing predefinita per ritocco, trasferimento di stile, rifinitura prodotto e revisioni che preservano l'identità.",
+      "spotlight": "Ideale per asset già esistenti che hanno bisogno di una seconda passata più veloce.",
+      "starterPrompt": "Keep the original composition, clean the background, upgrade the lighting to a cinematic studio look, and preserve all brand details.",
+      "useCases": [
+        "Pulizia immagini prodotto e restyling premium",
+        "Frame UGC trasformati in key visual pronti per l'ad",
+        "Varianti di stile sicure per personaggi o IP"
+      ]
+    },
+    {
+      "modeLabel": "Testo in immagine",
+      "title": "Scena 02 · Concept generation guidata dal prompt",
+      "description": "Parti dallo stesso modello per entrare nella generazione zero-to-one quando ti servono bozze concettuali, esplorazione di campagna o nuove direzioni visive.",
+      "spotlight": "Ideale per creare nuove direzioni prima di decidere cosa modificare o aumentare di qualità in seguito.",
+      "starterPrompt": "Create a polished campaign key visual for a summer drink launch, bright afternoon backlight, citrus tones, bold readable headline typography.",
+      "useCases": [
+        "Moodboard di campagna e concept hero",
+        "Bozze per social graphic e poster",
+        "Packaging, signage e composizioni con testo"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

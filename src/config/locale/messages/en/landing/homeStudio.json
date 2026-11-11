@@ -1,0 +1,280 @@
+{
+  "header": {
+    "title": "Explore Creative Categories",
+    "subtitle": "All the tools you need to create, edit and imagine."
+  },
+  "common": {
+    "prompt": "Prompt",
+    "before": "Before",
+    "after": "After",
+    "image": "Image",
+    "video": "Video",
+    "freeTrial": "Free Trial"
+  },
+  "cards": {
+    "imageToVideo": {
+      "title": "Image to Video",
+      "description": "Animate your images into videos",
+      "inputAlt": "Image to Video input",
+      "outputTitle": "Image to Video output"
+    },
+    "textToVideo": {
+      "title": "Text to Video",
+      "description": "Create videos from text prompts"
+    },
+    "longcatAvatar": {
+      "title": "Lip-Sync",
+      "description": "Create talking avatar videos from image and audio",
+      "inputAlt": "Longcat Avatar image input",
+      "outputAlt": "Longcat Avatar video output"
+    },
+    "editorCombiner": {
+      "title": "Editor & Combiner",
+      "description": "Edit, combine and create",
+      "referencePortraitAlt": "Editor reference portrait",
+      "referenceProductAlt": "Editor reference product",
+      "outputAlt": "Editor combined output"
+    },
+    "imageToImage": {
+      "title": "Image to Image",
+      "description": "Transform images with AI"
+    },
+    "textToImage": {
+      "title": "Text to Image",
+      "description": "Generate images from text prompts"
+    },
+    "photoShoot": {
+      "title": "PhotoShoot",
+      "description": "AI photoshoots in any style",
+      "coverAlt": "Photoshoot cover",
+      "coverBadge": "Cover",
+      "scenesBadge": "Scenes"
+    },
+    "variations": {
+      "title": "Variations",
+      "description": "Create variations from any image",
+      "inputAlt": "Variation input",
+      "inputBadge": "Input",
+      "outputBadge": "Output"
+    },
+    "faceGenerator": {
+      "title": "Face Generator",
+      "description": "Generate realistic faces"
+    },
+    "imageUpscaler": {
+      "title": "Image Upscaler",
+      "description": "Enhance image resolution",
+      "beforeAlt": "Before upscaling",
+      "afterAlt": "After upscaling",
+      "lowRes": "Low Res",
+      "enhanced": "Enhanced"
+    },
+    "videoUpscaler": {
+      "title": "Video Upscaler",
+      "description": "Improve video quality",
+      "hd": "HD",
+      "ultraHd": "Ultra HD"
+    },
+    "imageEffects": {
+      "title": "Image Effects",
+      "description": "Apply stunning effects to images",
+      "chips": {
+        "original": "Original",
+        "filmLook": "Film Look",
+        "goldenHour": "Golden Hour",
+        "blackWhite": "B&W"
+      }
+    },
+    "videoEffects": {
+      "title": "Video Effects",
+      "description": "Add cinematic effects to videos",
+      "chips": {
+        "cinematic": "Cinematic",
+        "slowMotion": "Slow Motion",
+        "lightLeak": "Light Leak",
+        "vintage": "Vintage"
+      }
+    },
+    "backgroundRemove": {
+      "title": "Background Remove",
+      "description": "Remove image backgrounds instantly",
+      "beforeAlt": "Background remove before",
+      "afterAlt": "Background remove after"
+    },
+    "imageEraser": {
+      "title": "Image Eraser",
+      "description": "Erase unwanted objects with AI",
+      "beforeAlt": "Image eraser before",
+      "afterAlt": "Image eraser after",
+      "eraseBadge": "Clean Erase"
+    },
+    "referenceToVideo": {
+      "title": "Reference To Video",
+      "description": "Generate videos from reference images",
+      "referenceAlt": "Reference to video input",
+      "outputAlt": "Reference to video output",
+      "referenceBadge": "Reference"
+    },
+    "videoExtend": {
+      "title": "Video Extend",
+      "description": "Extend clips with smooth continuation",
+      "beforeBadge": "Original",
+      "afterBadge": "Extended",
+      "shortDuration": "5s",
+      "longDuration": "10s"
+    },
+    "motionControl": {
+      "title": "Motion Control",
+      "description": "Drive motion with reference guidance",
+      "inputAlt": "Motion control input",
+      "outputAlt": "Motion control output",
+      "badge": "Motion"
+    }
+  },
+  "mangoHomepage": {
+    "eyebrow": "AI image, video, and visual effects creation platform",
+    "heroDescription": "Create polished visuals from prompts, references, and ready-to-use effects. joymagic gives creators, brands, and content teams a streamlined AI production workflow for images and video.",
+    "tabs": {
+      "video-tools": {
+        "label": "Video Tools",
+        "description": "Generate short clips, ad concepts, character motion, and social-ready video assets from prompts or reference images."
+      },
+      "image-tools": {
+        "label": "Image Tools",
+        "description": "Create portraits, campaign visuals, product imagery, social covers, and polished edits with core AI image tools."
+      },
+      "image-effects": {
+        "label": "Image Effects",
+        "description": "Apply curated visual styles to give portraits and photos a consistent, production-ready look."
+      }
+    },
+    "sections": {
+      "imageEffects": {
+        "eyebrow": "Image Effects",
+        "title": "Curated image effects for polished visual styles"
+      },
+      "videoEffects": {
+        "eyebrow": "Video Effects",
+        "title": "Popular video effects for stronger motion design"
+      },
+      "popularPaths": {
+        "eyebrow": "Popular Paths",
+        "title": "Start your next creation from a popular workflow"
+      }
+    },
+    "cta": {
+      "title": "Open a professional workspace and move from idea to final output",
+      "description": "Choose image generation, video generation, or an effect template, then continue editing, previewing, and exporting inside one workspace.",
+      "openImageWorkspace": "Open image workspace",
+      "openVideoWorkspace": "Open video workspace"
+    },
+    "cards": {
+      "openTool": "Open tool",
+      "aiVideoGenerator": {
+        "title": "AI Video Generator",
+        "description": "Generate polished video shots from text prompts for ad concepts, short scenes, mood reels, and character motion previews."
+      },
+      "imageToVideo": {
+        "title": "Image to Video",
+        "description": "Turn a single still image into natural motion for portrait openings, product reveals, social clips, and brand visuals."
+      },
+      "videoEffects": {
+        "title": "Video Effects",
+        "description": "Apply reusable video effect templates to add stronger motion, style, and presentation value to visual content."
+      },
+      "fashionStride": {
+        "title": "Fashion Stride",
+        "description": "A runway-style motion effect for transforming still portraits into confident, fashion-focused short clips."
+      },
+      "dreamyWedding": {
+        "title": "Dreamy Wedding",
+        "description": "A romantic motion style for wedding visuals, emotional edits, and memory-driven social content."
+      },
+      "walkForward": {
+        "title": "Walk Forward",
+        "description": "Add a natural forward-walking motion that works well for entrances, reveals, and dynamic cover shots."
+      },
+      "aiImageGenerator": {
+        "title": "AI Image Generator",
+        "description": "Generate high-quality images from text for adult female portraits, ad posters, character concepts, product visuals, and social covers."
+      },
+      "imageToImage": {
+        "title": "Image to Image",
+        "description": "Restyle or redraw uploaded images for outfit changes, scene updates, and more polished commercial presentation."
+      },
+      "imageUpscaler": {
+        "title": "Image Upscaler",
+        "description": "Increase resolution and recover texture, sharpness, and detail for portraits, product photos, and low-quality source images."
+      },
+      "backgroundRemover": {
+        "title": "Background Remover",
+        "description": "Detect the subject and remove backgrounds for product cutouts, model assets, profile images, and transparent PNG exports."
+      },
+      "imageEraser": {
+        "title": "Image Eraser",
+        "description": "Remove distracting objects, blemishes, or unwanted elements while AI rebuilds a clean, natural-looking background."
+      },
+      "imageEffects": {
+        "title": "Image Effects",
+        "description": "Use preset styles to unify photo direction for portrait packaging, social content, campaign visuals, and themed posters."
+      },
+      "aiGhibliEffect": {
+        "title": "AI Ghibli Effect",
+        "description": "Convert portraits into soft storybook-like anime artwork with a warm Ghibli-inspired atmosphere."
+      },
+      "springBarbiecore": {
+        "title": "Spring Barbiecore",
+        "description": "Reframe portraits with bright pink styling and playful fashion energy for a bold trend-forward look."
+      },
+      "softSpringHaze": {
+        "title": "Soft Spring Haze",
+        "description": "Add a gentle spring haze that works well for lifestyle portraits, soft editorials, and cover imagery."
+      },
+      "provenceSummerGirl": {
+        "title": "Provence Summer Girl",
+        "description": "Create a French summer portrait mood that feels airy, travel-inspired, and lightly editorial."
+      },
+      "roseBokeh": {
+        "title": "Rose Bokeh",
+        "description": "Layer romantic floral bokeh into portraits for festive visuals, greeting imagery, and mood-rich edits."
+      },
+      "ccdStyleSnow": {
+        "title": "CCD Style Snow",
+        "description": "Simulate a nostalgic CCD snow-scene camera look for seasonal photos and retro visual storytelling."
+      },
+      "y2kTrendCollage": {
+        "title": "Y2K Trend Collage",
+        "description": "Wrap portraits in a Y2K collage poster aesthetic for social cards, trend campaigns, and playful covers."
+      },
+      "y2kCyberCollage": {
+        "title": "Y2K Cyber Collage",
+        "description": "Mix cyber styling and collage framing for portraits that need more future-facing trend energy."
+      },
+      "miniMe": {
+        "title": "Mini Me",
+        "description": "Turn a person into a miniature toy-like version for avatars, merch-style graphics, and playful content."
+      },
+      "ghibliMotion": {
+        "title": "Ghibli Motion",
+        "description": "Apply a Ghibli-like animated motion treatment for story-driven clips and cinematic mood sequences."
+      },
+      "starCarpet": {
+        "title": "Star Carpet",
+        "description": "Create a red-carpet arrival feel for highlight moments, stage entrances, and celebrity-style presentation."
+      },
+      "blueprintSupreme": {
+        "title": "Blueprint Supreme",
+        "description": "Use a more conceptual video effect for design-led showcases, abstract reveals, and stylized motion pieces."
+      },
+      "createImage": {
+        "title": "Create Image"
+      },
+      "createVideo": {
+        "title": "Create Video"
+      },
+      "showcases": {
+        "title": "Showcases"
+      }
+    }
+  }
+}

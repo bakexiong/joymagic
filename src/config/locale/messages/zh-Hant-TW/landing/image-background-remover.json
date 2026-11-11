@@ -1,0 +1,195 @@
+{
+  "imageBackgroundRemover": {
+    "id": "image-background-remover",
+    "title": "joymagic AI 背景移除工具",
+    "description": "使用 AI 精確移除圖片背景。完美適用於產品照片、人像等。",
+    "steps": {
+      "sourceImage": {
+        "title": "上傳源圖片",
+        "hint": "支援 JPG/PNG/WEBP",
+        "dragDrop": "拖拽或點擊上傳",
+        "dropHere": "將圖片拖放到此處"
+      },
+      "generate": {
+        "title": "移除背景",
+        "cta": "移除背景",
+        "generating": "正在移除背景..."
+      }
+    },
+    "preview": {
+      "title": "預覽",
+      "original": "原圖",
+      "backgroundRemoved": "背景已移除",
+      "placeholder": "上傳圖片以查看背景移除結果。"
+    },
+    "common": {
+      "selected": "已選擇：{name}",
+      "notSelected": "未選擇文件"
+    },
+    "errors": {
+      "invalidFileType": "無效的文件類型。請上傳圖片文件（JPG、PNG、WEBP）。",
+      "uploadFailed": "上傳失敗：{error}",
+      "uploadFailedGeneric": "上傳失敗",
+      "sourceImageRequired": "請先上傳源圖片",
+      "generationFailed": "背景移除失敗",
+      "taskFailed": "任務處理失敗",
+      "taskTimeout": "任務處理超時，請稍後重試",
+      "taskIdNotFound": "無法獲取任務 ID，請檢查 API 響應格式",
+      "processingFailed": "處理失敗，請重試",
+      "statusQueryFailed": "查詢任務狀態失敗",
+      "apiResponseParseFailed": "解析 API 響應失敗",
+      "downloadFailed": "下載圖片失敗"
+    },
+    "download": {
+      "title": "下載圖片"
+    },
+    "alt": {
+      "sourcePreview": "源圖片預覽",
+      "enlargedPreview": "放大預覽",
+      "source": "源圖片",
+      "generated": "生成的圖片"
+    }
+  },
+  "imageBackgroundRemoverPage": {
+    "metadata": {
+      "title": "AI 圖片背景移除工具線上 | 一鍵移除背景 | joymagic",
+      "description": "使用 joymagic 的 AI 背景移除工具一鍵移除任何圖片的背景。無需編輯技能，高清下載，無水印，支援批次處理。",
+      "keywords": "AI 圖片背景移除工具，移除背景，透明背景，線上背景移除，AI 背景移除，產品照片編輯器，人像背景移除，批次背景移除"
+    },
+    "hero": {
+      "title": "AI 圖片背景移除工具線上",
+      "description": "使用 joymagic 的 AI 背景移除工具一鍵移除任何圖片的背景。無需編輯技能，完美摳圖。",
+      "button1": "立即移除背景",
+      "button2": "免費開始 · 無需信用卡"
+    },
+    "heroDescription": "✓ 高清下載  ✓ 無水印  ✓ 批次支援",
+    "whatIsAIBackgroundRemover": {
+      "title": "什麼是 AI 圖片背景移除工具？",
+      "description": "joymagic 的 AI 圖片背景移除工具使用先進的深度學習技術，自動偵測照片中的主要主體，並在幾秒內精確移除背景。與需要遮罩和刷塗的手動工具或基礎編輯器不同，我們的 AI：",
+      "features": [
+        "智能識別人物、產品、動物、汽車和物體",
+        "處理複雜的邊緣，如頭髮、毛髮和精細細節",
+        "建立乾淨、透明的摳圖（PNG）或替換為任何顏色",
+        "每次都能提供專業效果"
+      ],
+      "perfectFor": "完美適用於產品照片、人像、頭像、社群媒體內容、電商列表和設計專案。"
+    },
+    "keyFeatures": {
+      "title": "核心功能",
+      "description": "強大的 AI 背景移除功能，快速高效。",
+      "oneClickPrecision": {
+        "title": "一鍵精準移除",
+        "description": "<p class=\"mb-3\">先進的 AI 技術處理棘手的細節，如頭髮、毛髮和透明物體 – 幾秒內獲得結果。</p>"
+      },
+      "highQualityTransparent": {
+        "title": "高品質透明輸出",
+        "description": "<p class=\"mb-3\">下載清晰、專業的全高清摳圖，邊緣平滑，無偽影。</p>"
+      },
+      "batchRemoval": {
+        "title": "批次背景移除",
+        "description": "<p class=\"mb-3\">一次上傳並處理多張圖片 – 完美適用於產品目錄或批次編輯。</p>"
+      },
+      "cleanProfessional": {
+        "title": "乾淨專業的效果",
+        "description": "<p class=\"mb-3\">無水印，無模糊邊緣 – 適用於電商、簡報或設計。</p>"
+      },
+      "replaceBackground": {
+        "title": "替換背景",
+        "description": "<p class=\"mb-3\">一鍵輕鬆切換到白色、彩色或自訂背景。</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "joymagic AI 背景移除工具可以做什麼",
+      "description": "一次上傳，無限創意可能。",
+      "productPhotos": {
+        "title": "建立精美的產品照片",
+        "description": "<p class=\"mb-3\">從產品照片中移除干擾背景，將物品放置在乾淨的白色或透明背景上，適用於 Amazon、Shopify 或列表。</p>"
+      },
+      "profilePictures": {
+        "title": "製作專業頭像",
+        "description": "<p class=\"mb-3\">快速隔離人像，適用於 LinkedIn、履歷、證件照或交友資料。</p>"
+      },
+      "graphicsMemes": {
+        "title": "設計圖形和表情包",
+        "description": "<p class=\"mb-3\">提取人物、物體或動物，疊加到新背景、海報或社群媒體視覺上。</p>"
+      },
+      "ecommerce": {
+        "title": "準備電商圖片",
+        "description": "<p class=\"mb-3\">使用批次移除快速處理數百張產品圖片 – 節省數小時的手動編輯時間。</p>"
+      },
+      "socialMedia": {
+        "title": "增強社群媒體內容",
+        "description": "<p class=\"mb-3\">使用透明貼紙或乾淨摳圖建立引人注目的動態、貼文和影片。</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "如何移除圖片背景",
+      "description": "只需幾個簡單步驟即可使用我們的 AI 背景移除工具：",
+      "step1": {
+        "title": "1. 上傳圖片",
+        "description": "<p class=\"mb-3\">拖拽或選擇您的照片。</p><p class=\"mb-3\">支援 JPG、JPEG、PNG、WEBP 和 HEIC 格式。</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>適用於人像、產品照片、標誌等</li><li>主體清晰效果最佳</li></ul>"
+      },
+      "step2": {
+        "title": "2. 讓 AI 施展魔法",
+        "description": "<p class=\"mb-3\">我們的 AI 自動偵測並在幾秒內移除背景。</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>無需手動刷塗或選擇</li><li>即時預覽透明效果</li></ul>"
+      },
+      "step3": {
+        "title": "3. 精修（選用）",
+        "description": "<p class=\"mb-3\">如需要可進行微調：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>恢復主體的部分</li><li>擦除剩餘的背景斑點</li><li>平滑邊緣以獲得完美摳圖</li></ul>"
+      },
+      "step4": {
+        "title": "4. 下載結果",
+        "description": "<p class=\"mb-3\">立即獲得無背景圖片：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>透明 PNG（適合疊加）</li><li>或選擇純色/白色背景</li><li>高清品質，隨時可用</li></ul>"
+      }
+    },
+    "faq": {
+      "title": "AI 圖片背景移除工具常見問題",
+      "description": "關於我們的 AI 圖片背景移除工具的常見問題。",
+      "q1": {
+        "question": "支援哪些圖片格式？",
+        "answer": "我們支援 JPG、JPEG、PNG、WEBP 和 HEIC。使用高品質圖片效果最佳。"
+      },
+      "q2": {
+        "question": "我的圖片會有水印嗎？",
+        "answer": "不會。所有下載的圖片都是乾淨且無水印的。"
+      },
+      "q3": {
+        "question": "AI 的準確度如何？",
+        "answer": "我們的 AI 擅長處理頭髮、毛髮和複雜邊緣。對於非常複雜的情況，可以使用簡單的精修工具來完善結果。"
+      },
+      "q4": {
+        "question": "我可以批次移除多張圖片的背景嗎？",
+        "answer": "可以 – 批次處理功能允許您一次上傳並移除多張圖片的背景。"
+      },
+      "q5": {
+        "question": "我的資料安全嗎？",
+        "answer": "是的。上傳的圖片會安全處理，處理完成後自動刪除。我們絕不會將您的圖片用於訓練。"
+      },
+      "q6": {
+        "question": "我可以更改背景顏色嗎？",
+        "answer": "可以 – 下載透明背景或選擇白色/純色背景。"
+      },
+      "q7": {
+        "question": "哪些類型的圖片效果最好？",
+        "answer": "主體清晰（人物、產品、物體、動物）且背景對比鮮明或雜亂的圖片自動效果最佳。人像、產品照片和標誌效果特別好。"
+      },
+      "q8": {
+        "question": "AI 移除後我可以精修或編輯結果嗎？",
+        "answer": "可以 – 簡單的畫筆工具允許您手動恢復任何意外移除的部分或擦除剩餘的背景斑點，實現像素級精確控制。"
+      }
+    },
+    "privacySecurity": {
+      "title": "隱私與安全",
+      "description": "您的圖片和隱私是我們的首要任務。",
+      "secureProcessing": "所有上傳都經過安全處理和加密",
+      "autoDelete": "圖片在處理後自動刪除",
+      "neverShared": "絕不與第三方共享或用於 AI 訓練"
+    },
+    "finalCTA": {
+      "title": "將任何照片轉換為乾淨、專業的摳圖。",
+      "description": "立即試用 joymagic 的 AI 背景移除工具，幾秒內獲得完美的透明效果。<br/><span class=\"text-muted-foreground\">無需設計技能 · 免費試用</span>",
+      "button": "立即移除背景"
+    }
+  }
+}
+

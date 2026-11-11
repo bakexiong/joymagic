@@ -1,0 +1,101 @@
+{
+  "page": {
+    "metadata": {
+      "title": "GPT-Image 2 Text zu Bild - Chinesischer Text, fotorealistische KI-Bilder | joymagic",
+      "description": "Erstelle mit GPT-Image 2 chinesische Poster, Prüfungsblätter, Kalligrafie, fotorealistische Street-Fotografie, UI-Screenshots und Produktvisuals. Starke Textrendering-Qualität, Weltwissen und realistische Bildwirkung.",
+      "keywords": "GPT-Image 2, GPT Image 2, chinesische Textrendering, KI-Postergenerator, fotorealistische KI-Bilder, UI-Screenshot-Generator, Text zu Bild, OpenAI Bildmodell"
+    },
+    "hero": {
+      "title": "GPT-Image 2 Text zu Bild",
+      "description": "GPT Image 2 ist OpenAIs neueres Bildmodell in begrenzter Einführung und überzeugt vor allem durch drei Stärken: sehr präzises Textrendering, besseres Weltwissen und fotorealistische Bildqualität. Für starke Ergebnisse brauchst du keine extrem langen Prompts mehr. Mit kurzen natürlichen Anweisungen lassen sich chinesische Poster, Prüfungsblätter, Kalligrafie, realistische dokumentarische Fotos und überzeugende UI-Screenshots erzeugen.<br/><br/>Möchtest du stattdessen hochgeladene Bilder bearbeiten? <a href=\"/image-to-image/gpt-image-2\" class=\"text-primary underline\">Teste GPT-Image 2 Bild zu Bild</a>.",
+      "button1": "Jetzt testen",
+      "button2": "Preise ansehen"
+    },
+    "features": {
+      "title": "Warum GPT-Image 2",
+      "description": "Entwickelt für textreiche Visuals, fotorealistische Szenen und glaubwürdige bildbasierte Produktdarstellungen.",
+      "promptFirst": {
+        "title": "Kurze Prompts, starke Ergebnisse",
+        "description": "GPT Image 2 braucht für typische Aufgaben keine überladenen Anweisungen. Direkte Prompts liefern oft schneller überzeugende erste Ergebnisse."
+      },
+      "aspectCoverage": {
+        "title": "Präzise Text- und Layoutdarstellung",
+        "description": "Erzeuge chinesischen Text in Postern, Dokumenten, buchähnlichen Seiten, Verpackungen und UI-Flächen mit deutlich besserer Lesbarkeit als ältere Bildmodelle."
+      },
+      "creatorReady": {
+        "title": "Fotorealistisch und UI-bewusst",
+        "description": "Das Modell versteht Optik, Materialien, Kameraanmutung und Software-UI-Strukturen gut genug für Produkt-Mockups, Screenshots und realistische Fotografie-Prompts."
+      }
+    },
+    "useCases": {
+      "title": "Einsatzbereiche",
+      "socialCampaigns": {
+        "title": "Chinesische Poster und gemischte Typografie",
+        "description": "Erstelle Cover, Werbeposter und Game-Key-Art mit gut lesbaren chinesischen Titeln, Untertiteln und ergänzendem Layouttext."
+      },
+      "coverArt": {
+        "title": "Dokumente, Prüfungsblätter und Kalligrafie",
+        "description": "Erzeuge Prüfungsbögen, simulierte Druckseiten, Kalligrafiearbeiten und traditionell wirkende Kompositionen mit glaubwürdigerer Textplatzierung."
+      },
+      "productVisuals": {
+        "title": "Fotorealistische Editorial- und Street-Fotografie",
+        "description": "Nutze Prompts zu Kameragehäusen, Objektiven, Filmtypen, Umgebungslicht und spontaner Bildkomposition für überzeugendere fotografieartige Bilder."
+      },
+      "cinematicBoards": {
+        "title": "App-UI- und Desktop-Screenshot-Konzepte",
+        "description": "Erzeuge app-ähnliche Oberflächen, Finanz-Dashboards, macOS-Desktops und Produktdemo-Szenen mit klarer Interface-Struktur."
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Häufige Fragen zu Textrendering und fotorealistischer Generierung mit GPT Image 2.",
+      "q1": {
+        "question": "Wofür ist GPT Image 2 besonders gut geeignet?",
+        "answer": "Die stärksten Einsatzbereiche sind textlastige Bildgenerierung, chinesische Typografie, fotorealistische Szenen, professionelle Fotografie-Prompts sowie UI- oder screenshotartige Kompositionen."
+      },
+      "q2": {
+        "question": "Kann GPT Image 2 chinesischen Text präzise darstellen?",
+        "answer": "Für chinesischen Text, Poster, Prüfungsblätter, Labels und andere strukturierte Layouts ist es deutlich besser als frühere Modelle, auch wenn Details vor dem produktiven Einsatz weiterhin geprüft werden sollten."
+      },
+      "q3": {
+        "question": "Brauche ich lange Prompts für gute Ergebnisse?",
+        "answer": "Meistens nicht. Einer der Vorteile des Modells ist, dass einfache und direkte Prompts bereits sehr gute Bilder liefern, besonders bei typischen visuellen Anforderungen."
+      }
+    },
+    "finalCTA": {
+      "title": "Bereit, GPT Image 2 auszuprobieren?",
+      "description": "Starte mit einem kurzen Prompt und erzeuge in Sekunden Poster, realistische Fotos, UI-Screenshots oder dokumentartige Visuals.",
+      "button": "Playground öffnen"
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "textToImage": "Text zu Bild",
+      "model": "GPT-Image 2"
+    },
+    "schema": {
+      "softwareName": "joymagic KI GPT-Image 2 Text zu Bild",
+      "softwareDescription": "Erzeuge mit GPT Image 2 chinesische Poster, Prüfungsblätter, Kalligrafie, realistische Fotografie und UI-Screenshots.",
+      "howToName": "So erzeugst du Bilder mit GPT Image 2",
+      "howToDescription": "Schreibe einen kurzen Prompt, wähle ein Seitenverhältnis und erzeuge textreiche oder fotorealistische Bilder mit GPT Image 2.",
+      "features": {
+        "promptFirst": "Bildgenerierung mit kurzen Prompts",
+        "aspectPresets": "Chinesisches Text- und Layoutrendering",
+        "outputCoverage": "Fotorealistische Fotografie und UI-Screenshot-Generierung"
+      },
+      "steps": {
+        "prompt": {
+          "name": "Prompt schreiben",
+          "text": "Beschreibe das Motiv, den Stil, das Licht und die Komposition, die du erzeugen möchtest."
+        },
+        "aspectRatio": {
+          "name": "Seitenverhältnis wählen",
+          "text": "Wähle die Ausgabeform, die zu deiner Ziel-Fläche passt, von quadratisch bis Hochformat oder Ultraweit."
+        },
+        "generate": {
+          "name": "Generieren und herunterladen",
+          "text": "Starte das Modell und lade das Ergebnis herunter, das am besten zu deinem kreativen Ablauf passt."
+        }
+      }
+    }
+  }
+}

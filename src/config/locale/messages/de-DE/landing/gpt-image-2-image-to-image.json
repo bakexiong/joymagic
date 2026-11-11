@@ -1,0 +1,120 @@
+{
+  "page": {
+    "metadata": {
+      "title": "GPT-Image 2 Bild zu Bild - Poster, UI und fotorealistische Bilder bearbeiten | joymagic",
+      "description": "Bearbeite mit GPT-Image 2 bis zu 4 hochgeladene Bilder für chinesische Poster-Korrekturen, dokumentartige Layouts, fotorealistische Retusche und Interface-Mockup-Transformationen.",
+      "keywords": "GPT-Image 2 Bild zu Bild, chinesische Posterbearbeitung, fotorealistischer Bildeditor, UI-Mockup-Editor, Bild zu Bild KI, bis zu 4 Bilder bearbeiten"
+    },
+    "hero": {
+      "title": "GPT-Image 2 Bild zu Bild",
+      "description": "Die Bildbearbeitung mit GPT-Image 2 ist besonders stark, wenn du textreiche Visuals überarbeiten, dokumentartige Layouts umformen, fotorealistische Szenen retuschieren oder UI-artige Screenshots transformieren möchtest. Du kannst bis zu 4 Ausgangsbilder hochladen, die Änderung in natürlicher Sprache beschreiben und das Ergebnis mit dem passenden Seitenverhältnis steuern.<br/><br/>Möchtest du stattdessen von Grund auf neu generieren? <a href=\"/text-to-image/gpt-image-2\" class=\"text-primary underline\">Teste GPT-Image 2 Text zu Bild</a>.",
+      "button1": "Jetzt testen",
+      "button2": "Preise ansehen"
+    },
+    "features": {
+      "title": "Warum GPT-Image 2 für Bildbearbeitung",
+      "description": "Ein stärkerer Bearbeitungs-Workflow für textbewusste Layouts, fotorealistische Verfeinerungen und interfaceartige Bilder.",
+      "references": {
+        "title": "Bis zu 4 Bilder gemeinsam bearbeiten",
+        "description": "Lade eine kleine Serie von Ausgangsbildern hoch, wenn du eine einheitliche Richtung auf ein Poster-Set, eine Kampagnenreihe oder eine Serie von UI-Mockups anwenden willst."
+      },
+      "promptLed": {
+        "title": "Text- und layoutbewusste Bearbeitungen",
+        "description": "GPT-Image 2 eignet sich besser für Postertext, Dokumentstruktur, Beschriftungen und gemischte visuelle Layouts und ist damit für Überarbeitungen nützlich, die über einfache Stilwechsel hinausgehen."
+      },
+      "framing": {
+        "title": "Fotorealistische und UI-freundliche Ausgabekontrolle",
+        "description": "Wähle den finalen Bildausschnitt vor der Generierung, damit Fotoretusche, Screenshot-Redesign und Kompositionsänderungen näher am Einsatzziel landen."
+      }
+    },
+    "promptingTips": {
+      "title": "So erhältst du bessere GPT-Image-2-Bearbeitungen",
+      "specific": {
+        "title": "Sag klar, was sich ändern soll und was bleiben muss",
+        "description": "Bei Poster-, Dokument- und UI-Bearbeitungen solltest du genau benennen, welcher Textblock, Layoutbereich oder welches visuelle Element geändert werden soll, während der Rest erhalten bleibt."
+      },
+      "batch": {
+        "title": "Halte eine Richtung für die ganze Serie",
+        "description": "Wenn du mehrere Bilder hochlädst, nutze eine klare einheitliche Anweisung, damit die gesamte Serie in derselben visuellen Familie und Qualitätsstufe bleibt."
+      },
+      "framing": {
+        "title": "Wähle das Ziel-Seitenverhältnis früh",
+        "description": "Lege das finale Seitenverhältnis vor der Generierung fest, damit Zuschnitt, Abstände und Komposition besser zum späteren Einsatz passen."
+      },
+      "details": {
+        "title": "Nenne Realismus oder Interface-Stil",
+        "description": "Erwähne, ob du fotorealistische Retusche, filmähnliches Rendering, saubere UI-Oberflächen oder realistisches Screenshot-Verhalten möchtest, um das Finish präziser zu steuern."
+      }
+    },
+    "useCases": {
+      "title": "Einsatzbereiche",
+      "batchAssets": {
+        "title": "Poster- und Layout-Überarbeitung",
+        "description": "Überarbeite chinesische Poster, Cover-Art oder dokumentartige Designs, während die Grundstruktur erhalten bleibt und Klarheit, Balance oder textreiche Bereiche verbessert werden."
+      },
+      "productRefresh": {
+        "title": "Fotorealistische Produkt- und Porträtretusche",
+        "description": "Verfeinere Licht, Textur, Hintergrundstimmung und Endqualität bei Produktfotos, Porträts oder Street-Fotografie, ohne die ganze Szene neu aufzubauen."
+      },
+      "socialVariants": {
+        "title": "UI- und Screenshot-Redesign",
+        "description": "Verwandle Finanz-Apps, Desktop-Layouts, Dashboards und Software-Screenshots in sauberere, schärfere oder cineastischere Interface-Visuals."
+      },
+      "lookDev": {
+        "title": "Kreative Abstimmung in kleinen Serien",
+        "description": "Nutze einen einzelnen Prompt für bis zu 4 Bilder, um eine kreative Richtung an einer kleinen Asset-Serie zu testen, bevor du in die finale Produktion gehst."
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Häufige Fragen zur GPT-Image-2-Bildbearbeitung für Poster, fotorealistische Szenen und UI-Screenshots.",
+      "q1": {
+        "question": "Wie viele Bilder kann ich hochladen?",
+        "answer": "Dieser GPT-Image-2-Bild-zu-Bild-Workflow unterstützt bis zu 4 hochgeladene Bilder in einem einzigen Durchlauf."
+      },
+      "q2": {
+        "question": "Welche Parameter sind verfügbar?",
+        "answer": "Der Editor unterstützt images, prompt und aspect ratio. Das Seitenverhältnis umfasst 1:1, 16:9, 9:16, 4:3, 3:4, 3:2, 2:3, 5:4, 4:5, 2:1, 1:2, 21:9 und 9:21."
+      },
+      "q3": {
+        "question": "Für welche Bearbeitungen eignet sich GPT-Image 2 besonders?",
+        "answer": "Es ist besonders nützlich für chinesische Poster-Überarbeitungen, dokumentartige Layouts, fotorealistische Retusche und UI- oder Screenshot-Transformationen, bei denen Text, Struktur und Realismus wichtig sind."
+      }
+    },
+    "finalCTA": {
+      "title": "Bereit für Bildbearbeitung mit GPT-Image 2?",
+      "description": "Lade deine Bilder hoch, beschreibe die Überarbeitung in natürlicher Sprache und verwandle Poster, UI-Mockups oder fotorealistische Szenen in sauberere finale Visuals.",
+      "button": "Playground öffnen"
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "imageToImage": "Bild zu Bild",
+      "model": "GPT-Image 2"
+    },
+    "schema": {
+      "softwareName": "joymagic GPT-Image 2 Bild zu Bild",
+      "softwareDescription": "Bearbeite mit GPT-Image 2 bis zu 4 hochgeladene Bilder für chinesische Poster-Verfeinerung, fotorealistische Retusche und UI-Screenshot-Transformation.",
+      "howToName": "So bearbeitest du Poster, UI und fotorealistische Bilder mit GPT-Image 2",
+      "howToDescription": "Lade Bilder hoch, beschreibe die gewünschten Änderungen, wähle ein Seitenverhältnis und generiere überarbeitete Poster, fotorealistische Szenen oder Interface-Visuals mit GPT-Image 2.",
+      "features": {
+        "multiUpload": "Bis zu 4 Bilder hochladen",
+        "promptEditing": "Text- und layoutbewusste Bildbearbeitung",
+        "aspectPresets": "13 Seitenverhältnis-Vorgaben"
+      },
+      "steps": {
+        "upload": {
+          "name": "Bilder hochladen",
+          "text": "Füge bis zu 4 Ausgangsbilder für dieselbe Poster-Überarbeitung, Screenshot-Aktualisierung oder fotorealistische Retusche hinzu."
+        },
+        "prompt": {
+          "name": "Prompt schreiben",
+          "text": "Beschreibe, was sich ändern soll, was bleiben muss und ob das Ergebnis realistischer, sauberer oder stärker wie ein Interface wirken soll."
+        },
+        "aspectRatio": {
+          "name": "Seitenverhältnis wählen und generieren",
+          "text": "Wähle den Ausgaberahmen passend zum späteren Einsatz und generiere dann die bearbeiteten Ergebnisse."
+        }
+      }
+    }
+  }
+}

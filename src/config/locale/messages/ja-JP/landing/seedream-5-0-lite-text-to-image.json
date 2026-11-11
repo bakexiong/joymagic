@@ -1,0 +1,166 @@
+{
+  "title": "Seedream 5.0 Lite Text to Image",
+  "subtitle": "テキスト説明から素晴らしい画像を生成",
+  "prompt_label": "プロンプト",
+  "prompt_placeholder": "夜間の屋外撮影：若い男性が公衆電話ボックスの中に立ち、青い受話器を耳に当てている。片手はポケットに入れ、リラックスした姿勢をとっている。柄のある白いTシャツ、ゆったりした茶色のパンツを着用し、ジャケットを腕にかけている。ボックスのガラスが街灯を反射し、ボケ効果でヴィンテージフィルムのような雰囲気を醸し出している。",
+  "prompt_tooltip": "生成したい画像の説明を入力してください",
+  "size_label": "画像サイズ",
+  "size_hint": "出力画像のサイズを選択",
+  "width_label": "幅",
+  "height_label": "高さ",
+  "buttons": {
+    "generate": "画像を生成"
+  },
+  "errors": {
+    "promptRequired": "プロンプトは必須です"
+  },
+  "image_alt": "生成された画像",
+  "download": "ダウンロード",
+  "image_placeholder": "生成された画像がここに表示されます",
+  "prompt_inspirations_button": "プロンプトのインスピレーション",
+  "prompt_guide_button": "プロンプトガイド",
+  "powered_by": "joymagicが最適化したSeedream 5.0 Lite AIモデルで動作",
+  "page": {
+    "metadata": {
+      "title": "Seedream 5.0 Lite テキストから画像生成 - AI画像ジェネレーター | joymagic",
+      "description": "ByteDanceのSeedream 5.0 Liteモデルを使用して、テキストからフォトリアルなシーン、イラスト、アートワークを生成。英語と中国語のバイリンガルプロンプトでjoymagicでAI画像を作成。",
+      "keywords": "Seedream 5.0 Lite, テキストから画像, AI画像ジェネレーター, ByteDance, バイリンガルプロンプト"
+    },
+    "hero": {
+      "title": "Seedream 5.0 Lite AI画像ジェネレーター",
+      "description": "Seedream 5.0 LiteはByteDanceの軽量AIモデルで、テキスト説明を画像に変換します。英語または中国語であらゆるシーン、キャラクター、コンセプトを記述し、以下で無料で素晴らしい画像を生成できます。",
+      "button1": "今すぐ試す",
+      "button2": "料金を見る"
+    },
+    "heroDescription": "Seedream 5.0 Lite AIモデルを使用して、シンプルなテキスト説明から素晴らしい画像を作成。",
+    "keyFeatures": {
+      "title": "主な機能",
+      "description": "Seedream 5.0 Liteの強力なAI画像生成機能",
+      "photorealistic": {
+        "title": "フォトリアルな品質",
+        "description": "プロの写真のような画像を生成。正確な肌のテクスチャ、自然な照明、リアルな環境—AI画像に多い不気味の谷効果なし。"
+      },
+      "complexScene": {
+        "title": "複雑なシーンの理解",
+        "description": "複数の被写体、空間関係、特定の照明を含む詳細なシナリオを記述。モデルはテキストから構図、配置、雰囲気を正確に解釈します。"
+      },
+      "bilingual": {
+        "title": "バイリンガルプロンプト",
+        "description": "英語、中国語、または両方で記述可能。モデルはどちらの言語でも繊細な説明を同等に理解—中国文化の参照や特定の用語に便利。"
+      },
+      "fastGeneration": {
+        "title": "高速生成",
+        "description": "数秒で高解像度画像を生成。Liteモデルは速度に最適化されており、リアルタイムのクリエイティブ探索と反復に最適。"
+      },
+      "styleFlexibility": {
+        "title": "スタイルの柔軟性",
+        "description": "フォトリアル画像、アニメイラスト、油絵、水彩画、3Dレンダリングなどを作成。プロンプトで希望のスタイルを指定するか、モデルに主題に合わせてもらえます。"
+      }
+    },
+    "howItWorks": {
+      "title": "使い方",
+      "description": "3つの簡単なステップで画像を生成",
+      "step1": {
+        "title": "プロンプトを入力",
+        "description": "生成したい画像を説明してください"
+      },
+      "step2": {
+        "title": "設定を選択",
+        "description": "出力形式と設定を選択"
+      },
+      "step3": {
+        "title": "生成＆ダウンロード",
+        "description": "AI生成画像を取得してダウンロード"
+      }
+    },
+    "promptingTips": {
+      "title": "プロンプトのコツ",
+      "lighting": {
+        "title": "照明を具体的に",
+        "description": "「左からのゴールデンアワーの日差し、柔らかい影」は「良い照明」よりも効果的です。"
+      },
+      "camera": {
+        "title": "カメラの詳細を含める",
+        "description": "「85mmレンズで撮影、浅い被写界深度」でプロの写真品質が加わります。"
+      },
+      "style": {
+        "title": "アートスタイルを指定",
+        "description": "「Studio Ghibliスタイルのデジタルイラスト」や「ハイパーリアリスティック3Dレンダー」で明確な方向性を。"
+      },
+      "mood": {
+        "title": "ムードと雰囲気を記述",
+        "description": "「居心地の良い、温かい、ノスタルジックな感じ」や「ドラマチック、シネマティック、ハイコントラスト」で全体の画像を形作ります。"
+      }
+    },
+    "useCases": {
+      "title": "ユースケース",
+      "marketing": {
+        "title": "マーケティングビジュアル",
+        "description": "撮影なしで製品コンセプト、広告画像、SNSコンテンツを生成。"
+      },
+      "character": {
+        "title": "キャラクターデザイン",
+        "description": "テキスト説明からゲーム、漫画、アニメプロジェクト用のオリジナルキャラクターを作成。"
+      },
+      "concept": {
+        "title": "コンセプトアート",
+        "description": "クリエイティブプロジェクトやプレゼンテーション用にシーン、環境、アイデアを素早く視覚化。"
+      },
+      "stock": {
+        "title": "ストックフォトの代替",
+        "description": "汎用ストックライブラリを検索する代わりに、必要な特定の画像を生成。"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "Seedream 5.0 Lite テキストから画像生成に関するよくある質問",
+      "q1": {
+        "question": "Seedream 5.0 Liteとは？",
+        "answer": "Seedream 5.0 LiteはByteDanceの軽量AI画像生成モデルです。最適化されたパフォーマンスで、テキスト説明から高速・高品質な画像生成を提供します。"
+      },
+      "q2": {
+        "question": "プロンプトはどの程度詳細にすべき？",
+        "answer": "詳細であるほど良い結果が得られます。被写体、設定、照明、スタイル、ムード、カメラアングルを含めてください。数文から始めて、必要に応じて追加してください。"
+      },
+      "q3": {
+        "question": "どんなスタイルを生成できる？",
+        "answer": "フォトリアル、アニメ、油絵、水彩、3Dレンダー、スケッチなど。プロンプトでスタイルを指定するか、特定のアーティストやスタジオを参照してください。"
+      },
+      "q4": {
+        "question": "中国語のプロンプトに対応している？",
+        "answer": "はい、Seedream 5.0 Liteは英語と中国語を同等に理解します。どちらの言語でもプロンプトを書くことができ、両方を混ぜることも可能です。"
+      },
+      "q5": {
+        "question": "Seedream 5との違いは？",
+        "answer": "Seedream 5.0 Liteは高画質を維持しながら生成速度を高速化した軽量バージョンです。素早い反復やコスト効率の良い使用に最適です。"
+      }
+    },
+    "privacySecurity": {
+      "title": "プライバシーとセキュリティ",
+      "description": "お客様のプライバシーとセキュリティは最優先事項です。",
+      "secureProcessing": "安全な処理",
+      "autoDelete": "自動削除",
+      "neverShared": "共有されません"
+    },
+    "finalCTA": {
+      "title": "作成する準備はできましたか？",
+      "description": "今日からテキスト説明で素晴らしい画像の生成を始めましょう。",
+      "button": "今すぐ試す"
+    },
+    "breadcrumb": {
+      "home": "ホーム",
+      "textToImage": "テキストから画像",
+      "seedream50Lite": "Seedream 5.0 Lite"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Seedream 5.0 Lite ジェネレーター",
+      "howToName": "Seedream 5.0 Liteで画像を生成する方法",
+      "howToDescription": "Seedream 5.0 Liteを使用してテキスト説明から画像を生成",
+      "features": {
+        "aiTextToImage": "AIテキストから画像生成",
+        "highQuality": "高品質画像",
+        "fastProcessing": "高速処理"
+      }
+    }
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "metadata": {
+    "title": "Fiyatlandırma",
+    "description": "Bir planla başla"
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "joymagic Fiyatlandırması",
+    "disclaimer": "joymagic uses open-source AI models (Apache-2.0) deployed and optimized on our own infrastructure.",
+    "title": "Buy Credits & Start Creating!",
+    "description": "joymagic uses open-source AI models (Apache-2.0) deployed and optimized on our own infrastructure.",
+    "groups": [
+      {
+        "name": "yearly",
+        "title": "Yıllık"
+      },
+      {
+        "name": "monthly",
+        "title": "Aylık"
+      },
+      {
+        "name": "one-time",
+        "title": "Kullandığın kadar öde"
+      }
+    ],
+    "items": [
+      {
+        "title": "Starter",
+        "description": "Hafif ve esnek bir kredi paketiyle projelere başla.",
+        "features_title": "Neler alırsın",
+        "features": [
+          "joymagic'deki tüm özellikler için 1890 esnek kredi",
+          "≈945 joymagic üretimi (her biri 2 kredi)",
+          "≈236 saniye LTX-2 video (saniyede 8 kredi)",
+          "≈Sitemizde listelenen 25 modelin hepsini kullan",
+          "joymagic'nin temel özelliklerini keşfeden yeni başlayanlar için ideal."
+        ],
+        "interval": "one-time",
+        "amount": 1890,
+        "currency": "USD",
+        "price": "$18.9",
+        "original_price": "$29.0",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Kredi satın al",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Starter",
+        "product_name": "joymagic 1890 Credit Pack",
+        "credits": 1890,
+        "valid_days": 180,
+        "group": "one-time"
+      },
+      {
+        "title": "Professional (+%40 bonus)",
+        "description": "Stüdyolar ve ileri kullanıcılar için yüksek hacim.",
+        "features_title": "Neler alırsın",
+        "features": [
+          "%40 bonus dahil 4200 kredi",
+          "≈2100 joymagic üretimi (her biri 2 kredi)",
+          "≈525 saniye LTX-2 video (saniyede 8 kredi)",
+          "≈Sitemizde listelenen 25 modelin hepsini kullan",
+          "Daha hızlı tamamlamak için öncelikli işlem",
+          "Aynı anda birden fazla görevi çalıştır",
+          "Profesyoneller, içerik üreticileri, stüdyolar ve ileri AI kullanıcıları için ideal"
+        ],
+        "interval": "one-time",
+        "amount": 2990,
+        "currency": "USD",
+        "price": "$29.9",
+        "original_price": "$80",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Kredi satın al",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Premium",
+        "product_name": "joymagic 4200 Credit Pack",
+        "credits": 4200,
+        "valid_days": 365,
+        "group": "one-time"
+      },
+      {
+        "title": "Titan (+%50 bonus)",
+        "description": "Yüksek hacimli üreticiler için en iyi değer — Öncelikli Kuyruk ve artırılmış işleme gücü içerir.",
+        "features_title": "Neler alırsın",
+        "features": [
+          "%50 büyük bonusla 15000 kredi",
+          "≈7500 joymagic üretimi (her biri 2 kredi)",
+          "≈1875 saniye LTX-2 video (saniyede 8 kredi)",
+          "≈Sitemizde listelenen 25 modelin hepsini kullan",
+          "Tüm görevler için öncelikli işlem",
+          "Verimliliği artırmak için daha fazla paralel görev",
+          "Profesyoneller, içerik üreticileri, stüdyolar, AI kullanıcıları ve kurumsal kullanım için ideal"
+        ],
+        "interval": "one-time",
+        "amount": 9990,
+        "currency": "USD",
+        "price": "$99.9",
+        "original_price": "$199",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Kredi satın al",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Titan",
+        "product_name": "joymagic 15000 Credit Pack",
+        "credits": 15000,
+        "valid_days": 365,
+        "group": "one-time"
+      },
+      {
+        "title": "Starter Aylık",
+        "description": "Hafif ve esnek bir kredi paketiyle projelere başla.",
+        "features_title": "Neler alırsın",
+        "features": [
+          "joymagic'deki tüm özellikler için 1890 esnek kredi",
+          "≈945 joymagic üretimi (her biri 2 kredi)",
+          "≈236 saniye LTX-2 video (saniyede 8 kredi)",
+          "≈Sitemizde listelenen 25 modelin hepsini kullan",
+          "joymagic'nin temel özelliklerini keşfeden yeni başlayanlar için ideal."
+        ],
+        "interval": "month",
+        "amount": 1690,
+        "currency": "USD",
+        "price": "$16.9/ay",
+        "original_price": "$26.0",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Kredi satın al",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Starter-Monthly",
+        "product_name": "joymagic 1890 Credit Pack Monthly",
+        "credits": 1890,
+        "valid_days": 360,
+        "group": "monthly"
+      },
+      {
+        "title": "Professional Aylık",
+        "description": "Stüdyolar ve ileri kullanıcılar için yüksek hacim.",
+        "features_title": "Neler alırsın",
+        "features": [
+          "Aylık %40 bonus dahil 4200 kredi",
+          "≈2100 joymagic üretimi (her biri 2 kredi)",
+          "≈525 saniye LTX-2 video (saniyede 8 kredi)",
+          "≈Sitemizde listelenen 25 modelin hepsini kullan",
+          "Daha hızlı tamamlamak için öncelikli işlem",
+          "Aynı anda birden fazla görevi çalıştır",
+          "Profesyoneller, içerik üreticileri, stüdyolar ve ileri AI kullanıcıları için ideal"
+        ],
+        "interval": "month",
+        "amount": 2690,
+        "currency": "USD",
+        "price": "$26.9/ay",
+        "original_price": "$80",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Kredi satın al",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Premium-Monthly",
+        "product_name": "joymagic 4200 Credit Pack Monthly",
+        "credits": 4200,
+        "valid_days": 365,
+        "group": "monthly"
+      },
+      {
+        "title": "Titan Aylık",
+        "description": "Yüksek hacimli üreticiler için en iyi değer — Öncelikli Kuyruk ve artırılmış işleme gücü içerir.",
+        "features_title": "Neler alırsın",
+        "features": [
+          "Aylık %50 büyük bonusla 15000 kredi",
+          "≈7500 joymagic üretimi (her biri 2 kredi)",
+          "≈1875 saniye LTX-2 video (saniyede 8 kredi)",
+          "≈Sitemizde listelenen 25 modelin hepsini kullan",
+          "Tüm görevler için öncelikli işlem",
+          "Verimliliği artırmak için daha fazla paralel görev",
+          "Profesyoneller, içerik üreticileri, stüdyolar, AI kullanıcıları ve kurumsal kullanım için ideal"
+        ],
+        "interval": "month",
+        "amount": 8990,
+        "currency": "USD",
+        "price": "$89.9/ay",
+        "original_price": "$199",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Kredi satın al",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Titan-Monthly",
+        "product_name": "joymagic 15000 Credit Pack Monthly",
+        "credits": 15000,
+        "valid_days": 365,
+        "group": "monthly"
+      },
+      {
+        "title": "Starter Yıllık",
+        "description": "Hafif ve esnek bir kredi paketiyle projelere başla.",
+        "features_title": "Neler alırsın",
+        "features": [
+          "joymagic'deki tüm özellikler için yıllık 22680 esnek kredi",
+          "≈11340 joymagic üretimi (her biri 2 kredi)",
+          "≈2835 saniye LTX-2 video (saniyede 8 kredi)",
+          "≈Sitemizde listelenen 25 modelin hepsini kullan",
+          "joymagic'nin temel özelliklerini keşfeden yeni başlayanlar için ideal."
+        ],
+        "interval": "year",
+        "amount": 11900,
+        "currency": "USD",
+        "price": "$9.9/ay",
+        "original_price": "$179",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Kredi satın al",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Starter-Yearly",
+        "product_name": "joymagic 22680 Credit Pack Yearly",
+        "credits": 22680,
+        "valid_days": 360,
+        "group": "yearly"
+      },
+      {
+        "title": "Professional Yıllık",
+        "description": "Stüdyolar ve ileri kullanıcılar için yüksek hacim.",
+        "features_title": "Neler alırsın",
+        "features": [
+          "Yıllık %40 bonus dahil 50400 kredi",
+          "≈25200 joymagic üretimi (her biri 2 kredi)",
+          "≈6300 saniye LTX-2 video (saniyede 8 kredi)",
+          "≈Sitemizde listelenen 25 modelin hepsini kullan",
+          "Daha hızlı tamamlamak için öncelikli işlem",
+          "Aynı anda birden fazla görevi çalıştır",
+          "Profesyoneller, içerik üreticileri, stüdyolar ve ileri AI kullanıcıları için ideal"
+        ],
+        "interval": "year",
+        "amount": 23880,
+        "currency": "USD",
+        "price": "$19.9/ay",
+        "original_price": "$80",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Kredi satın al",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Premium-Yearly",
+        "product_name": "joymagic 50400 Credit Pack Yearly",
+        "credits": 50400,
+        "valid_days": 365,
+        "group": "yearly"
+      },
+      {
+        "title": "Titan Yıllık",
+        "description": "Yüksek hacimli üreticiler için en iyi değer — Öncelikli Kuyruk ve artırılmış işleme gücü içerir.",
+        "features_title": "Neler alırsın",
+        "features": [
+          "Yıllık %50 büyük bonusla 180000 kredi",
+          "≈90000 joymagic üretimi (her biri 2 kredi)",
+          "≈22500 saniye LTX-2 video (saniyede 8 kredi)",
+          "≈Sitemizde listelenen 25 modelin hepsini kullan",
+          "Tüm görevler için öncelikli işlem",
+          "Verimliliği artırmak için daha fazla paralel görev",
+          "Profesyoneller, içerik üreticileri, stüdyolar, AI kullanıcıları ve kurumsal kullanım için ideal"
+        ],
+        "interval": "year",
+        "amount": 71800,
+        "currency": "USD",
+        "price": "$59.8/ay",
+        "original_price": "$199",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Kredi satın al",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "Titan-Yearly",
+        "product_name": "joymagic 180000 Credit Pack Yearly",
+        "credits": 180000,
+        "valid_days": 365,
+        "group": "yearly"
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "Sıkça Sorulan Sorular",
+    "description": "joymagic kredileri ve fiyatlandırması hakkında yaygın sorular.",
+    "items": [
+      {
+        "question": "Kredi satın alırken neye ödeme yapıyorum?",
+        "answer": "Krediler görsel üretimi için hesaplama kullanımını temsil eder. Her görsel isteği bakiyenden sabit sayıda kredi düşer. Sadece kullandığın kadar ödersin — abonelik gerekmez, gizli ücret yoktur."
+      },
+      {
+        "question": "Kredilerin süresi doluyor mu?",
+        "answer": "Evet. Krediler satın alma tarihinden itibaren 365 gün geçerlidir. Kullanılmayan krediler 365 gün sonra otomatik olarak sona erer ve yürürlükteki yasaların gerektirdiği durumlar dışında iade edilmez."
+      },
+      {
+        "question": "Satın alımlar iade edilebilir mi?",
+        "answer": "İade yalnızca çift faturalandırma veya sistem hatası nedeniyle teslim edilmeyen krediler gibi belirli durumlarda mümkündür. Kullanılmış krediler iade edilmez. Ayrıntılar için İade Politikamıza bakın."
+      },
+      {
+        "question": "Ödemem nasıl işleniyor?",
+        "answer": "Tüm ödemeler Merchant of Record'muz Creem tarafından güvenle işlenir. Creem küresel vergi uyumluluğu, faturalandırma ve tahsilatı yönetir. joymagic kart bilgilerinizi işlemez veya saklamaz."
+      },
+      {
+        "question": "joymagic bir abonelik hizmeti mi?",
+        "answer": "Hayır. joymagic kredi tabanlı bir sistem kullanır. İhtiyaç duyduğunda kredi satın alırsın ve 365 gün içinde kendi temponla kullanırsın."
+      },
+      {
+        "question": "Satın aldıktan sonra planı iptal edebilir veya değiştirebilir miyim?",
+        "answer": "Kredi satın alımları tek seferlik işlemlerdir ve krediler teslim edildikten sonra iptal edilemez. İhtiyaç duyduğunda ek kredi satın alabilirsin."
+      },
+      {
+        "question": "Görsel üretimi her zaman aynı sayıda kredi mi tutacak?",
+        "answer": "Kredi kullanımı model türü, çözünürlük veya gelecek güncellemelere göre değişebilir. Tüm değişiklikler yürürlüğe girmeden önce açıkça bildirilir."
+      },
+      {
+        "question": "joymagic promptlarımı veya üretilen görselleri saklıyor mu?",
+        "answer": "Hayır. joymagic, hesabına açıkça kaydetmediğin sürece prompt veya üretilen görselleri saklamaz. Kullanıcı içeriğini model eğitimi için kullanmıyoruz."
+      },
+      {
+        "question": "Güvenlik nasıl sağlanıyor?",
+        "answer": "Tüm promptlar yasak içeriği (NSFW, şiddet, yasadışı kullanım vb.) engellemek için otomatik güvenlik ve moderasyon filtrelerinden geçer. Ayrıntılar için İçerik Moderasyon Politikamıza bakın."
+      },
+      {
+        "question": "joymagic açık kaynak modellere mi dayanıyor?",
+        "answer": "Evet. joymagic Apache-2.0 açık kaynak lisanslı bileşenler kullanır. Atıf bilgileri Açık Kaynak Atıf sayfamızda yer alır. joymagic bağımsız bir hizmettir ve orijinal model yazarlarıyla bağlantılı değildir."
+      },
+      {
+        "question": "Ürettiğim görsellerin hakları bana mı ait?",
+        "answer": "Evet. Hizmet Koşullarımız ve geçerli yasalara tabi olarak ürettiğin görsellerin hakları sana aittir."
+      },
+      {
+        "question": "Ödeme başarısız olursa ne olur?",
+        "answer": "Ödeme tamamlanamazsa: Ücretlendirilmezsin, kredi eklenmez, başka bir yöntemle tekrar deneyebilirsin. Sorunlar devam ederse support@joymagic.fun ile iletişime geç."
+      },
+      {
+        "question": "Makbuz veya faturalarıma nasıl erişirim?",
+        "answer": "Creem her satın alımdan sonra otomatik olarak e-posta ile makbuz gönderir. Varsa hesap panelinde faturalama geçmişini de görüntüleyebilirsin."
+      },
+      {
+        "question": "Krediler bir para birimi mi?",
+        "answer": "Hayır. Krediler para birimi değil, kullanım birimleridir. Parasal değeri yoktur, nakde çevrilemez ve devredilemez, takas edilemez veya ticaret konusu yapılamaz. Yalnızca joymagic içindeki hesaplama kullanımını ölçmek içindir ve görsel üretirken veya diğer desteklenen özellikleri kullanırken tüketilir."
+      }
+    ]
+  },
+  "page": {
+    "current_plan": "Mevcut plan",
+    "processing": "İşleniyor"
+  },
+  "credit_modal": {
+    "title": "🎉 Congrats! You’ve Unlocked Exclusive Discount Pricing",
+    "tabs": {
+      "yearly": {
+        "label": "Yearly",
+        "badge": "Save 20%"
+      },
+      "monthly": {
+        "label": "Monthly"
+      },
+      "one_time": {
+        "label": "One‑time Purchase"
+      },
+      "one_time_short": "Tek seferlik"
+    },
+    "instant_delivery": "Instant top-up — credits are added to your wallet immediately. Perfect for AI-native creators who value speed and efficiency.",
+    "see_credits_link": "See how many credits each feature roughly costs",
+    "limited_time_bonus": "Limited-time bonus",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "A light and flexible credit pack, ideal for kicking off small projects.",
+        "credits": "1,890 credits",
+        "cta_label": "Get it now",
+        "features": {
+          "1": "1,890 flexible, general-purpose credits usable across all features on joymagic",
+          "2": "≈ 945 joymagic generations (2 credits per image)",
+          "3": "≈ 236 seconds of LTX-2 video (8 credits per second)",
+          "4": "≈ Access to all 25 models listed on the site",
+          "5": "Perfect for new users just starting to explore joymagic."
+        }
+      },
+      "professional": {
+        "name": "Profesyonel",
+        "description": "A high-volume package built for studios and frequent creators.",
+        "credits": "4,200 credits",
+        "bonus": "+40% extra bonus credits",
+        "tag": "⭐️ Recommended",
+        "cta_label": "Get it now",
+        "features": {
+          "1": "≈ 2,100 joymagic generations",
+          "2": "≈ 525 seconds of LTX-2 video",
+          "3": "≈ Access to all 25 models listed on the site",
+          "4": "Priority queue processing to reduce wait times"
+        }
+      },
+      "titan": {
+        "name": "Titan",
+        "description": "The best value choice for high-frequency creators and teams.",
+        "credits": "15,000 credits",
+        "bonus": "+50% extra bonus credits",
+        "cta_label": "Get it now",
+        "features": {
+          "1": "≈ 7,500 joymagic generations",
+          "2": "≈ 1,875 seconds of LTX-2 video",
+          "3": "≈ Access to all 25 models listed on the site",
+          "4": "Priority queue processing, ideal for high-concurrency workloads"
+        }
+      },
+      "monthly_professional": {
+        "name": "Profesyonel",
+        "description": "For professional users with a steady creation rhythm; billed monthly for more flexibility.",
+        "credits": "4,200 credits per month",
+        "bonus": "+40% extra bonus credits",
+        "tag": "⭐️ Recommended",
+        "cta_label": "Get it now",
+        "features": {
+          "1": "≈ 2,100 joymagic generations / month",
+          "2": "≈ 525 seconds of LTX-2 video / month",
+          "3": "≈ Access to all 25 models listed on the site",
+          "4": "Priority processing queue"
+        }
+      },
+      "monthly_titan": {
+        "name": "Titan",
+        "description": "A heavy-usage monthly plan for teams and studios.",
+        "credits": "15,000 credits per month",
+        "bonus": "+50% extra bonus credits",
+        "cta_label": "Get it now",
+        "features": {
+          "1": "≈ 7,500 joymagic generations / month",
+          "2": "≈ 1,875 seconds of LTX-2 video / month",
+          "3": "≈ Access to all 25 models listed on the site",
+          "4": "Priority processing, ideal for large-scale content production"
+        }
+      },
+      "yearly_professional": {
+        "name": "Profesyonel",
+        "description": "A yearly plan for professional creators — more savings for long-term use.",
+        "credits": "50,400 credits per year",
+        "bonus": "+40% extra bonus credits",
+        "tag": "⭐️ Best Value",
+        "cta_label": "Get it now",
+        "features": {
+          "1": "≈ 25,200 joymagic generations / year",
+          "2": "≈ 6,300 seconds of LTX-2 video / year",
+          "3": "≈ Access to all 25 models listed on the site",
+          "4": "Priority queue and stable credit quota, ideal for long-term projects"
+        }
+      },
+      "yearly_titan": {
+        "name": "Titan",
+        "description": "A flagship yearly plan designed for large-scale content production and enterprise teams.",
+        "credits": "180,000 credits per year",
+        "bonus": "+50% extra bonus credits",
+        "cta_label": "Get it now",
+        "features": {
+          "1": "≈ 90,000 joymagic generations / year",
+          "2": "≈ 22,500 seconds of LTX-2 video / year",
+          "3": "≈ Access to all 25 models listed on the site",
+          "4": "Priority processing and high-concurrency support, ideal for enterprises and large teams"
+        }
+      },
+      "monthly_starter": {
+        "name": "Starter Aylık",
+        "description": "Hafif ve esnek bir kredi paketiyle projelere başla.",
+        "credits": "1,890credits per month",
+        "cta_label": "Get it now",
+        "features": {
+          "1": "joymagic'deki tüm özellikler için 1890 esnek kredi",
+          "2": "≈945 joymagic üretimi (her biri 2 kredi)",
+          "3": "≈236 saniye LTX-2 video (saniyede 8 kredi)",
+          "4": "≈Sitemizde listelenen 25 modelin hepsini kullan",
+          "5": "joymagic'nin temel özelliklerini keşfeden yeni başlayanlar için ideal."
+        }
+      },
+      "yearly_starter": {
+        "name": "Starter Yıllık",
+        "description": "Hafif ve esnek bir kredi paketiyle projelere başla.",
+        "credits": "22,680credits per year",
+        "cta_label": "Get it now",
+        "features": {
+          "1": "joymagic'deki tüm özellikler için yıllık 22680 esnek kredi",
+          "2": "≈11340 joymagic üretimi (her biri 2 kredi)",
+          "3": "≈2835 saniye LTX-2 video (saniyede 8 kredi)",
+          "4": "≈Sitemizde listelenen 25 modelin hepsini kullan",
+          "5": "joymagic'nin temel özelliklerini keşfeden yeni başlayanlar için ideal."
+        }
+      }
+    },
+    "close": "Close",
+    "hero_discount": "40% OFF",
+    "default_cta": "Buy Now",
+    "recurring_billing_note": "Recurring billing, cancel anytime.",
+    "badges": {
+      "most_popular": "MOST POPULAR"
+    },
+    "comparison": {
+      "features_label": "Özellikler"
+    },
+    "countdown_units": {
+      "minute": "dk",
+      "second": "sn",
+      "centisecond": "ms"
+    },
+    "plan_labels": {
+      "starter": "Başlangıç",
+      "professional": "Profesyonel",
+      "titan": "Titan"
+    },
+    "discount": {
+      "title": "İndirim kodu",
+      "description": "Bir affiliate indirim kodu girin, biz de ödeme sırasında otomatik uygulayalım.",
+      "placeholder": "İndirim kodunu girin",
+      "apply": "Uygula",
+      "applied": "Uygulandı",
+      "remove": "Kaldır",
+      "success": "İndirim kodu uygulandı. Ödeme sırasında kullanılacak.",
+      "helper": "İndirim otomatik olarak ödeme adımına taşınır.",
+      "applied_label": "Uygulanan indirim kodu",
+      "rate_label": "Beklenen indirim",
+      "errors": {
+        "empty": "Lütfen bir indirim kodu girin",
+        "invalid": "Geçersiz indirim kodu",
+        "already_used": "Bu indirim kodunu zaten kullandınız."
+      }
+    },
+    "errors": {
+      "no_product": "Bu plan için yapılandırılmış bir ürün yok.",
+      "checkout_failed": "Ödeme başarısız oldu. Lütfen tekrar deneyin."
+    }
+  }
+}

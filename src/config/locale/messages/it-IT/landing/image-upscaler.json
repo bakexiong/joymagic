@@ -1,0 +1,193 @@
+{
+  "imageUpscaler": {
+    "id": "image-upscaler",
+    "title": "Ingranditore Immagini IA",
+    "description": "Migliora istantaneamente la qualità dell'immagine e aumenta la risoluzione a 4K, 8K o 16K con l'IA. Carica la tua immagine e migliorala automaticamente.",
+    "steps": {
+      "sourceImage": {
+        "title": "Carica immagine",
+        "hint": "Trascina e rilascia o clicca per caricare · JPG/PNG/WEBP/HEIC",
+        "dragDrop": "Trascina e rilascia o clicca per caricare",
+        "dropHere": "Rilascia l'immagine qui"
+      },
+      "settings": {
+        "title": "Scegli impostazioni di ingrandimento",
+        "targetResolution": "Scala / Uscita",
+        "outputFormat": "Formato di uscita"
+      },
+      "generate": {
+        "title": "Genera e scarica",
+        "cta": "Inizia Ingrandimento",
+        "generating": "Ingrandimento..."
+      }
+    },
+    "preview": {
+      "title": "Anteprima",
+      "original": "Originale",
+      "upscaled": "Ingrandito",
+      "placeholder": "Carica un'immagine per vedere il risultato ingrandito qui."
+    },
+    "common": {
+      "selected": "Selezionato: {name}",
+      "notSelected": "Non selezionato"
+    },
+    "errors": {
+      "invalidFileType": "Tipo di file non valido. Si prega di caricare un file immagine (JPG, PNG, WEBP, HEIC).",
+      "uploadFailed": "Caricamento fallito: {error}",
+      "uploadFailedGeneric": "Caricamento fallito",
+      "sourceImageRequired": "Si prega di caricare prima un'immagine sorgente",
+      "generationFailed": "Ingrandimento immagine fallito",
+      "taskFailed": "Elaborazione attività fallita",
+      "taskTimeout": "Timeout elaborazione attività, si prega di riprovare più tardi",
+      "taskIdNotFound": "Impossibile ottenere l'ID dell'attività, si prega di controllare il formato della risposta API",
+      "processingFailed": "Elaborazione fallita, si prega di riprovare",
+      "statusQueryFailed": "Query stato attività fallita",
+      "apiResponseParseFailed": "Analisi risposta API fallita",
+      "downloadFailed": "Download immagine fallito"
+    },
+    "download": {
+      "title": "Scarica immagine"
+    },
+    "alt": {
+      "sourcePreview": "Anteprima sorgente",
+      "enlargedPreview": "Anteprima ingrandita",
+      "source": "Sorgente",
+      "original": "Originale",
+      "upscaled": "Ingrandito"
+    }
+  },
+  "imageUpscalerPage": {
+    "metadata": {
+      "title": "Ingranditore Immagini IA Online | Ingrandisci Immagini a 4K 8K 16K | joymagic",
+      "description": "Migliora istantaneamente la qualità dell'immagine e aumenta la risoluzione a 4K, 8K o 16K con l'Ingranditore Immagini IA di joymagic. Download HD, senza filigrana, supporto batch.",
+      "keywords": "Ingranditore Immagini IA, ingrandisci immagine, aumenta risoluzione, ingranditore 4K, ingranditore 8K, ingranditore 16K, miglioratore immagine IA, miglioratore risoluzione, ingranditore foto, miglioratore qualità, ingrandimento veloce, ingrandimento creativo"
+    },
+    "hero": {
+      "title": "Ingranditore Immagini IA Online",
+      "description": "Migliora istantaneamente la qualità dell'immagine e aumenta la risoluzione a 4K, 8K o 16K con l'ingranditore immagini IA di joymagic. Carica la tua immagine e migliorala automaticamente.",
+      "button1": "Inizia Ingrandimento Ora",
+      "button2": "Gratis per iniziare · Senza filigrana"
+    },
+    "heroDescription": "✓ Download HD  ✓ Senza filigrana  ✓ Supporto batch",
+    "whatIsAIUpscaler": {
+      "title": "Cos'è un Ingranditore Immagini IA?",
+      "description": "L'Ingranditore Immagini IA utilizza l'apprendimento profondo per ingrandire le immagini aggiungendo dettagli realistici e nitidezza. A differenza del ridimensionamento tradizionale che allunga i pixel e causa sfocatura, la nostra IA:",
+      "features": [
+        "Analizza contenuto e struttura dell'immagine",
+        "Genera nuovi pixel in modo intelligente",
+        "Preserva texture, bordi e colori",
+        "Produce risultati nitidi e naturali"
+      ],
+      "perfectFor": "Usalo per foto di prodotti, immagini vecchie, arte generata da IA, contenuti social media e immagini pronte per la stampa."
+    },
+    "keyFeatures": {
+      "title": "Caratteristiche Principali",
+      "description": "Ingrandimento immagini IA veloce e di alta qualità fino a 16K.",
+      "fastProcessing": {
+        "title": "Elaborazione Veloce",
+        "description": "<p class=\"mb-3\">Ottieni risultati in secondi. L'IA ottimizzata gestisce immagini complesse rapidamente.</p>"
+      },
+      "highQuality": {
+        "title": "Uscita fino a 16K",
+        "description": "<p class=\"mb-3\">Ingrandisci immagini a 4K, 8K o 16K mantenendo chiarezza e dettagli.</p>"
+      },
+      "twoModes": {
+        "title": "Due Modalità di Ingrandimento",
+        "description": "<p class=\"mb-3\">Modalità veloce per ingrandimento fedele; modalità creativa per dettagli migliorati dall'IA.</p>"
+      },
+      "batch": {
+        "title": "Elaborazione Batch",
+        "description": "<p class=\"mb-3\">Carica ed elabora più immagini contemporaneamente. Risparmia tempo su attività di massa.</p>"
+      },
+      "cleanOutput": {
+        "title": "Uscita Pulita",
+        "description": "<p class=\"mb-3\">Scarica risultati di alta qualità senza filigrana, pronti all'uso.</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "Cosa Puoi Fare con l'Ingranditore IA di joymagic",
+      "description": "Un caricamento, possibilità infinite.",
+      "photography": {
+        "title": "Migliora Fotografia",
+        "description": "<p class=\"mb-3\">Ingrandisci foto vecchie o ritratti per qualità di stampa.</p>"
+      },
+      "design": {
+        "title": "Design e Arte IA",
+        "description": "<p class=\"mb-3\">Migliora arte o grafica generata da IA con dettagli più nitidi.</p>"
+      },
+      "ecommerce": {
+        "title": "E-Commerce e Prodotti",
+        "description": "<p class=\"mb-3\">Rendi le immagini dei prodotti nitide per elenchi e annunci.</p>"
+      },
+      "socialMedia": {
+        "title": "Social Media",
+        "description": "<p class=\"mb-3\">Condividi visual chiari e ad alta risoluzione su tutte le piattaforme.</p>"
+      },
+      "print": {
+        "title": "Grande Formato e Stampa",
+        "description": "<p class=\"mb-3\">Scala fino a 16K per poster, banner e materiali di stampa.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "Come Ingrandire un'Immagine",
+      "description": "Ingrandisci con l'IA in tre semplici passaggi:",
+      "step1": {
+        "title": "1. Carica la tua immagine",
+        "description": "<p class=\"mb-3\">Trascina e rilascia o seleziona il tuo file immagine.</p><p class=\"mb-3\">Supporta formati JPG, PNG, WEBP e HEIC.</p>"
+      },
+      "step2": {
+        "title": "2. Scegli impostazioni di ingrandimento",
+        "description": "<p class=\"mb-3\">Seleziona la scala preferita:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>2x – Raddoppia la risoluzione</li><li>4x – Quadruplica la risoluzione</li><li>8x – Miglioramento massimo (fino a uscita 16K)</li></ul><p class=\"mb-3\">Scegli una modalità:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Ingrandimento Veloce – Preserva dettagli originali</li><li>Ingrandimento Creativo – Aggiunge dettagli generati da IA</li></ul>"
+      },
+      "step3": {
+        "title": "3. Genera e scarica",
+        "description": "<p class=\"mb-3\">Clicca Inizia e ottieni la tua immagine ingrandita in secondi.</p><p class=\"mb-1\">Scarica in alta risoluzione, pronta all'uso.</p>"
+      }
+    },
+    "faq": {
+      "title": "FAQ Ingranditore Immagini IA",
+      "description": "Risposte rapide sull'ingrandimento IA.",
+      "q1": {
+        "question": "Quali formati di immagine sono supportati?",
+        "answer": "Supportiamo JPG, JPEG, PNG, WEBP e HEIC. Se il caricamento fallisce, prova a convertire in JPG o PNG."
+      },
+      "q2": {
+        "question": "Qual è la risoluzione di uscita massima?",
+        "answer": "Puoi ingrandire fino a 16K (16384 × 16384) a seconda della dimensione di input e della scala."
+      },
+      "q3": {
+        "question": "Qual è la differenza tra modalità Veloce e Creativa?",
+        "answer": "Veloce ingrandisce fedelmente—meglio per prodotti/screenshot. Creativa aggiunge dettagli IA—meglio per arte IA o foto vecchie."
+      },
+      "q4": {
+        "question": "Posso ingrandire più immagini contemporaneamente?",
+        "answer": "Sì. L'elaborazione batch ti consente di caricare e ingrandire più immagini in una sessione."
+      },
+      "q5": {
+        "question": "Le mie immagini ingrandite avranno una filigrana?",
+        "answer": "No. Tutti i download sono senza filigrana e pronti all'uso."
+      },
+      "q6": {
+        "question": "I miei dati sono sicuri e privati?",
+        "answer": "Sì. Le immagini sono elaborate in sessioni isolate e crittografate ed eliminate dopo l'elaborazione. Non memorizziamo mai né addestriamo con i tuoi caricamenti."
+      },
+      "q7": {
+        "question": "Che tipo di immagini funzionano meglio?",
+        "answer": "Immagini chiare e ben illuminate producono i migliori risultati. Input di qualità molto bassa possono ancora mostrare alcuni artefatti dopo l'ingrandimento."
+      }
+    },
+    "privacySecurity": {
+      "title": "Privacy e Sicurezza",
+      "description": "Le tue immagini e la tua privacy sono la nostra priorità.",
+      "secureProcessing": "Tutti i caricamenti sono elaborati in modo sicuro e crittografato",
+      "autoDelete": "Le immagini vengono eliminate automaticamente dopo l'elaborazione",
+      "neverShared": "Mai condivise con terze parti o utilizzate per l'addestramento IA"
+    },
+    "finalCTA": {
+      "title": "Trasforma immagini a bassa risoluzione in capolavori ad alta definizione.",
+      "description": "Prova subito l'Ingranditore Immagini IA di joymagic e porta le tue foto a chiarezza 4K, 8K o 16K in secondi.<br/><span class=\"text-muted-foreground\">Nessuna abilità di editing necessaria · Gratis per iniziare · Download senza filigrana</span>",
+      "button": "Inizia Ingrandimento Ora"
+    }
+  }
+}
+

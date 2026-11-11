@@ -1,0 +1,56 @@
+{
+    "fields": {
+        "id": "ID",
+        "ip": "IP 地址",
+        "ip_tip": "要封禁的 IP 地址",
+        "status": "状态",
+        "reason": "封禁原因",
+        "reason_tip": "可选，说明封禁此 IP 的原因",
+        "created_at": "创建时间",
+        "actions": "操作"
+    },
+    "status": {
+        "active": "已封禁",
+        "inactive": "已解封"
+    },
+    "list": {
+        "title": "IP 黑名单",
+        "crumbs": {
+            "admin": "管理后台",
+            "ipBlacklist": "IP 黑名单"
+        },
+        "buttons": {
+            "add": "添加 IP",
+            "edit": "编辑",
+            "delete": "删除"
+        },
+        "search": {
+            "ip": {
+                "title": "IP 地址",
+                "placeholder": "搜索 IP 地址"
+            }
+        }
+    },
+    "add": {
+        "title": "添加 IP 到黑名单",
+        "crumbs": {
+            "admin": "管理后台",
+            "ipBlacklist": "IP 黑名单",
+            "add": "添加"
+        },
+        "buttons": {
+            "submit": "添加"
+        }
+    },
+    "edit": {
+        "title": "编辑 IP 黑名单",
+        "crumbs": {
+            "admin": "管理后台",
+            "ipBlacklist": "IP 黑名单",
+            "edit": "编辑"
+        },
+        "buttons": {
+            "submit": "更新"
+        }
+    }
+}

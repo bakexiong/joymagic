@@ -1,0 +1,372 @@
+[
+  {
+    "prompt": "Shot 1 (establishing): Wide aerial of a quiet coastal cliff at sunrise, low fog rolling over the ocean, golden light breaking through thin clouds. A lone runner appears as a small silhouette on the winding path. Camera: smooth drone-like glide forward, slow and steady, cinematic pacing. Shot 2 (character): Medium tracking shot at ground level beside the runner, shoes crunching gravel, breath visible in the cool air, wind tugging at a lightweight jacket. Camera: gimbal-stable side-tracking, shallow depth of field, keep the runner’s face and jacket details consistent. Shot 3 (emotion): Close-up on the runner’s face—focused eyes, subtle micro-expressions, a quick swallow, determination building. Camera: gentle push-in, soft background bokeh, natural handheld micro-shake kept minimal. Shot 4 (end beat): The runner reaches the cliff overlook and slows to a stop; fog parts to reveal a vast sunlit ocean. The runner exhales and smiles slightly. Camera: slow tilt up from the runner to the horizon, hold for a calm finish. Style: photoreal live-action, natural sunrise lighting, filmic color grading, realistic wind and fabric motion, crisp facial detail. Continuity: same runner, same outfit, consistent sunrise direction and color temperature across shots; avoid warping, duplicate limbs, flicker, jump cuts, text overlays, logos.",
+    "params": {
+      "prompt": "Shot 1 (establishing): Wide aerial of a quiet coastal cliff at sunrise, low fog rolling over the ocean, golden light breaking through thin clouds. A lone runner appears as a small silhouette on the winding path. Camera: smooth drone-like glide forward, slow and steady, cinematic pacing. Shot 2 (character): Medium tracking shot at ground level beside the runner, shoes crunching gravel, breath visible in the cool air, wind tugging at a lightweight jacket. Camera: gimbal-stable side-tracking, shallow depth of field, keep the runner’s face and jacket details consistent. Shot 3 (emotion): Close-up on the runner’s face—focused eyes, subtle micro-expressions, a quick swallow, determination building. Camera: gentle push-in, soft background bokeh, natural handheld micro-shake kept minimal. Shot 4 (end beat): The runner reaches the cliff overlook and slows to a stop; fog parts to reveal a vast sunlit ocean. The runner exhales and smiles slightly. Camera: slow tilt up from the runner to the horizon, hold for a calm finish. Style: photoreal live-action, natural sunrise lighting, filmic color grading, realistic wind and fabric motion, crisp facial detail. Continuity: same runner, same outfit, consistent sunrise direction and color temperature across shots; avoid warping, duplicate limbs, flicker, jump cuts, text overlays, logos.",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "5",
+      "generateAudio": true,
+      "cameraFixed": false,
+      "seed": "584732127"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/f8a23acae3c28be1dd0e2e67bddd2dba.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/f8a23acae3c28be1dd0e2e67bddd2dba.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/ccec71430f59dbe0a5bedf76a182dc1a.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/ccec71430f59dbe0a5bedf76a182dc1a.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:50:12.894Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/0a73cdf85902bbe538d385bb14516fe4.mp4"
+  },
+  {
+    "prompt": "Create a cinematic live-action style scene set in a quiet café during late afternoon. A man and a woman sit across from each other at a small wooden table, engaged in a tense conversation.\nThe man speaks first, leaning forward slightly, his voice calm but serious. The woman responds with subtle hesitation, maintaining eye contact before glancing away briefly.\nUse natural lip-synced dialogue for both speakers, with soft ambient café sounds in the background.\nCamera starts with a medium two-shot, slowly pushes in toward a close-up as the conversation becomes more emotional.\nLighting is warm and natural, with sunlight filtering through the window. Maintain realistic facial expressions, smooth body movement, and clear audiovisual synchronization throughout the 8–10 second scene.",
+    "params": {
+      "prompt": "Create a cinematic live-action style scene set in a quiet café during late afternoon. A man and a woman sit across from each other at a small wooden table, engaged in a tense conversation.\nThe man speaks first, leaning forward slightly, his voice calm but serious. The woman responds with subtle hesitation, maintaining eye contact before glancing away briefly.\nUse natural lip-synced dialogue for both speakers, with soft ambient café sounds in the background.\nCamera starts with a medium two-shot, slowly pushes in toward a close-up as the conversation becomes more emotional.\nLighting is warm and natural, with sunlight filtering through the window. Maintain realistic facial expressions, smooth body movement, and clear audiovisual synchronization throughout the 8–10 second scene.",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "5",
+      "generateAudio": true,
+      "cameraFixed": false,
+      "seed": "1375219336"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/5b0688d927613252d85541bd6d278a72.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/5b0688d927613252d85541bd6d278a72.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/07b216739a3af2873b58917353c45c79.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/07b216739a3af2873b58917353c45c79.mp4"
+    ],
+    "generatedAt": "2026-04-15T09:09:17.344Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/9e4c7a49911be7c629f6d71c712e277b.mp4"
+  },
+  {
+    "prompt": "A large glowing circular ring floating above a barren foggy landscape. The light is soft, warm and steady, slightly pulsating. The ring feels ancient, neutral, not technological. Minimalist cinematic apocalypse, volumetric fog, ultra realistic lighting. --ar 51:91 --motion high --video 1",
+    "params": {
+      "prompt": "A large glowing circular ring floating above a barren foggy landscape. The light is soft, warm and steady, slightly pulsating. The ring feels ancient, neutral, not technological. Minimalist cinematic apocalypse, volumetric fog, ultra realistic lighting. --ar 51:91 --motion high --video 1",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "5",
+      "generateAudio": true,
+      "cameraFixed": false,
+      "seed": "1348593000"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/5ad30e19e40d735776404e803e1ab8a8.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/5ad30e19e40d735776404e803e1ab8a8.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/bcbc83f24dcfb193d05c109bf5303b08.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/bcbc83f24dcfb193d05c109bf5303b08.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:52:54.354Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/7f836055da55e897a672c42305b2d29a.mp4"
+  },
+  {
+    "prompt": "The race cars roar past on a track set before the pyramids, yellow sand billowing up beneath their tires.\nThe camera hugs the ground as a car blasts through a corner, dust scattering into the air.\nMultiple cars weave through the winding circuit, overtaking one another, the composition capturing the tension between the pyramids’ silhouettes and extreme speed.\n[Aerial drone shot] A bird’s-eye view of the entire desert track reveals the flow of cars, their trajectories intertwining with the glow of the setting sun to create a dynamic visual spectacle.",
+    "params": {
+      "prompt": "The race cars roar past on a track set before the pyramids, yellow sand billowing up beneath their tires.\nThe camera hugs the ground as a car blasts through a corner, dust scattering into the air.\nMultiple cars weave through the winding circuit, overtaking one another, the composition capturing the tension between the pyramids’ silhouettes and extreme speed.\n[Aerial drone shot] A bird’s-eye view of the entire desert track reveals the flow of cars, their trajectories intertwining with the glow of the setting sun to create a dynamic visual spectacle.",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "5",
+      "generateAudio": true,
+      "cameraFixed": false,
+      "seed": "632600641"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/e2bf1e47e2677760097a95f47aebb902.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/e2bf1e47e2677760097a95f47aebb902.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/75d58990eccd67be8c8384f5bbc2ac2d.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/75d58990eccd67be8c8384f5bbc2ac2d.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:54:14.653Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/dd0b1873461d97c88d8883db322aad63.mp4"
+  },
+  {
+    "prompt": "closeup image of a woman with long curly hair reading a novel in a field of flowers. sky is deep blue. the breeze is gently moving the flowers and her hair. ",
+    "params": {
+      "prompt": "closeup image of a woman with long curly hair reading a novel in a field of flowers. sky is deep blue. the breeze is gently moving the flowers and her hair. ",
+      "aspectRatio": "16:9",
+      "resolution": "720p",
+      "duration": "5",
+      "generateAudio": true,
+      "cameraFixed": false,
+      "seed": "1544510375"
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/f4c981c9b6dbab8a1c0d335fa0fe1222.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/f4c981c9b6dbab8a1c0d335fa0fe1222.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/47e1a570df51af8668ec891bd6bc905a.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/47e1a570df51af8668ec891bd6bc905a.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:55:24.301Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/a0f703041cb23bd5d73c6ea9d03b5aba.mp4"
+  },
+  {
+    "prompt": "An anime heroine leaps across futuristic rooftops with electric energy trails, dynamic action timing, dramatic perspective, vibrant cel shading, high-impact vertical teaser",
+    "params": {
+      "prompt": "An anime heroine leaps across futuristic rooftops with electric energy trails, dynamic action timing, dramatic perspective, vibrant cel shading, high-impact vertical teaser",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/50887d58ec5b8c1e611d8d09d5ef782b.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/50887d58ec5b8c1e611d8d09d5ef782b.mp4"
+    ],
+    "generatedAt": "2026-04-15T09:10:47.821Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/be4c6867422b95327e68abc83b6846a8.mp4"
+  },
+  {
+    "prompt": "A luxury cosmetic bottle floats above a reflective surface, elegant water droplets moving gently, premium commercial lighting, clean beauty campaign, polished product motion ad",
+    "params": {
+      "prompt": "A luxury cosmetic bottle floats above a reflective surface, elegant water droplets moving gently, premium commercial lighting, clean beauty campaign, polished product motion ad",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/27df54e90d6e7f6ecae5084593018eb6.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/27df54e90d6e7f6ecae5084593018eb6.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:57:34.778Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/7ea3809bcf4dbf6918c1a7b17d3ce2d2.mp4"
+  },
+  {
+    "prompt": "Close-up gourmet ramen bowl with steam rising, gentle broth shimmer, cinematic restaurant lighting, premium food commercial shot, appetizing detail",
+    "params": {
+      "prompt": "Close-up gourmet ramen bowl with steam rising, gentle broth shimmer, cinematic restaurant lighting, premium food commercial shot, appetizing detail",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/9c1f98c96789703c0b3ec6bcbb6d6c8a.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/9c1f98c96789703c0b3ec6bcbb6d6c8a.mp4"
+    ],
+    "generatedAt": "2026-04-15T04:59:07.067Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/ac9766afe27dc77b0982590f39f04e20.mp4"
+  },
+  {
+    "prompt": "A massive sci-fi megacity skyline at dusk with flying vehicles and holographic billboards, atmospheric haze, wide cinematic pan, immersive world-building",
+    "params": {
+      "prompt": "A massive sci-fi megacity skyline at dusk with flying vehicles and holographic billboards, atmospheric haze, wide cinematic pan, immersive world-building",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/9ae76bd676a229254dc49ed821d3e427.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/9ae76bd676a229254dc49ed821d3e427.mp4"
+    ],
+    "generatedAt": "2026-04-15T05:00:46.777Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/916ab00102ff747023c7ba617fc01fe5.mp4"
+  },
+  {
+    "prompt": "Black and white documentary portrait of an elderly craftsman in a workshop, subtle hand movement, textured lighting, emotional realism, timeless cinematic shot",
+    "params": {
+      "prompt": "Black and white documentary portrait of an elderly craftsman in a workshop, subtle hand movement, textured lighting, emotional realism, timeless cinematic shot",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/4fb5ae1ecf508a042f3037c262fc4dc1.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/4fb5ae1ecf508a042f3037c262fc4dc1.mp4"
+    ],
+    "generatedAt": "2026-04-15T05:02:30.294Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/700285e86183a3a187a403605d9290b8.mp4"
+  },
+  {
+    "prompt": "A romantic wedding scene in a sunlit garden, veil moving softly in the breeze, natural laughter, creamy bokeh, timeless cinematic motion",
+    "params": {
+      "prompt": "A romantic wedding scene in a sunlit garden, veil moving softly in the breeze, natural laughter, creamy bokeh, timeless cinematic motion",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/0a4c32c425f728f70bdf2ce4185adeba.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/0a4c32c425f728f70bdf2ce4185adeba.mp4"
+    ],
+    "generatedAt": "2026-04-15T05:04:14.603Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/9e5784e82973b98883141722298270cf.mp4"
+  },
+  {
+    "prompt": "A professional athlete sprints through rain under stadium lights, powerful strides, droplets flying, sportswear campaign, dramatic action commercial",
+    "params": {
+      "prompt": "A professional athlete sprints through rain under stadium lights, powerful strides, droplets flying, sportswear campaign, dramatic action commercial",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/73904df8f7c5c496561eb1a8b1c5b9d1.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/73904df8f7c5c496561eb1a8b1c5b9d1.mp4"
+    ],
+    "generatedAt": "2026-04-15T05:05:46.592Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/ee9d473f3a074b224d9b3dfebe11297d.mp4"
+  },
+  {
+    "prompt": "A warm Scandinavian living room with soft natural light, curtains moving slightly, cozy interior ambiance, refined design photography, slow walkthrough feel",
+    "params": {
+      "prompt": "A warm Scandinavian living room with soft natural light, curtains moving slightly, cozy interior ambiance, refined design photography, slow walkthrough feel",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/b1f2fb4e51af207fc9aba4556cc49ea8.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/b1f2fb4e51af207fc9aba4556cc49ea8.mp4"
+    ],
+    "generatedAt": "2026-04-15T05:07:02.284Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/e789b8a0b622af536413b55c2f162f15.mp4"
+  },
+  {
+    "prompt": "A majestic fantasy creature stands in a bioluminescent forest, subtle breathing and eye movement, mystical glow, premium creature cinematic concept shot",
+    "params": {
+      "prompt": "A majestic fantasy creature stands in a bioluminescent forest, subtle breathing and eye movement, mystical glow, premium creature cinematic concept shot",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/39caa9bb0630cadaa686a516e14508ed.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/39caa9bb0630cadaa686a516e14508ed.mp4"
+    ],
+    "generatedAt": "2026-04-15T05:08:41.922Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/771930960170893574331a8033f9ac40.mp4"
+  },
+  {
+    "prompt": "A whimsical children's book scene of a fox and rabbit sharing tea in a magical forest, gentle animated motions, soft watercolor textures, warm storytelling tone",
+    "params": {
+      "prompt": "A whimsical children's book scene of a fox and rabbit sharing tea in a magical forest, gentle animated motions, soft watercolor textures, warm storytelling tone",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/4337b85a701bf41a7d66c585726fb3b7.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/4337b85a701bf41a7d66c585726fb3b7.mp4"
+    ],
+    "generatedAt": "2026-04-15T05:10:02.889Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/fc1eeb748a2384d302e7dd80d30ff512.mp4"
+  },
+  {
+    "prompt": "A cyberpunk close-up portrait with glossy visor reflections, subtle head movement, cyan and magenta neon lighting, futuristic makeup, moody sci-fi fashion teaser",
+    "params": {
+      "prompt": "A cyberpunk close-up portrait with glossy visor reflections, subtle head movement, cyan and magenta neon lighting, futuristic makeup, moody sci-fi fashion teaser",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/2aae3f126917a18665f35e8a56fb14bb.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/2aae3f126917a18665f35e8a56fb14bb.mp4"
+    ],
+    "generatedAt": "2026-04-15T05:11:35.534Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/22ae72226c3a9e349c5aadf8d3e4d95b.mp4"
+  },
+  {
+    "prompt": "A snow leopard stands on a rocky ridge during snowfall, subtle breathing and head turn, dramatic wildlife cinematography, crisp fur detail",
+    "params": {
+      "prompt": "A snow leopard stands on a rocky ridge during snowfall, subtle breathing and head turn, dramatic wildlife cinematography, crisp fur detail",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/6a3086969a87f3baf87160b0a1b603c4.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/6a3086969a87f3baf87160b0a1b603c4.mp4"
+    ],
+    "generatedAt": "2026-04-15T05:12:59.220Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/e9275098accc15cbce5a514837684694.mp4"
+  },
+  {
+    "prompt": "Minimalist concrete architecture beside a calm reflective pool, subtle water ripples, slow dolly movement, premium architectural film, serene atmosphere",
+    "params": {
+      "prompt": "Minimalist concrete architecture beside a calm reflective pool, subtle water ripples, slow dolly movement, premium architectural film, serene atmosphere",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/1327d4dddd496571fac2ce0e04877f65.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/1327d4dddd496571fac2ce0e04877f65.mp4"
+    ],
+    "generatedAt": "2026-04-15T05:14:25.428Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/55580412fb3225a11046022680384297.mp4"
+  },
+  {
+    "prompt": "A singer under saturated stage lights in a bold music festival promo, rhythmic camera sway, graphic composition, modern campaign teaser",
+    "params": {
+      "prompt": "A singer under saturated stage lights in a bold music festival promo, rhythmic camera sway, graphic composition, modern campaign teaser",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/26720e820c67afda9468254b6b1c789e.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/26720e820c67afda9468254b6b1c789e.mp4"
+    ],
+    "generatedAt": "2026-04-15T05:15:48.786Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/6b0f5876c9e8ce88e39c6cfa384947d7.mp4"
+  },
+  {
+    "prompt": "A high-end electric sports car drives along a wet mountain road at dawn, dramatic reflections, cinematic headlights, premium automotive commercial motion",
+    "params": {
+      "prompt": "A high-end electric sports car drives along a wet mountain road at dawn, dramatic reflections, cinematic headlights, premium automotive commercial motion",
+      "aspectRatio": "16:9",
+      "resolution": "fast 720p",
+      "duration": "5",
+      "generateAudio": false,
+      "cameraFixed": false,
+      "seed": "-1"
+    },
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/c4a561a207f593a373e8ce5994c242cd.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/c4a561a207f593a373e8ce5994c242cd.mp4"
+    ],
+    "generatedAt": "2026-04-15T05:17:18.643Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/f0caa2b38236e4956ca9549177458c1c.mp4"
+  }
+]

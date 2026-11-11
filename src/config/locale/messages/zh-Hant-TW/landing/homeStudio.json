@@ -1,0 +1,245 @@
+{
+  "header": {
+    "title": "探索創意分類",
+    "subtitle": "創作、編輯與想像所需的工具都在這裡。"
+  },
+  "common": {
+    "prompt": "提示詞",
+    "before": "之前",
+    "after": "之後",
+    "image": "圖像",
+    "video": "影片",
+    "freeTrial": "免費試用"
+  },
+  "cards": {
+    "imageToVideo": {
+      "title": "圖生影片",
+      "description": "將圖片轉成影片動畫",
+      "inputAlt": "圖生影片輸入",
+      "outputTitle": "圖生影片輸出"
+    },
+    "textToVideo": {
+      "title": "文生影片",
+      "description": "用文字提示生成影片"
+    },
+    "longcatAvatar": {
+      "title": "Lip-Sync",
+      "description": "透過圖片和音訊生成說話頭像影片",
+      "inputAlt": "Longcat Avatar 圖片輸入",
+      "outputAlt": "Longcat Avatar 影片輸出"
+    },
+    "editorCombiner": {
+      "title": "編輯與合成",
+      "description": "編輯、組合並創作",
+      "referencePortraitAlt": "編輯參考人像",
+      "referenceProductAlt": "編輯參考商品",
+      "outputAlt": "編輯合成結果"
+    },
+    "imageToImage": {
+      "title": "圖生圖",
+      "description": "用 AI 轉換圖片"
+    },
+    "textToImage": {
+      "title": "文生圖",
+      "description": "透過文字提示生成圖片"
+    },
+    "photoShoot": {
+      "title": "寫真",
+      "description": "任意風格的 AI 寫真拍攝",
+      "coverAlt": "寫真封面",
+      "coverBadge": "封面",
+      "scenesBadge": "場景"
+    },
+    "variations": {
+      "title": "變體",
+      "description": "基於任意圖片生成多種變體",
+      "inputAlt": "變體輸入",
+      "inputBadge": "輸入",
+      "outputBadge": "輸出"
+    },
+    "faceGenerator": {
+      "title": "人臉生成",
+      "description": "生成逼真的人臉"
+    },
+    "imageUpscaler": {
+      "title": "圖像放大",
+      "description": "提升圖片解析度",
+      "beforeAlt": "放大前",
+      "afterAlt": "放大後",
+      "lowRes": "低解析",
+      "enhanced": "增強"
+    },
+    "videoUpscaler": {
+      "title": "影片放大",
+      "description": "提升影片畫質",
+      "hd": "高清",
+      "ultraHd": "超高清"
+    },
+    "imageEffects": {
+      "title": "圖像特效",
+      "description": "為圖片套用驚豔特效",
+      "chips": {
+        "original": "原圖",
+        "filmLook": "膠片感",
+        "goldenHour": "黃金時刻",
+        "blackWhite": "黑白"
+      }
+    },
+    "videoEffects": {
+      "title": "影片特效",
+      "description": "為影片加入電影感特效",
+      "chips": {
+        "cinematic": "電影感",
+        "slowMotion": "慢動作",
+        "lightLeak": "漏光",
+        "vintage": "復古"
+      }
+    }
+  },
+  "mangoHomepage": {
+    "eyebrow": "AI 圖片、影片與特效創作集中在一個首頁入口",
+    "heroDescription": "瀏覽目前專案裡已經接通的真實工具入口。下面每張卡片都直接對應可用工具，媒體內容來自現有 tool library 或 pc homepage 範例。",
+    "tabs": {
+      "video-tools": {
+        "label": "視訊工具",
+        "description": "集中展示專案裡的核心影片工作流程，包括文生影片、圖生影片和常用影片特效入口。"
+      },
+      "image-tools": {
+        "label": "圖片工具",
+        "description": "涵蓋最常用的圖片創作流程，包括生圖、重繪、放大、摳圖和智慧擦除。"
+      },
+      "image-effects": {
+        "label": "圖片特效",
+        "description": "瀏覽可直接套用的圖片風格效果，一步把照片轉成不同主題和美感方向。"
+      }
+    },
+    "sections": {
+      "imageEffects": {
+        "eyebrow": "圖片特效",
+        "title": "繼續瀏覽目前圖庫裡的更多圖片特效案例"
+      },
+      "videoEffects": {
+        "eyebrow": "影片特效",
+        "title": "繼續瀏覽目前庫裡的更多影片特效案例"
+      },
+      "popularPaths": {
+        "eyebrow": "熱門入口",
+        "title": "繼續探索使用者目前最常進入的工具入口"
+      }
+    },
+    "cta": {
+      "title": "從首頁進入，再繼續進入真實工作台完成創作",
+      "description": "你可以從工具發現直接進入圖片產生、影片產生或特效流程，無需離開目前產品結構。",
+      "openImageWorkspace": "打開圖片工作台",
+      "openVideoWorkspace": "打開視訊工作台"
+    },
+    "cards": {
+      "openTool": "開啟工具",
+      "aiVideoGenerator": {
+        "title": "人工智慧視訊產生器",
+        "description": "輸入一句描述即可生成視頻，適合做短劇情、廣告鏡頭、情緒片段和角色動態演示。"
+      },
+      "imageToVideo": {
+        "title": "影像轉視頻",
+        "description": "把單張圖片轉換成動態鏡頭，適合做人像開場、產品展示和氛圍延展。"
+      },
+      "videoEffects": {
+        "title": "視訊效果",
+        "description": "進入影片特效庫，快速套用現成​​動態範本和風格化動作效果。"
+      },
+      "fashionStride": {
+        "title": "時尚大步",
+        "description": "人物走秀類影片特效，適合把靜態人像快速做成時尚感動態短片。"
+      },
+      "dreamyWedding": {
+        "title": "夢幻婚禮",
+        "description": "婚禮氛圍影片特效，適合紀念感、告白感和浪漫主題內容。"
+      },
+      "walkForward": {
+        "title": "向前走",
+        "description": "讓人物產生自然前進動作，適合做角色出場和鏡頭推進類影片。"
+      },
+      "aiImageGenerator": {
+        "title": "人工智慧圖像生成器",
+        "description": "透過文字產生圖片，適合海報視覺、人物設定、商品圖和社媒封面創作。"
+      },
+      "imageToImage": {
+        "title": "影像到影像",
+        "description": "上傳參考圖後重繪風格與內容，適合換裝、換景和視覺升級。"
+      },
+      "imageUpscaler": {
+        "title": "影像放大器",
+        "description": "提升圖片解析度與細節清晰度，適合修復小圖、放大人像和優化商品圖。"
+      },
+      "backgroundRemover": {
+        "title": "背景去除劑",
+        "description": "一鍵摳出主體並去除背景，適合電商主圖、頭像素材和透明 PNG 輸出。"
+      },
+      "imageEraser": {
+        "title": "圖片橡皮擦",
+        "description": "擦除畫面中的路人、雜物或瑕疵區域，自動補全更乾淨的背景內容。"
+      },
+      "imageEffects": {
+        "title": "影像效果",
+        "description": "瀏覽圖像特效集，快速把照片轉換成不同美感風格和主題視覺。"
+      },
+      "aiGhibliEffect": {
+        "title": "AI吉卜力效應",
+        "description": "把人物照片轉換成溫柔的吉卜力動畫質感，適合做頭像和故事感插畫。"
+      },
+      "springBarbiecore": {
+        "title": "春季芭比核",
+        "description": "以高飽和粉紅色和甜美元素重塑人像，適合時尚感和少女系內容包裝。"
+      },
+      "softSpringHaze": {
+        "title": "柔和的春霧",
+        "description": "為照片加上柔霧春日氣氛，適合生活風格、人像寫真和封面配圖。"
+      },
+      "provenceSummerGirl": {
+        "title": "普羅旺斯夏日女孩",
+        "description": "生成法式夏日氛圍的人像風格，適合旅行感、寫真感和輕雜誌視覺。"
+      },
+      "roseBokeh": {
+        "title": "玫瑰散景",
+        "description": "加入玫瑰虛化與浪漫焦外效果，適合節慶賀圖與情緒感人影像創作。"
+      },
+      "ccdStyleSnow": {
+        "title": "CCD風格雪景",
+        "description": "模擬復古 CCD 雪景相機質感，適合懷舊主題和季節氛圍照片。"
+      },
+      "y2kTrendCollage": {
+        "title": "Y2K 趨勢拼貼",
+        "description": "把人像包裝成 Y2K 拼貼海報風，適合做成社媒卡和潮流主題封面。"
+      },
+      "y2kCyberCollage": {
+        "title": "Y2K 網路拼貼",
+        "description": "融合賽博元素與拼貼版式，適合強調潮流感與未來感的人像內容。"
+      },
+      "miniMe": {
+        "title": "迷你我",
+        "description": "把人物變成迷你玩偶風格，適合頭像、週邊感視覺和輕鬆趣味內容。"
+      },
+      "ghibliMotion": {
+        "title": "吉卜力動作",
+        "description": "把人物做成吉卜力感動態鏡頭，適合故事化短片和氛圍感演繹。"
+      },
+      "starCarpet": {
+        "title": "星毯",
+        "description": "打造紅毯和舞台登場感，適合做高光時刻和明星化表達。"
+      },
+      "blueprintSupreme": {
+        "title": "至尊藍圖",
+        "description": "偏概念視覺和設計感的影片效果，適合做創意展示和風格化演繹。"
+      },
+      "createImage": {
+        "title": "建立圖片"
+      },
+      "createVideo": {
+        "title": "創建視頻"
+      },
+      "showcases": {
+        "title": "案例展示"
+      }
+    }
+  }
+}

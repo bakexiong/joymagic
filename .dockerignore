@@ -1,0 +1,15 @@
+.git
+.next
+.mastra
+node_modules
+.pnpm-store
+.env
+.env.*
+dist
+coverage
+playwright-report
+test-results
+.DS_Store
+
+.agents
+.dev*.pid

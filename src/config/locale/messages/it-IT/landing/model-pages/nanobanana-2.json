@@ -1,0 +1,88 @@
+{
+  "title": "Nano Banana 2",
+  "provider": "Google",
+  "eyebrow": "Landing page model-first",
+  "description": "Inizia da Nano Banana 2 quando hai bisogno di un workflow più orientato alla produzione: più riferimenti, controllo di output più forte, rendering del testo più pulito e visual di campagna più nitide già al primo passaggio.",
+  "seoTitle": "Pagina modello AI Nano Banana 2 | Advanced Image Edit + Text to Image | joymagic",
+  "seoDescription": "Esplora Nano Banana 2 come pagina modello model-first. Cambia scena, riusa il creator workbench e usa Nano Banana 2 per multi-image editing e text-to-image con controllo più alto.",
+  "stats": [
+    {
+      "label": "Modalità principale",
+      "value": "Advanced Edit"
+    },
+    {
+      "label": "Scene estese",
+      "value": "2 workflow attivi"
+    },
+    {
+      "label": "Focus output",
+      "value": "Più controllo"
+    }
+  ],
+  "differentiators": [
+    "Posiziona Nano Banana 2 come opzione avanzata per utenti che hanno bisogno di più controllo produttivo rispetto al modello base.",
+    "Mantieni lo stesso comportamento del creator-side workbench cambiando però storia del modello, starter prompt e framing delle scene.",
+    "Rendi semplice confrontare pagine di modelli fratelli senza ricostruire form, scene routing o pannello media laterale."
+  ],
+  "gallery": [
+    {
+      "title": "Upgrade packshot campaign",
+      "caption": "Usa più riferimenti e un controllo di output più stretto per trasformare asset prodotto grezzi in visual più rifinite e pronte per l'ad.",
+      "prompt": "Use the uploaded references to create a premium skincare campaign visual with crisp reflections, elevated lighting, and a clean luxury retail finish.",
+      "accentClassName": "from-[#f8e08a] via-[#9c7c35] to-[#171717] text-white"
+    },
+    {
+      "title": "Poster orientati alla tipografia",
+      "caption": "Crea poster comp in cui layout, gerarchia e leggibilità del testo contano fin dal primo passaggio.",
+      "prompt": "Design a premium launch poster for a summer beverage brand with clear readable headline typography, cinematic golden-hour light, and a glossy product hero composition.",
+      "accentClassName": "from-[#8cd3ff] via-[#2b75b6] to-[#121416] text-white"
+    },
+    {
+      "title": "Brand concept controllati",
+      "caption": "Genera frame concettuali più vicini a comp finali di campagna invece che a moodboard ancora troppo loose.",
+      "prompt": "Create a polished brand concept visual for a luxury fragrance release, frontal hero composition, soft atmospheric haze, clear product labeling, and premium editorial lighting.",
+      "accentClassName": "from-[#d7b7ff] via-[#6f47a8] to-[#17131d] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Qual è la differenza tra /model/nanobana e /model/nanobanana-2?",
+      "answer": "Qui Nano Banana 2 viene presentato come il fratello più orientato alla produzione: migliore per edit pesanti guidati dai riferimenti, controllo di output più forte e concept premium con intenzione di layout più chiara."
+    },
+    {
+      "question": "Nano Banana 2 usa ancora lo stesso creator workbench?",
+      "answer": "Sì. Il flusso del form a sinistra e il pannello media a destra sono ancora riusati dal creator, quindi la pagina cambia il contesto del modello senza cambiare il workflow creativo di base."
+    },
+    {
+      "question": "Perché creare una pagina modello separata per Nano Banana 2?",
+      "answer": "Perché l'intento dell'utente è diverso. Questa pagina aiuta a posizionare Nano Banana 2 come percorso di upgrade e consente di spiegare i suoi scenari migliori senza mischiarlo dentro una pagina tool generica."
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "Modifica immagine",
+      "title": "Scena 01 · Editing di precisione multi-immagine",
+      "description": "Usa Nano Banana 2 per workflow di editing più pesanti che richiedono più riferimenti, controllo più chiaro sulla dimensione di output e un setup più orientato alla produzione.",
+      "spotlight": "Ideale per batch, edit ricchi di riferimenti e deliverable a risoluzione più alta.",
+      "starterPrompt": "Use the uploaded references to restyle the product into a premium launch campaign, keep branding intact, add controlled studio reflections, and output a polished commercial visual.",
+      "useCases": [
+        "Rifinitura prodotto con più riferimenti",
+        "Varianti di campagna con controllo di output più rigido",
+        "Passaggi di art direction con identità visiva coerente"
+      ]
+    },
+    {
+      "modeLabel": "Testo in immagine",
+      "title": "Scena 02 · Concept generation ad alto controllo",
+      "description": "Passa alla generazione guidata dal prompt quando ti servono direzione camera più forte, testo più pulito e output più vicine a comp pronte per la produzione.",
+      "spotlight": "Ideale per concept premium prima di passare gli asset alla produzione di campagna.",
+      "starterPrompt": "Create a premium beverage campaign poster with strong camera composition, warm sunset key light, clear headline typography, and a glossy hero-product finish.",
+      "useCases": [
+        "Ad concept comp con intento di layout più chiaro",
+        "Bozze poster e packaging con tipografia leggibile",
+        "Visual brand che richiedono una prima passata più rifinita"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

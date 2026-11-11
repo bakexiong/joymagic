@@ -1,0 +1,273 @@
+{
+  "title": "Qwen Image 202512 Text zu Bild",
+  "subtitle": "Erstellen Sie beeindruckende Bilder aus Textbeschreibungen",
+  "prompt_label": "Eingabeaufforderung",
+  "prompt_placeholder": "Jalousien, die dramatische Schattenmuster auf ihrem Gesicht erzeugen. Aufgenommen mit Hasselblad H6D-100c, 85mm f/1.4 Objektiv, geringe Schärfentiefe, Filmkorn, Kodak Portra 400 Farbwissenschaft. Filmische Komposition mit negativem Raum, melancholische Atmosphäre.",
+  "prompt_tooltip": "Geben Sie eine Beschreibung des Bildes ein, das Sie generieren möchten",
+  "size_label": "Bildgröße",
+  "size_hint": "Wählen Sie die Ausgabebildgröße",
+  "width_label": "Breite",
+  "height_label": "Höhe",
+  "seed_label": "Seed-Wert",
+  "seed_tooltip": "Setzen Sie einen Seed-Wert für reproduzierbare Ergebnisse. Verwenden Sie -1 für zufälligen Seed.",
+  "seed_randomize": "Zufälligen Seed generieren",
+  "output_format_label": "Ausgabeformat",
+  "output_format_tooltip": "Wählen Sie das Ausgabeformat für das Bild",
+  "buttons": {
+    "generate": "Bild generieren"
+  },
+  "errors": {
+    "promptRequired": "Eingabeaufforderung ist erforderlich"
+  },
+  "image_alt": "Generiertes Bild",
+  "download": "Herunterladen",
+  "image_placeholder": "Generiertes Bild wird hier angezeigt",
+  "prompt_inspirations_button": "Prompt-Inspirationen",
+  "prompt_guide_button": "Prompt-Anleitung",
+  "powered_by": "Unterstützt von Qwen Image 202512 AI-Modell, optimiert von joymagic",
+  "page": {
+    "metadata": {
+      "title": "Qwen Image 2512: Alibabas Text-zu-Bild-Modell für lesbaren Text | joymagic",
+      "description": "Qwen Image 2512 ist Alibabas neuestes Text-zu-Bild-Generierungsmodell, optimiert für hochwertige Bildgenerierung mit präzisem, lesbarem Text. Perfekt für Poster, Schilder, Logos, Werbung und Markendesign-Assets.",
+      "keywords": "Qwen Image 2512, text to image, ai image generator, lesbarer text, poster, schilder, logos, alibaba, qwen ai"
+    },
+    "hero": {
+      "title": "Qwen Image 2512: Alibabas Text-zu-Bild-Modell für lesbaren Text",
+      "description": "Qwen Image 2512 ist Alibabas neuestes Text-zu-Bild-Generierungsmodell aus der Qwen AI-Familie. Es ist speziell für hochwertige Bildgenerierung mit präzisem, lesbarem Text optimiert und ist eine ausgezeichnete Wahl für Poster, Schilder, Logos, Werbung und Markendesign-Assets, bei denen Textklarheit wirklich wichtig ist.<br/><br/>Im Gegensatz zu vielen Bildgenerierungsmodellen, die nur visuelle Ästhetik priorisieren, zeichnet sich Qwen Image 2512 durch die Kombination von starkem natürlichem Sprachverständnis mit branchenführendem Text-Rendering in Bildern aus.",
+      "button1": "Jetzt ausprobieren",
+      "button2": "Preise ansehen"
+    },
+    "heroDescription": "Erstellen Sie beeindruckende Bilder aus einfachen Textbeschreibungen mit fortschrittlicher KI-Technologie.",
+    "keyFeatures": {
+      "title": "Warum Qwen Image 2512 wählen?",
+      "description": "Entdecken Sie die einzigartigen Vorteile, die Qwen Image 2512 zur idealen Wahl für textreiche visuelle Inhalte machen",
+      "superiorTextRendering": {
+        "title": "Überlegene Textdarstellung",
+        "description": "Qwen Image 2512 zeichnet sich durch die Generierung klaren, lesbaren Texts in Bildern aus und unterstützt mehrere Sprachen, Schriftarten und Layout-Stile. Dies macht es ideal für Anwendungsfälle wie Marketing-Poster, Werbebanner, Produktetiketten, Logos und Schilder—Szenarien, in denen Textlesbarkeit entscheidend ist."
+      },
+      "advancedPromptUnderstanding": {
+        "title": "Erweiterte Prompt-Verständnis",
+        "description": "Das Modell zeigt ein verbessertes Verständnis komplexer Prompts und interpretiert präzise Subjektbeziehungen, räumliche Layouts und Komposition sowie stilistische Absicht und visuelle Hierarchie. Sogar lange, detaillierte Prompts werden mit konsistenten und zuverlässigen Ergebnissen verarbeitet."
+      },
+      "flexibleImageSizing": {
+        "title": "Flexible Bildgrößen",
+        "description": "Qwen Image 2512 unterstützt benutzerdefinierte Breiten- und Höhenparameter und ermöglicht es Ihnen, Bilder zu generieren, die für Social-Media-Formate (1:1, 4:5, 9:16), Präsentationen und Web-Banner sowie druckfertige Visuals und Poster maßgeschneidert sind."
+      },
+      "consistentQuality": {
+        "title": "Konsistente Qualität über alle Stile",
+        "description": "Ob Sie fotorealistische Bilder, Illustrationen oder Concept Art oder abstrakte oder markengetriebene Designs benötigen, Qwen Image 2512 hält hohe visuelle Qualität und stilistische Konsistenz über alle Ausgaben aufrecht."
+      },
+      "builtInPromptEnhancer": {
+        "title": "Integrierter Prompt-Verbesserer",
+        "description": "Der integrierte Prompt-Verbesserer verfeinert automatisch Ihre Eingabe und hilft Ihnen, bessere Generierungsergebnisse mit weniger Versuch und Irrtum zu erzielen."
+      }
+    },
+    "howItWorks": {
+      "title": "Wie es funktioniert",
+      "description": "Generieren Sie Bilder in drei einfachen Schritten",
+      "step1": {
+        "title": "Geben Sie Ihren Prompt ein",
+        "description": "Beschreiben Sie das Bild, das Sie generieren möchten"
+      },
+      "step2": {
+        "title": "Einstellungen wählen",
+        "description": "Wählen Sie Ausgabeformat und Präferenzen"
+      },
+      "step3": {
+        "title": "Generieren & Herunterladen",
+        "description": "Erhalten Sie Ihr KI-generiertes Bild und laden Sie es herunter"
+      }
+    },
+    "promptingTips": {
+      "title": "Prompt-Tipps",
+      "lighting": {
+        "title": "Seien Sie spezifisch bei der Beleuchtung",
+        "description": "\"Goldene Stunde Sonnenlicht von links, weiche Schatten\" funktioniert besser als \"gute Beleuchtung\"."
+      },
+      "camera": {
+        "title": "Kameradetails einbeziehen",
+        "description": "\"Aufnahme mit 85mm Objektiv, geringe Schärfentiefe\" verleiht professionelle Fotografiequalität."
+      },
+      "style": {
+        "title": "Kunststil angeben",
+        "description": "\"Digitale Illustration im Studio Ghibli Stil\" oder \"hyperrealistisches 3D-Rendering\" gibt klare Richtung."
+      },
+      "mood": {
+        "title": "Stimmung und Atmosphäre beschreiben",
+        "description": "\"Gemütliches, warmes, nostalgisches Gefühl\" oder \"dramatisch, filmisch, hoher Kontrast\" prägt das Gesamtbild."
+      }
+    },
+    "parameters": {
+      "title": "Qwen Image 2512 Parameter",
+      "description": "Parameterdetails sind in der Playground-Oberfläche verfügbar. Passen Sie Breite, Höhe, Seed und Ausgabeformat an, um Ihre Bildgenerierung anzupassen."
+    },
+    "outputFormats": {
+      "title": "Ausgabeformat-Optionen",
+      "jpeg": {
+        "title": "JPEG",
+        "description": "Kleinere Dateigröße, ideal für Fotos und Web-Nutzung"
+      },
+      "png": {
+        "title": "PNG",
+        "description": "Verlustfreie Qualität mit Transparenz-Unterstützung, am besten für Bilder mit Text"
+      },
+      "webp": {
+        "title": "WebP",
+        "description": "Modernes Format mit besserer Kompression und starker Browser-Kompatibilität"
+      }
+    },
+    "howToUse": {
+      "title": "Wie man Qwen Image 2512 verwendet",
+      "step1": {
+        "title": "Schreiben Sie Ihren Prompt",
+        "description": "Beschreiben Sie das Subjekt, den Stil, die Komposition, Beleuchtung und Stimmung."
+      },
+      "step2": {
+        "title": "Bildgröße anpassen",
+        "description": "Stellen Sie Breite und Höhe entsprechend Ihrer Zielplattform ein."
+      },
+      "step3": {
+        "title": "Seed-Wert setzen",
+        "description": "Verwenden Sie -1 für zufällige Ausgaben oder geben Sie einen festen Wert für Reproduzierbarkeit an."
+      },
+      "step4": {
+        "title": "Ausgabeformat wählen",
+        "description": "Wählen Sie jpeg, png oder webp basierend auf Ihren Bedürfnissen."
+      },
+      "step5": {
+        "title": "Ausführen und iterieren",
+        "description": "Generieren, Vorschau anzeigen und Ihren Prompt nach Bedarf verfeinern."
+      }
+    },
+    "pricing": {
+      "title": "Preise",
+      "description": "Einfache Pauschalpreise, unabhängig von der Bildgröße, was es kosteneffektiv für großflächige und kommerzielle Nutzung macht. Besuchen Sie unsere Preisseite für detaillierte Informationen.",
+      "link": "Preise ansehen →"
+    },
+    "bestUseCases": {
+      "title": "Beste Anwendungsfälle",
+      "marketing": {
+        "title": "Marketing & Werbung",
+        "description": "Erstellen Sie visuell ansprechende Inhalte mit lesbarem Text für Anzeigen, Poster und Kampagnen."
+      },
+      "socialMedia": {
+        "title": "Social-Media-Inhalte",
+        "description": "Generieren Sie plattformoptimierte Visuals, die Engagement fördern."
+      },
+      "productDesign": {
+        "title": "Produkt- & Verpackungsdesign",
+        "description": "Visualisieren Sie Konzepte, Mockups und Verpackungen mit integrierter Typografie."
+      },
+      "branding": {
+        "title": "Branding & Visuelle Identität",
+        "description": "Entwerfen Sie Logos, Schilder und Marken-Assets mit klaren Textelementen."
+      },
+      "editorial": {
+        "title": "Redaktion & Verlagswesen",
+        "description": "Erstellen Sie Illustrationen, Cover-Art und visuelle Inhalte für Artikel und Medien."
+      }
+    },
+    "proTips": {
+      "title": "Profi-Tipps für beste Ergebnisse",
+      "specific": {
+        "title": "Seien Sie in Ihren Prompts so spezifisch wie möglich",
+        "description": "Beziehen Sie Subjektdetails, Stil, Beleuchtung, Kamerawinkel und Atmosphäre ein."
+      },
+      "textInImages": {
+        "title": "Beim Generieren von Text in Bildern explizit die genaue Formulierung, Schriftart und Platzierung angeben",
+        "example": "Beispiel:",
+        "exampleText": "\"Poster mit dem Text 'SOMMER-SALE' in fetten roten Buchstaben oben.\""
+      },
+      "reproducibility": {
+        "title": "Verwenden Sie denselben Prompt und Seed-Wert, um identische Ausgaben zu reproduzieren",
+        "description": "Dieses Modell ist speziell für die Generierung lesbaren Texts optimiert, nutzen Sie diese Stärke."
+      }
+    },
+    "notes": {
+      "title": "Hinweise",
+      "description": "Bitte stellen Sie sicher, dass Ihre Prompts den geltenden Inhaltsrichtlinien entsprechen. Wenn ein Fehler auftritt, überprüfen und verfeinern Sie Ihren Prompt, bevor Sie es erneut versuchen."
+    },
+    "useCases": {
+      "title": "Anwendungsfälle",
+      "marketing": {
+        "title": "Marketing-Visuals",
+        "description": "Erzeugen Sie Produktkonzepte, Werbebilder und Social-Media-Inhalte ohne Fotoshootings."
+      },
+      "character": {
+        "title": "Charakterdesign",
+        "description": "Erstellen Sie originelle Charaktere für Spiele, Comics oder Animationsprojekte aus Textbeschreibungen."
+      },
+      "concept": {
+        "title": "Konzeptkunst",
+        "description": "Visualisieren Sie Szenen, Umgebungen und Ideen schnell für kreative Projekte und Präsentationen."
+      },
+      "stock": {
+        "title": "Stockfoto-Alternative",
+        "description": "Erzeugen Sie spezifische Bilder, die Sie benötigen, anstatt durch generische Stock-Bibliotheken zu suchen."
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Häufige Fragen zu Qwen Image 2512",
+      "q1": {
+        "question": "Was ist Qwen Image 2512?",
+        "answer": "Qwen Image 2512 ist Alibabas neuestes Text-zu-Bild-Generierungsmodell aus der Qwen AI-Familie. Es ist speziell für hochwertige Bildgenerierung mit präzisem, lesbarem Text optimiert und ist ideal für Poster, Schilder, Logos, Werbung und Markendesign-Assets."
+      },
+      "q2": {
+        "question": "Was unterscheidet Qwen Image 2512 von anderen Modellen?",
+        "answer": "Qwen Image 2512 zeichnet sich durch die Kombination von starkem natürlichem Sprachverständnis mit branchenführendem Text-Rendering in Bildern aus. Im Gegensatz zu vielen Modellen, die nur visuelle Ästhetik priorisieren, zeichnet es sich durch die Generierung klaren, lesbaren Texts in Bildern aus."
+      },
+      "q3": {
+        "question": "Welche Ausgabeformate werden unterstützt?",
+        "answer": "Qwen Image 2512 unterstützt JPEG (kleinere Dateigröße, ideal für Fotos und Web), PNG (verlustfreie Qualität mit Transparenz, am besten für Bilder mit Text) und WebP (modernes Format mit besserer Kompression und starker Browser-Kompatibilität)."
+      },
+      "q4": {
+        "question": "Kann ich die Bildgröße anpassen?",
+        "answer": "Ja, Qwen Image 2512 unterstützt benutzerdefinierte Breiten- und Höhenparameter und ermöglicht es Ihnen, Bilder zu generieren, die für Social-Media-Formate (1:1, 4:5, 9:16), Präsentationen, Web-Banner und druckfertige Visuals maßgeschneidert sind."
+      },
+      "q5": {
+        "question": "Wie erhalte ich die besten Ergebnisse mit Text in Bildern?",
+        "answer": "Beim Generieren von Text in Bildern geben Sie explizit die genaue Formulierung, Schriftart und Platzierung an. Zum Beispiel: \"Poster mit dem Text 'SOMMER-SALE' in fetten roten Buchstaben oben.\" Dieses Modell ist speziell für die Generierung lesbaren Texts optimiert, nutzen Sie diese Stärke."
+      }
+    },
+    "privacySecurity": {
+      "title": "Datenschutz & Sicherheit",
+      "description": "Ihr Datenschutz und Ihre Sicherheit haben für uns oberste Priorität.",
+      "secureProcessing": "Sichere Verarbeitung",
+      "autoDelete": "Automatisches Löschen",
+      "neverShared": "Niemals geteilt"
+    },
+    "finalCTA": {
+      "title": "Bereit zu erstellen?",
+      "description": "Qwen Image 2512 ist nicht nur ein weiteres Text-zu-Bild-Modell—es ist ein produktionsreifes visuelles Generierungstool, das für reale Design- und Marketing-Workflows entwickelt wurde. Wenn Ihre Projekte klare Typografie, präzise Layouts und starke visuelle Erzählung erfordern, ist Qwen Image 2512 eine der überzeugendsten verfügbaren Optionen.",
+      "button": "Jetzt ausprobieren"
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "textToImage": "Text zu Bild",
+      "qwenImage2512": "Qwen Image 2512"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Qwen Image 2512 Text zu Bild",
+      "howToName": "So generieren Sie Bilder mit Qwen Image 2512",
+      "howToDescription": "Erzeugen Sie Bilder aus Textbeschreibungen mit Qwen Image 2512 mit präzisem, lesbarem Text",
+      "features": {
+        "superiorTextRendering": "Überlegene Textdarstellung",
+        "advancedPromptUnderstanding": "Erweiterte Prompt-Verständnis",
+        "flexibleImageSizing": "Flexible Bildgrößen",
+        "consistentQuality": "Konsistente Qualität über alle Stile"
+      }
+    },
+    "showcase": {
+      "image1": {
+        "alt": "Von Qwen Image 2512 generiertes Poster mit lesbarem Text"
+      },
+      "image2": {
+        "alt": "Von Qwen Image 2512 generiertes mehrsprachiges Hello-Design"
+      },
+      "image3": {
+        "alt": "Von Qwen Image 2512 generierte Bildcollage"
+      }
+    }
+  }
+}

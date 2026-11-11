@@ -1,0 +1,28 @@
+{
+  "media_detail": {
+    "prompt_title": "PROMPT",
+    "copy_button": "کاپی",
+    "copied_button": "کاپی شو!",
+    "show_more": "ټول وګورئ",
+    "show_less": "لږ وښایاست",
+    "information_title": "معلومات",
+    "model_label": "ماډل:",
+    "quality_label": "کیفیت:",
+    "size_label": "اندازه:",
+    "generate_button": "ورته تولید",
+    "video_button": "ویډیو",
+    "download_button": "ډاونلوډ",
+    "upscale_button": "لوی کړئ",
+    "edit_button": "ترمیم",
+    "no_prompt": "هیڅ prompt شتون نلري",
+    "image_alt": "تولید شوی انځور"
+  },
+  "mobile_homepage": {
+    "create_image": "انځور جوړ کړئ",
+    "create_video": "ویډیو جوړ کړئ",
+    "ai_effect": "د AI اغېز",
+    "new_badge": "نوی",
+    "view_all": "ټول وګورئ",
+    "view_more": "نور وګورئ"
+  }
+}

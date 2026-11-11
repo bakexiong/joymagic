@@ -1,0 +1,194 @@
+{
+  "qwenImageLayered": {
+    "steps": {
+      "image": {
+        "title": "图片*",
+        "hint": "提示：您可以拖拽文件或点击上传",
+        "dragDrop": "拖拽或点击上传",
+        "dropHere": "将图片拖放到此处",
+        "urlPlaceholder": "或输入图片 URL",
+        "urlEntered": "已输入 URL"
+      },
+      "numLayers": {
+        "title": "图层数量",
+        "hint": "要分解的图层数量 (1-8)"
+      },
+      "generate": {
+        "title": "生成",
+        "cta": "生成",
+        "generating": "生成中..."
+      }
+    },
+    "preview": {
+      "title": "预览",
+      "original": "原图",
+      "swap": "切换",
+      "placeholder": "上传图片以查看分层分解结果。",
+      "layers": "图层",
+      "noLayers": "尚未生成图层"
+    },
+    "common": {
+      "selected": "已选择: {name}",
+      "notSelected": "未选择",
+      "clear": "清除"
+    },
+    "errors": {
+      "invalidFileType": "无效的文件类型。请上传图片文件 (JPG, PNG, WEBP)。",
+      "uploadFailed": "上传失败: {error}",
+      "uploadFailedGeneric": "上传失败",
+      "imageRequired": "请上传图片或输入图片 URL",
+      "generationFailed": "图片生成失败",
+      "taskFailed": "任务处理失败",
+      "taskTimeout": "任务处理超时，请稍后重试",
+      "taskIdNotFound": "无法获取任务 ID，请检查 API 响应格式",
+      "processingFailed": "处理失败，请重试",
+      "statusQueryFailed": "查询任务状态失败",
+      "apiResponseParseFailed": "解析 API 响应失败"
+    }
+  },
+  "qwenImageLayeredPage": {
+    "metadata": {
+      "title": "AI 图像图层分解工具 | RGBA 图层 | joymagic",
+      "description": "AI 驱动的工具，可将图像分解为可编辑的 RGBA 图层。自动语义分离，带 Alpha 通道，实现无缝照片编辑和设计。"
+    },
+    "hero": {
+      "title": "AI 图像分层分解",
+      "description": "使用 joymagic 的 AI 分层工具自动将任何图像分解为可编辑的 RGBA 图层。完美的语义分离 – 干净的 Alpha 通道、柔和的边缘和正确的遮挡顺序。",
+      "button1": "立即分解为图层",
+      "button2": "免费开始 · 无需信用卡"
+    },
+    "heroDescription": "✓ 高清下载 ✓ 无水印 ✓ 多个图层",
+    "whatIs": {
+      "title": "什么是 AI 图像分层分解？",
+      "description": "joymagic 的 AI 图像分层工具，由先进的 Qwen-Image-Layered 技术驱动，自动分析单个图像并将其分解为多个语义独立的 RGBA 图层（红、绿、蓝 + Alpha 透明度）。",
+      "paragraph1": "与仅提供蒙版的传统分割不同，我们的 AI：",
+      "points": [
+        "理解深度、遮挡和场景结构",
+        "为每个图层生成干净、柔和的 Alpha 通道",
+        "保持正确的图层顺序（前景到背景）",
+        "输出可直接使用的合成图层"
+      ],
+      "paragraph2": "非常适合设计师、插画师、游戏开发者、照片编辑人员以及任何需要对复杂图像进行非破坏性、基于图层控制的人员。"
+    },
+    "howTo": {
+      "title": "如何将图像分解为图层",
+      "description": "只需几个简单步骤，即可使用我们的 AI 分层分解工具创建可编辑的分层合成：",
+      "step1": {
+        "title": "上传您的图像",
+        "description": "拖放或选择您的照片或艺术作品。<br/>支持 JPG、JPEG、PNG、WEBP 格式。<br/><br/><strong>适用于照片、AI 生成的艺术作品、插画和场景</strong>"
+      },
+      "step2": {
+        "title": "设置分解选项",
+        "description": "自定义输出：<br/><br/><strong>图层数量：</strong>选择 2 到 8 个图层（默认：4）<br/><strong>可选提示：</strong>添加指导，如\"分离人物、家具、背景\"以获得更精确的控制"
+      },
+      "step3": {
+        "title": "生成图层",
+        "description": "点击分解 – 我们的 AI 立即分析并将图像分割成分层的 RGBA 输出。<br/><br/><strong>实时预览每个图层</strong>"
+      },
+      "step4": {
+        "title": "预览和下载",
+        "description": "查看具有透明度的各个图层。<br/><br/><strong>下载为单独的 PNG 文件（带 Alpha）</strong><br/><strong>或获取分层 PSD 文件（即将推出）</strong><br/><strong>高清质量，适用于 Photoshop、Procreate 或任何编辑器</strong>"
+      }
+    },
+    "keyFeatures": {
+      "title": "核心功能",
+      "description": "专业级 AI 分层分解，具有智能语义分离。",
+      "semantic": {
+        "title": "语义图层分离",
+        "description": "智能分解为有意义的对象和区域 – 人物、家具、天空、前景、背景等。"
+      },
+      "alpha": {
+        "title": "干净的 Alpha 通道和柔和边缘",
+        "description": "专业级透明度，具有羽化、自然的边缘 – 无硬切或光晕。"
+      },
+      "occlusion": {
+        "title": "正确的遮挡顺序",
+        "description": "图层自动从前到后排序，实现无缝重新合成。"
+      },
+      "adjustable": {
+        "title": "可调整的图层数量",
+        "description": "控制深度：根据图像复杂性和您的需求，2-8 个图层。"
+      },
+      "prompt": {
+        "title": "提示引导控制",
+        "description": "可选的文本提示，专注于特定元素或区域的分离。"
+      },
+      "quality": {
+        "title": "高质量分层输出",
+        "description": "下载单独的透明 PNG 或准备进行高级编辑 – 全高清，保留细节。"
+      }
+    },
+    "useCases": {
+      "title": "您可以使用 joymagic AI 分层分解做什么",
+      "description": "从单个图像解锁无限的分层可能性。",
+      "editing": {
+        "title": "非破坏性照片编辑",
+        "description": "隔离和编辑单个元素（人物、对象、背景），而不影响其余部分。"
+      },
+      "compositing": {
+        "title": "高级合成",
+        "description": "重新排列、重新着色或替换图层，从单个源图像创建新场景。"
+      },
+      "gameAssets": {
+        "title": "游戏和 UI 资产创建",
+        "description": "从概念艺术或照片中提取干净的精灵、角色或环境图层。"
+      },
+      "illustration": {
+        "title": "插画和数字艺术工作流",
+        "description": "将平面图像转换为完全分层的项目，用于进一步绘画或动画。"
+      },
+      "sceneReconstruction": {
+        "title": "场景重建和混音",
+        "description": "通过操作分离的图层来交换背景、移动对象或构建变体。"
+      },
+      "tagline": "一个图像，无限的分层可能性。"
+    },
+    "faq": {
+      "title": "AI 图像分层分解常见问题",
+      "description": "关于我们的 AI 分层分解工具，您需要了解的一切。",
+      "q1": {
+        "question": "支持哪些图像格式？",
+        "answer": "我们支持 JPG、JPEG、PNG 和 WEBP。使用清晰、高分辨率的图像可获得最佳效果。"
+      },
+      "q2": {
+        "question": "我可以生成多少个图层？",
+        "answer": "您可以选择 2 到 8 个图层。更多图层可在复杂场景上提供更精细的分离。"
+      },
+      "q3": {
+        "question": "我的图层会有干净的透明度吗？",
+        "answer": "是的。每个图层都包含专业的柔和边缘 Alpha 通道，用于自然混合。"
+      },
+      "q4": {
+        "question": "我可以用文本引导分解吗？",
+        "answer": "可以 – 添加可选提示以优先处理某些对象或区域（例如，\"专注于人物和桌子\"）。"
+      },
+      "q5": {
+        "question": "有哪些输出格式可用？",
+        "answer": "每个图层都作为单独的透明 PNG 下载。分层 PSD 导出即将推出。"
+      },
+      "q6": {
+        "question": "我的数据安全吗？",
+        "answer": "是的。上传的图像经过安全处理，处理后会自动删除。我们永远不会将您的图像用于训练。"
+      },
+      "q7": {
+        "question": "它适用于 AI 生成或插画图像吗？",
+        "answer": "是的 – 在摄影和艺术风格（包括 AI 艺术）上都有出色的效果。"
+      }
+    },
+    "privacy": {
+      "title": "隐私和安全",
+      "description": "您的图像和隐私是我们的首要任务。",
+      "points": [
+        "所有上传都经过安全处理和加密",
+        "图像在处理后自动删除",
+        "绝不与第三方共享或用于 AI 训练"
+      ]
+    },
+    "finalCTA": {
+      "title": "将任何图像转换为完全可编辑的专业图层。",
+      "description": "立即尝试 joymagic 的 AI 分层分解，在几秒钟内解锁真正的合成控制。",
+      "button": "立即分解为图层",
+      "helperText": "无需注册 · 免费开始 · 无水印下载"
+    }
+  }
+}

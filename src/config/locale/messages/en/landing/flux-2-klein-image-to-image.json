@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Upload source images",
+      "hint": "Upload up to {max} images (JPG/PNG/WEBP). Each image costs 2 credits.",
+      "dragDrop": "Drag & drop or click to upload",
+      "dropHere": "Drop images here"
+    },
+    "prompt": {
+      "title": "Enter transformation prompt",
+      "placeholder": "Describe how you want to transform the images, e.g., 'Change image1 to the comic style', 'Make all images look like watercolor paintings'",
+      "hint": "Be specific about the changes you want to make"
+    },
+    "generate": {
+      "title": "Generate transformed images",
+      "cta": "Generate",
+      "generating": "Generating..."
+    }
+  },
+  "preview": {
+    "title": "Preview",
+    "original": "Original",
+    "swap": "Swap",
+    "placeholder": "Upload images and enter a prompt to see the transformation here."
+  },
+  "common": {
+    "selectedCount": "Selected: {count}/{max} images",
+    "notSelected": "Not selected"
+  },
+  "errors": {
+    "invalidFileType": "Invalid file type. Please upload an image file (JPG, PNG, WEBP).",
+    "uploadFailed": "Upload failed: {error}",
+    "uploadFailedGeneric": "Upload failed",
+    "sourceImageRequired": "Please upload at least one source image",
+    "promptRequired": "Please enter a transformation prompt",
+    "generationFailed": "Image generation failed",
+    "taskFailed": "Task processing failed",
+    "taskTimeout": "Task processing timeout, please try again later",
+    "taskIdNotFound": "Unable to get task ID, please check API response format",
+    "processingFailed": "Processing failed, please try again",
+    "statusQueryFailed": "Failed to query task status",
+    "apiResponseParseFailed": "Failed to parse API response"
+  },
+  "page": {
+    "metadata": {
+      "title": "Flux-2-Klein Image-to-Image AI Tool - Transform Images with AI | joymagic",
+      "description": "Use flux-2-klein image-to-image AI to transform and edit your images. Upload up to 4 images at once and transform them with advanced AI-powered image editing. Fast, high-quality results with flux-2-klein image-to-image technology.",
+      "keywords": "flux-2-klein image-to-image, flux-2-klein image to image, flux-2-klein AI, image transformation AI, AI image editor, flux-2-klein image editing, image-to-image AI tool, flux-2-klein 4b, AI image converter"
+    },
+    "hero": {
+      "title": "Flux-2-Klein Image-to-Image AI - Transform Your Images with AI",
+      "description": "Transform and edit images using flux-2-klein image-to-image AI technology. Upload up to 4 images simultaneously and transform them with advanced AI-powered editing. Experience fast, high-quality image transformations with flux-2-klein image-to-image.",
+      "button1": "Try Flux-2-Klein Image-to-Image",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Why Choose Flux-2-Klein Image-to-Image?",
+      "description": "Discover the powerful features of flux-2-klein image-to-image AI technology",
+      "multiImage": {
+        "title": "Batch Processing with Flux-2-Klein Image-to-Image",
+        "description": "Upload up to 4 images at once with flux-2-klein image-to-image. Process multiple images simultaneously for efficient batch transformations. Fixed cost of 2 credits per transformation."
+      },
+      "highQuality": {
+        "title": "High-Quality Flux-2-Klein Image-to-Image Results",
+        "description": "Get exceptional image quality with flux-2-klein image-to-image AI. Generate high-resolution transformed images with outstanding detail and clarity."
+      },
+      "styleFlexibility": {
+        "title": "Versatile Style Transformation",
+        "description": "Transform images in various styles using flux-2-klein image-to-image - photorealistic, artistic, abstract, and more. Full control with detailed prompts."
+      },
+      "affordable": {
+        "title": "Affordable Flux-2-Klein Image-to-Image Pricing",
+        "description": "Cost-effective flux-2-klein image-to-image transformations. Fixed 2 credits per transformation, making it affordable for any project size."
+      }
+    },
+    "promptingTips": {
+      "title": "How to Get Best Results with Flux-2-Klein Image-to-Image",
+      "specific": {
+        "title": "Be Specific in Your Prompts",
+        "description": "For optimal flux-2-klein image-to-image results, describe exactly what transformation you want. Examples: \"Change to comic style\" or \"Make it look like a watercolor painting\"."
+      },
+      "style": {
+        "title": "Specify Artistic Style",
+        "description": "When using flux-2-klein image-to-image, mention the artistic style you want: \"comic book style\", \"oil painting\", \"digital art\", etc."
+      },
+      "color": {
+        "title": "Color and Mood Settings",
+        "description": "Enhance your flux-2-klein image-to-image transformations by describing color schemes and mood: \"vibrant colors\", \"muted tones\", \"dark and moody\", etc."
+      },
+      "details": {
+        "title": "Add Detailed Instructions",
+        "description": "Maximize flux-2-klein image-to-image quality by including details about lighting, composition, and specific elements you want to preserve or change."
+      }
+    },
+    "useCases": {
+      "title": "Flux-2-Klein Image-to-Image Use Cases",
+      "style": {
+        "title": "Artistic Style Transformation",
+        "description": "Use flux-2-klein image-to-image to transform photos into different artistic styles - comic, watercolor, oil painting, and more. Perfect for creative projects."
+      },
+      "batch": {
+        "title": "Batch Image Processing",
+        "description": "Leverage flux-2-klein image-to-image batch processing to transform up to 4 images simultaneously with consistent style for professional workflows."
+      },
+      "product": {
+        "title": "Product Photography Enhancement",
+        "description": "Transform product photos with flux-2-klein image-to-image for marketing materials and social media. Create multiple style variations quickly."
+      },
+      "creative": {
+        "title": "Creative Design Projects",
+        "description": "Experiment with flux-2-klein image-to-image for creative projects. Try different artistic styles and transformations to find the perfect look."
+      }
+    },
+    "faq": {
+      "title": "Flux-2-Klein Image-to-Image FAQ",
+      "description": "Frequently asked questions about flux-2-klein image-to-image AI tool",
+      "q1": {
+        "question": "How many images can I upload with flux-2-klein image-to-image?",
+        "answer": "With flux-2-klein image-to-image, you can upload up to 4 images at once for batch processing. Each transformation costs 2 credits."
+      },
+      "q2": {
+        "question": "How much does flux-2-klein image-to-image cost?",
+        "answer": "Flux-2-klein image-to-image transformations cost 2 credits per transformation, regardless of the number of images uploaded. This fixed pricing makes it affordable for any project."
+      },
+      "q3": {
+        "question": "What image formats does flux-2-klein image-to-image support?",
+        "answer": "Flux-2-klein image-to-image supports PNG, JPEG, JPG, and WebP formats. Ensure your images are clear and well-lit for optimal flux-2-klein image-to-image results."
+      },
+      "q4": {
+        "question": "How should I write prompts for flux-2-klein image-to-image?",
+        "answer": "For best results with flux-2-klein image-to-image, include detailed descriptions: subject, setting, lighting, style, mood, and composition. More detail typically produces better flux-2-klein image-to-image transformations."
+      },
+      "q5": {
+        "question": "Can I use the same prompt for multiple images with flux-2-klein image-to-image?",
+        "answer": "Yes, flux-2-klein image-to-image allows you to use the same prompt for all uploaded images. Each image will be transformed according to your prompt description using flux-2-klein image-to-image technology."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Try Flux-2-Klein Image-to-Image?",
+      "description": "Start transforming your images with flux-2-klein image-to-image AI today. Experience fast, high-quality image transformations.",
+      "button": "Try Flux-2-Klein Image-to-Image Now"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "imageToImage": "Image to Image",
+      "flux2Klein": "Flux 2 Klein"
+    },
+    "schema": {
+      "softwareName": "Flux-2-Klein Image-to-Image AI Tool by joymagic",
+      "howToName": "How to Use Flux-2-Klein Image-to-Image AI",
+      "howToDescription": "Learn how to transform images using flux-2-klein image-to-image AI technology. Upload images and transform them with AI-powered editing.",
+      "features": {
+        "aiImageEditing": "Flux-2-Klein Image-to-Image AI Editing",
+        "multiImage": "Batch Processing with Flux-2-Klein Image-to-Image",
+        "highQuality": "High-Quality Flux-2-Klein Image-to-Image Output"
+      }
+    }
+  }
+}

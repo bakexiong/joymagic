@@ -1,0 +1,46 @@
+{
+  "primary": {
+    "home": "Home",
+    "infiniteCanvas": "Infinite Canvas",
+    "image": "Image",
+    "video": "Video",
+    "effects": "Effects"
+  },
+  "imageTools": {
+    "Editor & Combiner": "Editor & Combiner",
+    "Image to Image": "Image to Image",
+    "Text to Image": "Text to Image",
+    "PhotoShoot": "PhotoShoot",
+    "Variations": "Variations",
+    "Face Generator": "Face Generator",
+    "Image Upscaler": "Image Upscaler",
+    "Background Remover": "Background Remover",
+    "Image Eraser": "Image Eraser",
+    "Image Effects": "Image Effects"
+  },
+  "videoTools": {
+    "Image to Video": "Image to Video",
+    "Text to Video": "Text to Video",
+    "Longcat Avatar": "Lip-Sync",
+    "Reference To Video": "Reference To Video",
+    "Video Extend": "Video Extend",
+    "Motion Control": "Motion Control",
+    "Video Effects": "Video Effects"
+  },
+  "library": {
+    "title": "Library",
+    "assets": "Assets",
+    "creations": "Creations",
+    "uploads": "Uploads",
+    "collections": "Collections"
+  },
+  "creationTypes": {
+    "Video": "Video",
+    "Image": "Image",
+    "Audio": "Audio",
+    "Effect": "Effect"
+  },
+  "badges": {
+    "beta": "Beta"
+  }
+}

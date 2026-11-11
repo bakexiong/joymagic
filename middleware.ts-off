@@ -1,0 +1,21 @@
+import { NextRequest, NextResponse } from 'next/server';
+
+const LOCAL_HOSTS = new Set(['localhost', '127.0.0.1', '::1', '[::1]']);
+
+export function middleware(request: NextRequest) {
+  const { pathname, hostname } = request.nextUrl;
+
+  // Lock down /test routes to local development only
+  if (pathname.startsWith('/test') && !LOCAL_HOSTS.has(hostname)) {
+    return NextResponse.json(
+      { code: -1, message: 'This route is only available from localhost' },
+      { status: 403 }
+    );
+  }
+
+  return NextResponse.next();
+}
+
+export const config = {
+  matcher: ['/test/:path*'],
+};

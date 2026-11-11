@@ -1,0 +1,246 @@
+{
+  "imageEraser": {
+    "id": "image-eraser",
+    "title": "Image Eraser AI by joymagic",
+    "description": "Remove unwanted objects, watermarks, and backgrounds from images with AI precision.",
+    "steps": {
+      "sourceImage": {
+        "title": "Upload source image",
+        "hint": "Upload image here JPG/PNG/WEBP",
+        "dragDrop": "Drag & drop or click to upload",
+        "dropHere": "Drop image here"
+      },
+      "maskImage": {
+        "title": "Upload mask image (Optional)",
+        "hint": "Upload a mask image to specify areas to erase. White areas will be erased, black areas will be kept.",
+        "dragDrop": "Drag & drop or click to upload",
+        "dropHere": "Drop mask image here"
+      },
+      "prompt": {
+        "title": "Enter prompt (Optional)",
+        "placeholder": "Describe what you want to erase, e.g., 'remove the person in the background', 'erase the watermark', 'remove the text'",
+        "hint": "The text prompt for specifying the objects or areas to be removed from the image. For example, 'dog' or 'hat'."
+      },
+      "outputFormat": {
+        "title": "Output format",
+        "placeholder": "Select output format",
+        "hint": "Choose the format for the output image"
+      },
+      "generate": {
+        "title": "Generate erased image",
+        "cta": "Erase",
+        "generating": "Erasing..."
+      }
+    },
+    "preview": {
+      "title": "Preview",
+      "original": "Original",
+      "erased": "Erased",
+      "placeholder": "Upload an image to see the erased result here."
+    },
+    "common": {
+      "selected": "Selected: {name}",
+      "notSelected": "Not selected"
+    },
+    "errors": {
+      "invalidFileType": "Invalid file type. Please upload an image file (JPG, PNG, WEBP).",
+      "uploadFailed": "Upload failed: {error}",
+      "uploadFailedGeneric": "Upload failed",
+      "sourceImageRequired": "Please upload a source image first",
+      "generationFailed": "Image erasing failed",
+      "taskFailed": "Task processing failed",
+      "taskTimeout": "Task processing timeout, please try again later",
+      "taskIdNotFound": "Unable to get task ID, please check API response format",
+      "processingFailed": "Processing failed, please try again",
+      "statusQueryFailed": "Failed to query task status",
+      "apiResponseParseFailed": "Failed to parse API response",
+      "downloadFailed": "Failed to download image"
+    },
+    "download": {
+      "title": "Download image"
+    },
+    "alt": {
+      "sourcePreview": "Source preview",
+      "maskPreview": "Mask preview",
+      "enlargedPreview": "Enlarged preview",
+      "source": "Source",
+      "generated": "Generated"
+    }
+  },
+  "imageEraserPage": {
+    "metadata": {
+      "title": "AI Image Eraser | Remove Objects from Photos | joymagic",
+      "description": "Erase unwanted objects, people, or text from photos instantly. AI-powered image eraser with simple brush interface. Free, no watermark, HD download ready.",
+      "keywords": "AI object remover, photo eraser, remove unwanted objects, image cleanup, inpainting, photo retouching"
+    },
+    "hero": {
+      "title": "AI Image Eraser",
+      "description": "Remove unwanted objects from photos online for free with joymagic's AI image eraser. Just brush over what you don't want – gone in seconds.",
+      "button1": "Remove Objects Now",
+      "button2": "Start free · No credit card"
+    },
+    "heroDescription": "✓ HD Download ✓ No watermark ✓ Batch support",
+    "whatIsAIEraser": {
+      "title": "What is AI Image Eraser?",
+      "description": "joymagic's AI Image Eraser (also called Magic Eraser or Object Remover) uses powerful AI to intelligently detect and remove unwanted objects, people, text, watermarks, or blemishes from your photos while seamlessly filling the area with matching background.",
+      "unlikeTraditional": "Unlike traditional cloning or healing tools that require precise manual work, our AI:",
+      "understandContext": "Understands scene context and texture",
+      "generateRealistic": "Generates realistic fill that blends perfectly",
+      "handleComplex": "Handles complex backgrounds like grass, sky, walls, or crowds",
+      "simpleBrush": "Works with a simple brush or click",
+      "perfectFor": "Perfect for cleaning up travel photos, product images, portraits, real estate shots, social media content, and more."
+    },
+    "interfaceFeatures": {
+      "title": "On a single, clean interface you get:",
+      "uploadArea": "A drag-and-drop upload area for your source image",
+      "maskArea": "An optional mask image upload to specify exact areas to erase",
+      "promptBox": "An optional prompt box to describe what you want to remove",
+      "formatSelect": "Output format selection (JPEG, PNG, WebP)",
+      "generateButton": "A single Erase button to remove unwanted elements from your image"
+    },
+    "whatYouCanDo": {
+      "title": "What You Can Do With joymagic AI Image Eraser",
+      "description": "One brush, endless clean possibilities.",
+      "travelPhotos": {
+        "title": "Clean Up Travel & Vacation Photos",
+        "description": "<p class=\"mb-3\">Remove photobombers, strangers, signs, or trash from your perfect shots.</p>"
+      },
+      "productPhotography": {
+        "title": "Perfect Product Photography",
+        "description": "<p class=\"mb-3\">Erase dust, reflections, price tags, or unwanted props from e-commerce images.</p>"
+      },
+      "portraits": {
+        "title": "Enhance Portraits & Selfies",
+        "description": "<p class=\"mb-3\">Remove blemishes, stray hair, background distractions, or ex-partners effortlessly.</p>"
+      },
+      "realEstate": {
+        "title": "Prepare Real Estate & Interior Photos",
+        "description": "<p class=\"mb-3\">Delete furniture, clutter, or personal items to stage listings professionally.</p>"
+      },
+      "socialMedia": {
+        "title": "Create Clean Social Media Content",
+        "description": "<p class=\"mb-3\">Remove watermarks, text overlays, or distracting elements for polished posts and stories.</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Powerful AI image erasing capabilities built for speed and quality.",
+      "smartRemoval": {
+        "title": "Smart One-Touch Removal",
+        "description": "<p class=\"mb-3\">Brush once – AI understands what to remove and fills naturally. Handles people, objects, text, logos, and more.</p>"
+      },
+      "realisticInpainting": {
+        "title": "Realistic Inpainting Technology",
+        "description": "<p class=\"mb-3\">Advanced generative AI recreates backgrounds perfectly, even on complex patterns like beaches, cities, or fabrics.</p>"
+      },
+      "fastPrecise": {
+        "title": "Fast & Precise Editing",
+        "description": "<p class=\"mb-3\">Results in seconds with real-time preview. No lag, no waiting.</p>"
+      },
+      "batchRemoval": {
+        "title": "Batch Object Removal",
+        "description": "<p class=\"mb-3\">Upload multiple images and clean them all at once – ideal for photo batches or product catalogs.</p>"
+      },
+      "cleanOutput": {
+        "title": "Clean Professional Output",
+        "description": "<p class=\"mb-3\">No watermarks, no artifacts – full HD downloads every time.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "How to Remove Unwanted Objects from Photos",
+      "description": "Erase anything from your images with our free AI image eraser in just a few simple steps:",
+      "step1": {
+        "title": "1. Upload your image",
+        "description": "<p class=\"mb-3\">Drag and drop or select your photo. Supports JPG, JPEG, PNG, WEBP, and HEIC formats.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Works with landscapes, portraits, product shots, and more</li></ul>"
+      },
+      "step2": {
+        "title": "2. Brush or click on unwanted objects",
+        "description": "<p class=\"mb-3\">Simply paint over the object, person, text, or blemish you want to remove.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Adjust brush size for precision</li><li>Our AI automatically detects and selects the area</li></ul>"
+      },
+      "step3": {
+        "title": "3. Let AI erase and fill",
+        "description": "<p class=\"mb-3\">Click Remove – the AI instantly erases the selection and intelligently fills the space with matching surroundings.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Preview the result in real time</li><li>Undo or redo as needed</li></ul>"
+      },
+      "step4": {
+        "title": "4. Refine and download",
+        "description": "<p class=\"mb-3\">Fine-tune if desired:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Re-brush missed spots</li><li>Restore accidentally removed areas</li></ul><p class=\"mb-3\">Download your clean, high-quality image – ready to use.</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "Why joymagic vs Other Image Eraser Tools",
+      "description": "Built specifically for AI-powered image erasing, not just a basic tool.",
+      "focused": {
+        "title": "Focused on AI Image Erasing",
+        "description": "<p class=\"mb-3\">Many tools offer basic erasing features. joymagic is different—it's built with advanced AI:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Smart detection of what to remove</li><li>Context-aware filling of erased areas</li><li>Results tuned specifically for seamless object removal</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "Made for Fast Daily Workflows",
+        "description": "Designed for creators who need to clean up multiple images per day. Fewer steps, cleaner UI, no maze of menus. Quickly process batches of images."
+      },
+      "pricing": {
+        "title": "Pricing That Scales With You",
+        "description": "A clear free tier so you can test image erasing with no risk. A simple paid plan for power users and teams who need higher limits. Transparent usage — pay for what you actually use."
+      },
+      "commercialUse": {
+        "title": "Safe for Commercial Use",
+        "description": "You own the images you generate with joymagic, as long as you have the rights to the original images you upload. Generated images can be used for commercial projects such as campaigns, client work, and ecommerce listings."
+      }
+    },
+    "perfectFor": {
+      "title": "Who joymagic Is Perfect For",
+      "description": "Built for creators, brands, and designers who need clean, professional images.",
+      "photographers": {
+        "title": "Photographers & Creators",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up photos before publishing</li><li>Remove unwanted elements from shots</li><li>Prepare images for portfolios and galleries</li><li>Remove watermarks from your own work</li></ul><p class=\"text-sm text-muted-foreground italic\">Enhance your photography with AI-powered editing.</p>"
+      },
+      "ecommerce": {
+        "title": "Ecommerce & Small Brands",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up product photos</li><li>Remove distracting backgrounds</li><li>Remove watermarks and logos from stock images (with permission)</li><li>Prepare images for product listings</li></ul><p class=\"text-sm text-muted-foreground italic\">Get professional product photos without expensive editing.</p>"
+      },
+      "designers": {
+        "title": "Designers & Agencies",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Quickly clean up images for client projects</li><li>Remove unwanted elements from mockups</li><li>Prepare images for presentations and proposals</li><li>Save time on manual editing tasks</li></ul><p class=\"text-sm text-muted-foreground italic\">joymagic fits neatly into your existing design workflow.</p>"
+      }
+    },
+    "faq": {
+      "title": "AI Image Eraser FAQs",
+      "description": "Common questions about our AI image eraser.",
+      "q1": {
+        "question": "What image formats are supported?",
+        "answer": "We support JPG, JPEG, PNG, WEBP, and HEIC. Best results with clear, high-quality images."
+      },
+      "q2": {
+        "question": "Will my edited images have a watermark?",
+        "answer": "No. All downloads are clean and watermark-free."
+      },
+      "q3": {
+        "question": "How good is it at complex removals?",
+        "answer": "Our AI excels at large objects, people in crowds, and textured backgrounds. For ultra-fine details, use smaller brush strokes."
+      },
+      "q4": {
+        "question": "Can I remove multiple objects from one image?",
+        "answer": "Yes – brush over as many areas as needed before generating."
+      },
+      "q5": {
+        "question": "Can I process multiple images at once?",
+        "answer": "Yes – batch mode lets you upload and erase objects from several photos in one session."
+      },
+      "q6": {
+        "question": "Is my data safe?",
+        "answer": "Yes. Uploaded images are processed securely and automatically deleted after processing. We never use them for training."
+      }
+    },
+    "privacySecurity": {
+      "title": "Privacy & Security",
+      "description": "Your images and privacy are our priority.",
+      "secureProcessing": "All uploads are processed securely and encrypted",
+      "autoDelete": "Images are automatically deleted after processing",
+      "neverShared": "Never shared with third parties or used for AI training"
+    },
+    "finalCTA": {
+      "title": "Turn cluttered photos into clean, stunning visuals.",
+      "description": "Try joymagic's AI Image Eraser now and remove anything unwanted in seconds.<br/><span class=\"text-muted-foreground\">No design skills needed · Free to try</span>",
+      "button": "Remove Objects Now"
+    }
+  }
+}

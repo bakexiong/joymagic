@@ -1,0 +1,158 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Upload source image",
+      "hint": "Upload one image (JPG/PNG/WEBP).",
+      "dragDrop": "Drag & drop or click to upload",
+      "dropHere": "Drop image here"
+    },
+    "prompt": {
+      "title": "Enter transformation prompt",
+      "placeholder": "Describe how you want to transform the image, e.g., 'Change to comic style', 'Make it look like a watercolor painting'",
+      "hint": "Be specific about the changes you want to make"
+    },
+    "options": {
+      "size": "Size (aspect ratio)",
+      "strength": "Strength",
+      "outputFormat": "Output format"
+    },
+    "generate": {
+      "title": "Generate transformed image",
+      "cta": "Generate",
+      "generating": "Generating..."
+    }
+  },
+  "preview": {
+    "title": "Preview",
+    "placeholder": "Upload an image and enter a prompt to see the transformation here."
+  },
+  "errors": {
+    "invalidFileType": "Invalid file type. Please upload an image file (JPG, PNG, WEBP).",
+    "uploadFailed": "Upload failed: {error}",
+    "uploadFailedGeneric": "Upload failed",
+    "sourceImageRequired": "Please upload a source image",
+    "promptRequired": "Please enter a transformation prompt",
+    "generationFailed": "Image generation failed",
+    "taskFailed": "Task processing failed",
+    "taskTimeout": "Task processing timeout, please try again later",
+    "taskIdNotFound": "Unable to get task ID, please check API response format",
+    "processingFailed": "Processing failed, please try again",
+    "statusQueryFailed": "Failed to query task status",
+    "apiResponseParseFailed": "Failed to parse API response"
+  },
+  "page": {
+    "metadata": {
+      "title": "Z Image Turbo Image-to-Image - AI Image Editor | joymagic",
+      "description": "Transform images with Z Image Turbo. Single image upload with size, strength and output format controls.",
+      "keywords": "joymagic turbo image-to-image, joymagic turbo, image editing, ai image editor, image transformation"
+    },
+    "hero": {
+      "title": "Z Image Turbo Image-to-Image",
+      "description": "Transform images with Z Image Turbo image-to-image. Upload one image and control size (1:1, 16:9, 9:16, etc.), strength and output format.",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "description": "Powerful Z Image Turbo image-to-image capabilities",
+      "singleImage": {
+        "title": "Single Image Upload",
+        "description": "Upload one image and transform it with full control over size, strength and output format."
+      },
+      "sizeControl": {
+        "title": "Size & Aspect Ratio",
+        "description": "Choose from 1:1, 16:9, 9:16, 4:3, 3:4, 3:2, 2:3. Width and height from 256 to 1536, default 1024."
+      },
+      "strength": {
+        "title": "Strength Control",
+        "description": "Adjust strength from 0 to 1 to control how much the image is transformed."
+      },
+      "outputFormat": {
+        "title": "Output Format",
+        "description": "Export as JPEG, PNG or WebP to match your workflow."
+      }
+    },
+    "promptingTips": {
+      "title": "How to Get Best Results with Z Image Turbo Image-to-Image",
+      "specific": {
+        "title": "Be Specific",
+        "description": "Describe exactly what transformation you want. For example: \"Change to comic style\" or \"Make it look like a watercolor painting\"."
+      },
+      "style": {
+        "title": "Specify Style",
+        "description": "Mention the artistic style you want: \"comic book style\", \"oil painting\", \"digital art\", etc."
+      },
+      "color": {
+        "title": "Color and Mood",
+        "description": "Describe color schemes and mood: \"vibrant colors\", \"muted tones\", \"dark and moody\", etc."
+      },
+      "details": {
+        "title": "Add Details",
+        "description": "Include details about lighting, composition, and any specific elements you want to preserve or change."
+      }
+    },
+    "useCases": {
+      "title": "Z Image Turbo Image-to-Image Use Cases",
+      "style": {
+        "title": "Style Transformation",
+        "description": "Transform photos into different artistic styles - comic, watercolor, oil painting, and more."
+      },
+      "aspectRatio": {
+        "title": "Aspect Ratio & Size",
+        "description": "Output in 1:1, 16:9, 9:16, 4:3, 3:4, 3:2 or 2:3 with full control over dimensions."
+      },
+      "product": {
+        "title": "Product Photography",
+        "description": "Transform product photos for marketing and social media with strength and format control."
+      },
+      "creative": {
+        "title": "Creative Projects",
+        "description": "Experiment with strength and aspect ratios for creative image transformations."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Common questions about Z Image Turbo Image-to-Image",
+      "q1": {
+        "question": "How many images can I upload?",
+        "answer": "Z Image Turbo processes one image at a time. Upload your image, set size and strength, then generate."
+      },
+      "q2": {
+        "question": "How much does it cost?",
+        "answer": "Each transformation uses a fixed number of credits. Check the generate button for the current cost."
+      },
+      "q3": {
+        "question": "What image formats are supported?",
+        "answer": "We support PNG, JPEG, JPG, and WebP for input. Output can be JPEG, PNG or WebP."
+      },
+      "q4": {
+        "question": "How detailed should my prompt be?",
+        "answer": "More detail generally means better results. Include subject, setting, lighting, style and what you want to preserve or change."
+      },
+      "q5": {
+        "question": "What does strength do?",
+        "answer": "Strength (0–1) controls how much the image changes. Lower values keep more of the original; higher values allow more transformation."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Transform Your Image?",
+      "description": "Start transforming with Z Image Turbo today.",
+      "button": "Try It Now"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "imageToImage": "Image to Image",
+      "zImageTurbo": "Z Image Turbo"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Z Image Turbo Image to Image",
+      "howToName": "How to Transform Images with Z Image Turbo",
+      "howToDescription": "Transform images using Z Image Turbo image-to-image",
+      "features": {
+        "aiImageEditing": "AI Image Editing",
+        "sizeControl": "Size & Aspect Ratio Control",
+        "highQuality": "High Quality Output"
+      }
+    }
+  }
+}

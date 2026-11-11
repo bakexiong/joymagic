@@ -1,0 +1,245 @@
+{
+  "header": {
+    "title": "クリエイティブカテゴリを探索",
+    "subtitle": "作成、編集、発想に必要なツールをまとめました。"
+  },
+  "common": {
+    "prompt": "プロンプト",
+    "before": "前",
+    "after": "後",
+    "image": "画像",
+    "video": "動画",
+    "freeTrial": "無料トライアル"
+  },
+  "cards": {
+    "imageToVideo": {
+      "title": "画像から動画",
+      "description": "画像を動画アニメーションに変換",
+      "inputAlt": "画像から動画の入力",
+      "outputTitle": "画像から動画の出力"
+    },
+    "textToVideo": {
+      "title": "テキストから動画",
+      "description": "テキストプロンプトから動画を作成"
+    },
+    "longcatAvatar": {
+      "title": "Lip-Sync",
+      "description": "画像と音声から話すアバター動画を作成",
+      "inputAlt": "Longcat Avatar の画像入力",
+      "outputAlt": "Longcat Avatar の動画出力"
+    },
+    "editorCombiner": {
+      "title": "編集と合成",
+      "description": "編集、合成、作成をひとつに",
+      "referencePortraitAlt": "編集用参照ポートレート",
+      "referenceProductAlt": "編集用参照商品",
+      "outputAlt": "編集合成の出力"
+    },
+    "imageToImage": {
+      "title": "画像から画像",
+      "description": "AIで画像を変換"
+    },
+    "textToImage": {
+      "title": "テキストから画像",
+      "description": "テキストプロンプトから画像を生成"
+    },
+    "photoShoot": {
+      "title": "フォトシュート",
+      "description": "あらゆるスタイルのAIフォトシュート",
+      "coverAlt": "フォトシュートのカバー",
+      "coverBadge": "カバー",
+      "scenesBadge": "シーン"
+    },
+    "variations": {
+      "title": "バリエーション",
+      "description": "どんな画像からでもバリエーションを作成",
+      "inputAlt": "バリエーション入力",
+      "inputBadge": "入力",
+      "outputBadge": "出力"
+    },
+    "faceGenerator": {
+      "title": "顔生成",
+      "description": "リアルな顔を生成"
+    },
+    "imageUpscaler": {
+      "title": "画像アップスケーラー",
+      "description": "画像解像度を向上",
+      "beforeAlt": "アップスケール前",
+      "afterAlt": "アップスケール後",
+      "lowRes": "低解像度",
+      "enhanced": "強化済み"
+    },
+    "videoUpscaler": {
+      "title": "動画アップスケーラー",
+      "description": "動画品質を向上",
+      "hd": "HD",
+      "ultraHd": "Ultra HD"
+    },
+    "imageEffects": {
+      "title": "画像エフェクト",
+      "description": "画像に印象的なエフェクトを適用",
+      "chips": {
+        "original": "オリジナル",
+        "filmLook": "フィルム風",
+        "goldenHour": "ゴールデンアワー",
+        "blackWhite": "白黒"
+      }
+    },
+    "videoEffects": {
+      "title": "動画エフェクト",
+      "description": "動画にシネマティックな効果を追加",
+      "chips": {
+        "cinematic": "シネマティック",
+        "slowMotion": "スローモーション",
+        "lightLeak": "ライトリーク",
+        "vintage": "ヴィンテージ"
+      }
+    }
+  },
+  "mangoHomepage": {
+    "eyebrow": "AI 画像、ビデオ、エフェクトを 1 つの制作システムで",
+    "heroDescription": "プロジェクトにすでに組み込まれている実際のツールを参照します。以下の各カードは、現在の製品ライブラリまたはホームページのショーケースからソースされたメディアを使用して、作業ツールのエントリを直接示しています。",
+    "tabs": {
+      "video-tools": {
+        "label": "ビデオツール",
+        "description": "プロンプトベースの生成から画像アニメーションや再利用可能なエフェクト テンプレートまで、プロジェクトの主要なビデオ ワークフローをプレビューします。"
+      },
+      "image-tools": {
+        "label": "画像ツール",
+        "description": "ユーザーが最も頻繁に必要とする核となる画像ワークフローから始めます。つまり、生成、スタイル変更、拡大、背景の削除、邪魔なものの消去です。"
+      },
+      "image-effects": {
+        "label": "画像効果",
+        "description": "ポートレートや写真をワンステップでテーマのあるアートワークに変えることができる、すぐに使えるビジュアル スタイルを探索してください。"
+      }
+    },
+    "sections": {
+      "imageEffects": {
+        "eyebrow": "画像効果",
+        "title": "現在のライブラリからのその他の画像効果の例"
+      },
+      "videoEffects": {
+        "eyebrow": "ビデオエフェクト",
+        "title": "現在のライブラリからのビデオエフェクトの例をさらに追加"
+      },
+      "popularPaths": {
+        "eyebrow": "人気のある道",
+        "title": "ユーザーが今すぐ入力できるその他のツール サーフェスを参照する"
+      }
+    },
+    "cta": {
+      "title": "ホームページから開始し、実際のワークベンチで続行します",
+      "description": "現在の製品構造を離れることなく、ディスカバリーから画像生成、ビデオ生成、またはエフェクトのワークフローに移行できます。",
+      "openImageWorkspace": "画像ワークスペースを開く",
+      "openVideoWorkspace": "ビデオワークスペースを開く"
+    },
+    "cards": {
+      "openTool": "ツールを開く",
+      "aiVideoGenerator": {
+        "title": "AIビデオジェネレーター",
+        "description": "短いシーン、広告コンセプト、ムード リール、キャラクターのモーション アイデアのテキスト プロンプトからビデオを生成します。"
+      },
+      "imageToVideo": {
+        "title": "画像からビデオへ",
+        "description": "1 つの画像をポートレート、製品発表、雰囲気重視のクリップなどの動きのあるショットに変換します。"
+      },
+      "videoEffects": {
+        "title": "ビデオエフェクト",
+        "description": "ビデオ エフェクト ライブラリを開いて、既製のモーション テンプレートと様式化された映画のようなアクションを適用します。"
+      },
+      "fashionStride": {
+        "title": "ファッションストライド",
+        "description": "ランウェイ スタイルのモーション エフェクトは、静止画をファッションに焦点を当てた自信に満ちたクリップに変えるのに役立ちます。"
+      },
+      "dreamyWedding": {
+        "title": "夢のようなウェディング",
+        "description": "結婚式のビジュアル、カップルの瞬間、記憶に基づいた編集のために構築されたロマンチックなモーション スタイル。"
+      },
+      "walkForward": {
+        "title": "前に歩いてください",
+        "description": "自然な前歩きモーションを追加すると、入場、リビール、ダイナミックなカバー ショットに効果的です。"
+      },
+      "aiImageGenerator": {
+        "title": "AI画像生成器",
+        "description": "テキストからポスター、キャラクターコンセプト、製品ビジュアル、ソーシャルカバー用の画像を生成します。"
+      },
+      "imageToImage": {
+        "title": "画像から画像へ",
+        "description": "衣装の変更、シーンの更新、洗練されたビジュアルのアップグレードのために、アップロードされた画像のスタイルを変更または再描画します。"
+      },
+      "imageUpscaler": {
+        "title": "イメージアップスケーラー",
+        "description": "解像度を高め、ポートレート、製品写真、低品質のソース画像の詳細をより詳細に復元します。"
+      },
+      "backgroundRemover": {
+        "title": "背景除去剤",
+        "description": "製品の切り抜き、プロフィール アセット、透明な PNG エクスポートの背景をワンクリックで削除します。"
+      },
+      "imageEraser": {
+        "title": "画像消しゴム",
+        "description": "不要な人物、物体、汚れを消去し、きれいになった領域を AI で自然に塗りつぶします。"
+      },
+      "imageEffects": {
+        "title": "画像効果",
+        "description": "画像効果コレクションを参照して、写真をさまざまな視覚スタイルやテーマにすばやく変換します。"
+      },
+      "aiGhibliEffect": {
+        "title": "AI ジブリ効果",
+        "description": "ポートレートを、ジブリのような温かい雰囲気を持つ、絵本のような柔らかいアニメアートワークに変換します。"
+      },
+      "springBarbiecore": {
+        "title": "スプリングバービーコア",
+        "description": "ポートレートを明るいピンクのスタイリングと遊び心のあるファッション エネルギーで再構築し、大胆なトレンドを先取りしたルックを実現します。"
+      },
+      "softSpringHaze": {
+        "title": "柔らかな春の霞",
+        "description": "ライフスタイルのポートレート、柔らかいエディトリアル、表紙の画像に適した、穏やかな春のもやを追加します。"
+      },
+      "provenceSummerGirl": {
+        "title": "プロヴァンスの夏の少女",
+        "description": "軽やかで旅行にインスピレーションを得た、軽く編集的な感じの、フランスの夏のポートレートの雰囲気を作り出します。"
+      },
+      "roseBokeh": {
+        "title": "バラのボケ味",
+        "description": "ロマンチックな花のボケ味をポートレートに重ねて、お祝いのビジュアル、挨拶の画像、ムードたっぷりの編集を実現します。"
+      },
+      "ccdStyleSnow": {
+        "title": "CCDスタイルスノー",
+        "description": "ノスタルジックな CCD 雪景色カメラの外観をシミュレートして、季節の写真やレトロなビジュアル ストーリーテリングを実現します。"
+      },
+      "y2kTrendCollage": {
+        "title": "Y2K トレンド コラージュ",
+        "description": "ソーシャル カード、トレンド キャンペーン、遊び心のあるカバー用に、ポートレートを Y2K コラージュ ポスターの美学で包みます。"
+      },
+      "y2kCyberCollage": {
+        "title": "Y2K サイバーコラージュ",
+        "description": "より未来を見据えたトレンドのエネルギーが必要なポートレートには、サイバー スタイルとコラージュ フレームを組み合わせます。"
+      },
+      "miniMe": {
+        "title": "ミニミー",
+        "description": "人間をおもちゃのようなミニチュアにして、アバター、グッズ風のグラフィック、遊び心のあるコンテンツを作成します。"
+      },
+      "ghibliMotion": {
+        "title": "ジブリモーション",
+        "description": "ストーリー主導のクリップや映画のような雰囲気のシーケンスに、ジブリのようなアニメーション モーション処理を適用します。"
+      },
+      "starCarpet": {
+        "title": "スターカーペット",
+        "description": "ハイライトの瞬間、ステージ入場、セレブスタイルのプレゼンテーションで、レッド カーペットに到着したような雰囲気を作り出します。"
+      },
+      "blueprintSupreme": {
+        "title": "ブループリント スプリーム",
+        "description": "デザイン主導のショーケース、抽象的な発表、様式化されたモーション作品には、より概念的なビデオ効果を使用します。"
+      },
+      "createImage": {
+        "title": "画像の作成"
+      },
+      "createVideo": {
+        "title": "ビデオの作成"
+      },
+      "showcases": {
+        "title": "ショーケース"
+      }
+    }
+  }
+}

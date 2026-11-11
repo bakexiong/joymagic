@@ -1,0 +1,159 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Carica immagini di origine",
+      "hint": "Carica fino a {max} immagini (JPG/PNG/WEBP).",
+      "dragDrop": "Trascina e rilascia o clicca per caricare",
+      "dropHere": "Rilascia le immagini qui"
+    },
+    "prompt": {
+      "title": "Inserisci il prompt di trasformazione",
+      "placeholder": "Descrivi come vuoi trasformare le immagini",
+      "hint": "Sii specifico sulle modifiche che vuoi apportare"
+    },
+    "generate": {
+      "title": "Genera immagini trasformate",
+      "cta": "Genera",
+      "generating": "Generazione in corso..."
+    }
+  },
+  "preview": {
+    "title": "Anteprima",
+    "original": "Originale",
+    "swap": "Scambia",
+    "placeholder": "Carica immagini e inserisci un prompt per vedere la trasformazione qui."
+  },
+  "common": {
+    "selectedCount": "Selezionate: {count}/{max} immagini",
+    "notSelected": "Non selezionato"
+  },
+  "errors": {
+    "invalidFileType": "Tipo di file non valido. Carica un file immagine (JPG, PNG, WEBP).",
+    "uploadFailed": "Caricamento fallito: {error}",
+    "uploadFailedGeneric": "Caricamento fallito",
+    "sourceImageRequired": "Carica un'immagine sorgente",
+    "promptRequired": "Inserisci un prompt di trasformazione",
+    "generationFailed": "Generazione dell'immagine fallita",
+    "taskFailed": "Elaborazione dell'attività fallita",
+    "taskTimeout": "Timeout nell'elaborazione dell'attività, riprova più tardi",
+    "taskIdNotFound": "Impossibile ottenere l'ID dell'attività, verifica il formato della risposta API",
+    "processingFailed": "Elaborazione fallita, riprova",
+    "statusQueryFailed": "Interrogazione dello stato dell'attività fallita",
+    "apiResponseParseFailed": "Analisi della risposta API fallita"
+  },
+  "page": {
+    "metadata": {
+      "title": "Strumento AI Seedream 5.0 Lite da Immagine a Immagine - Trasforma immagini con AI | joymagic",
+      "description": "Usa Seedream 5.0 Lite da immagine a immagine AI per trasformare e modificare le tue immagini. Carica un'immagine e trasformala con l'editing avanzato basato su AI. Risultati rapidi e di alta qualità.",
+      "keywords": "seedream 5.0 lite da immagine a immagine, trasformazione immagini seedream, editor immagini AI, modifica immagini, strumento AI da immagine a immagine, convertitore immagini AI"
+    },
+    "hero": {
+      "title": "Seedream 5.0 Lite da Immagine a Immagine AI - Trasforma le tue immagini con AI",
+      "description": "Trasforma e modifica immagini usando Seedream 5.0 Lite da immagine a immagine AI. Carica un'immagine e trasformala con l'editing avanzato basato su AI. Sperimenta trasformazioni di immagini rapide e di alta qualità.",
+      "button1": "Prova Seedream 5.0 Lite da Immagine a Immagine",
+      "button2": "Vedi i prezzi"
+    },
+    "keyFeatures": {
+      "title": "Perché scegliere Seedream 5.0 Lite da Immagine a Immagine?",
+      "description": "Scopri le potenti funzionalità di Seedream 5.0 Lite da immagine a immagine AI",
+      "singleImage": {
+        "title": "Caricamento immagine singola",
+        "description": "Carica un'immagine e descrivi come vuoi trasformarla. Semplice e veloce."
+      },
+      "highQuality": {
+        "title": "Risultati Seedream di alta qualità",
+        "description": "Ottieni una qualità d'immagine eccezionale con Seedream 5.0 Lite AI. Genera immagini trasformate ad alta risoluzione con dettagli e nitidezza eccezionali."
+      },
+      "styleFlexibility": {
+        "title": "Trasformazione di stili versatile",
+        "description": "Trasforma immagini in vari stili con Seedream 5.0 Lite: fotorealistico, artistico, astratto e altro. Controllo completo con prompt dettagliati."
+      },
+      "affordable": {
+        "title": "Prezzi accessibili",
+        "description": "Trasformazioni di immagini convenienti. Paga per utilizzo, accessibile per qualsiasi dimensione di progetto."
+      }
+    },
+    "promptingTips": {
+      "title": "Come ottenere i migliori risultati con Seedream 5.0 Lite da Immagine a Immagine",
+      "specific": {
+        "title": "Sii specifico nei tuoi prompt",
+        "description": "Per risultati ottimali, descrivi esattamente quale trasformazione desideri. Esempi: \"Cambia in stile anime\" o \"Falla sembrare un dipinto a olio\"."
+      },
+      "style": {
+        "title": "Specifica lo stile artistico",
+        "description": "Menziona lo stile artistico desiderato: \"stile anime\", \"dipinto a olio\", \"arte digitale\", ecc."
+      },
+      "color": {
+        "title": "Impostazioni di colore e atmosfera",
+        "description": "Migliora le tue trasformazioni descrivendo schemi di colore e atmosfera: \"colori vivaci\", \"toni tenui\", \"scuro e drammatico\", ecc."
+      },
+      "details": {
+        "title": "Aggiungi istruzioni dettagliate",
+        "description": "Massimizza la qualità includendo dettagli su illuminazione, composizione ed elementi specifici che vuoi preservare o modificare."
+      }
+    },
+    "useCases": {
+      "title": "Casi d'uso di Seedream 5.0 Lite da Immagine a Immagine",
+      "style": {
+        "title": "Trasformazione di stile artistico",
+        "description": "Trasforma foto in diversi stili artistici: anime, acquerello, dipinto a olio e altro. Perfetto per progetti creativi."
+      },
+      "product": {
+        "title": "Miglioramento della fotografia di prodotto",
+        "description": "Trasforma foto di prodotti per materiali di marketing e social media. Crea rapidamente molteplici variazioni di stile."
+      },
+      "creative": {
+        "title": "Progetti di design creativo",
+        "description": "Sperimenta con diversi stili artistici e trasformazioni per progetti creativi. Trova il look perfetto."
+      },
+      "personal": {
+        "title": "Uso personale",
+        "description": "Reimmagina le tue foto con AI: cambia atmosfera, stile o ambientazione con un singolo prompt."
+      }
+    },
+    "faq": {
+      "title": "FAQ Seedream 5.0 Lite da Immagine a Immagine",
+      "description": "Domande frequenti sullo strumento AI Seedream 5.0 Lite da immagine a immagine",
+      "q1": {
+        "question": "Quante immagini posso caricare?",
+        "answer": "Carichi un'immagine alla volta. Descrivi la tua trasformazione nel prompt e genera."
+      },
+      "q2": {
+        "question": "Quanto costa?",
+        "answer": "Ogni trasformazione di immagine costa un numero fisso di crediti. Consulta la pagina dei prezzi per le tariffe attuali."
+      },
+      "q3": {
+        "question": "Quali formati di immagine supporta Seedream 5.0 Lite?",
+        "answer": "Seedream 5.0 Lite supporta i formati PNG, JPEG, JPG e WebP. Assicurati che la tua immagine sia chiara e ben illuminata per risultati ottimali."
+      },
+      "q4": {
+        "question": "Come devo scrivere i prompt per Seedream 5.0 Lite?",
+        "answer": "Per i migliori risultati, includi descrizioni dettagliate: soggetto, ambientazione, illuminazione, stile, atmosfera e composizione. Più dettagli producono generalmente trasformazioni migliori."
+      },
+      "q5": {
+        "question": "Posso trasformare la stessa immagine più volte?",
+        "answer": "Sì, puoi usare prompt diversi sulla stessa immagine per ottenere trasformazioni diverse."
+      }
+    },
+    "finalCTA": {
+      "title": "Pronto a provare Seedream 5.0 Lite da Immagine a Immagine?",
+      "description": "Inizia a trasformare le tue immagini con Seedream 5.0 Lite AI oggi. Sperimenta trasformazioni di immagini rapide e di alta qualità.",
+      "button": "Prova Seedream 5.0 Lite da Immagine a Immagine ora"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "imageToImage": "Da Immagine a Immagine",
+      "seedreamLite": "Seedream 5.0 Lite"
+    },
+    "schema": {
+      "softwareName": "Strumento AI Seedream 5.0 Lite da Immagine a Immagine di joymagic",
+      "howToName": "Come usare Seedream 5.0 Lite da Immagine a Immagine AI",
+      "howToDescription": "Scopri come trasformare immagini usando Seedream 5.0 Lite da immagine a immagine AI. Carica un'immagine e trasformala con l'editing basato su AI.",
+      "features": {
+        "aiImageEditing": "Editing AI Seedream 5.0 Lite da Immagine a Immagine",
+        "singleImage": "Trasformazione immagine singola con Seedream 5.0 Lite",
+        "highQuality": "Output di alta qualità Seedream 5.0 Lite"
+      }
+    }
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "metadata": {
+    "title": "Seedance 2.0 Görüntü Video - Dudak Senkronizasyonu ile Fotoğrafları Animate Edin | joymagic",
+    "description": "Seedance 2.0 ile fotoğrafları konuşan videolara dönüştürün. Portre yükleyin, birden fazla dilde doğru dudak senkronizasyonu ile diyalog ekleyin. Karakter animasyonu kolaylaştı.",
+    "keywords": "seedance 2.0, görüntü video, dudak senkronizasyonu, konuşan avatar, karakter animasyonu, fotoğraf animasyonu, çok dilli video, portre video"
+  },
+  "hero": {
+    "kicker": "One model, multiple modalities — on {brand}",
+    "h1": "Seedance 2.0 Görüntü Video",
+    "description": "Seedance 2.0, fotoğraflarınızı dudak senkronizasyonu ile konuşan videolara dönüştürür. Bir portre yükleyin, diyalog yazın—karakter İngilizce, Çince, Japonca, Korece ve İspanyolca dahil olmak üzere birden fazla dile uygun dudak hareketleriyle konuşur. Aşağıda Seedance 2.0'yu ücretsiz deneyin!<br/><br/>Referans görselleriniz yok mu? <a href=\"/text-to-video/seedance-2-0\" class=\"text-primary underline\">Sıfırdan oluşturmak için Seedance 2.0 Metin Video</a>'yu deneyin.",
+    "trust": [
+      "HD outputs",
+      "Fast generation",
+      "Built for production"
+    ],
+    "pricing_from": "Pricing from",
+    "pricing_link": "$5",
+    "pricing_suffix": "(500 credits)"
+  },
+  "sections": {
+    "what_is": {
+      "h2": "What is Seedance 2.0?",
+      "paragraphs": [
+        "Seedance 2.0 is a text-to-video generation model used for creating videos from text descriptions.",
+        "In practice, it can transform prompts into production-ready videos—supporting workflows from early concepting to marketing assets and iterative creative exploration.",
+        "joymagic provides an integration layer to run these workflows via a web UI and (when enabled) API access, so you can move from experimentation to automation with fewer steps."
+      ]
+    },
+    "creations": {
+      "h2": "What can you create with Seedance 2.0?",
+      "cards": {
+        "t2i": {
+          "h3": "Seedance 2.0 Text-to-Video (T2V)",
+          "p": "Turn prompts into videos for product concepts, marketing creatives, and storytelling. Experiment with aspect ratios, durations, and resolutions without changing tools."
+        },
+        "editing": {
+          "h3": "Seedance 2.0 Video Generation",
+          "p": "Create variations and iterate through refinements. Use the same prompt framework to converge on a final look faster."
+        },
+        "i2v": {
+          "h3": "Seedance 2.0 Video Creation",
+          "p": "Generate videos with flexible controls for aspect ratio, duration, resolution, and audio generation."
+        }
+      },
+      "links": {
+        "prefix": "For related tools, see",
+        "i2v": "text-to-video",
+        "and": "and",
+        "t2i": "text-to-image",
+        "suffix": "on {brand}."
+      }
+    },
+    "i2v": {
+      "h2": "Seedance 2.0 Text-to-Video",
+      "p": "For high-intent workflows like ads and product clips, Seedance 2.0 text-to-video starts from a text prompt and generates a video sequence. You can tune output duration (4-15 seconds), pick an HD preset (720p or 480p), choose aspect ratios, and control audio generation.",
+      "cards": {
+        "inputs": {
+          "h3": "Supported inputs",
+          "p": "Provide a text prompt describing the scene and desired motion. Clear descriptions generally improve quality."
+        },
+        "controls": {
+          "h3": "Output controls",
+          "p": "Adjust aspect ratio (21:9, 16:9, 4:3, 1:1, 3:4, 9:16), resolution presets (720p, 480p), and duration (4-15 seconds). Enable audio generation and camera fixed options."
+        },
+        "use_cases": {
+          "h3": "Common use cases",
+          "p": "Product videos, social ads, b-roll style motion, cinematic shots, and quick storyboards—especially when you need rapid iteration across many variants."
+        }
+      }
+    },
+    "how_to": {
+      "h2": "How to use Seedance 2.0",
+      "steps": {
+        "1": {
+          "h3": "1. Enter Your Prompt",
+          "p": "Describe the video you want to create. Be specific about the scene, characters, actions, and mood."
+        },
+        "2": {
+          "h3": "2. Configure Settings",
+          "p": "Choose aspect ratio, duration (4-15 seconds), resolution (720p or 480p), and enable audio generation or camera fixed options as needed."
+        },
+        "3": {
+          "h3": "3. Generate Video",
+          "p": "Click the generate button and let AI create your video. Processing typically takes a few minutes."
+        },
+        "4": {
+          "h3": "4. Review and Iterate",
+          "p": "Review the generated video for quality, motion, and composition. Adjust settings and regenerate if needed."
+        },
+        "5": {
+          "h3": "5. Download & Use",
+          "p": "Download your video and use it in your projects immediately."
+        },
+        "6": {
+          "h3": "6. Export / integrate via API",
+          "p": "Download assets for your pipeline or integrate generation via API for batch and automation use cases."
+        }
+      }
+    },
+    "pricing": {
+      "h2": "Pricing for Seedance 2.0",
+      "p_before": "Pricing is credit-based. Refer to",
+      "p_after": "for current packs and plan details.",
+      "table": {
+        "task": "Resolution",
+        "unit": "Duration",
+        "starting_from": "Credits"
+      },
+      "rows": {
+        "720p": {
+          "task": "Seedance 2.0 720p",
+          "unit": "5s",
+          "start": "200 credits"
+        },
+        "480p": {
+          "task": "Seedance 2.0 480p",
+          "unit": "5s",
+          "start": "25 credits"
+        }
+      },
+      "note": "joymagic will always show the credit cost before you confirm a generation."
+    },
+    "quality": {
+      "h2": "Quality, Safety, and Usage Rights",
+      "p1": "Output quality depends on the chosen settings. For video, higher presets may be available (e.g., HD; 720p or 480p), and results improve with specific prompts.",
+      "p2_before": "Commercial usage is subject to",
+      "terms_link": "Terms of Service",
+      "p2_after": "and applicable laws. You are responsible for the rights to any inputs you upload.",
+      "p3_before": "joymagic enforces a content policy to prevent prohibited use. See",
+      "moderation_link": "Content Moderation Policy",
+      "p3_middle": "and",
+      "aup_link": "Acceptable Use Policy",
+      "p3_after": "for details."
+    },
+    "keyFeatures": {
+      "h2": "Ana Özellikler",
+      "portraitToVideo": {
+        "title": "Portre-Video Dudak Senkronizasyonu",
+        "description": "Herhangi bir portre fotoğrafı yükleyin. Diyalog yazın. Karakter, sesle eşleşen doğru dudak hareketleriyle konuşur. Fotoğraflar, illüstrasyonlar ve stilize edilmiş sanatla çalışır—yüz yapısı analiz edilir ve doğal olarak animasyonlaştırılır."
+      },
+      "multilingual": {
+        "title": "Çok Dilli Konuşma Animasyonu",
+        "description": "Dudak hareketleri seçtiğiniz dile uyum sağlar. Her biri telaffuza doğru ağız şekillerine sahip birden fazla dil desteklenir. Bölgesel lehçeler de doğal olarak işlenir."
+      },
+      "expressive": {
+        "title": "İfadeli Performans",
+        "description": "Sadece dudak senkronizasyonundan daha fazlası. Model, diyalogunuzun duygusal tonuna uyan doğal kafa hareketi, göz hareketi ve yüz ifadeleri ekler. Karakterler canlı hissettirir, robotik değil."
+      },
+      "stylePreservation": {
+        "title": "Stil Koruma",
+        "description": "Görüntünüzün görsel stili korunur. Bir fotoğraf yükleyin, fotoğraf gibi gerçekçi animasyon alın. Anime sanatı yükleyin, anime tarzı hareket alın. Model kaynak materyalinize uyum sağlar."
+      }
+    },
+    "useCases": {
+      "h2": "Kullanım Senaryoları",
+      "talkingAvatars": {
+        "title": "Konuşan Avatarlar",
+        "description": "Profil fotoğraflarını müşteri hizmetleri, eğitimler veya duyurular için konuşan temsilcilere dönüştürün."
+      },
+      "characterAnimation": {
+        "title": "Karakter Animasyonu",
+        "description": "Diyalogla illüstre edilmiş karakterleri hayata geçirin. Animasyonlu hikayeler ve oyun içeriği için mükemmel."
+      },
+      "multilingualSpokespersons": {
+        "title": "Çok Dilli Sözcüler",
+        "description": "Aynı portre mesajınızı birden fazla dilde konuşur. Yeniden çekim olmadan yerelleştirilmiş içerik oluşturun."
+      },
+      "memorialVideos": {
+        "title": "Anma Videoları",
+        "description": "Fotoğrafları nazik hareket ve anlatımla animasyonlaştırın. Dikkatli ve saygılı bir şekilde ele alın."
+      }
+    }
+  },
+  "faq": {
+    "h2": "Sıkça Sorulan Sorular",
+    "whatIsImageToVideo": {
+      "question": "Görüntü Video nedir?",
+      "answer": "Görüntü Video, yüklediğiniz fotoğrafları gerçekçi hareket ve senkronize konuşma ile animasyonlaştırır. Model yüz yapısını analiz eder ve diyalogunuzla eşleşen doğal dudak senkronizasyonu oluşturur."
+    },
+    "whatImagesWorkBest": {
+      "question": "Hangi tür görüntüler en iyi çalışır?",
+      "answer": "İyi aydınlatmalı net önden portreler. Fotoğraflar, illüstrasyonlar, anime ve stilize edilmiş sanatla çalışır. En iyi dudak senkronizasyonu için ağır tıkanıklıktan (güneş gözlükleri, maskeler) kaçının."
+    },
+    "howAccurateLipSync": {
+      "question": "Dudak senkronizasyonu ne kadar doğru?",
+      "answer": "Seedance 2.0, hassas dudak senkronizasyonunda uzmanlaşmıştır. Ağız şekilleri, post-prodüksiyon düzeltmeleri olmadan tüm desteklenen dillerde telaffuza doğal olarak uyar."
+    },
+    "animateMoreThanLips": {
+      "question": "Dudaklardan daha fazlasını animasyonlaştırır mı?",
+      "answer": "Evet. Model, diyalogunuzun duygusal tonuna uyan doğal kafa hareketi, göz hareketi ve yüz ifadeleri ekler."
+    },
+    "differentFromTextToVideo": {
+      "question": "Metin Video'dan nasıl farklıdır?",
+      "answer": "Metin Video her şeyi sıfırdan oluşturur. Görüntü Video, karakter görünümünü kontrol etmek için yüklediğiniz portreyi kullanırken onu dudak senkronizasyonu ile animasyonlaştırır—belirli bir yüz veya stile ihtiyacınız olduğunda yararlıdır."
+    },
+    "items": [
+      {
+        "question": "What is Seedance 2.0 used for?",
+        "answer": "Seedance 2.0 is used for text-to-video generation workflows. You can turn prompts into videos with flexible controls for aspect ratio, duration, resolution, and audio generation."
+      },
+      {
+        "question": "How long does it take to generate a video?",
+        "answer": "Video generation typically takes 2-5 minutes depending on the duration and complexity of your prompt."
+      },
+      {
+        "question": "What video formats are supported?",
+        "answer": "We support standard video formats including MP4. Videos can be generated in various sizes (720p or 480p)."
+      },
+      {
+        "question": "Can I use the generated videos commercially?",
+        "answer": "Yes, you can use the generated videos for commercial purposes. Please refer to our Terms of Service for complete details."
+      }
+    ]
+  },
+  "disclaimer": {
+    "h2": "Disclaimer",
+    "p": "{brand} is an independent service that provides access to AI generation workflows. We are not affiliated with, endorsed by, or sponsored by the original creators of \"Seedance 2.0.\" Trademarks and model names belong to their respective owners."
+  },
+  "seedance20": {
+    "form": {
+      "prompt": {
+        "label": "Prompt",
+        "placeholder": "A candid photograph of a chubby ginger tabby cat deeply relaxed and soaking in a traditional Japanese wooden tub filled with countless floating yellow yuzu fruits. The kitty cat has its eyes closed in bliss, melting into the warm water, with a small white folded towel on its head. Gentle steam rises. Warm, soft natural light filters through a traditional window. Cozy, heartwarming atmosphere, serene. Film grain, highly detailed texture of fur and water.",
+        "tooltip": "The text prompt for video generation."
+      },
+      "aspectRatio": {
+        "label": "Aspect Ratio",
+        "tooltip": "Select the aspect ratio for your video output."
+      },
+      "duration": {
+        "label": "Duration",
+        "tooltip": "Set the video duration in seconds (4-15 seconds)."
+      },
+      "resolution": {
+        "label": "Resolution",
+        "tooltip": "Choose the video resolution (720p or 480p)."
+      },
+      "generateAudio": {
+        "label": "Generate Audio",
+        "description": "Whether to generate audio.",
+        "tooltip": "Enable this option to automatically generate audio for the video."
+      },
+      "cameraFixed": {
+        "label": "Camera Fixed",
+        "description": "Whether to fix the camera position.",
+        "tooltip": "Enable this option to keep the camera position fixed during video generation."
+      },
+      "seed": {
+        "label": "Seed"
+      },
+      "buttons": {
+        "reset": "Reset",
+        "run": "Oluştur",
+        "generating": "Generating..."
+      }
+    },
+    "preview": {
+      "placeholder": "Enter a prompt and click Run to generate a video here.",
+      "costInfo": "Your request will cost {cost} per run.",
+      "oneMoreThing": "One more thing:",
+      "actions": {
+        "addSound": "Add Sound",
+        "videoUpscaler": "Video Upscaler",
+        "videoUpscalerPro": "Video Upscaler Pro",
+        "videoExtend": "Video Extend"
+      }
+    },
+    "common": {
+      "selected": "Selected: {name}",
+      "notSelected": "No file selected"
+    },
+    "status": {
+      "idle": "Idle",
+      "processing": "Processing",
+      "completed": "Completed"
+    },
+    "actions": {
+      "downloadVideo": "Download Video",
+      "downloadFailed": "Download video failed",
+      "playAudioFailed": "Failed to play audio. Please check your browser settings."
+    },
+    "errors": {
+      "promptRequired": "Please enter a prompt",
+      "generationFailed": "Video generation failed",
+      "taskFailed": "Task processing failed",
+      "taskTimeout": "Task processing timeout, please try again later",
+      "taskIdNotFound": "Unable to get task ID, please check API response format",
+      "processingFailed": "Processing failed, please retry",
+      "statusQueryFailed": "Failed to query task status",
+      "apiResponseParseFailed": "Failed to parse API response"
+    }
+  },
+  "seedance20Page": {
+    "metadata": {
+      "title": "Seedance 2.0 Metin Video - Dudak Senkronizasyonlu AI Video | joymagic",
+      "description": "Seedance 2.0 kullanarak senkronize diyalog içeren AI videoları oluşturun. Birden fazla dilde doğru dudak senkronizasyonu, sinematik kamera kontrolü, çoklu çekim hikaye anlatımı.",
+      "keywords": "seedance 2.0, metin video, ai video oluşturucu, dudak senkronizasyonu, çok dilli video, sinematik kamera kontrolü, çoklu çekim hikaye anlatımı, senkronize diyalog"
+    },
+    "hero": {
+      "title": "Seedance 2.0 Metin Video",
+      "description": "Seedance 2.0, tek seferde video ve senkronize ses üretir. Sahnenizi diyalogla açıklayın—karakterler İngilizce, Çince, Japonca, Korece ve İspanyolca dahil olmak üzere birden fazla dile uygun dudak hareketleriyle konuşur. Aşağıda Seedance 2.0'yu ücretsiz deneyin!<br/><br/>Referans görselleriniz var mı? <a href=\"/image-to-video/seedance-2-0\" class=\"text-primary underline\">Karakter animasyonu için Seedance 2.0 Görüntü Video</a>'yu deneyin.",
+      "button1": "Şimdi Dene",
+      "button2": "Fiyatları Gör"
+    },
+    "heroDescription": "Enter a text prompt and watch as AI transforms your words into a beautiful video. Perfect for content creators, marketers, and storytellers.",
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast generation",
+      "commercialReady": "Commercial-use ready"
+    },
+    "whatYouCanDo": {
+      "title": "What You Can Do With Text to Video",
+      "description": "Turn your ideas into motion with AI-powered video generation.",
+      "contentCreation": {
+        "title": "Content Creation",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create engaging video content for social media</li><li>Generate video thumbnails and previews</li><li>Produce short-form video content quickly</li></ul>"
+      },
+      "marketing": {
+        "title": "Marketing & Advertising",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Create promotional videos from text descriptions</li><li>Generate video ads and campaigns</li><li>Produce marketing content at scale</li></ul>"
+      },
+      "entertainment": {
+        "title": "Entertainment & Storytelling",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Bring stories to life with AI-generated videos</li><li>Create animated scenes from text</li><li>Produce creative video content</li></ul>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Temel Özellikler",
+      "description": "AI ile metinden video oluşturmak için ihtiyacınız olan her şey.",
+      "multilingualLipSync": {
+        "title": "Çok Dilli Dudak Senkronizasyonu",
+        "description": "Karakterler diyaloğunuzla eşleşen doğru dudak hareketleriyle konuşur. İngilizce, Çince, Japonca, Korece, İspanyolca, Endonezce ve Portekizce dahil olmak üzere birden fazla dili ve bölgesel lehçeleri destekler. Dublaj artefaktları veya zaman uyumsuzlukları yoktur."
+      },
+      "multiShotStorytelling": {
+        "title": "Çoklu Çekim Hikaye Anlatımı",
+        "description": "Anlatısal tutarlılığı koruyan birden fazla sahne içeren videolar oluşturun. Karakterler, ışıklandırma ve görsel stil farklı çekimlerde tutarlı kalır—yalnızca izole klipler değil, hikaye dizileri oluşturun."
+      },
+      "cinematicCameraControl": {
+        "title": "Sinematik Kamera Kontrolü",
+        "description": "Videonuzu bir sinematograf gibi yönetin. İsteğinizde pan, tilt, zoom, orbit ve takip çekimlerini belirtin. Model, hassas çerçeveleme ile profesyonel kamera hareketleri gerçekleştirir."
+      },
+      "jointAudioVisual": {
+        "title": "Ortak Ses-Görsel Üretim",
+        "description": "Video ve ses sıralı olarak değil, birlikte üretilir. Diyalog zamanlaması, ses efekti yerleşimi ve müzik senkronizasyonu üretim sürecine dahil edilmiştir—manuel hizalama gerekmez."
+      }
+    },
+    "useCases": {
+      "title": "Kullanım Durumları",
+      "multilingualMarketing": {
+        "title": "Çok Dilli Pazarlama",
+        "description": "Doğru dudak senkronizasyonu ile birden fazla dilde aynı reklamı oluşturun. Yeniden çekim yok, dublaj artefaktı yok."
+      },
+      "shortFormStorytelling": {
+        "title": "Kısa Form Hikaye Anlatımı",
+        "description": "Web dizileri ve sosyal içerik için tutarlı karakterlerle çoklu çekim anlatı dizileri oluşturun."
+      },
+      "explainerVideos": {
+        "title": "Açıklayıcı Videolar",
+        "description": "Senkronize konuşma ile talking-head tarzı içerik üretin. Karakterler kavramları doğal olarak açıklar."
+      },
+      "socialMediaAds": {
+        "title": "Sosyal Medya Reklamları",
+        "description": "Diyalog kancaları içeren kaydırmayı durduran video reklamlar oluşturun. Birden fazla senaryoyu hızlıca test edin."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "From text to video in simple steps.",
+      "step1": {
+        "title": "Step 1 – Enter Your Prompt",
+        "description": "<p class=\"mb-3\">Describe the video you want to create. Be specific about the scene, characters, actions, and mood.</p>"
+      },
+      "step2": {
+        "title": "Step 2 – Configure Settings",
+        "description": "<p class=\"mb-3\">Choose aspect ratio, duration (4-15 seconds), resolution (720p or 480p), and enable audio generation or camera fixed options.</p>"
+      },
+      "step3": {
+        "title": "Step 3 – Generate Video",
+        "description": "<p class=\"mb-3\">Click the generate button and let AI create your video. Processing typically takes a few minutes.</p>"
+      },
+      "step4": {
+        "title": "Step 4 – Download & Use",
+        "description": "<p class=\"mb-3\">Preview your video, download it, and use it in your projects immediately.</p>"
+      }
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "description": "Metin video üretimi hakkında yaygın sorular.",
+      "q1": {
+        "question": "Seedance 2.0 nedir?",
+        "answer": "Seedance 2.0, video ve sesi aynı anda üreten ByteDance'ın AI video modelidir. Birden fazla dilde doğru dudak senkronizasyonu konusunda uzmanlaşmıştır."
+      },
+      "q2": {
+        "question": "Veo 3.1'den nasıl farklıdır?",
+        "answer": "Seedance 2.0, hassas çok dilli dudak senkronizasyonu ve çoklu çekim hikaye anlatımına odaklanır. Veo 3.1, ilk/son kare kontrolü ve video uzantısı ile daha geniş yaratıcı esneklik sunar. Dudak senkronizasyonu doğruluğu önemli olduğunda Seedance'ı seçin."
+      },
+      "q3": {
+        "question": "Dudak senkronizasyonu hangi dilleri destekler?",
+        "answer": "İngilizce, Çince (bölgesel lehçeler dahil), Japonca, Korece, İspanyolca, Endonezce, Portekizce ve daha fazlası."
+      },
+      "q4": {
+        "question": "Kamera hareketini kontrol edebilir miyim?",
+        "answer": "Evet. İsteğinizde pan, tilt, zoom, orbit veya takip çekimlerini açıklayın. Model profesyonel sinematografi gerçekleştirir."
+      },
+      "q5": {
+        "question": "Görüntü Video'dan farkı nedir?",
+        "answer": "Metin Video açıklamanızdan her şeyi üretir. Görüntü Video, karakter görünümünü kontrol etmek için yüklenen fotoğrafları kullanırken onları dudak senkronizasyonu ile canlandırır."
+      }
+    },
+    "finalCTA": {
+      "title": "Turn your text into stunning videos.",
+      "description": "Try the joymagic text-to-video AI generator and start creating videos in seconds.<br/><span class=\"text-muted-foreground\">No video editing skills needed · Free to try</span>",
+      "button": "Start generating videos"
+    }
+  }
+}

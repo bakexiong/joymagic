@@ -1,0 +1,142 @@
+{
+  "title": "Wan 2.7",
+  "provider": "Alibaba",
+  "eyebrow": "按模型組織的落地頁",
+  "description": "當你需要更有電影感的圖像生成和更偏敍事的視頻表達時，可以從 Wan 2.7 開始：氛圍更強、構圖更偏 editorial，也更容易直接產出接近高級 campaign 的視覺結果。",
+  "seoTitle": "Wan 2.7 模型頁 | 文生圖 + 文生視頻 | joymagic",
+  "seoDescription": "以模型維度瀏覽 Wan 2.7。支持在文生圖與文生視頻之間切換，複用 creator 工作台，並在同一條流程裏從靜態概念走向動態敍事。",
+  "stats": [
+    {
+      "label": "主打模式",
+      "value": "文生圖"
+    },
+    {
+      "label": "擴展場景",
+      "value": "6 個可用工作流"
+    },
+    {
+      "label": "輸出特點",
+      "value": "更有電影感"
+    }
+  ],
+  "differentiators": [
+    "把 Wan 2.7 定位成更偏高級敍事的選擇，適合重視氛圍、人物表現和 editorial 構圖的團隊。",
+    "用一頁把靜態概念圖、可控編輯、動態短片和視頻延展串起來，而不改變底層工作台的使用習慣。",
+    "給 Wan 2.7 單獨建立敍事，讓用户清楚它適合什麼，而不是把它混進偏工具化的編輯模型裏。"
+  ],
+  "gallery": [
+    {
+      "title": "電影感美妝人像",
+      "caption": "更適合生成氛圍更強、人物質感更細膩、成片感更接近時尚 campaign 的 editorial 畫面。",
+      "prompt": "Create a cinematic beauty portrait in a rain-lit street at blue hour with premium styling, refined reflections, and elegant editorial lighting.",
+      "accentClassName": "from-[#9f7bff] via-[#3d3276] to-[#121212] text-white"
+    },
+    {
+      "title": "高級時尚氛圍圖",
+      "caption": "把靜態結果推向更強的電影光感、更豐富的質地表現，以及更完整的視覺敍事。",
+      "prompt": "Generate a luxury fashion campaign still of a model walking through a neon city after rain, glossy reflections, premium wardrobe, and moody cinematic framing.",
+      "accentClassName": "from-[#5ec8ff] via-[#1e567b] to-[#101216] text-white"
+    },
+    {
+      "title": "偏動態的活動概念片段",
+      "caption": "當一個創意需要鏡頭運動和情緒連續性時，可以從靜態概念直接延伸到短視頻方向。",
+      "prompt": "Create a short campaign motion concept of a model exiting a taxi at night, wet pavement reflections, slow camera push, and luxury beauty close-ups.",
+      "accentClassName": "from-[#f7c875] via-[#88612f] to-[#161616] text-white"
+    },
+    {
+      "title": "高級 editorial 循環短片",
+      "caption": "適合在正式製作前，先測試美妝或時尚短片的氛圍、鏡頭節奏和人物表現。",
+      "prompt": "Generate a fashion-film style loop with subtle wind movement, cinematic close-up transitions, premium makeup detail, and dramatic city-night ambience.",
+      "accentClassName": "from-[#f19dc2] via-[#75405e] to-[#171216] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "為什麼 Wan 2.7 需要單獨做一個模型頁？",
+      "answer": "因為 Wan 2.7 承接的是另一類用户意圖。這個頁面可以更清楚地説明它適合電影感靜幀、editorial 概念圖，以及偏短片敍事的創意開發。"
+    },
+    {
+      "question": "Wan 2.7 還是複用同一套 creator 工作台嗎？",
+      "answer": "是的。這個頁面保留了同一套 creator 工作面，所以用户可以在文生圖和文生視頻之間切換，而不用重新學習產品結構。"
+    },
+    {
+      "question": "Wan 2.7 更適合靜態圖還是視頻？",
+      "answer": "這頁會把它定位成兩者都適合。文生圖更適合高級概念幀，文生視頻則適合把同樣的審美方向繼續延伸到短片表達。"
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "文生圖",
+      "title": "場景 01 · 電影感圖像生成",
+      "description": "當你想要更有 editorial 氛圍、更細膩的人物表現，以及更高級的首輪構圖完成度時，可以直接從 Wan 2.7 開始。",
+      "spotlight": "適合美妝 editorial、時尚 campaign 和更有電影感的概念視覺。",
+      "starterPrompt": "Generate a cinematic beauty editorial portrait in a rain-lit city at blue hour, polished skin detail, premium fashion styling, and refined reflections.",
+      "useCases": [
+        "高端人像和美妝 campaign",
+        "氛圍更強的時尚 editorial",
+        "光線層次更豐富的高級概念幀"
+      ]
+    },
+    {
+      "modeLabel": "圖像編輯",
+      "title": "場景 02 · 參考圖驅動的圖像編輯",
+      "description": "當你既要保留主體身份，又要用參考圖去控制構圖、氛圍和整體電影感時，可以把 Wan 2.7 切到圖像編輯模式。",
+      "spotlight": "適合 editorial 精修、風格重塑，以及基於已有素材做氛圍升級。",
+      "starterPrompt": "Keep the original subject and framing, deepen the night-time cinematic mood, improve reflections and skin detail, and elevate the image into a premium editorial still.",
+      "useCases": [
+        "光線方向更明確的時尚靜幀",
+        "保留人物身份的美妝精修",
+        "基於參考圖的場景與情緒優化"
+      ]
+    },
+    {
+      "modeLabel": "高級圖像編輯",
+      "title": "場景 03 · 更高控制度的圖像編輯",
+      "description": "當一個任務需要更嚴格的視覺控制、更重的 art direction，以及基於多參考圖做更細緻的修整時，可以使用 Pro 編輯路徑。",
+      "spotlight": "適合高級 campaign 精修、更嚴格的編輯控制，以及更高完成度的圖像優化。",
+      "starterPrompt": "Using the uploaded references, refine the frame into a premium campaign visual with tighter contrast control, richer atmosphere, and a cleaner luxury finish.",
+      "useCases": [
+        "更接近 campaign 成片的產品或人像精修",
+        "更重度的參考圖驅動藝術指導",
+        "用於高級發佈視覺的 polished stills"
+      ]
+    },
+    {
+      "modeLabel": "文生視頻",
+      "title": "場景 04 · 以鏡頭運動為核心的時尚敍事",
+      "description": "當一個創意需要鏡頭運動、情緒連續性，以及更偏 film-like 的美妝或時尚敍事時，可以切到 Wan 2.7 的視頻生成工作流。",
+      "spotlight": "適合電影感短片、campaign 動態循環，以及更聚焦模特表現的高級鏡頭。",
+      "starterPrompt": "Create a short luxury fashion-film clip of a model stepping out of a taxi at night, wet reflections, slow camera push, premium beauty close-up.",
+      "useCases": [
+        "美妝短片風格片段",
+        "短時長時尚 campaign 序列",
+        "高級 editorial 動態概念"
+      ]
+    },
+    {
+      "modeLabel": "圖生視頻",
+      "title": "場景 05 · 從靜幀到動態延續",
+      "description": "當你已經有一張很強的靜態畫面，但希望在保留原始構圖的前提下引入輕微鏡頭運動、環境動態和連續氛圍時，可以切到圖生視頻。",
+      "spotlight": "適合把關鍵視覺、海報幀和 editorial stills 動起來，生成短時長 motion loop。",
+      "starterPrompt": "Animate the uploaded key visual into a short cinematic clip with subtle wind, reflective light movement, and a slow editorial camera drift.",
+      "useCases": [
+        "把海報幀延展成短 promo clip",
+        "讓美妝靜幀獲得細微電影感運動",
+        "從已確認 key visual 測試動態方向"
+      ]
+    },
+    {
+      "modeLabel": "視頻延展",
+      "title": "場景 06 · 序列延展",
+      "description": "當一段 Wan 2.7 視頻方向已經成立，但你還需要更長時長、更順的敍事延續，或者在 cut 前再多一個節奏點時，可以使用視頻延展。",
+      "spotlight": "適合延長已確認片段、構建更長 loop，以及在一整段 sequence 裏保持統一的運動語言。",
+      "starterPrompt": "Extend the uploaded clip by continuing the same cinematic mood, camera language, and subject motion without breaking continuity.",
+      "useCases": [
+        "把短片段延展成更完整的 campaign loop",
+        "給已確認的時尚鏡頭補一個額外節奏點",
+        "在更長的序列裏保持同一套運動語言"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

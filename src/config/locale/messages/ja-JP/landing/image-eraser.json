@@ -1,0 +1,252 @@
+{
+  "imageEraser": {
+    "id": "image-eraser",
+    "title": "joymagicのAI画像消しゴム",
+    "description": "AIの精度で画像から不要なオブジェクト、透かし、背景を削除します。",
+    "steps": {
+      "sourceImage": {
+        "title": "ソース画像をアップロード",
+        "hint": "ここに画像をアップロード JPG/PNG/WEBP",
+        "dragDrop": "ドラッグ&ドロップまたはクリックしてアップロード",
+        "dropHere": "ここに画像をドロップ"
+      },
+      "maskImage": {
+        "title": "マスク画像をアップロード（オプション）",
+        "hint": "消去する領域を指定するマスク画像をアップロードします。白い領域は消去され、黒い領域は保持されます。",
+        "dragDrop": "ドラッグ&ドロップまたはクリックしてアップロード",
+        "dropHere": "ここにマスク画像をドロップ"
+      },
+      "prompt": {
+        "title": "プロンプトを入力（オプション）",
+        "placeholder": "消去したい内容を説明してください。例：「背景の人を削除」「透かしを消去」「テキストを削除」",
+        "hint": "画像から削除するオブジェクトや領域を指定するテキストプロンプト。例：「犬」や「帽子」。"
+      },
+      "outputFormat": {
+        "title": "出力形式",
+        "placeholder": "出力形式を選択",
+        "hint": "出力画像の形式を選択してください"
+      },
+      "generate": {
+        "title": "消去された画像を生成",
+        "cta": "消去",
+        "generating": "消去中..."
+      }
+    },
+    "preview": {
+      "title": "プレビュー",
+      "original": "元の画像",
+      "erased": "消去後",
+      "placeholder": "画像をアップロードして、ここに消去結果を表示します。"
+    },
+    "common": {
+      "selected": "選択済み: {name}",
+      "notSelected": "未選択"
+    },
+    "errors": {
+      "invalidFileType": "無効なファイルタイプです。画像ファイル（JPG、PNG、WEBP）をアップロードしてください。",
+      "uploadFailed": "アップロードに失敗しました: {error}",
+      "uploadFailedGeneric": "アップロードに失敗しました",
+      "sourceImageRequired": "まずソース画像をアップロードしてください",
+      "generationFailed": "画像の消去に失敗しました",
+      "taskFailed": "タスクの処理に失敗しました",
+      "taskTimeout": "タスクの処理がタイムアウトしました。後でもう一度お試しください",
+      "taskIdNotFound": "タスクIDを取得できません。APIレスポンス形式を確認してください",
+      "processingFailed": "処理に失敗しました。もう一度お試しください",
+      "statusQueryFailed": "タスクステータスの照会に失敗しました",
+      "apiResponseParseFailed": "APIレスポンスの解析に失敗しました",
+      "downloadFailed": "画像のダウンロードに失敗しました"
+    },
+    "download": {
+      "title": "画像をダウンロード"
+    },
+    "alt": {
+      "sourcePreview": "ソース画像プレビュー",
+      "maskPreview": "マスク画像プレビュー",
+      "enlargedPreview": "拡大プレビュー",
+      "source": "ソース",
+      "generated": "生成済み"
+    }
+  },
+  "imageEraserPage": {
+    "metadata": {
+      "title": "AI画像消しゴム | 写真からオブジェクトを削除 | joymagic",
+      "description": "不要なオブジェクト、人物、テキストを写真から即座に消去。シンプルなブラシインターフェースのAI画像消しゴム。無料、透かしなし、HDダウンロード対応。",
+      "keywords": "AIオブジェクト削除ツール, 写真消しゴム, 不要なオブジェクト削除, 画像クリーンアップ, インペインティング, 写真レタッチ"
+    },
+    "hero": {
+      "title": "AI画像消しゴム",
+      "description": "joymagicのAI画像消しゴムで、写真から不要なオブジェクトをオンラインで無料削除。不要な部分をブラシでなぞるだけで、数秒で消えます。",
+      "button1": "今すぐオブジェクトを削除",
+      "button2": "無料で始める · クレジットカード不要"
+    },
+    "heroDescription": "✓ HDダウンロード ✓ 透かしなし ✓ 一括処理対応",
+    "whatIsAIEraser": {
+      "title": "AI画像消しゴムとは？",
+      "description": "joymagicのAI画像消しゴム（Magic EraserまたはObject Removerとも呼ばれます）は、強力なAIを使用して、不要なオブジェクト、人物、テキスト、透かし、または傷を写真からインテリジェントに検出して削除し、マッチする背景で領域をシームレスに埋めます。",
+      "unlikeTraditional": "正確な手作業を必要とする従来のクローンまたは修復ツールとは異なり、当社のAIは：",
+      "understandContext": "シーンのコンテキストとテクスチャを理解",
+      "generateRealistic": "完璧にブレンドするリアルな塗りつぶしを生成",
+      "handleComplex": "草、空、壁、または群衆などの複雑な背景を処理",
+      "simpleBrush": "シンプルなブラシまたはクリックで動作",
+      "perfectFor": "旅行写真、製品画像、ポートレート、不動産写真、ソーシャルメディアコンテンツなどのクリーンアップに最適です。"
+    },
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast processing",
+      "commercialReady": "Commercial-use ready"
+    },
+    "interfaceFeatures": {
+      "title": "On a single, clean interface you get:",
+      "uploadArea": "A drag-and-drop upload area for your source image",
+      "maskArea": "An optional mask image upload to specify exact areas to erase",
+      "promptBox": "An optional prompt box to describe what you want to remove",
+      "formatSelect": "Output format selection (JPEG, PNG, WebP)",
+      "generateButton": "A single Erase button to remove unwanted elements from your image"
+    },
+    "whatYouCanDo": {
+      "title": "joymagic AI画像消しゴムでできること",
+      "description": "1回のブラシで、無限のクリーンアップの可能性。",
+      "travelPhotos": {
+        "title": "旅行・休暇写真のクリーンアップ",
+        "description": "<p class=\"mb-3\">完璧なショットから写真ボマー、見知らぬ人、看板、またはゴミを削除。</p>"
+      },
+      "productPhotography": {
+        "title": "完璧な製品写真",
+        "description": "<p class=\"mb-3\">Eコマース画像からほこり、反射、価格タグ、または不要な小道具を消去。</p>"
+      },
+      "portraits": {
+        "title": "ポートレートとセルフィーの強化",
+        "description": "<p class=\"mb-3\">傷、散らばった髪、背景の気を散らすもの、または元パートナーを簡単に削除。</p>"
+      },
+      "realEstate": {
+        "title": "不動産・インテリア写真の準備",
+        "description": "<p class=\"mb-3\">家具、散らかり、または個人的なアイテムを削除して、リストをプロフェッショナルに演出。</p>"
+      },
+      "socialMedia": {
+        "title": "クリーンなソーシャルメディアコンテンツの作成",
+        "description": "<p class=\"mb-3\">透かし、テキストオーバーレイ、または気を散らす要素を削除して、洗練された投稿とストーリーを作成。</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "主な機能",
+      "description": "速度と品質のために構築された強力なAI画像消去機能。",
+      "smartRemoval": {
+        "title": "スマートワンタッチ削除",
+        "description": "<p class=\"mb-3\">1回ブラシをかけるだけで、AIが削除すべきものを理解し、自然に埋めます。人物、オブジェクト、テキスト、ロゴなどを処理します。</p>"
+      },
+      "realisticInpainting": {
+        "title": "リアルな修復技術",
+        "description": "<p class=\"mb-3\">高度な生成AIが、ビーチ、都市、またはファブリックなどの複雑なパターンでも、背景を完璧に再現します。</p>"
+      },
+      "fastPrecise": {
+        "title": "高速で正確な編集",
+        "description": "<p class=\"mb-3\">リアルタイムプレビューで数秒で結果を取得。遅延なし、待機なし。</p>"
+      },
+      "batchRemoval": {
+        "title": "一括オブジェクト削除",
+        "description": "<p class=\"mb-3\">複数の画像をアップロードして、一度にすべてをクリーンアップ – 写真バッチや製品カタログに最適。</p>"
+      },
+      "cleanOutput": {
+        "title": "クリーンなプロフェッショナル出力",
+        "description": "<p class=\"mb-3\">透かしなし、アーティファクトなし – 毎回フルHDダウンロード。</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "写真から不要なオブジェクトを削除する方法",
+      "description": "無料のAI画像消しゴムで、わずか数ステップで画像から何でも消去：",
+      "step1": {
+        "title": "1. 画像をアップロード",
+        "description": "<p class=\"mb-3\">写真をドラッグ&ドロップまたは選択。JPG、JPEG、PNG、WEBP、HEIC形式をサポート。</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>風景、ポートレート、製品写真などに対応</li></ul>"
+      },
+      "step2": {
+        "title": "2. 不要なオブジェクトをブラシでなぞるまたはクリック",
+        "description": "<p class=\"mb-3\">削除したいオブジェクト、人物、テキスト、または傷の上をブラシでなぞるだけ。</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>精度のためにブラシサイズを調整</li><li>AIが自動的に領域を検出して選択</li></ul>"
+      },
+      "step3": {
+        "title": "3. AIに消去と埋め込みをさせる",
+        "description": "<p class=\"mb-3\">削除をクリック – AIが即座に選択を消去し、マッチする周囲で空間をインテリジェントに埋めます。</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>結果をリアルタイムでプレビュー</li><li>必要に応じて元に戻すまたはやり直す</li></ul>"
+      },
+      "step4": {
+        "title": "4. 調整してダウンロード",
+        "description": "<p class=\"mb-3\">必要に応じて微調整：</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>見逃した場所を再度ブラシでなぞる</li><li>誤って削除した領域を復元</li></ul><p class=\"mb-3\">クリーンで高品質な画像をダウンロード – すぐに使用可能。</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "Why joymagic vs Other Image Eraser Tools",
+      "description": "Built specifically for AI-powered image erasing, not just a basic tool.",
+      "focused": {
+        "title": "Focused on AI Image Erasing",
+        "description": "<p class=\"mb-3\">Many tools offer basic erasing features. joymagic is different—it's built with advanced AI:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Smart detection of what to remove</li><li>Context-aware filling of erased areas</li><li>Results tuned specifically for seamless object removal</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "Made for Fast Daily Workflows",
+        "description": "Designed for creators who need to clean up multiple images per day. Fewer steps, cleaner UI, no maze of menus. Quickly process batches of images."
+      },
+      "pricing": {
+        "title": "Pricing That Scales With You",
+        "description": "A clear free tier so you can test image erasing with no risk. A simple paid plan for power users and teams who need higher limits. Transparent usage — pay for what you actually use."
+      },
+      "commercialUse": {
+        "title": "Safe for Commercial Use",
+        "description": "You own the images you generate with joymagic, as long as you have the rights to the original images you upload. Generated images can be used for commercial projects such as campaigns, client work, and ecommerce listings."
+      }
+    },
+    "perfectFor": {
+      "title": "Who joymagic Is Perfect For",
+      "description": "Built for creators, brands, and designers who need clean, professional images.",
+      "photographers": {
+        "title": "Photographers & Creators",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up photos before publishing</li><li>Remove unwanted elements from shots</li><li>Prepare images for portfolios and galleries</li><li>Remove watermarks from your own work</li></ul><p class=\"text-sm text-muted-foreground italic\">Enhance your photography with AI-powered editing.</p>"
+      },
+      "ecommerce": {
+        "title": "Ecommerce & Small Brands",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up product photos</li><li>Remove distracting backgrounds</li><li>Remove watermarks and logos from stock images (with permission)</li><li>Prepare images for product listings</li></ul><p class=\"text-sm text-muted-foreground italic\">Get professional product photos without expensive editing.</p>"
+      },
+      "designers": {
+        "title": "Designers & Agencies",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Quickly clean up images for client projects</li><li>Remove unwanted elements from mockups</li><li>Prepare images for presentations and proposals</li><li>Save time on manual editing tasks</li></ul><p class=\"text-sm text-muted-foreground italic\">joymagic fits neatly into your existing design workflow.</p>"
+      }
+    },
+    "faq": {
+      "title": "AI画像消しゴムFAQ",
+      "description": "当社のAI画像消しゴムに関するよくある質問。",
+      "q1": {
+        "question": "どの画像形式がサポートされていますか？",
+        "answer": "JPG、JPEG、PNG、WEBP、HEICをサポートしています。明確で高品質な画像で最良の結果が得られます。"
+      },
+      "q2": {
+        "question": "編集した画像に透かしはありますか？",
+        "answer": "いいえ。すべてのダウンロードはクリーンで透かしなしです。"
+      },
+      "q3": {
+        "question": "複雑な削除はどの程度優れていますか？",
+        "answer": "当社のAIは、大きなオブジェクト、群衆の中の人々、テクスチャのある背景に優れています。超細かい詳細には、より小さなブラシストロークを使用してください。"
+      },
+      "q4": {
+        "question": "1つの画像から複数のオブジェクトを削除できますか？",
+        "answer": "はい – 生成前に必要なだけ多くの領域をブラシでなぞることができます。"
+      },
+      "q5": {
+        "question": "複数の画像を一度に処理できますか？",
+        "answer": "はい – バッチモードでは、1つのセッションで複数の写真をアップロードしてオブジェクトを消去できます。"
+      },
+      "q6": {
+        "question": "私のデータは安全ですか？",
+        "answer": "はい。アップロードされた画像は安全に処理され、処理後に自動的に削除されます。トレーニングには使用しません。"
+      }
+    },
+    "privacySecurity": {
+      "title": "プライバシーとセキュリティ",
+      "description": "お客様の画像とプライバシーが私たちの最優先事項です。",
+      "secureProcessing": "すべてのアップロードは安全に処理され、暗号化されます",
+      "autoDelete": "画像は処理後に自動的に削除されます",
+      "neverShared": "第三者と共有されることはなく、AIトレーニングにも使用されません"
+    },
+    "finalCTA": {
+      "title": "散らかった写真をクリーンで素晴らしいビジュアルに変えましょう。",
+      "description": "今すぐjoymagicのAI画像消しゴムを試して、数秒で不要なものを削除してください。<br/><span class=\"text-muted-foreground\">デザインスキル不要 · 無料で試す</span>",
+      "button": "今すぐオブジェクトを削除"
+    }
+  }
+}

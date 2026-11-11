@@ -1,0 +1,143 @@
+{
+  "title": "flux-2-klein text-to-image",
+  "subtitle": "从文字描述生成精美的图片",
+  "prompt_label": "提示词",
+  "prompt_placeholder": "古老的纪念性特奥蒂瓦坎金字塔，被红光照亮，天空中悬挂着一个巨大的土星，雕塑般且非天文学的，带有液态金属环，既未来又古老，唤起神圣门户而非行星的感觉，少量光雾，电影深度和大气透视，极简构图，带有大片干净的负空间用于排版",
+  "prompt_tooltip": "输入您想要生成的图片描述",
+  "size_label": "图片尺寸",
+  "size_hint": "选择输出图片的尺寸",
+  "width_label": "宽度",
+  "height_label": "高度",
+  "seed_label": "种子值",
+  "seed_hint": "-1 表示随机种子",
+  "seed_tooltip": "设置种子值以便复现结果。使用 -1 表示随机种子。",
+  "seed_randomize": "生成随机种子",
+  "buttons": {
+    "generate": "生成图片"
+  },
+  "errors": {
+    "promptRequired": "提示词是必填项"
+  },
+  "image_alt": "生成的图片",
+  "download": "下载",
+  "image_placeholder": "生成的图片将显示在这里",
+  "prompt_inspirations_button": "提示词灵感",
+  "prompt_guide_button": "提示词指南",
+  "powered_by": "由 joymagic 优化的 Flux 2 Klein AI 模型提供支持",
+  "page": {
+    "metadata": {
+      "title": "flux-2-klein text-to-image（4B）- AI 图片生成器 | joymagic",
+      "description": "使用 flux-2-klein text-to-image 从文字生成高品质图片。支持 seed 以便复现结果，最大输出 1536×1536。",
+      "keywords": "flux-2-klein text-to-image，flux-2-klein，flux-2-klein-4b，文字转图片，AI 图片生成器，提示词生成图片"
+    },
+    "hero": {
+      "title": "flux-2-klein text-to-image",
+      "description": "使用 flux-2-klein text-to-image：从提示词快速生成高品质图片。支持 seed 控制以复现结果，最大输出 1536×1536。",
+      "button1": "立即试用",
+      "button2": "查看价格"
+    },
+    "heroDescription": "使用先进的 AI 技术从简单的文字描述创建精美的图片。",
+    "keyFeatures": {
+      "title": "主要特性",
+      "description": "强大的 AI 图片生成能力",
+      "highQuality": {
+        "title": "高品质图片",
+        "description": "生成具有卓越细节和清晰度的高分辨率图片。非常适合专业用途。"
+      },
+      "fastGeneration": {
+        "title": "快速生成",
+        "description": "通过高效处理快速生成图片。几秒钟内获得结果。"
+      },
+      "styleFlexibility": {
+        "title": "风格灵活性",
+        "description": "创建各种风格的图片 - 逼真、艺术、抽象等。通过详细的提示词控制输出。"
+      },
+      "seedControl": {
+        "title": "种子值控制",
+        "description": "使用种子值控制随机性。使用相同的种子值可以重现相似的结果，或使用 -1 进行随机生成。"
+      }
+    },
+    "promptingTips": {
+      "title": "提示词技巧",
+      "lighting": {
+        "title": "具体描述光照",
+        "description": "\"左侧金色时光阳光，柔和阴影\" 比 \"良好光照\" 效果更好。"
+      },
+      "camera": {
+        "title": "包含相机细节",
+        "description": "\"使用 85mm 镜头拍摄，浅景深\" 可增加专业摄影品质。"
+      },
+      "style": {
+        "title": "指定艺术风格",
+        "description": "\"宫崎骏风格的数字插画\" 或 \"超写实 3D 渲染\" 可提供清晰方向。"
+      },
+      "mood": {
+        "title": "描述情绪和氛围",
+        "description": "\"舒适、温暖、怀旧的感觉\" 或 \"戏剧性、电影感、高对比度\" 塑造整体图片。"
+      }
+    },
+    "useCases": {
+      "title": "使用场景",
+      "marketing": {
+        "title": "营销视觉",
+        "description": "无需拍摄即可生成产品概念、广告图像和社交媒体内容。"
+      },
+      "character": {
+        "title": "角色设计",
+        "description": "从文字描述为游戏、漫画或动画项目创建原创角色。"
+      },
+      "concept": {
+        "title": "概念艺术",
+        "description": "快速可视化场景、环境和想法，用于创意项目和演示。"
+      },
+      "stock": {
+        "title": "图库替代",
+        "description": "生成您需要的特定图片，而不是在通用图库中搜索。"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "关于 Flux 2 Klein 文字转图片的常见问题",
+      "q1": {
+        "question": "什么是 Flux 2 Klein？",
+        "answer": "Flux 2 Klein 是一个先进的 AI 图片生成模型，可从文字描述创建图片。它能够生成各种分辨率的高品质图片。"
+      },
+      "q2": {
+        "question": "我的提示词应该有多详细？",
+        "answer": "更多细节通常意味着更好的结果。包括主体、场景、光照、风格、情绪和构图细节。具体说明您想要看到的内容。"
+      },
+      "q3": {
+        "question": "种子参数是什么？",
+        "answer": "种子参数控制随机性。使用 -1 进行随机生成，或使用特定数字来重现相似的结果。相同的种子值和相同的提示词将产生相似的图片。"
+      },
+      "q4": {
+        "question": "支持哪些图片尺寸？",
+        "answer": "您可以生成从 256×256 到最大 1536×1536 的图片。尺寸必须是 64 的倍数。默认是 1024×1024。"
+      },
+      "q5": {
+        "question": "需要多少积分？",
+        "answer": "每次图片生成需要 2 积分。这使得它成为创建高品质图片的经济实惠选择。"
+      }
+    },
+    "finalCTA": {
+      "title": "准备开始创作了吗？",
+      "description": "立即开始从您的文字描述生成精美的图片。",
+      "button": "立即试用"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "textToImage": "文字转图片",
+      "flux2Klein": "Flux 2 Klein"
+    },
+    "schema": {
+      "softwareName": "joymagic AI Flux 2 Klein 文字转图片",
+      "howToName": "如何使用 Flux 2 Klein 生成图片",
+      "howToDescription": "使用 Flux 2 Klein 从文字描述生成图片",
+      "features": {
+        "aiTextToImage": "AI 文字转图片",
+        "highQuality": "高品质图片",
+        "fastProcessing": "快速处理"
+      }
+    }
+  }
+}

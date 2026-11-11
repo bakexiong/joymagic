@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pollo AI Design Preview</title>
+    <style>
+      :root {
+        --bg: #05070c;
+        --surface: #0d1117;
+        --elevated: #141a22;
+        --text: #f8fafc;
+        --muted: #b6c2d0;
+        --soft: #8a97a8;
+        --cyan: #5fd7ff;
+        --blue: #4ea3ff;
+        --teal: #4ce6b2;
+        --purple: #8b7cff;
+        --pink: #ff6bd6;
+        --warning: #ffb84d;
+        --border: rgba(255, 255, 255, 0.08);
+        --brand: linear-gradient(135deg, #5fd7ff 0%, #4ea3ff 35%, #8b7cff 68%, #ff6bd6 100%);
+        --shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, sans-serif;
+        background: radial-gradient(circle at top, rgba(95, 215, 255, 0.08), transparent 28%), var(--bg);
+        color: var(--text);
+      }
+      .wrap {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 40px 24px 80px;
+      }
+      .hero {
+        display: grid;
+        gap: 20px;
+        padding: 32px;
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+        box-shadow: var(--shadow);
+      }
+      .badge {
+        display: inline-flex;
+        width: fit-content;
+        padding: 8px 14px;
+        border-radius: 999px;
+        border: 1px solid rgba(95, 215, 255, 0.28);
+        color: var(--cyan);
+        font-size: 12px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 56px;
+        line-height: 1;
+      }
+      p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+      .cta {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .btn {
+        padding: 14px 20px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        text-decoration: none;
+        color: var(--text);
+      }
+      .btn.primary {
+        background: var(--brand);
+        color: #07101b;
+        font-weight: 700;
+        border-color: transparent;
+      }
+      .section {
+        margin-top: 32px;
+      }
+      .section h2 {
+        font-size: 28px;
+        margin: 0 0 16px;
+      }
+      .swatches,
+      .cards {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      }
+      .swatch,
+      .card {
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        overflow: hidden;
+        background: var(--surface);
+      }
+      .swatch-top {
+        height: 92px;
+      }
+      .swatch-body,
+      .card-body {
+        padding: 14px;
+      }
+      .label {
+        font-size: 13px;
+        color: var(--soft);
+      }
+      .value {
+        font-weight: 700;
+        margin-top: 6px;
+      }
+      .chip-row {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 12px;
+      }
+      .chip {
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: var(--elevated);
+        border: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .muted {
+        color: var(--soft);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+        <span class="badge">Manual Extraction</span>
+        <h1>Pollo AI Visual Language</h1>
+        <p>
+          深色平台感、强 CTA、任务入口优先、模型与工具生态密集展示。
+          这是一个偏增长转化型的 AI 创作平台视觉系统。
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#">Start for Free</a>
+          <a class="btn" href="#">Pricing</a>
+        </div>
+        <div class="chip-row">
+          <span class="chip">Dark platform UI</span>
+          <span class="chip">Gradient accents</span>
+          <span class="chip">Rounded cards</span>
+          <span class="chip">High-density discovery</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Color Palette</h2>
+        <div class="swatches">
+          <div class="swatch"><div class="swatch-top" style="background:#05070c"></div><div class="swatch-body"><div class="label">Background</div><div class="value">#05070C</div></div></div>
+          <div class="swatch"><div class="swatch-top" style="background:#0d1117"></div><div class="swatch-body"><div class="label">Surface</div><div class="value">#0D1117</div></div></div>
+          <div class="swatch"><div class="swatch-top" style="background:#141a22"></div><div class="swatch-body"><div class="label">Elevated</div><div class="value">#141A22</div></div></div>
+          <div class="swatch"><div class="swatch-top" style="background:#5fd7ff"></div><div class="swatch-body"><div class="label">Accent Cyan</div><div class="value">#5FD7FF</div></div></div>
+          <div class="swatch"><div class="swatch-top" style="background:#4ce6b2"></div><div class="swatch-body"><div class="label">Accent Teal</div><div class="value">#4CE6B2</div></div></div>
+          <div class="swatch"><div class="swatch-top" style="background:#8b7cff"></div><div class="swatch-body"><div class="label">Accent Purple</div><div class="value">#8B7CFF</div></div></div>
+          <div class="swatch"><div class="swatch-top" style="background:#ff6bd6"></div><div class="swatch-body"><div class="label">Accent Pink</div><div class="value">#FF6BD6</div></div></div>
+          <div class="swatch"><div class="swatch-top" style="background:#ffb84d"></div><div class="swatch-body"><div class="label">Warning</div><div class="value">#FFB84D</div></div></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Component Patterns</h2>
+        <div class="cards">
+          <div class="card"><div class="card-body"><div class="value">Hero + Composer</div><p class="muted">首屏直接给出创作入口和平台价值，不只是静态营销文案。</p></div></div>
+          <div class="card"><div class="card-body"><div class="value">Tabs / Pills</div><p class="muted">大量胶囊切换，用于场景、模型、工具与分区筛选。</p></div></div>
+          <div class="card"><div class="card-body"><div class="value">Dense Discovery Cards</div><p class="muted">通过统一深色卡片快速展示大量工具和模型入口。</p></div></div>
+          <div class="card"><div class="card-body"><div class="value">Pricing Upgrade Cues</div><p class="muted">定价卡突出并行任务、无水印、私密可见、优先支持等升级理由。</p></div></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Accessibility Snapshot</h2>
+        <p>
+          手工估计：整体对比度较强，主体文案可读性良好，次级灰字和高亮渐变文案在局部场景需要额外复核。
+          近似得分：<strong>84/100</strong>
+        </p>
+      </section>
+    </div>
+  </body>
+  </html>

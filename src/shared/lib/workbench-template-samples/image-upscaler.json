@@ -1,0 +1,71 @@
+[
+  {
+    "prompt": "Epic fantasy game key art with an armored hero facing a colossal dragon above ruined cliffs, dramatic atmosphere, volumetric fog, AAA concept art, high contrast lighting",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/image-upscaler-samples/1779500973070-fantasy-source.jpg",
+          "url": "https://ocdn.10b.ai/image-upscaler-samples/1779500973070-fantasy-source.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Epic fantasy game key art with an armored hero facing a colossal dragon above ruined cliffs, dramatic atmosphere, volumetric fog, AAA concept art, high contrast lighting",
+      "targetResolution": "4k",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "https://ocdn.10b.ai/image-upscaler-samples/1779500973070-fantasy-source.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/image-upscaler-samples/1779532253516-fantasy-result-provided.png",
+    "generatedUrl": "https://ocdn.10b.ai/image-upscaler-samples/1779532253516-fantasy-result-provided.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/image-upscaler-samples/1779532253516-fantasy-result-provided.png"
+    ],
+    "generatedAt": "2026-05-23T02:25:52.782Z"
+  },
+  {
+    "prompt": "Golden hour mountain landscape with a winding lake, volumetric sunlight, layered clouds, crisp alpine atmosphere, National Geographic photography, highly detailed",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/image-upscaler-samples/1779533733764-landscape-ref-provided.jpg",
+          "url": "https://ocdn.10b.ai/image-upscaler-samples/1779533733764-landscape-ref-provided.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Golden hour mountain landscape with a winding lake, volumetric sunlight, layered clouds, crisp alpine atmosphere, National Geographic photography, highly detailed",
+      "targetResolution": "4k",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "https://ocdn.10b.ai/image-upscaler-samples/1779533733764-landscape-ref-provided.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/image-upscaler-samples/1779532711750-landscape-result-provided.png",
+    "generatedUrl": "https://ocdn.10b.ai/image-upscaler-samples/1779532711750-landscape-result-provided.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/image-upscaler-samples/1779532711750-landscape-result-provided.png"
+    ],
+    "generatedAt": "2026-05-23T02:22:43.910Z"
+  },
+  {
+    "prompt": "Travel postcard scene of a colorful Mediterranean coastal town, bright midday sun, vivid facades, sparkling sea, postcard-perfect composition, crisp tourist photography",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/image-upscaler-samples/1779533725060-mediterranean-ref-provided.jpg",
+          "url": "https://ocdn.10b.ai/image-upscaler-samples/1779533725060-mediterranean-ref-provided.jpg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "Travel postcard scene of a colorful Mediterranean coastal town, bright midday sun, vivid facades, sparkling sea, postcard-perfect composition, crisp tourist photography",
+      "targetResolution": "4k",
+      "outputFormat": "jpeg"
+    },
+    "previewUrl": "https://ocdn.10b.ai/image-upscaler-samples/1779533725060-mediterranean-ref-provided.jpg",
+    "thumbnailUrl": "https://ocdn.10b.ai/image-upscaler-samples/1779532703625-mediterranean-result-provided.png",
+    "generatedUrl": "https://ocdn.10b.ai/image-upscaler-samples/1779532703625-mediterranean-result-provided.png",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/image-upscaler-samples/1779532703625-mediterranean-result-provided.png"
+    ],
+    "generatedAt": "2026-05-23T02:24:17.893Z"
+  }
+]

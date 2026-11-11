@@ -1,0 +1,177 @@
+{
+  "imageToImage": {
+    "id": "image-to-image",
+    "title": "Gerador de Imagem para Imagem IA por joymagic",
+    "description": "Transforme qualquer imagem em visuais de marca em segundos. Não são necessárias habilidades de design.",
+    "steps": {
+      "sourceImage": {
+        "title": "Enviar imagem fonte",
+        "cta": "Arrastar/Clicar para enviar",
+        "hint": "Formatos: JPG/PNG/WEBP",
+        "dragDrop": "Arraste e solte ou clique para enviar",
+        "dropHere": "Solte a imagem aqui"
+      },
+      "prompt": {
+        "title": "Inserir prompt de transformação",
+        "placeholder": "Descreva como deseja transformar a imagem, por exemplo, 'faça parecer uma pintura', 'mude o fundo para uma praia', 'adicione um céu ao pôr do sol'",
+        "hint": "Seja específico sobre as alterações que deseja fazer"
+      },
+      "generate": {
+        "title": "Gerar imagem transformada",
+        "cta": "Gerar",
+        "generating": "Gerando..."
+      }
+    },
+    "preview": {
+      "title": "Visualização",
+      "original": "Original",
+      "generated": "Gerada",
+      "placeholder": "Envie uma imagem e insira um prompt para ver a transformação aqui."
+    },
+    "templates": {
+      "title": "Modelos de Prompt",
+      "all": "Todos",
+      "noItems": "Nenhum modelo disponível nesta categoria"
+    },
+    "common": {
+      "selected": "Selecionado: {name}",
+      "notSelected": "Não selecionado"
+    },
+    "errors": {
+      "invalidFileType": "Tipo de arquivo inválido. Por favor envie um arquivo de imagem (JPG, PNG, WEBP).",
+      "uploadFailed": "Falha ao enviar: {error}",
+      "uploadFailedGeneric": "Falha ao enviar",
+      "sourceImageRequired": "Por favor envie uma imagem fonte primeiro",
+      "promptRequired": "Por favor insira um prompt de transformação",
+      "generationFailed": "Falha ao gerar imagem",
+      "taskFailed": "Falha ao processar tarefa",
+      "taskTimeout": "Tempo limite de processamento da tarefa, por favor tente novamente mais tarde",
+      "taskIdNotFound": "Não foi possível obter o ID da tarefa, por favor verifique o formato da resposta da API",
+      "processingFailed": "Falha ao processar, por favor tente novamente",
+      "statusQueryFailed": "Falha ao consultar o status da tarefa"
+    }
+  },
+  "imageToImagePage": {
+    "metadata": {
+      "title": "Gerador de Imagem para Imagem AI | Visuais de Marca em Segundos – joymagic",
+      "description": "Transforme qualquer imagem em visuais de marca com o gerador de imagem para imagem da joymagic. Carregue uma imagem e obtenha variações infinitas em estilos e cenários diferentes. Saída HD, geração rápida, teste grátis, uso comercial permitido."
+    },
+    "hero": {
+      "title": "Gerador de Imagem para Imagem AI – joymagic",
+      "description": "Transforme qualquer imagem em visual de marca em segundos. Não precisa ser designer.",
+      "button1": "Gerar a partir da imagem",
+      "button2": "Comece grátis · Não precisa de cartão"
+    },
+    "heroDescription": "Carregue uma imagem e ganhe mil variações — novos estilos, cenários e atmosferas, mantendo o tema central sempre igual.",
+    "builtFor": {
+      "title": "Feito para criadores modernos:",
+      "hdOutputs": "Saída HD",
+      "fastGeneration": "Geração rápida",
+      "commercialReady": "Pronto para uso comercial"
+    },
+    "interfaceFeatures": {
+      "title": "Tudo em uma interface simples e limpa:",
+      "uploadArea": "Área para arrastar a imagem de referência",
+      "promptBox": "Caixa para descrever a transformação desejada",
+      "styleDropdown": "Seleção de estilo (realista, anime, ilustração, 3D, pixel, retrô etc.)",
+      "strengthSlider": "Controle de intensidade: de ajuste leve a transformação radical",
+      "generateButton": "Um clique: gere múltiplas variações de uma mesma imagem"
+    },
+    "whatYouCanDo": {
+      "title": "O que você pode fazer com o joymagic Imagem para Imagem",
+      "description": "Em vez de começar do zero, parta de uma referência visual e deixe o joymagic cuidar do resto.",
+      "styleTransformations": {
+        "title": "Transformações de estilo e atmosfera",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Transforme fotos em ilustrações, anime, pintura, render 3D, pixel art e mais</li><li>Altere luz, cor e ambiente sem perder o aspecto original</li><li>Teste rapidamente diferentes estilos sobre a mesma ideia visual</li></ul><p class='text-sm text-muted-foreground italic'>Perfeito para explorar visuais alternativos de algo já existente.</p>"
+      },
+      "characterConsistency": {
+        "title": "Consistência de personagem/identidade",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Mantenha rostos ou personagens consistentes em várias imagens</li><li>Mesmo trocando pose, cenário ou estilo, preserve cabelos, roupas e traços chave</li><li>Ótimo para VTuber, criadores de histórias, quadrinistas e mascotes</li></ul><p class='text-sm text-muted-foreground italic'>Construa identidade visual sem redesenhar tudo do zero.</p>"
+      },
+      "productBrand": {
+        "title": "Produtos & identidade de marca",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Gere inúmeras fotos de produto a partir de uma base única</li><li>Ponha o mesmo item em diferentes cenários, estações ou conceitos instantaneamente</li><li>Mantenha logo, cores e formas fiel à marca</li></ul><p class='text-sm text-muted-foreground italic'>Uma foto serve para campanhas do ano todo.</p>"
+      },
+      "socialContent": {
+        "title": "Conteúdo para redes sociais",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Converta uma imagem em todo o kit visual: capa, miniatura, post e banner para YouTube/TikTok/Bilibili/blog</li><li>Adapte o formato para cada rede em segundos</li></ul><p class='text-sm text-muted-foreground italic'>Menos tempo buscando imagens; mais tempo criando.</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Principais funções do joymagic Imagem para Imagem",
+      "description": "Tudo que você precisa para transformar imagens com AI, foco em qualidade e velocidade.",
+      "uploadPromptTransform": {
+        "title": "Envie, escreva, transforme",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Suporte aos formatos JPG, PNG, WEBP etc.</li><li>Prompt textual para controle de estilo, cena, atmosfera</li><li>Predefinições de proporção e resolução para redes sociais etc.</li></ul><p class='text-sm text-muted-foreground italic'>Só enviar para ter variações rápidas, ou dê detalhes para controle avançado.</p>"
+      },
+      "flexibleControl": {
+        "title": "Controle flexível das variações",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Slider de intensidade de alteração</li><li>Opções para priorizar composição, personagem, estilo</li></ul><p class='text-sm text-muted-foreground italic'>Resultados sempre reprodutíveis, nunca aleatórios.</p>"
+      },
+      "highQuality": {
+        "title": "Saída de alta qualidade",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Exportação HD, detalhes nítidos</li><li>Logos, textos e bordas super definidos</li><li>Ideal para banners, apresentações e materiais impressos também</li></ul><p class='text-sm text-muted-foreground italic'>joymagic nunca abre mão de qualidade do início ao fim.</p>"
+      },
+      "nonDesigners": {
+        "title": "Fácil para não designers",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Presets prontos: realista, anime, ilustração, 3D, retrô, pixel…</li><li>Refaça variações com um clique, teste visual novo em segundos</li><li>Interface limpa, direta: envie → escolha estilo → ajuste intensidade → baixe</li></ul><p class='text-sm text-muted-foreground italic'>Se consegue enviar arquivo, já pode gerar visual de marca com joymagic.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "Como funciona o joymagic Imagem para Imagem",
+      "description": "Apenas quatro passos: envie, descreva, ajuste, baixe.",
+      "step1": {
+        "title": "Passo 1 – Envie sua imagem",
+        "description": "<p class='mb-3'>Pode começar de qualquer imagem clara: produto, personagem, logo, mockup, ilustração. Arraste ou escolha do dispositivo. O joymagic usa sua referência para manter sua identidade.</p>"
+      },
+      "step2": {
+        "title": "Passo 2 – Descreva a transformação",
+        "description": "<p class='mb-3'>Acrescente um prompt breve para guiar a AI.</p><p class='mb-2'>Exemplos:</p><ul class='list-disc list-inside space-y-1 mb-3 ml-4'><li>‘Transforme em cena de anime à noite’</li><li>‘Foto de produto estilo estúdio premium’</li><li>‘De esboço para ilustração flat limpa’</li><li>‘Coloque o personagem numa cidade cyberpunk ao pôr-do-sol’</li></ul><p class='text-sm text-muted-foreground italic'>Instrução curta e simples já funciona. Ou então só escolha um preset.</p>"
+      },
+      "step3": {
+        "title": "Passo 3 – Escolha estilo e intensidade",
+        "description": "<p class='mb-3'>Você decide quanto mudar.</p><ul class='list-disc list-inside space-y-1 mb-3'><li>Selecione o preset de estilo (realista, anime, 3D, etc.)</li><li>Ajuste intensidade: retoque leve ou transformação total</li><li>(Opcional) Configure para manter composição, personagem, estilo fixos</li></ul><p class='text-sm text-muted-foreground italic'>Você mantém o controle criativo, o resto a AI resolve.</p>"
+      },
+      "step4": {
+        "title": "Passo 4 – Gere e baixe",
+        "description": "<p class='mb-3'>Deixe a AI gerar, escolha a melhor.</p><ul class='list-disc list-inside space-y-1 mb-3'><li>Uma entrada, múltiplas variações</li><li>Compare visual paralelo, lado a lado</li><li>Baixe o favorito em HD</li><li>Use direto nas suas redes, site, campanha, apresentação</li></ul><p class='text-sm text-muted-foreground italic'>Em minutos transforme um arquivo num pack visual completo.</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "Por que o joymagic é diferente?",
+      "description": "De ponta a ponta focado em imagem para imagem, não é só um extra.",
+      "focused": {
+        "title": "Fluxo criado 100% pra esse fim",
+        "description": "<p class='mb-3'>Em outros lugares é só um “recurso extra”, mas o joymagic foi projetado do zero para este uso:</p><ul class='list-disc list-inside space-y-1 mb-3'><li>Nada de função desnecessária</li><li>Aprenda rápido, use rápido</li><li>Resultados customizados para referência visual</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "Pra criar rápido todos os dias",
+        "description": "Use a mesma imagem base para variações rápidas, testando estilo/indicativos novos sem perder tempo em menus."
+      },
+      "pricing": {
+        "title": "Preço acompanha seu uso",
+        "description": "Testa grátis, sem risco. Depois suba de plano se precisar: os detalhes sempre atualizados no app."
+      },
+      "commercialUse": {
+        "title": "Seguro para uso comercial",
+        "description": "Se você tem direitos sobre a imagem enviada, os resultados podem ser usados comercialmente."
+      }
+    },
+    "perfectFor": {
+      "title": "Pra quem serve o joymagic imagem para imagem?",
+      "description": "Visual consistente e de alta qualidade pra criadores, marcas e designers.",
+      "creators": {
+        "title": "Criadores e influenciadores",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Crie uma identidade visual forte e repetível pro seu conteúdo</li><li>Thumbnails, capas e posts que se destacam</li><li>A/B testing visual rápido com novos estilos e atmosferas</li><li>Faça milhares de variações usando avatar, personagem ou mascote</li></ul><p class='text-sm text-muted-foreground italic'>Não gaste horas em cada post: foque no conteúdo, o visual já vem pronto.</p>"
+      },
+      "ecommerce": {
+        "title": "E-commerce & marcas pequenas",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Transforme uma imagem de produto num kit completo</li><li>Cenários, fundos e estações diferentes rapidamente</li><li>Estilo combina com sua marca: minimalista, ousado, divertido, premium</li><li>Padrão visual pra loja, anúncio, promoção, social, tudo igual</li></ul><p class='text-sm text-muted-foreground italic'>Tenha variação de estúdio sem ficar tirando fotos novo toda vez.</p>"
+      },
+      "designers": {
+        "title": "Designers e agências",
+        "description": "<ul class='list-disc list-inside space-y-1 mb-3'><li>Explore estilos e mood boards em minutos</li><li>Inspire-se gerando variações rápidas para apresentar cliente</li><li>Poupe no rascunho; foque no acabamento profissional</li><li>joymagic se integra bem no seu fluxo de design</li></ul><p class='text-sm text-muted-foreground italic'>Ferramenta pra acelerar briefing em qualquer cenário.</p>"
+      }
+    }
+  }
+}

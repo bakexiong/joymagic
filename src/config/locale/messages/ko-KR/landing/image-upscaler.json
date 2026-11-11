@@ -1,0 +1,193 @@
+{
+  "imageUpscaler": {
+    "id": "image-upscaler",
+    "title": "AI 이미지 확대 도구",
+    "description": "AI를 사용하여 이미지 품질을 즉시 개선하고 해상도를 4K, 8K 또는 16K로 높입니다. 이미지를 업로드하면 자동으로 향상됩니다.",
+    "steps": {
+      "sourceImage": {
+        "title": "이미지 업로드",
+        "hint": "드래그 앤 드롭 또는 클릭하여 업로드 · JPG/PNG/WEBP/HEIC",
+        "dragDrop": "드래그 앤 드롭 또는 클릭하여 업로드",
+        "dropHere": "여기에 이미지 드롭"
+      },
+      "settings": {
+        "title": "확대 설정 선택",
+        "targetResolution": "확대 배율 / 출력",
+        "outputFormat": "출력 형식"
+      },
+      "generate": {
+        "title": "생성 및 다운로드",
+        "cta": "확대 시작",
+        "generating": "확대 중..."
+      }
+    },
+    "preview": {
+      "title": "미리보기",
+      "original": "원본",
+      "upscaled": "확대됨",
+      "placeholder": "이미지를 업로드하여 확대 결과를 여기서 확인하세요."
+    },
+    "common": {
+      "selected": "선택됨: {name}",
+      "notSelected": "선택되지 않음"
+    },
+    "errors": {
+      "invalidFileType": "잘못된 파일 형식입니다. 이미지 파일(JPG, PNG, WEBP, HEIC)을 업로드해 주세요.",
+      "uploadFailed": "업로드 실패: {error}",
+      "uploadFailedGeneric": "업로드 실패",
+      "sourceImageRequired": "먼저 원본 이미지를 업로드해 주세요",
+      "generationFailed": "이미지 확대 실패",
+      "taskFailed": "작업 처리 실패",
+      "taskTimeout": "작업 처리 시간 초과, 나중에 다시 시도해 주세요",
+      "taskIdNotFound": "작업 ID를 가져올 수 없습니다. API 응답 형식을 확인해 주세요",
+      "processingFailed": "처리 실패, 다시 시도해 주세요",
+      "statusQueryFailed": "작업 상태 조회 실패",
+      "apiResponseParseFailed": "API 응답 구문 분석 실패",
+      "downloadFailed": "이미지 다운로드 실패"
+    },
+    "download": {
+      "title": "이미지 다운로드"
+    },
+    "alt": {
+      "sourcePreview": "원본 미리보기",
+      "enlargedPreview": "확대 미리보기",
+      "source": "원본",
+      "original": "원본",
+      "upscaled": "확대됨"
+    }
+  },
+  "imageUpscalerPage": {
+    "metadata": {
+      "title": "AI 이미지 확대 도구 온라인 | 이미지를 4K 8K 16K로 확대 | joymagic",
+      "description": "joymagic의 AI 이미지 확대 도구로 이미지 품질을 즉시 개선하고 해상도를 4K, 8K 또는 16K로 높입니다. HD 다운로드, 워터마크 없음, 일괄 처리 지원.",
+      "keywords": "AI 이미지 확대 도구, 이미지 확대, 이미지 해상도 향상, 4K 확대, 8K 확대, 16K 확대, AI 이미지 향상, 이미지 해상도 향상, 사진 확대, 이미지 품질 향상, 빠른 확대, 창의적 확대"
+    },
+    "hero": {
+      "title": "AI 이미지 확대 도구 온라인",
+      "description": "joymagic의 AI 이미지 확대 도구로 이미지 품질을 즉시 개선하고 해상도를 4K, 8K 또는 16K로 높입니다. 이미지를 업로드하면 자동으로 향상됩니다.",
+      "button1": "지금 확대 시작",
+      "button2": "무료로 시작 · 워터마크 없음"
+    },
+    "heroDescription": "✓ HD 다운로드  ✓ 워터마크 없음  ✓ 일괄 처리 지원",
+    "whatIsAIUpscaler": {
+      "title": "AI 이미지 확대 도구란?",
+      "description": "AI 이미지 확대 도구는 딥러닝을 사용하여 이미지를 확대하면서 사실적인 세부 사항과 선명도를 추가합니다. 픽셀을 늘려 흐림을 유발하는 기존 크기 조정과 달리 당사의 AI는:",
+      "features": [
+        "이미지 내용과 구조 분석",
+        "새로운 픽셀을 지능적으로 생성",
+        "텍스처, 가장자리 및 색상 보존",
+        "선명하고 자연스러운 결과 출력"
+      ],
+      "perfectFor": "제품 사진, 오래된 사진, AI 생성 아트, 소셜 미디어 콘텐츠 및 인쇄 준비 이미지에 사용하세요."
+    },
+    "keyFeatures": {
+      "title": "주요 기능",
+      "description": "최대 16K까지 빠르고 고품질 AI 이미지 확대.",
+      "fastProcessing": {
+        "title": "빠른 처리",
+        "description": "<p class=\"mb-3\">몇 초 만에 결과를 얻습니다. 최적화된 AI가 복잡한 이미지를 빠르게 처리합니다.</p>"
+      },
+      "highQuality": {
+        "title": "최대 16K 출력",
+        "description": "<p class=\"mb-3\">선명도와 세부 사항을 유지하면서 이미지를 4K, 8K 또는 16K로 확대합니다.</p>"
+      },
+      "twoModes": {
+        "title": "두 가지 확대 모드",
+        "description": "<p class=\"mb-3\">충실한 확대를 위한 빠른 모드; AI 향상 세부 사항을 위한 창의적 모드.</p>"
+      },
+      "batch": {
+        "title": "일괄 처리",
+        "description": "<p class=\"mb-3\">여러 이미지를 한 번에 업로드하고 처리합니다. 대량 작업에서 시간을 절약합니다.</p>"
+      },
+      "cleanOutput": {
+        "title": "깨끗한 출력",
+        "description": "<p class=\"mb-3\">즉시 사용할 수 있는 고품질 워터마크 없는 결과를 다운로드합니다.</p>"
+      }
+    },
+    "whatYouCanDo": {
+      "title": "joymagic AI 확대 도구로 할 수 있는 것",
+      "description": "한 번의 업로드로 무한한 가능성.",
+      "photography": {
+        "title": "사진 향상",
+        "description": "<p class=\"mb-3\">오래된 사진이나 인물 사진을 인쇄 품질로 확대합니다.</p>"
+      },
+      "design": {
+        "title": "디자인 및 AI 아트",
+        "description": "<p class=\"mb-3\">AI 생성 아트나 그래픽을 더 선명한 세부 사항으로 향상시킵니다.</p>"
+      },
+      "ecommerce": {
+        "title": "전자상거래 및 제품",
+        "description": "<p class=\"mb-3\">제품 이미지를 목록 및 광고용으로 선명하게 만듭니다.</p>"
+      },
+      "socialMedia": {
+        "title": "소셜 미디어",
+        "description": "<p class=\"mb-3\">모든 플랫폼에서 선명하고 고해상도 비주얼을 공유합니다.</p>"
+      },
+      "print": {
+        "title": "대형 형식 및 인쇄",
+        "description": "<p class=\"mb-3\">포스터, 배너 및 인쇄 재료용으로 최대 16K까지 확대합니다.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "이미지를 확대하는 방법",
+      "description": "세 가지 간단한 단계로 AI를 사용하여 확대:",
+      "step1": {
+        "title": "1. 이미지 업로드",
+        "description": "<p class=\"mb-3\">이미지 파일을 드래그 앤 드롭하거나 선택합니다.</p><p class=\"mb-3\">JPG, PNG, WEBP, HEIC 형식을 지원합니다.</p>"
+      },
+      "step2": {
+        "title": "2. 확대 설정 선택",
+        "description": "<p class=\"mb-3\">원하는 확대 배율 선택:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>2x – 해상도 2배</li><li>4x – 해상도 4배</li><li>8x – 최대 향상(최대 16K 출력)</li></ul><p class=\"mb-3\">모드 선택:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>빠른 확대 – 원본 세부 사항 보존</li><li>창의적 확대 – AI 생성 세부 사항 추가</li></ul>"
+      },
+      "step3": {
+        "title": "3. 생성 및 다운로드",
+        "description": "<p class=\"mb-3\">시작을 클릭하고 몇 초 만에 확대된 이미지를 얻습니다.</p><p class=\"mb-1\">즉시 사용할 수 있는 고해상도로 다운로드합니다.</p>"
+      }
+    },
+    "faq": {
+      "title": "AI 이미지 확대 도구 FAQ",
+      "description": "AI 확대에 대한 빠른 답변.",
+      "q1": {
+        "question": "어떤 이미지 형식이 지원됩니까?",
+        "answer": "JPG, JPEG, PNG, WEBP, HEIC를 지원합니다. 업로드가 실패하면 JPG 또는 PNG로 변환해 보세요."
+      },
+      "q2": {
+        "question": "최대 출력 해상도는?",
+        "answer": "입력 크기와 확대 배율에 따라 최대 16K(16384 × 16384)까지 확대할 수 있습니다."
+      },
+      "q3": {
+        "question": "빠른 모드와 창의적 모드의 차이점은?",
+        "answer": "빠른 모드는 충실하게 확대—제품/스크린샷에 최적. 창의적 모드는 AI 세부 사항 추가—AI 아트나 오래된 사진에 최적."
+      },
+      "q4": {
+        "question": "여러 이미지를 한 번에 확대할 수 있나요?",
+        "answer": "예. 일괄 처리를 통해 한 세션에서 여러 이미지를 업로드하고 확대할 수 있습니다."
+      },
+      "q5": {
+        "question": "확대된 이미지에 워터마크가 있나요?",
+        "answer": "아니요. 모든 다운로드는 워터마크 없이 즉시 사용할 수 있습니다."
+      },
+      "q6": {
+        "question": "내 데이터가 안전하고 비공개인가요?",
+        "answer": "예. 이미지는 격리된 암호화 세션에서 처리되며 처리 후 삭제됩니다. 업로드한 내용을 저장하거나 학습에 사용하지 않습니다."
+      },
+      "q7": {
+        "question": "어떤 종류의 이미지가 가장 잘 작동하나요?",
+        "answer": "선명하고 잘 조명된 이미지가 최상의 결과를 생성합니다. 매우 낮은 품질의 입력은 확대 후에도 일부 아티팩트를 표시할 수 있습니다."
+      }
+    },
+    "privacySecurity": {
+      "title": "개인정보 보호 및 보안",
+      "description": "귀하의 이미지와 개인정보가 우리의 우선순위입니다.",
+      "secureProcessing": "모든 업로드는 안전하게 암호화되어 처리됩니다",
+      "autoDelete": "이미지는 처리 후 자동으로 삭제됩니다",
+      "neverShared": "제3자와 공유하거나 AI 학습에 사용하지 않습니다"
+    },
+    "finalCTA": {
+      "title": "저해상도 이미지를 고해상도 걸작으로 변환하세요.",
+      "description": "지금 joymagic의 AI 이미지 확대 도구를 사용해 보세요. 몇 초 만에 사진을 4K, 8K 또는 16K 선명도로 높입니다.<br/><span class=\"text-muted-foreground\">편집 기술 불필요 · 무료로 시작 · 워터마크 없는 다운로드</span>",
+      "button": "지금 확대 시작"
+    }
+  }
+}
+

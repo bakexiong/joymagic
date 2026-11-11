@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "title": "Midjourney Image to Video - AI Video Generator | joymagic",
+    "description": "Transform images into stunning videos with Midjourney AI. Control motion, quality, and style parameters to create professional video content.",
+    "keywords": "image to video midjourney, midjourney video generator, ai video from image, midjourney animation, image animation ai"
+  },
+  "midjourney": {
+    "form": {
+      "prompt": {
+        "label": "Prompt",
+        "placeholder": "Describe the motion and action you want in the video...",
+        "tooltip": "The text prompt describing the video motion you want to generate."
+      },
+      "image": {
+        "label": "Image",
+        "tooltip": "Upload an image to convert to video",
+        "hint": "Hint: You can drag and drop a file or click to upload",
+        "dragDrop": "Drag and drop a file or click to upload",
+        "dropHere": "Drop image here"
+      },
+      "lastImage": {
+        "label": "Last Image (Optional)",
+        "tooltip": "Upload a last frame image for the video",
+        "hint": "Hint: You can drag and drop a file or click to upload",
+        "dragDrop": "Drag and drop a file or click to upload",
+        "dropHere": "Drop image here"
+      },
+      "resolution": {
+        "label": "Resolution"
+      },
+      "aspectRatio": {
+        "label": "Aspect Ratio"
+      },
+      "motion": {
+        "label": "Motion"
+      },
+      "quality": {
+        "label": "Quality",
+        "tooltip": "Control image detail and processing time (0.25 to 2)"
+      },
+      "stylize": {
+        "label": "Stylize",
+        "tooltip": "Control the artistic style in the image (0-1000)"
+      },
+      "chaos": {
+        "label": "Chaos",
+        "tooltip": "Add variety to your image results (0-100)"
+      },
+      "weird": {
+        "label": "Weird",
+        "tooltip": "Make your images quirky and unconventional (0-3000)"
+      },
+      "seed": {
+        "label": "Seed",
+        "placeholder": "-1 for random",
+        "tooltip": "Use the same seed and prompt to get similar results"
+      },
+      "enableBase64Output": {
+        "label": "Enable Base64 Output",
+        "description": "Return the video as base64 encoded data",
+        "tooltip": "Enable this option to receive the video as base64 encoded data"
+      },
+      "buttons": {
+        "reset": "Reset",
+        "run": "Generate",
+        "generating": "Generating..."
+      }
+    },
+    "preview": {
+      "placeholder": "Enter a prompt and click run, and the generated video will be displayed here.",
+      "title": "Preview"
+    },
+    "status": {
+      "idle": "Idle",
+      "processing": "Processing",
+      "completed": "Completed"
+    },
+    "actions": {
+      "downloadVideo": "Download Video",
+      "downloadFailed": "Download video failed"
+    },
+    "errors": {
+      "promptRequired": "Please enter a prompt",
+      "imageRequired": "Please upload an image",
+      "generationFailed": "Video generation failed",
+      "taskFailed": "Task processing failed",
+      "taskTimeout": "Task processing timeout, please try again later",
+      "taskIdNotFound": "Unable to get task ID, please check API response format",
+      "processingFailed": "Processing failed, please retry",
+      "statusQueryFailed": "Failed to query task status",
+      "apiResponseParseFailed": "Failed to parse API response",
+      "invalidFileType": "Invalid file type. Please upload image files (JPG, PNG, etc.).",
+      "uploadFailed": "Upload failed: {error}",
+      "uploadFailedGeneric": "Upload failed"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "Midjourney Image to Video - AI Video Generator | joymagic",
+      "description": "Transform images into stunning videos with Midjourney AI. Control motion, quality, and style parameters to create professional video content.",
+      "keywords": "image to video midjourney, midjourney video generator, ai video from image, midjourney animation, image animation ai"
+    },
+    "hero": {
+      "title": "Midjourney Image to Video",
+      "description": "Transform your images into captivating videos with Midjourney AI. Upload images, add prompts, control motion parameters, and generate high-quality videos with advanced AI technology. Try Midjourney Image to Video for free below!",
+      "button1": "Try Now",
+      "button2": "View Pricing"
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "advancedMotion": {
+        "title": "Advanced Motion Control",
+        "description": "Control motion intensity with low or high settings. Fine-tune the movement in your videos to match your creative vision."
+      },
+      "qualityControl": {
+        "title": "Quality Control",
+        "description": "Adjust quality from 0.25 to 2 to balance detail and processing time. Higher quality produces more detailed and refined videos."
+      },
+      "styleParameters": {
+        "title": "Style Parameters",
+        "description": "Use stylize (0-1000), chaos (0-100), and weird (0-3000) parameters to control artistic style, variety, and unconventional results."
+      },
+      "multipleResolutions": {
+        "title": "Multiple Resolutions",
+        "description": "Choose from 480p or 720p resolutions. Select the resolution that best fits your project needs."
+      }
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "productShowcase": {
+        "title": "Product Showcase",
+        "description": "Transform product images into engaging video demonstrations with controlled motion and professional quality."
+      },
+      "artisticAnimation": {
+        "title": "Artistic Animation",
+        "description": "Bring artwork and illustrations to life with customizable style parameters and motion controls."
+      },
+      "contentCreation": {
+        "title": "Content Creation",
+        "description": "Create engaging social media content and marketing videos from static images with AI-powered animation."
+      },
+      "creativeExperiments": {
+        "title": "Creative Experiments",
+        "description": "Experiment with chaos and weird parameters to create unique, unconventional video effects and artistic styles."
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "What is Midjourney Image to Video?",
+        "answer": "Midjourney Image to Video converts your uploaded images into video clips with customizable motion, quality, and style parameters using advanced AI technology."
+      },
+      "q2": {
+        "question": "What motion settings are available?",
+        "answer": "You can choose between low and high motion settings to control the intensity of movement in your generated videos."
+      },
+      "q3": {
+        "question": "What is the quality parameter?",
+        "answer": "The quality parameter ranges from 0.25 to 2 and controls image detail and processing time. Higher values produce more detailed results but take longer to process."
+      },
+      "q4": {
+        "question": "What are stylize, chaos, and weird parameters?",
+        "answer": "Stylize (0-1000) controls artistic style, chaos (0-100) adds variety to results, and weird (0-3000) makes images more quirky and unconventional."
+      },
+      "q5": {
+        "question": "What resolutions are supported?",
+        "answer": "Midjourney Image to Video supports 480p and 720p resolutions. Choose the resolution that best matches your project requirements."
+      }
+    },
+    "finalCTA": {
+      "title": "Ready to Create?",
+      "description": "Start generating amazing videos from your images with Midjourney AI today.",
+      "button": "Try It Now"
+    }
+  }
+}

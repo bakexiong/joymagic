@@ -1,0 +1,253 @@
+{
+  "imageEraser": {
+    "id": "image-eraser",
+    "title": "joymagic의 AI 이미지 지우개",
+    "description": "AI 정밀도로 이미지에서 원하지 않는 객체, 워터마크 및 배경을 제거합니다.",
+    "steps": {
+      "sourceImage": {
+        "title": "소스 이미지 업로드",
+        "hint": "여기에 이미지 업로드 JPG/PNG/WEBP",
+        "dragDrop": "드래그 앤 드롭 또는 클릭하여 업로드",
+        "dropHere": "여기에 이미지 드롭"
+      },
+      "maskImage": {
+        "title": "마스크 이미지 업로드 (선택사항)",
+        "hint": "지울 영역을 지정하는 마스크 이미지를 업로드합니다. 흰색 영역은 지워지고 검은색 영역은 유지됩니다.",
+        "dragDrop": "드래그 앤 드롭 또는 클릭하여 업로드",
+        "dropHere": "여기에 마스크 이미지 드롭"
+      },
+      "prompt": {
+        "title": "프롬프트 입력 (선택사항)",
+        "placeholder": "지우고 싶은 내용을 설명하세요. 예: '배경의 사람 제거', '워터마크 지우기', '텍스트 제거'",
+        "hint": "이미지에서 제거할 객체나 영역을 지정하는 텍스트 프롬프트. 예: '개' 또는 '모자'."
+      },
+      "outputFormat": {
+        "title": "출력 형식",
+        "placeholder": "출력 형식 선택",
+        "hint": "출력 이미지의 형식을 선택하세요"
+      },
+      "generate": {
+        "title": "지워진 이미지 생성",
+        "cta": "지우기",
+        "generating": "지우는 중..."
+      }
+    },
+    "preview": {
+      "title": "미리보기",
+      "original": "원본",
+      "erased": "지워짐",
+      "placeholder": "이미지를 업로드하여 여기에 지워진 결과를 확인하세요."
+    },
+    "common": {
+      "selected": "선택됨: {name}",
+      "notSelected": "선택되지 않음"
+    },
+    "errors": {
+      "invalidFileType": "잘못된 파일 형식입니다. 이미지 파일(JPG, PNG, WEBP)을 업로드하세요.",
+      "uploadFailed": "업로드 실패: {error}",
+      "uploadFailedGeneric": "업로드 실패",
+      "sourceImageRequired": "먼저 소스 이미지를 업로드하세요",
+      "generationFailed": "이미지 지우기 실패",
+      "taskFailed": "작업 처리 실패",
+      "taskTimeout": "작업 처리 시간 초과, 나중에 다시 시도하세요",
+      "taskIdNotFound": "작업 ID를 가져올 수 없습니다. API 응답 형식을 확인하세요",
+      "processingFailed": "처리 실패, 다시 시도하세요",
+      "statusQueryFailed": "작업 상태 조회 실패",
+      "apiResponseParseFailed": "API 응답 구문 분석 실패",
+      "downloadFailed": "이미지 다운로드 실패"
+    },
+    "download": {
+      "title": "이미지 다운로드"
+    },
+    "alt": {
+      "sourcePreview": "소스 이미지 미리보기",
+      "maskPreview": "마스크 이미지 미리보기",
+      "enlargedPreview": "확대 미리보기",
+      "source": "소스",
+      "generated": "생성됨"
+    }
+  },
+  "imageEraserPage": {
+    "metadata": {
+      "title": "AI 이미지 지우개 | 사진에서 객체 제거 | joymagic",
+      "description": "원하지 않는 객체, 사람 또는 텍스트를 사진에서 즉시 지웁니다. 간단한 브러시 인터페이스의 AI 이미지 지우개. 무료, 워터마크 없음, HD 다운로드 준비 완료.",
+      "keywords": "AI 객체 제거기, 사진 지우개, 원하지 않는 객체 제거, 이미지 정리, 인페인팅, 사진 보정"
+    },
+    "hero": {
+      "title": "AI 이미지 지우개",
+      "description": "joymagic의 AI 이미지 지우개로 온라인에서 사진의 원하지 않는 객체를 무료로 제거하세요. 원하지 않는 부분을 브러시로 칠하기만 하면 몇 초 만에 사라집니다.",
+      "button1": "지금 객체 제거하기",
+      "button2": "무료로 시작 · 신용카드 불필요"
+    },
+    "heroDescription": "✓ HD 다운로드 ✓ 워터마크 없음 ✓ 일괄 처리 지원",
+    "whatIsAIEraser": {
+      "title": "AI 이미지 지우개란?",
+      "description": "joymagic의 AI 이미지 지우개(매직 지우개 또는 객체 제거기라고도 함)는 강력한 AI를 사용하여 원하지 않는 객체, 사람, 텍스트, 워터마크 또는 결함을 사진에서 지능적으로 감지하고 제거하면서 일치하는 배경으로 영역을 매끄럽게 채웁니다.",
+      "unlikeTraditional": "정확한 수동 작업이 필요한 기존 복제 또는 복구 도구와 달리, 당사의 AI는:",
+      "understandContext": "장면 컨텍스트와 텍스처를 이해",
+      "generateRealistic": "완벽하게 블렌딩되는 사실적인 채우기 생성",
+      "handleComplex": "잔디, 하늘, 벽 또는 군중과 같은 복잡한 배경 처리",
+      "simpleBrush": "간단한 브러시 또는 클릭으로 작동",
+      "perfectFor": "여행 사진, 제품 이미지, 인물 사진, 부동산 사진, 소셜 미디어 콘텐츠 등을 정리하는 데 완벽합니다."
+    },
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast processing",
+      "commercialReady": "Commercial-use ready"
+    },
+    "interfaceFeatures": {
+      "title": "On a single, clean interface you get:",
+      "uploadArea": "A drag-and-drop upload area for your source image",
+      "maskArea": "An optional mask image upload to specify exact areas to erase",
+      "promptBox": "An optional prompt box to describe what you want to remove",
+      "formatSelect": "Output format selection (JPEG, PNG, WebP)",
+      "generateButton": "A single Erase button to remove unwanted elements from your image"
+    },
+    "whatYouCanDo": {
+      "title": "joymagic AI 이미지 지우개로 할 수 있는 것",
+      "description": "한 번의 브러시로 끝없는 정리 가능성.",
+      "travelPhotos": {
+        "title": "여행 및 휴가 사진 정리",
+        "description": "<p class=\"mb-3\">완벽한 사진에서 포토봄버, 낯선 사람, 표지판 또는 쓰레기를 제거하세요.</p>"
+      },
+      "productPhotography": {
+        "title": "완벽한 제품 사진",
+        "description": "<p class=\"mb-3\">전자상거래 이미지에서 먼지, 반사, 가격표 또는 원하지 않는 소품을 지우세요.</p>"
+      },
+      "portraits": {
+        "title": "인물 사진 및 셀피 향상",
+        "description": "<p class=\"mb-3\">결점, 흩어진 머리카락, 배경 산만함 또는 전 파트너를 쉽게 제거하세요.</p>"
+      },
+      "realEstate": {
+        "title": "부동산 및 인테리어 사진 준비",
+        "description": "<p class=\"mb-3\">가구, 어수선함 또는 개인 소지품을 삭제하여 목록을 전문적으로 무대화하세요.</p>"
+      },
+      "socialMedia": {
+        "title": "깨끗한 소셜 미디어 콘텐츠 만들기",
+        "description": "<p class=\"mb-3\">워터마크, 텍스트 오버레이 또는 산만한 요소를 제거하여 세련된 게시물과 스토리를 만드세요.</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "주요 기능",
+      "description": "속도와 품질을 위해 구축된 강력한 AI 이미지 지우기 기능.",
+      "smartRemoval": {
+        "title": "스마트 원터치 제거",
+        "description": "<p class=\"mb-3\">한 번 브러시 – AI가 제거할 대상을 이해하고 자연스럽게 채웁니다. 사람, 객체, 텍스트, 로고 등을 처리합니다.</p>"
+      },
+      "realisticInpainting": {
+        "title": "현실적인 인페인팅 기술",
+        "description": "<p class=\"mb-3\">고급 생성 AI가 해변, 도시 또는 직물과 같은 복잡한 패턴에서도 배경을 완벽하게 재현합니다.</p>"
+      },
+      "fastPrecise": {
+        "title": "빠르고 정확한 편집",
+        "description": "<p class=\"mb-3\">실시간 미리보기로 몇 초 만에 결과를 얻습니다. 지연 없음, 대기 없음.</p>"
+      },
+      "batchRemoval": {
+        "title": "일괄 객체 제거",
+        "description": "<p class=\"mb-3\">여러 이미지를 업로드하고 한 번에 모두 정리하세요 – 사진 일괄 처리 또는 제품 카탈로그에 이상적입니다.</p>"
+      },
+      "cleanOutput": {
+        "title": "깨끗한 전문 출력",
+        "description": "<p class=\"mb-3\">워터마크 없음, 아티팩트 없음 – 매번 전체 HD 다운로드.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "사진에서 원하지 않는 객체 제거 방법",
+      "description": "무료 AI 이미지 지우개로 몇 가지 간단한 단계로 이미지에서 무엇이든 지우세요:",
+      "step1": {
+        "title": "1. 이미지 업로드",
+        "description": "<p class=\"mb-3\">사진을 드래그 앤 드롭하거나 선택하세요. JPG, JPEG, PNG, WEBP 및 HEIC 형식을 지원합니다.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>풍경, 인물 사진, 제품 사진 등에 작동</li></ul>"
+      },
+      "step2": {
+        "title": "2. 원하지 않는 객체를 브러시로 칠하거나 클릭",
+        "description": "<p class=\"mb-3\">제거하려는 객체, 사람, 텍스트 또는 결점 위를 브러시로 칠하기만 하면 됩니다.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>정밀도를 위해 브러시 크기 조정</li><li>당사의 AI가 자동으로 영역을 감지하고 선택</li></ul>"
+      },
+      "step3": {
+        "title": "3. AI가 지우고 채우도록 하기",
+        "description": "<p class=\"mb-3\">제거를 클릭하세요 – AI가 즉시 선택을 지우고 일치하는 주변으로 공간을 지능적으로 채웁니다.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>결과를 실시간으로 미리보기</li><li>필요에 따라 실행 취소 또는 다시 실행</li></ul>"
+      },
+      "step4": {
+        "title": "4. 정제 및 다운로드",
+        "description": "<p class=\"mb-3\">원하는 경우 미세 조정:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>놓친 부분 다시 브러시로 칠하기</li><li>실수로 제거된 영역 복원</li></ul><p class=\"mb-3\">깨끗하고 고품질의 이미지를 다운로드하세요 – 바로 사용 가능합니다.</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "Why joymagic vs Other Image Eraser Tools",
+      "description": "Built specifically for AI-powered image erasing, not just a basic tool.",
+      "focused": {
+        "title": "Focused on AI Image Erasing",
+        "description": "<p class=\"mb-3\">Many tools offer basic erasing features. joymagic is different—it's built with advanced AI:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Smart detection of what to remove</li><li>Context-aware filling of erased areas</li><li>Results tuned specifically for seamless object removal</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "Made for Fast Daily Workflows",
+        "description": "Designed for creators who need to clean up multiple images per day. Fewer steps, cleaner UI, no maze of menus. Quickly process batches of images."
+      },
+      "pricing": {
+        "title": "Pricing That Scales With You",
+        "description": "A clear free tier so you can test image erasing with no risk. A simple paid plan for power users and teams who need higher limits. Transparent usage — pay for what you actually use."
+      },
+      "commercialUse": {
+        "title": "Safe for Commercial Use",
+        "description": "You own the images you generate with joymagic, as long as you have the rights to the original images you upload. Generated images can be used for commercial projects such as campaigns, client work, and ecommerce listings."
+      }
+    },
+    "perfectFor": {
+      "title": "Who joymagic Is Perfect For",
+      "description": "Built for creators, brands, and designers who need clean, professional images.",
+      "photographers": {
+        "title": "Photographers & Creators",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up photos before publishing</li><li>Remove unwanted elements from shots</li><li>Prepare images for portfolios and galleries</li><li>Remove watermarks from your own work</li></ul><p class=\"text-sm text-muted-foreground italic\">Enhance your photography with AI-powered editing.</p>"
+      },
+      "ecommerce": {
+        "title": "Ecommerce & Small Brands",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up product photos</li><li>Remove distracting backgrounds</li><li>Remove watermarks and logos from stock images (with permission)</li><li>Prepare images for product listings</li></ul><p class=\"text-sm text-muted-foreground italic\">Get professional product photos without expensive editing.</p>"
+      },
+      "designers": {
+        "title": "Designers & Agencies",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Quickly clean up images for client projects</li><li>Remove unwanted elements from mockups</li><li>Prepare images for presentations and proposals</li><li>Save time on manual editing tasks</li></ul><p class=\"text-sm text-muted-foreground italic\">joymagic fits neatly into your existing design workflow.</p>"
+      }
+    },
+    "faq": {
+      "title": "AI 이미지 지우개 FAQ",
+      "description": "당사의 AI 이미지 지우개에 대한 일반적인 질문.",
+      "q1": {
+        "question": "어떤 이미지 형식이 지원됩니까?",
+        "answer": "JPG, JPEG, PNG, WEBP 및 HEIC를 지원합니다. 명확하고 고품질의 이미지로 최상의 결과를 얻을 수 있습니다."
+      },
+      "q2": {
+        "question": "편집된 이미지에 워터마크가 있나요?",
+        "answer": "아니요. 모든 다운로드는 깨끗하고 워터마크가 없습니다."
+      },
+      "q3": {
+        "question": "복잡한 제거에 얼마나 좋은가요?",
+        "answer": "당사의 AI는 큰 객체, 군중 속의 사람들, 질감이 있는 배경에서 뛰어납니다. 초미세 세부 사항의 경우 더 작은 브러시 스트로크를 사용하세요."
+      },
+      "q4": {
+        "question": "한 이미지에서 여러 객체를 제거할 수 있나요?",
+        "answer": "예 – 생성하기 전에 필요한 만큼 많은 영역을 브러시로 칠할 수 있습니다."
+      },
+      "q5": {
+        "question": "여러 이미지를 한 번에 처리할 수 있나요?",
+        "answer": "예 – 일괄 모드를 사용하면 한 세션에서 여러 사진을 업로드하고 객체를 지울 수 있습니다."
+      },
+      "q6": {
+        "question": "내 데이터가 안전한가요?",
+        "answer": "예. 업로드된 이미지는 안전하게 처리되며 처리 후 자동으로 삭제됩니다. 학습에는 사용하지 않습니다."
+      }
+    },
+    "privacySecurity": {
+      "title": "개인정보 보호 및 보안",
+      "description": "귀하의 이미지와 개인정보가 우리의 최우선 과제입니다.",
+      "secureProcessing": "모든 업로드는 안전하게 처리되고 암호화됩니다",
+      "autoDelete": "이미지는 처리 후 자동으로 삭제됩니다",
+      "neverShared": "제3자와 공유되지 않으며 AI 학습에도 사용되지 않습니다"
+    },
+    "finalCTA": {
+      "title": "어수선한 사진을 깨끗하고 놀라운 비주얼로 바꾸세요.",
+      "description": "지금 joymagic의 AI 이미지 지우개를 시도하고 몇 초 만에 원하지 않는 것을 제거하세요.<br/><span class=\"text-muted-foreground\">디자인 기술 불필요 · 무료로 시도</span>",
+      "button": "지금 객체 제거하기"
+    }
+  }
+}
+

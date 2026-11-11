@@ -1,0 +1,146 @@
+{
+  "steps": {
+    "sourceImage": {
+      "title": "Quellbilder hochladen",
+      "hint": "Laden Sie bis zu {max} Bilder hoch (JPG/PNG/WEBP)",
+      "dragDrop": "Ziehen & Ablegen oder klicken zum Hochladen",
+      "dropHere": "Bilder hier ablegen"
+    },
+    "aspectRatio": {
+      "title": "Seitenverhältnis auswählen",
+      "placeholder": "Seitenverhältnis auswählen",
+      "auto": "Automatisch",
+      "hint": "Wählen Sie das Ausgabe-Seitenverhältnis für Ihr Nano-Banana Bild-zu-Bild-Ergebnis"
+    },
+    "prompt": {
+      "title": "Bearbeitungs-Prompt eingeben",
+      "placeholder": "Beschreiben Sie, wie Sie die Bilder bearbeiten möchten, z.B. 'In Anime-Stil ändern', 'Ölgemälde-Effekt anwenden', 'Filmisch aussehen lassen'",
+      "hint": "Seien Sie spezifisch bei den gewünschten Bearbeitungen — Stil, Stimmung, Beleuchtung und Details"
+    },
+    "generate": {
+      "title": "Bearbeitete Bilder generieren",
+      "cta": "Generieren",
+      "generating": "Wird generiert..."
+    }
+  },
+  "preview": {
+    "title": "Vorschau",
+    "original": "Original",
+    "swap": "Tauschen",
+    "placeholder": "Laden Sie Bilder hoch und geben Sie einen Bearbeitungs-Prompt ein, um hier das Nano-Banana Bild-zu-Bild-Ergebnis anzuzeigen."
+  },
+  "common": {
+    "selectedCount": "Ausgewählt: {count}/{max} Bilder",
+    "notSelected": "Nicht ausgewählt"
+  },
+  "errors": {
+    "invalidFileType": "Ungültiger Dateityp. Bitte laden Sie eine Bilddatei hoch (JPG, PNG, WEBP).",
+    "uploadFailed": "Hochladen fehlgeschlagen: {error}",
+    "uploadFailedGeneric": "Hochladen fehlgeschlagen",
+    "sourceImageRequired": "Bitte laden Sie mindestens ein Quellbild hoch",
+    "promptRequired": "Bitte geben Sie einen Bearbeitungs-Prompt ein",
+    "generationFailed": "Bildbearbeitung fehlgeschlagen",
+    "taskFailed": "Aufgabenverarbeitung fehlgeschlagen",
+    "taskTimeout": "Zeitüberschreitung bei der Aufgabenverarbeitung, bitte versuchen Sie es später erneut",
+    "taskIdNotFound": "Aufgaben-ID konnte nicht abgerufen werden, bitte überprüfen Sie das API-Antwortformat",
+    "processingFailed": "Verarbeitung fehlgeschlagen, bitte versuchen Sie es erneut",
+    "statusQueryFailed": "Abfrage des Aufgabenstatus fehlgeschlagen",
+    "apiResponseParseFailed": "Analyse der API-Antwort fehlgeschlagen"
+  },
+  "page": {
+    "metadata": {
+      "title": "Nano Banana Bild-zu-Bild KI-Editor — Bilder online kostenlos transformieren | joymagic",
+      "description": "Verwenden Sie Nano Banana Bild-zu-Bild-KI, um Bilder online zu bearbeiten und zu transformieren. Laden Sie bis zu 10 Bilder hoch, wählen Sie aus über 10 Seitenverhältnissen und wenden Sie Nano-Banana-gestützte Stilübertragung, Verbesserung und kreative Bild-zu-Bild-Transformationen in Sekunden an.",
+      "keywords": "nano banana 2, nano-banana, nano banana 2 bild-zu-bild, bild-zu-bild KI, nano-banana bildeditor, KI bild-zu-bild transformation, stapel bild-zu-bild bearbeitung, nano banana 2 KI, online bild-zu-bild editor, nano-banana seitenverhältnis"
+    },
+    "hero": {
+      "title": "Nano Banana Bild-zu-Bild — KI-Bildeditor & Transformer",
+      "description": "Transformieren Sie Ihre Bilder mit dem <strong class=\"text-primary font-semibold\">Nano Banana Bild-zu-Bild</strong> KI-Editor. Laden Sie bis zu <strong class=\"text-primary font-semibold\">10 Bilder</strong> hoch, wählen Sie aus über 10 Seitenverhältnissen und wenden Sie Nano-Banana-gestützte Bild-zu-Bild-Bearbeitungen an — Stilübertragung, Farbkorrektur, künstlerische Effekte und kreative Transformationen — alles in Sekunden.",
+      "button1": "Nano Banana Bild-zu-Bild ausprobieren",
+      "button2": "Preise ansehen"
+    },
+    "keyFeatures": {
+      "title": "Warum Nano Banana für Bild-zu-Bild-Bearbeitung wählen?",
+      "description": "Fortschrittliche KI-Bild-zu-Bild-Bearbeitung mit Nano-Banana-Technologie",
+      "multiImage": {
+        "title": "Stapel-Bild-zu-Bild mit Nano Banana",
+        "description": "Laden Sie bis zu 10 Bilder gleichzeitig für die Stapel-Bild-zu-Bild-Bearbeitung mit Nano-Banana hoch. Verarbeiten Sie mehrere Bilder gleichzeitig mit einheitlichem Stil und Qualität."
+      },
+      "aspectRatio": {
+        "title": "Nano Banana Seitenverhältnis-Steuerung",
+        "description": "Nano-Banana-2 Bild-zu-Bild unterstützt über 10 Seitenverhältnisse einschließlich 1:1, 3:2, 2:3, 3:4, 4:3, 4:5, 5:4, 9:16, 16:9 und 21:9 für perfekte Ausgabedimensionen."
+      },
+      "smartEdit": {
+        "title": "Intelligente Bild-zu-Bild-Bearbeitung",
+        "description": "Nano Banana versteht Bildkontext und Semantik für präzise, natürlich aussehende Bild-zu-Bild-Transformationen. Intelligente KI, die weiß, was geändert und was beibehalten werden soll."
+      },
+      "affordable": {
+        "title": "Erschwingliche Nano Banana Preise",
+        "description": "Kostengünstige Nano-Banana Bild-zu-Bild-Transformationen mit professioneller KI-Bearbeitung, zugänglich für jede Projektgröße."
+      }
+    },
+    "promptingTips": {
+      "title": "So erzielen Sie die besten Nano Banana Bild-zu-Bild-Ergebnisse",
+      "specific": {
+        "title": "Seien Sie spezifisch in Ihren Prompts",
+        "description": "Für optimale Nano-Banana Bild-zu-Bild-Ergebnisse beschreiben Sie genau, welche Bearbeitungen Sie wünschen. Beispiele: \"In Aquarellstil transformieren\" oder \"Filmische Farbkorrektur mit warmen Tönen hinzufügen\"."
+      },
+      "style": {
+        "title": "Künstlerischen Stil angeben",
+        "description": "Wenn Sie Nano Banana Bild-zu-Bild verwenden, nennen Sie den Zielstil deutlich: \"Anime-Illustration\", \"Ölgemälde\", \"fotorealistische Verbesserung\", \"Vintage-Film-Look\" usw."
+      },
+      "color": {
+        "title": "Farb- und Stimmungsrichtung",
+        "description": "Leiten Sie Nano-Banana Bild-zu-Bild mit Farb- und Stimmungshinweisen: \"lebendige gesättigte Farben\", \"sanfte Pastelltöne\", \"dunkle stimmungsvolle Atmosphäre\", \"goldene Stunde Wärme\" usw."
+      },
+      "details": {
+        "title": "Detaillierte Anweisungen hinzufügen",
+        "description": "Maximieren Sie die Nano Banana Bild-zu-Bild-Qualität, indem Sie Beleuchtung, Komposition, Textur und welche Elemente beibehalten oder transformiert werden sollen, angeben."
+      }
+    },
+    "faq": {
+      "title": "Nano Banana Bild-zu-Bild FAQ",
+      "description": "Häufig gestellte Fragen zum Nano Banana Bild-zu-Bild KI-Editor",
+      "q1": {
+        "question": "Wie viele Bilder kann ich gleichzeitig mit Nano Banana Bild-zu-Bild bearbeiten?",
+        "answer": "Mit dem Nano Banana Bild-zu-Bild-Editor können Sie bis zu 10 Bilder gleichzeitig für die Stapel-Bild-zu-Bild-Bearbeitung mit Nano-Banana-KI hochladen."
+      },
+      "q2": {
+        "question": "Welche Seitenverhältnisse unterstützt Nano Banana Bild-zu-Bild?",
+        "answer": "Nano Banana Bild-zu-Bild unterstützt über 10 Seitenverhältnisse: 1:1, 3:2, 2:3, 3:4, 4:3, 4:5, 5:4, 9:16, 16:9 und 21:9. Sie können auch den Automatik-Modus verwenden, damit Nano-Banana entscheidet."
+      },
+      "q3": {
+        "question": "Welche Bildformate unterstützt Nano Banana Bild-zu-Bild?",
+        "answer": "Nano Banana Bild-zu-Bild unterstützt PNG-, JPEG-, JPG- und WebP-Formate. Für beste Nano-Banana-Ergebnisse verwenden Sie klare, gut beleuchtete Quellbilder."
+      },
+      "q4": {
+        "question": "Wie schreibe ich effektive Prompts für Nano Banana Bild-zu-Bild?",
+        "answer": "Für beste Nano-Banana Bild-zu-Bild-Ergebnisse fügen Sie detaillierte Beschreibungen hinzu: Zielstil, Stimmung, Beleuchtung, Farbpalette und Komposition. Mehr Details erzeugen in der Regel bessere Nano Banana Transformationen."
+      },
+      "q5": {
+        "question": "Was unterscheidet Nano Banana Bild-zu-Bild von anderen KI-Editoren?",
+        "answer": "Nano Banana verwendet fortschrittliche Nano-Banana-KI-Technologie für kontextbewusste, semantisch intelligente Bild-zu-Bild-Transformationen mit flexibler Seitenverhältnis-Steuerung. Es versteht Bildinhalte tiefgehend und erzeugt natürliche und präzise Bild-zu-Bild-Bearbeitungen."
+      }
+    },
+    "finalCTA": {
+      "title": "Bereit, Nano Banana Bild-zu-Bild auszuprobieren?",
+      "description": "Beginnen Sie noch heute mit der Transformation Ihrer Bilder mit Nano-Banana Bild-zu-Bild-KI. Schnelle, hochwertige, intelligente Bild-zu-Bild-Transformationen auf Knopfdruck.",
+      "button": "Nano Banana Bild-zu-Bild jetzt ausprobieren"
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "imageToImage": "Bild zu Bild",
+      "nanoBanana": "Nano Banana"
+    },
+    "schema": {
+      "softwareName": "Nano Banana Bild-zu-Bild KI-Editor — joymagic",
+      "howToName": "So verwenden Sie den Nano Banana Bild-zu-Bild KI-Editor",
+      "howToDescription": "Erfahren Sie, wie Sie Bilder mit der Nano-Banana Bild-zu-Bild-KI-Technologie bearbeiten und transformieren. Laden Sie Bilder hoch, wählen Sie das Seitenverhältnis und wenden Sie intelligente KI-gestützte Bild-zu-Bild-Bearbeitungen an.",
+      "features": {
+        "aiImageEditing": "Nano Banana Bild-zu-Bild KI-Bearbeitung",
+        "multiImage": "Stapel-Bild-zu-Bild mit Nano Banana",
+        "aspectRatio": "Nano Banana Seitenverhältnis-Steuerung"
+      }
+    }
+  }
+}

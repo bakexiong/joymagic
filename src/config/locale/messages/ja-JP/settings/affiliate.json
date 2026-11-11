@@ -1,0 +1,120 @@
+{
+  "title": "Affiliate",
+  "description": "Apply for the affiliate program, get your referral link, and track commissions and payouts.",
+  "dashboard": {
+    "back": "Go back to My Space",
+    "heading": "My Affiliate",
+    "intro": "You have become a member of our marketing alliance. On this page, you can view data and information related to your marketing activities.",
+    "link_title": "Affiliate Link",
+    "link_description": "Send the invitation link to your friends or co-workers to join us. The more you share, the more money you get. Win-Win!",
+    "copy": "Copy Link",
+    "copied": "Copied",
+    "metrics": {
+      "total": "Total Earnings",
+      "pending": "Pending Earnings",
+      "available": "Available to Withdraw",
+      "paid": "Paid Earnings",
+      "referrals": "Total Referrals"
+    },
+    "tabs": {
+      "dashboard": "Dashboard",
+      "commissions": "Commissions",
+      "payouts": "Payouts"
+    },
+    "table": {
+      "date": "Date",
+      "visitors": "Visitors",
+      "registers": "Registers",
+      "payments": "Payments",
+      "earnings": "Earnings",
+      "empty": "Share your link above and earn your first commission!"
+    },
+    "copy_discount_code": "割引コードをコピー"
+  },
+  "summary": {
+    "code": "Affiliate code",
+    "pending_commission": "Pending commission",
+    "available_commission": "Available commission",
+    "paid_commission": "Paid commission",
+    "referred_users": "Referred users",
+    "converted_orders": "Converted orders"
+  },
+  "status": {
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "canceled": "Canceled",
+    "active": "Active",
+    "suspended": "Suspended",
+    "blacklisted": "Blacklisted",
+    "closed": "Closed",
+    "requested": "Requested",
+    "paid": "Paid"
+  },
+  "application": {
+    "title": "Apply to become an affiliate",
+    "description": "Share your payout and channel details. Once approved, you will receive your own referral link.",
+    "desired_tier": "Requested tier",
+    "standard": "Standard affiliate",
+    "kol": "KOL / large channel",
+    "paypal_email": "PayPal email",
+    "social_platform": "Platform",
+    "social_account": "Account / link",
+    "channel_summary": "Channel summary",
+    "application_note": "Additional note",
+    "submit": "Submit application",
+    "pending_title": "Application under review",
+    "pending_description": "Your application has been submitted and is waiting for review.",
+    "latest_status": "Latest application status",
+    "reject_reason": "Reject reason"
+  },
+  "profile": {
+    "title": "Affiliate profile",
+    "description": "Your referral entry and current revenue-share status.",
+    "referral_link": "Referral link",
+    "tier": "Tier",
+    "payout_email": "Payout email",
+    "copy_hint": "Share this link in your social posts, communities, or content pages. Attribution will be captured automatically."
+  },
+  "payout": {
+    "title": "Request payout",
+    "description": "You can request a payout after reaching the minimum threshold.",
+    "minimum": "Minimum payout threshold",
+    "in_progress": "A payout request is already in progress, so a new one cannot be submitted yet.",
+    "paypal_email": "PayPal email",
+    "note": "Note",
+    "submit": "Request payout",
+    "placeholder": "For example: please pay to my PayPal address"
+  },
+  "agreement": {
+    "title": "Program terms",
+    "cookie_ttl": "Attribution window",
+    "confirm_days": "Commission confirmation delay",
+    "rates": "Default commission rates",
+    "minimum_payout": "Minimum payout amount"
+  },
+  "lists": {
+    "commissions": "Recent commissions",
+    "payouts": "Recent payouts",
+    "empty_commissions": "No commissions yet",
+    "empty_payouts": "No payouts yet",
+    "first_order": "First order",
+    "renewal": "Renewal",
+    "occurred_at": "Occurred at",
+    "requested_at": "Requested at",
+    "amount": "Amount",
+    "status": "Status",
+    "type": "Type"
+  },
+  "unit": {
+    "days": "days"
+  },
+  "auth": {
+    "empty": "アフィリエイトセンターを見るにはサインインしてください。"
+  },
+  "errors": {
+    "load_dashboard": "アフィリエイトダッシュボードの読み込みに失敗しました",
+    "submit_application": "アフィリエイト申請の送信に失敗しました",
+    "request_payout": "払い出し申請の送信に失敗しました"
+  }
+}

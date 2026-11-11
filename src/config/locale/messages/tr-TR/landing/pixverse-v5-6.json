@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "PixVerse v5.6 metinden videoya | Ücretsiz yapay zeka video oluşturucu - joymagic",
+    "description": "joymagic üzerinde PixVerse v5.6 metinden videoya özelliğini kullanarak Türkçe veya İngilizce istemleri HD kısa videolara dönüştürün. Esnek çözünürlükler, sabit süreler ve isteğe bağlı ses üretimi, şeffaf bir kredi sistemiyle birlikte gelir.",
+    "keywords": "PixVerse v5.6 metinden videoya,text-to-video,yapay zeka video oluşturucu,yapay zeka kısa video,HD metinden videoya"
+  },
+  "pixverse56": {
+    "form": {
+      "prompt": {
+        "label": "İstem",
+        "placeholder": "İstediğiniz videoyu tarif edin: sahne, karakterler, hareket, kamera açıları, ışık, atmosfer…",
+        "tooltip": "PixVerse v5.6 metinden videoya için ana pozitif istemdir. Mümkün olduğunda konu, sahne, hareket ve genel atmosferi ekleyin."
+      },
+      "negativePrompt": {
+        "label": "Negatif istem",
+        "placeholder": "İsteğe bağlı: videoda görmek istemediğiniz şeyler, örn. bulanıklık, bozulma, düşük kaliteli yazı…",
+        "tooltip": "\"bulanık, bozulmuş, düşük çözünürlüklü, kötü yazı\" gibi kaçınmak istediğiniz öğe veya stilleri tarif edin."
+      },
+      "resolutionRatio": {
+        "label": "Görüntü oranı (resolution_ratio)"
+      },
+      "resolution": {
+        "label": "Çözünürlük"
+      },
+      "duration": {
+        "label": "Süre (saniye)"
+      },
+      "generateAudio": {
+        "label": "Ses üret (generate_audio_switch)",
+        "description": "Etkinleştirildiğinde, PixVerse video için senkronize ses (müzik / ortam / basit efektler) üretir.",
+        "tooltip": "PixVerse yerel sesini açmak için etkinleştirin; bu, ses dahil fiyat kombinasyonlarını kullanır."
+      },
+      "thinkingType": {
+        "label": "Thinking modu (thinking_type)",
+        "tooltip": "PixVerse muhakeme gücünü kontrol eder: enabled kaliteyi, disabled hızı önceliklendirir, auto ise seçimi servise bırakır."
+      },
+      "seed": {
+        "label": "Seed"
+      },
+      "image": {
+        "label": "Görsel (referans)",
+        "tooltip": "Bir referans görseli yükleyin. PixVerse bu görseli isteminize göre canlandıracaktır.",
+        "hint": "Dosyayı buraya sürükleyip bırakın veya yüklemek için tıklayın.",
+        "dropHere": "Görseli buraya bırakın",
+        "dragDrop": "Dosyayı sürükleyip bırakın veya yüklemek için tıklayın"
+      },
+      "imageRequired": "PixVerse görüntüden videoya için lütfen bir görsel yükleyin.",
+      "buttons": {
+        "reset": "Sıfırla",
+        "run": "Oluştur",
+        "generating": "Oluşturuluyor..."
+      }
+    },
+    "preview": {
+      "placeholder": "Bir istem yazıp \"Çalıştır\"a tıkladıktan sonra PixVerse v5.6 bir video üretecek ve önizlemeyi burada gösterecektir."
+    },
+    "status": {
+      "idle": "Boşta",
+      "processing": "İşleniyor",
+      "completed": "Tamamlandı",
+      "estimating": "Tahmin ediliyor..."
+    },
+    "buttons": {
+      "credits": "kredi",
+      "click_to_pay": "Ödemeye git"
+    },
+    "actions": {
+      "downloadVideo": "Videoyu indir",
+      "downloadFailed": "Video indirme başarısız oldu"
+    },
+    "errors": {
+      "promptRequired": "Lütfen bir istem girin",
+      "generationFailed": "Video oluşturma başarısız oldu",
+      "taskFailed": "Görev işlenemedi",
+      "taskTimeout": "Görev zaman aşımına uğradı, lütfen daha sonra tekrar deneyin",
+      "taskIdNotFound": "Görev kimliği alınamadı, lütfen API yanıt biçimini kontrol edin",
+      "processingFailed": "İşleme başarısız, lütfen tekrar deneyin",
+      "statusQueryFailed": "Görev durumu alınamadı",
+      "apiResponseParseFailed": "PixVerse API yanıtı çözümlenemedi",
+      "unsupportedCombination1080p10s": "1080p ile 10 saniye kombinasyonu desteklenmiyor. Lütfen 1080p için 5 s veya 8 s seçin.",
+      "invalidFileType": "Geçersiz dosya türü.",
+      "uploadFailed": "Yükleme başarısız: {error}",
+      "uploadFailedGeneric": "Yükleme başarısız",
+      "recordingFailed": "Kayıt başlatılamadı. Lütfen mikrofon izinlerini kontrol edin.",
+      "estimate_failed": "Kredi tahmini başarısız"
+    }
+  },
+  "pixverse56Page": {
+    "metadata": {
+      "title": "PixVerse v5.6 metinden videoya | Yapay zeka metin-videoya dönüştürücü - joymagic",
+      "description": "joymagic üzerinde PixVerse v5.6 metinden videoya, metin istemlerini esnek çözünürlükler, sabit süreler ve isteğe bağlı ses üretimiyle HD kısa videolara dönüştürmenizi sağlar. Parametre kombinasyonlarına dayalı kredi fiyatlandırma sistemi, maliyetleri öngörülebilir kılar.",
+      "keywords": "PixVerse v5.6 metinden videoya,text-to-video,yapay zeka metin-videoya,PixVerse video,yapay zeka kısa video,joymagic"
+    },
+    "hero": {
+      "title": "PixVerse v5.6 metinden videoya oluşturucu",
+      "description": "joymagic üzerinde PixVerse v5.6 metinden videoya kullanarak Türkçe veya İngilizce istemleri yüksek kaliteli kısa videolara dönüştürün. Esnek çözünürlük, süre ve ses kontrolleri, yaratıcılar, markalar ve ekipler için idealdir.",
+      "button1": "Video oluştur",
+      "button2": "Fiyatları gör"
+    },
+    "intro": "PixVerse v5.6 metinden videoya, joymagic'nin parametre kombinasyonlu kredi fiyatlandırma sistemine bağlıdır. Böylece çözünürlük, süre ve ses ayarlarını özgürce kombinlerken, metinden videoya maliyetlerini şeffaf ve öngörülebilir tutabilirsiniz.",
+    "features": {
+      "title": "Neden joymagic üzerinde PixVerse v5.6 metinden videoya kullanmalısınız?",
+      "items": {
+        "multiResolution": {
+          "title": "Esnek çözünürlük ve süre ızgarası",
+          "description": "360p, 540p, 720p ve 1080p desteklenir ve 5 / 8 / 10 saniyelik sabit ön ayarlar sunar. 1080p için yalnızca 5 s ve 8 s kullanılabilir; 10 s kombinasyonu arayüzde devre dışı bırakılır ve fiyat kontrolünde reddedilir."
+        },
+        "audio": {
+          "title": "İsteğe bağlı ses üretimi",
+          "description": "Yerel sesi eklemek için generate_audio_switch'i açın. Fiyatlandırma, ses açık/kapalı parametre kombinasyonlarına otomatik olarak eşleştirilir; böylece ne için ödeme yaptığınızı her zaman bilirsiniz."
+        },
+        "thinking": {
+          "title": "Akıllı thinking modları",
+          "description": "thinking_type, enabled, disabled ve auto'yu destekler. enabled kaliteyi, disabled hızı önceliklendirir; auto ise arka ucun her istek için en uygun seçimi yapmasına izin verir ve genellikle en iyi varsayılandır."
+        },
+        "safety": {
+          "title": "Entegre güvenlik ve fiyat kontrolleri",
+          "description": "joymagic'nin güvenlik politikaları ve kredi tahmin sistemi üzerinden çalışır. 1080p × 10 s gibi desteklenmeyen kombinasyonlar, hem arayüzde hem de arka uç doğrulamasında engellenerek zaman ve kredi israfını önler."
+        }
+      }
+    },
+    "faq": {
+      "title": "PixVerse v5.6 metinden videoya hakkında sık sorulan sorular",
+      "q1": {
+        "question": "PixVerse v5.6 hangi çözünürlük ve süreleri destekliyor?",
+        "answer": "PixVerse v5.6 şu anda 360p, 540p, 720p ve 1080p çözünürlüklerini, 5, 8 ve 10 saniyelik sürelerle destekler. 1080p için yalnızca 5 s ve 8 s mevcuttur. 1080p × 10 s kombinasyonu arayüzde devre dışı bırakılır ve fiyatlandırma ile arka uç doğrulamasında desteklenmeyen olarak işlenir."
+      },
+      "q2": {
+        "question": "generate_audio_switch neyi kontrol eder?",
+        "answer": "generate_audio_switch, yerel ses üretimini açıp kapatır. Kapalı olduğunda yalnızca video için ödeme yaparsınız; açık olduğunda, parametre kombinasyon tablosu aracılığıyla temel video fiyatına bir ses ek ücreti eklenir."
+      },
+      "q3": {
+        "question": "thinking_type modları arasındaki fark nedir?",
+        "answer": "enabled daha güçlü bir muhakeme sürecini etkinleştirerek kompozisyon ve hareketi daha kararlı hale getirir, ancak gecikmeyi biraz artırır; disabled hızı önceliklendirir; auto ise her istek için servisin seçim yapmasına izin verir ve çoğu kullanıcı için önerilir."
+      },
+      "q4": {
+        "question": "Tekrarlanabilir sonuçları nasıl elde edebilirim?",
+        "answer": "Seed parametresini kullanın. Varsayılan -1 değeri her seferinde rastgele bir seed kullanır; benzer çıktılar elde etmek istiyorsanız sabit bir seed değeri ayarlayın ve sonraki üretimlerde de aynı değeri kullanın."
+      }
+    },
+    "finalCTA": {
+      "title": "PixVerse v5.6 metinden videoya ile üretmeye başlayın",
+      "description": "Basit bir istem yazın ve PixVerse v5.6 metinden videoya'nın birkaç dakika içinde sosyal medya, reklam konseptleri ve hikâye anlatımı için kısa videolar üretmesine izin verin. Aşağıdaki playground kredi sistemiyle bağlantılıdır ve çalıştırmadan önce tahmini maliyetleri gösterir.",
+      "button": "Oluşturmaya başla"
+    },
+    "breadcrumb": {
+      "home": "Ana sayfa",
+      "pageName": "PixVerse v5.6 metinden videoya"
+    }
+  }
+}

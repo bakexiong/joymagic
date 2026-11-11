@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "title": "YZ Efekt | joymagic",
+    "description": "Video efektlerini ve gorsel efektlerini tek bir yerde kesfedin, sonra uygun olusturma akisina tek tikla gecin."
+  },
+  "badge": "YZ Efekt",
+  "title": "YZ Efekt",
+  "description": "Tek bir galeride video efektleri ile gorsel efektleri arasinda gecis yapin ve uygun olusturma akisina tek tikla ilerleyin.",
+  "cta": {
+    "video": "Benzer video olustur"
+  },
+  "tabs": {
+    "video": "Video Efektleri",
+    "image": "Gorsel Efektleri"
+  }
+}

@@ -1,0 +1,14 @@
+-- CREATE TABLE "prompt_enhance_log" (
+-- 	"id" text PRIMARY KEY NOT NULL,
+-- 	"user_id" text NOT NULL,
+-- 	"source" text DEFAULT 'manual' NOT NULL,
+-- 	"mode" text DEFAULT 'image' NOT NULL,
+-- 	"scene" text DEFAULT '' NOT NULL,
+-- 	"original_prompt" text NOT NULL,
+-- 	"optimized_prompt" text NOT NULL,
+-- 	"created_at" timestamp DEFAULT now() NOT NULL
+-- );
+-- --> statement-breakpoint
+-- ALTER TABLE "prompt_enhance_log" ADD CONSTRAINT "prompt_enhance_log_user_id_user_id_fk" FOREIGN KEY ("user_id") REFERENCES "public"."user"("id") ON DELETE cascade ON UPDATE no action;--> statement-breakpoint
+-- CREATE INDEX "idx_prompt_enhance_log_user_created" ON "prompt_enhance_log" USING btree ("user_id","created_at");--> statement-breakpoint
+-- CREATE INDEX "idx_prompt_enhance_log_source_created" ON "prompt_enhance_log" USING btree ("source","created_at");

@@ -1,0 +1,50 @@
+{
+  "whyModelTitle": "Por que este modelo",
+  "whyModelDescription": "Uma página de modelo bem focada deve explicar onde este modelo é mais forte, quando usá-lo e por que ele merece um ponto de entrada próprio no fluxo de trabalho.",
+  "howItWorksTitle": "Como funciona",
+  "howItWorksDescription": "A página foi estruturada para ajudar o usuário a sair do entendimento do modelo e entrar em ação sem sair do fluxo principal de criação.",
+  "howItWorksSteps": [
+    {
+      "step": "01",
+      "title": "Escolha um modo",
+      "copy": "Alterne entre os principais modos de criação do modelo e entre no fluxo que combina melhor com a sua intenção."
+    },
+    {
+      "step": "02",
+      "title": "Adicione prompt ou referências",
+      "copy": "Comece a partir de texto, imagens de referência ou ambos, dependendo se você está gerando do zero ou refinando assets já existentes."
+    },
+    {
+      "step": "03",
+      "title": "Gere e compare",
+      "copy": "Use o workbench para iterar rapidamente, comparar direções e levar adiante as melhores opções."
+    },
+    {
+      "step": "04",
+      "title": "Continue no creator",
+      "copy": "Quando você encontrar uma direção forte, entre no fluxo do creator para continuar trabalhando sem reconstruir o contexto."
+    }
+  ],
+  "workflowsTitle": "Uma única superfície de modelo, vários fluxos verticais",
+  "workflowsDescription": "Em vez de apresentar primeiro cartões de recursos, a página segue a intenção real de cada cena. Cada modo explica para que serve, como guiá-lo e como começar com um prompt funcional.",
+  "bestForTitle": "Ideal para",
+  "bestForDescription": "Uma organização por caso de uso ajuda o usuário a entender não só o que o modelo faz, mas também onde ele se encaixa melhor em um trabalho real de produção.",
+  "galleryTitle": "Uma página premium de modelo deve explicar o resultado, não escondê-lo atrás de módulos",
+  "galleryDescription": "O ritmo geral segue um layout editorial vertical: hero primeiro, workbench depois, então lógica de cena, posicionamento de produto e prova com outputs reais. Isso mantém a página densa sem virar uma parede de cards.",
+  "galleryLead": "A prova deve vir dos outputs reais. O texto ao redor permanece compacto, legível e secundário.",
+  "faqTitle": "Enquadramento de produto, não só estilo de página",
+  "faqDescription": "As respostas seguem o mesmo ritmo vertical, para que a página continue parecendo uma narrativa única de produto, e não um conjunto de módulos soltos.",
+  "openWithPrompt": "Abrir com prompt",
+  "openInCreator": "Abrir no creator",
+  "sampleLabel": "Exemplo",
+  "fallbackSampleTitle": "Exemplo do modelo",
+  "fallbackSampleCaption": "Um exemplo real selecionado do conjunto de gerações deste modelo.",
+  "controls": {
+    "promptWorkflow": "Fluxo por prompt",
+    "creatorSync": "Sync com creator",
+    "uploadUpToRefs": "Envie até {count} referências",
+    "referenceUploads": "Upload de referências",
+    "aspectRatios": "{count}+ proporções",
+    "resolutionPresets": "{count} presets de resolução"
+  }
+}

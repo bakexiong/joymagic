@@ -1,0 +1,245 @@
+{
+  "header": {
+    "title": "Kreative Kategorien entdecken",
+    "subtitle": "Alle Tools, die du zum Erstellen, Bearbeiten und Gestalten brauchst."
+  },
+  "common": {
+    "prompt": "Prompt",
+    "before": "Vorher",
+    "after": "Nachher",
+    "image": "Bild",
+    "video": "Video",
+    "freeTrial": "Gratis testen"
+  },
+  "cards": {
+    "imageToVideo": {
+      "title": "Bild zu Video",
+      "description": "Bilder in Videos animieren",
+      "inputAlt": "Bild-zu-Video-Eingabe",
+      "outputTitle": "Bild-zu-Video-Ausgabe"
+    },
+    "textToVideo": {
+      "title": "Text zu Video",
+      "description": "Videos aus Text-Prompts erstellen"
+    },
+    "longcatAvatar": {
+      "title": "Lip-Sync",
+      "description": "Sprechende Avatar-Videos aus Bild und Audio erstellen",
+      "inputAlt": "Longcat-Avatar-Bildeingabe",
+      "outputAlt": "Longcat-Avatar-Videoausgabe"
+    },
+    "editorCombiner": {
+      "title": "Editor & Kombinierer",
+      "description": "Bearbeiten, kombinieren und erstellen",
+      "referencePortraitAlt": "Editor-Referenzporträt",
+      "referenceProductAlt": "Editor-Referenzprodukt",
+      "outputAlt": "Editor-Kombinationsausgabe"
+    },
+    "imageToImage": {
+      "title": "Bild zu Bild",
+      "description": "Bilder mit KI transformieren"
+    },
+    "textToImage": {
+      "title": "Text zu Bild",
+      "description": "Bilder aus Text-Prompts generieren"
+    },
+    "photoShoot": {
+      "title": "Fotoshooting",
+      "description": "KI-Fotoshootings in jedem Stil",
+      "coverAlt": "Fotoshooting-Cover",
+      "coverBadge": "Cover",
+      "scenesBadge": "Szenen"
+    },
+    "variations": {
+      "title": "Variationen",
+      "description": "Variationen aus jedem Bild erstellen",
+      "inputAlt": "Variations-Eingabe",
+      "inputBadge": "Eingabe",
+      "outputBadge": "Ausgabe"
+    },
+    "faceGenerator": {
+      "title": "Gesichtsgenerator",
+      "description": "Realistische Gesichter generieren"
+    },
+    "imageUpscaler": {
+      "title": "Bild hochskalieren",
+      "description": "Bildauflösung verbessern",
+      "beforeAlt": "Vor dem Hochskalieren",
+      "afterAlt": "Nach dem Hochskalieren",
+      "lowRes": "Niedrige Auflösung",
+      "enhanced": "Verbessert"
+    },
+    "videoUpscaler": {
+      "title": "Video-Upscaler",
+      "description": "Videoqualität verbessern",
+      "hd": "HD",
+      "ultraHd": "Ultra HD"
+    },
+    "imageEffects": {
+      "title": "Bildeffekte",
+      "description": "Beeindruckende Effekte auf Bilder anwenden",
+      "chips": {
+        "original": "Original",
+        "filmLook": "Filmlook",
+        "goldenHour": "Goldene Stunde",
+        "blackWhite": "S/W"
+      }
+    },
+    "videoEffects": {
+      "title": "Videoeffekte",
+      "description": "Filmische Effekte zu Videos hinzufügen",
+      "chips": {
+        "cinematic": "Filmisch",
+        "slowMotion": "Zeitlupe",
+        "lightLeak": "Lichteinfall",
+        "vintage": "Vintage"
+      }
+    }
+  },
+  "mangoHomepage": {
+    "eyebrow": "KI-Bild, Video und Effekte in einem Erstellungssystem",
+    "heroDescription": "Durchsuchen Sie die echten Tools, die bereits in das Projekt integriert sind. Jede Karte unten verweist direkt auf einen funktionierenden Tool-Eintrag, wobei die Medien aus den aktuellen Produktbibliotheken oder Homepage-Showcases stammen.",
+    "tabs": {
+      "video-tools": {
+        "label": "Video-Tools",
+        "description": "Zeigen Sie eine Vorschau der wichtigsten Video-Workflows des Projekts an, von der aufforderungsbasierten Generierung über Bildanimationen bis hin zu wiederverwendbaren Effektvorlagen."
+      },
+      "image-tools": {
+        "label": "Bildwerkzeuge",
+        "description": "Beginnen Sie mit den wichtigsten Bild-Workflows, die Benutzer am häufigsten benötigen: Erstellen, Neugestalten, Hochskalieren, Entfernen von Hintergründen und Entfernen von Ablenkungen."
+      },
+      "image-effects": {
+        "label": "Bildeffekte",
+        "description": "Entdecken Sie gebrauchsfertige visuelle Stile, mit denen Sie Porträts und Fotos in einem Schritt in thematische Kunstwerke verwandeln können."
+      }
+    },
+    "sections": {
+      "imageEffects": {
+        "eyebrow": "Bildeffekte",
+        "title": "Weitere Bildeffektbeispiele aus der aktuellen Bibliothek"
+      },
+      "videoEffects": {
+        "eyebrow": "Videoeffekte",
+        "title": "Weitere Videoeffektbeispiele aus der aktuellen Bibliothek"
+      },
+      "popularPaths": {
+        "eyebrow": "Beliebte Wege",
+        "title": "Durchsuchen Sie weitere Werkzeugoberflächen, an denen Benutzer heute teilnehmen können"
+      }
+    },
+    "cta": {
+      "title": "Beginnen Sie auf der Startseite und fahren Sie dann in den echten Werkbänken fort",
+      "description": "Wechseln Sie von der Erkennung zu Bild-, Video- oder Effekt-Workflows, ohne die aktuelle Produktstruktur zu verlassen.",
+      "openImageWorkspace": "Öffnen Sie den Bildarbeitsbereich",
+      "openVideoWorkspace": "Öffnen Sie den Videoarbeitsbereich"
+    },
+    "cards": {
+      "openTool": "Werkzeug öffnen",
+      "aiVideoGenerator": {
+        "title": "KI-Videogenerator",
+        "description": "Generieren Sie Videos aus einer Textaufforderung für kurze Szenen, Anzeigenkonzepte, Mood Reels und Ideen für Charakterbewegungen."
+      },
+      "imageToVideo": {
+        "title": "Bild zu Video",
+        "description": "Verwandeln Sie ein einzelnes Bild in eine bewegende Aufnahme für Porträts, Produktpräsentationen und stimmungsvolle Clips."
+      },
+      "videoEffects": {
+        "title": "Videoeffekte",
+        "description": "Öffnen Sie die Videoeffektbibliothek, um vorgefertigte Bewegungsvorlagen und stilisierte filmische Aktionen anzuwenden."
+      },
+      "fashionStride": {
+        "title": "Modeschritt",
+        "description": "Ein Bewegungseffekt im Laufsteg-Stil, der dabei hilft, Standporträts in selbstbewusste, modeorientierte Clips zu verwandeln."
+      },
+      "dreamyWedding": {
+        "title": "Verträumte Hochzeit",
+        "description": "Ein romantischer Bewegungsstil, der für Hochzeitsvisualisierungen, Paarmomente und erinnerungsbasierte Bearbeitungen entwickelt wurde."
+      },
+      "walkForward": {
+        "title": "Gehen Sie vorwärts",
+        "description": "Fügen Sie eine natürliche Vorwärtsbewegung hinzu, die sich gut für Eingänge, Enthüllungen und dynamische Titelbilder eignet."
+      },
+      "aiImageGenerator": {
+        "title": "KI-Bildgenerator",
+        "description": "Generieren Sie Bilder aus Text für Poster, Charakterkonzepte, Produktvisualisierungen und Social-Cover."
+      },
+      "imageToImage": {
+        "title": "Bild zu Bild",
+        "description": "Gestalten Sie ein hochgeladenes Bild neu oder zeichnen Sie es neu, um Outfitänderungen, Szenenaktualisierungen und verbesserte visuelle Verbesserungen vorzunehmen."
+      },
+      "imageUpscaler": {
+        "title": "Bild-Upscaler",
+        "description": "Erhöhen Sie die Auflösung und stellen Sie mehr Details für Porträts, Produktfotos und Quellbilder mit geringer Qualität wieder her."
+      },
+      "backgroundRemover": {
+        "title": "Hintergrundentferner",
+        "description": "Entfernen Sie den Hintergrund mit einem Klick für Produktausschnitte, Profilelemente und transparente PNG-Exporte."
+      },
+      "imageEraser": {
+        "title": "Bildlöscher",
+        "description": "Löschen Sie unerwünschte Personen, Objekte oder Schönheitsfehler und lassen Sie die KI den gereinigten Bereich auf natürliche Weise ausfüllen."
+      },
+      "imageEffects": {
+        "title": "Bildeffekte",
+        "description": "Durchsuchen Sie die Bildeffektsammlung, um Fotos schnell in verschiedene visuelle Stile und Themen umzuwandeln."
+      },
+      "aiGhibliEffect": {
+        "title": "KI-Ghibli-Effekt",
+        "description": "Verwandeln Sie Porträts in sanfte, märchenbuchartige Anime-Kunstwerke mit einer warmen, von Ghibli inspirierten Atmosphäre."
+      },
+      "springBarbiecore": {
+        "title": "Frühlings-Barbiecore",
+        "description": "Gestalten Sie Porträts mit leuchtend rosa Styling und verspielter Modeenergie neu für einen mutigen, trendorientierten Look."
+      },
+      "softSpringHaze": {
+        "title": "Sanfter Frühlingsdunst",
+        "description": "Fügen Sie einen sanften Frühlingsdunst hinzu, der sich gut für Lifestyle-Porträts, Soft-Editorials und Titelbilder eignet."
+      },
+      "provenceSummerGirl": {
+        "title": "Provence-Sommermädchen",
+        "description": "Schaffen Sie eine französische Sommerporträtstimmung, die luftig, reiseinspiriert und leicht redaktionell wirkt."
+      },
+      "roseBokeh": {
+        "title": "Rosen-Bokeh",
+        "description": "Überlagern Sie romantisches Blumen-Bokeh mit Porträts für festliche Bilder, Begrüßungsbilder und stimmungsvolle Bearbeitungen."
+      },
+      "ccdStyleSnow": {
+        "title": "Schnee im CCD-Stil",
+        "description": "Simulieren Sie den Look einer nostalgischen CCD-Schneeszenenkamera für saisonale Fotos und visuelles Retro-Storytelling."
+      },
+      "y2kTrendCollage": {
+        "title": "Y2K-Trendcollage",
+        "description": "Verpacken Sie Porträts in einer Y2K-Collage-Poster-Ästhetik für Social Cards, Trendkampagnen und verspielte Cover."
+      },
+      "y2kCyberCollage": {
+        "title": "Y2K-Cyber-Collage",
+        "description": "Kombinieren Sie Cyber-Styling und Collage-Framing für Porträts, die mehr zukunftsweisende Trendenergie benötigen."
+      },
+      "miniMe": {
+        "title": "Mini Me",
+        "description": "Verwandeln Sie eine Person in eine spielzeugähnliche Miniaturversion für Avatare, Grafiken im Merch-Stil und spielerische Inhalte."
+      },
+      "ghibliMotion": {
+        "title": "Ghibli-Bewegung",
+        "description": "Wenden Sie eine Ghibli-ähnliche animierte Bewegungsbehandlung für storybasierte Clips und filmische Stimmungssequenzen an."
+      },
+      "starCarpet": {
+        "title": "Sternenteppich",
+        "description": "Schaffen Sie für Highlight-Momente, Bühnenauftritte und Präsentationen im Promi-Stil das Gefühl, als würden Sie auf dem roten Teppich ankommen."
+      },
+      "blueprintSupreme": {
+        "title": "Blueprint Supreme",
+        "description": "Verwenden Sie einen konzeptionelleren Videoeffekt für designorientierte Präsentationen, abstrakte Enthüllungen und stilisierte Bewegungselemente."
+      },
+      "createImage": {
+        "title": "Bild erstellen"
+      },
+      "createVideo": {
+        "title": "Video erstellen"
+      },
+      "showcases": {
+        "title": "Vitrinen"
+      }
+    }
+  }
+}

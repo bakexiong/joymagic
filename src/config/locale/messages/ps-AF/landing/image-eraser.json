@@ -1,0 +1,253 @@
+{
+  "imageEraser": {
+    "id": "image-eraser",
+    "title": "Image Eraser AI by joymagic",
+    "description": "Remove unwanted objects, watermarks, and backgrounds from images with AI precision.",
+    "steps": {
+      "sourceImage": {
+        "title": "Upload source image",
+        "hint": "Upload image here JPG/PNG/WEBP",
+        "dragDrop": "Drag & drop or click to upload",
+        "dropHere": "Drop image here"
+      },
+      "maskImage": {
+        "title": "Upload mask image (Optional)",
+        "hint": "Upload a mask image to specify areas to erase. White areas will be erased, black areas will be kept.",
+        "dragDrop": "Drag & drop or click to upload",
+        "dropHere": "Drop mask image here"
+      },
+      "prompt": {
+        "title": "Enter prompt (Optional)",
+        "placeholder": "Describe what you want to erase, e.g., 'remove the person in the background', 'erase the watermark', 'remove the text'",
+        "hint": "Optional: Describe what you want to remove from the image"
+      },
+      "outputFormat": {
+        "title": "Output format",
+        "placeholder": "Select output format",
+        "hint": "Choose the format for the output image"
+      },
+      "generate": {
+        "title": "Generate erased image",
+        "cta": "Erase",
+        "generating": "Erasing..."
+      }
+    },
+    "preview": {
+      "title": "Preview",
+      "original": "Original",
+      "erased": "Erased",
+      "placeholder": "Upload an image to see the erased result here."
+    },
+    "common": {
+      "selected": "Selected: {name}",
+      "notSelected": "Not selected"
+    },
+    "errors": {
+      "invalidFileType": "Invalid file type. Please upload an image file (JPG, PNG, WEBP).",
+      "uploadFailed": "Upload failed: {error}",
+      "uploadFailedGeneric": "Upload failed",
+      "sourceImageRequired": "Please upload a source image first",
+      "generationFailed": "Image erasing failed",
+      "taskFailed": "Task processing failed",
+      "taskTimeout": "Task processing timeout, please try again later",
+      "taskIdNotFound": "Unable to get task ID, please check API response format",
+      "processingFailed": "Processing failed, please try again",
+      "statusQueryFailed": "Failed to query task status",
+      "apiResponseParseFailed": "Failed to parse API response",
+      "downloadFailed": "د انځور ډاونلوډ کولو کې پاتې راغی"
+    },
+    "download": {
+      "title": "انځور ډاونلوډ کړئ"
+    },
+    "alt": {
+      "sourcePreview": "د سرچینې مخکتنه",
+      "maskPreview": "د ماسک مخکتنه",
+      "enlargedPreview": "غټه شوې مخکتنه",
+      "source": "سرچینه",
+      "generated": "تولید شوی"
+    }
+  },
+  "imageEraserPage": {
+    "metadata": {
+      "title": "AI د انځور پاکونکی | د عکسونو څخه توکي لرې کړئ | joymagic",
+      "description": "د عکسونو څخه ناپسند توکي، خلک یا متن فوري پاک کړئ. د ساده برش انټرفیس سره AI د انځور پاکونکی. وړیا، د اوبو نښه نشته، د HD ډاونلوډ چمتو.",
+      "keywords": "AI د توکو لرې کوونکی، د عکس پاکونکی، ناپسند توکي لرې کړئ، د انځور پاکول، انپینټینګ، د عکس ترمیم"
+    },
+    "hero": {
+      "title": "AI د انځور پاکونکی",
+      "description": "د joymagic د AI د انځور پاکونکي سره د عکسونو څخه ناپسند توکي آنلاین وړیا لرې کړئ. یوازې د هغه څه پر سر برش وکړئ چې تاسو نه غواړئ – په ثانیو کې ورک شي.",
+      "button1": "اوس توکي لرې کړئ",
+      "button2": "وړیا پیل کړئ · کریډیټ کارت نشته"
+    },
+    "heroDescription": "✓ HD ډاونلوډ ✓ د اوبو نښه نشته ✓ د ګډون ملاتړ",
+    "whatIsAIEraser": {
+      "title": "AI د انځور پاکونکی څه دی؟",
+      "description": "د joymagic د AI د انځور پاکونکی (چې د Magic Eraser یا د توکي لرې کوونکی هم ویل کېږي) د پیاوړي AI کارولو سره د ستاسو د عکسونو څخه ناپسند توکي، خلک، متن، د اوبو نښې، یا عیبونه په هوښیارۍ سره کشف او لرې کوي پداسې حال کې چې سیمه د مطابقت لرونکي شالید سره بشپړه ډکه کوي.",
+      "unlikeTraditional": "د دودیزو کلون یا درملنې وسیلو برعکس چې دقیق لاسي کار ته اړتیا لري، زموږ AI:",
+      "understandContext": "د صحنې سیاق او بافت پوهیږي",
+      "generateRealistic": "واقعي ډکول تولیدوي چې بشپړه یوځای کیږي",
+      "handleComplex": "د پیچلي شالیدونو لکه وښو، اسمان، دیوالونو، یا ډلو سره کار کوي",
+      "simpleBrush": "د ساده برش یا کلیک سره کار کوي",
+      "perfectFor": "د سفر عکسونو، د محصول انځورونو، د شخصیت انځورونو، د ملکیت عکسونو، د ټولنیزو رسنیو مینځپانګو او نورو پاکولو لپاره عالي دی."
+    },
+    "builtFor": {
+      "title": "Built for modern creators:",
+      "hdOutputs": "HD outputs",
+      "fastGeneration": "Fast processing",
+      "commercialReady": "Commercial-use ready"
+    },
+    "interfaceFeatures": {
+      "title": "On a single, clean interface you get:",
+      "uploadArea": "A drag-and-drop upload area for your source image",
+      "maskArea": "An optional mask image upload to specify exact areas to erase",
+      "promptBox": "An optional prompt box to describe what you want to remove",
+      "formatSelect": "Output format selection (JPEG, PNG, WebP)",
+      "generateButton": "A single Erase button to remove unwanted elements from your image"
+    },
+    "whatYouCanDo": {
+      "title": "تاسو د joymagic AI د انځور پاکونکي سره څه کولی شئ",
+      "description": "یو برش، نامحدود پاکولو امکانونه.",
+      "travelPhotos": {
+        "title": "د سفر او رخصتۍ عکسونو پاکول",
+        "description": "<p class=\"mb-3\">د خپلو بشپړو عکسونو څخه د عکس بمبونکو، ناڅرګندو خلکو، نښانو، یا کثافاتو لرې کول.</p>"
+      },
+      "productPhotography": {
+        "title": "بشپړه د محصول عکاسي",
+        "description": "<p class=\"mb-3\">د بریښنایی سوداګرۍ انځورونو څخه خاوره، انعکاسونه، د قیمت نښانې، یا ناپسند توکي پاک کړئ.</p>"
+      },
+      "portraits": {
+        "title": "د شخصیت او سیلفی عکسونو ښه کول",
+        "description": "<p class=\"mb-3\">عیبونه، پرته ویښتان، د شالید ګډوډي، یا پخواني ملګري اسانه لرې کړئ.</p>"
+      },
+      "realEstate": {
+        "title": "د ملکیت او داخلي عکسونو چمتو کول",
+        "description": "<p class=\"mb-3\">د فرنیچر، بې ترتیبه، یا شخصي توکو حذف کول د لیستونو د مسلکي صحنه کولو لپاره.</p>"
+      },
+      "socialMedia": {
+        "title": "د ټولنیزو رسنیو پاک مینځپانګه جوړول",
+        "description": "<p class=\"mb-3\">د اوبو نښې، د متن پوښونه، یا ګډوډ عناصر لرې کړئ د پولیش شویو پوسټونو او کیسو لپاره.</p>"
+      }
+    },
+    "keyFeatures": {
+      "title": "اصلي ځانګړتیاوې",
+      "description": "د سرعت او کیفیت لپاره جوړ شوي پیاوړي AI د انځور پاکولو وړتیاوې.",
+      "smartRemoval": {
+        "title": "هوشمند یو ټچ لرې کول",
+        "description": "<p class=\"mb-3\">یوځل برش وکړئ – AI پوهیږي چې څه لرې کړي او طبیعي ډول ډکوي. خلک، توکي، متن، لوګو او نورو سره کار کوي.</p>"
+      },
+      "realisticInpainting": {
+        "title": "واقعي انپینټینګ ټیکنالوژي",
+        "description": "<p class=\"mb-3\">پرمختللي تولیدي AI شالیدونه بشپړه بیا رامینځته کوي، حتی د پیچلي بڼو لکه ساحلونو، ښارونو، یا ټوکرونو پر سر.</p>"
+      },
+      "fastPrecise": {
+        "title": "ګړندی او دقیق سمون",
+        "description": "<p class=\"mb-3\">په ثانیو کې پایلې د ریښتیني وخت مخکتنې سره. وخت تیریدل نشته، انتظار نشته.</p>"
+      },
+      "batchRemoval": {
+        "title": "د ګډ توکو لرې کول",
+        "description": "<p class=\"mb-3\">څو انځورونه پورته کړئ او ټول یوځل پاک کړئ – د عکس ګډونونو یا د محصول کتالوګونو لپاره غوره.</p>"
+      },
+      "cleanOutput": {
+        "title": "پاک مسلکي محصول",
+        "description": "<p class=\"mb-3\">د اوبو نښه نشته، مصنوعات نشته – هر وخت بشپړ HD ډاونلوډونه.</p>"
+      }
+    },
+    "howItWorks": {
+      "title": "د عکسونو څخه ناپسند توکو لرې کولو لاره",
+      "description": "د زموږ وړیا AI د انځور پاکونکي سره یوازې څو ساده ګامونو کې د خپلو انځورونو څخه هرڅه پاک کړئ:",
+      "step1": {
+        "title": "1. خپل انځور پورته کړئ",
+        "description": "<p class=\"mb-3\">خپل عکس راکش کړئ یا غوره کړئ. د JPG، JPEG، PNG، WEBP، او HEIC بڼو ملاتړ کوي.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>د منظرې، شخصیت، د محصول عکسونو او نورو سره کار کوي</li></ul>"
+      },
+      "step2": {
+        "title": "2. د ناپسند توکو پر سر برش وکړئ یا کلیک وکړئ",
+        "description": "<p class=\"mb-3\">یوازې د هغه توکي، کس، متن، یا عیب پر سر برش وکړئ چې تاسو لرې کول غواړئ.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>د دقیقیت لپاره د برش اندازه تنظیم کړئ</li><li>زموږ AI په اتوماتیک ډول سیمه کشف او غوره کوي</li></ul>"
+      },
+      "step3": {
+        "title": "3. AI ته اجازه ورکړئ چې پاک او ډک کړي",
+        "description": "<p class=\"mb-3\">لرې کول کلیک کړئ – AI فوراً غوره کول پاک کوي او د مطابقت لرونکي چاپیریال سره سیمه په هوښیارۍ سره ډکه کوي.</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>د ریښتیني وخت پایلې مخکتنه</li><li>په اړتیا سره بیرته یا بیا کړئ</li></ul>"
+      },
+      "step4": {
+        "title": "4. ښه کړئ او ډاونلوډ کړئ",
+        "description": "<p class=\"mb-3\">که غواړئ ښه کړئ:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>د هیر شویو نقطو بیا برش وکړئ</li><li>د پاتې راغلي سیمو بیا راګرځول</li></ul><p class=\"mb-3\">خپل پاک، لوړ کیفیت انځور ډاونلوډ کړئ – د کارولو لپاره چمتو.</p>"
+      }
+    },
+    "whyZImage": {
+      "title": "Why joymagic vs Other Image Eraser Tools",
+      "description": "Built specifically for AI-powered image erasing, not just a basic tool.",
+      "focused": {
+        "title": "Focused on AI Image Erasing",
+        "description": "<p class=\"mb-3\">Many tools offer basic erasing features. joymagic is different—it's built with advanced AI:</p><ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Smart detection of what to remove</li><li>Context-aware filling of erased areas</li><li>Results tuned specifically for seamless object removal</li></ul>"
+      },
+      "fastWorkflows": {
+        "title": "Made for Fast Daily Workflows",
+        "description": "Designed for creators who need to clean up multiple images per day. Fewer steps, cleaner UI, no maze of menus. Quickly process batches of images."
+      },
+      "pricing": {
+        "title": "Pricing That Scales With You",
+        "description": "A clear free tier so you can test image erasing with no risk. A simple paid plan for power users and teams who need higher limits. Transparent usage — pay for what you actually use."
+      },
+      "commercialUse": {
+        "title": "Safe for Commercial Use",
+        "description": "You own the images you generate with joymagic, as long as you have the rights to the original images you upload. Generated images can be used for commercial projects such as campaigns, client work, and ecommerce listings."
+      }
+    },
+    "perfectFor": {
+      "title": "Who joymagic Is Perfect For",
+      "description": "Built for creators, brands, and designers who need clean, professional images.",
+      "photographers": {
+        "title": "Photographers & Creators",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up photos before publishing</li><li>Remove unwanted elements from shots</li><li>Prepare images for portfolios and galleries</li><li>Remove watermarks from your own work</li></ul><p class=\"text-sm text-muted-foreground italic\">Enhance your photography with AI-powered editing.</p>"
+      },
+      "ecommerce": {
+        "title": "Ecommerce & Small Brands",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Clean up product photos</li><li>Remove distracting backgrounds</li><li>Remove watermarks and logos from stock images (with permission)</li><li>Prepare images for product listings</li></ul><p class=\"text-sm text-muted-foreground italic\">Get professional product photos without expensive editing.</p>"
+      },
+      "designers": {
+        "title": "Designers & Agencies",
+        "description": "<ul class=\"list-disc list-inside space-y-1 mb-3\"><li>Quickly clean up images for client projects</li><li>Remove unwanted elements from mockups</li><li>Prepare images for presentations and proposals</li><li>Save time on manual editing tasks</li></ul><p class=\"text-sm text-muted-foreground italic\">joymagic fits neatly into your existing design workflow.</p>"
+      }
+    },
+    "faq": {
+      "title": "د AI د انځور پاکونکي پوښتنې",
+      "description": "زموږ د AI د انځور پاکونکي په اړه عامې پوښتنې.",
+      "q1": {
+        "question": "کوم د انځور بڼې ملاتړ کیږي؟",
+        "answer": "موږ د JPG، JPEG، PNG، WEBP، او HEIC ملاتړ کوو. د روښانه، لوړ کیفیت انځورونو سره غوره پایلې."
+      },
+      "q2": {
+        "question": "زما سم شوي انځورونه به د اوبو نښه ولري؟",
+        "answer": "نه. ټول ډاونلوډونه پاک دي او د اوبو نښه نلري."
+      },
+      "q3": {
+        "question": "د پیچلو لرې کولو کې څومره ښه دی؟",
+        "answer": "زموږ AI د لویو توکو، د ډلو خلکو، او د بافت لرونکو شالیدونو کې غوره دی. د خورا نازکو جزئیاتو لپاره، کوچني برش ضربې وکاروئ."
+      },
+      "q4": {
+        "question": "ایا زه کولی شم د یو انځور څخه څو توکي لرې کړم؟",
+        "answer": "هو – د تولید دمخه د اړتیا وړ څو سیمو پر سر برش وکړئ."
+      },
+      "q5": {
+        "question": "ایا زه کولی شم یوځل څو انځورونه پروسس کړم؟",
+        "answer": "هو – د ګډون حالت تاسو ته اجازه ورکوي چې په یوه ناسته کې څو عکسونه پورته کړئ او توکي یې لرې کړئ."
+      },
+      "q6": {
+        "question": "زما ډیټا خوندي دی؟",
+        "answer": "هو. پورته شوي انځورونه په خوندي ډول پروسس کیږي او د پروسس وروسته په اتوماتیک ډول حذف کیږي. موږ هیڅکله د روزنې لپاره نه کاروو."
+      }
+    },
+    "privacySecurity": {
+      "title": "محرمیت او امنیت",
+      "description": "ستاسو انځورونه او محرمیت زموږ لومړیتوب دی.",
+      "secureProcessing": "ټول پورته کول په خوندي ډول پروسس او انکرپټ کیږي",
+      "autoDelete": "انځورونه د پروسس وروسته په اتوماتیک ډول حذف کیږي",
+      "neverShared": "هیڅکله د دریمې لورې سره شریک نه کیږي یا د AI روزنې لپاره نه کارول کیږي"
+    },
+    "finalCTA": {
+      "title": "بې ترتیبه عکسونه پاک، حیرانونکي بصري بدل کړئ.",
+      "description": "اوس د joymagic د AI د انځور پاکونکی هڅه وکړئ او په ثانیو کې هر ناپسند څه لرې کړئ.<br/><span class=\"text-muted-foreground\">د ډیزاین مهارتونو ته اړتیا نشته · وړیا هڅه</span>",
+      "button": "اوس توکي لرې کړئ"
+    }
+  }
+}
+

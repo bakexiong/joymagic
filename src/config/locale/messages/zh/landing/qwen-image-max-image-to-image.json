@@ -1,0 +1,48 @@
+{
+  "steps": {
+    "sourceImage": { "title": "上传源图片", "hint": "最多上传 {max} 张图片（JPG/PNG/WEBP）", "dragDrop": "拖放或点击上传", "dropHere": "将图片拖放到此处" },
+    "prompt": { "title": "输入编辑提示词", "placeholder": "描述您想要如何编辑图片，例如：「转换为动漫风格」、「添加油画效果」、「让画面更具电影感」", "hint": "请具体说明您想要的编辑效果 — 风格、氛围、光照和细节" },
+    "generate": { "title": "生成编辑后的图片", "cta": "生成", "generating": "生成中..." }
+  },
+  "preview": { "title": "预览", "original": "原始", "swap": "交换", "placeholder": "上传图片并输入编辑提示词以在此处预览效果。" },
+  "common": { "selectedCount": "已选择：{count}/{max} 张图片", "notSelected": "未选择" },
+  "errors": { "invalidFileType": "无效的文件类型。请上传图片文件（JPG、PNG、WEBP）。", "uploadFailed": "上传失败：{error}", "uploadFailedGeneric": "上传失败", "sourceImageRequired": "请至少上传一张源图片", "promptRequired": "请输入编辑提示词", "generationFailed": "图片编辑失败", "taskFailed": "任务处理失败", "taskTimeout": "任务处理超时，请稍后再试", "taskIdNotFound": "无法获取任务 ID，请检查 API 响应格式", "processingFailed": "处理失败，请重试", "statusQueryFailed": "查询任务状态失败", "apiResponseParseFailed": "解析 API 响应失败" },
+  "page": {
+    "metadata": { "title": "Qwen Image Max 图片编辑 AI 工具 — 在线 AI 图片编辑与转换 | joymagic", "description": "使用 Qwen Image Max image-to-image AI 编辑器在线编辑和转换图片。基于 qwen-image-max-edit 技术，支持最多 4 张图片批量 AI 编辑 — 风格迁移、增强和创意转换，秒级完成。", "keywords": "qwen image max, qwen-image-max-edit, qwen image max image-to-image, AI 图片编辑器, image-to-image AI, qwen 图片编辑, AI 图片转换, 批量图片编辑, 在线 AI 图片编辑器" },
+    "hero": { "title": "Qwen Image Max Image-to-Image — AI 智能图片编辑器", "description": "使用 Qwen Image Max image-to-image AI 编辑器编辑和转换您的图片。基于 <strong class=\"text-primary font-semibold\">qwen-image-max-edit</strong> 技术，上传最多 4 张图片，智能应用风格迁移、色彩调整、艺术效果等编辑 — 秒级完成。", "button1": "试用 Qwen Image Max 编辑器", "button2": "查看价格" },
+    "keyFeatures": {
+      "title": "为什么选择 Qwen Image Max 进行图片编辑？",
+      "description": "基于 qwen-image-max-edit 技术的高级 AI 图片编辑",
+      "multiImage": { "title": "Qwen Image Max 批量图片编辑", "description": "使用 qwen-image-max-edit 一次上传最多 4 张图片进行批量编辑。同时处理多张图片，保持一致的风格和质量。每次编辑固定消耗 2 积分。" },
+      "highQuality": { "title": "卓越的 Qwen Image Max 编辑质量", "description": "Qwen Image Max 提供高保真编辑，出色的细节保留。基于 qwen-image-max-edit AI 获得清晰、无伪影的结果。" },
+      "smartEdit": { "title": "智能上下文感知编辑", "description": "qwen-image-max-edit 理解图片上下文和语义，实现精确、自然的转换。智能 AI 知道该改变什么、该保留什么。" },
+      "affordable": { "title": "实惠的 Qwen Image Max 价格", "description": "qwen-image-max-edit 转换仅需 2 积分。专业级 AI 图片编辑，适合任何规模的项目。" }
+    },
+    "promptingTips": {
+      "title": "如何获得最佳的 Qwen Image Max 编辑效果",
+      "specific": { "title": "提示词要具体", "description": "为了获得最佳的 qwen-image-max-edit 效果，请准确描述您想要的编辑。例如：「转换为水彩风格」或「添加暖色调电影色彩」。" },
+      "style": { "title": "指定艺术风格", "description": "使用 qwen-image-max-edit 时，请明确提及目标风格：「动漫插画」、「油画」、「写实增强」、「复古胶片感」等。" },
+      "color": { "title": "颜色和氛围指导", "description": "通过颜色和氛围提示引导 qwen-image-max-edit：「鲜艳饱和色彩」、「柔和粉彩色调」、「暗黑氛围」、「金色时光温暖感」等。" },
+      "details": { "title": "添加详细说明", "description": "通过指定光照、构图、纹理以及要保留或转换的元素，最大化 qwen-image-max-edit 的编辑质量。" }
+    },
+    "useCases": {
+      "title": "Qwen Image Max 图片编辑使用场景",
+      "style": { "title": "艺术风格迁移", "description": "使用 qwen-image-max-edit 将照片转换为精美的艺术风格 — 动漫、水彩、油画、素描等。非常适合创意项目和社交媒体内容。" },
+      "batch": { "title": "批量图片编辑", "description": "使用 Qwen Image Max 同时编辑最多 4 张图片，保持整组照片风格一致。非常适合产品目录和品牌素材。" },
+      "product": { "title": "产品图片增强", "description": "使用 qwen-image-max-edit 增强产品照片，用于电商列表、营销活动和社交媒体。即时创建专业品质的视觉效果。" },
+      "creative": { "title": "创意设计探索", "description": "使用 Qwen Image Max 智能编辑探索创意可能性。尝试不同的风格、效果和转换，发现完美的视觉方向。" }
+    },
+    "faq": {
+      "title": "Qwen Image Max Image-to-Image 常见问题",
+      "description": "关于 Qwen Image Max AI 图片编辑器的常见问题",
+      "q1": { "question": "使用 Qwen Image Max 一次可以编辑多少张图片？", "answer": "使用 Qwen Image Max image-to-image 编辑器，您一次最多可以上传 4 张图片进行批量编辑。每次编辑使用 qwen-image-max-edit 技术处理，消耗 2 积分。" },
+      "q2": { "question": "Qwen Image Max 图片编辑的费用是多少？", "answer": "Qwen Image Max image-to-image 编辑每次消耗 2 积分，无论上传多少张图片。这种固定定价使 qwen-image-max-edit 适合任何项目。" },
+      "q3": { "question": "Qwen Image Max 支持哪些图片格式？", "answer": "Qwen Image Max image-to-image 支持 PNG、JPEG、JPG 和 WebP 格式。为获得最佳 qwen-image-max-edit 效果，请使用清晰、光线充足的图片。" },
+      "q4": { "question": "如何为 Qwen Image Max 编写有效的编辑提示词？", "answer": "为获得最佳 qwen-image-max-edit 效果，请包含详细描述：目标风格、氛围、光照、配色方案和构图。通常越详细，Qwen Image Max 的转换效果越好。" },
+      "q5": { "question": "Qwen Image Max 与其他 AI 图片编辑器有什么不同？", "answer": "Qwen Image Max 使用先进的 qwen-image-max-edit 技术进行上下文感知、语义智能的图片转换。它深度理解图片内容，产生自然精确的编辑效果。" }
+    },
+    "finalCTA": { "title": "准备好使用 Qwen Image Max 编辑图片了吗？", "description": "立即开始使用 qwen-image-max-edit AI 编辑您的图片。快速、高质量、智能的图片转换触手可及。", "button": "立即试用 Qwen Image Max 编辑器" },
+    "breadcrumb": { "home": "首页", "imageToImage": "图片编辑", "qwenImageMax": "Qwen Image Max" },
+    "schema": { "softwareName": "Qwen Image Max 图片编辑 AI 工具 — joymagic", "howToName": "如何使用 Qwen Image Max AI 编辑图片", "howToDescription": "学习如何使用 qwen-image-max-edit AI 技术编辑和转换图片。上传图片并应用智能 AI 编辑。", "features": { "aiImageEditing": "Qwen Image Max AI 编辑", "multiImage": "Qwen Image Max 批量图片编辑", "highQuality": "高质量 Qwen Image Max 输出" } }
+  }
+}

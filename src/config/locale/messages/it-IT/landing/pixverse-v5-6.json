@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "title": "PixVerse v5.6 testo in video | joymagic",
+    "description": "Usa PixVerse v5.6 testo in video su joymagic per trasformare i tuoi prompt in brevi video HD, con risoluzioni, durate e generazione audio flessibili.",
+    "keywords": "testo in video,pixverse-v5.6,PixVerse testo in video,generatore video IA"
+  },
+  "pixverse56": {
+    "form": {
+      "prompt": {
+        "label": "Prompt",
+        "placeholder": "Descrivi il video che desideri: scena, personaggi, movimento, camera, luce, atmosfera…",
+        "tooltip": "Prompt principale positivo per PixVerse v5.6 testo in video. Se possibile includi soggetto, scena, movimento e atmosfera generale."
+      },
+      "negativePrompt": {
+        "label": "Prompt negativo",
+        "placeholder": "Opzionale: ciò che NON vuoi vedere nel video, ad es. sfocature, distorsioni, testo di bassa qualità…",
+        "tooltip": "Descrivi elementi o stili da evitare, ad esempio \"sfocato, distorto, bassa risoluzione, testo poco leggibile\"."
+      },
+      "resolutionRatio": {
+        "label": "Formato immagine (resolution_ratio)"
+      },
+      "resolution": {
+        "label": "Risoluzione"
+      },
+      "duration": {
+        "label": "Durata (secondi)"
+      },
+      "generateAudio": {
+        "label": "Genera audio (generate_audio_switch)",
+        "description": "Se attivato, PixVerse genera un audio sincronizzato per il video (musica / ambiente / effetti sonori semplici).",
+        "tooltip": "Attiva per usare l’audio nativo di PixVerse; verranno usate le combinazioni di prezzo che includono l’audio."
+      },
+      "thinkingType": {
+        "label": "Modalità thinking (thinking_type)",
+        "tooltip": "Controlla il livello di ragionamento di PixVerse: enabled privilegia la qualità, disabled la velocità, auto lascia decidere al servizio."
+      },
+      "seed": {
+        "label": "Seed"
+      },
+      "image": {
+        "label": "Immagine (riferimento)",
+        "tooltip": "Carica un'immagine di riferimento. PixVerse la animerà in base al tuo prompt.",
+        "hint": "Trascina un file qui o clicca per caricare.",
+        "dropHere": "Rilascia l'immagine qui",
+        "dragDrop": "Trascina un file o clicca per caricare"
+      },
+      "imageRequired": "Carica un'immagine per PixVerse da immagine a video.",
+      "buttons": {
+        "reset": "Reimposta",
+        "run": "Genera",
+        "generating": "Generazione in corso..."
+      }
+    },
+    "preview": {
+      "placeholder": "Dopo aver inserito un prompt e cliccato su esegui, PixVerse v5.6 genererà un video e lo mostrerà qui in anteprima."
+    },
+    "status": {
+      "idle": "In attesa",
+      "processing": "Elaborazione",
+      "completed": "Completato",
+      "estimating": "Stima in corso..."
+    },
+    "buttons": {
+      "credits": "crediti",
+      "click_to_pay": "Vai al pagamento"
+    },
+    "actions": {
+      "downloadVideo": "Scarica video",
+      "downloadFailed": "Download del video non riuscito"
+    },
+    "errors": {
+      "promptRequired": "Inserisci un prompt",
+      "generationFailed": "Generazione del video non riuscita",
+      "taskFailed": "Elaborazione dell’attività non riuscita",
+      "taskTimeout": "Tempo massimo di elaborazione superato, riprova più tardi",
+      "taskIdNotFound": "Impossibile ottenere l’ID dell’attività, controlla il formato della risposta API",
+      "processingFailed": "Elaborazione non riuscita, riprova",
+      "statusQueryFailed": "Impossibile recuperare lo stato dell’attività",
+      "apiResponseParseFailed": "Impossibile analizzare la risposta API di PixVerse",
+      "unsupportedCombination1080p10s": "1080p con 10 secondi non è supportato. Scegli 5 s o 8 s per 1080p.",
+      "invalidFileType": "Tipo di file non valido.",
+      "uploadFailed": "Caricamento non riuscito: {error}",
+      "uploadFailedGeneric": "Caricamento non riuscito",
+      "recordingFailed": "Impossibile avviare la registrazione. Controlla le autorizzazioni del microfono.",
+      "estimate_failed": "Stima dei crediti non riuscita"
+    }
+  },
+  "pixverse56Page": {
+    "metadata": {
+      "title": "PixVerse v5.6 testo in video | joymagic",
+      "description": "Trasforma i prompt di testo in brevi video con PixVerse v5.6 su joymagic. Scegli tra più risoluzioni e durate, attiva o disattiva l’audio e mantieni sotto controllo il consumo di crediti.",
+      "keywords": "testo in video,pixverse-v5.6,PixVerse v5.6 testo in video,generatore video IA"
+    },
+    "hero": {
+      "title": "PixVerse v5.6 generatore testo in video",
+      "description": "Sfrutta PixVerse v5.6 su joymagic per trasformare prompt in italiano, inglese o cinese in brevi video di alta qualità. Controlli flessibili su risoluzione, durata e audio lo rendono ideale per creator, brand e team.",
+      "button1": "Genera video",
+      "button2": "Vedi prezzi"
+    },
+    "intro": "PixVerse v5.6 su joymagic è collegato al nostro sistema di prezzi per combinazione di parametri, così puoi combinare liberamente risoluzione, durata e impostazioni audio mantenendo l’uso dei crediti trasparente e prevedibile per i flussi produttivi.",
+    "features": {
+      "title": "Perché usare PixVerse v5.6 testo in video su joymagic?",
+      "items": {
+        "multiResolution": {
+          "title": "Griglia flessibile di risoluzioni e durate",
+          "description": "Supporta 360p, 540p, 720p e 1080p con preset fissi da 5 / 8 / 10 secondi. Per 1080p sono consentiti solo 5 s e 8 s: 10 s è disabilitato in interfaccia e rifiutato in pricing per evitare combinazioni non supportate."
+        },
+        "audio": {
+          "title": "Generazione audio opzionale",
+          "description": "Attiva l’interruttore generate_audio_switch per aggiungere l’audio nativo. Il sistema di prezzi mappa automaticamente le combinazioni con o senza audio così sai sempre cosa stai pagando."
+        },
+        "thinking": {
+          "title": "Modalità thinking intelligenti",
+          "description": "thinking_type supporta enabled, disabled e auto. Enabled privilegia la qualità, disabled la velocità, auto lascia scegliere al backend, in genere la scelta migliore per impostazione predefinita."
+        },
+        "safety": {
+          "title": "Controlli integrati di sicurezza e pricing",
+          "description": "Passa attraverso le policy di sicurezza e il sistema di stima crediti di joymagic. Combinazioni non supportate come 1080p × 10 s vengono bloccate sia in UI che in backend, così non sprechi tempo o crediti."
+        }
+      }
+    },
+    "faq": {
+      "title": "Domande frequenti su PixVerse v5.6 testo in video",
+      "q1": {
+        "question": "Quali risoluzioni e durate supporta PixVerse v5.6?",
+        "answer": "PixVerse v5.6 supporta attualmente 360p, 540p, 720p e 1080p, con durate di 5, 8 e 10 secondi. Per 1080p sono disponibili solo 5 s e 8 s: la combinazione 1080p × 10 s è disabilitata in UI e considerata non supportata in pricing e validazione backend."
+      },
+      "q2": {
+        "question": "Cosa controlla generate_audio_switch?",
+        "answer": "generate_audio_switch attiva o disattiva la generazione dell’audio nativo. Quando è disattivato paghi solo il video; quando è attivato viene aggiunto un sovrapprezzo audio al prezzo base tramite la tabella prezzi per combinazione di parametri."
+      },
+      "q3": {
+        "question": "In cosa differiscono le modalità di thinking_type?",
+        "answer": "enabled attiva un ragionamento più profondo per una composizione e un movimento più stabili, a costo di una latenza leggermente maggiore; disabled privilegia la velocità; auto lascia che il servizio scelga per ogni richiesta, opzione consigliata per la maggior parte degli utenti."
+      },
+      "q4": {
+        "question": "Come posso ottenere risultati ripetibili?",
+        "answer": "Usa il parametro seed. Il valore predefinito -1 utilizza ogni volta un seed casuale; se vuoi risultati simili su più esecuzioni, imposta un seed fisso e riutilizzalo nelle generazioni successive."
+      }
+    },
+    "finalCTA": {
+      "title": "Inizia a creare con PixVerse v5.6 testo in video",
+      "description": "Scrivi un prompt semplice e genera in pochi minuti brevi video per social, concept pubblicitari e storytelling creativo. Il playground qui sotto è collegato al sistema crediti e mostra i costi stimati prima dell’esecuzione.",
+      "button": "Inizia a generare"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "pageName": "PixVerse v5.6 testo in video"
+    }
+  }
+}
+

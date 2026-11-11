@@ -1,0 +1,346 @@
+{
+  "source": "https://app.zencreator.pro/tools/generator-by-prompt",
+  "generated_by": "wavespeed nano-banana-2 + oss upload",
+  "generated_at": "2026-05-01T18:28:35.412Z",
+  "total_templates": 83,
+  "templates": [
+    {
+      "TemplateName": "Crimson Cupid Couture",
+      "prompt": "Editorial studio portrait of a stylish young woman posed against a vivid red set with a keyhole-shaped opening revealing a blush pink backdrop. She has sleek lavender hair, a sculpted satin mini dress with floral accents, lace tights, and a white bow with a heart-tipped arrow, lit with crisp high-contrast studio light for a polished fashion-magazine look.",
+      "sourceImageUrl": "https://d2p7pge43lyniu.cloudfront.net/output/077d25b2-4db2-4566-a2cc-37d8a457c50e.png",
+      "imageUrl": "https://ocdn.10b.ai/zencreator/generator-by-prompt/crimson-cupid-couture-0312c76923cc1db4e5285912f5ad21df.png",
+      "status": "success"
+    },
+    {
+      "TemplateName": "City After-Dark Muse",
+      "prompt": "Raw nighttime street portrait shot with direct flash, featuring a young blonde woman in a white bandeau, red satin shorts, and an open gray cardigan with a soft fur collar. Dark city surroundings, blurred streetlights, visible skin texture, and a candid nightlife mood with strong highlights and deep shadows.",
+      "sourceImageUrl": "https://d2p7pge43lyniu.cloudfront.net/output/3d3ea111-eabb-4a31-9adb-d204bf051fff.png",
+      "imageUrl": "https://ocdn.10b.ai/zencreator/generator-by-prompt/city-after-dark-muse-8fce91b7f60b7cb71f3adad800550480.png",
+      "status": "success"
+    },
+    {
+      "TemplateName": "Snow Spa Serenity",
+      "prompt": "Luxury winter lifestyle image of a young woman standing waist-deep in an outdoor hot tub surrounded by snow. She wears a black swimsuit with gold trim and a fluffy white hat, with rising steam, cold daylight, and a relaxed vacation atmosphere captured in a realistic smartphone-photo style."
+    },
+    {
+      "TemplateName": "Blonde Hallway Poise",
+      "prompt": "Casual indoor phone photo of a blonde woman standing in a narrow apartment hallway, body angled slightly, one hip shifted, looking upward with a calm confident feel. She wears a fitted pastel pink romper, soft natural makeup, and is framed by white walls and a visible laundry-room doorway."
+    },
+    {
+      "TemplateName": "Italian Summer Selfie",
+      "prompt": "Close-up bedroom selfie of a young woman lying on light bedding, wearing a fitted blue cropped tank with white trim and 'ITALIA' across the chest. Soft indoor lighting, tousled dark hair, a subtle pout, and a relaxed peace-sign gesture create an intimate, self-assured smartphone snapshot."
+    },
+    {
+      "TemplateName": "Leather Sofa Glam",
+      "prompt": "Daylit living-room portrait of a woman seated on a white leather sofa, wearing black-rimmed glasses, a black off-shoulder crop top, mini skirt, and sheer thigh-high stockings. Bookshelves in the background and a slightly forward lean give the frame a confident fashion-editorial presence."
+    },
+    {
+      "TemplateName": "Minimal Close Perspective",
+      "prompt": "Very close low-angle lifestyle portrait of a blonde woman in a geometric strapless dress, leaning toward the lens with a neutral expression. Clean bright wall behind her, soft daylight, realistic skin detail, and a minimalist candid feel like a phone photo taken from below."
+    },
+    {
+      "TemplateName": "Cozy Sweatshirt Portrait",
+      "prompt": "Warm indoor lifestyle portrait of a young woman standing by a wooden table in a soft neutral room. She wears an oversized light gray quarter-zip sweatshirt with white fitted shorts, posing casually with one leg bent and a calm off-camera expression under diffused daylight."
+    },
+    {
+      "TemplateName": "Playful Hotel Bed Pose",
+      "prompt": "Natural hotel-bedroom snapshot of a young woman lying on her stomach across white bedding, propped on her elbows and looking at the camera. A white spaghetti-strap top, mint mini skirt, soft window light, and a playful raised-leg pose give the image an intimate but everyday feel."
+    },
+    {
+      "TemplateName": "Billiards Night Icon",
+      "prompt": "Nightlife-inspired flash photo of a woman lounging on a green pool table, dressed in a fitted black sleeveless top and mini skirt. Billiard balls and a cue surround her while overhead flash creates hard shadows, glossy highlights, and a moody late-night bar atmosphere."
+    },
+    {
+      "TemplateName": "Sunlit Shore Gaze",
+      "prompt": "Sunny beach portrait of a young woman reclining in a white metal chair on the sand, one arm raised and one hand shading her eyes. She wears a rust-toned bikini, with warm light, soft shadows, and a calm seaside editorial mood."
+    },
+    {
+      "TemplateName": "Resort Glow Pose",
+      "prompt": "Poolside resort photo of a brunette posing in a leopard-print monokini under bright sun. Shot from a dramatic low angle, with tropical details, stone tiles, and palm trees in the background for a bold vacation-fashion look."
+    },
+    {
+      "TemplateName": "Heart Print Dreamframe",
+      "prompt": "Indoor low-angle fashion shot of a woman crouching very close to the camera, one knee pushed toward the lens for strong perspective. She wears a fitted red mini dress with a tiny white heart pattern and red heels, lit with direct flash against a hallway interior."
+    },
+    {
+      "TemplateName": "Over-the-Shoulder Allure",
+      "prompt": "Ultra-realistic phone-style image of an ash-blonde woman turning back over her shoulder inside an elegant room with soft daylight and white paneled walls. The frame emphasizes graceful posture, long waves, and a poised, over-the-shoulder gaze."
+    },
+    {
+      "TemplateName": "Spotlight Solitude",
+      "prompt": "Minimal studio portrait of a woman seated on the floor in a simple black dress against a gray seamless backdrop. A hard circular spotlight creates dramatic shadows and a contemplative editorial mood with clean composition."
+    },
+    {
+      "TemplateName": "Midnight Gas Station Mood",
+      "prompt": "Direct-flash night photo at a gas station, showing a young woman seated on a metal chair under greenish fluorescent canopy lights. The image feels gritty and spontaneous, with hard shadows, urban emptiness, and a moody late-night roadside aesthetic."
+    },
+    {
+      "TemplateName": "Backseat Street Cruise",
+      "prompt": "Nighttime car-interior lifestyle shot from a very low angle in the back seat, with oversized sneakers dominating the foreground and beige leather upholstery behind. A young woman poses casually in a streetwear-inspired look, lit like a candid phone photo during a night drive."
+    },
+    {
+      "TemplateName": "Leopard Wine Lounge",
+      "prompt": "Moody indoor flash portrait of a woman sitting on the floor near a black quilted sofa and satin curtains, holding a glass of red wine. Leopard-print styling, glossy textures, and dim ambient light mixed with direct flash create a luxe after-hours vibe."
+    },
+    {
+      "TemplateName": "Boxing Fury Burst",
+      "prompt": "High-energy flash photo of an athletic young woman kneeling in a boxing stance, oversized red-and-white gloves raised as she shouts with intensity. The pose is aggressive and dynamic, with realistic gym-floor texture and a bold training-camp mood."
+    },
+    {
+      "TemplateName": "Marble Vanity Glam",
+      "prompt": "Close smartphone portrait in a luxury bathroom featuring a woman with long dark hair, polished makeup, and a composed confident expression. Marble surfaces, soft reflections, and a slightly low angle give the frame a modern upscale aesthetic."
+    },
+    {
+      "TemplateName": "Rooftop City Joy",
+      "prompt": "Rooftop parking-lot portrait at night with a glowing city skyline in the distance. A young woman smiles under cool flash and ambient urban light, creating an open-air but intimate city-night atmosphere."
+    },
+    {
+      "TemplateName": "Framed by Fingers",
+      "prompt": "Extreme wide-angle close-up of a young woman leaning toward the camera with both hands stretched forward, palms nearly touching the lens. The upward perspective creates playful distortion, drawing focus to her face through a frame of fingers."
+    },
+    {
+      "TemplateName": "Skyline Upward Stare",
+      "prompt": "Dramatic ground-level portrait shot upward toward a woman standing above the lens beneath a bright blue sky with soft clouds. The perspective feels bold and cinematic, with confident eye contact and strong vertical composition."
+    },
+    {
+      "TemplateName": "Laundromat Cool",
+      "prompt": "Candid laundromat photo of a young woman kneeling between industrial washing machines, one hand on her knee and the other relaxed by her side. Fluorescent indoor light, dark flooring, and a composed direct gaze create a clean urban lifestyle scene."
+    },
+    {
+      "TemplateName": "Emerald Lounge Muse",
+      "prompt": "Casual glam portrait of a woman with long dark wavy hair seated in a rich emerald-green lounge setting. Soft natural makeup, realistic skin texture, and intimate framing give it a polished lifestyle-magazine feel."
+    },
+    {
+      "TemplateName": "Midnight Bathroom Luxe",
+      "prompt": "Close, slightly low-angle smartphone shot of a woman standing in a sleek bathroom at night, surrounded by glossy modern finishes. Straight dark hair, calm confidence, and upscale ambient lighting create a premium social-photo aesthetic."
+    },
+    {
+      "TemplateName": "Cocktail Hour Siren",
+      "prompt": "Low-angle bar portrait of a glamorous woman seated in an upscale evening restaurant, with rich brown hair, elegant styling, and moody nightlife lighting. The composition looks upward toward her for a dramatic cocktail-hour fashion feel."
+    },
+    {
+      "TemplateName": "Night Pavement Attitude",
+      "prompt": "Nighttime urban fashion image of a woman squatting on a city sidewalk near a softly lit historic building. Streetlights, smartphone realism, and a grounded pose create a stylish late-night downtown mood."
+    },
+    {
+      "TemplateName": "Low-Angle Sofa Scene",
+      "prompt": "Low-angle close phone photo of a woman sitting on a beige textured sofa in a bright apartment, leaning back with relaxed confidence. The foreground perspective and natural indoor light make it feel like an intimate, candid home snapshot."
+    },
+    {
+      "TemplateName": "Corner Store Flash Run",
+      "prompt": "Direct-flash grocery-store portrait taken in a narrow snack aisle at night, with warm fluorescent light and crisp shadows. A young woman poses casually between shelves, giving the frame a spontaneous convenience-store fashion energy."
+    },
+    {
+      "TemplateName": "After-Hours Fridge Run",
+      "prompt": "Nighttime kitchen floor snapshot of a woman sitting in front of an open refrigerator, lit by hard flash and the cool fridge glow. The mood is candid and slightly messy, like an authentic late-night snack run at home."
+    },
+    {
+      "TemplateName": "Holiday Mirror Moment",
+      "prompt": "Mirror selfie of a slim brunette in a matching gray ribbed halter set, hair in a loose high bun, taken in a bright bedroom with holiday-at-home energy. The framing feels casual and personal, like a confident seasonal phone snapshot."
+    },
+    {
+      "TemplateName": "Olive Casual Lift",
+      "prompt": "Low-angle indoor fashion portrait with oversized white sneakers in the foreground and a neutral sofa behind. The subject wears an olive-toned casual outfit in a minimalist room, creating a clean everyday streetwear look."
+    },
+    {
+      "TemplateName": "Floor-Level Fashion Portrait",
+      "prompt": "Studio portrait of a young woman seated on the floor against a warm beige backdrop, captured from a low wide angle that emphasizes her red canvas sneakers. The overall mood is relaxed, graphic, and fashion-forward."
+    },
+    {
+      "TemplateName": "Velvet Floor Perspective",
+      "prompt": "Bright indoor selfie-style image of a woman sitting close to the lens on a white fluffy rug, dark hair pulled back with a headband. Soft daylight and a cozy modern room make the scene feel playful and personal."
+    },
+    {
+      "TemplateName": "Skate Motion Darling",
+      "prompt": "Dynamic overhead selfie of a young woman riding a skateboard on smooth pavement in daylight. Motion in the ground, a steady face, and a sporty casual outfit give the frame energy without losing a natural outdoor feel."
+    },
+    {
+      "TemplateName": "Convenience Cola Stop",
+      "prompt": "Convenience-store fashion photo in front of a refrigerator wall filled with colorful drinks. Bright cool fridge light, a candid shopping pose, and subtle grain create a realistic late-night errand vibe."
+    },
+    {
+      "TemplateName": "Athletic Studio Contour",
+      "prompt": "Minimal fashion-studio image of a woman lying diagonally across the floor against a soft gray seamless background. Her pose feels flexible and sculptural, blending athletic grace with clean editorial styling."
+    },
+    {
+      "TemplateName": "Stringlight Pasta Flirt",
+      "prompt": "Warm outdoor restaurant snapshot at night with string lights overhead and direct flash on the subject. A young woman sits at the table with pasta and a playful expression, creating a romantic yet candid dinner-scene atmosphere."
+    },
+    {
+      "TemplateName": "Scarlet Swimsuit Editorial",
+      "prompt": "Minimalist studio fashion portrait of a woman seated on the floor in a red swimsuit, one leg folded and the other angled outward. Clean backdrop, elegant posture, and polished directional light make it feel like a modern campaign image."
+    },
+    {
+      "TemplateName": "Snakeskin Industrial Edge",
+      "prompt": "Low-angle outdoor lifestyle photo of a confident woman standing near a simple industrial building under a blue sky. She wears loose blue jeans and a fitted snake-print top, with light wind in her dark curls and natural late-afternoon sunlight."
+    },
+    {
+      "TemplateName": "Vertical Flex Energy",
+      "prompt": "Gym lifestyle selfie of an athletic blonde woman performing an extreme high-leg stretch on a cable machine. Soft daylight mixes with gym lighting, highlighting toned abs, a white sports bra, gray leggings, and a focused expression in a dynamic close-angle composition."
+    },
+    {
+      "TemplateName": "Diner Sass Close-Up",
+      "prompt": "Close flash-lit diner portrait of a woman seated at a small metal table with a bowl of noodles and chopsticks in hand. Posters crowd the wall behind her while her exaggerated annoyed expression gives the image a playful, gritty restaurant-night personality."
+    },
+    {
+      "TemplateName": "Violet Tension Portrait",
+      "prompt": "Extreme close-up selfie under saturated purple and pink LED light, focused on a woman’s glossy lips, intense eyes, and one hand pressed into her hair. The lighting feels private, electric, and emotionally charged, with beauty-editorial precision."
+    },
+    {
+      "TemplateName": "Cozy Foot-Forward Play",
+      "prompt": "Playful bedroom phone photo taken from the foot of the bed, with a young blonde woman leaning against a tufted headboard and her crossed feet close to the lens. Warm bedside lighting, denim, mesh top, and a smile create a relaxed homey mood."
+    },
+    {
+      "TemplateName": "Kitchen Counterline Pose",
+      "prompt": "Bright kitchen lifestyle image of a woman leaning forward over a speckled island countertop, body angled in a casual editorial pose. She wears a fitted white mini dress and sheer thigh-high socks, with soft daylight and realistic detail throughout the space."
+    },
+    {
+      "TemplateName": "Red Accent Muse",
+      "prompt": "Stylish living-room portrait of a woman seated close to the camera on a quilted sofa, holding black-rimmed glasses with red manicured nails. A white lace top, shiny red mini skirt, and matching heels tie together the bold color story under clean daylight."
+    },
+    {
+      "TemplateName": "Sunny Cafe Charm",
+      "prompt": "Sunny outdoor cafe portrait of a smiling young woman sitting in a teal chair beside a matching table. She wears a red crop top, black mini skirt, and red fishnets, lit by bright natural sunlight for a cheerful patio lifestyle look."
+    },
+    {
+      "TemplateName": "Homegrown Cowgirl Chic",
+      "prompt": "Indoor western-inspired fashion portrait of a blonde woman with two thick braids and a large black cowboy hat. Black low-cut top, gray jeans, white furnishings in the background, and natural window light create a home-styled cowgirl aesthetic."
+    },
+    {
+      "TemplateName": "Cherry Cream Fantasy",
+      "prompt": "Surreal fashion-studio image of a glamorous woman seated inside an oversized cupcake wrapper, wearing a sculptural white dress with whipped-cream texture. Bright blue backdrop, glossy cherries, and crisp studio lighting make it feel like a luxury dessert campaign."
+    },
+    {
+      "TemplateName": "Fridge Light Milk Break",
+      "prompt": "Late-night kitchen snapshot of a blonde woman kneeling by an open refrigerator and drinking from a large milk jug. She wears a white crop top and light blue shorts, with fridge light and direct flash creating a raw playful midnight-snack mood."
+    },
+    {
+      "TemplateName": "Velvet Valentine Pose",
+      "prompt": "Professional studio portrait of a woman posing close to the camera on a platform draped in rich red satin. One leg extends downward while the other is bent, giving the composition a graceful Valentine-inspired editorial silhouette."
+    },
+    {
+      "TemplateName": "Diner Date Offering",
+      "prompt": "Warm diner-style restaurant portrait with subtle neon in the background, showing a young woman leaning toward the camera in a cozy booth setting. The frame feels affectionate and candid, like a playful moment captured mid-meal."
+    },
+    {
+      "TemplateName": "Retro Hall Flash",
+      "prompt": "Grainy flash photo of a woman standing in a narrow hallway with plain walls and an EXIT sign glowing in the background. The image channels a retro candid aesthetic with direct light, soft noise, and understated attitude."
+    },
+    {
+      "TemplateName": "Dreamcloud Reverie",
+      "prompt": "Dreamlike studio portrait of a woman lying on her stomach among fluffy artificial clouds, legs bent upward and hands near her face. Soft styling, calm expression, and a whimsical set design create an airy fantasy-fashion scene."
+    },
+    {
+      "TemplateName": "Cherry Pop Elegance",
+      "prompt": "Bright full-body studio image of a woman leaning forward with both hands resting on an oversized glossy cherry sculpture. A pale blue seamless background and crisp fashion lighting give the shot a playful pop-editorial feel."
+    },
+    {
+      "TemplateName": "Black Balloon Empress",
+      "prompt": "Dark studio fashion portrait of a woman in side profile holding a cluster of black balloons, then turning her head back toward the camera. The black-on-black styling, sculptural pose, and moody light create a sleek party-editorial atmosphere."
+    },
+    {
+      "TemplateName": "Golden Cherry Glow",
+      "prompt": "Very low-angle close selfie with warm indoor decorative lighting and soft golden lens flares in the background. The subject’s face fills the frame with dramatic perspective, intimate smartphone realism, and a playful beauty-focused vibe."
+    },
+    {
+      "TemplateName": "Playful Studio Kick",
+      "prompt": "Clean white studio image of a fit young woman lying on her back on a seamless floor, one leg raised high while one hand holds her sneaker. The pose feels sporty and mischievous, with crisp light and minimal styling."
+    },
+    {
+      "TemplateName": "Curled Chair Comfort",
+      "prompt": "Warm indoor smartphone-style portrait of a young woman curled into a cozy chair in a softly lit room. Natural window light, gentle shadows, and a compact folded pose create an intimate everyday-luxury feel."
+    },
+    {
+      "TemplateName": "Sunfield Relaxed Pose",
+      "prompt": "Low-angle smartphone portrait of a woman seated on dry golden grass in an open sunny field. She leans back on her hands with relaxed posture, while warm light and realistic outdoor texture make the image feel breezy and natural."
+    },
+    {
+      "TemplateName": "Lavender Dusk Bloom",
+      "prompt": "Elegant dusk portrait of a woman standing in a wide purple flower field, body turned slightly while facing the camera. The scene glows with soft evening light, smooth dark hair, and a calm romantic atmosphere."
+    },
+    {
+      "TemplateName": "Soft Chair Stillness",
+      "prompt": "Casual lifestyle portrait of a young woman with long light-brown waves sitting comfortably in a chair, facing the camera with a soft neutral expression. Realistic skin detail and relaxed home styling keep the image natural and approachable."
+    },
+    {
+      "TemplateName": "Home Kitchen Charm",
+      "prompt": "Friendly home-kitchen lifestyle shot of a young woman with straight dark hair and bright blue eyes, smiling softly toward the camera. Real appliances, daylight, and lived-in details give the frame an authentic domestic warmth."
+    },
+    {
+      "TemplateName": "Neutral Power Stance",
+      "prompt": "Low-angle outdoor smartphone portrait of a stylish woman in soft beige tones, standing with a strong fashion stance under natural daylight. Slight film grain and grounded perspective give it a modern editorial street look."
+    },
+    {
+      "TemplateName": "Soft Dawn Stretch",
+      "prompt": "Soft morning lifestyle image of a young woman stretching with eyes closed, long dark hair falling over one shoulder. Gentle daylight, relaxed posture, and subtle skin texture create a peaceful just-woke-up mood."
+    },
+    {
+      "TemplateName": "Tequila Lounge Flash",
+      "prompt": "Close nightlife flash portrait in a dim lounge, showing a young woman raising a tequila shot under warm ambient bar light. The sharp frontal flash, crisp shadows, and candid expression create a spontaneous party-scene energy."
+    },
+    {
+      "TemplateName": "Industrial Staircase Editorial",
+      "prompt": "Top-down urban fashion photo of a woman lying across a worn industrial metal staircase. Reddish-brown steps, dark railings, and moody cinematic grading create a gritty editorial composition with strong geometry."
+    },
+    {
+      "TemplateName": "Sunstripe Floor Angle",
+      "prompt": "Indoor low-angle portrait shaped by dramatic window light and deep shadows across a warm wooden floor. A glamorous woman poses near the lens while sunlight creates bold stripes and a moody late-afternoon atmosphere."
+    },
+    {
+      "TemplateName": "Blush Floor Selfie",
+      "prompt": "Casual close-up selfie of a young blonde woman sitting directly on the floor in a soft pink-toned setting. Minimal makeup, natural skin texture, and intimate smartphone framing make the image feel simple and personal."
+    },
+    {
+      "TemplateName": "Burger Spot Glow",
+      "prompt": "Close restaurant portrait in a casual burger spot with warm wall lamps and a blurred neon sign behind the subject. The image balances cozy fast-food ambiance with a direct expressive gaze and realistic indoor lighting."
+    },
+    {
+      "TemplateName": "Trunkside Iced Coffee",
+      "prompt": "Bright daytime fashion snapshot of a blonde woman sitting in the open trunk of a vintage car, one hand lifting her hair while the other holds an iced coffee. The scene feels sunny, carefree, and road-trip ready."
+    },
+    {
+      "TemplateName": "Bedside Play Snapshot",
+      "prompt": "Very close low-angle bed selfie of a young woman lying on her stomach and looking straight into the camera with a playful expression. Soft bedroom light, dark hair, and intimate phone framing make the image feel spontaneous and warm."
+    },
+    {
+      "TemplateName": "Heart Throne at Midnight",
+      "prompt": "Dramatic red studio portrait of a woman seated inside a large heart-shaped opening made from layered red fabric. Centered editorial composition, sculptural pose, and rich monochrome styling create a regal romantic mood."
+    },
+    {
+      "TemplateName": "Striped Rebellion",
+      "prompt": "Very low-angle outdoor selfie of a pale-skinned woman with straight black hair, bangs, and dark lipstick seated in a bright turquoise plastic chair. The striped styling, near-lens legs, and bold color contrast give the shot a chaotic alt-fashion energy."
+    },
+    {
+      "TemplateName": "Golden Hour Curbside",
+      "prompt": "Golden-hour suburban street portrait of a woman posing by a curb in warm sunset light. Soft shadows, natural atmosphere, and smartphone realism create a calm but stylish end-of-day outdoor scene."
+    },
+    {
+      "TemplateName": "Breakbeat Studio Lift",
+      "prompt": "Dynamic red-studio fashion image of a woman lifting herself off the glossy floor in a breakdance-inspired pose, hands planted behind her for support. The shot is graphic, athletic, and highly stylized with strong body lines."
+    },
+    {
+      "TemplateName": "Nocturnal City Glow",
+      "prompt": "Nighttime lifestyle portrait of a young woman with chestnut waves standing in a city setting lit by soft street glow. The atmosphere is cinematic but natural, with realistic skin texture and a polished after-dark urban feel."
+    },
+    {
+      "TemplateName": "Terracotta Studio Poise",
+      "prompt": "Minimal warm-toned studio portrait of a woman seated on the floor against a seamless beige backdrop. Terracotta styling, clean composition, and soft directional light create a refined editorial fashion image."
+    },
+    {
+      "TemplateName": "Mall Floor Perspective",
+      "prompt": "Very low-angle mall portrait of a woman squatting in the center of a bright shopping corridor and looking down toward the lens. The perspective feels bold and modern, with glossy retail light and candid smartphone energy."
+    },
+    {
+      "TemplateName": "Rosy Cocktail Fantasy",
+      "prompt": "Surreal high-fashion editorial of a woman posed inside an oversized transparent martini glass against a dreamy pastel gradient sky. A flowing fuchsia gown, metallic heels, and soft directional light turn the scene into a glamorous fantasy-cocktail campaign."
+    },
+    {
+      "TemplateName": "Grounded Barefoot Angle",
+      "prompt": "Ultra-realistic outdoor low-angle portrait of a woman seated on pavement with legs extended toward the camera. Cloudy daylight, bare feet, casual clothes, and a grounded perspective create an intimate everyday street-style image."
+    },
+    {
+      "TemplateName": "Velvet Chair Stare",
+      "prompt": "Casual lifestyle portrait of a young woman curled on a vintage teal velvet chair, knees drawn close as she looks directly at the camera with a calm intense gaze. Natural side light, knit layers, and apartment details give the image a quiet, intimate realism."
+    }
+  ]
+}

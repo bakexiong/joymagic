@@ -1,0 +1,122 @@
+{
+  "textToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 文本生成影片 - 電影感 AI 影片生成器 | joymagic",
+      "description": "使用 HappyHorse 1.0 生成 3-15 秒 720p 電影感影片。將文本提示轉成高品質 16:9 AI 影片，並支援 seed 控制以便重現結果。",
+      "keywords": "happyhorse 1.0, 文本生成影片, ai影片生成, 阿里巴巴 happyhorse, 電影感影片, 720p/1080p 文本生成影片, 16:9 ai影片"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 文本生成影片",
+      "description": "HappyHorse 1.0 可以把簡單提示詞快速生成一段精緻的 3-15 秒電影感影片。此工作流聚焦於原生 16:9 構圖、720p 輸出及可選 seed 控制，方便你穩定重現草稿。<br/><br/>如果你想從靜態圖片開始製作動畫，也可以 <a href=\"/image-to-video/happyhorse-1-0\" class=\"text-primary underline\">試試 HappyHorse 1.0 圖片生成影片</a>。",
+      "button1": "立即體驗",
+      "button2": "查看價格"
+    },
+    "keyFeatures": {
+      "title": "核心特色",
+      "cinematicPreset": {
+        "title": "預設電影感風格",
+        "description": "適合視覺提案、社交預告及短片創意展示，開箱即可得到更有氛圍感的片段。"
+      },
+      "fastStoryboard": {
+        "title": "3-15 秒靈活出稿",
+        "description": "支援 3-15 秒時長選擇，讓你更方便並排比較多個創意方向，加快迭代效率。"
+      },
+      "reproducibleSeed": {
+        "title": "可重現的 Seed 控制",
+        "description": "當你希望多個版本保持接近風格時，可透過 seed 取得更穩定的結果。"
+      },
+      "nativeWideframe": {
+        "title": "原生 16:9 闊屏輸出",
+        "description": "直接生成適合分享及展示的闊屏影片，減少後續裁切工作。"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "HappyHorse 1.0 文本生成影片是什麼？",
+        "answer": "這是一個基於 Alibaba HappyHorse 1.0 的 AI 影片工作流，可將文本提示生成 3-15 秒 720p 影片。"
+      },
+      "q2": {
+        "question": "支援什麼畫幅？",
+        "answer": "目前文本生成影片工作流針對 16:9 輸出進行優化。"
+      },
+      "q3": {
+        "question": "時長可以調整嗎？",
+        "answer": "目前版本聚焦在 3-15 秒快速生成，方便高頻預覽及方向驗證。"
+      },
+      "q4": {
+        "question": "Seed 有什麼用途？",
+        "answer": "Seed 可幫助你在多次生成之間重現或穩定結果，適合做多版本比較。"
+      },
+      "q5": {
+        "question": "這個模型適合哪些場景？",
+        "answer": "很適合創作者、市場團隊及產品團隊快速生成短片概念稿。"
+      }
+    },
+    "finalCTA": {
+      "title": "準備好用 HappyHorse 1.0 生成影片了嗎？",
+      "description": "現在就把提示詞變成短小精緻的電影感影片。",
+      "button": "生成影片"
+    }
+  },
+  "imageToVideo": {
+    "metadata": {
+      "title": "HappyHorse 1.0 圖片生成影片 - 靜態圖片 AI 動畫生成 | joymagic",
+      "description": "用 HappyHorse 1.0 把一張靜態圖片變成 3-15 秒 720p 影片。上傳單張圖片，以更簡單的流程快速生成自然動效。",
+      "keywords": "happyhorse 1.0, 圖片生成影片, 圖片動畫, ai 圖片動效, 阿里巴巴 happyhorse, 720p/1080p 圖片生成影片, 3-15秒 ai影片"
+    },
+    "hero": {
+      "title": "HappyHorse 1.0 圖片生成影片",
+      "description": "HappyHorse 1.0 能把單張圖片轉換成 3-15 秒 720p 動態影片。你只需上傳一張參考圖，也可選擇補充運動描述，就能快速得到乾淨俐落的闊屏結果。<br/><br/>如果你想直接從文字開始創作，也可以 <a href=\"/text-to-video/happyhorse-1-0\" class=\"text-primary underline\">試試 HappyHorse 1.0 文本生成影片</a>。",
+      "button1": "立即體驗",
+      "button2": "查看價格"
+    },
+    "keyFeatures": {
+      "title": "核心特色",
+      "singleImageMotion": {
+        "title": "單圖快速動畫化",
+        "description": "上傳一張靜態圖即可開始，不需要複雜鏡頭或多素材準備。"
+      },
+      "fastFiveSecond": {
+        "title": "3-15 秒靈活預覽",
+        "description": "輕量短時長更適合頻繁測試，方便你快速比較不同方向。"
+      },
+      "cleanOutput": {
+        "title": "720p 高清輸出",
+        "description": "適合概念展示、社交內容及市場樣片等日常創作場景。"
+      },
+      "simpleWorkflow": {
+        "title": "極簡操作流程",
+        "description": "聚焦圖片、時長及解像度等核心參數，並支援可選運動提示詞。"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "HappyHorse 1.0 圖片生成影片能做什麼？",
+        "answer": "它可以把你上傳的一張圖片動畫化，生成一段短影片。"
+      },
+      "q2": {
+        "question": "一定要寫提示詞嗎？",
+        "answer": "不一定。這個工作流中的提示詞是可選的，但填寫後能更好控制運動及氛圍。"
+      },
+      "q3": {
+        "question": "輸出品質是多少？",
+        "answer": "目前配置提供 720p 輸出。"
+      },
+      "q4": {
+        "question": "每段影片有多長？",
+        "answer": "目前工作流支援生成 3-15 秒影片。"
+      },
+      "q5": {
+        "question": "什麼時候應該選圖片生成影片而不是文本生成影片？",
+        "answer": "當你已有角色圖、產品圖或固定構圖，並希望保留原始視覺元素時，更適合使用圖片生成影片。"
+      }
+    },
+    "finalCTA": {
+      "title": "用 HappyHorse 1.0 讓圖片動起來",
+      "description": "上傳一張靜態圖，用簡單快速的流程生成動態影片。",
+      "button": "開始動畫化"
+    }
+  }
+}

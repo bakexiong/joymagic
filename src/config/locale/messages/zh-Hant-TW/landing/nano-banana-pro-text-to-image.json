@@ -1,0 +1,147 @@
+{
+  "title": "Nano Banana Pro 文字轉圖片",
+  "subtitle": "從文字描述生成精美的圖片",
+  "prompt_label": "提示詞",
+  "prompt_placeholder": "一個小女孩在後院吹肥皂泡，陽光在泡泡中形成彩虹色，抓拍風格。",
+  "prompt_tooltip": "輸入您想要生成的圖片描述",
+  "aspect_ratio_label": "寬高比",
+  "aspect_ratio_hint": "選擇生成圖片的寬高比",
+  "aspect_ratio_placeholder": "選擇寬高比（選填）",
+  "aspect_ratio_none": "（無）",
+  "resolution_label": "解析度",
+  "resolution_hint": "選擇生成圖片的解析度",
+  "output_format_label": "輸出格式",
+  "output_format_hint": "選擇輸出圖片格式",
+  "buttons": {
+    "generate": "生成圖片"
+  },
+  "errors": {
+    "promptRequired": "提示詞是必填項",
+    "generate_failed": "生成圖片失敗：{status}",
+    "generate_failed_default": "生成圖片失敗",
+    "no_request_id": "獲取請求 ID 失敗"
+  },
+  "image_alt": "生成的圖片",
+  "download": "下載",
+  "image_placeholder": "生成的圖片將顯示在這裡",
+  "prompt_inspirations_button": "提示詞靈感",
+  "prompt_guide_button": "提示詞指南",
+  "powered_by": "由 joymagic 優化的 Nano Banana Pro AI 模型提供支援",
+  "prompt_guides": {
+    "guide1": "最佳 Nano Banana 場景提示詞",
+    "guide2": "最佳 Nano Banana 肖像提示詞",
+    "guide3": "Flux 1.1 電商產品照片提示詞",
+    "guide4": "Nano Banana 圖片提示詞：5 層框架",
+    "guide5": "複製貼上 Nano Banana 產品提示詞",
+    "guide6": "Midjourney 提示詞工程",
+    "guide7": "Midjourney 產品提示詞",
+    "guide8": "Midjourney 肖像提示詞",
+    "guide9": "50 個最佳 Flux 1.1 產品照片提示詞",
+    "guide10": "50 個最佳 Flux 1.1 肖像提示詞"
+  },
+  "page": {
+    "metadata": {
+      "title": "Nano Banana Pro - 支援清晰字體的 AI 文字轉圖片 | joymagic",
+      "description": "使用 Nano Banana Pro 從文字生成專業圖片。相機控制、中英文清晰文字渲染、高解析度輸出。創建照片和設計。",
+      "keywords": "nano banana pro, 文字轉圖片, ai 圖片生成器, 清晰文字渲染, 相機控制, 專業圖片生成, 中文文字 ai, 雙語文字 ai"
+    },
+    "hero": {
+      "title": "Nano Banana Pro 文字轉圖片",
+      "description": "Nano Banana Pro 透過文字描述生成專業圖片，具備相機級控制功能。用簡單語言描述景深、燈光設置和色彩分級。清晰渲染中英文文字——適用於海報、標誌和品牌材料。立即試用 Nano Banana Pro！<br/><br/>需要基礎圖片生成功能，無需專業控制？<a href=\"/text-to-image/nano-banana\" class=\"text-primary underline\">試試標準版 Nano Banana</a>。",
+      "button1": "立即試用",
+      "button2": "查看價格"
+    },
+    "proFeatures": {
+      "title": "專業版專屬功能",
+      "description": "專業級功能，用於高級圖片生成",
+      "cameraControls": {
+        "title": "透過文字控制相機",
+        "description": "用簡單語言描述專業攝影設置。「淺景深配虛化背景」或「高對比度黑色電影風格燈光」——模型會應用通常需要昂貴設備和專業知識的技術。"
+      },
+      "clearTextRendering": {
+        "title": "清晰文字渲染",
+        "description": "生成多語言可讀字體。標誌、標牌、海報、產品標籤——文字保持清晰專業。特別擅長中文字元，適用於雙語營銷材料。"
+      },
+      "highResolution": {
+        "title": "高解析度輸出",
+        "description": "輸出適合印刷材料和大尺寸展示的高解析度圖片。可選放大功能保留精細細節——織物紋理、建築元素、產品表面。"
+      },
+      "complexScene": {
+        "title": "複雜場景理解",
+        "description": "處理詳細的空間指令。「將花瓶放在桌子左側，陽光從右側窗戶照入」——模型能正確理解位置、光線方向和物體關係。"
+      },
+      "professionalComposition": {
+        "title": "專業構圖控制",
+        "description": "描述特定的取景、角度和視角。「低角度仰拍建築」或「背景有引導線的特寫肖像」——模型理解電影和攝影術語。"
+      }
+    },
+    "standardFeatures": {
+      "title": "標準功能（同樣包含）",
+      "description": "您需要的所有基本功能",
+      "styleFlexibility": {
+        "title": "風格靈活性",
+        "description": "照片、動漫、數位藝術、插畫"
+      },
+      "naturalLanguage": {
+        "title": "自然語言輸入",
+        "description": "用日常語言描述場景"
+      },
+      "fastGeneration": {
+        "title": "快速生成",
+        "description": "每張圖片 10-15 秒"
+      },
+      "multipleFormats": {
+        "title": "多種輸出格式",
+        "description": "JPG、PNG、WebP"
+      }
+    },
+    "useCases": {
+      "title": "使用場景",
+      "eventPosters": {
+        "title": "帶文字的活動海報",
+        "description": "生成包含活動詳情、日期和場地資訊的海報。專業版能清晰渲染中英文文字——在任何尺寸下都清晰可讀，適用於印刷或數位用途。"
+      },
+      "productVisualization": {
+        "title": "產品視覺化",
+        "description": "需要產品效果圖用於演示但沒有照片？描述產品、場景和燈光。專業版生成具有真實陰影和反射的專業場景。"
+      },
+      "conceptPresentations": {
+        "title": "概念演示",
+        "description": "向客戶展示設計方向，無需完成最終作品。使用相機控制生成多種視覺風格，展示不同的情緒和方式。"
+      },
+      "bilingualMarketing": {
+        "title": "雙語營銷材料",
+        "description": "創建包含中英文文字的廣告和宣傳圖形。專業版能很好地處理兩種語言的字體——對於面向多個市場的零售標牌和產品包裝很重要。"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "description": "關於 Nano Banana Pro 文字轉圖片的常見問題",
+      "q1": {
+        "question": "專業版與標準版 Nano Banana 有什麼區別？",
+        "answer": "專業版增加了相機控制（景深、燈光、色彩分級）、清晰的多語言文字渲染和更高解析度輸出。標準版可以快速生成各種風格的圖片，但沒有專業攝影控制或保證的文字品質。"
+      },
+      "q2": {
+        "question": "文字渲染是如何工作的？",
+        "answer": "在提示詞中描述您想要的文字，包括內容、樣式和位置。專業版生成的字體在任何尺寸下都清晰可讀——對於中文字元特別有效，因為不同 AI 模型的渲染品質差異很大。"
+      },
+      "q3": {
+        "question": "可以輸出什麼解析度？",
+        "answer": "專業版輸出比標準版更高的解析度，可選放大功能可獲得印刷品質效果。適用於大幅面印刷、展會材料和雜誌廣告。"
+      },
+      "q4": {
+        "question": "提示詞應該多詳細？",
+        "answer": "越詳細越好。不要只說「桌子上的產品」，試試「智慧手機放在木桌上，下午陽光從左側照入，淺景深，專業產品攝影風格」。包括主體、燈光、相機設置和視覺風格。"
+      },
+      "q5": {
+        "question": "對於基礎圖片，專業版值得嗎？",
+        "answer": "標準版 Nano Banana 適用於社交媒體圖形、快速概念和文字品質不重要的圖片。當您需要專業攝影控制、圖片中清晰的字體或印刷品質解析度時，使用專業版。"
+      }
+    },
+    "finalCTA": {
+      "title": "準備開始創作了嗎？",
+      "description": "立即開始從您的文字描述生成精美的圖片。",
+      "button": "立即試用"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "whyModelTitle": "为什么是这个模型",
+  "whyModelDescription": "一个聚焦的模型页，应该讲清楚这个模型最强在哪里、适合什么时候用，以及为什么它值得拥有独立的工作流入口。",
+  "howItWorksTitle": "如何开始",
+  "howItWorksDescription": "整个页面的结构，都是为了让用户在理解模型之后，直接进入创作，而不用跳出主流程。",
+  "howItWorksSteps": [
+    {
+      "step": "01",
+      "title": "选择模式",
+      "copy": "在模型的主要创作模式之间切换，直接进入最符合当前意图的工作流。"
+    },
+    {
+      "step": "02",
+      "title": "添加提示词或参考图",
+      "copy": "根据你的目标，从文本、参考图，或两者一起开始，无论是从零生成还是基于已有素材继续优化。"
+    },
+    {
+      "step": "03",
+      "title": "生成并比较结果",
+      "copy": "在工作台里快速迭代、对比不同方向，并把更强的结果继续往下推进。"
+    },
+    {
+      "step": "04",
+      "title": "继续进入 Creator",
+      "copy": "一旦找到足够清晰的方向，就可以直接进入 Creator 流程继续工作，而不需要重建上下文。"
+    }
+  ],
+  "workflowsTitle": "一个模型页面，多条垂直工作流",
+  "workflowsDescription": "页面不是先堆功能卡片，而是直接沿着真实场景往下展开。每个模式都会说明它适合什么、该怎么控制，以及如何开始。",
+  "bestForTitle": "适合用在",
+  "bestForDescription": "用场景化方式来组织内容，能让用户不仅知道模型“能做什么”，还知道它在真实生产流程里最适合放在哪一环。",
+  "galleryTitle": "高级模型页应该解释结果，而不是把结果埋在模块堆里",
+  "galleryDescription": "整页遵循纵向编辑式节奏：先是首屏，再是工作台，然后是场景逻辑、产品理由，最后用真实结果做证明。这样页面信息会更密，但不会沦为卡片墙。",
+  "galleryLead": "真正的说服力应该由结果来承担，周围的文案只需要保持克制、清晰，并作为辅助存在。",
+  "faqTitle": "不是只换页面样式，而是重新组织产品叙事",
+  "faqDescription": "FAQ 也保持同一条纵向阅读节奏，让整页看起来仍然是一段连续的产品叙事，而不是一堆彼此割裂的模块。",
+  "openWithPrompt": "带提示词打开",
+  "openInCreator": "在 Creator 中打开",
+  "sampleLabel": "样片",
+  "fallbackSampleTitle": "模型样片",
+  "fallbackSampleCaption": "这是从当前模型真实生成结果中选取的一条示例输出。",
+  "controls": {
+    "promptWorkflow": "提示词工作流",
+    "creatorSync": "与 Creator 同步",
+    "uploadUpToRefs": "最多上传 {count} 张参考图",
+    "referenceUploads": "支持参考图上传",
+    "aspectRatios": "{count}+ 种画幅比例",
+    "resolutionPresets": "{count} 种分辨率预设"
+  }
+}

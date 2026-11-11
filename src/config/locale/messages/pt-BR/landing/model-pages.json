@@ -1,0 +1,367 @@
+{
+  "template": {
+    "whyModelTitle": "Por que esse modelo",
+    "whyModelDescription": "Uma página de modelo focada deve explicar onde esse modelo é mais forte, quando usá-lo e por que ele merece seu próprio ponto de entrada no fluxo de trabalho.",
+    "howItWorksTitle": "Como funciona",
+    "howItWorksDescription": "A página está estruturada para ajudar os usuários a passar da compreensão do modelo à ação sem sair do fluxo de criação principal.",
+    "howItWorksSteps": [
+      {
+        "step": "01",
+        "title": "Escolha um modo",
+        "copy": "Alterne entre os principais modos de criação do modelo e acesse o fluxo de trabalho que corresponde à sua intenção."
+      },
+      {
+        "step": "02",
+        "title": "Adicionar prompt ou referências",
+        "copy": "Comece com texto, referências ou ambos, dependendo se você está gerando do zero ou refinando ativos."
+      },
+      {
+        "step": "03",
+        "title": "Gerar e comparar",
+        "copy": "Use o ambiente de trabalho para iterar rapidamente, comparar direções e manter os candidatos mais fortes avançando."
+      },
+      {
+        "step": "04",
+        "title": "Continuar no criador",
+        "copy": "Depois de ter uma direção forte, entre no fluxo do criador para continuar trabalhando sem reconstruir o contexto."
+      }
+    ],
+    "workflowsTitle": "Uma superfície de modelo, vários fluxos de trabalho verticais",
+    "workflowsDescription": "Em vez de apresentar primeiro os cartões de recursos, a página flui através da intenção real da cena. Cada modo explica para que serve, como orientá-lo e como começar com um prompt funcional.",
+    "bestForTitle": "Melhor para",
+    "bestForDescription": "O enquadramento de casos de uso ajuda os usuários a entender não apenas o que o modelo pode fazer, mas também onde ele se encaixa melhor no trabalho de produção real.",
+    "galleryTitle": "Uma página de modelo premium deve explicar o resultado, e não enterrá-lo atrás de módulos",
+    "galleryDescription": "O ritmo geral segue um layout editorial vertical: primeiro o herói, depois a bancada, depois a lógica da cena, a lógica do produto e a prova real do resultado. Isso mantém a página densa sem desmoronar em uma parede de cartão.",
+    "galleryLead": "Os resultados reais devem conter a prova. A cópia circundante permanece compacta, legível e secundária.",
+    "faqTitle": "Enquadramento do produto, não apenas estilo da página",
+    "faqDescription": "As respostas permanecem no mesmo ritmo vertical para que a página ainda pareça uma narrativa contínua do produto, em vez de um conjunto de módulos separados.",
+    "openWithPrompt": "Abrir com prompt",
+    "openInCreator": "Abrir no criador",
+    "sampleLabel": "Amostra",
+    "fallbackSampleTitle": "Amostra de modelo",
+    "fallbackSampleCaption": "Uma amostra de saída real selecionada do próprio conjunto de geração deste modelo.",
+    "controls": {
+      "promptWorkflow": "Fluxo de trabalho imediato",
+      "creatorSync": "Sincronização do criador",
+      "uploadUpToRefs": "Faça upload de até {count} referências",
+      "referenceUploads": "Carregamentos de referência",
+      "aspectRatios": "{count}+ proporções",
+      "resolutionPresets": "{count} predefinições de resolução"
+    }
+  },
+  "nanobana": {
+    "title": "Nanobanana",
+    "provider": "Google",
+    "eyebrow": "Primeira página de destino do modelo",
+    "description": "Comece com o Nano Banana e, em seguida, avance para os fluxos de trabalho exatos com os quais ele lida melhor: edição guiada de imagens, geração rápida de conceitos e iteração nativa do criador com o mesmo comportamento de ambiente de trabalho que seu produto já usa.",
+    "seoTitle": "Página do modelo Nano Banana AI | Edição de imagem + texto para imagem | joymagic",
+    "seoDescription": "Explore Nano Banana como uma página de destino do modelo. Troque de cena, mantenha o ambiente de trabalho do criador e use o Nano Banana para edição de imagens e geração de texto para imagem em um único fluxo.",
+    "stats": [
+      {
+        "label": "Modo primário",
+        "value": "Edição de imagem"
+      },
+      {
+        "label": "Cenas expandidas",
+        "value": "2 fluxos de trabalho ao vivo"
+      },
+      {
+        "label": "Reutilização de painel",
+        "value": "O mesmo que criador"
+      }
+    ],
+    "differentiators": [
+      "Lidere com o modelo em vez de uma lista de cenas genérica, para que o tráfego pago chegue a uma proposta de valor mais restrita.",
+      "Reutilize o esquema de formulário do criador existente e o painel de mídia direito para manter o comportamento do produto consistente.",
+      "Adicione futuras páginas de modelo estendendo um único registro predefinido em vez de copiar páginas inteiras."
+    ],
+    "gallery": [
+      {
+        "title": "Remodelação do produto",
+        "caption": "Transforme um pacote simples de comércio eletrônico em um visual de lançamento premium com um modelo e um ciclo de revisão mais restrito.",
+        "prompt": "Transforme a foto do frasco enviada em um anúncio de luxo para a pele com reflexos de metal escovado, névoa suave e uma paleta de ouro champanhe.",
+        "accentClassName": "from-[#f4d38f] via-[#8b6b2b] to-[#161616] text-white"
+      },
+      {
+        "title": "Atualização de personagem",
+        "caption": "Atualize a pose, o estilo e a iluminação, mantendo a identidade intacta em edições repetidas.",
+        "prompt": "Mantenha o mesmo caráter e identidade facial, mude para iluminação de retrato de revista, cabelo rosa suave e estilo de figura colecionável.",
+        "accentClassName": "from-[#b78cff] via-[#5c38a5] to-[#151515] text-white"
+      },
+      {
+        "title": "Conceitos somente para prompt",
+        "caption": "Use o mesmo modelo para conceitos somente de prompt antes de passar para edições, retoques ou passagens sofisticadas.",
+        "prompt": "Crie um interior futurista de café de sobremesas com balcões cromados, luz natural cremosa e sinalização divertida renderizada em letras claras e legíveis.",
+        "accentClassName": "from-[#7ee7f2] via-[#167f8c] to-[#131313] text-white"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Por que usar /model/nanobana em vez de uma página de ferramenta genérica?",
+        "answer": "Esta página foi projetada para tráfego conduzido por modelo. Em vez de forçar os visitantes a escolherem primeiro uma família de ferramentas, ele começa com Nano Banana e depois se expande para os fluxos de trabalho onde esse modelo se adapta melhor."
+      },
+      {
+        "question": "Esta página usa um painel de mídia do lado direito diferente?",
+        "answer": "Não. A área do ambiente de trabalho reutiliza o mesmo painel de mídia do lado do criador, portanto, itens salvos, modelos, alternância de cenas e padrões de uso permanecem consistentes com /criador."
+      },
+      {
+        "question": "Mais modelos podem reutilizar este modelo?",
+        "answer": "Sim. A página é controlada por um registro, portanto, adicionar uma nova página /model/[slug] é principalmente uma tarefa de dados, além de quaisquer ajustes de cópia específicos do modelo."
+      }
+    ],
+    "scenes": [
+      {
+        "modeLabel": "Edição de imagem",
+        "title": "Cena 01 · Edição guiada de imagens",
+        "description": "Use Nano Banana como superfície de edição padrão para retoques, transferência de estilo, refinamento de produtos e revisões de preservação de identidade.",
+        "spotlight": "Melhor para ativos que já existem e precisam de uma segunda passagem mais rápida.",
+        "starterPrompt": "Mantenha a composição original, limpe o fundo, atualize a iluminação para uma aparência cinematográfica de estúdio e preserve todos os detalhes da marca.",
+        "useCases": [
+          "Limpeza de imagem do produto e restyling premium",
+          "Quadros UGC em recursos visuais principais prontos para anúncios",
+          "Mudanças de estilo seguro de caracteres ou IP"
+        ]
+      },
+      {
+        "modeLabel": "Texto para imagem",
+        "title": "Cena 02 · Geração de conceito imediato",
+        "description": "Passe do mesmo modelo para a geração de imagens de zero a um quando precisar de rascunhos de conceito, exploração de campanha ou novas direções de arte.",
+        "spotlight": "Melhor para criar novas direções antes de escolher o que editar ou aprimorar posteriormente.",
+        "starterPrompt": "Crie um visual chave de campanha sofisticado para o lançamento de uma bebida de verão, luz de fundo brilhante à tarde, tons cítricos e tipografia de título em negrito e legível.",
+        "useCases": [
+          "Moodboards de campanha e concepção de heróis",
+          "Gráficos sociais e rascunhos de pôsteres",
+          "Embalagens, sinalização e composições com muito texto"
+        ]
+      }
+    ]
+  },
+  "nanobanana-2": {
+    "title": "Nano Banana 2",
+    "provider": "Google",
+    "eyebrow": "Primeira página de destino do modelo",
+    "description": "Comece com o Nano Banana 2 quando precisar de um fluxo de trabalho mais orientado para a produção: mais referências, controles de saída mais fortes, renderização de texto mais clara e visuais de campanha mais nítidos na primeira passagem.",
+    "seoTitle": "Página do modelo Nano Banana 2 AI | Edição avançada de imagem + texto para imagem | joymagic",
+    "seoDescription": "Explore Nano Banana 2 como uma primeira página de destino do modelo. Troque de cena, reutilize o ambiente de trabalho do criador e use o Nano Banana 2 para edição de várias imagens e geração de texto para imagem com maior controle.",
+    "stats": [
+      {
+        "label": "Modo primário",
+        "value": "Edição avançada"
+      },
+      {
+        "label": "Cenas expandidas",
+        "value": "2 fluxos de trabalho ao vivo"
+      },
+      {
+        "label": "Foco de saída",
+        "value": "Mais controle"
+      }
+    ],
+    "differentiators": [
+      "Posicione o Nano Banana 2 como uma opção avançada para usuários que precisam de mais controle de produção do que o modelo básico.",
+      "Mantenha o mesmo comportamento do ambiente de trabalho do criador ao alterar a história do modelo, as instruções iniciais e o enquadramento da cena.",
+      "Facilite a comparação de páginas de modelos irmãos sem reconstruir formulários, roteamento de cena ou painel de mídia direito."
+    ],
+    "gallery": [
+      {
+        "title": "Atualização do pacote de campanha",
+        "caption": "Use várias referências e controles de saída mais rígidos para transformar ativos brutos de produtos em recursos visuais mais sofisticados e prontos para publicidade.",
+        "prompt": "Use as referências enviadas para criar um visual premium de campanha de cuidados com a pele com reflexos nítidos, iluminação elevada e um acabamento de varejo de luxo limpo.",
+        "accentClassName": "from-[#f8e08a] via-[#9c7c35] to-[#171717] text-white"
+      },
+      {
+        "title": "Cartazes de tipografia",
+        "caption": "Crie composições de pôster onde o layout, a hierarquia e o tipo legível são importantes desde a primeira passagem.",
+        "prompt": "Crie um pôster de lançamento premium para uma marca de bebidas de verão com tipografia de título clara e legível, luz cinematográfica da hora dourada e uma composição brilhante de herói de produto.",
+        "accentClassName": "from-[#8cd3ff] via-[#2b75b6] to-[#121416] text-white"
+      },
+      {
+        "title": "Conceitos de marca controlada",
+        "caption": "Gere quadros de conceito que pareçam mais próximos das composições finais da campanha, em vez de moodboards soltos.",
+        "prompt": "Crie um visual de conceito de marca sofisticado para um lançamento de fragrância de luxo, composição frontal heróica, névoa atmosférica suave, rotulagem clara do produto e iluminação editorial premium.",
+        "accentClassName": "from-[#d7b7ff] via-[#6f47a8] to-[#17131d] text-white"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Qual é a diferença entre /model/nanobana e /model/nanobanana-2?",
+        "answer": "Nano Banana 2 é enquadrado aqui como o irmão mais orientado para a produção: melhor para edições mais pesadas baseadas em referências, controles de saída mais fortes e geração de conceito premium com intenção de layout mais clara."
+      },
+      {
+        "question": "O Nano Banana 2 ainda usa o mesmo ambiente de trabalho do criador?",
+        "answer": "Sim. O fluxo de formulário esquerdo e o painel de mídia direito ainda são reutilizados pelo criador, portanto a página altera o contexto do modelo sem alterar o fluxo de trabalho de criação principal."
+      },
+      {
+        "question": "Por que criar uma página de modelo separada para o Nano Banana 2?",
+        "answer": "Porque a intenção do usuário é diferente. Esta página ajuda a posicionar o Nano Banana 2 como um caminho de atualização e permite explicar seus cenários mais adequados sem misturá-los em uma página de ferramentas genéricas."
+      }
+    ],
+    "scenes": [
+      {
+        "modeLabel": "Edição de imagem",
+        "title": "Cena 01 · Edição precisa de múltiplas imagens",
+        "description": "Use o Nano Banana 2 para fluxos de trabalho de edição mais pesados ​​que precisam de mais referências, controle mais claro sobre o tamanho da saída e uma configuração mais orientada para a produção.",
+        "spotlight": "Melhor para lotes, edições ricas em referências e resultados de alta resolução.",
+        "starterPrompt": "Use as referências enviadas para remodelar o produto em uma campanha de lançamento premium, manter a marca intacta, adicionar reflexos de estúdio controlados e produzir um visual comercial sofisticado.",
+        "useCases": [
+          "Refinamento da imagem do produto com múltiplas referências",
+          "Variações de campanha com controle de saída mais rígido",
+          "Direção de arte passa com identidade visual consistente"
+        ]
+      },
+      {
+        "modeLabel": "Texto para imagem",
+        "title": "Cena 02 · Geração de conceito de alto controle",
+        "description": "Passe para a geração orientada por prompt quando precisar de uma direção de câmera mais forte, renderização de texto mais limpa e resultados que pareçam mais próximos de composições prontas para produção.",
+        "spotlight": "Melhor para concepção premium antes de entregar os ativos na produção da campanha.",
+        "starterPrompt": "Crie um pôster de campanha de bebidas premium com uma composição de câmera forte, luz quente do pôr do sol, tipografia de título clara e um acabamento brilhante de produto heróico.",
+        "useCases": [
+          "Comps de conceito de anúncio com intenção de layout mais clara",
+          "Rascunhos de pôsteres e embalagens com tipografia legível",
+          "Visuais de marca que precisam de resultados de primeira passagem mais sofisticados"
+        ]
+      }
+    ]
+  },
+  "wan-2-7": {
+    "title": "Wan 2.7",
+    "provider": "Alibaba",
+    "eyebrow": "Primeira página de destino do modelo",
+    "description": "Comece com Wan 2.7 quando quiser mais geração de imagens cinematográficas e narrativa baseada em movimento: atmosfera mais forte, mais enquadramento editorial e resultados mais próximos dos visuais de campanha premium.",
+    "seoTitle": "Página do modelo Wan 2.7 AI | Texto para imagem + Texto para vídeo | joymagic",
+    "seoDescription": "Explore Wan 2.7 como uma página de destino inicial do modelo. Alterne entre texto para imagem e texto para vídeo, reutilize o ambiente de trabalho do criador e passe de imagens estáticas cinematográficas para movimento em um único fluxo.",
+    "stats": [
+      {
+        "label": "Modo primário",
+        "value": "Texto para imagem"
+      },
+      {
+        "label": "Cenas expandidas",
+        "value": "6 fluxos de trabalho ao vivo"
+      },
+      {
+        "label": "Foco de saída",
+        "value": "Direção cinematográfica"
+      }
+    ],
+    "differentiators": [
+      "Posicione o Wan 2.7 como a opção premium de narrativa para equipes que se preocupam com a atmosfera, a beleza e a composição editorial.",
+      "Use uma página de modelo para unir a concepção de imagens estáticas, edição controlada, geração de movimento e extensão de sequência sem alterar o comportamento principal do ambiente de trabalho.",
+      "Dê ao Wan 2.7 sua própria narrativa para que os usuários entendam quando escolhê-lo em vez de um modelo de edição mais utilitário."
+    ],
+    "gallery": [
+      {
+        "title": "Retratos de beleza cinematográfica",
+        "caption": "Gere molduras editoriais premium com clima mais forte, renderização de personagens mais limpa e um acabamento de campanha de moda mais polido.",
+        "prompt": "Crie um belo retrato cinematográfico em uma rua iluminada pela chuva na hora azul com estilo premium, reflexos refinados e iluminação editorial elegante.",
+        "accentClassName": "from-[#9f7bff] via-[#3d3276] to-[#121212] text-white"
+      },
+      {
+        "title": "Atmosfera de moda luxuosa",
+        "caption": "Impulsione as saídas de imagens estáticas para uma luz cinematográfica mais rica, texturas premium e uma narrativa visual mais elevada.",
+        "prompt": "Gere uma campanha de moda de luxo com uma modelo caminhando por uma cidade neon depois da chuva, reflexos brilhantes, guarda-roupa premium e enquadramento cinematográfico temperamental.",
+        "accentClassName": "from-[#5ec8ff] via-[#1e567b] to-[#101216] text-white"
+      },
+      {
+        "title": "Conceitos de campanha liderada por movimento",
+        "caption": "Mude de conceitos estáticos para ideias de movimentos cinematográficos curtos quando a história precisar de movimento e continuidade de câmera.",
+        "prompt": "Crie um conceito de movimento de campanha curto de uma modelo saindo de um táxi à noite, reflexos na calçada molhada, movimento lento da câmera e close-ups luxuosos de beleza.",
+        "accentClassName": "from-[#f7c875] via-[#88612f] to-[#161616] text-white"
+      },
+      {
+        "title": "Loops editoriais premium",
+        "caption": "Use o Wan 2.7 para testar curtas-metragens de beleza e moda antes de iniciar o planejamento completo da produção.",
+        "prompt": "Gere um loop estilo filme de moda com movimento sutil do vento, transições cinematográficas de close-up, detalhes de maquiagem premium e ambiente dramático de cidade e noite.",
+        "accentClassName": "from-[#f19dc2] via-[#75405e] to-[#171216] text-white"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Por que dar ao Wan 2.7 sua própria página de modelo?",
+        "answer": "Porque o Wan 2.7 carrega uma intenção de usuário diferente das ferramentas de imagem orientadas a utilitários. Esta página ajuda a explicar quando usá-lo para imagens estáticas cinematográficas, conceitos editoriais e desenvolvimento de histórias curtas com movimento inicial."
+      },
+      {
+        "question": "O Wan 2.7 ainda reutiliza o mesmo ambiente de trabalho do criador?",
+        "answer": "Sim. A página mantém a mesma superfície de fluxo de trabalho do criador, para que os usuários possam alternar entre a geração de imagem e vídeo sem reaprender a estrutura do produto."
+      },
+      {
+        "question": "O Wan 2.7 é melhor para fotos ou movimento?",
+        "answer": "Esta página posiciona Wan 2.7 para ambos. A conversão de texto em imagem funciona bem para quadros de conceito premium, enquanto a conversão de texto em vídeo ajuda a transmitir a mesma direção estética em clipes cinematográficos curtos."
+      }
+    ],
+    "scenes": [
+      {
+        "modeLabel": "Texto para imagem",
+        "title": "Cena 01 · Geração de imagem cinematográfica",
+        "description": "Use o Wan 2.7 quando desejar visuais sofisticados com prompts com clima editorial mais forte, renderização de personagens refinada e composição de primeira passagem mais premium.",
+        "spotlight": "Melhor para editoriais de beleza, campanhas de moda e conceitos visuais cinematográficos.",
+        "starterPrompt": "Gere um retrato editorial de beleza cinematográfica em uma cidade iluminada pela chuva na hora azul, detalhes de pele polidos, estilo de moda premium e reflexos refinados.",
+        "useCases": [
+          "Campanhas sofisticadas de retratos e beleza",
+          "Editoriais de moda com clima mais forte",
+          "Molduras conceituais de luxo com iluminação mais rica"
+        ]
+      },
+      {
+        "modeLabel": "Edição de imagem",
+        "title": "Cena 02 · Edição de imagem orientada por referência",
+        "description": "Mude o Wan 2.7 para edição de imagens quando precisar preservar a identidade do assunto, orientar a composição a partir de referências e levar as fotos para um acabamento mais cinematográfico.",
+        "spotlight": "Melhor para retoque editorial, restyling de imagem e atualizações de atmosfera de ativos existentes.",
+        "starterPrompt": "Mantenha o tema e o enquadramento originais, aprofunde o clima cinematográfico noturno, melhore os reflexos e os detalhes da pele e eleve a imagem a uma imagem editorial premium.",
+        "useCases": [
+          "Fotografias de moda com direção de iluminação mais forte",
+          "Edições de beleza que preservam a identidade do sujeito",
+          "Cena baseada em referência e refinamento de humor"
+        ]
+      },
+      {
+        "modeLabel": "Edição de imagem profissional",
+        "title": "Cena 03 · Edição de imagem com alto controle",
+        "description": "Use o caminho de edição profissional quando o trabalho precisar de controle visual mais rígido, direção de arte mais pesada e refinamento mais deliberado em diversas entradas de referência.",
+        "spotlight": "Melhor para polimento de campanha premium, controle de edição mais rígido e refinamento de imagem de maior fidelidade.",
+        "starterPrompt": "Usando as referências carregadas, refine a moldura em um visual de campanha premium com controle de contraste mais rígido, atmosfera mais rica e um acabamento luxuoso mais limpo.",
+        "useCases": [
+          "Produto pronto para campanha ou refinamentos de retrato",
+          "Passes de direção de arte baseados em referências mais pesados",
+          "Fotografias refinadas para visuais de lançamento premium"
+        ]
+      },
+      {
+        "modeLabel": "Texto para vídeo",
+        "title": "Cena 04 · Narrativa de moda inovadora",
+        "description": "Mude para a geração de vídeo Wan 2.7 quando a ideia precisar de movimento de câmera, continuidade de clima e uma narrativa de beleza ou moda mais parecida com um filme.",
+        "spotlight": "Melhor para clipes cinematográficos curtos, loops de movimento de campanha e fotos premium focadas em modelos.",
+        "starterPrompt": "Crie um pequeno clipe de filme de moda de luxo de uma modelo saindo de um táxi à noite, reflexos molhados, movimento lento da câmera, close-up de beleza premium.",
+        "useCases": [
+          "Clipes de movimento estilo filme de beleza",
+          "Sequências curtas de campanhas de moda",
+          "Conceitos de movimento editorial de luxo"
+        ]
+      },
+      {
+        "modeLabel": "Imagem para vídeo",
+        "title": "Cena 05 · Continuação ainda em movimento",
+        "description": "Transforme um quadro estático forte em movimento quando quiser preservar a composição original, mas introduza movimentos sutis de câmera, movimento ambiente e continuidade cinematográfica.",
+        "spotlight": "Melhor para animar elementos visuais importantes, molduras de pôsteres e fotos editoriais em pequenos loops de movimento.",
+        "starterPrompt": "Anime o visual principal carregado em um clipe cinematográfico curto com vento sutil, movimento de luz reflexivo e movimento lento da câmera editorial.",
+        "useCases": [
+          "Anime quadros de pôsteres em clipes promocionais curtos",
+          "Transforme fotos de beleza em movimentos cinematográficos sutis",
+          "Teste a direção do movimento a partir de um visual chave aprovado"
+        ]
+      },
+      {
+        "modeLabel": "Extensão de vídeo",
+        "title": "Cena 06 · Extensão de sequência",
+        "description": "Estenda um clipe Wan 2.7 existente quando o conceito estiver funcionando e você precisar de mais tempo de execução, uma continuação narrativa mais suave ou uma batida extra antes do corte.",
+        "spotlight": "Melhor para estender clipes aprovados, criar loops mais longos e transmitir estilo de movimento em uma sequência.",
+        "starterPrompt": "Estenda o clipe carregado continuando o mesmo clima cinematográfico, linguagem da câmera e movimento do assunto sem quebrar a continuidade.",
+        "useCases": [
+          "Estenda clipes curtos em ciclos de campanha mais completos",
+          "Adicione uma batida extra às cenas aprovadas de filmes de moda",
+          "Preservar a linguagem do movimento em uma sequência mais longa"
+        ]
+      }
+    ]
+  }
+}

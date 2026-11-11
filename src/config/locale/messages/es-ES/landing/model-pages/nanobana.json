@@ -1,0 +1,88 @@
+{
+  "title": "nanoplátano",
+  "provider": "Google",
+  "eyebrow": "Primera página de inicio del modelo",
+  "description": "Comience con Nano Banana y luego pase a los flujos de trabajo exactos que mejor maneja: edición de imágenes guiada, generación rápida de conceptos e iteración nativa del creador con el mismo comportamiento en el banco de trabajo que ya utiliza su producto.",
+  "seoTitle": "Página del modelo de IA Nano Banana | Edición de imagen + Texto a imagen | joymagic",
+  "seoDescription": "Explora Nano Banana como página de inicio para modelos. Cambie de escena, mantenga el banco de trabajo del creador y use Nano Banana para editar imágenes y generar texto a imagen en un solo flujo.",
+  "stats": [
+    {
+      "label": "Modo primario",
+      "value": "Editar imagen"
+    },
+    {
+      "label": "Escenas ampliadas",
+      "value": "2 flujos de trabajo en vivo"
+    },
+    {
+      "label": "Reutilización de paneles",
+      "value": "Igual que el creador"
+    }
+  ],
+  "differentiators": [
+    "Lidera con el modelo en lugar de una lista de escenas genérica, de modo que el tráfico pago llegue a una propuesta de valor más ajustada.",
+    "Reutilice el esquema del formulario de creador existente y el panel multimedia derecho para mantener el comportamiento del producto consistente.",
+    "Agregue páginas de modelos futuros ampliando un único registro preestablecido en lugar de copiar páginas completas."
+  ],
+  "gallery": [
+    {
+      "title": "Nuevo estilo del producto",
+      "caption": "Convierta una simple imagen de paquete de comercio electrónico en una imagen de lanzamiento premium con un modelo y un ciclo de revisión más estricto.",
+      "prompt": "Transforme la foto de la botella cargada en un anuncio de cuidado de la piel de lujo con reflejos de metal cepillado, niebla suave y una paleta de color dorado champán.",
+      "accentClassName": "from-[#f4d38f] via-[#8b6b2b] to-[#161616] text-white"
+    },
+    {
+      "title": "Actualización de personaje",
+      "caption": "Actualice la pose, el estilo y la iluminación mientras mantiene intacta la identidad en las ediciones repetidas.",
+      "prompt": "Mantén el mismo carácter e identidad facial, cambia a iluminación de retratos de revista, cabello rosa suave y un estilo de figura coleccionable.",
+      "accentClassName": "from-[#b78cff] via-[#5c38a5] to-[#151515] text-white"
+    },
+    {
+      "title": "Conceptos de sólo indicaciones",
+      "caption": "Utilice el mismo modelo para conceptos específicos antes de pasar a ediciones, retoques o pases mejorados.",
+      "prompt": "Genere un interior de cafetería de postres futurista con mostradores cromados, luz natural cremosa y letreros divertidos en letras claras y legibles.",
+      "accentClassName": "from-[#7ee7f2] via-[#167f8c] to-[#131313] text-white"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué utilizar /model/nanobana en lugar de una página de herramientas genérica?",
+      "answer": "Esta página está diseñada para tráfico dirigido por modelos. En lugar de obligar a los visitantes a elegir primero una familia de herramientas, comienza con Nano Banana y luego se expande a los flujos de trabajo donde ese modelo se adapta mejor."
+    },
+    {
+      "question": "¿Esta página utiliza un panel multimedia del lado derecho diferente?",
+      "answer": "No. El área del banco de trabajo reutiliza el mismo panel multimedia del lado del creador, por lo que los elementos guardados, las plantillas, el cambio de escena y los patrones de uso se mantienen consistentes con /creator."
+    },
+    {
+      "question": "¿Pueden más modelos reutilizar esta plantilla?",
+      "answer": "Sí. La página está controlada por un registro, por lo que agregar una nueva página /model/[slug] es principalmente una tarea de datos más cualquier ajuste de copia específico del modelo."
+    }
+  ],
+  "scenes": [
+    {
+      "modeLabel": "Editar imagen",
+      "title": "Escena 01 · Edición de imágenes guiada",
+      "description": "Utilice Nano Banana como superficie de edición predeterminada para retoques, transferencia de estilos, refinamiento de productos y revisiones para preservar la identidad.",
+      "spotlight": "Lo mejor para activos que ya existen y necesitan una segunda pasada más rápida.",
+      "starterPrompt": "Mantenga la composición original, limpie el fondo, mejore la iluminación para darle una apariencia de estudio cinematográfico y conserve todos los detalles de la marca.",
+      "useCases": [
+        "Limpieza de imagen de producto y restyling premium",
+        "Marcos UGC en imágenes clave listas para anuncios",
+        "Cambios de estilo de carácter o IP seguros"
+      ]
+    },
+    {
+      "modeLabel": "Texto a imagen",
+      "title": "Escena 02 · Generación del primer concepto rápido",
+      "description": "Pase del mismo modelo a la generación de imágenes de cero a uno cuando necesite borradores conceptuales, exploración de campañas o nuevas direcciones artísticas.",
+      "spotlight": "Lo mejor para crear nuevas direcciones antes de elegir qué editar o mejorar más adelante.",
+      "starterPrompt": "Cree una imagen clave de campaña refinada para el lanzamiento de una bebida de verano, luz de fondo brillante por la tarde, tonos cítricos y una tipografía de título legible en negrita.",
+      "useCases": [
+        "Moodboards de campaña y concepto de héroe",
+        "Gráficos sociales y borradores de carteles.",
+        "Embalaje, señalización y composiciones con mucho texto"
+      ]
+    }
+  ],
+  "templateCopy": {}
+}

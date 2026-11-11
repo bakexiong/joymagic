@@ -1,0 +1,170 @@
+[
+  {
+    "prompt": "A cinematic, steampunk video, bringing the input image to life with a story.\n\nThe scene starts exactly as the image: the inventor, focused and serious, is carefully tightening a bolt on the brass robot's hand with a wrench. Steam gently drifts around them in the cluttered workshop.\n\nSuddenly, the robot's red eyes, which were steadily glowing, begin to flicker erratically. The inventor pauses, noticing the change, a look of confusion crossing his face.\n\nThe robot's head slowly, creakily turns to look directly at the inventor. Its metallic fingers twitch, then slowly curl, gently closing around the wrench still held by the inventor.\n\nThe inventor freezes, his eyes wide with a mixture of shock, awe, and perhaps a touch of fear. He slowly meets the robot's steady, glowing red gaze. A moment of intense, silent communication hangs between creator and creation.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/67f105e138ac6af658fcbf5934d83b24.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/67f105e138ac6af658fcbf5934d83b24.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A cinematic, steampunk video, bringing the input image to life with a story.\n\nThe scene starts exactly as the image: the inventor, focused and serious, is carefully tightening a bolt on the brass robot's hand with a wrench. Steam gently drifts around them in the cluttered workshop.\n\nSuddenly, the robot's red eyes, which were steadily glowing, begin to flicker erratically. The inventor pauses, noticing the change, a look of confusion crossing his face.\n\nThe robot's head slowly, creakily turns to look directly at the inventor. Its metallic fingers twitch, then slowly curl, gently closing around the wrench still held by the inventor.\n\nThe inventor freezes, his eyes wide with a mixture of shock, awe, and perhaps a touch of fear. He slowly meets the robot's steady, glowing red gaze. A moment of intense, silent communication hangs between creator and creation.",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/e51b863a9920729718f6de5a6b112167.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/e51b863a9920729718f6de5a6b112167.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/d4a7c4a0f89aec2610823677856c321e.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/d4a7c4a0f89aec2610823677856c321e.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:12:37.994Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/aa2e71d9e5227e3678ba6808f2a075ea.mp4"
+  },
+  {
+    "prompt": "A cinematic, intense cyberpunk ninja duel, starting slightly before the sword lock.\n\nThe scene opens with a rapid exchange of blows: the traditional ninja and the cybernetic ninja clash their glowing katanas twice in quick succession. Bright sparks erupt *only* at the moment of blade impact.\n\nAfter the brief exchange, they lock blades fiercely, pushing against each other with immense force. The camera moves into a tight close-up, focusing on the strained lock. Sparks now only burst intermittently when one side applies sudden, increased pressure, highlighting the struggle for dominance. Their arms tremble with the strain.\n\nCamera slowly pushes in even closer, focusing on their masked faces/visors. The traditional ninja speaks first, his muffled voice filled with conviction (implied): \"Is this power worth your soul?\"\n\nThe cybernetic ninja remains still, its glowing blue eyes unwavering. After a deliberate pause, it replies in a cold, synthetic tone (implied): \"The future has no soul.\"\n\nImmediately following the final word, the cybernetic ninja surges forward with mechanical force, briefly creating a shower of sparks as it overpowers the lock. The traditional ninja is pushed back slightly, breaking the stalemate.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/28f22718f13eb06ad06b0d2b4d88d115.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/28f22718f13eb06ad06b0d2b4d88d115.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A cinematic, intense cyberpunk ninja duel, starting slightly before the sword lock.\n\nThe scene opens with a rapid exchange of blows: the traditional ninja and the cybernetic ninja clash their glowing katanas twice in quick succession. Bright sparks erupt *only* at the moment of blade impact.\n\nAfter the brief exchange, they lock blades fiercely, pushing against each other with immense force. The camera moves into a tight close-up, focusing on the strained lock. Sparks now only burst intermittently when one side applies sudden, increased pressure, highlighting the struggle for dominance. Their arms tremble with the strain.\n\nCamera slowly pushes in even closer, focusing on their masked faces/visors. The traditional ninja speaks first, his muffled voice filled with conviction (implied): \"Is this power worth your soul?\"\n\nThe cybernetic ninja remains still, its glowing blue eyes unwavering. After a deliberate pause, it replies in a cold, synthetic tone (implied): \"The future has no soul.\"\n\nImmediately following the final word, the cybernetic ninja surges forward with mechanical force, briefly creating a shower of sparks as it overpowers the lock. The traditional ninja is pushed back slightly, breaking the stalemate.",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/e95ad8802d886877beac3970997425f4.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/e95ad8802d886877beac3970997425f4.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/7eef0da4035a52659848d5f6028fbbc1.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/7eef0da4035a52659848d5f6028fbbc1.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:13:35.385Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/7d6939669d48e6aca2dca4ad42c48db4.mp4"
+  },
+  {
+    "prompt": "A cinematic, epic fantasy video, bringing the input image to life with amplified elemental effects.\n\nThe scene starts with the wizard standing powerfully between fire and water, as seen in the image.\n\nThen, the elements surge with raw power: The fire elemental in his left hand erupts into a roaring vortex of flames, spitting sparks and glowing embers. Simultaneously, the wave on his right grows into a massive, crashing tidal wave of churning water, sending freezing spray into the air.\n\nThe fire and water violently clash in the space directly in front of him, creating clouds of hissing steam and chaotic bursts of elemental energy. Small rocks around his feet begin to crack and levitate slightly.\n\nThe wizard braces himself against the unleashed forces, his eyes glowing intensely with arcane energy, his robes and long white beard whipping wildly in the magical crosswinds.\n\nCamera: A slow, dramatic zoom-in, focusing on the violent clash point between fire and water, capturing the steam and sparks in detail.\n\nStyle: Photorealistic, masterpiece, high detail, extreme magical particle effects (fire, water, steam, sparks), slow-motion on the clash, epic fantasy.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/c3395a8a1ce1804c960057333c5b1996.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/c3395a8a1ce1804c960057333c5b1996.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A cinematic, epic fantasy video, bringing the input image to life with amplified elemental effects.\n\nThe scene starts with the wizard standing powerfully between fire and water, as seen in the image.\n\nThen, the elements surge with raw power: The fire elemental in his left hand erupts into a roaring vortex of flames, spitting sparks and glowing embers. Simultaneously, the wave on his right grows into a massive, crashing tidal wave of churning water, sending freezing spray into the air.\n\nThe fire and water violently clash in the space directly in front of him, creating clouds of hissing steam and chaotic bursts of elemental energy. Small rocks around his feet begin to crack and levitate slightly.\n\nThe wizard braces himself against the unleashed forces, his eyes glowing intensely with arcane energy, his robes and long white beard whipping wildly in the magical crosswinds.\n\nCamera: A slow, dramatic zoom-in, focusing on the violent clash point between fire and water, capturing the steam and sparks in detail.\n\nStyle: Photorealistic, masterpiece, high detail, extreme magical particle effects (fire, water, steam, sparks), slow-motion on the clash, epic fantasy.",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/aa594b65d787047c5a2354b8337bc55a.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/aa594b65d787047c5a2354b8337bc55a.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/d795ed4b524736e99d1b757574d0369c.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/d795ed4b524736e99d1b757574d0369c.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:14:32.246Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/e80c6f7d23b4717a14b13e5899b21744.mp4"
+  },
+  {
+    "prompt": "A cinematic, epic historical video, bringing the input image to life.\n\nThe scene starts with the commander, fist raised high, finishing a powerful, rallying shout, exactly as seen in the image. His mouth is wide open, clearly shouting the word (implied): \"FIGHT!\" The sun is bright, casting long shadows.\n\nHe holds this powerful pose for a dramatic beat.\n\nThen, in direct, thunderous response, the *entire* army behind him erupts. Thousands of soldiers simultaneously raise their spears and shields high towards the sky, their mouths open wide, shouting back in perfect unison (implied): \"VICTORY!\"\n\nAs they shout \"Victory!\", many soldiers bang their spears against their shields rhythmically, creating a deafening metallic clang.\n\nDust rises slightly from the ground due to the synchronized stomping and shouting. Flags wave dramatically.\n\nCamera: Starts focused on the commander shouting \"FIGHT!\", then dramatically pulls back and sweeps low across the roaring army shouting \"VICTORY!\", capturing the immense scale and unity.\n\nStyle: Photorealistic, masterpiece, high detail, dynamic motion, epic historical battle, golden hour lighting.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/f90d13ffe2821ac7d4fc0cefeba1b7ec.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/f90d13ffe2821ac7d4fc0cefeba1b7ec.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A cinematic, epic historical video, bringing the input image to life.\n\nThe scene starts with the commander, fist raised high, finishing a powerful, rallying shout, exactly as seen in the image. His mouth is wide open, clearly shouting the word (implied): \"FIGHT!\" The sun is bright, casting long shadows.\n\nHe holds this powerful pose for a dramatic beat.\n\nThen, in direct, thunderous response, the *entire* army behind him erupts. Thousands of soldiers simultaneously raise their spears and shields high towards the sky, their mouths open wide, shouting back in perfect unison (implied): \"VICTORY!\"\n\nAs they shout \"Victory!\", many soldiers bang their spears against their shields rhythmically, creating a deafening metallic clang.\n\nDust rises slightly from the ground due to the synchronized stomping and shouting. Flags wave dramatically.\n\nCamera: Starts focused on the commander shouting \"FIGHT!\", then dramatically pulls back and sweeps low across the roaring army shouting \"VICTORY!\", capturing the immense scale and unity.\n\nStyle: Photorealistic, masterpiece, high detail, dynamic motion, epic historical battle, golden hour lighting.",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/df1434950a29907bb70736612cae9079.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/df1434950a29907bb70736612cae9079.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/aae19a2f10e079ad0c9178d4e2baaaf4.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/aae19a2f10e079ad0c9178d4e2baaaf4.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:15:29.105Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/c59395bf89f2e50f64a0f32b389d57aa.mp4"
+  },
+  {
+    "prompt": "A cinematic, intense horror video, bringing the input image to terrifying life.\n\nThe scene starts exactly as the image: the small girl crouches alone in the dark, dilapidated room, her face illuminated only by the single candle she clutches tightly. Her eyes are wide with fear.\n\nSuddenly, the candle flame flickers violently, almost extinguishing, casting long, dancing, distorted shadows across the cracked walls and debris-strewn floor. The tattered curtain in the broken window billows inwards wildly, as if pushed by an unseen force or a sudden gust of wind.\n\nThe girl flinches visibly at the movement. Her eyes dart nervously towards the dark, unseen corners of the room, then fixate on the wildly flapping curtain. She pulls her knees tighter to her chest, trembling slightly.\n\nA faint, unsettling scratching sound seems to come from outside the window (implied sound), or a floorboard creaks loudly in the darkness behind her.\n\nCamera: A very slow, almost imperceptible zoom-in, focusing tightly on her terrified eyes and the flickering candle flame.\n\nStyle: Photorealistic, high detail, extreme suspense, gothic horror, chiaroscuro lighting, unsettling atmosphere.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/64d4e58f71efadabb3c3e3ea13accf1c.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/64d4e58f71efadabb3c3e3ea13accf1c.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A cinematic, intense horror video, bringing the input image to terrifying life.\n\nThe scene starts exactly as the image: the small girl crouches alone in the dark, dilapidated room, her face illuminated only by the single candle she clutches tightly. Her eyes are wide with fear.\n\nSuddenly, the candle flame flickers violently, almost extinguishing, casting long, dancing, distorted shadows across the cracked walls and debris-strewn floor. The tattered curtain in the broken window billows inwards wildly, as if pushed by an unseen force or a sudden gust of wind.\n\nThe girl flinches visibly at the movement. Her eyes dart nervously towards the dark, unseen corners of the room, then fixate on the wildly flapping curtain. She pulls her knees tighter to her chest, trembling slightly.\n\nA faint, unsettling scratching sound seems to come from outside the window (implied sound), or a floorboard creaks loudly in the darkness behind her.\n\nCamera: A very slow, almost imperceptible zoom-in, focusing tightly on her terrified eyes and the flickering candle flame.\n\nStyle: Photorealistic, high detail, extreme suspense, gothic horror, chiaroscuro lighting, unsettling atmosphere.",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/36b475157a655eeea0f5cdf82d8db978.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/36b475157a655eeea0f5cdf82d8db978.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/3b961f90b06609ec98a8ea2c44c09ff4.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/3b961f90b06609ec98a8ea2c44c09ff4.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:16:24.369Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/1cb3ba78dcffa8689caeaa0f9b9d0ba3.mp4"
+  },
+  {
+    "prompt": "A cinematic, incredibly dramatic video, bringing the devastating moment from the input image to life.\n\nThe scene holds on the static tableau: the heavily damaged Iron Man kneeling defeated amidst the smoldering ruins, sparks flickering around him. The colossal Thanos stands over him, impassive and dominant, exactly as pictured. The sky is dark and ominous.\n\nIron Man struggles, his battered armor groaning and sparking. He tries to push himself up slightly, planting one trembling hand on the debris-strewn ground, but his strength fails him. His head hangs low in exhaustion and despair.\n\nThanos remains perfectly still, a silent, imposing figure. He looks down at the fallen hero with cold indifference or perhaps a flicker of grim satisfaction in his eyes (subtle expression).\n\nDust and embers swirl slowly in the faint wind. A single, small piece of debris falls near Iron Man with a soft clatter, emphasizing the desolate silence.\n\nCamera: A very slow, almost imperceptible dolly zoom, pushing slightly towards Iron Man, emphasizing his isolation and defeat against the towering figure of Thanos.\n\nStyle: Photorealistic, masterpiece, high detail, cinematic lighting (dark, high contrast), slow-motion effect on sparks/embers, epic, somber atmosphere.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/e43d6c2ae06baac620293d6a0052f1bb.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/e43d6c2ae06baac620293d6a0052f1bb.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A cinematic, incredibly dramatic video, bringing the devastating moment from the input image to life.\n\nThe scene holds on the static tableau: the heavily damaged Iron Man kneeling defeated amidst the smoldering ruins, sparks flickering around him. The colossal Thanos stands over him, impassive and dominant, exactly as pictured. The sky is dark and ominous.\n\nIron Man struggles, his battered armor groaning and sparking. He tries to push himself up slightly, planting one trembling hand on the debris-strewn ground, but his strength fails him. His head hangs low in exhaustion and despair.\n\nThanos remains perfectly still, a silent, imposing figure. He looks down at the fallen hero with cold indifference or perhaps a flicker of grim satisfaction in his eyes (subtle expression).\n\nDust and embers swirl slowly in the faint wind. A single, small piece of debris falls near Iron Man with a soft clatter, emphasizing the desolate silence.\n\nCamera: A very slow, almost imperceptible dolly zoom, pushing slightly towards Iron Man, emphasizing his isolation and defeat against the towering figure of Thanos.\n\nStyle: Photorealistic, masterpiece, high detail, cinematic lighting (dark, high contrast), slow-motion effect on sparks/embers, epic, somber atmosphere.",
+      "duration": "8",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/5c4edc7ed32eaed3186ce6f7b9247fa1.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/5c4edc7ed32eaed3186ce6f7b9247fa1.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/9414eea6bebb58e2bafd869452f79d31.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/9414eea6bebb58e2bafd869452f79d31.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:17:20.914Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/2604a02777e28a3410d0b6f6b1d12382.mp4"
+  },
+  {
+    "prompt": "A cinematic, vibrant video bringing the input image to life.\n\nThe scene continues the performance. The woman sings passionately into the vintage microphone, her expression full of charisma and confidence, exactly as seen in the image.\n\nShe subtly sways to an unseen rhythm, her free hand perhaps gesturing slightly for emphasis, adding life to her performance. The beaded fringes on her glamorous dress shimmer and sway gently with her movements, catching the warm stage lights.\n\nThe bright stage lights behind her pulse softly, creating gentle lens flares that add to the atmosphere.",
+    "params": {
+      "referenceImages": [
+        {
+          "id": "referenceImages-0",
+          "preview": "https://ocdn.10b.ai/workbench-template-samples/images/223bdc6fa5bc36c10f02cce1de033f8e.jpeg",
+          "url": "https://ocdn.10b.ai/workbench-template-samples/images/223bdc6fa5bc36c10f02cce1de033f8e.jpeg",
+          "status": "uploaded"
+        }
+      ],
+      "prompt": "A cinematic, vibrant video bringing the input image to life.\n\nThe scene continues the performance. The woman sings passionately into the vintage microphone, her expression full of charisma and confidence, exactly as seen in the image.\n\nShe subtly sways to an unseen rhythm, her free hand perhaps gesturing slightly for emphasis, adding life to her performance. The beaded fringes on her glamorous dress shimmer and sway gently with her movements, catching the warm stage lights.\n\nThe bright stage lights behind her pulse softly, creating gentle lens flares that add to the atmosphere.",
+      "duration": "20",
+      "generateAudio": true
+    },
+    "previewUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/512fdcccef6ef766bd21fbaf5b35350f.mp4",
+    "thumbnailUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/512fdcccef6ef766bd21fbaf5b35350f.mp4",
+    "generatedUrl": "https://ocdn.10b.ai/workbench-template-samples/videos/f02be211342ca0bbdf093787b610ad8e.mp4",
+    "generatedUrls": [
+      "https://ocdn.10b.ai/workbench-template-samples/videos/f02be211342ca0bbdf093787b610ad8e.mp4"
+    ],
+    "generatedAt": "2026-04-15T07:19:16.125Z",
+    "previewClipUrl": "https://ocdn.10b.ai/workbench-template-samples/previews/34c664118fe228cbebc1ec53cf36421f.mp4"
+  }
+]

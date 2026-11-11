@@ -1,0 +1,195 @@
+{
+  "qwenImageLayered": {
+    "steps": {
+      "image": {
+        "title": "Görüntü*",
+        "hint": "İpucu: Bir dosyayı sürükleyip bırakabilir veya yüklemek için tıklayabilirsiniz",
+        "dragDrop": "Sürükle ve bırak veya yüklemek için tıkla",
+        "dropHere": "Görüntüyü buraya bırak",
+        "urlPlaceholder": "Veya görüntü URL'si girin",
+        "urlEntered": "URL girildi"
+      },
+      "numLayers": {
+        "title": "Katman Sayısı",
+        "hint": "Ayrıştırılacak katman sayısı (1-8)"
+      },
+      "generate": {
+        "title": "Oluştur",
+        "cta": "Oluştur",
+        "generating": "Oluşturuluyor..."
+      }
+    },
+    "preview": {
+      "title": "Önizleme",
+      "original": "Orijinal",
+      "swap": "Değiştir",
+      "placeholder": "Katmanlı ayrıştırmayı burada görmek için bir görüntü yükleyin.",
+      "layers": "Katmanlar",
+      "noLayers": "Henüz katman oluşturulmadı",
+      "downloadAll": "Tümünü İndir"
+    },
+    "common": {
+      "selected": "Seçildi: {name}",
+      "notSelected": "Seçilmedi",
+      "clear": "Temizle"
+    },
+    "errors": {
+      "invalidFileType": "Geçersiz dosya türü. Lütfen bir görüntü dosyası (JPG, PNG, WEBP) yükleyin.",
+      "uploadFailed": "Yükleme başarısız: {error}",
+      "uploadFailedGeneric": "Yükleme başarısız",
+      "imageRequired": "Lütfen bir görüntü yükleyin veya bir görüntü URL'si girin",
+      "generationFailed": "Görüntü oluşturma başarısız",
+      "taskFailed": "Görev işleme başarısız",
+      "taskTimeout": "Görev işleme zaman aşımı, lütfen daha sonra tekrar deneyin",
+      "taskIdNotFound": "Görev ID'si alınamadı, lütfen API yanıt formatını kontrol edin",
+      "processingFailed": "İşleme başarısız, lütfen tekrar deneyin",
+      "statusQueryFailed": "Görev durumu sorgulama başarısız",
+      "apiResponseParseFailed": "API yanıtı ayrıştırma başarısız"
+    }
+  },
+  "qwenImageLayeredPage": {
+    "metadata": {
+      "title": "AI Görüntü Katman Ayrıştırma Aracı | RGBA Katmanlar | joymagic",
+      "description": "Görüntüleri düzenlenebilir RGBA katmanlarına ayrıştıran AI destekli araç. Sorunsuz fotoğraf düzenleme ve tasarım için alfa kanallarıyla otomatik anlamsal ayrım."
+    },
+    "hero": {
+      "title": "AI Görüntü Katmanlı Ayrıştırma",
+      "description": "joymagic'ın AI katmanlı aracıyla herhangi bir görüntüyü otomatik olarak düzenlenebilir RGBA katmanlarına ayrıştırın. Mükemmel anlamsal ayrım – temiz alfa kanalları, yumuşak kenarlar ve doğru örtme sırası.",
+      "button1": "Şimdi Katmanlara Ayrıştır",
+      "button2": "Ücretsiz başla · Kredi kartı gerekmez"
+    },
+    "heroDescription": "✓ HD İndirme ✓ Filigran yok ✓ Birden fazla katman",
+    "whatIs": {
+      "title": "AI Görüntü Katmanlı Ayrıştırma Nedir?",
+      "description": "joymagic'ın AI Görüntü Katmanlı aracı, gelişmiş Qwen-Image-Layered teknolojisiyle çalışır, tek bir görüntüyü otomatik olarak analiz eder ve onu birden fazla anlamsal olarak bağımsız RGBA katmanına (kırmızı, yeşil, mavi + alfa şeffaflığı) ayrıştırır.",
+      "paragraph1": "Yalnızca maske sağlayan geleneksel segmentasyondan farklı olarak, AI'mız:",
+      "points": [
+        "Derinlik, örtme ve sahne yapısını anlar",
+        "Her katman için temiz, yumuşak kenarlı alfa kanalları oluşturur",
+        "Doğru katman sırasını (ön plandan arka plana) korur",
+        "Kullanıma hazır kompozisyon katmanları çıkarır"
+      ],
+      "paragraph2": "Tasarımcılar, illüstratörler, oyun geliştiricileri, fotoğraf editörleri ve karmaşık görüntüler üzerinde yıkıcı olmayan, katman tabanlı kontrol gerektiren herkes için idealdir."
+    },
+    "howTo": {
+      "title": "Bir Görüntüyü Katmanlara Nasıl Ayrıştırılır",
+      "description": "AI katmanlı ayrıştırma aracımızla sadece birkaç basit adımda düzenlenebilir katmanlı kompozisyonlar oluşturun:",
+      "step1": {
+        "title": "Görüntünüzü yükleyin",
+        "description": "Fotoğrafınızı veya sanat eserinizi sürükleyip bırakın veya seçin.<br/>JPG, JPEG, PNG, WEBP formatlarını destekler.<br/><br/><strong>Fotoğraflar, AI ile oluşturulmuş sanat, illüstrasyonlar ve sahnelerle çalışır</strong>"
+      },
+      "step2": {
+        "title": "Ayrıştırma seçeneklerini ayarlayın",
+        "description": "Çıktıyı özelleştirin:<br/><br/><strong>Katman sayısı:</strong> 2 ila 8 katman arasından seçin (varsayılan: 4)<br/><strong>İsteğe bağlı prompt:</strong> Daha hassas kontrol için \"kişi, mobilya, arka planı ayır\" gibi rehberlik ekleyin"
+      },
+      "step3": {
+        "title": "Katmanları oluşturun",
+        "description": "Ayrıştır'a tıklayın – AI'mız anında analiz eder ve görüntüyü katmanlı RGBA çıktılarına böler.<br/><br/><strong>Her katmanın gerçek zamanlı önizlemesi</strong>"
+      },
+      "step4": {
+        "title": "Önizleme ve indirme",
+        "description": "Şeffaflığa sahip ayrı katmanları görüntüleyin.<br/><br/><strong>Ayrı PNG dosyaları (alfa ile) olarak indirin</strong><br/><strong>Veya katmanlı bir PSD dosyası alın (yakında)</strong><br/><strong>HD kalite, Photoshop, Procreate veya herhangi bir düzenleyici için hazır</strong>"
+      }
+    },
+    "keyFeatures": {
+      "title": "Temel Özellikler",
+      "description": "Akıllı anlamsal ayrım ile profesyonel seviye AI katmanlı ayrıştırma.",
+      "semantic": {
+        "title": "Anlamsal Katman Ayrımı",
+        "description": "Anlamlı nesneler ve bölgelere akıllı ayrıştırma – insanlar, mobilya, gökyüzü, ön plan, arka plan ve daha fazlası."
+      },
+      "alpha": {
+        "title": "Temiz Alfa Kanalları ve Yumuşak Kenarlar",
+        "description": "Tüylenmiş, doğal kenarlara sahip profesyonel seviye şeffaflık – sert kesimler veya hale yok."
+      },
+      "occlusion": {
+        "title": "Doğru Örtme Sırası",
+        "description": "Sorunsuz yeniden kompozisyon için önden arkaya otomatik sıralanmış katmanlar."
+      },
+      "adjustable": {
+        "title": "Ayarlanabilir Katman Sayısı",
+        "description": "Derinlik kontrolü: görüntü karmaşıklığına ve ihtiyaçlarınıza bağlı olarak 2-8 katman."
+      },
+      "prompt": {
+        "title": "Prompt Yönlendirmeli Kontrol",
+        "description": "Ayrışmayı belirli öğelere veya bölgelere odaklamak için isteğe bağlı metin prompt'u."
+      },
+      "quality": {
+        "title": "Yüksek Kaliteli Katmanlı Çıktı",
+        "description": "Ayrı şeffaf PNG'leri indirin veya gelişmiş düzenleme için hazırlayın – korunmuş detaylarla tam HD."
+      }
+    },
+    "useCases": {
+      "title": "joymagic AI Katmanlı Ayrıştırma ile Neler Yapabilirsiniz",
+      "description": "Tek bir görüntüden sonsuz katmanlı olasılıkları açın.",
+      "editing": {
+        "title": "Yıkıcı Olmayan Fotoğraf Düzenleme",
+        "description": "Gerisini etkilemeden ayrı öğeleri (kişi, nesneler, arka plan) izole edin ve düzenleyin."
+      },
+      "compositing": {
+        "title": "Gelişmiş Kompozisyon",
+        "description": "Tek bir kaynak görüntüden yeni sahneler oluşturmak için katmanları yeniden düzenleyin, yeniden renklendirin veya değiştirin."
+      },
+      "gameAssets": {
+        "title": "Oyun ve UI Varlık Oluşturma",
+        "description": "Konsept sanatından veya fotoğraflardan temiz sprite'lar, karakterler veya çevresel katmanlar çıkarın."
+      },
+      "illustration": {
+        "title": "İllüstrasyon ve Dijital Sanat İş Akışı",
+        "description": "Düz görüntüleri daha fazla boyama veya animasyon için tamamen katmanlı projelere dönüştürün."
+      },
+      "sceneReconstruction": {
+        "title": "Sahne Yeniden Yapılandırma ve Remix",
+        "description": "Ayrılmış katmanları manipüle ederek arka planları değiştirin, nesneleri taşıyın veya varyasyonlar oluşturun."
+      },
+      "tagline": "Bir görüntü, sonsuz katmanlı olasılıklar."
+    },
+    "faq": {
+      "title": "AI Görüntü Katmanlı Ayrıştırma SSS",
+      "description": "AI katmanlı ayrıştırma aracımız hakkında bilmeniz gereken her şey.",
+      "q1": {
+        "question": "Hangi görüntü formatları destekleniyor?",
+        "answer": "JPG, JPEG, PNG ve WEBP'yi destekliyoruz. Net, yüksek çözünürlüklü görüntülerle en iyi sonuçlar."
+      },
+      "q2": {
+        "question": "Kaç katman oluşturabilirim?",
+        "answer": "2 ila 8 katman arasından seçebilirsiniz. Daha fazla katman, karmaşık sahnelerde daha ince ayrım sağlar."
+      },
+      "q3": {
+        "question": "Katmanlarım temiz şeffaflığa sahip olacak mı?",
+        "answer": "Evet. Her katman, doğal karıştırma için profesyonel yumuşak kenarlı alfa kanalı içerir."
+      },
+      "q4": {
+        "question": "Ayrıştırmayı metinle yönlendirebilir miyim?",
+        "answer": "Evet – belirli nesneleri veya bölgeleri önceliklendirmek için isteğe bağlı bir prompt ekleyin (ör. \"kişi ve masaya odaklan\")."
+      },
+      "q5": {
+        "question": "Hangi çıktı formatları mevcut?",
+        "answer": "Her katman ayrı bir şeffaf PNG olarak indirilir. Katmanlı PSD dışa aktarma yakında."
+      },
+      "q6": {
+        "question": "Verilerim güvende mi?",
+        "answer": "Evet. Yüklenen görüntüler güvenli bir şekilde işlenir ve işlemeden sonra otomatik olarak silinir. Görüntülerinizi asla eğitim için kullanmayız."
+      },
+      "q7": {
+        "question": "AI ile oluşturulmuş veya illüstre edilmiş görüntülerde çalışıyor mu?",
+        "answer": "Evet – hem fotoğraf hem de sanatsal stillerde, AI sanatı dahil mükemmel sonuçlar."
+      }
+    },
+    "privacy": {
+      "title": "Gizlilik ve Güvenlik",
+      "description": "Görüntüleriniz ve gizliliğiniz önceliğimizdir.",
+      "points": [
+        "Tüm yüklemeler güvenli bir şekilde işlenir ve şifrelenir",
+        "Görüntüler işlemeden sonra otomatik olarak silinir",
+        "Üçüncü taraflarla asla paylaşılmaz veya AI eğitimi için kullanılmaz"
+      ]
+    },
+    "finalCTA": {
+      "title": "Herhangi bir görüntüyü tamamen düzenlenebilir profesyonel katmanlara dönüştürün.",
+      "description": "joymagic'ın AI Katmanlı Ayrıştırmasını şimdi deneyin ve saniyeler içinde gerçek kompozisyon kontrolünü açın.",
+      "button": "Şimdi Katmanlara Ayrıştır",
+      "helperText": "Kayıt gerekmez · Ücretsiz başla · Filigransız indirmeler"
+    }
+  }
+}
