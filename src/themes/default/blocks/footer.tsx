@@ -92,9 +92,7 @@ function getFooterCopy(locale: string) {
   const isChineseLocale = normalizedLocale.startsWith("zh");
 
   return {
-    companyName: isChineseLocale
-      ? "星耀互聯科技有限公司"
-      : "STARLIGHT INTERNET TECHNOLOGY CO., LIMITED",
+    companyName: "Barko Bear LLC",
     sections: {
       imageTools: isChineseLocale ? "图片工具" : "Image Tools",
       videoTools: isChineseLocale ? "视频工具" : "Video Tools",

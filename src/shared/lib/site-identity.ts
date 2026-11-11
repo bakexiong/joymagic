@@ -9,6 +9,11 @@ export function normalizeSiteText(value: string): string {
       /https?:\/\/(?:www\.)?(?:joymagic\.fun|10b\.ai|z-image\.ai)/gi,
       SITE_URL,
     )
+    .replace(/\bOnline Free\b/gi, "Online")
+    .replace(/\bFree AI\b/gi, "AI")
+    .replace(/\bFree to start\b/gi, "Public beta")
+    .replace(/免费开始|免費開始/g, "公开测试")
+    .replace(/一次上传，无限可能。/g, "上传图片，探索编辑效果。")
     .replace(/\bjoymagic\b/gi, SITE_NAME)
     .replace(/\b10b\.ai(?:\.ai)?\b/gi, SITE_NAME);
 }
